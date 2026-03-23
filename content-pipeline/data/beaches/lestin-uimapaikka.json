@@ -1,0 +1,24 @@
+{
+  "slug": "lestin-uimapaikka",
+  "name": "Lestin uimapaikka",
+  "centroid_lat": 61.6478274,
+  "centroid_lng": 26.026647,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9869231925",
+      "source_url": "https://www.openstreetmap.org/node/9869231925"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

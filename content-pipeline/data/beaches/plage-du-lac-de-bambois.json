@@ -1,0 +1,40 @@
+{
+  "slug": "plage-du-lac-de-bambois",
+  "name": "Plage du Lac de Bambois",
+  "centroid_lat": 50.3725346,
+  "centroid_lng": 4.6850992,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/112871512",
+      "source_url": "https://www.openstreetmap.org/way/112871512"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/112871513",
+      "source_url": "https://www.openstreetmap.org/way/112871513"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BE7200005000000I04",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BE7200005000000I04",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "platja-llarga",
+  "name": "Platja Llarga",
+  "centroid_lat": 41.0656211,
+  "centroid_lng": 1.153435,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1616538",
+      "source_url": "https://www.openstreetmap.org/relation/1616538"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14486984",
+      "source_url": "https://www.openstreetmap.org/relation/14486984"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14486985",
+      "source_url": "https://www.openstreetmap.org/relation/14486985"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14486986",
+      "source_url": "https://www.openstreetmap.org/relation/14486986"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28121215",
+      "source_url": "https://www.wikidata.org/wiki/Q28121215"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q126734725",
+      "source_url": "https://www.wikidata.org/wiki/Q126734725"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES514M905856",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES514M905856",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playalarga.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

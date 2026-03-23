@@ -1,0 +1,25 @@
+{
+  "slug": "dos-amigos",
+  "name": "Dos Amigos",
+  "centroid_lat": -9.9101435,
+  "centroid_lng": -78.2288109,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1011459734",
+      "source_url": "https://www.openstreetmap.org/way/1011459734"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49323065",
+      "source_url": "https://www.wikidata.org/wiki/Q49323065"
+    }
+  ],
+  "attributes": {}
+}

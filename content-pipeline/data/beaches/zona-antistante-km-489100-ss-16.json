@@ -1,0 +1,30 @@
+{
+  "slug": "zona-antistante-km-489100-ss-16",
+  "name": "ZONA ANTISTANTE KM 489,100 SS.16",
+  "centroid_lat": 42.2458,
+  "centroid_lng": 14.5201,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT013069033002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT013069033002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

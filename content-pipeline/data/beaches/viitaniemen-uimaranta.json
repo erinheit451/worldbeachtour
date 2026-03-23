@@ -1,0 +1,24 @@
+{
+  "slug": "viitaniemen-uimaranta",
+  "name": "Viitaniemen uimaranta",
+  "centroid_lat": 62.2538694,
+  "centroid_lng": 25.726615,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/32139494",
+      "source_url": "https://www.openstreetmap.org/way/32139494"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

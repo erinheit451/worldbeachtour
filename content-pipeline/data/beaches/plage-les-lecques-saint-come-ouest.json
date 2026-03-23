@@ -1,0 +1,40 @@
+{
+  "slug": "plage-les-lecques-saint-come-ouest",
+  "name": "PLAGE LES LECQUES SAINT COME OUEST",
+  "centroid_lat": 43.17496,
+  "centroid_lng": 5.69229,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0583112M083007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0583112M083010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0583112M083007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0583112M083010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

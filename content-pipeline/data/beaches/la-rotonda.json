@@ -1,0 +1,110 @@
+{
+  "slug": "la-rotonda",
+  "name": "La Rotonda",
+  "centroid_lat": 44.34868,
+  "centroid_lng": 9.1543334,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/4053759543",
+      "source_url": "https://www.openstreetmap.org/node/4053759543"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/4214395689",
+      "source_url": "https://www.openstreetmap.org/node/4214395689"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/4359901239",
+      "source_url": "https://www.openstreetmap.org/node/4359901239"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/23965556",
+      "source_url": "https://www.openstreetmap.org/way/23965556"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/26348034",
+      "source_url": "https://www.openstreetmap.org/way/26348034"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/204694712",
+      "source_url": "https://www.openstreetmap.org/way/204694712"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/300273312",
+      "source_url": "https://www.openstreetmap.org/way/300273312"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/300273313",
+      "source_url": "https://www.openstreetmap.org/way/300273313"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/773667258",
+      "source_url": "https://www.openstreetmap.org/way/773667258"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/773667259",
+      "source_url": "https://www.openstreetmap.org/way/773667259"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/773667396",
+      "source_url": "https://www.openstreetmap.org/way/773667396"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010007002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010007003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010007001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010007002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010007003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010007001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false,
+      "fee_required": false,
+      "access": "customers"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

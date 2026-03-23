@@ -1,0 +1,30 @@
+{
+  "slug": "rethoville-face-a-la-rd-226",
+  "name": "RETHOVILLE Face A la RD 226",
+  "centroid_lat": 49.70342,
+  "centroid_lng": -1.35307,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD1250142M050120",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD1250142M050120",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

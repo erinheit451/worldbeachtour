@@ -1,0 +1,29 @@
+{
+  "slug": "torrey-pines-city-beach",
+  "name": "Torrey Pines City Beach",
+  "centroid_lat": 32.877269,
+  "centroid_lng": -117.2511478,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/358821913",
+      "source_url": "https://www.openstreetmap.org/node/358821913"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49325044",
+      "source_url": "https://www.wikidata.org/wiki/Q49325044"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    }
+  }
+}

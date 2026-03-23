@@ -1,0 +1,44 @@
+{
+  "slug": "plaza-cypel-1",
+  "name": "Plaża \"Cypel\"",
+  "centroid_lat": 53.017594,
+  "centroid_lng": 18.0579877,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12798482486",
+      "source_url": "https://www.openstreetmap.org/node/12798482486"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/331716393",
+      "source_url": "https://www.openstreetmap.org/way/331716393"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/376885292",
+      "source_url": "https://www.openstreetmap.org/way/376885292"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/932411682",
+      "source_url": "https://www.openstreetmap.org/way/932411682"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1305267799",
+      "source_url": "https://www.openstreetmap.org/way/1305267799"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

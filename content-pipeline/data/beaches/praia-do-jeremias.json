@@ -1,0 +1,35 @@
+{
+  "slug": "praia-do-jeremias",
+  "name": "Praia do Jeremias",
+  "centroid_lat": -26.9215271,
+  "centroid_lng": -48.6393523,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1056827591",
+      "source_url": "https://www.openstreetmap.org/way/1056827591"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/6480715",
+      "source_url": "https://www.openstreetmap.org/relation/6480715"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/9908142",
+      "source_url": "https://www.openstreetmap.org/relation/9908142"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/9908143",
+      "source_url": "https://www.openstreetmap.org/relation/9908143"
+    }
+  ],
+  "attributes": {}
+}

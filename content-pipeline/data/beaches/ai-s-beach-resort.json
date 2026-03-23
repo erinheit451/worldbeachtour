@@ -1,0 +1,25 @@
+{
+  "slug": "ai-s-beach-resort",
+  "name": "Ai's Beach Resort",
+  "centroid_lat": 9.8721007,
+  "centroid_lng": 123.5949151,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5641479302",
+      "source_url": "https://www.openstreetmap.org/node/5641479302"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5641735807",
+      "source_url": "https://www.openstreetmap.org/node/5641735807"
+    }
+  ],
+  "attributes": {}
+}

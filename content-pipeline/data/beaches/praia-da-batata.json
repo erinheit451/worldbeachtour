@@ -1,0 +1,60 @@
+{
+  "slug": "praia-da-batata",
+  "name": "Praia da Batata",
+  "centroid_lat": 37.0978531,
+  "centroid_lng": -8.6679591,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/24461578",
+      "source_url": "https://www.openstreetmap.org/way/24461578"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/93278485",
+      "source_url": "https://www.openstreetmap.org/way/93278485"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/93278499",
+      "source_url": "https://www.openstreetmap.org/way/93278499"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/93278502",
+      "source_url": "https://www.openstreetmap.org/way/93278502"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1253692196",
+      "source_url": "https://www.openstreetmap.org/way/1253692196"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1253692197",
+      "source_url": "https://www.openstreetmap.org/way/1253692197"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCK8X",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCK8X",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

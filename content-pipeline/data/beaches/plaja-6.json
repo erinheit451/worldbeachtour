@@ -1,0 +1,25 @@
+{
+  "slug": "plaja-6",
+  "name": "Plajă",
+  "centroid_lat": 46.7609676,
+  "centroid_lng": 22.3671694,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/189060750",
+      "source_url": "https://www.openstreetmap.org/way/189060750"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/189060752",
+      "source_url": "https://www.openstreetmap.org/way/189060752"
+    }
+  ],
+  "attributes": {}
+}

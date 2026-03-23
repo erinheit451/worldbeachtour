@@ -1,0 +1,40 @@
+{
+  "slug": "marynummi",
+  "name": "MARYNUMMI",
+  "centroid_lat": 60.4456,
+  "centroid_lng": 23.0506,
+  "country_code": "FI",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/23915682",
+      "source_url": "https://www.openstreetmap.org/way/23915682"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/242974628",
+      "source_url": "https://www.openstreetmap.org/way/242974628"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI121073002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI121073002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

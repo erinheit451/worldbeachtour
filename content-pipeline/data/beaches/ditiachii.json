@@ -1,0 +1,35 @@
+{
+  "slug": "ditiachii",
+  "name": "Дитячий",
+  "centroid_lat": 50.4476337,
+  "centroid_lng": 30.5741886,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/163731924",
+      "source_url": "https://www.openstreetmap.org/way/163731924"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1388105632",
+      "source_url": "https://www.openstreetmap.org/way/1388105632"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

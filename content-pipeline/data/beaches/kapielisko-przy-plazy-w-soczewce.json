@@ -1,0 +1,30 @@
+{
+  "slug": "kapielisko-przy-plazy-w-soczewce",
+  "name": "KĄPIELISKO PRZY PLAŻY W SOCZEWCE",
+  "centroid_lat": 52.54385,
+  "centroid_lng": 19.56597,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL1211909214000054",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL1211909214000054",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

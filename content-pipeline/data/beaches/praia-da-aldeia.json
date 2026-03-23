@@ -1,0 +1,30 @@
+{
+  "slug": "praia-da-aldeia",
+  "name": "Praia da Aldeia",
+  "centroid_lat": -20.6435273,
+  "centroid_lng": -40.4681014,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/87532871",
+      "source_url": "https://www.openstreetmap.org/way/87532871"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/87532882",
+      "source_url": "https://www.openstreetmap.org/way/87532882"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/87532911",
+      "source_url": "https://www.openstreetmap.org/way/87532911"
+    }
+  ],
+  "attributes": {}
+}

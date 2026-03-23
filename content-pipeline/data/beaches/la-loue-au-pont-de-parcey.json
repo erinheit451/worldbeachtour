@@ -1,0 +1,50 @@
+{
+  "slug": "la-loue-au-pont-de-parcey",
+  "name": "LA LOUE AU PONT DE PARCEY",
+  "centroid_lat": 47.01413,
+  "centroid_lng": 5.49314,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/168994080",
+      "source_url": "https://www.openstreetmap.org/way/168994080"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/168994084",
+      "source_url": "https://www.openstreetmap.org/way/168994084"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/168994085",
+      "source_url": "https://www.openstreetmap.org/way/168994085"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/169045969",
+      "source_url": "https://www.openstreetmap.org/way/169045969"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRC2239405D039100",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRC2239405D039100",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

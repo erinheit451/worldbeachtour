@@ -1,0 +1,51 @@
+{
+  "slug": "ferragut",
+  "name": "FERRAGUT",
+  "centroid_lat": 43.93845,
+  "centroid_lng": 4.55652,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/596927178",
+      "source_url": "https://www.openstreetmap.org/way/596927178"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1414726546",
+      "source_url": "https://www.openstreetmap.org/way/1414726546"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1414967439",
+      "source_url": "https://www.openstreetmap.org/way/1414967439"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ1230212D030519",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ1230212D030519",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

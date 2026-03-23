@@ -1,0 +1,24 @@
+{
+  "slug": "plage-de-l-ile-instan",
+  "name": "Plage de l'île Instan",
+  "centroid_lat": 48.8397494,
+  "centroid_lng": -3.2719398,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/300443759",
+      "source_url": "https://www.openstreetmap.org/way/300443759"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

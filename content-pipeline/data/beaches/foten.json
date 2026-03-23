@@ -1,0 +1,25 @@
+{
+  "slug": "foten",
+  "name": "Foten",
+  "centroid_lat": 59.1705959,
+  "centroid_lng": 10.8279249,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/515634731",
+      "source_url": "https://www.openstreetmap.org/way/515634731"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/671141166",
+      "source_url": "https://www.openstreetmap.org/way/671141166"
+    }
+  ],
+  "attributes": {}
+}

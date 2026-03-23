@@ -1,0 +1,32 @@
+{
+  "slug": "magnuson-park-beach",
+  "name": "Magnuson Park Beach",
+  "centroid_lat": 47.6799526,
+  "centroid_lng": -122.2469291,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/6624746",
+      "source_url": "https://www.openstreetmap.org/relation/6624746"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/6624747",
+      "source_url": "https://www.openstreetmap.org/relation/6624747"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

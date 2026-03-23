@@ -1,0 +1,25 @@
+{
+  "slug": "teachers-beach",
+  "name": "Teachers Beach",
+  "centroid_lat": 38.1138112,
+  "centroid_lng": -122.8699939,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/358795049",
+      "source_url": "https://www.openstreetmap.org/node/358795049"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324980",
+      "source_url": "https://www.wikidata.org/wiki/Q49324980"
+    }
+  ],
+  "attributes": {}
+}

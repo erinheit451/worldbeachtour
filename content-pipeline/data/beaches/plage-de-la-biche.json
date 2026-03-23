@@ -1,0 +1,39 @@
+{
+  "slug": "plage-de-la-biche",
+  "name": "Plage de la Biche",
+  "centroid_lat": 47.3160981,
+  "centroid_lng": -3.0891263,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/430215013",
+      "source_url": "https://www.openstreetmap.org/way/430215013"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/527945916",
+      "source_url": "https://www.openstreetmap.org/way/527945916"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/851922428",
+      "source_url": "https://www.openstreetmap.org/way/851922428"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/851922429",
+      "source_url": "https://www.openstreetmap.org/way/851922429"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

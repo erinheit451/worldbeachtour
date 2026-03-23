@@ -1,0 +1,29 @@
+{
+  "slug": "tregantle-beach",
+  "name": "Tregantle Beach",
+  "centroid_lat": 50.35294,
+  "centroid_lng": -4.27411,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/289885394",
+      "source_url": "https://www.openstreetmap.org/way/289885394"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31844945",
+      "source_url": "https://www.wikidata.org/wiki/Q31844945"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Tregantle%20rifle%20butts%20Geograph%201335927%203f46844e.jpg"
+    }
+  }
+}

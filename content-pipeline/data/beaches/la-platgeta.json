@@ -1,0 +1,29 @@
+{
+  "slug": "la-platgeta",
+  "name": "La Platgeta",
+  "centroid_lat": 42.0534466,
+  "centroid_lng": 3.2077357,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8288485",
+      "source_url": "https://www.openstreetmap.org/relation/8288485"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q124370331",
+      "source_url": "https://www.wikidata.org/wiki/Q124370331"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/La%20Platgeta%2C%20l%27Estartit.jpg"
+    }
+  }
+}

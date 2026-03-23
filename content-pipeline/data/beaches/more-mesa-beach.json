@@ -1,0 +1,34 @@
+{
+  "slug": "more-mesa-beach",
+  "name": "More Mesa Beach",
+  "centroid_lat": 34.4180418,
+  "centroid_lng": -119.802111,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/250245534",
+      "source_url": "https://www.openstreetmap.org/way/250245534"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/250245535",
+      "source_url": "https://www.openstreetmap.org/way/250245535"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/446753851",
+      "source_url": "https://www.openstreetmap.org/way/446753851"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    }
+  }
+}

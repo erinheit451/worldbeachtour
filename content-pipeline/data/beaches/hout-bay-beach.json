@@ -1,0 +1,32 @@
+{
+  "slug": "hout-bay-beach",
+  "name": "Hout Bay Beach",
+  "centroid_lat": -34.045878,
+  "centroid_lng": 18.3545991,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/229797080",
+      "source_url": "https://www.openstreetmap.org/way/229797080"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q122644079",
+      "source_url": "https://www.wikidata.org/wiki/Q122644079"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Hout%20Bay%202014%2004.jpg"
+    }
+  }
+}

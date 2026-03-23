@@ -1,0 +1,35 @@
+{
+  "slug": "charix-lac-genin",
+  "name": "CHARIX - LAC GENIN",
+  "centroid_lat": 46.22021,
+  "centroid_lng": 5.69613,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/173780446",
+      "source_url": "https://www.openstreetmap.org/way/173780446"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2101087D001600",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2101087D001600",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

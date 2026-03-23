@@ -1,0 +1,25 @@
+{
+  "slug": "praia-do-cardoso-1",
+  "name": "Praia do Cardoso",
+  "centroid_lat": -27.1861254,
+  "centroid_lng": -48.5462763,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/6610019",
+      "source_url": "https://www.openstreetmap.org/relation/6610019"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22052165",
+      "source_url": "https://www.wikidata.org/wiki/Q22052165"
+    }
+  ],
+  "attributes": {}
+}

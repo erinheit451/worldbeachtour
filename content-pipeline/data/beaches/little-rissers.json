@@ -1,0 +1,39 @@
+{
+  "slug": "little-rissers",
+  "name": "Little Rissers",
+  "centroid_lat": 44.2314099,
+  "centroid_lng": -64.422864,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/925285603",
+      "source_url": "https://www.openstreetmap.org/way/925285603"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/925287169",
+      "source_url": "https://www.openstreetmap.org/way/925287169"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22398488",
+      "source_url": "https://www.wikidata.org/wiki/Q22398488"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22565141",
+      "source_url": "https://www.wikidata.org/wiki/Q22565141"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/1998-07-19%20Risser%27s%20Beach4.jpg"
+    }
+  }
+}

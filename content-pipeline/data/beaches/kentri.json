@@ -1,0 +1,70 @@
+{
+  "slug": "kentri",
+  "name": "Κεντρί",
+  "centroid_lat": 38.3798478,
+  "centroid_lng": 22.395196,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/3474660688",
+      "source_url": "https://www.openstreetmap.org/node/3474660688"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/9609039281",
+      "source_url": "https://www.openstreetmap.org/node/9609039281"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/9609041634",
+      "source_url": "https://www.openstreetmap.org/node/9609041634"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/737417466",
+      "source_url": "https://www.openstreetmap.org/way/737417466"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/834913097",
+      "source_url": "https://www.openstreetmap.org/way/834913097"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/835005881",
+      "source_url": "https://www.openstreetmap.org/way/835005881"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW079165022101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW079165025101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW079165022101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW079165025101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

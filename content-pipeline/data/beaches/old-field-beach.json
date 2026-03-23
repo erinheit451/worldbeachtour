@@ -1,0 +1,25 @@
+{
+  "slug": "old-field-beach",
+  "name": "Old Field Beach",
+  "centroid_lat": 40.9703338,
+  "centroid_lng": -73.106844,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357575161",
+      "source_url": "https://www.openstreetmap.org/node/357575161"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322347",
+      "source_url": "https://www.wikidata.org/wiki/Q49322347"
+    }
+  ],
+  "attributes": {}
+}

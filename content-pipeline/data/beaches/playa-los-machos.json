@@ -1,0 +1,24 @@
+{
+  "slug": "playa-los-machos",
+  "name": "Playa Los Machos",
+  "centroid_lat": 18.2656507,
+  "centroid_lng": -65.6304977,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/432744809",
+      "source_url": "https://www.openstreetmap.org/way/432744809"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "le-soulou-riviere-le-lot",
+  "name": "LE SOULOU (RIVIERE LE LOT)",
+  "centroid_lat": 44.64595,
+  "centroid_lng": 2.40095,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK1215260D015111",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK1215260D015111",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

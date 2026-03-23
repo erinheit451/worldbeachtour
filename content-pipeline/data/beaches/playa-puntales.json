@@ -1,0 +1,29 @@
+{
+  "slug": "playa-puntales",
+  "name": "Playa Puntales",
+  "centroid_lat": 36.5079433,
+  "centroid_lng": -6.2657504,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/775832957",
+      "source_url": "https://www.openstreetmap.org/way/775832957"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q114662836",
+      "source_url": "https://www.wikidata.org/wiki/Q114662836"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20Puntales%20-%20IMG%2020240715%20164146.jpg"
+    }
+  }
+}

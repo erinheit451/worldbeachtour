@@ -1,0 +1,30 @@
+{
+  "slug": "nassmoisa-jarve-supelrand",
+  "name": "Nässmõisa järve supelrand",
+  "centroid_lat": 57.8371707,
+  "centroid_lng": 26.5320782,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1192963269",
+      "source_url": "https://www.openstreetmap.org/way/1192963269"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

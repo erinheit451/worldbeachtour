@@ -1,0 +1,60 @@
+{
+  "slug": "deuxieme-anse-apres-la-base-nautique",
+  "name": "DEUXIEME ANSE APRES LA BASE NAUTIQUE",
+  "centroid_lat": 43.73754,
+  "centroid_lng": 5.96709,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1423610671",
+      "source_url": "https://www.openstreetmap.org/way/1423610671"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1423610673",
+      "source_url": "https://www.openstreetmap.org/way/1423610673"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1423610674",
+      "source_url": "https://www.openstreetmap.org/way/1423610674"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1423610675",
+      "source_url": "https://www.openstreetmap.org/way/1423610675"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0104081D004340",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0104081D004330",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0104081D004340",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0104081D004330",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

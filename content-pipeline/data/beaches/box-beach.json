@@ -1,0 +1,25 @@
+{
+  "slug": "box-beach",
+  "name": "Box Beach",
+  "centroid_lat": -32.7314695,
+  "centroid_lng": 152.1826798,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/28553194",
+      "source_url": "https://www.openstreetmap.org/way/28553194"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21957179",
+      "source_url": "https://www.wikidata.org/wiki/Q21957179"
+    }
+  ],
+  "attributes": {}
+}

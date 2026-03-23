@@ -1,0 +1,25 @@
+{
+  "slug": "sv-mara",
+  "name": "Sv. Mara",
+  "centroid_lat": 44.7809569,
+  "centroid_lng": 14.6689014,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/3690246371",
+      "source_url": "https://www.openstreetmap.org/node/3690246371"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/911045900",
+      "source_url": "https://www.openstreetmap.org/way/911045900"
+    }
+  ],
+  "attributes": {}
+}

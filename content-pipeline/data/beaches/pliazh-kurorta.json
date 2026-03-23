@@ -1,0 +1,35 @@
+{
+  "slug": "pliazh-kurorta",
+  "name": "Пляж курорта",
+  "centroid_lat": 52.9891954,
+  "centroid_lng": 108.2822723,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/259313261",
+      "source_url": "https://www.openstreetmap.org/way/259313261"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/260208818",
+      "source_url": "https://www.openstreetmap.org/way/260208818"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/260210210",
+      "source_url": "https://www.openstreetmap.org/way/260210210"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/329371619",
+      "source_url": "https://www.openstreetmap.org/way/329371619"
+    }
+  ],
+  "attributes": {}
+}

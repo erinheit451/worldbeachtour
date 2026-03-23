@@ -1,0 +1,48 @@
+{
+  "slug": "cala-de-portu-s-ilixi",
+  "name": "Cala de portu s'Ilixi",
+  "centroid_lat": 39.3119117,
+  "centroid_lng": 9.612683,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/117783845",
+      "source_url": "https://www.openstreetmap.org/way/117783845"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/117783848",
+      "source_url": "https://www.openstreetmap.org/way/117783848"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q59695651",
+      "source_url": "https://www.wikidata.org/wiki/Q59695651"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020092039005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020092039005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Spiaggia%20di%20Portu%20de%20s%E2%80%99Illixi%2006.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

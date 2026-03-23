@@ -1,0 +1,41 @@
+{
+  "slug": "via-d-annunzio-fine-lungomare-petronia",
+  "name": "VIA D`ANNUNZIO FINE LUNGOMARE PETRONIA",
+  "centroid_lat": 45.5962,
+  "centroid_lng": 12.8839,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1361707661",
+      "source_url": "https://www.openstreetmap.org/way/1361707661"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT005027005007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT005027005007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "surfing": {
+      "surfing_available": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

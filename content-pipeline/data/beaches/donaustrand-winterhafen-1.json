@@ -1,0 +1,24 @@
+{
+  "slug": "donaustrand-winterhafen-1",
+  "name": "Donaustrand Winterhafen",
+  "centroid_lat": 48.3198422,
+  "centroid_lng": 14.3161958,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1378564206",
+      "source_url": "https://www.openstreetmap.org/way/1378564206"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

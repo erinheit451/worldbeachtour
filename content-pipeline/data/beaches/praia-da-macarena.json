@@ -1,0 +1,29 @@
+{
+  "slug": "praia-da-macarena",
+  "name": "Praia da Macarena",
+  "centroid_lat": 42.7177492,
+  "centroid_lng": -9.0084118,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1135245949",
+      "source_url": "https://www.openstreetmap.org/way/1135245949"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q20546506",
+      "source_url": "https://www.wikidata.org/wiki/Q20546506"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20de%20Fonforr%C3%B3n%2C%20coa%20marea%20alta.jpg"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "punta-fiuzzi",
+  "name": "PUNTA FIUZZI",
+  "centroid_lat": 39.8723,
+  "centroid_lng": 15.7846,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1058211419",
+      "source_url": "https://www.openstreetmap.org/way/1058211419"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1058211420",
+      "source_url": "https://www.openstreetmap.org/way/1058211420"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1058211421",
+      "source_url": "https://www.openstreetmap.org/way/1058211421"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1058211422",
+      "source_url": "https://www.openstreetmap.org/way/1058211422"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1058211423",
+      "source_url": "https://www.openstreetmap.org/way/1058211423"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1058211426",
+      "source_url": "https://www.openstreetmap.org/way/1058211426"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1058211427",
+      "source_url": "https://www.openstreetmap.org/way/1058211427"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1058211429",
+      "source_url": "https://www.openstreetmap.org/way/1058211429"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018078101001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018078101001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

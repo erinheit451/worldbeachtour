@@ -1,0 +1,35 @@
+{
+  "slug": "plage-de-macinaggio",
+  "name": "Plage de Macinaggio",
+  "centroid_lat": 42.9637053,
+  "centroid_lng": 9.4525387,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/210580685",
+      "source_url": "https://www.openstreetmap.org/way/210580685"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRM022B261M02B215",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRM022B261M02B215",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

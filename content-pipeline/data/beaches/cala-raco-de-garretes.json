@@ -1,0 +1,29 @@
+{
+  "slug": "cala-raco-de-garretes",
+  "name": "Cala Racó de Garretes",
+  "centroid_lat": 40.8389732,
+  "centroid_lng": 0.745153,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/14509065",
+      "source_url": "https://www.openstreetmap.org/relation/14509065"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q130324194",
+      "source_url": "https://www.wikidata.org/wiki/Q130324194"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20Garretes.jpg"
+    }
+  }
+}

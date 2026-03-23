@@ -1,0 +1,25 @@
+{
+  "slug": "moonee-beach",
+  "name": "Moonee Beach",
+  "centroid_lat": -30.1945755,
+  "centroid_lng": 153.1731967,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/959006113",
+      "source_url": "https://www.openstreetmap.org/way/959006113"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q19605643",
+      "source_url": "https://www.wikidata.org/wiki/Q19605643"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "plage-thiers",
+  "name": "Plage Thiers",
+  "centroid_lat": 44.6638735,
+  "centroid_lng": -1.1714704,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/52995838",
+      "source_url": "https://www.openstreetmap.org/way/52995838"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/52997608",
+      "source_url": "https://www.openstreetmap.org/way/52997608"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    }
+  }
+}

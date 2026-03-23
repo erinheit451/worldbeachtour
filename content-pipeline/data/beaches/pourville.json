@@ -1,0 +1,43 @@
+{
+  "slug": "pourville",
+  "name": "POURVILLE",
+  "centroid_lat": 49.91754,
+  "centroid_lng": 1.02865,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/178390287",
+      "source_url": "https://www.openstreetmap.org/way/178390287"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q47618747",
+      "source_url": "https://www.wikidata.org/wiki/Q47618747"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD2276349M076133",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD2276349M076133",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bunker%20effondr%C3%A9%20sur%20la%20plage%20de%20Pourville%28Hautot-sur-Mer%2C%2076%29%20-%20f%C3%A9vrier%202017.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "toftum-bjerge-jeppes-led",
+  "name": "TOFTUM BJERGE JEPPES LED",
+  "centroid_lat": 56.54366,
+  "centroid_lng": 8.52331,
+  "country_code": "DK",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW207",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW207",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

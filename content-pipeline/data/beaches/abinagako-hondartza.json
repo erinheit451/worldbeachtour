@@ -1,0 +1,51 @@
+{
+  "slug": "abinagako-hondartza",
+  "name": "Abinagako hondartza",
+  "centroid_lat": 43.3875366,
+  "centroid_lng": -2.6898031,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/30089011",
+      "source_url": "https://www.openstreetmap.org/way/30089011"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/498080308",
+      "source_url": "https://www.openstreetmap.org/way/498080308"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q11699722",
+      "source_url": "https://www.wikidata.org/wiki/Q11699722"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES213M0212698",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES213M0212698",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Urdaibai%20Sukarrieta%20Pedernales%20Abina%20Sandindere%20Erenozar.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Transitional"
+    }
+  }
+}

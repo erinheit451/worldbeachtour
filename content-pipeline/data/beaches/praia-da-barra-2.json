@@ -1,0 +1,48 @@
+{
+  "slug": "praia-da-barra-2",
+  "name": "Praia da Barra",
+  "centroid_lat": 40.6420928,
+  "centroid_lng": -8.7493901,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/168740960",
+      "source_url": "https://www.openstreetmap.org/way/168740960"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10352554",
+      "source_url": "https://www.wikidata.org/wiki/Q10352554"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCV8J",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCV8J",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "nudist": false,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Portugal%20no%20m%C3%AAs%20de%20Julho%20de%20Dois%20Mil%20e%20Catorze%20P7171157%20%2814747820505%29.jpg"
+    },
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Transitional"
+    }
+  }
+}

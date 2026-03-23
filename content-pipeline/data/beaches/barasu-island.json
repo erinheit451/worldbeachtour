@@ -1,0 +1,30 @@
+{
+  "slug": "barasu-island",
+  "name": "Barasu Island",
+  "centroid_lat": 24.434722222,
+  "centroid_lng": 123.816944444,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1372415675",
+      "source_url": "https://www.openstreetmap.org/way/1372415675"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q55453476",
+      "source_url": "https://www.wikidata.org/wiki/Q55453476"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Barasu%20Island%20near%20Iriomote%20Island%202.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ballast_Island_(Japan)"
+    }
+  }
+}

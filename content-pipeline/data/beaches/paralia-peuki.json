@@ -1,0 +1,90 @@
+{
+  "slug": "paralia-peuki",
+  "name": "Παραλία Πευκί",
+  "centroid_lat": 39.0114095,
+  "centroid_lng": 23.2123147,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/233748411",
+      "source_url": "https://www.openstreetmap.org/way/233748411"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659810678",
+      "source_url": "https://www.openstreetmap.org/way/659810678"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659810679",
+      "source_url": "https://www.openstreetmap.org/way/659810679"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659810680",
+      "source_url": "https://www.openstreetmap.org/way/659810680"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659810681",
+      "source_url": "https://www.openstreetmap.org/way/659810681"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659810682",
+      "source_url": "https://www.openstreetmap.org/way/659810682"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659810683",
+      "source_url": "https://www.openstreetmap.org/way/659810683"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659810684",
+      "source_url": "https://www.openstreetmap.org/way/659810684"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659810685",
+      "source_url": "https://www.openstreetmap.org/way/659810685"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659810686",
+      "source_url": "https://www.openstreetmap.org/way/659810686"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659810687",
+      "source_url": "https://www.openstreetmap.org/way/659810687"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659810688",
+      "source_url": "https://www.openstreetmap.org/way/659810688"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW079150054101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW079150054101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

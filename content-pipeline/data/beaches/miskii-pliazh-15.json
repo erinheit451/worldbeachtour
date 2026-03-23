@@ -1,0 +1,32 @@
+{
+  "slug": "miskii-pliazh-15",
+  "name": "Міський пляж",
+  "centroid_lat": 49.6700998,
+  "centroid_lng": 36.365658,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/339979731",
+      "source_url": "https://www.openstreetmap.org/way/339979731"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/428305488",
+      "source_url": "https://www.openstreetmap.org/way/428305488"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

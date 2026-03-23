@@ -1,0 +1,24 @@
+{
+  "slug": "plage-du-chalet-a-soucy",
+  "name": "Plage du Chalet-à-Soucy",
+  "centroid_lat": 48.5629375,
+  "centroid_lng": -67.5441444,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10739472596",
+      "source_url": "https://www.openstreetmap.org/node/10739472596"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

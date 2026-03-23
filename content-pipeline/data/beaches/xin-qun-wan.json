@@ -1,0 +1,24 @@
+{
+  "slug": "xin-qun-wan",
+  "name": "新群湾",
+  "centroid_lat": 18.7000288,
+  "centroid_lng": 110.4283442,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/737589941",
+      "source_url": "https://www.openstreetmap.org/way/737589941"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

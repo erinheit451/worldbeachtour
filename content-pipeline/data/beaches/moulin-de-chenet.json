@@ -1,0 +1,30 @@
+{
+  "slug": "moulin-de-chenet",
+  "name": "MOULIN DE CHENET",
+  "centroid_lat": 46.55098,
+  "centroid_lng": 1.56587,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRB0336032D036015",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRB0336032D036015",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

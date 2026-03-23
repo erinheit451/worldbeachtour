@@ -1,0 +1,25 @@
+{
+  "slug": "greenfield-beach",
+  "name": "Greenfield Beach",
+  "centroid_lat": 42.605426,
+  "centroid_lng": -72.6173487,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/4111811",
+      "source_url": "https://www.openstreetmap.org/relation/4111811"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320863",
+      "source_url": "https://www.wikidata.org/wiki/Q49320863"
+    }
+  ],
+  "attributes": {}
+}

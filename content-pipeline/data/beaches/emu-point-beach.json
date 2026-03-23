@@ -1,0 +1,30 @@
+{
+  "slug": "emu-point-beach",
+  "name": "Emu Point Beach",
+  "centroid_lat": -34.9965887,
+  "centroid_lng": 117.9464942,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/77453175",
+      "source_url": "https://www.openstreetmap.org/way/77453175"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/77453265",
+      "source_url": "https://www.openstreetmap.org/way/77453265"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21895555",
+      "source_url": "https://www.wikidata.org/wiki/Q21895555"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "playa-maria-isabel",
+  "name": "Playa María Isabel",
+  "centroid_lat": -36.7182248,
+  "centroid_lng": -73.108136,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1154827272",
+      "source_url": "https://www.openstreetmap.org/way/1154827272"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

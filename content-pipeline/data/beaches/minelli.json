@@ -1,0 +1,30 @@
+{
+  "slug": "minelli",
+  "name": "MINELLI",
+  "centroid_lat": 42.71418,
+  "centroid_lng": 9.45603,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRM022B353M02B160",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRM022B353M02B160",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

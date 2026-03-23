@@ -1,0 +1,77 @@
+{
+  "slug": "platja-de-na-nadala",
+  "name": "Platja de na Nadala",
+  "centroid_lat": 39.5190676,
+  "centroid_lng": 2.5371425,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/42877065",
+      "source_url": "https://www.openstreetmap.org/way/42877065"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1075735058",
+      "source_url": "https://www.openstreetmap.org/way/1075735058"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1075735059",
+      "source_url": "https://www.openstreetmap.org/way/1075735059"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1075735060",
+      "source_url": "https://www.openstreetmap.org/way/1075735060"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q107256309",
+      "source_url": "https://www.wikidata.org/wiki/Q107256309"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7128127",
+      "source_url": "https://www.wikidata.org/wiki/Q7128127"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0112670",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0112671",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0112670",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0112671",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20Palma%20Nova.JPG",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Palmanova_beach"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

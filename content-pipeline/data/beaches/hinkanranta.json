@@ -1,0 +1,32 @@
+{
+  "slug": "hinkanranta",
+  "name": "Hinkanranta",
+  "centroid_lat": 61.1532104,
+  "centroid_lng": 28.5660104,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/342451495",
+      "source_url": "https://www.openstreetmap.org/way/342451495"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/352293808",
+      "source_url": "https://www.openstreetmap.org/way/352293808"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "restrooms": true
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

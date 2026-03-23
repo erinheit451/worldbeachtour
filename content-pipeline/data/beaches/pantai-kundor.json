@@ -1,0 +1,25 @@
+{
+  "slug": "pantai-kundor",
+  "name": "Pantai Kundor",
+  "centroid_lat": 2.2340067,
+  "centroid_lng": 102.1455549,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/727712272",
+      "source_url": "https://www.openstreetmap.org/way/727712272"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33328289",
+      "source_url": "https://www.wikidata.org/wiki/Q33328289"
+    }
+  ],
+  "attributes": {}
+}

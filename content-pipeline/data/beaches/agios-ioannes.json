@@ -1,0 +1,65 @@
+{
+  "slug": "agios-ioannes",
+  "name": "Άγιος Ιωάννης",
+  "centroid_lat": 39.4176519,
+  "centroid_lng": 23.1618332,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1998444423",
+      "source_url": "https://www.openstreetmap.org/node/1998444423"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/124979343",
+      "source_url": "https://www.openstreetmap.org/way/124979343"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/707586648",
+      "source_url": "https://www.openstreetmap.org/way/707586648"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/707586649",
+      "source_url": "https://www.openstreetmap.org/way/707586649"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25162437",
+      "source_url": "https://www.wikidata.org/wiki/Q25162437"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW089106043101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW089106034101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW089106043101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW089106034101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

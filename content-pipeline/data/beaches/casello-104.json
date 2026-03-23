@@ -1,0 +1,46 @@
+{
+  "slug": "casello-104",
+  "name": "CASELLO 104",
+  "centroid_lat": 39.8842,
+  "centroid_lng": 16.5515,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12124779644",
+      "source_url": "https://www.openstreetmap.org/node/12124779644"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/277961191",
+      "source_url": "https://www.openstreetmap.org/way/277961191"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018078150004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018078150004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "prainha-33",
+  "name": "Prainha",
+  "centroid_lat": -23.9780772,
+  "centroid_lng": -46.3854302,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/5995480",
+      "source_url": "https://www.openstreetmap.org/relation/5995480"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

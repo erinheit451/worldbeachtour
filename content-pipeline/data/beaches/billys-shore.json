@@ -1,0 +1,25 @@
+{
+  "slug": "billys-shore",
+  "name": "Billys Shore",
+  "centroid_lat": 44.3250777,
+  "centroid_lng": -68.8975317,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/358211905",
+      "source_url": "https://www.openstreetmap.org/node/358211905"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33325568",
+      "source_url": "https://www.wikidata.org/wiki/Q33325568"
+    }
+  ],
+  "attributes": {}
+}

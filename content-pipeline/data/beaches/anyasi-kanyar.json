@@ -1,0 +1,29 @@
+{
+  "slug": "anyasi-kanyar",
+  "name": "Ányási kanyar",
+  "centroid_lat": 46.4972316,
+  "centroid_lng": 20.1798094,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11533557834",
+      "source_url": "https://www.openstreetmap.org/node/11533557834"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/746722132",
+      "source_url": "https://www.openstreetmap.org/way/746722132"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    }
+  }
+}

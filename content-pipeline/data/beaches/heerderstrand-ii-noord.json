@@ -1,0 +1,53 @@
+{
+  "slug": "heerderstrand-ii-noord",
+  "name": "HEERDERSTRAND II NOORD",
+  "centroid_lat": 52.40221,
+  "centroid_lng": 6.01111,
+  "country_code": "NL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/66247238",
+      "source_url": "https://www.openstreetmap.org/way/66247238"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q2542980",
+      "source_url": "https://www.wikidata.org/wiki/Q2542980"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW43_207810",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW43_207800",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW43_207810",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW43_207800",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Heerderstrand.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

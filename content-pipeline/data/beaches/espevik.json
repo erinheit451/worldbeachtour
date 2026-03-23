@@ -1,0 +1,40 @@
+{
+  "slug": "espevik",
+  "name": "ESPEVIK",
+  "centroid_lat": 57.1898,
+  "centroid_lng": 12.1883,
+  "country_code": "SE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/8867059621",
+      "source_url": "https://www.openstreetmap.org/node/8867059621"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/10492523",
+      "source_url": "https://www.openstreetmap.org/relation/10492523"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0A11383000000644",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0A11383000000644",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

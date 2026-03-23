@@ -1,0 +1,25 @@
+{
+  "slug": "pantai-tablanusu",
+  "name": "Pantai Tablanusu",
+  "centroid_lat": -2.4620709,
+  "centroid_lng": 140.3483424,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5674540720",
+      "source_url": "https://www.openstreetmap.org/node/5674540720"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/595374259",
+      "source_url": "https://www.openstreetmap.org/way/595374259"
+    }
+  ],
+  "attributes": {}
+}

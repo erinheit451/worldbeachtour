@@ -1,0 +1,29 @@
+{
+  "slug": "bastendorff-beach",
+  "name": "Bastendorff Beach",
+  "centroid_lat": 43.3467139,
+  "centroid_lng": -124.350319,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/481469957",
+      "source_url": "https://www.openstreetmap.org/way/481469957"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320143",
+      "source_url": "https://www.wikidata.org/wiki/Q49320143"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sunset%20at%20Bastendorff%20Beach%20%2827104044266%29.jpg"
+    }
+  }
+}

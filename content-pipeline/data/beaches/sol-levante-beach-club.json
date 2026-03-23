@@ -1,0 +1,78 @@
+{
+  "slug": "sol-levante-beach-club",
+  "name": "Sol Levante Beach Club",
+  "centroid_lat": 44.2982645,
+  "centroid_lng": 9.3626582,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/120862586",
+      "source_url": "https://www.openstreetmap.org/way/120862586"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/543153946",
+      "source_url": "https://www.openstreetmap.org/way/543153946"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/543153947",
+      "source_url": "https://www.openstreetmap.org/way/543153947"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/543153949",
+      "source_url": "https://www.openstreetmap.org/way/543153949"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/845657968",
+      "source_url": "https://www.openstreetmap.org/way/845657968"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/863470698",
+      "source_url": "https://www.openstreetmap.org/way/863470698"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1093316471",
+      "source_url": "https://www.openstreetmap.org/way/1093316471"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1096090865",
+      "source_url": "https://www.openstreetmap.org/way/1096090865"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1096090866",
+      "source_url": "https://www.openstreetmap.org/way/1096090866"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010028002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010028002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

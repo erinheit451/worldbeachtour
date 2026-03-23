@@ -1,0 +1,30 @@
+{
+  "slug": "station-balneaire-de-capesterre",
+  "name": "Station balnéaire de Capesterre",
+  "centroid_lat": 15.8886679,
+  "centroid_lng": -61.2221346,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9829554063",
+      "source_url": "https://www.openstreetmap.org/node/9829554063"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/643173469",
+      "source_url": "https://www.openstreetmap.org/way/643173469"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/643173470",
+      "source_url": "https://www.openstreetmap.org/way/643173470"
+    }
+  ],
+  "attributes": {}
+}

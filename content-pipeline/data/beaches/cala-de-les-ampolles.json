@@ -1,0 +1,29 @@
+{
+  "slug": "cala-de-les-ampolles",
+  "name": "Cala de les Ampolles",
+  "centroid_lat": 40.9066852,
+  "centroid_lng": 0.8262801,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/14489060",
+      "source_url": "https://www.openstreetmap.org/relation/14489060"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q130003988",
+      "source_url": "https://www.wikidata.org/wiki/Q130003988"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20de%20les%20Ampolles%2C%20l%27Ametlla%20de%20Mar.jpg"
+    }
+  }
+}

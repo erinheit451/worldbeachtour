@@ -1,0 +1,43 @@
+{
+  "slug": "praia-da-ladeira",
+  "name": "Praia da Ladeira",
+  "centroid_lat": 42.1159715,
+  "centroid_lng": -8.8290309,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/39301011",
+      "source_url": "https://www.openstreetmap.org/way/39301011"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q20543532",
+      "source_url": "https://www.wikidata.org/wiki/Q20543532"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES114M003284",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES114M003284",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20Ladeira%203.JPG"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

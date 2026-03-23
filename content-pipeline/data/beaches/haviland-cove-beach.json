@@ -1,0 +1,30 @@
+{
+  "slug": "haviland-cove-beach",
+  "name": "Haviland Cove Beach",
+  "centroid_lat": 43.2911834,
+  "centroid_lng": -73.6481726,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357563832",
+      "source_url": "https://www.openstreetmap.org/node/357563832"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/187175760",
+      "source_url": "https://www.openstreetmap.org/way/187175760"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q34679901",
+      "source_url": "https://www.wikidata.org/wiki/Q34679901"
+    }
+  ],
+  "attributes": {}
+}

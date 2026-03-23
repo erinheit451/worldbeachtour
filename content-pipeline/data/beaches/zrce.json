@@ -1,0 +1,30 @@
+{
+  "slug": "zrce",
+  "name": "Zrće",
+  "centroid_lat": 44.5393344,
+  "centroid_lng": 14.9161896,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/38630995",
+      "source_url": "https://www.openstreetmap.org/way/38630995"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q227190",
+      "source_url": "https://www.wikidata.org/wiki/Q227190"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Zrce2012.JPG",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Zr%C4%87e"
+    }
+  }
+}

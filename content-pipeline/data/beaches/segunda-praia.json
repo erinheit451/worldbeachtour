@@ -1,0 +1,25 @@
+{
+  "slug": "segunda-praia",
+  "name": "Segunda Praia",
+  "centroid_lat": -13.3800508,
+  "centroid_lng": -38.9118443,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11980004635",
+      "source_url": "https://www.openstreetmap.org/node/11980004635"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/10608960",
+      "source_url": "https://www.openstreetmap.org/relation/10608960"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "zakhod-v-vodu",
+  "name": "Заход в воду",
+  "centroid_lat": 60.337412,
+  "centroid_lng": 30.577214,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/604232690",
+      "source_url": "https://www.openstreetmap.org/way/604232690"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/688727166",
+      "source_url": "https://www.openstreetmap.org/way/688727166"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/688727167",
+      "source_url": "https://www.openstreetmap.org/way/688727167"
+    }
+  ],
+  "attributes": {}
+}

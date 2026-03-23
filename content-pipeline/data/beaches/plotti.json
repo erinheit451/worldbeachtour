@@ -1,0 +1,24 @@
+{
+  "slug": "plotti",
+  "name": "Plotti",
+  "centroid_lat": 60.2321663,
+  "centroid_lng": 24.9159113,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/88598961",
+      "source_url": "https://www.openstreetmap.org/way/88598961"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

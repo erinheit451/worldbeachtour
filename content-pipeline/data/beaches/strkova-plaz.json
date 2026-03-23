@@ -1,0 +1,24 @@
+{
+  "slug": "strkova-plaz",
+  "name": "Štrková pláž",
+  "centroid_lat": 48.5566958,
+  "centroid_lng": 17.8167397,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/871887571",
+      "source_url": "https://www.openstreetmap.org/way/871887571"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

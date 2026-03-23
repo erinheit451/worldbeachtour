@@ -1,0 +1,48 @@
+{
+  "slug": "souda",
+  "name": "Σούδα",
+  "centroid_lat": 35.1918818,
+  "centroid_lng": 24.3657739,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/19638260",
+      "source_url": "https://www.openstreetmap.org/relation/19638260"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/19638261",
+      "source_url": "https://www.openstreetmap.org/relation/19638261"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53633214",
+      "source_url": "https://www.wikidata.org/wiki/Q53633214"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139314004101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139314004101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

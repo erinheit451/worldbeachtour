@@ -1,0 +1,24 @@
+{
+  "slug": "sandy-beach-56",
+  "name": "Sandy Beach",
+  "centroid_lat": -36.4032984,
+  "centroid_lng": 148.6422525,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/427372079",
+      "source_url": "https://www.openstreetmap.org/way/427372079"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

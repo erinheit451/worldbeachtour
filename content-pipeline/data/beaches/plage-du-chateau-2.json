@@ -1,0 +1,34 @@
+{
+  "slug": "plage-du-chateau-2",
+  "name": "Plage du Château",
+  "centroid_lat": 47.1133257,
+  "centroid_lng": -2.1064419,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/544368141",
+      "source_url": "https://www.openstreetmap.org/way/544368141"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/621307481",
+      "source_url": "https://www.openstreetmap.org/way/621307481"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/621307483",
+      "source_url": "https://www.openstreetmap.org/way/621307483"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

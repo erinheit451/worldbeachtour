@@ -1,0 +1,25 @@
+{
+  "slug": "jammin-village",
+  "name": "Jammin Village",
+  "centroid_lat": 37.9245488,
+  "centroid_lng": 15.864422,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/177186292",
+      "source_url": "https://www.openstreetmap.org/way/177186292"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/2311881",
+      "source_url": "https://www.openstreetmap.org/relation/2311881"
+    }
+  ],
+  "attributes": {}
+}

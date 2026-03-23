@@ -1,0 +1,24 @@
+{
+  "slug": "roond-ayre",
+  "name": "Roond Ayre",
+  "centroid_lat": 60.5072251,
+  "centroid_lng": -1.4537148,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1230720823",
+      "source_url": "https://www.openstreetmap.org/way/1230720823"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

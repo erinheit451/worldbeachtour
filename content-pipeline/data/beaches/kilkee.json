@@ -1,0 +1,35 @@
+{
+  "slug": "kilkee",
+  "name": "KILKEE",
+  "centroid_lat": 52.6805,
+  "centroid_lng": -9.6502,
+  "country_code": "IE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/140357408",
+      "source_url": "https://www.openstreetmap.org/way/140357408"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IESHBWC070_0000_0400",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IESHBWC070_0000_0400",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

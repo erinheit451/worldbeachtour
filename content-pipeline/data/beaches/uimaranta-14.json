@@ -1,0 +1,25 @@
+{
+  "slug": "uimaranta-14",
+  "name": "Uimaranta",
+  "centroid_lat": 66.0841472,
+  "centroid_lng": 24.791253,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/4291093850",
+      "source_url": "https://www.openstreetmap.org/node/4291093850"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/17256393",
+      "source_url": "https://www.openstreetmap.org/relation/17256393"
+    }
+  ],
+  "attributes": {}
+}

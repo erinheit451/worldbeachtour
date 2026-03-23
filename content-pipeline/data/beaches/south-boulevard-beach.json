@@ -1,0 +1,27 @@
+{
+  "slug": "south-boulevard-beach",
+  "name": "South Boulevard Beach",
+  "centroid_lat": 42.0276981,
+  "centroid_lng": -87.667661,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/164928409",
+      "source_url": "https://www.openstreetmap.org/way/164928409"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

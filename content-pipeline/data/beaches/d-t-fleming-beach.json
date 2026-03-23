@@ -1,0 +1,30 @@
+{
+  "slug": "d-t-fleming-beach",
+  "name": "D.T. Fleming Beach",
+  "centroid_lat": 21.0049457,
+  "centroid_lng": -156.6518316,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/173540225",
+      "source_url": "https://www.openstreetmap.org/way/173540225"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q16953787",
+      "source_url": "https://www.wikidata.org/wiki/Q16953787"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/D.T.%20Fleming%20Beach%20-%20Maui%2C%20Hawaii.png",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/D.T._Fleming_Beach"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "sturko-uttorp",
+  "name": "STURKÖ, UTTORP",
+  "centroid_lat": 56.0863,
+  "centroid_lng": 15.7042,
+  "country_code": "SE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/292512639",
+      "source_url": "https://www.openstreetmap.org/way/292512639"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0411080000000213",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0411080000000213",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

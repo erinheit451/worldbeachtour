@@ -1,0 +1,30 @@
+{
+  "slug": "camping-municipal-du-collet-de-deze",
+  "name": "CAMPING MUNICIPAL DU COLLET DE DEZE",
+  "centroid_lat": 44.24622,
+  "centroid_lng": 3.92918,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ1448051D048302",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ1448051D048302",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

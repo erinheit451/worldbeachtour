@@ -1,0 +1,30 @@
+{
+  "slug": "badesee-burgwallbach-schoenau-a-d-brend-burgwallbach-westufer",
+  "name": "BADESEE BURGWALLBACH, SCHOENAU A.D.BREND, BURGWALLBACH, WESTUFER",
+  "centroid_lat": 50.3539,
+  "centroid_lng": 10.1261,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_NES_0020",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_NES_0020",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

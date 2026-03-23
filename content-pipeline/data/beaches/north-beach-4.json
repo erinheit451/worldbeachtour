@@ -1,0 +1,29 @@
+{
+  "slug": "north-beach-4",
+  "name": "North Beach",
+  "centroid_lat": 51.6758984,
+  "centroid_lng": -4.7005362,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/413399591",
+      "source_url": "https://www.openstreetmap.org/way/413399591"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q107356877",
+      "source_url": "https://www.wikidata.org/wiki/Q107356877"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Golden%20sands%20of%20Tenby%20-%20geograph.org.uk%20-%203905727.jpg"
+    }
+  }
+}

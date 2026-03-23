@@ -1,0 +1,25 @@
+{
+  "slug": "beagle-beach",
+  "name": "Beagle Beach",
+  "centroid_lat": -20.6275391,
+  "centroid_lng": 117.7369472,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/199312273",
+      "source_url": "https://www.openstreetmap.org/way/199312273"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21955753",
+      "source_url": "https://www.wikidata.org/wiki/Q21955753"
+    }
+  ],
+  "attributes": {}
+}

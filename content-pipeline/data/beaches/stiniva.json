@@ -1,0 +1,29 @@
+{
+  "slug": "stiniva",
+  "name": "Stiniva",
+  "centroid_lat": 43.0214116,
+  "centroid_lng": 16.1716032,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/249820603",
+      "source_url": "https://www.openstreetmap.org/way/249820603"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q12803521",
+      "source_url": "https://www.wikidata.org/wiki/Q12803521"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20the%20Adriatic%20Sea%20at%20Stiniva%20Bay%20on%20Vis%20island%20in%20Croatia%20%2848608804397%29.jpg"
+    }
+  }
+}

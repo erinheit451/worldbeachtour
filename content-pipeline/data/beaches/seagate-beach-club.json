@@ -1,0 +1,25 @@
+{
+  "slug": "seagate-beach-club",
+  "name": "Seagate Beach Club",
+  "centroid_lat": 26.2077461,
+  "centroid_lng": -81.8158199,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/4860746583",
+      "source_url": "https://www.openstreetmap.org/node/4860746583"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14974052",
+      "source_url": "https://www.openstreetmap.org/relation/14974052"
+    }
+  ],
+  "attributes": {}
+}

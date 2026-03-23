@@ -1,0 +1,30 @@
+{
+  "slug": "velka-plaz",
+  "name": "Veľká pláž",
+  "centroid_lat": 48.1580935,
+  "centroid_lng": 17.8832917,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/935143682",
+      "source_url": "https://www.openstreetmap.org/way/935143682"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/935143687",
+      "source_url": "https://www.openstreetmap.org/way/935143687"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/935143688",
+      "source_url": "https://www.openstreetmap.org/way/935143688"
+    }
+  ],
+  "attributes": {}
+}

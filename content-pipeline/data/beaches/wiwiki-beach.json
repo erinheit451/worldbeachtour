@@ -1,0 +1,25 @@
+{
+  "slug": "wiwiki-beach",
+  "name": "Wiwiki Beach",
+  "centroid_lat": -35.1521167,
+  "centroid_lng": 174.1032708,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7100448628",
+      "source_url": "https://www.openstreetmap.org/node/7100448628"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49325347",
+      "source_url": "https://www.wikidata.org/wiki/Q49325347"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "punta-roquitas",
+  "name": "Punta Roquitas",
+  "centroid_lat": -12.1223535,
+  "centroid_lng": -77.0443962,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1458301380",
+      "source_url": "https://www.openstreetmap.org/way/1458301380"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "surfing": {
+      "surfing_available": true
+    }
+  }
+}

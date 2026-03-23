@@ -1,0 +1,65 @@
+{
+  "slug": "spiaggia-di-san-pietro",
+  "name": "Spiaggia di San Pietro",
+  "centroid_lat": 40.744119,
+  "centroid_lng": 13.9475931,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/22934715",
+      "source_url": "https://www.openstreetmap.org/way/22934715"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/271790676",
+      "source_url": "https://www.openstreetmap.org/way/271790676"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/701900770",
+      "source_url": "https://www.openstreetmap.org/way/701900770"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/702207815",
+      "source_url": "https://www.openstreetmap.org/way/702207815"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/702207817",
+      "source_url": "https://www.openstreetmap.org/way/702207817"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/702207820",
+      "source_url": "https://www.openstreetmap.org/way/702207820"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33342705",
+      "source_url": "https://www.wikidata.org/wiki/Q33342705"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015063037002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015063037002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

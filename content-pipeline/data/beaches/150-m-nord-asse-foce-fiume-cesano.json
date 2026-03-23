@@ -1,0 +1,48 @@
+{
+  "slug": "150-m-nord-asse-foce-fiume-cesano",
+  "name": "150 M NORD ASSE FOCE FIUME CESANO",
+  "centroid_lat": 43.7518,
+  "centroid_lng": 13.1709,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1417494181",
+      "source_url": "https://www.openstreetmap.org/way/1417494181"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT011041029009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT011042045016",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT011041029009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT011042045016",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

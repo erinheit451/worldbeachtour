@@ -1,0 +1,30 @@
+{
+  "slug": "bronte-beach",
+  "name": "Bronte Beach",
+  "centroid_lat": -33.9035901,
+  "centroid_lng": 151.2686499,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2250112",
+      "source_url": "https://www.openstreetmap.org/relation/2250112"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q4974072",
+      "source_url": "https://www.wikidata.org/wiki/Q4974072"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/AUS%20Sydney%2C%20Waverley%2C%20Bronte%20Beach%20006.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bronte_Beach"
+    }
+  }
+}

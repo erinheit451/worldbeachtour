@@ -1,0 +1,35 @@
+{
+  "slug": "punta-san-francesco",
+  "name": "PUNTA SAN FRANCESCO",
+  "centroid_lat": 40.6367,
+  "centroid_lng": 14.3919,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/654605655",
+      "source_url": "https://www.openstreetmap.org/way/654605655"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015063071002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015063071002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

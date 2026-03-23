@@ -1,0 +1,25 @@
+{
+  "slug": "playa-de-miramar",
+  "name": "Playa de Miramar",
+  "centroid_lat": 35.8796198,
+  "centroid_lng": -5.3341577,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/388677927",
+      "source_url": "https://www.openstreetmap.org/way/388677927"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q2842833",
+      "source_url": "https://www.wikidata.org/wiki/Q2842833"
+    }
+  ],
+  "attributes": {}
+}

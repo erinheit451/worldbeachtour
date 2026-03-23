@@ -1,0 +1,25 @@
+{
+  "slug": "cold-spring-beach",
+  "name": "Cold Spring Beach",
+  "centroid_lat": 40.8674125,
+  "centroid_lng": -73.4683507,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/135489067",
+      "source_url": "https://www.openstreetmap.org/way/135489067"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q34651903",
+      "source_url": "https://www.wikidata.org/wiki/Q34651903"
+    }
+  ],
+  "attributes": {}
+}

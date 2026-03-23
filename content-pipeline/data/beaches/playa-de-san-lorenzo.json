@@ -1,0 +1,35 @@
+{
+  "slug": "playa-de-san-lorenzo",
+  "name": "Playa de San Lorenzo",
+  "centroid_lat": 35.2867475,
+  "centroid_lng": -2.9371884,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/220751647",
+      "source_url": "https://www.openstreetmap.org/way/220751647"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES640M0011680",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES640M0011680",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

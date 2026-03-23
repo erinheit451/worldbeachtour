@@ -1,0 +1,24 @@
+{
+  "slug": "aawkrathing",
+  "name": "อ่าวกระทิง",
+  "centroid_lat": 12.4720117,
+  "centroid_lng": 102.0533485,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/172391111",
+      "source_url": "https://www.openstreetmap.org/way/172391111"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

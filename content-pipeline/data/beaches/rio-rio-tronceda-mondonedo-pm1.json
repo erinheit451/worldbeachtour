@@ -1,0 +1,30 @@
+{
+  "slug": "rio-rio-tronceda-mondonedo-pm1",
+  "name": "RIO RÍO TRONCEDA MONDOÑEDO PM1",
+  "centroid_lat": 43.449,
+  "centroid_lng": -7.3618,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES112C0302242",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES112C0302242",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

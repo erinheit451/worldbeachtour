@@ -1,0 +1,40 @@
+{
+  "slug": "plage-de-yusin",
+  "name": "Plage de Yusin",
+  "centroid_lat": 48.470732,
+  "centroid_lng": -5.1063775,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/7966635",
+      "source_url": "https://www.openstreetmap.org/relation/7966635"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q107324260",
+      "source_url": "https://www.wikidata.org/wiki/Q107324260"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229155M029468",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229155M029468",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

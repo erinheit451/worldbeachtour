@@ -1,0 +1,35 @@
+{
+  "slug": "hosszupereszteg-szajki-to-6-sz-tofurdo",
+  "name": "HOSSZUPERESZTEG  SZAJKI-TO 6. SZ. TOFURDO",
+  "centroid_lat": 47.0552,
+  "centroid_lng": 17.0087,
+  "country_code": "HU",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/293952678",
+      "source_url": "https://www.openstreetmap.org/way/293952678"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_01805",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_01805",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

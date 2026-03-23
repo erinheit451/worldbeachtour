@@ -1,0 +1,25 @@
+{
+  "slug": "brays-beach",
+  "name": "Brays Beach",
+  "centroid_lat": -28.7175251,
+  "centroid_lng": 153.6164567,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2580681",
+      "source_url": "https://www.openstreetmap.org/relation/2580681"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21957175",
+      "source_url": "https://www.wikidata.org/wiki/Q21957175"
+    }
+  ],
+  "attributes": {}
+}

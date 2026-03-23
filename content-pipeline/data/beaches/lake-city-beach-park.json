@@ -1,0 +1,33 @@
+{
+  "slug": "lake-city-beach-park",
+  "name": "Lake City Beach Park",
+  "centroid_lat": 47.7229617,
+  "centroid_lng": -122.2810897,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/293126948",
+      "source_url": "https://www.openstreetmap.org/way/293126948"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22073393",
+      "source_url": "https://www.wikidata.org/wiki/Q22073393"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Northeast%20130th%20Street%20Beach%20on%20Lake%20Washington.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Lake_City_Beach_Park"
+    }
+  }
+}

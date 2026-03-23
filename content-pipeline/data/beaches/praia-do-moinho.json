@@ -1,0 +1,39 @@
+{
+  "slug": "praia-do-moinho",
+  "name": "Praia do Moinho",
+  "centroid_lat": 38.6762874,
+  "centroid_lng": -9.3273719,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/167142539",
+      "source_url": "https://www.openstreetmap.org/way/167142539"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/228449101",
+      "source_url": "https://www.openstreetmap.org/way/228449101"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324140",
+      "source_url": "https://www.wikidata.org/wiki/Q49324140"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324262",
+      "source_url": "https://www.wikidata.org/wiki/Q49324262"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Costa%20do%20Estoril%20ao%C3%BBt%202017%2085%20%2836171341903%29.jpg"
+    }
+  }
+}

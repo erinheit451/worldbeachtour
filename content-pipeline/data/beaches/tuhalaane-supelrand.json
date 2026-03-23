@@ -1,0 +1,30 @@
+{
+  "slug": "tuhalaane-supelrand",
+  "name": "Tuhalaane supelrand",
+  "centroid_lat": 58.1764491,
+  "centroid_lng": 25.6548914,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1017567262",
+      "source_url": "https://www.openstreetmap.org/way/1017567262"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

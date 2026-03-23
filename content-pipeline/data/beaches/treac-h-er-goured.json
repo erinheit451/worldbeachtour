@@ -1,0 +1,35 @@
+{
+  "slug": "treac-h-er-goured",
+  "name": "Tréac'h er Gourèd",
+  "centroid_lat": 47.3876224,
+  "centroid_lng": -2.945849,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/194487630",
+      "source_url": "https://www.openstreetmap.org/way/194487630"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0456086M056666",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0456086M056666",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

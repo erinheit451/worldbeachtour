@@ -1,0 +1,35 @@
+{
+  "slug": "plan-d-eau-de-servant",
+  "name": "PLAN D EAU DE SERVANT",
+  "centroid_lat": 46.13999,
+  "centroid_lng": 2.93667,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/246148245",
+      "source_url": "https://www.openstreetmap.org/way/246148245"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK1463419D063200",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK1463419D063200",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

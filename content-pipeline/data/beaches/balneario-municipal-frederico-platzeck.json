@@ -1,0 +1,35 @@
+{
+  "slug": "balneario-municipal-frederico-platzeck",
+  "name": "Balneário Municipal Frederico Platzeck",
+  "centroid_lat": -21.3590226,
+  "centroid_lng": -51.8654314,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/180894118",
+      "source_url": "https://www.openstreetmap.org/way/180894118"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/560140203",
+      "source_url": "https://www.openstreetmap.org/way/560140203"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "restrooms": true,
+      "showers": true,
+      "drinking_water": true,
+      "access": "yes"
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

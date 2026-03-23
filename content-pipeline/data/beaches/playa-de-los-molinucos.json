@@ -1,0 +1,29 @@
+{
+  "slug": "playa-de-los-molinucos",
+  "name": "Playa de los Molinucos",
+  "centroid_lat": 43.4837433,
+  "centroid_lng": -3.7847685,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/28423544",
+      "source_url": "https://www.openstreetmap.org/way/28423544"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6079197",
+      "source_url": "https://www.wikidata.org/wiki/Q6079197"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20los%20Molinucos%202.jpg"
+    }
+  }
+}

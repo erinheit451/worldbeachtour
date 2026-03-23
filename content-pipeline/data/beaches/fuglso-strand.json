@@ -1,0 +1,41 @@
+{
+  "slug": "fuglso-strand",
+  "name": "Fuglsø Strand",
+  "centroid_lat": 56.1815447,
+  "centroid_lng": 10.54342,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1244696208",
+      "source_url": "https://www.openstreetmap.org/way/1244696208"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW751",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW751",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "permissive"
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "annadale-beach",
+  "name": "Annadale Beach",
+  "centroid_lat": 40.5264946,
+  "centroid_lng": -74.164032,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357544940",
+      "source_url": "https://www.openstreetmap.org/node/357544940"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/53718224",
+      "source_url": "https://www.openstreetmap.org/way/53718224"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1258017973",
+      "source_url": "https://www.openstreetmap.org/way/1258017973"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q34637042",
+      "source_url": "https://www.wikidata.org/wiki/Q34637042"
+    }
+  ],
+  "attributes": {}
+}

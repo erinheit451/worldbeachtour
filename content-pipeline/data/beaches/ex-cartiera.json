@@ -1,0 +1,35 @@
+{
+  "slug": "ex-cartiera",
+  "name": "EX CARTIERA",
+  "centroid_lat": 40.7074,
+  "centroid_lng": 14.4798,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/430521572",
+      "source_url": "https://www.openstreetmap.org/way/430521572"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015063024002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015063024002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

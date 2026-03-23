@@ -1,0 +1,25 @@
+{
+  "slug": "langra",
+  "name": "Långrå",
+  "centroid_lat": 61.8066582,
+  "centroid_lng": 16.772315,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/186952915",
+      "source_url": "https://www.openstreetmap.org/way/186952915"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false,
+      "access": "yes"
+    }
+  }
+}

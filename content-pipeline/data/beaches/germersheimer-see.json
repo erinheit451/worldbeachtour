@@ -1,0 +1,55 @@
+{
+  "slug": "germersheimer-see",
+  "name": "GERMERSHEIMER SEE",
+  "centroid_lat": 49.2011,
+  "centroid_lng": 8.3736,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/93371502",
+      "source_url": "https://www.openstreetmap.org/way/93371502"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/502719308",
+      "source_url": "https://www.openstreetmap.org/way/502719308"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/502719309",
+      "source_url": "https://www.openstreetmap.org/way/502719309"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DERP_PR_0047",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DERP_PR_0048",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DERP_PR_0047",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DERP_PR_0048",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

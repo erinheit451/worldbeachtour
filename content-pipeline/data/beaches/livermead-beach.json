@@ -1,0 +1,24 @@
+{
+  "slug": "livermead-beach",
+  "name": "Livermead Beach",
+  "centroid_lat": 50.4561503,
+  "centroid_lng": -3.5445347,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/453526401",
+      "source_url": "https://www.openstreetmap.org/way/453526401"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "gannet-beach",
+  "name": "Gannet Beach",
+  "centroid_lat": -35.5155084,
+  "centroid_lng": 150.3988308,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/38144150",
+      "source_url": "https://www.openstreetmap.org/way/38144150"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21957102",
+      "source_url": "https://www.wikidata.org/wiki/Q21957102"
+    }
+  ],
+  "attributes": {}
+}

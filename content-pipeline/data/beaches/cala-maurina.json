@@ -1,0 +1,30 @@
+{
+  "slug": "cala-maurina",
+  "name": "Cala Maurina",
+  "centroid_lat": 40.8070545,
+  "centroid_lng": 9.6852973,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/838005226",
+      "source_url": "https://www.openstreetmap.org/way/838005226"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1238174116",
+      "source_url": "https://www.openstreetmap.org/way/1238174116"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1238174117",
+      "source_url": "https://www.openstreetmap.org/way/1238174117"
+    }
+  ],
+  "attributes": {}
+}

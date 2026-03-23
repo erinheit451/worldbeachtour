@@ -1,0 +1,30 @@
+{
+  "slug": "ijzeren-man-boulevard",
+  "name": "IJZEREN MAN BOULEVARD",
+  "centroid_lat": 51.65041,
+  "centroid_lng": 5.25999,
+  "country_code": "NL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW27_245600",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW27_245600",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

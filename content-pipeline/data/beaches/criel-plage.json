@@ -1,0 +1,43 @@
+{
+  "slug": "criel-plage",
+  "name": "CRIEL-PLAGE",
+  "centroid_lat": 50.03459,
+  "centroid_lng": 1.3148,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/176268729",
+      "source_url": "https://www.openstreetmap.org/way/176268729"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q102838286",
+      "source_url": "https://www.wikidata.org/wiki/Q102838286"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD2276192M076036",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD2276192M076036",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Criel-sur-Mer%20R07.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

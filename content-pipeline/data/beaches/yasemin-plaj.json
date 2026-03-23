@@ -1,0 +1,27 @@
+{
+  "slug": "yasemin-plaj",
+  "name": "Yasemin Plaj",
+  "centroid_lat": 37.2234104,
+  "centroid_lng": 27.5873858,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1296031697",
+      "source_url": "https://www.openstreetmap.org/way/1296031697"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

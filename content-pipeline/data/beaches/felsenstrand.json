@@ -1,0 +1,24 @@
+{
+  "slug": "felsenstrand",
+  "name": "Felsenstrand",
+  "centroid_lat": 40.2637369,
+  "centroid_lng": 9.6273996,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11134379623",
+      "source_url": "https://www.openstreetmap.org/node/11134379623"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

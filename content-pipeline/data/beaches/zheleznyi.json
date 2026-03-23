@@ -1,0 +1,25 @@
+{
+  "slug": "zheleznyi",
+  "name": "Железный",
+  "centroid_lat": 43.1404378,
+  "centroid_lng": 132.051417,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/491536631",
+      "source_url": "https://www.openstreetmap.org/way/491536631"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/491536632",
+      "source_url": "https://www.openstreetmap.org/way/491536632"
+    }
+  ],
+  "attributes": {}
+}

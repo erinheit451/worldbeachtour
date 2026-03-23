@@ -1,0 +1,27 @@
+{
+  "slug": "gasteiner-badesee",
+  "name": "Gasteiner Badesee",
+  "centroid_lat": 47.1448606,
+  "centroid_lng": 13.1216599,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/589507444",
+      "source_url": "https://www.openstreetmap.org/way/589507444"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "mogareka-inlet",
+  "name": "Mogareka Inlet",
+  "centroid_lat": -36.6996177,
+  "centroid_lng": 149.9856435,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/959007581",
+      "source_url": "https://www.openstreetmap.org/way/959007581"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1078565444",
+      "source_url": "https://www.openstreetmap.org/way/1078565444"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1078565447",
+      "source_url": "https://www.openstreetmap.org/way/1078565447"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1078565450",
+      "source_url": "https://www.openstreetmap.org/way/1078565450"
+    }
+  ],
+  "attributes": {}
+}

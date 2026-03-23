@@ -1,0 +1,30 @@
+{
+  "slug": "plage-de-la-digue-1",
+  "name": "Plage de la Digue",
+  "centroid_lat": 43.5387185,
+  "centroid_lng": -1.5161218,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/303968639",
+      "source_url": "https://www.openstreetmap.org/way/303968639"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited"
+    },
+    "social": {
+      "nudist": true
+    },
+    "safety": {
+      "lifeguard": "Jul 03-Aug 29: 31 11:00-19:00"
+    }
+  }
+}

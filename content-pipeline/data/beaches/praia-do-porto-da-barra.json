@@ -1,0 +1,30 @@
+{
+  "slug": "praia-do-porto-da-barra",
+  "name": "Praia do Porto da Barra",
+  "centroid_lat": -13.0032748,
+  "centroid_lng": -38.5333313,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8455912",
+      "source_url": "https://www.openstreetmap.org/relation/8455912"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7232174",
+      "source_url": "https://www.wikidata.org/wiki/Q7232174"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20do%20Porto%20da%20Barra%204.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Porto_da_Barra_Beach"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "rushikonda-beach",
+  "name": "Rushikonda Beach",
+  "centroid_lat": 17.7817655,
+  "centroid_lng": 83.3856645,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9529480341",
+      "source_url": "https://www.openstreetmap.org/node/9529480341"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/562030077",
+      "source_url": "https://www.openstreetmap.org/way/562030077"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24946142",
+      "source_url": "https://www.wikidata.org/wiki/Q24946142"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Rushikonda%20beach%20view%20001.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Rushikonda_Beach"
+    }
+  }
+}

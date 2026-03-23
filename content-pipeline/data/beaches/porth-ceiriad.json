@@ -1,0 +1,29 @@
+{
+  "slug": "porth-ceiriad",
+  "name": "Porth Ceiriad",
+  "centroid_lat": 52.7946153,
+  "centroid_lng": -4.5028409,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/406046336",
+      "source_url": "https://www.openstreetmap.org/way/406046336"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q18343804",
+      "source_url": "https://www.wikidata.org/wiki/Q18343804"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Porth_Ceiriad"
+    }
+  }
+}

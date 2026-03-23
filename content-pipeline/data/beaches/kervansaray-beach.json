@@ -1,0 +1,27 @@
+{
+  "slug": "kervansaray-beach",
+  "name": "Kervansaray Beach",
+  "centroid_lat": 35.3473532,
+  "centroid_lng": 33.2551574,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/217651068",
+      "source_url": "https://www.openstreetmap.org/way/217651068"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "permissive"
+    }
+  }
+}

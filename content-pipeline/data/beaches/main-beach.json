@@ -1,0 +1,30 @@
+{
+  "slug": "main-beach",
+  "name": "Main Beach",
+  "centroid_lat": 51.4942036,
+  "centroid_lng": -9.4310736,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/190629030",
+      "source_url": "https://www.openstreetmap.org/way/190629030"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/190629032",
+      "source_url": "https://www.openstreetmap.org/way/190629032"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/190629035",
+      "source_url": "https://www.openstreetmap.org/way/190629035"
+    }
+  ],
+  "attributes": {}
+}

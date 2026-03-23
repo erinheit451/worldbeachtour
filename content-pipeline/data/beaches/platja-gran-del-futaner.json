@@ -1,0 +1,48 @@
+{
+  "slug": "platja-gran-del-futaner",
+  "name": "Platja Gran del Futaner",
+  "centroid_lat": 42.3881355,
+  "centroid_lng": 3.1642596,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1219503436",
+      "source_url": "https://www.openstreetmap.org/way/1219503436"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1415650261",
+      "source_url": "https://www.openstreetmap.org/way/1415650261"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8313810",
+      "source_url": "https://www.openstreetmap.org/relation/8313810"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q121624056",
+      "source_url": "https://www.wikidata.org/wiki/Q121624056"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q121667164",
+      "source_url": "https://www.wikidata.org/wiki/Q121667164"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platja%20Gran%20del%20Futaner.jpg"
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

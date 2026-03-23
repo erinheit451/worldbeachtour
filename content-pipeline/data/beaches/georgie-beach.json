@@ -1,0 +1,24 @@
+{
+  "slug": "georgie-beach",
+  "name": "Georgie Beach",
+  "centroid_lat": 44.5665247,
+  "centroid_lng": -67.5159279,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/16031992",
+      "source_url": "https://www.openstreetmap.org/relation/16031992"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "private"
+    }
+  }
+}

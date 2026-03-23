@@ -1,0 +1,30 @@
+{
+  "slug": "kolga-aabla-supelrand",
+  "name": "Kolga-Aabla supelrand",
+  "centroid_lat": 59.5744434,
+  "centroid_lng": 25.5272002,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/618607485",
+      "source_url": "https://www.openstreetmap.org/way/618607485"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

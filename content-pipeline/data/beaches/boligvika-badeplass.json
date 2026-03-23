@@ -1,0 +1,39 @@
+{
+  "slug": "boligvika-badeplass",
+  "name": "Boligvika Badeplass",
+  "centroid_lat": 60.9378259,
+  "centroid_lng": 10.6804862,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/991000187",
+      "source_url": "https://www.openstreetmap.org/way/991000187"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/993499664",
+      "source_url": "https://www.openstreetmap.org/way/993499664"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/993499665",
+      "source_url": "https://www.openstreetmap.org/way/993499665"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1418696258",
+      "source_url": "https://www.openstreetmap.org/way/1418696258"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

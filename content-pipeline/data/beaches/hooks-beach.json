@@ -1,0 +1,30 @@
+{
+  "slug": "hooks-beach",
+  "name": "Hooks Beach",
+  "centroid_lat": -36.7482,
+  "centroid_lng": 175.169,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/728214081",
+      "source_url": "https://www.openstreetmap.org/way/728214081"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/728214082",
+      "source_url": "https://www.openstreetmap.org/way/728214082"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q32223670",
+      "source_url": "https://www.wikidata.org/wiki/Q32223670"
+    }
+  ],
+  "attributes": {}
+}

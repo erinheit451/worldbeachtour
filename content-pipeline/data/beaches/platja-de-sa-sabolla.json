@@ -1,0 +1,30 @@
+{
+  "slug": "platja-de-sa-sabolla",
+  "name": "Platja de sa Sabolla",
+  "centroid_lat": 42.2702475,
+  "centroid_lng": 3.2827502,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8305706",
+      "source_url": "https://www.openstreetmap.org/relation/8305706"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24021769",
+      "source_url": "https://www.wikidata.org/wiki/Q24021769"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platja%20Sa%20Sabolla.jpg"
+    }
+  }
+}

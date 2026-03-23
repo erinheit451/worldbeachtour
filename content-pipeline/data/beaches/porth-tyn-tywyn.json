@@ -1,0 +1,30 @@
+{
+  "slug": "porth-tyn-tywyn",
+  "name": "Porth Tyn Tywyn",
+  "centroid_lat": 53.21624944,
+  "centroid_lng": -4.505359862,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/367145428",
+      "source_url": "https://www.openstreetmap.org/way/367145428"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/367145438",
+      "source_url": "https://www.openstreetmap.org/way/367145438"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q107356927",
+      "source_url": "https://www.wikidata.org/wiki/Q107356927"
+    }
+  ],
+  "attributes": {}
+}

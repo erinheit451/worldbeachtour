@@ -1,0 +1,83 @@
+{
+  "slug": "mistral-beach-club",
+  "name": "Mistral Beach Club",
+  "centroid_lat": 43.5015053,
+  "centroid_lng": 16.4701184,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1367984210",
+      "source_url": "https://www.openstreetmap.org/node/1367984210"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/142955200",
+      "source_url": "https://www.openstreetmap.org/way/142955200"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/142955203",
+      "source_url": "https://www.openstreetmap.org/way/142955203"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/142955205",
+      "source_url": "https://www.openstreetmap.org/way/142955205"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/143081037",
+      "source_url": "https://www.openstreetmap.org/way/143081037"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/958799226",
+      "source_url": "https://www.openstreetmap.org/way/958799226"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2044",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2162",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2045",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2044",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2162",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2045",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true
+    },
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

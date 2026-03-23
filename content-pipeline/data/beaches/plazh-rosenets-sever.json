@@ -1,0 +1,41 @@
+{
+  "slug": "plazh-rosenets-sever",
+  "name": "Плаж Росенец - Север",
+  "centroid_lat": 42.4530218,
+  "centroid_lng": 27.5489352,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/334442873",
+      "source_url": "https://www.openstreetmap.org/way/334442873"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BG3410407079002049",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BG3410407079002049",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

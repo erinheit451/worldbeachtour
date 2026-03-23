@@ -1,0 +1,61 @@
+{
+  "slug": "plage-de-porsman",
+  "name": "Plage de Porsman",
+  "centroid_lat": 48.4420957,
+  "centroid_lng": -4.7791469,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/41666882",
+      "source_url": "https://www.openstreetmap.org/way/41666882"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/41666883",
+      "source_url": "https://www.openstreetmap.org/way/41666883"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/170000530",
+      "source_url": "https://www.openstreetmap.org/way/170000530"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/414866063",
+      "source_url": "https://www.openstreetmap.org/way/414866063"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/414866066",
+      "source_url": "https://www.openstreetmap.org/way/414866066"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229177M029445",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229177M029445",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "watsons-beach-1",
+  "name": "Watsons Beach",
+  "centroid_lat": -46.1589417,
+  "centroid_lng": 170.1551487,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/304936502",
+      "source_url": "https://www.openstreetmap.org/way/304936502"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/304936509",
+      "source_url": "https://www.openstreetmap.org/way/304936509"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/304936527",
+      "source_url": "https://www.openstreetmap.org/way/304936527"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49325232",
+      "source_url": "https://www.wikidata.org/wiki/Q49325232"
+    }
+  ],
+  "attributes": {}
+}

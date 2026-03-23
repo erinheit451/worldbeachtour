@@ -1,0 +1,25 @@
+{
+  "slug": "spit-beach-1",
+  "name": "Spit Beach",
+  "centroid_lat": -45.7702527,
+  "centroid_lng": 170.7034394,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/190034845",
+      "source_url": "https://www.openstreetmap.org/way/190034845"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324853",
+      "source_url": "https://www.wikidata.org/wiki/Q49324853"
+    }
+  ],
+  "attributes": {}
+}

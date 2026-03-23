@@ -1,0 +1,35 @@
+{
+  "slug": "waldbad-langer-teich-selb",
+  "name": "WALDBAD LANGER TEICH, SELB",
+  "centroid_lat": 50.1636,
+  "centroid_lng": 12.1717,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/234316993",
+      "source_url": "https://www.openstreetmap.org/way/234316993"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_WUN_0045",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_WUN_0045",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

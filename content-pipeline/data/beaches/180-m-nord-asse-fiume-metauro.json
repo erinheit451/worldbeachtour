@@ -1,0 +1,50 @@
+{
+  "slug": "180-m-nord-asse-fiume-metauro",
+  "name": "180 M NORD ASSE FIUME METAURO",
+  "centroid_lat": 43.8309,
+  "centroid_lng": 13.0537,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/754035353",
+      "source_url": "https://www.openstreetmap.org/way/754035353"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/754035354",
+      "source_url": "https://www.openstreetmap.org/way/754035354"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT011041013030",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT011041013011",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT011041013030",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT011041013011",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

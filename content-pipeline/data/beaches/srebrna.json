@@ -1,0 +1,35 @@
+{
+  "slug": "srebrna",
+  "name": "Srebrna",
+  "centroid_lat": 43.0203887,
+  "centroid_lng": 16.2053594,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/123498403",
+      "source_url": "https://www.openstreetmap.org/way/123498403"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2151",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2151",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

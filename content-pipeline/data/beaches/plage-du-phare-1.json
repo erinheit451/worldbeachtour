@@ -1,0 +1,31 @@
+{
+  "slug": "plage-du-phare-1",
+  "name": "Plage du phare",
+  "centroid_lat": 36.8119846,
+  "centroid_lng": 2.9522879,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/467989383",
+      "source_url": "https://www.openstreetmap.org/way/467989383"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false,
+      "access": "permissive"
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

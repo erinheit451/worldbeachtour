@@ -1,0 +1,27 @@
+{
+  "slug": "nudistskii-pliazh-sergiivka",
+  "name": "Нудистський пляж Сергіївка",
+  "centroid_lat": 45.9964342,
+  "centroid_lng": 30.3681402,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/7419150",
+      "source_url": "https://www.openstreetmap.org/relation/7419150"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "permissive"
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

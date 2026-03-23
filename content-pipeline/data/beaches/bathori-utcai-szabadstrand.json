@@ -1,0 +1,24 @@
+{
+  "slug": "bathori-utcai-szabadstrand",
+  "name": "Báthori utcai szabadstrand",
+  "centroid_lat": 46.7304965,
+  "centroid_lng": 17.5281447,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/3116850",
+      "source_url": "https://www.openstreetmap.org/relation/3116850"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

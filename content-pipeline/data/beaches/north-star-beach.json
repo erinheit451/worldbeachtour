@@ -1,0 +1,25 @@
+{
+  "slug": "north-star-beach",
+  "name": "North Star Beach",
+  "centroid_lat": 33.6244573,
+  "centroid_lng": -117.8942545,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/438221848",
+      "source_url": "https://www.openstreetmap.org/way/438221848"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322305",
+      "source_url": "https://www.wikidata.org/wiki/Q49322305"
+    }
+  ],
+  "attributes": {}
+}

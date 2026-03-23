@@ -1,0 +1,25 @@
+{
+  "slug": "plaja-tuzla",
+  "name": "Plaja Tuzla",
+  "centroid_lat": 44.0003891,
+  "centroid_lng": 28.6622391,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6594076636",
+      "source_url": "https://www.openstreetmap.org/node/6594076636"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/366162790",
+      "source_url": "https://www.openstreetmap.org/way/366162790"
+    }
+  ],
+  "attributes": {}
+}

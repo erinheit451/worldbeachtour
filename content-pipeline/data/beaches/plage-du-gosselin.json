@@ -1,0 +1,35 @@
+{
+  "slug": "plage-du-gosselin",
+  "name": "PLAGE DU GOSSELIN",
+  "centroid_lat": 4.89034,
+  "centroid_lng": -52.25334,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24695383",
+      "source_url": "https://www.wikidata.org/wiki/Q24695383"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRY3097309M973115",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRY3097309M973115",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "duna-folyo-bal-part-god-felsogodi-strand",
+  "name": "DUNA FOLYO BAL PART  GOD  FELSOGODI STRAND",
+  "centroid_lat": 47.71004,
+  "centroid_lng": 19.1292,
+  "country_code": "HU",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1075061208",
+      "source_url": "https://www.openstreetmap.org/way/1075061208"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/19349412",
+      "source_url": "https://www.openstreetmap.org/relation/19349412"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_01424",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_01424",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

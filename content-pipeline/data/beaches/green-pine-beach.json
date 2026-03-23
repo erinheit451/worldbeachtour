@@ -1,0 +1,42 @@
+{
+  "slug": "green-pine-beach",
+  "name": "Green Pine Beach",
+  "centroid_lat": 36.5521245,
+  "centroid_lng": 29.1165483,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11228671984",
+      "source_url": "https://www.openstreetmap.org/node/11228671984"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/189883789",
+      "source_url": "https://www.openstreetmap.org/way/189883789"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/189883792",
+      "source_url": "https://www.openstreetmap.org/way/189883792"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/189883793",
+      "source_url": "https://www.openstreetmap.org/way/189883793"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "private"
+    }
+  }
+}

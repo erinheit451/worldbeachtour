@@ -1,0 +1,30 @@
+{
+  "slug": "calo-de-ses-lleonardes",
+  "name": "Caló de ses Lleonardes",
+  "centroid_lat": 39.4845876,
+  "centroid_lng": 2.7358011,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11104653175",
+      "source_url": "https://www.openstreetmap.org/node/11104653175"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/238211260",
+      "source_url": "https://www.openstreetmap.org/way/238211260"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q17588963",
+      "source_url": "https://www.wikidata.org/wiki/Q17588963"
+    }
+  ],
+  "attributes": {}
+}

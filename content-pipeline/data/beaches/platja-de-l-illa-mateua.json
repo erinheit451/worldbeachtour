@@ -1,0 +1,37 @@
+{
+  "slug": "platja-de-l-illa-mateua",
+  "name": "Platja de l'Illa Mateua",
+  "centroid_lat": 42.1132767,
+  "centroid_lng": 3.1668512,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1000465284",
+      "source_url": "https://www.openstreetmap.org/way/1000465284"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1000465286",
+      "source_url": "https://www.openstreetmap.org/way/1000465286"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28119258",
+      "source_url": "https://www.wikidata.org/wiki/Q28119258"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "no"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/L%27Illa%20Mateua%20i%20la%20Cala%20Mateua.jpg"
+    }
+  }
+}

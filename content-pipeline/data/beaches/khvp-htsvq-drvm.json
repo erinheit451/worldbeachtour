@@ -1,0 +1,32 @@
+{
+  "slug": "khvp-htsvq-drvm",
+  "name": "חוף הצוק - דרום",
+  "centroid_lat": 32.1401903,
+  "centroid_lng": 34.7897344,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1939359812",
+      "source_url": "https://www.openstreetmap.org/node/1939359812"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/1939359815",
+      "source_url": "https://www.openstreetmap.org/node/1939359815"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "pushcha-voditsia-pliazh",
+  "name": "Пуща-Водиця пляж",
+  "centroid_lat": 50.5401929,
+  "centroid_lng": 30.3467624,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1679855",
+      "source_url": "https://www.openstreetmap.org/relation/1679855"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/1679856",
+      "source_url": "https://www.openstreetmap.org/relation/1679856"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

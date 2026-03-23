@@ -1,0 +1,28 @@
+{
+  "slug": "plaza-pilica",
+  "name": "Plaża Pilica",
+  "centroid_lat": 51.7473173,
+  "centroid_lng": 21.1351378,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1016155100",
+      "source_url": "https://www.openstreetmap.org/way/1016155100"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false,
+      "access": "yes"
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

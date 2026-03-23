@@ -1,0 +1,34 @@
+{
+  "slug": "spiaggia-di-cadimare",
+  "name": "Spiaggia di Cadimare",
+  "centroid_lat": 44.0847395,
+  "centroid_lng": 9.8238547,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1057893575",
+      "source_url": "https://www.openstreetmap.org/way/1057893575"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false,
+      "access": "yes"
+    },
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "surfing": {
+      "surfing_available": true
+    }
+  }
+}

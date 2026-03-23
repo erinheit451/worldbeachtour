@@ -1,0 +1,35 @@
+{
+  "slug": "blackpool-sands",
+  "name": "Blackpool Sands",
+  "centroid_lat": 50.3192638,
+  "centroid_lng": -3.6096751,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/717520286",
+      "source_url": "https://www.openstreetmap.org/node/717520286"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/1157820",
+      "source_url": "https://www.openstreetmap.org/relation/1157820"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q4923269",
+      "source_url": "https://www.wikidata.org/wiki/Q4923269"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Blackpool%20Sands%20-%20geograph.org.uk%20-%2024244.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Blackpool_Sands,_Dartmouth"
+    }
+  }
+}

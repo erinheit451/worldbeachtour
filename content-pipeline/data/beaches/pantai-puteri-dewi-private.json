@@ -1,0 +1,29 @@
+{
+  "slug": "pantai-puteri-dewi-private",
+  "name": "Pantai Puteri Dewi (private)",
+  "centroid_lat": 4.2526011,
+  "centroid_lng": 100.5458524,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/313380272",
+      "source_url": "https://www.openstreetmap.org/way/313380272"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33328429",
+      "source_url": "https://www.wikidata.org/wiki/Q33328429"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

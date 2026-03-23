@@ -1,0 +1,43 @@
+{
+  "slug": "playa-de-horcas-coloradas",
+  "name": "Playa de Horcas Coloradas",
+  "centroid_lat": 35.3052342,
+  "centroid_lng": -2.9438604,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/302025826",
+      "source_url": "https://www.openstreetmap.org/way/302025826"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q130581175",
+      "source_url": "https://www.wikidata.org/wiki/Q130581175"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES640M0012378",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES640M0012378",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Horcas_Coloradas_Beach"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

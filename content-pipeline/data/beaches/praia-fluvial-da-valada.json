@@ -1,0 +1,24 @@
+{
+  "slug": "praia-fluvial-da-valada",
+  "name": "Praia Fluvial da Valada",
+  "centroid_lat": 39.0814718,
+  "centroid_lng": -8.7581112,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/335585437",
+      "source_url": "https://www.openstreetmap.org/way/335585437"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

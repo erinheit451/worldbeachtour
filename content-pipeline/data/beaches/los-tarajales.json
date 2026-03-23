@@ -1,0 +1,25 @@
+{
+  "slug": "los-tarajales",
+  "name": "Los Tarajales",
+  "centroid_lat": 28.0467219,
+  "centroid_lng": -16.7121705,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/495194417",
+      "source_url": "https://www.openstreetmap.org/way/495194417"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31844348",
+      "source_url": "https://www.wikidata.org/wiki/Q31844348"
+    }
+  ],
+  "attributes": {}
+}

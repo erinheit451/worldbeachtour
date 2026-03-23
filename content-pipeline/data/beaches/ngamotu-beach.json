@@ -1,0 +1,25 @@
+{
+  "slug": "ngamotu-beach",
+  "name": "Ngāmotu Beach",
+  "centroid_lat": -39.0600615,
+  "centroid_lng": 174.0401667,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/351560572",
+      "source_url": "https://www.openstreetmap.org/way/351560572"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q88828446",
+      "source_url": "https://www.wikidata.org/wiki/Q88828446"
+    }
+  ],
+  "attributes": {}
+}

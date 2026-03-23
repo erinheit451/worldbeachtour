@@ -1,0 +1,30 @@
+{
+  "slug": "platja-dels-riells",
+  "name": "Platja dels Riells",
+  "centroid_lat": 42.1156626,
+  "centroid_lng": 3.1398434,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1669340",
+      "source_url": "https://www.openstreetmap.org/relation/1669340"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24021796",
+      "source_url": "https://www.wikidata.org/wiki/Q24021796"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platja%20dels%20Riells%2C%2C%20panor%C3%A0mica%201.jpg"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "caroline-beach",
+  "name": "Caroline Beach",
+  "centroid_lat": 45.23738,
+  "centroid_lng": -64.4872873,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/838810201",
+      "source_url": "https://www.openstreetmap.org/way/838810201"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22444419",
+      "source_url": "https://www.wikidata.org/wiki/Q22444419"
+    }
+  ],
+  "attributes": {}
+}

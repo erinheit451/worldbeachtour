@@ -1,0 +1,46 @@
+{
+  "slug": "schlei-lindaunis",
+  "name": "SCHLEI;LINDAUNIS",
+  "centroid_lat": 54.5923,
+  "centroid_lng": 9.8285,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/503810784",
+      "source_url": "https://www.openstreetmap.org/way/503810784"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/503810787",
+      "source_url": "https://www.openstreetmap.org/way/503810787"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DESH_PR_0260",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DESH_PR_0260",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

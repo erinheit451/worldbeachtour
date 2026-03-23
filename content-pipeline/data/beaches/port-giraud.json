@@ -1,0 +1,80 @@
+{
+  "slug": "port-giraud",
+  "name": "PORT GIRAUD",
+  "centroid_lat": 47.15876,
+  "centroid_lng": -2.19304,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/102736260",
+      "source_url": "https://www.openstreetmap.org/way/102736260"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/102736261",
+      "source_url": "https://www.openstreetmap.org/way/102736261"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/102736266",
+      "source_url": "https://www.openstreetmap.org/way/102736266"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/102736277",
+      "source_url": "https://www.openstreetmap.org/way/102736277"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/620930519",
+      "source_url": "https://www.openstreetmap.org/way/620930519"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/620930522",
+      "source_url": "https://www.openstreetmap.org/way/620930522"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/620930525",
+      "source_url": "https://www.openstreetmap.org/way/620930525"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/620930527",
+      "source_url": "https://www.openstreetmap.org/way/620930527"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/620930530",
+      "source_url": "https://www.openstreetmap.org/way/620930530"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/620930533",
+      "source_url": "https://www.openstreetmap.org/way/620930533"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0144126M044470",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0144126M044470",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

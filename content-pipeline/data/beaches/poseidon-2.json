@@ -1,0 +1,25 @@
+{
+  "slug": "poseidon-2",
+  "name": "Poseidon",
+  "centroid_lat": 38.0364746,
+  "centroid_lng": 14.017625,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11539939789",
+      "source_url": "https://www.openstreetmap.org/node/11539939789"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false,
+      "fee_required": true
+    }
+  }
+}

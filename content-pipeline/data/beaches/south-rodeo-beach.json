@@ -1,0 +1,34 @@
+{
+  "slug": "south-rodeo-beach",
+  "name": "South Rodeo Beach",
+  "centroid_lat": 37.8251542,
+  "centroid_lng": -122.5346766,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/968875049",
+      "source_url": "https://www.openstreetmap.org/way/968875049"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/968875060",
+      "source_url": "https://www.openstreetmap.org/way/968875060"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/11498132",
+      "source_url": "https://www.openstreetmap.org/relation/11498132"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "permissive"
+    }
+  }
+}

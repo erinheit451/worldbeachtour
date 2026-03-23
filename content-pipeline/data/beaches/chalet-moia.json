@@ -1,0 +1,46 @@
+{
+  "slug": "chalet-moia",
+  "name": "Chalet Moia",
+  "centroid_lat": 45.4855742,
+  "centroid_lng": 7.8870464,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/198974998",
+      "source_url": "https://www.openstreetmap.org/way/198974998"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/250108581",
+      "source_url": "https://www.openstreetmap.org/way/250108581"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT001001077002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT001001077002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

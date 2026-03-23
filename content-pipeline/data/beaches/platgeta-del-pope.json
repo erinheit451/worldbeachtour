@@ -1,0 +1,30 @@
+{
+  "slug": "platgeta-del-pope",
+  "name": "Platgeta del Pope",
+  "centroid_lat": 38.7993802,
+  "centroid_lng": 0.1895036,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1224900583",
+      "source_url": "https://www.openstreetmap.org/way/1224900583"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1304036797",
+      "source_url": "https://www.openstreetmap.org/way/1304036797"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28121344",
+      "source_url": "https://www.wikidata.org/wiki/Q28121344"
+    }
+  ],
+  "attributes": {}
+}

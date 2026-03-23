@@ -1,0 +1,25 @@
+{
+  "slug": "new-beach",
+  "name": "New Beach",
+  "centroid_lat": 46.3911196,
+  "centroid_lng": -82.6621094,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/259481731",
+      "source_url": "https://www.openstreetmap.org/way/259481731"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22489263",
+      "source_url": "https://www.wikidata.org/wiki/Q22489263"
+    }
+  ],
+  "attributes": {}
+}

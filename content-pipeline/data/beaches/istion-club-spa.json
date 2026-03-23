@@ -1,0 +1,30 @@
+{
+  "slug": "istion-club-spa",
+  "name": "Istion Club & Spa",
+  "centroid_lat": 40.2132872,
+  "centroid_lng": 23.3194363,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1243980317",
+      "source_url": "https://www.openstreetmap.org/way/1243980317"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1243984193",
+      "source_url": "https://www.openstreetmap.org/way/1243984193"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53630256",
+      "source_url": "https://www.wikidata.org/wiki/Q53630256"
+    }
+  ],
+  "attributes": {}
+}

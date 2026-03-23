@@ -1,0 +1,30 @@
+{
+  "slug": "badestelle-rosiener-see",
+  "name": "BADESTELLE ROSIENER SEE",
+  "centroid_lat": 53.2923,
+  "centroid_lng": 10.9529,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DENI_PR_TK25_2731_03",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DENI_PR_TK25_2731_03",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

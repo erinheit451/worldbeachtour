@@ -1,0 +1,32 @@
+{
+  "slug": "penhorn-lake-beach",
+  "name": "Penhorn Lake Beach",
+  "centroid_lat": 44.67524,
+  "centroid_lng": -63.53969,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/7444811",
+      "source_url": "https://www.openstreetmap.org/relation/7444811"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22512415",
+      "source_url": "https://www.wikidata.org/wiki/Q22512415"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

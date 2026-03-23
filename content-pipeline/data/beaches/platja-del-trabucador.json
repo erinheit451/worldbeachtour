@@ -1,0 +1,30 @@
+{
+  "slug": "platja-del-trabucador",
+  "name": "Platja del Trabucador",
+  "centroid_lat": 40.6091835,
+  "centroid_lng": 0.7250987,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/14500384",
+      "source_url": "https://www.openstreetmap.org/relation/14500384"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q17606893",
+      "source_url": "https://www.wikidata.org/wiki/Q17606893"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20del%20Trabucador%20-%20panoramio.jpg"
+    }
+  }
+}

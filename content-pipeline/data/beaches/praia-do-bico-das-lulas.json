@@ -1,0 +1,29 @@
+{
+  "slug": "praia-do-bico-das-lulas",
+  "name": "Praia do Bico das Lulas",
+  "centroid_lat": 38.485372,
+  "centroid_lng": -8.9063777,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/9713905",
+      "source_url": "https://www.openstreetmap.org/relation/9713905"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q107429548",
+      "source_url": "https://www.wikidata.org/wiki/Q107429548"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

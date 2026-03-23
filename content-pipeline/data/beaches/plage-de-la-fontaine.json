@@ -1,0 +1,35 @@
+{
+  "slug": "plage-de-la-fontaine",
+  "name": "Plage de la Fontaine",
+  "centroid_lat": 43.3923218,
+  "centroid_lng": 3.6610414,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/20492987",
+      "source_url": "https://www.openstreetmap.org/way/20492987"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ1334301M034115",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ1334301M034115",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

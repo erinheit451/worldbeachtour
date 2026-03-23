@@ -1,0 +1,24 @@
+{
+  "slug": "praia-do-pego",
+  "name": "Praia do Pêgo",
+  "centroid_lat": 38.2922388,
+  "centroid_lng": -8.7789274,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/197531412",
+      "source_url": "https://www.openstreetmap.org/way/197531412"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

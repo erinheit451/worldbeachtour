@@ -1,0 +1,27 @@
+{
+  "slug": "bezeredj-strand",
+  "name": "Bezerédj strand",
+  "centroid_lat": 47.0189963,
+  "centroid_lng": 18.1437337,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/3845355",
+      "source_url": "https://www.openstreetmap.org/relation/3845355"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": "interval"
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

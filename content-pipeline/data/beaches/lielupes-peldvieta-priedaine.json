@@ -1,0 +1,30 @@
+{
+  "slug": "lielupes-peldvieta-priedaine",
+  "name": "LIELUPES PELDVIETA PRIEDAINE",
+  "centroid_lat": 56.9797,
+  "centroid_lng": 23.89476,
+  "country_code": "LV",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "LV00713000013",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "LV00713000013",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

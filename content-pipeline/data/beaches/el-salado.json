@@ -1,0 +1,45 @@
+{
+  "slug": "el-salado",
+  "name": "El Salado",
+  "centroid_lat": 23.0394503,
+  "centroid_lng": -82.6052789,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/3837464249",
+      "source_url": "https://www.openstreetmap.org/node/3837464249"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/477152775",
+      "source_url": "https://www.openstreetmap.org/way/477152775"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/477216643",
+      "source_url": "https://www.openstreetmap.org/way/477216643"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/603518483",
+      "source_url": "https://www.openstreetmap.org/way/603518483"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/938225139",
+      "source_url": "https://www.openstreetmap.org/way/938225139"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23789680",
+      "source_url": "https://www.wikidata.org/wiki/Q23789680"
+    }
+  ],
+  "attributes": {}
+}

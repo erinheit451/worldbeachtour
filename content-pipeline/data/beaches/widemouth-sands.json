@@ -1,0 +1,29 @@
+{
+  "slug": "widemouth-sands",
+  "name": "Widemouth Sands",
+  "centroid_lat": 50.7902586,
+  "centroid_lng": -4.5586543,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/174303166",
+      "source_url": "https://www.openstreetmap.org/way/174303166"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q116883840",
+      "source_url": "https://www.wikidata.org/wiki/Q116883840"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Northern%20Beach%20on%20Widemouth%20Sand%20-%20geograph.org.uk%20-%201494895.jpg"
+    }
+  }
+}

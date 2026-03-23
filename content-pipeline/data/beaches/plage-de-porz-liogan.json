@@ -1,0 +1,43 @@
+{
+  "slug": "plage-de-porz-liogan",
+  "name": "Plage de Porz Liogan",
+  "centroid_lat": 48.3472314,
+  "centroid_lng": -4.7705785,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/135074651",
+      "source_url": "https://www.openstreetmap.org/way/135074651"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322667",
+      "source_url": "https://www.wikidata.org/wiki/Q49322667"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229040M029480",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229040M029480",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Le%20Conquet%2001%20La%20gr%C3%A8ve%20de%20Porsliogan.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

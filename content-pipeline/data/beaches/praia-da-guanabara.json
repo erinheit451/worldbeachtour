@@ -1,0 +1,25 @@
+{
+  "slug": "praia-da-guanabara",
+  "name": "Praia da Guanabara",
+  "centroid_lat": -22.793548,
+  "centroid_lng": -43.1685923,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1202006161",
+      "source_url": "https://www.openstreetmap.org/way/1202006161"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10352609",
+      "source_url": "https://www.wikidata.org/wiki/Q10352609"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "shingles",
+  "name": "Shingles",
+  "centroid_lat": 54.9808366,
+  "centroid_lng": -1.7460388,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "rock",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1280222473",
+      "source_url": "https://www.openstreetmap.org/way/1280222473"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1280222474",
+      "source_url": "https://www.openstreetmap.org/way/1280222474"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

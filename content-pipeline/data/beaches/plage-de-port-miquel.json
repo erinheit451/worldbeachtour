@@ -1,0 +1,46 @@
+{
+  "slug": "plage-de-port-miquel",
+  "name": "Plage de Port Miquel",
+  "centroid_lat": 47.5967548,
+  "centroid_lng": -2.8412958,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/414770176",
+      "source_url": "https://www.openstreetmap.org/way/414770176"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q3390857",
+      "source_url": "https://www.wikidata.org/wiki/Q3390857"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0456087M056395",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0456087M056395",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plage%20port%20Miquel.JPG"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

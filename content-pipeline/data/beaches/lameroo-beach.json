@@ -1,0 +1,30 @@
+{
+  "slug": "lameroo-beach",
+  "name": "Lameroo Beach",
+  "centroid_lat": -12.4651927,
+  "centroid_lng": 130.8386362,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/4976901245",
+      "source_url": "https://www.openstreetmap.org/node/4976901245"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956604",
+      "source_url": "https://www.wikidata.org/wiki/Q21956604"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sunset%2C%20Darwin%20Harbour%2C%202023%20%2801%29.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Lameroo_Beach"
+    }
+  }
+}

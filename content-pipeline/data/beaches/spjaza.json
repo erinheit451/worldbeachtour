@@ -1,0 +1,33 @@
+{
+  "slug": "spjaza",
+  "name": "Spjaža",
+  "centroid_lat": 44.5103486,
+  "centroid_lng": 14.3089045,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/229296083",
+      "source_url": "https://www.openstreetmap.org/way/229296083"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited",
+      "fee_required": false,
+      "access": "yes"
+    },
+    "social": {
+      "dog_friendly": false,
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

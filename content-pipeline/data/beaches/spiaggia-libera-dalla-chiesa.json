@@ -1,0 +1,147 @@
+{
+  "slug": "spiaggia-libera-dalla-chiesa",
+  "name": "Spiaggia libera dalla chiesa",
+  "centroid_lat": 44.3890951,
+  "centroid_lng": 8.6474551,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/94232778",
+      "source_url": "https://www.openstreetmap.org/way/94232778"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/94232782",
+      "source_url": "https://www.openstreetmap.org/way/94232782"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/94232798",
+      "source_url": "https://www.openstreetmap.org/way/94232798"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/187657509",
+      "source_url": "https://www.openstreetmap.org/way/187657509"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/187657510",
+      "source_url": "https://www.openstreetmap.org/way/187657510"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/187657511",
+      "source_url": "https://www.openstreetmap.org/way/187657511"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/187657514",
+      "source_url": "https://www.openstreetmap.org/way/187657514"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/187657516",
+      "source_url": "https://www.openstreetmap.org/way/187657516"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/187657517",
+      "source_url": "https://www.openstreetmap.org/way/187657517"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/187657519",
+      "source_url": "https://www.openstreetmap.org/way/187657519"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/187678109",
+      "source_url": "https://www.openstreetmap.org/way/187678109"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/188203806",
+      "source_url": "https://www.openstreetmap.org/way/188203806"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/188203807",
+      "source_url": "https://www.openstreetmap.org/way/188203807"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/270526240",
+      "source_url": "https://www.openstreetmap.org/way/270526240"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/270526241",
+      "source_url": "https://www.openstreetmap.org/way/270526241"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/270526258",
+      "source_url": "https://www.openstreetmap.org/way/270526258"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/270526659",
+      "source_url": "https://www.openstreetmap.org/way/270526659"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/270527152",
+      "source_url": "https://www.openstreetmap.org/way/270527152"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/438343037",
+      "source_url": "https://www.openstreetmap.org/way/438343037"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/624226064",
+      "source_url": "https://www.openstreetmap.org/way/624226064"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010017002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010017003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010017002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010017003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

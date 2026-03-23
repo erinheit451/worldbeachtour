@@ -1,0 +1,29 @@
+{
+  "slug": "banana-beach-3",
+  "name": "Banana Beach",
+  "centroid_lat": 8.0419675,
+  "centroid_lng": 98.2762751,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/479662723",
+      "source_url": "https://www.openstreetmap.org/way/479662723"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q110518315",
+      "source_url": "https://www.wikidata.org/wiki/Q110518315"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Banana%20beach%20Phuket%202017%20-%2005.jpg"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "plage-de-la-greve-bleue",
+  "name": "Plage de la Grève Bleue",
+  "centroid_lat": 48.3430992,
+  "centroid_lng": -4.771712,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/235223580",
+      "source_url": "https://www.openstreetmap.org/way/235223580"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49321700",
+      "source_url": "https://www.wikidata.org/wiki/Q49321700"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/414%20Gr%C3%A8ve%20bleue.jpg"
+    }
+  }
+}

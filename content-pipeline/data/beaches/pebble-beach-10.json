@@ -1,0 +1,30 @@
+{
+  "slug": "pebble-beach-10",
+  "name": "Pebble Beach",
+  "centroid_lat": 42.6355327,
+  "centroid_lng": -70.6011558,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/81606907",
+      "source_url": "https://www.openstreetmap.org/way/81606907"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/81981673",
+      "source_url": "https://www.openstreetmap.org/way/81981673"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320297",
+      "source_url": "https://www.wikidata.org/wiki/Q49320297"
+    }
+  ],
+  "attributes": {}
+}

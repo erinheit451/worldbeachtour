@@ -1,0 +1,35 @@
+{
+  "slug": "camping-bungalowpark-de-papillon",
+  "name": "CAMPING & BUNGALOWPARK DE PAPILLON",
+  "centroid_lat": 52.39548,
+  "centroid_lng": 7.04655,
+  "country_code": "NL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/46183859",
+      "source_url": "https://www.openstreetmap.org/way/46183859"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW44_32-010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW44_32-010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

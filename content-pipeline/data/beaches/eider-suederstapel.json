@@ -1,0 +1,39 @@
+{
+  "slug": "eider-suederstapel",
+  "name": "EIDER;SUEDERSTAPEL",
+  "centroid_lat": 54.3475,
+  "centroid_lng": 9.2265,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/177217645",
+      "source_url": "https://www.openstreetmap.org/way/177217645"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DESH_PR_0273",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DESH_PR_0273",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited",
+      "access": "no"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

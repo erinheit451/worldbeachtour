@@ -1,0 +1,25 @@
+{
+  "slug": "parksville-beach",
+  "name": "Parksville Beach",
+  "centroid_lat": 35.1038425,
+  "centroid_lng": -84.6318572,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/356895455",
+      "source_url": "https://www.openstreetmap.org/node/356895455"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322462",
+      "source_url": "https://www.wikidata.org/wiki/Q49322462"
+    }
+  ],
+  "attributes": {}
+}

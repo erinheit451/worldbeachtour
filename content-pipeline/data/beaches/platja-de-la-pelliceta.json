@@ -1,0 +1,29 @@
+{
+  "slug": "platja-de-la-pelliceta",
+  "name": "Platja de la Pelliceta",
+  "centroid_lat": 41.1689035,
+  "centroid_lng": 1.4826575,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/12046417",
+      "source_url": "https://www.openstreetmap.org/relation/12046417"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28121302",
+      "source_url": "https://www.wikidata.org/wiki/Q28121302"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/61%20El%20Roc%20de%20Sant%20Gaiet%C3%A0%20%28Roda%20de%20Ber%C3%A0%29%2C%20illot%20del%20Cupot%20i%20platja%20de%20la%20Pallisseta.jpg"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "panormo-limni-1",
+  "name": "PANORMO - LIMNI",
+  "centroid_lat": 35.4193,
+  "centroid_lng": 24.6881,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/360520477",
+      "source_url": "https://www.openstreetmap.org/way/360520477"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/360522940",
+      "source_url": "https://www.openstreetmap.org/way/360522940"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53633286",
+      "source_url": "https://www.wikidata.org/wiki/Q53633286"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139317081101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139317081101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "customers"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

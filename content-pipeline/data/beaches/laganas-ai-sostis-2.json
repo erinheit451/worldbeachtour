@@ -1,0 +1,45 @@
+{
+  "slug": "laganas-ai-sostis-2",
+  "name": "LAGANAS - AI SOSTIS 2",
+  "centroid_lat": 37.7165,
+  "centroid_lng": 20.8621,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/79263306",
+      "source_url": "https://www.openstreetmap.org/way/79263306"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/718590345",
+      "source_url": "https://www.openstreetmap.org/way/718590345"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/718590346",
+      "source_url": "https://www.openstreetmap.org/way/718590346"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW029116051101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW029116051101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

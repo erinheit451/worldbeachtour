@@ -1,0 +1,46 @@
+{
+  "slug": "badestelle-sud",
+  "name": "Badestelle Süd",
+  "centroid_lat": 53.4313193,
+  "centroid_lng": 10.1145213,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6731334589",
+      "source_url": "https://www.openstreetmap.org/node/6731334589"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/285876793",
+      "source_url": "https://www.openstreetmap.org/way/285876793"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEHH_PR_5900_102606003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEHH_PR_5900_102606003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

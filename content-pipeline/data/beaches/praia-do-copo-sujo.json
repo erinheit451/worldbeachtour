@@ -1,0 +1,25 @@
+{
+  "slug": "praia-do-copo-sujo",
+  "name": "Praia do Copo Sujo",
+  "centroid_lat": -15.8142142,
+  "centroid_lng": -43.2990176,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/13002720789",
+      "source_url": "https://www.openstreetmap.org/node/13002720789"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1453566089",
+      "source_url": "https://www.openstreetmap.org/way/1453566089"
+    }
+  ],
+  "attributes": {}
+}

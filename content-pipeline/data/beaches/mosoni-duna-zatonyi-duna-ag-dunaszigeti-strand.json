@@ -1,0 +1,30 @@
+{
+  "slug": "mosoni-duna-zatonyi-duna-ag-dunaszigeti-strand",
+  "name": "MOSONI-DUNA ZATONYI DUNA-AG  DUNASZIGETI STRAND",
+  "centroid_lat": 47.95114,
+  "centroid_lng": 17.34614,
+  "country_code": "HU",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_00802",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_00802",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

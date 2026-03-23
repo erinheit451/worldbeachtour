@@ -1,0 +1,27 @@
+{
+  "slug": "shty-hwry-lbhr-2",
+  "name": "شاطئ حورية البحر 2",
+  "centroid_lat": 36.7465438,
+  "centroid_lng": 3.1791364,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/400790267",
+      "source_url": "https://www.openstreetmap.org/way/400790267"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

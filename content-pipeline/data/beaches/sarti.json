@@ -1,0 +1,70 @@
+{
+  "slug": "sarti",
+  "name": "SARTI",
+  "centroid_lat": 40.0913,
+  "centroid_lng": 23.9805,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/812547405",
+      "source_url": "https://www.openstreetmap.org/way/812547405"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/812547406",
+      "source_url": "https://www.openstreetmap.org/way/812547406"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/812547407",
+      "source_url": "https://www.openstreetmap.org/way/812547407"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/812548161",
+      "source_url": "https://www.openstreetmap.org/way/812548161"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/812548162",
+      "source_url": "https://www.openstreetmap.org/way/812548162"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/812548163",
+      "source_url": "https://www.openstreetmap.org/way/812548163"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/812548164",
+      "source_url": "https://www.openstreetmap.org/way/812548164"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53630291",
+      "source_url": "https://www.wikidata.org/wiki/Q53630291"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109060082101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109060082101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "cales-coves",
+  "name": "Cales Coves",
+  "centroid_lat": 39.86493357,
+  "centroid_lng": 4.14591355,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/119217027",
+      "source_url": "https://www.openstreetmap.org/way/119217027"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/119217029",
+      "source_url": "https://www.openstreetmap.org/way/119217029"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q8255207",
+      "source_url": "https://www.wikidata.org/wiki/Q8255207"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Calas%20Coves%20%28Menorca%29.JPG"
+    }
+  }
+}

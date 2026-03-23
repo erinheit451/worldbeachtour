@@ -1,0 +1,33 @@
+{
+  "slug": "lido-di-fido",
+  "name": "Lido di Fido",
+  "centroid_lat": 45.6775845,
+  "centroid_lng": 13.4090826,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/975487454",
+      "source_url": "https://www.openstreetmap.org/way/975487454"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33343160",
+      "source_url": "https://www.wikidata.org/wiki/Q33343160"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true,
+      "nudist": false
+    },
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

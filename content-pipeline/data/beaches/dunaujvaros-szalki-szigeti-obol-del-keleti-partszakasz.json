@@ -1,0 +1,35 @@
+{
+  "slug": "dunaujvaros-szalki-szigeti-obol-del-keleti-partszakasz",
+  "name": "DUNAUJVAROS  SZALKI-SZIGETI OBOL  DEL-KELETI PARTSZAKASZ",
+  "centroid_lat": 46.983,
+  "centroid_lng": 18.94177,
+  "country_code": "HU",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1396502924",
+      "source_url": "https://www.openstreetmap.org/way/1396502924"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_00716",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_00716",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

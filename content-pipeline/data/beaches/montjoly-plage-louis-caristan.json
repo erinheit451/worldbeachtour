@@ -1,0 +1,30 @@
+{
+  "slug": "montjoly-plage-louis-caristan",
+  "name": "MONTJOLY-PLAGE LOUIS CARISTAN",
+  "centroid_lat": 4.91796,
+  "centroid_lng": -52.26739,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRY3097309M973130",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRY3097309M973130",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

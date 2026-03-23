@@ -1,0 +1,36 @@
+{
+  "slug": "plaza-bagry",
+  "name": "Plaża Bagry",
+  "centroid_lat": 50.034109,
+  "centroid_lng": 19.9933468,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/426435314",
+      "source_url": "https://www.openstreetmap.org/way/426435314"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/709342891",
+      "source_url": "https://www.openstreetmap.org/way/709342891"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": "Jul-Aug"
+    },
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

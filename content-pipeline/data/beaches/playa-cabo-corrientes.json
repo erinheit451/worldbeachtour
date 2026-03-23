@@ -1,0 +1,35 @@
+{
+  "slug": "playa-cabo-corrientes",
+  "name": "Playa Cabo Corrientes",
+  "centroid_lat": -38.0163237,
+  "centroid_lng": -57.5263246,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/13003356833",
+      "source_url": "https://www.openstreetmap.org/node/13003356833"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/13003356861",
+      "source_url": "https://www.openstreetmap.org/node/13003356861"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/13003356862",
+      "source_url": "https://www.openstreetmap.org/node/13003356862"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/315189092",
+      "source_url": "https://www.openstreetmap.org/way/315189092"
+    }
+  ],
+  "attributes": {}
+}

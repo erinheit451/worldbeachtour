@@ -1,0 +1,29 @@
+{
+  "slug": "gallagher-beach-1",
+  "name": "Gallagher Beach",
+  "centroid_lat": 33.3705826,
+  "centroid_lng": -118.3486716,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/7125408",
+      "source_url": "https://www.openstreetmap.org/relation/7125408"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320777",
+      "source_url": "https://www.wikidata.org/wiki/Q49320777"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "private"
+    }
+  }
+}

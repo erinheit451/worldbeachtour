@@ -1,0 +1,48 @@
+{
+  "slug": "praia-de-rande",
+  "name": "Praia de Rande",
+  "centroid_lat": 42.2844336,
+  "centroid_lng": -8.6579313,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/363886469",
+      "source_url": "https://www.openstreetmap.org/way/363886469"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q20545999",
+      "source_url": "https://www.wikidata.org/wiki/Q20545999"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24021855",
+      "source_url": "https://www.wikidata.org/wiki/Q24021855"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES114M0452132",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES114M0452132",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20de%20Rande%2C%20Cedeira%2C%20Redondela.JPG"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

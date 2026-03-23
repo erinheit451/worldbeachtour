@@ -1,0 +1,29 @@
+{
+  "slug": "badestelle-1",
+  "name": "Badestelle",
+  "centroid_lat": 52.4322491,
+  "centroid_lng": 14.4441526,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1149615772",
+      "source_url": "https://www.openstreetmap.org/node/1149615772"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/39603010",
+      "source_url": "https://www.openstreetmap.org/way/39603010"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "nord-foce-sarno",
+  "name": "NORD FOCE SARNO",
+  "centroid_lat": 40.7382,
+  "centroid_lng": 14.4624,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/398373179",
+      "source_url": "https://www.openstreetmap.org/way/398373179"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015063083004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015063083004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "kapielisko-park-slupna",
+  "name": "Kąpielisko Park Słupna",
+  "centroid_lat": 50.22588,
+  "centroid_lng": 19.14075,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL2267001124000029",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL2267001124000029",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

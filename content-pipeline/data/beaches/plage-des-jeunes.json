@@ -1,0 +1,43 @@
+{
+  "slug": "plage-des-jeunes",
+  "name": "Plage des Jeunes",
+  "centroid_lat": 43.7030469,
+  "centroid_lng": 7.3203672,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/159148024",
+      "source_url": "https://www.openstreetmap.org/way/159148024"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1080032809",
+      "source_url": "https://www.openstreetmap.org/way/1080032809"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306159M006555",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306159M006555",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

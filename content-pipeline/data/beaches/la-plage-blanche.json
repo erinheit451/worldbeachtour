@@ -1,0 +1,58 @@
+{
+  "slug": "la-plage-blanche",
+  "name": "La Plage Blanche",
+  "centroid_lat": 43.5085123,
+  "centroid_lng": 6.940417,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11681573172",
+      "source_url": "https://www.openstreetmap.org/node/11681573172"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/175776809",
+      "source_url": "https://www.openstreetmap.org/way/175776809"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/258614765",
+      "source_url": "https://www.openstreetmap.org/way/258614765"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306138M006020",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306138M006025",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306138M006020",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306138M006025",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

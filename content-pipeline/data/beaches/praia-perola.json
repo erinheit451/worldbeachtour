@@ -1,0 +1,25 @@
+{
+  "slug": "praia-perola",
+  "name": "Praia Pérola",
+  "centroid_lat": -29.5919403,
+  "centroid_lng": -49.9136353,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5785219873",
+      "source_url": "https://www.openstreetmap.org/node/5785219873"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/545892098",
+      "source_url": "https://www.openstreetmap.org/way/545892098"
+    }
+  ],
+  "attributes": {}
+}

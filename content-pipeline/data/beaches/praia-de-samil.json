@@ -1,0 +1,30 @@
+{
+  "slug": "praia-de-samil",
+  "name": "Praia de Samil",
+  "centroid_lat": 42.2111574,
+  "centroid_lng": -8.7776855,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/31771769",
+      "source_url": "https://www.openstreetmap.org/way/31771769"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q3327655",
+      "source_url": "https://www.wikidata.org/wiki/Q3327655"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20samil.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Samil_Beach"
+    }
+  }
+}

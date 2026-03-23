@@ -1,0 +1,25 @@
+{
+  "slug": "rasca-beach",
+  "name": "Rasca beach",
+  "centroid_lat": 38.504087,
+  "centroid_lng": -8.927386,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/708920403",
+      "source_url": "https://www.openstreetmap.org/way/708920403"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q65560271",
+      "source_url": "https://www.wikidata.org/wiki/Q65560271"
+    }
+  ],
+  "attributes": {}
+}

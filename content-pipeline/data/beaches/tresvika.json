@@ -1,0 +1,25 @@
+{
+  "slug": "tresvika",
+  "name": "Tresvika",
+  "centroid_lat": 59.0374352,
+  "centroid_lng": 11.1055869,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/292314823",
+      "source_url": "https://www.openstreetmap.org/way/292314823"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/292468725",
+      "source_url": "https://www.openstreetmap.org/way/292468725"
+    }
+  ],
+  "attributes": {}
+}

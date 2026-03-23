@@ -1,0 +1,30 @@
+{
+  "slug": "rio-navia-navia-de-suarna-pm1",
+  "name": "RIO NAVIA NAVIA DE SUARNA  PM1",
+  "centroid_lat": 42.9647,
+  "centroid_lng": -7.0075,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES112C0341918",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES112C0341918",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

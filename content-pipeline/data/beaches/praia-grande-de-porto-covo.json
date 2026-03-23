@@ -1,0 +1,29 @@
+{
+  "slug": "praia-grande-de-porto-covo",
+  "name": "Praia Grande de Porto Côvo",
+  "centroid_lat": 37.8572107,
+  "centroid_lng": -8.7936078,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/957455879",
+      "source_url": "https://www.openstreetmap.org/way/957455879"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q99614722",
+      "source_url": "https://www.wikidata.org/wiki/Q99614722"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20Grande%20-%20Portugal%20%282488195107%29.jpg"
+    }
+  }
+}

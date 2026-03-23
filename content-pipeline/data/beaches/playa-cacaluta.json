@@ -1,0 +1,25 @@
+{
+  "slug": "playa-cacaluta",
+  "name": "Playa Cacaluta",
+  "centroid_lat": 15.7246458,
+  "centroid_lng": -96.1622117,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/85843023",
+      "source_url": "https://www.openstreetmap.org/way/85843023"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33330271",
+      "source_url": "https://www.wikidata.org/wiki/Q33330271"
+    }
+  ],
+  "attributes": {}
+}

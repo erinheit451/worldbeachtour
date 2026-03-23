@@ -1,0 +1,30 @@
+{
+  "slug": "kapielisko-przy-targowisku-miejskim-w-nowym-dworze-mazowieckim",
+  "name": "Kąpielisko przy Targowisku Miejskim w Nowym Dworze Mazowieckim",
+  "centroid_lat": 52.44756,
+  "centroid_lng": 20.70853,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL1261401114000056",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL1261401114000056",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

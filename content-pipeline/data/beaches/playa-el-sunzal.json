@@ -1,0 +1,25 @@
+{
+  "slug": "playa-el-sunzal",
+  "name": "Playa el Sunzal",
+  "centroid_lat": 13.4931491,
+  "centroid_lng": -89.389358,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8387300",
+      "source_url": "https://www.openstreetmap.org/relation/8387300"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31937229",
+      "source_url": "https://www.wikidata.org/wiki/Q31937229"
+    }
+  ],
+  "attributes": {}
+}

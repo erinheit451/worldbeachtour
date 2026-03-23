@@ -1,0 +1,55 @@
+{
+  "slug": "zwemstrand",
+  "name": "Zwemstrand",
+  "centroid_lat": 52.1196597,
+  "centroid_lng": 4.4661207,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/95707919",
+      "source_url": "https://www.openstreetmap.org/way/95707919"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/95708458",
+      "source_url": "https://www.openstreetmap.org/way/95708458"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/95710755",
+      "source_url": "https://www.openstreetmap.org/way/95710755"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW13_RO515",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW13_RO464",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW13_RO515",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW13_RO464",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

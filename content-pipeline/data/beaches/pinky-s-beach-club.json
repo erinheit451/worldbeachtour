@@ -1,0 +1,44 @@
+{
+  "slug": "pinky-s-beach-club",
+  "name": "Pinky's Beach Club",
+  "centroid_lat": -31.9895018,
+  "centroid_lng": 115.5388461,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9409361909",
+      "source_url": "https://www.openstreetmap.org/node/9409361909"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/31172990",
+      "source_url": "https://www.openstreetmap.org/way/31172990"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/46473373",
+      "source_url": "https://www.openstreetmap.org/way/46473373"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1041513750",
+      "source_url": "https://www.openstreetmap.org/way/1041513750"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q29789427",
+      "source_url": "https://www.wikidata.org/wiki/Q29789427"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Pinky%27s%20Bay%20Rottnest%20Island%20WA.JPG"
+    }
+  }
+}

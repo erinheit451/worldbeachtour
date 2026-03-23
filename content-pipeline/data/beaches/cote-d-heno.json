@@ -1,0 +1,35 @@
+{
+  "slug": "cote-d-heno",
+  "name": "COTE D HENO",
+  "centroid_lat": 47.64423,
+  "centroid_lng": -3.45043,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/117578513",
+      "source_url": "https://www.openstreetmap.org/way/117578513"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0456069M056085",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0456069M056085",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

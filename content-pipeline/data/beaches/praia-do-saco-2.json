@@ -1,0 +1,25 @@
+{
+  "slug": "praia-do-saco-2",
+  "name": "Praia do Saco",
+  "centroid_lat": -22.9469747,
+  "centroid_lng": -44.0439306,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/213246423",
+      "source_url": "https://www.openstreetmap.org/way/213246423"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22068780",
+      "source_url": "https://www.wikidata.org/wiki/Q22068780"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "templetown-bay-beach",
+  "name": "Templetown Bay Beach",
+  "centroid_lat": 52.1786163,
+  "centroid_lng": -6.9014119,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/96151846",
+      "source_url": "https://www.openstreetmap.org/way/96151846"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/252476878",
+      "source_url": "https://www.openstreetmap.org/way/252476878"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/252476879",
+      "source_url": "https://www.openstreetmap.org/way/252476879"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "praia-da-galheta-1",
+  "name": "Praia da Galheta",
+  "centroid_lat": -27.5934845,
+  "centroid_lng": -48.4245057,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/6455058",
+      "source_url": "https://www.openstreetmap.org/relation/6455058"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q2150203",
+      "source_url": "https://www.wikidata.org/wiki/Q2150203"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monumento%20Natural%20Municipal%20da%20Galheta%20jaideraf%20%2809%29.jpg"
+    }
+  }
+}

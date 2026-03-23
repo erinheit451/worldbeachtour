@@ -1,0 +1,30 @@
+{
+  "slug": "playa-muelle-el-garachico-pm1",
+  "name": "PLAYA MUELLE (EL) -GARACHICO PM1",
+  "centroid_lat": 28.371,
+  "centroid_lng": -16.768,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES709M0152593",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES709M0152593",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

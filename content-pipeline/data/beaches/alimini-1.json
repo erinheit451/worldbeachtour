@@ -1,0 +1,39 @@
+{
+  "slug": "alimini-1",
+  "name": "Alimini",
+  "centroid_lat": 40.2011703,
+  "centroid_lng": 18.4592001,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/359667847",
+      "source_url": "https://www.openstreetmap.org/way/359667847"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33325115",
+      "source_url": "https://www.wikidata.org/wiki/Q33325115"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33333569",
+      "source_url": "https://www.wikidata.org/wiki/Q33333569"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q115933381",
+      "source_url": "https://www.wikidata.org/wiki/Q115933381"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Spiaggia%20Alimini.jpg"
+    }
+  }
+}

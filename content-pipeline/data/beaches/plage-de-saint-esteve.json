@@ -1,0 +1,70 @@
+{
+  "slug": "plage-de-saint-esteve",
+  "name": "Plage de Saint-Estève",
+  "centroid_lat": 43.284154,
+  "centroid_lng": 5.3160627,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/28392530",
+      "source_url": "https://www.openstreetmap.org/way/28392530"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/169579348",
+      "source_url": "https://www.openstreetmap.org/way/169579348"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/554047624",
+      "source_url": "https://www.openstreetmap.org/way/554047624"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1119211662",
+      "source_url": "https://www.openstreetmap.org/way/1119211662"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1119211663",
+      "source_url": "https://www.openstreetmap.org/way/1119211663"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1119211664",
+      "source_url": "https://www.openstreetmap.org/way/1119211664"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1119211665",
+      "source_url": "https://www.openstreetmap.org/way/1119211665"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1119211666",
+      "source_url": "https://www.openstreetmap.org/way/1119211666"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0413055M013390",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0413055M013390",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

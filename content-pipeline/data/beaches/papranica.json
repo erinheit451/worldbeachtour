@@ -1,0 +1,24 @@
+{
+  "slug": "papranica",
+  "name": "Papranica",
+  "centroid_lat": 44.3909934,
+  "centroid_lng": 14.6792349,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8301234",
+      "source_url": "https://www.openstreetmap.org/relation/8301234"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

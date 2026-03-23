@@ -1,0 +1,30 @@
+{
+  "slug": "v-a-nedsjon-nedflo",
+  "name": "V:A NEDSJÖN, NEDFLO",
+  "centroid_lat": 57.7265,
+  "centroid_lng": 12.4662,
+  "country_code": "SE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0A21443000003854",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0A21443000003854",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

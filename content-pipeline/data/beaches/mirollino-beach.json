@@ -1,0 +1,25 @@
+{
+  "slug": "mirollino-beach",
+  "name": "Mirollino Beach",
+  "centroid_lat": 42.9459528,
+  "centroid_lng": 10.6931868,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10717855627",
+      "source_url": "https://www.openstreetmap.org/node/10717855627"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33327695",
+      "source_url": "https://www.wikidata.org/wiki/Q33327695"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "evitskogin-uimaranta",
+  "name": "Evitskogin uimaranta",
+  "centroid_lat": 60.1914774,
+  "centroid_lng": 24.3397639,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/798995297",
+      "source_url": "https://www.openstreetmap.org/node/798995297"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/449369709",
+      "source_url": "https://www.openstreetmap.org/way/449369709"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI112570003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI112570003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

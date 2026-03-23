@@ -1,0 +1,60 @@
+{
+  "slug": "plage-d-ondres",
+  "name": "Plage d'Ondres",
+  "centroid_lat": 43.5773364,
+  "centroid_lng": -1.4883799,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5527908280",
+      "source_url": "https://www.openstreetmap.org/node/5527908280"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/552158217",
+      "source_url": "https://www.openstreetmap.org/way/552158217"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q42172663",
+      "source_url": "https://www.wikidata.org/wiki/Q42172663"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322561",
+      "source_url": "https://www.wikidata.org/wiki/Q49322561"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1340209M040140",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1340209M040140",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plage%20d%27Ondres.JPG"
+    },
+    "facilities": {
+      "wheelchair_access": "limited"
+    },
+    "safety": {
+      "lifeguard": "Jun 12-Jul 02,Aug 30-Sep 12: 12:00-18:30;Jul 03-Aug 29: 11:00-19:00"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

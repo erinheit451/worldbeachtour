@@ -1,0 +1,41 @@
+{
+  "slug": "holzener-see-kiez-holzener-see-grabendorf",
+  "name": "HÖLZENER SEE, KIEZ \"HÖLZENER SEE\", GRÄBENDORF",
+  "centroid_lat": 52.1973,
+  "centroid_lng": 13.7076,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/437426707",
+      "source_url": "https://www.openstreetmap.org/way/437426707"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBB_PR_0048",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBB_PR_0048",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "customers"
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

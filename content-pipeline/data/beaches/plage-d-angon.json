@@ -1,0 +1,36 @@
+{
+  "slug": "plage-d-angon",
+  "name": "Plage d'Angon",
+  "centroid_lat": 45.8231441,
+  "centroid_lng": 6.2215062,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/466242040",
+      "source_url": "https://www.openstreetmap.org/node/466242040"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/850538511",
+      "source_url": "https://www.openstreetmap.org/way/850538511"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    },
+    "facilities": {
+      "wheelchair_access": true,
+      "fee_required": "Jul-Aug 11:00-19:00"
+    },
+    "social": {
+      "dog_friendly": false
+    }
+  }
+}

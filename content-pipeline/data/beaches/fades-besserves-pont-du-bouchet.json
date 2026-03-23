@@ -1,0 +1,30 @@
+{
+  "slug": "fades-besserves-pont-du-bouchet",
+  "name": "FADES BESSERVES:PONT DU BOUCHET",
+  "centroid_lat": 45.92322,
+  "centroid_lng": 2.76873,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK1463228D063135",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK1463228D063135",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

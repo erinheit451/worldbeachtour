@@ -1,0 +1,65 @@
+{
+  "slug": "corso-trento-e-trieste",
+  "name": "CORSO TRENTO E TRIESTE",
+  "centroid_lat": 43.8184,
+  "centroid_lng": 7.7829,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7206666281",
+      "source_url": "https://www.openstreetmap.org/node/7206666281"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7206666282",
+      "source_url": "https://www.openstreetmap.org/node/7206666282"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7207039609",
+      "source_url": "https://www.openstreetmap.org/node/7207039609"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7207039610",
+      "source_url": "https://www.openstreetmap.org/node/7207039610"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/684742426",
+      "source_url": "https://www.openstreetmap.org/way/684742426"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/764844330",
+      "source_url": "https://www.openstreetmap.org/way/764844330"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33340798",
+      "source_url": "https://www.wikidata.org/wiki/Q33340798"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007008055005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007008055005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

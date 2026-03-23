@@ -1,0 +1,25 @@
+{
+  "slug": "zeleni-vir",
+  "name": "Зелени вир",
+  "centroid_lat": 43.7340233,
+  "centroid_lng": 19.9313332,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/13078266511",
+      "source_url": "https://www.openstreetmap.org/node/13078266511"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/13078266512",
+      "source_url": "https://www.openstreetmap.org/node/13078266512"
+    }
+  ],
+  "attributes": {}
+}

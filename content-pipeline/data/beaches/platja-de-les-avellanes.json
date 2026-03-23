@@ -1,0 +1,63 @@
+{
+  "slug": "platja-de-les-avellanes",
+  "name": "Platja de les Avellanes",
+  "centroid_lat": 40.8124216,
+  "centroid_lng": 0.7147832,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/14507821",
+      "source_url": "https://www.openstreetmap.org/relation/14507821"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14507823",
+      "source_url": "https://www.openstreetmap.org/relation/14507823"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14508886",
+      "source_url": "https://www.openstreetmap.org/relation/14508886"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28121185",
+      "source_url": "https://www.wikidata.org/wiki/Q28121185"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q123186282",
+      "source_url": "https://www.wikidata.org/wiki/Q123186282"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q130332632",
+      "source_url": "https://www.wikidata.org/wiki/Q130332632"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES514M906862",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES514M906862",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platja%20dels%20Capellans%20-%20panoramio.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Transitional"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "barafundle-bay",
+  "name": "Barafundle Bay",
+  "centroid_lat": 51.6184883,
+  "centroid_lng": -4.9028374,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/3430105",
+      "source_url": "https://www.openstreetmap.org/relation/3430105"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q4858166",
+      "source_url": "https://www.wikidata.org/wiki/Q4858166"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/BarafundleBeach%20StackpoleEstate%20WalesUK.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Barafundle_Bay"
+    }
+  }
+}

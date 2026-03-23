@@ -1,0 +1,56 @@
+{
+  "slug": "spiagge-san-pietro",
+  "name": "Spiagge San Pietro",
+  "centroid_lat": 39.2075023,
+  "centroid_lng": 9.5655295,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/236975150",
+      "source_url": "https://www.openstreetmap.org/way/236975150"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/319609153",
+      "source_url": "https://www.openstreetmap.org/way/319609153"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/367227841",
+      "source_url": "https://www.openstreetmap.org/way/367227841"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33336615",
+      "source_url": "https://www.wikidata.org/wiki/Q33336615"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020092106002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020092106002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sant%27Elmo%20-%20Spiaggia%20-%20panoramio.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

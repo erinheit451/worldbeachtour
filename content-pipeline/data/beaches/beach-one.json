@@ -1,0 +1,24 @@
+{
+  "slug": "beach-one",
+  "name": "Beach one",
+  "centroid_lat": 40.682335,
+  "centroid_lng": 17.8888604,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1117422840",
+      "source_url": "https://www.openstreetmap.org/way/1117422840"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "paengarehia-twilight-beach",
+  "name": "Paengarēhia / Twilight Beach",
+  "centroid_lat": -34.4979563,
+  "centroid_lng": 172.6926295,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/10178576",
+      "source_url": "https://www.openstreetmap.org/relation/10178576"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49325080",
+      "source_url": "https://www.wikidata.org/wiki/Q49325080"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Twilight%20Beach.jpg"
+    }
+  }
+}

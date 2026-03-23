@@ -1,0 +1,51 @@
+{
+  "slug": "playa-la-rada-pm2",
+  "name": "PLAYA  LA RADA  PM2",
+  "centroid_lat": 36.4218,
+  "centroid_lng": -5.1476,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1302061490",
+      "source_url": "https://www.openstreetmap.org/way/1302061490"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1302061491",
+      "source_url": "https://www.openstreetmap.org/way/1302061491"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24023650",
+      "source_url": "https://www.wikidata.org/wiki/Q24023650"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617M0511512",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617M0511512",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/La%20Rada%20Beach.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

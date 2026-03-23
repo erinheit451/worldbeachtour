@@ -1,0 +1,25 @@
+{
+  "slug": "hubbard-s-beach",
+  "name": "Hubbard's Beach",
+  "centroid_lat": 27.7842311,
+  "centroid_lng": -82.782387,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7029159397",
+      "source_url": "https://www.openstreetmap.org/node/7029159397"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/267254769",
+      "source_url": "https://www.openstreetmap.org/way/267254769"
+    }
+  ],
+  "attributes": {}
+}

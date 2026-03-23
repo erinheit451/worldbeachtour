@@ -1,0 +1,35 @@
+{
+  "slug": "rio-nela-villarcayo-de-merindad-de-castilla-la-vieja-pm1",
+  "name": "RIO NELA VILLARCAYO DE MERINDAD DE CASTILLA LA VIEJA PM1",
+  "centroid_lat": 42.9428,
+  "centroid_lng": -3.5748,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/183161329",
+      "source_url": "https://www.openstreetmap.org/way/183161329"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES412C9032714",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES412C9032714",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

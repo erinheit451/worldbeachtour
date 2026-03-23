@@ -1,0 +1,25 @@
+{
+  "slug": "pistohiekka",
+  "name": "Pistohiekka",
+  "centroid_lat": 61.5603956,
+  "centroid_lng": 28.0025206,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/795269350",
+      "source_url": "https://www.openstreetmap.org/way/795269350"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q109016515",
+      "source_url": "https://www.wikidata.org/wiki/Q109016515"
+    }
+  ],
+  "attributes": {}
+}

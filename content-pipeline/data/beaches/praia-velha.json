@@ -1,0 +1,29 @@
+{
+  "slug": "praia-velha",
+  "name": "Praia Velha",
+  "centroid_lat": 38.6930465,
+  "centroid_lng": -9.2915902,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/98821153",
+      "source_url": "https://www.openstreetmap.org/way/98821153"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q111631939",
+      "source_url": "https://www.wikidata.org/wiki/Q111631939"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20Velha%20Pa%C3%A7o%20de%20Arcos%2000.jpg"
+    }
+  }
+}

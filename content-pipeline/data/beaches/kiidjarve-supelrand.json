@@ -1,0 +1,30 @@
+{
+  "slug": "kiidjarve-supelrand",
+  "name": "Kiidjärve supelrand",
+  "centroid_lat": 58.1369282,
+  "centroid_lng": 27.0109238,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1175296608",
+      "source_url": "https://www.openstreetmap.org/way/1175296608"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

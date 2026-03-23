@@ -1,0 +1,29 @@
+{
+  "slug": "praia-da-lagoinha-do-leste",
+  "name": "Praia da Lagoinha do Leste",
+  "centroid_lat": -27.7738953,
+  "centroid_lng": -48.48549,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/6442368",
+      "source_url": "https://www.openstreetmap.org/relation/6442368"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q2120707",
+      "source_url": "https://www.wikidata.org/wiki/Q2120707"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Morro%20Da%20Coroa%20Praia%20Lagoinha%20Do%20Leste%20%28242401955%29.jpeg"
+    }
+  }
+}

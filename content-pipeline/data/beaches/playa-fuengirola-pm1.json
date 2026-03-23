@@ -1,0 +1,43 @@
+{
+  "slug": "playa-fuengirola-pm1",
+  "name": "PLAYA  FUENGIROLA PM1",
+  "centroid_lat": 36.5383,
+  "centroid_lng": -4.62,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24024671",
+      "source_url": "https://www.wikidata.org/wiki/Q24024671"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q132496589",
+      "source_url": "https://www.wikidata.org/wiki/Q132496589"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617M0541521",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617M0541521",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Fuengirola%20Playa%2008.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

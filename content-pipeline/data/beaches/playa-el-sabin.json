@@ -1,0 +1,35 @@
+{
+  "slug": "playa-el-sabin",
+  "name": "Playa El Sabín",
+  "centroid_lat": 43.6568614,
+  "centroid_lng": -5.853863,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/676771425",
+      "source_url": "https://www.openstreetmap.org/way/676771425"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676771546",
+      "source_url": "https://www.openstreetmap.org/way/676771546"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/723173307",
+      "source_url": "https://www.openstreetmap.org/way/723173307"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q19604148",
+      "source_url": "https://www.wikidata.org/wiki/Q19604148"
+    }
+  ],
+  "attributes": {}
+}

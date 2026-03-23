@@ -1,0 +1,40 @@
+{
+  "slug": "kulpe",
+  "name": "Kulpe",
+  "centroid_lat": 59.4842833,
+  "centroid_lng": 10.6880617,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/210685144",
+      "source_url": "https://www.openstreetmap.org/node/210685144"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/627521321",
+      "source_url": "https://www.openstreetmap.org/way/627521321"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1451306975",
+      "source_url": "https://www.openstreetmap.org/way/1451306975"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1451306976",
+      "source_url": "https://www.openstreetmap.org/way/1451306976"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1451306978",
+      "source_url": "https://www.openstreetmap.org/way/1451306978"
+    }
+  ],
+  "attributes": {}
+}

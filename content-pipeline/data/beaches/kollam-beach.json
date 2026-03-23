@@ -1,0 +1,33 @@
+{
+  "slug": "kollam-beach",
+  "name": "Kollam Beach",
+  "centroid_lat": 8.874289,
+  "centroid_lng": 76.5892033,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/101010838",
+      "source_url": "https://www.openstreetmap.org/way/101010838"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q1703689",
+      "source_url": "https://www.wikidata.org/wiki/Q1703689"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kollam%2C%20Kerala.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kollam_Beach"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "ison-kallahden-uimaranta",
+  "name": "Ison Kallahden uimaranta",
+  "centroid_lat": 60.1985634,
+  "centroid_lng": 25.1302301,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/36942935",
+      "source_url": "https://www.openstreetmap.org/way/36942935"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/36943811",
+      "source_url": "https://www.openstreetmap.org/way/36943811"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/284317925",
+      "source_url": "https://www.openstreetmap.org/way/284317925"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/284318003",
+      "source_url": "https://www.openstreetmap.org/way/284318003"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/904637096",
+      "source_url": "https://www.openstreetmap.org/way/904637096"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1064030496",
+      "source_url": "https://www.openstreetmap.org/way/1064030496"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1261975792",
+      "source_url": "https://www.openstreetmap.org/way/1261975792"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1322869217",
+      "source_url": "https://www.openstreetmap.org/way/1322869217"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1322869218",
+      "source_url": "https://www.openstreetmap.org/way/1322869218"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1322869222",
+      "source_url": "https://www.openstreetmap.org/way/1322869222"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1360849371",
+      "source_url": "https://www.openstreetmap.org/way/1360849371"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI110910020",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI110910020",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "restrooms": true,
+      "wheelchair_access": "limited"
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

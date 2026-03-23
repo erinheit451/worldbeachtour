@@ -1,0 +1,35 @@
+{
+  "slug": "plaza-5",
+  "name": "Plaža",
+  "centroid_lat": 44.0365989,
+  "centroid_lng": 15.3157033,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/626153775",
+      "source_url": "https://www.openstreetmap.org/way/626153775"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/626153778",
+      "source_url": "https://www.openstreetmap.org/way/626153778"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/830650049",
+      "source_url": "https://www.openstreetmap.org/way/830650049"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/830650050",
+      "source_url": "https://www.openstreetmap.org/way/830650050"
+    }
+  ],
+  "attributes": {}
+}

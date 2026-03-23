@@ -1,0 +1,25 @@
+{
+  "slug": "northilla-beach",
+  "name": "Northilla Beach",
+  "centroid_lat": 47.3435141,
+  "centroid_lng": -122.4598682,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/20036315",
+      "source_url": "https://www.openstreetmap.org/relation/20036315"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322310",
+      "source_url": "https://www.wikidata.org/wiki/Q49322310"
+    }
+  ],
+  "attributes": {}
+}

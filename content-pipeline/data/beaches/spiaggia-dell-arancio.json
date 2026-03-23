@@ -1,0 +1,44 @@
+{
+  "slug": "spiaggia-dell-arancio",
+  "name": "Spiaggia dell'arancio",
+  "centroid_lat": 43.4272096,
+  "centroid_lng": 10.3977381,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/458933604",
+      "source_url": "https://www.openstreetmap.org/way/458933604"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/458933656",
+      "source_url": "https://www.openstreetmap.org/way/458933656"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/458933657",
+      "source_url": "https://www.openstreetmap.org/way/458933657"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/458933672",
+      "source_url": "https://www.openstreetmap.org/way/458933672"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/458933679",
+      "source_url": "https://www.openstreetmap.org/way/458933679"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "private"
+    }
+  }
+}

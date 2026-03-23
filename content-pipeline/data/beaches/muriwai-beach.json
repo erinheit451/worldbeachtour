@@ -1,0 +1,30 @@
+{
+  "slug": "muriwai-beach",
+  "name": "Muriwai Beach",
+  "centroid_lat": -36.7239849,
+  "centroid_lng": 174.3538176,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/158849715",
+      "source_url": "https://www.openstreetmap.org/way/158849715"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q32292695",
+      "source_url": "https://www.wikidata.org/wiki/Q32292695"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": "unleashed",
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Muriwai%20Beach%20-%20reflections.jpg"
+    }
+  }
+}

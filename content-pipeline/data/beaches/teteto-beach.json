@@ -1,0 +1,25 @@
+{
+  "slug": "teteto-beach",
+  "name": "Teteto Beach",
+  "centroid_lat": 14.1728349,
+  "centroid_lng": 145.1907222,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/345415786",
+      "source_url": "https://www.openstreetmap.org/way/345415786"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q27728919",
+      "source_url": "https://www.wikidata.org/wiki/Q27728919"
+    }
+  ],
+  "attributes": {}
+}

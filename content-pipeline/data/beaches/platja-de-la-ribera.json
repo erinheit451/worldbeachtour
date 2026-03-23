@@ -1,0 +1,40 @@
+{
+  "slug": "platja-de-la-ribera",
+  "name": "Platja de la Ribera",
+  "centroid_lat": 42.3358473,
+  "centroid_lng": 3.200519,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1694449",
+      "source_url": "https://www.openstreetmap.org/relation/1694449"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8312656",
+      "source_url": "https://www.openstreetmap.org/relation/8312656"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24021753",
+      "source_url": "https://www.wikidata.org/wiki/Q24021753"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q123995538",
+      "source_url": "https://www.wikidata.org/wiki/Q123995538"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platja%20del%20Poble%201.JPG"
+    }
+  }
+}

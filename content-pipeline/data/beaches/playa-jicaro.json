@@ -1,0 +1,24 @@
+{
+  "slug": "playa-jicaro",
+  "name": "Playa Jícaro",
+  "centroid_lat": 9.9922292,
+  "centroid_lng": -85.0703927,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/986523493",
+      "source_url": "https://www.openstreetmap.org/node/986523493"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

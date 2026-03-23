@@ -1,0 +1,30 @@
+{
+  "slug": "saint-ouen-s-bay",
+  "name": "Saint Ouen's Bay",
+  "centroid_lat": 49.2142793,
+  "centroid_lng": -2.2362252,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/499674956",
+      "source_url": "https://www.openstreetmap.org/way/499674956"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "surfing": {
+      "surfing_available": true
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

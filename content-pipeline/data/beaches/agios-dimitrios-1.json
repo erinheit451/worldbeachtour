@@ -1,0 +1,35 @@
+{
+  "slug": "agios-dimitrios-1",
+  "name": "AGIOS DIMITRIOS",
+  "centroid_lat": 39.219,
+  "centroid_lng": 23.9446,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/293183770",
+      "source_url": "https://www.openstreetmap.org/way/293183770"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW079109002101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW079109002101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

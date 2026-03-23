@@ -1,0 +1,32 @@
+{
+  "slug": "cala-boquer",
+  "name": "Cala Bóquer",
+  "centroid_lat": 39.9290652,
+  "centroid_lng": 3.0946836,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/97585855",
+      "source_url": "https://www.openstreetmap.org/way/97585855"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q14537932",
+      "source_url": "https://www.wikidata.org/wiki/Q14537932"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20Boquer.JPG"
+    }
+  }
+}

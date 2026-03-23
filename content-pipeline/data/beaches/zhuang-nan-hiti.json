@@ -1,0 +1,29 @@
+{
+  "slug": "zhuang-nan-hiti",
+  "name": "庄南ビーチ",
+  "centroid_lat": 33.8887525,
+  "centroid_lng": 132.2690001,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/13651676907",
+      "source_url": "https://www.openstreetmap.org/node/13651676907"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1489374673",
+      "source_url": "https://www.openstreetmap.org/way/1489374673"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

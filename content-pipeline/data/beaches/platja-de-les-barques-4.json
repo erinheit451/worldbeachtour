@@ -1,0 +1,83 @@
+{
+  "slug": "platja-de-les-barques-4",
+  "name": "Platja de les Barques",
+  "centroid_lat": 41.6007737,
+  "centroid_lng": 2.6242554,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/9761693",
+      "source_url": "https://www.openstreetmap.org/relation/9761693"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/9761696",
+      "source_url": "https://www.openstreetmap.org/relation/9761696"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/9761697",
+      "source_url": "https://www.openstreetmap.org/relation/9761697"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/9761699",
+      "source_url": "https://www.openstreetmap.org/relation/9761699"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/9761700",
+      "source_url": "https://www.openstreetmap.org/relation/9761700"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q121624839",
+      "source_url": "https://www.wikidata.org/wiki/Q121624839"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q121626620",
+      "source_url": "https://www.wikidata.org/wiki/Q121626620"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q121755853",
+      "source_url": "https://www.wikidata.org/wiki/Q121755853"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES511M235675",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES511M235676",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES511M235675",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES511M235676",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sant%20pol%20de%20mar%20-%20panoramio.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

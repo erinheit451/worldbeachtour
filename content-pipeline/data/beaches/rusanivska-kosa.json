@@ -1,0 +1,29 @@
+{
+  "slug": "rusanivska-kosa",
+  "name": "Русанівська коса",
+  "centroid_lat": 50.4438769,
+  "centroid_lng": 30.5883673,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/132998037",
+      "source_url": "https://www.openstreetmap.org/way/132998037"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/423129996",
+      "source_url": "https://www.openstreetmap.org/way/423129996"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

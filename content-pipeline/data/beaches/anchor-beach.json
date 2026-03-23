@@ -1,0 +1,25 @@
+{
+  "slug": "anchor-beach",
+  "name": "Anchor Beach",
+  "centroid_lat": 41.2237455,
+  "centroid_lng": -72.9955843,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/816389753",
+      "source_url": "https://www.openstreetmap.org/way/816389753"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1003214773",
+      "source_url": "https://www.openstreetmap.org/way/1003214773"
+    }
+  ],
+  "attributes": {}
+}

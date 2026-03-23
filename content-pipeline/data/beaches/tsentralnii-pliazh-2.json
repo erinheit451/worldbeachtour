@@ -1,0 +1,30 @@
+{
+  "slug": "tsentralnii-pliazh-2",
+  "name": "Центральний пляж",
+  "centroid_lat": 50.4617515,
+  "centroid_lng": 30.5338818,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/162347441",
+      "source_url": "https://www.openstreetmap.org/way/162347441"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

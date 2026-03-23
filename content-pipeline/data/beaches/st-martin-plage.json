@@ -1,0 +1,45 @@
+{
+  "slug": "st-martin-plage",
+  "name": "ST-MARTIN-PLAGE",
+  "centroid_lat": 49.96964,
+  "centroid_lng": 1.19731,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/145430665",
+      "source_url": "https://www.openstreetmap.org/way/145430665"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1304431151",
+      "source_url": "https://www.openstreetmap.org/way/1304431151"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1304431160",
+      "source_url": "https://www.openstreetmap.org/way/1304431160"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD2276618M076083",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD2276618M076083",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

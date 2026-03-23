@@ -1,0 +1,28 @@
+{
+  "slug": "stephenville-club-lake-beach",
+  "name": "Stephenville Club Lake Beach",
+  "centroid_lat": 32.3134374,
+  "centroid_lng": -98.1791601,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/451680388",
+      "source_url": "https://www.openstreetmap.org/way/451680388"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited",
+      "access": "no"
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

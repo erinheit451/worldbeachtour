@@ -1,0 +1,48 @@
+{
+  "slug": "geremeas-spiaggia-marongiu",
+  "name": "Geremeas (Spiaggia Maròngiu)",
+  "centroid_lat": 39.1650077,
+  "centroid_lng": 9.3815288,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/367227818",
+      "source_url": "https://www.openstreetmap.org/way/367227818"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/20286462",
+      "source_url": "https://www.openstreetmap.org/relation/20286462"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33338918",
+      "source_url": "https://www.wikidata.org/wiki/Q33338918"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020092051001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020092051001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

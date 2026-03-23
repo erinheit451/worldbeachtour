@@ -1,0 +1,43 @@
+{
+  "slug": "cala-sisine",
+  "name": "Cala Sisine",
+  "centroid_lat": 40.1796133,
+  "centroid_lng": 9.6341017,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/121808970",
+      "source_url": "https://www.openstreetmap.org/way/121808970"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q538419",
+      "source_url": "https://www.wikidata.org/wiki/Q538419"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020105003001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020105003001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20Sisine%20-%20panoramio%20-%20Carlo%20Pelagalli.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

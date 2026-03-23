@@ -1,0 +1,38 @@
+{
+  "slug": "punta-bianca",
+  "name": "Punta Bianca",
+  "centroid_lat": 44.0357042,
+  "centroid_lng": 9.9767493,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "rock",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/176721000",
+      "source_url": "https://www.openstreetmap.org/way/176721000"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007011001003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007011001003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "forestry"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

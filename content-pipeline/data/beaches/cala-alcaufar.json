@@ -1,0 +1,40 @@
+{
+  "slug": "cala-alcaufar",
+  "name": "Cala Alcaufar",
+  "centroid_lat": 39.8289347,
+  "centroid_lng": 4.2924885,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/49392969",
+      "source_url": "https://www.openstreetmap.org/way/49392969"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24018879",
+      "source_url": "https://www.wikidata.org/wiki/Q24018879"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES533M0521227",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES533M0521227",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

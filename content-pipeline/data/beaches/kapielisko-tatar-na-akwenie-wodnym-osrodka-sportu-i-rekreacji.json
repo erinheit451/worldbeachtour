@@ -1,0 +1,43 @@
+{
+  "slug": "kapielisko-tatar-na-akwenie-wodnym-osrodka-sportu-i-rekreacji",
+  "name": "KĄPIELISKO TATAR NA AKWENIE WODNYM OŚRODKA SPORTU I REKREACJI",
+  "centroid_lat": 51.75528,
+  "centroid_lng": 20.23222,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/96724299",
+      "source_url": "https://www.openstreetmap.org/way/96724299"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/96724304",
+      "source_url": "https://www.openstreetmap.org/way/96724304"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL1121301110000012",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL1121301110000012",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

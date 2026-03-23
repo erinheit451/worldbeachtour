@@ -1,0 +1,39 @@
+{
+  "slug": "coldingham-sands",
+  "name": "Coldingham Sands",
+  "centroid_lat": 55.8924442,
+  "centroid_lng": -2.1334529,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/178451869",
+      "source_url": "https://www.openstreetmap.org/way/178451869"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/252110543",
+      "source_url": "https://www.openstreetmap.org/way/252110543"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/984455269",
+      "source_url": "https://www.openstreetmap.org/way/984455269"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/984455273",
+      "source_url": "https://www.openstreetmap.org/way/984455273"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

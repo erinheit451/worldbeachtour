@@ -1,0 +1,29 @@
+{
+  "slug": "mateo-coast-state-beaches",
+  "name": "Mateo Coast State Beaches",
+  "centroid_lat": 37.4775957,
+  "centroid_lng": -122.4498164,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/358770323",
+      "source_url": "https://www.openstreetmap.org/node/358770323"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49321990",
+      "source_url": "https://www.wikidata.org/wiki/Q49321990"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Half%20Moon%20Bay%20State%20Beach%207%202018-05-06.jpg"
+    }
+  }
+}

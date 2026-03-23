@@ -1,0 +1,46 @@
+{
+  "slug": "praia-dos-caneiros",
+  "name": "Praia dos Caneiros",
+  "centroid_lat": 37.1049882,
+  "centroid_lng": -8.5140014,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1246703830",
+      "source_url": "https://www.openstreetmap.org/way/1246703830"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10353137",
+      "source_url": "https://www.wikidata.org/wiki/Q10353137"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCL7Q",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCL7Q",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Caneiros%20beach%2C%20Ferragudo%2C%20Algarve%20%2817070981600%29.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

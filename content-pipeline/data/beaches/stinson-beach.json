@@ -1,0 +1,25 @@
+{
+  "slug": "stinson-beach",
+  "name": "Stinson Beach",
+  "centroid_lat": 37.8951158,
+  "centroid_lng": -122.6395156,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/5255971",
+      "source_url": "https://www.openstreetmap.org/relation/5255971"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324881",
+      "source_url": "https://www.wikidata.org/wiki/Q49324881"
+    }
+  ],
+  "attributes": {}
+}

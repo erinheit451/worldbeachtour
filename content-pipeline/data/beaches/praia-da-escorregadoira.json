@@ -1,0 +1,25 @@
+{
+  "slug": "praia-da-escorregadoira",
+  "name": "Praia da Escorregadoira",
+  "centroid_lat": 42.5722651,
+  "centroid_lng": -8.8835793,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11496977762",
+      "source_url": "https://www.openstreetmap.org/node/11496977762"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/865850153",
+      "source_url": "https://www.openstreetmap.org/way/865850153"
+    }
+  ],
+  "attributes": {}
+}

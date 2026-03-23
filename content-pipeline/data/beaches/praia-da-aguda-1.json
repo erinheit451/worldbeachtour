@@ -1,0 +1,29 @@
+{
+  "slug": "praia-da-aguda-1",
+  "name": "Praia da Aguda",
+  "centroid_lat": 38.8519484,
+  "centroid_lng": -9.4556881,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1341639355",
+      "source_url": "https://www.openstreetmap.org/way/1341639355"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10352532",
+      "source_url": "https://www.wikidata.org/wiki/Q10352532"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20da%20Aguda%20-%20Portugal%20%28195659813%29.jpg"
+    }
+  }
+}

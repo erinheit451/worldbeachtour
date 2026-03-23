@@ -1,0 +1,27 @@
+{
+  "slug": "luukin-uimaranta",
+  "name": "Luukin uimaranta",
+  "centroid_lat": 60.3135432,
+  "centroid_lng": 24.694136,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/413940781",
+      "source_url": "https://www.openstreetmap.org/way/413940781"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

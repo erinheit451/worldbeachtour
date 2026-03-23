@@ -1,0 +1,40 @@
+{
+  "slug": "plage-beaurivage",
+  "name": "Plage Beaurivage",
+  "centroid_lat": 43.0868404,
+  "centroid_lng": 6.0839356,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1368379743",
+      "source_url": "https://www.openstreetmap.org/way/1368379743"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1377896595",
+      "source_url": "https://www.openstreetmap.org/way/1377896595"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1377896597",
+      "source_url": "https://www.openstreetmap.org/way/1377896597"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

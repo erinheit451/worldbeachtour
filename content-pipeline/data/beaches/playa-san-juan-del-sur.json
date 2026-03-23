@@ -1,0 +1,25 @@
+{
+  "slug": "playa-san-juan-del-sur",
+  "name": "Playa San Juan del Sur",
+  "centroid_lat": 11.2560418,
+  "centroid_lng": -85.8769033,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/5932974",
+      "source_url": "https://www.openstreetmap.org/relation/5932974"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q138309471",
+      "source_url": "https://www.wikidata.org/wiki/Q138309471"
+    }
+  ],
+  "attributes": {}
+}

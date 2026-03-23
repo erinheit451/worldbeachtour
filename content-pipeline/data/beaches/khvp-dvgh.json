@@ -1,0 +1,29 @@
+{
+  "slug": "khvp-dvgh",
+  "name": "חוף דוגה",
+  "centroid_lat": 32.8568839,
+  "centroid_lng": 35.646304,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/356840081",
+      "source_url": "https://www.openstreetmap.org/way/356840081"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q26765696",
+      "source_url": "https://www.wikidata.org/wiki/Q26765696"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

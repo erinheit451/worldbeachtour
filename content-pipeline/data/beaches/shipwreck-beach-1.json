@@ -1,0 +1,29 @@
+{
+  "slug": "shipwreck-beach-1",
+  "name": "Shipwreck Beach",
+  "centroid_lat": 21.8743472,
+  "centroid_lng": -159.4379084,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1576008",
+      "source_url": "https://www.openstreetmap.org/relation/1576008"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324738",
+      "source_url": "https://www.wikidata.org/wiki/Q49324738"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/1%2030%20Shipwreck%20Beach%202018-01-30%20042-LR%20%2840448480012%29.jpg"
+    }
+  }
+}

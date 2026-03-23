@@ -1,0 +1,33 @@
+{
+  "slug": "broad-sands-1",
+  "name": "Broad Sands",
+  "centroid_lat": 50.4074095,
+  "centroid_lng": -3.5539809,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/56460771",
+      "source_url": "https://www.openstreetmap.org/way/56460771"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q107698837",
+      "source_url": "https://www.wikidata.org/wiki/Q107698837"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Broadsands%20beach%2C%20Torbay%20-%20geograph.org.uk%20-%20713894.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Broadsands"
+    }
+  }
+}

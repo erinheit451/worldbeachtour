@@ -1,0 +1,83 @@
+{
+  "slug": "laganas",
+  "name": "LAGANAS",
+  "centroid_lat": 37.7278,
+  "centroid_lng": 20.874,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/659808540",
+      "source_url": "https://www.openstreetmap.org/way/659808540"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659808541",
+      "source_url": "https://www.openstreetmap.org/way/659808541"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659808542",
+      "source_url": "https://www.openstreetmap.org/way/659808542"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659808543",
+      "source_url": "https://www.openstreetmap.org/way/659808543"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659808545",
+      "source_url": "https://www.openstreetmap.org/way/659808545"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659808546",
+      "source_url": "https://www.openstreetmap.org/way/659808546"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659808547",
+      "source_url": "https://www.openstreetmap.org/way/659808547"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659808548",
+      "source_url": "https://www.openstreetmap.org/way/659808548"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659808549",
+      "source_url": "https://www.openstreetmap.org/way/659808549"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53631057",
+      "source_url": "https://www.wikidata.org/wiki/Q53631057"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW029116036101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW029116036101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "playa-gigante-1",
+  "name": "Playa Gigante",
+  "centroid_lat": 11.3888999,
+  "centroid_lng": -86.0331096,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/5916942",
+      "source_url": "https://www.openstreetmap.org/relation/5916942"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q14229544",
+      "source_url": "https://www.wikidata.org/wiki/Q14229544"
+    }
+  ],
+  "attributes": {}
+}

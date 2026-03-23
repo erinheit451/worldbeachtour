@@ -1,0 +1,43 @@
+{
+  "slug": "kini",
+  "name": "Κίνι",
+  "centroid_lat": 37.4457603,
+  "centroid_lng": 24.8997336,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/216120236",
+      "source_url": "https://www.openstreetmap.org/way/216120236"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/335954009",
+      "source_url": "https://www.openstreetmap.org/way/335954009"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149300326101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149300326101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

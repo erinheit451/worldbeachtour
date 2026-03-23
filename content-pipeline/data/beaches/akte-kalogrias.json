@@ -1,0 +1,55 @@
+{
+  "slug": "akte-kalogrias",
+  "name": "Ακτή Καλογριάς",
+  "centroid_lat": 40.1766652,
+  "centroid_lng": 23.7145419,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/169010917",
+      "source_url": "https://www.openstreetmap.org/way/169010917"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676949940",
+      "source_url": "https://www.openstreetmap.org/way/676949940"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676949941",
+      "source_url": "https://www.openstreetmap.org/way/676949941"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676949942",
+      "source_url": "https://www.openstreetmap.org/way/676949942"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53630741",
+      "source_url": "https://www.wikidata.org/wiki/Q53630741"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109060076101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109060076101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

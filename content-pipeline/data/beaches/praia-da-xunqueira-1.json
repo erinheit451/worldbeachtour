@@ -1,0 +1,35 @@
+{
+  "slug": "praia-da-xunqueira-1",
+  "name": "Praia da Xunqueira",
+  "centroid_lat": 42.2865469,
+  "centroid_lng": -8.7277502,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/88835515",
+      "source_url": "https://www.openstreetmap.org/way/88835515"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES114M029351",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES114M029351",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

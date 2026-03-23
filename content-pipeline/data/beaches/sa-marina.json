@@ -1,0 +1,32 @@
+{
+  "slug": "sa-marina",
+  "name": "Sa Marina",
+  "centroid_lat": 39.823253,
+  "centroid_lng": 9.678406,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/119453677",
+      "source_url": "https://www.openstreetmap.org/way/119453677"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1418982179",
+      "source_url": "https://www.openstreetmap.org/way/1418982179"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "nudist": "designated"
+    }
+  }
+}

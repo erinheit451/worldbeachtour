@@ -1,0 +1,34 @@
+{
+  "slug": "swim-beach-11",
+  "name": "Swim Beach",
+  "centroid_lat": 37.7010123,
+  "centroid_lng": -97.0520723,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1419295006",
+      "source_url": "https://www.openstreetmap.org/way/1419295006"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1419295007",
+      "source_url": "https://www.openstreetmap.org/way/1419295007"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1419295008",
+      "source_url": "https://www.openstreetmap.org/way/1419295008"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

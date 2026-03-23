@@ -1,0 +1,29 @@
+{
+  "slug": "pea-island-beach",
+  "name": "Pea Island Beach",
+  "centroid_lat": 35.72017316,
+  "centroid_lng": -75.494149821,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/921248513",
+      "source_url": "https://www.openstreetmap.org/way/921248513"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q104704497",
+      "source_url": "https://www.wikidata.org/wiki/Q104704497"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Beach%20erosion%20at%20Pea%20island%20national%20wildlife%20refuge.jpg"
+    }
+  }
+}

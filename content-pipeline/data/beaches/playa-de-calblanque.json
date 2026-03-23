@@ -1,0 +1,29 @@
+{
+  "slug": "playa-de-calblanque",
+  "name": "Playa de Calblanque",
+  "centroid_lat": 37.6037087,
+  "centroid_lng": -0.7297775,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/130546890",
+      "source_url": "https://www.openstreetmap.org/way/130546890"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28120795",
+      "source_url": "https://www.wikidata.org/wiki/Q28120795"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20en%20Calblanque.jpg"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "svanevig",
+  "name": "SVANEVIG",
+  "centroid_lat": 54.84094,
+  "centroid_lng": 11.47744,
+  "country_code": "DK",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW31",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW31",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

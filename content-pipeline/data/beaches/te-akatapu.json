@@ -1,0 +1,25 @@
+{
+  "slug": "te-akatapu",
+  "name": "Te Akatapu",
+  "centroid_lat": -45.807742,
+  "centroid_lng": 170.747894,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11687237298",
+      "source_url": "https://www.openstreetmap.org/node/11687237298"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q125857965",
+      "source_url": "https://www.wikidata.org/wiki/Q125857965"
+    }
+  ],
+  "attributes": {}
+}

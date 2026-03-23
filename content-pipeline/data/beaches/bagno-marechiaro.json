@@ -1,0 +1,24 @@
+{
+  "slug": "bagno-marechiaro",
+  "name": "Bagno Marechiaro",
+  "centroid_lat": 43.8516161,
+  "centroid_lng": 10.2425609,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/702791700",
+      "source_url": "https://www.openstreetmap.org/way/702791700"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

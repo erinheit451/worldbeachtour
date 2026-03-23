@@ -1,0 +1,25 @@
+{
+  "slug": "ses-estaques",
+  "name": "Ses Estaques",
+  "centroid_lat": 38.9840517,
+  "centroid_lng": 1.5426526,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1067034287",
+      "source_url": "https://www.openstreetmap.org/way/1067034287"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q18008003",
+      "source_url": "https://www.wikidata.org/wiki/Q18008003"
+    }
+  ],
+  "attributes": {}
+}

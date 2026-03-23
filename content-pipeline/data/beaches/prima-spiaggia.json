@@ -1,0 +1,35 @@
+{
+  "slug": "prima-spiaggia",
+  "name": "Prima Spiaggia",
+  "centroid_lat": 41.002037,
+  "centroid_lng": 9.6193658,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/228552753",
+      "source_url": "https://www.openstreetmap.org/way/228552753"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020104011012",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020104011012",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

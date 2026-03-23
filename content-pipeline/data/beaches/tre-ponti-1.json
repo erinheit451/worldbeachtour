@@ -1,0 +1,58 @@
+{
+  "slug": "tre-ponti-1",
+  "name": "Tre Ponti",
+  "centroid_lat": 43.8223054,
+  "centroid_lng": 7.8127439,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7206671785",
+      "source_url": "https://www.openstreetmap.org/node/7206671785"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/385740154",
+      "source_url": "https://www.openstreetmap.org/way/385740154"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/429043690",
+      "source_url": "https://www.openstreetmap.org/way/429043690"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/933939481",
+      "source_url": "https://www.openstreetmap.org/way/933939481"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/933939482",
+      "source_url": "https://www.openstreetmap.org/way/933939482"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007008055008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007008055008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

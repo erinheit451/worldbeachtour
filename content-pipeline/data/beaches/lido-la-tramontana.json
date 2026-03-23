@@ -1,0 +1,24 @@
+{
+  "slug": "lido-la-tramontana",
+  "name": "Lido La Tramontana",
+  "centroid_lat": 42.4371163,
+  "centroid_lng": 14.2649659,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10823817950",
+      "source_url": "https://www.openstreetmap.org/node/10823817950"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

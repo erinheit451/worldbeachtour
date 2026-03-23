@@ -1,0 +1,43 @@
+{
+  "slug": "plage-surveillee-du-lac-des-rousses",
+  "name": "Plage Surveillée du Lac des Rousses",
+  "centroid_lat": 46.50065,
+  "centroid_lng": 6.0793409,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1003611015",
+      "source_url": "https://www.openstreetmap.org/way/1003611015"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1003611018",
+      "source_url": "https://www.openstreetmap.org/way/1003611018"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRC2239470D039347",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRC2239470D039347",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

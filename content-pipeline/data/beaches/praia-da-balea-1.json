@@ -1,0 +1,24 @@
+{
+  "slug": "praia-da-balea-1",
+  "name": "Praia da Balea",
+  "centroid_lat": 43.1639141,
+  "centroid_lng": -9.184344,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/304606101",
+      "source_url": "https://www.openstreetmap.org/way/304606101"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

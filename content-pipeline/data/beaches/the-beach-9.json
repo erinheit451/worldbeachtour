@@ -1,0 +1,25 @@
+{
+  "slug": "the-beach-9",
+  "name": "The Beach",
+  "centroid_lat": 47.55162,
+  "centroid_lng": -54.86155,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1812298",
+      "source_url": "https://www.openstreetmap.org/relation/1812298"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22481047",
+      "source_url": "https://www.wikidata.org/wiki/Q22481047"
+    }
+  ],
+  "attributes": {}
+}

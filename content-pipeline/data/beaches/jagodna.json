@@ -1,0 +1,29 @@
+{
+  "slug": "jagodna",
+  "name": "Jagodna",
+  "centroid_lat": 43.1312738,
+  "centroid_lng": 16.6117486,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/134901095",
+      "source_url": "https://www.openstreetmap.org/way/134901095"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1076034999",
+      "source_url": "https://www.openstreetmap.org/way/1076034999"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true
+    }
+  }
+}

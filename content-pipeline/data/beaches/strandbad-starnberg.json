@@ -1,0 +1,27 @@
+{
+  "slug": "strandbad-starnberg",
+  "name": "Strandbad Starnberg",
+  "centroid_lat": 47.9982306,
+  "centroid_lng": 11.3548693,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/238323850",
+      "source_url": "https://www.openstreetmap.org/way/238323850"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

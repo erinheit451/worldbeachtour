@@ -1,0 +1,35 @@
+{
+  "slug": "balneario-playa-central",
+  "name": "Balneario Playa Central",
+  "centroid_lat": -31.724997,
+  "centroid_lng": -65.0020588,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/2112422572",
+      "source_url": "https://www.openstreetmap.org/node/2112422572"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5455169349",
+      "source_url": "https://www.openstreetmap.org/node/5455169349"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/325445239",
+      "source_url": "https://www.openstreetmap.org/way/325445239"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/325445249",
+      "source_url": "https://www.openstreetmap.org/way/325445249"
+    }
+  ],
+  "attributes": {}
+}

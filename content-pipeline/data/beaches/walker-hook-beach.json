@@ -1,0 +1,24 @@
+{
+  "slug": "walker-hook-beach",
+  "name": "Walker Hook Beach",
+  "centroid_lat": 48.8906598,
+  "centroid_lng": -123.4939407,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12821454286",
+      "source_url": "https://www.openstreetmap.org/node/12821454286"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

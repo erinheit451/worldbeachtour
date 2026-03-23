@@ -1,0 +1,25 @@
+{
+  "slug": "platja-de-neganta",
+  "name": "Platja de Neganta",
+  "centroid_lat": 42.3255645,
+  "centroid_lng": 3.2857709,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8311690",
+      "source_url": "https://www.openstreetmap.org/relation/8311690"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q98974177",
+      "source_url": "https://www.wikidata.org/wiki/Q98974177"
+    }
+  ],
+  "attributes": {}
+}

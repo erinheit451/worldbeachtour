@@ -1,0 +1,33 @@
+{
+  "slug": "elliots-beach",
+  "name": "Elliots Beach",
+  "centroid_lat": 12.9978864,
+  "centroid_lng": 80.2730281,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/14304132",
+      "source_url": "https://www.openstreetmap.org/relation/14304132"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q4455449",
+      "source_url": "https://www.wikidata.org/wiki/Q4455449"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Elliots%20Beach%20at%20Besant%20Nagar%2C%20Chennai.JPG",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Edward_Elliot%27s_Beach"
+    }
+  }
+}

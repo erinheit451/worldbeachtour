@@ -1,0 +1,53 @@
+{
+  "slug": "zona-s-cristoforo",
+  "name": "ZONA S.CRISTOFORO",
+  "centroid_lat": 44.319,
+  "centroid_lng": 8.4948,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/420060331",
+      "source_url": "https://www.openstreetmap.org/way/420060331"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/420060334",
+      "source_url": "https://www.openstreetmap.org/way/420060334"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/766138035",
+      "source_url": "https://www.openstreetmap.org/way/766138035"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/766138036",
+      "source_url": "https://www.openstreetmap.org/way/766138036"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007009056006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007009056006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "vances-beach",
+  "name": "Vances Beach",
+  "centroid_lat": 45.3618876,
+  "centroid_lng": -66.0638977,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1247379396",
+      "source_url": "https://www.openstreetmap.org/node/1247379396"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/202502424",
+      "source_url": "https://www.openstreetmap.org/way/202502424"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22408335",
+      "source_url": "https://www.wikidata.org/wiki/Q22408335"
+    }
+  ],
+  "attributes": {}
+}

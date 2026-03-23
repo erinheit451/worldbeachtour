@@ -1,0 +1,24 @@
+{
+  "slug": "simuni",
+  "name": "Simuni",
+  "centroid_lat": 44.4647271,
+  "centroid_lng": 14.9595922,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/440597985",
+      "source_url": "https://www.openstreetmap.org/way/440597985"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    }
+  }
+}

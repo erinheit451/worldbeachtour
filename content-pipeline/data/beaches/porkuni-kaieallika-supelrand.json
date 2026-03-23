@@ -1,0 +1,35 @@
+{
+  "slug": "porkuni-kaieallika-supelrand",
+  "name": "Porkuni Kaieallika supelrand",
+  "centroid_lat": 59.1860051,
+  "centroid_lng": 26.2024861,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1184389473",
+      "source_url": "https://www.openstreetmap.org/way/1184389473"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1390724516",
+      "source_url": "https://www.openstreetmap.org/way/1390724516"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

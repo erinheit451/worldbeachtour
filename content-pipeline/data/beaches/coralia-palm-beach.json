@@ -1,0 +1,39 @@
+{
+  "slug": "coralia-palm-beach",
+  "name": "Coralia Palm Beach",
+  "centroid_lat": 35.8335132,
+  "centroid_lng": 10.642247,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6170987748",
+      "source_url": "https://www.openstreetmap.org/node/6170987748"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/6171700211",
+      "source_url": "https://www.openstreetmap.org/node/6171700211"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/6171700212",
+      "source_url": "https://www.openstreetmap.org/node/6171700212"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/104314921",
+      "source_url": "https://www.openstreetmap.org/way/104314921"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

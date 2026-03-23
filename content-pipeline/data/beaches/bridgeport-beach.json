@@ -1,0 +1,25 @@
+{
+  "slug": "bridgeport-beach",
+  "name": "Bridgeport Beach",
+  "centroid_lat": 32.0502562,
+  "centroid_lng": -87.2562747,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1288795065",
+      "source_url": "https://www.openstreetmap.org/way/1288795065"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31512088",
+      "source_url": "https://www.wikidata.org/wiki/Q31512088"
+    }
+  ],
+  "attributes": {}
+}

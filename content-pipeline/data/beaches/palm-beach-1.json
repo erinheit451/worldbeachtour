@@ -1,0 +1,25 @@
+{
+  "slug": "palm-beach-1",
+  "name": "Palm beach",
+  "centroid_lat": 35.1181517,
+  "centroid_lng": 33.9583598,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12543266557",
+      "source_url": "https://www.openstreetmap.org/node/12543266557"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/396559851",
+      "source_url": "https://www.openstreetmap.org/way/396559851"
+    }
+  ],
+  "attributes": {}
+}

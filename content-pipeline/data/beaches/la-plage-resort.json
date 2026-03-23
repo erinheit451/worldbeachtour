@@ -1,0 +1,29 @@
+{
+  "slug": "la-plage-resort",
+  "name": "La Plage Resort",
+  "centroid_lat": 21.7100283,
+  "centroid_lng": 39.0850301,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/358380039",
+      "source_url": "https://www.openstreetmap.org/way/358380039"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/623158558",
+      "source_url": "https://www.openstreetmap.org/way/623158558"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

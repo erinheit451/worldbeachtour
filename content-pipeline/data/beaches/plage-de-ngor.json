@@ -1,0 +1,32 @@
+{
+  "slug": "plage-de-ngor",
+  "name": "Plage de Ngor",
+  "centroid_lat": 14.7509349,
+  "centroid_lng": -17.5120939,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/361888770",
+      "source_url": "https://www.openstreetmap.org/way/361888770"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q125140900",
+      "source_url": "https://www.wikidata.org/wiki/Q125140900"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ngor%20Bay%20%285662409796%29.jpg"
+    }
+  }
+}

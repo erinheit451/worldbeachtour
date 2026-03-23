@@ -1,0 +1,29 @@
+{
+  "slug": "zaton-holiday-resort-beach",
+  "name": "Zaton Holiday Resort Beach",
+  "centroid_lat": 44.2307763,
+  "centroid_lng": 15.1638237,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/972611475",
+      "source_url": "https://www.openstreetmap.org/way/972611475"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/13082617",
+      "source_url": "https://www.openstreetmap.org/relation/13082617"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "customers"
+    }
+  }
+}

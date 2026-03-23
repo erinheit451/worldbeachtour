@@ -1,0 +1,39 @@
+{
+  "slug": "porth-ysgaden",
+  "name": "Porth Ysgaden",
+  "centroid_lat": 52.904823,
+  "centroid_lng": -4.648994,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1323736914",
+      "source_url": "https://www.openstreetmap.org/way/1323736914"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1384555009",
+      "source_url": "https://www.openstreetmap.org/way/1384555009"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1384555011",
+      "source_url": "https://www.openstreetmap.org/way/1384555011"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1384555014",
+      "source_url": "https://www.openstreetmap.org/way/1384555014"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true
+    }
+  }
+}

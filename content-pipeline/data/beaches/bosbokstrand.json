@@ -1,0 +1,29 @@
+{
+  "slug": "bosbokstrand",
+  "name": "Bosbokstrand",
+  "centroid_lat": -32.7920218,
+  "centroid_lng": 28.1652627,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1060952297",
+      "source_url": "https://www.openstreetmap.org/way/1060952297"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31882539",
+      "source_url": "https://www.wikidata.org/wiki/Q31882539"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    }
+  }
+}

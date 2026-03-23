@@ -1,0 +1,30 @@
+{
+  "slug": "kolobelone",
+  "name": "Κολοβελόνη",
+  "centroid_lat": 37.3060315,
+  "centroid_lng": 24.3840904,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/495209638",
+      "source_url": "https://www.openstreetmap.org/way/495209638"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/495209907",
+      "source_url": "https://www.openstreetmap.org/way/495209907"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/495210084",
+      "source_url": "https://www.openstreetmap.org/way/495210084"
+    }
+  ],
+  "attributes": {}
+}

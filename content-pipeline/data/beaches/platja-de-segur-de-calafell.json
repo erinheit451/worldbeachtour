@@ -1,0 +1,47 @@
+{
+  "slug": "platja-de-segur-de-calafell",
+  "name": "Platja de Segur de Calafell",
+  "centroid_lat": 41.189676,
+  "centroid_lng": 1.6124365,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/10255772",
+      "source_url": "https://www.openstreetmap.org/relation/10255772"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23992611",
+      "source_url": "https://www.wikidata.org/wiki/Q23992611"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES514M037794",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES514M037794",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": "leashed",
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platja%20de%20Segur%20de%20Calafell%2C%20oest.jpg"
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

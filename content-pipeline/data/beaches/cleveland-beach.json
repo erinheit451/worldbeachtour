@@ -1,0 +1,29 @@
+{
+  "slug": "cleveland-beach",
+  "name": "Cleveland Beach",
+  "centroid_lat": 44.6496849,
+  "centroid_lng": -63.9980661,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/956949879",
+      "source_url": "https://www.openstreetmap.org/way/956949879"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q133600042",
+      "source_url": "https://www.wikidata.org/wiki/Q133600042"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cleveland%20Beach%20%2827986634766%29.jpg"
+    }
+  }
+}

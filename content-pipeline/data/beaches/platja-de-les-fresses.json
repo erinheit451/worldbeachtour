@@ -1,0 +1,25 @@
+{
+  "slug": "platja-de-les-fresses",
+  "name": "Platja de les Fresses",
+  "centroid_lat": 42.4330169,
+  "centroid_lng": 3.1709055,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8312823",
+      "source_url": "https://www.openstreetmap.org/relation/8312823"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q123246075",
+      "source_url": "https://www.wikidata.org/wiki/Q123246075"
+    }
+  ],
+  "attributes": {}
+}

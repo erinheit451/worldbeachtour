@@ -1,0 +1,25 @@
+{
+  "slug": "kalapet-beach",
+  "name": "Kalapet beach",
+  "centroid_lat": 12.0285136,
+  "centroid_lng": 79.8674431,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9818721588",
+      "source_url": "https://www.openstreetmap.org/node/9818721588"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/647824223",
+      "source_url": "https://www.openstreetmap.org/way/647824223"
+    }
+  ],
+  "attributes": {}
+}

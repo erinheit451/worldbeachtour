@@ -1,0 +1,45 @@
+{
+  "slug": "lungomare-monte-alla-rena",
+  "name": "LUNGOMARE MONTE ALLA RENA",
+  "centroid_lat": 43.39,
+  "centroid_lng": 10.4288,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/123595342",
+      "source_url": "https://www.openstreetmap.org/way/123595342"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/160024964",
+      "source_url": "https://www.openstreetmap.org/way/160024964"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/160026756",
+      "source_url": "https://www.openstreetmap.org/way/160026756"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049017021",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049017021",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

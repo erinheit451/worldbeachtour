@@ -1,0 +1,29 @@
+{
+  "slug": "playa-agua-dulce-1",
+  "name": "Playa Agua Dulce",
+  "centroid_lat": -12.1623128,
+  "centroid_lng": -77.0269782,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/298016070",
+      "source_url": "https://www.openstreetmap.org/way/298016070"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q135750380",
+      "source_url": "https://www.wikidata.org/wiki/Q135750380"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Morro%20Solar%20y%20Playa%20Agua%20Dulce.jpg"
+    }
+  }
+}

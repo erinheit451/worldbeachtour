@@ -1,0 +1,43 @@
+{
+  "slug": "vijver-oosterpark",
+  "name": "VIJVER OOSTERPARK",
+  "centroid_lat": 51.85871,
+  "centroid_lng": 4.60896,
+  "country_code": "NL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/133327777",
+      "source_url": "https://www.openstreetmap.org/way/133327777"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1410172412",
+      "source_url": "https://www.openstreetmap.org/way/1410172412"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW40_YOP_0627Z",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW40_YOP_0627Z",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

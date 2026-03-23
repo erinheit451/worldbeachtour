@@ -1,0 +1,35 @@
+{
+  "slug": "plage-de-postolonnec",
+  "name": "Plage de Postolonnec",
+  "centroid_lat": 48.2385394,
+  "centroid_lng": -4.4651521,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/180633470",
+      "source_url": "https://www.openstreetmap.org/way/180633470"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229042M029631",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229042M029631",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "playa-de-la-cala-el-torreon",
+  "name": "Playa de La Cala - El Torreón",
+  "centroid_lat": 36.5024459,
+  "centroid_lng": -4.6783627,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/109608855",
+      "source_url": "https://www.openstreetmap.org/way/109608855"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1211766348",
+      "source_url": "https://www.openstreetmap.org/way/1211766348"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1211766349",
+      "source_url": "https://www.openstreetmap.org/way/1211766349"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1211766350",
+      "source_url": "https://www.openstreetmap.org/way/1211766350"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1211766353",
+      "source_url": "https://www.openstreetmap.org/way/1211766353"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1211766354",
+      "source_url": "https://www.openstreetmap.org/way/1211766354"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617M0701556",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617M0701556",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "smedsuddsbadet-o-malaren",
+  "name": "Smedsuddsbadet Ö, Mälaren",
+  "centroid_lat": 59.3249,
+  "centroid_lng": 18.0219,
+  "country_code": "SE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/30720576",
+      "source_url": "https://www.openstreetmap.org/way/30720576"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0110180000001846",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0110180000001845",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0110180000001846",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0110180000001845",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

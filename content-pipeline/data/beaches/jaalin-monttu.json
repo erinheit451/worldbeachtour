@@ -1,0 +1,46 @@
+{
+  "slug": "jaalin-monttu",
+  "name": "Jäälin monttu",
+  "centroid_lat": 65.1044061,
+  "centroid_lng": 25.6820287,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/2321805667",
+      "source_url": "https://www.openstreetmap.org/node/2321805667"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/270900664",
+      "source_url": "https://www.openstreetmap.org/way/270900664"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI1D6564005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI1D6564005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "permissive"
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

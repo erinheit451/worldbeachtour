@@ -1,0 +1,35 @@
+{
+  "slug": "grande-plage-6",
+  "name": "Grande Plage",
+  "centroid_lat": 43.4853231,
+  "centroid_lng": -1.5591981,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/156866423",
+      "source_url": "https://www.openstreetmap.org/way/156866423"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25478600",
+      "source_url": "https://www.wikidata.org/wiki/Q25478600"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": "interval"
+    },
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/00%201767%20Grande%20Plage%2C%20Biarritz.jpg"
+    }
+  }
+}

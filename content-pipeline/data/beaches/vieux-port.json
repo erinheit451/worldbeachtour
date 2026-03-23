@@ -1,0 +1,29 @@
+{
+  "slug": "vieux-port",
+  "name": "VIEUX PORT",
+  "centroid_lat": 42.69346,
+  "centroid_lng": 9.45357,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRM022B033M02B147",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRM022B033M02B147",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

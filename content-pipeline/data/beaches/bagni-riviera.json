@@ -1,0 +1,73 @@
+{
+  "slug": "bagni-riviera",
+  "name": "Bagni Riviera",
+  "centroid_lat": 44.3058457,
+  "centroid_lng": 9.3442953,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11196054179",
+      "source_url": "https://www.openstreetmap.org/node/11196054179"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/11196054180",
+      "source_url": "https://www.openstreetmap.org/node/11196054180"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/11196054181",
+      "source_url": "https://www.openstreetmap.org/node/11196054181"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/120862516",
+      "source_url": "https://www.openstreetmap.org/way/120862516"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/120862627",
+      "source_url": "https://www.openstreetmap.org/way/120862627"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/962891899",
+      "source_url": "https://www.openstreetmap.org/way/962891899"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/962897008",
+      "source_url": "https://www.openstreetmap.org/way/962897008"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33338393",
+      "source_url": "https://www.wikidata.org/wiki/Q33338393"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010028001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010028001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

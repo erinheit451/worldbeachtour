@@ -1,0 +1,40 @@
+{
+  "slug": "miedzyrzeckie-jeziork",
+  "name": "Międzyrzeckie Jeziork",
+  "centroid_lat": 51.9693,
+  "centroid_lng": 22.7881,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/857756540",
+      "source_url": "https://www.openstreetmap.org/way/857756540"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1324375363",
+      "source_url": "https://www.openstreetmap.org/way/1324375363"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL3110101106000044",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL3110101106000044",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

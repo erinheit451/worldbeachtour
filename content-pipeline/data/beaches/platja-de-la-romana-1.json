@@ -1,0 +1,39 @@
+{
+  "slug": "platja-de-la-romana-1",
+  "name": "Platja de la Romana",
+  "centroid_lat": 40.2343739,
+  "centroid_lng": 0.2735437,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2172037",
+      "source_url": "https://www.openstreetmap.org/relation/2172037"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/2172039",
+      "source_url": "https://www.openstreetmap.org/relation/2172039"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q11941946",
+      "source_url": "https://www.wikidata.org/wiki/Q11941946"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q11941983",
+      "source_url": "https://www.wikidata.org/wiki/Q11941983"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platja%20Romana.jpg"
+    }
+  }
+}

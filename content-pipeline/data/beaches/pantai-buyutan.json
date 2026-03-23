@@ -1,0 +1,25 @@
+{
+  "slug": "pantai-buyutan",
+  "name": "Pantai Buyutan",
+  "centroid_lat": -8.2187403,
+  "centroid_lng": 110.9203495,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/8401225051",
+      "source_url": "https://www.openstreetmap.org/node/8401225051"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/623474302",
+      "source_url": "https://www.openstreetmap.org/way/623474302"
+    }
+  ],
+  "attributes": {}
+}

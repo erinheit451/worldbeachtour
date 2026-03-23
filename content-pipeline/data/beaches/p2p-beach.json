@@ -1,0 +1,24 @@
+{
+  "slug": "p2p-beach",
+  "name": "P2P Beach",
+  "centroid_lat": 49.3733535,
+  "centroid_lng": -122.2710244,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1139166117",
+      "source_url": "https://www.openstreetmap.org/way/1139166117"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

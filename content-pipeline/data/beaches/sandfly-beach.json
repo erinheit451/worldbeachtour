@@ -1,0 +1,25 @@
+{
+  "slug": "sandfly-beach",
+  "name": "Sandfly Beach",
+  "centroid_lat": -43.3184295,
+  "centroid_lng": 170.0229818,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6364260666",
+      "source_url": "https://www.openstreetmap.org/node/6364260666"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324596",
+      "source_url": "https://www.wikidata.org/wiki/Q49324596"
+    }
+  ],
+  "attributes": {}
+}

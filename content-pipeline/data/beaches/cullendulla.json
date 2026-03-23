@@ -1,0 +1,25 @@
+{
+  "slug": "cullendulla",
+  "name": "Cullendulla",
+  "centroid_lat": -35.7012246,
+  "centroid_lng": 150.2051122,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/959015556",
+      "source_url": "https://www.openstreetmap.org/way/959015556"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956675",
+      "source_url": "https://www.wikidata.org/wiki/Q21956675"
+    }
+  ],
+  "attributes": {}
+}

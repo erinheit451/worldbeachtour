@@ -1,0 +1,25 @@
+{
+  "slug": "el-puertito-1",
+  "name": "El Puertito",
+  "centroid_lat": 28.1135882,
+  "centroid_lng": -16.7682819,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/116720440",
+      "source_url": "https://www.openstreetmap.org/way/116720440"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/751881094",
+      "source_url": "https://www.openstreetmap.org/way/751881094"
+    }
+  ],
+  "attributes": {}
+}

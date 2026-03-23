@@ -1,0 +1,35 @@
+{
+  "slug": "shark-fin-cove-beach",
+  "name": "Shark Fin Cove Beach",
+  "centroid_lat": 37.0042038,
+  "centroid_lng": -122.1855604,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/20252440",
+      "source_url": "https://www.openstreetmap.org/relation/20252440"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/20252684",
+      "source_url": "https://www.openstreetmap.org/relation/20252684"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q106570571",
+      "source_url": "https://www.wikidata.org/wiki/Q106570571"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Shark%20Fin%20Cove.jpg"
+    }
+  }
+}

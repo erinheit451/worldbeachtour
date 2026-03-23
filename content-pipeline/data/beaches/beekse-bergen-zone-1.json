@@ -1,0 +1,45 @@
+{
+  "slug": "beekse-bergen-zone-1",
+  "name": "BEEKSE BERGEN ZONE 1",
+  "centroid_lat": 51.5259,
+  "centroid_lng": 5.12553,
+  "country_code": "NL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/77457520",
+      "source_url": "https://www.openstreetmap.org/way/77457520"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/77457521",
+      "source_url": "https://www.openstreetmap.org/way/77457521"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1049970641",
+      "source_url": "https://www.openstreetmap.org/way/1049970641"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW27_245565",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW27_245565",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

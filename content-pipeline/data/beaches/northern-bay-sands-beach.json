@@ -1,0 +1,24 @@
+{
+  "slug": "northern-bay-sands-beach",
+  "name": "Northern Bay Sands Beach",
+  "centroid_lat": 47.9358125,
+  "centroid_lng": -53.0781365,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2282943",
+      "source_url": "https://www.openstreetmap.org/relation/2282943"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

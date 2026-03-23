@@ -1,0 +1,29 @@
+{
+  "slug": "playa-san-miguel-1",
+  "name": "Playa San Miguel",
+  "centroid_lat": 9.8118274,
+  "centroid_lng": -85.3108873,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/469268533",
+      "source_url": "https://www.openstreetmap.org/way/469268533"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23736981",
+      "source_url": "https://www.wikidata.org/wiki/Q23736981"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20San%20Miguel%20view%20from%20B.Kobelts%20property%20-%20panoramio.jpg"
+    }
+  }
+}

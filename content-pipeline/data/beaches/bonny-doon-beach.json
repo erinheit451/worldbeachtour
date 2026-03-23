@@ -1,0 +1,30 @@
+{
+  "slug": "bonny-doon-beach",
+  "name": "Bonny Doon Beach",
+  "centroid_lat": 37.000237,
+  "centroid_lng": -122.1815425,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/20251925",
+      "source_url": "https://www.openstreetmap.org/relation/20251925"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320219",
+      "source_url": "https://www.wikidata.org/wiki/Q49320219"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20Bonny%20Doon%20beach.JPG"
+    }
+  }
+}

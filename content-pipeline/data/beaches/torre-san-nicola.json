@@ -1,0 +1,45 @@
+{
+  "slug": "torre-san-nicola",
+  "name": "TORRE SAN NICOLA",
+  "centroid_lat": 39.8499,
+  "centroid_lng": 15.7836,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/215225555",
+      "source_url": "https://www.openstreetmap.org/way/215225555"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/258643552",
+      "source_url": "https://www.openstreetmap.org/way/258643552"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q124398465",
+      "source_url": "https://www.wikidata.org/wiki/Q124398465"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018078125001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018078125001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "pasjaca",
+  "name": "Pasjača",
+  "centroid_lat": 42.5134388,
+  "centroid_lng": 18.320884,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/349839768",
+      "source_url": "https://www.openstreetmap.org/way/349839768"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q104387227",
+      "source_url": "https://www.wikidata.org/wiki/Q104387227"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Pasjacha%20%28Pasja%C4%8Da%29%20Beach%20-%20panoramio.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Pasja%C4%8Da_Beach"
+    }
+  }
+}

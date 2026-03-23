@@ -1,0 +1,35 @@
+{
+  "slug": "mavro-lithari-eden",
+  "name": "MAVRO LITHARI - EDEN",
+  "centroid_lat": 37.7276,
+  "centroid_lng": 23.9074,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53632492",
+      "source_url": "https://www.wikidata.org/wiki/Q53632492"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW069225109101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW069225109101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

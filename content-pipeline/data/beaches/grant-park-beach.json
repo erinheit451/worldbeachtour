@@ -1,0 +1,25 @@
+{
+  "slug": "grant-park-beach",
+  "name": "Grant Park Beach",
+  "centroid_lat": 42.9144178,
+  "centroid_lng": -87.8417666,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/404430067",
+      "source_url": "https://www.openstreetmap.org/way/404430067"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    }
+  }
+}

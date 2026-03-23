@@ -1,0 +1,50 @@
+{
+  "slug": "hundestrand-53",
+  "name": "Hundestrand",
+  "centroid_lat": 53.5051596,
+  "centroid_lng": 12.4471225,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/114707944",
+      "source_url": "https://www.openstreetmap.org/way/114707944"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/699600241",
+      "source_url": "https://www.openstreetmap.org/way/699600241"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEMV_PR_2_0445",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEMV_PR_2_0445",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    },
+    "social": {
+      "dog_friendly": "designated"
+    },
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

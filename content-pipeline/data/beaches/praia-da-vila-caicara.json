@@ -1,0 +1,29 @@
+{
+  "slug": "praia-da-vila-caicara",
+  "name": "Praia da Vila Caiçara",
+  "centroid_lat": -24.0513464,
+  "centroid_lng": -46.5245962,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/5225914",
+      "source_url": "https://www.openstreetmap.org/relation/5225914"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q133994031",
+      "source_url": "https://www.wikidata.org/wiki/Q133994031"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/CAI%C3%87ARA%20JAN%202010%20-%20panoramio%20%283%29.jpg"
+    }
+  }
+}

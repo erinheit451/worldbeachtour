@@ -1,0 +1,30 @@
+{
+  "slug": "st-anns-beach",
+  "name": "St. Anns Beach",
+  "centroid_lat": 46.3027359,
+  "centroid_lng": -60.544794,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/2326523753",
+      "source_url": "https://www.openstreetmap.org/node/2326523753"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/223779278",
+      "source_url": "https://www.openstreetmap.org/way/223779278"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22367941",
+      "source_url": "https://www.wikidata.org/wiki/Q22367941"
+    }
+  ],
+  "attributes": {}
+}

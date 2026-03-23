@@ -1,0 +1,25 @@
+{
+  "slug": "texas-bar-1",
+  "name": "Texas Bar",
+  "centroid_lat": 49.4651642,
+  "centroid_lng": -121.4186964,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/607268566",
+      "source_url": "https://www.openstreetmap.org/way/607268566"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22479484",
+      "source_url": "https://www.wikidata.org/wiki/Q22479484"
+    }
+  ],
+  "attributes": {}
+}

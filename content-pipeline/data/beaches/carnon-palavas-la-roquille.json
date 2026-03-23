@@ -1,0 +1,53 @@
+{
+  "slug": "carnon-palavas-la-roquille",
+  "name": "CARNON PALAVAS - LA ROQUILLE",
+  "centroid_lat": 43.54043,
+  "centroid_lng": 3.97004,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/283112388",
+      "source_url": "https://www.openstreetmap.org/way/283112388"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/358897555",
+      "source_url": "https://www.openstreetmap.org/way/358897555"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ1334154M034205",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ1334192M034204",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ1334154M034205",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ1334192M034204",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "private"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "belharucas",
+  "name": "BELHARUCAS",
+  "centroid_lat": 37.09062,
+  "centroid_lng": -8.18341,
+  "country_code": "PT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6312423891",
+      "source_url": "https://www.openstreetmap.org/node/6312423891"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/674054404",
+      "source_url": "https://www.openstreetmap.org/way/674054404"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCD9U",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCD9U",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "plage-de-la-palmyre",
+  "name": "Plage de la Palmyre",
+  "centroid_lat": 45.6794601,
+  "centroid_lng": -1.1767019,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/3188493",
+      "source_url": "https://www.openstreetmap.org/relation/3188493"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI3217225M017135",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI3217225M017135",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

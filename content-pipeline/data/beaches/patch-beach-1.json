@@ -1,0 +1,25 @@
+{
+  "slug": "patch-beach-1",
+  "name": "Patch Beach",
+  "centroid_lat": 42.5493106,
+  "centroid_lng": -70.8517006,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1030139593",
+      "source_url": "https://www.openstreetmap.org/way/1030139593"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322471",
+      "source_url": "https://www.wikidata.org/wiki/Q49322471"
+    }
+  ],
+  "attributes": {}
+}

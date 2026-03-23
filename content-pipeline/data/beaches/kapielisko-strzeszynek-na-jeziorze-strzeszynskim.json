@@ -1,0 +1,30 @@
+{
+  "slug": "kapielisko-strzeszynek-na-jeziorze-strzeszynskim",
+  "name": "KĄPIELISKO STRZESZYNEK NA JEZIORZE STRZESZYŃSKIM",
+  "centroid_lat": 52.46222,
+  "centroid_lng": 16.82528,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4156401130000026",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4156401130000026",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

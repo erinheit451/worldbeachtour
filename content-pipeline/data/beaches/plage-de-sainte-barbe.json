@@ -1,0 +1,29 @@
+{
+  "slug": "plage-de-sainte-barbe",
+  "name": "Plage de Sainte-Barbe",
+  "centroid_lat": 47.598162,
+  "centroid_lng": -3.1526685,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6638451457",
+      "source_url": "https://www.openstreetmap.org/node/6638451457"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322683",
+      "source_url": "https://www.wikidata.org/wiki/Q49322683"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ste%20Barbe%20beach%20%2848590638351%29.jpg"
+    }
+  }
+}

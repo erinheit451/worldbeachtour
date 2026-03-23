@@ -1,0 +1,29 @@
+{
+  "slug": "lighthouse-beach-17",
+  "name": "Lighthouse Beach",
+  "centroid_lat": 29.498534,
+  "centroid_lng": 34.9125311,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/765376663",
+      "source_url": "https://www.openstreetmap.org/way/765376663"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q26768731",
+      "source_url": "https://www.wikidata.org/wiki/Q26768731"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    }
+  }
+}

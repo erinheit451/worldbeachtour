@@ -1,0 +1,29 @@
+{
+  "slug": "msyf-mwss-lhrm",
+  "name": "مصيف مؤسسة الأهرام",
+  "centroid_lat": 31.1773542,
+  "centroid_lng": 27.6492472,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8946230",
+      "source_url": "https://www.openstreetmap.org/relation/8946230"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8946235",
+      "source_url": "https://www.openstreetmap.org/relation/8946235"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "permissive"
+    }
+  }
+}

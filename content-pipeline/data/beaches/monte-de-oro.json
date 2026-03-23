@@ -1,0 +1,35 @@
+{
+  "slug": "monte-de-oro",
+  "name": "Monte de oro",
+  "centroid_lat": 39.5247756,
+  "centroid_lng": 2.4662037,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/208790637",
+      "source_url": "https://www.openstreetmap.org/way/208790637"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/208790643",
+      "source_url": "https://www.openstreetmap.org/way/208790643"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/432386271",
+      "source_url": "https://www.openstreetmap.org/way/432386271"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "dog_friendly": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "harvaluodon-uimaranta",
+  "name": "Harvaluodon uimaranta",
+  "centroid_lat": 60.3706811,
+  "centroid_lng": 22.5142536,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/138562185",
+      "source_url": "https://www.openstreetmap.org/way/138562185"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/631671217",
+      "source_url": "https://www.openstreetmap.org/way/631671217"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

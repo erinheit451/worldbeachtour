@@ -1,0 +1,27 @@
+{
+  "slug": "waldbad-2",
+  "name": "Waldbad",
+  "centroid_lat": 52.7466759,
+  "centroid_lng": 13.4959678,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/3091827",
+      "source_url": "https://www.openstreetmap.org/relation/3091827"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "praia-das-adegas",
+  "name": "Praia das Adegas",
+  "centroid_lat": 37.4391802,
+  "centroid_lng": -8.8005448,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1242990213",
+      "source_url": "https://www.openstreetmap.org/way/1242990213"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7237776",
+      "source_url": "https://www.wikidata.org/wiki/Q7237776"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20de%20Adegas%20ou%20Odeceixe%20Sul%20-%20Portugal%20%2833105019432%29.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_das_Adegas"
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

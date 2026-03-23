@@ -1,0 +1,25 @@
+{
+  "slug": "pantai-fink",
+  "name": "Pantai Fink",
+  "centroid_lat": -8.8602805,
+  "centroid_lng": 116.5765867,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/2035855606",
+      "source_url": "https://www.openstreetmap.org/node/2035855606"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/150583733",
+      "source_url": "https://www.openstreetmap.org/way/150583733"
+    }
+  ],
+  "attributes": {}
+}

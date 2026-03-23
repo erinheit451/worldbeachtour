@@ -1,0 +1,29 @@
+{
+  "slug": "trinchera-beach",
+  "name": "Trinchera Beach",
+  "centroid_lat": 13.4798587,
+  "centroid_lng": 144.7666367,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1245473658",
+      "source_url": "https://www.openstreetmap.org/way/1245473658"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25185571",
+      "source_url": "https://www.wikidata.org/wiki/Q25185571"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Trinchera%20Beach.JPG"
+    }
+  }
+}

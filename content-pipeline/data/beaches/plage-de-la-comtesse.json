@@ -1,0 +1,43 @@
+{
+  "slug": "plage-de-la-comtesse",
+  "name": "Plage de la Comtesse",
+  "centroid_lat": 48.6502149,
+  "centroid_lng": -2.8263758,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/3615219",
+      "source_url": "https://www.openstreetmap.org/relation/3615219"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/3615221",
+      "source_url": "https://www.openstreetmap.org/relation/3615221"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0122325M022275",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0122325M022275",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

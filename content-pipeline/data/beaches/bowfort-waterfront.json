@@ -1,0 +1,24 @@
+{
+  "slug": "bowfort-waterfront",
+  "name": "Bowfort Waterfront",
+  "centroid_lat": 51.0664664,
+  "centroid_lng": -115.0728469,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12053146351",
+      "source_url": "https://www.openstreetmap.org/node/12053146351"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

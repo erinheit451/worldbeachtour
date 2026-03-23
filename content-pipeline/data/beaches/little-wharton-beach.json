@@ -1,0 +1,29 @@
+{
+  "slug": "little-wharton-beach",
+  "name": "Little Wharton Beach",
+  "centroid_lat": -33.946196673,
+  "centroid_lng": 122.567047063,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/16519195",
+      "source_url": "https://www.openstreetmap.org/relation/16519195"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q124465399",
+      "source_url": "https://www.wikidata.org/wiki/Q124465399"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Little%20Wharton%20Beach%2C%20Western%20Australia%2C%20January%202024%2002.jpg"
+    }
+  }
+}

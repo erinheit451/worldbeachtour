@@ -1,0 +1,32 @@
+{
+  "slug": "sa-colonia",
+  "name": "Sa Colonia",
+  "centroid_lat": 38.8944815,
+  "centroid_lng": 8.8797778,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/142279861",
+      "source_url": "https://www.openstreetmap.org/way/142279861"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33340557",
+      "source_url": "https://www.wikidata.org/wiki/Q33340557"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sa%20Colonia%20-%20panoramio%20%281%29.jpg"
+    }
+  }
+}

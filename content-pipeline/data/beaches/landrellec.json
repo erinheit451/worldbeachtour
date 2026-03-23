@@ -1,0 +1,38 @@
+{
+  "slug": "landrellec",
+  "name": "LANDRELLEC",
+  "centroid_lat": 48.81538,
+  "centroid_lng": -3.54179,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/10436629",
+      "source_url": "https://www.openstreetmap.org/relation/10436629"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0122198M022455",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0122198M022455",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

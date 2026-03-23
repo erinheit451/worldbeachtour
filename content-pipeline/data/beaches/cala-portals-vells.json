@@ -1,0 +1,39 @@
+{
+  "slug": "cala-portals-vells",
+  "name": "Cala Portals Vells",
+  "centroid_lat": 39.4723209,
+  "centroid_lng": 2.5201793,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/34705130",
+      "source_url": "https://www.openstreetmap.org/way/34705130"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/52331795",
+      "source_url": "https://www.openstreetmap.org/way/52331795"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q11910910",
+      "source_url": "https://www.wikidata.org/wiki/Q11910910"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q18005772",
+      "source_url": "https://www.wikidata.org/wiki/Q18005772"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platgeta%20de%20Portals%20Vells.jpg"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "praja-naturista-rocca-palumma",
+  "name": "Praja naturista Rocca Palumma",
+  "centroid_lat": 38.0103132,
+  "centroid_lng": 14.2431003,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1090565484",
+      "source_url": "https://www.openstreetmap.org/way/1090565484"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1252093204",
+      "source_url": "https://www.openstreetmap.org/way/1252093204"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1252093207",
+      "source_url": "https://www.openstreetmap.org/way/1252093207"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1252093209",
+      "source_url": "https://www.openstreetmap.org/way/1252093209"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "social": {
+      "nudist": "customary"
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

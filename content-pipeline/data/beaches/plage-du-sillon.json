@@ -1,0 +1,29 @@
+{
+  "slug": "plage-du-sillon",
+  "name": "Plage du Sillon",
+  "centroid_lat": 48.6566294,
+  "centroid_lng": -2.0133301,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/485330850",
+      "source_url": "https://www.openstreetmap.org/way/485330850"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q65550074",
+      "source_url": "https://www.wikidata.org/wiki/Q65550074"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/0%200588%20Saint-Malo%20-%20Strand.jpg"
+    }
+  }
+}

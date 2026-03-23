@@ -1,0 +1,29 @@
+{
+  "slug": "almaciga-beach",
+  "name": "Almáciga Beach",
+  "centroid_lat": 28.57222222,
+  "centroid_lng": -16.19277778,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2108887",
+      "source_url": "https://www.openstreetmap.org/relation/2108887"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q5390835",
+      "source_url": "https://www.wikidata.org/wiki/Q5390835"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20Alm%C3%A1ciga3.jpg"
+    }
+  }
+}

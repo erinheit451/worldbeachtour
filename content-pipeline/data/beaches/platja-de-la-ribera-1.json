@@ -1,0 +1,39 @@
+{
+  "slug": "platja-de-la-ribera-1",
+  "name": "Platja de la Ribera",
+  "centroid_lat": 41.2341122,
+  "centroid_lng": 1.8070524,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2167935",
+      "source_url": "https://www.openstreetmap.org/relation/2167935"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/10225083",
+      "source_url": "https://www.openstreetmap.org/relation/10225083"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q125592648",
+      "source_url": "https://www.wikidata.org/wiki/Q125592648"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q125606826",
+      "source_url": "https://www.wikidata.org/wiki/Q125606826"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Esgl%C3%A9sia%20parroquial%20de%20Sant%20Bartomeu%20i%20Santa%20Tecla%20%28Sitges%29%20-%207.jpg"
+    }
+  }
+}

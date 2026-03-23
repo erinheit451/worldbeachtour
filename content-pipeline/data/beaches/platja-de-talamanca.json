@@ -1,0 +1,39 @@
+{
+  "slug": "platja-de-talamanca",
+  "name": "Platja de Talamanca",
+  "centroid_lat": 38.9154779,
+  "centroid_lng": 1.4547329,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/258363696",
+      "source_url": "https://www.openstreetmap.org/way/258363696"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1408254659",
+      "source_url": "https://www.openstreetmap.org/way/1408254659"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1408254660",
+      "source_url": "https://www.openstreetmap.org/way/1408254660"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7910852",
+      "source_url": "https://www.wikidata.org/wiki/Q7910852"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platja%20de%20Talamanca%20Eivissa.jpg"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "marina-di-vecchiano",
+  "name": "Marina di Vecchiano",
+  "centroid_lat": 43.7948,
+  "centroid_lng": 10.2642,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5863767390",
+      "source_url": "https://www.openstreetmap.org/node/5863767390"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/1503196",
+      "source_url": "https://www.openstreetmap.org/relation/1503196"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q107980678",
+      "source_url": "https://www.wikidata.org/wiki/Q107980678"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Vecchiano%206.jpg"
+    }
+  }
+}

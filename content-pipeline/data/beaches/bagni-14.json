@@ -1,0 +1,44 @@
+{
+  "slug": "bagni-14",
+  "name": "Bagni 14",
+  "centroid_lat": 43.7277831,
+  "centroid_lng": 13.2062595,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/361414004",
+      "source_url": "https://www.openstreetmap.org/way/361414004"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/361414013",
+      "source_url": "https://www.openstreetmap.org/way/361414013"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/361414017",
+      "source_url": "https://www.openstreetmap.org/way/361414017"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/361414024",
+      "source_url": "https://www.openstreetmap.org/way/361414024"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/361414025",
+      "source_url": "https://www.openstreetmap.org/way/361414025"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

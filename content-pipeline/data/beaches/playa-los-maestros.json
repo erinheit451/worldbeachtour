@@ -1,0 +1,25 @@
+{
+  "slug": "playa-los-maestros",
+  "name": "Playa Los Maestros",
+  "centroid_lat": 15.781848,
+  "centroid_lng": -86.8034287,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9002156880",
+      "source_url": "https://www.openstreetmap.org/node/9002156880"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/119116735",
+      "source_url": "https://www.openstreetmap.org/way/119116735"
+    }
+  ],
+  "attributes": {}
+}

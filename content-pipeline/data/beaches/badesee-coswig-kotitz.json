@@ -1,0 +1,35 @@
+{
+  "slug": "badesee-coswig-kotitz",
+  "name": "BADESEE COSWIG-KÖTITZ",
+  "centroid_lat": 51.1222,
+  "centroid_lng": 13.5594,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1084606873",
+      "source_url": "https://www.openstreetmap.org/way/1084606873"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DESN_PR_0017",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DESN_PR_0017",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "praia-dos-machados",
+  "name": "Praia dos Machados",
+  "centroid_lat": 37.4924385,
+  "centroid_lng": -8.7948967,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/208117757",
+      "source_url": "https://www.openstreetmap.org/way/208117757"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

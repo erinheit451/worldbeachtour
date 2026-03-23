@@ -1,0 +1,27 @@
+{
+  "slug": "plage-naturiste-de-choiseau",
+  "name": "Plage naturiste de Choiseau",
+  "centroid_lat": 47.1218525,
+  "centroid_lng": -2.1826033,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8619251",
+      "source_url": "https://www.openstreetmap.org/relation/8619251"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

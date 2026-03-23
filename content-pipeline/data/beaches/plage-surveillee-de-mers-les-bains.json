@@ -1,0 +1,35 @@
+{
+  "slug": "plage-surveillee-de-mers-les-bains",
+  "name": "PLAGE SURVEILLEE DE MERS LES BAINS",
+  "centroid_lat": 50.06786,
+  "centroid_lng": 1.38388,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/176268735",
+      "source_url": "https://www.openstreetmap.org/way/176268735"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRE2380533M080410",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRE2380533M080410",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

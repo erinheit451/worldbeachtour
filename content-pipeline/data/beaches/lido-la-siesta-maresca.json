@@ -1,0 +1,29 @@
+{
+  "slug": "lido-la-siesta-maresca",
+  "name": "Lido La Siesta Maresca",
+  "centroid_lat": 40.4068359,
+  "centroid_lng": 14.9933307,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9910106068",
+      "source_url": "https://www.openstreetmap.org/node/9910106068"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33343235",
+      "source_url": "https://www.wikidata.org/wiki/Q33343235"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

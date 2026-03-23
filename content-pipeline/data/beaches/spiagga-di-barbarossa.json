@@ -1,0 +1,43 @@
+{
+  "slug": "spiagga-di-barbarossa",
+  "name": "Spiagga di Barbarossa",
+  "centroid_lat": 42.7693342,
+  "centroid_lng": 10.4073251,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/70559221",
+      "source_url": "https://www.openstreetmap.org/way/70559221"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33336037",
+      "source_url": "https://www.wikidata.org/wiki/Q33336037"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049013002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049013002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Spiaggia%20Di%20Barbarossa.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

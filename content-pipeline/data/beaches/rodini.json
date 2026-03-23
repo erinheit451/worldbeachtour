@@ -1,0 +1,55 @@
+{
+  "slug": "rodini",
+  "name": "RODINI",
+  "centroid_lat": 38.3267,
+  "centroid_lng": 21.8831,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/952660974",
+      "source_url": "https://www.openstreetmap.org/way/952660974"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/952662314",
+      "source_url": "https://www.openstreetmap.org/way/952662314"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/952667808",
+      "source_url": "https://www.openstreetmap.org/way/952667808"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/952667809",
+      "source_url": "https://www.openstreetmap.org/way/952667809"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/952676400",
+      "source_url": "https://www.openstreetmap.org/way/952676400"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW029130110101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW029130110101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

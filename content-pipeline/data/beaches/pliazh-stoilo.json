@@ -1,0 +1,24 @@
+{
+  "slug": "pliazh-stoilo",
+  "name": "Пляж \"Стойло\"",
+  "centroid_lat": 44.3041925,
+  "centroid_lng": 39.8289253,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/3415018",
+      "source_url": "https://www.openstreetmap.org/relation/3415018"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

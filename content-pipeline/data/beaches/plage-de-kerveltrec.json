@@ -1,0 +1,95 @@
+{
+  "slug": "plage-de-kerveltrec",
+  "name": "Plage de Kerveltrec",
+  "centroid_lat": 47.8675999,
+  "centroid_lng": -3.9855959,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/106101834",
+      "source_url": "https://www.openstreetmap.org/way/106101834"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/253487595",
+      "source_url": "https://www.openstreetmap.org/way/253487595"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/314743599",
+      "source_url": "https://www.openstreetmap.org/way/314743599"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/314744443",
+      "source_url": "https://www.openstreetmap.org/way/314744443"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/314744444",
+      "source_url": "https://www.openstreetmap.org/way/314744444"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/314744445",
+      "source_url": "https://www.openstreetmap.org/way/314744445"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/314744446",
+      "source_url": "https://www.openstreetmap.org/way/314744446"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/314744447",
+      "source_url": "https://www.openstreetmap.org/way/314744447"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/314744448",
+      "source_url": "https://www.openstreetmap.org/way/314744448"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/314744449",
+      "source_url": "https://www.openstreetmap.org/way/314744449"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/314744450",
+      "source_url": "https://www.openstreetmap.org/way/314744450"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/615395595",
+      "source_url": "https://www.openstreetmap.org/way/615395595"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/615395597",
+      "source_url": "https://www.openstreetmap.org/way/615395597"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229058M029844",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229058M029844",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

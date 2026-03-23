@@ -1,0 +1,29 @@
+{
+  "slug": "playa-de-las-camaras",
+  "name": "Playa de las Cámaras",
+  "centroid_lat": 43.4322221,
+  "centroid_lng": -4.8082343,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2187449",
+      "source_url": "https://www.openstreetmap.org/relation/2187449"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/2187450",
+      "source_url": "https://www.openstreetmap.org/relation/2187450"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

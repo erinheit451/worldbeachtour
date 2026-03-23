@@ -1,0 +1,43 @@
+{
+  "slug": "spiaggia-acciaroli-sud-porto",
+  "name": "SPIAGGIA ACCIAROLI (SUD PORTO)",
+  "centroid_lat": 40.1769,
+  "centroid_lng": 15.0286,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/173829665",
+      "source_url": "https://www.openstreetmap.org/way/173829665"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1484099254",
+      "source_url": "https://www.openstreetmap.org/way/1484099254"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015065098002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015065098002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

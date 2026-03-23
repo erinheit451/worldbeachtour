@@ -1,0 +1,30 @@
+{
+  "slug": "harbour-beach-2",
+  "name": "Harbour Beach",
+  "centroid_lat": 50.2133812,
+  "centroid_lng": -5.4781497,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/182236039",
+      "source_url": "https://www.openstreetmap.org/way/182236039"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/183750281",
+      "source_url": "https://www.openstreetmap.org/way/183750281"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/183750559",
+      "source_url": "https://www.openstreetmap.org/way/183750559"
+    }
+  ],
+  "attributes": {}
+}

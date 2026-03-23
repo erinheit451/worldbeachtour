@@ -1,0 +1,29 @@
+{
+  "slug": "marina-di-orosei",
+  "name": "Marina di Orosei",
+  "centroid_lat": 40.3710626,
+  "centroid_lng": 9.725001,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/81645135",
+      "source_url": "https://www.openstreetmap.org/way/81645135"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33327535",
+      "source_url": "https://www.wikidata.org/wiki/Q33327535"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Marina%20di%20Orosei%20-%20panoramio.jpg"
+    }
+  }
+}

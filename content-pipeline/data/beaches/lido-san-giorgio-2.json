@@ -1,0 +1,24 @@
+{
+  "slug": "lido-san-giorgio-2",
+  "name": "Lido San Giorgio",
+  "centroid_lat": 42.0965266,
+  "centroid_lng": 14.7252927,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1153328529",
+      "source_url": "https://www.openstreetmap.org/way/1153328529"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

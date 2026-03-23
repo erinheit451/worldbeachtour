@@ -1,0 +1,29 @@
+{
+  "slug": "dynamic-bohol-resort",
+  "name": "Dynamic Bohol Resort",
+  "centroid_lat": 9.6126427,
+  "centroid_lng": 123.76875,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6138297294",
+      "source_url": "https://www.openstreetmap.org/node/6138297294"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q122865160",
+      "source_url": "https://www.wikidata.org/wiki/Q122865160"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Huts%20at%20Momo%20beach%2C%20Panglao%20-%20panoramio.jpg"
+    }
+  }
+}

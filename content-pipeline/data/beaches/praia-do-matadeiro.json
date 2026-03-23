@@ -1,0 +1,29 @@
+{
+  "slug": "praia-do-matadeiro",
+  "name": "Praia do Matadeiro",
+  "centroid_lat": -27.7544484,
+  "centroid_lng": -48.4980806,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/6442371",
+      "source_url": "https://www.openstreetmap.org/relation/6442371"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22066772",
+      "source_url": "https://www.wikidata.org/wiki/Q22066772"
+    }
+  ],
+  "attributes": {
+    "surfing": {
+      "surfing_available": true
+    }
+  }
+}

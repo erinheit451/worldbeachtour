@@ -1,0 +1,35 @@
+{
+  "slug": "salinetas",
+  "name": "Salinetas",
+  "centroid_lat": 27.9827878,
+  "centroid_lng": -15.3778702,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/180570475",
+      "source_url": "https://www.openstreetmap.org/way/180570475"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES705M0261791",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES705M0261791",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

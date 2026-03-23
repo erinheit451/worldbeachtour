@@ -1,0 +1,25 @@
+{
+  "slug": "indiiana-s-sandpit",
+  "name": "Indiiana's Sandpit",
+  "centroid_lat": 50.7383004,
+  "centroid_lng": -0.7681202,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/741676722",
+      "source_url": "https://www.openstreetmap.org/way/741676722"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    }
+  }
+}

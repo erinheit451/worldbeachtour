@@ -1,0 +1,24 @@
+{
+  "slug": "praia-do-ver-o-rio",
+  "name": "Praia do Ver o Rio",
+  "centroid_lat": -4.2810292,
+  "centroid_lng": -55.9917705,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1434395694",
+      "source_url": "https://www.openstreetmap.org/way/1434395694"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

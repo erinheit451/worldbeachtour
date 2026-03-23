@@ -1,0 +1,30 @@
+{
+  "slug": "praia-do-gunga",
+  "name": "Praia do Gunga",
+  "centroid_lat": -9.860886,
+  "centroid_lng": -35.9044241,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/273578806",
+      "source_url": "https://www.openstreetmap.org/way/273578806"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q3390855",
+      "source_url": "https://www.wikidata.org/wiki/Q3390855"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20do%20Gunga%20140.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_do_Gunga"
+    }
+  }
+}

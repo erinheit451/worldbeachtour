@@ -1,0 +1,32 @@
+{
+  "slug": "la-quartina",
+  "name": "La Quartina",
+  "centroid_lat": 45.9608984,
+  "centroid_lng": 8.4557683,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/243121482",
+      "source_url": "https://www.openstreetmap.org/way/243121482"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1092939630",
+      "source_url": "https://www.openstreetmap.org/way/1092939630"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

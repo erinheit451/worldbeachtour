@@ -1,0 +1,32 @@
+{
+  "slug": "playa-de-el-bocal",
+  "name": "Playa de El Bocal",
+  "centroid_lat": 43.4881384,
+  "centroid_lng": -3.8256567,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/235891307",
+      "source_url": "https://www.openstreetmap.org/way/235891307"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6079223",
+      "source_url": "https://www.wikidata.org/wiki/Q6079223"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false
+    },
+    "surfing": {
+      "surfing_available": true
+    }
+  }
+}

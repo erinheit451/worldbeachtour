@@ -1,0 +1,30 @@
+{
+  "slug": "spiaggia-delle-sirene",
+  "name": "Spiaggia delle Sirene",
+  "centroid_lat": 38.2529002,
+  "centroid_lng": 15.7107643,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/184223843",
+      "source_url": "https://www.openstreetmap.org/way/184223843"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "facilities": {
+      "access": "yes"
+    },
+    "surfing": {
+      "surfing_available": true
+    }
+  }
+}

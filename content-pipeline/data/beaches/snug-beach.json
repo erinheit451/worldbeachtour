@@ -1,0 +1,29 @@
+{
+  "slug": "snug-beach",
+  "name": "Snug Beach",
+  "centroid_lat": -43.0630356,
+  "centroid_lng": 147.2629252,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/626065981",
+      "source_url": "https://www.openstreetmap.org/way/626065981"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956017",
+      "source_url": "https://www.wikidata.org/wiki/Q21956017"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Beach%20at%20Snug%2C%20near%20Hobart%2C%20Australia%20-%20panoramio.jpg"
+    }
+  }
+}

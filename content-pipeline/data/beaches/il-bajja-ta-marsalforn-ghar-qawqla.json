@@ -1,0 +1,45 @@
+{
+  "slug": "il-bajja-ta-marsalforn-ghar-qawqla",
+  "name": "IL-BAJJA TA MARSALFORN GHAR QAWQLA",
+  "centroid_lat": 36.07382,
+  "centroid_lng": 14.26368,
+  "country_code": "MT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/139735838",
+      "source_url": "https://www.openstreetmap.org/way/139735838"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "MT0260266600000D14",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "MT0260266600000D13",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "MT0260266600000D14",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "MT0260266600000D13",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

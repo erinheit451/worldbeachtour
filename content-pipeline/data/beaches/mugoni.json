@@ -1,0 +1,46 @@
+{
+  "slug": "mugoni",
+  "name": "MUGONI",
+  "centroid_lat": 40.6163,
+  "centroid_lng": 8.2067,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9108887670",
+      "source_url": "https://www.openstreetmap.org/node/9108887670"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q3905173",
+      "source_url": "https://www.wikidata.org/wiki/Q3905173"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020090003007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020090003007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Alghero%2C%20spiaggia%20di%20Mugoni%20%2801%29.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

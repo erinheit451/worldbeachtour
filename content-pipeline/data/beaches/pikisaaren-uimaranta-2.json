@@ -1,0 +1,24 @@
+{
+  "slug": "pikisaaren-uimaranta-2",
+  "name": "Pikisaaren uimaranta",
+  "centroid_lat": 61.0747594,
+  "centroid_lng": 28.1743879,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/238351382",
+      "source_url": "https://www.openstreetmap.org/way/238351382"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

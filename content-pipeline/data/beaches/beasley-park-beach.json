@@ -1,0 +1,29 @@
+{
+  "slug": "beasley-park-beach",
+  "name": "Beasley Park Beach",
+  "centroid_lat": 50.0518192,
+  "centroid_lng": -119.3966546,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1283786400",
+      "source_url": "https://www.openstreetmap.org/way/1283786400"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1283786663",
+      "source_url": "https://www.openstreetmap.org/way/1283786663"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "private"
+    }
+  }
+}

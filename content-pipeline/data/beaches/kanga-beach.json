@@ -1,0 +1,24 @@
+{
+  "slug": "kanga-beach",
+  "name": "Kanga beach",
+  "centroid_lat": -7.7341335,
+  "centroid_lng": 39.8419983,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12166272590",
+      "source_url": "https://www.openstreetmap.org/node/12166272590"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

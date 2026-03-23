@@ -1,0 +1,48 @@
+{
+  "slug": "marina-di-alberese-sud",
+  "name": "MARINA DI ALBERESE SUD",
+  "centroid_lat": 42.6469,
+  "centroid_lng": 11.0393,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q121354058",
+      "source_url": "https://www.wikidata.org/wiki/Q121354058"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009053011009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009053011008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009053011009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009053011008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Marina%20di%20Alberese%20beach%20-%207652463316.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "spiaggia-di-punta-penna",
+  "name": "Spiaggia di Punta Penna",
+  "centroid_lat": 42.1755429,
+  "centroid_lng": 14.6984616,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/9195993",
+      "source_url": "https://www.openstreetmap.org/relation/9195993"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q16608028",
+      "source_url": "https://www.wikidata.org/wiki/Q16608028"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Vasto%202009%20150%20%28RaBoe%29.jpg"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "kapielisko-uczniowskiego-klubu-sportowego-krokus-w-wieleniu",
+  "name": "KĄPIELISKO UCZNIOWSKIEGO KLUBU SPORTOWEGO KROKUS W WIELENIU",
+  "centroid_lat": 51.94979,
+  "centroid_lng": 16.18533,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/279685598",
+      "source_url": "https://www.openstreetmap.org/way/279685598"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4122901230000118",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4122901230000118",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

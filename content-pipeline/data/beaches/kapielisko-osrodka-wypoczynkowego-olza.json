@@ -1,0 +1,30 @@
+{
+  "slug": "kapielisko-osrodka-wypoczynkowego-olza",
+  "name": "KĄPIELISKO OŚRODKA WYPOCZYNKOWEGO OLZA",
+  "centroid_lat": 49.96133,
+  "centroid_lng": 18.32897,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL2271506224000027",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL2271506224000027",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

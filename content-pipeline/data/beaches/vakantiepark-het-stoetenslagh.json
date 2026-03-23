@@ -1,0 +1,35 @@
+{
+  "slug": "vakantiepark-het-stoetenslagh",
+  "name": "VAKANTIEPARK HET STOETENSLAGH",
+  "centroid_lat": 52.58626,
+  "centroid_lng": 6.53345,
+  "country_code": "NL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1303189",
+      "source_url": "https://www.openstreetmap.org/relation/1303189"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW44_NCHS50",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW44_NCHS50",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

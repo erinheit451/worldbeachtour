@@ -1,0 +1,30 @@
+{
+  "slug": "government-dock-beach",
+  "name": "Government Dock Beach",
+  "centroid_lat": 47.9359207,
+  "centroid_lng": -84.8498729,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/741090757",
+      "source_url": "https://www.openstreetmap.org/way/741090757"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/741096336",
+      "source_url": "https://www.openstreetmap.org/way/741096336"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22594246",
+      "source_url": "https://www.wikidata.org/wiki/Q22594246"
+    }
+  ],
+  "attributes": {}
+}

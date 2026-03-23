@@ -1,0 +1,24 @@
+{
+  "slug": "playa-chihuahua",
+  "name": "Playa Chihuahua",
+  "centroid_lat": -34.8772826,
+  "centroid_lng": -55.0899902,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2511684",
+      "source_url": "https://www.openstreetmap.org/relation/2511684"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "designated"
+    }
+  }
+}

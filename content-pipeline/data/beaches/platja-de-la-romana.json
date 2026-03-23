@@ -1,0 +1,74 @@
+{
+  "slug": "platja-de-la-romana",
+  "name": "Platja de La Romana",
+  "centroid_lat": 39.5330814,
+  "centroid_lng": 2.4584564,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/162698005",
+      "source_url": "https://www.openstreetmap.org/way/162698005"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/282675413",
+      "source_url": "https://www.openstreetmap.org/way/282675413"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1086582280",
+      "source_url": "https://www.openstreetmap.org/way/1086582280"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1086582281",
+      "source_url": "https://www.openstreetmap.org/way/1086582281"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1086582282",
+      "source_url": "https://www.openstreetmap.org/way/1086582282"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1086582283",
+      "source_url": "https://www.openstreetmap.org/way/1086582283"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0112665",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0112667",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0112665",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0112667",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes",
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

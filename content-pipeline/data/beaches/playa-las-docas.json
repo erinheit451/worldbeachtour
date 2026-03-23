@@ -1,0 +1,29 @@
+{
+  "slug": "playa-las-docas",
+  "name": "Playa Las Docas",
+  "centroid_lat": -33.1390483,
+  "centroid_lng": -71.706051,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/135677739",
+      "source_url": "https://www.openstreetmap.org/way/135677739"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q5970396",
+      "source_url": "https://www.wikidata.org/wiki/Q5970396"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Las%20Docas%20%288963191145%29.jpg"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "badberget-3",
+  "name": "Badberget",
+  "centroid_lat": 59.4369197,
+  "centroid_lng": 17.9671676,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/18099409",
+      "source_url": "https://www.openstreetmap.org/relation/18099409"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

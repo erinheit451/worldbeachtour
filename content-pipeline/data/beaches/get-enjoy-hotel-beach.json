@@ -1,0 +1,30 @@
+{
+  "slug": "get-enjoy-hotel-beach",
+  "name": "Get Enjoy Hotel beach",
+  "centroid_lat": 36.7242225,
+  "centroid_lng": 30.563455,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/704168488",
+      "source_url": "https://www.openstreetmap.org/way/704168488"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/731988399",
+      "source_url": "https://www.openstreetmap.org/way/731988399"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/2454424",
+      "source_url": "https://www.openstreetmap.org/relation/2454424"
+    }
+  ],
+  "attributes": {}
+}

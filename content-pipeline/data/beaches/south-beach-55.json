@@ -1,0 +1,29 @@
+{
+  "slug": "south-beach-55",
+  "name": "South Beach",
+  "centroid_lat": -32.0762095,
+  "centroid_lng": 115.7509586,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/50343032",
+      "source_url": "https://www.openstreetmap.org/way/50343032"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21961442",
+      "source_url": "https://www.wikidata.org/wiki/Q21961442"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/2018-09-07%20South%20Beach%20%282%29.jpg"
+    }
+  }
+}

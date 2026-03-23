@@ -1,0 +1,30 @@
+{
+  "slug": "velencei-to-agard-tini-strand",
+  "name": "VELENCEI-TO  AGARD  TINI STRAND",
+  "centroid_lat": 47.20259,
+  "centroid_lng": 18.60923,
+  "country_code": "HU",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_00703",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_00703",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

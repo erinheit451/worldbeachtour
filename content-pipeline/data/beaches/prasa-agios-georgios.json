@@ -1,0 +1,24 @@
+{
+  "slug": "prasa-agios-georgios",
+  "name": "Πράσα (Άγιος Γεώργιος)",
+  "centroid_lat": 36.8243788,
+  "centroid_lng": 24.5994494,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/496024869",
+      "source_url": "https://www.openstreetmap.org/way/496024869"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

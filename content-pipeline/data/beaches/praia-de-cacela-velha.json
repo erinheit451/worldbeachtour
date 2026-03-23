@@ -1,0 +1,29 @@
+{
+  "slug": "praia-de-cacela-velha",
+  "name": "Praia de Cacela Velha",
+  "centroid_lat": 37.1515737,
+  "centroid_lng": -7.5474151,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/7212953",
+      "source_url": "https://www.openstreetmap.org/relation/7212953"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10352748",
+      "source_url": "https://www.wikidata.org/wiki/Q10352748"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cacela%20Velha%2C%20Ria%20Formosa%2C%20Algarve%20%286045750864%29.jpg"
+    }
+  }
+}

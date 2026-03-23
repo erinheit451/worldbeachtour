@@ -1,0 +1,60 @@
+{
+  "slug": "pod-maslovom",
+  "name": "Pod Maslovom",
+  "centroid_lat": 42.60614,
+  "centroid_lng": 18.22637,
+  "country_code": "HR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/91935517",
+      "source_url": "https://www.openstreetmap.org/way/91935517"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/91935602",
+      "source_url": "https://www.openstreetmap.org/way/91935602"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/633276023",
+      "source_url": "https://www.openstreetmap.org/way/633276023"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q97445969",
+      "source_url": "https://www.wikidata.org/wiki/Q97445969"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-1151",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-1097",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-1151",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-1097",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

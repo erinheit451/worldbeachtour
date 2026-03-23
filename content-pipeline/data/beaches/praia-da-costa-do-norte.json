@@ -1,0 +1,24 @@
+{
+  "slug": "praia-da-costa-do-norte",
+  "name": "Praia da Costa do Norte",
+  "centroid_lat": 37.978896,
+  "centroid_lng": -8.8640299,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/208112006",
+      "source_url": "https://www.openstreetmap.org/way/208112006"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

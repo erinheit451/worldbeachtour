@@ -1,0 +1,25 @@
+{
+  "slug": "fox-beach-1",
+  "name": "Fox Beach",
+  "centroid_lat": 40.1929608,
+  "centroid_lng": -119.5496328,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357546861",
+      "source_url": "https://www.openstreetmap.org/node/357546861"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320744",
+      "source_url": "https://www.wikidata.org/wiki/Q49320744"
+    }
+  ],
+  "attributes": {}
+}

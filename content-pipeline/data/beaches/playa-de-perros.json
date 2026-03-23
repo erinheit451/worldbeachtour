@@ -1,0 +1,25 @@
+{
+  "slug": "playa-de-perros",
+  "name": "Playa de Perros",
+  "centroid_lat": 38.3015017,
+  "centroid_lng": -0.5184944,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12613213111",
+      "source_url": "https://www.openstreetmap.org/node/12613213111"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1366093648",
+      "source_url": "https://www.openstreetmap.org/way/1366093648"
+    }
+  ],
+  "attributes": {}
+}

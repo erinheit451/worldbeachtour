@@ -1,0 +1,44 @@
+{
+  "slug": "plage-du-truc-vert",
+  "name": "Plage du Truc Vert",
+  "centroid_lat": 44.7153044,
+  "centroid_lng": -1.250913,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5229149922",
+      "source_url": "https://www.openstreetmap.org/node/5229149922"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q120217969",
+      "source_url": "https://www.wikidata.org/wiki/Q120217969"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1233236M033063",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1233236M033063",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Surfeur%20Truc%20Vert.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

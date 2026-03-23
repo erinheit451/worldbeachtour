@@ -1,0 +1,70 @@
+{
+  "slug": "pungenti",
+  "name": "PUNGENTI",
+  "centroid_lat": 43.4001,
+  "centroid_lng": 10.4215,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/123595261",
+      "source_url": "https://www.openstreetmap.org/way/123595261"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/123595265",
+      "source_url": "https://www.openstreetmap.org/way/123595265"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/123595328",
+      "source_url": "https://www.openstreetmap.org/way/123595328"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/123595350",
+      "source_url": "https://www.openstreetmap.org/way/123595350"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/159893379",
+      "source_url": "https://www.openstreetmap.org/way/159893379"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/159893408",
+      "source_url": "https://www.openstreetmap.org/way/159893408"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049017010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049017020",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049017010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049017020",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "cala-anguila",
+  "name": "Cala Anguila",
+  "centroid_lat": 39.5231802,
+  "centroid_lng": 3.3178389,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/33882111",
+      "source_url": "https://www.openstreetmap.org/way/33882111"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/33882910",
+      "source_url": "https://www.openstreetmap.org/way/33882910"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1087130084",
+      "source_url": "https://www.openstreetmap.org/way/1087130084"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q11910851",
+      "source_url": "https://www.wikidata.org/wiki/Q11910851"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q17588943",
+      "source_url": "https://www.wikidata.org/wiki/Q17588943"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0331161",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0331157",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0331161",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0331157",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes",
+      "fee_required": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/CalaMendia.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

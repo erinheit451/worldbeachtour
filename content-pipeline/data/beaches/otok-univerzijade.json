@@ -1,0 +1,53 @@
+{
+  "slug": "otok-univerzijade",
+  "name": "Otok Univerzijade",
+  "centroid_lat": 45.7841995,
+  "centroid_lng": 15.9136696,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/41790508",
+      "source_url": "https://www.openstreetmap.org/way/41790508"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/170337346",
+      "source_url": "https://www.openstreetmap.org/way/170337346"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWI-INLAND_TU-15",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWI-INLAND_TU-16",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWI-INLAND_TU-15",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWI-INLAND_TU-16",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

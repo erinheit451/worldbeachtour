@@ -1,0 +1,27 @@
+{
+  "slug": "la-ramee-plage",
+  "name": "La Ramée Plage",
+  "centroid_lat": 43.5677522,
+  "centroid_lng": 1.3437558,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/550477428",
+      "source_url": "https://www.openstreetmap.org/way/550477428"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "petit-guerzido",
+  "name": "Petit Guerzido",
+  "centroid_lat": 48.837462,
+  "centroid_lng": -3.0010945,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/71042957",
+      "source_url": "https://www.openstreetmap.org/way/71042957"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/71042969",
+      "source_url": "https://www.openstreetmap.org/way/71042969"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/71042970",
+      "source_url": "https://www.openstreetmap.org/way/71042970"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/71042985",
+      "source_url": "https://www.openstreetmap.org/way/71042985"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/71042989",
+      "source_url": "https://www.openstreetmap.org/way/71042989"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/71159328",
+      "source_url": "https://www.openstreetmap.org/way/71159328"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/146315263",
+      "source_url": "https://www.openstreetmap.org/way/146315263"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/146315312",
+      "source_url": "https://www.openstreetmap.org/way/146315312"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/146315315",
+      "source_url": "https://www.openstreetmap.org/way/146315315"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/146315318",
+      "source_url": "https://www.openstreetmap.org/way/146315318"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/719655340",
+      "source_url": "https://www.openstreetmap.org/way/719655340"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/960721091",
+      "source_url": "https://www.openstreetmap.org/way/960721091"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1196443969",
+      "source_url": "https://www.openstreetmap.org/way/1196443969"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1196443982",
+      "source_url": "https://www.openstreetmap.org/way/1196443982"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1196443984",
+      "source_url": "https://www.openstreetmap.org/way/1196443984"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0122016M022360",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0122016M022360",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "private"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

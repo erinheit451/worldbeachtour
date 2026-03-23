@@ -1,0 +1,30 @@
+{
+  "slug": "crique-ventilegne",
+  "name": "Crique Ventilegne",
+  "centroid_lat": 41.4447022,
+  "centroid_lng": 9.086131,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/224886576",
+      "source_url": "https://www.openstreetmap.org/way/224886576"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/224886582",
+      "source_url": "https://www.openstreetmap.org/way/224886582"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/982016119",
+      "source_url": "https://www.openstreetmap.org/way/982016119"
+    }
+  ],
+  "attributes": {}
+}

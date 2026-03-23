@@ -1,0 +1,29 @@
+{
+  "slug": "fairy-cove",
+  "name": "Fairy Cove",
+  "centroid_lat": 50.4314428,
+  "centroid_lng": -3.5549587,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/52583067",
+      "source_url": "https://www.openstreetmap.org/way/52583067"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/56460767",
+      "source_url": "https://www.openstreetmap.org/way/56460767"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true
+    }
+  }
+}

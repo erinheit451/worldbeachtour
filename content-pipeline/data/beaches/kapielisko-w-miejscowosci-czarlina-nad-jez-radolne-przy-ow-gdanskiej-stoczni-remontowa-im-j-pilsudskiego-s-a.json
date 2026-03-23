@@ -1,0 +1,30 @@
+{
+  "slug": "kapielisko-w-miejscowosci-czarlina-nad-jez-radolne-przy-ow-gdanskiej-stoczni-remontowa-im-j-pilsudskiego-s-a",
+  "name": "KĄPIELISKO W MIEJSCOWOŚCI CZARLINA NAD JEZ. RADOLNE PRZY OW GDAŃSKIEJ STOCZNI REMONTOWA IM. J.PIŁSUDSKIEGO S.A.",
+  "centroid_lat": 54.01741,
+  "centroid_lng": 17.91008,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6320604222000113",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6320604222000113",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "platja-guillola",
+  "name": "Platja Guillola",
+  "centroid_lat": 42.3070857,
+  "centroid_lng": 3.2946058,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8311600",
+      "source_url": "https://www.openstreetmap.org/relation/8311600"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24021757",
+      "source_url": "https://www.wikidata.org/wiki/Q24021757"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/La%20cala%20Guillola%20-%20panoramio.jpg"
+    }
+  }
+}

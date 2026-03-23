@@ -1,0 +1,25 @@
+{
+  "slug": "plage-de-bordery",
+  "name": "Plage de Bordery",
+  "centroid_lat": 47.3786497,
+  "centroid_lng": -3.235959,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/430210721",
+      "source_url": "https://www.openstreetmap.org/way/430210721"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/866962811",
+      "source_url": "https://www.openstreetmap.org/way/866962811"
+    }
+  ],
+  "attributes": {}
+}

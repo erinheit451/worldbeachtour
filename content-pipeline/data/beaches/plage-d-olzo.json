@@ -1,0 +1,35 @@
+{
+  "slug": "plage-d-olzo",
+  "name": "Plage d'Olzo",
+  "centroid_lat": 42.6965656,
+  "centroid_lng": 9.3223633,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/803552232",
+      "source_url": "https://www.openstreetmap.org/way/803552232"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRM022B205M02B250",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRM022B205M02B250",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

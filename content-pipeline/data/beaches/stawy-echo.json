@@ -1,0 +1,35 @@
+{
+  "slug": "stawy-echo",
+  "name": "STAWY ECHO",
+  "centroid_lat": 50.5986,
+  "centroid_lng": 22.9759,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/147373608",
+      "source_url": "https://www.openstreetmap.org/way/147373608"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL3122015406000011",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL3122015406000011",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

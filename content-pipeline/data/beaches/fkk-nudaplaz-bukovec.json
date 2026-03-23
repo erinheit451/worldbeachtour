@@ -1,0 +1,27 @@
+{
+  "slug": "fkk-nudaplaz-bukovec",
+  "name": "FKK/Nudapláž Bukovec",
+  "centroid_lat": 48.7005202,
+  "centroid_lng": 21.1606841,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12168588077",
+      "source_url": "https://www.openstreetmap.org/node/12168588077"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "obligatory"
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

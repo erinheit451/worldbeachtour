@@ -1,0 +1,29 @@
+{
+  "slug": "plage-du-prieure",
+  "name": "Plage du Prieuré",
+  "centroid_lat": 48.625726,
+  "centroid_lng": -2.0522614,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/291977817",
+      "source_url": "https://www.openstreetmap.org/way/291977817"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q66932810",
+      "source_url": "https://www.wikidata.org/wiki/Q66932810"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Dinard%20-%20plage%20du%20Prieur%C3%A9%2020200604.jpg"
+    }
+  }
+}

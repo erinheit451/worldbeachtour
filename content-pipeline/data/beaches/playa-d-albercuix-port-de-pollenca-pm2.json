@@ -1,0 +1,75 @@
+{
+  "slug": "playa-d-albercuix-port-de-pollenca-pm2",
+  "name": "PLAYA D'ALBERCUIX( PORT DE POLLENÇA) PM2",
+  "centroid_lat": 39.9103,
+  "centroid_lng": 3.0874,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/429079421",
+      "source_url": "https://www.openstreetmap.org/way/429079421"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/429079422",
+      "source_url": "https://www.openstreetmap.org/way/429079422"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/793500126",
+      "source_url": "https://www.openstreetmap.org/way/793500126"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1035141004",
+      "source_url": "https://www.openstreetmap.org/way/1035141004"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1035141006",
+      "source_url": "https://www.openstreetmap.org/way/1035141006"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1035151982",
+      "source_url": "https://www.openstreetmap.org/way/1035151982"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1035342608",
+      "source_url": "https://www.openstreetmap.org/way/1035342608"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0421191",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0421192",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0421191",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0421192",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

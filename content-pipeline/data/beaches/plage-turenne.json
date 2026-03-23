@@ -1,0 +1,25 @@
+{
+  "slug": "plage-turenne",
+  "name": "Plage Turenne",
+  "centroid_lat": 46.3069152,
+  "centroid_lng": -73.3646575,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1025024231",
+      "source_url": "https://www.openstreetmap.org/way/1025024231"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22397369",
+      "source_url": "https://www.wikidata.org/wiki/Q22397369"
+    }
+  ],
+  "attributes": {}
+}

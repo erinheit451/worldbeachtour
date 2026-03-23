@@ -1,0 +1,45 @@
+{
+  "slug": "la-plage-2",
+  "name": "La Plage",
+  "centroid_lat": 45.0522465,
+  "centroid_lng": 4.3173246,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/435776982",
+      "source_url": "https://www.openstreetmap.org/way/435776982"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/435782759",
+      "source_url": "https://www.openstreetmap.org/way/435782759"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/435782760",
+      "source_url": "https://www.openstreetmap.org/way/435782760"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK1343051D043140",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK1343051D043140",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

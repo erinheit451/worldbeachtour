@@ -1,0 +1,29 @@
+{
+  "slug": "south-kingscliff-beach",
+  "name": "South Kingscliff Beach",
+  "centroid_lat": -28.2726035,
+  "centroid_lng": 153.5814908,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/477089973",
+      "source_url": "https://www.openstreetmap.org/way/477089973"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956669",
+      "source_url": "https://www.wikidata.org/wiki/Q21956669"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

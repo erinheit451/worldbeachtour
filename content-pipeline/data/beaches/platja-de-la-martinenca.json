@@ -1,0 +1,29 @@
+{
+  "slug": "platja-de-la-martinenca",
+  "name": "Platja de la Martinenca",
+  "centroid_lat": 40.5731444,
+  "centroid_lng": 0.5465855,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2172391",
+      "source_url": "https://www.openstreetmap.org/relation/2172391"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28121160",
+      "source_url": "https://www.wikidata.org/wiki/Q28121160"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platja%20de%20la%20Martinenca%2C%20Alcanar.jpg"
+    }
+  }
+}

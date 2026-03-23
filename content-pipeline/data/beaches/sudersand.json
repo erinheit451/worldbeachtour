@@ -1,0 +1,43 @@
+{
+  "slug": "sudersand",
+  "name": "Sudersand",
+  "centroid_lat": 57.9490699,
+  "centroid_lng": 19.2554688,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/7251331",
+      "source_url": "https://www.openstreetmap.org/relation/7251331"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21044846",
+      "source_url": "https://www.wikidata.org/wiki/Q21044846"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0940980000000232",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0940980000000232",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sudersand%20July%202019%2002.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "right-hand-side-of-waterpolo-pitch-1",
+  "name": "RIGHT HAND SIDE OF WATERPOLO PITCH",
+  "centroid_lat": 35.8344,
+  "centroid_lng": 14.54523,
+  "country_code": "MT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/463386251",
+      "source_url": "https://www.openstreetmap.org/way/463386251"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "MT0130133600000A09",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "MT0130133600000A09",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

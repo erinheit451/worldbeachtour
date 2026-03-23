@@ -1,0 +1,29 @@
+{
+  "slug": "fykiada-beach",
+  "name": "Fykiada beach",
+  "centroid_lat": 37.415556,
+  "centroid_lng": 24.381667,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/40042840",
+      "source_url": "https://www.openstreetmap.org/way/40042840"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q56248847",
+      "source_url": "https://www.wikidata.org/wiki/Q56248847"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Fykiada%20beach%20near%20Kolona%2C%20Kythnos.jpg"
+    }
+  }
+}

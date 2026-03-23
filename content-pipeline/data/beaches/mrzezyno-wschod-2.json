@@ -1,0 +1,30 @@
+{
+  "slug": "mrzezyno-wschod-2",
+  "name": "Mrzeżyno Wschód 2",
+  "centroid_lat": 54.14831,
+  "centroid_lng": 15.29004,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4210508532000200",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4210508532000200",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "plage-du-betey",
+  "name": "Plage du Bétey",
+  "centroid_lat": 44.7334298,
+  "centroid_lng": -1.0921992,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5229091848",
+      "source_url": "https://www.openstreetmap.org/node/5229091848"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/540519748",
+      "source_url": "https://www.openstreetmap.org/way/540519748"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q125543392",
+      "source_url": "https://www.wikidata.org/wiki/Q125543392"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1233005M033100",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1233005M033100",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plage%20du%20Betey%20Cot%C3%A9%20Maternelle%20%284%29.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

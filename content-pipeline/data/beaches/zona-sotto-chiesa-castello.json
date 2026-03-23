@@ -1,0 +1,65 @@
+{
+  "slug": "zona-sotto-chiesa-castello",
+  "name": "ZONA SOTTO CHIESA (CASTELLO)",
+  "centroid_lat": 44.3779,
+  "centroid_lng": 9.0659,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/61756251",
+      "source_url": "https://www.openstreetmap.org/way/61756251"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/61756542",
+      "source_url": "https://www.openstreetmap.org/way/61756542"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/356927812",
+      "source_url": "https://www.openstreetmap.org/way/356927812"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010004001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010004002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010004003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010004001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010004002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010004003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

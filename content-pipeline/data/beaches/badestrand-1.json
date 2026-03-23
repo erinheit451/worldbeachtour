@@ -1,0 +1,46 @@
+{
+  "slug": "badestrand-1",
+  "name": "Badestrand",
+  "centroid_lat": 51.8287343,
+  "centroid_lng": 6.6422411,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/2359366693",
+      "source_url": "https://www.openstreetmap.org/node/2359366693"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/25122925",
+      "source_url": "https://www.openstreetmap.org/way/25122925"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DENW_PR_0033",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DENW_PR_0033",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

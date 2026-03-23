@@ -1,0 +1,50 @@
+{
+  "slug": "cavinia-nord",
+  "name": "CAVINIA NORD",
+  "centroid_lat": 39.5403,
+  "centroid_lng": 15.8899,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12217012741",
+      "source_url": "https://www.openstreetmap.org/node/12217012741"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/12217012794",
+      "source_url": "https://www.openstreetmap.org/node/12217012794"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/173535429",
+      "source_url": "https://www.openstreetmap.org/way/173535429"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1320186750",
+      "source_url": "https://www.openstreetmap.org/way/1320186750"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018078040004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018078040004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

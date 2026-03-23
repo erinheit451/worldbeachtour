@@ -1,0 +1,35 @@
+{
+  "slug": "spiaggia-prarolo",
+  "name": "Spiaggia Prarolo",
+  "centroid_lat": 45.7840805,
+  "centroid_lng": 8.3986128,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/729875627",
+      "source_url": "https://www.openstreetmap.org/way/729875627"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT001003133002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT001003133002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

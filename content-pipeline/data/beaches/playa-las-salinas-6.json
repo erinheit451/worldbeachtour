@@ -1,0 +1,46 @@
+{
+  "slug": "playa-las-salinas-6",
+  "name": "Playa Las Salinas",
+  "centroid_lat": 28.1066048,
+  "centroid_lng": -15.7109464,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "rock",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/103427738",
+      "source_url": "https://www.openstreetmap.org/way/103427738"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1322720757",
+      "source_url": "https://www.openstreetmap.org/way/1322720757"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES705M0012384",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES705M0012384",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

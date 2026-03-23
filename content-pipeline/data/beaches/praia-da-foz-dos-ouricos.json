@@ -1,0 +1,29 @@
+{
+  "slug": "praia-da-foz-dos-ouricos",
+  "name": "Praia da Foz dos Ouriços",
+  "centroid_lat": 37.6578915,
+  "centroid_lng": -8.7999688,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/982348909",
+      "source_url": "https://www.openstreetmap.org/way/982348909"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14211194",
+      "source_url": "https://www.openstreetmap.org/relation/14211194"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "na-patana",
+  "name": "Na Patana",
+  "centroid_lat": 39.757587,
+  "centroid_lng": 3.175197,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/370238675",
+      "source_url": "https://www.openstreetmap.org/way/370238675"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q1599044",
+      "source_url": "https://www.wikidata.org/wiki/Q1599044"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Na%20Patana%2004.jpg"
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

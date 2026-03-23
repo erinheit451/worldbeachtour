@@ -1,0 +1,25 @@
+{
+  "slug": "pavilion-beach",
+  "name": "Pavilion Beach",
+  "centroid_lat": 42.6093517,
+  "centroid_lng": -70.6676431,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/13799174",
+      "source_url": "https://www.openstreetmap.org/relation/13799174"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322479",
+      "source_url": "https://www.wikidata.org/wiki/Q49322479"
+    }
+  ],
+  "attributes": {}
+}

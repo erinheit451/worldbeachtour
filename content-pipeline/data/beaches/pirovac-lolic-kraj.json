@@ -1,0 +1,118 @@
+{
+  "slug": "pirovac-lolic-kraj",
+  "name": "Pirovac Lolic kraj",
+  "centroid_lat": 43.82047,
+  "centroid_lng": 15.66106,
+  "country_code": "HR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/244265584",
+      "source_url": "https://www.openstreetmap.org/way/244265584"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/244265595",
+      "source_url": "https://www.openstreetmap.org/way/244265595"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/244265597",
+      "source_url": "https://www.openstreetmap.org/way/244265597"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/244265689",
+      "source_url": "https://www.openstreetmap.org/way/244265689"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/715834523",
+      "source_url": "https://www.openstreetmap.org/way/715834523"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/715834540",
+      "source_url": "https://www.openstreetmap.org/way/715834540"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/715834544",
+      "source_url": "https://www.openstreetmap.org/way/715834544"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/715834545",
+      "source_url": "https://www.openstreetmap.org/way/715834545"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/715834558",
+      "source_url": "https://www.openstreetmap.org/way/715834558"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/928445051",
+      "source_url": "https://www.openstreetmap.org/way/928445051"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/928445052",
+      "source_url": "https://www.openstreetmap.org/way/928445052"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-3092",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-3091",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-3128",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-3093",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-3092",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-3091",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-3128",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-3093",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "mpella-braka",
+  "name": "Μπέλλα Βράκα",
+  "centroid_lat": 39.3993833,
+  "centroid_lng": 20.2356163,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/72348386",
+      "source_url": "https://www.openstreetmap.org/way/72348386"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/815971674",
+      "source_url": "https://www.openstreetmap.org/way/815971674"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/815983685",
+      "source_url": "https://www.openstreetmap.org/way/815983685"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/974068013",
+      "source_url": "https://www.openstreetmap.org/way/974068013"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1153786806",
+      "source_url": "https://www.openstreetmap.org/way/1153786806"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1328896618",
+      "source_url": "https://www.openstreetmap.org/way/1328896618"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/3095563",
+      "source_url": "https://www.openstreetmap.org/relation/3095563"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW059077013101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW059077013101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "private"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

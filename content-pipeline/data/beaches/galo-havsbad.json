@@ -1,0 +1,53 @@
+{
+  "slug": "galo-havsbad",
+  "name": "Gålö havsbad",
+  "centroid_lat": 59.0966967,
+  "centroid_lng": 18.3215977,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/712352756",
+      "source_url": "https://www.openstreetmap.org/node/712352756"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/57409432",
+      "source_url": "https://www.openstreetmap.org/way/57409432"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/57409437",
+      "source_url": "https://www.openstreetmap.org/way/57409437"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49099077",
+      "source_url": "https://www.wikidata.org/wiki/Q49099077"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0110136000002142",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0110136000002142",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/G%C3%A5l%C3%B6%20havsbad%2C%20strand%2C%202017.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

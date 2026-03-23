@@ -1,0 +1,32 @@
+{
+  "slug": "beach-53.9883-11.2198",
+  "name": null,
+  "centroid_lat": 53.9883052,
+  "centroid_lng": 11.2198009,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/27492072",
+      "source_url": "https://www.openstreetmap.org/way/27492072"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false,
+      "fee_required": "May 15-Sep 15 00:00-16:00",
+      "access": "yes"
+    },
+    "safety": {
+      "lifeguard": "May 15-Sep 15 10:00-18:00"
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "l-ardeche-a-la-plage-privee-isla-cool-douce",
+  "name": "L ARDECHE A LA PLAGE PRIVEE ISLA COOL DOUCE",
+  "centroid_lat": 44.47503,
+  "centroid_lng": 4.35006,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/894400151",
+      "source_url": "https://www.openstreetmap.org/way/894400151"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2207061D007092",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2207061D007092",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "munganno-point-1",
+  "name": "Munganno Point 1",
+  "centroid_lat": -37.1036165,
+  "centroid_lng": 149.9286575,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/959004947",
+      "source_url": "https://www.openstreetmap.org/way/959004947"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/959006044",
+      "source_url": "https://www.openstreetmap.org/way/959006044"
+    }
+  ],
+  "attributes": {}
+}

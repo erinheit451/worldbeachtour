@@ -1,0 +1,39 @@
+{
+  "slug": "playa-el-rodeito",
+  "name": "Playa \"El Rodeito\"",
+  "centroid_lat": 36.482094,
+  "centroid_lng": -4.965702,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1302058797",
+      "source_url": "https://www.openstreetmap.org/way/1302058797"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1302058798",
+      "source_url": "https://www.openstreetmap.org/way/1302058798"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1302061455",
+      "source_url": "https://www.openstreetmap.org/way/1302061455"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q101569314",
+      "source_url": "https://www.wikidata.org/wiki/Q101569314"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20%22El%20Rodeito%22.jpg"
+    }
+  }
+}

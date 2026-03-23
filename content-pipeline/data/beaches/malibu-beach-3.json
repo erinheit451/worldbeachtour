@@ -1,0 +1,25 @@
+{
+  "slug": "malibu-beach-3",
+  "name": "Malibu Beach",
+  "centroid_lat": 34.0318184,
+  "centroid_lng": -118.6892409,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/14402191",
+      "source_url": "https://www.openstreetmap.org/relation/14402191"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49321946",
+      "source_url": "https://www.wikidata.org/wiki/Q49321946"
+    }
+  ],
+  "attributes": {}
+}

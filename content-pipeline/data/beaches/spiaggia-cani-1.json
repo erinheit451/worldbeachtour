@@ -1,0 +1,27 @@
+{
+  "slug": "spiaggia-cani-1",
+  "name": "spiaggia cani",
+  "centroid_lat": 42.8953609,
+  "centroid_lng": 10.7840839,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/11327436",
+      "source_url": "https://www.openstreetmap.org/relation/11327436"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": "designated"
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

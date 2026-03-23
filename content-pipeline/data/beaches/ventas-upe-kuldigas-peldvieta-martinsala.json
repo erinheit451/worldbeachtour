@@ -1,0 +1,30 @@
+{
+  "slug": "ventas-upe-kuldigas-peldvieta-martinsala",
+  "name": "VENTAS UPE, KULDĪGAS PELDVIETA \"MĀRTIŅSALA\"",
+  "centroid_lat": 56.9693,
+  "centroid_lng": 21.9796,
+  "country_code": "LV",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "LV00362010001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "LV00362010001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

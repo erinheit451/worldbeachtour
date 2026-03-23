@@ -1,0 +1,29 @@
+{
+  "slug": "jibbon-beach",
+  "name": "Jibbon Beach",
+  "centroid_lat": -34.0805907,
+  "centroid_lng": 151.1625574,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/172616049",
+      "source_url": "https://www.openstreetmap.org/way/172616049"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21909937",
+      "source_url": "https://www.wikidata.org/wiki/Q21909937"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

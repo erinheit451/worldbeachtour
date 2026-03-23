@@ -1,0 +1,35 @@
+{
+  "slug": "badeteich-gerasdorf",
+  "name": "BADETEICH, GERASDORF",
+  "centroid_lat": 48.3034,
+  "centroid_lng": 16.4605,
+  "country_code": "AT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/503068665",
+      "source_url": "https://www.openstreetmap.org/way/503068665"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "AT1260008400100010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "AT1260008400100010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

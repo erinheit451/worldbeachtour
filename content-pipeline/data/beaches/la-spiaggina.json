@@ -1,0 +1,32 @@
+{
+  "slug": "la-spiaggina",
+  "name": "La Spiaggina",
+  "centroid_lat": 43.5648847,
+  "centroid_lng": 13.595581,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1395651220",
+      "source_url": "https://www.openstreetmap.org/way/1395651220"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/10579770",
+      "source_url": "https://www.openstreetmap.org/relation/10579770"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

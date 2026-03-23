@@ -1,0 +1,29 @@
+{
+  "slug": "playa-grande",
+  "name": "Playa Grande",
+  "centroid_lat": 36.7706049,
+  "centroid_lng": 14.6038381,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/4941597752",
+      "source_url": "https://www.openstreetmap.org/node/4941597752"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/216112188",
+      "source_url": "https://www.openstreetmap.org/way/216112188"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

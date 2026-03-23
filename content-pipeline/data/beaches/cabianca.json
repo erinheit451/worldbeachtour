@@ -1,0 +1,30 @@
+{
+  "slug": "cabianca",
+  "name": "Cabianca",
+  "centroid_lat": 43.5037563,
+  "centroid_lng": 10.3198977,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "rock",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/230166648",
+      "source_url": "https://www.openstreetmap.org/way/230166648"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": "designated"
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

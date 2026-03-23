@@ -1,0 +1,27 @@
+{
+  "slug": "algebybadet",
+  "name": "Älgebybadet",
+  "centroid_lat": 59.6217329,
+  "centroid_lng": 18.3873413,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/240819421",
+      "source_url": "https://www.openstreetmap.org/way/240819421"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

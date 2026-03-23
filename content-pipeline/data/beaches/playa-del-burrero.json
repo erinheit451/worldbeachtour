@@ -1,0 +1,32 @@
+{
+  "slug": "playa-del-burrero",
+  "name": "Playa del Burrero",
+  "centroid_lat": 27.9109663,
+  "centroid_lng": -15.3866387,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/16355769",
+      "source_url": "https://www.openstreetmap.org/relation/16355769"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6078712",
+      "source_url": "https://www.wikidata.org/wiki/Q6078712"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/El%20Burrero%20-%20Visto%20desde%20la%20monta%C3%B1a.jpg"
+    }
+  }
+}

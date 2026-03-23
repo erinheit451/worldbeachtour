@@ -1,0 +1,29 @@
+{
+  "slug": "point-chevalier-beach",
+  "name": "Point Chevalier Beach",
+  "centroid_lat": -36.8545073,
+  "centroid_lng": 174.7019803,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/576136018",
+      "source_url": "https://www.openstreetmap.org/way/576136018"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49323532",
+      "source_url": "https://www.wikidata.org/wiki/Q49323532"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Beach%20Sunset%20at%20Point%20Chevalier%20Beach%20-%20Auckland.jpg"
+    }
+  }
+}

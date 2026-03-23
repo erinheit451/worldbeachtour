@@ -1,0 +1,29 @@
+{
+  "slug": "fossil-beach",
+  "name": "Fossil Beach",
+  "centroid_lat": 51.6347564,
+  "centroid_lng": -2.6425687,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7231274168",
+      "source_url": "https://www.openstreetmap.org/node/7231274168"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q42852311",
+      "source_url": "https://www.wikidata.org/wiki/Q42852311"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Fossil_Beach_(Sedbury_Cliffs)"
+    }
+  }
+}

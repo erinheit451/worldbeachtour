@@ -1,0 +1,31 @@
+{
+  "slug": "platja-d-aigua-amarga",
+  "name": "Platja d'Aigua Amarga",
+  "centroid_lat": 38.299863,
+  "centroid_lng": -0.5189107,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/432609695",
+      "source_url": "https://www.openstreetmap.org/way/432609695"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited",
+      "access": "yes"
+    },
+    "social": {
+      "dog_friendly": true
+    },
+    "safety": {
+      "lifeguard": "May-Sep 09:30-12:30,14:15-19:30"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "shty-l-wn",
+  "name": "شاطئ العوانة",
+  "centroid_lat": 36.776762,
+  "centroid_lng": 5.6101987,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/600778843",
+      "source_url": "https://www.openstreetmap.org/way/600778843"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

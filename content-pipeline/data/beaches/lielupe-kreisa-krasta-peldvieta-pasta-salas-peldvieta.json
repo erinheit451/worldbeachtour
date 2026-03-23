@@ -1,0 +1,43 @@
+{
+  "slug": "lielupe-kreisa-krasta-peldvieta-pasta-salas-peldvieta",
+  "name": "LIELUPE, KREISĀ KRASTA PELDVIETA \"PASTA SALAS PELDVIETA\"",
+  "centroid_lat": 56.6496,
+  "centroid_lng": 23.7366,
+  "country_code": "LV",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/163375168",
+      "source_url": "https://www.openstreetmap.org/way/163375168"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/364295583",
+      "source_url": "https://www.openstreetmap.org/way/364295583"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "LV00909000004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "LV00909000004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

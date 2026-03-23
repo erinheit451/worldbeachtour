@@ -1,0 +1,40 @@
+{
+  "slug": "torre-lapillo",
+  "name": "Torre Lapillo",
+  "centroid_lat": 40.2849959,
+  "centroid_lng": 17.8523889,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/3205744",
+      "source_url": "https://www.openstreetmap.org/relation/3205744"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33345039",
+      "source_url": "https://www.wikidata.org/wiki/Q33345039"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016075097008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016075097008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

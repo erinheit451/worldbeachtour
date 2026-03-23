@@ -1,0 +1,30 @@
+{
+  "slug": "praia-de-rebentons",
+  "name": "Praia de Rebentóns",
+  "centroid_lat": 42.3063595,
+  "centroid_lng": -8.8174636,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11530742888",
+      "source_url": "https://www.openstreetmap.org/node/11530742888"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/11530742889",
+      "source_url": "https://www.openstreetmap.org/node/11530742889"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/2329242",
+      "source_url": "https://www.openstreetmap.org/relation/2329242"
+    }
+  ],
+  "attributes": {}
+}

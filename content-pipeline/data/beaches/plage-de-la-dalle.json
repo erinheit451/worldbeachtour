@@ -1,0 +1,30 @@
+{
+  "slug": "plage-de-la-dalle",
+  "name": "Plage de la Dalle",
+  "centroid_lat": 43.2806828,
+  "centroid_lng": 3.5198842,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11180476592",
+      "source_url": "https://www.openstreetmap.org/node/11180476592"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/114813833",
+      "source_url": "https://www.openstreetmap.org/way/114813833"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676009116",
+      "source_url": "https://www.openstreetmap.org/way/676009116"
+    }
+  ],
+  "attributes": {}
+}

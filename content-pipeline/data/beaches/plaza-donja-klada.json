@@ -1,0 +1,29 @@
+{
+  "slug": "plaza-donja-klada",
+  "name": "Plaža Donja Klada",
+  "centroid_lat": 44.8300471,
+  "centroid_lng": 14.8847936,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/923929886",
+      "source_url": "https://www.openstreetmap.org/way/923929886"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/923929890",
+      "source_url": "https://www.openstreetmap.org/way/923929890"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "permissive"
+    }
+  }
+}

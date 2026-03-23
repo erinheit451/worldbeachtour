@@ -1,0 +1,27 @@
+{
+  "slug": "kleisidi-1",
+  "name": "Κλεισιδι",
+  "centroid_lat": 35.1719692,
+  "centroid_lng": 24.41906,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/207465500",
+      "source_url": "https://www.openstreetmap.org/way/207465500"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "customary"
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

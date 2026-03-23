@@ -1,0 +1,40 @@
+{
+  "slug": "hundestrand-3",
+  "name": "Hundestrand",
+  "centroid_lat": 53.581892,
+  "centroid_lng": 8.3755517,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1800172062",
+      "source_url": "https://www.openstreetmap.org/node/1800172062"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/168818102",
+      "source_url": "https://www.openstreetmap.org/way/168818102"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DENI_PR_TK25_2416_01",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DENI_PR_TK25_2416_01",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Transitional"
+    }
+  }
+}

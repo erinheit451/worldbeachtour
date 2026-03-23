@@ -1,0 +1,29 @@
+{
+  "slug": "playa-del-corralete",
+  "name": "Playa del Corralete",
+  "centroid_lat": 36.7248448,
+  "centroid_lng": -2.1946338,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/195073921",
+      "source_url": "https://www.openstreetmap.org/way/195073921"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23987074",
+      "source_url": "https://www.wikidata.org/wiki/Q23987074"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cabo%20de%20Gata%202%20%2813702787165%29.jpg"
+    }
+  }
+}

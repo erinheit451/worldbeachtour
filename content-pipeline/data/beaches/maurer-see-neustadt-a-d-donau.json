@@ -1,0 +1,30 @@
+{
+  "slug": "maurer-see-neustadt-a-d-donau",
+  "name": "MAURER SEE, NEUSTADT A. D. DONAU",
+  "centroid_lat": 48.785,
+  "centroid_lng": 11.7292,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_KEH_0356",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_KEH_0356",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

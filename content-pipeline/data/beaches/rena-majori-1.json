@@ -1,0 +1,37 @@
+{
+  "slug": "rena-majori-1",
+  "name": "Rena Majori",
+  "centroid_lat": 40.8281597,
+  "centroid_lng": 8.1954509,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/504413117",
+      "source_url": "https://www.openstreetmap.org/way/504413117"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1463522036",
+      "source_url": "https://www.openstreetmap.org/way/1463522036"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q47538893",
+      "source_url": "https://www.wikidata.org/wiki/Q47538893"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sassari%20-%20Spiaggia%20di%20Rena%20Majori%20sud%20%2801%29.JPG"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "playa-piro",
+  "name": "Playa Piro",
+  "centroid_lat": 8.3925037,
+  "centroid_lng": -83.3330366,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/505238673",
+      "source_url": "https://www.openstreetmap.org/way/505238673"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23738631",
+      "source_url": "https://www.wikidata.org/wiki/Q23738631"
+    }
+  ],
+  "attributes": {}
+}

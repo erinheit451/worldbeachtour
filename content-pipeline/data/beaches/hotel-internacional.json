@@ -1,0 +1,85 @@
+{
+  "slug": "hotel-internacional",
+  "name": "Hotel Internacional",
+  "centroid_lat": 45.17166,
+  "centroid_lng": 14.6901,
+  "country_code": "HR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/708898810",
+      "source_url": "https://www.openstreetmap.org/way/708898810"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/708898811",
+      "source_url": "https://www.openstreetmap.org/way/708898811"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/708898812",
+      "source_url": "https://www.openstreetmap.org/way/708898812"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/708898813",
+      "source_url": "https://www.openstreetmap.org/way/708898813"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/708898814",
+      "source_url": "https://www.openstreetmap.org/way/708898814"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6018",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6019",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6246",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6256",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6018",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6019",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6246",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6256",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

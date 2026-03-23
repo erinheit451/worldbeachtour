@@ -1,0 +1,30 @@
+{
+  "slug": "pascia-glam-dog-beach",
+  "name": "Pascià Glam dog beach",
+  "centroid_lat": 42.9545063,
+  "centroid_lng": 10.6146724,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5923133033",
+      "source_url": "https://www.openstreetmap.org/node/5923133033"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": "designated"
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

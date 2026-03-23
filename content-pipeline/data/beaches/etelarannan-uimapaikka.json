@@ -1,0 +1,34 @@
+{
+  "slug": "etelarannan-uimapaikka",
+  "name": "Etelärannan uimapaikka",
+  "centroid_lat": 63.0717646,
+  "centroid_lng": 21.9519468,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6456665575",
+      "source_url": "https://www.openstreetmap.org/node/6456665575"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/688510120",
+      "source_url": "https://www.openstreetmap.org/way/688510120"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/689403843",
+      "source_url": "https://www.openstreetmap.org/way/689403843"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "plage-de-socoa",
+  "name": "Plage de Socoa",
+  "centroid_lat": 43.39015,
+  "centroid_lng": -1.6824723,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7556587505",
+      "source_url": "https://www.openstreetmap.org/node/7556587505"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/190721070",
+      "source_url": "https://www.openstreetmap.org/way/190721070"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1564189M064135",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1564189M064135",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited",
+      "access": "yes"
+    },
+    "safety": {
+      "lifeguard": "11:00-19:00"
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

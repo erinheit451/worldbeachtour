@@ -1,0 +1,32 @@
+{
+  "slug": "nyali-beach",
+  "name": "Nyali beach",
+  "centroid_lat": -4.0472386,
+  "centroid_lng": 39.7103333,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/16934323",
+      "source_url": "https://www.openstreetmap.org/relation/16934323"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q27193188",
+      "source_url": "https://www.wikidata.org/wiki/Q27193188"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/A%20lady%20walking%20on%20the%20beach%20in%20Mombasa%20at%20Sunrise.jpg"
+    }
+  }
+}

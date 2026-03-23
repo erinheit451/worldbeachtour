@@ -1,0 +1,25 @@
+{
+  "slug": "playa-maderas",
+  "name": "Playa Maderas",
+  "centroid_lat": 11.2927114,
+  "centroid_lng": -85.9096196,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/5932427",
+      "source_url": "https://www.openstreetmap.org/relation/5932427"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q14229553",
+      "source_url": "https://www.wikidata.org/wiki/Q14229553"
+    }
+  ],
+  "attributes": {}
+}

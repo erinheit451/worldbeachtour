@@ -1,0 +1,29 @@
+{
+  "slug": "es-codolar",
+  "name": "es Codolar",
+  "centroid_lat": 41.7158611,
+  "centroid_lng": 2.9324218,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8283422",
+      "source_url": "https://www.openstreetmap.org/relation/8283422"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24021714",
+      "source_url": "https://www.wikidata.org/wiki/Q24021714"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Tossa%20de%20Mar.%20Small%20Beach%20at%20the%20walls%20of%20the%20Old%20Town%20-%20007.jpg"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "platja-del-raco-1",
+  "name": "Platja del Racó",
+  "centroid_lat": 41.9812631,
+  "centroid_lng": 3.207379,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8266440",
+      "source_url": "https://www.openstreetmap.org/relation/8266440"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24021801",
+      "source_url": "https://www.wikidata.org/wiki/Q24021801"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Begur%20taronja.jpg"
+    }
+  }
+}

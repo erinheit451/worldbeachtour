@@ -1,0 +1,68 @@
+{
+  "slug": "bodensee-militarbad-lochau",
+  "name": "BODENSEE, MILITÄRBAD LOCHAU",
+  "centroid_lat": 47.5109,
+  "centroid_lng": 9.7516,
+  "country_code": "AT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1083287973",
+      "source_url": "https://www.openstreetmap.org/way/1083287973"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1083287974",
+      "source_url": "https://www.openstreetmap.org/way/1083287974"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1083287975",
+      "source_url": "https://www.openstreetmap.org/way/1083287975"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1083287976",
+      "source_url": "https://www.openstreetmap.org/way/1083287976"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1137897531",
+      "source_url": "https://www.openstreetmap.org/way/1137897531"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1137897536",
+      "source_url": "https://www.openstreetmap.org/way/1137897536"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1138422285",
+      "source_url": "https://www.openstreetmap.org/way/1138422285"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "AT3420001600030020",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "AT3420001600030020",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

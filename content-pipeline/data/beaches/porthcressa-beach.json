@@ -1,0 +1,32 @@
+{
+  "slug": "porthcressa-beach",
+  "name": "Porthcressa Beach",
+  "centroid_lat": 49.9133217,
+  "centroid_lng": -6.314444,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/33458853",
+      "source_url": "https://www.openstreetmap.org/way/33458853"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q105414427",
+      "source_url": "https://www.wikidata.org/wiki/Q105414427"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Porthcressa%20beach%2C%20Hugh%20Town%2C%20St.%20Mary%27s%20-%20geograph.org.uk%20-%20933933.jpg"
+    }
+  }
+}

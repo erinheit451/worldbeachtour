@@ -1,0 +1,24 @@
+{
+  "slug": "huang-jin-sha-tan",
+  "name": "黄金沙滩",
+  "centroid_lat": 31.7997031,
+  "centroid_lng": 118.7035718,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12128988236",
+      "source_url": "https://www.openstreetmap.org/node/12128988236"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

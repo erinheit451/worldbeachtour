@@ -1,0 +1,75 @@
+{
+  "slug": "spiaggia-liscia-ruja",
+  "name": "Spiaggia Liscia Ruja",
+  "centroid_lat": 41.0704863,
+  "centroid_lng": 9.5292555,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/121747790",
+      "source_url": "https://www.openstreetmap.org/way/121747790"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/664031042",
+      "source_url": "https://www.openstreetmap.org/way/664031042"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/664031044",
+      "source_url": "https://www.openstreetmap.org/way/664031044"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/664031045",
+      "source_url": "https://www.openstreetmap.org/way/664031045"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/664031051",
+      "source_url": "https://www.openstreetmap.org/way/664031051"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/664031053",
+      "source_url": "https://www.openstreetmap.org/way/664031053"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/664031055",
+      "source_url": "https://www.openstreetmap.org/way/664031055"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/664031056",
+      "source_url": "https://www.openstreetmap.org/way/664031056"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33327314",
+      "source_url": "https://www.wikidata.org/wiki/Q33327314"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020104004025",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020104004025",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

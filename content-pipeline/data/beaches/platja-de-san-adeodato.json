@@ -1,0 +1,29 @@
+{
+  "slug": "platja-de-san-adeodato",
+  "name": "Platja de San Adeodato",
+  "centroid_lat": 39.9166108,
+  "centroid_lng": 4.0336108,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1591018",
+      "source_url": "https://www.openstreetmap.org/relation/1591018"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q11941964",
+      "source_url": "https://www.wikidata.org/wiki/Q11941964"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platja%20de%20Sant%20Adeodat%20%2830%20de%20julio%20de%202017%2C%20es%20Migjorn%20Gran%29%2002.jpg"
+    }
+  }
+}

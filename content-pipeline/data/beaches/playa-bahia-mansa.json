@@ -1,0 +1,32 @@
+{
+  "slug": "playa-bahia-mansa",
+  "name": "Playa Bahía Mansa",
+  "centroid_lat": -40.7830731,
+  "centroid_lng": -71.6573588,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12396768278",
+      "source_url": "https://www.openstreetmap.org/node/12396768278"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/18360387",
+      "source_url": "https://www.openstreetmap.org/relation/18360387"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

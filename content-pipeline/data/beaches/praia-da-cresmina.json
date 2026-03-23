@@ -1,0 +1,29 @@
+{
+  "slug": "praia-da-cresmina",
+  "name": "Praia da Cresmina",
+  "centroid_lat": 38.7252003,
+  "centroid_lng": -9.4763982,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/23848001",
+      "source_url": "https://www.openstreetmap.org/way/23848001"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49323672",
+      "source_url": "https://www.wikidata.org/wiki/Q49323672"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20da%20Gal%C3%A9%20-%20Portugal%20%289721518469%29.jpg"
+    }
+  }
+}

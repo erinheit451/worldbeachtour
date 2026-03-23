@@ -1,0 +1,24 @@
+{
+  "slug": "nedervetil-simstrand",
+  "name": "Nedervetil simstrand",
+  "centroid_lat": 63.702971,
+  "centroid_lng": 23.3454733,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1160807341",
+      "source_url": "https://www.openstreetmap.org/way/1160807341"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

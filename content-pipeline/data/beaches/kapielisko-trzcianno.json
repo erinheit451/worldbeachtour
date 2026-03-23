@@ -1,0 +1,35 @@
+{
+  "slug": "kapielisko-trzcianno",
+  "name": "KĄPIELISKO TRZCIANNO",
+  "centroid_lat": 53.7252,
+  "centroid_lng": 18.215,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/414740724",
+      "source_url": "https://www.openstreetmap.org/way/414740724"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6111605204000035",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6111605204000035",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

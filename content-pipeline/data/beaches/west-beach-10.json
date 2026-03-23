@@ -1,0 +1,25 @@
+{
+  "slug": "west-beach-10",
+  "name": "West Beach",
+  "centroid_lat": 41.9314094,
+  "centroid_lng": -82.5159456,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1859506897",
+      "source_url": "https://www.openstreetmap.org/node/1859506897"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22563671",
+      "source_url": "https://www.wikidata.org/wiki/Q22563671"
+    }
+  ],
+  "attributes": {}
+}

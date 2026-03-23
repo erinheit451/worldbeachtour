@@ -1,0 +1,30 @@
+{
+  "slug": "te-pene-beach",
+  "name": "Te Pene Beach",
+  "centroid_lat": -36.8749893,
+  "centroid_lng": 175.0389181,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/742069038",
+      "source_url": "https://www.openstreetmap.org/way/742069038"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/757753739",
+      "source_url": "https://www.openstreetmap.org/way/757753739"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324972",
+      "source_url": "https://www.wikidata.org/wiki/Q49324972"
+    }
+  ],
+  "attributes": {}
+}

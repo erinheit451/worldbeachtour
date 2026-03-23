@@ -1,0 +1,25 @@
+{
+  "slug": "khvp-vrnym",
+  "name": "חוף אורנים",
+  "centroid_lat": 31.805437,
+  "centroid_lng": 34.635114,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6700359358",
+      "source_url": "https://www.openstreetmap.org/node/6700359358"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/100599154",
+      "source_url": "https://www.openstreetmap.org/way/100599154"
+    }
+  ],
+  "attributes": {}
+}

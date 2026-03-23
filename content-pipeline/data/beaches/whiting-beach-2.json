@@ -1,0 +1,29 @@
+{
+  "slug": "whiting-beach-2",
+  "name": "Whiting Beach",
+  "centroid_lat": -29.4303735,
+  "centroid_lng": 153.3556589,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/479005277",
+      "source_url": "https://www.openstreetmap.org/way/479005277"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956910",
+      "source_url": "https://www.wikidata.org/wiki/Q21956910"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

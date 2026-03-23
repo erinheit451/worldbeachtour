@@ -1,0 +1,29 @@
+{
+  "slug": "cala-pedrosa-2",
+  "name": "Cala Pedrosa",
+  "centroid_lat": 42.0735541,
+  "centroid_lng": 3.202348,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8301454",
+      "source_url": "https://www.openstreetmap.org/relation/8301454"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q17588956",
+      "source_url": "https://www.wikidata.org/wiki/Q17588956"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20Pedrosa%20-%2017072008%20124806%2031819%20-%20WLE%20Spain%202015.jpg"
+    }
+  }
+}

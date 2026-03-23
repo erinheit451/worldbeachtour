@@ -1,0 +1,24 @@
+{
+  "slug": "belvoir-bay",
+  "name": "Belvoir Bay",
+  "centroid_lat": 49.4737427,
+  "centroid_lng": -2.4446804,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/196971162",
+      "source_url": "https://www.openstreetmap.org/way/196971162"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

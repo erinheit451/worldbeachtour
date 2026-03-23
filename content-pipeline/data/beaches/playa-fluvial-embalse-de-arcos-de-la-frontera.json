@@ -1,0 +1,44 @@
+{
+  "slug": "playa-fluvial-embalse-de-arcos-de-la-frontera",
+  "name": "Playa fluvial embalse de Arcos de la Frontera",
+  "centroid_lat": 36.7664438,
+  "centroid_lng": -5.7843823,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5823370082",
+      "source_url": "https://www.openstreetmap.org/node/5823370082"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/515952253",
+      "source_url": "https://www.openstreetmap.org/way/515952253"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES612C0062044",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES612C0062044",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

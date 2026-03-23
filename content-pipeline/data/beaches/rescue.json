@@ -1,0 +1,73 @@
+{
+  "slug": "rescue",
+  "name": "Rescue",
+  "centroid_lat": 40.0987184,
+  "centroid_lng": 19.7513893,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12154278705",
+      "source_url": "https://www.openstreetmap.org/node/12154278705"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/12154278706",
+      "source_url": "https://www.openstreetmap.org/node/12154278706"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/12154278707",
+      "source_url": "https://www.openstreetmap.org/node/12154278707"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/12154278708",
+      "source_url": "https://www.openstreetmap.org/node/12154278708"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/12154278709",
+      "source_url": "https://www.openstreetmap.org/node/12154278709"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/12154278710",
+      "source_url": "https://www.openstreetmap.org/node/12154278710"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/235195398",
+      "source_url": "https://www.openstreetmap.org/way/235195398"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/235195400",
+      "source_url": "https://www.openstreetmap.org/way/235195400"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "AL716",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "AL716",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "restrooms": true
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

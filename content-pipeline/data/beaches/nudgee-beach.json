@@ -1,0 +1,25 @@
+{
+  "slug": "nudgee-beach",
+  "name": "Nudgee Beach",
+  "centroid_lat": -27.3467432,
+  "centroid_lng": 153.1059457,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/959014908",
+      "source_url": "https://www.openstreetmap.org/way/959014908"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21905639",
+      "source_url": "https://www.wikidata.org/wiki/Q21905639"
+    }
+  ],
+  "attributes": {}
+}

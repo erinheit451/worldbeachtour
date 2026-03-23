@@ -1,0 +1,36 @@
+{
+  "slug": "playa-los-frailes-sur",
+  "name": "Playa Los Frailes Sur",
+  "centroid_lat": 8.3710141,
+  "centroid_lng": -62.6896352,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6058463210",
+      "source_url": "https://www.openstreetmap.org/node/6058463210"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8928220",
+      "source_url": "https://www.openstreetmap.org/relation/8928220"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    }
+  }
+}

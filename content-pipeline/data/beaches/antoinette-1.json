@@ -1,0 +1,35 @@
+{
+  "slug": "antoinette-1",
+  "name": "ANTOINETTE",
+  "centroid_lat": 55.11923,
+  "centroid_lng": 14.69942,
+  "country_code": "DK",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23754188",
+      "source_url": "https://www.wikidata.org/wiki/Q23754188"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW349",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW349",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

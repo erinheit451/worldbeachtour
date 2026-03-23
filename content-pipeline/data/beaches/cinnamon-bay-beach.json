@@ -1,0 +1,54 @@
+{
+  "slug": "cinnamon-bay-beach",
+  "name": "Cinnamon Bay Beach",
+  "centroid_lat": 18.3555192,
+  "centroid_lng": -64.7531663,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/356559406",
+      "source_url": "https://www.openstreetmap.org/node/356559406"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/356559454",
+      "source_url": "https://www.openstreetmap.org/node/356559454"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/356559588",
+      "source_url": "https://www.openstreetmap.org/node/356559588"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/765832634",
+      "source_url": "https://www.openstreetmap.org/way/765832634"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31907377",
+      "source_url": "https://www.wikidata.org/wiki/Q31907377"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31943064",
+      "source_url": "https://www.wikidata.org/wiki/Q31943064"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31947327",
+      "source_url": "https://www.wikidata.org/wiki/Q31947327"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cinnamon%20and%20Whistling%20Cays%20from%20Cinnamon%2C%202011.jpg"
+    }
+  }
+}

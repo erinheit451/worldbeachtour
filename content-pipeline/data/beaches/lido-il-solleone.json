@@ -1,0 +1,60 @@
+{
+  "slug": "lido-il-solleone",
+  "name": "Lido Il Solleone",
+  "centroid_lat": 36.8799171,
+  "centroid_lng": 15.1365929,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/4665622676",
+      "source_url": "https://www.openstreetmap.org/node/4665622676"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/13064407711",
+      "source_url": "https://www.openstreetmap.org/node/13064407711"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/292246211",
+      "source_url": "https://www.openstreetmap.org/way/292246211"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33343937",
+      "source_url": "https://www.wikidata.org/wiki/Q33343937"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019089002005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019089013009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019089002005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019089013009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

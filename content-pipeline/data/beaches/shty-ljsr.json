@@ -1,0 +1,45 @@
+{
+  "slug": "shty-ljsr",
+  "name": "شاطئ الجسر",
+  "centroid_lat": 33.7027782,
+  "centroid_lng": 35.4396148,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1886727343",
+      "source_url": "https://www.openstreetmap.org/node/1886727343"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/997527557",
+      "source_url": "https://www.openstreetmap.org/way/997527557"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/997527558",
+      "source_url": "https://www.openstreetmap.org/way/997527558"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/997546436",
+      "source_url": "https://www.openstreetmap.org/way/997546436"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/997546904",
+      "source_url": "https://www.openstreetmap.org/way/997546904"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21561115",
+      "source_url": "https://www.wikidata.org/wiki/Q21561115"
+    }
+  ],
+  "attributes": {}
+}

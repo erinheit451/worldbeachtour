@@ -1,0 +1,25 @@
+{
+  "slug": "pantai-rawan",
+  "name": "Pantai Rawan",
+  "centroid_lat": -8.92111,
+  "centroid_lng": 116.45431,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/293493456",
+      "source_url": "https://www.openstreetmap.org/way/293493456"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q26757391",
+      "source_url": "https://www.wikidata.org/wiki/Q26757391"
+    }
+  ],
+  "attributes": {}
+}

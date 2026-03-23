@@ -1,0 +1,25 @@
+{
+  "slug": "cars-bay",
+  "name": "cars bay",
+  "centroid_lat": 16.7981009,
+  "centroid_lng": -62.2074311,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1225769502",
+      "source_url": "https://www.openstreetmap.org/way/1225769502"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1225770955",
+      "source_url": "https://www.openstreetmap.org/way/1225770955"
+    }
+  ],
+  "attributes": {}
+}

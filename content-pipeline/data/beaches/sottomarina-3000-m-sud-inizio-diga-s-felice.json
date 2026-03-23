@@ -1,0 +1,35 @@
+{
+  "slug": "sottomarina-3000-m-sud-inizio-diga-s-felice",
+  "name": "SOTTOMARINA 3000 M SUD INIZIO DIGA S. FELICE",
+  "centroid_lat": 45.2045,
+  "centroid_lng": 12.3035,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/172657203",
+      "source_url": "https://www.openstreetmap.org/way/172657203"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT005027008004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT005027008004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

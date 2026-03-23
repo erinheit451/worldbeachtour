@@ -1,0 +1,34 @@
+{
+  "slug": "vestey-s-beach",
+  "name": "Vestey's Beach",
+  "centroid_lat": 58.1729888,
+  "centroid_lng": -5.3032256,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/209247426",
+      "source_url": "https://www.openstreetmap.org/way/209247426"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/209247432",
+      "source_url": "https://www.openstreetmap.org/way/209247432"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q105906592",
+      "source_url": "https://www.wikidata.org/wiki/Q105906592"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Vestey%27s%20beach%2C%20Achmelvich.jpg"
+    }
+  }
+}

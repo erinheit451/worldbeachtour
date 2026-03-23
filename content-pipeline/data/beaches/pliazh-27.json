@@ -1,0 +1,29 @@
+{
+  "slug": "pliazh-27",
+  "name": "Пляж",
+  "centroid_lat": 64.6127744,
+  "centroid_lng": 40.4313819,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12112087212",
+      "source_url": "https://www.openstreetmap.org/node/12112087212"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1307929053",
+      "source_url": "https://www.openstreetmap.org/way/1307929053"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

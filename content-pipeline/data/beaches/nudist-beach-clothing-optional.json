@@ -1,0 +1,25 @@
+{
+  "slug": "nudist-beach-clothing-optional",
+  "name": "Nudist Beach (clothing Optional)",
+  "centroid_lat": -38.3112196,
+  "centroid_lng": 144.3696056,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/49037254",
+      "source_url": "https://www.openstreetmap.org/way/49037254"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": "leashed",
+      "nudist": true
+    }
+  }
+}

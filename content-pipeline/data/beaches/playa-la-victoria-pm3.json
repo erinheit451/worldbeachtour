@@ -1,0 +1,38 @@
+{
+  "slug": "playa-la-victoria-pm3",
+  "name": "PLAYA  LA VICTORIA PM3",
+  "centroid_lat": 36.4989,
+  "centroid_lng": -6.2746,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6079146",
+      "source_url": "https://www.wikidata.org/wiki/Q6079146"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES612M0121368",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES612M0121368",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Vista%20parcial%20de%20la%20playa.%20Balneario%20Victoria.%20C%C3%A1diz%20%2816746178133%29.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

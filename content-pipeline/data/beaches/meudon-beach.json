@@ -1,0 +1,25 @@
+{
+  "slug": "meudon-beach",
+  "name": "Meudon Beach",
+  "centroid_lat": 40.9019444,
+  "centroid_lng": -73.605,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357614443",
+      "source_url": "https://www.openstreetmap.org/node/357614443"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q34695732",
+      "source_url": "https://www.wikidata.org/wiki/Q34695732"
+    }
+  ],
+  "attributes": {}
+}

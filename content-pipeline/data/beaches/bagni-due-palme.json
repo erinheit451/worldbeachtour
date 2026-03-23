@@ -1,0 +1,29 @@
+{
+  "slug": "bagni-due-palme",
+  "name": "Bagni Due Palme",
+  "centroid_lat": 43.9012322,
+  "centroid_lng": 12.9363401,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1342697476",
+      "source_url": "https://www.openstreetmap.org/way/1342697476"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33325276",
+      "source_url": "https://www.wikidata.org/wiki/Q33325276"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

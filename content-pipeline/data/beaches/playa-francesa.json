@@ -1,0 +1,34 @@
+{
+  "slug": "playa-francesa",
+  "name": "Playa Francesa",
+  "centroid_lat": 29.2199142,
+  "centroid_lng": -13.5256067,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/156819620",
+      "source_url": "https://www.openstreetmap.org/way/156819620"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/156819625",
+      "source_url": "https://www.openstreetmap.org/way/156819625"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/156819637",
+      "source_url": "https://www.openstreetmap.org/way/156819637"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

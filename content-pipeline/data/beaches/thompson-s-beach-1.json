@@ -1,0 +1,24 @@
+{
+  "slug": "thompson-s-beach-1",
+  "name": "Thompson's Beach",
+  "centroid_lat": -27.5915808,
+  "centroid_lng": 153.3079543,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/496292732",
+      "source_url": "https://www.openstreetmap.org/way/496292732"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

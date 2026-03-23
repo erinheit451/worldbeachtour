@@ -1,0 +1,29 @@
+{
+  "slug": "burnstick-lake-beach",
+  "name": "Burnstick Lake Beach",
+  "centroid_lat": 51.9958575,
+  "centroid_lng": -114.8520882,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12400858127",
+      "source_url": "https://www.openstreetmap.org/node/12400858127"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1231197296",
+      "source_url": "https://www.openstreetmap.org/way/1231197296"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

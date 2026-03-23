@@ -1,0 +1,27 @@
+{
+  "slug": "hakojarven-uimaranta",
+  "name": "Hakojärven uimaranta",
+  "centroid_lat": 62.0207511,
+  "centroid_lng": 28.0392684,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5062801890",
+      "source_url": "https://www.openstreetmap.org/node/5062801890"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

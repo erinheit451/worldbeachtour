@@ -1,0 +1,24 @@
+{
+  "slug": "crystal-lake-beach",
+  "name": "Crystal Lake Beach",
+  "centroid_lat": 44.7247919,
+  "centroid_lng": -93.2588591,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/192285576",
+      "source_url": "https://www.openstreetmap.org/way/192285576"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

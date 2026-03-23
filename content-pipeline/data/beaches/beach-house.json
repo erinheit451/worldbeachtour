@@ -1,0 +1,47 @@
+{
+  "slug": "beach-house",
+  "name": "Beach House",
+  "centroid_lat": 42.2827844,
+  "centroid_lng": 18.8629348,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12898746994",
+      "source_url": "https://www.openstreetmap.org/node/12898746994"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1390702598",
+      "source_url": "https://www.openstreetmap.org/way/1390702598"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1393522362",
+      "source_url": "https://www.openstreetmap.org/way/1393522362"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/19196925",
+      "source_url": "https://www.openstreetmap.org/relation/19196925"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/19266538",
+      "source_url": "https://www.openstreetmap.org/relation/19266538"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "playa-publico",
+  "name": "Playa Publico",
+  "centroid_lat": 15.6943478,
+  "centroid_lng": -88.6243705,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1457029741",
+      "source_url": "https://www.openstreetmap.org/way/1457029741"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "wee-beach",
+  "name": "Wee Beach",
+  "centroid_lat": -17.8414986,
+  "centroid_lng": 146.1043173,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1335382142",
+      "source_url": "https://www.openstreetmap.org/way/1335382142"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

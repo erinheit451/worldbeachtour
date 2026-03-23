@@ -1,0 +1,29 @@
+{
+  "slug": "praia-do-meireles",
+  "name": "Praia do Meireles",
+  "centroid_lat": -3.7235262,
+  "centroid_lng": -38.499584,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/5899928",
+      "source_url": "https://www.openstreetmap.org/relation/5899928"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10352825",
+      "source_url": "https://www.wikidata.org/wiki/Q10352825"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20do%20Meireles%2011.jpg"
+    }
+  }
+}

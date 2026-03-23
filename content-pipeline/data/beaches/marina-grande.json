@@ -1,0 +1,30 @@
+{
+  "slug": "marina-grande",
+  "name": "Marina Grande",
+  "centroid_lat": 44.3924263,
+  "centroid_lng": 8.6751183,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/178437756",
+      "source_url": "https://www.openstreetmap.org/way/178437756"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/273428452",
+      "source_url": "https://www.openstreetmap.org/way/273428452"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true,
+      "access": "customers"
+    }
+  }
+}

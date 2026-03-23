@@ -1,0 +1,44 @@
+{
+  "slug": "plage-de-la-raitrie",
+  "name": "Plage de la Raitrie",
+  "centroid_lat": 47.122329,
+  "centroid_lng": -2.1876776,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/440097124",
+      "source_url": "https://www.openstreetmap.org/way/440097124"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/440097126",
+      "source_url": "https://www.openstreetmap.org/way/440097126"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/621232695",
+      "source_url": "https://www.openstreetmap.org/way/621232695"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/621232697",
+      "source_url": "https://www.openstreetmap.org/way/621232697"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/621232699",
+      "source_url": "https://www.openstreetmap.org/way/621232699"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

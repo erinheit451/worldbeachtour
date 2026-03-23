@@ -1,0 +1,66 @@
+{
+  "slug": "platja-de-palmira",
+  "name": "Platja de Palmira",
+  "centroid_lat": 39.5363222,
+  "centroid_lng": 2.451177,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/162697979",
+      "source_url": "https://www.openstreetmap.org/way/162697979"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/215287710",
+      "source_url": "https://www.openstreetmap.org/way/215287710"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1086582277",
+      "source_url": "https://www.openstreetmap.org/way/1086582277"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1086582278",
+      "source_url": "https://www.openstreetmap.org/way/1086582278"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1086582279",
+      "source_url": "https://www.openstreetmap.org/way/1086582279"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23982305",
+      "source_url": "https://www.wikidata.org/wiki/Q23982305"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0112666",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0112666",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

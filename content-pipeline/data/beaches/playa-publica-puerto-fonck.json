@@ -1,0 +1,24 @@
+{
+  "slug": "playa-publica-puerto-fonck",
+  "name": "Playa pública Puerto Fonck",
+  "centroid_lat": -41.0090967,
+  "centroid_lng": -72.7246535,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/333687883",
+      "source_url": "https://www.openstreetmap.org/way/333687883"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

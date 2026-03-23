@@ -1,0 +1,29 @@
+{
+  "slug": "kirby-beach",
+  "name": "Kirby Beach",
+  "centroid_lat": 37.826798,
+  "centroid_lng": -122.4898066,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/11498137",
+      "source_url": "https://www.openstreetmap.org/relation/11498137"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49321605",
+      "source_url": "https://www.wikidata.org/wiki/Q49321605"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kirby%20Cove%20%2814915725870%29.jpg"
+    }
+  }
+}

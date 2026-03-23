@@ -1,0 +1,29 @@
+{
+  "slug": "gislason-beach",
+  "name": "Gislason Beach",
+  "centroid_lat": 45.3402358,
+  "centroid_lng": -86.9087381,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/905984219",
+      "source_url": "https://www.openstreetmap.org/way/905984219"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320813",
+      "source_url": "https://www.wikidata.org/wiki/Q49320813"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

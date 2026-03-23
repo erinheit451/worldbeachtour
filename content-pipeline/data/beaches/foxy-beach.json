@@ -1,0 +1,29 @@
+{
+  "slug": "foxy-beach",
+  "name": "Foxy Beach",
+  "centroid_lat": -34.1962128,
+  "centroid_lng": 18.4504343,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/46188678",
+      "source_url": "https://www.openstreetmap.org/way/46188678"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q127386261",
+      "source_url": "https://www.wikidata.org/wiki/Q127386261"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sur%C3%A1frica%2C%20Simon%27s%20Town%2013.jpg"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "karlas-plads",
+  "name": "Karlas Plads",
+  "centroid_lat": 55.0494953,
+  "centroid_lng": 10.6165045,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/33453199",
+      "source_url": "https://www.openstreetmap.org/way/33453199"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/312844997",
+      "source_url": "https://www.openstreetmap.org/way/312844997"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1423822143",
+      "source_url": "https://www.openstreetmap.org/way/1423822143"
+    }
+  ],
+  "attributes": {}
+}

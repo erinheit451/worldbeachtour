@@ -1,0 +1,43 @@
+{
+  "slug": "ficajola",
+  "name": "Ficajola",
+  "centroid_lat": 42.2514067,
+  "centroid_lng": 8.6268412,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/41736880",
+      "source_url": "https://www.openstreetmap.org/way/41736880"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q126596719",
+      "source_url": "https://www.wikidata.org/wiki/Q126596719"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRM012A212M02A018",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRM012A212M02A018",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Anse%20de%20Portu%20Vechju%20et%20plage%20de%20Ficaghjola%2C%20Bastia.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

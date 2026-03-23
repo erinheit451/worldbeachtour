@@ -1,0 +1,50 @@
+{
+  "slug": "pietra-concata",
+  "name": "PIETRA CONCATA",
+  "centroid_lat": 41.0065,
+  "centroid_lng": 9.562,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/200058939",
+      "source_url": "https://www.openstreetmap.org/way/200058939"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/200058940",
+      "source_url": "https://www.openstreetmap.org/way/200058940"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/200058941",
+      "source_url": "https://www.openstreetmap.org/way/200058941"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/200058944",
+      "source_url": "https://www.openstreetmap.org/way/200058944"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020104011005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020104011005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

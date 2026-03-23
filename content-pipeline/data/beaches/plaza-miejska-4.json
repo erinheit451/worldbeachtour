@@ -1,0 +1,25 @@
+{
+  "slug": "plaza-miejska-4",
+  "name": "Plaża miejska",
+  "centroid_lat": 52.434263,
+  "centroid_lng": 20.7218917,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/13006513473",
+      "source_url": "https://www.openstreetmap.org/node/13006513473"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/355427013",
+      "source_url": "https://www.openstreetmap.org/way/355427013"
+    }
+  ],
+  "attributes": {}
+}

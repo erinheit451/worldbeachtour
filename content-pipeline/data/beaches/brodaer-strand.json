@@ -1,0 +1,68 @@
+{
+  "slug": "brodaer-strand",
+  "name": "Brodaer Strand",
+  "centroid_lat": 53.5498144,
+  "centroid_lng": 13.2427376,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/233511520",
+      "source_url": "https://www.openstreetmap.org/way/233511520"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/233511522",
+      "source_url": "https://www.openstreetmap.org/way/233511522"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/364876972",
+      "source_url": "https://www.openstreetmap.org/way/364876972"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/477482407",
+      "source_url": "https://www.openstreetmap.org/way/477482407"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1302881730",
+      "source_url": "https://www.openstreetmap.org/way/1302881730"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEMV_PR_2_0522",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEMV_PR_2_0522",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "safety": {
+      "lifeguard": "interval"
+    },
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

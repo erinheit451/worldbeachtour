@@ -1,0 +1,53 @@
+{
+  "slug": "see-im-grossen-moor-bez-zuvor-maschener-see",
+  "name": "SEE IM GROSSEN MOOR(BEZ. ZUVOR MASCHENER SEE)",
+  "centroid_lat": 53.4189,
+  "centroid_lng": 10.0478,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10559504991",
+      "source_url": "https://www.openstreetmap.org/node/10559504991"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/10559590797",
+      "source_url": "https://www.openstreetmap.org/node/10559590797"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/10559604387",
+      "source_url": "https://www.openstreetmap.org/node/10559604387"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/817909696",
+      "source_url": "https://www.openstreetmap.org/way/817909696"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DENI_PR_TK25_2526_01",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DENI_PR_TK25_2526_01",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

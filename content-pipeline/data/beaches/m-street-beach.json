@@ -1,0 +1,30 @@
+{
+  "slug": "m-street-beach",
+  "name": "M Street Beach",
+  "centroid_lat": 42.330167,
+  "centroid_lng": -71.0313891,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/11192365",
+      "source_url": "https://www.openstreetmap.org/relation/11192365"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/11192368",
+      "source_url": "https://www.openstreetmap.org/relation/11192368"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49321691",
+      "source_url": "https://www.wikidata.org/wiki/Q49321691"
+    }
+  ],
+  "attributes": {}
+}

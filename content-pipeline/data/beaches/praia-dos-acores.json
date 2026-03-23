@@ -1,0 +1,30 @@
+{
+  "slug": "praia-dos-acores",
+  "name": "Praia dos Açores",
+  "centroid_lat": -27.7857952,
+  "centroid_lng": -48.5187949,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/6464167",
+      "source_url": "https://www.openstreetmap.org/relation/6464167"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q2211781",
+      "source_url": "https://www.wikidata.org/wiki/Q2211781"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20dos%20A%C3%A7ores.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_dos_A%C3%A7ores"
+    }
+  }
+}

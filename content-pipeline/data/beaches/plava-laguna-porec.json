@@ -1,0 +1,30 @@
+{
+  "slug": "plava-laguna-porec",
+  "name": "Plava Laguna Poreč",
+  "centroid_lat": 45.2082399,
+  "centroid_lng": 13.5890101,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/721634590",
+      "source_url": "https://www.openstreetmap.org/way/721634590"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7202888",
+      "source_url": "https://www.wikidata.org/wiki/Q7202888"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plava%20Laguna%20Strand.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Plava_Laguna"
+    }
+  }
+}

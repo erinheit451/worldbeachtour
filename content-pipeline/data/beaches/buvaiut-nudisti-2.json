@@ -1,0 +1,30 @@
+{
+  "slug": "buvaiut-nudisti-2",
+  "name": "Бувають нудисти",
+  "centroid_lat": 46.1634109,
+  "centroid_lng": 30.5632842,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12097410831",
+      "source_url": "https://www.openstreetmap.org/node/12097410831"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "customary"
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

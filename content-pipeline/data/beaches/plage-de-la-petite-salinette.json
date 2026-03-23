@@ -1,0 +1,50 @@
+{
+  "slug": "plage-de-la-petite-salinette",
+  "name": "Plage de la Petite Salinette",
+  "centroid_lat": 48.6266086,
+  "centroid_lng": -2.1463842,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/160806623",
+      "source_url": "https://www.openstreetmap.org/way/160806623"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/290523562",
+      "source_url": "https://www.openstreetmap.org/way/290523562"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0335256M035860",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0335256M035875",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0335256M035860",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0335256M035875",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

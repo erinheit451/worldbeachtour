@@ -1,0 +1,40 @@
+{
+  "slug": "ierapetra-dimotiki-plaz",
+  "name": "IERAPETRA DIMOTIKI PLAZ",
+  "centroid_lat": 35.0061,
+  "centroid_lng": 25.7391,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/52631595",
+      "source_url": "https://www.openstreetmap.org/way/52631595"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53633897",
+      "source_url": "https://www.wikidata.org/wiki/Q53633897"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139311047101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139311047101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "cala-higuera-1",
+  "name": "Cala Higuera",
+  "centroid_lat": 37.9915389,
+  "centroid_lng": -0.6556817,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/453837097",
+      "source_url": "https://www.openstreetmap.org/way/453837097"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28121434",
+      "source_url": "https://www.wikidata.org/wiki/Q28121434"
+    }
+  ],
+  "attributes": {}
+}

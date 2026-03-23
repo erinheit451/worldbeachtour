@@ -1,0 +1,29 @@
+{
+  "slug": "waiake-beach",
+  "name": "Waiake Beach",
+  "centroid_lat": -36.7030624,
+  "centroid_lng": 174.7520694,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/475926643",
+      "source_url": "https://www.openstreetmap.org/way/475926643"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49325144",
+      "source_url": "https://www.wikidata.org/wiki/Q49325144"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Waiake%20Beach%20and%20The%20Tor.jpg"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "la-playita-3",
+  "name": "La Playita",
+  "centroid_lat": 18.3804351,
+  "centroid_lng": -68.5943615,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/309613762",
+      "source_url": "https://www.openstreetmap.org/way/309613762"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23768431",
+      "source_url": "https://www.wikidata.org/wiki/Q23768431"
+    }
+  ],
+  "attributes": {}
+}

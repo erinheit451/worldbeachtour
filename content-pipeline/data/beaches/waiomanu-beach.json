@@ -1,0 +1,25 @@
+{
+  "slug": "waiomanu-beach",
+  "name": "Waiomanu Beach",
+  "centroid_lat": -36.8819602,
+  "centroid_lng": 175.0540686,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/757769671",
+      "source_url": "https://www.openstreetmap.org/way/757769671"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49325182",
+      "source_url": "https://www.wikidata.org/wiki/Q49325182"
+    }
+  ],
+  "attributes": {}
+}

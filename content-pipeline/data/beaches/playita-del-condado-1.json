@@ -1,0 +1,34 @@
+{
+  "slug": "playita-del-condado-1",
+  "name": "Playita del Condado",
+  "centroid_lat": 18.4611203,
+  "centroid_lng": -66.0823742,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/196600086",
+      "source_url": "https://www.openstreetmap.org/way/196600086"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/430132406",
+      "source_url": "https://www.openstreetmap.org/way/430132406"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31909238",
+      "source_url": "https://www.wikidata.org/wiki/Q31909238"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

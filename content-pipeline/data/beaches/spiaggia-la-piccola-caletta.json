@@ -1,0 +1,39 @@
+{
+  "slug": "spiaggia-la-piccola-caletta",
+  "name": "Spiaggia la piccola caletta",
+  "centroid_lat": 43.8202246,
+  "centroid_lng": 7.7983767,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7207039611",
+      "source_url": "https://www.openstreetmap.org/node/7207039611"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/11435353494",
+      "source_url": "https://www.openstreetmap.org/node/11435353494"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/771499896",
+      "source_url": "https://www.openstreetmap.org/way/771499896"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1409595153",
+      "source_url": "https://www.openstreetmap.org/way/1409595153"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "varca-beach-1",
+  "name": "Varca Beach",
+  "centroid_lat": 15.218242,
+  "centroid_lng": 73.9297659,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/397058899",
+      "source_url": "https://www.openstreetmap.org/way/397058899"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q26795348",
+      "source_url": "https://www.wikidata.org/wiki/Q26795348"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Varca%20Beach%20%2832934031834%29.jpg"
+    }
+  }
+}

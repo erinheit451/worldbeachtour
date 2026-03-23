@@ -1,0 +1,25 @@
+{
+  "slug": "pohjankylan-uimaranta",
+  "name": "Pohjankylän uimaranta",
+  "centroid_lat": 61.6659199,
+  "centroid_lng": 23.579955,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10231296353",
+      "source_url": "https://www.openstreetmap.org/node/10231296353"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/504794436",
+      "source_url": "https://www.openstreetmap.org/way/504794436"
+    }
+  ],
+  "attributes": {}
+}

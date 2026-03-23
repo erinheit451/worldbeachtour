@@ -1,0 +1,25 @@
+{
+  "slug": "rye-north-beach",
+  "name": "Rye North Beach",
+  "centroid_lat": 43.0124629,
+  "centroid_lng": -70.7364473,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1107488623",
+      "source_url": "https://www.openstreetmap.org/way/1107488623"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324536",
+      "source_url": "https://www.wikidata.org/wiki/Q49324536"
+    }
+  ],
+  "attributes": {}
+}

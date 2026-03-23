@@ -1,0 +1,86 @@
+{
+  "slug": "playa-morro-jable-pm1",
+  "name": "PLAYA MORRO JABLE PM1",
+  "centroid_lat": 28.0473,
+  "centroid_lng": -14.3451,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1050000536",
+      "source_url": "https://www.openstreetmap.org/way/1050000536"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1050002319",
+      "source_url": "https://www.openstreetmap.org/way/1050002319"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1050002320",
+      "source_url": "https://www.openstreetmap.org/way/1050002320"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1050002321",
+      "source_url": "https://www.openstreetmap.org/way/1050002321"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1050002322",
+      "source_url": "https://www.openstreetmap.org/way/1050002322"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1050002323",
+      "source_url": "https://www.openstreetmap.org/way/1050002323"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1050002324",
+      "source_url": "https://www.openstreetmap.org/way/1050002324"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1050002325",
+      "source_url": "https://www.openstreetmap.org/way/1050002325"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1050002326",
+      "source_url": "https://www.openstreetmap.org/way/1050002326"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31920097",
+      "source_url": "https://www.wikidata.org/wiki/Q31920097"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES704M0151749",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES704M0151749",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20Jandia.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

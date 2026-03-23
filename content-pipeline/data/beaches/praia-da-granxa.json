@@ -1,0 +1,39 @@
+{
+  "slug": "praia-da-granxa",
+  "name": "Praia da Granxa",
+  "centroid_lat": 42.6247751,
+  "centroid_lng": -8.8833922,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11584007432",
+      "source_url": "https://www.openstreetmap.org/node/11584007432"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/646012002",
+      "source_url": "https://www.openstreetmap.org/way/646012002"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/646012003",
+      "source_url": "https://www.openstreetmap.org/way/646012003"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q121029485",
+      "source_url": "https://www.wikidata.org/wiki/Q121029485"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20tras%20das%20Eiras.jpg"
+    }
+  }
+}

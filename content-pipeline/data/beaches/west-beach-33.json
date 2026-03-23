@@ -1,0 +1,25 @@
+{
+  "slug": "west-beach-33",
+  "name": "West Beach",
+  "centroid_lat": 48.7385122,
+  "centroid_lng": -122.6717177,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/20125431",
+      "source_url": "https://www.openstreetmap.org/relation/20125431"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49325252",
+      "source_url": "https://www.wikidata.org/wiki/Q49325252"
+    }
+  ],
+  "attributes": {}
+}

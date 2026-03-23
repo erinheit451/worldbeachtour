@@ -1,0 +1,34 @@
+{
+  "slug": "playa-de-fuentes",
+  "name": "Playa de Fuentes",
+  "centroid_lat": 43.3929466,
+  "centroid_lng": -4.4314517,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/608392326",
+      "source_url": "https://www.openstreetmap.org/way/608392326"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1299791296",
+      "source_url": "https://www.openstreetmap.org/way/1299791296"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q5963447",
+      "source_url": "https://www.wikidata.org/wiki/Q5963447"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20La%20Fuente.jpg"
+    }
+  }
+}

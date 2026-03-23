@@ -1,0 +1,25 @@
+{
+  "slug": "spiaggia-di-santa-caterina-1",
+  "name": "Spiaggia di Santa Caterina",
+  "centroid_lat": 40.6377575,
+  "centroid_lng": 14.3995124,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/566218103",
+      "source_url": "https://www.openstreetmap.org/way/566218103"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "znjan",
+  "name": "Žnjan",
+  "centroid_lat": 43.5023161,
+  "centroid_lng": 16.4779137,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/142955191",
+      "source_url": "https://www.openstreetmap.org/way/142955191"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/142955197",
+      "source_url": "https://www.openstreetmap.org/way/142955197"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/142955254",
+      "source_url": "https://www.openstreetmap.org/way/142955254"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/958801622",
+      "source_url": "https://www.openstreetmap.org/way/958801622"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2022",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2043",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2022",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2043",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

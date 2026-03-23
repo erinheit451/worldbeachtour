@@ -1,0 +1,35 @@
+{
+  "slug": "pors-ar-vilin-vraz",
+  "name": "Pors ar Vilin Vraz",
+  "centroid_lat": 48.5656388,
+  "centroid_lng": -4.7023075,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/107488657",
+      "source_url": "https://www.openstreetmap.org/way/107488657"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229178M029367",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229178M029367",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

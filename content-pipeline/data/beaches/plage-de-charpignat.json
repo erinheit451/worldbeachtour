@@ -1,0 +1,27 @@
+{
+  "slug": "plage-de-charpignat",
+  "name": "Plage de Charpignat",
+  "centroid_lat": 45.6604147,
+  "centroid_lng": 5.8584955,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9885443491",
+      "source_url": "https://www.openstreetmap.org/node/9885443491"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

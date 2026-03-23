@@ -1,0 +1,40 @@
+{
+  "slug": "foce-torrente-sirina",
+  "name": "FOCE TORRENTE SIRINA",
+  "centroid_lat": 37.8433,
+  "centroid_lng": 15.2812,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/260756061",
+      "source_url": "https://www.openstreetmap.org/way/260756061"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/475566963",
+      "source_url": "https://www.openstreetmap.org/way/475566963"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019083097001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019083097001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

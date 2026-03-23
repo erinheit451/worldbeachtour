@@ -1,0 +1,35 @@
+{
+  "slug": "jackson-s-bay-beach",
+  "name": "Jackson's Bay Beach",
+  "centroid_lat": 51.3914,
+  "centroid_lng": -3.2633,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/496302495",
+      "source_url": "https://www.openstreetmap.org/way/496302495"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/642104620",
+      "source_url": "https://www.openstreetmap.org/way/642104620"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/642104621",
+      "source_url": "https://www.openstreetmap.org/way/642104621"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q107356859",
+      "source_url": "https://www.wikidata.org/wiki/Q107356859"
+    }
+  ],
+  "attributes": {}
+}

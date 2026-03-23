@@ -1,0 +1,37 @@
+{
+  "slug": "sandstrand-brf-doppingen",
+  "name": "Sandstrand BRF Doppingen",
+  "centroid_lat": 58.8984976,
+  "centroid_lng": 17.9272516,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11886224807",
+      "source_url": "https://www.openstreetmap.org/node/11886224807"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/322042005",
+      "source_url": "https://www.openstreetmap.org/way/322042005"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/366103516",
+      "source_url": "https://www.openstreetmap.org/way/366103516"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "wheelchair_access": "limited"
+    }
+  }
+}

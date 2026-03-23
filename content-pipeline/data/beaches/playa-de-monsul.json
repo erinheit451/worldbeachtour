@@ -1,0 +1,29 @@
+{
+  "slug": "playa-de-monsul",
+  "name": "Playa de Mónsul",
+  "centroid_lat": 36.7304859,
+  "centroid_lng": -2.1460471,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/12230415",
+      "source_url": "https://www.openstreetmap.org/relation/12230415"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24023421",
+      "source_url": "https://www.wikidata.org/wiki/Q24023421"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/M%C3%B3nsul%20desde%20la%20Peineta.jpg"
+    }
+  }
+}

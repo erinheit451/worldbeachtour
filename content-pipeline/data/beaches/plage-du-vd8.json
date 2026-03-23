@@ -1,0 +1,71 @@
+{
+  "slug": "plage-du-vd8",
+  "name": "Plage du VD8",
+  "centroid_lat": 46.8042779,
+  "centroid_lng": 6.7140447,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/73881368",
+      "source_url": "https://www.openstreetmap.org/way/73881368"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/421807530",
+      "source_url": "https://www.openstreetmap.org/way/421807530"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/421963161",
+      "source_url": "https://www.openstreetmap.org/way/421963161"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/421964058",
+      "source_url": "https://www.openstreetmap.org/way/421964058"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/421964862",
+      "source_url": "https://www.openstreetmap.org/way/421964862"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/422147503",
+      "source_url": "https://www.openstreetmap.org/way/422147503"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1003005659",
+      "source_url": "https://www.openstreetmap.org/way/1003005659"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CH22075",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CH22075",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": "no @ Mar 15 - Oct 15"
+    },
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

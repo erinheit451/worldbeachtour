@@ -1,0 +1,35 @@
+{
+  "slug": "praia-da-calada",
+  "name": "Praia da Calada",
+  "centroid_lat": 39.0328411,
+  "centroid_lng": -9.4184306,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/29715368",
+      "source_url": "https://www.openstreetmap.org/way/29715368"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCJ2H",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCJ2H",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

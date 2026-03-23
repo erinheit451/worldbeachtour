@@ -1,0 +1,40 @@
+{
+  "slug": "bagnetti-salivoli",
+  "name": "Bagnetti Salivoli",
+  "centroid_lat": 42.9330266,
+  "centroid_lng": 10.5085147,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7770884761",
+      "source_url": "https://www.openstreetmap.org/node/7770884761"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/11366689",
+      "source_url": "https://www.openstreetmap.org/relation/11366689"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049012022",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049012022",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

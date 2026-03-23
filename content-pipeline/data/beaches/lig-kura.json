@@ -1,0 +1,44 @@
+{
+  "slug": "lig-kura",
+  "name": "Lig Kura",
+  "centroid_lat": -33.3648242,
+  "centroid_lng": -71.6944495,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12229781036",
+      "source_url": "https://www.openstreetmap.org/node/12229781036"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/427890523",
+      "source_url": "https://www.openstreetmap.org/way/427890523"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/427890543",
+      "source_url": "https://www.openstreetmap.org/way/427890543"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/427904098",
+      "source_url": "https://www.openstreetmap.org/way/427904098"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/427905358",
+      "source_url": "https://www.openstreetmap.org/way/427905358"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

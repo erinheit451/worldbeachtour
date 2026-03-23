@@ -1,0 +1,40 @@
+{
+  "slug": "odeskii-nudistskii-pliazh",
+  "name": "Одеський нудистський пляж",
+  "centroid_lat": 46.4444993,
+  "centroid_lng": 30.7719684,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/182523164",
+      "source_url": "https://www.openstreetmap.org/way/182523164"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/213162871",
+      "source_url": "https://www.openstreetmap.org/way/213162871"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/712538428",
+      "source_url": "https://www.openstreetmap.org/way/712538428"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "obligatory"
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

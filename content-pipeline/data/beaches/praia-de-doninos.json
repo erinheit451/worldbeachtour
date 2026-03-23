@@ -1,0 +1,29 @@
+{
+  "slug": "praia-de-doninos",
+  "name": "Praia de Doniños",
+  "centroid_lat": 43.4953685,
+  "centroid_lng": -8.3200545,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/646340327",
+      "source_url": "https://www.openstreetmap.org/way/646340327"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q12398080",
+      "source_url": "https://www.wikidata.org/wiki/Q12398080"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Doninos-1650488.jpg"
+    }
+  }
+}

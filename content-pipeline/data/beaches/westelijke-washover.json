@@ -1,0 +1,25 @@
+{
+  "slug": "westelijke-washover",
+  "name": "Westelijke washover",
+  "centroid_lat": 53.4681906,
+  "centroid_lng": 6.0435828,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/18748226",
+      "source_url": "https://www.openstreetmap.org/relation/18748226"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/18759388",
+      "source_url": "https://www.openstreetmap.org/relation/18759388"
+    }
+  ],
+  "attributes": {}
+}

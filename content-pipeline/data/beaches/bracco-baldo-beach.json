@@ -1,0 +1,76 @@
+{
+  "slug": "bracco-baldo-beach",
+  "name": "Bracco Baldo Beach",
+  "centroid_lat": 45.4525086,
+  "centroid_lng": 10.668718,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/216859550",
+      "source_url": "https://www.openstreetmap.org/way/216859550"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/216859556",
+      "source_url": "https://www.openstreetmap.org/way/216859556"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/216859563",
+      "source_url": "https://www.openstreetmap.org/way/216859563"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1072104384",
+      "source_url": "https://www.openstreetmap.org/way/1072104384"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT005023059003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT005023059005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT005023059008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT005023059003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT005023059005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT005023059008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true
+    },
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

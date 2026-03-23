@@ -1,0 +1,29 @@
+{
+  "slug": "plaza-nudystow",
+  "name": "plaża nudystów",
+  "centroid_lat": 54.3703009,
+  "centroid_lng": 18.77205,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5790393900",
+      "source_url": "https://www.openstreetmap.org/node/5790393900"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/173621602",
+      "source_url": "https://www.openstreetmap.org/way/173621602"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    }
+  }
+}

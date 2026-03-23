@@ -1,0 +1,30 @@
+{
+  "slug": "ozerki",
+  "name": "Озерки",
+  "centroid_lat": 50.1697812,
+  "centroid_lng": 39.6055418,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/167997378",
+      "source_url": "https://www.openstreetmap.org/way/167997378"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/167998112",
+      "source_url": "https://www.openstreetmap.org/way/167998112"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/167998192",
+      "source_url": "https://www.openstreetmap.org/way/167998192"
+    }
+  ],
+  "attributes": {}
+}

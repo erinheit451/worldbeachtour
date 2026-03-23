@@ -1,0 +1,29 @@
+{
+  "slug": "praia-fluvial-de-alburrica",
+  "name": "Praia Fluvial de Alburrica",
+  "centroid_lat": 38.6559,
+  "centroid_lng": -9.0843426,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/527378044",
+      "source_url": "https://www.openstreetmap.org/way/527378044"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q66305449",
+      "source_url": "https://www.wikidata.org/wiki/Q66305449"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Alburrica%20-%20Barreiro%20-%20Portugal%20%2836671222763%29.jpg"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "plage-de-la-vernette",
+  "name": "Plage de la Vernette",
+  "centroid_lat": 43.0741109,
+  "centroid_lng": 5.8838953,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/522089773",
+      "source_url": "https://www.openstreetmap.org/node/522089773"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/251772394",
+      "source_url": "https://www.openstreetmap.org/way/251772394"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0583126M083126",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0583126M083125",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0583126M083126",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0583126M083125",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

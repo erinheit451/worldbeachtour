@@ -1,0 +1,45 @@
+{
+  "slug": "menez-ham",
+  "name": "MENEZ HAM",
+  "centroid_lat": 48.66872,
+  "centroid_lng": -4.36912,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/176017469",
+      "source_url": "https://www.openstreetmap.org/way/176017469"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/179097366",
+      "source_url": "https://www.openstreetmap.org/way/179097366"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/179097374",
+      "source_url": "https://www.openstreetmap.org/way/179097374"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229091M029249",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229091M029249",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

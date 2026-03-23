@@ -1,0 +1,45 @@
+{
+  "slug": "dragonera",
+  "name": "Δραγονέρα",
+  "centroid_lat": 37.69665,
+  "centroid_lng": 23.3316675,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/519985348",
+      "source_url": "https://www.openstreetmap.org/way/519985348"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/530694574",
+      "source_url": "https://www.openstreetmap.org/way/530694574"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/530694575",
+      "source_url": "https://www.openstreetmap.org/way/530694575"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW069207012101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW069207012101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

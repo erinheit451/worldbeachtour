@@ -1,0 +1,60 @@
+{
+  "slug": "ostseebad",
+  "name": "Ostseebad",
+  "centroid_lat": 54.8122879,
+  "centroid_lng": 9.4306256,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/25031188",
+      "source_url": "https://www.openstreetmap.org/way/25031188"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/778639619",
+      "source_url": "https://www.openstreetmap.org/way/778639619"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/943662491",
+      "source_url": "https://www.openstreetmap.org/way/943662491"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1060589335",
+      "source_url": "https://www.openstreetmap.org/way/1060589335"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1060589337",
+      "source_url": "https://www.openstreetmap.org/way/1060589337"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q17341865",
+      "source_url": "https://www.wikidata.org/wiki/Q17341865"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DESH_PR_0001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DESH_PR_0001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

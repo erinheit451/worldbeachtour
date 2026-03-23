@@ -1,0 +1,24 @@
+{
+  "slug": "greve-du-vougot",
+  "name": "Grève du vougot",
+  "centroid_lat": 48.6327819,
+  "centroid_lng": -4.4560286,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/224287590",
+      "source_url": "https://www.openstreetmap.org/way/224287590"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

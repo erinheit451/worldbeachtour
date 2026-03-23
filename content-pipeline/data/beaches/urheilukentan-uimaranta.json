@@ -1,0 +1,32 @@
+{
+  "slug": "urheilukentan-uimaranta",
+  "name": "Urheilukentän uimaranta",
+  "centroid_lat": 61.5936501,
+  "centroid_lng": 21.8641662,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1783577252",
+      "source_url": "https://www.openstreetmap.org/node/1783577252"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1466183369",
+      "source_url": "https://www.openstreetmap.org/way/1466183369"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

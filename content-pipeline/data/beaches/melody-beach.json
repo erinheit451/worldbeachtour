@@ -1,0 +1,25 @@
+{
+  "slug": "melody-beach",
+  "name": "Melody Beach",
+  "centroid_lat": 36.1469112,
+  "centroid_lng": 32.4318856,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/155167973",
+      "source_url": "https://www.openstreetmap.org/way/155167973"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/744105138",
+      "source_url": "https://www.openstreetmap.org/way/744105138"
+    }
+  ],
+  "attributes": {}
+}

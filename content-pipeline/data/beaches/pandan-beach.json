@@ -1,0 +1,29 @@
+{
+  "slug": "pandan-beach",
+  "name": "Pandan beach",
+  "centroid_lat": -8.7191903,
+  "centroid_lng": 115.4559168,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/42773044",
+      "source_url": "https://www.openstreetmap.org/way/42773044"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q125470006",
+      "source_url": "https://www.wikidata.org/wiki/Q125470006"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Live%20is%20a%20beach%20%282728109671%29.jpg"
+    }
+  }
+}

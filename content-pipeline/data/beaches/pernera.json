@@ -1,0 +1,35 @@
+{
+  "slug": "pernera",
+  "name": "Pernera",
+  "centroid_lat": 34.9849339,
+  "centroid_lng": 33.9833775,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/434748741",
+      "source_url": "https://www.openstreetmap.org/way/434748741"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CY000310000000014B",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CY000310000000014B",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

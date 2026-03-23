@@ -1,0 +1,29 @@
+{
+  "slug": "wallops-beach",
+  "name": "Wallops Beach",
+  "centroid_lat": 37.8526356,
+  "centroid_lng": -75.4672449,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/356567103",
+      "source_url": "https://www.openstreetmap.org/node/356567103"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49325213",
+      "source_url": "https://www.wikidata.org/wiki/Q49325213"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Mid-Atlantic%20Regional%20Spaceport%20-%20aerial%20photo.jpg"
+    }
+  }
+}

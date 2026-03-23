@@ -1,0 +1,25 @@
+{
+  "slug": "ulsnestangen",
+  "name": "Ulsnestangen",
+  "centroid_lat": 60.4250646,
+  "centroid_lng": 10.4671438,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1871373217",
+      "source_url": "https://www.openstreetmap.org/node/1871373217"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/309808795",
+      "source_url": "https://www.openstreetmap.org/way/309808795"
+    }
+  ],
+  "attributes": {}
+}

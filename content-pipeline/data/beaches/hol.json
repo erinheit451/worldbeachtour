@@ -1,0 +1,40 @@
+{
+  "slug": "hol",
+  "name": "Høl",
+  "centroid_lat": 55.1475425,
+  "centroid_lng": 15.1049949,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/560042640",
+      "source_url": "https://www.openstreetmap.org/way/560042640"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/612012666",
+      "source_url": "https://www.openstreetmap.org/way/612012666"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW343",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW343",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

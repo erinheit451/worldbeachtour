@@ -1,0 +1,30 @@
+{
+  "slug": "mentone-dog-beach",
+  "name": "Mentone Dog Beach",
+  "centroid_lat": -37.9896366,
+  "centroid_lng": 145.058722,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/52562713",
+      "source_url": "https://www.openstreetmap.org/way/52562713"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24189438",
+      "source_url": "https://www.wikidata.org/wiki/Q24189438"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Mentone%20Beach%202%2C%20Mentone%2C%20Vic%2C%20jjron%2C%2008.01.2014.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mentone_Beach"
+    }
+  }
+}

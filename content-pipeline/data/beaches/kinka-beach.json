@@ -1,0 +1,25 @@
+{
+  "slug": "kinka-beach",
+  "name": "Kinka Beach",
+  "centroid_lat": -23.2145708,
+  "centroid_lng": 150.7933518,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/337121621",
+      "source_url": "https://www.openstreetmap.org/way/337121621"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21957496",
+      "source_url": "https://www.wikidata.org/wiki/Q21957496"
+    }
+  ],
+  "attributes": {}
+}

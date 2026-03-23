@@ -1,0 +1,28 @@
+{
+  "slug": "family-beach-2-1",
+  "name": "Family Beach 2",
+  "centroid_lat": 27.2484543,
+  "centroid_lng": 33.8404977,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/171487253",
+      "source_url": "https://www.openstreetmap.org/way/171487253"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "fee_required": true,
+      "access": "yes"
+    }
+  }
+}

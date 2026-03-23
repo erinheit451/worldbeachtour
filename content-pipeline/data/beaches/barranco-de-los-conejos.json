@@ -1,0 +1,29 @@
+{
+  "slug": "barranco-de-los-conejos",
+  "name": "Barranco de los Conejos",
+  "centroid_lat": 29.2532777,
+  "centroid_lng": -13.4888766,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/886010931",
+      "source_url": "https://www.openstreetmap.org/way/886010931"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1482696662",
+      "source_url": "https://www.openstreetmap.org/way/1482696662"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    }
+  }
+}

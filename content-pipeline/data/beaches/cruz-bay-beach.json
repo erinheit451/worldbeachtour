@@ -1,0 +1,35 @@
+{
+  "slug": "cruz-bay-beach",
+  "name": "Cruz Bay Beach",
+  "centroid_lat": 18.3305591,
+  "centroid_lng": -64.7963377,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/356559416",
+      "source_url": "https://www.openstreetmap.org/node/356559416"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/404253913",
+      "source_url": "https://www.openstreetmap.org/way/404253913"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/404253914",
+      "source_url": "https://www.openstreetmap.org/way/404253914"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31908728",
+      "source_url": "https://www.wikidata.org/wiki/Q31908728"
+    }
+  ],
+  "attributes": {}
+}

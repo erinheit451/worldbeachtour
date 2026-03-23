@@ -1,0 +1,45 @@
+{
+  "slug": "peuko",
+  "name": "Πεύκο",
+  "centroid_lat": 37.7780828,
+  "centroid_lng": 23.8953148,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/491171856",
+      "source_url": "https://www.openstreetmap.org/way/491171856"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659815342",
+      "source_url": "https://www.openstreetmap.org/way/659815342"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659815343",
+      "source_url": "https://www.openstreetmap.org/way/659815343"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW069225105101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW069225105101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

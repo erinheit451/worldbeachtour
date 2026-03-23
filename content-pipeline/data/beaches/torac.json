@@ -1,0 +1,40 @@
+{
+  "slug": "torac",
+  "name": "Torac",
+  "centroid_lat": 43.54819,
+  "centroid_lng": 16.39174,
+  "country_code": "HR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/425745731",
+      "source_url": "https://www.openstreetmap.org/way/425745731"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/934036693",
+      "source_url": "https://www.openstreetmap.org/way/934036693"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2059",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2059",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "brook-beach",
+  "name": "Brook Beach",
+  "centroid_lat": 44.2286905,
+  "centroid_lng": -68.818363,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/358226472",
+      "source_url": "https://www.openstreetmap.org/node/358226472"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33325687",
+      "source_url": "https://www.wikidata.org/wiki/Q33325687"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "detskii",
+  "name": "Детский",
+  "centroid_lat": 52.7103204,
+  "centroid_lng": 41.4756008,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1166208858",
+      "source_url": "https://www.openstreetmap.org/way/1166208858"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1167800741",
+      "source_url": "https://www.openstreetmap.org/way/1167800741"
+    }
+  ],
+  "attributes": {}
+}

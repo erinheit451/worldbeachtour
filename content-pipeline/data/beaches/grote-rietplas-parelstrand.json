@@ -1,0 +1,60 @@
+{
+  "slug": "grote-rietplas-parelstrand",
+  "name": "GROTE RIETPLAS - PARELSTRAND",
+  "centroid_lat": 52.73591,
+  "centroid_lng": 6.90546,
+  "country_code": "NL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/89124978",
+      "source_url": "https://www.openstreetmap.org/way/89124978"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/89125747",
+      "source_url": "https://www.openstreetmap.org/way/89125747"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/89126022",
+      "source_url": "https://www.openstreetmap.org/way/89126022"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1364334883",
+      "source_url": "https://www.openstreetmap.org/way/1364334883"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW44_CGRP10",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW44_CGRP09",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW44_CGRP10",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW44_CGRP09",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

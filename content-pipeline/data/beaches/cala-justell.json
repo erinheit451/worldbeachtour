@@ -1,0 +1,29 @@
+{
+  "slug": "cala-justell",
+  "name": "Cala Justell",
+  "centroid_lat": 40.9590874,
+  "centroid_lng": 0.8801437,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/12029833",
+      "source_url": "https://www.openstreetmap.org/relation/12029833"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28121247",
+      "source_url": "https://www.wikidata.org/wiki/Q28121247"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Central%20nuclear%20Vandell%C3%B2s%20I%20-%20panoramio.jpg"
+    }
+  }
+}

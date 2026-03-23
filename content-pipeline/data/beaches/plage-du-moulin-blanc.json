@@ -1,0 +1,37 @@
+{
+  "slug": "plage-du-moulin-blanc",
+  "name": "Plage du Moulin Blanc",
+  "centroid_lat": 48.3966365,
+  "centroid_lng": -4.4285968,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/23432320",
+      "source_url": "https://www.openstreetmap.org/way/23432320"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/401799083",
+      "source_url": "https://www.openstreetmap.org/way/401799083"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322774",
+      "source_url": "https://www.wikidata.org/wiki/Q49322774"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plage%20du%20moulin%20blanc%20dans%20le%20quartier%20de%20saint-Marc%20%C3%A0%20Brest.jpg"
+    }
+  }
+}

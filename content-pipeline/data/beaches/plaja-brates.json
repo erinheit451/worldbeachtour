@@ -1,0 +1,24 @@
+{
+  "slug": "plaja-brates",
+  "name": "Plaja Brateș",
+  "centroid_lat": 45.4723497,
+  "centroid_lng": 28.0454043,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1289744004",
+      "source_url": "https://www.openstreetmap.org/way/1289744004"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

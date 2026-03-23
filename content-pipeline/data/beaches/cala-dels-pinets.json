@@ -1,0 +1,43 @@
+{
+  "slug": "cala-dels-pinets",
+  "name": "Cala dels Pinets",
+  "centroid_lat": 38.666351,
+  "centroid_lng": 0.0905333,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/363996237",
+      "source_url": "https://www.openstreetmap.org/way/363996237"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/742054937",
+      "source_url": "https://www.openstreetmap.org/way/742054937"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES521M0412530",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES521M0412530",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

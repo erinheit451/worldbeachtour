@@ -1,0 +1,53 @@
+{
+  "slug": "hullehavn-strand",
+  "name": "Hullehavn Strand",
+  "centroid_lat": 55.1311759,
+  "centroid_lng": 15.1523971,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/171505168",
+      "source_url": "https://www.openstreetmap.org/way/171505168"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/240639430",
+      "source_url": "https://www.openstreetmap.org/way/240639430"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/240639431",
+      "source_url": "https://www.openstreetmap.org/way/240639431"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23753274",
+      "source_url": "https://www.wikidata.org/wiki/Q23753274"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW341",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW341",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

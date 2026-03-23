@@ -1,0 +1,24 @@
+{
+  "slug": "silkinranta",
+  "name": "Silkinranta",
+  "centroid_lat": 61.7786749,
+  "centroid_lng": 23.0795096,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/477583856",
+      "source_url": "https://www.openstreetmap.org/way/477583856"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "brugge-westkant-zeebrugge",
+  "name": "BRUGGE WESTKANT - ZEEBRUGGE",
+  "centroid_lat": 51.33291,
+  "centroid_lng": 3.17305,
+  "country_code": "BE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BEVL_BW_BRU04",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BEVL_BW_BRU04",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "krummweiher-bechhofen-koenigshofen-a-d-heide-flachzone",
+  "name": "KRUMMWEIHER, BECHHOFEN, KOENIGSHOFEN A.D.HEIDE, FLACHZONE",
+  "centroid_lat": 49.1375,
+  "centroid_lng": 10.5408,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1158385640",
+      "source_url": "https://www.openstreetmap.org/way/1158385640"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1158385642",
+      "source_url": "https://www.openstreetmap.org/way/1158385642"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_AN_0047",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_AN_0047",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

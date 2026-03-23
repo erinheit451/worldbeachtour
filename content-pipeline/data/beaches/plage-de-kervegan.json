@@ -1,0 +1,24 @@
+{
+  "slug": "plage-de-kervegan",
+  "name": "Plage de Kervégan",
+  "centroid_lat": 47.6536206,
+  "centroid_lng": -3.2295556,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/611983856",
+      "source_url": "https://www.openstreetmap.org/way/611983856"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

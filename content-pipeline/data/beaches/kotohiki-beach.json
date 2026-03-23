@@ -1,0 +1,30 @@
+{
+  "slug": "kotohiki-beach",
+  "name": "Kotohiki Beach",
+  "centroid_lat": 35.69972222,
+  "centroid_lng": 135.04194444,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/851695729",
+      "source_url": "https://www.openstreetmap.org/way/851695729"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6434159",
+      "source_url": "https://www.wikidata.org/wiki/Q6434159"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kotohiki%20beach.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kotohiki_Beach"
+    }
+  }
+}

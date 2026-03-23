@@ -1,0 +1,25 @@
+{
+  "slug": "playa-tucupido",
+  "name": "Playa Tucupido",
+  "centroid_lat": 10.8447601,
+  "centroid_lng": -68.2246865,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/365170836",
+      "source_url": "https://www.openstreetmap.org/way/365170836"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    }
+  }
+}

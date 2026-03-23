@@ -1,0 +1,30 @@
+{
+  "slug": "sarkkien-uimaranta-lappalanjarvi",
+  "name": "SARKKIEN UIMARANTA LAPPALANJARVI",
+  "centroid_lat": 60.9279,
+  "centroid_lng": 26.7477,
+  "country_code": "FI",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI186909002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI186909002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

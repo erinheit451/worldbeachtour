@@ -1,0 +1,24 @@
+{
+  "slug": "keselmajarven-uimaranta",
+  "name": "Keselmäjärven uimaranta",
+  "centroid_lat": 66.7665966,
+  "centroid_lng": 28.7640675,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/844743214",
+      "source_url": "https://www.openstreetmap.org/way/844743214"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

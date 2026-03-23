@@ -1,0 +1,31 @@
+{
+  "slug": "obelisk-beach",
+  "name": "Obelisk Beach",
+  "centroid_lat": -33.8298105,
+  "centroid_lng": 151.261011,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/112266963",
+      "source_url": "https://www.openstreetmap.org/way/112266963"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7074702",
+      "source_url": "https://www.wikidata.org/wiki/Q7074702"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/ObeliskBeachNSW2.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Obelisk_Beach"
+    }
+  }
+}

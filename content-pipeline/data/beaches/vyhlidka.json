@@ -1,0 +1,25 @@
+{
+  "slug": "vyhlidka",
+  "name": "vyhlídka",
+  "centroid_lat": 48.8065198,
+  "centroid_lng": 14.8400038,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/13603595739",
+      "source_url": "https://www.openstreetmap.org/node/13603595739"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/13603595740",
+      "source_url": "https://www.openstreetmap.org/node/13603595740"
+    }
+  ],
+  "attributes": {}
+}

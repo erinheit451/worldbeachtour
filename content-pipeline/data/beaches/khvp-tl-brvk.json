@@ -1,0 +1,24 @@
+{
+  "slug": "khvp-tl-brvk",
+  "name": "חוף תל ברוך",
+  "centroid_lat": 32.1220256,
+  "centroid_lng": 34.7824664,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/710261378",
+      "source_url": "https://www.openstreetmap.org/way/710261378"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

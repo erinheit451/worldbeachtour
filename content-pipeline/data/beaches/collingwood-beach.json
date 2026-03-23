@@ -1,0 +1,29 @@
+{
+  "slug": "collingwood-beach",
+  "name": "Collingwood Beach",
+  "centroid_lat": -35.0598569,
+  "centroid_lng": 150.6761133,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/5859040",
+      "source_url": "https://www.openstreetmap.org/way/5859040"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21957148",
+      "source_url": "https://www.wikidata.org/wiki/Q21957148"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    }
+  }
+}

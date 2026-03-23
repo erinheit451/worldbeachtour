@@ -1,0 +1,40 @@
+{
+  "slug": "playa-fontemaior-pm1",
+  "name": "PLAYA FONTEMAIOR PM1",
+  "centroid_lat": 42.4069,
+  "centroid_lng": -8.7459,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/173138352",
+      "source_url": "https://www.openstreetmap.org/way/173138352"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/515500187",
+      "source_url": "https://www.openstreetmap.org/way/515500187"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES114M041373",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES114M041373",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

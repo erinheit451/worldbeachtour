@@ -1,0 +1,24 @@
+{
+  "slug": "playa-hueso-de-ballena",
+  "name": "Playa Hueso de Ballena",
+  "centroid_lat": -34.1470732,
+  "centroid_lng": -72.0029988,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/376024954",
+      "source_url": "https://www.openstreetmap.org/way/376024954"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

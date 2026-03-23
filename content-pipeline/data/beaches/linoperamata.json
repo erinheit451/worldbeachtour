@@ -1,0 +1,45 @@
+{
+  "slug": "linoperamata",
+  "name": "LINOPERAMATA",
+  "centroid_lat": 35.3404,
+  "centroid_lng": 25.059,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/532915112",
+      "source_url": "https://www.openstreetmap.org/way/532915112"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/712365976",
+      "source_url": "https://www.openstreetmap.org/way/712365976"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53630986",
+      "source_url": "https://www.wikidata.org/wiki/Q53630986"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139306069101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139306069101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

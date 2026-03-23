@@ -1,0 +1,30 @@
+{
+  "slug": "sandy-s-beach",
+  "name": "Sandy's Beach",
+  "centroid_lat": 25.7753183,
+  "centroid_lng": -80.1297873,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5461991191",
+      "source_url": "https://www.openstreetmap.org/node/5461991191"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5461991196",
+      "source_url": "https://www.openstreetmap.org/node/5461991196"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/11492748104",
+      "source_url": "https://www.openstreetmap.org/node/11492748104"
+    }
+  ],
+  "attributes": {}
+}

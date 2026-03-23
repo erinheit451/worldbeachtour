@@ -1,0 +1,35 @@
+{
+  "slug": "bestemorstranda-1",
+  "name": "Bestemorstranda",
+  "centroid_lat": 59.86494,
+  "centroid_lng": 10.50845,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/62091990",
+      "source_url": "https://www.openstreetmap.org/way/62091990"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/62094211",
+      "source_url": "https://www.openstreetmap.org/way/62094211"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/62094212",
+      "source_url": "https://www.openstreetmap.org/way/62094212"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33325486",
+      "source_url": "https://www.wikidata.org/wiki/Q33325486"
+    }
+  ],
+  "attributes": {}
+}

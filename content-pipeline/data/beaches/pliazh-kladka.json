@@ -1,0 +1,24 @@
+{
+  "slug": "pliazh-kladka",
+  "name": "Пляж \"Кладка\"",
+  "centroid_lat": 44.2998795,
+  "centroid_lng": 39.8236092,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/3415017",
+      "source_url": "https://www.openstreetmap.org/relation/3415017"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

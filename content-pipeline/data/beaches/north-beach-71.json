@@ -1,0 +1,25 @@
+{
+  "slug": "north-beach-71",
+  "name": "North Beach",
+  "centroid_lat": -30.4658313,
+  "centroid_lng": 153.0535509,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/219866200",
+      "source_url": "https://www.openstreetmap.org/way/219866200"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21905462",
+      "source_url": "https://www.wikidata.org/wiki/Q21905462"
+    }
+  ],
+  "attributes": {}
+}

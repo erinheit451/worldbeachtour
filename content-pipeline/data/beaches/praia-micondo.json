@@ -1,0 +1,25 @@
+{
+  "slug": "praia-micondo",
+  "name": "Praia Micondó",
+  "centroid_lat": 0.0465577,
+  "centroid_lng": 6.5365195,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/657027715",
+      "source_url": "https://www.openstreetmap.org/way/657027715"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/15053568",
+      "source_url": "https://www.openstreetmap.org/relation/15053568"
+    }
+  ],
+  "attributes": {}
+}

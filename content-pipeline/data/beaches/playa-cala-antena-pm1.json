@@ -1,0 +1,35 @@
+{
+  "slug": "playa-cala-antena-pm1",
+  "name": "PLAYA CALA ANTENA PM1",
+  "centroid_lat": 39.4667,
+  "centroid_lng": 3.2799,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/283998951",
+      "source_url": "https://www.openstreetmap.org/way/283998951"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0331156",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0331156",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

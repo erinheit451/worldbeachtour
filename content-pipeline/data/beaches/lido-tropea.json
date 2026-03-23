@@ -1,0 +1,30 @@
+{
+  "slug": "lido-tropea",
+  "name": "Lido Tropea",
+  "centroid_lat": 38.233011,
+  "centroid_lng": 16.2663843,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9834347111",
+      "source_url": "https://www.openstreetmap.org/node/9834347111"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/9834374064",
+      "source_url": "https://www.openstreetmap.org/node/9834374064"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/230556685",
+      "source_url": "https://www.openstreetmap.org/way/230556685"
+    }
+  ],
+  "attributes": {}
+}

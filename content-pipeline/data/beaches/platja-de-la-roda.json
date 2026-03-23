@@ -1,0 +1,29 @@
+{
+  "slug": "platja-de-la-roda",
+  "name": "Platja de la Roda",
+  "centroid_lat": 38.594663,
+  "centroid_lng": -0.0515647,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/22274645",
+      "source_url": "https://www.openstreetmap.org/way/22274645"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q9060778",
+      "source_url": "https://www.wikidata.org/wiki/Q9060778"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Altea%2C%20Spain%20%2826616253950%29.jpg"
+    }
+  }
+}

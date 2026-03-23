@@ -1,0 +1,30 @@
+{
+  "slug": "siesta-beach",
+  "name": "Siesta Beach",
+  "centroid_lat": 27.2650178,
+  "centroid_lng": -82.553578,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/375950982",
+      "source_url": "https://www.openstreetmap.org/way/375950982"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7511756",
+      "source_url": "https://www.wikidata.org/wiki/Q7511756"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Siesta%20Key%20Beach.%20Sarasota%20-%20panoramio%20-%204net%20%283%29.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Siesta_Beach"
+    }
+  }
+}

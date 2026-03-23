@@ -1,0 +1,27 @@
+{
+  "slug": "gui-bang-hai-shui-yu-chang",
+  "name": "桂浜海水浴場",
+  "centroid_lat": 39.6508741,
+  "centroid_lng": 140.0636227,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/584659951",
+      "source_url": "https://www.openstreetmap.org/way/584659951"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

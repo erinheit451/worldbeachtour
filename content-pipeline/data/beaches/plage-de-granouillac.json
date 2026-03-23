@@ -1,0 +1,35 @@
+{
+  "slug": "plage-de-granouillac",
+  "name": "Plage de Granouillac",
+  "centroid_lat": 44.0973104,
+  "centroid_lng": 2.7041633,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/317944549",
+      "source_url": "https://www.openstreetmap.org/way/317944549"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ2212299D012097",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ2212299D012097",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

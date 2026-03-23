@@ -1,0 +1,29 @@
+{
+  "slug": "milk-beach",
+  "name": "Milk Beach",
+  "centroid_lat": -33.8565396,
+  "centroid_lng": 151.267277,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/4354525",
+      "source_url": "https://www.openstreetmap.org/way/4354525"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956995",
+      "source_url": "https://www.wikidata.org/wiki/Q21956995"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Hermit%20Bay%20in%20Vaucluse%20Sydney.jpg"
+    }
+  }
+}

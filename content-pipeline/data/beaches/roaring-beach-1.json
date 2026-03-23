@@ -1,0 +1,29 @@
+{
+  "slug": "roaring-beach-1",
+  "name": "Roaring Beach",
+  "centroid_lat": -43.0888777,
+  "centroid_lng": 147.6733129,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/485610449",
+      "source_url": "https://www.openstreetmap.org/way/485610449"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7339843",
+      "source_url": "https://www.wikidata.org/wiki/Q7339843"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Roaring_Beach"
+    }
+  }
+}

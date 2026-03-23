@@ -1,0 +1,30 @@
+{
+  "slug": "kapielisko-morskie-w-sianozetach-neptun",
+  "name": "KĄPIELISKO MORSKIE W SIANOŻĘTACH NEPTUN",
+  "centroid_lat": 54.2129,
+  "centroid_lng": 15.7351,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4220807232000155",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4220807232000155",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

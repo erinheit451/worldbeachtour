@@ -1,0 +1,25 @@
+{
+  "slug": "portuguese-beach",
+  "name": "Portuguese Beach",
+  "centroid_lat": 38.3808522,
+  "centroid_lng": -123.0815872,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/436774169",
+      "source_url": "https://www.openstreetmap.org/way/436774169"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49323557",
+      "source_url": "https://www.wikidata.org/wiki/Q49323557"
+    }
+  ],
+  "attributes": {}
+}

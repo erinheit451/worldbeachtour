@@ -1,0 +1,25 @@
+{
+  "slug": "mingo-beach",
+  "name": "Mingo Beach",
+  "centroid_lat": 42.5507366,
+  "centroid_lng": -70.837936,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/6376968",
+      "source_url": "https://www.openstreetmap.org/relation/6376968"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322042",
+      "source_url": "https://www.wikidata.org/wiki/Q49322042"
+    }
+  ],
+  "attributes": {}
+}

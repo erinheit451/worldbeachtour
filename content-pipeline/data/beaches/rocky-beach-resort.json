@@ -1,0 +1,35 @@
+{
+  "slug": "rocky-beach-resort",
+  "name": "Rocky Beach Resort",
+  "centroid_lat": 7.0664113,
+  "centroid_lng": 125.6872987,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/3947090935",
+      "source_url": "https://www.openstreetmap.org/node/3947090935"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/689031707",
+      "source_url": "https://www.openstreetmap.org/way/689031707"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/689031709",
+      "source_url": "https://www.openstreetmap.org/way/689031709"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/689031877",
+      "source_url": "https://www.openstreetmap.org/way/689031877"
+    }
+  ],
+  "attributes": {}
+}

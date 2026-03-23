@@ -1,0 +1,40 @@
+{
+  "slug": "plage-de-porz-theolen",
+  "name": "Plage de Porz Théolen",
+  "centroid_lat": 48.0613453,
+  "centroid_lng": -4.6724542,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/336841374",
+      "source_url": "https://www.openstreetmap.org/way/336841374"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/4763090",
+      "source_url": "https://www.openstreetmap.org/relation/4763090"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229028M029711",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229028M029711",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

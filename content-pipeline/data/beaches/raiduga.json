@@ -1,0 +1,35 @@
+{
+  "slug": "raiduga",
+  "name": "Райдуга",
+  "centroid_lat": 50.4860307,
+  "centroid_lng": 30.5819398,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/191692220",
+      "source_url": "https://www.openstreetmap.org/way/191692220"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/226261773",
+      "source_url": "https://www.openstreetmap.org/way/226261773"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "can-punta-del-riu-sec",
+  "name": "\"Can\" Punta del Riu Sec",
+  "centroid_lat": 38.4150814,
+  "centroid_lng": -0.3913688,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12117255700",
+      "source_url": "https://www.openstreetmap.org/node/12117255700"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24024652",
+      "source_url": "https://www.wikidata.org/wiki/Q24024652"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true
+    },
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

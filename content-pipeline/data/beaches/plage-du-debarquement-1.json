@@ -1,0 +1,41 @@
+{
+  "slug": "plage-du-debarquement-1",
+  "name": "Plage du Débarquement",
+  "centroid_lat": 43.1883219,
+  "centroid_lng": 6.5574462,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1433884249",
+      "source_url": "https://www.openstreetmap.org/way/1433884249"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0583048M083450",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0583048M083450",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

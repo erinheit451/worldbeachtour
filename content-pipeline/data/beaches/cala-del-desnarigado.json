@@ -1,0 +1,30 @@
+{
+  "slug": "cala-del-desnarigado",
+  "name": "Cala del Desnarigado",
+  "centroid_lat": 35.8949642,
+  "centroid_lng": -5.2826388,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/388677926",
+      "source_url": "https://www.openstreetmap.org/way/388677926"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q4806571",
+      "source_url": "https://www.wikidata.org/wiki/Q4806571"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20del%20Desnarigado%2C%20Ceuta.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_El_Desnarigado"
+    }
+  }
+}

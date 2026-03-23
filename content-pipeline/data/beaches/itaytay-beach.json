@@ -1,0 +1,25 @@
+{
+  "slug": "itaytay-beach",
+  "name": "Itaytay Beach",
+  "centroid_lat": 10.412777777,
+  "centroid_lng": 119.176666666,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/560439684",
+      "source_url": "https://www.openstreetmap.org/way/560439684"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31810959",
+      "source_url": "https://www.wikidata.org/wiki/Q31810959"
+    }
+  ],
+  "attributes": {}
+}

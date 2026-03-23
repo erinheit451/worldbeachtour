@@ -1,0 +1,30 @@
+{
+  "slug": "plage-sidi-kankouch",
+  "name": "plage sidi kankouch",
+  "centroid_lat": 35.8295286,
+  "centroid_lng": -5.707098,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5046862904",
+      "source_url": "https://www.openstreetmap.org/node/5046862904"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5046869706",
+      "source_url": "https://www.openstreetmap.org/node/5046869706"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/177112692",
+      "source_url": "https://www.openstreetmap.org/way/177112692"
+    }
+  ],
+  "attributes": {}
+}

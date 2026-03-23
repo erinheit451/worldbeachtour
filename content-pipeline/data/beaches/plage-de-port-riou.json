@@ -1,0 +1,43 @@
+{
+  "slug": "plage-de-port-riou",
+  "name": "Plage de Port-Riou",
+  "centroid_lat": 48.6392692,
+  "centroid_lng": -2.0650198,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/197492654",
+      "source_url": "https://www.openstreetmap.org/way/197492654"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q96100122",
+      "source_url": "https://www.wikidata.org/wiki/Q96100122"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0335093M035725",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0335093M035725",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/00%207541%20K%C3%BCste%20von%20Dinard%20-%20Coasts%20of%20Dinard.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

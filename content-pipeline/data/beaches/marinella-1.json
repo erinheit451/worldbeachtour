@@ -1,0 +1,39 @@
+{
+  "slug": "marinella-1",
+  "name": "Marinella",
+  "centroid_lat": 38.9837177,
+  "centroid_lng": 17.1607617,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/209994338",
+      "source_url": "https://www.openstreetmap.org/way/209994338"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/209994450",
+      "source_url": "https://www.openstreetmap.org/way/209994450"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/209994494",
+      "source_url": "https://www.openstreetmap.org/way/209994494"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/428171804",
+      "source_url": "https://www.openstreetmap.org/way/428171804"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

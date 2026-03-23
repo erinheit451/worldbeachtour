@@ -1,0 +1,43 @@
+{
+  "slug": "familienstrand-1",
+  "name": "Familienstrand",
+  "centroid_lat": 51.9136239,
+  "centroid_lng": 12.4531483,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9922305582",
+      "source_url": "https://www.openstreetmap.org/node/9922305582"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1083223189",
+      "source_url": "https://www.openstreetmap.org/way/1083223189"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEST_PR_0078",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEST_PR_0078",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

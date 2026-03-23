@@ -1,0 +1,72 @@
+{
+  "slug": "platja-de-sa-boadella",
+  "name": "Platja de sa Boadella",
+  "centroid_lat": 41.6906982,
+  "centroid_lng": 2.8241416,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2155053",
+      "source_url": "https://www.openstreetmap.org/relation/2155053"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/2155061",
+      "source_url": "https://www.openstreetmap.org/relation/2155061"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/2155062",
+      "source_url": "https://www.openstreetmap.org/relation/2155062"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8286701",
+      "source_url": "https://www.openstreetmap.org/relation/8286701"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8286734",
+      "source_url": "https://www.openstreetmap.org/relation/8286734"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q11910879",
+      "source_url": "https://www.wikidata.org/wiki/Q11910879"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24021701",
+      "source_url": "https://www.wikidata.org/wiki/Q24021701"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES512M095737",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES512M095737",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Lloret%20Boadella.jpg"
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

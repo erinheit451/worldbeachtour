@@ -1,0 +1,30 @@
+{
+  "slug": "praia-de-sepetiba",
+  "name": "Praia de Sepetiba",
+  "centroid_lat": -22.9731048,
+  "centroid_lng": -43.7085887,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/10321444",
+      "source_url": "https://www.openstreetmap.org/relation/10321444"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/10321445",
+      "source_url": "https://www.openstreetmap.org/relation/10321445"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10352886",
+      "source_url": "https://www.wikidata.org/wiki/Q10352886"
+    }
+  ],
+  "attributes": {}
+}

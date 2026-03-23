@@ -1,0 +1,27 @@
+{
+  "slug": "praia-de-alba",
+  "name": "Praia de Alba",
+  "centroid_lat": 43.3296618,
+  "centroid_lng": -8.5088697,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/78069574",
+      "source_url": "https://www.openstreetmap.org/way/78069574"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

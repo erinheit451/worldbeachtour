@@ -1,0 +1,61 @@
+{
+  "slug": "schoubys-so",
+  "name": "SCHOUBYS SØ",
+  "centroid_lat": 56.16695,
+  "centroid_lng": 9.61675,
+  "country_code": "DK",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/294023512",
+      "source_url": "https://www.openstreetmap.org/way/294023512"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/294023516",
+      "source_url": "https://www.openstreetmap.org/way/294023516"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/294023521",
+      "source_url": "https://www.openstreetmap.org/way/294023521"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/294023524",
+      "source_url": "https://www.openstreetmap.org/way/294023524"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1191877811",
+      "source_url": "https://www.openstreetmap.org/way/1191877811"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW1026",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW1026",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited"
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "lamberts-beach",
+  "name": "Lamberts Beach",
+  "centroid_lat": -21.0746856,
+  "centroid_lng": 149.2286213,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/160566371",
+      "source_url": "https://www.openstreetmap.org/way/160566371"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21907124",
+      "source_url": "https://www.wikidata.org/wiki/Q21907124"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "plage-du-cap-saint-jacques",
+  "name": "Plage du Cap Saint-Jacques",
+  "centroid_lat": 45.4619254,
+  "centroid_lng": -73.9420486,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/240852170",
+      "source_url": "https://www.openstreetmap.org/way/240852170"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q125721546",
+      "source_url": "https://www.wikidata.org/wiki/Q125721546"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plage%20du%20parc%20r%C3%A9gional%20du%20Cap-Saint-Jacques%20%28Pierrefonds%29%20%289664319165%29.jpg"
+    }
+  }
+}

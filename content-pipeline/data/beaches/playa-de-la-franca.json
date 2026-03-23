@@ -1,0 +1,39 @@
+{
+  "slug": "playa-de-la-franca",
+  "name": "Playa de la Franca",
+  "centroid_lat": 43.3927082,
+  "centroid_lng": -4.5771139,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2190763",
+      "source_url": "https://www.openstreetmap.org/relation/2190763"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/10191243",
+      "source_url": "https://www.openstreetmap.org/relation/10191243"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q5963423",
+      "source_url": "https://www.wikidata.org/wiki/Q5963423"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q18759497",
+      "source_url": "https://www.wikidata.org/wiki/Q18759497"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/RibadedevaStrand1.jpg"
+    }
+  }
+}

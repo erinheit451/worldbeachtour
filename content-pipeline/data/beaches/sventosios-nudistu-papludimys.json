@@ -1,0 +1,29 @@
+{
+  "slug": "sventosios-nudistu-papludimys",
+  "name": "Šventosios nudistų paplūdimys",
+  "centroid_lat": 56.0119836,
+  "centroid_lng": 21.0724133,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11640030362",
+      "source_url": "https://www.openstreetmap.org/node/11640030362"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1385159293",
+      "source_url": "https://www.openstreetmap.org/way/1385159293"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

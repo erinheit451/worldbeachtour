@@ -1,0 +1,40 @@
+{
+  "slug": "bathers-beach",
+  "name": "Bathers Beach",
+  "centroid_lat": -32.0578086,
+  "centroid_lng": 115.7412343,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/222089550",
+      "source_url": "https://www.openstreetmap.org/way/222089550"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/232854776",
+      "source_url": "https://www.openstreetmap.org/way/232854776"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/3126803",
+      "source_url": "https://www.openstreetmap.org/relation/3126803"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q4869003",
+      "source_url": "https://www.wikidata.org/wiki/Q4869003"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Fremantle%20Bathers%20Beach.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bathers_Beach,_Fremantle"
+    }
+  }
+}

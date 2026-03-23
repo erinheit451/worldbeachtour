@@ -1,0 +1,29 @@
+{
+  "slug": "plage-de-la-tonille",
+  "name": "Plage de la Tonille",
+  "centroid_lat": 46.2249521,
+  "centroid_lng": -1.4180562,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/234919576",
+      "source_url": "https://www.openstreetmap.org/way/234919576"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1416347662",
+      "source_url": "https://www.openstreetmap.org/way/1416347662"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

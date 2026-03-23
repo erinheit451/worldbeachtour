@@ -1,0 +1,29 @@
+{
+  "slug": "elberta-beach",
+  "name": "Elberta Beach",
+  "centroid_lat": 44.6224131,
+  "centroid_lng": -86.2400559,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/892868203",
+      "source_url": "https://www.openstreetmap.org/way/892868203"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33326308",
+      "source_url": "https://www.wikidata.org/wiki/Q33326308"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Elberta%20Beach.jpg"
+    }
+  }
+}

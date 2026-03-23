@@ -1,0 +1,35 @@
+{
+  "slug": "praia-de-ipanema",
+  "name": "Praia de Ipanema",
+  "centroid_lat": -22.9873125,
+  "centroid_lng": -43.205069,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/42364539",
+      "source_url": "https://www.openstreetmap.org/way/42364539"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q3390838",
+      "source_url": "https://www.wikidata.org/wiki/Q3390838"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22042560",
+      "source_url": "https://www.wikidata.org/wiki/Q22042560"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ipaneman%20beach%20Rio%20de%20Janeirossa.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ipanema_beach"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "freshwater-east",
+  "name": "Freshwater East",
+  "centroid_lat": 51.6438485,
+  "centroid_lng": -4.8613413,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/3430110",
+      "source_url": "https://www.openstreetmap.org/relation/3430110"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q107356882",
+      "source_url": "https://www.wikidata.org/wiki/Q107356882"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Beach%20at%20Freshwater%20East%20-%20geograph.org.uk%20-%204972342.jpg"
+    }
+  }
+}

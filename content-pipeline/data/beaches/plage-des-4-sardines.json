@@ -1,0 +1,24 @@
+{
+  "slug": "plage-des-4-sardines",
+  "name": "Plage des 4 sardines",
+  "centroid_lat": 47.8850743,
+  "centroid_lng": -3.9431517,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/413129093",
+      "source_url": "https://www.openstreetmap.org/way/413129093"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

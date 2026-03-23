@@ -1,0 +1,39 @@
+{
+  "slug": "karistranda",
+  "name": "Karistranda",
+  "centroid_lat": 59.045801,
+  "centroid_lng": 10.0395433,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/225019462",
+      "source_url": "https://www.openstreetmap.org/way/225019462"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/607049851",
+      "source_url": "https://www.openstreetmap.org/way/607049851"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/607049852",
+      "source_url": "https://www.openstreetmap.org/way/607049852"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/607049853",
+      "source_url": "https://www.openstreetmap.org/way/607049853"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

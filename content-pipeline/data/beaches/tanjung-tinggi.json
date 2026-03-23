@@ -1,0 +1,25 @@
+{
+  "slug": "tanjung-tinggi",
+  "name": "Tanjung Tinggi",
+  "centroid_lat": -2.551795,
+  "centroid_lng": 107.713777,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/455667301",
+      "source_url": "https://www.openstreetmap.org/way/455667301"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q19747015",
+      "source_url": "https://www.wikidata.org/wiki/Q19747015"
+    }
+  ],
+  "attributes": {}
+}

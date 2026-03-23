@@ -1,0 +1,24 @@
+{
+  "slug": "praia-dos-ripibelos",
+  "name": "Praia dos Ripibelos",
+  "centroid_lat": 43.321494,
+  "centroid_lng": -8.524202,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/546058306",
+      "source_url": "https://www.openstreetmap.org/way/546058306"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

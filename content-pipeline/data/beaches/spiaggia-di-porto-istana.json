@@ -1,0 +1,56 @@
+{
+  "slug": "spiaggia-di-porto-istana",
+  "name": "Spiaggia di Porto Istana",
+  "centroid_lat": 40.8920487,
+  "centroid_lng": 9.6152891,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/185793841",
+      "source_url": "https://www.openstreetmap.org/way/185793841"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1420159461",
+      "source_url": "https://www.openstreetmap.org/way/1420159461"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1420159462",
+      "source_url": "https://www.openstreetmap.org/way/1420159462"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33339905",
+      "source_url": "https://www.wikidata.org/wiki/Q33339905"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020104017007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020104017007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Olbia%2C%20spiaggia%20di%20Porto%20Istana%20%2802%29.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

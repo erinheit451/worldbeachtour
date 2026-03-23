@@ -1,0 +1,30 @@
+{
+  "slug": "shito",
+  "name": "Шито",
+  "centroid_lat": 47.0162667,
+  "centroid_lng": 31.9301963,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/691999134",
+      "source_url": "https://www.openstreetmap.org/way/691999134"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/20101605",
+      "source_url": "https://www.openstreetmap.org/relation/20101605"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/20101609",
+      "source_url": "https://www.openstreetmap.org/relation/20101609"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "baignade-des-plantiers",
+  "name": "BAIGNADE DES PLANTIERS",
+  "centroid_lat": 44.11723,
+  "centroid_lng": 3.72344,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/3684442485",
+      "source_url": "https://www.openstreetmap.org/node/3684442485"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ1230198D030317",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ1230198D030317",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

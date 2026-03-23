@@ -1,0 +1,25 @@
+{
+  "slug": "praia-da-fisica",
+  "name": "Praia da Física",
+  "centroid_lat": 39.1377357,
+  "centroid_lng": -9.380513,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/25695662",
+      "source_url": "https://www.openstreetmap.org/way/25695662"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/739595652",
+      "source_url": "https://www.openstreetmap.org/way/739595652"
+    }
+  ],
+  "attributes": {}
+}

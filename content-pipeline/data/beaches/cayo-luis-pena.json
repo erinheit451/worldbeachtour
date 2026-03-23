@@ -1,0 +1,29 @@
+{
+  "slug": "cayo-luis-pena",
+  "name": "Cayo Luis Pena",
+  "centroid_lat": 18.2994026,
+  "centroid_lng": -65.3314756,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/426928504",
+      "source_url": "https://www.openstreetmap.org/way/426928504"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/426928505",
+      "source_url": "https://www.openstreetmap.org/way/426928505"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

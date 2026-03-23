@@ -1,0 +1,27 @@
+{
+  "slug": "praia-da-meia-laranja",
+  "name": "Praia da Meia Laranja",
+  "centroid_lat": 37.5165229,
+  "centroid_lng": -8.7902283,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/208874877",
+      "source_url": "https://www.openstreetmap.org/way/208874877"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "obligatory"
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

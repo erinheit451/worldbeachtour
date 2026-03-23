@@ -1,0 +1,24 @@
+{
+  "slug": "britannia-beach",
+  "name": "Britannia Beach",
+  "centroid_lat": 45.3657254,
+  "centroid_lng": -75.8017047,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/23317631",
+      "source_url": "https://www.openstreetmap.org/way/23317631"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

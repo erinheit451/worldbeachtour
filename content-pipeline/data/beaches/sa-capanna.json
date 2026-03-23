@@ -1,0 +1,34 @@
+{
+  "slug": "sa-capanna",
+  "name": "Sa Capanna",
+  "centroid_lat": 40.0863226,
+  "centroid_lng": 8.49219,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/113503119",
+      "source_url": "https://www.openstreetmap.org/way/113503119"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1463962696",
+      "source_url": "https://www.openstreetmap.org/way/1463962696"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33340541",
+      "source_url": "https://www.wikidata.org/wiki/Q33340541"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Torre%20del%20Pozzo%20-%20Spiaggia.JPG"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "la-luna-royale-beach",
+  "name": "La Luna-Royale Beach",
+  "centroid_lat": 36.486916,
+  "centroid_lng": -4.7242681,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5045987459",
+      "source_url": "https://www.openstreetmap.org/node/5045987459"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1211771762",
+      "source_url": "https://www.openstreetmap.org/way/1211771762"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617M0701557",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617M0701557",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

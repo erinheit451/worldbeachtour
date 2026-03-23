@@ -1,0 +1,39 @@
+{
+  "slug": "platja-del-codonyol",
+  "name": "Platja del Codonyol",
+  "centroid_lat": 40.5973505,
+  "centroid_lng": 0.57368,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/14512136",
+      "source_url": "https://www.openstreetmap.org/relation/14512136"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14512155",
+      "source_url": "https://www.openstreetmap.org/relation/14512155"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q130365339",
+      "source_url": "https://www.wikidata.org/wiki/Q130365339"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q130366381",
+      "source_url": "https://www.wikidata.org/wiki/Q130366381"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platja%20del%20Codonyol%2C%20Alcanar.jpg"
+    }
+  }
+}

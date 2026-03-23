@@ -1,0 +1,24 @@
+{
+  "slug": "plaza-w-parku-miejskim",
+  "name": "Plaża w parku miejskim",
+  "centroid_lat": 52.3716852,
+  "centroid_lng": 18.3087529,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/759464709",
+      "source_url": "https://www.openstreetmap.org/way/759464709"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

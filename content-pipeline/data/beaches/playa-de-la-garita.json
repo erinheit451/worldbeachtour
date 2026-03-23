@@ -1,0 +1,29 @@
+{
+  "slug": "playa-de-la-garita",
+  "name": "Playa de La Garita",
+  "centroid_lat": 28.0066688,
+  "centroid_lng": -15.3768491,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/124154849",
+      "source_url": "https://www.openstreetmap.org/way/124154849"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q122541685",
+      "source_url": "https://www.wikidata.org/wiki/Q122541685"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Csm%20Gran-Canaria-La-Garita-%2052199cf1f0.jpg"
+    }
+  }
+}

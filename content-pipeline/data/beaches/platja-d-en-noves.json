@@ -1,0 +1,45 @@
+{
+  "slug": "platja-d-en-noves",
+  "name": "Platja d'en Noves",
+  "centroid_lat": 42.3069228,
+  "centroid_lng": 3.2893178,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8311602",
+      "source_url": "https://www.openstreetmap.org/relation/8311602"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8311603",
+      "source_url": "https://www.openstreetmap.org/relation/8311603"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8311604",
+      "source_url": "https://www.openstreetmap.org/relation/8311604"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q123518663",
+      "source_url": "https://www.wikidata.org/wiki/Q123518663"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q123518755",
+      "source_url": "https://www.wikidata.org/wiki/Q123518755"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q123521307",
+      "source_url": "https://www.wikidata.org/wiki/Q123521307"
+    }
+  ],
+  "attributes": {}
+}

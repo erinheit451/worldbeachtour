@@ -1,0 +1,40 @@
+{
+  "slug": "plage-du-grand-large",
+  "name": "Plage du Grand Large",
+  "centroid_lat": 43.6514128,
+  "centroid_lng": 7.1539993,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/966500952",
+      "source_url": "https://www.openstreetmap.org/way/966500952"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q129211879",
+      "source_url": "https://www.wikidata.org/wiki/Q129211879"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306027M006355",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306027M006355",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

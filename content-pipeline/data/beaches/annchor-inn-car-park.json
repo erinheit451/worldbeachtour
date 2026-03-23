@@ -1,0 +1,27 @@
+{
+  "slug": "annchor-inn-car-park",
+  "name": "Annchor Inn Car Park",
+  "centroid_lat": -17.7356013,
+  "centroid_lng": 168.311302,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/307095980",
+      "source_url": "https://www.openstreetmap.org/way/307095980"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "parking": "surface"
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

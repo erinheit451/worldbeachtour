@@ -1,0 +1,50 @@
+{
+  "slug": "paralia-mandraki-elias",
+  "name": "Παραλία Μανδράκι Ελιάς",
+  "centroid_lat": 39.1678693,
+  "centroid_lng": 23.4040622,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/167042414",
+      "source_url": "https://www.openstreetmap.org/way/167042414"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659804924",
+      "source_url": "https://www.openstreetmap.org/way/659804924"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659804925",
+      "source_url": "https://www.openstreetmap.org/way/659804925"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659804926",
+      "source_url": "https://www.openstreetmap.org/way/659804926"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW079110103101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW079110103101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

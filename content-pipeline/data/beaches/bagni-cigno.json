@@ -1,0 +1,108 @@
+{
+  "slug": "bagni-cigno",
+  "name": "Bagni Cigno",
+  "centroid_lat": 44.2888566,
+  "centroid_lng": 9.3794505,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/2698345126",
+      "source_url": "https://www.openstreetmap.org/node/2698345126"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/2698348726",
+      "source_url": "https://www.openstreetmap.org/node/2698348726"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/2698348729",
+      "source_url": "https://www.openstreetmap.org/node/2698348729"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/2698348732",
+      "source_url": "https://www.openstreetmap.org/node/2698348732"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/2698348734",
+      "source_url": "https://www.openstreetmap.org/node/2698348734"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/11192492120",
+      "source_url": "https://www.openstreetmap.org/node/11192492120"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/11192560353",
+      "source_url": "https://www.openstreetmap.org/node/11192560353"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/187780739",
+      "source_url": "https://www.openstreetmap.org/way/187780739"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/187780741",
+      "source_url": "https://www.openstreetmap.org/way/187780741"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/543150870",
+      "source_url": "https://www.openstreetmap.org/way/543150870"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/543152942",
+      "source_url": "https://www.openstreetmap.org/way/543152942"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/543152943",
+      "source_url": "https://www.openstreetmap.org/way/543152943"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/543152944",
+      "source_url": "https://www.openstreetmap.org/way/543152944"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/543152945",
+      "source_url": "https://www.openstreetmap.org/way/543152945"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/543153951",
+      "source_url": "https://www.openstreetmap.org/way/543153951"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010028003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010028003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

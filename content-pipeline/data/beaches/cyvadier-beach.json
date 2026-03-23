@@ -1,0 +1,30 @@
+{
+  "slug": "cyvadier-beach",
+  "name": "Cyvadier Beach",
+  "centroid_lat": 18.2249,
+  "centroid_lng": -72.46807,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/204159997",
+      "source_url": "https://www.openstreetmap.org/way/204159997"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/204160001",
+      "source_url": "https://www.openstreetmap.org/way/204160001"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q26227929",
+      "source_url": "https://www.wikidata.org/wiki/Q26227929"
+    }
+  ],
+  "attributes": {}
+}

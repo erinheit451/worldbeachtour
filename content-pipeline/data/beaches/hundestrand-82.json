@@ -1,0 +1,29 @@
+{
+  "slug": "hundestrand-82",
+  "name": "Hundestrand",
+  "centroid_lat": 47.7474532,
+  "centroid_lng": 11.7358052,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/948728371",
+      "source_url": "https://www.openstreetmap.org/way/948728371"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1423498520",
+      "source_url": "https://www.openstreetmap.org/way/1423498520"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true
+    }
+  }
+}

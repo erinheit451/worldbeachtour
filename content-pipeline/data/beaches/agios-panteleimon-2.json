@@ -1,0 +1,38 @@
+{
+  "slug": "agios-panteleimon-2",
+  "name": "AGIOS PANTELEIMON",
+  "centroid_lat": 35.1268,
+  "centroid_lng": 25.7344,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53633941",
+      "source_url": "https://www.wikidata.org/wiki/Q53633941"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139310037101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139310037101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Istro%20Strand%20Agios%20Pandeleimon%2002.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

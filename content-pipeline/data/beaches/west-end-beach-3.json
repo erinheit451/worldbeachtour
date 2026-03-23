@@ -1,0 +1,35 @@
+{
+  "slug": "west-end-beach-3",
+  "name": "West End Beach",
+  "centroid_lat": -46.9265089,
+  "centroid_lng": 168.1129107,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/202891801",
+      "source_url": "https://www.openstreetmap.org/way/202891801"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/202891953",
+      "source_url": "https://www.openstreetmap.org/way/202891953"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/202891965",
+      "source_url": "https://www.openstreetmap.org/way/202891965"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49325257",
+      "source_url": "https://www.wikidata.org/wiki/Q49325257"
+    }
+  ],
+  "attributes": {}
+}

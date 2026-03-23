@@ -1,0 +1,35 @@
+{
+  "slug": "sorrento-beach",
+  "name": "Sorrento Beach",
+  "centroid_lat": -31.8301497,
+  "centroid_lng": 115.7451081,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5209587022",
+      "source_url": "https://www.openstreetmap.org/node/5209587022"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/175010615",
+      "source_url": "https://www.openstreetmap.org/way/175010615"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/2958130",
+      "source_url": "https://www.openstreetmap.org/relation/2958130"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21961443",
+      "source_url": "https://www.wikidata.org/wiki/Q21961443"
+    }
+  ],
+  "attributes": {}
+}

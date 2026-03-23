@@ -1,0 +1,24 @@
+{
+  "slug": "plage-tafsout",
+  "name": "Plage Tafsout",
+  "centroid_lat": 35.1863578,
+  "centroid_lng": -1.6481799,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "rock",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/184015694",
+      "source_url": "https://www.openstreetmap.org/way/184015694"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

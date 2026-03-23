@@ -1,0 +1,40 @@
+{
+  "slug": "spiti-tou-atili",
+  "name": "SPITI TOU ATILI",
+  "centroid_lat": 34.9689,
+  "centroid_lng": 33.6717,
+  "country_code": "CY",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1281977221",
+      "source_url": "https://www.openstreetmap.org/way/1281977221"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1286049334",
+      "source_url": "https://www.openstreetmap.org/way/1286049334"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CY0004102000000036",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CY0004102000000036",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

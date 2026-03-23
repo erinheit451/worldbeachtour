@@ -1,0 +1,25 @@
+{
+  "slug": "praia-do-maracana",
+  "name": "Praia do Maracanã",
+  "centroid_lat": -2.4267423,
+  "centroid_lng": -54.7520713,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5331314785",
+      "source_url": "https://www.openstreetmap.org/node/5331314785"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/13274444",
+      "source_url": "https://www.openstreetmap.org/relation/13274444"
+    }
+  ],
+  "attributes": {}
+}

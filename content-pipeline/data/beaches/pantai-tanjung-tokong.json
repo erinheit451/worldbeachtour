@@ -1,0 +1,29 @@
+{
+  "slug": "pantai-tanjung-tokong",
+  "name": "Pantai Tanjung Tokong",
+  "centroid_lat": 5.4640542,
+  "centroid_lng": 100.3083415,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/458049534",
+      "source_url": "https://www.openstreetmap.org/way/458049534"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1110559437",
+      "source_url": "https://www.openstreetmap.org/way/1110559437"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "ragged-point-beach",
+  "name": "Ragged Point Beach",
+  "centroid_lat": 45.3022476,
+  "centroid_lng": -66.1266438,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/191076796",
+      "source_url": "https://www.openstreetmap.org/way/191076796"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

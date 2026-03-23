@@ -1,0 +1,27 @@
+{
+  "slug": "jin-shan-cheng-shi-sha-tan",
+  "name": "金山城市沙滩",
+  "centroid_lat": 30.7117051,
+  "centroid_lng": 121.343581,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/562487214",
+      "source_url": "https://www.openstreetmap.org/way/562487214"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

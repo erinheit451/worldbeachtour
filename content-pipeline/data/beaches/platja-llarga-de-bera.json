@@ -1,0 +1,29 @@
+{
+  "slug": "platja-llarga-de-bera",
+  "name": "Platja Llarga de Berà",
+  "centroid_lat": 41.1649546,
+  "centroid_lng": 1.4650251,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/12040634",
+      "source_url": "https://www.openstreetmap.org/relation/12040634"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24023555",
+      "source_url": "https://www.wikidata.org/wiki/Q24023555"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platja%20Llarga%20de%20Ber%C3%A0%20%28setembre%202013%29%20-%20panoramio.jpg"
+    }
+  }
+}

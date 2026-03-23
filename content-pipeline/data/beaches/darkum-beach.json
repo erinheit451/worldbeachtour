@@ -1,0 +1,29 @@
+{
+  "slug": "darkum-beach",
+  "name": "Darkum Beach",
+  "centroid_lat": -30.0915441,
+  "centroid_lng": 153.2002311,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/3903790",
+      "source_url": "https://www.openstreetmap.org/relation/3903790"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956659",
+      "source_url": "https://www.wikidata.org/wiki/Q21956659"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": "unleashed"
+    }
+  }
+}

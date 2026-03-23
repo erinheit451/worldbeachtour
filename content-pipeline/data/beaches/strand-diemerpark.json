@@ -1,0 +1,41 @@
+{
+  "slug": "strand-diemerpark",
+  "name": "Strand Diemerpark",
+  "centroid_lat": 52.3542664,
+  "centroid_lng": 4.9865191,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/150387830",
+      "source_url": "https://www.openstreetmap.org/way/150387830"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW92_DIEMPK",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW92_DIEMPK",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

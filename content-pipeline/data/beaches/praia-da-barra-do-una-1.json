@@ -1,0 +1,29 @@
+{
+  "slug": "praia-da-barra-do-una-1",
+  "name": "Praia da Barra do Una",
+  "centroid_lat": -23.7641336,
+  "centroid_lng": -45.7678306,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/7603771",
+      "source_url": "https://www.openstreetmap.org/relation/7603771"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q136002245",
+      "source_url": "https://www.wikidata.org/wiki/Q136002245"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Barra%20do%20Una%20013.jpg"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "gminny-osrodek-wypoczynku-i-rekreacji-w-radawie",
+  "name": "Gminny Ośrodek Wypoczynku i Rekreacji w Radawie",
+  "centroid_lat": 50.13639,
+  "centroid_lng": 22.76333,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/4676071",
+      "source_url": "https://www.openstreetmap.org/relation/4676071"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL3220411218000007A",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL3220411218000007A",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

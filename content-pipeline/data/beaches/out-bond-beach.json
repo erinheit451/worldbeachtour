@@ -1,0 +1,25 @@
+{
+  "slug": "out-bond-beach",
+  "name": "Out Bond Beach",
+  "centroid_lat": -6.1211413,
+  "centroid_lng": 106.8419398,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/203570717",
+      "source_url": "https://www.openstreetmap.org/way/203570717"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/203570800",
+      "source_url": "https://www.openstreetmap.org/way/203570800"
+    }
+  ],
+  "attributes": {}
+}

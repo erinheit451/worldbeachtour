@@ -1,0 +1,44 @@
+{
+  "slug": "scalzone",
+  "name": "Scalzone",
+  "centroid_lat": 41.0034493,
+  "centroid_lng": 13.9485716,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/489080693",
+      "source_url": "https://www.openstreetmap.org/way/489080693"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/489080811",
+      "source_url": "https://www.openstreetmap.org/way/489080811"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/489080812",
+      "source_url": "https://www.openstreetmap.org/way/489080812"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/489080813",
+      "source_url": "https://www.openstreetmap.org/way/489080813"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/985442320",
+      "source_url": "https://www.openstreetmap.org/way/985442320"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

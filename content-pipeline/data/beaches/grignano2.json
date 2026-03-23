@@ -1,0 +1,29 @@
+{
+  "slug": "grignano2",
+  "name": "Grignano2",
+  "centroid_lat": 45.7112774,
+  "centroid_lng": 13.7107586,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/832655265",
+      "source_url": "https://www.openstreetmap.org/way/832655265"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/836928592",
+      "source_url": "https://www.openstreetmap.org/way/836928592"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

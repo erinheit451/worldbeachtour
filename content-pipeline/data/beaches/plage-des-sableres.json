@@ -1,0 +1,35 @@
+{
+  "slug": "plage-des-sableres",
+  "name": "Plage des Sablères",
+  "centroid_lat": 43.7929826,
+  "centroid_lng": -1.4135831,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/8344700353",
+      "source_url": "https://www.openstreetmap.org/node/8344700353"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1340328M040084",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1340328M040084",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

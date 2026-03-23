@@ -1,0 +1,25 @@
+{
+  "slug": "plage-d-ete",
+  "name": "Plage d'été",
+  "centroid_lat": 47.39886,
+  "centroid_lng": -0.9179492,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5856720438",
+      "source_url": "https://www.openstreetmap.org/node/5856720438"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/623053291",
+      "source_url": "https://www.openstreetmap.org/way/623053291"
+    }
+  ],
+  "attributes": {}
+}

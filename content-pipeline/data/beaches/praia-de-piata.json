@@ -1,0 +1,29 @@
+{
+  "slug": "praia-de-piata",
+  "name": "Praia de Piatã",
+  "centroid_lat": -12.955194,
+  "centroid_lng": -38.3827517,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/287652993",
+      "source_url": "https://www.openstreetmap.org/way/287652993"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10352848",
+      "source_url": "https://www.wikidata.org/wiki/Q10352848"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praieiros%20%282836988403%29.jpg"
+    }
+  }
+}

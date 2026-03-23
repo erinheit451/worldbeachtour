@@ -1,0 +1,68 @@
+{
+  "slug": "plaza-miejska-nr-1",
+  "name": "Plaża Miejska nr 1",
+  "centroid_lat": 53.7780784,
+  "centroid_lng": 20.4485475,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/398620282",
+      "source_url": "https://www.openstreetmap.org/way/398620282"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/439850919",
+      "source_url": "https://www.openstreetmap.org/way/439850919"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/439850921",
+      "source_url": "https://www.openstreetmap.org/way/439850921"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/439850926",
+      "source_url": "https://www.openstreetmap.org/way/439850926"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/10624576",
+      "source_url": "https://www.openstreetmap.org/relation/10624576"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6226201128000012",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6226201128000032",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6226201128000012",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6226201128000032",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

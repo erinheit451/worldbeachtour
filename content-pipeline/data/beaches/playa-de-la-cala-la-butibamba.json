@@ -1,0 +1,39 @@
+{
+  "slug": "playa-de-la-cala-la-butibamba",
+  "name": "Playa de La Cala - La Butibamba",
+  "centroid_lat": 36.4989902,
+  "centroid_lng": -4.6840264,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/544538415",
+      "source_url": "https://www.openstreetmap.org/way/544538415"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1211766355",
+      "source_url": "https://www.openstreetmap.org/way/1211766355"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1211767716",
+      "source_url": "https://www.openstreetmap.org/way/1211767716"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1211767717",
+      "source_url": "https://www.openstreetmap.org/way/1211767717"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

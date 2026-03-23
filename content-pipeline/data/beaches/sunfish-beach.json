@@ -1,0 +1,65 @@
+{
+  "slug": "sunfish-beach",
+  "name": "Sunfish Beach",
+  "centroid_lat": 34.9690058,
+  "centroid_lng": -76.8004684,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1318435738",
+      "source_url": "https://www.openstreetmap.org/way/1318435738"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1320087028",
+      "source_url": "https://www.openstreetmap.org/way/1320087028"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/5493858",
+      "source_url": "https://www.openstreetmap.org/relation/5493858"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/5493859",
+      "source_url": "https://www.openstreetmap.org/relation/5493859"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/5493860",
+      "source_url": "https://www.openstreetmap.org/relation/5493860"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/5493861",
+      "source_url": "https://www.openstreetmap.org/relation/5493861"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/5493862",
+      "source_url": "https://www.openstreetmap.org/relation/5493862"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/5493974",
+      "source_url": "https://www.openstreetmap.org/relation/5493974"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "private"
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

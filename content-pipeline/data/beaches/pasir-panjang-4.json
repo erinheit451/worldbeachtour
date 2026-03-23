@@ -1,0 +1,35 @@
+{
+  "slug": "pasir-panjang-4",
+  "name": "Pasir Panjang",
+  "centroid_lat": 5.2275809,
+  "centroid_lng": 103.2655978,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/16387412",
+      "source_url": "https://www.openstreetmap.org/relation/16387412"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/16387414",
+      "source_url": "https://www.openstreetmap.org/relation/16387414"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/16387416",
+      "source_url": "https://www.openstreetmap.org/relation/16387416"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33329302",
+      "source_url": "https://www.wikidata.org/wiki/Q33329302"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "playa-de-la-riberuca",
+  "name": "Playa de la Riberuca",
+  "centroid_lat": 43.4276635,
+  "centroid_lng": -4.0346565,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/73115979",
+      "source_url": "https://www.openstreetmap.org/way/73115979"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/73504227",
+      "source_url": "https://www.openstreetmap.org/way/73504227"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q5965104",
+      "source_url": "https://www.wikidata.org/wiki/Q5965104"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20la%20Riberuca%2C%20Suances.jpg"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "fkk-34",
+  "name": "FKK",
+  "centroid_lat": 49.8025452,
+  "centroid_lng": 9.616972,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/219223211",
+      "source_url": "https://www.openstreetmap.org/way/219223211"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/289700031",
+      "source_url": "https://www.openstreetmap.org/way/289700031"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/477334345",
+      "source_url": "https://www.openstreetmap.org/way/477334345"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_MSP_0016",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_MSP_0016",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "nudist": "customary"
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "borgo-san-pietro",
+  "name": "Borgo San Pietro",
+  "centroid_lat": 42.270409,
+  "centroid_lng": 13.0598795,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/639851200",
+      "source_url": "https://www.openstreetmap.org/way/639851200"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/639851201",
+      "source_url": "https://www.openstreetmap.org/way/639851201"
+    }
+  ],
+  "attributes": {}
+}

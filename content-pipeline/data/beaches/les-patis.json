@@ -1,0 +1,40 @@
+{
+  "slug": "les-patis",
+  "name": "LES PATIS",
+  "centroid_lat": 47.70807,
+  "centroid_lng": -3.36147,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/5641004",
+      "source_url": "https://www.openstreetmap.org/relation/5641004"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/5641005",
+      "source_url": "https://www.openstreetmap.org/relation/5641005"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0456181M056105",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0456181M056105",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "sandy-cove-beach-3",
+  "name": "Sandy Cove Beach",
+  "centroid_lat": 49.3405404,
+  "centroid_lng": -123.2267516,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1223664894",
+      "source_url": "https://www.openstreetmap.org/way/1223664894"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1472115548",
+      "source_url": "https://www.openstreetmap.org/way/1472115548"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1472115549",
+      "source_url": "https://www.openstreetmap.org/way/1472115549"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

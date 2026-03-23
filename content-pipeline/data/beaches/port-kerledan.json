@@ -1,0 +1,30 @@
+{
+  "slug": "port-kerledan",
+  "name": "Port Kerledan",
+  "centroid_lat": 47.3397008,
+  "centroid_lng": -3.251641,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/698721157",
+      "source_url": "https://www.openstreetmap.org/way/698721157"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/698721158",
+      "source_url": "https://www.openstreetmap.org/way/698721158"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/859043150",
+      "source_url": "https://www.openstreetmap.org/way/859043150"
+    }
+  ],
+  "attributes": {}
+}

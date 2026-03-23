@@ -1,0 +1,30 @@
+{
+  "slug": "playa-el-tunco",
+  "name": "Playa El Tunco",
+  "centroid_lat": 13.492552,
+  "centroid_lng": -89.3828622,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9357298883",
+      "source_url": "https://www.openstreetmap.org/node/9357298883"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8387304",
+      "source_url": "https://www.openstreetmap.org/relation/8387304"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31937241",
+      "source_url": "https://www.wikidata.org/wiki/Q31937241"
+    }
+  ],
+  "attributes": {}
+}

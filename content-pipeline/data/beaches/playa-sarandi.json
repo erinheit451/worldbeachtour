@@ -1,0 +1,27 @@
+{
+  "slug": "playa-sarandi",
+  "name": "Playa Sarandí",
+  "centroid_lat": -27.4483405,
+  "centroid_lng": -55.7493221,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/260053101",
+      "source_url": "https://www.openstreetmap.org/way/260053101"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

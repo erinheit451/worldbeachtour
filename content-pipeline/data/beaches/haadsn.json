@@ -1,0 +1,54 @@
+{
+  "slug": "haadsn",
+  "name": "หาดสน",
+  "centroid_lat": 9.7705379,
+  "centroid_lng": 99.9619381,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6369408485",
+      "source_url": "https://www.openstreetmap.org/node/6369408485"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/381444087",
+      "source_url": "https://www.openstreetmap.org/way/381444087"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/381444090",
+      "source_url": "https://www.openstreetmap.org/way/381444090"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/474655298",
+      "source_url": "https://www.openstreetmap.org/way/474655298"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/474655299",
+      "source_url": "https://www.openstreetmap.org/way/474655299"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/481893179",
+      "source_url": "https://www.openstreetmap.org/way/481893179"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q19561156",
+      "source_url": "https://www.wikidata.org/wiki/Q19561156"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Haad%20Son%20%28Secret%20Beach%29%2C%20Ko%20Phangan%20in%202023%201.jpg"
+    }
+  }
+}

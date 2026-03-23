@@ -1,0 +1,28 @@
+{
+  "slug": "apollo-beach-1",
+  "name": "Apollo Beach",
+  "centroid_lat": 28.8989442,
+  "centroid_lng": -80.8034724,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1218900028",
+      "source_url": "https://www.openstreetmap.org/way/1218900028"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "nudist": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "plage-d-albigny",
+  "name": "Plage d'Albigny",
+  "centroid_lat": 45.9043397,
+  "centroid_lng": 6.1474313,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/30620935",
+      "source_url": "https://www.openstreetmap.org/way/30620935"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14455046",
+      "source_url": "https://www.openstreetmap.org/relation/14455046"
+    }
+  ],
+  "attributes": {}
+}

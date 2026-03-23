@@ -1,0 +1,43 @@
+{
+  "slug": "osts-moeltenort-kurstrand",
+  "name": "OSTS;MOELTENORT;KURSTRAND",
+  "centroid_lat": 54.3801,
+  "centroid_lng": 10.1972,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/26659192",
+      "source_url": "https://www.openstreetmap.org/way/26659192"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/167144380",
+      "source_url": "https://www.openstreetmap.org/way/167144380"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DESH_PR_0129",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DESH_PR_0129",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

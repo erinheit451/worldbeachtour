@@ -1,0 +1,30 @@
+{
+  "slug": "quinta-spiaggia",
+  "name": "Quinta Spiaggia",
+  "centroid_lat": 41.0011894,
+  "centroid_lng": 9.6081576,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/228552761",
+      "source_url": "https://www.openstreetmap.org/way/228552761"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/260140132",
+      "source_url": "https://www.openstreetmap.org/way/260140132"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/260140133",
+      "source_url": "https://www.openstreetmap.org/way/260140133"
+    }
+  ],
+  "attributes": {}
+}

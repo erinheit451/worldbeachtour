@@ -1,0 +1,24 @@
+{
+  "slug": "greve-de-toul-trez",
+  "name": "Grève de Toul-Trez",
+  "centroid_lat": 48.8369792,
+  "centroid_lng": -3.5083599,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/3621762",
+      "source_url": "https://www.openstreetmap.org/relation/3621762"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

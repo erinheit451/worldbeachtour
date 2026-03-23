@@ -1,0 +1,25 @@
+{
+  "slug": "kinghorn-beach",
+  "name": "Kinghorn Beach",
+  "centroid_lat": 56.0673407,
+  "centroid_lng": -3.1722908,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/503113253",
+      "source_url": "https://www.openstreetmap.org/way/503113253"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1486480544",
+      "source_url": "https://www.openstreetmap.org/way/1486480544"
+    }
+  ],
+  "attributes": {}
+}

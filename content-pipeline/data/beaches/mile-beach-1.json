@@ -1,0 +1,25 @@
+{
+  "slug": "mile-beach-1",
+  "name": "Mile Beach",
+  "centroid_lat": 43.7789982,
+  "centroid_lng": -69.7271766,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/222549713",
+      "source_url": "https://www.openstreetmap.org/way/222549713"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33327665",
+      "source_url": "https://www.wikidata.org/wiki/Q33327665"
+    }
+  ],
+  "attributes": {}
+}

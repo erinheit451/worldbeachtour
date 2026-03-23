@@ -1,0 +1,38 @@
+{
+  "slug": "grimpovo",
+  "name": "GRIMPOVO",
+  "centroid_lat": 38.3913,
+  "centroid_lng": 21.8374,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q110425525",
+      "source_url": "https://www.wikidata.org/wiki/Q110425525"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW049128053101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW049128053101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Rio%20-%20Antirio%20bridge%2C%20Greece.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

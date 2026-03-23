@@ -1,0 +1,55 @@
+{
+  "slug": "mettams-pool",
+  "name": "Mettams Pool",
+  "centroid_lat": -31.8675735,
+  "centroid_lng": 115.7523618,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/25498022",
+      "source_url": "https://www.openstreetmap.org/way/25498022"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/25498032",
+      "source_url": "https://www.openstreetmap.org/way/25498032"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/175010486",
+      "source_url": "https://www.openstreetmap.org/way/175010486"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/175010487",
+      "source_url": "https://www.openstreetmap.org/way/175010487"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/175010489",
+      "source_url": "https://www.openstreetmap.org/way/175010489"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/175010490",
+      "source_url": "https://www.openstreetmap.org/way/175010490"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21955680",
+      "source_url": "https://www.wikidata.org/wiki/Q21955680"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21955748",
+      "source_url": "https://www.wikidata.org/wiki/Q21955748"
+    }
+  ],
+  "attributes": {}
+}

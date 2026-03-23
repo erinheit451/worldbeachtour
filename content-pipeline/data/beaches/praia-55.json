@@ -1,0 +1,25 @@
+{
+  "slug": "praia-55",
+  "name": "Praia",
+  "centroid_lat": -8.5695262,
+  "centroid_lng": 125.4505709,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2245409",
+      "source_url": "https://www.openstreetmap.org/relation/2245409"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/2245410",
+      "source_url": "https://www.openstreetmap.org/relation/2245410"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "senix-cenitz",
+  "name": "Senix / Cenitz",
+  "centroid_lat": 43.4225215,
+  "centroid_lng": -1.6201234,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/773801627",
+      "source_url": "https://www.openstreetmap.org/way/773801627"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited",
+      "access": "yes"
+    },
+    "safety": {
+      "lifeguard": "11:00-19:00"
+    }
+  }
+}

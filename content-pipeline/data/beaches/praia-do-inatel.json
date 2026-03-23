@@ -1,0 +1,57 @@
+{
+  "slug": "praia-do-inatel",
+  "name": "Praia do Inatel",
+  "centroid_lat": 37.0857704,
+  "centroid_lng": -8.2452283,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6312841569",
+      "source_url": "https://www.openstreetmap.org/node/6312841569"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/6312841570",
+      "source_url": "https://www.openstreetmap.org/node/6312841570"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1357090689",
+      "source_url": "https://www.openstreetmap.org/way/1357090689"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q20974193",
+      "source_url": "https://www.wikidata.org/wiki/Q20974193"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCV7T",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCV7T",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Albufeira%20%28Portugal%29%20%289953023346%29.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_do_Inatel"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "laudholm-beach",
+  "name": "Laudholm Beach",
+  "centroid_lat": 43.3310396,
+  "centroid_lng": -70.5442777,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/995206143",
+      "source_url": "https://www.openstreetmap.org/way/995206143"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33327061",
+      "source_url": "https://www.wikidata.org/wiki/Q33327061"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "plage-du-val",
+  "name": "Plage du Val",
+  "centroid_lat": 48.6841187,
+  "centroid_lng": -1.9737537,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/141105511",
+      "source_url": "https://www.openstreetmap.org/way/141105511"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q125210517",
+      "source_url": "https://www.wikidata.org/wiki/Q125210517"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/La%20plage%20du%20Val%20%C3%A0%20Roth%C3%A9neuf.jpg"
+    }
+  }
+}

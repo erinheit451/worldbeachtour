@@ -1,0 +1,27 @@
+{
+  "slug": "helikon-strand",
+  "name": "Helikon Strand",
+  "centroid_lat": 46.7491319,
+  "centroid_lng": 17.2449307,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/3116255",
+      "source_url": "https://www.openstreetmap.org/relation/3116255"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

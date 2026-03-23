@@ -1,0 +1,53 @@
+{
+  "slug": "spiaggia-della-caletta-dei-pescatori",
+  "name": "Spiaggia Della Caletta Dei Pescatori",
+  "centroid_lat": 44.3157749,
+  "centroid_lng": 9.1762789,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9881760192",
+      "source_url": "https://www.openstreetmap.org/node/9881760192"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/23763149",
+      "source_url": "https://www.openstreetmap.org/way/23763149"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1056723008",
+      "source_url": "https://www.openstreetmap.org/way/1056723008"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1077776324",
+      "source_url": "https://www.openstreetmap.org/way/1077776324"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010007005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010007005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

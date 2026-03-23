@@ -1,0 +1,35 @@
+{
+  "slug": "eriksobadet",
+  "name": "Eriksöbadet",
+  "centroid_lat": 59.4042042,
+  "centroid_lng": 18.3046775,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/589449320",
+      "source_url": "https://www.openstreetmap.org/way/589449320"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0110187000001354",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0110187000001354",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

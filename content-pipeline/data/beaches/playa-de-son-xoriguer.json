@@ -1,0 +1,40 @@
+{
+  "slug": "playa-de-son-xoriguer",
+  "name": "Playa de Son Xoriguer",
+  "centroid_lat": 39.9255933,
+  "centroid_lng": 3.8442615,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1583918",
+      "source_url": "https://www.openstreetmap.org/relation/1583918"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q18005789",
+      "source_url": "https://www.wikidata.org/wiki/Q18005789"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES533M0151120",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES533M0151120",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

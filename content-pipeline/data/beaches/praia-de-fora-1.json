@@ -1,0 +1,25 @@
+{
+  "slug": "praia-de-fora-1",
+  "name": "Praia de Fora",
+  "centroid_lat": -25.5694278,
+  "centroid_lng": -48.3051993,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/33401029",
+      "source_url": "https://www.openstreetmap.org/way/33401029"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22049439",
+      "source_url": "https://www.wikidata.org/wiki/Q22049439"
+    }
+  ],
+  "attributes": {}
+}

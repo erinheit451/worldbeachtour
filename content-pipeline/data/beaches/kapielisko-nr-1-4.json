@@ -1,0 +1,40 @@
+{
+  "slug": "kapielisko-nr-1-4",
+  "name": "KĄPIELISKO NR 1",
+  "centroid_lat": 53.8143,
+  "centroid_lng": 22.3522,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/8935413878",
+      "source_url": "https://www.openstreetmap.org/node/8935413878"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/157110124",
+      "source_url": "https://www.openstreetmap.org/way/157110124"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6230501128000002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6230501128000002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

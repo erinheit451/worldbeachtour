@@ -1,0 +1,29 @@
+{
+  "slug": "an-tra-bhan-1",
+  "name": "An Trá Bhán",
+  "centroid_lat": 51.5055713,
+  "centroid_lng": -9.4459688,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/191128697",
+      "source_url": "https://www.openstreetmap.org/way/191128697"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/191128698",
+      "source_url": "https://www.openstreetmap.org/way/191128698"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

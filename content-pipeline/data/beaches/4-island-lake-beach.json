@@ -1,0 +1,24 @@
+{
+  "slug": "4-island-lake-beach",
+  "name": "4 Island Lake Beach",
+  "centroid_lat": 35.1621369,
+  "centroid_lng": -118.6569662,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1276701744",
+      "source_url": "https://www.openstreetmap.org/way/1276701744"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

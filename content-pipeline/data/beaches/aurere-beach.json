@@ -1,0 +1,25 @@
+{
+  "slug": "aurere-beach",
+  "name": "Aurere Beach",
+  "centroid_lat": -34.9854487,
+  "centroid_lng": 173.4352645,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/183411732",
+      "source_url": "https://www.openstreetmap.org/way/183411732"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q32121676",
+      "source_url": "https://www.wikidata.org/wiki/Q32121676"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "paddys-beach",
+  "name": "Paddys Beach",
+  "centroid_lat": 44.6430087,
+  "centroid_lng": -63.9194833,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/2745678986",
+      "source_url": "https://www.openstreetmap.org/node/2745678986"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22465531",
+      "source_url": "https://www.wikidata.org/wiki/Q22465531"
+    }
+  ],
+  "attributes": {}
+}

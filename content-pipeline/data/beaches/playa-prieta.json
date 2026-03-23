@@ -1,0 +1,25 @@
+{
+  "slug": "playa-prieta",
+  "name": "Playa Prieta",
+  "centroid_lat": 18.111113,
+  "centroid_lng": -65.4004353,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/4314910916",
+      "source_url": "https://www.openstreetmap.org/node/4314910916"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1154136978",
+      "source_url": "https://www.openstreetmap.org/way/1154136978"
+    }
+  ],
+  "attributes": {}
+}

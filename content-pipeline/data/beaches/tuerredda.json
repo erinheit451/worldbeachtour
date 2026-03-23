@@ -1,0 +1,33 @@
+{
+  "slug": "tuerredda",
+  "name": "Tuerredda",
+  "centroid_lat": 38.8948707,
+  "centroid_lng": 8.8126352,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/81141271",
+      "source_url": "https://www.openstreetmap.org/way/81141271"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33341813",
+      "source_url": "https://www.wikidata.org/wiki/Q33341813"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Chia%20beach%2C%20Sardinia%2C%20Italy.jpg"
+    }
+  }
+}

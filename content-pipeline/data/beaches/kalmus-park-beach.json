@@ -1,0 +1,30 @@
+{
+  "slug": "kalmus-park-beach",
+  "name": "Kalmus Park Beach",
+  "centroid_lat": 41.635,
+  "centroid_lng": -70.276388888,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/82331282",
+      "source_url": "https://www.openstreetmap.org/way/82331282"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/83337465",
+      "source_url": "https://www.openstreetmap.org/way/83337465"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49321428",
+      "source_url": "https://www.wikidata.org/wiki/Q49321428"
+    }
+  ],
+  "attributes": {}
+}

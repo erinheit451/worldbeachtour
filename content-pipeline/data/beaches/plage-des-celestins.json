@@ -1,0 +1,42 @@
+{
+  "slug": "plage-des-celestins",
+  "name": "Plage des Célestins",
+  "centroid_lat": 46.1185179,
+  "centroid_lng": 3.4220335,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/37718998",
+      "source_url": "https://www.openstreetmap.org/way/37718998"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK1103310D003003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK1103310D003003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true,
+      "access": "yes"
+    },
+    "safety": {
+      "lifeguard": "Jul 01-Aug 31 11:00-19:00"
+    },
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

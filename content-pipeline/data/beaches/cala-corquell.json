@@ -1,0 +1,40 @@
+{
+  "slug": "cala-corquell",
+  "name": "Cala Corquell",
+  "centroid_lat": 42.3492398,
+  "centroid_lng": 3.2269074,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11761786791",
+      "source_url": "https://www.openstreetmap.org/node/11761786791"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8312169",
+      "source_url": "https://www.openstreetmap.org/relation/8312169"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8312170",
+      "source_url": "https://www.openstreetmap.org/relation/8312170"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q108841227",
+      "source_url": "https://www.wikidata.org/wiki/Q108841227"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q123760054",
+      "source_url": "https://www.wikidata.org/wiki/Q123760054"
+    }
+  ],
+  "attributes": {}
+}

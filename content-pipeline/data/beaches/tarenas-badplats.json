@@ -1,0 +1,25 @@
+{
+  "slug": "tarenas-badplats",
+  "name": "Tärenäs badplats",
+  "centroid_lat": 57.9961837,
+  "centroid_lng": 14.7407345,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12088471487",
+      "source_url": "https://www.openstreetmap.org/node/12088471487"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "restrooms": true,
+      "parking": true
+    }
+  }
+}

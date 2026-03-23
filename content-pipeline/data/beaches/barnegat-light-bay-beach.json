@@ -1,0 +1,27 @@
+{
+  "slug": "barnegat-light-bay-beach",
+  "name": "Barnegat Light Bay Beach",
+  "centroid_lat": 39.7451837,
+  "centroid_lng": -74.1175406,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1159762684",
+      "source_url": "https://www.openstreetmap.org/way/1159762684"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

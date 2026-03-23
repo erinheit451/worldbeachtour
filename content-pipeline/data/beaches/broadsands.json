@@ -1,0 +1,29 @@
+{
+  "slug": "broadsands",
+  "name": "Broadsands",
+  "centroid_lat": 51.2121185,
+  "centroid_lng": -4.0585446,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/472368127",
+      "source_url": "https://www.openstreetmap.org/way/472368127"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q4972286",
+      "source_url": "https://www.wikidata.org/wiki/Q4972286"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Broadsands_Beach"
+    }
+  }
+}

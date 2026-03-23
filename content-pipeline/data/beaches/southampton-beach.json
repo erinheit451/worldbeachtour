@@ -1,0 +1,25 @@
+{
+  "slug": "southampton-beach",
+  "name": "Southampton Beach",
+  "centroid_lat": 40.8537115,
+  "centroid_lng": -72.437587,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357590392",
+      "source_url": "https://www.openstreetmap.org/node/357590392"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q34719176",
+      "source_url": "https://www.wikidata.org/wiki/Q34719176"
+    }
+  ],
+  "attributes": {}
+}

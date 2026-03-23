@@ -1,0 +1,29 @@
+{
+  "slug": "cowell-beach-1",
+  "name": "Cowell Beach",
+  "centroid_lat": 36.9605683,
+  "centroid_lng": -122.024929,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/7063041",
+      "source_url": "https://www.openstreetmap.org/relation/7063041"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320454",
+      "source_url": "https://www.wikidata.org/wiki/Q49320454"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Santa%20Cruz%20387.JPG"
+    }
+  }
+}

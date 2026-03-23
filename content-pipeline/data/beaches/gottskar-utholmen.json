@@ -1,0 +1,30 @@
+{
+  "slug": "gottskar-utholmen",
+  "name": "Gottskär - Utholmen",
+  "centroid_lat": 57.391043,
+  "centroid_lng": 12.0254173,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12126352230",
+      "source_url": "https://www.openstreetmap.org/node/12126352230"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/12126438050",
+      "source_url": "https://www.openstreetmap.org/node/12126438050"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1309817235",
+      "source_url": "https://www.openstreetmap.org/way/1309817235"
+    }
+  ],
+  "attributes": {}
+}

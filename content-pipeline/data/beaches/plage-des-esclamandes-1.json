@@ -1,0 +1,35 @@
+{
+  "slug": "plage-des-esclamandes-1",
+  "name": "Plage des Esclamandes",
+  "centroid_lat": 43.3993399,
+  "centroid_lng": 6.7305514,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/339192637",
+      "source_url": "https://www.openstreetmap.org/way/339192637"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0583061M083671",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0583061M083671",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

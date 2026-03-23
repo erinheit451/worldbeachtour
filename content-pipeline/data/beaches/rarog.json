@@ -1,0 +1,25 @@
+{
+  "slug": "rarog",
+  "name": "Rarog",
+  "centroid_lat": 43.1240679,
+  "centroid_lng": 16.704451,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/494488881",
+      "source_url": "https://www.openstreetmap.org/way/494488881"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/494571670",
+      "source_url": "https://www.openstreetmap.org/way/494571670"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "playa-canalejo",
+  "name": "Playa Canalejo",
+  "centroid_lat": 18.3778016,
+  "centroid_lng": -65.6174245,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/432743751",
+      "source_url": "https://www.openstreetmap.org/way/432743751"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322909",
+      "source_url": "https://www.wikidata.org/wiki/Q49322909"
+    }
+  ],
+  "attributes": {}
+}

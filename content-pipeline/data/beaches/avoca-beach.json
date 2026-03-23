@@ -1,0 +1,25 @@
+{
+  "slug": "avoca-beach",
+  "name": "Avoca Beach",
+  "centroid_lat": -33.4669026,
+  "centroid_lng": 151.4352573,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/54669965",
+      "source_url": "https://www.openstreetmap.org/way/54669965"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31888652",
+      "source_url": "https://www.wikidata.org/wiki/Q31888652"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "playa-de-las-villas",
+  "name": "Playa de las Villas",
+  "centroid_lat": 37.8596184,
+  "centroid_lng": -0.7626135,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2172141",
+      "source_url": "https://www.openstreetmap.org/relation/2172141"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24023532",
+      "source_url": "https://www.wikidata.org/wiki/Q24023532"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES521M9022588",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES521M9022588",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

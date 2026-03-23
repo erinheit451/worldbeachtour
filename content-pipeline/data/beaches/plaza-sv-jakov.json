@@ -1,0 +1,48 @@
+{
+  "slug": "plaza-sv-jakov",
+  "name": "Plaža Sv. Jakov",
+  "centroid_lat": 42.6350882,
+  "centroid_lng": 18.1308743,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/171742063",
+      "source_url": "https://www.openstreetmap.org/way/171742063"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/808814345",
+      "source_url": "https://www.openstreetmap.org/way/808814345"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q11950588",
+      "source_url": "https://www.wikidata.org/wiki/Q11950588"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-1011",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-1011",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Mountain%20above%20Sveti%20Jakov%20Beach%20in%20Dubrovnik%2C%20Croatia%20%2848738628043%29.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

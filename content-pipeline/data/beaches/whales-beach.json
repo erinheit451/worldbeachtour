@@ -1,0 +1,35 @@
+{
+  "slug": "whales-beach",
+  "name": "Whales Beach",
+  "centroid_lat": 42.4636276,
+  "centroid_lng": -70.9053114,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12379118857",
+      "source_url": "https://www.openstreetmap.org/node/12379118857"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/12379118858",
+      "source_url": "https://www.openstreetmap.org/node/12379118858"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/82003678",
+      "source_url": "https://www.openstreetmap.org/way/82003678"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49325274",
+      "source_url": "https://www.wikidata.org/wiki/Q49325274"
+    }
+  ],
+  "attributes": {}
+}

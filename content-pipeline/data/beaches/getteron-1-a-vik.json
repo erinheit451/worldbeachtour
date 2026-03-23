@@ -1,0 +1,66 @@
+{
+  "slug": "getteron-1-a-vik",
+  "name": "GETTERÖN 1:A VIK",
+  "centroid_lat": 57.113,
+  "centroid_lng": 12.2237,
+  "country_code": "SE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/10227301",
+      "source_url": "https://www.openstreetmap.org/relation/10227301"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/10491551",
+      "source_url": "https://www.openstreetmap.org/relation/10491551"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0A11383000000638",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0A11383000000640",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0A11383000000639",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0A11383000000638",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0A11383000000640",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0A11383000000639",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

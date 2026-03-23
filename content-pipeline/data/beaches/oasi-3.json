@@ -1,0 +1,35 @@
+{
+  "slug": "oasi-3",
+  "name": "Oasi # 3",
+  "centroid_lat": 40.4636627,
+  "centroid_lng": 9.8034892,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/959164867",
+      "source_url": "https://www.openstreetmap.org/node/959164867"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/959165364",
+      "source_url": "https://www.openstreetmap.org/node/959165364"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/959178404",
+      "source_url": "https://www.openstreetmap.org/node/959178404"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/2383190266",
+      "source_url": "https://www.openstreetmap.org/node/2383190266"
+    }
+  ],
+  "attributes": {}
+}

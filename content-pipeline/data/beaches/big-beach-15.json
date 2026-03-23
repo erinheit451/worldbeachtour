@@ -1,0 +1,25 @@
+{
+  "slug": "big-beach-15",
+  "name": "Big Beach",
+  "centroid_lat": -44.986119,
+  "centroid_lng": 168.687948,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11687215713",
+      "source_url": "https://www.openstreetmap.org/node/11687215713"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q32128703",
+      "source_url": "https://www.wikidata.org/wiki/Q32128703"
+    }
+  ],
+  "attributes": {}
+}

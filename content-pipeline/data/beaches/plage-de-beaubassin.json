@@ -1,0 +1,29 @@
+{
+  "slug": "plage-de-beaubassin",
+  "name": "Plage de Beaubassin",
+  "centroid_lat": 48.0390527,
+  "centroid_lng": -65.4870663,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/17872217",
+      "source_url": "https://www.openstreetmap.org/relation/17872217"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q113244562",
+      "source_url": "https://www.wikidata.org/wiki/Q113244562"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

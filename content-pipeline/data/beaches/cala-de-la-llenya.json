@@ -1,0 +1,29 @@
+{
+  "slug": "cala-de-la-llenya",
+  "name": "Cala de la Llenya",
+  "centroid_lat": 40.8607038,
+  "centroid_lng": 0.7806959,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/14509527",
+      "source_url": "https://www.openstreetmap.org/relation/14509527"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28121101",
+      "source_url": "https://www.wikidata.org/wiki/Q28121101"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20de%20la%20Llenya.jpg"
+    }
+  }
+}

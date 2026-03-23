@@ -1,0 +1,29 @@
+{
+  "slug": "kiesstrand",
+  "name": "Kiesstrand",
+  "centroid_lat": 53.2999662,
+  "centroid_lng": 10.3768993,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/542327964",
+      "source_url": "https://www.openstreetmap.org/way/542327964"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/542391655",
+      "source_url": "https://www.openstreetmap.org/way/542391655"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

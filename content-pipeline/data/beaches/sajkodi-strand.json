@@ -1,0 +1,27 @@
+{
+  "slug": "sajkodi-strand",
+  "name": "Sajkodi strand",
+  "centroid_lat": 46.9087097,
+  "centroid_lng": 17.8495413,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/3116257",
+      "source_url": "https://www.openstreetmap.org/relation/3116257"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

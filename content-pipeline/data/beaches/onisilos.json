@@ -1,0 +1,58 @@
+{
+  "slug": "onisilos",
+  "name": "Onisilos",
+  "centroid_lat": 34.7047099,
+  "centroid_lng": 33.115477,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11038659161",
+      "source_url": "https://www.openstreetmap.org/node/11038659161"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/12058947271",
+      "source_url": "https://www.openstreetmap.org/node/12058947271"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/28546420",
+      "source_url": "https://www.openstreetmap.org/way/28546420"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/28847751",
+      "source_url": "https://www.openstreetmap.org/way/28847751"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/29252740",
+      "source_url": "https://www.openstreetmap.org/way/29252740"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CY0005124000000077",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CY0005124000000077",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

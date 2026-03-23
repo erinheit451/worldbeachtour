@@ -1,0 +1,30 @@
+{
+  "slug": "arroyo-de-san-juan-torre-de-don-miguel-pm1",
+  "name": "ARROYO DE SAN JUAN TORRE DE DON MIGUEL PM1",
+  "centroid_lat": 40.2142,
+  "centroid_lng": -6.5693,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES432C1872556",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES432C1872556",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "poor",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

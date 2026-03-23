@@ -1,0 +1,27 @@
+{
+  "slug": "cala-di-pozzo-vivo",
+  "name": "Cala di Pozzo Vivo",
+  "centroid_lat": 40.9853452,
+  "centroid_lng": 17.2464094,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/173469300",
+      "source_url": "https://www.openstreetmap.org/way/173469300"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "customary"
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

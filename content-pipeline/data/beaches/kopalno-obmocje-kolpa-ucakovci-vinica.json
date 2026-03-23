@@ -1,0 +1,30 @@
+{
+  "slug": "kopalno-obmocje-kolpa-ucakovci-vinica",
+  "name": "KOPALNO OBMOČJE KOLPA, UČAKOVCI–VINICA",
+  "centroid_lat": 45.4583,
+  "centroid_lng": 15.2551,
+  "country_code": "SI",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SI00D0501700K03010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SI00D0501700K03010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "fjaerholmen",
+  "name": "Fjærholmen",
+  "centroid_lat": 59.2256681,
+  "centroid_lng": 10.4643572,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/54557441",
+      "source_url": "https://www.openstreetmap.org/way/54557441"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/54557452",
+      "source_url": "https://www.openstreetmap.org/way/54557452"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/54557465",
+      "source_url": "https://www.openstreetmap.org/way/54557465"
+    }
+  ],
+  "attributes": {}
+}

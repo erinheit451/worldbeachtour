@@ -1,0 +1,32 @@
+{
+  "slug": "pigeon-island-beach",
+  "name": "Pigeon Island Beach",
+  "centroid_lat": 14.0910332,
+  "centroid_lng": -60.9601253,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/669721961",
+      "source_url": "https://www.openstreetmap.org/way/669721961"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q125907117",
+      "source_url": "https://www.wikidata.org/wiki/Q125907117"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/A%20beautiful%20view%20of%20Pigeon%20Island.jpg"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "ilot-moinde-ouemie",
+  "name": "Ilot Moindé-Ouémié",
+  "centroid_lat": -21.7465042,
+  "centroid_lng": 166.5146906,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/22574227",
+      "source_url": "https://www.openstreetmap.org/way/22574227"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "lanikai-beach",
+  "name": "Lanikai Beach",
+  "centroid_lat": 21.3917353,
+  "centroid_lng": -157.7155045,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/203015602",
+      "source_url": "https://www.openstreetmap.org/way/203015602"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q5195257",
+      "source_url": "https://www.wikidata.org/wiki/Q5195257"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Lanikai%20Strand%20auf%20Oahu.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Lanikai_Beach"
+    }
+  }
+}

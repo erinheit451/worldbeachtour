@@ -1,0 +1,32 @@
+{
+  "slug": "baskotica-porat",
+  "name": "Baškotića porat",
+  "centroid_lat": 44.9414028,
+  "centroid_lng": 14.7609837,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/122456279",
+      "source_url": "https://www.openstreetmap.org/way/122456279"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1311974987",
+      "source_url": "https://www.openstreetmap.org/way/1311974987"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "customary"
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

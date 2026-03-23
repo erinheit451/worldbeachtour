@@ -1,0 +1,24 @@
+{
+  "slug": "mayaro-beach",
+  "name": "Mayaro Beach",
+  "centroid_lat": 10.2786428,
+  "centroid_lng": -60.9986998,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/19943516",
+      "source_url": "https://www.openstreetmap.org/relation/19943516"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

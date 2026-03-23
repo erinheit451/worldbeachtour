@@ -1,0 +1,24 @@
+{
+  "slug": "porto-dos-frades",
+  "name": "Porto dos Frades",
+  "centroid_lat": 33.0691055,
+  "centroid_lng": -16.2980672,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/142872184",
+      "source_url": "https://www.openstreetmap.org/way/142872184"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

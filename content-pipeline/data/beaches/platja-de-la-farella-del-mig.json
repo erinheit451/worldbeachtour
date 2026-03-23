@@ -1,0 +1,39 @@
+{
+  "slug": "platja-de-la-farella-del-mig",
+  "name": "Platja de la Farella del Mig",
+  "centroid_lat": 42.364118,
+  "centroid_lng": 3.1630623,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8314115",
+      "source_url": "https://www.openstreetmap.org/relation/8314115"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8314116",
+      "source_url": "https://www.openstreetmap.org/relation/8314116"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q106951900",
+      "source_url": "https://www.wikidata.org/wiki/Q106951900"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q121666851",
+      "source_url": "https://www.wikidata.org/wiki/Q121666851"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/La%20Farella.jpg"
+    }
+  }
+}

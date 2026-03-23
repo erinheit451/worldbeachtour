@@ -1,0 +1,27 @@
+{
+  "slug": "praia-porto-da-rua",
+  "name": "Praia Porto da Rua",
+  "centroid_lat": -9.2405742,
+  "centroid_lng": -35.3441971,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1126592298",
+      "source_url": "https://www.openstreetmap.org/way/1126592298"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

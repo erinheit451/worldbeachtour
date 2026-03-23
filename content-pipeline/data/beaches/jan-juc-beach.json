@@ -1,0 +1,33 @@
+{
+  "slug": "jan-juc-beach",
+  "name": "Jan Juc Beach",
+  "centroid_lat": -38.347473,
+  "centroid_lng": 144.3104922,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/419980480",
+      "source_url": "https://www.openstreetmap.org/way/419980480"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q137771714",
+      "source_url": "https://www.wikidata.org/wiki/Q137771714"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jan%20Juc%20surf%20beach.JPG",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jan_Juc_Beach"
+    }
+  }
+}

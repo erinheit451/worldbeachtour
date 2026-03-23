@@ -1,0 +1,30 @@
+{
+  "slug": "pridniprovskii-pliazh",
+  "name": "Придніпровський пляж",
+  "centroid_lat": 48.3991685,
+  "centroid_lng": 35.1353588,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/120145094",
+      "source_url": "https://www.openstreetmap.org/way/120145094"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1055000903",
+      "source_url": "https://www.openstreetmap.org/way/1055000903"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1055000904",
+      "source_url": "https://www.openstreetmap.org/way/1055000904"
+    }
+  ],
+  "attributes": {}
+}

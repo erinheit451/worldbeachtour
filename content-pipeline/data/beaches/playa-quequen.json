@@ -1,0 +1,30 @@
+{
+  "slug": "playa-quequen",
+  "name": "Playa Quequén",
+  "centroid_lat": -38.5741885,
+  "centroid_lng": -58.6887986,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/13116820865",
+      "source_url": "https://www.openstreetmap.org/node/13116820865"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/13116820866",
+      "source_url": "https://www.openstreetmap.org/node/13116820866"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/12938246",
+      "source_url": "https://www.openstreetmap.org/relation/12938246"
+    }
+  ],
+  "attributes": {}
+}

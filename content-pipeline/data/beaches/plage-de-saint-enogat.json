@@ -1,0 +1,29 @@
+{
+  "slug": "plage-de-saint-enogat",
+  "name": "Plage de Saint-Énogat",
+  "centroid_lat": 48.6390853,
+  "centroid_lng": -2.0693681,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/197492653",
+      "source_url": "https://www.openstreetmap.org/way/197492653"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q66932115",
+      "source_url": "https://www.wikidata.org/wiki/Q66932115"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/00%207538%20Dinard%20-%20Str%C3%A4nde.jpg"
+    }
+  }
+}

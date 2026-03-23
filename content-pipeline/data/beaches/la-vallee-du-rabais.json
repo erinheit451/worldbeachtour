@@ -1,0 +1,30 @@
+{
+  "slug": "la-vallee-du-rabais",
+  "name": "LA VALLÉE DU RABAIS",
+  "centroid_lat": 49.58806,
+  "centroid_lng": 5.55442,
+  "country_code": "BE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BE6500008000000H01",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BE6500008000000H01",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "pantai-teluk-datai",
+  "name": "Pantai Teluk Datai",
+  "centroid_lat": 6.4285578,
+  "centroid_lng": 99.6711954,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/4033526",
+      "source_url": "https://www.openstreetmap.org/relation/4033526"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "private"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "plage-de-la-baie-des-milliardaires",
+  "name": "Plage de la Baie des Milliardaires",
+  "centroid_lat": 43.5464711,
+  "centroid_lng": 7.1294844,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/117395770",
+      "source_url": "https://www.openstreetmap.org/way/117395770"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q98492221",
+      "source_url": "https://www.wikidata.org/wiki/Q98492221"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false,
+      "access": "yes"
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

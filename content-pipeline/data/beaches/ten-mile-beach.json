@@ -1,0 +1,29 @@
+{
+  "slug": "ten-mile-beach",
+  "name": "Ten Mile Beach",
+  "centroid_lat": 39.5262749,
+  "centroid_lng": -123.7764047,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/358823496",
+      "source_url": "https://www.openstreetmap.org/node/358823496"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324986",
+      "source_url": "https://www.wikidata.org/wiki/Q49324986"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Three%20horseback%20riders%20from%20Ricochet%20Ridge%20Ranch%20enjoy%20Ten%20Mile%20Beach%20on%20the%20Pacific%20Coast.%20Fort%20Bragg%2C%20California%20LCCN2013634785.tif"
+    }
+  }
+}

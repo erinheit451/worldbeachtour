@@ -1,0 +1,38 @@
+{
+  "slug": "playa-del-miracle-pm1",
+  "name": "PLAYA DEL MIRACLE  PM1",
+  "centroid_lat": 41.1142,
+  "centroid_lng": 1.2622,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24022056",
+      "source_url": "https://www.wikidata.org/wiki/Q24022056"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES514M148833",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES514M148833",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/094%20La%20platja%20i%20la%20punta%20del%20Miracle%2C%20des%20del%20Balc%C3%B3%20del%20Mediterrani.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

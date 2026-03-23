@@ -1,0 +1,30 @@
+{
+  "slug": "chazey-sur-ain-rive-gauche-de-l-ain-en-amont-du-pont-sur-l-ain",
+  "name": "CHAZEY-SUR-AIN - RIVE GAUCHE DE L AIN EN AMONT DU PONT SUR L AIN",
+  "centroid_lat": 45.90788,
+  "centroid_lng": 5.23397,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2101099D001150",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2101099D001150",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

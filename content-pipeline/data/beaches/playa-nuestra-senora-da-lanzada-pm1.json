@@ -1,0 +1,35 @@
+{
+  "slug": "playa-nuestra-senora-da-lanzada-pm1",
+  "name": "PLAYA NUESTRA SEÑORA DA LANZADA PM1",
+  "centroid_lat": 42.4292,
+  "centroid_lng": -8.8766,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/173598741",
+      "source_url": "https://www.openstreetmap.org/way/173598741"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES114M051393",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES114M051393",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

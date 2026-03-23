@@ -1,0 +1,29 @@
+{
+  "slug": "long-beach-56",
+  "name": "Long Beach",
+  "centroid_lat": -34.627376,
+  "centroid_lng": 135.4505279,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/3444734996",
+      "source_url": "https://www.openstreetmap.org/node/3444734996"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956366",
+      "source_url": "https://www.wikidata.org/wiki/Q21956366"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Good%20Place%20to%20Be%20Alone%20%2822510096396%29.jpg"
+    }
+  }
+}

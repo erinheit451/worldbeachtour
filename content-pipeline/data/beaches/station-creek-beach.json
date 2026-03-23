@@ -1,0 +1,25 @@
+{
+  "slug": "station-creek-beach",
+  "name": "Station Creek Beach",
+  "centroid_lat": -29.9646062,
+  "centroid_lng": 153.2448346,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/5149232",
+      "source_url": "https://www.openstreetmap.org/relation/5149232"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956686",
+      "source_url": "https://www.wikidata.org/wiki/Q21956686"
+    }
+  ],
+  "attributes": {}
+}

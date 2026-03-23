@@ -1,0 +1,46 @@
+{
+  "slug": "praia-da-salema",
+  "name": "Praia da Salema",
+  "centroid_lat": 37.0649712,
+  "centroid_lng": -8.8216253,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1244670402",
+      "source_url": "https://www.openstreetmap.org/way/1244670402"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49323981",
+      "source_url": "https://www.wikidata.org/wiki/Q49323981"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCQ3J",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCQ3J",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "surfing": {
+      "surfing_available": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

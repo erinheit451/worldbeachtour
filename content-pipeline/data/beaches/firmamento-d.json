@@ -1,0 +1,42 @@
+{
+  "slug": "firmamento-d",
+  "name": "Firmamento D",
+  "centroid_lat": 45.6315187,
+  "centroid_lng": 13.0533802,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10129724925",
+      "source_url": "https://www.openstreetmap.org/node/10129724925"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/10129724938",
+      "source_url": "https://www.openstreetmap.org/node/10129724938"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/10129724945",
+      "source_url": "https://www.openstreetmap.org/node/10129724945"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/11057648327",
+      "source_url": "https://www.openstreetmap.org/node/11057648327"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

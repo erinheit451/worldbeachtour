@@ -1,0 +1,30 @@
+{
+  "slug": "kliestower-see-kliestow-strand",
+  "name": "KLIESTOWER SEE, KLIESTOW, STRAND",
+  "centroid_lat": 52.1846,
+  "centroid_lng": 13.2218,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBB_PR_0201",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBB_PR_0201",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

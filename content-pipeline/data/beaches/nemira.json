@@ -1,0 +1,40 @@
+{
+  "slug": "nemira",
+  "name": "Nemira",
+  "centroid_lat": 43.42179,
+  "centroid_lng": 16.70926,
+  "country_code": "HR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/237435892",
+      "source_url": "https://www.openstreetmap.org/way/237435892"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/237435893",
+      "source_url": "https://www.openstreetmap.org/way/237435893"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2027",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2027",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "freibad-orankesee",
+  "name": "FREIBAD ORANKESEE",
+  "centroid_lat": 52.5495,
+  "centroid_lng": 13.4842,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/10354648",
+      "source_url": "https://www.openstreetmap.org/way/10354648"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBE_PR_0002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBE_PR_0002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

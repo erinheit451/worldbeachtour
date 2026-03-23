@@ -1,0 +1,30 @@
+{
+  "slug": "playa-de-las-canteras",
+  "name": "Playa de las Canteras",
+  "centroid_lat": 36.740984,
+  "centroid_lng": -6.4382655,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/190503213",
+      "source_url": "https://www.openstreetmap.org/way/190503213"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1377576138",
+      "source_url": "https://www.openstreetmap.org/way/1377576138"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24023630",
+      "source_url": "https://www.wikidata.org/wiki/Q24023630"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "nonopapa-beach",
+  "name": "Nonopapa Beach",
+  "centroid_lat": 21.8582159,
+  "centroid_lng": -160.2375057,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/331168080",
+      "source_url": "https://www.openstreetmap.org/way/331168080"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322258",
+      "source_url": "https://www.wikidata.org/wiki/Q49322258"
+    }
+  ],
+  "attributes": {}
+}

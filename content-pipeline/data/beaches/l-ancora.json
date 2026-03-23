@@ -1,0 +1,40 @@
+{
+  "slug": "l-ancora",
+  "name": "L'ANCORA",
+  "centroid_lat": 43.8372,
+  "centroid_lng": 7.8879,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1409751549",
+      "source_url": "https://www.openstreetmap.org/way/1409751549"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1486159012",
+      "source_url": "https://www.openstreetmap.org/way/1486159012"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007008056003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007008056003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "pietre-nere-1",
+  "name": "Pietre Nere",
+  "centroid_lat": 36.7287541,
+  "centroid_lng": 14.8543989,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5265306437",
+      "source_url": "https://www.openstreetmap.org/node/5265306437"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5265306438",
+      "source_url": "https://www.openstreetmap.org/node/5265306438"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5265306439",
+      "source_url": "https://www.openstreetmap.org/node/5265306439"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5265306440",
+      "source_url": "https://www.openstreetmap.org/node/5265306440"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5265306441",
+      "source_url": "https://www.openstreetmap.org/node/5265306441"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5265306442",
+      "source_url": "https://www.openstreetmap.org/node/5265306442"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/212751508",
+      "source_url": "https://www.openstreetmap.org/way/212751508"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33329868",
+      "source_url": "https://www.wikidata.org/wiki/Q33329868"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33344080",
+      "source_url": "https://www.wikidata.org/wiki/Q33344080"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019088008003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019088008002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019088008003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019088008002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

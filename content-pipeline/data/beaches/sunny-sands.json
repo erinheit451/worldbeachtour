@@ -1,0 +1,35 @@
+{
+  "slug": "sunny-sands",
+  "name": "Sunny Sands",
+  "centroid_lat": 51.0809552,
+  "centroid_lng": 1.191946,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/93648602",
+      "source_url": "https://www.openstreetmap.org/way/93648602"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/521716608",
+      "source_url": "https://www.openstreetmap.org/way/521716608"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "surfing": {
+      "surfing_available": true
+    }
+  }
+}

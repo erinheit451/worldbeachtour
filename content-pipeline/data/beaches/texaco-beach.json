@@ -1,0 +1,27 @@
+{
+  "slug": "texaco-beach",
+  "name": "Texaco Beach",
+  "centroid_lat": 44.489711,
+  "centroid_lng": -73.233585,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/26122131",
+      "source_url": "https://www.openstreetmap.org/way/26122131"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

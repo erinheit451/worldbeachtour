@@ -1,0 +1,38 @@
+{
+  "slug": "spiaggia-mezzolago",
+  "name": "SPIAGGIA MEZZOLAGO",
+  "centroid_lat": 45.8813,
+  "centroid_lng": 10.7492,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11480688993",
+      "source_url": "https://www.openstreetmap.org/node/11480688993"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT004022229003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT004022229003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

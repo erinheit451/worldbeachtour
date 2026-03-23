@@ -1,0 +1,37 @@
+{
+  "slug": "clark-street-beach",
+  "name": "Clark Street Beach",
+  "centroid_lat": 42.0493142,
+  "centroid_lng": -87.6731779,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/3649582045",
+      "source_url": "https://www.openstreetmap.org/node/3649582045"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/3649582046",
+      "source_url": "https://www.openstreetmap.org/node/3649582046"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/183224171",
+      "source_url": "https://www.openstreetmap.org/way/183224171"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "customers"
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

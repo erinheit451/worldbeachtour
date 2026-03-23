@@ -1,0 +1,30 @@
+{
+  "slug": "carter-lake-swim-beach",
+  "name": "Carter Lake Swim Beach",
+  "centroid_lat": 40.3405752,
+  "centroid_lng": -105.205301,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1369829763",
+      "source_url": "https://www.openstreetmap.org/way/1369829763"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

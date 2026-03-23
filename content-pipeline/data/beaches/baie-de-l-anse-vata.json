@@ -1,0 +1,29 @@
+{
+  "slug": "baie-de-l-anse-vata",
+  "name": "Baie de l'Anse Vata",
+  "centroid_lat": -22.3038045,
+  "centroid_lng": 166.4425961,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/548139248",
+      "source_url": "https://www.openstreetmap.org/node/548139248"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/72895142",
+      "source_url": "https://www.openstreetmap.org/way/72895142"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false
+    }
+  }
+}

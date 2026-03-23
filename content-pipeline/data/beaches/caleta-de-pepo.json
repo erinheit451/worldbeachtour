@@ -1,0 +1,29 @@
+{
+  "slug": "caleta-de-pepo",
+  "name": "Caleta de Pepo",
+  "centroid_lat": 40.8788562,
+  "centroid_lng": 0.7997061,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/14509769",
+      "source_url": "https://www.openstreetmap.org/relation/14509769"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28121207",
+      "source_url": "https://www.wikidata.org/wiki/Q28121207"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Calita%20tranquila%2C%20Explore%202%20de%20Marzo%202023%20-%20Flickr%20-%20candi....jpg"
+    }
+  }
+}

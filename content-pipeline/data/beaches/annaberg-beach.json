@@ -1,0 +1,25 @@
+{
+  "slug": "annaberg-beach",
+  "name": "Annaberg Beach",
+  "centroid_lat": 18.3635645,
+  "centroid_lng": -64.7245812,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/356559377",
+      "source_url": "https://www.openstreetmap.org/node/356559377"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31871302",
+      "source_url": "https://www.wikidata.org/wiki/Q31871302"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "vedsted-so",
+  "name": "VEDSTED SØ",
+  "centroid_lat": 55.19068,
+  "centroid_lng": 9.36684,
+  "country_code": "DK",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/30216791",
+      "source_url": "https://www.openstreetmap.org/way/30216791"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW1113",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW1113",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

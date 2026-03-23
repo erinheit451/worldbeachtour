@@ -1,0 +1,24 @@
+{
+  "slug": "traumstrand-dargun",
+  "name": "Traumstrand Dargun",
+  "centroid_lat": 53.8954777,
+  "centroid_lng": 12.8490287,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/193562944",
+      "source_url": "https://www.openstreetmap.org/way/193562944"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

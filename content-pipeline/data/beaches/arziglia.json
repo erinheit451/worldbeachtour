@@ -1,0 +1,54 @@
+{
+  "slug": "arziglia",
+  "name": "ARZIGLIA",
+  "centroid_lat": 43.7852,
+  "centroid_lng": 7.684,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7206599805",
+      "source_url": "https://www.openstreetmap.org/node/7206599805"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7207039600",
+      "source_url": "https://www.openstreetmap.org/node/7207039600"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/77253762",
+      "source_url": "https://www.openstreetmap.org/way/77253762"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/765601384",
+      "source_url": "https://www.openstreetmap.org/way/765601384"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007008008007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007008008007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true,
+      "access": "permissive"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

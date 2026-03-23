@@ -1,0 +1,30 @@
+{
+  "slug": "orchard-beach-2",
+  "name": "Orchard Beach",
+  "centroid_lat": 40.8658111,
+  "centroid_lng": -73.7897734,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/14531618",
+      "source_url": "https://www.openstreetmap.org/relation/14531618"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7100176",
+      "source_url": "https://www.wikidata.org/wiki/Q7100176"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Orchard_Beach_(Bronx)"
+    }
+  }
+}

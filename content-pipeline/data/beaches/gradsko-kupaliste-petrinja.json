@@ -1,0 +1,30 @@
+{
+  "slug": "gradsko-kupaliste-petrinja",
+  "name": "Gradsko kupaliste Petrinja",
+  "centroid_lat": 45.44516,
+  "centroid_lng": 16.27009,
+  "country_code": "HR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWI-INLAND_1610KPT1",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWI-INLAND_1610KPT1",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

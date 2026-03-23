@@ -1,0 +1,27 @@
+{
+  "slug": "playa-majaguita",
+  "name": "Playa Majagüita",
+  "centroid_lat": 10.5925912,
+  "centroid_lng": -66.1103864,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/12829128",
+      "source_url": "https://www.openstreetmap.org/relation/12829128"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "permissive"
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

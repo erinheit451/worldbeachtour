@@ -1,0 +1,35 @@
+{
+  "slug": "tisza-folyo-vasarosnameny-gergelyiugornya-tisza-parti-strand",
+  "name": "TISZA FOLYO  VASAROSNAMENY-GERGELYIUGORNYA  TISZA-PARTI STRAND",
+  "centroid_lat": 48.11891,
+  "centroid_lng": 22.33552,
+  "country_code": "HU",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/18014138",
+      "source_url": "https://www.openstreetmap.org/relation/18014138"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_01602",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_01602",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

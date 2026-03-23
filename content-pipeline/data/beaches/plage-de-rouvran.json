@@ -1,0 +1,35 @@
+{
+  "slug": "plage-de-rouvran",
+  "name": "Plage de Rouvran",
+  "centroid_lat": 47.5174716,
+  "centroid_lng": -2.6485761,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/475479733",
+      "source_url": "https://www.openstreetmap.org/way/475479733"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0456252M056485",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0456252M056485",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

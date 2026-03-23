@@ -1,0 +1,30 @@
+{
+  "slug": "playa-parguito",
+  "name": "Playa Parguito",
+  "centroid_lat": 11.1326247,
+  "centroid_lng": -63.848821,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/169666626",
+      "source_url": "https://www.openstreetmap.org/way/169666626"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7203152",
+      "source_url": "https://www.wikidata.org/wiki/Q7203152"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20Parguito.JPG",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_Parguito"
+    }
+  }
+}

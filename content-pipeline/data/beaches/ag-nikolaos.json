@@ -1,0 +1,35 @@
+{
+  "slug": "ag-nikolaos",
+  "name": "Ag. Nikolaos",
+  "centroid_lat": 37.6851959,
+  "centroid_lng": 26.6202736,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/250706142",
+      "source_url": "https://www.openstreetmap.org/way/250706142"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/250706143",
+      "source_url": "https://www.openstreetmap.org/way/250706143"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/454573",
+      "source_url": "https://www.openstreetmap.org/relation/454573"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/454575",
+      "source_url": "https://www.openstreetmap.org/relation/454575"
+    }
+  ],
+  "attributes": {}
+}

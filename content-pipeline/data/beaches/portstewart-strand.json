@@ -1,0 +1,30 @@
+{
+  "slug": "portstewart-strand",
+  "name": "Portstewart Strand",
+  "centroid_lat": 55.1696452,
+  "centroid_lng": -6.7480729,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/305364153",
+      "source_url": "https://www.openstreetmap.org/way/305364153"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7232524",
+      "source_url": "https://www.wikidata.org/wiki/Q7232524"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Portstewart%20Strand%2C%20Co.%20Derry%20-%20Londonderry%20-%20geograph.org.uk%20-%20155430.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Portstewart_Strand"
+    }
+  }
+}

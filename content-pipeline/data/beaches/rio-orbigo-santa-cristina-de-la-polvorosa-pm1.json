@@ -1,0 +1,30 @@
+{
+  "slug": "rio-orbigo-santa-cristina-de-la-polvorosa-pm1",
+  "name": "RIO ORBIGO SANTA CRISTINA DE LA POLVOROSA PM1",
+  "centroid_lat": 42.0036,
+  "centroid_lng": -5.7104,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES419C2002565",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES419C2002565",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

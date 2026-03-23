@@ -1,0 +1,37 @@
+{
+  "slug": "greve-de-lecq",
+  "name": "Grève de Lecq",
+  "centroid_lat": 49.2476456,
+  "centroid_lng": -2.2014305,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/194909908",
+      "source_url": "https://www.openstreetmap.org/way/194909908"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/681030764",
+      "source_url": "https://www.openstreetmap.org/way/681030764"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q27118237",
+      "source_url": "https://www.wikidata.org/wiki/Q27118237"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plage%20de%20la%20gr%C3%A8ve%20de%20Lecq%20au%20nord%20de%20Jersey%20%28ao%C3%BBt%202019%29%202.JPG"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "lagonissi-grand-resort",
+  "name": "Lagonissi Grand Resort",
+  "centroid_lat": 37.7780094,
+  "centroid_lng": 23.8894784,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/405111020",
+      "source_url": "https://www.openstreetmap.org/way/405111020"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/405111024",
+      "source_url": "https://www.openstreetmap.org/way/405111024"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/405111025",
+      "source_url": "https://www.openstreetmap.org/way/405111025"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/496538839",
+      "source_url": "https://www.openstreetmap.org/way/496538839"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/518322578",
+      "source_url": "https://www.openstreetmap.org/way/518322578"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53632454",
+      "source_url": "https://www.wikidata.org/wiki/Q53632454"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW069225110101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW069225120101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW069225118101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW069225110101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW069225120101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW069225118101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

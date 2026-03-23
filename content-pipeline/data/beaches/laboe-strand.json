@@ -1,0 +1,27 @@
+{
+  "slug": "laboe-strand",
+  "name": "Laboe Strand",
+  "centroid_lat": 54.4111616,
+  "centroid_lng": 10.2272449,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/27377861",
+      "source_url": "https://www.openstreetmap.org/way/27377861"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "chester-woods-beach",
+  "name": "Chester Woods Beach",
+  "centroid_lat": 43.9906818,
+  "centroid_lng": -92.3097336,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/815755440",
+      "source_url": "https://www.openstreetmap.org/way/815755440"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

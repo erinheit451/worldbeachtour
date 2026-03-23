@@ -1,0 +1,30 @@
+{
+  "slug": "il-bajja-tax-xlendi-opp-ghar-ta-karolina",
+  "name": "IL-BAJJA TAX-XLENDI OPP GHAR TA KAROLINA",
+  "centroid_lat": 36.02944,
+  "centroid_lng": 14.21606,
+  "country_code": "MT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "MT0260264200000D05",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "MT0260264200000D05",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

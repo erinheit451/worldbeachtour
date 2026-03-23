@@ -1,0 +1,35 @@
+{
+  "slug": "chitticks-beach",
+  "name": "Chitticks Beach",
+  "centroid_lat": 45.1209599,
+  "centroid_lng": -66.5230825,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1317905040",
+      "source_url": "https://www.openstreetmap.org/node/1317905040"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/223183609",
+      "source_url": "https://www.openstreetmap.org/way/223183609"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/223183618",
+      "source_url": "https://www.openstreetmap.org/way/223183618"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22495458",
+      "source_url": "https://www.wikidata.org/wiki/Q22495458"
+    }
+  ],
+  "attributes": {}
+}

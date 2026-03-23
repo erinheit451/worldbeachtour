@@ -1,0 +1,30 @@
+{
+  "slug": "playa-cuevas",
+  "name": "Playa Cuevas",
+  "centroid_lat": 21.1389909,
+  "centroid_lng": -105.2318671,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/2771640226",
+      "source_url": "https://www.openstreetmap.org/node/2771640226"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/132692526",
+      "source_url": "https://www.openstreetmap.org/way/132692526"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33331203",
+      "source_url": "https://www.wikidata.org/wiki/Q33331203"
+    }
+  ],
+  "attributes": {}
+}

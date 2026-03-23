@@ -1,0 +1,32 @@
+{
+  "slug": "sakarun",
+  "name": "Sakarun",
+  "centroid_lat": 44.1336515,
+  "centroid_lng": 14.8720121,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/229112140",
+      "source_url": "https://www.openstreetmap.org/way/229112140"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6961232",
+      "source_url": "https://www.wikidata.org/wiki/Q6961232"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sakarun%20beach%2002.jpg"
+    }
+  }
+}

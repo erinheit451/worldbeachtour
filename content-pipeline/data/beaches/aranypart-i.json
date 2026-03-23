@@ -1,0 +1,58 @@
+{
+  "slug": "aranypart-i",
+  "name": "Aranypart I.",
+  "centroid_lat": 47.6932868,
+  "centroid_lng": 17.6243226,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/695770998",
+      "source_url": "https://www.openstreetmap.org/way/695770998"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/1712288",
+      "source_url": "https://www.openstreetmap.org/relation/1712288"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/1712291",
+      "source_url": "https://www.openstreetmap.org/relation/1712291"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_00806",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_00805",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_00806",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_00805",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

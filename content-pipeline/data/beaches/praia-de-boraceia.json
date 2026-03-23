@@ -1,0 +1,25 @@
+{
+  "slug": "praia-de-boraceia",
+  "name": "Praia de Boracéia",
+  "centroid_lat": -23.756875,
+  "centroid_lng": -45.8389194,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1409664893",
+      "source_url": "https://www.openstreetmap.org/node/1409664893"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/4812921",
+      "source_url": "https://www.openstreetmap.org/relation/4812921"
+    }
+  ],
+  "attributes": {}
+}

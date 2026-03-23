@@ -1,0 +1,54 @@
+{
+  "slug": "calypso",
+  "name": "Calypso",
+  "centroid_lat": 42.4812551,
+  "centroid_lng": 14.2003688,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/630752633",
+      "source_url": "https://www.openstreetmap.org/node/630752633"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/459630930",
+      "source_url": "https://www.openstreetmap.org/way/459630930"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/863488472",
+      "source_url": "https://www.openstreetmap.org/way/863488472"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1132927903",
+      "source_url": "https://www.openstreetmap.org/way/1132927903"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1132927904",
+      "source_url": "https://www.openstreetmap.org/way/1132927904"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1132927905",
+      "source_url": "https://www.openstreetmap.org/way/1132927905"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1132927906",
+      "source_url": "https://www.openstreetmap.org/way/1132927906"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

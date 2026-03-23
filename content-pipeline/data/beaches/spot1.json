@@ -1,0 +1,46 @@
+{
+  "slug": "spot1",
+  "name": "Spot1",
+  "centroid_lat": 43.3139071,
+  "centroid_lng": 10.4714184,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5682384245",
+      "source_url": "https://www.openstreetmap.org/node/5682384245"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14152032",
+      "source_url": "https://www.openstreetmap.org/relation/14152032"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049007002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049007002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "surfing": {
+      "surfing_available": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

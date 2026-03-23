@@ -1,0 +1,24 @@
+{
+  "slug": "kylan-ranta",
+  "name": "Kylän ranta",
+  "centroid_lat": 60.7537095,
+  "centroid_lng": 24.5316454,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/358831673",
+      "source_url": "https://www.openstreetmap.org/way/358831673"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

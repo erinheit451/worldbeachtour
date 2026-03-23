@@ -1,0 +1,43 @@
+{
+  "slug": "spiaggia-multedo",
+  "name": "SPIAGGIA MULTEDO",
+  "centroid_lat": 44.4233,
+  "centroid_lng": 8.8239,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/25829197",
+      "source_url": "https://www.openstreetmap.org/way/25829197"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/360558539",
+      "source_url": "https://www.openstreetmap.org/way/360558539"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010025040",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010025040",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

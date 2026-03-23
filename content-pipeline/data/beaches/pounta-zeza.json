@@ -1,0 +1,43 @@
+{
+  "slug": "pounta-zeza",
+  "name": "Πούντα Ζέζα",
+  "centroid_lat": 37.6805396,
+  "centroid_lng": 24.0642731,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/362599848",
+      "source_url": "https://www.openstreetmap.org/way/362599848"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659811032",
+      "source_url": "https://www.openstreetmap.org/way/659811032"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW069219034101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW069219034101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

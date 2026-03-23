@@ -1,0 +1,24 @@
+{
+  "slug": "spiaggietta-carmignani",
+  "name": "Spiaggietta Carmignani",
+  "centroid_lat": 42.7634154,
+  "centroid_lng": 10.4028746,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/15883624",
+      "source_url": "https://www.openstreetmap.org/relation/15883624"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

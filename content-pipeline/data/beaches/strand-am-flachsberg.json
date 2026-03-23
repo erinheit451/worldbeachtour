@@ -1,0 +1,36 @@
+{
+  "slug": "strand-am-flachsberg",
+  "name": "Strand am Flachsberg",
+  "centroid_lat": 52.4997528,
+  "centroid_lng": 12.6639127,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/479150686",
+      "source_url": "https://www.openstreetmap.org/way/479150686"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/479150687",
+      "source_url": "https://www.openstreetmap.org/way/479150687"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false,
+      "access": "permissive"
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "qui-si-sana-tigne",
+  "name": "QUI-SI-SANA TIGNE",
+  "centroid_lat": 35.90928,
+  "centroid_lng": 14.51111,
+  "country_code": "MT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "MT0120125900000B15",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "MT0120125900000B15",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

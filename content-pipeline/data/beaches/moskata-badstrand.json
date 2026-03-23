@@ -1,0 +1,29 @@
+{
+  "slug": "moskata-badstrand",
+  "name": "Möskata badstrand",
+  "centroid_lat": 60.0937663,
+  "centroid_lng": 19.8199147,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/554922500",
+      "source_url": "https://www.openstreetmap.org/way/554922500"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1074859151",
+      "source_url": "https://www.openstreetmap.org/way/1074859151"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

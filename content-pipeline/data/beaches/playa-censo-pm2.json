@@ -1,0 +1,35 @@
+{
+  "slug": "playa-censo-pm2",
+  "name": "PLAYA  CENSO PM2",
+  "centroid_lat": 36.7432,
+  "centroid_lng": -3.0113,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/779663922",
+      "source_url": "https://www.openstreetmap.org/way/779663922"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES611M0031266",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES611M0031266",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

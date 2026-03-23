@@ -1,0 +1,27 @@
+{
+  "slug": "beach-50.4762-36.6855",
+  "name": null,
+  "centroid_lat": 50.4761774,
+  "centroid_lng": 36.6854873,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/11086995",
+      "source_url": "https://www.openstreetmap.org/relation/11086995"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "no"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "balinghai-beach",
+  "name": "Balinghai Beach",
+  "centroid_lat": 11.9794155,
+  "centroid_lng": 121.9093411,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/216954715",
+      "source_url": "https://www.openstreetmap.org/way/216954715"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/495014968",
+      "source_url": "https://www.openstreetmap.org/way/495014968"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/495014969",
+      "source_url": "https://www.openstreetmap.org/way/495014969"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "unknown"
+    }
+  }
+}

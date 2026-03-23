@@ -1,0 +1,54 @@
+{
+  "slug": "solystranda",
+  "name": "Sølystranda",
+  "centroid_lat": 59.4261394,
+  "centroid_lng": 10.6387742,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/29429938",
+      "source_url": "https://www.openstreetmap.org/way/29429938"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/607723142",
+      "source_url": "https://www.openstreetmap.org/way/607723142"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1395927829",
+      "source_url": "https://www.openstreetmap.org/way/1395927829"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1395927831",
+      "source_url": "https://www.openstreetmap.org/way/1395927831"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1395945005",
+      "source_url": "https://www.openstreetmap.org/way/1395945005"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1395945006",
+      "source_url": "https://www.openstreetmap.org/way/1395945006"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1395949675",
+      "source_url": "https://www.openstreetmap.org/way/1395949675"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

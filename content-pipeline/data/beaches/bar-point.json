@@ -1,0 +1,37 @@
+{
+  "slug": "bar-point",
+  "name": "Bar Point",
+  "centroid_lat": 49.937277777,
+  "centroid_lng": -6.299277777,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/203556953",
+      "source_url": "https://www.openstreetmap.org/way/203556953"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1311289920",
+      "source_url": "https://www.openstreetmap.org/way/1311289920"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q105414513",
+      "source_url": "https://www.wikidata.org/wiki/Q105414513"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bar%20Point%2C%20St.%20Mary%27s%20-%20geograph.org.uk%20-%2015840.jpg"
+    }
+  }
+}

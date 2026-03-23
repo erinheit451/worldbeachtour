@@ -1,0 +1,29 @@
+{
+  "slug": "spiaggia-del-sole",
+  "name": "Spiaggia del sole",
+  "centroid_lat": 44.0058537,
+  "centroid_lng": 12.6589616,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1695189",
+      "source_url": "https://www.openstreetmap.org/relation/1695189"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/1695190",
+      "source_url": "https://www.openstreetmap.org/relation/1695190"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": "sand"
+    }
+  }
+}

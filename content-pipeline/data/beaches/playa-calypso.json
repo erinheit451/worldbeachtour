@@ -1,0 +1,29 @@
+{
+  "slug": "playa-calypso",
+  "name": "Playa Calypso",
+  "centroid_lat": 37.3534617,
+  "centroid_lng": -1.6760447,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/179635097",
+      "source_url": "https://www.openstreetmap.org/way/179635097"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q113363258",
+      "source_url": "https://www.wikidata.org/wiki/Q113363258"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20calypso.jpg"
+    }
+  }
+}

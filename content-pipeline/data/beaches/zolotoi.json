@@ -1,0 +1,35 @@
+{
+  "slug": "zolotoi",
+  "name": "Золотой",
+  "centroid_lat": 60.1508603,
+  "centroid_lng": 30.5314496,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/3732893845",
+      "source_url": "https://www.openstreetmap.org/node/3732893845"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/3732893846",
+      "source_url": "https://www.openstreetmap.org/node/3732893846"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/165344333",
+      "source_url": "https://www.openstreetmap.org/way/165344333"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/4598132",
+      "source_url": "https://www.openstreetmap.org/relation/4598132"
+    }
+  ],
+  "attributes": {}
+}

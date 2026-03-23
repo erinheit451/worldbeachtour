@@ -1,0 +1,29 @@
+{
+  "slug": "greenmount-beach",
+  "name": "Greenmount Beach",
+  "centroid_lat": -28.1658807,
+  "centroid_lng": 153.5424434,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/987272848",
+      "source_url": "https://www.openstreetmap.org/way/987272848"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q5604331",
+      "source_url": "https://www.wikidata.org/wiki/Q5604331"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Greenmount_Beach"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "gronemad",
+  "name": "Grönemad",
+  "centroid_lat": 58.6982,
+  "centroid_lng": 11.2185,
+  "country_code": "SE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/14382912",
+      "source_url": "https://www.openstreetmap.org/relation/14382912"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0A21435000006039",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0A21435000006039",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

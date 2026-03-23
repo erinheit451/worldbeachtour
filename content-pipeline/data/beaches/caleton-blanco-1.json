@@ -1,0 +1,43 @@
+{
+  "slug": "caleton-blanco-1",
+  "name": "Caletón Blanco",
+  "centroid_lat": 29.2162818,
+  "centroid_lng": -13.4427549,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/153575996",
+      "source_url": "https://www.openstreetmap.org/way/153575996"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q5640769",
+      "source_url": "https://www.wikidata.org/wiki/Q5640769"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES708M0101712",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES708M0101712",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Calet%C3%B3n%20Blanco%20beach.JPG"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

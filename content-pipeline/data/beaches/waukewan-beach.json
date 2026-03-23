@@ -1,0 +1,29 @@
+{
+  "slug": "waukewan-beach",
+  "name": "Waukewan Beach",
+  "centroid_lat": 43.6470349,
+  "centroid_lng": -71.5081401,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1391172421",
+      "source_url": "https://www.openstreetmap.org/way/1391172421"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1410057676",
+      "source_url": "https://www.openstreetmap.org/way/1410057676"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "petite-baie",
+  "name": "Petite Baie",
+  "centroid_lat": 18.0733616,
+  "centroid_lng": -63.1146396,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/256774771",
+      "source_url": "https://www.openstreetmap.org/way/256774771"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/334148722",
+      "source_url": "https://www.openstreetmap.org/way/334148722"
+    }
+  ],
+  "attributes": {}
+}

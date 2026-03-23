@@ -1,0 +1,29 @@
+{
+  "slug": "cala-dels-capellans",
+  "name": "Cala dels Capellans",
+  "centroid_lat": 41.0683586,
+  "centroid_lng": 1.1484073,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1615406",
+      "source_url": "https://www.openstreetmap.org/relation/1615406"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24023171",
+      "source_url": "https://www.wikidata.org/wiki/Q24023171"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Salou%20Platja%20dels%20Capellans%20%2819120703462%29.jpg"
+    }
+  }
+}

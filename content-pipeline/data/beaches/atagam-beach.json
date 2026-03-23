@@ -1,0 +1,35 @@
+{
+  "slug": "atagam-beach",
+  "name": "Atagam Beach",
+  "centroid_lat": 39.238333333,
+  "centroid_lng": -120.046111111,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1195027389",
+      "source_url": "https://www.openstreetmap.org/way/1195027389"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1195027395",
+      "source_url": "https://www.openstreetmap.org/way/1195027395"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1195027396",
+      "source_url": "https://www.openstreetmap.org/way/1195027396"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320055",
+      "source_url": "https://www.wikidata.org/wiki/Q49320055"
+    }
+  ],
+  "attributes": {}
+}

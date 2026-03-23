@@ -1,0 +1,45 @@
+{
+  "slug": "inganna-lc-53",
+  "name": "INGANNA - LC 53",
+  "centroid_lat": 46.1431,
+  "centroid_lng": 9.3741,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/18404291",
+      "source_url": "https://www.openstreetmap.org/relation/18404291"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q134592375",
+      "source_url": "https://www.wikidata.org/wiki/Q134592375"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q134592379",
+      "source_url": "https://www.wikidata.org/wiki/Q134592379"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT003097023003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT003097023003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "beck-s-beach",
+  "name": "Beck's Beach",
+  "centroid_lat": 14.2784898,
+  "centroid_lng": 120.6568213,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1368134828",
+      "source_url": "https://www.openstreetmap.org/way/1368134828"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1368134840",
+      "source_url": "https://www.openstreetmap.org/way/1368134840"
+    }
+  ],
+  "attributes": {}
+}

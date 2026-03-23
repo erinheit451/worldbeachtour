@@ -1,0 +1,35 @@
+{
+  "slug": "cormoranche-saone-plan-d-eau-de-la-base-de-loisirs-la-pierre-thorion",
+  "name": "CORMORANCHE/SAONE PLAN D EAU DE LA BASE DE LOISIRS LA PIERRE THORION",
+  "centroid_lat": 46.25298,
+  "centroid_lng": 4.8252,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/42563963",
+      "source_url": "https://www.openstreetmap.org/way/42563963"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2101123D001607",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2101123D001607",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

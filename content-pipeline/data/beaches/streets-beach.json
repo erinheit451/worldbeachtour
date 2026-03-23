@@ -1,0 +1,30 @@
+{
+  "slug": "streets-beach",
+  "name": "Streets Beach",
+  "centroid_lat": -27.478589,
+  "centroid_lng": 153.023467,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/27951887",
+      "source_url": "https://www.openstreetmap.org/way/27951887"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q91411875",
+      "source_url": "https://www.wikidata.org/wiki/Q91411875"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Streets%20Beach%20at%20South%20Bank%20Parklands%2C%20Brisbane%2001.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Streets_Beach"
+    }
+  }
+}

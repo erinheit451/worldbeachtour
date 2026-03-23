@@ -1,0 +1,29 @@
+{
+  "slug": "villeneuve-plage-riviera",
+  "name": "Villeneuve Plage (Riviera)",
+  "centroid_lat": 46.4026169,
+  "centroid_lng": 6.9255974,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/614293139",
+      "source_url": "https://www.openstreetmap.org/way/614293139"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/614506977",
+      "source_url": "https://www.openstreetmap.org/way/614506977"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "islip-town-beach",
+  "name": "Islip Town Beach",
+  "centroid_lat": 40.7063923,
+  "centroid_lng": -73.2142873,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357593247",
+      "source_url": "https://www.openstreetmap.org/node/357593247"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/284374669",
+      "source_url": "https://www.openstreetmap.org/way/284374669"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/468809923",
+      "source_url": "https://www.openstreetmap.org/way/468809923"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/609295576",
+      "source_url": "https://www.openstreetmap.org/way/609295576"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49325049",
+      "source_url": "https://www.wikidata.org/wiki/Q49325049"
+    }
+  ],
+  "attributes": {}
+}

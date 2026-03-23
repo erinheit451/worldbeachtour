@@ -1,0 +1,73 @@
+{
+  "slug": "barbat-zapad",
+  "name": "Barbat zapad",
+  "centroid_lat": 44.74317,
+  "centroid_lng": 14.78914,
+  "country_code": "HR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/914823163",
+      "source_url": "https://www.openstreetmap.org/way/914823163"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/920943915",
+      "source_url": "https://www.openstreetmap.org/way/920943915"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/920943916",
+      "source_url": "https://www.openstreetmap.org/way/920943916"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/920943917",
+      "source_url": "https://www.openstreetmap.org/way/920943917"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/920943918",
+      "source_url": "https://www.openstreetmap.org/way/920943918"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/920943919",
+      "source_url": "https://www.openstreetmap.org/way/920943919"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/920943920",
+      "source_url": "https://www.openstreetmap.org/way/920943920"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/920943921",
+      "source_url": "https://www.openstreetmap.org/way/920943921"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6281",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6281",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

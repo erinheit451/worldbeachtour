@@ -1,0 +1,29 @@
+{
+  "slug": "playa-blanca-1",
+  "name": "Playa Blanca",
+  "centroid_lat": 9.7015677,
+  "centroid_lng": -84.6684269,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/392082695",
+      "source_url": "https://www.openstreetmap.org/node/392082695"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/250255620",
+      "source_url": "https://www.openstreetmap.org/way/250255620"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "permissive"
+    }
+  }
+}

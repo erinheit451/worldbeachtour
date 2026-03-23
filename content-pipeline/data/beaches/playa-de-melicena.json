@@ -1,0 +1,40 @@
+{
+  "slug": "playa-de-melicena",
+  "name": "Playa de Melicena",
+  "centroid_lat": 36.7507453,
+  "centroid_lng": -3.2358339,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1205181529",
+      "source_url": "https://www.openstreetmap.org/way/1205181529"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6078897",
+      "source_url": "https://www.wikidata.org/wiki/Q6078897"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES614M1771453",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES614M1771453",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

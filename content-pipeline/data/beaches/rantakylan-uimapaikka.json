@@ -1,0 +1,48 @@
+{
+  "slug": "rantakylan-uimapaikka",
+  "name": "Rantakylän uimapaikka",
+  "centroid_lat": 64.8073082,
+  "centroid_lng": 25.3458543,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/709119175",
+      "source_url": "https://www.openstreetmap.org/way/709119175"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1238556380",
+      "source_url": "https://www.openstreetmap.org/way/1238556380"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/11049255",
+      "source_url": "https://www.openstreetmap.org/relation/11049255"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI151425002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI151425002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

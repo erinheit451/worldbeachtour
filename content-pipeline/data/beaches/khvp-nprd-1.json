@@ -1,0 +1,29 @@
+{
+  "slug": "khvp-nprd-1",
+  "name": "חוף נפרד",
+  "centroid_lat": 31.995208,
+  "centroid_lng": 34.7301197,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/183357904",
+      "source_url": "https://www.openstreetmap.org/way/183357904"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/373975620",
+      "source_url": "https://www.openstreetmap.org/way/373975620"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

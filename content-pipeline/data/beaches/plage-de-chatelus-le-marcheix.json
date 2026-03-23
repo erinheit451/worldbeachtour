@@ -1,0 +1,30 @@
+{
+  "slug": "plage-de-chatelus-le-marcheix",
+  "name": "Plage de Châtelus le Marcheix",
+  "centroid_lat": 45.9942665,
+  "centroid_lng": 1.6070556,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/731591485",
+      "source_url": "https://www.openstreetmap.org/way/731591485"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "fee_required": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

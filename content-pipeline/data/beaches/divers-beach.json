@@ -1,0 +1,24 @@
+{
+  "slug": "divers-beach",
+  "name": "DIVERS BEACH",
+  "centroid_lat": 38.0693997,
+  "centroid_lng": 23.9975394,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/526227210",
+      "source_url": "https://www.openstreetmap.org/way/526227210"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

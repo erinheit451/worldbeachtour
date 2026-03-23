@@ -1,0 +1,35 @@
+{
+  "slug": "koehler-bad-schonstett-westufer",
+  "name": "KOEHLER BAD, SCHONSTETT, WESTUFER",
+  "centroid_lat": 47.9858,
+  "centroid_lng": 12.2422,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/837674291",
+      "source_url": "https://www.openstreetmap.org/way/837674291"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_RO_0271",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_RO_0271",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

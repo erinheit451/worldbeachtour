@@ -1,0 +1,30 @@
+{
+  "slug": "etang-de-berlange-woippy-plage",
+  "name": "ETANG DE BERLANGE (WOIPPY PLAGE)",
+  "centroid_lat": 49.15429,
+  "centroid_lng": 6.1626,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRF3357751D057260",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRF3357751D057260",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

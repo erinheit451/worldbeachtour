@@ -1,0 +1,35 @@
+{
+  "slug": "aiykayes-beach-resort",
+  "name": "Aiykayes Beach Resort",
+  "centroid_lat": 10.8467277,
+  "centroid_lng": 123.8737727,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9909753521",
+      "source_url": "https://www.openstreetmap.org/node/9909753521"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/110855131",
+      "source_url": "https://www.openstreetmap.org/way/110855131"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/110855150",
+      "source_url": "https://www.openstreetmap.org/way/110855150"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/1562646",
+      "source_url": "https://www.openstreetmap.org/relation/1562646"
+    }
+  ],
+  "attributes": {}
+}

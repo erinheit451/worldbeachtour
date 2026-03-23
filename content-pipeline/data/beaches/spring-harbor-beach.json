@@ -1,0 +1,25 @@
+{
+  "slug": "spring-harbor-beach",
+  "name": "Spring Harbor Beach",
+  "centroid_lat": 43.0828485,
+  "centroid_lng": -89.4695014,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/249152837",
+      "source_url": "https://www.openstreetmap.org/way/249152837"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324856",
+      "source_url": "https://www.wikidata.org/wiki/Q49324856"
+    }
+  ],
+  "attributes": {}
+}

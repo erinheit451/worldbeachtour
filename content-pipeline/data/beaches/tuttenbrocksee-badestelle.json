@@ -1,0 +1,35 @@
+{
+  "slug": "tuttenbrocksee-badestelle",
+  "name": "TUTTENBROCKSEE/BADESTELLE",
+  "centroid_lat": 51.7743,
+  "centroid_lng": 8.028,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/517033333",
+      "source_url": "https://www.openstreetmap.org/way/517033333"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DENW_PR_0079",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DENW_PR_0079",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

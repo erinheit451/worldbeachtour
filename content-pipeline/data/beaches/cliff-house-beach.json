@@ -1,0 +1,35 @@
+{
+  "slug": "cliff-house-beach",
+  "name": "Cliff House Beach",
+  "centroid_lat": 43.6328609,
+  "centroid_lng": -70.2211587,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/358231820",
+      "source_url": "https://www.openstreetmap.org/node/358231820"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/469783245",
+      "source_url": "https://www.openstreetmap.org/way/469783245"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/472820657",
+      "source_url": "https://www.openstreetmap.org/way/472820657"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33326041",
+      "source_url": "https://www.wikidata.org/wiki/Q33326041"
+    }
+  ],
+  "attributes": {}
+}

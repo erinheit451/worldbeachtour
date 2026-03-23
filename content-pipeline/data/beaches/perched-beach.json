@@ -1,0 +1,38 @@
+{
+  "slug": "perched-beach",
+  "name": "PERCHED BEACH",
+  "centroid_lat": 35.95438,
+  "centroid_lng": 14.41711,
+  "country_code": "MT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q20925851",
+      "source_url": "https://www.wikidata.org/wiki/Q20925851"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "MT0150155500000C27",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "MT0150155500000C27",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Malta%20-%20St.%20Paul%27s%20Bay%20-%20Dawret%20il-Gzejjer%20-%20Ix-Xtajta%20ta%27%20Bugibba%2004%20ies.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

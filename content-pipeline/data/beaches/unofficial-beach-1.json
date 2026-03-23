@@ -1,0 +1,37 @@
+{
+  "slug": "unofficial-beach-1",
+  "name": "Unofficial beach",
+  "centroid_lat": 43.4914204,
+  "centroid_lng": 16.3626968,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/444793391",
+      "source_url": "https://www.openstreetmap.org/way/444793391"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/444793392",
+      "source_url": "https://www.openstreetmap.org/way/444793392"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/445084957",
+      "source_url": "https://www.openstreetmap.org/way/445084957"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "customary"
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

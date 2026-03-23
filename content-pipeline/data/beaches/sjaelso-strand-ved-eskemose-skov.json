@@ -1,0 +1,35 @@
+{
+  "slug": "sjaelso-strand-ved-eskemose-skov",
+  "name": "Sjælsø strand ved Eskemose skov",
+  "centroid_lat": 55.8599526,
+  "centroid_lng": 12.4430831,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/359664118",
+      "source_url": "https://www.openstreetmap.org/way/359664118"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW1465",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW1465",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

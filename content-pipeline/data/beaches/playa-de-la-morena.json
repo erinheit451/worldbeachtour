@@ -1,0 +1,27 @@
+{
+  "slug": "playa-de-la-morena",
+  "name": "Playa de \"La Morena\"",
+  "centroid_lat": 37.5819534,
+  "centroid_lng": -1.0684942,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/289893793",
+      "source_url": "https://www.openstreetmap.org/way/289893793"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "obligatory"
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

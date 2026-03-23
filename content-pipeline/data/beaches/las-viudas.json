@@ -1,0 +1,25 @@
+{
+  "slug": "las-viudas",
+  "name": "Las viudas",
+  "centroid_lat": 20.7358666,
+  "centroid_lng": -105.3986445,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1007528329",
+      "source_url": "https://www.openstreetmap.org/way/1007528329"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1007528333",
+      "source_url": "https://www.openstreetmap.org/way/1007528333"
+    }
+  ],
+  "attributes": {}
+}

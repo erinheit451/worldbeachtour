@@ -1,0 +1,34 @@
+{
+  "slug": "plages-du-mourillon",
+  "name": "Plages du Mourillon",
+  "centroid_lat": 43.1071423,
+  "centroid_lng": 5.9450152,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/27334761",
+      "source_url": "https://www.openstreetmap.org/way/27334761"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q52747891",
+      "source_url": "https://www.wikidata.org/wiki/Q52747891"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q120181311",
+      "source_url": "https://www.wikidata.org/wiki/Q120181311"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Toulon%20-%20Plage%20du%20Mourillon%20-%20panoramio.jpg"
+    }
+  }
+}

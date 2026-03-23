@@ -1,0 +1,30 @@
+{
+  "slug": "amphitheatre",
+  "name": "Amphitheatre",
+  "centroid_lat": 35.075006,
+  "centroid_lng": 32.3177627,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/632302189",
+      "source_url": "https://www.openstreetmap.org/way/632302189"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "plaza-omorika",
+  "name": "Plaža Omorika",
+  "centroid_lat": 45.1872276,
+  "centroid_lng": 14.6738082,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/297341355",
+      "source_url": "https://www.openstreetmap.org/way/297341355"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/808104062",
+      "source_url": "https://www.openstreetmap.org/way/808104062"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/891872152",
+      "source_url": "https://www.openstreetmap.org/way/891872152"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/891872153",
+      "source_url": "https://www.openstreetmap.org/way/891872153"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1191748763",
+      "source_url": "https://www.openstreetmap.org/way/1191748763"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1191754121",
+      "source_url": "https://www.openstreetmap.org/way/1191754121"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1191755545",
+      "source_url": "https://www.openstreetmap.org/way/1191755545"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6022",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6024",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6023",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6022",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6024",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6023",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

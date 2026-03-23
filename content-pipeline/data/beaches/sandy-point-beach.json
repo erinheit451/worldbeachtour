@@ -1,0 +1,37 @@
+{
+  "slug": "sandy-point-beach",
+  "name": "Sandy Point Beach",
+  "centroid_lat": 17.6769056,
+  "centroid_lng": -64.9019967,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/356559495",
+      "source_url": "https://www.openstreetmap.org/node/356559495"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/18130767",
+      "source_url": "https://www.openstreetmap.org/relation/18130767"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q32015734",
+      "source_url": "https://www.wikidata.org/wiki/Q32015734"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "social": {
+      "dog_friendly": false
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "qsc-beach-resort",
+  "name": "QSC Beach Resort",
+  "centroid_lat": 8.2220823,
+  "centroid_lng": 123.863045,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5696652231",
+      "source_url": "https://www.openstreetmap.org/node/5696652231"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5696676821",
+      "source_url": "https://www.openstreetmap.org/node/5696676821"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5696676822",
+      "source_url": "https://www.openstreetmap.org/node/5696676822"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5696678121",
+      "source_url": "https://www.openstreetmap.org/node/5696678121"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/18149839",
+      "source_url": "https://www.openstreetmap.org/relation/18149839"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/18149840",
+      "source_url": "https://www.openstreetmap.org/relation/18149840"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "biedermeierstrand",
+  "name": "Biedermeierstrand",
+  "centroid_lat": 51.4310594,
+  "centroid_lng": 12.3216342,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/595859209",
+      "source_url": "https://www.openstreetmap.org/way/595859209"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/699792527",
+      "source_url": "https://www.openstreetmap.org/way/699792527"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/699792528",
+      "source_url": "https://www.openstreetmap.org/way/699792528"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14212022",
+      "source_url": "https://www.openstreetmap.org/relation/14212022"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "social": {
+      "dog_friendly": false
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "spiaggia-la-licciola",
+  "name": "Spiaggia La Licciola",
+  "centroid_lat": 41.2307623,
+  "centroid_lng": 9.2754537,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/118979160",
+      "source_url": "https://www.openstreetmap.org/way/118979160"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33342792",
+      "source_url": "https://www.wikidata.org/wiki/Q33342792"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020104022006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020104022006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Spiaggia%20della%20Licciola%20presso%20Valle%20dell%27Erica%20-%20panoramio.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "playa-isla-de-las-palomas",
+  "name": "Playa Isla de Las Palomas",
+  "centroid_lat": 36.0052769,
+  "centroid_lng": -5.6090352,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1135550758",
+      "source_url": "https://www.openstreetmap.org/way/1135550758"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1465170353",
+      "source_url": "https://www.openstreetmap.org/way/1465170353"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

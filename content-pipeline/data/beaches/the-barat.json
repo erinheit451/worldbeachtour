@@ -1,0 +1,30 @@
+{
+  "slug": "the-barat",
+  "name": "The Barat",
+  "centroid_lat": 2.7833276,
+  "centroid_lng": 104.2040787,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/13017338369",
+      "source_url": "https://www.openstreetmap.org/node/13017338369"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/106609902",
+      "source_url": "https://www.openstreetmap.org/way/106609902"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33329112",
+      "source_url": "https://www.wikidata.org/wiki/Q33329112"
+    }
+  ],
+  "attributes": {}
+}

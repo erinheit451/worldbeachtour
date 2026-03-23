@@ -1,0 +1,45 @@
+{
+  "slug": "platja-del-riu-de-la-senia",
+  "name": "Platja del Riu de la Sénia",
+  "centroid_lat": 40.5221144,
+  "centroid_lng": 0.5142425,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/240509569",
+      "source_url": "https://www.openstreetmap.org/way/240509569"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14511631",
+      "source_url": "https://www.openstreetmap.org/relation/14511631"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14511637",
+      "source_url": "https://www.openstreetmap.org/relation/14511637"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q130213507",
+      "source_url": "https://www.wikidata.org/wiki/Q130213507"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q130213756",
+      "source_url": "https://www.wikidata.org/wiki/Q130213756"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platja%20del%20Riu%20de%20la%20S%C3%A8nia%2C%20Vinar%C3%B2s.jpg"
+    }
+  }
+}

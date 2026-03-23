@@ -1,0 +1,24 @@
+{
+  "slug": "crescent-beach-30",
+  "name": "Crescent Beach",
+  "centroid_lat": 14.1341522,
+  "centroid_lng": 120.5936938,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/10743421",
+      "source_url": "https://www.openstreetmap.org/relation/10743421"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "private"
+    }
+  }
+}

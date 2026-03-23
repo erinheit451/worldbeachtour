@@ -1,0 +1,29 @@
+{
+  "slug": "playa-de-cadaveu",
+  "name": "Playa de Cadavéu",
+  "centroid_lat": 43.5523637,
+  "centroid_lng": -6.3711501,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/16215221",
+      "source_url": "https://www.openstreetmap.org/relation/16215221"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6078621",
+      "source_url": "https://www.wikidata.org/wiki/Q6078621"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cadavedo%2001%20by-dpc.jpg"
+    }
+  }
+}

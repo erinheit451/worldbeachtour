@@ -1,0 +1,58 @@
+{
+  "slug": "soline",
+  "name": "Soline",
+  "centroid_lat": 43.2174426,
+  "centroid_lng": 17.1085461,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/82652475",
+      "source_url": "https://www.openstreetmap.org/way/82652475"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/82788716",
+      "source_url": "https://www.openstreetmap.org/way/82788716"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/971879374",
+      "source_url": "https://www.openstreetmap.org/way/971879374"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/971879390",
+      "source_url": "https://www.openstreetmap.org/way/971879390"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/973549623",
+      "source_url": "https://www.openstreetmap.org/way/973549623"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

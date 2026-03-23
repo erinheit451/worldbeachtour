@@ -1,0 +1,37 @@
+{
+  "slug": "praia-da-saude-1",
+  "name": "Praia da Saúde",
+  "centroid_lat": 38.5167452,
+  "centroid_lng": -8.9060374,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/405133500",
+      "source_url": "https://www.openstreetmap.org/way/405133500"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1180580193",
+      "source_url": "https://www.openstreetmap.org/way/1180580193"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q20059264",
+      "source_url": "https://www.wikidata.org/wiki/Q20059264"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20da%20Sa%C3%BAde%2C%20Set%C3%BAbal%2C%20Portugal.jpg"
+    }
+  }
+}

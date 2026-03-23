@@ -1,0 +1,67 @@
+{
+  "slug": "de-l-embarril",
+  "name": "de l'embarril",
+  "centroid_lat": 42.367675,
+  "centroid_lng": 3.1667229,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1190653037",
+      "source_url": "https://www.openstreetmap.org/way/1190653037"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8314113",
+      "source_url": "https://www.openstreetmap.org/relation/8314113"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8314117",
+      "source_url": "https://www.openstreetmap.org/relation/8314117"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8314123",
+      "source_url": "https://www.openstreetmap.org/relation/8314123"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8314124",
+      "source_url": "https://www.openstreetmap.org/relation/8314124"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24021750",
+      "source_url": "https://www.wikidata.org/wiki/Q24021750"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q121626169",
+      "source_url": "https://www.wikidata.org/wiki/Q121626169"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q121666196",
+      "source_url": "https://www.wikidata.org/wiki/Q121666196"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q121666560",
+      "source_url": "https://www.wikidata.org/wiki/Q121666560"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platja%20de%20les%20Carboneres.jpg"
+    }
+  }
+}

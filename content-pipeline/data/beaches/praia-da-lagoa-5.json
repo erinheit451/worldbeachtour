@@ -1,0 +1,25 @@
+{
+  "slug": "praia-da-lagoa-5",
+  "name": "Praia da Lagoa",
+  "centroid_lat": -27.1900008,
+  "centroid_lng": -48.5510128,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/6610020",
+      "source_url": "https://www.openstreetmap.org/relation/6610020"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22052164",
+      "source_url": "https://www.wikidata.org/wiki/Q22052164"
+    }
+  ],
+  "attributes": {}
+}

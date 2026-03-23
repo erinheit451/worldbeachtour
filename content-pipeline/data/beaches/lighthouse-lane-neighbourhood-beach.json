@@ -1,0 +1,69 @@
+{
+  "slug": "lighthouse-lane-neighbourhood-beach",
+  "name": "Lighthouse Lane Neighbourhood Beach",
+  "centroid_lat": 49.3401294,
+  "centroid_lng": -123.4323495,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/645162005",
+      "source_url": "https://www.openstreetmap.org/way/645162005"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/645162006",
+      "source_url": "https://www.openstreetmap.org/way/645162006"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1154422263",
+      "source_url": "https://www.openstreetmap.org/way/1154422263"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1188793673",
+      "source_url": "https://www.openstreetmap.org/way/1188793673"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1191522632",
+      "source_url": "https://www.openstreetmap.org/way/1191522632"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1191525173",
+      "source_url": "https://www.openstreetmap.org/way/1191525173"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1191529798",
+      "source_url": "https://www.openstreetmap.org/way/1191529798"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1191529805",
+      "source_url": "https://www.openstreetmap.org/way/1191529805"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1191533326",
+      "source_url": "https://www.openstreetmap.org/way/1191533326"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1191536653",
+      "source_url": "https://www.openstreetmap.org/way/1191536653"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

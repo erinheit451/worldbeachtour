@@ -1,0 +1,43 @@
+{
+  "slug": "boutrouilles",
+  "name": "BOUTROUILLES",
+  "centroid_lat": 48.65436,
+  "centroid_lng": -4.41006,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/614553352",
+      "source_url": "https://www.openstreetmap.org/way/614553352"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322546",
+      "source_url": "https://www.wikidata.org/wiki/Q49322546"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229091M029255",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229091M029255",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": "interval"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

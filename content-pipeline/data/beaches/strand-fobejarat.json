@@ -1,0 +1,40 @@
+{
+  "slug": "strand-fobejarat",
+  "name": "Strand főbejárat",
+  "centroid_lat": 46.140317,
+  "centroid_lng": 18.155583,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/3440813459",
+      "source_url": "https://www.openstreetmap.org/node/3440813459"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/387592251",
+      "source_url": "https://www.openstreetmap.org/way/387592251"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_00201",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_00201",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

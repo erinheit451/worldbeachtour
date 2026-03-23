@@ -1,0 +1,35 @@
+{
+  "slug": "plaza-ujca",
+  "name": "Plaža Ujča",
+  "centroid_lat": 44.9680906,
+  "centroid_lng": 14.9215091,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/186775306",
+      "source_url": "https://www.openstreetmap.org/way/186775306"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/921483241",
+      "source_url": "https://www.openstreetmap.org/way/921483241"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/921483243",
+      "source_url": "https://www.openstreetmap.org/way/921483243"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "nudist": "customary"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "praia-de-quiaios",
+  "name": "Praia de Quiaios",
+  "centroid_lat": 40.2202356,
+  "centroid_lng": -8.8918042,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/227957602",
+      "source_url": "https://www.openstreetmap.org/way/227957602"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q304257",
+      "source_url": "https://www.wikidata.org/wiki/Q304257"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCF2L",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCF2L",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20de%20Quiaios.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

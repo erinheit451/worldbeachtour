@@ -1,0 +1,27 @@
+{
+  "slug": "hevosniemen-uimaranta",
+  "name": "Hevosniemen uimaranta",
+  "centroid_lat": 60.95376,
+  "centroid_lng": 25.9436818,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/257025986",
+      "source_url": "https://www.openstreetmap.org/way/257025986"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

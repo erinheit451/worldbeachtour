@@ -1,0 +1,60 @@
+{
+  "slug": "poros-4",
+  "name": "POROS",
+  "centroid_lat": 35.249,
+  "centroid_lng": 25.7315,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1436647426",
+      "source_url": "https://www.openstreetmap.org/way/1436647426"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1436653627",
+      "source_url": "https://www.openstreetmap.org/way/1436653627"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1437069012",
+      "source_url": "https://www.openstreetmap.org/way/1437069012"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1437069013",
+      "source_url": "https://www.openstreetmap.org/way/1437069013"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139310036101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139310028101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139310036101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139310028101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "derwentwater-beach-reserve",
+  "name": "Derwentwater Beach Reserve",
+  "centroid_lat": -42.9037768,
+  "centroid_lng": 147.3372073,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/552708689",
+      "source_url": "https://www.openstreetmap.org/way/552708689"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

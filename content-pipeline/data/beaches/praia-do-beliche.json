@@ -1,0 +1,49 @@
+{
+  "slug": "praia-do-beliche",
+  "name": "Praia do Beliche",
+  "centroid_lat": 37.0259336,
+  "centroid_lng": -8.9650797,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/94838670",
+      "source_url": "https://www.openstreetmap.org/way/94838670"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10352954",
+      "source_url": "https://www.wikidata.org/wiki/Q10352954"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCT2X",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCT2X",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "surfing": {
+      "surfing_available": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20do%20Beliche%20-%20Portugal%20%2850616820658%29.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

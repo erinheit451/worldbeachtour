@@ -1,0 +1,35 @@
+{
+  "slug": "hvamodden",
+  "name": "Hvamodden",
+  "centroid_lat": 59.8576645,
+  "centroid_lng": 10.515715,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/930835450",
+      "source_url": "https://www.openstreetmap.org/node/930835450"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/41850976",
+      "source_url": "https://www.openstreetmap.org/way/41850976"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/207223518",
+      "source_url": "https://www.openstreetmap.org/way/207223518"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1002098086",
+      "source_url": "https://www.openstreetmap.org/way/1002098086"
+    }
+  ],
+  "attributes": {}
+}

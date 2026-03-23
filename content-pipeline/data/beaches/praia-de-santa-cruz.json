@@ -1,0 +1,24 @@
+{
+  "slug": "praia-de-santa-cruz",
+  "name": "Praia de Santa Cruz",
+  "centroid_lat": 43.3471826,
+  "centroid_lng": -8.3484307,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/114036546",
+      "source_url": "https://www.openstreetmap.org/way/114036546"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": "interval"
+    }
+  }
+}

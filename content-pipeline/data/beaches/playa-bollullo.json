@@ -1,0 +1,45 @@
+{
+  "slug": "playa-bollullo",
+  "name": "Playa Bollullo",
+  "centroid_lat": 28.4186652,
+  "centroid_lng": -16.5187957,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11494537245",
+      "source_url": "https://www.openstreetmap.org/node/11494537245"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1207797201",
+      "source_url": "https://www.openstreetmap.org/way/1207797201"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1207797202",
+      "source_url": "https://www.openstreetmap.org/way/1207797202"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES709M0262594",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES709M0262594",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

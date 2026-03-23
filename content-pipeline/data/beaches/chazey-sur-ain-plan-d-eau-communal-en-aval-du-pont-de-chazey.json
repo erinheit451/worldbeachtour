@@ -1,0 +1,30 @@
+{
+  "slug": "chazey-sur-ain-plan-d-eau-communal-en-aval-du-pont-de-chazey",
+  "name": "CHAZEY-SUR-AIN - PLAN D EAU COMMUNAL EN AVAL DU PONT DE CHAZEY",
+  "centroid_lat": 45.9024,
+  "centroid_lng": 5.23885,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2101099D001605",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2101099D001605",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

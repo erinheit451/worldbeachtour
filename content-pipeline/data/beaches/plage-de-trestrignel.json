@@ -1,0 +1,43 @@
+{
+  "slug": "plage-de-trestrignel",
+  "name": "Plage de Trestrignel",
+  "centroid_lat": 48.8200716,
+  "centroid_lng": -3.4323206,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/121252496",
+      "source_url": "https://www.openstreetmap.org/way/121252496"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q129738756",
+      "source_url": "https://www.wikidata.org/wiki/Q129738756"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0122168M022425",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0122168M022425",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plage%20de%20Trestrignel%2C%20Perros-Guirec%2C%202017.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "platja-de-sa-figuera",
+  "name": "Platja de sa Figuera",
+  "centroid_lat": 42.2549711,
+  "centroid_lng": 3.2788006,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8305653",
+      "source_url": "https://www.openstreetmap.org/relation/8305653"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q123370883",
+      "source_url": "https://www.wikidata.org/wiki/Q123370883"
+    }
+  ],
+  "attributes": {}
+}

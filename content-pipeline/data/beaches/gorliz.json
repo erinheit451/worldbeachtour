@@ -1,0 +1,29 @@
+{
+  "slug": "gorliz",
+  "name": "Gorliz",
+  "centroid_lat": 43.4148787,
+  "centroid_lng": -2.9438386,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/30091262",
+      "source_url": "https://www.openstreetmap.org/way/30091262"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q3390854",
+      "source_url": "https://www.wikidata.org/wiki/Q3390854"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Gorlizko%20badia%20kamaraz.JPG"
+    }
+  }
+}

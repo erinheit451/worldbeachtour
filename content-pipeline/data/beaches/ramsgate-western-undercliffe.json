@@ -1,0 +1,24 @@
+{
+  "slug": "ramsgate-western-undercliffe",
+  "name": "Ramsgate Western Undercliffe",
+  "centroid_lat": 51.3265748,
+  "centroid_lng": 1.4071765,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/141790424",
+      "source_url": "https://www.openstreetmap.org/way/141790424"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

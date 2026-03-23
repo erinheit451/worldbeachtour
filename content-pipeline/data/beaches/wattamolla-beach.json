@@ -1,0 +1,35 @@
+{
+  "slug": "wattamolla-beach",
+  "name": "Wattamolla Beach",
+  "centroid_lat": -34.137512,
+  "centroid_lng": 151.1169603,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/17190703",
+      "source_url": "https://www.openstreetmap.org/relation/17190703"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7974930",
+      "source_url": "https://www.wikidata.org/wiki/Q7974930"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956916",
+      "source_url": "https://www.wikidata.org/wiki/Q21956916"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wattamolla%20lagoon.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Wattamolla"
+    }
+  }
+}

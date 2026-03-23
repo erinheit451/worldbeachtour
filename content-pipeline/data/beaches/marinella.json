@@ -1,0 +1,70 @@
+{
+  "slug": "marinella",
+  "name": "Marinella",
+  "centroid_lat": 41.004852,
+  "centroid_lng": 9.5550295,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/140374979",
+      "source_url": "https://www.openstreetmap.org/way/140374979"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1419667520",
+      "source_url": "https://www.openstreetmap.org/way/1419667520"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1419667521",
+      "source_url": "https://www.openstreetmap.org/way/1419667521"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1419667522",
+      "source_url": "https://www.openstreetmap.org/way/1419667522"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1419667523",
+      "source_url": "https://www.openstreetmap.org/way/1419667523"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1419667525",
+      "source_url": "https://www.openstreetmap.org/way/1419667525"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1419667526",
+      "source_url": "https://www.openstreetmap.org/way/1419667526"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1419667527",
+      "source_url": "https://www.openstreetmap.org/way/1419667527"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020104017003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020104017003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

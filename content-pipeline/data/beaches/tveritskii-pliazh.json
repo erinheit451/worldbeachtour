@@ -1,0 +1,24 @@
+{
+  "slug": "tveritskii-pliazh",
+  "name": "Тверицкий пляж",
+  "centroid_lat": 57.637939,
+  "centroid_lng": 39.9013817,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/49047162",
+      "source_url": "https://www.openstreetmap.org/way/49047162"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

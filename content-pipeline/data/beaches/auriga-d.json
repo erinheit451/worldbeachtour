@@ -1,0 +1,52 @@
+{
+  "slug": "auriga-d",
+  "name": "Auriga D",
+  "centroid_lat": 45.6319047,
+  "centroid_lng": 13.0580311,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10129683808",
+      "source_url": "https://www.openstreetmap.org/node/10129683808"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/10129683810",
+      "source_url": "https://www.openstreetmap.org/node/10129683810"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/10129683813",
+      "source_url": "https://www.openstreetmap.org/node/10129683813"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/10129683814",
+      "source_url": "https://www.openstreetmap.org/node/10129683814"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/10129683815",
+      "source_url": "https://www.openstreetmap.org/node/10129683815"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/11069863813",
+      "source_url": "https://www.openstreetmap.org/node/11069863813"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

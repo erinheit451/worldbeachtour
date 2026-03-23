@@ -1,0 +1,29 @@
+{
+  "slug": "mae-sand",
+  "name": "Mae Sand",
+  "centroid_lat": 59.2672827,
+  "centroid_lng": -2.977445,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1160884693",
+      "source_url": "https://www.openstreetmap.org/way/1160884693"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24639395",
+      "source_url": "https://www.wikidata.org/wiki/Q24639395"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

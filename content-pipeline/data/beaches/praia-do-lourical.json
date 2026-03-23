@@ -1,0 +1,29 @@
+{
+  "slug": "praia-do-lourical",
+  "name": "Praia do Louriçal",
+  "centroid_lat": 38.7767178,
+  "centroid_lng": -9.4970025,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/733096735",
+      "source_url": "https://www.openstreetmap.org/way/733096735"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q135625025",
+      "source_url": "https://www.wikidata.org/wiki/Q135625025"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Portugal%20Sintra%20Region%2071.jpg"
+    }
+  }
+}

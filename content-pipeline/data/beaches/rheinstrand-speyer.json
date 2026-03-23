@@ -1,0 +1,24 @@
+{
+  "slug": "rheinstrand-speyer",
+  "name": "Rheinstrand Speyer",
+  "centroid_lat": 49.3137596,
+  "centroid_lng": 8.4538544,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/11180280",
+      "source_url": "https://www.openstreetmap.org/relation/11180280"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

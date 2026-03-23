@@ -1,0 +1,24 @@
+{
+  "slug": "canoe-club-boat-launch-site",
+  "name": "Canoe Club Boat Launch Site",
+  "centroid_lat": -36.3915299,
+  "centroid_lng": 145.3932408,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1395140568",
+      "source_url": "https://www.openstreetmap.org/way/1395140568"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

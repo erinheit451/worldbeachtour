@@ -1,0 +1,25 @@
+{
+  "slug": "mirfa-public-beach",
+  "name": "MIRFA PUBLIC BEACH",
+  "centroid_lat": 24.1022182,
+  "centroid_lng": 53.4837725,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/182568013",
+      "source_url": "https://www.openstreetmap.org/way/182568013"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true,
+      "access": "yes"
+    }
+  }
+}

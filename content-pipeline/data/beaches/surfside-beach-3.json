@@ -1,0 +1,29 @@
+{
+  "slug": "surfside-beach-3",
+  "name": "Surfside Beach",
+  "centroid_lat": 12.5079586,
+  "centroid_lng": -70.0296235,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/305490815",
+      "source_url": "https://www.openstreetmap.org/way/305490815"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q135583599",
+      "source_url": "https://www.wikidata.org/wiki/Q135583599"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Surfside%20Beach%20%28Aruba%29.jpeg"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "spiaggia-la-sorgente",
+  "name": "Spiaggia La Sorgente",
+  "centroid_lat": 42.8233112,
+  "centroid_lng": 10.2822247,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/65200939",
+      "source_url": "https://www.openstreetmap.org/way/65200939"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33342882",
+      "source_url": "https://www.wikidata.org/wiki/Q33342882"
+    }
+  ],
+  "attributes": {}
+}

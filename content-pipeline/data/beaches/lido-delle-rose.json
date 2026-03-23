@@ -1,0 +1,53 @@
+{
+  "slug": "lido-delle-rose",
+  "name": "Lido delle Rose",
+  "centroid_lat": 42.4353606,
+  "centroid_lng": 14.2677889,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/4887750524",
+      "source_url": "https://www.openstreetmap.org/node/4887750524"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/4887750527",
+      "source_url": "https://www.openstreetmap.org/node/4887750527"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/10823817933",
+      "source_url": "https://www.openstreetmap.org/node/10823817933"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/12910440",
+      "source_url": "https://www.openstreetmap.org/relation/12910440"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT013069035001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT013069035001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

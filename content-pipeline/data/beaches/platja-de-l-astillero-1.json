@@ -1,0 +1,29 @@
+{
+  "slug": "platja-de-l-astillero-1",
+  "name": "Platja de l'\"Astillero\"",
+  "centroid_lat": 41.6377799,
+  "centroid_lng": 2.7333323,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/9760987",
+      "source_url": "https://www.openstreetmap.org/relation/9760987"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28120322",
+      "source_url": "https://www.wikidata.org/wiki/Q28120322"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20dels%20Pins%20%285%29.JPG"
+    }
+  }
+}

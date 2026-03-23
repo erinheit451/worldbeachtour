@@ -1,0 +1,24 @@
+{
+  "slug": "spiaggetta-libera-lido-gandoli",
+  "name": "Spiaggetta libera Lido Gandoli",
+  "centroid_lat": 40.3795378,
+  "centroid_lng": 17.2987595,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9979910845",
+      "source_url": "https://www.openstreetmap.org/node/9979910845"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

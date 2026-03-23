@@ -1,0 +1,50 @@
+{
+  "slug": "langenargen-malerecke",
+  "name": "LANGENARGEN, MALERECKE",
+  "centroid_lat": 47.5909,
+  "centroid_lng": 9.5468,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/490680448",
+      "source_url": "https://www.openstreetmap.org/way/490680448"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1444117066",
+      "source_url": "https://www.openstreetmap.org/way/1444117066"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1444149779",
+      "source_url": "https://www.openstreetmap.org/way/1444149779"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1444149782",
+      "source_url": "https://www.openstreetmap.org/way/1444149782"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBW_PR_0024",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBW_PR_0024",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

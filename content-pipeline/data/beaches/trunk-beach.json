@@ -1,0 +1,29 @@
+{
+  "slug": "trunk-beach",
+  "name": "Trunk Beach",
+  "centroid_lat": 18.3516203,
+  "centroid_lng": -64.7701379,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/356559629",
+      "source_url": "https://www.openstreetmap.org/node/356559629"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q32035566",
+      "source_url": "https://www.wikidata.org/wiki/Q32035566"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Trunk%20Bay%20~%20St.%20John%20%2823172429765%29.jpg"
+    }
+  }
+}

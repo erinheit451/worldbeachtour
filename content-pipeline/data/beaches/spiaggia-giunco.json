@@ -1,0 +1,30 @@
+{
+  "slug": "spiaggia-giunco",
+  "name": "Spiaggia Giunco",
+  "centroid_lat": 39.120371,
+  "centroid_lng": 8.3087102,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/846911014",
+      "source_url": "https://www.openstreetmap.org/way/846911014"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1158921267",
+      "source_url": "https://www.openstreetmap.org/way/1158921267"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q125545065",
+      "source_url": "https://www.wikidata.org/wiki/Q125545065"
+    }
+  ],
+  "attributes": {}
+}

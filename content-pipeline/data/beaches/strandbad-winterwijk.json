@@ -1,0 +1,53 @@
+{
+  "slug": "strandbad-winterwijk",
+  "name": "STRANDBAD WINTERWIJK",
+  "centroid_lat": 51.95668,
+  "centroid_lng": 6.72541,
+  "country_code": "NL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/875431086",
+      "source_url": "https://www.openstreetmap.org/way/875431086"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/875431087",
+      "source_url": "https://www.openstreetmap.org/way/875431087"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/875431088",
+      "source_url": "https://www.openstreetmap.org/way/875431088"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q17609557",
+      "source_url": "https://www.wikidata.org/wiki/Q17609557"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW07_SBD01",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW07_SBD01",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Strandbad%20-%20zandstrand%20westzijde.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "barcelo-dominican-beach",
+  "name": "Barceló Dominican Beach",
+  "centroid_lat": 18.6876446,
+  "centroid_lng": -68.4179156,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/252975398",
+      "source_url": "https://www.openstreetmap.org/way/252975398"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/255806141",
+      "source_url": "https://www.openstreetmap.org/way/255806141"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

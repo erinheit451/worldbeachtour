@@ -1,0 +1,25 @@
+{
+  "slug": "jamaica-beach",
+  "name": "Jamaica Beach",
+  "centroid_lat": 45.5024954,
+  "centroid_lng": 10.6061346,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/430617039",
+      "source_url": "https://www.openstreetmap.org/way/430617039"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    }
+  }
+}

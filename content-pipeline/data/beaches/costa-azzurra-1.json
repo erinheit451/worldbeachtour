@@ -1,0 +1,41 @@
+{
+  "slug": "costa-azzurra-1",
+  "name": "Costa Azzurra",
+  "centroid_lat": 45.6797947,
+  "centroid_lng": 13.3765314,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1095713434",
+      "source_url": "https://www.openstreetmap.org/way/1095713434"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1289843892",
+      "source_url": "https://www.openstreetmap.org/way/1289843892"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q138676025",
+      "source_url": "https://www.wikidata.org/wiki/Q138676025"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "nudist": false
+    },
+    "facilities": {
+      "fee_required": true
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

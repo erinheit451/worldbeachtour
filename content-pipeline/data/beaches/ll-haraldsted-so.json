@@ -1,0 +1,35 @@
+{
+  "slug": "ll-haraldsted-so",
+  "name": "LL. HARALDSTED SØ",
+  "centroid_lat": 55.48157,
+  "centroid_lng": 11.73958,
+  "country_code": "DK",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/448936567",
+      "source_url": "https://www.openstreetmap.org/way/448936567"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW1179",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW1179",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

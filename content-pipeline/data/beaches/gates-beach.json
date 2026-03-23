@@ -1,0 +1,25 @@
+{
+  "slug": "gates-beach",
+  "name": "Gates Beach",
+  "centroid_lat": 44.5172862,
+  "centroid_lng": -64.1229639,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1094634237",
+      "source_url": "https://www.openstreetmap.org/node/1094634237"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22630796",
+      "source_url": "https://www.wikidata.org/wiki/Q22630796"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "plage-des-fosses",
+  "name": "Plage des Fosses",
+  "centroid_lat": 43.6866143,
+  "centroid_lng": 7.3354681,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/374020053",
+      "source_url": "https://www.openstreetmap.org/way/374020053"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/517091544",
+      "source_url": "https://www.openstreetmap.org/way/517091544"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/288009",
+      "source_url": "https://www.openstreetmap.org/relation/288009"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q123052845",
+      "source_url": "https://www.wikidata.org/wiki/Q123052845"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q123052856",
+      "source_url": "https://www.wikidata.org/wiki/Q123052856"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306121M006570",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306121M006575",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306121M006570",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306121M006575",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cap-Ferrat%20les%20Fossettes.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

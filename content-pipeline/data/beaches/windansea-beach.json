@@ -1,0 +1,25 @@
+{
+  "slug": "windansea-beach",
+  "name": "Windansea Beach",
+  "centroid_lat": 32.8311587,
+  "centroid_lng": -117.2811488,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/358821914",
+      "source_url": "https://www.openstreetmap.org/node/358821914"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/7102577",
+      "source_url": "https://www.openstreetmap.org/relation/7102577"
+    }
+  ],
+  "attributes": {}
+}

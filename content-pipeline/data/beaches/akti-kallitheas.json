@@ -1,0 +1,83 @@
+{
+  "slug": "akti-kallitheas",
+  "name": "AKTI KALLITHEAS",
+  "centroid_lat": 40.2697,
+  "centroid_lng": 22.5993,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/718910109",
+      "source_url": "https://www.openstreetmap.org/way/718910109"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/718910111",
+      "source_url": "https://www.openstreetmap.org/way/718910111"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/720119355",
+      "source_url": "https://www.openstreetmap.org/way/720119355"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/720119357",
+      "source_url": "https://www.openstreetmap.org/way/720119357"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/720119358",
+      "source_url": "https://www.openstreetmap.org/way/720119358"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/720119360",
+      "source_url": "https://www.openstreetmap.org/way/720119360"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/720119362",
+      "source_url": "https://www.openstreetmap.org/way/720119362"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/720119363",
+      "source_url": "https://www.openstreetmap.org/way/720119363"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/720119369",
+      "source_url": "https://www.openstreetmap.org/way/720119369"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53633373",
+      "source_url": "https://www.wikidata.org/wiki/Q53633373"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW099047005101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW099047005101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

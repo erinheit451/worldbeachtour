@@ -1,0 +1,35 @@
+{
+  "slug": "svencioneliu",
+  "name": "SVENCIONELIU",
+  "centroid_lat": 55.172,
+  "centroid_lng": 25.9863,
+  "country_code": "LT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/14413057",
+      "source_url": "https://www.openstreetmap.org/relation/14413057"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "LT00A867112110001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "LT00A867112110001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "playa-de-pucol-pm2",
+  "name": "PLAYA DE PUÇOL PM2",
+  "centroid_lat": 39.6098,
+  "centroid_lng": -0.2631,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2145431",
+      "source_url": "https://www.openstreetmap.org/relation/2145431"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES523M2051052",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES523M2051052",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

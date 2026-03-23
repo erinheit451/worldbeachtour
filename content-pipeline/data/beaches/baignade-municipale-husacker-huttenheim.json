@@ -1,0 +1,35 @@
+{
+  "slug": "baignade-municipale-husacker-huttenheim",
+  "name": "BAIGNADE MUNICIPALE HUSACKER HUTTENHEIM",
+  "centroid_lat": 48.34468,
+  "centroid_lng": 7.58031,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1056724160",
+      "source_url": "https://www.openstreetmap.org/way/1056724160"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRF1167216D067140",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRF1167216D067140",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

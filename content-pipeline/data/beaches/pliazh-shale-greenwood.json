@@ -1,0 +1,27 @@
+{
+  "slug": "pliazh-shale-greenwood",
+  "name": "Пляж Шале Greenwood",
+  "centroid_lat": 51.8137785,
+  "centroid_lng": 23.7085001,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/759457645",
+      "source_url": "https://www.openstreetmap.org/way/759457645"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

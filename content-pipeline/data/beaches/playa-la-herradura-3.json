@@ -1,0 +1,36 @@
+{
+  "slug": "playa-la-herradura-3",
+  "name": "Playa La Herradura",
+  "centroid_lat": -12.1746015,
+  "centroid_lng": -77.0337982,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/165080724",
+      "source_url": "https://www.openstreetmap.org/way/165080724"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q111833994",
+      "source_url": "https://www.wikidata.org/wiki/Q111833994"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "surfing": {
+      "surfing_available": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Para%C3%ADso%20lime%C3%B1o.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/La_Herradura,_Lima"
+    }
+  }
+}

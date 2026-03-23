@@ -1,0 +1,51 @@
+{
+  "slug": "piazza-malta",
+  "name": "PIAZZA MALTA",
+  "centroid_lat": 36.7826,
+  "centroid_lng": 14.5548,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/483235555",
+      "source_url": "https://www.openstreetmap.org/way/483235555"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/595218454",
+      "source_url": "https://www.openstreetmap.org/way/595218454"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/595218460",
+      "source_url": "https://www.openstreetmap.org/way/595218460"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019088009003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019088009003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

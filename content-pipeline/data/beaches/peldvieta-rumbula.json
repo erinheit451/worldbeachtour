@@ -1,0 +1,35 @@
+{
+  "slug": "peldvieta-rumbula",
+  "name": "Peldvieta \"Rumbula\"",
+  "centroid_lat": 56.8973929,
+  "centroid_lng": 24.1934023,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/224483579",
+      "source_url": "https://www.openstreetmap.org/way/224483579"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "LV00601000016",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "LV00601000016",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

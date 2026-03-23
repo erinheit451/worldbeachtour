@@ -1,0 +1,37 @@
+{
+  "slug": "erholungsgebiet-karlsfelder-see",
+  "name": "Erholungsgebiet Karlsfelder See",
+  "centroid_lat": 48.2348067,
+  "centroid_lng": 11.4697022,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1419273268",
+      "source_url": "https://www.openstreetmap.org/way/1419273268"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1419276146",
+      "source_url": "https://www.openstreetmap.org/way/1419276146"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1419279403",
+      "source_url": "https://www.openstreetmap.org/way/1419279403"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": "interval"
+    },
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

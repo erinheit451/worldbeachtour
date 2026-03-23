@@ -1,0 +1,25 @@
+{
+  "slug": "south-sands",
+  "name": "South Sands",
+  "centroid_lat": 50.2256751,
+  "centroid_lng": -3.7834833,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/118072497",
+      "source_url": "https://www.openstreetmap.org/way/118072497"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/156118757",
+      "source_url": "https://www.openstreetmap.org/way/156118757"
+    }
+  ],
+  "attributes": {}
+}

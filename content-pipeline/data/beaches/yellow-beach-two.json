@@ -1,0 +1,35 @@
+{
+  "slug": "yellow-beach-two",
+  "name": "Yellow Beach Two",
+  "centroid_lat": 13.385389,
+  "centroid_lng": 144.6557214,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1239893855",
+      "source_url": "https://www.openstreetmap.org/way/1239893855"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1239893856",
+      "source_url": "https://www.openstreetmap.org/way/1239893856"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q19839835",
+      "source_url": "https://www.wikidata.org/wiki/Q19839835"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bunker%20interior%20-%20War%20in%20the%20Pacific%20National%20Historical%20Park%20%28Ga%27an%20Point%29%20-%20DSC00897.JPG",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Agat_Invasion_Beach"
+    }
+  }
+}

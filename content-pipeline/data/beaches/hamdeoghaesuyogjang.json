@@ -1,0 +1,37 @@
+{
+  "slug": "hamdeoghaesuyogjang",
+  "name": "함덕해수욕장",
+  "centroid_lat": 33.5432311,
+  "centroid_lng": 126.6698583,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/200720586",
+      "source_url": "https://www.openstreetmap.org/way/200720586"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/497212318",
+      "source_url": "https://www.openstreetmap.org/way/497212318"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q111850850",
+      "source_url": "https://www.wikidata.org/wiki/Q111850850"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jeju%20Hamdeok%20Beach.jpg"
+    }
+  }
+}

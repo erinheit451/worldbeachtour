@@ -1,0 +1,30 @@
+{
+  "slug": "bellambi-beach",
+  "name": "Bellambi Beach",
+  "centroid_lat": -34.3620833,
+  "centroid_lng": 150.9215462,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/380544388",
+      "source_url": "https://www.openstreetmap.org/way/380544388"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21957203",
+      "source_url": "https://www.wikidata.org/wiki/Q21957203"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q59773627",
+      "source_url": "https://www.wikidata.org/wiki/Q59773627"
+    }
+  ],
+  "attributes": {}
+}

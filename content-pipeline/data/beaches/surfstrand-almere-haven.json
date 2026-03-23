@@ -1,0 +1,75 @@
+{
+  "slug": "surfstrand-almere-haven",
+  "name": "Surfstrand Almere Haven",
+  "centroid_lat": 52.3350979,
+  "centroid_lng": 5.2052728,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/77151955",
+      "source_url": "https://www.openstreetmap.org/way/77151955"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/77153062",
+      "source_url": "https://www.openstreetmap.org/way/77153062"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/255471646",
+      "source_url": "https://www.openstreetmap.org/way/255471646"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/255471709",
+      "source_url": "https://www.openstreetmap.org/way/255471709"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/311101187",
+      "source_url": "https://www.openstreetmap.org/way/311101187"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/311102179",
+      "source_url": "https://www.openstreetmap.org/way/311102179"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW92_ALMRJHVN",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW92_ALMRBSD",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW92_ALMRJHVN",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW92_ALMRBSD",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "parking": "surface",
+      "fee_required": false,
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

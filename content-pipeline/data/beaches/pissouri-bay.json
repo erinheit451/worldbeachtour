@@ -1,0 +1,35 @@
+{
+  "slug": "pissouri-bay",
+  "name": "Pissouri Bay",
+  "centroid_lat": 34.6489195,
+  "centroid_lng": 32.7241633,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2462525",
+      "source_url": "https://www.openstreetmap.org/relation/2462525"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CY0005227000000116",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CY0005227000000116",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

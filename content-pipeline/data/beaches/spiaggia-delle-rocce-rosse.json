@@ -1,0 +1,29 @@
+{
+  "slug": "spiaggia-delle-rocce-rosse",
+  "name": "Spiaggia delle Rocce Rosse",
+  "centroid_lat": 39.93889,
+  "centroid_lng": 9.70968,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9935344261",
+      "source_url": "https://www.openstreetmap.org/node/9935344261"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33335720",
+      "source_url": "https://www.wikidata.org/wiki/Q33335720"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sardinia%20Arbatax%20Rocce%20rosse-1464.jpg"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "traigh-mhor-2",
+  "name": "Traigh Mhòr",
+  "centroid_lat": 57.0231565,
+  "centroid_lng": -7.4343748,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/199822223",
+      "source_url": "https://www.openstreetmap.org/way/199822223"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7832702",
+      "source_url": "https://www.wikidata.org/wiki/Q7832702"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Tr%C3%A0igh%20Mh%C3%B3r%20-%20geograph.org.uk%20-%20200602.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Traigh_Mh%C3%B2r"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "twin-points-beach",
+  "name": "Twin Points Beach",
+  "centroid_lat": 32.8731826,
+  "centroid_lng": -97.4905769,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/356726318",
+      "source_url": "https://www.openstreetmap.org/node/356726318"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31566553",
+      "source_url": "https://www.wikidata.org/wiki/Q31566553"
+    }
+  ],
+  "attributes": {}
+}

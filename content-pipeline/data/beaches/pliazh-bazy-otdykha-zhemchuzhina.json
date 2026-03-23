@@ -1,0 +1,29 @@
+{
+  "slug": "pliazh-bazy-otdykha-zhemchuzhina",
+  "name": "Пляж базы отдыха Жемчужина",
+  "centroid_lat": 44.6448765,
+  "centroid_lng": 37.9308004,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/177331533",
+      "source_url": "https://www.openstreetmap.org/way/177331533"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1178809610",
+      "source_url": "https://www.openstreetmap.org/way/1178809610"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

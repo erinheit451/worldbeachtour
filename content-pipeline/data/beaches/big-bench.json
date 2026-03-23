@@ -1,0 +1,25 @@
+{
+  "slug": "big-bench",
+  "name": "Big Bench",
+  "centroid_lat": 46.2718265,
+  "centroid_lng": -116.9562622,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/358649863",
+      "source_url": "https://www.openstreetmap.org/node/358649863"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320177",
+      "source_url": "https://www.wikidata.org/wiki/Q49320177"
+    }
+  ],
+  "attributes": {}
+}

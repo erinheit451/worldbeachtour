@@ -1,0 +1,35 @@
+{
+  "slug": "suvorovskii-pliazh",
+  "name": "Суворовский пляж",
+  "centroid_lat": 51.6872868,
+  "centroid_lng": 36.1196012,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/321265575",
+      "source_url": "https://www.openstreetmap.org/way/321265575"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/321265704",
+      "source_url": "https://www.openstreetmap.org/way/321265704"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/3029990",
+      "source_url": "https://www.openstreetmap.org/relation/3029990"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/4299496",
+      "source_url": "https://www.openstreetmap.org/relation/4299496"
+    }
+  ],
+  "attributes": {}
+}

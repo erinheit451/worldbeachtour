@@ -1,0 +1,40 @@
+{
+  "slug": "plage-de-bonneuil-matours",
+  "name": "Plage de Bonneuil-Matours",
+  "centroid_lat": 46.6770232,
+  "centroid_lng": 0.5770033,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7786832320",
+      "source_url": "https://www.openstreetmap.org/node/7786832320"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/422246897",
+      "source_url": "https://www.openstreetmap.org/way/422246897"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI3486032D086018",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI3486032D086018",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "praia-joao-fernandes",
+  "name": "Praia João Fernandes",
+  "centroid_lat": -22.7416839,
+  "centroid_lng": -41.8758809,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/161820597",
+      "source_url": "https://www.openstreetmap.org/way/161820597"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/161820603",
+      "source_url": "https://www.openstreetmap.org/way/161820603"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22066749",
+      "source_url": "https://www.wikidata.org/wiki/Q22066749"
+    }
+  ],
+  "attributes": {}
+}

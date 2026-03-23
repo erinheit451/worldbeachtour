@@ -1,0 +1,29 @@
+{
+  "slug": "platja-cala-rovellada",
+  "name": "Platja Cala Rovellada",
+  "centroid_lat": 42.4114661,
+  "centroid_lng": 3.1622198,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8312808",
+      "source_url": "https://www.openstreetmap.org/relation/8312808"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24021743",
+      "source_url": "https://www.wikidata.org/wiki/Q24021743"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Colera%20cala%20Rovellada%200714.jpg"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "oostappen-zuid",
+  "name": "OOSTAPPEN ZUID",
+  "centroid_lat": 51.42436,
+  "centroid_lng": 5.73697,
+  "country_code": "NL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/84279148",
+      "source_url": "https://www.openstreetmap.org/way/84279148"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/84279206",
+      "source_url": "https://www.openstreetmap.org/way/84279206"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW38_145506",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW38_145502",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW38_145506",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW38_145502",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

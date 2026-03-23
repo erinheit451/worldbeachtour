@@ -1,0 +1,30 @@
+{
+  "slug": "belhamel-recreatieparadijs",
+  "name": "BELHAMEL RECREATIEPARADIJS",
+  "centroid_lat": 51.71101,
+  "centroid_lng": 4.71243,
+  "country_code": "NL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW25_690408",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW25_690408",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "good",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

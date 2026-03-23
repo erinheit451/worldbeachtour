@@ -1,0 +1,24 @@
+{
+  "slug": "smitingen",
+  "name": "Smitingen",
+  "centroid_lat": 62.5994266,
+  "centroid_lng": 18.0319281,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/37713610",
+      "source_url": "https://www.openstreetmap.org/way/37713610"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "showers": false
+    }
+  }
+}

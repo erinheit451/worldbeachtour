@@ -1,0 +1,43 @@
+{
+  "slug": "plage-de-la-barre",
+  "name": "Plage de la Barre",
+  "centroid_lat": 43.5259525,
+  "centroid_lng": -1.5242104,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/183134276",
+      "source_url": "https://www.openstreetmap.org/way/183134276"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/741058702",
+      "source_url": "https://www.openstreetmap.org/way/741058702"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1564024M064005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1564024M064005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

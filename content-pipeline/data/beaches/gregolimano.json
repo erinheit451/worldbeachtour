@@ -1,0 +1,29 @@
+{
+  "slug": "gregolimano",
+  "name": "Γρεγολίμανο",
+  "centroid_lat": 38.833914,
+  "centroid_lng": 22.9375496,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/367062158",
+      "source_url": "https://www.openstreetmap.org/way/367062158"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/1821162",
+      "source_url": "https://www.openstreetmap.org/relation/1821162"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

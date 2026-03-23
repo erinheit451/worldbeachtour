@@ -1,0 +1,24 @@
+{
+  "slug": "playa-del-carmen",
+  "name": "Playa del Carmen",
+  "centroid_lat": 36.1836171,
+  "centroid_lng": -5.9165513,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/186218098",
+      "source_url": "https://www.openstreetmap.org/way/186218098"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "nudistski-plazh",
+  "name": "Нудистски плаж",
+  "centroid_lat": 42.2793499,
+  "centroid_lng": 27.7538077,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/435541079",
+      "source_url": "https://www.openstreetmap.org/way/435541079"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    }
+  }
+}

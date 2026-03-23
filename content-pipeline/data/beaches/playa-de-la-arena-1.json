@@ -1,0 +1,33 @@
+{
+  "slug": "playa-de-la-arena-1",
+  "name": "Playa de la Arena",
+  "centroid_lat": 28.229705,
+  "centroid_lng": -16.8409842,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/28578719",
+      "source_url": "https://www.openstreetmap.org/way/28578719"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q624423",
+      "source_url": "https://www.wikidata.org/wiki/Q624423"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Black%20sand%20beach%20Playa%20de%20la%20Arena%20on%20Tenerife%2C%20Spain%20%2848225289937%29.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_de_la_Arena"
+    }
+  }
+}

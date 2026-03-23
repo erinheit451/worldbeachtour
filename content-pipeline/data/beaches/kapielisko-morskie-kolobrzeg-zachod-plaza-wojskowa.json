@@ -1,0 +1,30 @@
+{
+  "slug": "kapielisko-morskie-kolobrzeg-zachod-plaza-wojskowa",
+  "name": "KĄPIELISKO MORSKIE KOŁOBRZEG ZACHÓD PLAŻA WOJSKOWA",
+  "centroid_lat": 54.18101,
+  "centroid_lng": 15.54102,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4220801132000112",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4220801132000112",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "plage-de-la-folie-calette",
+  "name": "Plage de La Folie Calette",
+  "centroid_lat": 48.1658351,
+  "centroid_lng": 6.3522331,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/976392250",
+      "source_url": "https://www.openstreetmap.org/way/976392250"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

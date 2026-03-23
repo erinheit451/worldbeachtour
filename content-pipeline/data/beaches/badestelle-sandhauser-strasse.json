@@ -1,0 +1,38 @@
+{
+  "slug": "badestelle-sandhauser-strasse",
+  "name": "Badestelle Sandhauser Straße",
+  "centroid_lat": 52.5945343,
+  "centroid_lng": 13.2208916,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/19852338",
+      "source_url": "https://www.openstreetmap.org/way/19852338"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBE_PR_0034",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBE_PR_0034",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

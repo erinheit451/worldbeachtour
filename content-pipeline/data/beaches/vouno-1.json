@@ -1,0 +1,55 @@
+{
+  "slug": "vouno-1",
+  "name": "VOUNO",
+  "centroid_lat": 36.8114,
+  "centroid_lng": 27.1806,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/431607401",
+      "source_url": "https://www.openstreetmap.org/way/431607401"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/968838137",
+      "source_url": "https://www.openstreetmap.org/way/968838137"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/968838138",
+      "source_url": "https://www.openstreetmap.org/way/968838138"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/968838139",
+      "source_url": "https://www.openstreetmap.org/way/968838139"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53630418",
+      "source_url": "https://www.wikidata.org/wiki/Q53630418"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149284090101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149284090101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

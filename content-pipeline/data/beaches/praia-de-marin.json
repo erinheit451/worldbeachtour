@@ -1,0 +1,24 @@
+{
+  "slug": "praia-de-marin",
+  "name": "Praia de Marín",
+  "centroid_lat": 43.3733721,
+  "centroid_lng": -8.2162651,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/25906974",
+      "source_url": "https://www.openstreetmap.org/way/25906974"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

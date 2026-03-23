@@ -1,0 +1,44 @@
+{
+  "slug": "cienfuegos",
+  "name": "Cienfuegos",
+  "centroid_lat": -36.5808397,
+  "centroid_lng": -56.6870119,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/612366642",
+      "source_url": "https://www.openstreetmap.org/way/612366642"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/612402950",
+      "source_url": "https://www.openstreetmap.org/way/612402950"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/612402952",
+      "source_url": "https://www.openstreetmap.org/way/612402952"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/612402954",
+      "source_url": "https://www.openstreetmap.org/way/612402954"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/612402956",
+      "source_url": "https://www.openstreetmap.org/way/612402956"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "actas-beach",
+  "name": "Actas Beach",
+  "centroid_lat": 36.480098,
+  "centroid_lng": 29.1078388,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/8666879194",
+      "source_url": "https://www.openstreetmap.org/node/8666879194"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/237732028",
+      "source_url": "https://www.openstreetmap.org/way/237732028"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/358511051",
+      "source_url": "https://www.openstreetmap.org/way/358511051"
+    }
+  ],
+  "attributes": {}
+}

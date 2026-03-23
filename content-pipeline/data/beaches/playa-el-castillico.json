@@ -1,0 +1,40 @@
+{
+  "slug": "playa-el-castillico",
+  "name": "Playa El Castillico",
+  "centroid_lat": 37.8126548,
+  "centroid_lng": -0.7923349,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/358186456",
+      "source_url": "https://www.openstreetmap.org/way/358186456"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24023514",
+      "source_url": "https://www.wikidata.org/wiki/Q24023514"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES620M0351639",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES620M0351639",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

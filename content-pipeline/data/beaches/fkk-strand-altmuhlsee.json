@@ -1,0 +1,48 @@
+{
+  "slug": "fkk-strand-altmuhlsee",
+  "name": "FKK-Strand Altmühlsee",
+  "centroid_lat": 49.1448638,
+  "centroid_lng": 10.7218701,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/93129142",
+      "source_url": "https://www.openstreetmap.org/way/93129142"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/140743824",
+      "source_url": "https://www.openstreetmap.org/way/140743824"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/406590853",
+      "source_url": "https://www.openstreetmap.org/way/406590853"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_WUG_0062",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_WUG_0062",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

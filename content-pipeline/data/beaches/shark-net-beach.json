@@ -1,0 +1,25 @@
+{
+  "slug": "shark-net-beach",
+  "name": "Shark Net Beach",
+  "centroid_lat": -35.039684,
+  "centroid_lng": 150.6741337,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/5754657",
+      "source_url": "https://www.openstreetmap.org/way/5754657"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956810",
+      "source_url": "https://www.wikidata.org/wiki/Q21956810"
+    }
+  ],
+  "attributes": {}
+}

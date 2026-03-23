@@ -1,0 +1,25 @@
+{
+  "slug": "playa-del-puerto-1",
+  "name": "Playa del Puerto",
+  "centroid_lat": 37.8663408,
+  "centroid_lng": -0.7601502,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2172145",
+      "source_url": "https://www.openstreetmap.org/relation/2172145"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31920285",
+      "source_url": "https://www.wikidata.org/wiki/Q31920285"
+    }
+  ],
+  "attributes": {}
+}

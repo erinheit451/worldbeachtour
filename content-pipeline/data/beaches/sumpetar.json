@@ -1,0 +1,70 @@
+{
+  "slug": "sumpetar",
+  "name": "Sumpetar",
+  "centroid_lat": 43.45147,
+  "centroid_lng": 16.62523,
+  "country_code": "HR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/242945676",
+      "source_url": "https://www.openstreetmap.org/way/242945676"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/242945728",
+      "source_url": "https://www.openstreetmap.org/way/242945728"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/242946137",
+      "source_url": "https://www.openstreetmap.org/way/242946137"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/242946138",
+      "source_url": "https://www.openstreetmap.org/way/242946138"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/242946139",
+      "source_url": "https://www.openstreetmap.org/way/242946139"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/242946167",
+      "source_url": "https://www.openstreetmap.org/way/242946167"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/243791013",
+      "source_url": "https://www.openstreetmap.org/way/243791013"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/243791072",
+      "source_url": "https://www.openstreetmap.org/way/243791072"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2036",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2036",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

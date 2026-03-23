@@ -1,0 +1,24 @@
+{
+  "slug": "novye-karry",
+  "name": "Новые карьры",
+  "centroid_lat": 50.2703567,
+  "centroid_lng": 127.6529115,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1414571658",
+      "source_url": "https://www.openstreetmap.org/way/1414571658"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

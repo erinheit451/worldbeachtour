@@ -1,0 +1,25 @@
+{
+  "slug": "angelsteg",
+  "name": "Angelsteg",
+  "centroid_lat": 48.2764834,
+  "centroid_lng": 9.8294792,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11491699779",
+      "source_url": "https://www.openstreetmap.org/node/11491699779"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/11491699780",
+      "source_url": "https://www.openstreetmap.org/node/11491699780"
+    }
+  ],
+  "attributes": {}
+}

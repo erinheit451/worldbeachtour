@@ -1,0 +1,83 @@
+{
+  "slug": "punto-fisso-beach",
+  "name": "Punto Fisso Beach",
+  "centroid_lat": 40.1014143,
+  "centroid_lng": 18.0119975,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/429034092",
+      "source_url": "https://www.openstreetmap.org/way/429034092"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/497986818",
+      "source_url": "https://www.openstreetmap.org/way/497986818"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/497986819",
+      "source_url": "https://www.openstreetmap.org/way/497986819"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/497986841",
+      "source_url": "https://www.openstreetmap.org/way/497986841"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/497986866",
+      "source_url": "https://www.openstreetmap.org/way/497986866"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/497986867",
+      "source_url": "https://www.openstreetmap.org/way/497986867"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/497986868",
+      "source_url": "https://www.openstreetmap.org/way/497986868"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/497986872",
+      "source_url": "https://www.openstreetmap.org/way/497986872"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/636194127",
+      "source_url": "https://www.openstreetmap.org/way/636194127"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33343810",
+      "source_url": "https://www.wikidata.org/wiki/Q33343810"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016075031010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016075031010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

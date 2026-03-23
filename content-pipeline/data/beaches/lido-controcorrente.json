@@ -1,0 +1,29 @@
+{
+  "slug": "lido-controcorrente",
+  "name": "Lido Controcorrente",
+  "centroid_lat": 37.0715051,
+  "centroid_lng": 14.2194485,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/182162127",
+      "source_url": "https://www.openstreetmap.org/way/182162127"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/553684924",
+      "source_url": "https://www.openstreetmap.org/way/553684924"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

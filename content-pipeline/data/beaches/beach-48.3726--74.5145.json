@@ -1,0 +1,29 @@
+{
+  "slug": "beach-48.3726--74.5145",
+  "name": null,
+  "centroid_lat": 48.3725664,
+  "centroid_lng": -74.5145193,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/234055502",
+      "source_url": "https://www.openstreetmap.org/way/234055502"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/405532326",
+      "source_url": "https://www.openstreetmap.org/way/405532326"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "spiaggia-zuccale",
+  "name": "Spiaggia Zuccale",
+  "centroid_lat": 42.7511006,
+  "centroid_lng": 10.3591733,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/182255775",
+      "source_url": "https://www.openstreetmap.org/way/182255775"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49395695",
+      "source_url": "https://www.wikidata.org/wiki/Q49395695"
+    }
+  ],
+  "attributes": {}
+}

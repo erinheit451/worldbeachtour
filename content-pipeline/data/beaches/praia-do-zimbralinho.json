@@ -1,0 +1,32 @@
+{
+  "slug": "praia-do-zimbralinho",
+  "name": "Praia do Zimbralinho",
+  "centroid_lat": 33.0328881,
+  "centroid_lng": -16.3874958,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/502733969",
+      "source_url": "https://www.openstreetmap.org/way/502733969"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q107561131",
+      "source_url": "https://www.wikidata.org/wiki/Q107561131"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Columnar-jointed%20Lava%20on%20Porto%20Santo%20island%20Madeira%20-%20Panoramio%2066225306.jpg"
+    }
+  }
+}

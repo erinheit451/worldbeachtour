@@ -1,0 +1,25 @@
+{
+  "slug": "praia-da-aroeira",
+  "name": "Praia da Aroeira",
+  "centroid_lat": 38.7861553,
+  "centroid_lng": -9.4958099,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/691832469",
+      "source_url": "https://www.openstreetmap.org/way/691832469"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49323625",
+      "source_url": "https://www.wikidata.org/wiki/Q49323625"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "fynshoved-camping",
+  "name": "FYNSHOVED CAMPING",
+  "centroid_lat": 55.61102,
+  "centroid_lng": 10.62728,
+  "country_code": "DK",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/71415870",
+      "source_url": "https://www.openstreetmap.org/way/71415870"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW513",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW513",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

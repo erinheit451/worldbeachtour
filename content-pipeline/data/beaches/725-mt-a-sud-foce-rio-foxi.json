@@ -1,0 +1,35 @@
+{
+  "slug": "725-mt-a-sud-foce-rio-foxi",
+  "name": "725 MT A SUD FOCE RIO FOXI",
+  "centroid_lat": 39.2167,
+  "centroid_lng": 9.2457,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/808920695",
+      "source_url": "https://www.openstreetmap.org/way/808920695"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020092051022",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020092051022",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

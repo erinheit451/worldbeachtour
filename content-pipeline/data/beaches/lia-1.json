@@ -1,0 +1,30 @@
+{
+  "slug": "lia-1",
+  "name": "Λιά",
+  "centroid_lat": 37.4449071,
+  "centroid_lng": 25.4364446,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/366448873",
+      "source_url": "https://www.openstreetmap.org/way/366448873"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659805294",
+      "source_url": "https://www.openstreetmap.org/way/659805294"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659805295",
+      "source_url": "https://www.openstreetmap.org/way/659805295"
+    }
+  ],
+  "attributes": {}
+}

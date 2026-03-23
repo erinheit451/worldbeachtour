@@ -1,0 +1,24 @@
+{
+  "slug": "paralia-khoukhoulio",
+  "name": "Παραλία Χουχούλιο",
+  "centroid_lat": 39.7461274,
+  "centroid_lng": 19.9387283,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/229669034",
+      "source_url": "https://www.openstreetmap.org/way/229669034"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

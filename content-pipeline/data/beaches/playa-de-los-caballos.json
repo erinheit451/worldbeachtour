@@ -1,0 +1,29 @@
+{
+  "slug": "playa-de-los-caballos",
+  "name": "Playa de los Caballos",
+  "centroid_lat": 43.4422452,
+  "centroid_lng": -4.0231974,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/73655493",
+      "source_url": "https://www.openstreetmap.org/way/73655493"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6079187",
+      "source_url": "https://www.wikidata.org/wiki/Q6079187"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20los%20Caballos%20Miengo.jpg"
+    }
+  }
+}

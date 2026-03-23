@@ -1,0 +1,30 @@
+{
+  "slug": "paradise-point",
+  "name": "Paradise Point",
+  "centroid_lat": 24.8430945,
+  "centroid_lng": 66.7769262,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/26803644",
+      "source_url": "https://www.openstreetmap.org/way/26803644"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7134338",
+      "source_url": "https://www.wikidata.org/wiki/Q7134338"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Keamari%20Town%2C%20Karachi%2C%20Pakistan%20-%20panoramio%20%283%29.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Paradise_Point,_Pakistan"
+    }
+  }
+}

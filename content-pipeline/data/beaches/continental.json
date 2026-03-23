@@ -1,0 +1,66 @@
+{
+  "slug": "continental",
+  "name": "CONTINENTAL",
+  "centroid_lat": 45.9516,
+  "centroid_lng": 8.4773,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/195162166",
+      "source_url": "https://www.openstreetmap.org/way/195162166"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1092705076",
+      "source_url": "https://www.openstreetmap.org/way/1092705076"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT001103072004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT001103072003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT001103072004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT001103072003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited",
+      "access": "yes"
+    },
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "surfing": {
+      "surfing_available": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

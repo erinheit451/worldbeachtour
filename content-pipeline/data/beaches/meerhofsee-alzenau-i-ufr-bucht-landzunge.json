@@ -1,0 +1,70 @@
+{
+  "slug": "meerhofsee-alzenau-i-ufr-bucht-landzunge",
+  "name": "MEERHOFSEE, ALZENAU I.UFR., BUCHT LANDZUNGE",
+  "centroid_lat": 50.0859,
+  "centroid_lng": 9.0466,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/230842920",
+      "source_url": "https://www.openstreetmap.org/way/230842920"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/230843033",
+      "source_url": "https://www.openstreetmap.org/way/230843033"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/230843196",
+      "source_url": "https://www.openstreetmap.org/way/230843196"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/288766026",
+      "source_url": "https://www.openstreetmap.org/way/288766026"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_AB_0388",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_AB_0001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_AB_0387",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_AB_0388",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_AB_0001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_AB_0387",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

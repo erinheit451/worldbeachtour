@@ -1,0 +1,29 @@
+{
+  "slug": "sant-esteve-de-la-fosca",
+  "name": "Sant Esteve de la Fosca",
+  "centroid_lat": 41.8584743,
+  "centroid_lng": 3.1450926,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8268913",
+      "source_url": "https://www.openstreetmap.org/relation/8268913"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28121106",
+      "source_url": "https://www.wikidata.org/wiki/Q28121106"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Palam%C3%B3s%2C%20Castillo%20de%20Sant%20Esteve%20de%20la%20Fosca-PM%2028479.jpg"
+    }
+  }
+}

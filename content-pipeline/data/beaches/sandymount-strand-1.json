@@ -1,0 +1,48 @@
+{
+  "slug": "sandymount-strand-1",
+  "name": "Sandymount Strand",
+  "centroid_lat": 53.328095,
+  "centroid_lng": -6.2084236,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/746942791",
+      "source_url": "https://www.openstreetmap.org/way/746942791"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7417543",
+      "source_url": "https://www.wikidata.org/wiki/Q7417543"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IEEABWC090_0000_0300",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IEEABWC090_0000_0300",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "restrooms": true
+    },
+    "social": {
+      "dog_friendly": "leashed",
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/IMG%20SandymountBaths.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sandymount_Strand"
+    },
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

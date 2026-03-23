@@ -1,0 +1,30 @@
+{
+  "slug": "wilson-beach",
+  "name": "Wilson Beach",
+  "centroid_lat": 29.930207,
+  "centroid_lng": -84.4454551,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/358735246",
+      "source_url": "https://www.openstreetmap.org/node/358735246"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1121108534",
+      "source_url": "https://www.openstreetmap.org/way/1121108534"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49325331",
+      "source_url": "https://www.wikidata.org/wiki/Q49325331"
+    }
+  ],
+  "attributes": {}
+}

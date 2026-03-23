@@ -1,0 +1,24 @@
+{
+  "slug": "bush",
+  "name": "bush",
+  "centroid_lat": 10.2113941,
+  "centroid_lng": -61.4486614,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10931728980",
+      "source_url": "https://www.openstreetmap.org/node/10931728980"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

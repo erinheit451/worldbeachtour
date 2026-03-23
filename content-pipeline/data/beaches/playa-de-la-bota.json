@@ -1,0 +1,29 @@
+{
+  "slug": "playa-de-la-bota",
+  "name": "Playa de la Bota",
+  "centroid_lat": 37.2032167,
+  "centroid_lng": -7.0284834,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/180825630",
+      "source_url": "https://www.openstreetmap.org/way/180825630"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24021457",
+      "source_url": "https://www.wikidata.org/wiki/Q24021457"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20la%20Bota.jpg"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "arkoudaki",
+  "name": "Αρκουδάκι",
+  "centroid_lat": 39.238313,
+  "centroid_lng": 20.1399202,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1072595396",
+      "source_url": "https://www.openstreetmap.org/way/1072595396"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

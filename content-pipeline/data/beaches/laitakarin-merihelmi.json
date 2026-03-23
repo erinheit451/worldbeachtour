@@ -1,0 +1,25 @@
+{
+  "slug": "laitakarin-merihelmi",
+  "name": "Laitakarin Merihelmi",
+  "centroid_lat": 61.3422964,
+  "centroid_lng": 21.5664331,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1160839151",
+      "source_url": "https://www.openstreetmap.org/way/1160839151"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited",
+      "fee_required": false
+    }
+  }
+}

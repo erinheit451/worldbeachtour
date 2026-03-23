@@ -1,0 +1,48 @@
+{
+  "slug": "playa-de-santa-catalina",
+  "name": "Playa de Santa Catalina",
+  "centroid_lat": 36.5954529,
+  "centroid_lng": -6.2766837,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/38034441",
+      "source_url": "https://www.openstreetmap.org/way/38034441"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1302086193",
+      "source_url": "https://www.openstreetmap.org/way/1302086193"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23979166",
+      "source_url": "https://www.wikidata.org/wiki/Q23979166"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES612M0272214",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES612M0272214",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20Santa%20Catalina%20IMG%2020250607%20113021.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

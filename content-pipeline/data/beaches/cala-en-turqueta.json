@@ -1,0 +1,35 @@
+{
+  "slug": "cala-en-turqueta",
+  "name": "Cala en Turqueta",
+  "centroid_lat": 39.9323742,
+  "centroid_lng": 3.9153459,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/9918554",
+      "source_url": "https://www.openstreetmap.org/relation/9918554"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q17588951",
+      "source_url": "https://www.wikidata.org/wiki/Q17588951"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/E04%20Cala%20d%27en%20Turqueta.JPG"
+    }
+  }
+}

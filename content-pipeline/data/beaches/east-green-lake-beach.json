@@ -1,0 +1,27 @@
+{
+  "slug": "east-green-lake-beach",
+  "name": "East Green Lake Beach",
+  "centroid_lat": 47.6804598,
+  "centroid_lng": -122.3294551,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/333885392",
+      "source_url": "https://www.openstreetmap.org/way/333885392"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited"
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

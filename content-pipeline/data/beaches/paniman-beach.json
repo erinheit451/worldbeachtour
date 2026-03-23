@@ -1,0 +1,29 @@
+{
+  "slug": "paniman-beach",
+  "name": "Paniman Beach",
+  "centroid_lat": 14.2799988,
+  "centroid_lng": 120.6662668,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/105138368",
+      "source_url": "https://www.openstreetmap.org/way/105138368"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/19371724",
+      "source_url": "https://www.openstreetmap.org/relation/19371724"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

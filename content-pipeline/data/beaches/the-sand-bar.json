@@ -1,0 +1,25 @@
+{
+  "slug": "the-sand-bar",
+  "name": "The Sand Bar",
+  "centroid_lat": 44.7112061,
+  "centroid_lng": -62.8168245,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1812945745",
+      "source_url": "https://www.openstreetmap.org/node/1812945745"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/170146400",
+      "source_url": "https://www.openstreetmap.org/way/170146400"
+    }
+  ],
+  "attributes": {}
+}

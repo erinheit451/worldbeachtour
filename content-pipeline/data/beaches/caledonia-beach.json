@@ -1,0 +1,25 @@
+{
+  "slug": "caledonia-beach",
+  "name": "Caledonia Beach",
+  "centroid_lat": 47.3086706,
+  "centroid_lng": -122.4346004,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/20035050",
+      "source_url": "https://www.openstreetmap.org/relation/20035050"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320285",
+      "source_url": "https://www.wikidata.org/wiki/Q49320285"
+    }
+  ],
+  "attributes": {}
+}

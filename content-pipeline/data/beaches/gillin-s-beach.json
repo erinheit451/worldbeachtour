@@ -1,0 +1,29 @@
+{
+  "slug": "gillin-s-beach",
+  "name": "Gillin's Beach",
+  "centroid_lat": 21.8888908,
+  "centroid_lng": -159.4142273,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/9155968",
+      "source_url": "https://www.openstreetmap.org/relation/9155968"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6733553",
+      "source_url": "https://www.wikidata.org/wiki/Q6733553"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "wikipedia_url": "https://en.wikipedia.org/wiki/M%C4%81h%C4%81%CA%BBulep%C5%AB_Beach"
+    }
+  }
+}

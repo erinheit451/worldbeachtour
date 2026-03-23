@@ -1,0 +1,40 @@
+{
+  "slug": "kapielisko-morskie-dziwnow",
+  "name": "KĄPIELISKO MORSKIE DZIWNÓW",
+  "centroid_lat": 54.02583,
+  "centroid_lng": 14.74889,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/3249221",
+      "source_url": "https://www.openstreetmap.org/relation/3249221"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49323510",
+      "source_url": "https://www.wikidata.org/wiki/Q49323510"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4210701432000030",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4210701432000030",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

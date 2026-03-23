@@ -1,0 +1,25 @@
+{
+  "slug": "port-elgin-main-beach",
+  "name": "Port Elgin Main Beach",
+  "centroid_lat": 44.4413543,
+  "centroid_lng": -81.4039241,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5379683708",
+      "source_url": "https://www.openstreetmap.org/node/5379683708"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/470030248",
+      "source_url": "https://www.openstreetmap.org/way/470030248"
+    }
+  ],
+  "attributes": {}
+}

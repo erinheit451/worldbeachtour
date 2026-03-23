@@ -1,0 +1,27 @@
+{
+  "slug": "plaza-eko-centar-krajina",
+  "name": "Plaža Eko-centar Krajina",
+  "centroid_lat": 44.6977009,
+  "centroid_lng": 17.2002291,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1203479153",
+      "source_url": "https://www.openstreetmap.org/way/1203479153"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

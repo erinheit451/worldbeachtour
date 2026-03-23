@@ -1,0 +1,29 @@
+{
+  "slug": "playa-de-los-peligros",
+  "name": "Playa de los Peligros",
+  "centroid_lat": 43.4655434,
+  "centroid_lng": -3.777489,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/28423268",
+      "source_url": "https://www.openstreetmap.org/way/28423268"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6079202",
+      "source_url": "https://www.wikidata.org/wiki/Q6079202"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20los%20Peligros%201.jpg"
+    }
+  }
+}

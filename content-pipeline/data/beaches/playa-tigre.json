@@ -1,0 +1,25 @@
+{
+  "slug": "playa-tigre",
+  "name": "Playa Tigre",
+  "centroid_lat": 8.5570036,
+  "centroid_lng": -83.3191652,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/505241773",
+      "source_url": "https://www.openstreetmap.org/way/505241773"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23735140",
+      "source_url": "https://www.wikidata.org/wiki/Q23735140"
+    }
+  ],
+  "attributes": {}
+}

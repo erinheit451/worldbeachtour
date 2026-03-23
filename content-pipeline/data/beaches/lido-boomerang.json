@@ -1,0 +1,24 @@
+{
+  "slug": "lido-boomerang",
+  "name": "Lido Boomerang",
+  "centroid_lat": 40.4260397,
+  "centroid_lng": 16.8919626,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/621951233",
+      "source_url": "https://www.openstreetmap.org/way/621951233"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

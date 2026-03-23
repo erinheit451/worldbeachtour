@@ -1,0 +1,25 @@
+{
+  "slug": "gibson-s-beach",
+  "name": "Gibson's Beach",
+  "centroid_lat": -33.846576,
+  "centroid_lng": 151.2808039,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/176725263",
+      "source_url": "https://www.openstreetmap.org/way/176725263"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21957099",
+      "source_url": "https://www.wikidata.org/wiki/Q21957099"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "spiaggia-del-sasso-cavallazzo",
+  "name": "Spiaggia del Sasso Cavallazzo",
+  "centroid_lat": 45.79892,
+  "centroid_lng": 8.58785,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1157505891",
+      "source_url": "https://www.openstreetmap.org/way/1157505891"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33334903",
+      "source_url": "https://www.wikidata.org/wiki/Q33334903"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

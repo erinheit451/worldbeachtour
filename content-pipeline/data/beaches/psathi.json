@@ -1,0 +1,25 @@
+{
+  "slug": "psathi",
+  "name": "Ψαθί",
+  "centroid_lat": 36.6579715,
+  "centroid_lng": 24.40811,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/2115633078",
+      "source_url": "https://www.openstreetmap.org/node/2115633078"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/201553691",
+      "source_url": "https://www.openstreetmap.org/way/201553691"
+    }
+  ],
+  "attributes": {}
+}

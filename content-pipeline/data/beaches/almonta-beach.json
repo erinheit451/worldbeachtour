@@ -1,0 +1,29 @@
+{
+  "slug": "almonta-beach",
+  "name": "Almonta Beach",
+  "centroid_lat": -34.6815427,
+  "centroid_lng": 135.3444322,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/3439003836",
+      "source_url": "https://www.openstreetmap.org/node/3439003836"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956655",
+      "source_url": "https://www.wikidata.org/wiki/Q21956655"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Almonta%20Beach%20panorama%20-%20panoramio.jpg"
+    }
+  }
+}

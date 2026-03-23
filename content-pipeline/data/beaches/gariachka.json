@@ -1,0 +1,24 @@
+{
+  "slug": "gariachka",
+  "name": "Гарячка",
+  "centroid_lat": 49.2645287,
+  "centroid_lng": 31.4369056,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1313337850",
+      "source_url": "https://www.openstreetmap.org/way/1313337850"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

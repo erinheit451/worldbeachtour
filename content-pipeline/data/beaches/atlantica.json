@@ -1,0 +1,38 @@
+{
+  "slug": "atlantica",
+  "name": "ATLÂNTICA",
+  "centroid_lat": 38.4505,
+  "centroid_lng": -8.86153,
+  "country_code": "PT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10352381",
+      "source_url": "https://www.wikidata.org/wiki/Q10352381"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCP3X",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCP3X",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20atlantica%20soltroia.JPG"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

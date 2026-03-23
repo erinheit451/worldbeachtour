@@ -1,0 +1,29 @@
+{
+  "slug": "grdni-do",
+  "name": "Grdni do",
+  "centroid_lat": 42.8967659,
+  "centroid_lng": 17.4438457,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/441758434",
+      "source_url": "https://www.openstreetmap.org/way/441758434"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/991140505",
+      "source_url": "https://www.openstreetmap.org/way/991140505"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    }
+  }
+}

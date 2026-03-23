@@ -1,0 +1,42 @@
+{
+  "slug": "waldsee-kruft",
+  "name": "WALDSEE KRUFT",
+  "centroid_lat": 50.3978,
+  "centroid_lng": 7.3053,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/173063541",
+      "source_url": "https://www.openstreetmap.org/way/173063541"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DERP_PR_0006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DERP_PR_0006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

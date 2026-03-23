@@ -1,0 +1,35 @@
+{
+  "slug": "lielupe",
+  "name": "LIELUPE",
+  "centroid_lat": 56.9978,
+  "centroid_lng": 23.8986,
+  "country_code": "LV",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/12637848",
+      "source_url": "https://www.openstreetmap.org/relation/12637848"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "LV00713000011",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "LV00713000011",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Transitional"
+    }
+  }
+}

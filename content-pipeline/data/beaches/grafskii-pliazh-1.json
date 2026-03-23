@@ -1,0 +1,27 @@
+{
+  "slug": "grafskii-pliazh-1",
+  "name": "Графський пляж",
+  "centroid_lat": 49.2229302,
+  "centroid_lng": 31.8635086,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/360309827",
+      "source_url": "https://www.openstreetmap.org/way/360309827"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

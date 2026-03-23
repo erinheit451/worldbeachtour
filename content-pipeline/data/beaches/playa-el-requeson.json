@@ -1,0 +1,32 @@
+{
+  "slug": "playa-el-requeson",
+  "name": "Playa El Requesón",
+  "centroid_lat": 26.6374737,
+  "centroid_lng": -111.8319556,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/235264997",
+      "source_url": "https://www.openstreetmap.org/way/235264997"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q125563936",
+      "source_url": "https://www.wikidata.org/wiki/Q125563936"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20el%20Requeson%20%28%5E161%20explore%2005-24-2022%29%20-%20Flickr%20-%20Kirt%20Edblom.jpg"
+    }
+  }
+}

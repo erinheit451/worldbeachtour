@@ -1,0 +1,27 @@
+{
+  "slug": "caroubier",
+  "name": "Caroubier",
+  "centroid_lat": 36.8910994,
+  "centroid_lng": 4.40202,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/431493616",
+      "source_url": "https://www.openstreetmap.org/way/431493616"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

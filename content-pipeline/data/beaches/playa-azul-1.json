@@ -1,0 +1,25 @@
+{
+  "slug": "playa-azul-1",
+  "name": "Playa Azul",
+  "centroid_lat": 19.0977098,
+  "centroid_lng": -104.324187,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/8072025370",
+      "source_url": "https://www.openstreetmap.org/node/8072025370"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33330148",
+      "source_url": "https://www.wikidata.org/wiki/Q33330148"
+    }
+  ],
+  "attributes": {}
+}

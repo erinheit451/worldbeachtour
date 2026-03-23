@@ -1,0 +1,43 @@
+{
+  "slug": "praia-dos-olhos-de-agua",
+  "name": "Praia dos Olhos de Água",
+  "centroid_lat": 37.089709,
+  "centroid_lng": -8.1906987,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1254991134",
+      "source_url": "https://www.openstreetmap.org/way/1254991134"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10353149",
+      "source_url": "https://www.wikidata.org/wiki/Q10353149"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCV9U",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCV9U",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Olhos%20De%20Agua%20-%20cliffs%20%2813399379195%29.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

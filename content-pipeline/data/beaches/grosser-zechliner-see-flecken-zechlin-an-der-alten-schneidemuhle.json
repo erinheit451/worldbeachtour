@@ -1,0 +1,35 @@
+{
+  "slug": "grosser-zechliner-see-flecken-zechlin-an-der-alten-schneidemuhle",
+  "name": "GROßER ZECHLINER SEE, FLECKEN ZECHLIN, AN DER ALTEN SCHNEIDEMÜHLE",
+  "centroid_lat": 53.1535,
+  "centroid_lng": 12.7868,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/96185650",
+      "source_url": "https://www.openstreetmap.org/way/96185650"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBB_PR_0270",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBB_PR_0270",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

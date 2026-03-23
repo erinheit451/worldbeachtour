@@ -1,0 +1,38 @@
+{
+  "slug": "plage-de-la-pissotte",
+  "name": "Plage de la Pissotte",
+  "centroid_lat": 48.6414671,
+  "centroid_lng": -2.2681293,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/171415609",
+      "source_url": "https://www.openstreetmap.org/way/171415609"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0122282M022077",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0122282M022077",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

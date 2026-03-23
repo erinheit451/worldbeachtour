@@ -1,0 +1,30 @@
+{
+  "slug": "joemma-beach",
+  "name": "Joemma Beach",
+  "centroid_lat": 47.2253681,
+  "centroid_lng": -122.810268,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/396633410",
+      "source_url": "https://www.openstreetmap.org/way/396633410"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/396633411",
+      "source_url": "https://www.openstreetmap.org/way/396633411"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49321333",
+      "source_url": "https://www.wikidata.org/wiki/Q49321333"
+    }
+  ],
+  "attributes": {}
+}

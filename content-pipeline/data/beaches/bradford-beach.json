@@ -1,0 +1,30 @@
+{
+  "slug": "bradford-beach",
+  "name": "Bradford Beach",
+  "centroid_lat": 43.0616957,
+  "centroid_lng": -87.8724714,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/55278201",
+      "source_url": "https://www.openstreetmap.org/way/55278201"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q109561764",
+      "source_url": "https://www.wikidata.org/wiki/Q109561764"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Polar%20Bear%20Plunge%2020090101%200278.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bradford_Beach"
+    }
+  }
+}

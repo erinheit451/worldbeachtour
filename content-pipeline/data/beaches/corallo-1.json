@@ -1,0 +1,25 @@
+{
+  "slug": "corallo-1",
+  "name": "Corallo",
+  "centroid_lat": 43.5073807,
+  "centroid_lng": 13.6216552,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/948954470",
+      "source_url": "https://www.openstreetmap.org/way/948954470"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1422162066",
+      "source_url": "https://www.openstreetmap.org/way/1422162066"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "saarenina-supelrand",
+  "name": "Säärenina supelrand",
+  "centroid_lat": 58.9753099,
+  "centroid_lng": 22.9185522,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1183433838",
+      "source_url": "https://www.openstreetmap.org/way/1183433838"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

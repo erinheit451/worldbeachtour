@@ -1,0 +1,30 @@
+{
+  "slug": "kabakum-tsentralen",
+  "name": "КАБАКУМ-ЦЕНТРАЛЕН",
+  "centroid_lat": 43.2583,
+  "centroid_lng": 28.0328,
+  "country_code": "BG",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BG3310610135003004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BG3310610135003004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

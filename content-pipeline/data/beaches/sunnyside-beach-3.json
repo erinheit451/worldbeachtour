@@ -1,0 +1,38 @@
+{
+  "slug": "sunnyside-beach-3",
+  "name": "Sunnyside Beach",
+  "centroid_lat": -38.1998388,
+  "centroid_lng": 145.0627074,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/210894939",
+      "source_url": "https://www.openstreetmap.org/way/210894939"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q16900911",
+      "source_url": "https://www.wikidata.org/wiki/Q16900911"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21955792",
+      "source_url": "https://www.wikidata.org/wiki/Q21955792"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sunnyside_North_Beach",
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Mt%20Eliza%20-%20Sunnyside%20Beach%201.jpg"
+    }
+  }
+}

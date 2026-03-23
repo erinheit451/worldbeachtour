@@ -1,0 +1,30 @@
+{
+  "slug": "perastikos-pilot-beach-hotel",
+  "name": "Perastikos-Pilot Beach Hotel",
+  "centroid_lat": 35.35676462,
+  "centroid_lng": 24.27497864,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/732465242",
+      "source_url": "https://www.openstreetmap.org/way/732465242"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53630144",
+      "source_url": "https://www.wikidata.org/wiki/Q53630144"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false,
+      "access": "customers"
+    }
+  }
+}

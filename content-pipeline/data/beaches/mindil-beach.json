@@ -1,0 +1,33 @@
+{
+  "slug": "mindil-beach",
+  "name": "Mindil Beach",
+  "centroid_lat": -12.4452589,
+  "centroid_lng": 130.8298691,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/257806037",
+      "source_url": "https://www.openstreetmap.org/way/257806037"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6863837",
+      "source_url": "https://www.wikidata.org/wiki/Q6863837"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Mindil%20markets%20230616%20gnangarra-111.JPG",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mindil_Beach"
+    }
+  }
+}

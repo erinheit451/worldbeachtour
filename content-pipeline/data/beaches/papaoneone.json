@@ -1,0 +1,32 @@
+{
+  "slug": "papaoneone",
+  "name": "Papaoneone",
+  "centroid_lat": 21.463611111,
+  "centroid_lng": -158.213611111,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/904924441",
+      "source_url": "https://www.openstreetmap.org/way/904924441"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322456",
+      "source_url": "https://www.wikidata.org/wiki/Q49322456"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    },
+    "surfing": {
+      "surfing_available": true
+    }
+  }
+}

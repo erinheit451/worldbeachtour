@@ -1,0 +1,35 @@
+{
+  "slug": "rapids-beach",
+  "name": "Rapids Beach",
+  "centroid_lat": 25.1348563,
+  "centroid_lng": 55.1216663,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/94404694",
+      "source_url": "https://www.openstreetmap.org/way/94404694"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/94406814",
+      "source_url": "https://www.openstreetmap.org/way/94406814"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/94406815",
+      "source_url": "https://www.openstreetmap.org/way/94406815"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/94406816",
+      "source_url": "https://www.openstreetmap.org/way/94406816"
+    }
+  ],
+  "attributes": {}
+}

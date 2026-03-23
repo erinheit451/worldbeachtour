@@ -1,0 +1,25 @@
+{
+  "slug": "playa-el-obispo",
+  "name": "Playa El Obispo",
+  "centroid_lat": 13.4860196,
+  "centroid_lng": -89.3153588,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8392133",
+      "source_url": "https://www.openstreetmap.org/relation/8392133"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31937118",
+      "source_url": "https://www.wikidata.org/wiki/Q31937118"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "face-a-l-ecole-de-voile-d-agon-coutainville",
+  "name": "FACE A L ECOLE DE VOILE D AGON-COUTAINVILLE",
+  "centroid_lat": 49.03062,
+  "centroid_lng": -1.59654,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD1250003M050345",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD1250003M050345",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

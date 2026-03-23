@@ -1,0 +1,32 @@
+{
+  "slug": "tsujido-beach",
+  "name": "Tsujidō Beach",
+  "centroid_lat": 35.319289,
+  "centroid_lng": 139.443839,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/439467662",
+      "source_url": "https://www.openstreetmap.org/way/439467662"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q11638180",
+      "source_url": "https://www.wikidata.org/wiki/Q11638180"
+    }
+  ],
+  "attributes": {
+    "surfing": {
+      "surfing_available": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Tsujid%C5%8D%20Kaigan%2002.jpg"
+    }
+  }
+}

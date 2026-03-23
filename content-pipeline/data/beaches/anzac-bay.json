@@ -1,0 +1,24 @@
+{
+  "slug": "anzac-bay",
+  "name": "Anzac Bay",
+  "centroid_lat": -37.4668838,
+  "centroid_lng": 175.9842683,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/700628306",
+      "source_url": "https://www.openstreetmap.org/way/700628306"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

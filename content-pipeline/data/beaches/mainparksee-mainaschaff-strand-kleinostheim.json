@@ -1,0 +1,38 @@
+{
+  "slug": "mainparksee-mainaschaff-strand-kleinostheim",
+  "name": "MAINPARKSEE, MAINASCHAFF, STRAND KLEINOSTHEIM",
+  "centroid_lat": 49.9897,
+  "centroid_lng": 9.0697,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/37142117",
+      "source_url": "https://www.openstreetmap.org/way/37142117"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_AB_0005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_AB_0005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

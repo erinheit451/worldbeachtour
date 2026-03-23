@@ -1,0 +1,68 @@
+{
+  "slug": "sistiana-all-interno-della-baia",
+  "name": "SISTIANA-ALL`INTERNO DELLA BAIA",
+  "centroid_lat": 45.7692,
+  "centroid_lng": 13.6264,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/173584219",
+      "source_url": "https://www.openstreetmap.org/way/173584219"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/173584231",
+      "source_url": "https://www.openstreetmap.org/way/173584231"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14705172",
+      "source_url": "https://www.openstreetmap.org/relation/14705172"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14705173",
+      "source_url": "https://www.openstreetmap.org/relation/14705173"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14705174",
+      "source_url": "https://www.openstreetmap.org/relation/14705174"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT006032001004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT006032001003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT006032001004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT006032001003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

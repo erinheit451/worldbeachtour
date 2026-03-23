@@ -1,0 +1,44 @@
+{
+  "slug": "plage-de-ty-bihan",
+  "name": "Plage de Ty-Bihan",
+  "centroid_lat": 47.5645524,
+  "centroid_lng": -3.0929991,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/3102133",
+      "source_url": "https://www.openstreetmap.org/relation/3102133"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q120210950",
+      "source_url": "https://www.wikidata.org/wiki/Q120210950"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0456034M056280",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0456034M056280",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/133%20Carnac%20Plage%20de%20Ty%20Bihan.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

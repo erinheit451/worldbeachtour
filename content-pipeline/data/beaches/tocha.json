@@ -1,0 +1,35 @@
+{
+  "slug": "tocha",
+  "name": "TOCHA",
+  "centroid_lat": 40.32934,
+  "centroid_lng": -8.84553,
+  "country_code": "PT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q14206083",
+      "source_url": "https://www.wikidata.org/wiki/Q14206083"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCK8T",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCK8T",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

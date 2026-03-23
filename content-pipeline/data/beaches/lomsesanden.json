@@ -1,0 +1,25 @@
+{
+  "slug": "lomsesanden",
+  "name": "Lomsesanden",
+  "centroid_lat": 58.06492,
+  "centroid_lng": 6.79511,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/13884410",
+      "source_url": "https://www.openstreetmap.org/relation/13884410"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q19380147",
+      "source_url": "https://www.wikidata.org/wiki/Q19380147"
+    }
+  ],
+  "attributes": {}
+}

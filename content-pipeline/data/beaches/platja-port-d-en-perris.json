@@ -1,0 +1,29 @@
+{
+  "slug": "platja-port-d-en-perris",
+  "name": "Platja Port d'en Perris",
+  "centroid_lat": 42.1264001,
+  "centroid_lng": 3.1353216,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1127917136",
+      "source_url": "https://www.openstreetmap.org/way/1127917136"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q120799818",
+      "source_url": "https://www.wikidata.org/wiki/Q120799818"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/102%20Port%20d%27en%20Perris%20%28l%27Escala%29.jpg"
+    }
+  }
+}

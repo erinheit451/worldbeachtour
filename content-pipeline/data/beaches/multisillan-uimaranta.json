@@ -1,0 +1,24 @@
+{
+  "slug": "multisillan-uimaranta",
+  "name": "Multisillan uimaranta",
+  "centroid_lat": 61.4453412,
+  "centroid_lng": 23.7441785,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/190039169",
+      "source_url": "https://www.openstreetmap.org/way/190039169"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

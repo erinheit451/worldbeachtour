@@ -1,0 +1,30 @@
+{
+  "slug": "praina-da-polbeira",
+  "name": "Praíña da Polbeira",
+  "centroid_lat": 42.2817714,
+  "centroid_lng": -8.6628317,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12696243756",
+      "source_url": "https://www.openstreetmap.org/node/12696243756"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/237207364",
+      "source_url": "https://www.openstreetmap.org/way/237207364"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q109286447",
+      "source_url": "https://www.wikidata.org/wiki/Q109286447"
+    }
+  ],
+  "attributes": {}
+}

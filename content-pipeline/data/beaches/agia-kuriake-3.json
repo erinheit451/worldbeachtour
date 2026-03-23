@@ -1,0 +1,63 @@
+{
+  "slug": "agia-kuriake-3",
+  "name": "Αγία Κυριακή",
+  "centroid_lat": 37.5330132,
+  "centroid_lng": 25.216045,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/265943526",
+      "source_url": "https://www.openstreetmap.org/way/265943526"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/265943528",
+      "source_url": "https://www.openstreetmap.org/way/265943528"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659806065",
+      "source_url": "https://www.openstreetmap.org/way/659806065"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659806067",
+      "source_url": "https://www.openstreetmap.org/way/659806067"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659806068",
+      "source_url": "https://www.openstreetmap.org/way/659806068"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659806070",
+      "source_url": "https://www.openstreetmap.org/way/659806070"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149301387101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149301387101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

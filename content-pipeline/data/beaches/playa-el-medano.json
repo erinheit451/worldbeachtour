@@ -1,0 +1,24 @@
+{
+  "slug": "playa-el-medano",
+  "name": "Playa El Médano",
+  "centroid_lat": 22.8950575,
+  "centroid_lng": -109.8877655,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/13719918",
+      "source_url": "https://www.openstreetmap.org/relation/13719918"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "evans-beach-1",
+  "name": "Evans Beach",
+  "centroid_lat": 42.6430289,
+  "centroid_lng": -79.0668857,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/18546648",
+      "source_url": "https://www.openstreetmap.org/relation/18546648"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q34671819",
+      "source_url": "https://www.wikidata.org/wiki/Q34671819"
+    }
+  ],
+  "attributes": {}
+}

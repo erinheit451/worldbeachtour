@@ -1,0 +1,43 @@
+{
+  "slug": "bruse",
+  "name": "Βρύση",
+  "centroid_lat": 35.2019505,
+  "centroid_lng": 24.1343326,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/293727857",
+      "source_url": "https://www.openstreetmap.org/way/293727857"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/505893307",
+      "source_url": "https://www.openstreetmap.org/way/505893307"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139324103101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139324103101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "little-bay-beach-3",
+  "name": "Little Bay Beach",
+  "centroid_lat": 16.8016658,
+  "centroid_lng": -62.2056927,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/397169324",
+      "source_url": "https://www.openstreetmap.org/way/397169324"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

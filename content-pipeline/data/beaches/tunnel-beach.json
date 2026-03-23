@@ -1,0 +1,30 @@
+{
+  "slug": "tunnel-beach",
+  "name": "Tunnel Beach",
+  "centroid_lat": -45.9207909,
+  "centroid_lng": 170.4596192,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/107479912",
+      "source_url": "https://www.openstreetmap.org/way/107479912"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7853279",
+      "source_url": "https://www.wikidata.org/wiki/Q7853279"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Tunnel%20Beach%20%283%29.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tunnel_Beach"
+    }
+  }
+}

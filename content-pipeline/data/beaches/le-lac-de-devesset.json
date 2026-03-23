@@ -1,0 +1,35 @@
+{
+  "slug": "le-lac-de-devesset",
+  "name": "LE LAC DE DEVESSET",
+  "centroid_lat": 45.05159,
+  "centroid_lng": 4.39396,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/376764295",
+      "source_url": "https://www.openstreetmap.org/way/376764295"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2207080D007405",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2207080D007405",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "2nd-beach",
+  "name": "2nd Beach",
+  "centroid_lat": 40.9216143,
+  "centroid_lng": -72.8524139,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/885346095",
+      "source_url": "https://www.openstreetmap.org/way/885346095"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "private"
+    }
+  }
+}

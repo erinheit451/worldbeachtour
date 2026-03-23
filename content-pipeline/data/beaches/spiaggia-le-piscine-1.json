@@ -1,0 +1,27 @@
+{
+  "slug": "spiaggia-le-piscine-1",
+  "name": "Spiaggia le Piscine",
+  "centroid_lat": 38.0313402,
+  "centroid_lng": 16.1440293,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12128130274",
+      "source_url": "https://www.openstreetmap.org/node/12128130274"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

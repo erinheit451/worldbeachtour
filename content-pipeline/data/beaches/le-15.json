@@ -1,0 +1,24 @@
+{
+  "slug": "le-15",
+  "name": "Le 15",
+  "centroid_lat": 43.1487969,
+  "centroid_lng": 0.9778835,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10810944804",
+      "source_url": "https://www.openstreetmap.org/node/10810944804"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

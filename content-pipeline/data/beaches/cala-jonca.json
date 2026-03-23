@@ -1,0 +1,29 @@
+{
+  "slug": "cala-jonca",
+  "name": "Cala Jonca",
+  "centroid_lat": 41.7788277,
+  "centroid_lng": 3.0400088,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8280936",
+      "source_url": "https://www.openstreetmap.org/relation/8280936"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q98558420",
+      "source_url": "https://www.wikidata.org/wiki/Q98558420"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sant%20Feliu%20de%20Gu%C3%ADxols%20-%20panoramio.jpg"
+    }
+  }
+}

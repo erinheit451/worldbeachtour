@@ -1,0 +1,29 @@
+{
+  "slug": "spiaggia-ficocella-delle-donne",
+  "name": "Spiaggia Ficocella delle donne",
+  "centroid_lat": 40.0356842,
+  "centroid_lng": 15.2853626,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "rock",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/998218615",
+      "source_url": "https://www.openstreetmap.org/way/998218615"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/998218616",
+      "source_url": "https://www.openstreetmap.org/way/998218616"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

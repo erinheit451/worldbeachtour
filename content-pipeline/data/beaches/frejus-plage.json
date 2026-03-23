@@ -1,0 +1,27 @@
+{
+  "slug": "frejus-plage",
+  "name": "Fréjus plage",
+  "centroid_lat": 43.4226321,
+  "centroid_lng": 6.7566268,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/136794717",
+      "source_url": "https://www.openstreetmap.org/way/136794717"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

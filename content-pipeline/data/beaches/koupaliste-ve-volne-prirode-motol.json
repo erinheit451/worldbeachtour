@@ -1,0 +1,38 @@
+{
+  "slug": "koupaliste-ve-volne-prirode-motol",
+  "name": "KOUPALIŠTĚ VE VOLNÉ PŘÍRODĚ MOTOL",
+  "centroid_lat": 50.0693,
+  "centroid_lng": 14.3381,
+  "country_code": "CZ",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1299016002",
+      "source_url": "https://www.openstreetmap.org/way/1299016002"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZPK105051",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZPK105051",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

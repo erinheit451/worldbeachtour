@@ -1,0 +1,25 @@
+{
+  "slug": "roys-beach",
+  "name": "Roys Beach",
+  "centroid_lat": -46.9023062,
+  "centroid_lng": 168.0280014,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/202891822",
+      "source_url": "https://www.openstreetmap.org/way/202891822"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324527",
+      "source_url": "https://www.wikidata.org/wiki/Q49324527"
+    }
+  ],
+  "attributes": {}
+}

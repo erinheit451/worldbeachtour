@@ -1,0 +1,24 @@
+{
+  "slug": "flamingo-island",
+  "name": "Flamingo Island",
+  "centroid_lat": 33.9109918,
+  "centroid_lng": 10.903514,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10057192013",
+      "source_url": "https://www.openstreetmap.org/node/10057192013"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

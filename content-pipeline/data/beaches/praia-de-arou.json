@@ -1,0 +1,27 @@
+{
+  "slug": "praia-de-arou",
+  "name": "Praia de Arou",
+  "centroid_lat": 43.1853271,
+  "centroid_lng": -9.1060258,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/370986775",
+      "source_url": "https://www.openstreetmap.org/way/370986775"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

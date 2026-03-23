@@ -1,0 +1,46 @@
+{
+  "slug": "palmasera",
+  "name": "Palmasera",
+  "centroid_lat": 40.2799401,
+  "centroid_lng": 9.6354511,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/47484348",
+      "source_url": "https://www.openstreetmap.org/way/47484348"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33339453",
+      "source_url": "https://www.wikidata.org/wiki/Q33339453"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020091017004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020091017004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20Gonone%20Spaggia%20Centrale%2C%20NU%2C%20Sardinia%2C%20Italy%20-%20panoramio.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

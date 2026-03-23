@@ -1,0 +1,73 @@
+{
+  "slug": "baska-pocetak-plaze",
+  "name": "Baska pocetak plaze",
+  "centroid_lat": 44.96821,
+  "centroid_lng": 14.75415,
+  "country_code": "HR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/117375488",
+      "source_url": "https://www.openstreetmap.org/way/117375488"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/117375493",
+      "source_url": "https://www.openstreetmap.org/way/117375493"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/232335936",
+      "source_url": "https://www.openstreetmap.org/way/232335936"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/232335938",
+      "source_url": "https://www.openstreetmap.org/way/232335938"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/232335940",
+      "source_url": "https://www.openstreetmap.org/way/232335940"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/232335942",
+      "source_url": "https://www.openstreetmap.org/way/232335942"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/725788291",
+      "source_url": "https://www.openstreetmap.org/way/725788291"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/10049738",
+      "source_url": "https://www.openstreetmap.org/relation/10049738"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6148",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6148",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

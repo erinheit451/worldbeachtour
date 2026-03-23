@@ -1,0 +1,29 @@
+{
+  "slug": "playa-de-arnao",
+  "name": "Playa de Arnao",
+  "centroid_lat": 43.577287,
+  "centroid_lng": -5.9816307,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/36867835",
+      "source_url": "https://www.openstreetmap.org/way/36867835"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6078582",
+      "source_url": "https://www.wikidata.org/wiki/Q6078582"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20Arnao%20%28Castrill%C3%B3n%29%2C%20Asturias%20%28Espa%C3%B1a%29.jpg"
+    }
+  }
+}

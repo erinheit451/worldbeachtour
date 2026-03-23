@@ -1,0 +1,68 @@
+{
+  "slug": "nea-agkhialos",
+  "name": "Νέα Αγχίαλος",
+  "centroid_lat": 39.2730201,
+  "centroid_lng": 22.8188242,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/368439769",
+      "source_url": "https://www.openstreetmap.org/way/368439769"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/368439886",
+      "source_url": "https://www.openstreetmap.org/way/368439886"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/368440076",
+      "source_url": "https://www.openstreetmap.org/way/368440076"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/829217875",
+      "source_url": "https://www.openstreetmap.org/way/829217875"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53629312",
+      "source_url": "https://www.wikidata.org/wiki/Q53629312"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW089105029101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW089105026101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW089105029101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW089105026101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

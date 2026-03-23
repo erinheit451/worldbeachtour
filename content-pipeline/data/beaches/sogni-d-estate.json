@@ -1,0 +1,101 @@
+{
+  "slug": "sogni-d-estate",
+  "name": "Sogni d'Estate",
+  "centroid_lat": 43.8875285,
+  "centroid_lng": 8.0458889,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7207039630",
+      "source_url": "https://www.openstreetmap.org/node/7207039630"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7207039631",
+      "source_url": "https://www.openstreetmap.org/node/7207039631"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7207039632",
+      "source_url": "https://www.openstreetmap.org/node/7207039632"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7207039633",
+      "source_url": "https://www.openstreetmap.org/node/7207039633"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7207039634",
+      "source_url": "https://www.openstreetmap.org/node/7207039634"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/225480158",
+      "source_url": "https://www.openstreetmap.org/way/225480158"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/764852360",
+      "source_url": "https://www.openstreetmap.org/way/764852360"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/764854181",
+      "source_url": "https://www.openstreetmap.org/way/764854181"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/764854182",
+      "source_url": "https://www.openstreetmap.org/way/764854182"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1410502240",
+      "source_url": "https://www.openstreetmap.org/way/1410502240"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33344860",
+      "source_url": "https://www.wikidata.org/wiki/Q33344860"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007008031008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007008031007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007008031008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007008031007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "social": {
+      "dog_friendly": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

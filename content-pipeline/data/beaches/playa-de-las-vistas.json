@@ -1,0 +1,29 @@
+{
+  "slug": "playa-de-las-vistas",
+  "name": "Playa de Las Vistas",
+  "centroid_lat": 28.0510829,
+  "centroid_lng": -16.7246108,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/25515310",
+      "source_url": "https://www.openstreetmap.org/way/25515310"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6078860",
+      "source_url": "https://www.wikidata.org/wiki/Q6078860"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playadelasvistastenerife.jpg"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "little-kingsley-beach",
+  "name": "Little Kingsley Beach",
+  "centroid_lat": -32.7880287,
+  "centroid_lng": 152.0999273,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/802751863",
+      "source_url": "https://www.openstreetmap.org/way/802751863"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1443624315",
+      "source_url": "https://www.openstreetmap.org/way/1443624315"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21957027",
+      "source_url": "https://www.wikidata.org/wiki/Q21957027"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21957050",
+      "source_url": "https://www.wikidata.org/wiki/Q21957050"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

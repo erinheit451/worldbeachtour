@@ -1,0 +1,30 @@
+{
+  "slug": "the-gravel-bar",
+  "name": "The Gravel Bar",
+  "centroid_lat": 45.0647155,
+  "centroid_lng": -61.8502229,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/2435999164",
+      "source_url": "https://www.openstreetmap.org/node/2435999164"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/235559103",
+      "source_url": "https://www.openstreetmap.org/way/235559103"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22485293",
+      "source_url": "https://www.wikidata.org/wiki/Q22485293"
+    }
+  ],
+  "attributes": {}
+}

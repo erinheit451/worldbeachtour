@@ -1,0 +1,89 @@
+{
+  "slug": "playa-de-san-lorenzo-1",
+  "name": "Playa de San Lorenzo",
+  "centroid_lat": 43.5427729,
+  "centroid_lng": -5.6528722,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/517332406",
+      "source_url": "https://www.openstreetmap.org/way/517332406"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/889473402",
+      "source_url": "https://www.openstreetmap.org/way/889473402"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q9060729",
+      "source_url": "https://www.wikidata.org/wiki/Q9060729"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q18932971",
+      "source_url": "https://www.wikidata.org/wiki/Q18932971"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24019718",
+      "source_url": "https://www.wikidata.org/wiki/Q24019718"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES120M024485",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES120M024487",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES120M024486",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES120M024484",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES120M024485",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES120M024487",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES120M024486",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES120M024484",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Gijon-playa%20san%20lorenzo%20y%20Cimadevilla.JPG"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

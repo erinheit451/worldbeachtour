@@ -1,0 +1,48 @@
+{
+  "slug": "caletta-villa-wanda",
+  "name": "Caletta Villa Wanda",
+  "centroid_lat": 40.5092496,
+  "centroid_lng": 8.3393803,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11279609907",
+      "source_url": "https://www.openstreetmap.org/node/11279609907"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/696526108",
+      "source_url": "https://www.openstreetmap.org/way/696526108"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1217348843",
+      "source_url": "https://www.openstreetmap.org/way/1217348843"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020090003009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020090003009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "private"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

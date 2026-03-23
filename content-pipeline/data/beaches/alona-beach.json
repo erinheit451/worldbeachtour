@@ -1,0 +1,30 @@
+{
+  "slug": "alona-beach",
+  "name": "Alona Beach",
+  "centroid_lat": 9.5483086,
+  "centroid_lng": 123.7723366,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1239802",
+      "source_url": "https://www.openstreetmap.org/relation/1239802"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q17485759",
+      "source_url": "https://www.wikidata.org/wiki/Q17485759"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Alona%20Beach%20Overview.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Alona_Beach"
+    }
+  }
+}

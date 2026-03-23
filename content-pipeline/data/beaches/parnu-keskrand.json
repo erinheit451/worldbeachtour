@@ -1,0 +1,35 @@
+{
+  "slug": "parnu-keskrand",
+  "name": "Pärnu keskrand",
+  "centroid_lat": 58.3739107,
+  "centroid_lng": 24.4950357,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/645688276",
+      "source_url": "https://www.openstreetmap.org/way/645688276"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "EE00403022PARNU",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "EE00403022PARNU",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

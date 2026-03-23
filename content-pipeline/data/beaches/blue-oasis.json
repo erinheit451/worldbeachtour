@@ -1,0 +1,25 @@
+{
+  "slug": "blue-oasis",
+  "name": "Blue Oasis",
+  "centroid_lat": 10.2682192,
+  "centroid_lng": 124.984172,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/399661904",
+      "source_url": "https://www.openstreetmap.org/way/399661904"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/475790947",
+      "source_url": "https://www.openstreetmap.org/way/475790947"
+    }
+  ],
+  "attributes": {}
+}

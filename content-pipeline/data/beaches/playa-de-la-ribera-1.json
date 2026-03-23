@@ -1,0 +1,30 @@
+{
+  "slug": "playa-de-la-ribera-1",
+  "name": "Playa de La Ribera",
+  "centroid_lat": 35.8867774,
+  "centroid_lng": -5.3149802,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/363351253",
+      "source_url": "https://www.openstreetmap.org/way/363351253"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q2893260",
+      "source_url": "https://www.wikidata.org/wiki/Q2893260"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/En%20Ceuta%2C%20s%C3%AD%2034%20-%20Playa%20de%20la%20Ribera.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_de_la_Ribera"
+    }
+  }
+}

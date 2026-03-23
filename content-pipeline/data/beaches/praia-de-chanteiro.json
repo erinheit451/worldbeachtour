@@ -1,0 +1,45 @@
+{
+  "slug": "praia-de-chanteiro",
+  "name": "Praia de Chanteiro",
+  "centroid_lat": 43.4457293,
+  "centroid_lng": -8.3030061,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/32390711",
+      "source_url": "https://www.openstreetmap.org/way/32390711"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/651503384",
+      "source_url": "https://www.openstreetmap.org/way/651503384"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/651503385",
+      "source_url": "https://www.openstreetmap.org/way/651503385"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES111M0043",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES111M0043",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

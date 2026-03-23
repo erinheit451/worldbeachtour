@@ -1,0 +1,25 @@
+{
+  "slug": "hahei-beach",
+  "name": "Hahei Beach",
+  "centroid_lat": -36.8389954,
+  "centroid_lng": 175.8086458,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/87921753",
+      "source_url": "https://www.openstreetmap.org/way/87921753"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q32214508",
+      "source_url": "https://www.wikidata.org/wiki/Q32214508"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "aire-de-loisirs-de-mijault",
+  "name": "Aire de Loisirs de Mijault",
+  "centroid_lat": 46.6683631,
+  "centroid_lng": 1.0079955,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1085771523",
+      "source_url": "https://www.openstreetmap.org/way/1085771523"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "parsteiner-see-brodowin-pehlitz-cp",
+  "name": "PARSTEINER SEE, BRODOWIN/PEHLITZ, CP",
+  "centroid_lat": 52.9133,
+  "centroid_lng": 14.0064,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/706032415",
+      "source_url": "https://www.openstreetmap.org/way/706032415"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBB_PR_0009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBB_PR_0009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

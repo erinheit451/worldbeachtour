@@ -1,0 +1,29 @@
+{
+  "slug": "comenda-beach",
+  "name": "Comenda beach",
+  "centroid_lat": 38.509139,
+  "centroid_lng": -8.922556,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/764145147",
+      "source_url": "https://www.openstreetmap.org/way/764145147"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49323659",
+      "source_url": "https://www.wikidata.org/wiki/Q49323659"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

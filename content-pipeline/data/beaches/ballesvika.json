@@ -1,0 +1,34 @@
+{
+  "slug": "ballesvika",
+  "name": "Ballesvika",
+  "centroid_lat": 69.383248,
+  "centroid_lng": 17.104678,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12922349825",
+      "source_url": "https://www.openstreetmap.org/node/12922349825"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/15863217",
+      "source_url": "https://www.openstreetmap.org/relation/15863217"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/15863218",
+      "source_url": "https://www.openstreetmap.org/relation/15863218"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

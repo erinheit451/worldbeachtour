@@ -1,0 +1,40 @@
+{
+  "slug": "getteron-5-e-vik",
+  "name": "GETTERÖN 5:E VIK",
+  "centroid_lat": 57.1181,
+  "centroid_lng": 12.2026,
+  "country_code": "SE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/10227296",
+      "source_url": "https://www.openstreetmap.org/relation/10227296"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/10227297",
+      "source_url": "https://www.openstreetmap.org/relation/10227297"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0A11383000000641",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0A11383000000641",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "storsanden-3",
+  "name": "Storsanden",
+  "centroid_lat": 69.78838,
+  "centroid_lng": 30.8079,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/15478091",
+      "source_url": "https://www.openstreetmap.org/relation/15478091"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q133283504",
+      "source_url": "https://www.wikidata.org/wiki/Q133283504"
+    }
+  ],
+  "attributes": {}
+}

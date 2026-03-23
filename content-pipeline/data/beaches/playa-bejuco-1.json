@@ -1,0 +1,25 @@
+{
+  "slug": "playa-bejuco-1",
+  "name": "Playa Bejuco",
+  "centroid_lat": 9.8310483,
+  "centroid_lng": -85.3466787,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/430493153",
+      "source_url": "https://www.openstreetmap.org/way/430493153"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23746707",
+      "source_url": "https://www.wikidata.org/wiki/Q23746707"
+    }
+  ],
+  "attributes": {}
+}

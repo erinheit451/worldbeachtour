@@ -1,0 +1,25 @@
+{
+  "slug": "le-port-de-la-motte",
+  "name": "Le Port de la Motte",
+  "centroid_lat": 48.8508464,
+  "centroid_lng": -3.2610995,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/4081619",
+      "source_url": "https://www.openstreetmap.org/relation/4081619"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/4081620",
+      "source_url": "https://www.openstreetmap.org/relation/4081620"
+    }
+  ],
+  "attributes": {}
+}

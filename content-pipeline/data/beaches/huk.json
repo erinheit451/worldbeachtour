@@ -1,0 +1,24 @@
+{
+  "slug": "huk",
+  "name": "Huk",
+  "centroid_lat": 59.8949163,
+  "centroid_lng": 10.6763654,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/32547162",
+      "source_url": "https://www.openstreetmap.org/way/32547162"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

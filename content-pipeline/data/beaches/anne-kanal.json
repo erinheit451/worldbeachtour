@@ -1,0 +1,35 @@
+{
+  "slug": "anne-kanal",
+  "name": "ANNE KANAL",
+  "centroid_lat": 58.3778,
+  "centroid_lng": 26.7408,
+  "country_code": "EE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1271386091",
+      "source_url": "https://www.openstreetmap.org/way/1271386091"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "EE00503015ANNEK",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "EE00503015ANNEK",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

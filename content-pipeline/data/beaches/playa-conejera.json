@@ -1,0 +1,25 @@
+{
+  "slug": "playa-conejera",
+  "name": "Playa Conejera",
+  "centroid_lat": 43.5331446,
+  "centroid_lng": -5.3651443,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/902267588",
+      "source_url": "https://www.openstreetmap.org/way/902267588"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q18819344",
+      "source_url": "https://www.wikidata.org/wiki/Q18819344"
+    }
+  ],
+  "attributes": {}
+}

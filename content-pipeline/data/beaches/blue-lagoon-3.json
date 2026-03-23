@@ -1,0 +1,53 @@
+{
+  "slug": "blue-lagoon-3",
+  "name": "BLUE LAGOON",
+  "centroid_lat": 36.01396,
+  "centroid_lng": 14.32432,
+  "country_code": "MT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/134876348",
+      "source_url": "https://www.openstreetmap.org/way/134876348"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/157468862",
+      "source_url": "https://www.openstreetmap.org/way/157468862"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/518344742",
+      "source_url": "https://www.openstreetmap.org/way/518344742"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q123272094",
+      "source_url": "https://www.wikidata.org/wiki/Q123272094"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "MT0260262200000D21",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "MT0260262200000D21",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Malta%20-%20Ghajnsielem%20-%20Comino%20%2B%20Large%20Blue%20Lagoon%20Rock%20%2B%20Small%20Blue%20Lagoon%20Rock%20%2B%20Cominotto%20%2B%20Blue%20Lagoon%2002%20ies.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

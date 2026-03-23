@@ -1,0 +1,30 @@
+{
+  "slug": "hohen-sprenzer-see-hohen-sprenz",
+  "name": "HOHEN SPRENZER SEE, HOHEN SPRENZ",
+  "centroid_lat": 53.9158,
+  "centroid_lng": 12.2016,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEMV_PR_2_0334",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEMV_PR_2_0334",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

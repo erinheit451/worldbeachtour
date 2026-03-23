@@ -1,0 +1,34 @@
+{
+  "slug": "playa-de-gui-gui",
+  "name": "Playa de Güi-Güí",
+  "centroid_lat": 27.9453176,
+  "centroid_lng": -15.8278494,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/376393376",
+      "source_url": "https://www.openstreetmap.org/way/376393376"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6106340",
+      "source_url": "https://www.wikidata.org/wiki/Q6106340"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q133928930",
+      "source_url": "https://www.wikidata.org/wiki/Q133928930"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Guigui-grancanaria.jpg"
+    }
+  }
+}

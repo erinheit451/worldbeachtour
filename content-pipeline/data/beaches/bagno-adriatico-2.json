@@ -1,0 +1,24 @@
+{
+  "slug": "bagno-adriatico-2",
+  "name": "Bagno Adriatico",
+  "centroid_lat": 44.2043202,
+  "centroid_lng": 12.4052792,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/720011532",
+      "source_url": "https://www.openstreetmap.org/way/720011532"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "sudecka-plaza",
+  "name": "Sudecka Plaża",
+  "centroid_lat": 50.678556,
+  "centroid_lng": 16.5943846,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/15005846",
+      "source_url": "https://www.openstreetmap.org/relation/15005846"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL5132308402000029",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL5132308402000029",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "plage-du-petit-roucas-blanc",
+  "name": "Plage du Petit Roucas Blanc",
+  "centroid_lat": 43.264182,
+  "centroid_lng": 5.3687327,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/3781528995",
+      "source_url": "https://www.openstreetmap.org/node/3781528995"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/122193681",
+      "source_url": "https://www.openstreetmap.org/way/122193681"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/122193682",
+      "source_url": "https://www.openstreetmap.org/way/122193682"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/122193684",
+      "source_url": "https://www.openstreetmap.org/way/122193684"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/18296089",
+      "source_url": "https://www.openstreetmap.org/relation/18296089"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q2037477",
+      "source_url": "https://www.wikidata.org/wiki/Q2037477"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322837",
+      "source_url": "https://www.wikidata.org/wiki/Q49322837"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0413055M013444",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0413055M013440",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0413055M013444",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0413055M013440",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Mistral%20gagnant%20Plages%20du%20Prado%2C%20Marseille.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Plages_du_Prado"
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

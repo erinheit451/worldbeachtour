@@ -1,0 +1,25 @@
+{
+  "slug": "plage-de-l-hopital-1",
+  "name": "Plage de l'Hôpital",
+  "centroid_lat": 4.9427379,
+  "centroid_lng": -52.3350781,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/13621828",
+      "source_url": "https://www.openstreetmap.org/relation/13621828"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/13631619",
+      "source_url": "https://www.openstreetmap.org/relation/13631619"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "vn-bystricka-u-plaze",
+  "name": "VN BYSTŘIČKA - U PLÁŽE",
+  "centroid_lat": 49.4239,
+  "centroid_lng": 18.0249,
+  "country_code": "CZ",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5796774331",
+      "source_url": "https://www.openstreetmap.org/node/5796774331"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZKO721202",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZKO721201",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZKO721202",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZKO721201",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

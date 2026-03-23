@@ -1,0 +1,24 @@
+{
+  "slug": "la-galera",
+  "name": "La Galera",
+  "centroid_lat": 28.733258,
+  "centroid_lng": -13.8659146,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/16694530",
+      "source_url": "https://www.openstreetmap.org/relation/16694530"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

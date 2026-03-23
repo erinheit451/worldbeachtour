@@ -1,0 +1,25 @@
+{
+  "slug": "pasir-bunga",
+  "name": "Pasir Bunga",
+  "centroid_lat": 1.4068278,
+  "centroid_lng": 104.1059027,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6757641532",
+      "source_url": "https://www.openstreetmap.org/node/6757641532"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33328768",
+      "source_url": "https://www.wikidata.org/wiki/Q33328768"
+    }
+  ],
+  "attributes": {}
+}

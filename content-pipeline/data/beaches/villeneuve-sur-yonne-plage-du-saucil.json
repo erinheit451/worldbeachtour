@@ -1,0 +1,46 @@
+{
+  "slug": "villeneuve-sur-yonne-plage-du-saucil",
+  "name": "VILLENEUVE SUR YONNE - PLAGE DU SAUCIL",
+  "centroid_lat": 48.08169,
+  "centroid_lng": 3.28978,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/230766626",
+      "source_url": "https://www.openstreetmap.org/way/230766626"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/230766627",
+      "source_url": "https://www.openstreetmap.org/way/230766627"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRC1489464D089480",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRC1489464D089480",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

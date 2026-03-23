@@ -1,0 +1,35 @@
+{
+  "slug": "keila-joepargi-supelrand",
+  "name": "Keila Jõepargi supelrand",
+  "centroid_lat": 59.3015063,
+  "centroid_lng": 24.4393722,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1186149228",
+      "source_url": "https://www.openstreetmap.org/way/1186149228"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1186149554",
+      "source_url": "https://www.openstreetmap.org/way/1186149554"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

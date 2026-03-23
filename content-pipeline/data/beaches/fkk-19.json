@@ -1,0 +1,53 @@
+{
+  "slug": "fkk-19",
+  "name": "FKK",
+  "centroid_lat": 43.2610782,
+  "centroid_lng": 16.6701552,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5086060152",
+      "source_url": "https://www.openstreetmap.org/node/5086060152"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/219836045",
+      "source_url": "https://www.openstreetmap.org/way/219836045"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/219836059",
+      "source_url": "https://www.openstreetmap.org/way/219836059"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1308588782",
+      "source_url": "https://www.openstreetmap.org/way/1308588782"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2110",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2110",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

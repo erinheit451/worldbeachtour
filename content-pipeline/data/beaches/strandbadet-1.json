@@ -1,0 +1,25 @@
+{
+  "slug": "strandbadet-1",
+  "name": "Strandbadet",
+  "centroid_lat": 59.2549391,
+  "centroid_lng": 18.2802485,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/776865814",
+      "source_url": "https://www.openstreetmap.org/way/776865814"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1303003725",
+      "source_url": "https://www.openstreetmap.org/way/1303003725"
+    }
+  ],
+  "attributes": {}
+}

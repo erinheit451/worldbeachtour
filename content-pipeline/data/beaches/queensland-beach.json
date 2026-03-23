@@ -1,0 +1,29 @@
+{
+  "slug": "queensland-beach",
+  "name": "Queensland Beach",
+  "centroid_lat": 44.6344819,
+  "centroid_lng": -64.0270946,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/495022499",
+      "source_url": "https://www.openstreetmap.org/way/495022499"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22644032",
+      "source_url": "https://www.wikidata.org/wiki/Q22644032"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Queensland%20Beach%20%2824680411134%29.jpg"
+    }
+  }
+}

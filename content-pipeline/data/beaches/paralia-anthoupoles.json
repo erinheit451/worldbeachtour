@@ -1,0 +1,45 @@
+{
+  "slug": "paralia-anthoupoles",
+  "name": "παραλία Ανθούπολης",
+  "centroid_lat": 40.2989818,
+  "centroid_lng": 23.0981084,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/311539494",
+      "source_url": "https://www.openstreetmap.org/way/311539494"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/669547197",
+      "source_url": "https://www.openstreetmap.org/way/669547197"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/669547198",
+      "source_url": "https://www.openstreetmap.org/way/669547198"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109058053101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109058053101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

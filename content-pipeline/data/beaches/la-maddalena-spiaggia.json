@@ -1,0 +1,40 @@
+{
+  "slug": "la-maddalena-spiaggia",
+  "name": "LA MADDALENA SPIAGGIA",
+  "centroid_lat": 39.1512,
+  "centroid_lng": 9.0218,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/589672450",
+      "source_url": "https://www.openstreetmap.org/way/589672450"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33326936",
+      "source_url": "https://www.wikidata.org/wiki/Q33326936"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020092011001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020092011001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

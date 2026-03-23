@@ -1,0 +1,29 @@
+{
+  "slug": "praia-de-concharrao",
+  "name": "Praia de Concharrao",
+  "centroid_lat": 42.7840043,
+  "centroid_lng": -8.9273407,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1876830",
+      "source_url": "https://www.openstreetmap.org/relation/1876830"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/1876831",
+      "source_url": "https://www.openstreetmap.org/relation/1876831"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

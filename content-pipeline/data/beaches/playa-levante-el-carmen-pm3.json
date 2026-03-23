@@ -1,0 +1,30 @@
+{
+  "slug": "playa-levante-el-carmen-pm3",
+  "name": "PLAYA  LEVANTE-EL CARMEN PM3",
+  "centroid_lat": 36.201,
+  "centroid_lng": -5.3269,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES612M0221384",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES612M0221384",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

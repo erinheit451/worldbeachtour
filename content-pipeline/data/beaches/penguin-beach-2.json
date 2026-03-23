@@ -1,0 +1,29 @@
+{
+  "slug": "penguin-beach-2",
+  "name": "Penguin Beach",
+  "centroid_lat": -41.1116818,
+  "centroid_lng": 146.0725178,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/304475168",
+      "source_url": "https://www.openstreetmap.org/way/304475168"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956344",
+      "source_url": "https://www.wikidata.org/wiki/Q21956344"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Grassy%20Seafront%20%2825958419380%29.jpg"
+    }
+  }
+}

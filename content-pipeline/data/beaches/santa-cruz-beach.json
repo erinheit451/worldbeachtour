@@ -1,0 +1,25 @@
+{
+  "slug": "santa-cruz-beach",
+  "name": "Santa Cruz Beach",
+  "centroid_lat": 10.3879557,
+  "centroid_lng": 119.0571461,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/682398481",
+      "source_url": "https://www.openstreetmap.org/way/682398481"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31510804",
+      "source_url": "https://www.wikidata.org/wiki/Q31510804"
+    }
+  ],
+  "attributes": {}
+}

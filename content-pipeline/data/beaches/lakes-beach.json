@@ -1,0 +1,29 @@
+{
+  "slug": "lakes-beach",
+  "name": "Lakes Beach",
+  "centroid_lat": 13.2391427,
+  "centroid_lng": -59.5452085,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6949765784",
+      "source_url": "https://www.openstreetmap.org/node/6949765784"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21746135",
+      "source_url": "https://www.wikidata.org/wiki/Q21746135"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/A%20beach%2C%20Barbados%20%286895201087%29.jpg"
+    }
+  }
+}

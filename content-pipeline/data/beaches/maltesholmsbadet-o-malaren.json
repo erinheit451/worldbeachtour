@@ -1,0 +1,45 @@
+{
+  "slug": "maltesholmsbadet-o-malaren",
+  "name": "Maltesholmsbadet Ö, Mälaren",
+  "centroid_lat": 59.3562,
+  "centroid_lng": 17.8408,
+  "country_code": "SE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/19782897",
+      "source_url": "https://www.openstreetmap.org/way/19782897"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0110180000001841",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0110180000001840",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0110180000001841",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0110180000001840",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

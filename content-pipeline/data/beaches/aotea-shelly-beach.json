@@ -1,0 +1,29 @@
+{
+  "slug": "aotea-shelly-beach",
+  "name": "Aotea / Shelly Beach",
+  "centroid_lat": -36.5726264,
+  "centroid_lng": 174.3782093,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/705027343",
+      "source_url": "https://www.openstreetmap.org/way/705027343"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324720",
+      "source_url": "https://www.wikidata.org/wiki/Q49324720"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Shelly%20Beach%20jetty.jpg"
+    }
+  }
+}

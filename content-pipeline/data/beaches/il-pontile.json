@@ -1,0 +1,68 @@
+{
+  "slug": "il-pontile",
+  "name": "Il Pontile",
+  "centroid_lat": 39.7511157,
+  "centroid_lng": 15.8032267,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1190864974",
+      "source_url": "https://www.openstreetmap.org/way/1190864974"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1190864975",
+      "source_url": "https://www.openstreetmap.org/way/1190864975"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1190870626",
+      "source_url": "https://www.openstreetmap.org/way/1190870626"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1305443223",
+      "source_url": "https://www.openstreetmap.org/way/1305443223"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1305443224",
+      "source_url": "https://www.openstreetmap.org/way/1305443224"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018078132002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018078132003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018078132002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018078132003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

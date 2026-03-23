@@ -1,0 +1,35 @@
+{
+  "slug": "lido-comunale-2",
+  "name": "LIDO COMUNALE",
+  "centroid_lat": 45.8354,
+  "centroid_lng": 8.5698,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1009956322",
+      "source_url": "https://www.openstreetmap.org/way/1009956322"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT001103010002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT001103010002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

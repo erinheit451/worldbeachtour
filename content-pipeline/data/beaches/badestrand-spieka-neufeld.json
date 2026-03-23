@@ -1,0 +1,35 @@
+{
+  "slug": "badestrand-spieka-neufeld",
+  "name": "Badestrand Spieka-Neufeld",
+  "centroid_lat": 53.7902558,
+  "centroid_lng": 8.5434742,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9741747479",
+      "source_url": "https://www.openstreetmap.org/node/9741747479"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DENI_PR_TK25_2217_04",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DENI_PR_TK25_2217_04",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Transitional"
+    }
+  }
+}

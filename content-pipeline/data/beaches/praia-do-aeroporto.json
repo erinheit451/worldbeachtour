@@ -1,0 +1,25 @@
+{
+  "slug": "praia-do-aeroporto",
+  "name": "Praia do Aeroporto",
+  "centroid_lat": -22.9725135,
+  "centroid_lng": -44.3116914,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12088028268",
+      "source_url": "https://www.openstreetmap.org/node/12088028268"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1305137063",
+      "source_url": "https://www.openstreetmap.org/way/1305137063"
+    }
+  ],
+  "attributes": {}
+}

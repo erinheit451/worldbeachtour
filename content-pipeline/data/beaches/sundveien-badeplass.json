@@ -1,0 +1,24 @@
+{
+  "slug": "sundveien-badeplass",
+  "name": "Sundveien badeplass",
+  "centroid_lat": 59.8656406,
+  "centroid_lng": 10.763324,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11981162894",
+      "source_url": "https://www.openstreetmap.org/node/11981162894"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

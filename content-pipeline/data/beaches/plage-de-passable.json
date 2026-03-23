@@ -1,0 +1,51 @@
+{
+  "slug": "plage-de-passable",
+  "name": "Plage de Passable",
+  "centroid_lat": 43.6936942,
+  "centroid_lng": 7.3253438,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/288019",
+      "source_url": "https://www.openstreetmap.org/relation/288019"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/3952998",
+      "source_url": "https://www.openstreetmap.org/relation/3952998"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q129211852",
+      "source_url": "https://www.wikidata.org/wiki/Q129211852"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306121M006565",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306121M006565",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plage%20de%20Passable%202025-11-13.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

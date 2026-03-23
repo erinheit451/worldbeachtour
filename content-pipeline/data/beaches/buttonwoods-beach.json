@@ -1,0 +1,30 @@
+{
+  "slug": "buttonwoods-beach",
+  "name": "Buttonwoods Beach",
+  "centroid_lat": 41.6862121,
+  "centroid_lng": -71.4217228,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357257739",
+      "source_url": "https://www.openstreetmap.org/node/357257739"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/857381857",
+      "source_url": "https://www.openstreetmap.org/way/857381857"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320272",
+      "source_url": "https://www.wikidata.org/wiki/Q49320272"
+    }
+  ],
+  "attributes": {}
+}

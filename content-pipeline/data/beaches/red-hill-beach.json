@@ -1,0 +1,25 @@
+{
+  "slug": "red-hill-beach",
+  "name": "Red Hill Beach",
+  "centroid_lat": -29.1232935,
+  "centroid_lng": 153.4496706,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/724291509",
+      "source_url": "https://www.openstreetmap.org/way/724291509"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956828",
+      "source_url": "https://www.wikidata.org/wiki/Q21956828"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "isaacs-bay-beach-1",
+  "name": "Isaacs Bay Beach",
+  "centroid_lat": 17.7497577,
+  "centroid_lng": -64.572373,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/28558717",
+      "source_url": "https://www.openstreetmap.org/way/28558717"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31923222",
+      "source_url": "https://www.wikidata.org/wiki/Q31923222"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

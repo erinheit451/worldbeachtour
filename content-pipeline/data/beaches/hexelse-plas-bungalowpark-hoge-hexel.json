@@ -1,0 +1,50 @@
+{
+  "slug": "hexelse-plas-bungalowpark-hoge-hexel",
+  "name": "HEXELSE PLAS BUNGALOWPARK HOGE HEXEL",
+  "centroid_lat": 52.38485,
+  "centroid_lng": 6.55569,
+  "country_code": "NL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1215716333",
+      "source_url": "https://www.openstreetmap.org/way/1215716333"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1215717357",
+      "source_url": "https://www.openstreetmap.org/way/1215717357"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1215717358",
+      "source_url": "https://www.openstreetmap.org/way/1215717358"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1215717359",
+      "source_url": "https://www.openstreetmap.org/way/1215717359"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW44_02-407",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW44_02-407",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

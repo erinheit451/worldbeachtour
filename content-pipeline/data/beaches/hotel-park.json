@@ -1,0 +1,29 @@
+{
+  "slug": "hotel-park",
+  "name": "Hotel Park",
+  "centroid_lat": 45.3158378,
+  "centroid_lng": 14.4677375,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/148272157",
+      "source_url": "https://www.openstreetmap.org/way/148272157"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/148272168",
+      "source_url": "https://www.openstreetmap.org/way/148272168"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

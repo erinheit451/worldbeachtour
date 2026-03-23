@@ -1,0 +1,32 @@
+{
+  "slug": "praia-vermelha-do-norte",
+  "name": "Praia Vermelha do Norte",
+  "centroid_lat": -23.4173864,
+  "centroid_lng": -45.0353799,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/159308936",
+      "source_url": "https://www.openstreetmap.org/way/159308936"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q30930353",
+      "source_url": "https://www.wikidata.org/wiki/Q30930353"
+    }
+  ],
+  "attributes": {
+    "surfing": {
+      "surfing_available": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20vermelha%20do%20norte%20-%20panoramio%20%283%29.jpg"
+    }
+  }
+}

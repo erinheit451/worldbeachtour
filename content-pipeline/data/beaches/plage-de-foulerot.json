@@ -1,0 +1,24 @@
+{
+  "slug": "plage-de-foulerot",
+  "name": "Plage de Foulerot",
+  "centroid_lat": 45.9914148,
+  "centroid_lng": -1.3055322,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1238604907",
+      "source_url": "https://www.openstreetmap.org/way/1238604907"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

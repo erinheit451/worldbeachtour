@@ -1,0 +1,30 @@
+{
+  "slug": "praia-do-submarino",
+  "name": "Praia do Submarino",
+  "centroid_lat": 37.1165016,
+  "centroid_lng": -8.5712626,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1245711159",
+      "source_url": "https://www.openstreetmap.org/way/1245711159"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1245711160",
+      "source_url": "https://www.openstreetmap.org/way/1245711160"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1245934920",
+      "source_url": "https://www.openstreetmap.org/way/1245934920"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "karewa-beach",
+  "name": "Karewa Beach",
+  "centroid_lat": -38.0732659,
+  "centroid_lng": 174.8143395,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1257086367",
+      "source_url": "https://www.openstreetmap.org/way/1257086367"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q32234539",
+      "source_url": "https://www.wikidata.org/wiki/Q32234539"
+    }
+  ],
+  "attributes": {}
+}

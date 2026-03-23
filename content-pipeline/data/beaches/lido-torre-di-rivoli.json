@@ -1,0 +1,38 @@
+{
+  "slug": "lido-torre-di-rivoli",
+  "name": "Lido Torre di Rivoli",
+  "centroid_lat": 41.4868475,
+  "centroid_lng": 15.930483,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1291860252",
+      "source_url": "https://www.openstreetmap.org/way/1291860252"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016071064001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016071064001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

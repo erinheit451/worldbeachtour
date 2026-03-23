@@ -1,0 +1,27 @@
+{
+  "slug": "plage-naturiste-de-sandillon",
+  "name": "Plage Naturiste de Sandillon",
+  "centroid_lat": 47.8850681,
+  "centroid_lng": 2.01222,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/160773533",
+      "source_url": "https://www.openstreetmap.org/way/160773533"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "permissive"
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

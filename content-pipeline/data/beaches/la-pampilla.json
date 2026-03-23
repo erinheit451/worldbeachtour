@@ -1,0 +1,33 @@
+{
+  "slug": "la-pampilla",
+  "name": "La Pampilla",
+  "centroid_lat": -12.1239967,
+  "centroid_lng": -77.0413137,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/396259001",
+      "source_url": "https://www.openstreetmap.org/way/396259001"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q108296655",
+      "source_url": "https://www.wikidata.org/wiki/Q108296655"
+    }
+  ],
+  "attributes": {
+    "surfing": {
+      "surfing_available": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Tablista%20en%20playa%20La%20Pampilla.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/La_Pampilla,_Peru"
+    }
+  }
+}

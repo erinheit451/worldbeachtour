@@ -1,0 +1,27 @@
+{
+  "slug": "los-sauces",
+  "name": "Los Sauces",
+  "centroid_lat": -31.4055707,
+  "centroid_lng": -58.0063447,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/629133740",
+      "source_url": "https://www.openstreetmap.org/way/629133740"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": "Dec-Mar"
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

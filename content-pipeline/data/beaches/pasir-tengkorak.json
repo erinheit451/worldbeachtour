@@ -1,0 +1,25 @@
+{
+  "slug": "pasir-tengkorak",
+  "name": "Pasir Tengkorak",
+  "centroid_lat": 6.4307491,
+  "centroid_lng": 99.7261244,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/729233917",
+      "source_url": "https://www.openstreetmap.org/way/729233917"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33328371",
+      "source_url": "https://www.wikidata.org/wiki/Q33328371"
+    }
+  ],
+  "attributes": {}
+}

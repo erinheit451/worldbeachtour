@@ -1,0 +1,29 @@
+{
+  "slug": "platja-cala-mar-d-en-manassa",
+  "name": "Platja Cala Mar d'en Manassa",
+  "centroid_lat": 42.1268614,
+  "centroid_lng": 3.1317696,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8298727",
+      "source_url": "https://www.openstreetmap.org/relation/8298727"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28119376",
+      "source_url": "https://www.wikidata.org/wiki/Q28119376"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20de%20la%20Mar%20d%27en%20Manassa.jpg"
+    }
+  }
+}

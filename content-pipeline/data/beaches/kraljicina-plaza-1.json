@@ -1,0 +1,32 @@
+{
+  "slug": "kraljicina-plaza-1",
+  "name": "Kraljičina plaža",
+  "centroid_lat": 44.2514347,
+  "centroid_lng": 15.1742151,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/231022098",
+      "source_url": "https://www.openstreetmap.org/way/231022098"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q120718596",
+      "source_url": "https://www.wikidata.org/wiki/Q120718596"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kralji%C4%8Dina%20beach%20in%20Nin%20%282%29.jpg"
+    }
+  }
+}

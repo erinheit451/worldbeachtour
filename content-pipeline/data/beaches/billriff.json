@@ -1,0 +1,29 @@
+{
+  "slug": "billriff",
+  "name": "Billriff",
+  "centroid_lat": 53.6655345,
+  "centroid_lng": 6.8778759,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/11569296",
+      "source_url": "https://www.openstreetmap.org/relation/11569296"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31913266",
+      "source_url": "https://www.wikidata.org/wiki/Q31913266"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Luftaufnahmen%20Nordseekueste%202012-05-by-RaBoe-D90%20126.jpg"
+    }
+  }
+}

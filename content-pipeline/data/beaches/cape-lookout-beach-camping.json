@@ -1,0 +1,27 @@
+{
+  "slug": "cape-lookout-beach-camping",
+  "name": "Cape Lookout beach camping",
+  "centroid_lat": 34.9240209,
+  "centroid_lng": -76.2261758,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/686757397",
+      "source_url": "https://www.openstreetmap.org/way/686757397"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "showers": false,
+      "drinking_water": false,
+      "fee_required": false,
+      "access": "yes"
+    }
+  }
+}

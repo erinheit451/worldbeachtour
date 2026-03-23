@@ -1,0 +1,40 @@
+{
+  "slug": "platja-de-bellver",
+  "name": "Platja de Bellver",
+  "centroid_lat": 40.0564411,
+  "centroid_lng": 0.0966495,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/55093085",
+      "source_url": "https://www.openstreetmap.org/way/55093085"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q18005773",
+      "source_url": "https://www.wikidata.org/wiki/Q18005773"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES522M085996",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES522M085996",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "playa-de-aguadulce",
+  "name": "Playa de Aguadulce",
+  "centroid_lat": 36.8028148,
+  "centroid_lng": -2.5759855,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/788305777",
+      "source_url": "https://www.openstreetmap.org/way/788305777"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES611M0791333",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES611M0791333",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "plage-d-antheor",
+  "name": "Plage d'Anthéor",
+  "centroid_lat": 43.4373379,
+  "centroid_lng": 6.8925368,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/122184149",
+      "source_url": "https://www.openstreetmap.org/way/122184149"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/364787877",
+      "source_url": "https://www.openstreetmap.org/way/364787877"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/579037739",
+      "source_url": "https://www.openstreetmap.org/way/579037739"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0583118M083735",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0583118M083735",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

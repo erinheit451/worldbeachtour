@@ -1,0 +1,40 @@
+{
+  "slug": "danfoki-szabadvizi-furdohely-danfoki-szivornya",
+  "name": "DANFOKI SZABADVIZI FURDOHELY -DANFOKI SZIVORNYA-",
+  "centroid_lat": 46.75758,
+  "centroid_lng": 21.15661,
+  "country_code": "HU",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7931821372",
+      "source_url": "https://www.openstreetmap.org/node/7931821372"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/489901899",
+      "source_url": "https://www.openstreetmap.org/way/489901899"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_00401",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_00401",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

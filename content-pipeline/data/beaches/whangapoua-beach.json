@@ -1,0 +1,30 @@
+{
+  "slug": "whangapoua-beach",
+  "name": "Whangapoua Beach",
+  "centroid_lat": -36.1292469,
+  "centroid_lng": 175.4277684,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/144513404",
+      "source_url": "https://www.openstreetmap.org/way/144513404"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49325278",
+      "source_url": "https://www.wikidata.org/wiki/Q49325278"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Stormy%20Beach%20On%20Great%20Barrier%20Island.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Whangapoua_Beach"
+    }
+  }
+}

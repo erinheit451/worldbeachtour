@@ -1,0 +1,25 @@
+{
+  "slug": "sixmile-beach",
+  "name": "Sixmile Beach",
+  "centroid_lat": 39.4060275,
+  "centroid_lng": -119.0976602,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357553870",
+      "source_url": "https://www.openstreetmap.org/node/357553870"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324785",
+      "source_url": "https://www.wikidata.org/wiki/Q49324785"
+    }
+  ],
+  "attributes": {}
+}

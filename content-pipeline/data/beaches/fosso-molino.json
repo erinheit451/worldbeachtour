@@ -1,0 +1,35 @@
+{
+  "slug": "fosso-molino",
+  "name": "FOSSO MOLINO",
+  "centroid_lat": 43.3265,
+  "centroid_lng": 10.456,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6782268302",
+      "source_url": "https://www.openstreetmap.org/node/6782268302"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049017016",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049017016",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

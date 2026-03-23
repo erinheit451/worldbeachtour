@@ -1,0 +1,32 @@
+{
+  "slug": "osrodek-rekreacyjny-gwarus",
+  "name": "Ośrodek Rekreacyjny „Gwaruś”",
+  "centroid_lat": 50.0201884,
+  "centroid_lng": 18.7727611,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/941071980",
+      "source_url": "https://www.openstreetmap.org/way/941071980"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1092693751",
+      "source_url": "https://www.openstreetmap.org/way/1092693751"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

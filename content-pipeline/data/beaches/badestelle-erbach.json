@@ -1,0 +1,50 @@
+{
+  "slug": "badestelle-erbach",
+  "name": "Badestelle Erbach",
+  "centroid_lat": 48.3211813,
+  "centroid_lng": 9.894486,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/189217667",
+      "source_url": "https://www.openstreetmap.org/way/189217667"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/700123863",
+      "source_url": "https://www.openstreetmap.org/way/700123863"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBW_PR_0005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBW_PR_0005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

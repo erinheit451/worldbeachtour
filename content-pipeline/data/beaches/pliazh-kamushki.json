@@ -1,0 +1,24 @@
+{
+  "slug": "pliazh-kamushki",
+  "name": "Пляж Камушки",
+  "centroid_lat": 50.8786552,
+  "centroid_lng": 40.1015319,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1192530001",
+      "source_url": "https://www.openstreetmap.org/way/1192530001"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

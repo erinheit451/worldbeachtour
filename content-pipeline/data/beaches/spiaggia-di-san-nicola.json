@@ -1,0 +1,25 @@
+{
+  "slug": "spiaggia-di-san-nicola",
+  "name": "Spiaggia di San Nicola",
+  "centroid_lat": 42.1323539,
+  "centroid_lng": 14.7195542,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6166623552",
+      "source_url": "https://www.openstreetmap.org/node/6166623552"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/9172967",
+      "source_url": "https://www.openstreetmap.org/relation/9172967"
+    }
+  ],
+  "attributes": {}
+}

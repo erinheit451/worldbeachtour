@@ -1,0 +1,68 @@
+{
+  "slug": "lido-solemar",
+  "name": "Lido Solemar",
+  "centroid_lat": 40.3036249,
+  "centroid_lng": 18.401533,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/361613922",
+      "source_url": "https://www.openstreetmap.org/way/361613922"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/611308470",
+      "source_url": "https://www.openstreetmap.org/way/611308470"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/611308474",
+      "source_url": "https://www.openstreetmap.org/way/611308474"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/611308475",
+      "source_url": "https://www.openstreetmap.org/way/611308475"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/611308476",
+      "source_url": "https://www.openstreetmap.org/way/611308476"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/611308477",
+      "source_url": "https://www.openstreetmap.org/way/611308477"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33340653",
+      "source_url": "https://www.wikidata.org/wiki/Q33340653"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016075043003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016075043003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

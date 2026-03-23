@@ -1,0 +1,29 @@
+{
+  "slug": "manorbier-beach",
+  "name": "Manorbier Beach",
+  "centroid_lat": 51.6424891,
+  "centroid_lng": -4.8060084,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/3430112",
+      "source_url": "https://www.openstreetmap.org/relation/3430112"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31845022",
+      "source_url": "https://www.wikidata.org/wiki/Q31845022"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Manorbier%20Beach%20-%20geograph.org.uk%20-%203149566.jpg"
+    }
+  }
+}

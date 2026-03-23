@@ -1,0 +1,68 @@
+{
+  "slug": "praia-da-foz-do-lizandro",
+  "name": "Praia da Foz do Lizandro",
+  "centroid_lat": 38.9419992,
+  "centroid_lng": -9.4136284,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/882019340",
+      "source_url": "https://www.openstreetmap.org/way/882019340"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/882019341",
+      "source_url": "https://www.openstreetmap.org/way/882019341"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/882564760",
+      "source_url": "https://www.openstreetmap.org/way/882564760"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1341368308",
+      "source_url": "https://www.openstreetmap.org/way/1341368308"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10352601",
+      "source_url": "https://www.wikidata.org/wiki/Q10352601"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCF7H",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCW3M",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCF7H",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCW3M",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20da%20Foz%20do%20Lizandro.JPG"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

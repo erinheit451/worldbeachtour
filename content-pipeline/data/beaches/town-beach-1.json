@@ -1,0 +1,93 @@
+{
+  "slug": "town-beach-1",
+  "name": "Town beach",
+  "centroid_lat": 44.9540067,
+  "centroid_lng": 14.6895459,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/524392053",
+      "source_url": "https://www.openstreetmap.org/way/524392053"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/607658999",
+      "source_url": "https://www.openstreetmap.org/way/607658999"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/607659000",
+      "source_url": "https://www.openstreetmap.org/way/607659000"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/607659860",
+      "source_url": "https://www.openstreetmap.org/way/607659860"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/911379219",
+      "source_url": "https://www.openstreetmap.org/way/911379219"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/911379220",
+      "source_url": "https://www.openstreetmap.org/way/911379220"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/911379221",
+      "source_url": "https://www.openstreetmap.org/way/911379221"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/911379222",
+      "source_url": "https://www.openstreetmap.org/way/911379222"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/931570388",
+      "source_url": "https://www.openstreetmap.org/way/931570388"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/931570391",
+      "source_url": "https://www.openstreetmap.org/way/931570391"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1394200233",
+      "source_url": "https://www.openstreetmap.org/way/1394200233"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1394834517",
+      "source_url": "https://www.openstreetmap.org/way/1394834517"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6275",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6275",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

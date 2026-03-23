@@ -1,0 +1,35 @@
+{
+  "slug": "severn-beach",
+  "name": "Severn Beach",
+  "centroid_lat": 38.9890007,
+  "centroid_lng": -76.4738493,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/358240454",
+      "source_url": "https://www.openstreetmap.org/node/358240454"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/358250140",
+      "source_url": "https://www.openstreetmap.org/node/358250140"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322298",
+      "source_url": "https://www.wikidata.org/wiki/Q49322298"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324705",
+      "source_url": "https://www.wikidata.org/wiki/Q49324705"
+    }
+  ],
+  "attributes": {}
+}

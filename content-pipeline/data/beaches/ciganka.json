@@ -1,0 +1,56 @@
+{
+  "slug": "ciganka",
+  "name": "Ciganka",
+  "centroid_lat": 44.8499731,
+  "centroid_lng": 14.7254226,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/234855819",
+      "source_url": "https://www.openstreetmap.org/way/234855819"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/429752858",
+      "source_url": "https://www.openstreetmap.org/way/429752858"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/926749396",
+      "source_url": "https://www.openstreetmap.org/way/926749396"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/926749397",
+      "source_url": "https://www.openstreetmap.org/way/926749397"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6303",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6303",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "customary"
+    },
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "fkk-naturist-beach-valkane",
+  "name": "FKK / Naturist Beach Valkane",
+  "centroid_lat": 44.857463,
+  "centroid_lng": 13.8219904,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6507856931",
+      "source_url": "https://www.openstreetmap.org/node/6507856931"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/252203457",
+      "source_url": "https://www.openstreetmap.org/way/252203457"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/262830323",
+      "source_url": "https://www.openstreetmap.org/way/262830323"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-7146",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-7146",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true
+    },
+    "social": {
+      "nudist": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

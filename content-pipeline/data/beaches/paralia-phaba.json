@@ -1,0 +1,32 @@
+{
+  "slug": "paralia-phaba",
+  "name": "Παραλία Φάβα",
+  "centroid_lat": 40.1846866,
+  "centroid_lng": 23.8195559,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/259925278",
+      "source_url": "https://www.openstreetmap.org/way/259925278"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/347268442",
+      "source_url": "https://www.openstreetmap.org/way/347268442"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

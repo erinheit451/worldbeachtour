@@ -1,0 +1,29 @@
+{
+  "slug": "cala-ficarra",
+  "name": "Cala Ficarra",
+  "centroid_lat": 39.9594799,
+  "centroid_lng": 15.7340691,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/108665241",
+      "source_url": "https://www.openstreetmap.org/way/108665241"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q124398726",
+      "source_url": "https://www.wikidata.org/wiki/Q124398726"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Calaficarra.jpg"
+    }
+  }
+}

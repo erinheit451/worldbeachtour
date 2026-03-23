@@ -1,0 +1,40 @@
+{
+  "slug": "pepy-s-beach",
+  "name": "Pepy's Beach",
+  "centroid_lat": 38.1109453,
+  "centroid_lng": 15.6441125,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/590584843",
+      "source_url": "https://www.openstreetmap.org/way/590584843"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/594642724",
+      "source_url": "https://www.openstreetmap.org/way/594642724"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018080063013",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018080063013",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "berry-bay",
+  "name": "Berry Bay",
+  "centroid_lat": -34.9113233,
+  "centroid_lng": 137.0126344,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/858379833",
+      "source_url": "https://www.openstreetmap.org/way/858379833"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    },
+    "surfing": {
+      "surfing_available": true
+    }
+  }
+}

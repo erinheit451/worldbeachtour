@@ -1,0 +1,25 @@
+{
+  "slug": "playa-esmeralda",
+  "name": "Playa Esmeralda",
+  "centroid_lat": 21.1130858,
+  "centroid_lng": -75.8716306,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/237991261",
+      "source_url": "https://www.openstreetmap.org/way/237991261"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23806710",
+      "source_url": "https://www.wikidata.org/wiki/Q23806710"
+    }
+  ],
+  "attributes": {}
+}

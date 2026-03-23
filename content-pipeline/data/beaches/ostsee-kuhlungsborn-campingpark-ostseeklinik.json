@@ -1,0 +1,30 @@
+{
+  "slug": "ostsee-kuhlungsborn-campingpark-ostseeklinik",
+  "name": "OSTSEE, KÜHLUNGSBORN, CAMPINGPARK / OSTSEEKLINIK",
+  "centroid_lat": 54.1537,
+  "centroid_lng": 11.7117,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEMV_PR_1_0246",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEMV_PR_1_0246",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

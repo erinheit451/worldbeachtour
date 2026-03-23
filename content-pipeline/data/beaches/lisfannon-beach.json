@@ -1,0 +1,35 @@
+{
+  "slug": "lisfannon-beach",
+  "name": "Lisfannon Beach",
+  "centroid_lat": 55.0951158,
+  "centroid_lng": -7.4814472,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/282472586",
+      "source_url": "https://www.openstreetmap.org/way/282472586"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IENWBWC220_0000_0100",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IENWBWC220_0000_0100",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

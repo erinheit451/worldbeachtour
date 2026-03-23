@@ -1,0 +1,48 @@
+{
+  "slug": "calamoresca-beach",
+  "name": "Calamoresca beach",
+  "centroid_lat": 42.9351529,
+  "centroid_lng": 10.4993106,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7769907595",
+      "source_url": "https://www.openstreetmap.org/node/7769907595"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/12432928",
+      "source_url": "https://www.openstreetmap.org/relation/12432928"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33325908",
+      "source_url": "https://www.wikidata.org/wiki/Q33325908"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049012003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049012003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Piombino%20%28LI%29%20panorama%20sul%20golfo%20di%20Calamoresca%20e%20il%20quartiere%20Salivoli.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

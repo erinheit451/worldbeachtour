@@ -1,0 +1,68 @@
+{
+  "slug": "oktagona-beach",
+  "name": "Oktagona Beach",
+  "centroid_lat": 40.6795219,
+  "centroid_lng": 17.9312593,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/374333960",
+      "source_url": "https://www.openstreetmap.org/way/374333960"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/668099427",
+      "source_url": "https://www.openstreetmap.org/way/668099427"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/699070177",
+      "source_url": "https://www.openstreetmap.org/way/699070177"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/699211923",
+      "source_url": "https://www.openstreetmap.org/way/699211923"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33333750",
+      "source_url": "https://www.wikidata.org/wiki/Q33333750"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016074001009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016074001010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016074001009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016074001010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "assembly-park-beach",
+  "name": "Assembly Park Beach",
+  "centroid_lat": 42.6166053,
+  "centroid_lng": -88.6047104,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1334342297",
+      "source_url": "https://www.openstreetmap.org/way/1334342297"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

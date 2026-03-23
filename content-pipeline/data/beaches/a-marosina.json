@@ -1,0 +1,65 @@
+{
+  "slug": "a-marosina",
+  "name": "A Marosiña",
+  "centroid_lat": 42.1919888,
+  "centroid_lng": -8.8032324,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12906032812",
+      "source_url": "https://www.openstreetmap.org/node/12906032812"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/12906032813",
+      "source_url": "https://www.openstreetmap.org/node/12906032813"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/12906032814",
+      "source_url": "https://www.openstreetmap.org/node/12906032814"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/12906032815",
+      "source_url": "https://www.openstreetmap.org/node/12906032815"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/13599601561",
+      "source_url": "https://www.openstreetmap.org/node/13599601561"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/37909161",
+      "source_url": "https://www.openstreetmap.org/way/37909161"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24003866",
+      "source_url": "https://www.wikidata.org/wiki/Q24003866"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES114M057404",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES114M057404",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

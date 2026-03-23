@@ -1,0 +1,24 @@
+{
+  "slug": "playa-makaha",
+  "name": "Playa Makaha",
+  "centroid_lat": -12.1290789,
+  "centroid_lng": -77.036446,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/396258998",
+      "source_url": "https://www.openstreetmap.org/way/396258998"
+    }
+  ],
+  "attributes": {
+    "surfing": {
+      "surfing_available": true
+    }
+  }
+}

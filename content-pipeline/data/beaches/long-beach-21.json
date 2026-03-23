@@ -1,0 +1,25 @@
+{
+  "slug": "long-beach-21",
+  "name": "Long Beach",
+  "centroid_lat": 45.4264718,
+  "centroid_lng": -65.377309,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1514904613",
+      "source_url": "https://www.openstreetmap.org/node/1514904613"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22649712",
+      "source_url": "https://www.wikidata.org/wiki/Q22649712"
+    }
+  ],
+  "attributes": {}
+}

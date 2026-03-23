@@ -1,0 +1,45 @@
+{
+  "slug": "khvp-hdvlpyn",
+  "name": "חוף הדולפין",
+  "centroid_lat": 29.5263673,
+  "centroid_lng": 34.9360969,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/43014727",
+      "source_url": "https://www.openstreetmap.org/way/43014727"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1041554896",
+      "source_url": "https://www.openstreetmap.org/way/1041554896"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1116752378",
+      "source_url": "https://www.openstreetmap.org/way/1116752378"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q26768735",
+      "source_url": "https://www.wikidata.org/wiki/Q26768735"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q26768736",
+      "source_url": "https://www.wikidata.org/wiki/Q26768736"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited",
+      "fee_required": true
+    }
+  }
+}

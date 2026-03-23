@@ -1,0 +1,25 @@
+{
+  "slug": "number-one-beach-1",
+  "name": "Number One Beach",
+  "centroid_lat": -32.415277777,
+  "centroid_lng": 152.517777777,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/222267330",
+      "source_url": "https://www.openstreetmap.org/way/222267330"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956873",
+      "source_url": "https://www.wikidata.org/wiki/Q21956873"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "koralj",
+  "name": "Koralj",
+  "centroid_lat": 45.0235929,
+  "centroid_lng": 14.5857009,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/624772259",
+      "source_url": "https://www.openstreetmap.org/way/624772259"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1089881362",
+      "source_url": "https://www.openstreetmap.org/way/1089881362"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6252",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6252",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

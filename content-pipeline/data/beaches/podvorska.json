@@ -1,0 +1,92 @@
+{
+  "slug": "podvorska",
+  "name": "Podvorska",
+  "centroid_lat": 45.1694743,
+  "centroid_lng": 14.6956748,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/253768647",
+      "source_url": "https://www.openstreetmap.org/way/253768647"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/329183364",
+      "source_url": "https://www.openstreetmap.org/way/329183364"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/329286644",
+      "source_url": "https://www.openstreetmap.org/way/329286644"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/708898807",
+      "source_url": "https://www.openstreetmap.org/way/708898807"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/708898808",
+      "source_url": "https://www.openstreetmap.org/way/708898808"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/708898809",
+      "source_url": "https://www.openstreetmap.org/way/708898809"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/717529018",
+      "source_url": "https://www.openstreetmap.org/way/717529018"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6017",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6245",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6016",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6017",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6245",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6016",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited",
+      "fee_required": false
+    },
+    "social": {
+      "dog_friendly": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

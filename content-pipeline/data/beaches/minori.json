@@ -1,0 +1,43 @@
+{
+  "slug": "minori",
+  "name": "MINORI",
+  "centroid_lat": 40.6488,
+  "centroid_lng": 14.6272,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/147039300",
+      "source_url": "https://www.openstreetmap.org/way/147039300"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33339084",
+      "source_url": "https://www.wikidata.org/wiki/Q33339084"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015065068001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015065068001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Spiaggia%20di%20Minori.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

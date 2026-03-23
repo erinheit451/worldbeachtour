@@ -1,0 +1,25 @@
+{
+  "slug": "ship-beach",
+  "name": "Ship Beach",
+  "centroid_lat": 44.9783769,
+  "centroid_lng": -66.6957089,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/19416410",
+      "source_url": "https://www.openstreetmap.org/relation/19416410"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22614285",
+      "source_url": "https://www.wikidata.org/wiki/Q22614285"
+    }
+  ],
+  "attributes": {}
+}

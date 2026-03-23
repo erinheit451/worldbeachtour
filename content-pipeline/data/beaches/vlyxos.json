@@ -1,0 +1,43 @@
+{
+  "slug": "vlyxos",
+  "name": "VLYXOS",
+  "centroid_lat": 37.3443,
+  "centroid_lng": 23.447,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/521474079",
+      "source_url": "https://www.openstreetmap.org/way/521474079"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q96695272",
+      "source_url": "https://www.wikidata.org/wiki/Q96695272"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW039214004101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW039214004101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Vlichos%20beach.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

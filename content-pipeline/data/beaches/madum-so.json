@@ -1,0 +1,35 @@
+{
+  "slug": "madum-so",
+  "name": "MADUM SØ",
+  "centroid_lat": 56.80063,
+  "centroid_lng": 9.95114,
+  "country_code": "DK",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1139043217",
+      "source_url": "https://www.openstreetmap.org/way/1139043217"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW979",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW979",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

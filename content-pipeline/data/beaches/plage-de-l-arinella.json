@@ -1,0 +1,29 @@
+{
+  "slug": "plage-de-l-arinella",
+  "name": "Plage de l'Arinella",
+  "centroid_lat": 42.576503,
+  "centroid_lng": 8.8051527,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/40323127",
+      "source_url": "https://www.openstreetmap.org/way/40323127"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q123420125",
+      "source_url": "https://www.wikidata.org/wiki/Q123420125"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Frankenia%20spec04.jpg"
+    }
+  }
+}

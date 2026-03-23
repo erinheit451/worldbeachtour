@@ -1,0 +1,24 @@
+{
+  "slug": "lido-san-domenico",
+  "name": "Lido San Domenico",
+  "centroid_lat": 39.8170244,
+  "centroid_lng": 15.7859668,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/13173262458",
+      "source_url": "https://www.openstreetmap.org/node/13173262458"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

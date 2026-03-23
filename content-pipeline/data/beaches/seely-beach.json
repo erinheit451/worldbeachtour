@@ -1,0 +1,25 @@
+{
+  "slug": "seely-beach",
+  "name": "Seely Beach",
+  "centroid_lat": 45.4445369,
+  "centroid_lng": -65.3441495,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1288783835",
+      "source_url": "https://www.openstreetmap.org/way/1288783835"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22558866",
+      "source_url": "https://www.wikidata.org/wiki/Q22558866"
+    }
+  ],
+  "attributes": {}
+}

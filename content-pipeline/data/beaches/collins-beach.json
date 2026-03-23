@@ -1,0 +1,31 @@
+{
+  "slug": "collins-beach",
+  "name": "Collins Beach",
+  "centroid_lat": 45.7910842,
+  "centroid_lng": -122.7878115,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/195614901",
+      "source_url": "https://www.openstreetmap.org/way/195614901"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q5147348",
+      "source_url": "https://www.wikidata.org/wiki/Q5147348"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/AUT5507-b.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Collins_Beach_(Sauvie_Island)"
+    }
+  }
+}

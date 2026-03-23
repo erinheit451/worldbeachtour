@@ -1,0 +1,30 @@
+{
+  "slug": "l-ourthe-a-hotton",
+  "name": "L'OURTHE À HOTTON",
+  "centroid_lat": 50.26825,
+  "centroid_lng": 5.44661,
+  "country_code": "BE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BE6300003000000H35A",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BE6300003000000H35A",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "good",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

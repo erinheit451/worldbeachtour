@@ -1,0 +1,33 @@
+{
+  "slug": "praia-de-lumebo",
+  "name": "Praia de Lumebó",
+  "centroid_lat": 43.483736,
+  "centroid_lng": -8.3248632,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/237691364",
+      "source_url": "https://www.openstreetmap.org/way/237691364"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q61389995",
+      "source_url": "https://www.wikidata.org/wiki/Q61389995"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20de%20Lumebo.%20Ferrol%2C%20Galiza.jpg"
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

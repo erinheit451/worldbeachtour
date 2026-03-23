@@ -1,0 +1,73 @@
+{
+  "slug": "spiaggia-di-solanas",
+  "name": "Spiaggia di Solanas",
+  "centroid_lat": 39.1333197,
+  "centroid_lng": 9.429898,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/142006632",
+      "source_url": "https://www.openstreetmap.org/way/142006632"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/367227822",
+      "source_url": "https://www.openstreetmap.org/way/367227822"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/975165255",
+      "source_url": "https://www.openstreetmap.org/way/975165255"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33341204",
+      "source_url": "https://www.wikidata.org/wiki/Q33341204"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020092080001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020092080003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020092080001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020092080003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited",
+      "access": "yes"
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "surfing": {
+      "surfing_available": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Solanas%20-%20panoramio.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

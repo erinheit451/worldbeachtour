@@ -1,0 +1,25 @@
+{
+  "slug": "thornwick-bay",
+  "name": "Thornwick Bay",
+  "centroid_lat": 54.1309936,
+  "centroid_lng": -0.1133086,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/40783939",
+      "source_url": "https://www.openstreetmap.org/way/40783939"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1097663999",
+      "source_url": "https://www.openstreetmap.org/way/1097663999"
+    }
+  ],
+  "attributes": {}
+}

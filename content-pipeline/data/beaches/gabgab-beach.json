@@ -1,0 +1,25 @@
+{
+  "slug": "gabgab-beach",
+  "name": "Gabgab Beach",
+  "centroid_lat": 13.4419979,
+  "centroid_lng": 144.6417806,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/285846490",
+      "source_url": "https://www.openstreetmap.org/way/285846490"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25185488",
+      "source_url": "https://www.wikidata.org/wiki/Q25185488"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "anse-de-toullain",
+  "name": "ANSE DE TOULLAIN",
+  "centroid_lat": 47.26625,
+  "centroid_lng": -2.42073,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/622725954",
+      "source_url": "https://www.openstreetmap.org/way/622725954"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0144135M044225",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0144135M044225",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

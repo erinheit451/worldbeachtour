@@ -1,0 +1,29 @@
+{
+  "slug": "etang-du-rousset",
+  "name": "ETANG DU ROUSSET",
+  "centroid_lat": 46.57903,
+  "centroid_lng": 4.44656,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRC1371279D071205",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRC1371279D071205",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

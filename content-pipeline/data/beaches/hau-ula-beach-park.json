@@ -1,0 +1,29 @@
+{
+  "slug": "hau-ula-beach-park",
+  "name": "Hauʻula Beach Park",
+  "centroid_lat": 21.611944444,
+  "centroid_lng": -157.910833333,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/905830898",
+      "source_url": "https://www.openstreetmap.org/way/905830898"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49321127",
+      "source_url": "https://www.wikidata.org/wiki/Q49321127"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

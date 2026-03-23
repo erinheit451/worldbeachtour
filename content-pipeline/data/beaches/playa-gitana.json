@@ -1,0 +1,24 @@
+{
+  "slug": "playa-gitana",
+  "name": "Playa Gitana",
+  "centroid_lat": 8.7063428,
+  "centroid_lng": -83.6499803,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11549237959",
+      "source_url": "https://www.openstreetmap.org/node/11549237959"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

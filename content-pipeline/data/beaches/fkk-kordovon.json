@@ -1,0 +1,37 @@
+{
+  "slug": "fkk-kordovon",
+  "name": "FKK Kordovon",
+  "centroid_lat": 43.159161,
+  "centroid_lng": 16.4343744,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/370483345",
+      "source_url": "https://www.openstreetmap.org/way/370483345"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1424025934",
+      "source_url": "https://www.openstreetmap.org/way/1424025934"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1424025935",
+      "source_url": "https://www.openstreetmap.org/way/1424025935"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

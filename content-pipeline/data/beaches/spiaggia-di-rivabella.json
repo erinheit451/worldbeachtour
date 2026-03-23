@@ -1,0 +1,68 @@
+{
+  "slug": "spiaggia-di-rivabella",
+  "name": "Spiaggia di Rivabella",
+  "centroid_lat": 40.0884883,
+  "centroid_lng": 18.0121222,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/497986756",
+      "source_url": "https://www.openstreetmap.org/way/497986756"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/497986760",
+      "source_url": "https://www.openstreetmap.org/way/497986760"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/497986762",
+      "source_url": "https://www.openstreetmap.org/way/497986762"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/497986763",
+      "source_url": "https://www.openstreetmap.org/way/497986763"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/632811801",
+      "source_url": "https://www.openstreetmap.org/way/632811801"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/636194093",
+      "source_url": "https://www.openstreetmap.org/way/636194093"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/636194130",
+      "source_url": "https://www.openstreetmap.org/way/636194130"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016075031009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016075031009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

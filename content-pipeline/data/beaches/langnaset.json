@@ -1,0 +1,24 @@
+{
+  "slug": "langnaset",
+  "name": "Långnäset",
+  "centroid_lat": 64.5083898,
+  "centroid_lng": 20.7096292,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/2182535074",
+      "source_url": "https://www.openstreetmap.org/node/2182535074"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

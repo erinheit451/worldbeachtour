@@ -1,0 +1,72 @@
+{
+  "slug": "spiaggia-libera-123",
+  "name": "Spiaggia libera",
+  "centroid_lat": 41.8866415,
+  "centroid_lng": 16.1698697,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/8405567375",
+      "source_url": "https://www.openstreetmap.org/node/8405567375"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1081121016",
+      "source_url": "https://www.openstreetmap.org/way/1081121016"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1081121017",
+      "source_url": "https://www.openstreetmap.org/way/1081121017"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1081121018",
+      "source_url": "https://www.openstreetmap.org/way/1081121018"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1081121019",
+      "source_url": "https://www.openstreetmap.org/way/1081121019"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1081121020",
+      "source_url": "https://www.openstreetmap.org/way/1081121020"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1081121021",
+      "source_url": "https://www.openstreetmap.org/way/1081121021"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016071060004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016071060004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes",
+      "fee_required": false
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "moby-s-beach",
+  "name": "Moby's beach",
+  "centroid_lat": 45.0652602,
+  "centroid_lng": 14.7093405,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/918816013",
+      "source_url": "https://www.openstreetmap.org/way/918816013"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/918816017",
+      "source_url": "https://www.openstreetmap.org/way/918816017"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "permissive"
+    }
+  }
+}

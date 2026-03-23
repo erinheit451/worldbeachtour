@@ -1,0 +1,35 @@
+{
+  "slug": "wilson-s-beach",
+  "name": "Wilson's Beach",
+  "centroid_lat": -35.0038508,
+  "centroid_lng": 150.8341165,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/5775371",
+      "source_url": "https://www.openstreetmap.org/way/5775371"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/5775372",
+      "source_url": "https://www.openstreetmap.org/way/5775372"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/5775376",
+      "source_url": "https://www.openstreetmap.org/way/5775376"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956928",
+      "source_url": "https://www.wikidata.org/wiki/Q21956928"
+    }
+  ],
+  "attributes": {}
+}

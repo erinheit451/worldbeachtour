@@ -1,0 +1,43 @@
+{
+  "slug": "spiaggia-di-fetovaia",
+  "name": "Spiaggia di Fetovaia",
+  "centroid_lat": 42.7326908,
+  "centroid_lng": 10.1535869,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/38057814",
+      "source_url": "https://www.openstreetmap.org/way/38057814"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q3966668",
+      "source_url": "https://www.wikidata.org/wiki/Q3966668"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049003006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049003006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Fetovaia01.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

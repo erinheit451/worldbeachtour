@@ -1,0 +1,57 @@
+{
+  "slug": "praia-da-ponta-pequena",
+  "name": "Praia da Ponta Pequena",
+  "centroid_lat": 37.0735654,
+  "centroid_lng": -8.2853151,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1106872193",
+      "source_url": "https://www.openstreetmap.org/way/1106872193"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1251789697",
+      "source_url": "https://www.openstreetmap.org/way/1251789697"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1252085894",
+      "source_url": "https://www.openstreetmap.org/way/1252085894"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1252085915",
+      "source_url": "https://www.openstreetmap.org/way/1252085915"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1252085924",
+      "source_url": "https://www.openstreetmap.org/way/1252085924"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1252085925",
+      "source_url": "https://www.openstreetmap.org/way/1252085925"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1252495883",
+      "source_url": "https://www.openstreetmap.org/way/1252495883"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "perastikos-mare-monte",
+  "name": "Perastikos-Mare Monte",
+  "centroid_lat": 35.35818026,
+  "centroid_lng": 24.27231735,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/732465243",
+      "source_url": "https://www.openstreetmap.org/way/732465243"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53630138",
+      "source_url": "https://www.wikidata.org/wiki/Q53630138"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "customers"
+    }
+  }
+}

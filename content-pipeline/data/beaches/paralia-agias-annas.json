@@ -1,0 +1,86 @@
+{
+  "slug": "paralia-agias-annas",
+  "name": "Παραλία Αγίας Άννας",
+  "centroid_lat": 37.0689603,
+  "centroid_lng": 25.3544164,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/237830216",
+      "source_url": "https://www.openstreetmap.org/way/237830216"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/237830217",
+      "source_url": "https://www.openstreetmap.org/way/237830217"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659806807",
+      "source_url": "https://www.openstreetmap.org/way/659806807"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659806808",
+      "source_url": "https://www.openstreetmap.org/way/659806808"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659806809",
+      "source_url": "https://www.openstreetmap.org/way/659806809"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659806810",
+      "source_url": "https://www.openstreetmap.org/way/659806810"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659806811",
+      "source_url": "https://www.openstreetmap.org/way/659806811"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659806812",
+      "source_url": "https://www.openstreetmap.org/way/659806812"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659806941",
+      "source_url": "https://www.openstreetmap.org/way/659806941"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25162357",
+      "source_url": "https://www.wikidata.org/wiki/Q25162357"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149292183101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149292183101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Aghia%20Anna%20beach.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

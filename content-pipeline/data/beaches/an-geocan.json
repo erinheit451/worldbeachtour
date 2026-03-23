@@ -1,0 +1,30 @@
+{
+  "slug": "an-geocan",
+  "name": "An Geocán",
+  "centroid_lat": 51.4887478,
+  "centroid_lng": -9.265441,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/978828943",
+      "source_url": "https://www.openstreetmap.org/way/978828943"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/980846003",
+      "source_url": "https://www.openstreetmap.org/way/980846003"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/980846004",
+      "source_url": "https://www.openstreetmap.org/way/980846004"
+    }
+  ],
+  "attributes": {}
+}

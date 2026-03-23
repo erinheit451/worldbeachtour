@@ -1,0 +1,33 @@
+{
+  "slug": "coogee-beach",
+  "name": "Coogee Beach",
+  "centroid_lat": -33.9208297,
+  "centroid_lng": 151.2585636,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/29388919",
+      "source_url": "https://www.openstreetmap.org/way/29388919"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21957520",
+      "source_url": "https://www.wikidata.org/wiki/Q21957520"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Coogee%20Beach%20%2861775791%29.jpeg"
+    },
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

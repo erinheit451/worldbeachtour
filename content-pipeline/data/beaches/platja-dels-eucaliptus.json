@@ -1,0 +1,30 @@
+{
+  "slug": "platja-dels-eucaliptus",
+  "name": "platja dels Eucaliptus",
+  "centroid_lat": 40.6532028,
+  "centroid_lng": 0.7797742,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/4185810141",
+      "source_url": "https://www.openstreetmap.org/node/4185810141"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28121176",
+      "source_url": "https://www.wikidata.org/wiki/Q28121176"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Beim%20Campingplatz%20Eucaliptus%20in%20E%2043870%20Amposta%20-%20panoramio.jpg"
+    }
+  }
+}

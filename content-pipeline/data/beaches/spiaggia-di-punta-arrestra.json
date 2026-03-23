@@ -1,0 +1,28 @@
+{
+  "slug": "spiaggia-di-punta-arrestra",
+  "name": "Spiaggia di Punta Arrestra",
+  "centroid_lat": 44.3809563,
+  "centroid_lng": 8.6359614,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/765936462",
+      "source_url": "https://www.openstreetmap.org/way/765936462"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true
+    },
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    }
+  }
+}

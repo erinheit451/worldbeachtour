@@ -1,0 +1,45 @@
+{
+  "slug": "barleber-see-i",
+  "name": "BARLEBER SEE I",
+  "centroid_lat": 52.2208,
+  "centroid_lng": 11.6576,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/208678019",
+      "source_url": "https://www.openstreetmap.org/way/208678019"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1079745008",
+      "source_url": "https://www.openstreetmap.org/way/1079745008"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1079745009",
+      "source_url": "https://www.openstreetmap.org/way/1079745009"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEST_PR_0039",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEST_PR_0039",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

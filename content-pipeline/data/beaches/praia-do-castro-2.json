@@ -1,0 +1,29 @@
+{
+  "slug": "praia-do-castro-2",
+  "name": "Praia do Castro",
+  "centroid_lat": 42.6943911,
+  "centroid_lng": -9.0302533,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/437293326",
+      "source_url": "https://www.openstreetmap.org/way/437293326"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/2682729",
+      "source_url": "https://www.openstreetmap.org/relation/2682729"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    }
+  }
+}

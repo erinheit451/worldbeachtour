@@ -1,0 +1,40 @@
+{
+  "slug": "plage-de-porz-garo",
+  "name": "Plage de Porz Garo",
+  "centroid_lat": 48.8104406,
+  "centroid_lng": -3.387854,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/246653773",
+      "source_url": "https://www.openstreetmap.org/way/246653773"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/253788750",
+      "source_url": "https://www.openstreetmap.org/way/253788750"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0122363M022410",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0122363M022410",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

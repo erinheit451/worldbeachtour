@@ -1,0 +1,39 @@
+{
+  "slug": "buena-onda",
+  "name": "Buena Onda",
+  "centroid_lat": 41.8057565,
+  "centroid_lng": 12.2145356,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5693937950",
+      "source_url": "https://www.openstreetmap.org/node/5693937950"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5693937951",
+      "source_url": "https://www.openstreetmap.org/node/5693937951"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5693937952",
+      "source_url": "https://www.openstreetmap.org/node/5693937952"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/495946225",
+      "source_url": "https://www.openstreetmap.org/way/495946225"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    }
+  }
+}

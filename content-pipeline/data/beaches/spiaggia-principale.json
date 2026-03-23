@@ -1,0 +1,30 @@
+{
+  "slug": "spiaggia-principale",
+  "name": "Spiaggia Principale",
+  "centroid_lat": 45.6764572,
+  "centroid_lng": 13.3997258,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1289812698",
+      "source_url": "https://www.openstreetmap.org/way/1289812698"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true
+    },
+    "social": {
+      "nudist": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

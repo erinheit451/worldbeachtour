@@ -1,0 +1,27 @@
+{
+  "slug": "nadasto-szabadidopark",
+  "name": "Nádastó Szabadidőpark",
+  "centroid_lat": 46.383926,
+  "centroid_lng": 20.1051348,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/9365590",
+      "source_url": "https://www.openstreetmap.org/relation/9365590"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

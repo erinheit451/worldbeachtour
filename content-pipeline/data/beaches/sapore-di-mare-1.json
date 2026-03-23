@@ -1,0 +1,29 @@
+{
+  "slug": "sapore-di-mare-1",
+  "name": "Sapore di mare",
+  "centroid_lat": 38.439308,
+  "centroid_lng": 16.5770479,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/154993932",
+      "source_url": "https://www.openstreetmap.org/way/154993932"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1427091555",
+      "source_url": "https://www.openstreetmap.org/way/1427091555"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

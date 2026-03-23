@@ -1,0 +1,30 @@
+{
+  "slug": "wildes-fkk",
+  "name": "Wildes FKK",
+  "centroid_lat": 49.7451813,
+  "centroid_lng": 9.5605698,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1177496580",
+      "source_url": "https://www.openstreetmap.org/way/1177496580"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited"
+    },
+    "social": {
+      "nudist": "customary"
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

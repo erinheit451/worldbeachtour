@@ -1,0 +1,24 @@
+{
+  "slug": "smith-beach-1",
+  "name": "Smith Beach",
+  "centroid_lat": 42.2295086,
+  "centroid_lng": -70.9622299,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/219471119",
+      "source_url": "https://www.openstreetmap.org/way/219471119"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

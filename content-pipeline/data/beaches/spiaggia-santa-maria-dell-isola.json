@@ -1,0 +1,93 @@
+{
+  "slug": "spiaggia-santa-maria-dell-isola",
+  "name": "Spiaggia Santa Maria dell'Isola",
+  "centroid_lat": 38.6805205,
+  "centroid_lng": 15.8953915,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10990199694",
+      "source_url": "https://www.openstreetmap.org/node/10990199694"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/10990199695",
+      "source_url": "https://www.openstreetmap.org/node/10990199695"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/10990199696",
+      "source_url": "https://www.openstreetmap.org/node/10990199696"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/10990199697",
+      "source_url": "https://www.openstreetmap.org/node/10990199697"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/184218828",
+      "source_url": "https://www.openstreetmap.org/way/184218828"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/563691193",
+      "source_url": "https://www.openstreetmap.org/way/563691193"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/583227083",
+      "source_url": "https://www.openstreetmap.org/way/583227083"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1124108394",
+      "source_url": "https://www.openstreetmap.org/way/1124108394"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1183495397",
+      "source_url": "https://www.openstreetmap.org/way/1183495397"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33341794",
+      "source_url": "https://www.wikidata.org/wiki/Q33341794"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018102044002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018102044003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018102044002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018102044003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Spiaggia%20di%20Tropea.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

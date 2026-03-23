@@ -1,0 +1,30 @@
+{
+  "slug": "platja-de-s-arenal-de-sa-rapita",
+  "name": "Platja de s'Arenal de sa Ràpita",
+  "centroid_lat": 39.3611285,
+  "centroid_lng": 2.960818,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/57737438",
+      "source_url": "https://www.openstreetmap.org/way/57737438"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q17587108",
+      "source_url": "https://www.wikidata.org/wiki/Q17587108"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sa%20R%C3%A0pita%20Luftbild%2001.JPG"
+    }
+  }
+}

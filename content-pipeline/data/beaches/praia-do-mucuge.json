@@ -1,0 +1,29 @@
+{
+  "slug": "praia-do-mucuge",
+  "name": "Praia do Mucugê",
+  "centroid_lat": -16.4950697,
+  "centroid_lng": -39.0689476,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/399001041",
+      "source_url": "https://www.openstreetmap.org/way/399001041"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q113376359",
+      "source_url": "https://www.wikidata.org/wiki/Q113376359"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Vista%20da%20Praia%20do%20Mucug%C3%AA%20em%20Arraial%20d%27Ajuda%2C%20Porto%20Seguro%20BA.JPG"
+    }
+  }
+}

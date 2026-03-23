@@ -1,0 +1,29 @@
+{
+  "slug": "spiaggia-libera-75",
+  "name": "Spiaggia libera",
+  "centroid_lat": 42.4995806,
+  "centroid_lng": 14.1796799,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/459615591",
+      "source_url": "https://www.openstreetmap.org/way/459615591"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/459615598",
+      "source_url": "https://www.openstreetmap.org/way/459615598"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

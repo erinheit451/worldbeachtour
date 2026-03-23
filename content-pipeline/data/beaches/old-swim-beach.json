@@ -1,0 +1,25 @@
+{
+  "slug": "old-swim-beach",
+  "name": "Old Swim Beach",
+  "centroid_lat": 36.4380332,
+  "centroid_lng": -114.3574751,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357553018",
+      "source_url": "https://www.openstreetmap.org/node/357553018"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322358",
+      "source_url": "https://www.wikidata.org/wiki/Q49322358"
+    }
+  ],
+  "attributes": {}
+}

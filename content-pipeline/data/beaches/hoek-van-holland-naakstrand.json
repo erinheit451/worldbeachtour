@@ -1,0 +1,34 @@
+{
+  "slug": "hoek-van-holland-naakstrand",
+  "name": "Hoek van Holland Naakstrand",
+  "centroid_lat": 51.9995683,
+  "centroid_lng": 4.1223288,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/940643584",
+      "source_url": "https://www.openstreetmap.org/way/940643584"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited",
+      "access": "yes"
+    },
+    "social": {
+      "nudist": true
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

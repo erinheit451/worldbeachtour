@@ -1,0 +1,45 @@
+{
+  "slug": "praia-de-cortegaca",
+  "name": "Praia de Cortegaça",
+  "centroid_lat": 40.9405081,
+  "centroid_lng": -8.6596158,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/377934350",
+      "source_url": "https://www.openstreetmap.org/way/377934350"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/377934352",
+      "source_url": "https://www.openstreetmap.org/way/377934352"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49323900",
+      "source_url": "https://www.wikidata.org/wiki/Q49323900"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCP8L",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCP8L",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

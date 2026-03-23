@@ -1,0 +1,48 @@
+{
+  "slug": "kaposvar-toponar-deseda-viztarozo",
+  "name": "KAPOSVAR-TOPONAR  DESEDA VIZTAROZO",
+  "centroid_lat": 46.39827,
+  "centroid_lng": 17.82084,
+  "country_code": "HU",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7669739937",
+      "source_url": "https://www.openstreetmap.org/node/7669739937"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7669739938",
+      "source_url": "https://www.openstreetmap.org/node/7669739938"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7669739939",
+      "source_url": "https://www.openstreetmap.org/node/7669739939"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_01562",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_01562",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "moses-corner",
+  "name": "Moses Corner",
+  "centroid_lat": -46.9092024,
+  "centroid_lng": 168.1366172,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/202891961",
+      "source_url": "https://www.openstreetmap.org/way/202891961"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/202891977",
+      "source_url": "https://www.openstreetmap.org/way/202891977"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q32282649",
+      "source_url": "https://www.wikidata.org/wiki/Q32282649"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "plage-de-cabasson",
+  "name": "Plage de Cabasson",
+  "centroid_lat": 43.0994213,
+  "centroid_lng": 6.3242902,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/27272205",
+      "source_url": "https://www.openstreetmap.org/way/27272205"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q137707851",
+      "source_url": "https://www.wikidata.org/wiki/Q137707851"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0583019M083345",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0583019M083345",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plage%20de%20Cabasson%20%28Bormes-les-Mimosas%2C%2083%29%20-%2001.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

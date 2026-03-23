@@ -1,0 +1,80 @@
+{
+  "slug": "torrente-ghiararo",
+  "name": "TORRENTE GHIARARO",
+  "centroid_lat": 44.1708,
+  "centroid_lng": 9.6069,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7152937807",
+      "source_url": "https://www.openstreetmap.org/node/7152937807"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7152937808",
+      "source_url": "https://www.openstreetmap.org/node/7152937808"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7152937809",
+      "source_url": "https://www.openstreetmap.org/node/7152937809"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7152937810",
+      "source_url": "https://www.openstreetmap.org/node/7152937810"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7152937811",
+      "source_url": "https://www.openstreetmap.org/node/7152937811"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7152937812",
+      "source_url": "https://www.openstreetmap.org/node/7152937812"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/294649518",
+      "source_url": "https://www.openstreetmap.org/way/294649518"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33326997",
+      "source_url": "https://www.wikidata.org/wiki/Q33326997"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007011017004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007011017009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007011017004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007011017009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

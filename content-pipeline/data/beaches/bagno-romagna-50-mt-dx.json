@@ -1,0 +1,50 @@
+{
+  "slug": "bagno-romagna-50-mt-dx",
+  "name": "BAGNO ROMAGNA 50 MT DX",
+  "centroid_lat": 41.9231,
+  "centroid_lng": 15.8251,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/560763042",
+      "source_url": "https://www.openstreetmap.org/way/560763042"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33327163",
+      "source_url": "https://www.wikidata.org/wiki/Q33327163"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016071043004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016071043001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016071043004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016071043001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

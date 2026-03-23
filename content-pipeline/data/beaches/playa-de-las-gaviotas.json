@@ -1,0 +1,35 @@
+{
+  "slug": "playa-de-las-gaviotas",
+  "name": "Playa de las Gaviotas",
+  "centroid_lat": 28.5128593,
+  "centroid_lng": -16.176111,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2108905",
+      "source_url": "https://www.openstreetmap.org/relation/2108905"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6078848",
+      "source_url": "https://www.wikidata.org/wiki/Q6078848"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23986129",
+      "source_url": "https://www.wikidata.org/wiki/Q23986129"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "permissive",
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20Las%20Gaviotas%20%28Tenerife%29.JPG"
+    }
+  }
+}

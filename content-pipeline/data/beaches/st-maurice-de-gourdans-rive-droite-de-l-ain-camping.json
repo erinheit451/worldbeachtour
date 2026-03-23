@@ -1,0 +1,30 @@
+{
+  "slug": "st-maurice-de-gourdans-rive-droite-de-l-ain-camping",
+  "name": "ST-MAURICE-DE-GOURDANS - RIVE DROITE DE L AIN CAMPING",
+  "centroid_lat": 45.8076,
+  "centroid_lng": 5.18733,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2101378D001180",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2101378D001180",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

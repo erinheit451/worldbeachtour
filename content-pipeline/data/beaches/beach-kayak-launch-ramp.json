@@ -1,0 +1,29 @@
+{
+  "slug": "beach-kayak-launch-ramp",
+  "name": "Beach/Kayak launch ramp",
+  "centroid_lat": 40.6786504,
+  "centroid_lng": -74.0182347,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/355814424",
+      "source_url": "https://www.openstreetmap.org/way/355814424"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/382183588",
+      "source_url": "https://www.openstreetmap.org/way/382183588"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

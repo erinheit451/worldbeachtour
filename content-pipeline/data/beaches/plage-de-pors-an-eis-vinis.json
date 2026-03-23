@@ -1,0 +1,35 @@
+{
+  "slug": "plage-de-pors-an-eis-vinis",
+  "name": "Plage de Pors an Eis Vinis",
+  "centroid_lat": 48.4753448,
+  "centroid_lng": -4.7654816,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/961254850",
+      "source_url": "https://www.openstreetmap.org/way/961254850"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229112M029424",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229112M029424",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

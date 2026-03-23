@@ -1,0 +1,30 @@
+{
+  "slug": "rorum-knabackshusen",
+  "name": "RÖRUM, KNÄBÄCKSHUSEN",
+  "centroid_lat": 55.6422,
+  "centroid_lng": 14.2779,
+  "country_code": "SE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0441291000000331",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0441291000000331",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

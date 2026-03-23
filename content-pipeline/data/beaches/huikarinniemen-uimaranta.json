@@ -1,0 +1,29 @@
+{
+  "slug": "huikarinniemen-uimaranta",
+  "name": "Huikarinniemen uimaranta",
+  "centroid_lat": 64.132245,
+  "centroid_lng": 25.382993,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/625012839",
+      "source_url": "https://www.openstreetmap.org/way/625012839"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/625012843",
+      "source_url": "https://www.openstreetmap.org/way/625012843"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

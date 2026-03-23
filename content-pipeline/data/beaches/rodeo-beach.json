@@ -1,0 +1,35 @@
+{
+  "slug": "rodeo-beach",
+  "name": "Rodeo Beach",
+  "centroid_lat": 37.8305433,
+  "centroid_lng": -122.5371176,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/24656288",
+      "source_url": "https://www.openstreetmap.org/way/24656288"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/968872061",
+      "source_url": "https://www.openstreetmap.org/way/968872061"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q3438155",
+      "source_url": "https://www.wikidata.org/wiki/Q3438155"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Rodeo%20Beach.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Rodeo_Beach"
+    }
+  }
+}

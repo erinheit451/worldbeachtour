@@ -1,0 +1,25 @@
+{
+  "slug": "cobrooga-beach",
+  "name": "Cobrooga Beach",
+  "centroid_lat": -35.9173289,
+  "centroid_lng": 145.6783128,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/11018269",
+      "source_url": "https://www.openstreetmap.org/relation/11018269"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21955908",
+      "source_url": "https://www.wikidata.org/wiki/Q21955908"
+    }
+  ],
+  "attributes": {}
+}

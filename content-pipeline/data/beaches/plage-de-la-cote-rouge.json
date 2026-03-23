@@ -1,0 +1,24 @@
+{
+  "slug": "plage-de-la-cote-rouge",
+  "name": "Plage de la Côte Rouge",
+  "centroid_lat": 47.7084565,
+  "centroid_lng": -3.3423564,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/166439042",
+      "source_url": "https://www.openstreetmap.org/way/166439042"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

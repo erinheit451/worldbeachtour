@@ -1,0 +1,30 @@
+{
+  "slug": "area-recreativa-e-de-lazer-das-azenhas-d-el-rei",
+  "name": "ÁREA RECREATIVA E DE LAZER DAS AZENHAS D'EL REI",
+  "centroid_lat": 38.54642,
+  "centroid_lng": -7.30408,
+  "country_code": "PT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCQ8V",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCQ8V",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

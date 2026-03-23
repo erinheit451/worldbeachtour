@@ -1,0 +1,35 @@
+{
+  "slug": "payucan",
+  "name": "Payucán",
+  "centroid_lat": 19.6608337,
+  "centroid_lng": -90.7034545,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/8194880060",
+      "source_url": "https://www.openstreetmap.org/node/8194880060"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/881088033",
+      "source_url": "https://www.openstreetmap.org/way/881088033"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1446599425",
+      "source_url": "https://www.openstreetmap.org/way/1446599425"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33329782",
+      "source_url": "https://www.wikidata.org/wiki/Q33329782"
+    }
+  ],
+  "attributes": {}
+}

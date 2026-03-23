@@ -1,0 +1,40 @@
+{
+  "slug": "vn-letovice-svitavice",
+  "name": "VN LETOVICE - SVITAVICE",
+  "centroid_lat": 49.5584,
+  "centroid_lng": 16.5432,
+  "country_code": "CZ",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZKO620201",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZKO620202",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZKO620201",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZKO620202",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "eu_bathing_water_type": "Lake",
+      "water_quality_rating": "1 - excellent"
+    }
+  }
+}

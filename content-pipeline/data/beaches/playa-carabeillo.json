@@ -1,0 +1,39 @@
+{
+  "slug": "playa-carabeillo",
+  "name": "Playa Carabeillo",
+  "centroid_lat": 36.7478437,
+  "centroid_lng": -3.8706362,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/35766777",
+      "source_url": "https://www.openstreetmap.org/way/35766777"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8271410",
+      "source_url": "https://www.openstreetmap.org/relation/8271410"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31920256",
+      "source_url": "https://www.wikidata.org/wiki/Q31920256"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q108765727",
+      "source_url": "https://www.wikidata.org/wiki/Q108765727"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Carabeo%20beach%20%287007970949%29.jpg"
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "slug": "spiaggia-libera-141",
+  "name": "Spiaggia libera",
+  "centroid_lat": 44.2896888,
+  "centroid_lng": 8.4530408,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7204963838",
+      "source_url": "https://www.openstreetmap.org/node/7204963838"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7204963839",
+      "source_url": "https://www.openstreetmap.org/node/7204963839"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7204963840",
+      "source_url": "https://www.openstreetmap.org/node/7204963840"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7204963841",
+      "source_url": "https://www.openstreetmap.org/node/7204963841"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7204963842",
+      "source_url": "https://www.openstreetmap.org/node/7204963842"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7204963843",
+      "source_url": "https://www.openstreetmap.org/node/7204963843"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7206986470",
+      "source_url": "https://www.openstreetmap.org/node/7206986470"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/298292700",
+      "source_url": "https://www.openstreetmap.org/way/298292700"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/351038586",
+      "source_url": "https://www.openstreetmap.org/way/351038586"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/351038587",
+      "source_url": "https://www.openstreetmap.org/way/351038587"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/351038588",
+      "source_url": "https://www.openstreetmap.org/way/351038588"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/351038589",
+      "source_url": "https://www.openstreetmap.org/way/351038589"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/351038590",
+      "source_url": "https://www.openstreetmap.org/way/351038590"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/351038591",
+      "source_url": "https://www.openstreetmap.org/way/351038591"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/351038592",
+      "source_url": "https://www.openstreetmap.org/way/351038592"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/351038593",
+      "source_url": "https://www.openstreetmap.org/way/351038593"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/351038594",
+      "source_url": "https://www.openstreetmap.org/way/351038594"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/669549456",
+      "source_url": "https://www.openstreetmap.org/way/669549456"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1107225566",
+      "source_url": "https://www.openstreetmap.org/way/1107225566"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007009056002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007009056002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

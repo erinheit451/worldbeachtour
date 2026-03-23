@@ -1,0 +1,35 @@
+{
+  "slug": "po-olenalena-beach",
+  "name": "Po'olenalena Beach",
+  "centroid_lat": 20.6620777,
+  "centroid_lng": -156.4415336,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/451759384",
+      "source_url": "https://www.openstreetmap.org/way/451759384"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/451759385",
+      "source_url": "https://www.openstreetmap.org/way/451759385"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49323563",
+      "source_url": "https://www.wikidata.org/wiki/Q49323563"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "permissive",
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Poolenalena%20beach%20Maui%20Hawaii%20%2844826095655%29.jpg"
+    }
+  }
+}

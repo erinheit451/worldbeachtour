@@ -1,0 +1,34 @@
+{
+  "slug": "praia-da-samarra",
+  "name": "Praia da Samarra",
+  "centroid_lat": 38.896793,
+  "centroid_lng": -9.4349532,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1341888086",
+      "source_url": "https://www.openstreetmap.org/way/1341888086"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1341888093",
+      "source_url": "https://www.openstreetmap.org/way/1341888093"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q65665648",
+      "source_url": "https://www.wikidata.org/wiki/Q65665648"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20da%20Samarra%2004.jpg"
+    }
+  }
+}

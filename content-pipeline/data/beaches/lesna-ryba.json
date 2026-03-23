@@ -1,0 +1,32 @@
+{
+  "slug": "lesna-ryba",
+  "name": "Leśna Ryba",
+  "centroid_lat": 51.5059473,
+  "centroid_lng": 22.935486,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/2613313849",
+      "source_url": "https://www.openstreetmap.org/node/2613313849"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/305171406",
+      "source_url": "https://www.openstreetmap.org/way/305171406"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

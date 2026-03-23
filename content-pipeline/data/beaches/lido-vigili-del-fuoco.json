@@ -1,0 +1,35 @@
+{
+  "slug": "lido-vigili-del-fuoco",
+  "name": "Lido Vigili del Fuoco",
+  "centroid_lat": 40.6791714,
+  "centroid_lng": 17.9251794,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12195425293",
+      "source_url": "https://www.openstreetmap.org/node/12195425293"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016074001008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016074001008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "suolijarvi",
+  "name": "SUOLIJARVI",
+  "centroid_lat": 61.4423,
+  "centroid_lng": 23.8357,
+  "country_code": "FI",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/32649082",
+      "source_url": "https://www.openstreetmap.org/way/32649082"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1419028206",
+      "source_url": "https://www.openstreetmap.org/way/1419028206"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI124837010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI124837010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

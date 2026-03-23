@@ -1,0 +1,30 @@
+{
+  "slug": "silver-beach-1",
+  "name": "Silver Beach",
+  "centroid_lat": 43.8222763,
+  "centroid_lng": -74.6028618,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357589571",
+      "source_url": "https://www.openstreetmap.org/node/357589571"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1388618105",
+      "source_url": "https://www.openstreetmap.org/way/1388618105"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q34716801",
+      "source_url": "https://www.wikidata.org/wiki/Q34716801"
+    }
+  ],
+  "attributes": {}
+}

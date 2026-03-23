@@ -1,0 +1,73 @@
+{
+  "slug": "nea-potidaia",
+  "name": "NEA POTIDAIA",
+  "centroid_lat": 40.1938,
+  "centroid_lng": 23.335,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/313818704",
+      "source_url": "https://www.openstreetmap.org/way/313818704"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/812810820",
+      "source_url": "https://www.openstreetmap.org/way/812810820"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/812811792",
+      "source_url": "https://www.openstreetmap.org/way/812811792"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/812811793",
+      "source_url": "https://www.openstreetmap.org/way/812811793"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/812811794",
+      "source_url": "https://www.openstreetmap.org/way/812811794"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/812811795",
+      "source_url": "https://www.openstreetmap.org/way/812811795"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/812811796",
+      "source_url": "https://www.openstreetmap.org/way/812811796"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25162329",
+      "source_url": "https://www.wikidata.org/wiki/Q25162329"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109058051101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109058051101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

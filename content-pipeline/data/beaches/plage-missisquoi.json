@@ -1,0 +1,25 @@
+{
+  "slug": "plage-missisquoi",
+  "name": "Plage Missisquoi",
+  "centroid_lat": 45.0731299,
+  "centroid_lng": -73.11851,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1024691728",
+      "source_url": "https://www.openstreetmap.org/way/1024691728"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22396629",
+      "source_url": "https://www.wikidata.org/wiki/Q22396629"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "naxaki-beach-lounge-and-restaurant",
+  "name": "Naxaki Beach Lounge and Restaurant",
+  "centroid_lat": 37.0967511,
+  "centroid_lng": 25.3753814,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9803579181",
+      "source_url": "https://www.openstreetmap.org/node/9803579181"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/335440492",
+      "source_url": "https://www.openstreetmap.org/way/335440492"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659807178",
+      "source_url": "https://www.openstreetmap.org/way/659807178"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659807179",
+      "source_url": "https://www.openstreetmap.org/way/659807179"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659807180",
+      "source_url": "https://www.openstreetmap.org/way/659807180"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659807181",
+      "source_url": "https://www.openstreetmap.org/way/659807181"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659807182",
+      "source_url": "https://www.openstreetmap.org/way/659807182"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659807183",
+      "source_url": "https://www.openstreetmap.org/way/659807183"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659807184",
+      "source_url": "https://www.openstreetmap.org/way/659807184"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1303506857",
+      "source_url": "https://www.openstreetmap.org/way/1303506857"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/453124",
+      "source_url": "https://www.openstreetmap.org/relation/453124"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25162358",
+      "source_url": "https://www.wikidata.org/wiki/Q25162358"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149292173101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149292173101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "surfing": {
+      "surfing_available": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

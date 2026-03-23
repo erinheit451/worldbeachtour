@@ -1,0 +1,24 @@
+{
+  "slug": "john-smith-s-bay-beach",
+  "name": "John Smith's Bay Beach",
+  "centroid_lat": 32.3191755,
+  "centroid_lng": -64.7128654,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/173928974",
+      "source_url": "https://www.openstreetmap.org/way/173928974"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

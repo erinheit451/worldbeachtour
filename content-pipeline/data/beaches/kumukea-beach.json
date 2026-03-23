@@ -1,0 +1,29 @@
+{
+  "slug": "kumukea-beach",
+  "name": "Kumukea Beach",
+  "centroid_lat": 19.8287131,
+  "centroid_lng": -155.9916707,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/830516795",
+      "source_url": "https://www.openstreetmap.org/way/830516795"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/830540846",
+      "source_url": "https://www.openstreetmap.org/way/830540846"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "permissive"
+    }
+  }
+}

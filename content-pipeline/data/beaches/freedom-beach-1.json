@@ -1,0 +1,29 @@
+{
+  "slug": "freedom-beach-1",
+  "name": "Freedom Beach",
+  "centroid_lat": 7.8749101,
+  "centroid_lng": 98.2750415,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/260282418",
+      "source_url": "https://www.openstreetmap.org/way/260282418"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q123164019",
+      "source_url": "https://www.wikidata.org/wiki/Q123164019"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Freedom%20beach%20-%20Karon%2C%20Phuket%2C%20Thailand%20-%20panoramio.jpg"
+    }
+  }
+}

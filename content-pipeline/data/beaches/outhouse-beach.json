@@ -1,0 +1,25 @@
+{
+  "slug": "outhouse-beach",
+  "name": "Outhouse Beach",
+  "centroid_lat": 44.6155648,
+  "centroid_lng": -67.2780803,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/14638959",
+      "source_url": "https://www.openstreetmap.org/relation/14638959"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14638960",
+      "source_url": "https://www.openstreetmap.org/relation/14638960"
+    }
+  ],
+  "attributes": {}
+}

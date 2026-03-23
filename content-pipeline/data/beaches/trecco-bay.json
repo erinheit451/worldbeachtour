@@ -1,0 +1,25 @@
+{
+  "slug": "trecco-bay",
+  "name": "Trecco Bay",
+  "centroid_lat": 51.4751449,
+  "centroid_lng": -3.6841316,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/124271111",
+      "source_url": "https://www.openstreetmap.org/way/124271111"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q107356863",
+      "source_url": "https://www.wikidata.org/wiki/Q107356863"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "perd-e-pera",
+  "name": "Perd'e Pera",
+  "centroid_lat": 39.770876,
+  "centroid_lng": 9.6682045,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/551037920",
+      "source_url": "https://www.openstreetmap.org/way/551037920"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33339527",
+      "source_url": "https://www.wikidata.org/wiki/Q33339527"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020105004003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020105004003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sa%20perda%20e%20pera%20-%20panoramio.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

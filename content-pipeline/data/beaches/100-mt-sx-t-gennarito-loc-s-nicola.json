@@ -1,0 +1,45 @@
+{
+  "slug": "100-mt-sx-t-gennarito-loc-s-nicola",
+  "name": "100 MT SX T. GENNARITO LOC. S. NICOLA",
+  "centroid_lat": 39.6442,
+  "centroid_lng": 16.5613,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/224877518",
+      "source_url": "https://www.openstreetmap.org/way/224877518"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018078044006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018078044005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018078044006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018078044005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

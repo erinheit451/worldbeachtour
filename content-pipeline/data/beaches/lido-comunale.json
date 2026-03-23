@@ -1,0 +1,63 @@
+{
+  "slug": "lido-comunale",
+  "name": "Lido comunale",
+  "centroid_lat": 38.1153951,
+  "centroid_lng": 15.6485066,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/229754459",
+      "source_url": "https://www.openstreetmap.org/way/229754459"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/431400989",
+      "source_url": "https://www.openstreetmap.org/way/431400989"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/594642728",
+      "source_url": "https://www.openstreetmap.org/way/594642728"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q3832077",
+      "source_url": "https://www.wikidata.org/wiki/Q3832077"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018080063011",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018080063012",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018080063011",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018080063012",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Reggio%20calabria%20lido%20comunale%20cartolina%20antica2.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

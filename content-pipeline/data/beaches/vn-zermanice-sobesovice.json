@@ -1,0 +1,44 @@
+{
+  "slug": "vn-zermanice-sobesovice",
+  "name": "VN ŽERMANICE - SOBĚŠOVICE",
+  "centroid_lat": 49.723,
+  "centroid_lng": 18.458,
+  "country_code": "CZ",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1411635399",
+      "source_url": "https://www.openstreetmap.org/way/1411635399"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZKO810607",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZKO810607",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "facilities": {
+      "access": "yes"
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "rio-mijares-cirat-pm1",
+  "name": "RIO MIJARES CIRAT PM1",
+  "centroid_lat": 40.0576,
+  "centroid_lng": -0.4569,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/139517543",
+      "source_url": "https://www.openstreetmap.org/way/139517543"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/139517553",
+      "source_url": "https://www.openstreetmap.org/way/139517553"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES522C0462538",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES522C0462538",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

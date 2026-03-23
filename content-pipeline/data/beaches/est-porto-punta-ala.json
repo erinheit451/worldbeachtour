@@ -1,0 +1,35 @@
+{
+  "slug": "est-porto-punta-ala",
+  "name": "EST PORTO PUNTA ALA",
+  "centroid_lat": 42.8068,
+  "centroid_lng": 10.7442,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/11317111",
+      "source_url": "https://www.openstreetmap.org/relation/11317111"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009053006005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009053006005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

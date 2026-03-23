@@ -1,0 +1,58 @@
+{
+  "slug": "seebad-1",
+  "name": "Seebad",
+  "centroid_lat": 50.6802329,
+  "centroid_lng": 6.656595,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/271814242",
+      "source_url": "https://www.openstreetmap.org/way/271814242"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/802899458",
+      "source_url": "https://www.openstreetmap.org/way/802899458"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/805385873",
+      "source_url": "https://www.openstreetmap.org/way/805385873"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/805390323",
+      "source_url": "https://www.openstreetmap.org/way/805390323"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/805997058",
+      "source_url": "https://www.openstreetmap.org/way/805997058"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DENW_PR_0086",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DENW_PR_0086",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

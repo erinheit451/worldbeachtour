@@ -1,0 +1,65 @@
+{
+  "slug": "jozetove-terase",
+  "name": "Jožetove terase",
+  "centroid_lat": 46.1055778,
+  "centroid_lng": 14.514766,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/686880443",
+      "source_url": "https://www.openstreetmap.org/way/686880443"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/686887136",
+      "source_url": "https://www.openstreetmap.org/way/686887136"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/716681544",
+      "source_url": "https://www.openstreetmap.org/way/716681544"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/831107287",
+      "source_url": "https://www.openstreetmap.org/way/831107287"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/831107288",
+      "source_url": "https://www.openstreetmap.org/way/831107288"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1299259235",
+      "source_url": "https://www.openstreetmap.org/way/1299259235"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/18313301",
+      "source_url": "https://www.openstreetmap.org/relation/18313301"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/18313341",
+      "source_url": "https://www.openstreetmap.org/relation/18313341"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false
+    },
+    "social": {
+      "nudist": "permissive"
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

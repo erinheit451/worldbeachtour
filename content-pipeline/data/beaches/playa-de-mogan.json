@@ -1,0 +1,68 @@
+{
+  "slug": "playa-de-mogan",
+  "name": "Playa de Mogán",
+  "centroid_lat": 27.81794,
+  "centroid_lng": -15.7631754,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/52504351",
+      "source_url": "https://www.openstreetmap.org/way/52504351"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/571703094",
+      "source_url": "https://www.openstreetmap.org/way/571703094"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/571703095",
+      "source_url": "https://www.openstreetmap.org/way/571703095"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/571703097",
+      "source_url": "https://www.openstreetmap.org/way/571703097"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/935017287",
+      "source_url": "https://www.openstreetmap.org/way/935017287"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/935017289",
+      "source_url": "https://www.openstreetmap.org/way/935017289"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23984220",
+      "source_url": "https://www.wikidata.org/wiki/Q23984220"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES705M0121718",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES705M0121718",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

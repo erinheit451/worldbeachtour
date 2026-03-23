@@ -1,0 +1,25 @@
+{
+  "slug": "orsa-maggiore-1",
+  "name": "Orsa Maggiore",
+  "centroid_lat": 45.8769615,
+  "centroid_lng": 9.3733726,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/502122855",
+      "source_url": "https://www.openstreetmap.org/way/502122855"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q134524708",
+      "source_url": "https://www.wikidata.org/wiki/Q134524708"
+    }
+  ],
+  "attributes": {}
+}

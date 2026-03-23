@@ -1,0 +1,30 @@
+{
+  "slug": "tarbja-tehisjarv",
+  "name": "TARBJA TEHISJÄRV",
+  "centroid_lat": 58.92144,
+  "centroid_lng": 25.57841,
+  "country_code": "EE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "EE00201011TARBJA",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "EE00201011TARBJA",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

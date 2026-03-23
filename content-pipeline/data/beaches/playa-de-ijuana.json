@@ -1,0 +1,25 @@
+{
+  "slug": "playa-de-ijuana",
+  "name": "Playa de Ijuana",
+  "centroid_lat": 28.5455332,
+  "centroid_lng": -16.127478,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2108893",
+      "source_url": "https://www.openstreetmap.org/relation/2108893"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23984823",
+      "source_url": "https://www.wikidata.org/wiki/Q23984823"
+    }
+  ],
+  "attributes": {}
+}

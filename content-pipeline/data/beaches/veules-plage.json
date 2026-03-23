@@ -1,0 +1,46 @@
+{
+  "slug": "veules-plage",
+  "name": "VEULES-PLAGE",
+  "centroid_lat": 49.87845,
+  "centroid_lng": 0.80035,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/16935855",
+      "source_url": "https://www.openstreetmap.org/relation/16935855"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322703",
+      "source_url": "https://www.wikidata.org/wiki/Q49322703"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD2276735M076193",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD2276735M076193",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

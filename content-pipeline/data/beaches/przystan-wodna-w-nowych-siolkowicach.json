@@ -1,0 +1,30 @@
+{
+  "slug": "przystan-wodna-w-nowych-siolkowicach",
+  "name": "PRZYSTAŃ WODNA W NOWYCH SIOŁKOWICACH",
+  "centroid_lat": 50.82015,
+  "centroid_lng": 17.78725,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL5200909216000007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL5200909216000007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

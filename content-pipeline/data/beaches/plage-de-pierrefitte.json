@@ -1,0 +1,55 @@
+{
+  "slug": "plage-de-pierrefitte",
+  "name": "Plage de Pierrefitte",
+  "centroid_lat": 45.7859417,
+  "centroid_lng": 1.8708794,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/211247435",
+      "source_url": "https://www.openstreetmap.org/way/211247435"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/211247436",
+      "source_url": "https://www.openstreetmap.org/way/211247436"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/222829344",
+      "source_url": "https://www.openstreetmap.org/way/222829344"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/224931228",
+      "source_url": "https://www.openstreetmap.org/way/224931228"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/278504389",
+      "source_url": "https://www.openstreetmap.org/way/278504389"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI2387009D087002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI2387009D087002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

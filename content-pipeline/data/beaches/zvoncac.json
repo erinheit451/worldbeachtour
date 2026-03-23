@@ -1,0 +1,43 @@
+{
+  "slug": "zvoncac",
+  "name": "Zvončac",
+  "centroid_lat": 43.5031844,
+  "centroid_lng": 16.4220408,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/122492637",
+      "source_url": "https://www.openstreetmap.org/way/122492637"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/122516392",
+      "source_url": "https://www.openstreetmap.org/way/122516392"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2051",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2051",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

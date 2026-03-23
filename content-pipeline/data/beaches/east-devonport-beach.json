@@ -1,0 +1,29 @@
+{
+  "slug": "east-devonport-beach",
+  "name": "East Devonport Beach",
+  "centroid_lat": -41.1717615,
+  "centroid_lng": 146.3710722,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/11035908",
+      "source_url": "https://www.openstreetmap.org/relation/11035908"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956281",
+      "source_url": "https://www.wikidata.org/wiki/Q21956281"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

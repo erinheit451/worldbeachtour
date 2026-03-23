@@ -1,0 +1,59 @@
+{
+  "slug": "plage-de-la-graviere",
+  "name": "Plage de la Gravière",
+  "centroid_lat": 43.6712915,
+  "centroid_lng": -1.4419602,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/3053079144",
+      "source_url": "https://www.openstreetmap.org/node/3053079144"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/125591078",
+      "source_url": "https://www.openstreetmap.org/way/125591078"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/916296087",
+      "source_url": "https://www.openstreetmap.org/way/916296087"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322634",
+      "source_url": "https://www.wikidata.org/wiki/Q49322634"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1340304M040117",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1340304M040117",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false
+    },
+    "social": {
+      "dog_friendly": true
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

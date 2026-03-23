@@ -1,0 +1,65 @@
+{
+  "slug": "lido-nettuno-3",
+  "name": "Lido Nettuno",
+  "centroid_lat": 40.7544858,
+  "centroid_lng": 14.4400602,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/409326562",
+      "source_url": "https://www.openstreetmap.org/way/409326562"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/409326563",
+      "source_url": "https://www.openstreetmap.org/way/409326563"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/409326565",
+      "source_url": "https://www.openstreetmap.org/way/409326565"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/409327116",
+      "source_url": "https://www.openstreetmap.org/way/409327116"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/410082187",
+      "source_url": "https://www.openstreetmap.org/way/410082187"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/583900745",
+      "source_url": "https://www.openstreetmap.org/way/583900745"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33344991",
+      "source_url": "https://www.wikidata.org/wiki/Q33344991"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015063083002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015063083002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

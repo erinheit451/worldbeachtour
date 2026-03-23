@@ -1,0 +1,27 @@
+{
+  "slug": "playa-bahia-de-cepe",
+  "name": "Playa Bahía de Cepe",
+  "centroid_lat": 10.5223731,
+  "centroid_lng": -67.5147606,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/519075735",
+      "source_url": "https://www.openstreetmap.org/way/519075735"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "esplanade-des-embruns",
+  "name": "Esplanade des Embruns",
+  "centroid_lat": 43.4331623,
+  "centroid_lng": -1.5986487,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1201836116",
+      "source_url": "https://www.openstreetmap.org/way/1201836116"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

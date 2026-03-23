@@ -1,0 +1,30 @@
+{
+  "slug": "somerpalu-supelrand",
+  "name": "Sõmerpalu supelrand",
+  "centroid_lat": 57.8582392,
+  "centroid_lng": 26.8237387,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1191979058",
+      "source_url": "https://www.openstreetmap.org/way/1191979058"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

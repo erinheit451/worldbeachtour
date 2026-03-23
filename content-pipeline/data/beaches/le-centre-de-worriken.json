@@ -1,0 +1,30 @@
+{
+  "slug": "le-centre-de-worriken",
+  "name": "LE CENTRE DE WORRIKEN",
+  "centroid_lat": 50.42662,
+  "centroid_lng": 6.21725,
+  "country_code": "BE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BE4300020000000F26",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BE4300020000000F26",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

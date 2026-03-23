@@ -1,0 +1,43 @@
+{
+  "slug": "spiaggia-di-ziu-martine",
+  "name": "spiaggia di ziu martine",
+  "centroid_lat": 40.2603826,
+  "centroid_lng": 9.6257256,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/394445334",
+      "source_url": "https://www.openstreetmap.org/way/394445334"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33342051",
+      "source_url": "https://www.wikidata.org/wiki/Q33342051"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020091017005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020091017005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/08022%20Dorgali%2C%20Province%20of%20Nuoro%2C%20Italy%20-%20panoramio%20%282%29.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "novaia-kosa",
+  "name": "Новая коса",
+  "centroid_lat": 46.4524315,
+  "centroid_lng": 47.9835954,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1202006457",
+      "source_url": "https://www.openstreetmap.org/way/1202006457"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

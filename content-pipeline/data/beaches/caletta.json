@@ -1,0 +1,48 @@
+{
+  "slug": "caletta",
+  "name": "Caletta",
+  "centroid_lat": 40.6433594,
+  "centroid_lng": 8.1879879,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9108921640",
+      "source_url": "https://www.openstreetmap.org/node/9108921640"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/304763235",
+      "source_url": "https://www.openstreetmap.org/way/304763235"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q52064106",
+      "source_url": "https://www.wikidata.org/wiki/Q52064106"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020090003008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020090003008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Alghero%2C%20Porticciolo%20%2802%29.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

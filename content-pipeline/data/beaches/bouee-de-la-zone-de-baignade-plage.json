@@ -1,0 +1,25 @@
+{
+  "slug": "bouee-de-la-zone-de-baignade-plage",
+  "name": "Bouée de la zone de baignade plage",
+  "centroid_lat": 46.7608832,
+  "centroid_lng": -56.2264495,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12222615171",
+      "source_url": "https://www.openstreetmap.org/node/12222615171"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1127574135",
+      "source_url": "https://www.openstreetmap.org/way/1127574135"
+    }
+  ],
+  "attributes": {}
+}

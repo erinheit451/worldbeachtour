@@ -1,0 +1,50 @@
+{
+  "slug": "urisee-badeanstalt",
+  "name": "URISEE, BADEANSTALT",
+  "centroid_lat": 47.5007,
+  "centroid_lng": 10.7423,
+  "country_code": "AT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/478113752",
+      "source_url": "https://www.openstreetmap.org/way/478113752"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/478113757",
+      "source_url": "https://www.openstreetmap.org/way/478113757"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "AT3310002800270010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "AT3310002800270010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false,
+      "access": "yes"
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

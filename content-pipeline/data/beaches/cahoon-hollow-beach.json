@@ -1,0 +1,32 @@
+{
+  "slug": "cahoon-hollow-beach",
+  "name": "Cahoon Hollow Beach",
+  "centroid_lat": 41.9455713,
+  "centroid_lng": -69.9846514,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/29800528",
+      "source_url": "https://www.openstreetmap.org/way/29800528"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q20709097",
+      "source_url": "https://www.wikidata.org/wiki/Q20709097"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cahoon_Hollow_Beach"
+    }
+  }
+}

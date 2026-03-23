@@ -1,0 +1,29 @@
+{
+  "slug": "areal-zdravia-zlate-piesky",
+  "name": "Areál zdravia Zlaté piesky",
+  "centroid_lat": 48.1856407,
+  "centroid_lng": 17.1864756,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/24968493",
+      "source_url": "https://www.openstreetmap.org/way/24968493"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/5189984",
+      "source_url": "https://www.openstreetmap.org/relation/5189984"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

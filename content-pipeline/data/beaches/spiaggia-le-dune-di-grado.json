@@ -1,0 +1,31 @@
+{
+  "slug": "spiaggia-le-dune-di-grado",
+  "name": "Spiaggia Le Dune di Grado",
+  "centroid_lat": 45.6776392,
+  "centroid_lng": 13.4123617,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1097651205",
+      "source_url": "https://www.openstreetmap.org/way/1097651205"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "nudist": false
+    },
+    "surfing": {
+      "surfing_available": true
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

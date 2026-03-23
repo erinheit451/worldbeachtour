@@ -1,0 +1,35 @@
+{
+  "slug": "haviksanden",
+  "name": "Haviksanden",
+  "centroid_lat": 58.0637643,
+  "centroid_lng": 6.728223,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/190266420",
+      "source_url": "https://www.openstreetmap.org/way/190266420"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/5725124",
+      "source_url": "https://www.openstreetmap.org/relation/5725124"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/5725125",
+      "source_url": "https://www.openstreetmap.org/relation/5725125"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/5725126",
+      "source_url": "https://www.openstreetmap.org/relation/5725126"
+    }
+  ],
+  "attributes": {}
+}

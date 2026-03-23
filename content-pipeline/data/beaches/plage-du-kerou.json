@@ -1,0 +1,25 @@
+{
+  "slug": "plage-du-kerou",
+  "name": "Plage du Kerou",
+  "centroid_lat": 47.7677817,
+  "centroid_lng": -3.5634954,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/27085681",
+      "source_url": "https://www.openstreetmap.org/way/27085681"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322767",
+      "source_url": "https://www.wikidata.org/wiki/Q49322767"
+    }
+  ],
+  "attributes": {}
+}

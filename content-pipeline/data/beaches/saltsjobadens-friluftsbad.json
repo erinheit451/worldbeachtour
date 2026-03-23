@@ -1,0 +1,29 @@
+{
+  "slug": "saltsjobadens-friluftsbad",
+  "name": "Saltsjöbadens friluftsbad",
+  "centroid_lat": 59.2748583,
+  "centroid_lng": 18.3172425,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/240357463",
+      "source_url": "https://www.openstreetmap.org/way/240357463"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/497348622",
+      "source_url": "https://www.openstreetmap.org/way/497348622"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

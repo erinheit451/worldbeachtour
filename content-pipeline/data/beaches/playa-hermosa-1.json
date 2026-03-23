@@ -1,0 +1,25 @@
+{
+  "slug": "playa-hermosa-1",
+  "name": "Playa Hermosa",
+  "centroid_lat": 9.5759999,
+  "centroid_lng": -84.6067421,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/390096365",
+      "source_url": "https://www.openstreetmap.org/node/390096365"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/25925238",
+      "source_url": "https://www.openstreetmap.org/way/25925238"
+    }
+  ],
+  "attributes": {}
+}

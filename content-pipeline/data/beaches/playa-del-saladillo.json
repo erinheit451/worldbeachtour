@@ -1,0 +1,45 @@
+{
+  "slug": "playa-del-saladillo",
+  "name": "Playa del Saladillo",
+  "centroid_lat": 36.4581042,
+  "centroid_lng": -5.0421785,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11601958807",
+      "source_url": "https://www.openstreetmap.org/node/11601958807"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/170087426",
+      "source_url": "https://www.openstreetmap.org/way/170087426"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1302061477",
+      "source_url": "https://www.openstreetmap.org/way/1302061477"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617M0511511",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617M0511511",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

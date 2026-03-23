@@ -1,0 +1,24 @@
+{
+  "slug": "praia-do-amor-5",
+  "name": "Praia do Amor",
+  "centroid_lat": -1.2518535,
+  "centroid_lng": -48.4617259,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1419193167",
+      "source_url": "https://www.openstreetmap.org/way/1419193167"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

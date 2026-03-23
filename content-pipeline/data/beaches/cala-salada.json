@@ -1,0 +1,62 @@
+{
+  "slug": "cala-salada",
+  "name": "Cala Salada",
+  "centroid_lat": 39.0095194,
+  "centroid_lng": 1.2990834,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/143217546",
+      "source_url": "https://www.openstreetmap.org/way/143217546"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/143217559",
+      "source_url": "https://www.openstreetmap.org/way/143217559"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1413773653",
+      "source_url": "https://www.openstreetmap.org/way/1413773653"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1413773654",
+      "source_url": "https://www.openstreetmap.org/way/1413773654"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q5739606",
+      "source_url": "https://www.wikidata.org/wiki/Q5739606"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES531M0461202",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES531M0461202",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Eivissa%20-%20Cala%20Salada.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cala_Salada"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

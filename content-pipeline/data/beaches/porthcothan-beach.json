@@ -1,0 +1,36 @@
+{
+  "slug": "porthcothan-beach",
+  "name": "Porthcothan Beach",
+  "centroid_lat": 50.51037,
+  "centroid_lng": -5.0268343,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/44535293",
+      "source_url": "https://www.openstreetmap.org/way/44535293"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q121267374",
+      "source_url": "https://www.wikidata.org/wiki/Q121267374"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Porthcothan%20Beach%20-%20geograph.org.uk%20-%20314452.jpg"
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "praiao-do-sao-miguel",
+  "name": "Praião do São Miguel",
+  "centroid_lat": -17.239894,
+  "centroid_lng": -42.7780997,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/551717960",
+      "source_url": "https://www.openstreetmap.org/way/551717960"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

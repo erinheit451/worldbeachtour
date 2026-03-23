@@ -1,0 +1,46 @@
+{
+  "slug": "kapielisko-jezioro-ilzeckie",
+  "name": "Kąpielisko Jezioro Iłżeckie",
+  "centroid_lat": 51.1582193,
+  "centroid_lng": 21.2376605,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12563952224",
+      "source_url": "https://www.openstreetmap.org/node/12563952224"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/436540430",
+      "source_url": "https://www.openstreetmap.org/way/436540430"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL1242503414000018",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL1242503414000018",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "bleu-azur",
+  "name": "Bleu azur",
+  "centroid_lat": 14.7626047,
+  "centroid_lng": -17.4607149,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/391956327",
+      "source_url": "https://www.openstreetmap.org/way/391956327"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/391957246",
+      "source_url": "https://www.openstreetmap.org/way/391957246"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/391963585",
+      "source_url": "https://www.openstreetmap.org/way/391963585"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/391963588",
+      "source_url": "https://www.openstreetmap.org/way/391963588"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/391963591",
+      "source_url": "https://www.openstreetmap.org/way/391963591"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/391966006",
+      "source_url": "https://www.openstreetmap.org/way/391966006"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/391966007",
+      "source_url": "https://www.openstreetmap.org/way/391966007"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/391969549",
+      "source_url": "https://www.openstreetmap.org/way/391969549"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/391969552",
+      "source_url": "https://www.openstreetmap.org/way/391969552"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/391969556",
+      "source_url": "https://www.openstreetmap.org/way/391969556"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/421180557",
+      "source_url": "https://www.openstreetmap.org/way/421180557"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/462134842",
+      "source_url": "https://www.openstreetmap.org/way/462134842"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/478240450",
+      "source_url": "https://www.openstreetmap.org/way/478240450"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/552991421",
+      "source_url": "https://www.openstreetmap.org/way/552991421"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1354338131",
+      "source_url": "https://www.openstreetmap.org/way/1354338131"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/5874962",
+      "source_url": "https://www.openstreetmap.org/relation/5874962"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false,
+      "fee_required": true,
+      "access": "permissive"
+    }
+  }
+}

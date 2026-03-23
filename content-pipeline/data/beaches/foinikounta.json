@@ -1,0 +1,55 @@
+{
+  "slug": "foinikounta",
+  "name": "FOINIKOUNTA",
+  "centroid_lat": 36.8071,
+  "centroid_lng": 21.8075,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/139109054",
+      "source_url": "https://www.openstreetmap.org/way/139109054"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659813850",
+      "source_url": "https://www.openstreetmap.org/way/659813850"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659813852",
+      "source_url": "https://www.openstreetmap.org/way/659813852"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659813854",
+      "source_url": "https://www.openstreetmap.org/way/659813854"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/958880722",
+      "source_url": "https://www.openstreetmap.org/way/958880722"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW019257033101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW019257033101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "ammoudi-2",
+  "name": "Αμμούδι",
+  "centroid_lat": 35.1981244,
+  "centroid_lng": 25.712727,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/364802567",
+      "source_url": "https://www.openstreetmap.org/way/364802567"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

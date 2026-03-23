@@ -1,0 +1,35 @@
+{
+  "slug": "stenasa",
+  "name": "STENÅSA",
+  "centroid_lat": 56.5011,
+  "centroid_lng": 16.6226,
+  "country_code": "SE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/948520584",
+      "source_url": "https://www.openstreetmap.org/way/948520584"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0930840000000007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0930840000000007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

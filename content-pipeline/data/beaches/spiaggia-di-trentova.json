@@ -1,0 +1,35 @@
+{
+  "slug": "spiaggia-di-trentova",
+  "name": "Spiaggia di Trentova",
+  "centroid_lat": 40.3438048,
+  "centroid_lng": 14.9717346,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/146986814",
+      "source_url": "https://www.openstreetmap.org/way/146986814"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015065002004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015065002004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

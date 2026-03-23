@@ -1,0 +1,24 @@
+{
+  "slug": "praia-de-troia",
+  "name": "Praia de Tróia",
+  "centroid_lat": 38.4922248,
+  "centroid_lng": -8.9076692,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/9714139",
+      "source_url": "https://www.openstreetmap.org/relation/9714139"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

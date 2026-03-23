@@ -1,0 +1,30 @@
+{
+  "slug": "funtastic-island-resort",
+  "name": "Funtastic Island Resort",
+  "centroid_lat": 11.1842503,
+  "centroid_lng": 123.9177043,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/4294015491",
+      "source_url": "https://www.openstreetmap.org/node/4294015491"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/152169831",
+      "source_url": "https://www.openstreetmap.org/way/152169831"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/245493043",
+      "source_url": "https://www.openstreetmap.org/way/245493043"
+    }
+  ],
+  "attributes": {}
+}

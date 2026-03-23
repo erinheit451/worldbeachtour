@@ -1,0 +1,88 @@
+{
+  "slug": "localita-spizzago",
+  "name": "LOCALITA' SPIZZAGO",
+  "centroid_lat": 45.5828,
+  "centroid_lng": 10.5682,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/634214292",
+      "source_url": "https://www.openstreetmap.org/way/634214292"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/634221228",
+      "source_url": "https://www.openstreetmap.org/way/634221228"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/634221930",
+      "source_url": "https://www.openstreetmap.org/way/634221930"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/634222103",
+      "source_url": "https://www.openstreetmap.org/way/634222103"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/634222118",
+      "source_url": "https://www.openstreetmap.org/way/634222118"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/634222645",
+      "source_url": "https://www.openstreetmap.org/way/634222645"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/634222707",
+      "source_url": "https://www.openstreetmap.org/way/634222707"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/634222810",
+      "source_url": "https://www.openstreetmap.org/way/634222810"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/635196356",
+      "source_url": "https://www.openstreetmap.org/way/635196356"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/635196381",
+      "source_url": "https://www.openstreetmap.org/way/635196381"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/635196643",
+      "source_url": "https://www.openstreetmap.org/way/635196643"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT003017171002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT003017171002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "plage-de-gazaille",
+  "name": "Plage de Gazaille",
+  "centroid_lat": 44.3953855,
+  "centroid_lng": 0.4930983,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/131734800",
+      "source_url": "https://www.openstreetmap.org/way/131734800"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

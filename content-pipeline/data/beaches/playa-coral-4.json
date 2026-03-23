@@ -1,0 +1,32 @@
+{
+  "slug": "playa-coral-4",
+  "name": "Playa Coral",
+  "centroid_lat": 10.6189737,
+  "centroid_lng": -66.857112,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1053160711",
+      "source_url": "https://www.openstreetmap.org/way/1053160711"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false,
+      "fee_required": false,
+      "access": "yes"
+    },
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

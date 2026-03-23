@@ -1,0 +1,37 @@
+{
+  "slug": "cala-goloritze",
+  "name": "Cala Goloritzè",
+  "centroid_lat": 40.1080358,
+  "centroid_lng": 9.6897108,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/121848768",
+      "source_url": "https://www.openstreetmap.org/way/121848768"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q2933429",
+      "source_url": "https://www.wikidata.org/wiki/Q2933429"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false,
+      "fee_required": true
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20Goloritz%C3%A9%201.JPG",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cala_Goloritz%C3%A9"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "palatinus-to-obol-beach",
+  "name": "PALATINUS-TO  OBOL BEACH",
+  "centroid_lat": 47.72581,
+  "centroid_lng": 18.74734,
+  "country_code": "HU",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/8646199988",
+      "source_url": "https://www.openstreetmap.org/node/8646199988"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/41672726",
+      "source_url": "https://www.openstreetmap.org/way/41672726"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/745748213",
+      "source_url": "https://www.openstreetmap.org/way/745748213"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_01205",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_01205",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

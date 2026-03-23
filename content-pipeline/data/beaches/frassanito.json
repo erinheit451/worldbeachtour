@@ -1,0 +1,30 @@
+{
+  "slug": "frassanito",
+  "name": "Frassanito",
+  "centroid_lat": 40.2329334,
+  "centroid_lng": 18.4601175,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/359667843",
+      "source_url": "https://www.openstreetmap.org/way/359667843"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/359667902",
+      "source_url": "https://www.openstreetmap.org/way/359667902"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33326438",
+      "source_url": "https://www.wikidata.org/wiki/Q33326438"
+    }
+  ],
+  "attributes": {}
+}

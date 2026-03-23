@@ -1,0 +1,24 @@
+{
+  "slug": "sandy-gully-beach",
+  "name": "Sandy Gully Beach",
+  "centroid_lat": -38.4601978,
+  "centroid_lng": 144.1121748,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/161748284",
+      "source_url": "https://www.openstreetmap.org/way/161748284"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

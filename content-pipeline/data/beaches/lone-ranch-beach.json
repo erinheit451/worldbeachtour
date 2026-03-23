@@ -1,0 +1,30 @@
+{
+  "slug": "lone-ranch-beach",
+  "name": "Lone Ranch Beach",
+  "centroid_lat": 42.0984455,
+  "centroid_lng": -124.3428766,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357303440",
+      "source_url": "https://www.openstreetmap.org/node/357303440"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q17035037",
+      "source_url": "https://www.wikidata.org/wiki/Q17035037"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Lone%20Ranch%20Beach%20%28Oregon%29%20pano%2001.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Lone_Ranch_Beach"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "foce-rio-latte",
+  "name": "FOCE RIO LATTE",
+  "centroid_lat": 43.7898,
+  "centroid_lng": 7.5671,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7152778568",
+      "source_url": "https://www.openstreetmap.org/node/7152778568"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/190613820",
+      "source_url": "https://www.openstreetmap.org/way/190613820"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/765857854",
+      "source_url": "https://www.openstreetmap.org/way/765857854"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007008065009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007008065009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "cala-de-ribes-altes",
+  "name": "Cala de Ribes Altes",
+  "centroid_lat": 40.8773747,
+  "centroid_lng": 0.7981219,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/14509773",
+      "source_url": "https://www.openstreetmap.org/relation/14509773"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28121206",
+      "source_url": "https://www.wikidata.org/wiki/Q28121206"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platja%20de%20Ribes%20Altes%20%28l%27Ametlla%20de%20Mar%29%20-%203.jpg"
+    }
+  }
+}

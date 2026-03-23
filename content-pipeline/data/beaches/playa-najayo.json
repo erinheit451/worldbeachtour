@@ -1,0 +1,25 @@
+{
+  "slug": "playa-najayo",
+  "name": "Playa Najayo",
+  "centroid_lat": 18.3009384,
+  "centroid_lng": -70.1063909,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/360603144",
+      "source_url": "https://www.openstreetmap.org/node/360603144"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23764667",
+      "source_url": "https://www.wikidata.org/wiki/Q23764667"
+    }
+  ],
+  "attributes": {}
+}

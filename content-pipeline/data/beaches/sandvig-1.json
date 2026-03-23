@@ -1,0 +1,48 @@
+{
+  "slug": "sandvig-1",
+  "name": "SANDVIG",
+  "centroid_lat": 55.29077,
+  "centroid_lng": 14.77796,
+  "country_code": "DK",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/96792130",
+      "source_url": "https://www.openstreetmap.org/way/96792130"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/724705588",
+      "source_url": "https://www.openstreetmap.org/way/724705588"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14320855",
+      "source_url": "https://www.openstreetmap.org/relation/14320855"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW332",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW332",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

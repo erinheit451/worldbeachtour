@@ -1,0 +1,30 @@
+{
+  "slug": "zeitcamper-strand",
+  "name": "Zeitcamper-Strand",
+  "centroid_lat": 51.3115478,
+  "centroid_lng": 12.2524285,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/311045627",
+      "source_url": "https://www.openstreetmap.org/way/311045627"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/311045629",
+      "source_url": "https://www.openstreetmap.org/way/311045629"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/311045631",
+      "source_url": "https://www.openstreetmap.org/way/311045631"
+    }
+  ],
+  "attributes": {}
+}

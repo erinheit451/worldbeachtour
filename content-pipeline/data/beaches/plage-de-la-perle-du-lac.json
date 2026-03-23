@@ -1,0 +1,48 @@
+{
+  "slug": "plage-de-la-perle-du-lac",
+  "name": "Plage de la Perle-du-Lac",
+  "centroid_lat": 46.220005,
+  "centroid_lng": 6.1532531,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12725911676",
+      "source_url": "https://www.openstreetmap.org/node/12725911676"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/844006534",
+      "source_url": "https://www.openstreetmap.org/way/844006534"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/844006535",
+      "source_url": "https://www.openstreetmap.org/way/844006535"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CH25033",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CH25033",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "environment": {
+      "water_quality_rating": "excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

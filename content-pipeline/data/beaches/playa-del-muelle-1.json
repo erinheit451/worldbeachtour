@@ -1,0 +1,24 @@
+{
+  "slug": "playa-del-muelle-1",
+  "name": "Playa del Muelle",
+  "centroid_lat": 28.3708252,
+  "centroid_lng": -16.7680359,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/90845291",
+      "source_url": "https://www.openstreetmap.org/way/90845291"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

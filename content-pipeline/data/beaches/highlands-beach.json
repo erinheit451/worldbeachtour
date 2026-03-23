@@ -1,0 +1,25 @@
+{
+  "slug": "highlands-beach",
+  "name": "Highlands Beach",
+  "centroid_lat": 40.3942923,
+  "centroid_lng": -73.975062,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357732301",
+      "source_url": "https://www.openstreetmap.org/node/357732301"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49321182",
+      "source_url": "https://www.wikidata.org/wiki/Q49321182"
+    }
+  ],
+  "attributes": {}
+}

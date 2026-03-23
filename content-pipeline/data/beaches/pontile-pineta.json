@@ -1,0 +1,41 @@
+{
+  "slug": "pontile-pineta",
+  "name": "PONTILE PINETA",
+  "centroid_lat": 45.6677,
+  "centroid_lng": 13.117,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/54293738",
+      "source_url": "https://www.openstreetmap.org/way/54293738"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT006030049006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT006030049006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

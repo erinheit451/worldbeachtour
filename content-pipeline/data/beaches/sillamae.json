@@ -1,0 +1,40 @@
+{
+  "slug": "sillamae",
+  "name": "SILLAMÄE",
+  "centroid_lat": 59.3975,
+  "centroid_lng": 27.7781,
+  "country_code": "EE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/977418354",
+      "source_url": "https://www.openstreetmap.org/way/977418354"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q12375005",
+      "source_url": "https://www.wikidata.org/wiki/Q12375005"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "EE00301023SILLAMAE",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "EE00301023SILLAMAE",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

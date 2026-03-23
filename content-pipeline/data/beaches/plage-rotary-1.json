@@ -1,0 +1,25 @@
+{
+  "slug": "plage-rotary-1",
+  "name": "Plage Rotary",
+  "centroid_lat": 48.6910862,
+  "centroid_lng": -79.254545,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/20254757",
+      "source_url": "https://www.openstreetmap.org/relation/20254757"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22396973",
+      "source_url": "https://www.wikidata.org/wiki/Q22396973"
+    }
+  ],
+  "attributes": {}
+}

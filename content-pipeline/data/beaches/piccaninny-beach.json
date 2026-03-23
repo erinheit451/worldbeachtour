@@ -1,0 +1,25 @@
+{
+  "slug": "piccaninny-beach",
+  "name": "Piccaninny Beach",
+  "centroid_lat": -36.0848478,
+  "centroid_lng": 150.1337783,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/664797652",
+      "source_url": "https://www.openstreetmap.org/way/664797652"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956857",
+      "source_url": "https://www.wikidata.org/wiki/Q21956857"
+    }
+  ],
+  "attributes": {}
+}

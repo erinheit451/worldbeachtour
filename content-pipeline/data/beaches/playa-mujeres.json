@@ -1,0 +1,32 @@
+{
+  "slug": "playa-mujeres",
+  "name": "Playa Mujeres",
+  "centroid_lat": 28.8530228,
+  "centroid_lng": -13.7929025,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/24570038",
+      "source_url": "https://www.openstreetmap.org/way/24570038"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23982575",
+      "source_url": "https://www.wikidata.org/wiki/Q23982575"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "customary"
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

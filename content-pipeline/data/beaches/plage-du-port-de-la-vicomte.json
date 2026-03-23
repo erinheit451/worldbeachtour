@@ -1,0 +1,25 @@
+{
+  "slug": "plage-du-port-de-la-vicomte",
+  "name": "plage du Port de la Vicomté",
+  "centroid_lat": 48.6202,
+  "centroid_lng": -2.0318,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/12891839",
+      "source_url": "https://www.openstreetmap.org/relation/12891839"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q96100397",
+      "source_url": "https://www.wikidata.org/wiki/Q96100397"
+    }
+  ],
+  "attributes": {}
+}

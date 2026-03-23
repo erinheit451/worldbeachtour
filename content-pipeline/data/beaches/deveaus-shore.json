@@ -1,0 +1,25 @@
+{
+  "slug": "deveaus-shore",
+  "name": "Deveaus Shore",
+  "centroid_lat": 44.1029743,
+  "centroid_lng": -66.2091925,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1156881993",
+      "source_url": "https://www.openstreetmap.org/node/1156881993"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22625127",
+      "source_url": "https://www.wikidata.org/wiki/Q22625127"
+    }
+  ],
+  "attributes": {}
+}

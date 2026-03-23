@@ -1,0 +1,35 @@
+{
+  "slug": "la-gournaise",
+  "name": "La Gournaise",
+  "centroid_lat": 46.7328027,
+  "centroid_lng": -2.3822844,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/4828475",
+      "source_url": "https://www.openstreetmap.org/relation/4828475"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/10969781",
+      "source_url": "https://www.openstreetmap.org/relation/10969781"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/10969782",
+      "source_url": "https://www.openstreetmap.org/relation/10969782"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/10969783",
+      "source_url": "https://www.openstreetmap.org/relation/10969783"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "porth-castell",
+  "name": "Porth Castell",
+  "centroid_lat": 53.2716106,
+  "centroid_lng": -4.6220341,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/367494012",
+      "source_url": "https://www.openstreetmap.org/way/367494012"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/367494013",
+      "source_url": "https://www.openstreetmap.org/way/367494013"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/367494015",
+      "source_url": "https://www.openstreetmap.org/way/367494015"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1393358064",
+      "source_url": "https://www.openstreetmap.org/way/1393358064"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

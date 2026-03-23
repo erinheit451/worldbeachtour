@@ -1,0 +1,49 @@
+{
+  "slug": "djiga-grad-senj",
+  "name": "Djiga Grad Senj",
+  "centroid_lat": 44.98963,
+  "centroid_lng": 14.8974,
+  "country_code": "HR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/520387908",
+      "source_url": "https://www.openstreetmap.org/way/520387908"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/722972732",
+      "source_url": "https://www.openstreetmap.org/way/722972732"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-5059",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-5059",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "playa-del-pasaje",
+  "name": "Playa del Pasaje",
+  "centroid_lat": 43.4391117,
+  "centroid_lng": -3.4572034,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/4020892",
+      "source_url": "https://www.openstreetmap.org/relation/4020892"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/4020893",
+      "source_url": "https://www.openstreetmap.org/relation/4020893"
+    }
+  ],
+  "attributes": {}
+}

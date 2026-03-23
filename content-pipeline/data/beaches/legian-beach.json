@@ -1,0 +1,29 @@
+{
+  "slug": "legian-beach",
+  "name": "Legian Beach",
+  "centroid_lat": -8.7034514,
+  "centroid_lng": 115.1641041,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/30904902",
+      "source_url": "https://www.openstreetmap.org/way/30904902"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25175430",
+      "source_url": "https://www.wikidata.org/wiki/Q25175430"
+    }
+  ],
+  "attributes": {
+    "surfing": {
+      "surfing_available": true
+    }
+  }
+}

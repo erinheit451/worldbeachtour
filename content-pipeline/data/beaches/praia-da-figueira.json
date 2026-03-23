@@ -1,0 +1,36 @@
+{
+  "slug": "praia-da-figueira",
+  "name": "Praia da Figueira",
+  "centroid_lat": 37.0607267,
+  "centroid_lng": -8.8403331,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/156815841",
+      "source_url": "https://www.openstreetmap.org/way/156815841"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25442349",
+      "source_url": "https://www.wikidata.org/wiki/Q25442349"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Figueira1.png"
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

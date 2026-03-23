@@ -1,0 +1,45 @@
+{
+  "slug": "naturbad-hoellohe-teublitz-bruecke-eingang",
+  "name": "NATURBAD HOELLOHE, TEUBLITZ, BRUECKE-EINGANG",
+  "centroid_lat": 49.2306,
+  "centroid_lng": 12.0919,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/29157387",
+      "source_url": "https://www.openstreetmap.org/way/29157387"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/29157388",
+      "source_url": "https://www.openstreetmap.org/way/29157388"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/205734432",
+      "source_url": "https://www.openstreetmap.org/way/205734432"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_SAD_0080",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_SAD_0080",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

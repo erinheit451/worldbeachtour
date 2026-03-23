@@ -1,0 +1,54 @@
+{
+  "slug": "baia-delle-vele",
+  "name": "Baia delle Vele",
+  "centroid_lat": 43.8532747,
+  "centroid_lng": 7.9663022,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7207039620",
+      "source_url": "https://www.openstreetmap.org/node/7207039620"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/81285715",
+      "source_url": "https://www.openstreetmap.org/way/81285715"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/346595800",
+      "source_url": "https://www.openstreetmap.org/way/346595800"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/346595801",
+      "source_url": "https://www.openstreetmap.org/way/346595801"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007008054003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007008054003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true,
+      "wheelchair_access": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

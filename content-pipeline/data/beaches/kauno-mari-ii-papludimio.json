@@ -1,0 +1,48 @@
+{
+  "slug": "kauno-mari-ii-papludimio",
+  "name": "KAUNO MARI┼▓ II PAPLUDIMIO",
+  "centroid_lat": 54.8765,
+  "centroid_lng": 24.014,
+  "country_code": "LT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/19267989",
+      "source_url": "https://www.openstreetmap.org/relation/19267989"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "LT00219100500010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "LT0021910050001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "LT00219100500010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "LT0021910050001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

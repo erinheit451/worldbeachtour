@@ -1,0 +1,29 @@
+{
+  "slug": "plage-de-korz",
+  "name": "Plage de Korz",
+  "centroid_lat": 48.4520468,
+  "centroid_lng": -5.0923977,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8251513",
+      "source_url": "https://www.openstreetmap.org/relation/8251513"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q110878613",
+      "source_url": "https://www.wikidata.org/wiki/Q110878613"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plage%20de%20Corz%20-%20dsmm03665.jpg"
+    }
+  }
+}

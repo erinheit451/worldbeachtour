@@ -1,0 +1,50 @@
+{
+  "slug": "strandbad-wannsee",
+  "name": "Strandbad Wannsee",
+  "centroid_lat": 52.4372587,
+  "centroid_lng": 13.1775391,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/231630252",
+      "source_url": "https://www.openstreetmap.org/way/231630252"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q1545614",
+      "source_url": "https://www.wikidata.org/wiki/Q1545614"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBE_PR_0018",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBE_PR_0018",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "customers"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Strandbad%20Wannsee%2007.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Strandbad_Wannsee"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

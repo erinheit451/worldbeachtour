@@ -1,0 +1,29 @@
+{
+  "slug": "praia-do-vau",
+  "name": "Praia do Vau",
+  "centroid_lat": 37.119863,
+  "centroid_lng": -8.5592917,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/607027170",
+      "source_url": "https://www.openstreetmap.org/way/607027170"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25418762",
+      "source_url": "https://www.wikidata.org/wiki/Q25418762"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praias%20do%20Vau%20e%20do%20Alem%C3%A3o%20%284314265710%29.jpg"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "little-beach-22",
+  "name": "Little Beach",
+  "centroid_lat": 50.5486,
+  "centroid_lng": -2.4167,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1354424250",
+      "source_url": "https://www.openstreetmap.org/way/1354424250"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q18161139",
+      "source_url": "https://www.wikidata.org/wiki/Q18161139"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Looking%20back%20to%20see%20how%20far%20we%27ve%20come.%20-%20geograph.org.uk%20-%201597892.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Little_Beach,_Portland"
+    }
+  }
+}

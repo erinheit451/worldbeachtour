@@ -1,0 +1,30 @@
+{
+  "slug": "cahors-plage",
+  "name": "CAHORS PLAGE",
+  "centroid_lat": 44.44517,
+  "centroid_lng": 1.44317,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ2546042D046002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ2546042D046002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "sufficient",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

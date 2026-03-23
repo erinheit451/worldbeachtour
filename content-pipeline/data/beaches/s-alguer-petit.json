@@ -1,0 +1,54 @@
+{
+  "slug": "s-alguer-petit",
+  "name": "s'Alguer Petit",
+  "centroid_lat": 41.861933,
+  "centroid_lng": 3.1527372,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8268909",
+      "source_url": "https://www.openstreetmap.org/relation/8268909"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8268910",
+      "source_url": "https://www.openstreetmap.org/relation/8268910"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8268911",
+      "source_url": "https://www.openstreetmap.org/relation/8268911"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8268912",
+      "source_url": "https://www.openstreetmap.org/relation/8268912"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q124767409",
+      "source_url": "https://www.wikidata.org/wiki/Q124767409"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q124785559",
+      "source_url": "https://www.wikidata.org/wiki/Q124785559"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q124787508",
+      "source_url": "https://www.wikidata.org/wiki/Q124787508"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/48%20Cala%20Pallerida%2C%20o%20del%20Polvor%C3%AD%2C%20i%20rac%C3%B3%20de%20la%20Barraca%20de%20la%20Cadena%20%28Palam%C3%B3s%29.jpg"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "jezioro-zarnowieckie-przystan-w-nadolu",
+  "name": "JEZIORO ŻARNOWIECKIE- PRZYSTAŃ W NADOLU",
+  "centroid_lat": 54.74611,
+  "centroid_lng": 18.05333,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/973333454",
+      "source_url": "https://www.openstreetmap.org/way/973333454"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6321505222000134",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6321505222000134",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true,
+      "access": "yes"
+    },
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

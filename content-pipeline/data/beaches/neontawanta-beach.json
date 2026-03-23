@@ -1,0 +1,25 @@
+{
+  "slug": "neontawanta-beach",
+  "name": "Neontawanta Beach",
+  "centroid_lat": 48.7085098,
+  "centroid_lng": -122.6277185,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/20124541",
+      "source_url": "https://www.openstreetmap.org/relation/20124541"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322215",
+      "source_url": "https://www.wikidata.org/wiki/Q49322215"
+    }
+  ],
+  "attributes": {}
+}

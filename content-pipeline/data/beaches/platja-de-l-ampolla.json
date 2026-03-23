@@ -1,0 +1,29 @@
+{
+  "slug": "platja-de-l-ampolla",
+  "name": "Platja de l'Ampolla",
+  "centroid_lat": 38.6870469,
+  "centroid_lng": 0.1304424,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/43076698",
+      "source_url": "https://www.openstreetmap.org/way/43076698"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24024532",
+      "source_url": "https://www.wikidata.org/wiki/Q24024532"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platja%20de%20l%27Ampolla%2C%20Moraira.JPG"
+    }
+  }
+}

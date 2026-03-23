@@ -1,0 +1,30 @@
+{
+  "slug": "pont-de-vaux-rive-gauche-de-la-saone-en-aval-du-pont-de-fleurville",
+  "name": "PONT-DE-VAUX - RIVE GAUCHE DE LA SAONE EN AVAL DU PONT DE FLEURVILLE",
+  "centroid_lat": 46.44726,
+  "centroid_lng": 4.89695,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2101305D001210",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2101305D001210",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

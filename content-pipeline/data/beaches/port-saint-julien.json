@@ -1,0 +1,25 @@
+{
+  "slug": "port-saint-julien",
+  "name": "Port Saint-Julien",
+  "centroid_lat": 47.3609096,
+  "centroid_lng": -3.1564872,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/176021705",
+      "source_url": "https://www.openstreetmap.org/way/176021705"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/527650909",
+      "source_url": "https://www.openstreetmap.org/way/527650909"
+    }
+  ],
+  "attributes": {}
+}

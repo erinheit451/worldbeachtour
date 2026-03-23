@@ -1,0 +1,29 @@
+{
+  "slug": "plage-pointe-des-douaniers-est",
+  "name": "Plage Pointe des Douaniers (Est)",
+  "centroid_lat": 43.7196732,
+  "centroid_lng": 7.4056206,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/833249846",
+      "source_url": "https://www.openstreetmap.org/way/833249846"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/839836573",
+      "source_url": "https://www.openstreetmap.org/way/839836573"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true
+    }
+  }
+}

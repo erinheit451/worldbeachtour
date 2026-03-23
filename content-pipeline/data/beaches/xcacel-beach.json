@@ -1,0 +1,29 @@
+{
+  "slug": "xcacel-beach",
+  "name": "Xcacel Beach",
+  "centroid_lat": 20.3376234,
+  "centroid_lng": -87.3461594,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/16998807",
+      "source_url": "https://www.openstreetmap.org/relation/16998807"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q124359646",
+      "source_url": "https://www.wikidata.org/wiki/Q124359646"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20Xcacel%20-%20Mexico%20-%20panoramio.jpg"
+    }
+  }
+}

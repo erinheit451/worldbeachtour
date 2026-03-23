@@ -1,0 +1,24 @@
+{
+  "slug": "nagystrand",
+  "name": "Nagystrand",
+  "centroid_lat": 46.912124,
+  "centroid_lng": 18.0524645,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/3116667",
+      "source_url": "https://www.openstreetmap.org/relation/3116667"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

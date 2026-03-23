@@ -1,0 +1,43 @@
+{
+  "slug": "plage-du-champ-de-l-eau",
+  "name": "Plage du Champ de l'Eau",
+  "centroid_lat": 46.3635814,
+  "centroid_lng": 6.4422047,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1028113436",
+      "source_url": "https://www.openstreetmap.org/way/1028113436"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1303467736",
+      "source_url": "https://www.openstreetmap.org/way/1303467736"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2874013D074060",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2874013D074060",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

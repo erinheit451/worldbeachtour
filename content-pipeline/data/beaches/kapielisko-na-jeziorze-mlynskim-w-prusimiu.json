@@ -1,0 +1,35 @@
+{
+  "slug": "kapielisko-na-jeziorze-mlynskim-w-prusimiu",
+  "name": "KĄPIELISKO NA JEZIORZE MŁYŃSKIM W PRUSIMIU",
+  "centroid_lat": 52.58194,
+  "centroid_lng": 16.00417,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/293802432",
+      "source_url": "https://www.openstreetmap.org/way/293802432"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4121402230000013A",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4121402230000013A",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "sinilang-beach",
+  "name": "Sinilang Beach",
+  "centroid_lat": 14.2548876,
+  "centroid_lng": 120.6254534,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/105138820",
+      "source_url": "https://www.openstreetmap.org/way/105138820"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "no"
+    }
+  }
+}

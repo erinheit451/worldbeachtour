@@ -1,0 +1,39 @@
+{
+  "slug": "rhyl-sands",
+  "name": "Rhyl Sands",
+  "centroid_lat": 53.3247169,
+  "centroid_lng": -3.4897087,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/169734755",
+      "source_url": "https://www.openstreetmap.org/way/169734755"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/551331936",
+      "source_url": "https://www.openstreetmap.org/way/551331936"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/551331937",
+      "source_url": "https://www.openstreetmap.org/way/551331937"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q107356944",
+      "source_url": "https://www.wikidata.org/wiki/Q107356944"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Rhyl%20East.jpg"
+    }
+  }
+}

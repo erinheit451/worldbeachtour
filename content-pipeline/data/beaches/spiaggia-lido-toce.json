@@ -1,0 +1,53 @@
+{
+  "slug": "spiaggia-lido-toce",
+  "name": "Spiaggia Lido Toce",
+  "centroid_lat": 45.9354131,
+  "centroid_lng": 8.4903119,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/437138491",
+      "source_url": "https://www.openstreetmap.org/way/437138491"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/437142233",
+      "source_url": "https://www.openstreetmap.org/way/437142233"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT001103008003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT001103008001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT001103008003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT001103008001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "customers"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

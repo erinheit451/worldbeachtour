@@ -1,0 +1,30 @@
+{
+  "slug": "amityville-beach",
+  "name": "Amityville Beach",
+  "centroid_lat": 40.6552778,
+  "centroid_lng": -73.4075,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357615200",
+      "source_url": "https://www.openstreetmap.org/node/357615200"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/568792306",
+      "source_url": "https://www.openstreetmap.org/way/568792306"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q34636818",
+      "source_url": "https://www.wikidata.org/wiki/Q34636818"
+    }
+  ],
+  "attributes": {}
+}

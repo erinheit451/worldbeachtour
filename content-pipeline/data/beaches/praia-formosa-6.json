@@ -1,0 +1,25 @@
+{
+  "slug": "praia-formosa-6",
+  "name": "Praia Formosa",
+  "centroid_lat": -3.7125,
+  "centroid_lng": -38.544444444,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/5899932",
+      "source_url": "https://www.openstreetmap.org/relation/5899932"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22031729",
+      "source_url": "https://www.wikidata.org/wiki/Q22031729"
+    }
+  ],
+  "attributes": {}
+}

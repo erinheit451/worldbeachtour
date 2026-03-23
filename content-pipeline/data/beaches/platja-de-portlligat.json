@@ -1,0 +1,29 @@
+{
+  "slug": "platja-de-portlligat",
+  "name": "Platja de Portlligat",
+  "centroid_lat": 42.2939243,
+  "centroid_lng": 3.2869091,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8308605",
+      "source_url": "https://www.openstreetmap.org/relation/8308605"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24021763",
+      "source_url": "https://www.wikidata.org/wiki/Q24021763"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Salvador%20Dali%20%C3%B6ble%201%20-%20panoramio.jpg"
+    }
+  }
+}

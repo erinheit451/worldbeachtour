@@ -1,0 +1,35 @@
+{
+  "slug": "krithonio",
+  "name": "KRITHONIO",
+  "centroid_lat": 37.1567,
+  "centroid_lng": 26.8425,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10039634409",
+      "source_url": "https://www.openstreetmap.org/node/10039634409"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149278101101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149278101101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

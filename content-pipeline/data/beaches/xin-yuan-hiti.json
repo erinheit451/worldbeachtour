@@ -1,0 +1,24 @@
+{
+  "slug": "xin-yuan-hiti",
+  "name": "新原ビーチ",
+  "centroid_lat": 26.1336983,
+  "centroid_lng": 127.7897585,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1305901987",
+      "source_url": "https://www.openstreetmap.org/way/1305901987"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "cayo-levantado-public-beach",
+  "name": "Cayo Levantado Public Beach",
+  "centroid_lat": 19.1679127,
+  "centroid_lng": -69.2791648,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/198789669",
+      "source_url": "https://www.openstreetmap.org/way/198789669"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/198789736",
+      "source_url": "https://www.openstreetmap.org/way/198789736"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    }
+  }
+}

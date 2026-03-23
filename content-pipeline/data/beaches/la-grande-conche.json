@@ -1,0 +1,46 @@
+{
+  "slug": "la-grande-conche",
+  "name": "La Grande Conche",
+  "centroid_lat": 45.6144109,
+  "centroid_lng": -1.0181231,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/222741782",
+      "source_url": "https://www.openstreetmap.org/way/222741782"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q3390870",
+      "source_url": "https://www.wikidata.org/wiki/Q3390870"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI3217306M017185",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI3217306M017185",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/2001-12-Royan-Plage.JPG"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

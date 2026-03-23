@@ -1,0 +1,39 @@
+{
+  "slug": "statt-strand-stadt-rieneck",
+  "name": "\"statt-Strand\" Stadt Rieneck",
+  "centroid_lat": 50.0940717,
+  "centroid_lng": 9.6519833,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1253927105",
+      "source_url": "https://www.openstreetmap.org/way/1253927105"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1253927106",
+      "source_url": "https://www.openstreetmap.org/way/1253927106"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false,
+      "access": "yes"
+    },
+    "social": {
+      "nudist": "customary"
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

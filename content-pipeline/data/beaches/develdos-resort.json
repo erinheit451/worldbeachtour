@@ -1,0 +1,25 @@
+{
+  "slug": "develdos-resort",
+  "name": "Develdos Resort",
+  "centroid_lat": 9.7086292,
+  "centroid_lng": 122.3812733,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11802868476",
+      "source_url": "https://www.openstreetmap.org/node/11802868476"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/508842084",
+      "source_url": "https://www.openstreetmap.org/way/508842084"
+    }
+  ],
+  "attributes": {}
+}

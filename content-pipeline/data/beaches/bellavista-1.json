@@ -1,0 +1,35 @@
+{
+  "slug": "bellavista-1",
+  "name": "Bellavista",
+  "centroid_lat": -20.217201,
+  "centroid_lng": -70.1559659,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5260737276",
+      "source_url": "https://www.openstreetmap.org/node/5260737276"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/544213151",
+      "source_url": "https://www.openstreetmap.org/way/544213151"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/599424049",
+      "source_url": "https://www.openstreetmap.org/way/599424049"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/7776553",
+      "source_url": "https://www.openstreetmap.org/relation/7776553"
+    }
+  ],
+  "attributes": {}
+}

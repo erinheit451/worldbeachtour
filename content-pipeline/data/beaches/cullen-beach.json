@@ -1,0 +1,25 @@
+{
+  "slug": "cullen-beach",
+  "name": "Cullen Beach",
+  "centroid_lat": -12.4495179,
+  "centroid_lng": 130.8220716,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/6896972",
+      "source_url": "https://www.openstreetmap.org/way/6896972"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956622",
+      "source_url": "https://www.wikidata.org/wiki/Q21956622"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "oitir-an-t-samhla",
+  "name": "Oitir an t-Sàmhla",
+  "centroid_lat": 57.5480235,
+  "centroid_lng": -7.3533429,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/17863830",
+      "source_url": "https://www.openstreetmap.org/relation/17863830"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

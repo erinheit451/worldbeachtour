@@ -1,0 +1,35 @@
+{
+  "slug": "playa-los-muertos",
+  "name": "Playa los Muertos",
+  "centroid_lat": 20.5979442,
+  "centroid_lng": -105.2398413,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/245255133",
+      "source_url": "https://www.openstreetmap.org/way/245255133"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q3390881",
+      "source_url": "https://www.wikidata.org/wiki/Q3390881"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q108443820",
+      "source_url": "https://www.wikidata.org/wiki/Q108443820"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20Los%20Muertos.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_de_los_Muertos_(Puerto_Vallarta)"
+    }
+  }
+}

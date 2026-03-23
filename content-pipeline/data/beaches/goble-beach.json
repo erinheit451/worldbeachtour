@@ -1,0 +1,25 @@
+{
+  "slug": "goble-beach",
+  "name": "Goble Beach",
+  "centroid_lat": 46.0192765,
+  "centroid_lng": -122.875629,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357293674",
+      "source_url": "https://www.openstreetmap.org/node/357293674"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320822",
+      "source_url": "https://www.wikidata.org/wiki/Q49320822"
+    }
+  ],
+  "attributes": {}
+}

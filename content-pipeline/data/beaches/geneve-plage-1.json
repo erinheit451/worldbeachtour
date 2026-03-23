@@ -1,0 +1,43 @@
+{
+  "slug": "geneve-plage-1",
+  "name": "GENÈVE-PLAGE",
+  "centroid_lat": 46.2144,
+  "centroid_lng": 6.17337,
+  "country_code": "CH",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/787526182",
+      "source_url": "https://www.openstreetmap.org/way/787526182"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q3100988",
+      "source_url": "https://www.wikidata.org/wiki/Q3100988"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CH25016",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CH25016",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Gen%C3%A8ve-Plage%2C%20Spectacle%20au%20plongeoir%2C%20juin%201934.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

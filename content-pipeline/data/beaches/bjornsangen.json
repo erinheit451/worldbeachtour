@@ -1,0 +1,25 @@
+{
+  "slug": "bjornsangen",
+  "name": "Björnsängen",
+  "centroid_lat": 58.8933306,
+  "centroid_lng": 10.9941876,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/10228912",
+      "source_url": "https://www.openstreetmap.org/relation/10228912"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/10228913",
+      "source_url": "https://www.openstreetmap.org/relation/10228913"
+    }
+  ],
+  "attributes": {}
+}

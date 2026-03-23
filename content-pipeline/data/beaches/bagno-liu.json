@@ -1,0 +1,39 @@
+{
+  "slug": "bagno-liu",
+  "name": "Bagno Liù",
+  "centroid_lat": 43.9385334,
+  "centroid_lng": 10.1865786,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/130004285",
+      "source_url": "https://www.openstreetmap.org/way/130004285"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/130285577",
+      "source_url": "https://www.openstreetmap.org/way/130285577"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/130285596",
+      "source_url": "https://www.openstreetmap.org/way/130285596"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/130285597",
+      "source_url": "https://www.openstreetmap.org/way/130285597"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

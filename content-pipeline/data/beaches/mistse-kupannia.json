@@ -1,0 +1,25 @@
+{
+  "slug": "mistse-kupannia",
+  "name": "Місце купання",
+  "centroid_lat": 50.5640824,
+  "centroid_lng": 26.2803611,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12125403432",
+      "source_url": "https://www.openstreetmap.org/node/12125403432"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/12125403433",
+      "source_url": "https://www.openstreetmap.org/node/12125403433"
+    }
+  ],
+  "attributes": {}
+}

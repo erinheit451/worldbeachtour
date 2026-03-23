@@ -1,0 +1,30 @@
+{
+  "slug": "ruhrwiesen-in-linden-dahlhausen",
+  "name": "RUHRWIESEN IN LINDEN-DAHLHAUSEN",
+  "centroid_lat": 51.4252,
+  "centroid_lng": 7.139,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DENW_PR_0115",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DENW_PR_0115",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

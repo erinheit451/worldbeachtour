@@ -1,0 +1,44 @@
+{
+  "slug": "turkish-shore-beach",
+  "name": "Turkish Shore Beach",
+  "centroid_lat": 48.6056086,
+  "centroid_lng": -53.408991,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1238149723",
+      "source_url": "https://www.openstreetmap.org/way/1238149723"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1238158509",
+      "source_url": "https://www.openstreetmap.org/way/1238158509"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1238158510",
+      "source_url": "https://www.openstreetmap.org/way/1238158510"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1238158511",
+      "source_url": "https://www.openstreetmap.org/way/1238158511"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1238158512",
+      "source_url": "https://www.openstreetmap.org/way/1238158512"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

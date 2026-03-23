@@ -1,0 +1,30 @@
+{
+  "slug": "pliazh-skif",
+  "name": "Пляж Скиф",
+  "centroid_lat": 44.9602131,
+  "centroid_lng": 33.6043069,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/230611686",
+      "source_url": "https://www.openstreetmap.org/way/230611686"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/230814713",
+      "source_url": "https://www.openstreetmap.org/way/230814713"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/999516537",
+      "source_url": "https://www.openstreetmap.org/way/999516537"
+    }
+  ],
+  "attributes": {}
+}

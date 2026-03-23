@@ -1,0 +1,30 @@
+{
+  "slug": "la-beaume-a-la-plage-du-village-de-labeaume",
+  "name": "LA BEAUME A LA PLAGE DU VILLAGE DE LABEAUME",
+  "centroid_lat": 44.4484,
+  "centroid_lng": 4.30778,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2207115D007235",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2207115D007235",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "beacon-cove-1",
+  "name": "Beacon Cove",
+  "centroid_lat": 50.4575218,
+  "centroid_lng": -3.5236098,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/56876702",
+      "source_url": "https://www.openstreetmap.org/way/56876702"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true
+    }
+  }
+}

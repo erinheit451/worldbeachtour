@@ -1,0 +1,24 @@
+{
+  "slug": "strand-zuidoever",
+  "name": "Strand Zuidoever",
+  "centroid_lat": 52.3036105,
+  "centroid_lng": 4.9963963,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/99886132",
+      "source_url": "https://www.openstreetmap.org/way/99886132"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

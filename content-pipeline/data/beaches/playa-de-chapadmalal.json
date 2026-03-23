@@ -1,0 +1,37 @@
+{
+  "slug": "playa-de-chapadmalal",
+  "name": "Playa de Chapadmalal",
+  "centroid_lat": -38.2077065,
+  "centroid_lng": -57.6918763,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/204616555",
+      "source_url": "https://www.openstreetmap.org/way/204616555"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/991050234",
+      "source_url": "https://www.openstreetmap.org/way/991050234"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1002825877",
+      "source_url": "https://www.openstreetmap.org/way/1002825877"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "surfing": {
+      "surfing_available": true
+    }
+  }
+}

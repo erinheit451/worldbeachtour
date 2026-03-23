@@ -1,0 +1,29 @@
+{
+  "slug": "gaviota-beach",
+  "name": "Gaviota Beach",
+  "centroid_lat": 34.4708867,
+  "centroid_lng": -120.2243981,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/7080025",
+      "source_url": "https://www.openstreetmap.org/relation/7080025"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320795",
+      "source_url": "https://www.wikidata.org/wiki/Q49320795"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Gaviota%20Pier%20%283286057320%29.jpg"
+    }
+  }
+}

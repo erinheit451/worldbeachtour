@@ -1,0 +1,38 @@
+{
+  "slug": "dasia-2",
+  "name": "DASIA 2",
+  "centroid_lat": 39.6794,
+  "centroid_lng": 19.8408,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q27182924",
+      "source_url": "https://www.wikidata.org/wiki/Q27182924"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW059118071101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW059118071101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Dassia%20Kerkyra%20Corfu.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "kannvikk-uimaranta",
+  "name": "Kannvikk uimaranta",
+  "centroid_lat": 60.4388377,
+  "centroid_lng": 21.3940173,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1422827122",
+      "source_url": "https://www.openstreetmap.org/way/1422827122"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

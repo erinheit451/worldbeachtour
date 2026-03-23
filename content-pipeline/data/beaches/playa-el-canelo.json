@@ -1,0 +1,32 @@
+{
+  "slug": "playa-el-canelo",
+  "name": "Playa El Canelo",
+  "centroid_lat": -33.3673747,
+  "centroid_lng": -71.6888836,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/142495771",
+      "source_url": "https://www.openstreetmap.org/way/142495771"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/142495772",
+      "source_url": "https://www.openstreetmap.org/way/142495772"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

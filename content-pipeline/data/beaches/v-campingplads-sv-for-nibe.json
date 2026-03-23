@@ -1,0 +1,35 @@
+{
+  "slug": "v-campingplads-sv-for-nibe",
+  "name": "V CAMPINGPLADS SV FOR NIBE",
+  "centroid_lat": 56.97316,
+  "centroid_lng": 9.62164,
+  "country_code": "DK",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/103434162",
+      "source_url": "https://www.openstreetmap.org/way/103434162"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW1456",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW1456",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

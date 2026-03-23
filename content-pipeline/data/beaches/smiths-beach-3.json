@@ -1,0 +1,29 @@
+{
+  "slug": "smiths-beach-3",
+  "name": "Smiths Beach",
+  "centroid_lat": -33.653888888,
+  "centroid_lng": 115.020277777,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/71185215",
+      "source_url": "https://www.openstreetmap.org/way/71185215"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21955630",
+      "source_url": "https://www.wikidata.org/wiki/Q21955630"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Smiths%20Beach%2C%202015%20%2804%29.JPG"
+    }
+  }
+}

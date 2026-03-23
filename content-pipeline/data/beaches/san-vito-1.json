@@ -1,0 +1,35 @@
+{
+  "slug": "san-vito-1",
+  "name": "San Vito",
+  "centroid_lat": 41.0134195,
+  "centroid_lng": 17.1930048,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/109738817",
+      "source_url": "https://www.openstreetmap.org/way/109738817"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/335556702",
+      "source_url": "https://www.openstreetmap.org/way/335556702"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/335580384",
+      "source_url": "https://www.openstreetmap.org/way/335580384"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/335580385",
+      "source_url": "https://www.openstreetmap.org/way/335580385"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "spiaggia-di-cavoli",
+  "name": "Spiaggia di Cavoli",
+  "centroid_lat": 42.7368678,
+  "centroid_lng": 10.1867578,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/69218162",
+      "source_url": "https://www.openstreetmap.org/way/69218162"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/419032165",
+      "source_url": "https://www.openstreetmap.org/way/419032165"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q3966667",
+      "source_url": "https://www.wikidata.org/wiki/Q3966667"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Elba-Cavoli.jpg"
+    }
+  }
+}

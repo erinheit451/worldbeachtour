@@ -1,0 +1,40 @@
+{
+  "slug": "tourlaville-collignon",
+  "name": "TOURLAVILLE Collignon",
+  "centroid_lat": 49.6567,
+  "centroid_lng": -1.56712,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/264441792",
+      "source_url": "https://www.openstreetmap.org/way/264441792"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322553",
+      "source_url": "https://www.wikidata.org/wiki/Q49322553"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD1250129M050145",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD1250129M050145",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "sa-platja-gran-1",
+  "name": "sa Platja Gran",
+  "centroid_lat": 39.8870348,
+  "centroid_lng": 3.1902935,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/206173832",
+      "source_url": "https://www.openstreetmap.org/way/206173832"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/961924464",
+      "source_url": "https://www.openstreetmap.org/way/961924464"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "military"
+    }
+  }
+}

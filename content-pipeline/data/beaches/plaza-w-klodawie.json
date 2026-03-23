@@ -1,0 +1,40 @@
+{
+  "slug": "plaza-w-klodawie",
+  "name": "Plaża w Kłodawie",
+  "centroid_lat": 52.7900711,
+  "centroid_lng": 15.2161195,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/246553107",
+      "source_url": "https://www.openstreetmap.org/way/246553107"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/246553108",
+      "source_url": "https://www.openstreetmap.org/way/246553108"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4310104208000024",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4310104208000024",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

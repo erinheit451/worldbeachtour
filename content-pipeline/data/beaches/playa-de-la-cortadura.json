@@ -1,0 +1,56 @@
+{
+  "slug": "playa-de-la-cortadura",
+  "name": "Playa de la Cortadura",
+  "centroid_lat": 36.4877587,
+  "centroid_lng": -6.2676198,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/91048435",
+      "source_url": "https://www.openstreetmap.org/way/91048435"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q9060657",
+      "source_url": "https://www.wikidata.org/wiki/Q9060657"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES612M0121363",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES612M0121365",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES612M0121363",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES612M0121365",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cortadura.Cadiz.%20%287097299287%29.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

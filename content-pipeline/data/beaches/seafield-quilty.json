@@ -1,0 +1,30 @@
+{
+  "slug": "seafield-quilty",
+  "name": "SEAFIELD, QUILTY",
+  "centroid_lat": 52.8067,
+  "centroid_lng": -9.4936,
+  "country_code": "IE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IESHBWC070_0000_0350",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IESHBWC070_0000_0350",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

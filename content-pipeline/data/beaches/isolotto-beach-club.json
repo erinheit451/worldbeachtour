@@ -1,0 +1,58 @@
+{
+  "slug": "isolotto-beach-club",
+  "name": "Isolotto Beach Club",
+  "centroid_lat": 42.3860177,
+  "centroid_lng": 11.2083883,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1460728702",
+      "source_url": "https://www.openstreetmap.org/node/1460728702"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/12883527170",
+      "source_url": "https://www.openstreetmap.org/node/12883527170"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/176492645",
+      "source_url": "https://www.openstreetmap.org/way/176492645"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/818116942",
+      "source_url": "https://www.openstreetmap.org/way/818116942"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33332955",
+      "source_url": "https://www.wikidata.org/wiki/Q33332955"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009053016014",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009053016014",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

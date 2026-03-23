@@ -1,0 +1,24 @@
+{
+  "slug": "plaza-strzezona-molo-brzezno",
+  "name": "Plaża strzeżona \"Molo Brzeźno\"",
+  "centroid_lat": 54.4133784,
+  "centroid_lng": 18.6261585,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5811675954",
+      "source_url": "https://www.openstreetmap.org/node/5811675954"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": "interval"
+    }
+  }
+}

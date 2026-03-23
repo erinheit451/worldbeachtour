@@ -1,0 +1,35 @@
+{
+  "slug": "johnny-cay",
+  "name": "Johnny Cay",
+  "centroid_lat": 12.5994459,
+  "centroid_lng": -81.690344,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/169844998",
+      "source_url": "https://www.openstreetmap.org/way/169844998"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/169845001",
+      "source_url": "https://www.openstreetmap.org/way/169845001"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/169845003",
+      "source_url": "https://www.openstreetmap.org/way/169845003"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/2407184",
+      "source_url": "https://www.openstreetmap.org/relation/2407184"
+    }
+  ],
+  "attributes": {}
+}

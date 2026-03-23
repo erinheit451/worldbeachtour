@@ -1,0 +1,50 @@
+{
+  "slug": "ariete-b",
+  "name": "Ariete B",
+  "centroid_lat": 45.6314946,
+  "centroid_lng": 13.0454907,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5868353411",
+      "source_url": "https://www.openstreetmap.org/node/5868353411"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5868354053",
+      "source_url": "https://www.openstreetmap.org/node/5868354053"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5868354055",
+      "source_url": "https://www.openstreetmap.org/node/5868354055"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5868354899",
+      "source_url": "https://www.openstreetmap.org/node/5868354899"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5868354910",
+      "source_url": "https://www.openstreetmap.org/node/5868354910"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5868355096",
+      "source_url": "https://www.openstreetmap.org/node/5868355096"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true,
+      "access": "yes"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "praia-de-rebordelo-1",
+  "name": "Praia de Rebordelo",
+  "centroid_lat": 43.2248848,
+  "centroid_lng": -8.9667539,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/663866870",
+      "source_url": "https://www.openstreetmap.org/way/663866870"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q12398089",
+      "source_url": "https://www.wikidata.org/wiki/Q12398089"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES111M0142572",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES111M0142572",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20rebordelo.JPG"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "menowsee-furstenberg-ot-steinforde",
+  "name": "MENOWSEE, FÜRSTENBERG OT STEINFÖRDE",
+  "centroid_lat": 53.1881,
+  "centroid_lng": 13.0795,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/294743396",
+      "source_url": "https://www.openstreetmap.org/way/294743396"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBB_PR_0138",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBB_PR_0138",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": "unknown"
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

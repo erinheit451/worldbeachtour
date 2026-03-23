@@ -1,0 +1,30 @@
+{
+  "slug": "kokos",
+  "name": "Кокос",
+  "centroid_lat": 48.9903643,
+  "centroid_lng": 37.7436903,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5025594133",
+      "source_url": "https://www.openstreetmap.org/node/5025594133"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/228493200",
+      "source_url": "https://www.openstreetmap.org/way/228493200"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/800370943",
+      "source_url": "https://www.openstreetmap.org/way/800370943"
+    }
+  ],
+  "attributes": {}
+}

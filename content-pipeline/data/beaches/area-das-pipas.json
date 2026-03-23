@@ -1,0 +1,40 @@
+{
+  "slug": "area-das-pipas",
+  "name": "Area das Pipas",
+  "centroid_lat": 42.481311,
+  "centroid_lng": -8.8943507,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/239164203",
+      "source_url": "https://www.openstreetmap.org/way/239164203"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/653715594",
+      "source_url": "https://www.openstreetmap.org/way/653715594"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES114M022337",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES114M022337",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

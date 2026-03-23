@@ -1,0 +1,55 @@
+{
+  "slug": "plaza-trstevica",
+  "name": "Plaža Trstevica",
+  "centroid_lat": 43.7287602,
+  "centroid_lng": 15.7889709,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/40637613",
+      "source_url": "https://www.openstreetmap.org/way/40637613"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/209613464",
+      "source_url": "https://www.openstreetmap.org/way/209613464"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/360416186",
+      "source_url": "https://www.openstreetmap.org/way/360416186"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/372213566",
+      "source_url": "https://www.openstreetmap.org/way/372213566"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/816605798",
+      "source_url": "https://www.openstreetmap.org/way/816605798"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-3063",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-3063",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

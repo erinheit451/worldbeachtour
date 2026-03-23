@@ -1,0 +1,29 @@
+{
+  "slug": "playa-islita",
+  "name": "Playa Islita",
+  "centroid_lat": 9.8507412,
+  "centroid_lng": -85.3997266,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/469277426",
+      "source_url": "https://www.openstreetmap.org/way/469277426"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23740116",
+      "source_url": "https://www.wikidata.org/wiki/Q23740116"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Guanacaste%20Province%2C%20Punta%20Islita%2C%20Costa%20Rica%20-%20panoramio%20%2879%29.jpg"
+    }
+  }
+}

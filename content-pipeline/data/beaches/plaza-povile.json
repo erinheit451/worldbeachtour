@@ -1,0 +1,73 @@
+{
+  "slug": "plaza-povile",
+  "name": "Plaža Povile",
+  "centroid_lat": 45.1155008,
+  "centroid_lng": 14.8179816,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1303832971",
+      "source_url": "https://www.openstreetmap.org/way/1303832971"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1303832977",
+      "source_url": "https://www.openstreetmap.org/way/1303832977"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1303832978",
+      "source_url": "https://www.openstreetmap.org/way/1303832978"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1303832979",
+      "source_url": "https://www.openstreetmap.org/way/1303832979"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1305511674",
+      "source_url": "https://www.openstreetmap.org/way/1305511674"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1374141760",
+      "source_url": "https://www.openstreetmap.org/way/1374141760"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6241",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6241",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

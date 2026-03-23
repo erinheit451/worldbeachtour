@@ -1,0 +1,35 @@
+{
+  "slug": "kapielisko-na-zbiorniku-zalew-krasnicki",
+  "name": "KĄPIELISKO NA ZBIORNIKU ZALEW KRAŚNICKI",
+  "centroid_lat": 50.9433,
+  "centroid_lng": 22.1924,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/25594086",
+      "source_url": "https://www.openstreetmap.org/way/25594086"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL3130701106000022",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL3130701106000022",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

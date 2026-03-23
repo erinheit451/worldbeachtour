@@ -1,0 +1,30 @@
+{
+  "slug": "watergate-beach",
+  "name": "Watergate Beach",
+  "centroid_lat": 50.4446234,
+  "centroid_lng": -5.0465166,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1015688",
+      "source_url": "https://www.openstreetmap.org/relation/1015688"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7974111",
+      "source_url": "https://www.wikidata.org/wiki/Q7974111"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Horse%20Rock%2C%20Watergate%20Beach%20-%20geograph.org.uk%20-%20936694.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Watergate_Beach"
+    }
+  }
+}

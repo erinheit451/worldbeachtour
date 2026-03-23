@@ -1,0 +1,39 @@
+{
+  "slug": "porto-ferro",
+  "name": "Porto Ferro",
+  "centroid_lat": 40.6896395,
+  "centroid_lng": 8.2000238,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/118924689",
+      "source_url": "https://www.openstreetmap.org/way/118924689"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/293294514",
+      "source_url": "https://www.openstreetmap.org/way/293294514"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/293294516",
+      "source_url": "https://www.openstreetmap.org/way/293294516"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/293294517",
+      "source_url": "https://www.openstreetmap.org/way/293294517"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "designated"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "lagoufa",
+  "name": "LAGOUFA",
+  "centroid_lat": 35.0377,
+  "centroid_lng": 25.986,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/279354010",
+      "source_url": "https://www.openstreetmap.org/way/279354010"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/890160681",
+      "source_url": "https://www.openstreetmap.org/way/890160681"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/890162991",
+      "source_url": "https://www.openstreetmap.org/way/890162991"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/890184012",
+      "source_url": "https://www.openstreetmap.org/way/890184012"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/890184013",
+      "source_url": "https://www.openstreetmap.org/way/890184013"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25164009",
+      "source_url": "https://www.wikidata.org/wiki/Q25164009"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139311048101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139311048101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

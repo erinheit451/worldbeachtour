@@ -1,0 +1,38 @@
+{
+  "slug": "praia-da-franquia",
+  "name": "Praia da Franquia",
+  "centroid_lat": 37.7218238,
+  "centroid_lng": -8.7861775,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/185659906",
+      "source_url": "https://www.openstreetmap.org/way/185659906"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCP3F",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCP3F",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Transitional"
+    }
+  }
+}

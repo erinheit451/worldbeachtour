@@ -1,0 +1,24 @@
+{
+  "slug": "spiaggia-attrezzata-per-disabili",
+  "name": "Spiaggia Attrezzata per disabili",
+  "centroid_lat": 38.1754346,
+  "centroid_lng": 12.7410242,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/244964274",
+      "source_url": "https://www.openstreetmap.org/way/244964274"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true
+    }
+  }
+}

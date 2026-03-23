@@ -1,0 +1,43 @@
+{
+  "slug": "strandbad-forster",
+  "name": "Strandbad Forster",
+  "centroid_lat": 48.0547677,
+  "centroid_lng": 11.1018423,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/309660897",
+      "source_url": "https://www.openstreetmap.org/way/309660897"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/874421044",
+      "source_url": "https://www.openstreetmap.org/way/874421044"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_LL_0217",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBY_PR_LL_0217",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "cala-civette",
+  "name": "Cala Civette",
+  "centroid_lat": 42.847418262,
+  "centroid_lng": 10.775793116,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/11358500",
+      "source_url": "https://www.openstreetmap.org/relation/11358500"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33325734",
+      "source_url": "https://www.wikidata.org/wiki/Q33325734"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20Civette%2C%20Scarlino1.jpg"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "plage-des-blancs-sablons",
+  "name": "Plage des Blancs Sablons",
+  "centroid_lat": 48.3707585,
+  "centroid_lng": -4.7705215,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/134893086",
+      "source_url": "https://www.openstreetmap.org/way/134893086"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322715",
+      "source_url": "https://www.wikidata.org/wiki/Q49322715"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229040M029471",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229040M029471",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plage%20des%20Blancs%20Sablons%20%28juillet%202015%29.JPG"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

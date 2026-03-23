@@ -1,0 +1,39 @@
+{
+  "slug": "puerto-rico-beach",
+  "name": "Puerto Rico Beach",
+  "centroid_lat": 39.7671378,
+  "centroid_lng": 19.9935618,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/719397234",
+      "source_url": "https://www.openstreetmap.org/way/719397234"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/833440091",
+      "source_url": "https://www.openstreetmap.org/way/833440091"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false,
+      "access": "customers"
+    },
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

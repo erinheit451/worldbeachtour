@@ -1,0 +1,33 @@
+{
+  "slug": "playa-bahia-de-cata",
+  "name": "Playa Bahía de Cata",
+  "centroid_lat": 10.4944367,
+  "centroid_lng": -67.7407726,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/261421490",
+      "source_url": "https://www.openstreetmap.org/way/261421490"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q5716504",
+      "source_url": "https://www.wikidata.org/wiki/Q5716504"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cata%2C%20Aragua%201.JPG",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bah%C3%ADa_de_Cata"
+    }
+  }
+}

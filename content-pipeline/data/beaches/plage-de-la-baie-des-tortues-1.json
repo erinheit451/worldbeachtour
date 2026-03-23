@@ -1,0 +1,29 @@
+{
+  "slug": "plage-de-la-baie-des-tortues-1",
+  "name": "Plage de La Baie des Tortues",
+  "centroid_lat": -21.6067922,
+  "centroid_lng": 165.4546907,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/73518091",
+      "source_url": "https://www.openstreetmap.org/way/73518091"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q2879767",
+      "source_url": "https://www.wikidata.org/wiki/Q2879767"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Tunnel%20baie%20tortues.jpg"
+    }
+  }
+}

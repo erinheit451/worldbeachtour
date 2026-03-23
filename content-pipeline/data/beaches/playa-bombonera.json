@@ -1,0 +1,68 @@
+{
+  "slug": "playa-bombonera",
+  "name": "Playa Bombonera",
+  "centroid_lat": 42.4079092,
+  "centroid_lng": 11.2090695,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5768319707",
+      "source_url": "https://www.openstreetmap.org/node/5768319707"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5768319708",
+      "source_url": "https://www.openstreetmap.org/node/5768319708"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5768319709",
+      "source_url": "https://www.openstreetmap.org/node/5768319709"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5768319710",
+      "source_url": "https://www.openstreetmap.org/node/5768319710"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5768319711",
+      "source_url": "https://www.openstreetmap.org/node/5768319711"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5768319712",
+      "source_url": "https://www.openstreetmap.org/node/5768319712"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320235",
+      "source_url": "https://www.wikidata.org/wiki/Q49320235"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009053016017",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009053016017",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

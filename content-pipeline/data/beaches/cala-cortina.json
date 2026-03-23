@@ -1,0 +1,48 @@
+{
+  "slug": "cala-cortina",
+  "name": "Cala Cortina",
+  "centroid_lat": 37.5811504,
+  "centroid_lng": -0.9752078,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/36894302",
+      "source_url": "https://www.openstreetmap.org/way/36894302"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/56061856",
+      "source_url": "https://www.openstreetmap.org/way/56061856"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q5739570",
+      "source_url": "https://www.wikidata.org/wiki/Q5739570"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES620M0161617",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES620M0161617",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20Cortina.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

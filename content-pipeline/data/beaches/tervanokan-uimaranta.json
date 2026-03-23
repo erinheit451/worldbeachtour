@@ -1,0 +1,46 @@
+{
+  "slug": "tervanokan-uimaranta",
+  "name": "Tervanokan uimaranta",
+  "centroid_lat": 60.4637648,
+  "centroid_lng": 25.0812816,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/269102559",
+      "source_url": "https://www.openstreetmap.org/node/269102559"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1096376775",
+      "source_url": "https://www.openstreetmap.org/way/1096376775"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI181186001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI181186001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

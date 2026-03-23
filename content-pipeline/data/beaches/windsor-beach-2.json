@@ -1,0 +1,25 @@
+{
+  "slug": "windsor-beach-2",
+  "name": "Windsor Beach",
+  "centroid_lat": 32.33444,
+  "centroid_lng": -64.68167,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/75531536",
+      "source_url": "https://www.openstreetmap.org/way/75531536"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21790337",
+      "source_url": "https://www.wikidata.org/wiki/Q21790337"
+    }
+  ],
+  "attributes": {}
+}

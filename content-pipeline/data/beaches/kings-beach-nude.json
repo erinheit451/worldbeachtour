@@ -1,0 +1,27 @@
+{
+  "slug": "kings-beach-nude",
+  "name": "Kings Beach (Nude)",
+  "centroid_lat": -28.7092,
+  "centroid_lng": 153.617841,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2580683",
+      "source_url": "https://www.openstreetmap.org/relation/2580683"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

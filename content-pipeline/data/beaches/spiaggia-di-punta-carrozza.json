@@ -1,0 +1,30 @@
+{
+  "slug": "spiaggia-di-punta-carrozza",
+  "name": "Spiaggia di Punta Carrozza",
+  "centroid_lat": 37.0403096,
+  "centroid_lng": 15.2978239,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/289908848",
+      "source_url": "https://www.openstreetmap.org/way/289908848"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited"
+    },
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

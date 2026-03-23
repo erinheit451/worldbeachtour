@@ -1,0 +1,45 @@
+{
+  "slug": "plage-des-granges",
+  "name": "Plage des Granges",
+  "centroid_lat": 47.5159416,
+  "centroid_lng": -2.4848928,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/144977256",
+      "source_url": "https://www.openstreetmap.org/way/144977256"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/665163180",
+      "source_url": "https://www.openstreetmap.org/way/665163180"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q116979598",
+      "source_url": "https://www.wikidata.org/wiki/Q116979598"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0456018M056525",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0456018M056525",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

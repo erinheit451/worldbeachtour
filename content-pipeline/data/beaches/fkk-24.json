@@ -1,0 +1,56 @@
+{
+  "slug": "fkk-24",
+  "name": "FKK",
+  "centroid_lat": 53.771724,
+  "centroid_lng": 13.973937,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10984835798",
+      "source_url": "https://www.openstreetmap.org/node/10984835798"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/12992241930",
+      "source_url": "https://www.openstreetmap.org/node/12992241930"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/52769316",
+      "source_url": "https://www.openstreetmap.org/way/52769316"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q136759623",
+      "source_url": "https://www.wikidata.org/wiki/Q136759623"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEMV_PR_1_0626",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEMV_PR_1_0626",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Pl%C3%A1%C5%BE%2C%20M%C3%B6nkebude%2C%20spolek%20obc%C3%AD%20Am%20Stettiner%20Haff%2C%20Zemsk%C3%BD%20okres%20P%C5%99edn%C3%AD%20Pomo%C5%99ansko-Greifswald.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

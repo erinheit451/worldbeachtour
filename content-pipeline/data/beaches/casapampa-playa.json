@@ -1,0 +1,24 @@
+{
+  "slug": "casapampa-playa",
+  "name": "Casapampa Playa",
+  "centroid_lat": -38.1758868,
+  "centroid_lng": -57.6451915,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/326398607",
+      "source_url": "https://www.openstreetmap.org/way/326398607"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

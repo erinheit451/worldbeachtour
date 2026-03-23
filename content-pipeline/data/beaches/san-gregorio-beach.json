@@ -1,0 +1,35 @@
+{
+  "slug": "san-gregorio-beach",
+  "name": "San Gregorio Beach",
+  "centroid_lat": 37.3226295,
+  "centroid_lng": -122.403734,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/358774548",
+      "source_url": "https://www.openstreetmap.org/node/358774548"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/37022558",
+      "source_url": "https://www.openstreetmap.org/way/37022558"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324581",
+      "source_url": "https://www.wikidata.org/wiki/Q49324581"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/San%20Gregorio%20State%20Park%20-%20panoramio.jpg"
+    }
+  }
+}

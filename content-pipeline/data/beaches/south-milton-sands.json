@@ -1,0 +1,29 @@
+{
+  "slug": "south-milton-sands",
+  "name": "South Milton Sands",
+  "centroid_lat": 50.2596794,
+  "centroid_lng": -3.8585885,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/165095249",
+      "source_url": "https://www.openstreetmap.org/way/165095249"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31844930",
+      "source_url": "https://www.wikidata.org/wiki/Q31844930"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Thurlestone%20Sand%20%28geograph%205028172%29.jpg"
+    }
+  }
+}

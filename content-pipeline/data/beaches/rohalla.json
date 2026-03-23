@@ -1,0 +1,25 @@
+{
+  "slug": "rohalla",
+  "name": "Röhälla",
+  "centroid_lat": 58.3602663,
+  "centroid_lng": 11.4483336,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/10229077",
+      "source_url": "https://www.openstreetmap.org/relation/10229077"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/10229078",
+      "source_url": "https://www.openstreetmap.org/relation/10229078"
+    }
+  ],
+  "attributes": {}
+}

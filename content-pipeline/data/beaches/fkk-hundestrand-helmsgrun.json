@@ -1,0 +1,28 @@
+{
+  "slug": "fkk-hundestrand-helmsgrun",
+  "name": "FKK-Hundestrand Helmsgrün",
+  "centroid_lat": 50.5452735,
+  "centroid_lng": 12.2077842,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/222016587",
+      "source_url": "https://www.openstreetmap.org/way/222016587"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true,
+      "nudist": "designated"
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "plage-la-gougouline",
+  "name": "Plage La Gougouline",
+  "centroid_lat": 43.6559225,
+  "centroid_lng": 7.1733508,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/531538533",
+      "source_url": "https://www.openstreetmap.org/node/531538533"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/12124062132",
+      "source_url": "https://www.openstreetmap.org/node/12124062132"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1066905434",
+      "source_url": "https://www.openstreetmap.org/way/1066905434"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1066905437",
+      "source_url": "https://www.openstreetmap.org/way/1066905437"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1066905438",
+      "source_url": "https://www.openstreetmap.org/way/1066905438"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q129211867",
+      "source_url": "https://www.wikidata.org/wiki/Q129211867"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q129211869",
+      "source_url": "https://www.wikidata.org/wiki/Q129211869"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306123M006390",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306027M006385",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306123M006390",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306027M006385",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true
+    },
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

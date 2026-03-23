@@ -1,0 +1,42 @@
+{
+  "slug": "szigetcsucs",
+  "name": "Szigetcsúcs",
+  "centroid_lat": 47.8060204,
+  "centroid_lng": 18.9856051,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/293151973",
+      "source_url": "https://www.openstreetmap.org/way/293151973"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/476953445",
+      "source_url": "https://www.openstreetmap.org/way/476953445"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/476953446",
+      "source_url": "https://www.openstreetmap.org/way/476953446"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/694648894",
+      "source_url": "https://www.openstreetmap.org/way/694648894"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "badestrand-fur-alle",
+  "name": "Badestrand für Alle",
+  "centroid_lat": 52.454429,
+  "centroid_lng": 13.239586,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/60121957",
+      "source_url": "https://www.openstreetmap.org/way/60121957"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/229733060",
+      "source_url": "https://www.openstreetmap.org/way/229733060"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/594713678",
+      "source_url": "https://www.openstreetmap.org/way/594713678"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/599447461",
+      "source_url": "https://www.openstreetmap.org/way/599447461"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/599447462",
+      "source_url": "https://www.openstreetmap.org/way/599447462"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBE_PR_0023",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBE_PR_0023",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

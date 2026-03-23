@@ -1,0 +1,27 @@
+{
+  "slug": "rosendahlinranta",
+  "name": "Rosendahlinranta",
+  "centroid_lat": 61.4913078,
+  "centroid_lng": 23.7351529,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/44845115",
+      "source_url": "https://www.openstreetmap.org/way/44845115"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

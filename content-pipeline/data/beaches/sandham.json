@@ -1,0 +1,25 @@
+{
+  "slug": "sandham",
+  "name": "Sandham",
+  "centroid_lat": 55.6858559,
+  "centroid_lng": -1.7877788,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/140642520",
+      "source_url": "https://www.openstreetmap.org/way/140642520"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/332445220",
+      "source_url": "https://www.openstreetmap.org/way/332445220"
+    }
+  ],
+  "attributes": {}
+}

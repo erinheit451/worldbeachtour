@@ -1,0 +1,78 @@
+{
+  "slug": "praia-rf",
+  "name": "Praia RF",
+  "centroid_lat": 37.1162189,
+  "centroid_lng": -8.5742769,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1245711162",
+      "source_url": "https://www.openstreetmap.org/way/1245711162"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1245711165",
+      "source_url": "https://www.openstreetmap.org/way/1245711165"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1245711168",
+      "source_url": "https://www.openstreetmap.org/way/1245711168"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1245711193",
+      "source_url": "https://www.openstreetmap.org/way/1245711193"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1326145037",
+      "source_url": "https://www.openstreetmap.org/way/1326145037"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1326145038",
+      "source_url": "https://www.openstreetmap.org/way/1326145038"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1326145039",
+      "source_url": "https://www.openstreetmap.org/way/1326145039"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324286",
+      "source_url": "https://www.wikidata.org/wiki/Q49324286"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCH9L",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCH9L",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20dos%20Tr%C3%AAs%20Irm%C3%A3os%20-%20Portugal%20%284793272312%29.jpg"
+    },
+    "environment": {
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

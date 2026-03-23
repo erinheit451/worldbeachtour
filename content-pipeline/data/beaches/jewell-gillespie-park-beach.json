@@ -1,0 +1,29 @@
+{
+  "slug": "jewell-gillespie-park-beach",
+  "name": "Jewell Gillespie Park Beach",
+  "centroid_lat": 45.7449625,
+  "centroid_lng": -85.5206324,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/265467751",
+      "source_url": "https://www.openstreetmap.org/way/265467751"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/503569354",
+      "source_url": "https://www.openstreetmap.org/way/503569354"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

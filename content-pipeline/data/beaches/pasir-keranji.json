@@ -1,0 +1,35 @@
+{
+  "slug": "pasir-keranji",
+  "name": "Pasir Keranji",
+  "centroid_lat": 5.8994351,
+  "centroid_lng": 102.7151413,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/6390462",
+      "source_url": "https://www.openstreetmap.org/relation/6390462"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/6390479",
+      "source_url": "https://www.openstreetmap.org/relation/6390479"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33328959",
+      "source_url": "https://www.wikidata.org/wiki/Q33328959"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33329003",
+      "source_url": "https://www.wikidata.org/wiki/Q33329003"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "quarry-beach-1",
+  "name": "Quarry Beach",
+  "centroid_lat": 37.8597408,
+  "centroid_lng": -122.4204437,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/340683909",
+      "source_url": "https://www.openstreetmap.org/way/340683909"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324450",
+      "source_url": "https://www.wikidata.org/wiki/Q49324450"
+    }
+  ],
+  "attributes": {}
+}

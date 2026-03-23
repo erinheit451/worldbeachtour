@@ -1,0 +1,29 @@
+{
+  "slug": "dodanduwa-beach-i",
+  "name": "Dodanduwa Beach I",
+  "centroid_lat": 6.1058455,
+  "centroid_lng": 80.1247451,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1153243888",
+      "source_url": "https://www.openstreetmap.org/way/1153243888"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1154507101",
+      "source_url": "https://www.openstreetmap.org/way/1154507101"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

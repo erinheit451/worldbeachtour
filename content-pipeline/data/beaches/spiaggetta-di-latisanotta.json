@@ -1,0 +1,29 @@
+{
+  "slug": "spiaggetta-di-latisanotta",
+  "name": "Spiaggetta di Latisanotta",
+  "centroid_lat": 45.785796,
+  "centroid_lng": 12.9804374,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/511235925",
+      "source_url": "https://www.openstreetmap.org/way/511235925"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/511235926",
+      "source_url": "https://www.openstreetmap.org/way/511235926"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

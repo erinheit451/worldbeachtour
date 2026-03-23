@@ -1,0 +1,44 @@
+{
+  "slug": "la-cachucha",
+  "name": "La Cachucha",
+  "centroid_lat": 36.5251109,
+  "centroid_lng": -6.1842741,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/23963663",
+      "source_url": "https://www.openstreetmap.org/way/23963663"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q3277360",
+      "source_url": "https://www.wikidata.org/wiki/Q3277360"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES612M0281394",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES612M0281394",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/PuertoReal.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/La_Cachucha_beach"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Transitional"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "number-sixteen-beach",
+  "name": "Number Sixteen Beach",
+  "centroid_lat": -38.3936495,
+  "centroid_lng": 144.7911433,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/248402423",
+      "source_url": "https://www.openstreetmap.org/way/248402423"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21955843",
+      "source_url": "https://www.wikidata.org/wiki/Q21955843"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

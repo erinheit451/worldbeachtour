@@ -1,0 +1,76 @@
+{
+  "slug": "paralia-ritsa-2e",
+  "name": "Παραλία Ριτσά 2η",
+  "centroid_lat": 36.8926513,
+  "centroid_lng": 22.2271705,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/296388568",
+      "source_url": "https://www.openstreetmap.org/way/296388568"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/296388569",
+      "source_url": "https://www.openstreetmap.org/way/296388569"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/296388571",
+      "source_url": "https://www.openstreetmap.org/way/296388571"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/818746876",
+      "source_url": "https://www.openstreetmap.org/way/818746876"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/818746877",
+      "source_url": "https://www.openstreetmap.org/way/818746877"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/818747675",
+      "source_url": "https://www.openstreetmap.org/way/818747675"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/11229361",
+      "source_url": "https://www.openstreetmap.org/relation/11229361"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25162388",
+      "source_url": "https://www.wikidata.org/wiki/Q25162388"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW019253010101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW019253010101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "social": {
+      "nudist": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "plage-de-butin",
+  "name": "Plage de Butin",
+  "centroid_lat": 49.4197131,
+  "centroid_lng": 0.1962554,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/624113097",
+      "source_url": "https://www.openstreetmap.org/way/624113097"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

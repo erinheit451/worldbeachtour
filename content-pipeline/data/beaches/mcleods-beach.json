@@ -1,0 +1,30 @@
+{
+  "slug": "mcleods-beach",
+  "name": "McLeods Beach",
+  "centroid_lat": 45.2630961,
+  "centroid_lng": -65.7848948,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1496826350",
+      "source_url": "https://www.openstreetmap.org/node/1496826350"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/677527572",
+      "source_url": "https://www.openstreetmap.org/way/677527572"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22483255",
+      "source_url": "https://www.wikidata.org/wiki/Q22483255"
+    }
+  ],
+  "attributes": {}
+}

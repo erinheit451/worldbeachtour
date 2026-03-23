@@ -1,0 +1,44 @@
+{
+  "slug": "playa-sur-balneario-san-jose",
+  "name": "Playa Sur Balneario San José",
+  "centroid_lat": -32.1936912,
+  "centroid_lng": -58.1569454,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1134197329",
+      "source_url": "https://www.openstreetmap.org/way/1134197329"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1134197346",
+      "source_url": "https://www.openstreetmap.org/way/1134197346"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1134197348",
+      "source_url": "https://www.openstreetmap.org/way/1134197348"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false,
+      "restrooms": true,
+      "showers": true,
+      "drinking_water": true,
+      "fee_required": true
+    },
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

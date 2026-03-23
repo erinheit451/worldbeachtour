@@ -1,0 +1,53 @@
+{
+  "slug": "playa-de-la-carihuela",
+  "name": "Playa de la Carihuela",
+  "centroid_lat": 36.6072809,
+  "centroid_lng": -4.5043563,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/42432416",
+      "source_url": "https://www.openstreetmap.org/way/42432416"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6078784",
+      "source_url": "https://www.wikidata.org/wiki/Q6078784"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617M9011589",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617M9011588",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617M9011589",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617M9011588",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/La%20Carihuela.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "la-tranquera",
+  "name": "La Tranquera",
+  "centroid_lat": -46.0257983,
+  "centroid_lng": -67.5978577,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12580308227",
+      "source_url": "https://www.openstreetmap.org/node/12580308227"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6078429",
+      "source_url": "https://www.wikidata.org/wiki/Q6078429"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Vista%20Playa%20La%20Tranquera.jpg"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "frosjo-strand",
+  "name": "Frösjö Strand",
+  "centroid_lat": 59.0510856,
+  "centroid_lng": 17.3089893,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/862512207",
+      "source_url": "https://www.openstreetmap.org/way/862512207"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true,
+      "access": "yes"
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

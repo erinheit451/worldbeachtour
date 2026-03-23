@@ -1,0 +1,29 @@
+{
+  "slug": "echo-beach",
+  "name": "Echo Beach",
+  "centroid_lat": 43.6293781,
+  "centroid_lng": -79.4115994,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/888543651",
+      "source_url": "https://www.openstreetmap.org/way/888543651"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/889034447",
+      "source_url": "https://www.openstreetmap.org/way/889034447"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "no"
+    }
+  }
+}

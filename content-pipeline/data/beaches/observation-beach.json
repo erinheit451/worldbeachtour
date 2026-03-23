@@ -1,0 +1,25 @@
+{
+  "slug": "observation-beach",
+  "name": "Observation Beach",
+  "centroid_lat": -40.9663382,
+  "centroid_lng": 173.0522742,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/351560558",
+      "source_url": "https://www.openstreetmap.org/way/351560558"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q32301931",
+      "source_url": "https://www.wikidata.org/wiki/Q32301931"
+    }
+  ],
+  "attributes": {}
+}

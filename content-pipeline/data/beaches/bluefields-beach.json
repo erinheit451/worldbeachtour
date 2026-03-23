@@ -1,0 +1,30 @@
+{
+  "slug": "bluefields-beach",
+  "name": "Bluefields Beach",
+  "centroid_lat": 18.1729927,
+  "centroid_lng": -78.0313191,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/318741194",
+      "source_url": "https://www.openstreetmap.org/way/318741194"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q4930307",
+      "source_url": "https://www.wikidata.org/wiki/Q4930307"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bluefields%20Beach%2C%20Jamaica.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bluefields_Beach"
+    }
+  }
+}

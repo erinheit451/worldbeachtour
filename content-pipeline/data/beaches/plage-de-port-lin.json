@@ -1,0 +1,51 @@
+{
+  "slug": "plage-de-port-lin",
+  "name": "Plage de Port-Lin",
+  "centroid_lat": 47.2836963,
+  "centroid_lng": -2.5131361,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/341801922",
+      "source_url": "https://www.openstreetmap.org/way/341801922"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/623417496",
+      "source_url": "https://www.openstreetmap.org/way/623417496"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21552927",
+      "source_url": "https://www.wikidata.org/wiki/Q21552927"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0144049M044180",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0144049M044180",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plage%20de%20Port%20Lin%2001.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

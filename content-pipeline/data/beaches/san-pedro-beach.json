@@ -1,0 +1,29 @@
+{
+  "slug": "san-pedro-beach",
+  "name": "San Pedro Beach",
+  "centroid_lat": 37.5982705,
+  "centroid_lng": -122.5027538,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/358823548",
+      "source_url": "https://www.openstreetmap.org/node/358823548"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324582",
+      "source_url": "https://www.wikidata.org/wiki/Q49324582"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Surfing%20at%20Pacifica.jpg"
+    }
+  }
+}

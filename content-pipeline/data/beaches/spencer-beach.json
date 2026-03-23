@@ -1,0 +1,25 @@
+{
+  "slug": "spencer-beach",
+  "name": "Spencer Beach",
+  "centroid_lat": 43.3694081,
+  "centroid_lng": -95.1611074,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/354345697",
+      "source_url": "https://www.openstreetmap.org/node/354345697"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33333360",
+      "source_url": "https://www.wikidata.org/wiki/Q33333360"
+    }
+  ],
+  "attributes": {}
+}

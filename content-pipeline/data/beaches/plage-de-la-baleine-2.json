@@ -1,0 +1,29 @@
+{
+  "slug": "plage-de-la-baleine-2",
+  "name": "Plage de la Baleine",
+  "centroid_lat": 43.3544948,
+  "centroid_lng": 3.6056852,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2224707",
+      "source_url": "https://www.openstreetmap.org/relation/2224707"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q125680234",
+      "source_url": "https://www.wikidata.org/wiki/Q125680234"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plage%20de%20la%20Baleine%2C%20S%C3%A8te%20-%20aerial%20view-0606.jpg"
+    }
+  }
+}

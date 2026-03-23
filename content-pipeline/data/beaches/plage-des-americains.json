@@ -1,0 +1,25 @@
+{
+  "slug": "plage-des-americains",
+  "name": "Plage des Américains",
+  "centroid_lat": 44.660273,
+  "centroid_lng": -1.2392151,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/827740317",
+      "source_url": "https://www.openstreetmap.org/node/827740317"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322708",
+      "source_url": "https://www.wikidata.org/wiki/Q49322708"
+    }
+  ],
+  "attributes": {}
+}

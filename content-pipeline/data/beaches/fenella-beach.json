@@ -1,0 +1,25 @@
+{
+  "slug": "fenella-beach",
+  "name": "Fenella Beach",
+  "centroid_lat": 54.225436,
+  "centroid_lng": -4.6990828,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/27173430",
+      "source_url": "https://www.openstreetmap.org/way/27173430"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/144946894",
+      "source_url": "https://www.openstreetmap.org/way/144946894"
+    }
+  ],
+  "attributes": {}
+}

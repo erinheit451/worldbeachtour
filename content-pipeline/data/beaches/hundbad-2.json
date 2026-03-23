@@ -1,0 +1,37 @@
+{
+  "slug": "hundbad-2",
+  "name": "Hundbad",
+  "centroid_lat": 57.1896549,
+  "centroid_lng": 14.0489584,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1419309118",
+      "source_url": "https://www.openstreetmap.org/way/1419309118"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14372393",
+      "source_url": "https://www.openstreetmap.org/relation/14372393"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/19415856",
+      "source_url": "https://www.openstreetmap.org/relation/19415856"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false
+    },
+    "social": {
+      "dog_friendly": "designated"
+    }
+  }
+}

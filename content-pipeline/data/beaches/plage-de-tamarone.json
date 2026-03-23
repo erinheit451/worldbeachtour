@@ -1,0 +1,29 @@
+{
+  "slug": "plage-de-tamarone",
+  "name": "Plage de Tamarone",
+  "centroid_lat": 42.9753342,
+  "centroid_lng": 9.4551572,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/610057934",
+      "source_url": "https://www.openstreetmap.org/way/610057934"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q123420060",
+      "source_url": "https://www.wikidata.org/wiki/Q123420060"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cap%20Corse%20-%20Tamarone%20beach-from%20Punta%20di%20a%20Coscia%20-%20panoramio.jpg"
+    }
+  }
+}

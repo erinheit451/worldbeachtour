@@ -1,0 +1,53 @@
+{
+  "slug": "plage-des-raisins-clairs",
+  "name": "Plage des Raisins Clairs",
+  "centroid_lat": 16.2469172,
+  "centroid_lng": -61.2864305,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9848179773",
+      "source_url": "https://www.openstreetmap.org/node/9848179773"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/54699667",
+      "source_url": "https://www.openstreetmap.org/way/54699667"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/392852268",
+      "source_url": "https://www.openstreetmap.org/way/392852268"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24854841",
+      "source_url": "https://www.wikidata.org/wiki/Q24854841"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRY1097125M971250",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRY1097125M971250",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plage%20des%20Raisins%20Clairs%20%C3%A0%20Saint-Fran%C3%A7ois.JPG"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

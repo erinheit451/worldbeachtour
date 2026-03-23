@@ -1,0 +1,50 @@
+{
+  "slug": "puntamika",
+  "name": "Puntamika",
+  "centroid_lat": 44.131678,
+  "centroid_lng": 15.2033949,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/114132761",
+      "source_url": "https://www.openstreetmap.org/way/114132761"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/362832744",
+      "source_url": "https://www.openstreetmap.org/way/362832744"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/373415120",
+      "source_url": "https://www.openstreetmap.org/way/373415120"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1307354737",
+      "source_url": "https://www.openstreetmap.org/way/1307354737"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-4208",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-4208",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

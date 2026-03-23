@@ -1,0 +1,42 @@
+{
+  "slug": "conca-d-oro",
+  "name": "Conca d'oro",
+  "centroid_lat": 43.87513,
+  "centroid_lng": 8.0189161,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7206890625",
+      "source_url": "https://www.openstreetmap.org/node/7206890625"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7206890626",
+      "source_url": "https://www.openstreetmap.org/node/7206890626"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7206890627",
+      "source_url": "https://www.openstreetmap.org/node/7206890627"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1396670409",
+      "source_url": "https://www.openstreetmap.org/way/1396670409"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true
+    },
+    "social": {
+      "dog_friendly": true
+    }
+  }
+}

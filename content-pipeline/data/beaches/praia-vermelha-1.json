@@ -1,0 +1,29 @@
+{
+  "slug": "praia-vermelha-1",
+  "name": "Praia Vermelha",
+  "centroid_lat": -22.9552293,
+  "centroid_lng": -43.1645324,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/15059191",
+      "source_url": "https://www.openstreetmap.org/way/15059191"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q203325",
+      "source_url": "https://www.wikidata.org/wiki/Q203325"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20Vermelha%20beach.jpg"
+    }
+  }
+}

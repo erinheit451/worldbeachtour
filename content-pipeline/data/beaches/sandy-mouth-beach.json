@@ -1,0 +1,30 @@
+{
+  "slug": "sandy-mouth-beach",
+  "name": "Sandy Mouth Beach",
+  "centroid_lat": 50.8614311,
+  "centroid_lng": -4.5568217,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9641492875",
+      "source_url": "https://www.openstreetmap.org/node/9641492875"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7417545",
+      "source_url": "https://www.wikidata.org/wiki/Q7417545"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Shipwreck%20remains%20at%20Menachurch%20Point%20-%20geograph.org.uk%20-%20404689.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sandymouth_Beach"
+    }
+  }
+}

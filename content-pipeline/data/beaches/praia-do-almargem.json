@@ -1,0 +1,55 @@
+{
+  "slug": "praia-do-almargem",
+  "name": "Praia do Almargem",
+  "centroid_lat": 37.0592709,
+  "centroid_lng": -8.0843702,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/655688259",
+      "source_url": "https://www.openstreetmap.org/way/655688259"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/655688261",
+      "source_url": "https://www.openstreetmap.org/way/655688261"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/935391643",
+      "source_url": "https://www.openstreetmap.org/way/935391643"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/935391644",
+      "source_url": "https://www.openstreetmap.org/way/935391644"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/935391645",
+      "source_url": "https://www.openstreetmap.org/way/935391645"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCQ2V",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCQ2V",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

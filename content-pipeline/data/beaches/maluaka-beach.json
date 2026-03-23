@@ -1,0 +1,29 @@
+{
+  "slug": "maluaka-beach",
+  "name": "Maluaka Beach",
+  "centroid_lat": 20.6468737,
+  "centroid_lng": -156.4430769,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/333016719",
+      "source_url": "https://www.openstreetmap.org/way/333016719"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49321953",
+      "source_url": "https://www.wikidata.org/wiki/Q49321953"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Maluaka%20Beach%20Maui%2C%20Hawaii%20%2845015858674%29.jpg"
+    }
+  }
+}

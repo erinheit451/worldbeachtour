@@ -1,0 +1,35 @@
+{
+  "slug": "oinila",
+  "name": "OINILA",
+  "centroid_lat": 60.4777,
+  "centroid_lng": 22.6912,
+  "country_code": "FI",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/161625370",
+      "source_url": "https://www.openstreetmap.org/way/161625370"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI121577001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI121577001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

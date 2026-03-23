@@ -1,0 +1,32 @@
+{
+  "slug": "akademicheskii",
+  "name": "Академический",
+  "centroid_lat": 44.8234933,
+  "centroid_lng": 35.0417157,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12179897206",
+      "source_url": "https://www.openstreetmap.org/node/12179897206"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8606698",
+      "source_url": "https://www.openstreetmap.org/relation/8606698"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

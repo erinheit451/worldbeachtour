@@ -1,0 +1,58 @@
+{
+  "slug": "hotel-beach-resort",
+  "name": "Hotel beach resort",
+  "centroid_lat": 40.0516429,
+  "centroid_lng": 23.4705133,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9237796743",
+      "source_url": "https://www.openstreetmap.org/node/9237796743"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/450400983",
+      "source_url": "https://www.openstreetmap.org/way/450400983"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/450401014",
+      "source_url": "https://www.openstreetmap.org/way/450401014"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25164456",
+      "source_url": "https://www.wikidata.org/wiki/Q25164456"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53629939",
+      "source_url": "https://www.wikidata.org/wiki/Q53629939"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109057050101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109057050101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

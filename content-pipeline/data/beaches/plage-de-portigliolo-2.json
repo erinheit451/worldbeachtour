@@ -1,0 +1,40 @@
+{
+  "slug": "plage-de-portigliolo-2",
+  "name": "PLAGE DE PORTIGLIOLO",
+  "centroid_lat": 41.79749,
+  "centroid_lng": 8.73909,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/664833176",
+      "source_url": "https://www.openstreetmap.org/way/664833176"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q123420007",
+      "source_url": "https://www.wikidata.org/wiki/Q123420007"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRM012A098M02A240",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRM012A098M02A240",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

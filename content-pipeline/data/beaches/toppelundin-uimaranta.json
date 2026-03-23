@@ -1,0 +1,32 @@
+{
+  "slug": "toppelundin-uimaranta",
+  "name": "Toppelundin uimaranta",
+  "centroid_lat": 60.1560276,
+  "centroid_lng": 24.7874948,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/121380980",
+      "source_url": "https://www.openstreetmap.org/way/121380980"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/868760982",
+      "source_url": "https://www.openstreetmap.org/way/868760982"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": "unleashed"
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

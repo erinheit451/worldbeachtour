@@ -1,0 +1,29 @@
+{
+  "slug": "playa-de-fatares",
+  "name": "Playa de Fatares",
+  "centroid_lat": 37.5794939,
+  "centroid_lng": -1.0327696,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/148054082",
+      "source_url": "https://www.openstreetmap.org/way/148054082"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6078747",
+      "source_url": "https://www.wikidata.org/wiki/Q6078747"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20Fatares.JPG"
+    }
+  }
+}

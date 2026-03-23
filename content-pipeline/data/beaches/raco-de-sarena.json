@@ -1,0 +1,29 @@
+{
+  "slug": "raco-de-sarena",
+  "name": "Racó de s’Arena",
+  "centroid_lat": 39.3577559,
+  "centroid_lng": 2.9145868,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/355545571",
+      "source_url": "https://www.openstreetmap.org/way/355545571"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q11919673",
+      "source_url": "https://www.wikidata.org/wiki/Q11919673"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Es%20Rac%C3%B3%20de%20s%27Arena.JPG"
+    }
+  }
+}

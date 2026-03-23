@@ -1,0 +1,40 @@
+{
+  "slug": "tower-road-beach",
+  "name": "Tower Road Beach",
+  "centroid_lat": 42.1168572,
+  "centroid_lng": -87.731539,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/3649542526",
+      "source_url": "https://www.openstreetmap.org/node/3649542526"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/184350082",
+      "source_url": "https://www.openstreetmap.org/way/184350082"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1197490793",
+      "source_url": "https://www.openstreetmap.org/way/1197490793"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    },
+    "facilities": {
+      "access": "private"
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

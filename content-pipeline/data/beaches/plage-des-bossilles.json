@@ -1,0 +1,35 @@
+{
+  "slug": "plage-des-bossilles",
+  "name": "Plage des Bossilles",
+  "centroid_lat": 46.7291714,
+  "centroid_lng": -2.3565635,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/4828954",
+      "source_url": "https://www.openstreetmap.org/relation/4828954"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0585113M085005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0585113M085005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "slug": "apollonia",
+  "name": "Apollonia",
+  "centroid_lat": 39.7723472,
+  "centroid_lng": 19.997558,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6641103061",
+      "source_url": "https://www.openstreetmap.org/node/6641103061"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/12876975996",
+      "source_url": "https://www.openstreetmap.org/node/12876975996"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676534889",
+      "source_url": "https://www.openstreetmap.org/way/676534889"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676536365",
+      "source_url": "https://www.openstreetmap.org/way/676536365"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676537273",
+      "source_url": "https://www.openstreetmap.org/way/676537273"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676538408",
+      "source_url": "https://www.openstreetmap.org/way/676538408"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676538410",
+      "source_url": "https://www.openstreetmap.org/way/676538410"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676538989",
+      "source_url": "https://www.openstreetmap.org/way/676538989"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676538990",
+      "source_url": "https://www.openstreetmap.org/way/676538990"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676539828",
+      "source_url": "https://www.openstreetmap.org/way/676539828"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676540771",
+      "source_url": "https://www.openstreetmap.org/way/676540771"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676540774",
+      "source_url": "https://www.openstreetmap.org/way/676540774"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676541751",
+      "source_url": "https://www.openstreetmap.org/way/676541751"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676541753",
+      "source_url": "https://www.openstreetmap.org/way/676541753"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676541755",
+      "source_url": "https://www.openstreetmap.org/way/676541755"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676541756",
+      "source_url": "https://www.openstreetmap.org/way/676541756"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676541758",
+      "source_url": "https://www.openstreetmap.org/way/676541758"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676541760",
+      "source_url": "https://www.openstreetmap.org/way/676541760"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676541761",
+      "source_url": "https://www.openstreetmap.org/way/676541761"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676542731",
+      "source_url": "https://www.openstreetmap.org/way/676542731"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676542732",
+      "source_url": "https://www.openstreetmap.org/way/676542732"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676542926",
+      "source_url": "https://www.openstreetmap.org/way/676542926"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676550903",
+      "source_url": "https://www.openstreetmap.org/way/676550903"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676550904",
+      "source_url": "https://www.openstreetmap.org/way/676550904"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676551181",
+      "source_url": "https://www.openstreetmap.org/way/676551181"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676554540",
+      "source_url": "https://www.openstreetmap.org/way/676554540"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/680380207",
+      "source_url": "https://www.openstreetmap.org/way/680380207"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/833440089",
+      "source_url": "https://www.openstreetmap.org/way/833440089"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "AL808",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "AL807",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "AL809",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "AL808",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "AL807",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "AL809",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "wheelchair_access": false,
+      "access": "customers"
+    },
+    "social": {
+      "nudist": false
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

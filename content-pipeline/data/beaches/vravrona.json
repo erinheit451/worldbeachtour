@@ -1,0 +1,60 @@
+{
+  "slug": "vravrona",
+  "name": "VRAVRONA",
+  "centroid_lat": 37.9287,
+  "centroid_lng": 24.0084,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/499179707",
+      "source_url": "https://www.openstreetmap.org/way/499179707"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/499179708",
+      "source_url": "https://www.openstreetmap.org/way/499179708"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/499179709",
+      "source_url": "https://www.openstreetmap.org/way/499179709"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/500126259",
+      "source_url": "https://www.openstreetmap.org/way/500126259"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/500126261",
+      "source_url": "https://www.openstreetmap.org/way/500126261"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/518046665",
+      "source_url": "https://www.openstreetmap.org/way/518046665"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW069221064101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW069221064101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

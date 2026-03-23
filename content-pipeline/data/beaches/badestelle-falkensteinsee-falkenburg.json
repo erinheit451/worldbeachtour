@@ -1,0 +1,48 @@
+{
+  "slug": "badestelle-falkensteinsee-falkenburg",
+  "name": "BADESTELLE FALKENSTEINSEE, FALKENBURG",
+  "centroid_lat": 53.0475,
+  "centroid_lng": 8.4664,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/695575538",
+      "source_url": "https://www.openstreetmap.org/way/695575538"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/977337724",
+      "source_url": "https://www.openstreetmap.org/way/977337724"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/977337726",
+      "source_url": "https://www.openstreetmap.org/way/977337726"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DENI_PR_TK25_2916_01",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DENI_PR_TK25_2916_01",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

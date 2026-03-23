@@ -1,0 +1,43 @@
+{
+  "slug": "playa-cala-estancia-pm1",
+  "name": "PLAYA CALA ESTÀNCIA PM1",
+  "centroid_lat": 39.5348,
+  "centroid_lng": 2.7125,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/162670108",
+      "source_url": "https://www.openstreetmap.org/way/162670108"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q11910836",
+      "source_url": "https://www.wikidata.org/wiki/Q11910836"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0401180",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0401180",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20Est%C3%A0ncia%20%28Palma%29%20-%2025.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

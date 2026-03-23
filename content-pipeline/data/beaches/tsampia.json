@@ -1,0 +1,29 @@
+{
+  "slug": "tsampia",
+  "name": "Τσαμπιά",
+  "centroid_lat": 37.5511425,
+  "centroid_lng": 25.1427076,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/265931888",
+      "source_url": "https://www.openstreetmap.org/way/265931888"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659806072",
+      "source_url": "https://www.openstreetmap.org/way/659806072"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

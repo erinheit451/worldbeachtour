@@ -1,0 +1,30 @@
+{
+  "slug": "main-beach-11",
+  "name": "Main Beach",
+  "centroid_lat": 33.5403067,
+  "centroid_lng": -117.785294,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/7099359",
+      "source_url": "https://www.openstreetmap.org/relation/7099359"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/7130374",
+      "source_url": "https://www.openstreetmap.org/relation/7130374"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49321923",
+      "source_url": "https://www.wikidata.org/wiki/Q49321923"
+    }
+  ],
+  "attributes": {}
+}

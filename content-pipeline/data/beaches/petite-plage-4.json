@@ -1,0 +1,35 @@
+{
+  "slug": "petite-plage-4",
+  "name": "Petite Plage",
+  "centroid_lat": 18.1095301,
+  "centroid_lng": -63.0531749,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/9565697",
+      "source_url": "https://www.openstreetmap.org/relation/9565697"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRY1097801M971416",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRY1097801M971416",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

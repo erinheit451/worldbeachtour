@@ -1,0 +1,25 @@
+{
+  "slug": "singleton-swash",
+  "name": "Singleton Swash",
+  "centroid_lat": 33.7554502,
+  "centroid_lng": -78.7944661,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357089680",
+      "source_url": "https://www.openstreetmap.org/node/357089680"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324780",
+      "source_url": "https://www.wikidata.org/wiki/Q49324780"
+    }
+  ],
+  "attributes": {}
+}

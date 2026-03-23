@@ -1,0 +1,25 @@
+{
+  "slug": "heddon-s-mouth",
+  "name": "Heddon's Mouth",
+  "centroid_lat": 51.2302702,
+  "centroid_lng": -3.929052,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1596780684",
+      "source_url": "https://www.openstreetmap.org/node/1596780684"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/777139564",
+      "source_url": "https://www.openstreetmap.org/way/777139564"
+    }
+  ],
+  "attributes": {}
+}

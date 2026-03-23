@@ -1,0 +1,25 @@
+{
+  "slug": "playa-perla",
+  "name": "Playa Perla",
+  "centroid_lat": 19.1007944,
+  "centroid_lng": -104.347069,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/8072002381",
+      "source_url": "https://www.openstreetmap.org/node/8072002381"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/377544024",
+      "source_url": "https://www.openstreetmap.org/way/377544024"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "fossan",
+  "name": "FOSSAN",
+  "centroid_lat": 43.77404,
+  "centroid_lng": 7.50338,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q123694308",
+      "source_url": "https://www.wikidata.org/wiki/Q123694308"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306083M006705",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306083M006705",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "praia-de-seselle",
+  "name": "Praia de Seselle",
+  "centroid_lat": 43.428262,
+  "centroid_lng": -8.2276687,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/26753532",
+      "source_url": "https://www.openstreetmap.org/way/26753532"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q61389914",
+      "source_url": "https://www.wikidata.org/wiki/Q61389914"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20Seselle%2C%20Ares%20-%20panoramio.jpg"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "plage-de-boudry",
+  "name": "Plage de Boudry",
+  "centroid_lat": 46.9485937,
+  "centroid_lng": 6.870707,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/41213636",
+      "source_url": "https://www.openstreetmap.org/way/41213636"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

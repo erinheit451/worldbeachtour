@@ -1,0 +1,29 @@
+{
+  "slug": "platja-de-llevant-9",
+  "name": "Platja de Llevant",
+  "centroid_lat": 41.240047,
+  "centroid_lng": 1.866304,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/10231136",
+      "source_url": "https://www.openstreetmap.org/relation/10231136"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q130389186",
+      "source_url": "https://www.wikidata.org/wiki/Q130389186"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platja%20de%20Llevant%2C%20Vallcarca%2C%20Sitges.jpg"
+    }
+  }
+}

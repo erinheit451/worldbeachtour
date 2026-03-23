@@ -1,0 +1,27 @@
+{
+  "slug": "incupes-nudistu-pludmale",
+  "name": "Inčupes nūdistu pludmale",
+  "centroid_lat": 57.2215505,
+  "centroid_lng": 24.3763953,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10048076962",
+      "source_url": "https://www.openstreetmap.org/node/10048076962"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

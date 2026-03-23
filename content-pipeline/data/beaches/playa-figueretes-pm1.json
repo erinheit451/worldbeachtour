@@ -1,0 +1,38 @@
+{
+  "slug": "playa-figueretes-pm1",
+  "name": "PLAYA FIGUERETES PM1",
+  "centroid_lat": 38.9043,
+  "centroid_lng": 1.4229,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q5650763",
+      "source_url": "https://www.wikidata.org/wiki/Q5650763"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES531M0261143",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES531M0261143",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ibiza%20%28440181714%29.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

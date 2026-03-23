@@ -1,0 +1,27 @@
+{
+  "slug": "zatonskii-pliazh",
+  "name": "Затонский пляж",
+  "centroid_lat": 51.5367382,
+  "centroid_lng": 46.0780316,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/11034305",
+      "source_url": "https://www.openstreetmap.org/relation/11034305"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

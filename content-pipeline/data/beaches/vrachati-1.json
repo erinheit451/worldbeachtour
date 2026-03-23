@@ -1,0 +1,90 @@
+{
+  "slug": "vrachati-1",
+  "name": "VRACHATI 1",
+  "centroid_lat": 37.9642,
+  "centroid_lng": 22.8038,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/102140455",
+      "source_url": "https://www.openstreetmap.org/way/102140455"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1118059986",
+      "source_url": "https://www.openstreetmap.org/way/1118059986"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1118059987",
+      "source_url": "https://www.openstreetmap.org/way/1118059987"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1118059988",
+      "source_url": "https://www.openstreetmap.org/way/1118059988"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1118059989",
+      "source_url": "https://www.openstreetmap.org/way/1118059989"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1118059990",
+      "source_url": "https://www.openstreetmap.org/way/1118059990"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1118159728",
+      "source_url": "https://www.openstreetmap.org/way/1118159728"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1118159729",
+      "source_url": "https://www.openstreetmap.org/way/1118159729"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1118159730",
+      "source_url": "https://www.openstreetmap.org/way/1118159730"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1118159733",
+      "source_url": "https://www.openstreetmap.org/way/1118159733"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1118159734",
+      "source_url": "https://www.openstreetmap.org/way/1118159734"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53632044",
+      "source_url": "https://www.wikidata.org/wiki/Q53632044"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW029242019101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW029242019101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "kapielisko-stawy-stefanskiego",
+  "name": "KĄPIELISKO STAWY STEFAŃSKIEGO",
+  "centroid_lat": 51.69641,
+  "centroid_lng": 19.43632,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/174341769",
+      "source_url": "https://www.openstreetmap.org/way/174341769"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/556758787",
+      "source_url": "https://www.openstreetmap.org/way/556758787"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL1136101110000008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL1136101110000008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "good",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

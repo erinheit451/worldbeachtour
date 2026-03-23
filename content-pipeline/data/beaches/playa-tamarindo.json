@@ -1,0 +1,32 @@
+{
+  "slug": "playa-tamarindo",
+  "name": "Playa Tamarindo",
+  "centroid_lat": 18.3181165,
+  "centroid_lng": -65.3181326,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/426917699",
+      "source_url": "https://www.openstreetmap.org/way/426917699"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q124635515",
+      "source_url": "https://www.wikidata.org/wiki/Q124635515"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/View%20of%20Cabo%22Luis%20Pe%C3%B1a%22from%20Tamarindo%20bay%20-%20panoramio.jpg"
+    }
+  }
+}

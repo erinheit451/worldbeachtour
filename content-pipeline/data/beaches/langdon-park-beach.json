@@ -1,0 +1,35 @@
+{
+  "slug": "langdon-park-beach",
+  "name": "Langdon Park Beach",
+  "centroid_lat": 42.0850556,
+  "centroid_lng": -87.696329,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/3649570023",
+      "source_url": "https://www.openstreetmap.org/node/3649570023"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/182282553",
+      "source_url": "https://www.openstreetmap.org/way/182282553"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "no"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "areana-charca",
+  "name": "AREANA CHARCA",
+  "centroid_lat": 20.58967,
+  "centroid_lng": -103.1322095,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1277634765",
+      "source_url": "https://www.openstreetmap.org/way/1277634765"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

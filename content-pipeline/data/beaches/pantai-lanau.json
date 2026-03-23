@@ -1,0 +1,24 @@
+{
+  "slug": "pantai-lanau",
+  "name": "Pantai Lanau",
+  "centroid_lat": -4.5145881,
+  "centroid_lng": 129.9442221,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/12172715",
+      "source_url": "https://www.openstreetmap.org/relation/12172715"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "strandvejen-strand",
+  "name": "STRANDVEJEN STRAND",
+  "centroid_lat": 55.33675,
+  "centroid_lng": 11.12749,
+  "country_code": "DK",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/721561713",
+      "source_url": "https://www.openstreetmap.org/way/721561713"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW1168",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW1168",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

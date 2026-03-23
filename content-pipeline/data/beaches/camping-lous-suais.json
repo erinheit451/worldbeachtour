@@ -1,0 +1,44 @@
+{
+  "slug": "camping-lous-suais",
+  "name": "CAMPING LOUS SUAIS",
+  "centroid_lat": 45.81698,
+  "centroid_lng": 1.6539,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/830299995",
+      "source_url": "https://www.openstreetmap.org/way/830299995"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI2387043D087052",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI2387043D087052",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    },
+    "facilities": {
+      "access": "customers"
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

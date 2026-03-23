@@ -1,0 +1,43 @@
+{
+  "slug": "playa-de-san-juan-de-la-canal",
+  "name": "Playa de San Juan de la Canal",
+  "centroid_lat": 43.4738476,
+  "centroid_lng": -3.8933335,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/38834953",
+      "source_url": "https://www.openstreetmap.org/way/38834953"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6078992",
+      "source_url": "https://www.wikidata.org/wiki/Q6078992"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES130M073557",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES130M073557",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/San%20Juan%20de%20la%20Canal%20Beach.JPG"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

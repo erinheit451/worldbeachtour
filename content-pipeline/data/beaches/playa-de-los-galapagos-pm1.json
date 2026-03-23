@@ -1,0 +1,44 @@
+{
+  "slug": "playa-de-los-galapagos-pm1",
+  "name": "PLAYA DE LOS GALÁPAGOS PM1",
+  "centroid_lat": 35.2948,
+  "centroid_lng": -2.9351,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/302024645",
+      "source_url": "https://www.openstreetmap.org/way/302024645"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q130437576",
+      "source_url": "https://www.wikidata.org/wiki/Q130437576"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES640M0011685",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES640M0011685",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20Tr%C3%A1pana%2C%20Melilla.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Trapana_Cove"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

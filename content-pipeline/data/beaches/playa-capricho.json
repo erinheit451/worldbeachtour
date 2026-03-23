@@ -1,0 +1,29 @@
+{
+  "slug": "playa-capricho",
+  "name": "Playa Capricho",
+  "centroid_lat": 21.6017916,
+  "centroid_lng": -81.5024791,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/319326494",
+      "source_url": "https://www.openstreetmap.org/way/319326494"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/319462896",
+      "source_url": "https://www.openstreetmap.org/way/319462896"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "permissive"
+    }
+  }
+}

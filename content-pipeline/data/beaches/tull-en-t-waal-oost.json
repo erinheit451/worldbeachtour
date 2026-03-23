@@ -1,0 +1,40 @@
+{
+  "slug": "tull-en-t-waal-oost",
+  "name": "TULL EN 'T WAAL OOST",
+  "centroid_lat": 51.99448,
+  "centroid_lng": 5.13907,
+  "country_code": "NL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/68808943",
+      "source_url": "https://www.openstreetmap.org/way/68808943"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/68810069",
+      "source_url": "https://www.openstreetmap.org/way/68810069"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW93_CLEKTULBO",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW93_CLEKTULBO",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

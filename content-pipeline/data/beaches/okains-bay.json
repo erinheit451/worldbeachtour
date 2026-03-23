@@ -1,0 +1,25 @@
+{
+  "slug": "okains-bay",
+  "name": "Okains Bay",
+  "centroid_lat": -43.6940076,
+  "centroid_lng": 173.0615436,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6925974014",
+      "source_url": "https://www.openstreetmap.org/node/6925974014"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/152273409",
+      "source_url": "https://www.openstreetmap.org/way/152273409"
+    }
+  ],
+  "attributes": {}
+}

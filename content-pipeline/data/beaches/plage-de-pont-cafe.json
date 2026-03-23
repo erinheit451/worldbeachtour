@@ -1,0 +1,30 @@
+{
+  "slug": "plage-de-pont-cafe",
+  "name": "Plage de Pont Café",
+  "centroid_lat": 14.4645882,
+  "centroid_lng": -60.9393543,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/483625191",
+      "source_url": "https://www.openstreetmap.org/way/483625191"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/664847069",
+      "source_url": "https://www.openstreetmap.org/way/664847069"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28952418",
+      "source_url": "https://www.wikidata.org/wiki/Q28952418"
+    }
+  ],
+  "attributes": {}
+}

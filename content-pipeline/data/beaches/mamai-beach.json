@@ -1,0 +1,30 @@
+{
+  "slug": "mamai-beach",
+  "name": "Mamai Beach",
+  "centroid_lat": 42.9059112,
+  "centroid_lng": 10.7766151,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6609253146",
+      "source_url": "https://www.openstreetmap.org/node/6609253146"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

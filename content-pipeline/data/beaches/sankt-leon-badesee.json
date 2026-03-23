@@ -1,0 +1,100 @@
+{
+  "slug": "sankt-leon-badesee",
+  "name": "SANKT LEON, BADESEE",
+  "centroid_lat": 49.2843,
+  "centroid_lng": 8.5875,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/143955809",
+      "source_url": "https://www.openstreetmap.org/way/143955809"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/143955815",
+      "source_url": "https://www.openstreetmap.org/way/143955815"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/143955819",
+      "source_url": "https://www.openstreetmap.org/way/143955819"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/143955820",
+      "source_url": "https://www.openstreetmap.org/way/143955820"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/143955821",
+      "source_url": "https://www.openstreetmap.org/way/143955821"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/143955823",
+      "source_url": "https://www.openstreetmap.org/way/143955823"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/143955824",
+      "source_url": "https://www.openstreetmap.org/way/143955824"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/143955825",
+      "source_url": "https://www.openstreetmap.org/way/143955825"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/143955829",
+      "source_url": "https://www.openstreetmap.org/way/143955829"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/143955830",
+      "source_url": "https://www.openstreetmap.org/way/143955830"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/143955834",
+      "source_url": "https://www.openstreetmap.org/way/143955834"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/143955835",
+      "source_url": "https://www.openstreetmap.org/way/143955835"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1169331730",
+      "source_url": "https://www.openstreetmap.org/way/1169331730"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1169331731",
+      "source_url": "https://www.openstreetmap.org/way/1169331731"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBW_PR_0285",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBW_PR_0285",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

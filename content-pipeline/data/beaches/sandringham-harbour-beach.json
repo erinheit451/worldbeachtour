@@ -1,0 +1,30 @@
+{
+  "slug": "sandringham-harbour-beach",
+  "name": "Sandringham Harbour Beach",
+  "centroid_lat": -37.9433425,
+  "centroid_lng": 144.9981003,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/178419277",
+      "source_url": "https://www.openstreetmap.org/way/178419277"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

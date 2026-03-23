@@ -1,0 +1,43 @@
+{
+  "slug": "ostsee-karlshagen-campingplatz",
+  "name": "OSTSEE, KARLSHAGEN, CAMPINGPLATZ",
+  "centroid_lat": 54.1111,
+  "centroid_lng": 13.8573,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/577585288",
+      "source_url": "https://www.openstreetmap.org/way/577585288"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/707456217",
+      "source_url": "https://www.openstreetmap.org/way/707456217"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEMV_PR_1_0702",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEMV_PR_1_0702",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

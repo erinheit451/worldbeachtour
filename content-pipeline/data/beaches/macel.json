@@ -1,0 +1,24 @@
+{
+  "slug": "macel",
+  "name": "Macel",
+  "centroid_lat": 44.9689893,
+  "centroid_lng": 14.763198,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/117000156",
+      "source_url": "https://www.openstreetmap.org/way/117000156"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    }
+  }
+}

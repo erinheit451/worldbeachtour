@@ -1,0 +1,44 @@
+{
+  "slug": "james-madison-beach",
+  "name": "James Madison Beach",
+  "centroid_lat": 43.0817685,
+  "centroid_lng": -89.3829836,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/264857458",
+      "source_url": "https://www.openstreetmap.org/way/264857458"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/264857459",
+      "source_url": "https://www.openstreetmap.org/way/264857459"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/264857460",
+      "source_url": "https://www.openstreetmap.org/way/264857460"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/264857467",
+      "source_url": "https://www.openstreetmap.org/way/264857467"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49321314",
+      "source_url": "https://www.wikidata.org/wiki/Q49321314"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/James%20Madison%20Beach.jpg"
+    }
+  }
+}

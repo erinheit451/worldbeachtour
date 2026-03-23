@@ -1,0 +1,29 @@
+{
+  "slug": "coiba",
+  "name": "Coiba",
+  "centroid_lat": 40.296559,
+  "centroid_lng": 18.4150827,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/432775689",
+      "source_url": "https://www.openstreetmap.org/way/432775689"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/432775691",
+      "source_url": "https://www.openstreetmap.org/way/432775691"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

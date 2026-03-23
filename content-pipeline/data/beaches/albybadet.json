@@ -1,0 +1,36 @@
+{
+  "slug": "albybadet",
+  "name": "Albybadet",
+  "centroid_lat": 59.2294935,
+  "centroid_lng": 18.2767371,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/29281664",
+      "source_url": "https://www.openstreetmap.org/way/29281664"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1051197486",
+      "source_url": "https://www.openstreetmap.org/way/1051197486"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q104807132",
+      "source_url": "https://www.wikidata.org/wiki/Q104807132"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "restrooms": true,
+      "showers": false,
+      "access": "yes"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "spiaggia-nudista",
+  "name": "Spiaggia nudista",
+  "centroid_lat": 45.620011,
+  "centroid_lng": 8.667574,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1092705852",
+      "source_url": "https://www.openstreetmap.org/way/1092705852"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "permissive"
+    }
+  }
+}

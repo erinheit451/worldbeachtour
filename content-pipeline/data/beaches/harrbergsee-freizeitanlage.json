@@ -1,0 +1,35 @@
+{
+  "slug": "harrbergsee-freizeitanlage",
+  "name": "HARRBERGSEE, FREIZEITANLAGE",
+  "centroid_lat": 47.5822,
+  "centroid_lng": 13.2414,
+  "country_code": "AT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/239947529",
+      "source_url": "https://www.openstreetmap.org/way/239947529"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "AT3230005021200010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "AT3230005021200010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

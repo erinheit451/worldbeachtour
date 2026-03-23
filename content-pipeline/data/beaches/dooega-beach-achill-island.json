@@ -1,0 +1,50 @@
+{
+  "slug": "dooega-beach-achill-island",
+  "name": "DOOEGA BEACH, ACHILL ISLAND",
+  "centroid_lat": 53.9207,
+  "centroid_lng": -10.0203,
+  "country_code": "IE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/495937214",
+      "source_url": "https://www.openstreetmap.org/way/495937214"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1482686170",
+      "source_url": "https://www.openstreetmap.org/way/1482686170"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1482686171",
+      "source_url": "https://www.openstreetmap.org/way/1482686171"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1482819011",
+      "source_url": "https://www.openstreetmap.org/way/1482819011"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IEWEBWC250_0000_0300",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IEWEBWC250_0000_0300",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

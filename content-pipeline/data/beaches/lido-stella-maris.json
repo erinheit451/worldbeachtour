@@ -1,0 +1,24 @@
+{
+  "slug": "lido-stella-maris",
+  "name": "Lido Stella Maris",
+  "centroid_lat": 40.4187565,
+  "centroid_lng": 16.88488,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/621951219",
+      "source_url": "https://www.openstreetmap.org/way/621951219"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

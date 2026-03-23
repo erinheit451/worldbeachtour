@@ -1,0 +1,72 @@
+{
+  "slug": "platja-de-la-mar-bella",
+  "name": "Platja de la Mar Bella",
+  "centroid_lat": 41.3980426,
+  "centroid_lng": 2.2122443,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/359543905",
+      "source_url": "https://www.openstreetmap.org/way/359543905"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/2175043",
+      "source_url": "https://www.openstreetmap.org/relation/2175043"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/2175045",
+      "source_url": "https://www.openstreetmap.org/relation/2175045"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q3329668",
+      "source_url": "https://www.wikidata.org/wiki/Q3329668"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q3331605",
+      "source_url": "https://www.wikidata.org/wiki/Q3331605"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES511M019634",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES511M019630",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES511M019634",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES511M019630",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Volleyball%20at%20Platja%20de%20la%20Nova%20Mar%20Bella.JPG"
+    },
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "playa-ultimo-trolley",
+  "name": "Playa Último Trolley",
+  "centroid_lat": 18.4529821,
+  "centroid_lng": -66.0460779,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/432509678",
+      "source_url": "https://www.openstreetmap.org/way/432509678"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

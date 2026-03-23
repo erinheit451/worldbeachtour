@@ -1,0 +1,38 @@
+{
+  "slug": "bournazel",
+  "name": "BOURNAZEL",
+  "centroid_lat": 45.37636,
+  "centroid_lng": 1.69759,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/482041580",
+      "source_url": "https://www.openstreetmap.org/way/482041580"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI2119255D019210",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI2119255D019210",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

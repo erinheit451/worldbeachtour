@@ -1,0 +1,35 @@
+{
+  "slug": "aggertalsperre-freibad-bruch",
+  "name": "AGGERTALSPERRE/FREIBAD BRUCH",
+  "centroid_lat": 51.0547,
+  "centroid_lng": 7.6511,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1365597487",
+      "source_url": "https://www.openstreetmap.org/way/1365597487"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DENW_PR_0001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DENW_PR_0001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "cala-raja",
+  "name": "Cala Rajá",
+  "centroid_lat": 36.7242697,
+  "centroid_lng": -2.1768582,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/307500369",
+      "source_url": "https://www.openstreetmap.org/way/307500369"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24023424",
+      "source_url": "https://www.wikidata.org/wiki/Q24023424"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20Raj%C3%A1%20-%20panoramio.jpg"
+    }
+  }
+}

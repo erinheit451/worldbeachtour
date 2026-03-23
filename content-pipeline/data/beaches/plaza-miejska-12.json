@@ -1,0 +1,40 @@
+{
+  "slug": "plaza-miejska-12",
+  "name": "Plaża miejska",
+  "centroid_lat": 50.0467769,
+  "centroid_lng": 18.7201167,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/216534111",
+      "source_url": "https://www.openstreetmap.org/way/216534111"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1024057422",
+      "source_url": "https://www.openstreetmap.org/way/1024057422"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL2277901124000018",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL2277901124000018",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

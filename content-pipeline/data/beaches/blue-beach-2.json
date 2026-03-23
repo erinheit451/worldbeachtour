@@ -1,0 +1,25 @@
+{
+  "slug": "blue-beach-2",
+  "name": "Blue Beach",
+  "centroid_lat": 45.0993532,
+  "centroid_lng": -64.2141882,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/11710658",
+      "source_url": "https://www.openstreetmap.org/relation/11710658"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22576857",
+      "source_url": "https://www.wikidata.org/wiki/Q22576857"
+    }
+  ],
+  "attributes": {}
+}

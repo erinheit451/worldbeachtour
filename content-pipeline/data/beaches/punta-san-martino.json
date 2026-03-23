@@ -1,0 +1,59 @@
+{
+  "slug": "punta-san-martino",
+  "name": "Punta San Martino",
+  "centroid_lat": 44.397622,
+  "centroid_lng": 8.6865101,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/128269481",
+      "source_url": "https://www.openstreetmap.org/way/128269481"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/128269486",
+      "source_url": "https://www.openstreetmap.org/way/128269486"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/203694222",
+      "source_url": "https://www.openstreetmap.org/way/203694222"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/273430048",
+      "source_url": "https://www.openstreetmap.org/way/273430048"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1279684909",
+      "source_url": "https://www.openstreetmap.org/way/1279684909"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010001001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010001001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true,
+      "access": "customers"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

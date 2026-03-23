@@ -1,0 +1,29 @@
+{
+  "slug": "punta-tramontana",
+  "name": "Punta Tramontana",
+  "centroid_lat": 40.879880509,
+  "centroid_lng": 8.631089487,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/273213617",
+      "source_url": "https://www.openstreetmap.org/way/273213617"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q107064078",
+      "source_url": "https://www.wikidata.org/wiki/Q107064078"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Castelsardo%2C%20punta%20Tramontana%20%2801%29.jpg"
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "slug": "bagni-ingaunia",
+  "name": "Bagni Ingaunia",
+  "centroid_lat": 44.0502271,
+  "centroid_lng": 8.225885,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7207039750",
+      "source_url": "https://www.openstreetmap.org/node/7207039750"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7207039751",
+      "source_url": "https://www.openstreetmap.org/node/7207039751"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/344945176",
+      "source_url": "https://www.openstreetmap.org/way/344945176"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/344945177",
+      "source_url": "https://www.openstreetmap.org/way/344945177"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/344945862",
+      "source_url": "https://www.openstreetmap.org/way/344945862"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/344945990",
+      "source_url": "https://www.openstreetmap.org/way/344945990"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/437899401",
+      "source_url": "https://www.openstreetmap.org/way/437899401"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/437899464",
+      "source_url": "https://www.openstreetmap.org/way/437899464"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/437900315",
+      "source_url": "https://www.openstreetmap.org/way/437900315"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/437900317",
+      "source_url": "https://www.openstreetmap.org/way/437900317"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/437900453",
+      "source_url": "https://www.openstreetmap.org/way/437900453"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/437904553",
+      "source_url": "https://www.openstreetmap.org/way/437904553"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/437904554",
+      "source_url": "https://www.openstreetmap.org/way/437904554"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/437904748",
+      "source_url": "https://www.openstreetmap.org/way/437904748"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/437904749",
+      "source_url": "https://www.openstreetmap.org/way/437904749"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33333528",
+      "source_url": "https://www.wikidata.org/wiki/Q33333528"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007009002002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007009002006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007009002002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007009002006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true,
+      "access": "customers"
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

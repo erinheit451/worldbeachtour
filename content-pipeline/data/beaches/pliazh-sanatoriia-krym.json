@@ -1,0 +1,24 @@
+{
+  "slug": "pliazh-sanatoriia-krym",
+  "name": "Пляж санатория Крым",
+  "centroid_lat": 44.57256,
+  "centroid_lng": 34.3466505,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/230600595",
+      "source_url": "https://www.openstreetmap.org/way/230600595"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "customers"
+    }
+  }
+}

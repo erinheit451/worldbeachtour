@@ -1,0 +1,56 @@
+{
+  "slug": "salem-schloss-see",
+  "name": "SALEM, SCHLOSS-SEE",
+  "centroid_lat": 47.7691,
+  "centroid_lng": 9.2902,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/616112537",
+      "source_url": "https://www.openstreetmap.org/way/616112537"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/616112538",
+      "source_url": "https://www.openstreetmap.org/way/616112538"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1209555140",
+      "source_url": "https://www.openstreetmap.org/way/1209555140"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1209555141",
+      "source_url": "https://www.openstreetmap.org/way/1209555141"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBW_PR_0027",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBW_PR_0027",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

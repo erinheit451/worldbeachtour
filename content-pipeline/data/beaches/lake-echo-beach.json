@@ -1,0 +1,27 @@
+{
+  "slug": "lake-echo-beach",
+  "name": "Lake Echo Beach",
+  "centroid_lat": 44.7390828,
+  "centroid_lng": -63.3857339,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/7312411",
+      "source_url": "https://www.openstreetmap.org/relation/7312411"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

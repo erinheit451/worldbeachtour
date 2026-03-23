@@ -1,0 +1,30 @@
+{
+  "slug": "abaja-supelrand",
+  "name": "Abaja supelrand",
+  "centroid_lat": 58.3684581,
+  "centroid_lng": 22.016506,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1135865329",
+      "source_url": "https://www.openstreetmap.org/way/1135865329"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

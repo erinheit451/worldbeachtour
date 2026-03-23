@@ -1,0 +1,90 @@
+{
+  "slug": "faliraki-a",
+  "name": "Faliraki A",
+  "centroid_lat": 36.3396075,
+  "centroid_lng": 28.2048748,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/659899045",
+      "source_url": "https://www.openstreetmap.org/way/659899045"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659899046",
+      "source_url": "https://www.openstreetmap.org/way/659899046"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659899047",
+      "source_url": "https://www.openstreetmap.org/way/659899047"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659899048",
+      "source_url": "https://www.openstreetmap.org/way/659899048"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659899049",
+      "source_url": "https://www.openstreetmap.org/way/659899049"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659899050",
+      "source_url": "https://www.openstreetmap.org/way/659899050"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659899051",
+      "source_url": "https://www.openstreetmap.org/way/659899051"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659899052",
+      "source_url": "https://www.openstreetmap.org/way/659899052"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/3076325",
+      "source_url": "https://www.openstreetmap.org/relation/3076325"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/3079737",
+      "source_url": "https://www.openstreetmap.org/relation/3079737"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/3079751",
+      "source_url": "https://www.openstreetmap.org/relation/3079751"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53632756",
+      "source_url": "https://www.wikidata.org/wiki/Q53632756"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149296261101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149296261101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

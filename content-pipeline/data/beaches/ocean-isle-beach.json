@@ -1,0 +1,25 @@
+{
+  "slug": "ocean-isle-beach",
+  "name": "Ocean Isle Beach",
+  "centroid_lat": 33.8862837,
+  "centroid_lng": -78.437228,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357798862",
+      "source_url": "https://www.openstreetmap.org/node/357798862"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322332",
+      "source_url": "https://www.wikidata.org/wiki/Q49322332"
+    }
+  ],
+  "attributes": {}
+}

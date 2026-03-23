@@ -1,0 +1,29 @@
+{
+  "slug": "salagdoong-beach",
+  "name": "Salagdoong Beach",
+  "centroid_lat": 9.2131078,
+  "centroid_lng": 123.6815111,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1214414284",
+      "source_url": "https://www.openstreetmap.org/node/1214414284"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8795886",
+      "source_url": "https://www.openstreetmap.org/relation/8795886"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "private"
+    }
+  }
+}

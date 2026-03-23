@@ -1,0 +1,25 @@
+{
+  "slug": "great-french-beach",
+  "name": "Great French Beach",
+  "centroid_lat": 49.6711435,
+  "centroid_lng": -54.7253169,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1490453441",
+      "source_url": "https://www.openstreetmap.org/node/1490453441"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/3188765",
+      "source_url": "https://www.openstreetmap.org/relation/3188765"
+    }
+  ],
+  "attributes": {}
+}

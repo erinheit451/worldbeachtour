@@ -1,0 +1,43 @@
+{
+  "slug": "lido-moiana",
+  "name": "LIDO MOIANA",
+  "centroid_lat": 45.7911,
+  "centroid_lng": 9.2579,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/849501235",
+      "source_url": "https://www.openstreetmap.org/way/849501235"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1020393099",
+      "source_url": "https://www.openstreetmap.org/way/1020393099"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT003013147001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT003013147001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

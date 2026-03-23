@@ -1,0 +1,41 @@
+{
+  "slug": "plage-des-ondes",
+  "name": "Plage des Ondes",
+  "centroid_lat": 43.5544403,
+  "centroid_lng": 7.1220911,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/60144684",
+      "source_url": "https://www.openstreetmap.org/way/60144684"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306004M006240",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306004M006240",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

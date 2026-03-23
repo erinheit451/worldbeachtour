@@ -1,0 +1,73 @@
+{
+  "slug": "zurriola",
+  "name": "Zurriola",
+  "centroid_lat": 43.3267198,
+  "centroid_lng": -1.9761374,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/649475151",
+      "source_url": "https://www.openstreetmap.org/way/649475151"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/723547492",
+      "source_url": "https://www.openstreetmap.org/way/723547492"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q2111043",
+      "source_url": "https://www.wikidata.org/wiki/Q2111043"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES212M069583",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES212M069581",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES212M069582",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES212M069583",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES212M069581",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES212M069582",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/San%20Sebastian%20Zurriola.jpg"
+    },
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Transitional"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "tomales-beach",
+  "name": "Tomales Beach",
+  "centroid_lat": 38.1729764,
+  "centroid_lng": -122.923052,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/358795144",
+      "source_url": "https://www.openstreetmap.org/node/358795144"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49325036",
+      "source_url": "https://www.wikidata.org/wiki/Q49325036"
+    }
+  ],
+  "attributes": {}
+}

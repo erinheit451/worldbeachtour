@@ -1,0 +1,30 @@
+{
+  "slug": "bagno-franco",
+  "name": "Bagno Franco",
+  "centroid_lat": 40.7509868,
+  "centroid_lng": 13.8981445,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9934208731",
+      "source_url": "https://www.openstreetmap.org/node/9934208731"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/9934208732",
+      "source_url": "https://www.openstreetmap.org/node/9934208732"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/290167760",
+      "source_url": "https://www.openstreetmap.org/way/290167760"
+    }
+  ],
+  "attributes": {}
+}

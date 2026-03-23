@@ -1,0 +1,35 @@
+{
+  "slug": "le-civier",
+  "name": "LE CIVIER",
+  "centroid_lat": 45.24716,
+  "centroid_lng": 2.5368,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/299141245",
+      "source_url": "https://www.openstreetmap.org/way/299141245"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK1215243D015240",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK1215243D015240",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

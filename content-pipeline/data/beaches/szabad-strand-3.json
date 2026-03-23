@@ -1,0 +1,25 @@
+{
+  "slug": "szabad-strand-3",
+  "name": "Szabad strand",
+  "centroid_lat": 47.2069342,
+  "centroid_lng": 18.6198068,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/195059380",
+      "source_url": "https://www.openstreetmap.org/way/195059380"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "savelangen-ingareds-badplats",
+  "name": "SÄVELÅNGEN, INGAREDS BADPLATS",
+  "centroid_lat": 57.8492,
+  "centroid_lng": 12.4498,
+  "country_code": "SE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/10844965",
+      "source_url": "https://www.openstreetmap.org/relation/10844965"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0A21489000001692",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0A21489000001692",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

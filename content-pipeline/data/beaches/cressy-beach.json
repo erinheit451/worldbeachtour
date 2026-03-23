@@ -1,0 +1,25 @@
+{
+  "slug": "cressy-beach",
+  "name": "Cressy Beach",
+  "centroid_lat": 42.6025973,
+  "centroid_lng": -70.6800191,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/3375494",
+      "source_url": "https://www.openstreetmap.org/relation/3375494"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320476",
+      "source_url": "https://www.wikidata.org/wiki/Q49320476"
+    }
+  ],
+  "attributes": {}
+}

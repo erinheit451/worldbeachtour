@@ -1,0 +1,29 @@
+{
+  "slug": "il-quadrifoglio",
+  "name": "Il Quadrifoglio",
+  "centroid_lat": 41.9739897,
+  "centroid_lng": 12.035759,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/388819358",
+      "source_url": "https://www.openstreetmap.org/way/388819358"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/388819363",
+      "source_url": "https://www.openstreetmap.org/way/388819363"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

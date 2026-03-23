@@ -1,0 +1,29 @@
+{
+  "slug": "plage-de-la-breche-1",
+  "name": "Plage de la Brêche",
+  "centroid_lat": 14.7638007,
+  "centroid_lng": -60.9116108,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/481009348",
+      "source_url": "https://www.openstreetmap.org/way/481009348"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53743324",
+      "source_url": "https://www.wikidata.org/wiki/Q53743324"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/La%20Br%C3%AAche.jpg"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "riva-bianca",
+  "name": "Riva Bianca",
+  "centroid_lat": 45.9663835,
+  "centroid_lng": 9.3023568,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/361948701",
+      "source_url": "https://www.openstreetmap.org/way/361948701"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q113110916",
+      "source_url": "https://www.wikidata.org/wiki/Q113110916"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q138697999",
+      "source_url": "https://www.wikidata.org/wiki/Q138697999"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT003097043001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT003097043001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

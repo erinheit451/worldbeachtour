@@ -1,0 +1,27 @@
+{
+  "slug": "bradley-s-beach",
+  "name": "Bradley's Beach",
+  "centroid_lat": -33.5400535,
+  "centroid_lng": 151.2409066,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/28135857",
+      "source_url": "https://www.openstreetmap.org/way/28135857"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

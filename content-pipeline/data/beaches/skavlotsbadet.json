@@ -1,0 +1,24 @@
+{
+  "slug": "skavlotsbadet",
+  "name": "Skavlötsbadet",
+  "centroid_lat": 59.4676925,
+  "centroid_lng": 18.1074308,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/169452615",
+      "source_url": "https://www.openstreetmap.org/way/169452615"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

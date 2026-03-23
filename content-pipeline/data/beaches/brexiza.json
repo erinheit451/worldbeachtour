@@ -1,0 +1,29 @@
+{
+  "slug": "brexiza",
+  "name": "Brexiza",
+  "centroid_lat": 38.10189072,
+  "centroid_lng": 23.98115301,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/999584851",
+      "source_url": "https://www.openstreetmap.org/way/999584851"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53632413",
+      "source_url": "https://www.wikidata.org/wiki/Q53632413"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Marathon%2C%20Greece%20%282%29.jpg"
+    }
+  }
+}

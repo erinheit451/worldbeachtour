@@ -1,0 +1,83 @@
+{
+  "slug": "paralia-agiou-prokopiou",
+  "name": "Παραλία Αγίου Προκοπίου",
+  "centroid_lat": 37.0751814,
+  "centroid_lng": 25.3469334,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/659806709",
+      "source_url": "https://www.openstreetmap.org/way/659806709"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659806710",
+      "source_url": "https://www.openstreetmap.org/way/659806710"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659806711",
+      "source_url": "https://www.openstreetmap.org/way/659806711"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659806712",
+      "source_url": "https://www.openstreetmap.org/way/659806712"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659806713",
+      "source_url": "https://www.openstreetmap.org/way/659806713"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659806714",
+      "source_url": "https://www.openstreetmap.org/way/659806714"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659806715",
+      "source_url": "https://www.openstreetmap.org/way/659806715"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659806716",
+      "source_url": "https://www.openstreetmap.org/way/659806716"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/453120",
+      "source_url": "https://www.openstreetmap.org/relation/453120"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25162359",
+      "source_url": "https://www.wikidata.org/wiki/Q25162359"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149292181101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149292181101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Aghios%20Prokopios%20beach.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "mickler-s-landing",
+  "name": "Mickler's Landing",
+  "centroid_lat": 30.1621246,
+  "centroid_lng": -81.355668,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/3549005479",
+      "source_url": "https://www.openstreetmap.org/node/3549005479"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/20055917",
+      "source_url": "https://www.openstreetmap.org/relation/20055917"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "taslik-plaji",
+  "name": "Taşlık Plajı",
+  "centroid_lat": 36.7196611,
+  "centroid_lng": 27.6872267,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5756439129",
+      "source_url": "https://www.openstreetmap.org/node/5756439129"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/11217994671",
+      "source_url": "https://www.openstreetmap.org/node/11217994671"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324963",
+      "source_url": "https://www.wikidata.org/wiki/Q49324963"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

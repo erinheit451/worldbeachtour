@@ -1,0 +1,43 @@
+{
+  "slug": "platja-dels-palangrers",
+  "name": "Platja dels Palangrers",
+  "centroid_lat": 42.2503068,
+  "centroid_lng": 3.1819299,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8306547",
+      "source_url": "https://www.openstreetmap.org/relation/8306547"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28121124",
+      "source_url": "https://www.wikidata.org/wiki/Q28121124"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES512M152762",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES512M152762",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

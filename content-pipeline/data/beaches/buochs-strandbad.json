@@ -1,0 +1,49 @@
+{
+  "slug": "buochs-strandbad",
+  "name": "BUOCHS STRANDBAD",
+  "centroid_lat": 46.9815,
+  "centroid_lng": 8.418,
+  "country_code": "CH",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1071761653",
+      "source_url": "https://www.openstreetmap.org/way/1071761653"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1189961979",
+      "source_url": "https://www.openstreetmap.org/way/1189961979"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CH7005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CH7005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "facilities": {
+      "fee_required": false
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

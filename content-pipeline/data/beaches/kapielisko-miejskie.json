@@ -1,0 +1,46 @@
+{
+  "slug": "kapielisko-miejskie",
+  "name": "Kąpielisko miejskie",
+  "centroid_lat": 52.1001906,
+  "centroid_lng": 20.6397069,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10792649316",
+      "source_url": "https://www.openstreetmap.org/node/10792649316"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/680087214",
+      "source_url": "https://www.openstreetmap.org/way/680087214"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL1260504414000044",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL1260504414000044",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

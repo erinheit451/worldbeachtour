@@ -1,0 +1,29 @@
+{
+  "slug": "cala-dei-gabbiani",
+  "name": "Cala dei Gabbiani",
+  "centroid_lat": 40.1202445,
+  "centroid_lng": 9.6799481,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/290678263",
+      "source_url": "https://www.openstreetmap.org/way/290678263"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33336368",
+      "source_url": "https://www.wikidata.org/wiki/Q33336368"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20dei%20Gabbiani%20-%20panoramio.jpg"
+    }
+  }
+}

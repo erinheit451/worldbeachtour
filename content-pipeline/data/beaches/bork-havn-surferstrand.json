@@ -1,0 +1,43 @@
+{
+  "slug": "bork-havn-surferstrand",
+  "name": "BORK HAVN SURFERSTRAND",
+  "centroid_lat": 55.84667,
+  "centroid_lng": 8.27459,
+  "country_code": "DK",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/614286954",
+      "source_url": "https://www.openstreetmap.org/way/614286954"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/614286957",
+      "source_url": "https://www.openstreetmap.org/way/614286957"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW1351",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW1351",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited"
+    },
+    "environment": {
+      "water_quality_rating": "poor",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "pololu-beach",
+  "name": "Pololu Beach",
+  "centroid_lat": 20.202699,
+  "centroid_lng": -155.7294718,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/209294812",
+      "source_url": "https://www.openstreetmap.org/way/209294812"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49323544",
+      "source_url": "https://www.wikidata.org/wiki/Q49323544"
+    }
+  ],
+  "attributes": {}
+}

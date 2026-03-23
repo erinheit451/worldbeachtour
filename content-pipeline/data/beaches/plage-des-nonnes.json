@@ -1,0 +1,46 @@
+{
+  "slug": "plage-des-nonnes",
+  "name": "Plage des Nonnes",
+  "centroid_lat": 45.5602967,
+  "centroid_lng": -0.9667221,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/52154160",
+      "source_url": "https://www.openstreetmap.org/way/52154160"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322734",
+      "source_url": "https://www.wikidata.org/wiki/Q49322734"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI3217230M017215",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI3217230M017215",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/La%20plage%20des%20nonnes%20-%20panoramio.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

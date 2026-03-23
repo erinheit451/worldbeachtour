@@ -1,0 +1,29 @@
+{
+  "slug": "milford-beach-1",
+  "name": "Milford Beach",
+  "centroid_lat": -36.7674655,
+  "centroid_lng": 174.7697296,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/67560996",
+      "source_url": "https://www.openstreetmap.org/way/67560996"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q32277761",
+      "source_url": "https://www.wikidata.org/wiki/Q32277761"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Milford%20Beach%20from%20the%20air%20from%20NW%20%28longitudinal%29.jpg"
+    }
+  }
+}

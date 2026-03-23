@@ -1,0 +1,24 @@
+{
+  "slug": "surfstrand-surfers-beach",
+  "name": "Surfstrand (surfers' beach)",
+  "centroid_lat": 51.3875,
+  "centroid_lng": 14.5440083,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1303203351",
+      "source_url": "https://www.openstreetmap.org/way/1303203351"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

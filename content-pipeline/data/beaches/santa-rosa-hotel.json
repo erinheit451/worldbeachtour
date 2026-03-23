@@ -1,0 +1,25 @@
+{
+  "slug": "santa-rosa-hotel",
+  "name": "Santa Rosa Hotel",
+  "centroid_lat": 40.8471478,
+  "centroid_lng": 25.8482717,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12831811584",
+      "source_url": "https://www.openstreetmap.org/node/12831811584"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/385780136",
+      "source_url": "https://www.openstreetmap.org/way/385780136"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "plage-du-minou",
+  "name": "Plage du Minou",
+  "centroid_lat": 48.3394395,
+  "centroid_lng": -4.6157407,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/22941670",
+      "source_url": "https://www.openstreetmap.org/way/22941670"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/401782732",
+      "source_url": "https://www.openstreetmap.org/way/401782732"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/401782741",
+      "source_url": "https://www.openstreetmap.org/way/401782741"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/401782742",
+      "source_url": "https://www.openstreetmap.org/way/401782742"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6507276",
+      "source_url": "https://www.wikidata.org/wiki/Q6507276"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229212M029513",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229212M029513",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "surfing": {
+      "surfing_available": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Fort%20du%20Minou.JPG",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Le_Minou"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

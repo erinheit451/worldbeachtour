@@ -1,0 +1,29 @@
+{
+  "slug": "cala-en-caballer-menorca",
+  "name": "Cala en Caballer, Menorca",
+  "centroid_lat": 39.97931944,
+  "centroid_lng": 4.25973889,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1600888",
+      "source_url": "https://www.openstreetmap.org/relation/1600888"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q16182511",
+      "source_url": "https://www.wikidata.org/wiki/Q16182511"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cam%C3%AD%20de%20Cavalls%202%E2%80%94Cala%20en%20Cavaller.jpg"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "pen-be",
+  "name": "PEN BE",
+  "centroid_lat": 47.42498,
+  "centroid_lng": -2.45772,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/469547041",
+      "source_url": "https://www.openstreetmap.org/way/469547041"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/473640952",
+      "source_url": "https://www.openstreetmap.org/way/473640952"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/625658748",
+      "source_url": "https://www.openstreetmap.org/way/625658748"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0144006M044020",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0144006M044020",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

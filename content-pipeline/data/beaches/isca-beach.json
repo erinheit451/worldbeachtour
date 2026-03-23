@@ -1,0 +1,30 @@
+{
+  "slug": "isca-beach",
+  "name": "ISCA BEACH",
+  "centroid_lat": 38.6050938,
+  "centroid_lng": 16.5664043,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/3071131715",
+      "source_url": "https://www.openstreetmap.org/node/3071131715"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/9003133667",
+      "source_url": "https://www.openstreetmap.org/node/9003133667"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/972764130",
+      "source_url": "https://www.openstreetmap.org/way/972764130"
+    }
+  ],
+  "attributes": {}
+}

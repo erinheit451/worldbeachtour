@@ -1,0 +1,44 @@
+{
+  "slug": "platja-del-claper",
+  "name": "Platja del Claper",
+  "centroid_lat": 42.4215949,
+  "centroid_lng": 3.1686437,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8312811",
+      "source_url": "https://www.openstreetmap.org/relation/8312811"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8312812",
+      "source_url": "https://www.openstreetmap.org/relation/8312812"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8312813",
+      "source_url": "https://www.openstreetmap.org/relation/8312813"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8312814",
+      "source_url": "https://www.openstreetmap.org/relation/8312814"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28121115",
+      "source_url": "https://www.wikidata.org/wiki/Q28121115"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Portbou%2C%20Spain%20-%20panoramio.jpg"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "el-capitan-beach",
+  "name": "El Capitan Beach",
+  "centroid_lat": 34.4605685,
+  "centroid_lng": -120.0299418,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/346095622",
+      "source_url": "https://www.openstreetmap.org/way/346095622"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320621",
+      "source_url": "https://www.wikidata.org/wiki/Q49320621"
+    }
+  ],
+  "attributes": {}
+}

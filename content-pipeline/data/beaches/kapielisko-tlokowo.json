@@ -1,0 +1,43 @@
+{
+  "slug": "kapielisko-tlokowo",
+  "name": "KĄPIELISKO TŁOKOWO",
+  "centroid_lat": 53.98944,
+  "centroid_lng": 20.74111,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9238152665",
+      "source_url": "https://www.openstreetmap.org/node/9238152665"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1204119936",
+      "source_url": "https://www.openstreetmap.org/way/1204119936"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6221406528000046",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6221406528000046",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

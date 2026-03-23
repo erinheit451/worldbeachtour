@@ -1,0 +1,27 @@
+{
+  "slug": "buchanan-beach",
+  "name": "Buchanan Beach",
+  "centroid_lat": 43.6898906,
+  "centroid_lng": -65.1244685,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/996140116",
+      "source_url": "https://www.openstreetmap.org/way/996140116"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "permit"
+    }
+  }
+}

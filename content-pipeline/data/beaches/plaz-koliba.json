@@ -1,0 +1,28 @@
+{
+  "slug": "plaz-koliba",
+  "name": "Pláž Koliba",
+  "centroid_lat": 48.7692899,
+  "centroid_lng": 17.8596293,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1310492911",
+      "source_url": "https://www.openstreetmap.org/way/1310492911"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "nudist": false
+    },
+    "facilities": {
+      "fee_required": "seasonal"
+    }
+  }
+}

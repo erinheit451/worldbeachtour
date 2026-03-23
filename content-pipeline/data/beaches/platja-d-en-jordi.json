@@ -1,0 +1,29 @@
+{
+  "slug": "platja-d-en-jordi",
+  "name": "Platja d'en Jordi",
+  "centroid_lat": 42.3777595,
+  "centroid_lng": 3.1564526,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8314134",
+      "source_url": "https://www.openstreetmap.org/relation/8314134"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q121625391",
+      "source_url": "https://www.wikidata.org/wiki/Q121625391"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

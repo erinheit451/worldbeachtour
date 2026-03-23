@@ -1,0 +1,24 @@
+{
+  "slug": "petushki",
+  "name": "Петушки",
+  "centroid_lat": 54.2179097,
+  "centroid_lng": 37.7468989,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/170785595",
+      "source_url": "https://www.openstreetmap.org/way/170785595"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "msyf-tlyl",
+  "name": "مصيف تليل",
+  "centroid_lat": 32.818024,
+  "centroid_lng": 12.3773072,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/13030575641",
+      "source_url": "https://www.openstreetmap.org/node/13030575641"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/161742847",
+      "source_url": "https://www.openstreetmap.org/way/161742847"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/784534327",
+      "source_url": "https://www.openstreetmap.org/way/784534327"
+    }
+  ],
+  "attributes": {}
+}

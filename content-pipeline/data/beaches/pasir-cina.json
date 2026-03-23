@@ -1,0 +1,32 @@
+{
+  "slug": "pasir-cina",
+  "name": "Pasir Cina",
+  "centroid_lat": 5.6206221,
+  "centroid_lng": 103.057312,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/724385039",
+      "source_url": "https://www.openstreetmap.org/way/724385039"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33328810",
+      "source_url": "https://www.wikidata.org/wiki/Q33328810"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

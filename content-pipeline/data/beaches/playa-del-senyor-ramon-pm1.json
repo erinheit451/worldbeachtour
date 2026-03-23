@@ -1,0 +1,29 @@
+{
+  "slug": "playa-del-senyor-ramon-pm1",
+  "name": "PLAYA DEL SENYOR RAMON  PM1",
+  "centroid_lat": 41.7571,
+  "centroid_lng": 2.9764,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES512M181771",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES512M181771",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

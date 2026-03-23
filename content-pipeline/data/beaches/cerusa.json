@@ -1,0 +1,43 @@
+{
+  "slug": "cerusa",
+  "name": "CERUSA",
+  "centroid_lat": 44.4268,
+  "centroid_lng": 8.7429,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/24464200",
+      "source_url": "https://www.openstreetmap.org/way/24464200"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/366712309",
+      "source_url": "https://www.openstreetmap.org/way/366712309"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010025038",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010025038",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

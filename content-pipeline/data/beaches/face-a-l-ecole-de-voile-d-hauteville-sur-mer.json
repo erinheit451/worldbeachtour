@@ -1,0 +1,30 @@
+{
+  "slug": "face-a-l-ecole-de-voile-d-hauteville-sur-mer",
+  "name": "FACE A L ECOLE DE VOILE D HAUTEVILLE SUR MER",
+  "centroid_lat": 48.97056,
+  "centroid_lng": -1.56245,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD1250231M050360",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD1250231M050360",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

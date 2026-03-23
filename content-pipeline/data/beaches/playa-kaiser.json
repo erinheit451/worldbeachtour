@@ -1,0 +1,25 @@
+{
+  "slug": "playa-kaiser",
+  "name": "Playa Kaiser",
+  "centroid_lat": -42.7861986,
+  "centroid_lng": -64.9881919,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11651393958",
+      "source_url": "https://www.openstreetmap.org/node/11651393958"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/12309484",
+      "source_url": "https://www.openstreetmap.org/relation/12309484"
+    }
+  ],
+  "attributes": {}
+}

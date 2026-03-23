@@ -1,0 +1,35 @@
+{
+  "slug": "de-vogel",
+  "name": "DE VOGEL",
+  "centroid_lat": 51.33929,
+  "centroid_lng": 3.98904,
+  "country_code": "NL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/73240019",
+      "source_url": "https://www.openstreetmap.org/way/73240019"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW42_O6038R",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW42_O6038R",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

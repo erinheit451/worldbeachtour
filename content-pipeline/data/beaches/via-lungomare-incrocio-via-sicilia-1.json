@@ -1,0 +1,35 @@
+{
+  "slug": "via-lungomare-incrocio-via-sicilia-1",
+  "name": "VIA LUNGOMARE INCROCIO VIA SICILIA",
+  "centroid_lat": 38.2228,
+  "centroid_lng": 15.3692,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/261247846",
+      "source_url": "https://www.openstreetmap.org/way/261247846"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019083104001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019083104001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

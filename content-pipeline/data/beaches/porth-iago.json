@@ -1,0 +1,29 @@
+{
+  "slug": "porth-iago",
+  "name": "Porth Iago",
+  "centroid_lat": 52.8508535,
+  "centroid_lng": -4.7229661,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1266066534",
+      "source_url": "https://www.openstreetmap.org/way/1266066534"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q77567029",
+      "source_url": "https://www.wikidata.org/wiki/Q77567029"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Porth%20Iago%20-%20geograph.org.uk%20-%20184968.jpg"
+    }
+  }
+}

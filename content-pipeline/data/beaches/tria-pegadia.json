@@ -1,0 +1,25 @@
+{
+  "slug": "tria-pegadia",
+  "name": "Τρία Πηγάδια",
+  "centroid_lat": 36.7301466,
+  "centroid_lng": 24.5366741,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/511513734",
+      "source_url": "https://www.openstreetmap.org/way/511513734"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25171534",
+      "source_url": "https://www.wikidata.org/wiki/Q25171534"
+    }
+  ],
+  "attributes": {}
+}

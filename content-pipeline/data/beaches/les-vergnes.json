@@ -1,0 +1,29 @@
+{
+  "slug": "les-vergnes",
+  "name": "LES VERGNES",
+  "centroid_lat": 46.04404,
+  "centroid_lng": 2.49755,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI2223013D023035",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI2223013D023035",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

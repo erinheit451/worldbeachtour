@@ -1,0 +1,64 @@
+{
+  "slug": "spiaggia-galeazza",
+  "name": "Spiaggia Galeazza",
+  "centroid_lat": 43.8884345,
+  "centroid_lng": 8.0619501,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/543226213",
+      "source_url": "https://www.openstreetmap.org/way/543226213"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1158950009",
+      "source_url": "https://www.openstreetmap.org/way/1158950009"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1158950010",
+      "source_url": "https://www.openstreetmap.org/way/1158950010"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1158950011",
+      "source_url": "https://www.openstreetmap.org/way/1158950011"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1158950012",
+      "source_url": "https://www.openstreetmap.org/way/1158950012"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1158950013",
+      "source_url": "https://www.openstreetmap.org/way/1158950013"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007008031009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007008031009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false,
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

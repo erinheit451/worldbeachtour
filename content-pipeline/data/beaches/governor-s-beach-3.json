@@ -1,0 +1,34 @@
+{
+  "slug": "governor-s-beach-3",
+  "name": "Governor's Beach",
+  "centroid_lat": 12.5151815,
+  "centroid_lng": -70.0348437,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/25606856",
+      "source_url": "https://www.openstreetmap.org/way/25606856"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/675017959",
+      "source_url": "https://www.openstreetmap.org/way/675017959"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q135527742",
+      "source_url": "https://www.wikidata.org/wiki/Q135527742"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monument%20Governor%E2%80%99s%20beach%20Aruba%2014%2051%2042%20946000.jpeg"
+    }
+  }
+}

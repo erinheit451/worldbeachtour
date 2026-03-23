@@ -1,0 +1,27 @@
+{
+  "slug": "pleasure-point",
+  "name": "Pleasure Point",
+  "centroid_lat": 42.1903432,
+  "centroid_lng": -71.4259978,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/175115514",
+      "source_url": "https://www.openstreetmap.org/way/175115514"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "facilities": {
+      "access": "permissive"
+    }
+  }
+}

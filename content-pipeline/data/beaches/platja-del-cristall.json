@@ -1,0 +1,29 @@
+{
+  "slug": "platja-del-cristall",
+  "name": "Platja del Cristall",
+  "centroid_lat": 41.4547461,
+  "centroid_lng": 2.2603817,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2154296",
+      "source_url": "https://www.openstreetmap.org/relation/2154296"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28119250",
+      "source_url": "https://www.wikidata.org/wiki/Q28119250"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Badalona%20Casagemes%20Platja%20del%20Cristall2.jpg"
+    }
+  }
+}

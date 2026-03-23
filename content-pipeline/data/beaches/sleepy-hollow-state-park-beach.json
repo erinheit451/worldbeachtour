@@ -1,0 +1,29 @@
+{
+  "slug": "sleepy-hollow-state-park-beach",
+  "name": "Sleepy Hollow State Park Beach",
+  "centroid_lat": 42.943844,
+  "centroid_lng": -84.4097699,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/41769655",
+      "source_url": "https://www.openstreetmap.org/way/41769655"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1396092040",
+      "source_url": "https://www.openstreetmap.org/way/1396092040"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    }
+  }
+}

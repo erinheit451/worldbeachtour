@@ -1,0 +1,24 @@
+{
+  "slug": "plage-du-bilou-1",
+  "name": "Plage du Bilou",
+  "centroid_lat": 48.6946568,
+  "centroid_lng": -3.6432816,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/797844034",
+      "source_url": "https://www.openstreetmap.org/way/797844034"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "praia-de-baldaio-as-sainas",
+  "name": "Praia de Baldaio - As Saíñas",
+  "centroid_lat": 43.2961442,
+  "centroid_lng": -8.6825823,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/303157404",
+      "source_url": "https://www.openstreetmap.org/way/303157404"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

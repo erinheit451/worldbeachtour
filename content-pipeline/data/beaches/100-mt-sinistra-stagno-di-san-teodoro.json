@@ -1,0 +1,45 @@
+{
+  "slug": "100-mt-sinistra-stagno-di-san-teodoro",
+  "name": "100 MT. SINISTRA STAGNO DI SAN TEODORO",
+  "centroid_lat": 40.8084,
+  "centroid_lng": 9.6795,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/838005224",
+      "source_url": "https://www.openstreetmap.org/way/838005224"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020104023021",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020104023022",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020104023021",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020104023022",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

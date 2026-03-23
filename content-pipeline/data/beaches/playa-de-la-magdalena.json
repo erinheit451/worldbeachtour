@@ -1,0 +1,29 @@
+{
+  "slug": "playa-de-la-magdalena",
+  "name": "Playa de la Magdalena",
+  "centroid_lat": 43.4674837,
+  "centroid_lng": -3.7721845,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/28423269",
+      "source_url": "https://www.openstreetmap.org/way/28423269"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6078808",
+      "source_url": "https://www.wikidata.org/wiki/Q6078808"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bah%C3%ADa%20de%20Santand%C3%A9%20%28La%20Magdalena%2C%20Isla%20de%20la%20Torre%20y%20playas%29.JPG"
+    }
+  }
+}

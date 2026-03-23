@@ -1,0 +1,29 @@
+{
+  "slug": "narrow-neck-beach",
+  "name": "Narrow Neck Beach",
+  "centroid_lat": -36.8120131,
+  "centroid_lng": 174.8030553,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/24203721",
+      "source_url": "https://www.openstreetmap.org/way/24203721"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q32293863",
+      "source_url": "https://www.wikidata.org/wiki/Q32293863"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Narrow%20Neck%20Beach%20%28Unsplash%29.jpg"
+    }
+  }
+}

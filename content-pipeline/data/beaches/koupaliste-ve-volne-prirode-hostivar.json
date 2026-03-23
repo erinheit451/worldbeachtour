@@ -1,0 +1,43 @@
+{
+  "slug": "koupaliste-ve-volne-prirode-hostivar",
+  "name": "KOUPALIŠTĚ VE VOLNÉ PŘÍRODĚ HOSTIVAŘ",
+  "centroid_lat": 50.0379,
+  "centroid_lng": 14.5402,
+  "country_code": "CZ",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9332490202",
+      "source_url": "https://www.openstreetmap.org/node/9332490202"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1319074981",
+      "source_url": "https://www.openstreetmap.org/way/1319074981"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZPK110051",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZPK110051",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

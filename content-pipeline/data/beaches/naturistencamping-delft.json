@@ -1,0 +1,35 @@
+{
+  "slug": "naturistencamping-delft",
+  "name": "NATURISTENCAMPING DELFT",
+  "centroid_lat": 51.97735,
+  "centroid_lng": 4.38895,
+  "country_code": "NL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/168045520",
+      "source_url": "https://www.openstreetmap.org/way/168045520"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW15_OW221A021",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW15_OW221A021",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

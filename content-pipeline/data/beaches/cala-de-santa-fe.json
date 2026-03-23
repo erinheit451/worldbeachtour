@@ -1,0 +1,25 @@
+{
+  "slug": "cala-de-santa-fe",
+  "name": "Cala de Santa Fé",
+  "centroid_lat": 41.0077464,
+  "centroid_lng": 0.9422791,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/14485870",
+      "source_url": "https://www.openstreetmap.org/relation/14485870"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q128210477",
+      "source_url": "https://www.wikidata.org/wiki/Q128210477"
+    }
+  ],
+  "attributes": {}
+}

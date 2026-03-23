@@ -1,0 +1,24 @@
+{
+  "slug": "caleta-las-cruces",
+  "name": "Caleta Las Cruces",
+  "centroid_lat": -33.5005205,
+  "centroid_lng": -71.62864,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "rock",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/258601279",
+      "source_url": "https://www.openstreetmap.org/way/258601279"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

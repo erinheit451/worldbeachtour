@@ -1,0 +1,25 @@
+{
+  "slug": "shtrand",
+  "name": "Штранд",
+  "centroid_lat": 45.236252,
+  "centroid_lng": 19.8477917,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/94937999",
+      "source_url": "https://www.openstreetmap.org/way/94937999"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/146292947",
+      "source_url": "https://www.openstreetmap.org/way/146292947"
+    }
+  ],
+  "attributes": {}
+}

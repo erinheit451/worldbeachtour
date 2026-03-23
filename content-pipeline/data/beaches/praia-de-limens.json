@@ -1,0 +1,32 @@
+{
+  "slug": "praia-de-limens",
+  "name": "Praia de Liméns",
+  "centroid_lat": 42.2595728,
+  "centroid_lng": -8.8137606,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/128052836",
+      "source_url": "https://www.openstreetmap.org/way/128052836"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24023083",
+      "source_url": "https://www.wikidata.org/wiki/Q24023083"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Lim%C3%A9ns.jpg"
+    }
+  }
+}

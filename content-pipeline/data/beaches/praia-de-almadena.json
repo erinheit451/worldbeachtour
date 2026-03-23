@@ -1,0 +1,29 @@
+{
+  "slug": "praia-de-almadena",
+  "name": "Praia de Almádena",
+  "centroid_lat": 37.0655722,
+  "centroid_lng": -8.7955789,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1244670399",
+      "source_url": "https://www.openstreetmap.org/way/1244670399"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25418812",
+      "source_url": "https://www.wikidata.org/wiki/Q25418812"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20das%20Cabanas%20Velhas%20-%20Portugal%20%2852728942518%29.jpg"
+    }
+  }
+}

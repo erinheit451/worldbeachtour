@@ -1,0 +1,29 @@
+{
+  "slug": "playa-de-los-monos",
+  "name": "Playa de los Monos",
+  "centroid_lat": -1.0337947,
+  "centroid_lng": -77.6650681,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/3462205065",
+      "source_url": "https://www.openstreetmap.org/node/3462205065"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1263352053",
+      "source_url": "https://www.openstreetmap.org/way/1263352053"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

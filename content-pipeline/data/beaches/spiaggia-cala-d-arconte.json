@@ -1,0 +1,40 @@
+{
+  "slug": "spiaggia-cala-d-arconte",
+  "name": "Spiaggia Cala d'Arconte",
+  "centroid_lat": 40.0032446,
+  "centroid_lng": 15.3505987,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/173821315",
+      "source_url": "https://www.openstreetmap.org/way/173821315"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/173821318",
+      "source_url": "https://www.openstreetmap.org/way/173821318"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015065021003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015065021003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

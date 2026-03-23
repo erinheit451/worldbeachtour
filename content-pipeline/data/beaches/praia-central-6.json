@@ -1,0 +1,25 @@
+{
+  "slug": "praia-central-6",
+  "name": "Praia Central",
+  "centroid_lat": -25.8792121,
+  "centroid_lng": -48.5660695,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/19704512",
+      "source_url": "https://www.openstreetmap.org/relation/19704512"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22070885",
+      "source_url": "https://www.wikidata.org/wiki/Q22070885"
+    }
+  ],
+  "attributes": {}
+}

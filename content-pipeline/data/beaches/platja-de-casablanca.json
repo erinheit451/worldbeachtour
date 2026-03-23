@@ -1,0 +1,27 @@
+{
+  "slug": "platja-de-casablanca",
+  "name": "Platja de Casablanca",
+  "centroid_lat": 39.7338164,
+  "centroid_lng": -0.1808484,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/168175967",
+      "source_url": "https://www.openstreetmap.org/way/168175967"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

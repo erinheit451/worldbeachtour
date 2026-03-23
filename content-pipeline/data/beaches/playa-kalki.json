@@ -1,0 +1,33 @@
+{
+  "slug": "playa-kalki",
+  "name": "Playa Kalki",
+  "centroid_lat": 12.3754361,
+  "centroid_lng": -69.1578083,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/313098903",
+      "source_url": "https://www.openstreetmap.org/way/313098903"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q2048884",
+      "source_url": "https://www.wikidata.org/wiki/Q2048884"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20Kalki%2C%20Cura%C3%A7ao.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_Kalki"
+    }
+  }
+}

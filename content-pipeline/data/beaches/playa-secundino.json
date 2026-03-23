@@ -1,0 +1,25 @@
+{
+  "slug": "playa-secundino",
+  "name": "Playa Secundino",
+  "centroid_lat": 13.307777777,
+  "centroid_lng": -87.584166666,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/289611376",
+      "source_url": "https://www.openstreetmap.org/way/289611376"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25282450",
+      "source_url": "https://www.wikidata.org/wiki/Q25282450"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "playa-caletilla",
+  "name": "Playa Caletilla",
+  "centroid_lat": 16.8305142,
+  "centroid_lng": -99.905407,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/190094135",
+      "source_url": "https://www.openstreetmap.org/way/190094135"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/190094138",
+      "source_url": "https://www.openstreetmap.org/way/190094138"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33330284",
+      "source_url": "https://www.wikidata.org/wiki/Q33330284"
+    }
+  ],
+  "attributes": {}
+}

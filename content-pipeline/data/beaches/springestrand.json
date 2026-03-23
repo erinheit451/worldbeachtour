@@ -1,0 +1,25 @@
+{
+  "slug": "springestrand",
+  "name": "Springestrand",
+  "centroid_lat": 52.4369166,
+  "centroid_lng": 13.7603958,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/835515662",
+      "source_url": "https://www.openstreetmap.org/way/835515662"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1030408480",
+      "source_url": "https://www.openstreetmap.org/way/1030408480"
+    }
+  ],
+  "attributes": {}
+}

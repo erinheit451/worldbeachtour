@@ -1,0 +1,25 @@
+{
+  "slug": "alabama-point-beach",
+  "name": "Alabama Point Beach",
+  "centroid_lat": 30.2766223,
+  "centroid_lng": -87.550249,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9927306588",
+      "source_url": "https://www.openstreetmap.org/node/9927306588"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "restrooms": true,
+      "parking": "surface"
+    }
+  }
+}

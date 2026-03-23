@@ -1,0 +1,29 @@
+{
+  "slug": "playa-del-tranqueru",
+  "name": "Playa del Tranqueru",
+  "centroid_lat": 43.5735169,
+  "centroid_lng": -5.7349732,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/651671845",
+      "source_url": "https://www.openstreetmap.org/way/651671845"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q19314215",
+      "source_url": "https://www.wikidata.org/wiki/Q19314215"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa-tranqueru-asturias-1.JPG"
+    }
+  }
+}

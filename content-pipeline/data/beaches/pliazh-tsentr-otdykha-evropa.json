@@ -1,0 +1,35 @@
+{
+  "slug": "pliazh-tsentr-otdykha-evropa",
+  "name": "Пляж Центр отдыха Европа",
+  "centroid_lat": 44.5866906,
+  "centroid_lng": 34.3522876,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9130562200",
+      "source_url": "https://www.openstreetmap.org/node/9130562200"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/13647429",
+      "source_url": "https://www.openstreetmap.org/relation/13647429"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/13647430",
+      "source_url": "https://www.openstreetmap.org/relation/13647430"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/13647431",
+      "source_url": "https://www.openstreetmap.org/relation/13647431"
+    }
+  ],
+  "attributes": {}
+}

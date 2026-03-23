@@ -1,0 +1,35 @@
+{
+  "slug": "playa-de-los-alemanes",
+  "name": "Playa de los Alemanes",
+  "centroid_lat": 36.0958519,
+  "centroid_lng": -5.8151629,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/98097683",
+      "source_url": "https://www.openstreetmap.org/way/98097683"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6079179",
+      "source_url": "https://www.wikidata.org/wiki/Q6079179"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20los%20alemanes.jpg"
+    }
+  }
+}

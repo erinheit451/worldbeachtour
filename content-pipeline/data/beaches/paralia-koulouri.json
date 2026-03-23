@@ -1,0 +1,30 @@
+{
+  "slug": "paralia-koulouri",
+  "name": "Παραλία Κουλούρι",
+  "centroid_lat": 38.9071675,
+  "centroid_lng": 21.1151967,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6898225716",
+      "source_url": "https://www.openstreetmap.org/node/6898225716"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/973908108",
+      "source_url": "https://www.openstreetmap.org/way/973908108"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/973910510",
+      "source_url": "https://www.openstreetmap.org/way/973910510"
+    }
+  ],
+  "attributes": {}
+}

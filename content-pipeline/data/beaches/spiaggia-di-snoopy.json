@@ -1,0 +1,28 @@
+{
+  "slug": "spiaggia-di-snoopy",
+  "name": "Spiaggia di Snoopy",
+  "centroid_lat": 45.6769794,
+  "centroid_lng": 13.4248122,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/620120268",
+      "source_url": "https://www.openstreetmap.org/way/620120268"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true,
+      "nudist": false
+    },
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "playa-grande-16",
+  "name": "Playa Grande",
+  "centroid_lat": 13.2716361,
+  "centroid_lng": -87.6616214,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8222039",
+      "source_url": "https://www.openstreetmap.org/relation/8222039"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25282491",
+      "source_url": "https://www.wikidata.org/wiki/Q25282491"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

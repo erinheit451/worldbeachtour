@@ -1,0 +1,27 @@
+{
+  "slug": "kalajoen-hiekkasarkat",
+  "name": "Kalajoen hiekkasärkät",
+  "centroid_lat": 64.2392903,
+  "centroid_lng": 23.8160449,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/309519",
+      "source_url": "https://www.openstreetmap.org/relation/309519"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

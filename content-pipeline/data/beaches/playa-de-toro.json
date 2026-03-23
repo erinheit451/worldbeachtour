@@ -1,0 +1,29 @@
+{
+  "slug": "playa-de-toro",
+  "name": "Playa de Toró",
+  "centroid_lat": 43.4168539,
+  "centroid_lng": -4.7434673,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/42202282",
+      "source_url": "https://www.openstreetmap.org/way/42202282"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q18748393",
+      "source_url": "https://www.wikidata.org/wiki/Q18748393"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20Tor%C3%B3%2002.jpg"
+    }
+  }
+}

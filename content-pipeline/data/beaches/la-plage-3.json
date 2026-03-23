@@ -1,0 +1,24 @@
+{
+  "slug": "la-plage-3",
+  "name": "La Plage",
+  "centroid_lat": 50.5430405,
+  "centroid_lng": 3.4783397,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1426241002",
+      "source_url": "https://www.openstreetmap.org/way/1426241002"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

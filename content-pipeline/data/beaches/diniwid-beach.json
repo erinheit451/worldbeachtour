@@ -1,0 +1,44 @@
+{
+  "slug": "diniwid-beach",
+  "name": "Diniwid Beach",
+  "centroid_lat": 11.9762364,
+  "centroid_lng": 121.9117581,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/24043654",
+      "source_url": "https://www.openstreetmap.org/way/24043654"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/31737458",
+      "source_url": "https://www.openstreetmap.org/way/31737458"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/31779766",
+      "source_url": "https://www.openstreetmap.org/way/31779766"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/31779767",
+      "source_url": "https://www.openstreetmap.org/way/31779767"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/85545432",
+      "source_url": "https://www.openstreetmap.org/way/85545432"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

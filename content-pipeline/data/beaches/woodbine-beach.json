@@ -1,0 +1,32 @@
+{
+  "slug": "woodbine-beach",
+  "name": "Woodbine Beach",
+  "centroid_lat": 43.6617322,
+  "centroid_lng": -79.3068334,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/23297112",
+      "source_url": "https://www.openstreetmap.org/way/23297112"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q18168153",
+      "source_url": "https://www.wikidata.org/wiki/Q18168153"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "social": {
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Woodbine_Beach"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "cumpultittu",
+  "name": "Cumpultittu",
+  "centroid_lat": 40.3210565,
+  "centroid_lng": 8.4542703,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/389534996",
+      "source_url": "https://www.openstreetmap.org/way/389534996"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33326057",
+      "source_url": "https://www.wikidata.org/wiki/Q33326057"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bosa%2C%20capo%20Marrargiu%20%2801%29.jpg"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "sand-beach-6",
+  "name": "Sand Beach",
+  "centroid_lat": 44.3291478,
+  "centroid_lng": -68.1821925,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/128573658",
+      "source_url": "https://www.openstreetmap.org/way/128573658"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33333027",
+      "source_url": "https://www.wikidata.org/wiki/Q33333027"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sand%20Beach%20-%20Acadia%20National%20Park%20-%20Maine%20-%207254852988.jpg"
+    }
+  }
+}

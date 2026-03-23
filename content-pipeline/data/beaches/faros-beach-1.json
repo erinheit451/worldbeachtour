@@ -1,0 +1,29 @@
+{
+  "slug": "faros-beach-1",
+  "name": "Faros Beach",
+  "centroid_lat": 34.8194364,
+  "centroid_lng": 33.6040401,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/427635708",
+      "source_url": "https://www.openstreetmap.org/way/427635708"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q5436159",
+      "source_url": "https://www.wikidata.org/wiki/Q5436159"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Faros%20beach%20in%20Pervolia%20village%20Larnaca%20in%20summer.jpg"
+    }
+  }
+}

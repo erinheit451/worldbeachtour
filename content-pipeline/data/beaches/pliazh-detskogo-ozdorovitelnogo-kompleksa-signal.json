@@ -1,0 +1,29 @@
+{
+  "slug": "pliazh-detskogo-ozdorovitelnogo-kompleksa-signal",
+  "name": "Пляж детского оздоровительного комплекса Сигнал",
+  "centroid_lat": 44.6522272,
+  "centroid_lng": 37.9282793,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/177331526",
+      "source_url": "https://www.openstreetmap.org/way/177331526"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1178809603",
+      "source_url": "https://www.openstreetmap.org/way/1178809603"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

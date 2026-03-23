@@ -1,0 +1,68 @@
+{
+  "slug": "la-breche",
+  "name": "LA BRECHE",
+  "centroid_lat": 49.3413,
+  "centroid_lng": -0.62612,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/281179030",
+      "source_url": "https://www.openstreetmap.org/way/281179030"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/281179031",
+      "source_url": "https://www.openstreetmap.org/way/281179031"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/281179033",
+      "source_url": "https://www.openstreetmap.org/way/281179033"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/281179034",
+      "source_url": "https://www.openstreetmap.org/way/281179034"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q96883764",
+      "source_url": "https://www.wikidata.org/wiki/Q96883764"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD1114709M014270",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD1114021M014260",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD1114709M014270",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD1114021M014260",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plage%20d%27Arromanches%20en%201966.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

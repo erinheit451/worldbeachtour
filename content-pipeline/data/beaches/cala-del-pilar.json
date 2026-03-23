@@ -1,0 +1,29 @@
+{
+  "slug": "cala-del-pilar",
+  "name": "Cala del Pilar",
+  "centroid_lat": 40.0511034,
+  "centroid_lng": 3.9784297,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1590078",
+      "source_url": "https://www.openstreetmap.org/relation/1590078"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q5739595",
+      "source_url": "https://www.wikidata.org/wiki/Q5739595"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/CalaPilar01.jpg"
+    }
+  }
+}

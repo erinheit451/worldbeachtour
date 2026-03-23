@@ -1,0 +1,29 @@
+{
+  "slug": "cala-figuera-2",
+  "name": "Cala Figuera",
+  "centroid_lat": 39.462694444,
+  "centroid_lng": 2.519166666,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1128335213",
+      "source_url": "https://www.openstreetmap.org/way/1128335213"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q11910844",
+      "source_url": "https://www.wikidata.org/wiki/Q11910844"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Mallorca%20%2822622965295%29.jpg"
+    }
+  }
+}

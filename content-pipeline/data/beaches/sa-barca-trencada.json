@@ -1,0 +1,29 @@
+{
+  "slug": "sa-barca-trencada",
+  "name": "sa Barca Trencada",
+  "centroid_lat": 39.3527962,
+  "centroid_lng": 3.1981008,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/115736976",
+      "source_url": "https://www.openstreetmap.org/way/115736976"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24024503",
+      "source_url": "https://www.wikidata.org/wiki/Q24024503"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20Barca%20Trencada%2001.jpg"
+    }
+  }
+}

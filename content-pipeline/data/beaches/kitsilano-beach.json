@@ -1,0 +1,35 @@
+{
+  "slug": "kitsilano-beach",
+  "name": "Kitsilano Beach",
+  "centroid_lat": 49.2756821,
+  "centroid_lng": -123.1542891,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/86339711",
+      "source_url": "https://www.openstreetmap.org/way/86339711"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/648248373",
+      "source_url": "https://www.openstreetmap.org/way/648248373"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6418340",
+      "source_url": "https://www.wikidata.org/wiki/Q6418340"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kitsilano%20Beach%20Park%20Vancouver%20%2842912894340%29.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kitsilano_Beach"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "praia-da-baia-azul",
+  "name": "Praia da Baia Azul",
+  "centroid_lat": -12.6200594,
+  "centroid_lng": 13.2391831,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/235595886",
+      "source_url": "https://www.openstreetmap.org/way/235595886"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "permissive"
+    }
+  }
+}

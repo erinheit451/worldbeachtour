@@ -1,0 +1,29 @@
+{
+  "slug": "saquish-beach",
+  "name": "Saquish Beach",
+  "centroid_lat": 42.0008419,
+  "centroid_lng": -70.6209895,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1030795217",
+      "source_url": "https://www.openstreetmap.org/way/1030795217"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324633",
+      "source_url": "https://www.wikidata.org/wiki/Q49324633"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited"
+    }
+  }
+}

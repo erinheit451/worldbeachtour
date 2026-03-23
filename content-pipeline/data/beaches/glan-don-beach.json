@@ -1,0 +1,40 @@
+{
+  "slug": "glan-don-beach",
+  "name": "Glan Don Beach",
+  "centroid_lat": 52.8881,
+  "centroid_lng": -4.4033,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1076912595",
+      "source_url": "https://www.openstreetmap.org/way/1076912595"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1076982769",
+      "source_url": "https://www.openstreetmap.org/way/1076982769"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1323691756",
+      "source_url": "https://www.openstreetmap.org/way/1323691756"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q107356916",
+      "source_url": "https://www.wikidata.org/wiki/Q107356916"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/A%20north-easterly%20view%20on%20Glan-y-don%20Beach%2C%20Pwllheli%20-%20geograph.org.uk%20-%201030989.jpg"
+    }
+  }
+}

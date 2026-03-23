@@ -1,0 +1,29 @@
+{
+  "slug": "ringaringa-beach",
+  "name": "Ringaringa Beach",
+  "centroid_lat": -46.9052796,
+  "centroid_lng": 168.1435115,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/202891902",
+      "source_url": "https://www.openstreetmap.org/way/202891902"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324503",
+      "source_url": "https://www.wikidata.org/wiki/Q49324503"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ringaringa%20Beach%20Stewart%20Island.jpg"
+    }
+  }
+}

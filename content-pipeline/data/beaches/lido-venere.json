@@ -1,0 +1,73 @@
+{
+  "slug": "lido-venere",
+  "name": "Lido Venere",
+  "centroid_lat": 42.561975,
+  "centroid_lng": 14.1098088,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5603492558",
+      "source_url": "https://www.openstreetmap.org/node/5603492558"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5629473177",
+      "source_url": "https://www.openstreetmap.org/node/5629473177"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5631233199",
+      "source_url": "https://www.openstreetmap.org/node/5631233199"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5631233200",
+      "source_url": "https://www.openstreetmap.org/node/5631233200"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5631233201",
+      "source_url": "https://www.openstreetmap.org/node/5631233201"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/8871451513",
+      "source_url": "https://www.openstreetmap.org/node/8871451513"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT013067040005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT013067040001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT013067040005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT013067040001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

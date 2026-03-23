@@ -1,0 +1,25 @@
+{
+  "slug": "praia-ize",
+  "name": "Praia Izé",
+  "centroid_lat": 0.2159988,
+  "centroid_lng": 6.7253709,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/373327536",
+      "source_url": "https://www.openstreetmap.org/way/373327536"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/738382003",
+      "source_url": "https://www.openstreetmap.org/way/738382003"
+    }
+  ],
+  "attributes": {}
+}

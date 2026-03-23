@@ -1,0 +1,29 @@
+{
+  "slug": "cayo-jutia",
+  "name": "Cayo Jutía",
+  "centroid_lat": 22.7154025,
+  "centroid_lng": -84.0225768,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12276875515",
+      "source_url": "https://www.openstreetmap.org/node/12276875515"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/38702900",
+      "source_url": "https://www.openstreetmap.org/way/38702900"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

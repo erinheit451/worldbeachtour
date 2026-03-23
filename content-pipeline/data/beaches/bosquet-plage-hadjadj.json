@@ -1,0 +1,24 @@
+{
+  "slug": "bosquet-plage-hadjadj",
+  "name": "Bosquet plage Hadjadj",
+  "centroid_lat": 36.1394601,
+  "centroid_lng": 0.2905349,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/433842553",
+      "source_url": "https://www.openstreetmap.org/way/433842553"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": "May-Sep 09:30-12:30,14:15-19:30"
+    }
+  }
+}

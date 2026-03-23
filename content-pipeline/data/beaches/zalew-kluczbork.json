@@ -1,0 +1,35 @@
+{
+  "slug": "zalew-kluczbork",
+  "name": "ZALEW KLUCZBORK",
+  "centroid_lat": 50.96662,
+  "centroid_lng": 18.25754,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/128550618",
+      "source_url": "https://www.openstreetmap.org/way/128550618"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL5200803516000010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL5200803516000010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "glombo-brygge",
+  "name": "Glombo brygge",
+  "centroid_lat": 59.207173,
+  "centroid_lng": 10.9061958,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1460859476",
+      "source_url": "https://www.openstreetmap.org/way/1460859476"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

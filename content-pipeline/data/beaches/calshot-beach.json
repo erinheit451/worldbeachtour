@@ -1,0 +1,30 @@
+{
+  "slug": "calshot-beach",
+  "name": "Calshot Beach",
+  "centroid_lat": 50.8142584,
+  "centroid_lng": -1.3097717,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/667037406",
+      "source_url": "https://www.openstreetmap.org/way/667037406"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/964988182",
+      "source_url": "https://www.openstreetmap.org/way/964988182"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31844911",
+      "source_url": "https://www.wikidata.org/wiki/Q31844911"
+    }
+  ],
+  "attributes": {}
+}

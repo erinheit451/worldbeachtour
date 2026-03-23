@@ -1,0 +1,30 @@
+{
+  "slug": "playa-el-castrillon",
+  "name": "Playa El Castrillón",
+  "centroid_lat": 43.5848528,
+  "centroid_lng": -6.224847,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/493272372",
+      "source_url": "https://www.openstreetmap.org/way/493272372"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/656011796",
+      "source_url": "https://www.openstreetmap.org/way/656011796"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q19672842",
+      "source_url": "https://www.wikidata.org/wiki/Q19672842"
+    }
+  ],
+  "attributes": {}
+}

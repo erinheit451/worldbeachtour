@@ -1,0 +1,29 @@
+{
+  "slug": "ladies-bay-beach",
+  "name": "Ladies Bay Beach",
+  "centroid_lat": -36.8439915,
+  "centroid_lng": 174.8633455,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/129198178",
+      "source_url": "https://www.openstreetmap.org/way/129198178"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/912676140",
+      "source_url": "https://www.openstreetmap.org/way/912676140"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "permissive"
+    }
+  }
+}

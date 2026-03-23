@@ -1,0 +1,35 @@
+{
+  "slug": "sidac",
+  "name": "SIDAC",
+  "centroid_lat": 38.4312,
+  "centroid_lng": 15.8823,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/14481186",
+      "source_url": "https://www.openstreetmap.org/relation/14481186"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018080038003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018080038003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

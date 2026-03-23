@@ -1,0 +1,43 @@
+{
+  "slug": "playa-arenal-de-moris",
+  "name": "Playa Arenal de Morís",
+  "centroid_lat": 43.4754468,
+  "centroid_lng": -5.1748695,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/175664263",
+      "source_url": "https://www.openstreetmap.org/way/175664263"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q18812527",
+      "source_url": "https://www.wikidata.org/wiki/Q18812527"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES120M013460",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES120M013460",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Arenal%20de%20Mor%C3%ADs%20Beach.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

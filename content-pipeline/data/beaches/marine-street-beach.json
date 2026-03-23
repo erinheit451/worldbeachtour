@@ -1,0 +1,35 @@
+{
+  "slug": "marine-street-beach",
+  "name": "Marine Street Beach",
+  "centroid_lat": 32.8369919,
+  "centroid_lng": -117.2814266,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/358821894",
+      "source_url": "https://www.openstreetmap.org/node/358821894"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1014591044",
+      "source_url": "https://www.openstreetmap.org/way/1014591044"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6764225",
+      "source_url": "https://www.wikidata.org/wiki/Q6764225"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/San%20Diego%20La%20Jolla%20Marine%20Street%20Beach.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Marine_Street_Beach"
+    }
+  }
+}

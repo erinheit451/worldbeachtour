@@ -1,0 +1,53 @@
+{
+  "slug": "plage-des-barges",
+  "name": "Plage des Barges",
+  "centroid_lat": 47.517421,
+  "centroid_lng": -2.4964467,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/389843027",
+      "source_url": "https://www.openstreetmap.org/way/389843027"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/665163182",
+      "source_url": "https://www.openstreetmap.org/way/665163182"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/665163183",
+      "source_url": "https://www.openstreetmap.org/way/665163183"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q116979292",
+      "source_url": "https://www.wikidata.org/wiki/Q116979292"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0456018M056520",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0456018M056520",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Penn%20Lann%20-%20beach%20%2848586916401%29.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "plage-des-vallees",
+  "name": "Plage des Vallées",
+  "centroid_lat": 48.5974244,
+  "centroid_lng": -2.5363277,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/26774752",
+      "source_url": "https://www.openstreetmap.org/way/26774752"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0122186M022150",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0122186M022150",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

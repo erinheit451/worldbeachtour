@@ -1,0 +1,30 @@
+{
+  "slug": "veor-cove",
+  "name": "Veor Cove",
+  "centroid_lat": 50.1944557,
+  "centroid_lng": -5.581548,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/779052036",
+      "source_url": "https://www.openstreetmap.org/way/779052036"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7920693",
+      "source_url": "https://www.wikidata.org/wiki/Q7920693"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Veor%20cove%20zennor%20cornwall%2001.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Veor_Cove"
+    }
+  }
+}

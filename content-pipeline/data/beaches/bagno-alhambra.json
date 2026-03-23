@@ -1,0 +1,24 @@
+{
+  "slug": "bagno-alhambra",
+  "name": "Bagno Alhambra",
+  "centroid_lat": 43.8525003,
+  "centroid_lng": 10.2420996,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/702789490",
+      "source_url": "https://www.openstreetmap.org/way/702789490"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

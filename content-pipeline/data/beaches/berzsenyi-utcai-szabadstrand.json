@@ -1,0 +1,32 @@
+{
+  "slug": "berzsenyi-utcai-szabadstrand",
+  "name": "Berzsenyi utcai szabadstrand",
+  "centroid_lat": 46.8111075,
+  "centroid_lng": 17.7671754,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/228380573",
+      "source_url": "https://www.openstreetmap.org/way/228380573"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/834679273",
+      "source_url": "https://www.openstreetmap.org/way/834679273"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

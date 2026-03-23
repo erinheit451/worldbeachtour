@@ -1,0 +1,51 @@
+{
+  "slug": "baia-delle-rocce-verdi",
+  "name": "Baia delle Rocce Verdi",
+  "centroid_lat": 40.7973289,
+  "centroid_lng": 14.1986191,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1412685582",
+      "source_url": "https://www.openstreetmap.org/way/1412685582"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1414233917",
+      "source_url": "https://www.openstreetmap.org/way/1414233917"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1425940629",
+      "source_url": "https://www.openstreetmap.org/way/1425940629"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015063049007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015063049007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

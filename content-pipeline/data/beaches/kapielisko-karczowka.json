@@ -1,0 +1,40 @@
+{
+  "slug": "kapielisko-karczowka",
+  "name": "Kąpielisko Karczówka",
+  "centroid_lat": 51.3715125,
+  "centroid_lng": 21.594945,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12749566658",
+      "source_url": "https://www.openstreetmap.org/node/12749566658"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/957104040",
+      "source_url": "https://www.openstreetmap.org/way/957104040"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL1243605314000023",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL1243605314000023",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "cable-beach-6",
+  "name": "Cable Beach",
+  "centroid_lat": -17.9503297,
+  "centroid_lng": 122.1976994,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/3246681",
+      "source_url": "https://www.openstreetmap.org/relation/3246681"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q14205848",
+      "source_url": "https://www.wikidata.org/wiki/Q14205848"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cable%20beach%20Sunset%20with%20saling%20ship%205-5-2004%20-%20panoramio.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cable_Beach"
+    }
+  }
+}

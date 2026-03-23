@@ -1,0 +1,47 @@
+{
+  "slug": "kaimana-beach",
+  "name": "Kaimana beach",
+  "centroid_lat": 21.2633494,
+  "centroid_lng": -157.8218061,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/117315648",
+      "source_url": "https://www.openstreetmap.org/way/117315648"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1284546266",
+      "source_url": "https://www.openstreetmap.org/way/1284546266"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1284546267",
+      "source_url": "https://www.openstreetmap.org/way/1284546267"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49321433",
+      "source_url": "https://www.wikidata.org/wiki/Q49321433"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322411",
+      "source_url": "https://www.wikidata.org/wiki/Q49322411"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Outrigger%20Canoe%20Club.jpg"
+    }
+  }
+}

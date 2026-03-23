@@ -1,0 +1,25 @@
+{
+  "slug": "zavala",
+  "name": "Zavala",
+  "centroid_lat": 43.1237636,
+  "centroid_lng": 16.6971096,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/485941415",
+      "source_url": "https://www.openstreetmap.org/way/485941415"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/485941417",
+      "source_url": "https://www.openstreetmap.org/way/485941417"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "kenilworth-beach",
+  "name": "Kenilworth Beach",
+  "centroid_lat": 42.0938202,
+  "centroid_lng": -87.7084761,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/182282534",
+      "source_url": "https://www.openstreetmap.org/way/182282534"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

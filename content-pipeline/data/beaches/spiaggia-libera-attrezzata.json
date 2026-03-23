@@ -1,0 +1,83 @@
+{
+  "slug": "spiaggia-libera-attrezzata",
+  "name": "Spiaggia libera attrezzata",
+  "centroid_lat": 44.3606703,
+  "centroid_lng": 9.1425046,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7368327933",
+      "source_url": "https://www.openstreetmap.org/node/7368327933"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/51704499",
+      "source_url": "https://www.openstreetmap.org/way/51704499"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/353492690",
+      "source_url": "https://www.openstreetmap.org/way/353492690"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/773668899",
+      "source_url": "https://www.openstreetmap.org/way/773668899"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/773668901",
+      "source_url": "https://www.openstreetmap.org/way/773668901"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/773669265",
+      "source_url": "https://www.openstreetmap.org/way/773669265"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/773669673",
+      "source_url": "https://www.openstreetmap.org/way/773669673"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/773669674",
+      "source_url": "https://www.openstreetmap.org/way/773669674"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010047006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010047005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010047006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010047005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

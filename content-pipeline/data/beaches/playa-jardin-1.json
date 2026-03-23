@@ -1,0 +1,71 @@
+{
+  "slug": "playa-jardin-1",
+  "name": "Playa Jardín",
+  "centroid_lat": 28.4126068,
+  "centroid_lng": -16.5598812,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1092166803",
+      "source_url": "https://www.openstreetmap.org/way/1092166803"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1205891296",
+      "source_url": "https://www.openstreetmap.org/way/1205891296"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/15657772",
+      "source_url": "https://www.openstreetmap.org/relation/15657772"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/15657844",
+      "source_url": "https://www.openstreetmap.org/relation/15657844"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31920330",
+      "source_url": "https://www.wikidata.org/wiki/Q31920330"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES709M0281873",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES709M0282088",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES709M0281873",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES709M0282088",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Puerto%20de%20la%20Cruz%202019%20025.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

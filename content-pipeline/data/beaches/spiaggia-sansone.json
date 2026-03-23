@@ -1,0 +1,29 @@
+{
+  "slug": "spiaggia-sansone",
+  "name": "Spiaggia Sansone",
+  "centroid_lat": 42.8227595,
+  "centroid_lng": 10.2793193,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/65200942",
+      "source_url": "https://www.openstreetmap.org/way/65200942"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33340816",
+      "source_url": "https://www.wikidata.org/wiki/Q33340816"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Spiaggia%20di%20Sansone%20-%20panoramio%20%282%29.jpg"
+    }
+  }
+}

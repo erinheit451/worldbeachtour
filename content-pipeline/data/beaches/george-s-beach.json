@@ -1,0 +1,24 @@
+{
+  "slug": "george-s-beach",
+  "name": "George's Beach",
+  "centroid_lat": 42.3273981,
+  "centroid_lng": -88.0098253,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1347826764",
+      "source_url": "https://www.openstreetmap.org/way/1347826764"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

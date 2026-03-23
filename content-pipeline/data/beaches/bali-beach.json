@@ -1,0 +1,25 @@
+{
+  "slug": "bali-beach",
+  "name": "Bali Beach",
+  "centroid_lat": -33.9576101,
+  "centroid_lng": 18.3770033,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/481822650",
+      "source_url": "https://www.openstreetmap.org/way/481822650"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/481822654",
+      "source_url": "https://www.openstreetmap.org/way/481822654"
+    }
+  ],
+  "attributes": {}
+}

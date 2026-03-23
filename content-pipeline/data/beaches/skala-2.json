@@ -1,0 +1,35 @@
+{
+  "slug": "skala-2",
+  "name": "Σκάλα",
+  "centroid_lat": 39.2117463,
+  "centroid_lng": 20.4902024,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1177350708",
+      "source_url": "https://www.openstreetmap.org/way/1177350708"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1177350709",
+      "source_url": "https://www.openstreetmap.org/way/1177350709"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/2999593",
+      "source_url": "https://www.openstreetmap.org/relation/2999593"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/2999596",
+      "source_url": "https://www.openstreetmap.org/relation/2999596"
+    }
+  ],
+  "attributes": {}
+}

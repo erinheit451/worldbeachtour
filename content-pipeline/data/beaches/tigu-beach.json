@@ -1,0 +1,50 @@
+{
+  "slug": "tigu-beach",
+  "name": "Tigu Beach",
+  "centroid_lat": 44.2584658,
+  "centroid_lng": 9.4233776,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/313403499",
+      "source_url": "https://www.openstreetmap.org/way/313403499"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/846783757",
+      "source_url": "https://www.openstreetmap.org/way/846783757"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/846783758",
+      "source_url": "https://www.openstreetmap.org/way/846783758"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/17318447",
+      "source_url": "https://www.openstreetmap.org/relation/17318447"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010059007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010059007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

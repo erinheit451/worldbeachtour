@@ -1,0 +1,38 @@
+{
+  "slug": "terra-estreita",
+  "name": "TERRA ESTREITA",
+  "centroid_lat": 37.09767,
+  "centroid_lng": -7.64062,
+  "country_code": "PT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10352674",
+      "source_url": "https://www.wikidata.org/wiki/Q10352674"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCQ9T",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCQ9T",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Litoral%20entre%20a%20Praia%20do%20Barril%20e%20a%20Praia%20da%20Terra%20Estreita%20ou%20de%20Santa%20Luzia%20-%20Portugal%20%2816937549580%29.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

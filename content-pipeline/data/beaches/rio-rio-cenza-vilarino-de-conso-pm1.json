@@ -1,0 +1,30 @@
+{
+  "slug": "rio-rio-cenza-vilarino-de-conso-pm1",
+  "name": "RIO RÍO CENZA VILARIÑO DE CONSO PM1",
+  "centroid_lat": 42.1619,
+  "centroid_lng": -7.1828,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES113C0922148",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES113C0922148",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "strand-wellerwaard",
+  "name": "STRAND WELLERWAARD",
+  "centroid_lat": 52.74156,
+  "centroid_lng": 5.78022,
+  "country_code": "NL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/576086314",
+      "source_url": "https://www.openstreetmap.org/way/576086314"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/576086316",
+      "source_url": "https://www.openstreetmap.org/way/576086316"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW37_16CZ-183-01",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW37_16CZ-183-01",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

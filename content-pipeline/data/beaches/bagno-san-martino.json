@@ -1,0 +1,38 @@
+{
+  "slug": "bagno-san-martino",
+  "name": "Bagno San Martino",
+  "centroid_lat": 43.819514,
+  "centroid_lng": 7.7955717,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/705947160",
+      "source_url": "https://www.openstreetmap.org/way/705947160"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007008055018",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007008055018",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

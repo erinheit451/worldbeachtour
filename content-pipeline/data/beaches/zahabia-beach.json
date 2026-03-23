@@ -1,0 +1,39 @@
+{
+  "slug": "zahabia-beach",
+  "name": "Zahabia Beach",
+  "centroid_lat": 27.2451946,
+  "centroid_lng": 33.8461387,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/171486241",
+      "source_url": "https://www.openstreetmap.org/way/171486241"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/171486243",
+      "source_url": "https://www.openstreetmap.org/way/171486243"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/171770858",
+      "source_url": "https://www.openstreetmap.org/way/171770858"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/171770866",
+      "source_url": "https://www.openstreetmap.org/way/171770866"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "private"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "kahana-beach",
+  "name": "Kahana Beach",
+  "centroid_lat": 20.974444444,
+  "centroid_lng": -156.679166666,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/173108270",
+      "source_url": "https://www.openstreetmap.org/way/173108270"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49321365",
+      "source_url": "https://www.wikidata.org/wiki/Q49321365"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "plage-jean-dore",
+  "name": "Plage Jean-Doré",
+  "centroid_lat": 45.4996136,
+  "centroid_lng": -73.5245707,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/433148460",
+      "source_url": "https://www.openstreetmap.org/way/433148460"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/697865955",
+      "source_url": "https://www.openstreetmap.org/way/697865955"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q113244615",
+      "source_url": "https://www.wikidata.org/wiki/Q113244615"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plage%20du%20Parc%20Jean-Drapeau.jpg"
+    }
+  }
+}

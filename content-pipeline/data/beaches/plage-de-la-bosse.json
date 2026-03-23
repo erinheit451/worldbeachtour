@@ -1,0 +1,45 @@
+{
+  "slug": "plage-de-la-bosse",
+  "name": "Plage de la Bosse",
+  "centroid_lat": 46.9794719,
+  "centroid_lng": -2.2813864,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/602644162",
+      "source_url": "https://www.openstreetmap.org/way/602644162"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/602644164",
+      "source_url": "https://www.openstreetmap.org/way/602644164"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/602644167",
+      "source_url": "https://www.openstreetmap.org/way/602644167"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0585083M085100",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0585083M085100",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

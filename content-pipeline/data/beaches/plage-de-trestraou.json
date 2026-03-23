@@ -1,0 +1,43 @@
+{
+  "slug": "plage-de-trestraou",
+  "name": "Plage de Trestraou",
+  "centroid_lat": 48.8171151,
+  "centroid_lng": -3.4539598,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/121675782",
+      "source_url": "https://www.openstreetmap.org/way/121675782"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322696",
+      "source_url": "https://www.wikidata.org/wiki/Q49322696"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0122168M022430",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0122168M022430",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plage%20et%20quartier%20de%20Trestraou%20%282015%29.JPG"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

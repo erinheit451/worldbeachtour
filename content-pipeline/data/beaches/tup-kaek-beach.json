@@ -1,0 +1,39 @@
+{
+  "slug": "tup-kaek-beach",
+  "name": "Tup Kaek Beach",
+  "centroid_lat": 8.0945096,
+  "centroid_lng": 98.746881,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/259730809",
+      "source_url": "https://www.openstreetmap.org/way/259730809"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1029522081",
+      "source_url": "https://www.openstreetmap.org/way/1029522081"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49325063",
+      "source_url": "https://www.wikidata.org/wiki/Q49325063"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q137806287",
+      "source_url": "https://www.wikidata.org/wiki/Q137806287"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Tubkaek%20Beach%20SF0001.jpg"
+    }
+  }
+}

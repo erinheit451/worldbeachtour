@@ -1,0 +1,48 @@
+{
+  "slug": "lido-paradise-lago-di-cavedine",
+  "name": "Lido Paradise Lago di Cavedine",
+  "centroid_lat": 46.0006228,
+  "centroid_lng": 10.9537337,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/209876129",
+      "source_url": "https://www.openstreetmap.org/way/209876129"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1075169203",
+      "source_url": "https://www.openstreetmap.org/way/1075169203"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1241761095",
+      "source_url": "https://www.openstreetmap.org/way/1241761095"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT041022053001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT041022053001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

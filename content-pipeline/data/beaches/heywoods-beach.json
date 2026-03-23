@@ -1,0 +1,45 @@
+{
+  "slug": "heywoods-beach",
+  "name": "Heywoods Beach",
+  "centroid_lat": 13.2607675,
+  "centroid_lng": -59.6434671,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/95035889",
+      "source_url": "https://www.openstreetmap.org/way/95035889"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/95035890",
+      "source_url": "https://www.openstreetmap.org/way/95035890"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/284293507",
+      "source_url": "https://www.openstreetmap.org/way/284293507"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/838819704",
+      "source_url": "https://www.openstreetmap.org/way/838819704"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21746124",
+      "source_url": "https://www.wikidata.org/wiki/Q21746124"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Barbados%20-%20panoramio%20-%20Dawid%20Glawdzin.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Heywoods_Beach"
+    }
+  }
+}

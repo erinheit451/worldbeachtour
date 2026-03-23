@@ -1,0 +1,34 @@
+{
+  "slug": "strand2",
+  "name": "Strand2",
+  "centroid_lat": 52.2222368,
+  "centroid_lng": 13.7307567,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/77629048",
+      "source_url": "https://www.openstreetmap.org/way/77629048"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/77629165",
+      "source_url": "https://www.openstreetmap.org/way/77629165"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/159545735",
+      "source_url": "https://www.openstreetmap.org/way/159545735"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "private"
+    }
+  }
+}

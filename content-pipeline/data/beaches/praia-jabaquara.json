@@ -1,0 +1,29 @@
+{
+  "slug": "praia-jabaquara",
+  "name": "Praia Jabaquara",
+  "centroid_lat": -23.2064903,
+  "centroid_lng": -44.7181011,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/9681395",
+      "source_url": "https://www.openstreetmap.org/relation/9681395"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25442662",
+      "source_url": "https://www.wikidata.org/wiki/Q25442662"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Paraty%20RJ%2C%20panor%C3%A2mica%20praia%20do%20Jabquara%20pr%C3%B3ximo%20ao%20Forte%20do%20Pontal%20-%20panoramio.jpg"
+    }
+  }
+}

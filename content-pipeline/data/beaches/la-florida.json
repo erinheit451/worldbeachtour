@@ -1,0 +1,49 @@
+{
+  "slug": "la-florida",
+  "name": "La Florida",
+  "centroid_lat": 42.6025812,
+  "centroid_lng": 14.073999,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/8726240747",
+      "source_url": "https://www.openstreetmap.org/node/8726240747"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/8726240748",
+      "source_url": "https://www.openstreetmap.org/node/8726240748"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/8726240749",
+      "source_url": "https://www.openstreetmap.org/node/8726240749"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/8726240750",
+      "source_url": "https://www.openstreetmap.org/node/8726240750"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/8726240751",
+      "source_url": "https://www.openstreetmap.org/node/8726240751"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/926193315",
+      "source_url": "https://www.openstreetmap.org/way/926193315"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

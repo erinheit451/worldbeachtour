@@ -1,0 +1,27 @@
+{
+  "slug": "revierstrand-dortmund",
+  "name": "Revierstrand Dortmund",
+  "centroid_lat": 51.5203501,
+  "centroid_lng": 7.4046125,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1280843544",
+      "source_url": "https://www.openstreetmap.org/way/1280843544"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "customers"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "playa-cala-martina-pm1",
+  "name": "PLAYA CALA MARTINA PM1",
+  "centroid_lat": 38.9911,
+  "centroid_lng": 1.5726,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q11910846",
+      "source_url": "https://www.wikidata.org/wiki/Q11910846"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES531M0542288",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES531M0542288",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20Marlina%2C%20Sata%20Eulalia%2C%20Ibiza%20Friday%2021%20June%202013.JPG"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

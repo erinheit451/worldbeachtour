@@ -1,0 +1,49 @@
+{
+  "slug": "praia-do-martinhal",
+  "name": "Praia do Martinhal",
+  "centroid_lat": 37.018518,
+  "centroid_lng": -8.925617,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1254208003",
+      "source_url": "https://www.openstreetmap.org/way/1254208003"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324135",
+      "source_url": "https://www.wikidata.org/wiki/Q49324135"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCN8E",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCN8E",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/July%20Beaches%20Sagres%20Portugal%20-%20Geo%20Photography%201989%20End%20of%20Europe%20Atlantic%20Ocean%20-%20panoramio.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

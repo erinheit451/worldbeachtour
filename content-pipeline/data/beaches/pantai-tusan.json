@@ -1,0 +1,24 @@
+{
+  "slug": "pantai-tusan",
+  "name": "Pantai Tusan",
+  "centroid_lat": 4.1261214,
+  "centroid_lng": 113.8220291,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1320110814",
+      "source_url": "https://www.openstreetmap.org/way/1320110814"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "plage-de-l-atlantique",
+  "name": "Plage de l'Atlantique",
+  "centroid_lat": 46.3439318,
+  "centroid_lng": -1.4103538,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/8983316151",
+      "source_url": "https://www.openstreetmap.org/node/8983316151"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

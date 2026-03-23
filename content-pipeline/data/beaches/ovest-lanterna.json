@@ -1,0 +1,45 @@
+{
+  "slug": "ovest-lanterna",
+  "name": "OVEST LANTERNA",
+  "centroid_lat": 37.0645,
+  "centroid_lng": 14.2444,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/182162114",
+      "source_url": "https://www.openstreetmap.org/way/182162114"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/553684921",
+      "source_url": "https://www.openstreetmap.org/way/553684921"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/553684922",
+      "source_url": "https://www.openstreetmap.org/way/553684922"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019085007008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019085007008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

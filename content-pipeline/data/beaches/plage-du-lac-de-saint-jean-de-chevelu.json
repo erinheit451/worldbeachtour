@@ -1,0 +1,35 @@
+{
+  "slug": "plage-du-lac-de-saint-jean-de-chevelu",
+  "name": "Plage du Lac de Saint-Jean de Chevelu",
+  "centroid_lat": 45.694917,
+  "centroid_lng": 5.8249259,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/320783120",
+      "source_url": "https://www.openstreetmap.org/way/320783120"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2773245D073080",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2773245D073080",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

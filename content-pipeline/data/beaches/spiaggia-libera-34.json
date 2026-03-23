@@ -1,0 +1,44 @@
+{
+  "slug": "spiaggia-libera-34",
+  "name": "Spiaggia libera",
+  "centroid_lat": 44.3912185,
+  "centroid_lng": 8.6697602,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/128269186",
+      "source_url": "https://www.openstreetmap.org/way/128269186"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/178438483",
+      "source_url": "https://www.openstreetmap.org/way/178438483"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010001004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010001004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes",
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

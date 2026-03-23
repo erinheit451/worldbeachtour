@@ -1,0 +1,27 @@
+{
+  "slug": "pasir-teluk-kalong-kechil",
+  "name": "Pasir Teluk Kalong Kechil",
+  "centroid_lat": 5.7634857,
+  "centroid_lng": 103.0269596,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/971393686",
+      "source_url": "https://www.openstreetmap.org/way/971393686"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

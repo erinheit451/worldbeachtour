@@ -1,0 +1,29 @@
+{
+  "slug": "plage-le-mentor",
+  "name": "plage Le Mentor",
+  "centroid_lat": 47.581667,
+  "centroid_lng": -3.1418686,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12118363685",
+      "source_url": "https://www.openstreetmap.org/node/12118363685"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q129262824",
+      "source_url": "https://www.wikidata.org/wiki/Q129262824"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Morbihan%20Plouharnel%20Le%20Mentor%20Plage%20Dune%20Vue%20Quiberon%2023032016%20-%20panoramio.jpg"
+    }
+  }
+}

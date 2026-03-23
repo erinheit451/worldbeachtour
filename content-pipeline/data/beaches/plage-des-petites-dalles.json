@@ -1,0 +1,40 @@
+{
+  "slug": "plage-des-petites-dalles",
+  "name": "plage des Petites Dalles",
+  "centroid_lat": 49.8253729,
+  "centroid_lng": 0.5238776,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/13095246543",
+      "source_url": "https://www.openstreetmap.org/node/13095246543"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/199084804",
+      "source_url": "https://www.openstreetmap.org/way/199084804"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD2276613M076263",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD2276613M076263",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

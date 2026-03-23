@@ -1,0 +1,110 @@
+{
+  "slug": "flogita-1",
+  "name": "FLOGITA",
+  "centroid_lat": 40.2558,
+  "centroid_lng": 23.2205,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/669547736",
+      "source_url": "https://www.openstreetmap.org/way/669547736"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/669547737",
+      "source_url": "https://www.openstreetmap.org/way/669547737"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/814928452",
+      "source_url": "https://www.openstreetmap.org/way/814928452"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/814928571",
+      "source_url": "https://www.openstreetmap.org/way/814928571"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/814928572",
+      "source_url": "https://www.openstreetmap.org/way/814928572"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/814929210",
+      "source_url": "https://www.openstreetmap.org/way/814929210"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1375805192",
+      "source_url": "https://www.openstreetmap.org/way/1375805192"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1375805193",
+      "source_url": "https://www.openstreetmap.org/way/1375805193"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1375805194",
+      "source_url": "https://www.openstreetmap.org/way/1375805194"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1375805195",
+      "source_url": "https://www.openstreetmap.org/way/1375805195"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1375805196",
+      "source_url": "https://www.openstreetmap.org/way/1375805196"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1375805197",
+      "source_url": "https://www.openstreetmap.org/way/1375805197"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1375805198",
+      "source_url": "https://www.openstreetmap.org/way/1375805198"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1375805199",
+      "source_url": "https://www.openstreetmap.org/way/1375805199"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1375805200",
+      "source_url": "https://www.openstreetmap.org/way/1375805200"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53631595",
+      "source_url": "https://www.wikidata.org/wiki/Q53631595"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109058056101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109058056101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

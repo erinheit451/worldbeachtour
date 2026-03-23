@@ -1,0 +1,29 @@
+{
+  "slug": "kokkoniemen-uimaranta",
+  "name": "Kokkoniemen uimaranta",
+  "centroid_lat": 64.1279387,
+  "centroid_lng": 25.3673357,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/680668654",
+      "source_url": "https://www.openstreetmap.org/way/680668654"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/716200317",
+      "source_url": "https://www.openstreetmap.org/way/716200317"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

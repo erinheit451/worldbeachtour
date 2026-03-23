@@ -1,0 +1,25 @@
+{
+  "slug": "phillips-beach",
+  "name": "Phillips Beach",
+  "centroid_lat": 42.471326,
+  "centroid_lng": -70.885248,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/81995034",
+      "source_url": "https://www.openstreetmap.org/way/81995034"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322517",
+      "source_url": "https://www.wikidata.org/wiki/Q49322517"
+    }
+  ],
+  "attributes": {}
+}

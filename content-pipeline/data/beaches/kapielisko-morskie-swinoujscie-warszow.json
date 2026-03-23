@@ -1,0 +1,30 @@
+{
+  "slug": "kapielisko-morskie-swinoujscie-warszow",
+  "name": "KĄPIELISKO MORSKIE ŚWINOUJŚCIE WARSZÓW",
+  "centroid_lat": 53.91596,
+  "centroid_lng": 14.31043,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4216301132000152",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4216301132000152",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

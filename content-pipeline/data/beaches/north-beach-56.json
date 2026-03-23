@@ -1,0 +1,30 @@
+{
+  "slug": "north-beach-56",
+  "name": "North Beach",
+  "centroid_lat": 34.0446964,
+  "centroid_lng": -118.9412237,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1082454800",
+      "source_url": "https://www.openstreetmap.org/way/1082454800"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/6001068",
+      "source_url": "https://www.openstreetmap.org/relation/6001068"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322270",
+      "source_url": "https://www.wikidata.org/wiki/Q49322270"
+    }
+  ],
+  "attributes": {}
+}

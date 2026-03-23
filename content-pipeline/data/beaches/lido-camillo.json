@@ -1,0 +1,79 @@
+{
+  "slug": "lido-camillo",
+  "name": "Lido Camillo",
+  "centroid_lat": 40.1478128,
+  "centroid_lng": 18.4877029,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11037925741",
+      "source_url": "https://www.openstreetmap.org/node/11037925741"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/11037925743",
+      "source_url": "https://www.openstreetmap.org/node/11037925743"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/148894770",
+      "source_url": "https://www.openstreetmap.org/way/148894770"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/415632514",
+      "source_url": "https://www.openstreetmap.org/way/415632514"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/415632515",
+      "source_url": "https://www.openstreetmap.org/way/415632515"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/540994825",
+      "source_url": "https://www.openstreetmap.org/way/540994825"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/540994826",
+      "source_url": "https://www.openstreetmap.org/way/540994826"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016075057025",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016075057012",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016075057025",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016075057012",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited",
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

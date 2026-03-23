@@ -1,0 +1,25 @@
+{
+  "slug": "goftons-beach",
+  "name": "Goftons Beach",
+  "centroid_lat": -41.0000754,
+  "centroid_lng": 147.3949741,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/303299840",
+      "source_url": "https://www.openstreetmap.org/way/303299840"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956171",
+      "source_url": "https://www.wikidata.org/wiki/Q21956171"
+    }
+  ],
+  "attributes": {}
+}

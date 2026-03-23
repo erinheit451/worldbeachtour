@@ -1,0 +1,25 @@
+{
+  "slug": "shl-gyswm",
+  "name": "ساحل گیسوم",
+  "centroid_lat": 37.6777812,
+  "centroid_lng": 49.051257,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/14034359",
+      "source_url": "https://www.openstreetmap.org/relation/14034359"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31862456",
+      "source_url": "https://www.wikidata.org/wiki/Q31862456"
+    }
+  ],
+  "attributes": {}
+}

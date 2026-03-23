@@ -1,0 +1,29 @@
+{
+  "slug": "silver-lake-town-beach",
+  "name": "Silver Lake Town Beach",
+  "centroid_lat": 42.5641238,
+  "centroid_lng": -71.1892936,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2018382",
+      "source_url": "https://www.openstreetmap.org/relation/2018382"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324772",
+      "source_url": "https://www.wikidata.org/wiki/Q49324772"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

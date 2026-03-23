@@ -1,0 +1,44 @@
+{
+  "slug": "playa-urbana",
+  "name": "Playa urbana",
+  "centroid_lat": 43.2987603,
+  "centroid_lng": -2.9784951,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/622766696",
+      "source_url": "https://www.openstreetmap.org/way/622766696"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/622766698",
+      "source_url": "https://www.openstreetmap.org/way/622766698"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/622766700",
+      "source_url": "https://www.openstreetmap.org/way/622766700"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/622766702",
+      "source_url": "https://www.openstreetmap.org/way/622766702"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1375378671",
+      "source_url": "https://www.openstreetmap.org/way/1375378671"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

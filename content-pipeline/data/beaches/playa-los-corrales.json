@@ -1,0 +1,32 @@
+{
+  "slug": "playa-los-corrales",
+  "name": "Playa Los Corrales",
+  "centroid_lat": 10.609003,
+  "centroid_lng": -66.1660439,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/12846742",
+      "source_url": "https://www.openstreetmap.org/relation/12846742"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31996683",
+      "source_url": "https://www.wikidata.org/wiki/Q31996683"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

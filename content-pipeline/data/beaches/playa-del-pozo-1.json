@@ -1,0 +1,42 @@
+{
+  "slug": "playa-del-pozo-1",
+  "name": "Playa del Pozo",
+  "centroid_lat": 28.8474719,
+  "centroid_lng": -13.7897214,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/27426122",
+      "source_url": "https://www.openstreetmap.org/way/27426122"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/154060548",
+      "source_url": "https://www.openstreetmap.org/way/154060548"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/364650502",
+      "source_url": "https://www.openstreetmap.org/way/364650502"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/364650503",
+      "source_url": "https://www.openstreetmap.org/way/364650503"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "customary"
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

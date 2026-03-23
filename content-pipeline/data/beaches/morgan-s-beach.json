@@ -1,0 +1,25 @@
+{
+  "slug": "morgan-s-beach",
+  "name": "Morgan's Beach",
+  "centroid_lat": -35.594177,
+  "centroid_lng": 138.1055189,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/436845642",
+      "source_url": "https://www.openstreetmap.org/way/436845642"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956465",
+      "source_url": "https://www.wikidata.org/wiki/Q21956465"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "rainbow-beach-1",
+  "name": "Rainbow Beach",
+  "centroid_lat": 17.7342197,
+  "centroid_lng": -64.8895124,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/356559485",
+      "source_url": "https://www.openstreetmap.org/node/356559485"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/18131003",
+      "source_url": "https://www.openstreetmap.org/relation/18131003"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q32005953",
+      "source_url": "https://www.wikidata.org/wiki/Q32005953"
+    }
+  ],
+  "attributes": {}
+}

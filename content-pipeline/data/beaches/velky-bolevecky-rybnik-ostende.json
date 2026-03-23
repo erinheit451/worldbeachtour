@@ -1,0 +1,71 @@
+{
+  "slug": "velky-bolevecky-rybnik-ostende",
+  "name": "VELKÝ BOLEVECKÝ RYBNÍK - OSTENDE",
+  "centroid_lat": 49.7753,
+  "centroid_lng": 13.3994,
+  "country_code": "CZ",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/127000417",
+      "source_url": "https://www.openstreetmap.org/way/127000417"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1195618121",
+      "source_url": "https://www.openstreetmap.org/way/1195618121"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1195618124",
+      "source_url": "https://www.openstreetmap.org/way/1195618124"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1195618125",
+      "source_url": "https://www.openstreetmap.org/way/1195618125"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1195621997",
+      "source_url": "https://www.openstreetmap.org/way/1195621997"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZKO320906",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZKO320905",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZKO320906",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZKO320905",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "social": {
+      "nudist": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

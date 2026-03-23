@@ -1,0 +1,24 @@
+{
+  "slug": "pliazh-smena",
+  "name": "Пляж Смена",
+  "centroid_lat": 44.6443494,
+  "centroid_lng": 37.9301465,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/177331519",
+      "source_url": "https://www.openstreetmap.org/way/177331519"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

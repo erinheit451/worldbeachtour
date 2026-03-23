@@ -1,0 +1,29 @@
+{
+  "slug": "sharp-park-beach",
+  "name": "Sharp Park Beach",
+  "centroid_lat": 37.6286899,
+  "centroid_lng": -122.4957572,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1567666",
+      "source_url": "https://www.openstreetmap.org/relation/1567666"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324710",
+      "source_url": "https://www.wikidata.org/wiki/Q49324710"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sharp%20Park%2C%20Pacifica%2C%20CA%2C%20USA%20-%20panoramio%20%282%29.jpg"
+    }
+  }
+}

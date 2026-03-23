@@ -1,0 +1,32 @@
+{
+  "slug": "playa-la-zorra",
+  "name": "Playa La Zorra",
+  "centroid_lat": 10.5981431,
+  "centroid_lng": -67.0454302,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1179820196",
+      "source_url": "https://www.openstreetmap.org/way/1179820196"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited",
+      "fee_required": false,
+      "access": "yes"
+    },
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "playa-corralejo-viejo-sur-la-goleta-pm1",
+  "name": "PLAYA CORRALEJO VIEJO (SUR LA GOLETA) PM1",
+  "centroid_lat": 28.7339,
+  "centroid_lng": -13.8665,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES704M0141732",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES704M0141732",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

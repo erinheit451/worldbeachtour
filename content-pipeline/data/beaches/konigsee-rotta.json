@@ -1,0 +1,35 @@
+{
+  "slug": "konigsee-rotta",
+  "name": "KÖNIGSEE ROTTA",
+  "centroid_lat": 51.7519,
+  "centroid_lng": 12.571,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/717936140",
+      "source_url": "https://www.openstreetmap.org/way/717936140"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEST_PR_0065",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEST_PR_0065",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

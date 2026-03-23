@@ -1,0 +1,32 @@
+{
+  "slug": "cala-los-cocedores",
+  "name": "Cala Los Cocedores",
+  "centroid_lat": 37.374916,
+  "centroid_lng": -1.6297735,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1459077450",
+      "source_url": "https://www.openstreetmap.org/way/1459077450"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q30906651",
+      "source_url": "https://www.wikidata.org/wiki/Q30906651"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20los%20Cocedores%20%28%C3%81guilas%2C%20Murcia%29.jpg"
+    }
+  }
+}

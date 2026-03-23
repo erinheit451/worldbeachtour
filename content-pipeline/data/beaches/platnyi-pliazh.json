@@ -1,0 +1,40 @@
+{
+  "slug": "platnyi-pliazh",
+  "name": "Платный пляж",
+  "centroid_lat": 46.9649986,
+  "centroid_lng": 39.6852669,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/38531986",
+      "source_url": "https://www.openstreetmap.org/way/38531986"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/38531987",
+      "source_url": "https://www.openstreetmap.org/way/38531987"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1305550833",
+      "source_url": "https://www.openstreetmap.org/way/1305550833"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "social": {
+      "nudist": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

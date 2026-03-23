@@ -1,0 +1,32 @@
+{
+  "slug": "ilig-iligan-beach",
+  "name": "Ilig Iligan Beach",
+  "centroid_lat": 11.9943372,
+  "centroid_lng": 121.925196,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/24043698",
+      "source_url": "https://www.openstreetmap.org/way/24043698"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31585113",
+      "source_url": "https://www.wikidata.org/wiki/Q31585113"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/View%20from%20Ilig-Iligan%20beach%20%2852263095569%29.jpg"
+    }
+  }
+}

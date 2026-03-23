@@ -1,0 +1,39 @@
+{
+  "slug": "boomer-beach",
+  "name": "Boomer Beach",
+  "centroid_lat": 32.8507105,
+  "centroid_lng": -117.2740537,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/358780995",
+      "source_url": "https://www.openstreetmap.org/node/358780995"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1213977561",
+      "source_url": "https://www.openstreetmap.org/way/1213977561"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/7102574",
+      "source_url": "https://www.openstreetmap.org/relation/7102574"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320220",
+      "source_url": "https://www.wikidata.org/wiki/Q49320220"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/People%20on%20the%20beach%20in%20La%20Jolla%20%2870338%29.jpg"
+    }
+  }
+}

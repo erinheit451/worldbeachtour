@@ -1,0 +1,30 @@
+{
+  "slug": "eglin-beach-park",
+  "name": "Eglin Beach Park",
+  "centroid_lat": 30.3884642,
+  "centroid_lng": -86.5268955,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/717941744",
+      "source_url": "https://www.openstreetmap.org/way/717941744"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/717941745",
+      "source_url": "https://www.openstreetmap.org/way/717941745"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true,
+      "access": "private"
+    }
+  }
+}

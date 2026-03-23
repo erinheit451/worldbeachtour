@@ -1,0 +1,35 @@
+{
+  "slug": "neimporio",
+  "name": "NEIMPORIO",
+  "centroid_lat": 37.8422,
+  "centroid_lng": 24.935,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/841978037",
+      "source_url": "https://www.openstreetmap.org/way/841978037"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149268002101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149268002101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

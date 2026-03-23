@@ -1,0 +1,40 @@
+{
+  "slug": "plage-de-la-galiote",
+  "name": "Plage de la Galiote",
+  "centroid_lat": 43.3928729,
+  "centroid_lng": 6.7282042,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/96491287",
+      "source_url": "https://www.openstreetmap.org/way/96491287"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322630",
+      "source_url": "https://www.wikidata.org/wiki/Q49322630"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0583061M083690",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0583061M083690",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

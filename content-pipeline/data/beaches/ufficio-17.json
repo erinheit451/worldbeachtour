@@ -1,0 +1,32 @@
+{
+  "slug": "ufficio-17",
+  "name": "Ufficio 17",
+  "centroid_lat": 45.6800865,
+  "centroid_lng": 13.1324479,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1091967241",
+      "source_url": "https://www.openstreetmap.org/way/1091967241"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1296953465",
+      "source_url": "https://www.openstreetmap.org/way/1296953465"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

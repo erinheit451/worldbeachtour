@@ -1,0 +1,40 @@
+{
+  "slug": "lido-di-meina",
+  "name": "LIDO DI MEINA",
+  "centroid_lat": 45.7955,
+  "centroid_lng": 8.54,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/925507129",
+      "source_url": "https://www.openstreetmap.org/way/925507129"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/925507130",
+      "source_url": "https://www.openstreetmap.org/way/925507130"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT001003095002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT001003095002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

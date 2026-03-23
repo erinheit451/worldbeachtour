@@ -1,0 +1,30 @@
+{
+  "slug": "lyons-beach-1",
+  "name": "Lyons Beach",
+  "centroid_lat": 43.5531431,
+  "centroid_lng": -65.7756302,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1145160211",
+      "source_url": "https://www.openstreetmap.org/node/1145160211"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/98981113",
+      "source_url": "https://www.openstreetmap.org/way/98981113"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22613734",
+      "source_url": "https://www.wikidata.org/wiki/Q22613734"
+    }
+  ],
+  "attributes": {}
+}

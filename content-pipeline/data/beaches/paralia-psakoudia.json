@@ -1,0 +1,108 @@
+{
+  "slug": "paralia-psakoudia",
+  "name": "Παραλία Ψακούδια",
+  "centroid_lat": 40.2589856,
+  "centroid_lng": 23.4919643,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/407592717",
+      "source_url": "https://www.openstreetmap.org/way/407592717"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/407592967",
+      "source_url": "https://www.openstreetmap.org/way/407592967"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/812814317",
+      "source_url": "https://www.openstreetmap.org/way/812814317"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/812814318",
+      "source_url": "https://www.openstreetmap.org/way/812814318"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/812814319",
+      "source_url": "https://www.openstreetmap.org/way/812814319"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/812814755",
+      "source_url": "https://www.openstreetmap.org/way/812814755"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/812814756",
+      "source_url": "https://www.openstreetmap.org/way/812814756"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/812814757",
+      "source_url": "https://www.openstreetmap.org/way/812814757"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/812814758",
+      "source_url": "https://www.openstreetmap.org/way/812814758"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/812815065",
+      "source_url": "https://www.openstreetmap.org/way/812815065"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/812815066",
+      "source_url": "https://www.openstreetmap.org/way/812815066"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/812815067",
+      "source_url": "https://www.openstreetmap.org/way/812815067"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/812816026",
+      "source_url": "https://www.openstreetmap.org/way/812816026"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109059060101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109059061101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109059060101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109059061101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

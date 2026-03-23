@@ -1,0 +1,30 @@
+{
+  "slug": "spindle-cove",
+  "name": "Spindle Cove",
+  "centroid_lat": 44.1306201,
+  "centroid_lng": -68.4443518,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/345763556",
+      "source_url": "https://www.openstreetmap.org/way/345763556"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/345767692",
+      "source_url": "https://www.openstreetmap.org/way/345767692"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/345772785",
+      "source_url": "https://www.openstreetmap.org/way/345772785"
+    }
+  ],
+  "attributes": {}
+}

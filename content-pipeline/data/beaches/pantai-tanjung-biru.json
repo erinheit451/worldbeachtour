@@ -1,0 +1,29 @@
+{
+  "slug": "pantai-tanjung-biru",
+  "name": "Pantai Tanjung Biru",
+  "centroid_lat": 2.4153769,
+  "centroid_lng": 101.8558862,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/494766304",
+      "source_url": "https://www.openstreetmap.org/way/494766304"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33328302",
+      "source_url": "https://www.wikidata.org/wiki/Q33328302"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

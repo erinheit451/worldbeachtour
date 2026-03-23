@@ -1,0 +1,43 @@
+{
+  "slug": "badestelle-schutting",
+  "name": "Badestelle Schütting",
+  "centroid_lat": 54.5028422,
+  "centroid_lng": 8.6034411,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/81298657",
+      "source_url": "https://www.openstreetmap.org/way/81298657"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/202644371",
+      "source_url": "https://www.openstreetmap.org/way/202644371"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DESH_PR_0052",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DESH_PR_0052",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "plage-du-centre-1",
+  "name": "Plage du Centre",
+  "centroid_lat": 48.6324749,
+  "centroid_lng": -2.4691579,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/9583186",
+      "source_url": "https://www.openstreetmap.org/relation/9583186"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0122054M022120",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0122054M022120",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

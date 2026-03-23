@@ -1,0 +1,30 @@
+{
+  "slug": "es-bol-nou",
+  "name": "Es Bol Nou",
+  "centroid_lat": 38.868015,
+  "centroid_lng": 1.332014,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/536405145",
+      "source_url": "https://www.openstreetmap.org/way/536405145"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1278748433",
+      "source_url": "https://www.openstreetmap.org/way/1278748433"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q17601477",
+      "source_url": "https://www.wikidata.org/wiki/Q17601477"
+    }
+  ],
+  "attributes": {}
+}

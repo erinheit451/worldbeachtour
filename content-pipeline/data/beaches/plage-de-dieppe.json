@@ -1,0 +1,30 @@
+{
+  "slug": "plage-de-dieppe",
+  "name": "Plage de Dieppe",
+  "centroid_lat": 49.9292246,
+  "centroid_lng": 1.0724885,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/176438492",
+      "source_url": "https://www.openstreetmap.org/way/176438492"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q30061303",
+      "source_url": "https://www.wikidata.org/wiki/Q30061303"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Dieppe%2C%20F-76%20%2848348774796%29.jpg"
+    }
+  }
+}

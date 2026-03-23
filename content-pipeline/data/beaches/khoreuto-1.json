@@ -1,0 +1,58 @@
+{
+  "slug": "khoreuto-1",
+  "name": "Χορευτό",
+  "centroid_lat": 39.4541918,
+  "centroid_lng": 23.1241992,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/124979369",
+      "source_url": "https://www.openstreetmap.org/way/124979369"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/707587429",
+      "source_url": "https://www.openstreetmap.org/way/707587429"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/707587430",
+      "source_url": "https://www.openstreetmap.org/way/707587430"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/707587431",
+      "source_url": "https://www.openstreetmap.org/way/707587431"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25162365",
+      "source_url": "https://www.wikidata.org/wiki/Q25162365"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW089106038101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW089106038101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/%CE%A7%CE%9F%CE%A1%CE%95%CE%A5%CE%A4%CE%9F%20%CE%A0%CE%97%CE%9B%CE%95%CE%99%CE%9F%CE%A5.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

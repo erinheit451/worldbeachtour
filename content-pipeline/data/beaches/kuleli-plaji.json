@@ -1,0 +1,25 @@
+{
+  "slug": "kuleli-plaji",
+  "name": "Kuleli Plajı",
+  "centroid_lat": 36.6429019,
+  "centroid_lng": 29.0763629,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/187043240",
+      "source_url": "https://www.openstreetmap.org/way/187043240"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/187043263",
+      "source_url": "https://www.openstreetmap.org/way/187043263"
+    }
+  ],
+  "attributes": {}
+}

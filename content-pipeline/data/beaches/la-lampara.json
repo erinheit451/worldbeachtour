@@ -1,0 +1,51 @@
+{
+  "slug": "la-lampara",
+  "name": "La Lampara",
+  "centroid_lat": 42.4930389,
+  "centroid_lng": 14.1861023,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/418074985",
+      "source_url": "https://www.openstreetmap.org/node/418074985"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/124527121",
+      "source_url": "https://www.openstreetmap.org/way/124527121"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/459615614",
+      "source_url": "https://www.openstreetmap.org/way/459615614"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/883262180",
+      "source_url": "https://www.openstreetmap.org/way/883262180"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1132927907",
+      "source_url": "https://www.openstreetmap.org/way/1132927907"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/12000787",
+      "source_url": "https://www.openstreetmap.org/relation/12000787"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true,
+      "fee_required": true,
+      "access": "yes"
+    }
+  }
+}

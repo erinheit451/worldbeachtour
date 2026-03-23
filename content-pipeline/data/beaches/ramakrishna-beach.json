@@ -1,0 +1,33 @@
+{
+  "slug": "ramakrishna-beach",
+  "name": "Ramakrishna Beach",
+  "centroid_lat": 17.712103,
+  "centroid_lng": 83.3221954,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/63133082",
+      "source_url": "https://www.openstreetmap.org/way/63133082"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7288804",
+      "source_url": "https://www.wikidata.org/wiki/Q7288804"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/RK%20Beach%20Visakhapatnam%20Nov%202012%20-%2002.JPG",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/RK_Beach"
+    }
+  }
+}

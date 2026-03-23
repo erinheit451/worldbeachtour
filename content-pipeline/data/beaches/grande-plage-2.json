@@ -1,0 +1,35 @@
+{
+  "slug": "grande-plage-2",
+  "name": "Grande Plage",
+  "centroid_lat": 46.3417603,
+  "centroid_lng": -1.4330944,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/40297783",
+      "source_url": "https://www.openstreetmap.org/way/40297783"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0585294M085365",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0585294M085365",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "yellow-strand",
+  "name": "Yellow Strand",
+  "centroid_lat": 54.3403415,
+  "centroid_lng": -8.6579159,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2366526",
+      "source_url": "https://www.openstreetmap.org/relation/2366526"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q26717877",
+      "source_url": "https://www.wikidata.org/wiki/Q26717877"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "permissive"
+    }
+  }
+}

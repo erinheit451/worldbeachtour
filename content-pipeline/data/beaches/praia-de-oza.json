@@ -1,0 +1,29 @@
+{
+  "slug": "praia-de-oza",
+  "name": "Praia de Oza",
+  "centroid_lat": 43.3468031,
+  "centroid_lng": -8.3829376,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/114036549",
+      "source_url": "https://www.openstreetmap.org/way/114036549"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q12398085",
+      "source_url": "https://www.wikidata.org/wiki/Q12398085"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/PraiadeOzaACoru%C3%B1a1.jpg"
+    }
+  }
+}

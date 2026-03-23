@@ -1,0 +1,27 @@
+{
+  "slug": "strandbad-mitte",
+  "name": "Strandbad Mitte",
+  "centroid_lat": 52.2912892,
+  "centroid_lng": 14.0502558,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/352899336",
+      "source_url": "https://www.openstreetmap.org/way/352899336"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

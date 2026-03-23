@@ -1,0 +1,25 @@
+{
+  "slug": "bassing-beach",
+  "name": "Bassing Beach",
+  "centroid_lat": 42.2411676,
+  "centroid_lng": -70.7802413,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/9375667",
+      "source_url": "https://www.openstreetmap.org/relation/9375667"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320142",
+      "source_url": "https://www.wikidata.org/wiki/Q49320142"
+    }
+  ],
+  "attributes": {}
+}

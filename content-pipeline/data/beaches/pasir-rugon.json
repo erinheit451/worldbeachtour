@@ -1,0 +1,25 @@
+{
+  "slug": "pasir-rugon",
+  "name": "Pasir Rugon",
+  "centroid_lat": 1.6786657,
+  "centroid_lng": 110.4895118,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/720521806",
+      "source_url": "https://www.openstreetmap.org/way/720521806"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33329414",
+      "source_url": "https://www.wikidata.org/wiki/Q33329414"
+    }
+  ],
+  "attributes": {}
+}

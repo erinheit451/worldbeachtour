@@ -1,0 +1,39 @@
+{
+  "slug": "veliki-jomats",
+  "name": "Велики Јомац",
+  "centroid_lat": 42.4101309,
+  "centroid_lng": 18.6484078,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1092478995",
+      "source_url": "https://www.openstreetmap.org/way/1092478995"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1092478996",
+      "source_url": "https://www.openstreetmap.org/way/1092478996"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1092478997",
+      "source_url": "https://www.openstreetmap.org/way/1092478997"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1093623541",
+      "source_url": "https://www.openstreetmap.org/way/1093623541"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "customers"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "la-brezza",
+  "name": "La Brezza",
+  "centroid_lat": 43.8228277,
+  "centroid_lng": 7.8085271,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7206666283",
+      "source_url": "https://www.openstreetmap.org/node/7206666283"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/429041558",
+      "source_url": "https://www.openstreetmap.org/way/429041558"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/429041571",
+      "source_url": "https://www.openstreetmap.org/way/429041571"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

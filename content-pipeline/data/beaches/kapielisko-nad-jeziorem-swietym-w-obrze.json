@@ -1,0 +1,35 @@
+{
+  "slug": "kapielisko-nad-jeziorem-swietym-w-obrze",
+  "name": "KĄPIELISKO NAD JEZIOREM ŚWIĘTYM W OBRZE",
+  "centroid_lat": 52.08101,
+  "centroid_lng": 16.04421,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/283394337",
+      "source_url": "https://www.openstreetmap.org/way/283394337"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4122903530000105",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4122903530000105",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

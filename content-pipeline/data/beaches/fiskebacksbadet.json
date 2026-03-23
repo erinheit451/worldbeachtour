@@ -1,0 +1,38 @@
+{
+  "slug": "fiskebacksbadet",
+  "name": "Fiskebäcksbadet",
+  "centroid_lat": 57.6484257,
+  "centroid_lng": 11.8486343,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/10228369",
+      "source_url": "https://www.openstreetmap.org/relation/10228369"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0A21480000000516",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0A21480000000516",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

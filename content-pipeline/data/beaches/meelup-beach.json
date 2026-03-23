@@ -1,0 +1,39 @@
+{
+  "slug": "meelup-beach",
+  "name": "Meelup Beach",
+  "centroid_lat": -33.5737618,
+  "centroid_lng": 115.0873771,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/13061074397",
+      "source_url": "https://www.openstreetmap.org/node/13061074397"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/185578231",
+      "source_url": "https://www.openstreetmap.org/way/185578231"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/185622320",
+      "source_url": "https://www.openstreetmap.org/way/185622320"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21983629",
+      "source_url": "https://www.wikidata.org/wiki/Q21983629"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Meelup%20beach%20gnangarra%2011.JPG"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "town-beach-12",
+  "name": "Town Beach",
+  "centroid_lat": -31.4284848,
+  "centroid_lng": 152.9196836,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/173018833",
+      "source_url": "https://www.openstreetmap.org/way/173018833"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956764",
+      "source_url": "https://www.wikidata.org/wiki/Q21956764"
+    }
+  ],
+  "attributes": {}
+}

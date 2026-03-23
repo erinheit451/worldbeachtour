@@ -1,0 +1,29 @@
+{
+  "slug": "mothecombe-beach",
+  "name": "Mothecombe Beach",
+  "centroid_lat": 50.3083579,
+  "centroid_lng": -3.9501218,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/156253307",
+      "source_url": "https://www.openstreetmap.org/way/156253307"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q124358090",
+      "source_url": "https://www.wikidata.org/wiki/Q124358090"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Holbeton%2C%20building%20at%20Meadowsfoot%20Beach%20-%20geograph.org.uk%20-%20637213.jpg"
+    }
+  }
+}

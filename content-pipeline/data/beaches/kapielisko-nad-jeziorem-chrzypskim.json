@@ -1,0 +1,40 @@
+{
+  "slug": "kapielisko-nad-jeziorem-chrzypskim",
+  "name": "KĄPIELISKO NAD JEZIOREM CHRZYPSKIM",
+  "centroid_lat": 52.62375,
+  "centroid_lng": 16.21584,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/506073958",
+      "source_url": "https://www.openstreetmap.org/way/506073958"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1210521496",
+      "source_url": "https://www.openstreetmap.org/way/1210521496"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4121403530000061",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4121403530000061",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

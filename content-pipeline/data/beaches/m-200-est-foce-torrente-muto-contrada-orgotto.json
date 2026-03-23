@@ -1,0 +1,35 @@
+{
+  "slug": "m-200-est-foce-torrente-muto-contrada-orgotto",
+  "name": "M 200 EST FOCE TORRENTE MUTO CONTRADA ORGOTTO",
+  "centroid_lat": 38.2114,
+  "centroid_lng": 15.3159,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/367570516",
+      "source_url": "https://www.openstreetmap.org/way/367570516"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019083064001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019083064001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

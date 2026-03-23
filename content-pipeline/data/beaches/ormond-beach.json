@@ -1,0 +1,25 @@
+{
+  "slug": "ormond-beach",
+  "name": "Ormond Beach",
+  "centroid_lat": 34.1369497,
+  "centroid_lng": -119.1842735,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/358790118",
+      "source_url": "https://www.openstreetmap.org/node/358790118"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322400",
+      "source_url": "https://www.wikidata.org/wiki/Q49322400"
+    }
+  ],
+  "attributes": {}
+}

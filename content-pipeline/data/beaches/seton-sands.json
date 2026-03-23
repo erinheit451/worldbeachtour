@@ -1,0 +1,29 @@
+{
+  "slug": "seton-sands",
+  "name": "Seton Sands",
+  "centroid_lat": 55.9764696,
+  "centroid_lng": -2.9223934,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/445244885",
+      "source_url": "https://www.openstreetmap.org/way/445244885"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7456815",
+      "source_url": "https://www.wikidata.org/wiki/Q7456815"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Seton_Sands"
+    }
+  }
+}

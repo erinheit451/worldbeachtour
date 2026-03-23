@@ -1,0 +1,80 @@
+{
+  "slug": "surfstrand-3",
+  "name": "Surfstrand",
+  "centroid_lat": 51.0437212,
+  "centroid_lng": 3.6906323,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/89705517",
+      "source_url": "https://www.openstreetmap.org/way/89705517"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/177009657",
+      "source_url": "https://www.openstreetmap.org/way/177009657"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/595841741",
+      "source_url": "https://www.openstreetmap.org/way/595841741"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/595841743",
+      "source_url": "https://www.openstreetmap.org/way/595841743"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/913600354",
+      "source_url": "https://www.openstreetmap.org/way/913600354"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/913600355",
+      "source_url": "https://www.openstreetmap.org/way/913600355"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BEVL_BW_GNT02",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BEVL_BW_GNT01",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BEVL_BW_GNT03",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BEVL_BW_GNT02",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BEVL_BW_GNT01",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BEVL_BW_GNT03",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

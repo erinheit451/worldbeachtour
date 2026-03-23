@@ -1,0 +1,29 @@
+{
+  "slug": "playa-del-cabrito",
+  "name": "Playa del Cabrito",
+  "centroid_lat": 28.0624386,
+  "centroid_lng": -17.1434595,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/164770381",
+      "source_url": "https://www.openstreetmap.org/way/164770381"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23987321",
+      "source_url": "https://www.wikidata.org/wiki/Q23987321"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/La%20Gomera%2C%20El%20Cabrito.jpg"
+    }
+  }
+}

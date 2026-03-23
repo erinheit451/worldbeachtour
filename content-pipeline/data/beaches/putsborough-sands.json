@@ -1,0 +1,32 @@
+{
+  "slug": "putsborough-sands",
+  "name": "Putsborough Sands",
+  "centroid_lat": 51.1485043,
+  "centroid_lng": -4.2220478,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1320452395",
+      "source_url": "https://www.openstreetmap.org/way/1320452395"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31844974",
+      "source_url": "https://www.wikidata.org/wiki/Q31844974"
+    }
+  ],
+  "attributes": {
+    "surfing": {
+      "surfing_available": true
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

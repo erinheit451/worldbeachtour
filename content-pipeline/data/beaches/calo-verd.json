@@ -1,0 +1,44 @@
+{
+  "slug": "calo-verd",
+  "name": "Caló Verd",
+  "centroid_lat": 40.0444082,
+  "centroid_lng": 4.1626837,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/114598195",
+      "source_url": "https://www.openstreetmap.org/way/114598195"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/114598238",
+      "source_url": "https://www.openstreetmap.org/way/114598238"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/114598267",
+      "source_url": "https://www.openstreetmap.org/way/114598267"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/1598625",
+      "source_url": "https://www.openstreetmap.org/relation/1598625"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q16182589",
+      "source_url": "https://www.wikidata.org/wiki/Q16182589"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20Pudenta%20%2821293078065%29.jpg"
+    }
+  }
+}

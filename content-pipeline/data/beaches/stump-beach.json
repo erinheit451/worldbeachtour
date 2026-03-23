@@ -1,0 +1,25 @@
+{
+  "slug": "stump-beach",
+  "name": "Stump Beach",
+  "centroid_lat": 38.5817219,
+  "centroid_lng": -123.3356032,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/274471498",
+      "source_url": "https://www.openstreetmap.org/way/274471498"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324888",
+      "source_url": "https://www.wikidata.org/wiki/Q49324888"
+    }
+  ],
+  "attributes": {}
+}

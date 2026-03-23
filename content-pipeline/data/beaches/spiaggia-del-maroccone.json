@@ -1,0 +1,63 @@
+{
+  "slug": "spiaggia-del-maroccone",
+  "name": "Spiaggia del Maroccone",
+  "centroid_lat": 43.4789592,
+  "centroid_lng": 10.3314583,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/2494939231",
+      "source_url": "https://www.openstreetmap.org/node/2494939231"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/186213598",
+      "source_url": "https://www.openstreetmap.org/way/186213598"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1056931882",
+      "source_url": "https://www.openstreetmap.org/way/1056931882"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1056931883",
+      "source_url": "https://www.openstreetmap.org/way/1056931883"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1088238678",
+      "source_url": "https://www.openstreetmap.org/way/1088238678"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q3966659",
+      "source_url": "https://www.wikidata.org/wiki/Q3966659"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049009017",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049009017",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

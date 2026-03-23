@@ -1,0 +1,30 @@
+{
+  "slug": "lavrakas-nudist-beach",
+  "name": "Lavrakas nudist beach",
+  "centroid_lat": 34.8707647,
+  "centroid_lng": 24.072673,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/194078773",
+      "source_url": "https://www.openstreetmap.org/way/194078773"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

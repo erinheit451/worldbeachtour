@@ -1,0 +1,24 @@
+{
+  "slug": "playa-tortola",
+  "name": "Playa Tortola",
+  "centroid_lat": 18.3255691,
+  "centroid_lng": -65.2641022,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/426909694",
+      "source_url": "https://www.openstreetmap.org/way/426909694"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "gilley-beach",
+  "name": "Gilley Beach",
+  "centroid_lat": 44.2570253,
+  "centroid_lng": -68.2250135,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/358226550",
+      "source_url": "https://www.openstreetmap.org/node/358226550"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33326465",
+      "source_url": "https://www.wikidata.org/wiki/Q33326465"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "silver-beach-8",
+  "name": "Silver Beach",
+  "centroid_lat": 9.4776072,
+  "centroid_lng": 100.0673556,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/180233580",
+      "source_url": "https://www.openstreetmap.org/way/180233580"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324768",
+      "source_url": "https://www.wikidata.org/wiki/Q49324768"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Thong%20Ta%20Kian%20Beach%2C%20Koh%20Samui%20%2848107355718%29.jpg"
+    }
+  }
+}

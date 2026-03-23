@@ -1,0 +1,70 @@
+{
+  "slug": "kolymparia-rapaniana",
+  "name": "KOLYMPARIA - RAPANIANA",
+  "centroid_lat": 35.543,
+  "centroid_lng": 23.7829,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/13608234626",
+      "source_url": "https://www.openstreetmap.org/node/13608234626"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/13608234627",
+      "source_url": "https://www.openstreetmap.org/node/13608234627"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/13608234628",
+      "source_url": "https://www.openstreetmap.org/node/13608234628"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/13608234629",
+      "source_url": "https://www.openstreetmap.org/node/13608234629"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/13608234630",
+      "source_url": "https://www.openstreetmap.org/node/13608234630"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/13608234631",
+      "source_url": "https://www.openstreetmap.org/node/13608234631"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/822478832",
+      "source_url": "https://www.openstreetmap.org/way/822478832"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53630133",
+      "source_url": "https://www.wikidata.org/wiki/Q53630133"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139323084101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139323084101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

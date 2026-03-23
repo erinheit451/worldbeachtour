@@ -1,0 +1,30 @@
+{
+  "slug": "balibago-beach",
+  "name": "Balibago Beach",
+  "centroid_lat": 13.869722222,
+  "centroid_lng": 120.053055555,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/405412102",
+      "source_url": "https://www.openstreetmap.org/way/405412102"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/405609842",
+      "source_url": "https://www.openstreetmap.org/way/405609842"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31480240",
+      "source_url": "https://www.wikidata.org/wiki/Q31480240"
+    }
+  ],
+  "attributes": {}
+}

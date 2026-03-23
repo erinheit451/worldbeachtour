@@ -1,0 +1,73 @@
+{
+  "slug": "playa-d-en-bossa-pm1",
+  "name": "PLAYA D'EN BOSSA PM1",
+  "centroid_lat": 38.8808,
+  "centroid_lng": 1.4051,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1396671384",
+      "source_url": "https://www.openstreetmap.org/way/1396671384"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1396671385",
+      "source_url": "https://www.openstreetmap.org/way/1396671385"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1396671386",
+      "source_url": "https://www.openstreetmap.org/way/1396671386"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1396671389",
+      "source_url": "https://www.openstreetmap.org/way/1396671389"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1396671391",
+      "source_url": "https://www.openstreetmap.org/way/1396671391"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1396671394",
+      "source_url": "https://www.openstreetmap.org/way/1396671394"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1396671395",
+      "source_url": "https://www.openstreetmap.org/way/1396671395"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1396671396",
+      "source_url": "https://www.openstreetmap.org/way/1396671396"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES531M0481205",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES531M0481205",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

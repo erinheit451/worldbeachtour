@@ -1,0 +1,29 @@
+{
+  "slug": "playa-gemelas",
+  "name": "Playa Gemelas",
+  "centroid_lat": 9.3796778,
+  "centroid_lng": -84.1397079,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/37567939",
+      "source_url": "https://www.openstreetmap.org/way/37567939"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23746445",
+      "source_url": "https://www.wikidata.org/wiki/Q23746445"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Manuel%20Antonio%20park%20-%20panoramio.jpg"
+    }
+  }
+}

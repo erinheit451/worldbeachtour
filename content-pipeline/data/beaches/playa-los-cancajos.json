@@ -1,0 +1,32 @@
+{
+  "slug": "playa-los-cancajos",
+  "name": "Playa los Cancajos",
+  "centroid_lat": 28.6530937,
+  "centroid_lng": -17.7603609,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/19536654",
+      "source_url": "https://www.openstreetmap.org/relation/19536654"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q135221529",
+      "source_url": "https://www.wikidata.org/wiki/Q135221529"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Los%20Cancajos%2C%20Islas%20Canarias%20%2829255809531%29.jpg"
+    }
+  }
+}

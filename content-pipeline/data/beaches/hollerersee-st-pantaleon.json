@@ -1,0 +1,35 @@
+{
+  "slug": "hollerersee-st-pantaleon",
+  "name": "HÖLLERERSEE, ST. PANTALEON",
+  "centroid_lat": 48.0278,
+  "centroid_lng": 12.8888,
+  "country_code": "AT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1255701084",
+      "source_url": "https://www.openstreetmap.org/node/1255701084"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "AT3110003700190010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "AT3110003700190010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

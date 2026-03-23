@@ -1,0 +1,29 @@
+{
+  "slug": "khvp-hnsykh",
+  "name": "חוף הנסיכה",
+  "centroid_lat": 29.4961219,
+  "centroid_lng": 34.9089407,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/765376664",
+      "source_url": "https://www.openstreetmap.org/way/765376664"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q26768733",
+      "source_url": "https://www.wikidata.org/wiki/Q26768733"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "permissive"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "punta-soline",
+  "name": "Punta Soline",
+  "centroid_lat": 43.3671406,
+  "centroid_lng": 16.9307947,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/42438474",
+      "source_url": "https://www.openstreetmap.org/way/42438474"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/613682222",
+      "source_url": "https://www.openstreetmap.org/way/613682222"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/980132226",
+      "source_url": "https://www.openstreetmap.org/way/980132226"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2021",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2140",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2021",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2140",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

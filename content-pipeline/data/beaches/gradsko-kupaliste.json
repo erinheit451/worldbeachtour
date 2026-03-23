@@ -1,0 +1,58 @@
+{
+  "slug": "gradsko-kupaliste",
+  "name": "Gradsko kupalište",
+  "centroid_lat": 45.1789325,
+  "centroid_lng": 14.6824152,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/329302591",
+      "source_url": "https://www.openstreetmap.org/way/329302591"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/329303522",
+      "source_url": "https://www.openstreetmap.org/way/329303522"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/329303523",
+      "source_url": "https://www.openstreetmap.org/way/329303523"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q97445443",
+      "source_url": "https://www.wikidata.org/wiki/Q97445443"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6020",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6020",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Crikvenica%20beach%202005-07-25.jpg"
+    },
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

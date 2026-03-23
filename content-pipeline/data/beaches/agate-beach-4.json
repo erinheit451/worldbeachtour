@@ -1,0 +1,44 @@
+{
+  "slug": "agate-beach-4",
+  "name": "Agate Beach",
+  "centroid_lat": 47.1427918,
+  "centroid_lng": -91.4568964,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1098403333",
+      "source_url": "https://www.openstreetmap.org/way/1098403333"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1206964339",
+      "source_url": "https://www.openstreetmap.org/way/1206964339"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1206964340",
+      "source_url": "https://www.openstreetmap.org/way/1206964340"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1364092582",
+      "source_url": "https://www.openstreetmap.org/way/1364092582"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1364092584",
+      "source_url": "https://www.openstreetmap.org/way/1364092584"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

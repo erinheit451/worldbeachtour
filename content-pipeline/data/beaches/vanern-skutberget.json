@@ -1,0 +1,45 @@
+{
+  "slug": "vanern-skutberget",
+  "name": "VÄNERN SKUTBERGET",
+  "centroid_lat": 59.3705,
+  "centroid_lng": 13.3917,
+  "country_code": "SE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/175679937",
+      "source_url": "https://www.openstreetmap.org/way/175679937"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/175679938",
+      "source_url": "https://www.openstreetmap.org/way/175679938"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/175679939",
+      "source_url": "https://www.openstreetmap.org/way/175679939"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0611780000002378",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0611780000002378",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "lido-pompeo-beach",
+  "name": "Lido Pompeo Beach",
+  "centroid_lat": 40.3053731,
+  "centroid_lng": 14.9469987,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11142389851",
+      "source_url": "https://www.openstreetmap.org/node/11142389851"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/12075523614",
+      "source_url": "https://www.openstreetmap.org/node/12075523614"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/147055349",
+      "source_url": "https://www.openstreetmap.org/way/147055349"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited",
+      "fee_required": true
+    }
+  }
+}

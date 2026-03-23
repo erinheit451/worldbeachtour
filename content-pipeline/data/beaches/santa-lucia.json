@@ -1,0 +1,98 @@
+{
+  "slug": "santa-lucia",
+  "name": "Santa Lucia",
+  "centroid_lat": 43.1786357,
+  "centroid_lng": 10.5379084,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/4910195667",
+      "source_url": "https://www.openstreetmap.org/node/4910195667"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/4910749438",
+      "source_url": "https://www.openstreetmap.org/node/4910749438"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/4925197677",
+      "source_url": "https://www.openstreetmap.org/node/4925197677"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/6798556171",
+      "source_url": "https://www.openstreetmap.org/node/6798556171"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/6798556172",
+      "source_url": "https://www.openstreetmap.org/node/6798556172"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/6798556173",
+      "source_url": "https://www.openstreetmap.org/node/6798556173"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/6798556174",
+      "source_url": "https://www.openstreetmap.org/node/6798556174"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049006007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049006006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049006005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049006004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049006007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049006006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049006005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049006004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

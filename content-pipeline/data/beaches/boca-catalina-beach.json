@@ -1,0 +1,29 @@
+{
+  "slug": "boca-catalina-beach",
+  "name": "Boca Catalina Beach",
+  "centroid_lat": 12.6061843,
+  "centroid_lng": -70.0523764,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/13422393884",
+      "source_url": "https://www.openstreetmap.org/node/13422393884"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/690840582",
+      "source_url": "https://www.openstreetmap.org/way/690840582"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

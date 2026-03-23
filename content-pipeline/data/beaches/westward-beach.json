@@ -1,0 +1,25 @@
+{
+  "slug": "westward-beach",
+  "name": "Westward Beach",
+  "centroid_lat": 34.0077955,
+  "centroid_lng": -118.8145495,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/7086872",
+      "source_url": "https://www.openstreetmap.org/relation/7086872"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49325272",
+      "source_url": "https://www.wikidata.org/wiki/Q49325272"
+    }
+  ],
+  "attributes": {}
+}

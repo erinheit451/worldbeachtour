@@ -1,0 +1,40 @@
+{
+  "slug": "station-balneaire-de-pierre-et-vacances",
+  "name": "Station balnéaire de Pierre et Vacances",
+  "centroid_lat": 16.2418533,
+  "centroid_lng": -61.3276523,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9829408470",
+      "source_url": "https://www.openstreetmap.org/node/9829408470"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/451041270",
+      "source_url": "https://www.openstreetmap.org/way/451041270"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRY1097128M971291",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRY1097128M971291",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

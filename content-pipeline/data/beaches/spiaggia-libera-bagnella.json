@@ -1,0 +1,40 @@
+{
+  "slug": "spiaggia-libera-bagnella",
+  "name": "spiaggia libera bagnella",
+  "centroid_lat": 45.8630689,
+  "centroid_lng": 8.3996144,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/253660370",
+      "source_url": "https://www.openstreetmap.org/way/253660370"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/253660371",
+      "source_url": "https://www.openstreetmap.org/way/253660371"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT001103050003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT001103050003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

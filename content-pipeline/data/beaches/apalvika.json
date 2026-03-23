@@ -1,0 +1,35 @@
+{
+  "slug": "apalvika",
+  "name": "Apalvika",
+  "centroid_lat": 59.7912644,
+  "centroid_lng": 5.5358649,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9269255355",
+      "source_url": "https://www.openstreetmap.org/node/9269255355"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/9290027746",
+      "source_url": "https://www.openstreetmap.org/node/9290027746"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/9290027747",
+      "source_url": "https://www.openstreetmap.org/node/9290027747"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/903578811",
+      "source_url": "https://www.openstreetmap.org/way/903578811"
+    }
+  ],
+  "attributes": {}
+}

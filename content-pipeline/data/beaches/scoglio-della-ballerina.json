@@ -1,0 +1,30 @@
+{
+  "slug": "scoglio-della-ballerina",
+  "name": "Scoglio della Ballerina",
+  "centroid_lat": 43.5011185,
+  "centroid_lng": 10.3200999,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "rock",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/230166650",
+      "source_url": "https://www.openstreetmap.org/way/230166650"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

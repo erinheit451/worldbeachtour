@@ -1,0 +1,24 @@
+{
+  "slug": "orchard-beach-1",
+  "name": "Orchard Beach",
+  "centroid_lat": 42.2977416,
+  "centroid_lng": -71.0059274,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/282534384",
+      "source_url": "https://www.openstreetmap.org/way/282534384"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

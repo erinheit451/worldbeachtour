@@ -1,0 +1,29 @@
+{
+  "slug": "playa-de-la-joya",
+  "name": "Playa de la Joya",
+  "centroid_lat": 36.6962476,
+  "centroid_lng": -3.4739233,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/96742852",
+      "source_url": "https://www.openstreetmap.org/way/96742852"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6078805",
+      "source_url": "https://www.wikidata.org/wiki/Q6078805"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    }
+  }
+}

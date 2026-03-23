@@ -1,0 +1,24 @@
+{
+  "slug": "st-margaret-s-bay",
+  "name": "St Margaret's Bay",
+  "centroid_lat": 51.1506019,
+  "centroid_lng": 1.3865077,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/93661988",
+      "source_url": "https://www.openstreetmap.org/way/93661988"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

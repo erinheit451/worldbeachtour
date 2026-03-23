@@ -1,0 +1,43 @@
+{
+  "slug": "eco-del-mare",
+  "name": "Eco del mare",
+  "centroid_lat": 44.0673911,
+  "centroid_lng": 9.919694,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/369388493",
+      "source_url": "https://www.openstreetmap.org/way/369388493"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33342127",
+      "source_url": "https://www.wikidata.org/wiki/Q33342127"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007011016011",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007011016011",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "permissive"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

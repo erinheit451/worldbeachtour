@@ -1,0 +1,31 @@
+{
+  "slug": "pedn-vounder",
+  "name": "Pedn Vounder",
+  "centroid_lat": 50.0433572,
+  "centroid_lng": -5.6416008,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/180210918",
+      "source_url": "https://www.openstreetmap.org/way/180210918"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7159323",
+      "source_url": "https://www.wikidata.org/wiki/Q7159323"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "permissive",
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Pednvounder%20Beach%20-%20geograph.org.uk%20-%2015820.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Pedn_Vounder"
+    }
+  }
+}

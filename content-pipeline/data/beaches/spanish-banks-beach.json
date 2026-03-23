@@ -1,0 +1,30 @@
+{
+  "slug": "spanish-banks-beach",
+  "name": "Spanish Banks Beach",
+  "centroid_lat": 49.2771058,
+  "centroid_lng": -123.2196703,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/341694642",
+      "source_url": "https://www.openstreetmap.org/way/341694642"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7573148",
+      "source_url": "https://www.wikidata.org/wiki/Q7573148"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Spanish%20Banks%20Sports.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Spanish_Banks"
+    }
+  }
+}

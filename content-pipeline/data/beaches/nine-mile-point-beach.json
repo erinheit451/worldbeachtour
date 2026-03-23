@@ -1,0 +1,24 @@
+{
+  "slug": "nine-mile-point-beach",
+  "name": "Nine Mile Point Beach",
+  "centroid_lat": 49.5902725,
+  "centroid_lng": -123.7835123,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1328210617",
+      "source_url": "https://www.openstreetmap.org/way/1328210617"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "plaz-ierissos",
+  "name": "Πλαζ Ιερισσός",
+  "centroid_lat": 40.3964361,
+  "centroid_lng": 23.8872652,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/363018703",
+      "source_url": "https://www.openstreetmap.org/way/363018703"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/363019709",
+      "source_url": "https://www.openstreetmap.org/way/363019709"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/363019768",
+      "source_url": "https://www.openstreetmap.org/way/363019768"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/363019835",
+      "source_url": "https://www.openstreetmap.org/way/363019835"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/363019945",
+      "source_url": "https://www.openstreetmap.org/way/363019945"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/363020035",
+      "source_url": "https://www.openstreetmap.org/way/363020035"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/849313781",
+      "source_url": "https://www.openstreetmap.org/way/849313781"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/849313782",
+      "source_url": "https://www.openstreetmap.org/way/849313782"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/849313783",
+      "source_url": "https://www.openstreetmap.org/way/849313783"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/849313784",
+      "source_url": "https://www.openstreetmap.org/way/849313784"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/849313785",
+      "source_url": "https://www.openstreetmap.org/way/849313785"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53629741",
+      "source_url": "https://www.wikidata.org/wiki/Q53629741"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53629746",
+      "source_url": "https://www.wikidata.org/wiki/Q53629746"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53629758",
+      "source_url": "https://www.wikidata.org/wiki/Q53629758"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109056008101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109056008101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

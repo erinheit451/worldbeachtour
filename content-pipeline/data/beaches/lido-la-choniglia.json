@@ -1,0 +1,44 @@
+{
+  "slug": "lido-la-choniglia",
+  "name": "Lido La Choniglia",
+  "centroid_lat": 40.7633142,
+  "centroid_lng": 14.3918444,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/449679417",
+      "source_url": "https://www.openstreetmap.org/way/449679417"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/536051769",
+      "source_url": "https://www.openstreetmap.org/way/536051769"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/536051776",
+      "source_url": "https://www.openstreetmap.org/way/536051776"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/536051777",
+      "source_url": "https://www.openstreetmap.org/way/536051777"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/536359425",
+      "source_url": "https://www.openstreetmap.org/way/536359425"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

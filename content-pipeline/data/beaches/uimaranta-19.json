@@ -1,0 +1,40 @@
+{
+  "slug": "uimaranta-19",
+  "name": "Uimaranta",
+  "centroid_lat": 62.6160062,
+  "centroid_lng": 29.9504762,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/4941070510",
+      "source_url": "https://www.openstreetmap.org/node/4941070510"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/503820624",
+      "source_url": "https://www.openstreetmap.org/way/503820624"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI133276004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI133276004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

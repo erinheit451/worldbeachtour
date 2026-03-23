@@ -1,0 +1,24 @@
+{
+  "slug": "capitan-harlock",
+  "name": "Capitan Harlock",
+  "centroid_lat": 43.1781082,
+  "centroid_lng": 13.8005786,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/632839633",
+      "source_url": "https://www.openstreetmap.org/way/632839633"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

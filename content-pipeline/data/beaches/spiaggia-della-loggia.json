@@ -1,0 +1,35 @@
+{
+  "slug": "spiaggia-della-loggia",
+  "name": "SPIAGGIA DELLA LOGGIA",
+  "centroid_lat": 36.9023,
+  "centroid_lng": 15.1469,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/519725856",
+      "source_url": "https://www.openstreetmap.org/way/519725856"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019089002010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019089002010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

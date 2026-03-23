@@ -1,0 +1,44 @@
+{
+  "slug": "spanish-point-beach",
+  "name": "Spanish Point Beach",
+  "centroid_lat": 52.8385912,
+  "centroid_lng": -9.4337408,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/4250072",
+      "source_url": "https://www.openstreetmap.org/relation/4250072"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IESHBWC070_0000_0300",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IESHBWC070_0000_0300",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "surfing": {
+      "surfing_available": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

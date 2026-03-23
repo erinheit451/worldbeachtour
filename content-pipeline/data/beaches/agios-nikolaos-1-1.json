@@ -1,0 +1,60 @@
+{
+  "slug": "agios-nikolaos-1-1",
+  "name": "AGIOS NIKOLAOS 1",
+  "centroid_lat": 35.2056,
+  "centroid_lng": 25.7183,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/277442830",
+      "source_url": "https://www.openstreetmap.org/way/277442830"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/323823920",
+      "source_url": "https://www.openstreetmap.org/way/323823920"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53633628",
+      "source_url": "https://www.wikidata.org/wiki/Q53633628"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53633789",
+      "source_url": "https://www.wikidata.org/wiki/Q53633789"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139310009101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139310026101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139310009101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139310026101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

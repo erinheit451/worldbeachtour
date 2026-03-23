@@ -1,0 +1,30 @@
+{
+  "slug": "las-palmas-1",
+  "name": "Las Palmas",
+  "centroid_lat": 38.48843,
+  "centroid_lng": 14.9644248,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9864217809",
+      "source_url": "https://www.openstreetmap.org/node/9864217809"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/9870701619",
+      "source_url": "https://www.openstreetmap.org/node/9870701619"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/60678775",
+      "source_url": "https://www.openstreetmap.org/way/60678775"
+    }
+  ],
+  "attributes": {}
+}

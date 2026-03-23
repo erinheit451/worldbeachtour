@@ -1,0 +1,29 @@
+{
+  "slug": "secchiello-selvaggio",
+  "name": "Secchiello Selvaggio",
+  "centroid_lat": 44.7239078,
+  "centroid_lng": 9.3846349,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/4319285568",
+      "source_url": "https://www.openstreetmap.org/node/4319285568"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/8926872028",
+      "source_url": "https://www.openstreetmap.org/node/8926872028"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "designated"
+    }
+  }
+}

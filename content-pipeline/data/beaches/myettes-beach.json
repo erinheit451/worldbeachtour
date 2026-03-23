@@ -1,0 +1,35 @@
+{
+  "slug": "myettes-beach",
+  "name": "Myettes Beach",
+  "centroid_lat": 45.6449998,
+  "centroid_lng": -61.6538828,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/2438072528",
+      "source_url": "https://www.openstreetmap.org/node/2438072528"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/235752106",
+      "source_url": "https://www.openstreetmap.org/way/235752106"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22643667",
+      "source_url": "https://www.wikidata.org/wiki/Q22643667"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q112330362",
+      "source_url": "https://www.wikidata.org/wiki/Q112330362"
+    }
+  ],
+  "attributes": {}
+}

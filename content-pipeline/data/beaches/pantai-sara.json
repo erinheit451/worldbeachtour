@@ -1,0 +1,25 @@
+{
+  "slug": "pantai-sara",
+  "name": "PANTAI SARA",
+  "centroid_lat": -8.0501861,
+  "centroid_lng": 127.1380657,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9534833849",
+      "source_url": "https://www.openstreetmap.org/node/9534833849"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25018799",
+      "source_url": "https://www.wikidata.org/wiki/Q25018799"
+    }
+  ],
+  "attributes": {}
+}

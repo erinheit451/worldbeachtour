@@ -1,0 +1,45 @@
+{
+  "slug": "ayia-thekla-beach",
+  "name": "Ayia Thekla beach",
+  "centroid_lat": 34.9788478,
+  "centroid_lng": 33.934605,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12580524372",
+      "source_url": "https://www.openstreetmap.org/node/12580524372"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/244377514",
+      "source_url": "https://www.openstreetmap.org/way/244377514"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1071024932",
+      "source_url": "https://www.openstreetmap.org/way/1071024932"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CY0003100000000019",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CY0003100000000019",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

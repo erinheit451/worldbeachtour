@@ -1,0 +1,35 @@
+{
+  "slug": "playa-balandra",
+  "name": "Playa Balandra",
+  "centroid_lat": 24.3208138,
+  "centroid_lng": -110.324241,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/154141788",
+      "source_url": "https://www.openstreetmap.org/way/154141788"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/154141791",
+      "source_url": "https://www.openstreetmap.org/way/154141791"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7203137",
+      "source_url": "https://www.wikidata.org/wiki/Q7203137"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20Balandra%20in%20La%20Paz%2C%20Mexico.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_Balandra"
+    }
+  }
+}

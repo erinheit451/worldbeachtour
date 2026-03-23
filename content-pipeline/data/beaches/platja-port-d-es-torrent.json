@@ -1,0 +1,45 @@
+{
+  "slug": "platja-port-d-es-torrent",
+  "name": "Platja Port d'es Torrent",
+  "centroid_lat": 38.9666556,
+  "centroid_lng": 1.268332,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/36192369",
+      "source_url": "https://www.openstreetmap.org/way/36192369"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1408260092",
+      "source_url": "https://www.openstreetmap.org/way/1408260092"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1408260093",
+      "source_url": "https://www.openstreetmap.org/way/1408260093"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES531M0481215",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES531M0481215",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

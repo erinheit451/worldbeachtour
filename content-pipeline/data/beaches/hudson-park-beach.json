@@ -1,0 +1,37 @@
+{
+  "slug": "hudson-park-beach",
+  "name": "Hudson Park Beach",
+  "centroid_lat": 40.9065131,
+  "centroid_lng": -73.7686652,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1425044928",
+      "source_url": "https://www.openstreetmap.org/way/1425044928"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1425044929",
+      "source_url": "https://www.openstreetmap.org/way/1425044929"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1437046457",
+      "source_url": "https://www.openstreetmap.org/way/1437046457"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

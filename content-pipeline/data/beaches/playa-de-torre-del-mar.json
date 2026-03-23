@@ -1,0 +1,43 @@
+{
+  "slug": "playa-de-torre-del-mar",
+  "name": "Playa de Torre del Mar",
+  "centroid_lat": 36.7384875,
+  "centroid_lng": -4.0872489,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/563335",
+      "source_url": "https://www.openstreetmap.org/relation/563335"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6079043",
+      "source_url": "https://www.wikidata.org/wiki/Q6079043"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617M0941575",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617M0941575",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Torre%20del%20Mar%2C%20the%20beach.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "khvp-ts-rls-qlvr",
+  "name": "חוף צ'רלס קלור",
+  "centroid_lat": 32.0603239,
+  "centroid_lng": 34.7586908,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/104296766",
+      "source_url": "https://www.openstreetmap.org/way/104296766"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

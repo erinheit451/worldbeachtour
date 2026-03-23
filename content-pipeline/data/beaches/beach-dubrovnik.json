@@ -1,0 +1,25 @@
+{
+  "slug": "beach-dubrovnik",
+  "name": "beach Dubrovnik",
+  "centroid_lat": 44.3511458,
+  "centroid_lng": 15.0976682,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/230134476",
+      "source_url": "https://www.openstreetmap.org/way/230134476"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/230135508",
+      "source_url": "https://www.openstreetmap.org/way/230135508"
+    }
+  ],
+  "attributes": {}
+}

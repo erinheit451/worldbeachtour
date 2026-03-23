@@ -1,0 +1,83 @@
+{
+  "slug": "lungomare-pegli",
+  "name": "LUNGOMARE PEGLI",
+  "centroid_lat": 44.4245,
+  "centroid_lng": 8.8163,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/25829231",
+      "source_url": "https://www.openstreetmap.org/way/25829231"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/35361599",
+      "source_url": "https://www.openstreetmap.org/way/35361599"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/35361600",
+      "source_url": "https://www.openstreetmap.org/way/35361600"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/159418588",
+      "source_url": "https://www.openstreetmap.org/way/159418588"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/801778105",
+      "source_url": "https://www.openstreetmap.org/way/801778105"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/803003040",
+      "source_url": "https://www.openstreetmap.org/way/803003040"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010025041",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010025044",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010025045",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010025041",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010025044",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010025045",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

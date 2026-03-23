@@ -1,0 +1,25 @@
+{
+  "slug": "el-coyol",
+  "name": "El Coyol",
+  "centroid_lat": 13.3105003,
+  "centroid_lng": -87.6815606,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/628588240",
+      "source_url": "https://www.openstreetmap.org/way/628588240"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25282512",
+      "source_url": "https://www.wikidata.org/wiki/Q25282512"
+    }
+  ],
+  "attributes": {}
+}

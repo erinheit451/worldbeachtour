@@ -1,0 +1,43 @@
+{
+  "slug": "plage-de-kervillen",
+  "name": "Plage de Kervillen",
+  "centroid_lat": 47.5728405,
+  "centroid_lng": -3.0308063,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/93912479",
+      "source_url": "https://www.openstreetmap.org/way/93912479"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q97015140",
+      "source_url": "https://www.wikidata.org/wiki/Q97015140"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0456258M056300",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0456258M056300",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/La%20plage%20de%20kervillen%20-%20panoramio.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

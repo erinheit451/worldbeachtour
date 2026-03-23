@@ -1,0 +1,25 @@
+{
+  "slug": "dutchmans-beach",
+  "name": "Dutchmans Beach",
+  "centroid_lat": -32.7196167,
+  "centroid_lng": 152.1334748,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/193180796",
+      "source_url": "https://www.openstreetmap.org/way/193180796"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21912658",
+      "source_url": "https://www.wikidata.org/wiki/Q21912658"
+    }
+  ],
+  "attributes": {}
+}

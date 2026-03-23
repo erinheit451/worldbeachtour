@@ -1,0 +1,35 @@
+{
+  "slug": "little-oneroa-beach",
+  "name": "Little Oneroa Beach",
+  "centroid_lat": -36.7842516,
+  "centroid_lng": 175.0178189,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/611516672",
+      "source_url": "https://www.openstreetmap.org/way/611516672"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/911484251",
+      "source_url": "https://www.openstreetmap.org/way/911484251"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1002798081",
+      "source_url": "https://www.openstreetmap.org/way/1002798081"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q32246870",
+      "source_url": "https://www.wikidata.org/wiki/Q32246870"
+    }
+  ],
+  "attributes": {}
+}

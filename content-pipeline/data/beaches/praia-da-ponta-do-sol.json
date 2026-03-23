@@ -1,0 +1,43 @@
+{
+  "slug": "praia-da-ponta-do-sol",
+  "name": "Praia da Ponta do Sol",
+  "centroid_lat": 32.679504,
+  "centroid_lng": -17.1052777,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/168472013",
+      "source_url": "https://www.openstreetmap.org/way/168472013"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10352657",
+      "source_url": "https://www.wikidata.org/wiki/Q10352657"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTMQ3E",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTMQ3E",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Pontadosol1.JPG"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

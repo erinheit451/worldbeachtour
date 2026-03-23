@@ -1,0 +1,27 @@
+{
+  "slug": "kara-dere",
+  "name": "Кара дере",
+  "centroid_lat": 42.9040265,
+  "centroid_lng": 27.8990273,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/172695968",
+      "source_url": "https://www.openstreetmap.org/way/172695968"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

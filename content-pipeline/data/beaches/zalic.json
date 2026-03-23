@@ -1,0 +1,30 @@
+{
+  "slug": "zalic",
+  "name": "Žalić",
+  "centroid_lat": 44.3742259,
+  "centroid_lng": 14.6918687,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/73233216",
+      "source_url": "https://www.openstreetmap.org/way/73233216"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/123369933",
+      "source_url": "https://www.openstreetmap.org/way/123369933"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/164718083",
+      "source_url": "https://www.openstreetmap.org/way/164718083"
+    }
+  ],
+  "attributes": {}
+}

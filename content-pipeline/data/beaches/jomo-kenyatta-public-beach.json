@@ -1,0 +1,27 @@
+{
+  "slug": "jomo-kenyatta-public-beach",
+  "name": "Jomo Kenyatta Public beach",
+  "centroid_lat": -4.0053641,
+  "centroid_lng": 39.7282962,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/17020712",
+      "source_url": "https://www.openstreetmap.org/relation/17020712"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "preston-sands",
+  "name": "Preston Sands",
+  "centroid_lat": 50.4430802,
+  "centroid_lng": -3.5565766,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11602310174",
+      "source_url": "https://www.openstreetmap.org/node/11602310174"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/56319943",
+      "source_url": "https://www.openstreetmap.org/way/56319943"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q93624946",
+      "source_url": "https://www.wikidata.org/wiki/Q93624946"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Preston%20sands.jpg"
+    }
+  }
+}

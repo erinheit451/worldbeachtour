@@ -1,0 +1,24 @@
+{
+  "slug": "plage-d-allaman",
+  "name": "Plage d'Allaman",
+  "centroid_lat": 46.4644378,
+  "centroid_lng": 6.3839673,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/25797667",
+      "source_url": "https://www.openstreetmap.org/way/25797667"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

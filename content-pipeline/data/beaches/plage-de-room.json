@@ -1,0 +1,29 @@
+{
+  "slug": "plage-de-room",
+  "name": "Plage de Room",
+  "centroid_lat": 9.4669974,
+  "centroid_lng": -13.7867957,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7020605617",
+      "source_url": "https://www.openstreetmap.org/node/7020605617"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q111272418",
+      "source_url": "https://www.wikidata.org/wiki/Q111272418"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plage%20du%20gouverneur%20sur%20l%27ile%20de%20room.jpg"
+    }
+  }
+}

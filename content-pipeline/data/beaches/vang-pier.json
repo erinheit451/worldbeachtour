@@ -1,0 +1,25 @@
+{
+  "slug": "vang-pier",
+  "name": "Vang Pier",
+  "centroid_lat": 55.2451356,
+  "centroid_lng": 14.7295558,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/294081511",
+      "source_url": "https://www.openstreetmap.org/way/294081511"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/294081513",
+      "source_url": "https://www.openstreetmap.org/way/294081513"
+    }
+  ],
+  "attributes": {}
+}

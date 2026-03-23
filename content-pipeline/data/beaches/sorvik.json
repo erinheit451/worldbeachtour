@@ -1,0 +1,35 @@
+{
+  "slug": "sorvik",
+  "name": "SÖRVIK",
+  "centroid_lat": 57.3453,
+  "centroid_lng": 12.1203,
+  "country_code": "SE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/10492240",
+      "source_url": "https://www.openstreetmap.org/relation/10492240"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0A11384000000461",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0A11384000000461",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

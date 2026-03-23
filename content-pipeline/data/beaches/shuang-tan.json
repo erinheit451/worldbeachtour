@@ -1,0 +1,24 @@
+{
+  "slug": "shuang-tan",
+  "name": "双滩",
+  "centroid_lat": 24.8036998,
+  "centroid_lng": 110.5045918,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/270106622",
+      "source_url": "https://www.openstreetmap.org/way/270106622"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "diisnii-nudistskii-pliazh-2",
+  "name": "Дійсний нудистський пляж",
+  "centroid_lat": 46.1362951,
+  "centroid_lng": 30.5320755,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/7474802",
+      "source_url": "https://www.openstreetmap.org/relation/7474802"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "designated"
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

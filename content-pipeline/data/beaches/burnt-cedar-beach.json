@@ -1,0 +1,32 @@
+{
+  "slug": "burnt-cedar-beach",
+  "name": "Burnt Cedar Beach",
+  "centroid_lat": 39.2453898,
+  "centroid_lng": -119.9682716,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/813028356",
+      "source_url": "https://www.openstreetmap.org/way/813028356"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320266",
+      "source_url": "https://www.wikidata.org/wiki/Q49320266"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "private"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Burnt%20Cedar%20Beach%2C%20Lake%20Tahoe%20%282729479123%29.jpg"
+    }
+  }
+}

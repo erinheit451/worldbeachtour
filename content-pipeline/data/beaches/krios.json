@@ -1,0 +1,35 @@
+{
+  "slug": "krios",
+  "name": "Κριός",
+  "centroid_lat": 35.2364725,
+  "centroid_lng": 23.5956743,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/42194235",
+      "source_url": "https://www.openstreetmap.org/way/42194235"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/261480496",
+      "source_url": "https://www.openstreetmap.org/way/261480496"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/703356357",
+      "source_url": "https://www.openstreetmap.org/way/703356357"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/537004",
+      "source_url": "https://www.openstreetmap.org/relation/537004"
+    }
+  ],
+  "attributes": {}
+}

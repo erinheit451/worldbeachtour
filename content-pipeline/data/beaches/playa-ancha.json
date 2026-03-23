@@ -1,0 +1,25 @@
+{
+  "slug": "playa-ancha",
+  "name": "Playa Ancha",
+  "centroid_lat": 21.1371064,
+  "centroid_lng": -86.7549509,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/475927972",
+      "source_url": "https://www.openstreetmap.org/way/475927972"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q27775005",
+      "source_url": "https://www.wikidata.org/wiki/Q27775005"
+    }
+  ],
+  "attributes": {}
+}

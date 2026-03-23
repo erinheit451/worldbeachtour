@@ -1,0 +1,51 @@
+{
+  "slug": "coaquaddus",
+  "name": "Coaquaddus",
+  "centroid_lat": 38.9818371,
+  "centroid_lng": 8.4434888,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/135667112",
+      "source_url": "https://www.openstreetmap.org/way/135667112"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14329411",
+      "source_url": "https://www.openstreetmap.org/relation/14329411"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33337323",
+      "source_url": "https://www.wikidata.org/wiki/Q33337323"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020107020004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020107020004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sardaigne%20Sant%20Antioco%20Cala%20Sapone%2010092012%20-%20panoramio.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

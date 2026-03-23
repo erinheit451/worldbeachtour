@@ -1,0 +1,29 @@
+{
+  "slug": "playa-san-jose-1",
+  "name": "Playa San José",
+  "centroid_lat": -27.3368492,
+  "centroid_lng": -55.8743159,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/264313011",
+      "source_url": "https://www.openstreetmap.org/way/264313011"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q137041689",
+      "source_url": "https://www.wikidata.org/wiki/Q137041689"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20San%20Jos%C3%A9%20111924.jpg"
+    }
+  }
+}

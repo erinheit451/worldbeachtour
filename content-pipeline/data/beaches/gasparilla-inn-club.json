@@ -1,0 +1,35 @@
+{
+  "slug": "gasparilla-inn-club",
+  "name": "Gasparilla Inn & Club",
+  "centroid_lat": 26.7525488,
+  "centroid_lng": -82.2603354,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/876342498",
+      "source_url": "https://www.openstreetmap.org/way/876342498"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/964354376",
+      "source_url": "https://www.openstreetmap.org/way/964354376"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14656433",
+      "source_url": "https://www.openstreetmap.org/relation/14656433"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14656434",
+      "source_url": "https://www.openstreetmap.org/relation/14656434"
+    }
+  ],
+  "attributes": {}
+}

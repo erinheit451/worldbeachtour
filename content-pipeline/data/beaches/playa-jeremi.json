@@ -1,0 +1,33 @@
+{
+  "slug": "playa-jeremi",
+  "name": "Playa Jeremi",
+  "centroid_lat": 12.328833,
+  "centroid_lng": -69.1502485,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/9519695",
+      "source_url": "https://www.openstreetmap.org/relation/9519695"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q1966128",
+      "source_url": "https://www.wikidata.org/wiki/Q1966128"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Banded%20Butterflyfish%20%285200648239%29.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_Jeremi"
+    }
+  }
+}

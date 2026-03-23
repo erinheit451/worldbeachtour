@@ -1,0 +1,29 @@
+{
+  "slug": "platja-de-santa-llucia-1",
+  "name": "Platja de Santa Llúcia",
+  "centroid_lat": 40.8286641,
+  "centroid_lng": 0.7419949,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/7336019",
+      "source_url": "https://www.openstreetmap.org/relation/7336019"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28121204",
+      "source_url": "https://www.wikidata.org/wiki/Q28121204"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Miniplaya%2C%20Explore%2010-01-2024%20-%20Flickr%20-%20candi....jpg"
+    }
+  }
+}

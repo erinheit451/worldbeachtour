@@ -1,0 +1,30 @@
+{
+  "slug": "plage-de-pecheurs-18",
+  "name": "Plage de pêcheurs",
+  "centroid_lat": -4.4563658,
+  "centroid_lng": 29.2063064,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/12819272",
+      "source_url": "https://www.openstreetmap.org/relation/12819272"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/12819274",
+      "source_url": "https://www.openstreetmap.org/relation/12819274"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/12819275",
+      "source_url": "https://www.openstreetmap.org/relation/12819275"
+    }
+  ],
+  "attributes": {}
+}

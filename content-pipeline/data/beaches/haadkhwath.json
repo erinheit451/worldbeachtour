@@ -1,0 +1,38 @@
+{
+  "slug": "haadkhwath",
+  "name": "หาดควัท",
+  "centroid_lat": 9.7927603,
+  "centroid_lng": 100.0357106,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/170860502",
+      "source_url": "https://www.openstreetmap.org/way/170860502"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q5636460",
+      "source_url": "https://www.wikidata.org/wiki/Q5636460"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49321633",
+      "source_url": "https://www.wikidata.org/wiki/Q49321633"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bottle%20Beach%2C%20Ko%20Phangan%20in%202023%201.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hat_Khuat"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "plage-de-la-terriere",
+  "name": "Plage de la Terriere",
+  "centroid_lat": 46.361099,
+  "centroid_lng": -1.476438,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1723311736",
+      "source_url": "https://www.openstreetmap.org/node/1723311736"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/499904646",
+      "source_url": "https://www.openstreetmap.org/way/499904646"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    },
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

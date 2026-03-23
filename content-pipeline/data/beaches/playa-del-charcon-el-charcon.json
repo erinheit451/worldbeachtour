@@ -1,0 +1,45 @@
+{
+  "slug": "playa-del-charcon-el-charcon",
+  "name": "Playa del Charcón - El Charcón",
+  "centroid_lat": 36.5070842,
+  "centroid_lng": -4.6472197,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/544530939",
+      "source_url": "https://www.openstreetmap.org/way/544530939"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/544534607",
+      "source_url": "https://www.openstreetmap.org/way/544534607"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1211766344",
+      "source_url": "https://www.openstreetmap.org/way/1211766344"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617M0701558",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617M0701558",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "green-bank",
+  "name": "Green Bank",
+  "centroid_lat": 48.6123253,
+  "centroid_lng": -122.861848,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/356548121",
+      "source_url": "https://www.openstreetmap.org/node/356548121"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320862",
+      "source_url": "https://www.wikidata.org/wiki/Q49320862"
+    }
+  ],
+  "attributes": {}
+}

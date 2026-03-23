@@ -1,0 +1,30 @@
+{
+  "slug": "olimp-ii-zona-2-zona-protocol",
+  "name": "OLIMP II ZONA 2 ZONA PROTOCOL",
+  "centroid_lat": 43.87724,
+  "centroid_lng": 28.60644,
+  "country_code": "RO",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "RO2230009055030002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "RO2230009055030002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

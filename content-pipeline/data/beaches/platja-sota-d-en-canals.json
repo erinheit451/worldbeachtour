@@ -1,0 +1,29 @@
+{
+  "slug": "platja-sota-d-en-canals",
+  "name": "Platja Sota d'en Canals",
+  "centroid_lat": 42.3836964,
+  "centroid_lng": 3.1584559,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8313873",
+      "source_url": "https://www.openstreetmap.org/relation/8313873"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q121624524",
+      "source_url": "https://www.wikidata.org/wiki/Q121624524"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

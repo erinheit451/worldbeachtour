@@ -1,0 +1,44 @@
+{
+  "slug": "platja-fonda-2",
+  "name": "Platja Fonda",
+  "centroid_lat": 40.5633162,
+  "centroid_lng": 0.5363782,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/14511755",
+      "source_url": "https://www.openstreetmap.org/relation/14511755"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14511756",
+      "source_url": "https://www.openstreetmap.org/relation/14511756"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14511757",
+      "source_url": "https://www.openstreetmap.org/relation/14511757"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28121158",
+      "source_url": "https://www.wikidata.org/wiki/Q28121158"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q130318345",
+      "source_url": "https://www.wikidata.org/wiki/Q130318345"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platja%20Fonda%20P1170102.JPG"
+    }
+  }
+}

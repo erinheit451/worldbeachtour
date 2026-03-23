@@ -1,0 +1,35 @@
+{
+  "slug": "platja-del-port-de-sagunt",
+  "name": "Platja del Port de Sagunt",
+  "centroid_lat": 39.6600553,
+  "centroid_lng": -0.2090708,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/77661728",
+      "source_url": "https://www.openstreetmap.org/way/77661728"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES523M2201056",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES523M2201056",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

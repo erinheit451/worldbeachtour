@@ -1,0 +1,35 @@
+{
+  "slug": "gavan",
+  "name": "Гавань",
+  "centroid_lat": 48.8047492,
+  "centroid_lng": 44.7161847,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/126773548",
+      "source_url": "https://www.openstreetmap.org/way/126773548"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/172517618",
+      "source_url": "https://www.openstreetmap.org/way/172517618"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/172519196",
+      "source_url": "https://www.openstreetmap.org/way/172519196"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true,
+      "access": "permissive"
+    }
+  }
+}

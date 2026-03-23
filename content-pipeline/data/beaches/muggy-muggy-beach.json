@@ -1,0 +1,29 @@
+{
+  "slug": "muggy-muggy-beach",
+  "name": "Muggy Muggy Beach",
+  "centroid_lat": -17.9298441,
+  "centroid_lng": 146.1435153,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/3006138878",
+      "source_url": "https://www.openstreetmap.org/node/3006138878"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/723003564",
+      "source_url": "https://www.openstreetmap.org/way/723003564"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

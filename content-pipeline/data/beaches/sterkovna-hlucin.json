@@ -1,0 +1,46 @@
+{
+  "slug": "sterkovna-hlucin",
+  "name": "ŠTĚRKOVNA HLUČÍN",
+  "centroid_lat": 49.8943,
+  "centroid_lng": 18.1711,
+  "country_code": "CZ",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/230541742",
+      "source_url": "https://www.openstreetmap.org/way/230541742"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/499987872",
+      "source_url": "https://www.openstreetmap.org/way/499987872"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZPK810951",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZPK810951",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

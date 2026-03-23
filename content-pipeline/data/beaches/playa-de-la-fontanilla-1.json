@@ -1,0 +1,43 @@
+{
+  "slug": "playa-de-la-fontanilla-1",
+  "name": "Playa de la Fontanilla",
+  "centroid_lat": 36.280643,
+  "centroid_lng": -6.100016,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/11384132",
+      "source_url": "https://www.openstreetmap.org/relation/11384132"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24023641",
+      "source_url": "https://www.wikidata.org/wiki/Q24023641"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES612M0141371",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES612M0141371",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20La%20Fontanilla%20-%20IMG%2020210508%20113016%20831.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

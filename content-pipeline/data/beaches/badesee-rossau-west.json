@@ -1,0 +1,68 @@
+{
+  "slug": "badesee-rossau-west",
+  "name": "BADESEE ROSSAU, WEST",
+  "centroid_lat": 47.2658,
+  "centroid_lng": 11.4463,
+  "country_code": "AT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/153862417",
+      "source_url": "https://www.openstreetmap.org/way/153862417"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/806497170",
+      "source_url": "https://www.openstreetmap.org/way/806497170"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1318221564",
+      "source_url": "https://www.openstreetmap.org/way/1318221564"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1318221565",
+      "source_url": "https://www.openstreetmap.org/way/1318221565"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1318221566",
+      "source_url": "https://www.openstreetmap.org/way/1318221566"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "AT3320000100070020",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "AT3320000100070010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "AT3320000100070020",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "AT3320000100070010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

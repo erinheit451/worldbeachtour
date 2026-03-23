@@ -1,0 +1,29 @@
+{
+  "slug": "lido-di-casalecchio",
+  "name": "Lido di Casalecchio",
+  "centroid_lat": 44.4711482,
+  "centroid_lng": 11.2809786,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/429594288",
+      "source_url": "https://www.openstreetmap.org/node/429594288"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1234984697",
+      "source_url": "https://www.openstreetmap.org/way/1234984697"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true
+    }
+  }
+}

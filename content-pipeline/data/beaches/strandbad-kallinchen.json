@@ -1,0 +1,49 @@
+{
+  "slug": "strandbad-kallinchen",
+  "name": "Strandbad Kallinchen",
+  "centroid_lat": 52.2131895,
+  "centroid_lng": 13.5639371,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/116540195",
+      "source_url": "https://www.openstreetmap.org/way/116540195"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/135103343",
+      "source_url": "https://www.openstreetmap.org/way/135103343"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBB_PR_0209",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEBB_PR_0209",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "facilities": {
+      "fee_required": true
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

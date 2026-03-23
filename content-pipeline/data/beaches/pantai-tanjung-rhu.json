@@ -1,0 +1,34 @@
+{
+  "slug": "pantai-tanjung-rhu",
+  "name": "Pantai Tanjung Rhu",
+  "centroid_lat": 6.4578453,
+  "centroid_lng": 99.8248989,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/4013309",
+      "source_url": "https://www.openstreetmap.org/relation/4013309"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7446891",
+      "source_url": "https://www.wikidata.org/wiki/Q7446891"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33328478",
+      "source_url": "https://www.wikidata.org/wiki/Q33328478"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jalan%20Tanjung%20Rhu%2C%2007000%20Langkawi%2C%20Kedah%2C%20Malaysia%20-%20panoramio%20-%20jetsun%20%287%29.jpg"
+    }
+  }
+}

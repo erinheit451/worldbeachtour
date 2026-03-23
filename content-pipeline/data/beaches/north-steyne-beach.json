@@ -1,0 +1,25 @@
+{
+  "slug": "north-steyne-beach",
+  "name": "North Steyne Beach",
+  "centroid_lat": -33.7932242,
+  "centroid_lng": 151.2877063,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2970109",
+      "source_url": "https://www.openstreetmap.org/relation/2970109"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956875",
+      "source_url": "https://www.wikidata.org/wiki/Q21956875"
+    }
+  ],
+  "attributes": {}
+}

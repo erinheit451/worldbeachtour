@@ -1,0 +1,29 @@
+{
+  "slug": "chavania-1",
+  "name": "Chavania 1",
+  "centroid_lat": 35.2182116,
+  "centroid_lng": 25.71363803,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/616389076",
+      "source_url": "https://www.openstreetmap.org/way/616389076"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53633982",
+      "source_url": "https://www.wikidata.org/wiki/Q53633982"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "customers"
+    }
+  }
+}

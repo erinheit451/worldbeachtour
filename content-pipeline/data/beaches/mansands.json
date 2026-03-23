@@ -1,0 +1,32 @@
+{
+  "slug": "mansands",
+  "name": "Mansands",
+  "centroid_lat": 50.3713455,
+  "centroid_lng": -3.515963,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/131550265",
+      "source_url": "https://www.openstreetmap.org/way/131550265"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q99796491",
+      "source_url": "https://www.wikidata.org/wiki/Q99796491"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Panoramic%20View%20of%20Man%20Sands.jpg"
+    }
+  }
+}

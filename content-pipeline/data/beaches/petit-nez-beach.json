@@ -1,0 +1,25 @@
+{
+  "slug": "petit-nez-beach",
+  "name": "Petit Nez Beach",
+  "centroid_lat": 45.5629141,
+  "centroid_lng": -60.8967327,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/224285536",
+      "source_url": "https://www.openstreetmap.org/way/224285536"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22532093",
+      "source_url": "https://www.wikidata.org/wiki/Q22532093"
+    }
+  ],
+  "attributes": {}
+}

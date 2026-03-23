@@ -1,0 +1,66 @@
+{
+  "slug": "nudist-beach-5",
+  "name": "Nudist beach",
+  "centroid_lat": 43.7930461,
+  "centroid_lng": 15.6050846,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "rock",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/171463149",
+      "source_url": "https://www.openstreetmap.org/way/171463149"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/304409066",
+      "source_url": "https://www.openstreetmap.org/way/304409066"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/772984084",
+      "source_url": "https://www.openstreetmap.org/way/772984084"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/772984099",
+      "source_url": "https://www.openstreetmap.org/way/772984099"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-3082",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-3083",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-3082",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-3083",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    },
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

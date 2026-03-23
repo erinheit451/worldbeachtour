@@ -1,0 +1,29 @@
+{
+  "slug": "praia-do-balneario-maracana",
+  "name": "Praia do Balneário Maracanã",
+  "centroid_lat": -24.0415159,
+  "centroid_lng": -46.5022797,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/5225917",
+      "source_url": "https://www.openstreetmap.org/relation/5225917"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q133994015",
+      "source_url": "https://www.wikidata.org/wiki/Q133994015"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20Grande%20-%20S%C3%A3o%20Paulo%2C%20Brasil%20-%20panoramio%20%281%29.jpg"
+    }
+  }
+}

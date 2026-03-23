@@ -1,0 +1,29 @@
+{
+  "slug": "plage-de-l-ocean",
+  "name": "Plage de l'Océan",
+  "centroid_lat": 43.5143635,
+  "centroid_lng": -1.5319064,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/183134274",
+      "source_url": "https://www.openstreetmap.org/way/183134274"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322612",
+      "source_url": "https://www.wikidata.org/wiki/Q49322612"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    }
+  }
+}

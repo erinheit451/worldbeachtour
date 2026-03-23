@@ -1,0 +1,50 @@
+{
+  "slug": "embalse-ullibarri-gamboa-arrazua-ubarrundia-04-pm1",
+  "name": "EMBALSE ULLIBARRI GAMBOA ARRAZUA-UBARRUNDIA 04 PM1",
+  "centroid_lat": 42.951,
+  "centroid_lng": -2.588,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/239314881",
+      "source_url": "https://www.openstreetmap.org/way/239314881"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/913259644",
+      "source_url": "https://www.openstreetmap.org/way/913259644"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES211C0082114",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES211C0082115",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES211C0082114",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES211C0082115",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

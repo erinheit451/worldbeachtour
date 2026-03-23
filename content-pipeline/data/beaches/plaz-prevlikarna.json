@@ -1,0 +1,58 @@
+{
+  "slug": "plaz-prevlikarna",
+  "name": "Pláž převlikarna",
+  "centroid_lat": 48.7379561,
+  "centroid_lng": 14.1009079,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/232537036",
+      "source_url": "https://www.openstreetmap.org/way/232537036"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/708292002",
+      "source_url": "https://www.openstreetmap.org/way/708292002"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/857786256",
+      "source_url": "https://www.openstreetmap.org/way/857786256"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/857786257",
+      "source_url": "https://www.openstreetmap.org/way/857786257"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/857786258",
+      "source_url": "https://www.openstreetmap.org/way/857786258"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZKO310301",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZKO310301",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

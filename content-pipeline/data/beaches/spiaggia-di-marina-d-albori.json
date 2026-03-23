@@ -1,0 +1,55 @@
+{
+  "slug": "spiaggia-di-marina-d-albori",
+  "name": "Spiaggia di Marina d'Albori",
+  "centroid_lat": 40.6638108,
+  "centroid_lng": 14.7158611,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/162834577",
+      "source_url": "https://www.openstreetmap.org/way/162834577"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/162834579",
+      "source_url": "https://www.openstreetmap.org/way/162834579"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/191230551",
+      "source_url": "https://www.openstreetmap.org/way/191230551"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/191233423",
+      "source_url": "https://www.openstreetmap.org/way/191233423"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/191233429",
+      "source_url": "https://www.openstreetmap.org/way/191233429"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015065157002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015065157002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

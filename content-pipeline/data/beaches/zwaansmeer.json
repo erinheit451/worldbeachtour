@@ -1,0 +1,43 @@
+{
+  "slug": "zwaansmeer",
+  "name": "ZWAANSMEER",
+  "centroid_lat": 52.52764,
+  "centroid_lng": 4.73037,
+  "country_code": "NL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/686951042",
+      "source_url": "https://www.openstreetmap.org/way/686951042"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1428536788",
+      "source_url": "https://www.openstreetmap.org/way/1428536788"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW12_431017",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW12_431017",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

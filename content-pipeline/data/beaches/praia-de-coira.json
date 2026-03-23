@@ -1,0 +1,56 @@
+{
+  "slug": "praia-de-coira",
+  "name": "Praia de Coira",
+  "centroid_lat": 42.7554262,
+  "centroid_lng": -8.9513066,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/170303225",
+      "source_url": "https://www.openstreetmap.org/way/170303225"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q20542737",
+      "source_url": "https://www.wikidata.org/wiki/Q20542737"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES111M071180",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES111M071179",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES111M071180",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES111M071179",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20de%20Coira%20-%20Portos%C3%ADn.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

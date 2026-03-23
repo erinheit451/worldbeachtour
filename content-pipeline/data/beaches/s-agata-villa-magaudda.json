@@ -1,0 +1,35 @@
+{
+  "slug": "s-agata-villa-magaudda",
+  "name": "S. AGATA VILLA MAGAUDDA",
+  "centroid_lat": 38.2512,
+  "centroid_lng": 15.5965,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/202323764",
+      "source_url": "https://www.openstreetmap.org/way/202323764"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019083048008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019083048008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "grice-beach",
+  "name": "Grice Beach",
+  "centroid_lat": 32.7497682,
+  "centroid_lng": -79.8951171,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7001778688",
+      "source_url": "https://www.openstreetmap.org/node/7001778688"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/867511198",
+      "source_url": "https://www.openstreetmap.org/way/867511198"
+    }
+  ],
+  "attributes": {}
+}

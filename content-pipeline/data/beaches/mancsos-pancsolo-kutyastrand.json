@@ -1,0 +1,27 @@
+{
+  "slug": "mancsos-pancsolo-kutyastrand",
+  "name": "Mancsos Pancsoló kutyastrand",
+  "centroid_lat": 47.6258447,
+  "centroid_lng": 20.7340332,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1137937848",
+      "source_url": "https://www.openstreetmap.org/way/1137937848"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "lovina-beach",
+  "name": "Lovina Beach",
+  "centroid_lat": -8.1610224,
+  "centroid_lng": 115.0243334,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10988259974",
+      "source_url": "https://www.openstreetmap.org/node/10988259974"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/285154449",
+      "source_url": "https://www.openstreetmap.org/way/285154449"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q1872519",
+      "source_url": "https://www.wikidata.org/wiki/Q1872519"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Morning%20of%20Lovina%20Beach%20200507-6.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Lovina_Beach"
+    }
+  }
+}

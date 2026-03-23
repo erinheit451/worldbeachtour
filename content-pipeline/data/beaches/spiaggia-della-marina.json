@@ -1,0 +1,50 @@
+{
+  "slug": "spiaggia-della-marina",
+  "name": "Spiaggia della Marina",
+  "centroid_lat": 43.8596613,
+  "centroid_lng": 7.9695948,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7207039619",
+      "source_url": "https://www.openstreetmap.org/node/7207039619"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/628412020",
+      "source_url": "https://www.openstreetmap.org/way/628412020"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007008054007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007008054006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007008054007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007008054006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

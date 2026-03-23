@@ -1,0 +1,48 @@
+{
+  "slug": "scogliolungo",
+  "name": "Scogliolungo",
+  "centroid_lat": 40.8380207,
+  "centroid_lng": 8.4086782,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/180719417",
+      "source_url": "https://www.openstreetmap.org/way/180719417"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/796899611",
+      "source_url": "https://www.openstreetmap.org/way/796899611"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33341046",
+      "source_url": "https://www.wikidata.org/wiki/Q33341046"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020090058001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020090058001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Porto%20Torres%2C%20spiaggia%20di%20Scoglio%20Lungo%20%2801%29.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

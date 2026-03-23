@@ -1,0 +1,29 @@
+{
+  "slug": "platja-del-morro-de-gos",
+  "name": "Platja del Morro de Gos",
+  "centroid_lat": 40.0955321,
+  "centroid_lng": 0.148676,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2169042",
+      "source_url": "https://www.openstreetmap.org/relation/2169042"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q427783",
+      "source_url": "https://www.wikidata.org/wiki/Q427783"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/PLATJA%20DEL%20MORRO%20GROS%20-%20ORPESA%20-%20274.JPG"
+    }
+  }
+}

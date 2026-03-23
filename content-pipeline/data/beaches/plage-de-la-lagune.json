@@ -1,0 +1,44 @@
+{
+  "slug": "plage-de-la-lagune",
+  "name": "Plage de La lagune",
+  "centroid_lat": 44.5468949,
+  "centroid_lng": -1.249947,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1723311693",
+      "source_url": "https://www.openstreetmap.org/node/1723311693"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q120217934",
+      "source_url": "https://www.wikidata.org/wiki/Q120217934"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1233529M033170",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1233529M033170",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sunset%20Coucher%20de%20soleil%20-%20Cap%20Ferret%20Bassin%20d%27Arcachon%20Ocean%20Pecheur%20Fisherman%20Beach%20Plage%20Waves%20Vagues%20Water%20Eau%20Boat%20Bateau%20Oiseau%20Birds%20bleu%20orange%20Claouey%20Aquitaine%20Gironde%20Bordeaux%20Voile%20-%20Picture%20Image%20Photography.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

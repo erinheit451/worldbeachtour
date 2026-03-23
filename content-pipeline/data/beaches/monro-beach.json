@@ -1,0 +1,29 @@
+{
+  "slug": "monro-beach",
+  "name": "Monro Beach",
+  "centroid_lat": -43.6957654,
+  "centroid_lng": 169.2656277,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/343085584",
+      "source_url": "https://www.openstreetmap.org/way/343085584"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q91868259",
+      "source_url": "https://www.wikidata.org/wiki/Q91868259"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monro%20Beach%2C%20West%20Coast%20Region%2C%20New%20Zealand%2006.jpg"
+    }
+  }
+}

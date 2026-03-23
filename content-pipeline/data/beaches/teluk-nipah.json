@@ -1,0 +1,24 @@
+{
+  "slug": "teluk-nipah",
+  "name": "Teluk Nipah",
+  "centroid_lat": 1.7155593,
+  "centroid_lng": 110.3578589,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/355081606",
+      "source_url": "https://www.openstreetmap.org/way/355081606"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "permissive"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "los-puentes",
+  "name": "Los Puentes",
+  "centroid_lat": 27.8361113,
+  "centroid_lng": -17.899551,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "rock",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/849373510",
+      "source_url": "https://www.openstreetmap.org/way/849373510"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

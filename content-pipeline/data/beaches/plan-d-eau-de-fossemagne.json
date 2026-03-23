@@ -1,0 +1,35 @@
+{
+  "slug": "plan-d-eau-de-fossemagne",
+  "name": "PLAN D EAU DE FOSSEMAGNE",
+  "centroid_lat": 45.12512,
+  "centroid_lng": 0.97632,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/365063652",
+      "source_url": "https://www.openstreetmap.org/way/365063652"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1124188D024035",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1124188D024035",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

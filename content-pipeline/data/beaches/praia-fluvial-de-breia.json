@@ -1,0 +1,24 @@
+{
+  "slug": "praia-fluvial-de-breia",
+  "name": "Praia Fluvial de Breia",
+  "centroid_lat": 42.0473889,
+  "centroid_lng": -8.5024506,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/3371173907",
+      "source_url": "https://www.openstreetmap.org/node/3371173907"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

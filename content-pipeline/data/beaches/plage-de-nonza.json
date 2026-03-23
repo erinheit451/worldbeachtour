@@ -1,0 +1,29 @@
+{
+  "slug": "plage-de-nonza",
+  "name": "Plage de Nonza",
+  "centroid_lat": 42.7921036,
+  "centroid_lng": 9.3443917,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/208353715",
+      "source_url": "https://www.openstreetmap.org/way/208353715"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322654",
+      "source_url": "https://www.wikidata.org/wiki/Q49322654"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plage%20et%20paysage%20depuis%20la%20tour%20de%20Nonza.jpg"
+    }
+  }
+}

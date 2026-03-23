@@ -1,0 +1,48 @@
+{
+  "slug": "loutra-aphrodites",
+  "name": "LOUTRA APHRODITES",
+  "centroid_lat": 35.056,
+  "centroid_lng": 32.3484,
+  "country_code": "CY",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/697820077",
+      "source_url": "https://www.openstreetmap.org/way/697820077"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/697820078",
+      "source_url": "https://www.openstreetmap.org/way/697820078"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/697820079",
+      "source_url": "https://www.openstreetmap.org/way/697820079"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CY0006344000000143",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CY0006344000000143",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

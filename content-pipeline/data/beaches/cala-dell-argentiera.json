@@ -1,0 +1,59 @@
+{
+  "slug": "cala-dell-argentiera",
+  "name": "Cala dell'Argentiera",
+  "centroid_lat": 40.7407128,
+  "centroid_lng": 8.14783,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/89296212",
+      "source_url": "https://www.openstreetmap.org/way/89296212"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/89296214",
+      "source_url": "https://www.openstreetmap.org/way/89296214"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1202726459",
+      "source_url": "https://www.openstreetmap.org/way/1202726459"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33335017",
+      "source_url": "https://www.wikidata.org/wiki/Q33335017"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020090064002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020090064002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "fee_required": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sassari%20-%20Argentiera%20%2801%29.JPG"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

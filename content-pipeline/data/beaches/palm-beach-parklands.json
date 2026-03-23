@@ -1,0 +1,25 @@
+{
+  "slug": "palm-beach-parklands",
+  "name": "Palm Beach Parklands",
+  "centroid_lat": -28.1288607,
+  "centroid_lng": 153.4793317,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/594798264",
+      "source_url": "https://www.openstreetmap.org/way/594798264"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8360926",
+      "source_url": "https://www.openstreetmap.org/relation/8360926"
+    }
+  ],
+  "attributes": {}
+}

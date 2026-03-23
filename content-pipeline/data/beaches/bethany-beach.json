@@ -1,0 +1,32 @@
+{
+  "slug": "bethany-beach",
+  "name": "Bethany Beach",
+  "centroid_lat": 38.5388047,
+  "centroid_lng": -75.054124,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/6362827",
+      "source_url": "https://www.openstreetmap.org/relation/6362827"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q34689077",
+      "source_url": "https://www.wikidata.org/wiki/Q34689077"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bethany%20Beach%20-%20panoramio%20%2810%29.jpg"
+    }
+  }
+}

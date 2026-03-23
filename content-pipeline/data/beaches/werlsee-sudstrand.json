@@ -1,0 +1,24 @@
+{
+  "slug": "werlsee-sudstrand",
+  "name": "Werlsee Südstrand",
+  "centroid_lat": 52.4183437,
+  "centroid_lng": 13.8173655,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/214867409",
+      "source_url": "https://www.openstreetmap.org/way/214867409"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

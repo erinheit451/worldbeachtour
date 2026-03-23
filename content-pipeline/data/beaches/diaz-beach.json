@@ -1,0 +1,29 @@
+{
+  "slug": "diaz-beach",
+  "name": "Diaz Beach",
+  "centroid_lat": -34.3545743,
+  "centroid_lng": 18.4820073,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/754916286",
+      "source_url": "https://www.openstreetmap.org/way/754916286"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q131611057",
+      "source_url": "https://www.wikidata.org/wiki/Q131611057"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cope%20of%20good%20hope-%20beaSimons%20Town%20ch%20-%20panoramio.jpg"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "whitestone-beach",
+  "name": "Whitestone Beach",
+  "centroid_lat": -46.9173822,
+  "centroid_lng": 168.0575036,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/202891963",
+      "source_url": "https://www.openstreetmap.org/way/202891963"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49325307",
+      "source_url": "https://www.wikidata.org/wiki/Q49325307"
+    }
+  ],
+  "attributes": {}
+}

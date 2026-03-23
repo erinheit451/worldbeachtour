@@ -1,0 +1,30 @@
+{
+  "slug": "paralia-gumniston-platanitsi",
+  "name": "Παραλία Γυμνιστών Πλατανίτσι",
+  "centroid_lat": 40.1246126,
+  "centroid_lng": 23.9772092,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/222684127",
+      "source_url": "https://www.openstreetmap.org/way/222684127"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

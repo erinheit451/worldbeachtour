@@ -1,0 +1,39 @@
+{
+  "slug": "hellshire-beach",
+  "name": "Hellshire Beach",
+  "centroid_lat": 17.8968129,
+  "centroid_lng": -76.893826,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/363801341",
+      "source_url": "https://www.openstreetmap.org/way/363801341"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q15223535",
+      "source_url": "https://www.wikidata.org/wiki/Q15223535"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Hellshire-beach.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hellshire_Beach"
+    }
+  }
+}

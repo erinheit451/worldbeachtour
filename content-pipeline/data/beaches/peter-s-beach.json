@@ -1,0 +1,94 @@
+{
+  "slug": "peter-s-beach",
+  "name": "Peter's Beach",
+  "centroid_lat": 40.6287073,
+  "centroid_lng": 14.373656,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7556427289",
+      "source_url": "https://www.openstreetmap.org/node/7556427289"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7770020291",
+      "source_url": "https://www.openstreetmap.org/node/7770020291"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7770020294",
+      "source_url": "https://www.openstreetmap.org/node/7770020294"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7770020332",
+      "source_url": "https://www.openstreetmap.org/node/7770020332"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/157690939",
+      "source_url": "https://www.openstreetmap.org/way/157690939"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/697860247",
+      "source_url": "https://www.openstreetmap.org/way/697860247"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/697860248",
+      "source_url": "https://www.openstreetmap.org/way/697860248"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1188650758",
+      "source_url": "https://www.openstreetmap.org/way/1188650758"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1188650761",
+      "source_url": "https://www.openstreetmap.org/way/1188650761"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1188650767",
+      "source_url": "https://www.openstreetmap.org/way/1188650767"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015063080003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015063080004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015063080003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015063080004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false,
+      "access": "private"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

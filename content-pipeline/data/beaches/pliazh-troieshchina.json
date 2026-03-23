@@ -1,0 +1,30 @@
+{
+  "slug": "pliazh-troieshchina",
+  "name": "Пляж \"Троєщина\"",
+  "centroid_lat": 50.5064066,
+  "centroid_lng": 30.5685239,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/17516356",
+      "source_url": "https://www.openstreetmap.org/relation/17516356"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

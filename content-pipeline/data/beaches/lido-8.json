@@ -1,0 +1,24 @@
+{
+  "slug": "lido-8",
+  "name": "Лидо",
+  "centroid_lat": 44.8399417,
+  "centroid_lng": 20.4245002,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/10315316",
+      "source_url": "https://www.openstreetmap.org/relation/10315316"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    }
+  }
+}

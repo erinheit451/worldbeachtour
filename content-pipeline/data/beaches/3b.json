@@ -1,0 +1,35 @@
+{
+  "slug": "3b",
+  "name": "3B",
+  "centroid_lat": 42.4888323,
+  "centroid_lng": 18.6499279,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/240079636",
+      "source_url": "https://www.openstreetmap.org/way/240079636"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/17546484",
+      "source_url": "https://www.openstreetmap.org/relation/17546484"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/17546486",
+      "source_url": "https://www.openstreetmap.org/relation/17546486"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/17546487",
+      "source_url": "https://www.openstreetmap.org/relation/17546487"
+    }
+  ],
+  "attributes": {}
+}

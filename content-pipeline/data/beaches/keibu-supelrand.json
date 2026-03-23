@@ -1,0 +1,27 @@
+{
+  "slug": "keibu-supelrand",
+  "name": "Keibu supelrand",
+  "centroid_lat": 59.2484508,
+  "centroid_lng": 23.7439367,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/707222003",
+      "source_url": "https://www.openstreetmap.org/way/707222003"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

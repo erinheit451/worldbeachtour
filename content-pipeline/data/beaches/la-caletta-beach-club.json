@@ -1,0 +1,87 @@
+{
+  "slug": "la-caletta-beach-club",
+  "name": "La Caletta Beach Club",
+  "centroid_lat": 42.4436082,
+  "centroid_lng": 11.1147339,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12565726815",
+      "source_url": "https://www.openstreetmap.org/node/12565726815"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/12866399693",
+      "source_url": "https://www.openstreetmap.org/node/12866399693"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/12883011459",
+      "source_url": "https://www.openstreetmap.org/node/12883011459"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/12883019493",
+      "source_url": "https://www.openstreetmap.org/node/12883019493"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/12883027780",
+      "source_url": "https://www.openstreetmap.org/node/12883027780"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1364256454",
+      "source_url": "https://www.openstreetmap.org/way/1364256454"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1364256456",
+      "source_url": "https://www.openstreetmap.org/way/1364256456"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1364256457",
+      "source_url": "https://www.openstreetmap.org/way/1364256457"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1364256538",
+      "source_url": "https://www.openstreetmap.org/way/1364256538"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1390025804",
+      "source_url": "https://www.openstreetmap.org/way/1390025804"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009053016005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009053016005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true,
+      "fee_required": true
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

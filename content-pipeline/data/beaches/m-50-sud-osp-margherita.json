@@ -1,0 +1,40 @@
+{
+  "slug": "m-50-sud-osp-margherita",
+  "name": "M 50 SUD OSP. MARGHERITA",
+  "centroid_lat": 38.2151,
+  "centroid_lng": 15.5644,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/202293508",
+      "source_url": "https://www.openstreetmap.org/way/202293508"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33332970",
+      "source_url": "https://www.wikidata.org/wiki/Q33332970"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019083048028",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019083048028",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

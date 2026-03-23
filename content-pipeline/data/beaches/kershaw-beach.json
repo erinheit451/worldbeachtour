@@ -1,0 +1,30 @@
+{
+  "slug": "kershaw-beach",
+  "name": "Kershaw Beach",
+  "centroid_lat": 42.8748049,
+  "centroid_lng": -77.2653205,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/2392857495",
+      "source_url": "https://www.openstreetmap.org/node/2392857495"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/9807655832",
+      "source_url": "https://www.openstreetmap.org/node/9807655832"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1361867137",
+      "source_url": "https://www.openstreetmap.org/way/1361867137"
+    }
+  ],
+  "attributes": {}
+}

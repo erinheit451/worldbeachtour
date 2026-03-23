@@ -1,0 +1,50 @@
+{
+  "slug": "brist-plaza",
+  "name": "Brist plaza",
+  "centroid_lat": 43.11978,
+  "centroid_lng": 17.32111,
+  "country_code": "HR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/695054007",
+      "source_url": "https://www.openstreetmap.org/way/695054007"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/695054008",
+      "source_url": "https://www.openstreetmap.org/way/695054008"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/695054016",
+      "source_url": "https://www.openstreetmap.org/way/695054016"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/695401275",
+      "source_url": "https://www.openstreetmap.org/way/695401275"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

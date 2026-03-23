@@ -1,0 +1,77 @@
+{
+  "slug": "plaza-skrbici",
+  "name": "Plaža Škrbići",
+  "centroid_lat": 45.3411745,
+  "centroid_lng": 14.3126894,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/357271621",
+      "source_url": "https://www.openstreetmap.org/way/357271621"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/451419576",
+      "source_url": "https://www.openstreetmap.org/way/451419576"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/821778963",
+      "source_url": "https://www.openstreetmap.org/way/821778963"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/826479560",
+      "source_url": "https://www.openstreetmap.org/way/826479560"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/826521461",
+      "source_url": "https://www.openstreetmap.org/way/826521461"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1034838618",
+      "source_url": "https://www.openstreetmap.org/way/1034838618"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6073",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6074",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6073",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6074",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "plage-de-la-source-1",
+  "name": "Plage de la Source",
+  "centroid_lat": 47.1065008,
+  "centroid_lng": -2.0973966,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/299862339",
+      "source_url": "https://www.openstreetmap.org/way/299862339"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/299862342",
+      "source_url": "https://www.openstreetmap.org/way/299862342"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/621307467",
+      "source_url": "https://www.openstreetmap.org/way/621307467"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/621624870",
+      "source_url": "https://www.openstreetmap.org/way/621624870"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322643",
+      "source_url": "https://www.wikidata.org/wiki/Q49322643"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0144131M044620",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0144131M044620",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

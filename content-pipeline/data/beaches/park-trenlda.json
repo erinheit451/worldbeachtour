@@ -1,0 +1,35 @@
+{
+  "slug": "park-trenlda",
+  "name": "PARK TRENLDA",
+  "centroid_lat": 54.44537,
+  "centroid_lng": 17.04055,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/485874229",
+      "source_url": "https://www.openstreetmap.org/way/485874229"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6311210222000123",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6311210222000123",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "praia-do-pereque-acu",
+  "name": "Praia do Perequê-Açu",
+  "centroid_lat": -23.4221774,
+  "centroid_lng": -45.0591359,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/159308937",
+      "source_url": "https://www.openstreetmap.org/way/159308937"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1247741871",
+      "source_url": "https://www.openstreetmap.org/way/1247741871"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "surfing": {
+      "surfing_available": true
+    }
+  }
+}

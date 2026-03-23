@@ -1,0 +1,35 @@
+{
+  "slug": "plan-d-eau-mas-de-la-croux",
+  "name": "PLAN D EAU MAS DE LA CROUX",
+  "centroid_lat": 44.90481,
+  "centroid_lng": 1.77364,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1359378111",
+      "source_url": "https://www.openstreetmap.org/way/1359378111"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ2546313D046038",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ2546313D046038",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

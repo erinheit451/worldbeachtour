@@ -1,0 +1,24 @@
+{
+  "slug": "sun-city-beach",
+  "name": "Sun City Beach",
+  "centroid_lat": 36.5555411,
+  "centroid_lng": 29.1065927,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/20003518",
+      "source_url": "https://www.openstreetmap.org/relation/20003518"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

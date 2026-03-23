@@ -1,0 +1,25 @@
+{
+  "slug": "sandstrand-3",
+  "name": "Sandstrand",
+  "centroid_lat": 52.4555956,
+  "centroid_lng": 9.7736362,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/90073449",
+      "source_url": "https://www.openstreetmap.org/way/90073449"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/90073450",
+      "source_url": "https://www.openstreetmap.org/way/90073450"
+    }
+  ],
+  "attributes": {}
+}

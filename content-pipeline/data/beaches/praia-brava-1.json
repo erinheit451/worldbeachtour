@@ -1,0 +1,29 @@
+{
+  "slug": "praia-brava-1",
+  "name": "Praia Brava",
+  "centroid_lat": -22.7548373,
+  "centroid_lng": -41.8714325,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/162924321",
+      "source_url": "https://www.openstreetmap.org/way/162924321"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22066752",
+      "source_url": "https://www.wikidata.org/wiki/Q22066752"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    }
+  }
+}

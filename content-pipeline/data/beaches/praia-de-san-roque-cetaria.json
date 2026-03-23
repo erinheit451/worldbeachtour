@@ -1,0 +1,42 @@
+{
+  "slug": "praia-de-san-roque-cetaria",
+  "name": "Praia de San Roque-Cetaria",
+  "centroid_lat": 43.3740047,
+  "centroid_lng": -8.4196137,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/159191647",
+      "source_url": "https://www.openstreetmap.org/way/159191647"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/204396547",
+      "source_url": "https://www.openstreetmap.org/way/204396547"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/204396555",
+      "source_url": "https://www.openstreetmap.org/way/204396555"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q12398092",
+      "source_url": "https://www.wikidata.org/wiki/Q12398092"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20de%20San%20Roque.JPG"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "praia-de-labruge",
+  "name": "Praia de Labruge",
+  "centroid_lat": 41.272596,
+  "centroid_lng": -8.7277858,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/344746898",
+      "source_url": "https://www.openstreetmap.org/way/344746898"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/619230839",
+      "source_url": "https://www.openstreetmap.org/way/619230839"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10352812",
+      "source_url": "https://www.wikidata.org/wiki/Q10352812"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCF2P",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCF2P",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

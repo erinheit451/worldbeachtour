@@ -1,0 +1,25 @@
+{
+  "slug": "south-jetty-beach",
+  "name": "South Jetty Beach",
+  "centroid_lat": 34.2399856,
+  "centroid_lng": -119.266538,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1205915",
+      "source_url": "https://www.openstreetmap.org/relation/1205915"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324838",
+      "source_url": "https://www.wikidata.org/wiki/Q49324838"
+    }
+  ],
+  "attributes": {}
+}

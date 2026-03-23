@@ -1,0 +1,29 @@
+{
+  "slug": "platja-de-lo-mar-i-cel",
+  "name": "Platja de lo Mar-i-cel",
+  "centroid_lat": 40.5691937,
+  "centroid_lng": 0.5405665,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/14511727",
+      "source_url": "https://www.openstreetmap.org/relation/14511727"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28121159",
+      "source_url": "https://www.wikidata.org/wiki/Q28121159"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platja%20de%20lo%20Mar-i-cel%20vista%20des%20de%20el%20Port%20d%27Alcanar.JPG"
+    }
+  }
+}

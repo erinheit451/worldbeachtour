@@ -1,0 +1,35 @@
+{
+  "slug": "cap-decouverte-plage-sainte-marie",
+  "name": "CAP DECOUVERTE PLAGE SAINTE MARIE",
+  "centroid_lat": 44.02109,
+  "centroid_lng": 2.14339,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/382867418",
+      "source_url": "https://www.openstreetmap.org/way/382867418"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ2781033D081001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ2781033D081001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

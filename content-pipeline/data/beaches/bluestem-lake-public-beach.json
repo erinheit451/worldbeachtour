@@ -1,0 +1,24 @@
+{
+  "slug": "bluestem-lake-public-beach",
+  "name": "Bluestem Lake Public Beach",
+  "centroid_lat": 36.6999767,
+  "centroid_lng": -96.4146614,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1076876420",
+      "source_url": "https://www.openstreetmap.org/way/1076876420"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

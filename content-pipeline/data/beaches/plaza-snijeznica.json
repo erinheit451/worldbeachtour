@@ -1,0 +1,24 @@
+{
+  "slug": "plaza-snijeznica",
+  "name": "Plaža Sniježnica",
+  "centroid_lat": 44.5907012,
+  "centroid_lng": 18.9543491,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9929508297",
+      "source_url": "https://www.openstreetmap.org/node/9929508297"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

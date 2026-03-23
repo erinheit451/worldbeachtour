@@ -1,0 +1,29 @@
+{
+  "slug": "pliazh-bukhty-fedorova",
+  "name": "Пляж бухты Фёдорова",
+  "centroid_lat": 43.1068002,
+  "centroid_lng": 131.8712954,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1437110855",
+      "source_url": "https://www.openstreetmap.org/way/1437110855"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8709842",
+      "source_url": "https://www.openstreetmap.org/relation/8709842"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

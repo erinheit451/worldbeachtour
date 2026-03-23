@@ -1,0 +1,39 @@
+{
+  "slug": "white-sand-hills-beach-resort",
+  "name": "White Sand Hills Beach Resort",
+  "centroid_lat": 11.5497581,
+  "centroid_lng": 122.6360795,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5765685627",
+      "source_url": "https://www.openstreetmap.org/node/5765685627"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5765685628",
+      "source_url": "https://www.openstreetmap.org/node/5765685628"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5947364517",
+      "source_url": "https://www.openstreetmap.org/node/5947364517"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14058342",
+      "source_url": "https://www.openstreetmap.org/relation/14058342"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

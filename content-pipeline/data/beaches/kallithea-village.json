@@ -1,0 +1,35 @@
+{
+  "slug": "kallithea-village",
+  "name": "Kallithea-Village",
+  "centroid_lat": 40.28557849,
+  "centroid_lng": 22.60670146,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/720119364",
+      "source_url": "https://www.openstreetmap.org/way/720119364"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/720119365",
+      "source_url": "https://www.openstreetmap.org/way/720119365"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/720119366",
+      "source_url": "https://www.openstreetmap.org/way/720119366"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53629528",
+      "source_url": "https://www.wikidata.org/wiki/Q53629528"
+    }
+  ],
+  "attributes": {}
+}

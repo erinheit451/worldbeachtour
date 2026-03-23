@@ -1,0 +1,25 @@
+{
+  "slug": "nejecho-beach",
+  "name": "Nejecho Beach",
+  "centroid_lat": 40.0484499,
+  "centroid_lng": -74.0831933,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357726380",
+      "source_url": "https://www.openstreetmap.org/node/357726380"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322206",
+      "source_url": "https://www.wikidata.org/wiki/Q49322206"
+    }
+  ],
+  "attributes": {}
+}

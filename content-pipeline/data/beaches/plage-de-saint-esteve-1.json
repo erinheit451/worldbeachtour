@@ -1,0 +1,29 @@
+{
+  "slug": "plage-de-saint-esteve-1",
+  "name": "Plage de Saint-Estève",
+  "centroid_lat": 43.2799,
+  "centroid_lng": 5.29625,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1119211675",
+      "source_url": "https://www.openstreetmap.org/way/1119211675"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q52742478",
+      "source_url": "https://www.wikidata.org/wiki/Q52742478"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Saint-Est%C3%A8ve%20beach%20on%20Ratonneau%2C%20%C3%8Eles%20du%20Frioul%2C%20Marseille%2C%202012%20%282%29.jpg"
+    }
+  }
+}

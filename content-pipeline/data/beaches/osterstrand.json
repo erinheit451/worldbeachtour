@@ -1,0 +1,25 @@
+{
+  "slug": "osterstrand",
+  "name": "Østerstrand",
+  "centroid_lat": 55.5644794,
+  "centroid_lng": 9.7691182,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/321432552",
+      "source_url": "https://www.openstreetmap.org/way/321432552"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q20107607",
+      "source_url": "https://www.wikidata.org/wiki/Q20107607"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "spiaggia-villa-fedora",
+  "name": "SPIAGGIA VILLA FEDORA",
+  "centroid_lat": 45.9147,
+  "centroid_lng": 8.5036,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/207076868",
+      "source_url": "https://www.openstreetmap.org/way/207076868"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/207076870",
+      "source_url": "https://www.openstreetmap.org/way/207076870"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1092704984",
+      "source_url": "https://www.openstreetmap.org/way/1092704984"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1092704985",
+      "source_url": "https://www.openstreetmap.org/way/1092704985"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT001103008006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT001103008008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT001103008006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT001103008008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

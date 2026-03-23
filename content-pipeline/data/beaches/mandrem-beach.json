@@ -1,0 +1,29 @@
+{
+  "slug": "mandrem-beach",
+  "name": "Mandrem Beach",
+  "centroid_lat": 15.6600908,
+  "centroid_lng": 73.7136985,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/199363593",
+      "source_url": "https://www.openstreetmap.org/way/199363593"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25346136",
+      "source_url": "https://www.wikidata.org/wiki/Q25346136"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mandrem_Beach"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "bushy-beach",
+  "name": "Bushy Beach",
+  "centroid_lat": -45.1235595,
+  "centroid_lng": 170.9789065,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/281273280",
+      "source_url": "https://www.openstreetmap.org/way/281273280"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q32146334",
+      "source_url": "https://www.wikidata.org/wiki/Q32146334"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bushy%20Beach%20Oamaru.%20NZ.%20%2852061386225%29.jpg"
+    }
+  }
+}

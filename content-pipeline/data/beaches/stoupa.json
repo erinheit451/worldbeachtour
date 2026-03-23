@@ -1,0 +1,63 @@
+{
+  "slug": "stoupa",
+  "name": "Στούπα",
+  "centroid_lat": 36.8452679,
+  "centroid_lng": 22.258818,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/181049400",
+      "source_url": "https://www.openstreetmap.org/way/181049400"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659813775",
+      "source_url": "https://www.openstreetmap.org/way/659813775"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659813776",
+      "source_url": "https://www.openstreetmap.org/way/659813776"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1267495923",
+      "source_url": "https://www.openstreetmap.org/way/1267495923"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1267495924",
+      "source_url": "https://www.openstreetmap.org/way/1267495924"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25162389",
+      "source_url": "https://www.wikidata.org/wiki/Q25162389"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW019253012101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW019253012101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

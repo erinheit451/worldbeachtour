@@ -1,0 +1,39 @@
+{
+  "slug": "szentes-tisza-folyo-bal-part-tiszai-partfurdo",
+  "name": "SZENTES  TISZA FOLYO BAL PART  TISZAI PARTFURDO",
+  "centroid_lat": 46.67774,
+  "centroid_lng": 20.21155,
+  "country_code": "HU",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/674065421",
+      "source_url": "https://www.openstreetmap.org/way/674065421"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_00611",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_00611",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

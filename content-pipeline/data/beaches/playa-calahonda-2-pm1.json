@@ -1,0 +1,40 @@
+{
+  "slug": "playa-calahonda-2-pm1",
+  "name": "PLAYA CALAHONDA 2 PM1",
+  "centroid_lat": 36.4902,
+  "centroid_lng": -4.7055,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1211770729",
+      "source_url": "https://www.openstreetmap.org/way/1211770729"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1211770730",
+      "source_url": "https://www.openstreetmap.org/way/1211770730"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617M0702301",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617M0702301",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

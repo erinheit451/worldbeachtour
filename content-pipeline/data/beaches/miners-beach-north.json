@@ -1,0 +1,46 @@
+{
+  "slug": "miners-beach-north",
+  "name": "Miners Beach North",
+  "centroid_lat": -31.4625416,
+  "centroid_lng": 152.9354204,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/250066030",
+      "source_url": "https://www.openstreetmap.org/way/250066030"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/250066057",
+      "source_url": "https://www.openstreetmap.org/way/250066057"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/250066218",
+      "source_url": "https://www.openstreetmap.org/way/250066218"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956936",
+      "source_url": "https://www.wikidata.org/wiki/Q21956936"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    }
+  }
+}

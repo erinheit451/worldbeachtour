@@ -1,0 +1,25 @@
+{
+  "slug": "svsyt",
+  "name": "סוסיתא",
+  "centroid_lat": 32.790852,
+  "centroid_lng": 35.6402208,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/131691995",
+      "source_url": "https://www.openstreetmap.org/way/131691995"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q26765689",
+      "source_url": "https://www.wikidata.org/wiki/Q26765689"
+    }
+  ],
+  "attributes": {}
+}

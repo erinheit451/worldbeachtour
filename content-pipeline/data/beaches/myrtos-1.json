@@ -1,0 +1,48 @@
+{
+  "slug": "myrtos-1",
+  "name": "MYRTOS",
+  "centroid_lat": 35.0034,
+  "centroid_lng": 25.5842,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/105904008",
+      "source_url": "https://www.openstreetmap.org/way/105904008"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q13651473",
+      "source_url": "https://www.wikidata.org/wiki/Q13651473"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53633869",
+      "source_url": "https://www.wikidata.org/wiki/Q53633869"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139311049101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139311049101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Myrtos_Beach_(Myrtos)"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

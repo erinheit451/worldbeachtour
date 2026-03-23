@@ -1,0 +1,25 @@
+{
+  "slug": "makena-landing",
+  "name": "Makena Landing",
+  "centroid_lat": 20.6539042,
+  "centroid_lng": -156.4410798,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/249472054",
+      "source_url": "https://www.openstreetmap.org/way/249472054"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/249472059",
+      "source_url": "https://www.openstreetmap.org/way/249472059"
+    }
+  ],
+  "attributes": {}
+}

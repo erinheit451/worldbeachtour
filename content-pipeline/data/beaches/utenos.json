@@ -1,0 +1,24 @@
+{
+  "slug": "utenos",
+  "name": "Utenos",
+  "centroid_lat": 55.5277256,
+  "centroid_lng": 25.2821335,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/4712510",
+      "source_url": "https://www.openstreetmap.org/relation/4712510"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

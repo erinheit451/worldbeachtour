@@ -1,0 +1,30 @@
+{
+  "slug": "duna-folyo-bal-part-nagymaros-hunyadi-setany-duna-parti-strand",
+  "name": "DUNA FOLYO BAL PART  NAGYMAROS  HUNYADI SETANY  DUNA-PARTI STRAND",
+  "centroid_lat": 47.79195,
+  "centroid_lng": 18.96264,
+  "country_code": "HU",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_01401",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_01401",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

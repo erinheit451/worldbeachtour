@@ -1,0 +1,30 @@
+{
+  "slug": "silver-lake-beach-1",
+  "name": "Silver Lake Beach",
+  "centroid_lat": 42.7604369,
+  "centroid_lng": -71.596558,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/850090782",
+      "source_url": "https://www.openstreetmap.org/way/850090782"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

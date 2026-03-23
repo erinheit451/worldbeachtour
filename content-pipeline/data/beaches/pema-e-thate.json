@@ -1,0 +1,34 @@
+{
+  "slug": "pema-e-thate",
+  "name": "Pema e Thatë",
+  "centroid_lat": 39.7488992,
+  "centroid_lng": 19.9748122,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/521769086",
+      "source_url": "https://www.openstreetmap.org/way/521769086"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false,
+      "access": "customers"
+    },
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

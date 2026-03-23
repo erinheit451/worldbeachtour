@@ -1,0 +1,30 @@
+{
+  "slug": "maho-beach",
+  "name": "Maho Beach",
+  "centroid_lat": 18.0396029,
+  "centroid_lng": -63.1210336,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/22901563",
+      "source_url": "https://www.openstreetmap.org/way/22901563"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q922921",
+      "source_url": "https://www.wikidata.org/wiki/Q922921"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/American%20757%20on%20final%20approach%20at%20St%20Maarten%20Airport.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Maho_Beach"
+    }
+  }
+}

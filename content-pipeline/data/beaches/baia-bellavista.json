@@ -1,0 +1,55 @@
+{
+  "slug": "baia-bellavista",
+  "name": "Baia Bellavista",
+  "centroid_lat": 38.4917922,
+  "centroid_lng": 14.9617384,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9861827751",
+      "source_url": "https://www.openstreetmap.org/node/9861827751"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/9870525200",
+      "source_url": "https://www.openstreetmap.org/node/9870525200"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/9873151114",
+      "source_url": "https://www.openstreetmap.org/node/9873151114"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/158086138",
+      "source_url": "https://www.openstreetmap.org/way/158086138"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33326066",
+      "source_url": "https://www.wikidata.org/wiki/Q33326066"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019083041009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019083041009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

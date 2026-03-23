@@ -1,0 +1,25 @@
+{
+  "slug": "red-beach-two",
+  "name": "Red Beach Two",
+  "centroid_lat": 13.4739813,
+  "centroid_lng": 144.7174632,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1245213426",
+      "source_url": "https://www.openstreetmap.org/way/1245213426"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1245213428",
+      "source_url": "https://www.openstreetmap.org/way/1245213428"
+    }
+  ],
+  "attributes": {}
+}

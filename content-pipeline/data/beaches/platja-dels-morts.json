@@ -1,0 +1,39 @@
+{
+  "slug": "platja-dels-morts",
+  "name": "Platja dels Morts",
+  "centroid_lat": 42.4057733,
+  "centroid_lng": 3.1554534,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8313753",
+      "source_url": "https://www.openstreetmap.org/relation/8313753"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8313754",
+      "source_url": "https://www.openstreetmap.org/relation/8313754"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24021744",
+      "source_url": "https://www.wikidata.org/wiki/Q24021744"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q123257891",
+      "source_url": "https://www.wikidata.org/wiki/Q123257891"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Colera%20platja%200731.jpg"
+    }
+  }
+}

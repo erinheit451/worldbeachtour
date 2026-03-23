@@ -1,0 +1,29 @@
+{
+  "slug": "praia-da-paciencia-1",
+  "name": "Praia da Paciência",
+  "centroid_lat": -13.0110409,
+  "centroid_lng": -38.4971083,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/243832488",
+      "source_url": "https://www.openstreetmap.org/way/243832488"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q58082349",
+      "source_url": "https://www.wikidata.org/wiki/Q58082349"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Salvador%20-%20panoramio.jpg"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "plaz-brsecine",
+  "name": "Pláž Brsečine",
+  "centroid_lat": 42.7287111,
+  "centroid_lng": 17.9539063,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/627136466",
+      "source_url": "https://www.openstreetmap.org/way/627136466"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "palavas-est",
+  "name": "Palavas Est",
+  "centroid_lat": 43.533591,
+  "centroid_lng": 3.9515812,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/283112390",
+      "source_url": "https://www.openstreetmap.org/way/283112390"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

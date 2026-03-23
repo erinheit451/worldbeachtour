@@ -1,0 +1,28 @@
+{
+  "slug": "mohlenpris-badeplass",
+  "name": "Møhlenpris badeplass",
+  "centroid_lat": 60.3819601,
+  "centroid_lng": 5.3255864,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/587310376",
+      "source_url": "https://www.openstreetmap.org/way/587310376"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false,
+      "fee_required": false
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

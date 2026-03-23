@@ -1,0 +1,24 @@
+{
+  "slug": "antonarou",
+  "name": "Αντώναρου",
+  "centroid_lat": 36.6501389,
+  "centroid_lng": 25.3601681,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/9644907",
+      "source_url": "https://www.openstreetmap.org/relation/9644907"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "okupe-beach",
+  "name": "Okupe Beach",
+  "centroid_lat": -35.4396436,
+  "centroid_lng": 174.428901,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/741581351",
+      "source_url": "https://www.openstreetmap.org/way/741581351"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q32305882",
+      "source_url": "https://www.wikidata.org/wiki/Q32305882"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "balneario-fernando-schilling",
+  "name": "Balneário Fernando Schilling",
+  "centroid_lat": -29.4936995,
+  "centroid_lng": -54.6896549,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9789379324",
+      "source_url": "https://www.openstreetmap.org/node/9789379324"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

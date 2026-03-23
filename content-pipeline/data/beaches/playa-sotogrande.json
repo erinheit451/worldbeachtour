@@ -1,0 +1,57 @@
+{
+  "slug": "playa-sotogrande",
+  "name": "Playa Sotogrande",
+  "centroid_lat": 36.28614,
+  "centroid_lng": -5.27468,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/97999763",
+      "source_url": "https://www.openstreetmap.org/way/97999763"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/655412030",
+      "source_url": "https://www.openstreetmap.org/way/655412030"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1302061523",
+      "source_url": "https://www.openstreetmap.org/way/1302061523"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1302061524",
+      "source_url": "https://www.openstreetmap.org/way/1302061524"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1302061525",
+      "source_url": "https://www.openstreetmap.org/way/1302061525"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1331490093",
+      "source_url": "https://www.openstreetmap.org/way/1331490093"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24024546",
+      "source_url": "https://www.wikidata.org/wiki/Q24024546"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Gibraltar%20from%20Sotogrande%20beach%20-%20Flickr%20-%20gailhampshire.jpg"
+    }
+  }
+}

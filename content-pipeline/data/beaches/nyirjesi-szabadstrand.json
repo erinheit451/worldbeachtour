@@ -1,0 +1,27 @@
+{
+  "slug": "nyirjesi-szabadstrand",
+  "name": "Nyírjesi Szabadstrand",
+  "centroid_lat": 48.0544309,
+  "centroid_lng": 19.2707062,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1305605093",
+      "source_url": "https://www.openstreetmap.org/way/1305605093"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "plage-mcgraw",
+  "name": "Plage McGraw",
+  "centroid_lat": 48.0026247,
+  "centroid_lng": -65.3829052,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1019674990",
+      "source_url": "https://www.openstreetmap.org/way/1019674990"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

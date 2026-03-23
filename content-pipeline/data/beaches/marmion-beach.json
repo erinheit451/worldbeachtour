@@ -1,0 +1,29 @@
+{
+  "slug": "marmion-beach",
+  "name": "Marmion Beach",
+  "centroid_lat": -31.836459,
+  "centroid_lng": 115.7485837,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/175010616",
+      "source_url": "https://www.openstreetmap.org/way/175010616"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21955683",
+      "source_url": "https://www.wikidata.org/wiki/Q21955683"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Marmion%20Beach%20at%20level.jpg"
+    }
+  }
+}

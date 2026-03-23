@@ -1,0 +1,49 @@
+{
+  "slug": "l-espiguette-1",
+  "name": "L'Espiguette",
+  "centroid_lat": 43.500963,
+  "centroid_lng": 4.1271197,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/432953386",
+      "source_url": "https://www.openstreetmap.org/way/432953386"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q3393664",
+      "source_url": "https://www.wikidata.org/wiki/Q3393664"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322608",
+      "source_url": "https://www.wikidata.org/wiki/Q49322608"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ1230133M030020",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ1230133M030020",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/LeGrau5.JPG",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Pointe_de_l%27Espiguette"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

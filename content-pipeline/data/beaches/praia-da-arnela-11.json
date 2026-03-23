@@ -1,0 +1,29 @@
+{
+  "slug": "praia-da-arnela-11",
+  "name": "Praia da Arnela",
+  "centroid_lat": 42.7100161,
+  "centroid_lng": -9.0123118,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2682873",
+      "source_url": "https://www.openstreetmap.org/relation/2682873"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q19744443",
+      "source_url": "https://www.wikidata.org/wiki/Q19744443"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Arnela.%20Porto%20do%20Son%201.jpg"
+    }
+  }
+}

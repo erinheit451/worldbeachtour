@@ -1,0 +1,44 @@
+{
+  "slug": "mandjala-rand",
+  "name": "Mändjala rand",
+  "centroid_lat": 58.2115356,
+  "centroid_lng": 22.3240265,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/507951893",
+      "source_url": "https://www.openstreetmap.org/way/507951893"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "EE00404001MANDJALA",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "EE00404001MANDJALA",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

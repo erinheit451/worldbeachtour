@@ -1,0 +1,56 @@
+{
+  "slug": "bagni-lido-5",
+  "name": "Bagni Lido",
+  "centroid_lat": 44.2152291,
+  "centroid_lng": 9.5158309,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/177293758",
+      "source_url": "https://www.openstreetmap.org/way/177293758"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/177647571",
+      "source_url": "https://www.openstreetmap.org/way/177647571"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/177647574",
+      "source_url": "https://www.openstreetmap.org/way/177647574"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/177647585",
+      "source_url": "https://www.openstreetmap.org/way/177647585"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007011012001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007011012001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

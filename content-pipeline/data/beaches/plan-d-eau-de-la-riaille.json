@@ -1,0 +1,41 @@
+{
+  "slug": "plan-d-eau-de-la-riaille",
+  "name": "PLAN D EAU DE LA RIAILLE",
+  "centroid_lat": 43.89193,
+  "centroid_lng": 5.3783,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1211297769",
+      "source_url": "https://www.openstreetmap.org/way/1211297769"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0684003D084202",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0684003D084202",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "customers"
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

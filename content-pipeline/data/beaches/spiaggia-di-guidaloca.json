@@ -1,0 +1,56 @@
+{
+  "slug": "spiaggia-di-guidaloca",
+  "name": "Spiaggia di Guidaloca",
+  "centroid_lat": 38.0566368,
+  "centroid_lng": 12.8419355,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12477869225",
+      "source_url": "https://www.openstreetmap.org/node/12477869225"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/240487517",
+      "source_url": "https://www.openstreetmap.org/way/240487517"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33326596",
+      "source_url": "https://www.wikidata.org/wiki/Q33326596"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33327590",
+      "source_url": "https://www.wikidata.org/wiki/Q33327590"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019081005003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019081005003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/BaiadiGuidaloca.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

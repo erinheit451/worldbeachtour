@@ -1,0 +1,60 @@
+{
+  "slug": "porto-karras-1-1",
+  "name": "PORTO KARRAS 1",
+  "centroid_lat": 40.0775,
+  "centroid_lng": 23.7908,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/229477322",
+      "source_url": "https://www.openstreetmap.org/way/229477322"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/229477324",
+      "source_url": "https://www.openstreetmap.org/way/229477324"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53629774",
+      "source_url": "https://www.wikidata.org/wiki/Q53629774"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53629784",
+      "source_url": "https://www.wikidata.org/wiki/Q53629784"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109060090101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109060091101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109060090101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109060091101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

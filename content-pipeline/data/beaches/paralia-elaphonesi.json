@@ -1,0 +1,96 @@
+{
+  "slug": "paralia-elaphonesi",
+  "name": "Παραλία Ελαφονήσι",
+  "centroid_lat": 35.2715705,
+  "centroid_lng": 23.5419152,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/374311369",
+      "source_url": "https://www.openstreetmap.org/way/374311369"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/814934477",
+      "source_url": "https://www.openstreetmap.org/way/814934477"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/814934478",
+      "source_url": "https://www.openstreetmap.org/way/814934478"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/814934584",
+      "source_url": "https://www.openstreetmap.org/way/814934584"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/814934585",
+      "source_url": "https://www.openstreetmap.org/way/814934585"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/814934983",
+      "source_url": "https://www.openstreetmap.org/way/814934983"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/814934984",
+      "source_url": "https://www.openstreetmap.org/way/814934984"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/814934985",
+      "source_url": "https://www.openstreetmap.org/way/814934985"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53630064",
+      "source_url": "https://www.wikidata.org/wiki/Q53630064"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53630572",
+      "source_url": "https://www.wikidata.org/wiki/Q53630572"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139322072101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139321064101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139322072101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139321064101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20Elafonisi%20beach%20separating%20Crete%20and%20Elafonisi%20Island%20in%20Greece.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

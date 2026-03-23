@@ -1,0 +1,25 @@
+{
+  "slug": "bonito-island-beach",
+  "name": "Bonito Island Beach",
+  "centroid_lat": 13.6309076,
+  "centroid_lng": 120.9487753,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/3573822",
+      "source_url": "https://www.openstreetmap.org/relation/3573822"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/3573824",
+      "source_url": "https://www.openstreetmap.org/relation/3573824"
+    }
+  ],
+  "attributes": {}
+}

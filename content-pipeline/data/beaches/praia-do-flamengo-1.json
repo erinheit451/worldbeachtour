@@ -1,0 +1,32 @@
+{
+  "slug": "praia-do-flamengo-1",
+  "name": "Praia do Flamengo",
+  "centroid_lat": -22.9280025,
+  "centroid_lng": -43.169647,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/5548033",
+      "source_url": "https://www.openstreetmap.org/relation/5548033"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10352999",
+      "source_url": "https://www.wikidata.org/wiki/Q10352999"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Futev%C3%B4lei%20%285748540512%29.jpg"
+    }
+  }
+}

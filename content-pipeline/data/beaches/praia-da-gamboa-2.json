@@ -1,0 +1,29 @@
+{
+  "slug": "praia-da-gamboa-2",
+  "name": "Praia da Gamboa",
+  "centroid_lat": -12.983366,
+  "centroid_lng": -38.520973,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/609043819",
+      "source_url": "https://www.openstreetmap.org/way/609043819"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q104897514",
+      "source_url": "https://www.wikidata.org/wiki/Q104897514"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ba%C3%ADa%20de%20Todos-os-%20Santos%20e%20Solar%20do%20Unh%C3%A3o%20-%20Foto%20Tereza%20Torres-%20Setur%29%20%2816253451116%29.jpg"
+    }
+  }
+}

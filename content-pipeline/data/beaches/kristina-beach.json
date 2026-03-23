@@ -1,0 +1,35 @@
+{
+  "slug": "kristina-beach",
+  "name": "Kristina Beach",
+  "centroid_lat": 40.0242509,
+  "centroid_lng": 24.0175252,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/2642001091",
+      "source_url": "https://www.openstreetmap.org/node/2642001091"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/258890977",
+      "source_url": "https://www.openstreetmap.org/way/258890977"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/258890980",
+      "source_url": "https://www.openstreetmap.org/way/258890980"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/810233843",
+      "source_url": "https://www.openstreetmap.org/way/810233843"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "shelly-beach-13",
+  "name": "Shelly Beach",
+  "centroid_lat": -38.550454,
+  "centroid_lng": 145.4694847,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/376067689",
+      "source_url": "https://www.openstreetmap.org/way/376067689"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q109558481",
+      "source_url": "https://www.wikidata.org/wiki/Q109558481"
+    }
+  ],
+  "attributes": {}
+}

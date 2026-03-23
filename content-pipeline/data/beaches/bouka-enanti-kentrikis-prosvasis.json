@@ -1,0 +1,50 @@
+{
+  "slug": "bouka-enanti-kentrikis-prosvasis",
+  "name": "BOUKA-ENANTI KENTRIKIS PROSVASIS",
+  "centroid_lat": 37.8217,
+  "centroid_lng": 20.8637,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/77674992",
+      "source_url": "https://www.openstreetmap.org/way/77674992"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659808204",
+      "source_url": "https://www.openstreetmap.org/way/659808204"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1340169673",
+      "source_url": "https://www.openstreetmap.org/way/1340169673"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53632617",
+      "source_url": "https://www.wikidata.org/wiki/Q53632617"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW029116050101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW029116050101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

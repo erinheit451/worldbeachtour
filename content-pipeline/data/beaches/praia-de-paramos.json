@@ -1,0 +1,45 @@
+{
+  "slug": "praia-de-paramos",
+  "name": "Praia de Paramos",
+  "centroid_lat": 40.9736818,
+  "centroid_lng": -8.6500011,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/289202436",
+      "source_url": "https://www.openstreetmap.org/way/289202436"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/430526467",
+      "source_url": "https://www.openstreetmap.org/way/430526467"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49323960",
+      "source_url": "https://www.wikidata.org/wiki/Q49323960"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCP9C",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCP9C",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "platja-de-ses-ielles",
+  "name": "Platja de ses Ielles",
+  "centroid_lat": 42.3141181,
+  "centroid_lng": 3.3074918,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8311596",
+      "source_url": "https://www.openstreetmap.org/relation/8311596"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8311597",
+      "source_url": "https://www.openstreetmap.org/relation/8311597"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q98974157",
+      "source_url": "https://www.wikidata.org/wiki/Q98974157"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q98974161",
+      "source_url": "https://www.wikidata.org/wiki/Q98974161"
+    }
+  ],
+  "attributes": {}
+}

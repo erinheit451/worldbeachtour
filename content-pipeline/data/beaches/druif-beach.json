@@ -1,0 +1,29 @@
+{
+  "slug": "druif-beach",
+  "name": "Druif Beach",
+  "centroid_lat": 12.5339466,
+  "centroid_lng": -70.057382,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/261454624",
+      "source_url": "https://www.openstreetmap.org/way/261454624"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q5309004",
+      "source_url": "https://www.wikidata.org/wiki/Q5309004"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Druif_Beach"
+    }
+  }
+}

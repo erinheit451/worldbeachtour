@@ -1,0 +1,25 @@
+{
+  "slug": "praia-da-cabana",
+  "name": "Praia da Cabana",
+  "centroid_lat": 43.3312194,
+  "centroid_lng": -8.2167252,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8469993",
+      "source_url": "https://www.openstreetmap.org/relation/8469993"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8469994",
+      "source_url": "https://www.openstreetmap.org/relation/8469994"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "szigetmonostor-horany-duna-folyo-jobb-part-horanyi-strand",
+  "name": "SZIGETMONOSTOR-HORANY  DUNA FOLYO JOBB PART  HORANYI STRAND",
+  "centroid_lat": 47.68036,
+  "centroid_lng": 19.12015,
+  "country_code": "HU",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_01426",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_01426",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

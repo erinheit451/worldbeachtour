@@ -1,0 +1,28 @@
+{
+  "slug": "nido-dell-aquila",
+  "name": "Nido dell'Aquila",
+  "centroid_lat": 43.0322187,
+  "centroid_lng": 10.5258393,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/15893065",
+      "source_url": "https://www.openstreetmap.org/relation/15893065"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true,
+      "nudist": "designated"
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

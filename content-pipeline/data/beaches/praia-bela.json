@@ -1,0 +1,29 @@
+{
+  "slug": "praia-bela",
+  "name": "Praia Bela",
+  "centroid_lat": -7.3982032,
+  "centroid_lng": -34.8043531,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/11139550",
+      "source_url": "https://www.openstreetmap.org/relation/11139550"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q61943971",
+      "source_url": "https://www.wikidata.org/wiki/Q61943971"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/1RC%200023.jpg"
+    }
+  }
+}

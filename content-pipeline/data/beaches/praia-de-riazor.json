@@ -1,0 +1,32 @@
+{
+  "slug": "praia-de-riazor",
+  "name": "Praia de Riazor",
+  "centroid_lat": 43.3691461,
+  "centroid_lng": -8.4113789,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/235028338",
+      "source_url": "https://www.openstreetmap.org/way/235028338"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q3399382",
+      "source_url": "https://www.wikidata.org/wiki/Q3399382"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20de%20Riazor.A%20Coru%C3%B1a%20Galicia.jpg"
+    }
+  }
+}

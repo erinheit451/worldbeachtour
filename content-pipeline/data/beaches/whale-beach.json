@@ -1,0 +1,25 @@
+{
+  "slug": "whale-beach",
+  "name": "Whale Beach",
+  "centroid_lat": 39.188448,
+  "centroid_lng": -74.6618262,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357731823",
+      "source_url": "https://www.openstreetmap.org/node/357731823"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49325273",
+      "source_url": "https://www.wikidata.org/wiki/Q49325273"
+    }
+  ],
+  "attributes": {}
+}

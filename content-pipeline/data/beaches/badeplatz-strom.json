@@ -1,0 +1,28 @@
+{
+  "slug": "badeplatz-strom",
+  "name": "Badeplatz Strom",
+  "centroid_lat": 47.3831,
+  "centroid_lng": 9.3498382,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5769858718",
+      "source_url": "https://www.openstreetmap.org/node/5769858718"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "showers": false,
+      "fee_required": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

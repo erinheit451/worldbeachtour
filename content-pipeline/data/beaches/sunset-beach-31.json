@@ -1,0 +1,24 @@
+{
+  "slug": "sunset-beach-31",
+  "name": "Sunset Beach",
+  "centroid_lat": 33.8623206,
+  "centroid_lng": -78.5131211,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/7635715",
+      "source_url": "https://www.openstreetmap.org/relation/7635715"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

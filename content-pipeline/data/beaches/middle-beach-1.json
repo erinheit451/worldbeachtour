@@ -1,0 +1,35 @@
+{
+  "slug": "middle-beach-1",
+  "name": "Middle Beach",
+  "centroid_lat": 44.1089718,
+  "centroid_lng": -68.3702945,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/358226545",
+      "source_url": "https://www.openstreetmap.org/node/358226545"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/358226547",
+      "source_url": "https://www.openstreetmap.org/node/358226547"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33327373",
+      "source_url": "https://www.wikidata.org/wiki/Q33327373"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33327633",
+      "source_url": "https://www.wikidata.org/wiki/Q33327633"
+    }
+  ],
+  "attributes": {}
+}

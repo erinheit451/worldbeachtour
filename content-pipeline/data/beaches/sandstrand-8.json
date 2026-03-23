@@ -1,0 +1,37 @@
+{
+  "slug": "sandstrand-8",
+  "name": "Sandstrand",
+  "centroid_lat": 53.6165718,
+  "centroid_lng": 7.1489442,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/546514358",
+      "source_url": "https://www.openstreetmap.org/way/546514358"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/840196554",
+      "source_url": "https://www.openstreetmap.org/way/840196554"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1125357476",
+      "source_url": "https://www.openstreetmap.org/way/1125357476"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "permit"
+    },
+    "social": {
+      "dog_friendly": true
+    }
+  }
+}

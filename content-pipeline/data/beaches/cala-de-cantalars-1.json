@@ -1,0 +1,45 @@
+{
+  "slug": "cala-de-cantalars-1",
+  "name": "Cala de Cantalars",
+  "centroid_lat": 38.3532605,
+  "centroid_lng": -0.4141396,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10587817244",
+      "source_url": "https://www.openstreetmap.org/node/10587817244"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/982865585",
+      "source_url": "https://www.openstreetmap.org/way/982865585"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1017830512",
+      "source_url": "https://www.openstreetmap.org/way/1017830512"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q8255008",
+      "source_url": "https://www.wikidata.org/wiki/Q8255008"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q8255031",
+      "source_url": "https://www.wikidata.org/wiki/Q8255031"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Calas%20del%20Cabo%20de%20las%20Huertas.jpg"
+    }
+  }
+}

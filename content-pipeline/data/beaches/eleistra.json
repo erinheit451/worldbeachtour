@@ -1,0 +1,43 @@
+{
+  "slug": "eleistra",
+  "name": "ELEISTRA",
+  "centroid_lat": 36.7934,
+  "centroid_lng": 21.9593,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/659813855",
+      "source_url": "https://www.openstreetmap.org/way/659813855"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25168376",
+      "source_url": "https://www.wikidata.org/wiki/Q25168376"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW019257029101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW019257029101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Koroni%20Beach%20-%20panoramio.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

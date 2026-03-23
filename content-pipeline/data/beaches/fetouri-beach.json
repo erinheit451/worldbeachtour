@@ -1,0 +1,25 @@
+{
+  "slug": "fetouri-beach",
+  "name": "Fetouri beach",
+  "centroid_lat": 37.38963,
+  "centroid_lng": 24.88439,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/335249830",
+      "source_url": "https://www.openstreetmap.org/way/335249830"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25164460",
+      "source_url": "https://www.wikidata.org/wiki/Q25164460"
+    }
+  ],
+  "attributes": {}
+}

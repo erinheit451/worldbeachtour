@@ -1,0 +1,32 @@
+{
+  "slug": "praia-de-santo-amaro-1",
+  "name": "Praia de Santo Amaro",
+  "centroid_lat": 38.684489,
+  "centroid_lng": -9.3096457,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/180126358",
+      "source_url": "https://www.openstreetmap.org/way/180126358"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10352882",
+      "source_url": "https://www.wikidata.org/wiki/Q10352882"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20de%20Santo%20Amaro%20de%20Oeiras%20-%20Portugal%20%285910051000%29.jpg"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "mesto-prichala-lodki",
+  "name": "Место причала лодки",
+  "centroid_lat": 44.2837664,
+  "centroid_lng": 146.3010814,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11090963929",
+      "source_url": "https://www.openstreetmap.org/node/11090963929"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "playa-las-quiscas",
+  "name": "Playa Las Quiscas",
+  "centroid_lat": -34.1923118,
+  "centroid_lng": -71.996947,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/332078781",
+      "source_url": "https://www.openstreetmap.org/way/332078781"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

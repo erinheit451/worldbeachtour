@@ -1,0 +1,158 @@
+{
+  "slug": "paralia-phaleraki",
+  "name": "Παραλία Φαληράκι",
+  "centroid_lat": 36.3591249,
+  "centroid_lng": 28.2165807,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/659898871",
+      "source_url": "https://www.openstreetmap.org/way/659898871"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659898872",
+      "source_url": "https://www.openstreetmap.org/way/659898872"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659898873",
+      "source_url": "https://www.openstreetmap.org/way/659898873"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659898874",
+      "source_url": "https://www.openstreetmap.org/way/659898874"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659898875",
+      "source_url": "https://www.openstreetmap.org/way/659898875"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659898877",
+      "source_url": "https://www.openstreetmap.org/way/659898877"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659898878",
+      "source_url": "https://www.openstreetmap.org/way/659898878"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659898879",
+      "source_url": "https://www.openstreetmap.org/way/659898879"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659898880",
+      "source_url": "https://www.openstreetmap.org/way/659898880"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/660066752",
+      "source_url": "https://www.openstreetmap.org/way/660066752"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/660066753",
+      "source_url": "https://www.openstreetmap.org/way/660066753"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/686794905",
+      "source_url": "https://www.openstreetmap.org/way/686794905"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/3004547",
+      "source_url": "https://www.openstreetmap.org/relation/3004547"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/16229897",
+      "source_url": "https://www.openstreetmap.org/relation/16229897"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/16229898",
+      "source_url": "https://www.openstreetmap.org/relation/16229898"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/16229899",
+      "source_url": "https://www.openstreetmap.org/relation/16229899"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/16229900",
+      "source_url": "https://www.openstreetmap.org/relation/16229900"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/16229901",
+      "source_url": "https://www.openstreetmap.org/relation/16229901"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53632764",
+      "source_url": "https://www.wikidata.org/wiki/Q53632764"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53632773",
+      "source_url": "https://www.wikidata.org/wiki/Q53632773"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53632782",
+      "source_url": "https://www.wikidata.org/wiki/Q53632782"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53632791",
+      "source_url": "https://www.wikidata.org/wiki/Q53632791"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53632804",
+      "source_url": "https://www.wikidata.org/wiki/Q53632804"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149296225101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149296272101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149296225101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149296272101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

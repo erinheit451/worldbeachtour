@@ -1,0 +1,29 @@
+{
+  "slug": "playa-de-las-nieves",
+  "name": "Playa de las Nieves",
+  "centroid_lat": 28.1008825,
+  "centroid_lng": -15.7113164,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/101327931",
+      "source_url": "https://www.openstreetmap.org/way/101327931"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/101327932",
+      "source_url": "https://www.openstreetmap.org/way/101327932"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

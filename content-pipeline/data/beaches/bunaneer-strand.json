@@ -1,0 +1,24 @@
+{
+  "slug": "bunaneer-strand",
+  "name": "Bunaneer Strand",
+  "centroid_lat": 52.1366461,
+  "centroid_lng": -10.0504404,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1378871243",
+      "source_url": "https://www.openstreetmap.org/way/1378871243"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

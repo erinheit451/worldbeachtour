@@ -1,0 +1,29 @@
+{
+  "slug": "upper-beach-2",
+  "name": "Upper Beach",
+  "centroid_lat": 33.741807,
+  "centroid_lng": -118.3804574,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/6651370",
+      "source_url": "https://www.openstreetmap.org/relation/6651370"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49325101",
+      "source_url": "https://www.wikidata.org/wiki/Q49325101"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Abalone%20Cove%20-%20D600%20Long%20Exposure%20%288061975568%29.jpg"
+    }
+  }
+}

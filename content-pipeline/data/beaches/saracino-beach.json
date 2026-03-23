@@ -1,0 +1,30 @@
+{
+  "slug": "saracino-beach",
+  "name": "Saracino Beach",
+  "centroid_lat": 39.8475126,
+  "centroid_lng": 18.1894773,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/520821229",
+      "source_url": "https://www.openstreetmap.org/way/520821229"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/622114088",
+      "source_url": "https://www.openstreetmap.org/way/622114088"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/622114089",
+      "source_url": "https://www.openstreetmap.org/way/622114089"
+    }
+  ],
+  "attributes": {}
+}

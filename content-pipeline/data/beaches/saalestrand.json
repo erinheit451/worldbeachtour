@@ -1,0 +1,28 @@
+{
+  "slug": "saalestrand",
+  "name": "Saalestrand",
+  "centroid_lat": 50.1910716,
+  "centroid_lng": 10.0734998,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9973409644",
+      "source_url": "https://www.openstreetmap.org/node/9973409644"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited",
+      "fee_required": false
+    },
+    "social": {
+      "nudist": "permissive"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "playa-de-los-pocillos",
+  "name": "Playa de los Pocillos",
+  "centroid_lat": 28.9247401,
+  "centroid_lng": -13.6336521,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/18284595",
+      "source_url": "https://www.openstreetmap.org/relation/18284595"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23982862",
+      "source_url": "https://www.wikidata.org/wiki/Q23982862"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%BDhled%20z%20Parque%20de%20Las%20Naciones%2C%20Puerto%20del%20Carmen%2C%20T%C3%ADas%2C%20Lanzarote%2002.jpg"
+    }
+  }
+}

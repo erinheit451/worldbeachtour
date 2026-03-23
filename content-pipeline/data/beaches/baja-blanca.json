@@ -1,0 +1,24 @@
+{
+  "slug": "baja-blanca",
+  "name": "Baja Blanca",
+  "centroid_lat": 45.5809873,
+  "centroid_lng": 12.8446551,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1197090486",
+      "source_url": "https://www.openstreetmap.org/way/1197090486"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

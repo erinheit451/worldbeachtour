@@ -1,0 +1,53 @@
+{
+  "slug": "akti-olympion-beach",
+  "name": "Akti Olympion Beach",
+  "centroid_lat": 34.6800342,
+  "centroid_lng": 33.0535555,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/2496147961",
+      "source_url": "https://www.openstreetmap.org/node/2496147961"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/11012612013",
+      "source_url": "https://www.openstreetmap.org/node/11012612013"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/11012612014",
+      "source_url": "https://www.openstreetmap.org/node/11012612014"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1095893443",
+      "source_url": "https://www.openstreetmap.org/way/1095893443"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CY0005000000000099",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CY0005000000000099",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

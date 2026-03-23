@@ -1,0 +1,30 @@
+{
+  "slug": "kopalno-obmocje-rikorvo-simonov-zaliv",
+  "name": "KOPALNO OBMOČJE RIKORVO–SIMONOV ZALIV",
+  "centroid_lat": 45.5341,
+  "centroid_lng": 13.6478,
+  "country_code": "SI",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SI00C1304000K32010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SI00C1304000K32010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

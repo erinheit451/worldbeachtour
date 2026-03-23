@@ -1,0 +1,35 @@
+{
+  "slug": "spine-beach",
+  "name": "Spine Beach",
+  "centroid_lat": 46.3847114,
+  "centroid_lng": -82.6808945,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1884714288",
+      "source_url": "https://www.openstreetmap.org/node/1884714288"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/2648991747",
+      "source_url": "https://www.openstreetmap.org/node/2648991747"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/259481274",
+      "source_url": "https://www.openstreetmap.org/way/259481274"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22489616",
+      "source_url": "https://www.wikidata.org/wiki/Q22489616"
+    }
+  ],
+  "attributes": {}
+}

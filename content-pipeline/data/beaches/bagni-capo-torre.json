@@ -1,0 +1,30 @@
+{
+  "slug": "bagni-capo-torre",
+  "name": "Bagni Capo Torre",
+  "centroid_lat": 44.3317247,
+  "centroid_lng": 8.526935,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7206986468",
+      "source_url": "https://www.openstreetmap.org/node/7206986468"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/400759927",
+      "source_url": "https://www.openstreetmap.org/way/400759927"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false,
+      "access": "customers"
+    }
+  }
+}

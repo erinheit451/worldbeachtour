@@ -1,0 +1,40 @@
+{
+  "slug": "plage-st-cirq",
+  "name": "PLAGE ST CIRQ",
+  "centroid_lat": 44.47027,
+  "centroid_lng": 1.68205,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6481586498",
+      "source_url": "https://www.openstreetmap.org/node/6481586498"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/307280328",
+      "source_url": "https://www.openstreetmap.org/way/307280328"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ2546256D046017",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ2546256D046017",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

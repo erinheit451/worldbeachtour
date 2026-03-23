@@ -1,0 +1,80 @@
+{
+  "slug": "la-spiaia",
+  "name": "La Spiaia",
+  "centroid_lat": 45.1725616,
+  "centroid_lng": 12.324958,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9933817834",
+      "source_url": "https://www.openstreetmap.org/node/9933817834"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/9933817836",
+      "source_url": "https://www.openstreetmap.org/node/9933817836"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/893062345",
+      "source_url": "https://www.openstreetmap.org/way/893062345"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1068266984",
+      "source_url": "https://www.openstreetmap.org/way/1068266984"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT005027008007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT005027008009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT005027008011",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT005027008008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT005027008007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT005027008009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT005027008011",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT005027008008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

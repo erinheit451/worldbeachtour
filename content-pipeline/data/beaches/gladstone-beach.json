@@ -1,0 +1,25 @@
+{
+  "slug": "gladstone-beach",
+  "name": "Gladstone Beach",
+  "centroid_lat": -20.3825224,
+  "centroid_lng": 115.5467311,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1267468549",
+      "source_url": "https://www.openstreetmap.org/way/1267468549"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21955708",
+      "source_url": "https://www.wikidata.org/wiki/Q21955708"
+    }
+  ],
+  "attributes": {}
+}

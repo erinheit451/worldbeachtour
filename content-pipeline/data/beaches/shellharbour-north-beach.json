@@ -1,0 +1,25 @@
+{
+  "slug": "shellharbour-north-beach",
+  "name": "Shellharbour North Beach",
+  "centroid_lat": -34.5694716,
+  "centroid_lng": 150.868833,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/614055418",
+      "source_url": "https://www.openstreetmap.org/way/614055418"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21923436",
+      "source_url": "https://www.wikidata.org/wiki/Q21923436"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "begles-plage",
+  "name": "Bègles Plage",
+  "centroid_lat": 44.8029523,
+  "centroid_lng": -0.5361902,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9399118364",
+      "source_url": "https://www.openstreetmap.org/node/9399118364"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/25874406",
+      "source_url": "https://www.openstreetmap.org/way/25874406"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/25874471",
+      "source_url": "https://www.openstreetmap.org/way/25874471"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1233039D033060",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1233039D033060",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true,
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

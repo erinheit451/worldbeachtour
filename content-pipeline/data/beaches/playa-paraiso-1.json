@@ -1,0 +1,25 @@
+{
+  "slug": "playa-paraiso-1",
+  "name": "Playa Paraiso",
+  "centroid_lat": 20.2026389,
+  "centroid_lng": -87.4322085,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/4654763489",
+      "source_url": "https://www.openstreetmap.org/node/4654763489"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/13527821",
+      "source_url": "https://www.openstreetmap.org/relation/13527821"
+    }
+  ],
+  "attributes": {}
+}

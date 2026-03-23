@@ -1,0 +1,24 @@
+{
+  "slug": "mischa-beach",
+  "name": "Mischa Beach",
+  "centroid_lat": 40.6128734,
+  "centroid_lng": 26.4826515,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/13458368992",
+      "source_url": "https://www.openstreetmap.org/node/13458368992"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "wendebachstausee",
+  "name": "WENDEBACHSTAUSEE",
+  "centroid_lat": 51.4703,
+  "centroid_lng": 9.9442,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/330838096",
+      "source_url": "https://www.openstreetmap.org/way/330838096"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/330838097",
+      "source_url": "https://www.openstreetmap.org/way/330838097"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/339555605",
+      "source_url": "https://www.openstreetmap.org/way/339555605"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DENI_PR_TK25_4525_01",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DENI_PR_TK25_4525_01",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

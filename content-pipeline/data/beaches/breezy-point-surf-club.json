@@ -1,0 +1,24 @@
+{
+  "slug": "breezy-point-surf-club",
+  "name": "Breezy Point Surf Club",
+  "centroid_lat": 40.5521132,
+  "centroid_lng": -73.9312216,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1065245329",
+      "source_url": "https://www.openstreetmap.org/way/1065245329"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

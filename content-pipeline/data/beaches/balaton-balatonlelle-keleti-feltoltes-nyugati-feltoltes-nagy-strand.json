@@ -1,0 +1,30 @@
+{
+  "slug": "balaton-balatonlelle-keleti-feltoltes-nyugati-feltoltes-nagy-strand",
+  "name": "BALATON  BALATONLELLE  KELETI FELTOLTES + NYUGATI FELTOLTES -NAGY STRAND-",
+  "centroid_lat": 46.78892,
+  "centroid_lng": 17.6823,
+  "country_code": "HU",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_01523",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HUBW_01523",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

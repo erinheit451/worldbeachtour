@@ -1,0 +1,29 @@
+{
+  "slug": "tyrislots-badplats",
+  "name": "Tyrislöts badplats",
+  "centroid_lat": 58.3263747,
+  "centroid_lng": 16.891559,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11944712338",
+      "source_url": "https://www.openstreetmap.org/node/11944712338"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1082754709",
+      "source_url": "https://www.openstreetmap.org/way/1082754709"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    }
+  }
+}

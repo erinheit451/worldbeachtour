@@ -1,0 +1,30 @@
+{
+  "slug": "sonste",
+  "name": "Sønste",
+  "centroid_lat": 59.0643023,
+  "centroid_lng": 10.4432936,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/4983217243",
+      "source_url": "https://www.openstreetmap.org/node/4983217243"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/561344997",
+      "source_url": "https://www.openstreetmap.org/way/561344997"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q19391643",
+      "source_url": "https://www.wikidata.org/wiki/Q19391643"
+    }
+  ],
+  "attributes": {}
+}

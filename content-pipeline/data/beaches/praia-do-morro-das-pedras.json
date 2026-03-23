@@ -1,0 +1,29 @@
+{
+  "slug": "praia-do-morro-das-pedras",
+  "name": "Praia do Morro das Pedras",
+  "centroid_lat": -27.7107038,
+  "centroid_lng": -48.4994956,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/6872878",
+      "source_url": "https://www.openstreetmap.org/relation/6872878"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q2485733",
+      "source_url": "https://www.wikidata.org/wiki/Q2485733"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20do%20Morro%20da%20Pedras%2C%20lado%20da%20Arma%C3%A7%C3%A3o.JPG"
+    }
+  }
+}

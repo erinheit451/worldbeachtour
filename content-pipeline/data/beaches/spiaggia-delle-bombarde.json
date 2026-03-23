@@ -1,0 +1,51 @@
+{
+  "slug": "spiaggia-delle-bombarde",
+  "name": "Spiaggia delle Bombarde",
+  "centroid_lat": 40.5839955,
+  "centroid_lng": 8.2576394,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/13068289228",
+      "source_url": "https://www.openstreetmap.org/node/13068289228"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/18666667",
+      "source_url": "https://www.openstreetmap.org/relation/18666667"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q3828296",
+      "source_url": "https://www.wikidata.org/wiki/Q3828296"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020090003005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020090003005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Le%20Bombarde%20-%20panoramio.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

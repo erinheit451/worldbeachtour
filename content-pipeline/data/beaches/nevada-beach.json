@@ -1,0 +1,29 @@
+{
+  "slug": "nevada-beach",
+  "name": "Nevada Beach",
+  "centroid_lat": 38.9792666,
+  "centroid_lng": -119.9535336,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/312711635",
+      "source_url": "https://www.openstreetmap.org/way/312711635"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q135803475",
+      "source_url": "https://www.wikidata.org/wiki/Q135803475"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Nevada%20Beach%20sand%20trees%20Lake%20Tahoe%20NV%202025-08-06%2009-50-37%201.jpg"
+    }
+  }
+}

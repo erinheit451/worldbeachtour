@@ -1,0 +1,48 @@
+{
+  "slug": "plaza-vela-luka",
+  "name": "Plaža Vela Luka",
+  "centroid_lat": 43.3835026,
+  "centroid_lng": 16.5380771,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/13103040293",
+      "source_url": "https://www.openstreetmap.org/node/13103040293"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/13103040294",
+      "source_url": "https://www.openstreetmap.org/node/13103040294"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/182738052",
+      "source_url": "https://www.openstreetmap.org/way/182738052"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2093",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2093",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "playa-matorral-el-morro-jable-pm1",
+  "name": "PLAYA MATORRAL (EL) (MORRO JABLE) PM1",
+  "centroid_lat": 28.0438,
+  "centroid_lng": -14.3323,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1050000537",
+      "source_url": "https://www.openstreetmap.org/way/1050000537"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1050000538",
+      "source_url": "https://www.openstreetmap.org/way/1050000538"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1050000539",
+      "source_url": "https://www.openstreetmap.org/way/1050000539"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1050000540",
+      "source_url": "https://www.openstreetmap.org/way/1050000540"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1414522192",
+      "source_url": "https://www.openstreetmap.org/way/1414522192"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q5658668",
+      "source_url": "https://www.wikidata.org/wiki/Q5658668"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES704M0151743",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES704M0151743",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Saladar%20de%20la%20Playa%20del%20Matorral%20P%C3%A1jara%20Fuerteventura.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

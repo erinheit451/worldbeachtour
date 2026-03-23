@@ -1,0 +1,35 @@
+{
+  "slug": "kapielisko-na-terenie-osrodka-szkoleniowo-wypoczynkowego-wityng",
+  "name": "Kąpielisko na terenie Ośrodka Szkoleniowo-Wypoczynkowego Wityng",
+  "centroid_lat": 52.34539,
+  "centroid_lng": 18.30337,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/285846103",
+      "source_url": "https://www.openstreetmap.org/way/285846103"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4141012530000126",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4141012530000126",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

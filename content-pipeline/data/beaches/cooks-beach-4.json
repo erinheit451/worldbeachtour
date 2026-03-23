@@ -1,0 +1,29 @@
+{
+  "slug": "cooks-beach-4",
+  "name": "Cooks Beach",
+  "centroid_lat": -36.8343813,
+  "centroid_lng": 175.7449584,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/87923734",
+      "source_url": "https://www.openstreetmap.org/way/87923734"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q65431132",
+      "source_url": "https://www.wikidata.org/wiki/Q65431132"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cooks_Beach"
+    }
+  }
+}

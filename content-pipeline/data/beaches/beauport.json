@@ -1,0 +1,29 @@
+{
+  "slug": "beauport",
+  "name": "Beauport",
+  "centroid_lat": 49.179372,
+  "centroid_lng": -2.2076532,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/179425889",
+      "source_url": "https://www.openstreetmap.org/way/179425889"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/614231936",
+      "source_url": "https://www.openstreetmap.org/way/614231936"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

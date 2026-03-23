@@ -1,0 +1,25 @@
+{
+  "slug": "golden-sand-beach-1",
+  "name": "Golden Sand Beach",
+  "centroid_lat": 5.9174972,
+  "centroid_lng": 102.7168131,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/160348441",
+      "source_url": "https://www.openstreetmap.org/way/160348441"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/6390484",
+      "source_url": "https://www.openstreetmap.org/relation/6390484"
+    }
+  ],
+  "attributes": {}
+}

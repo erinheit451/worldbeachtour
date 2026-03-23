@@ -1,0 +1,25 @@
+{
+  "slug": "piedras-pintas",
+  "name": "Piedras Pintas",
+  "centroid_lat": 27.939269,
+  "centroid_lng": -111.08725,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6868574467",
+      "source_url": "https://www.openstreetmap.org/node/6868574467"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/733433808",
+      "source_url": "https://www.openstreetmap.org/way/733433808"
+    }
+  ],
+  "attributes": {}
+}

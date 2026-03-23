@@ -1,0 +1,43 @@
+{
+  "slug": "camping-du-brec",
+  "name": "CAMPING DU BREC",
+  "centroid_lat": 43.96145,
+  "centroid_lng": 6.79833,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/183293560",
+      "source_url": "https://www.openstreetmap.org/way/183293560"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/183297545",
+      "source_url": "https://www.openstreetmap.org/way/183297545"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0104076D004031",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0104076D004031",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "permissive"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

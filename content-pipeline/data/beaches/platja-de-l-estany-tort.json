@@ -1,0 +1,29 @@
+{
+  "slug": "platja-de-l-estany-tort",
+  "name": "Platja de l'Estany Tort",
+  "centroid_lat": 40.8935619,
+  "centroid_lng": 0.8161519,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/14521158",
+      "source_url": "https://www.openstreetmap.org/relation/14521158"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28121233",
+      "source_url": "https://www.wikidata.org/wiki/Q28121233"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platja%20de%20l%27Estany%20Tort%20-%20panoramio.jpg"
+    }
+  }
+}

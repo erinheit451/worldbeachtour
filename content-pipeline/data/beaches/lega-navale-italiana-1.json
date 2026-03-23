@@ -1,0 +1,43 @@
+{
+  "slug": "lega-navale-italiana-1",
+  "name": "Lega navale italiana",
+  "centroid_lat": 43.1819628,
+  "centroid_lng": 13.7986667,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/60008725",
+      "source_url": "https://www.openstreetmap.org/way/60008725"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/632839634",
+      "source_url": "https://www.openstreetmap.org/way/632839634"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT011109033001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT011109033001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

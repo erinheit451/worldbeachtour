@@ -1,0 +1,30 @@
+{
+  "slug": "rocky",
+  "name": "rocky",
+  "centroid_lat": 24.1065996,
+  "centroid_lng": -74.4441144,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/4719972",
+      "source_url": "https://www.openstreetmap.org/relation/4719972"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/4720003",
+      "source_url": "https://www.openstreetmap.org/relation/4720003"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/4720012",
+      "source_url": "https://www.openstreetmap.org/relation/4720012"
+    }
+  ],
+  "attributes": {}
+}

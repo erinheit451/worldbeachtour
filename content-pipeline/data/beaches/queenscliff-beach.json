@@ -1,0 +1,25 @@
+{
+  "slug": "queenscliff-beach",
+  "name": "Queenscliff Beach",
+  "centroid_lat": -33.7879311,
+  "centroid_lng": 151.2882824,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8238628",
+      "source_url": "https://www.openstreetmap.org/relation/8238628"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956838",
+      "source_url": "https://www.wikidata.org/wiki/Q21956838"
+    }
+  ],
+  "attributes": {}
+}

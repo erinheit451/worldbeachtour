@@ -1,0 +1,35 @@
+{
+  "slug": "westensee-wrohe",
+  "name": "WESTENSEE;WROHE",
+  "centroid_lat": 54.2689,
+  "centroid_lng": 9.9611,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/500751598",
+      "source_url": "https://www.openstreetmap.org/way/500751598"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DESH_PR_0228",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DESH_PR_0228",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

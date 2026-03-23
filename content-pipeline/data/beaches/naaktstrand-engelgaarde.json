@@ -1,0 +1,34 @@
+{
+  "slug": "naaktstrand-engelgaarde",
+  "name": "Naaktstrand Engelgaarde",
+  "centroid_lat": 52.7029375,
+  "centroid_lng": 6.2316901,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/3854615585",
+      "source_url": "https://www.openstreetmap.org/node/3854615585"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": "leashed",
+      "nudist": true
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

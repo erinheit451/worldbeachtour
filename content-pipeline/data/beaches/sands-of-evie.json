@@ -1,0 +1,30 @@
+{
+  "slug": "sands-of-evie",
+  "name": "Sands of Evie",
+  "centroid_lat": 59.1205214,
+  "centroid_lng": -3.0953023,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/181002753",
+      "source_url": "https://www.openstreetmap.org/way/181002753"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7416915",
+      "source_url": "https://www.wikidata.org/wiki/Q7416915"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20image%20of%20Sands%20of%20Evie%2C%20a%20beach%20near%20Stenso%2C%20Mainland%2C%20Orkney.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sands_of_Evie"
+    }
+  }
+}

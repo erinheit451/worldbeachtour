@@ -1,0 +1,35 @@
+{
+  "slug": "stakendorfer-strand",
+  "name": "Stakendorfer Strand",
+  "centroid_lat": 54.40731,
+  "centroid_lng": 10.4334233,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/37393123",
+      "source_url": "https://www.openstreetmap.org/way/37393123"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DESH_PR_0139",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DESH_PR_0139",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

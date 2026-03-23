@@ -1,0 +1,29 @@
+{
+  "slug": "little-manly-cove",
+  "name": "Little Manly Cove",
+  "centroid_lat": -33.806607,
+  "centroid_lng": 151.2866272,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/223791335",
+      "source_url": "https://www.openstreetmap.org/way/223791335"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6650828",
+      "source_url": "https://www.wikidata.org/wiki/Q6650828"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Little_Manly_Beach"
+    }
+  }
+}

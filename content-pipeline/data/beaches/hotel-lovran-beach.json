@@ -1,0 +1,62 @@
+{
+  "slug": "hotel-lovran-beach",
+  "name": "Hotel-Lovran-Beach",
+  "centroid_lat": 45.2957231,
+  "centroid_lng": 14.2772832,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/116803004",
+      "source_url": "https://www.openstreetmap.org/way/116803004"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/931600206",
+      "source_url": "https://www.openstreetmap.org/way/931600206"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1312253261",
+      "source_url": "https://www.openstreetmap.org/way/1312253261"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6099",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6242",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6099",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6242",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "facilities": {
+      "wheelchair_access": false,
+      "access": "customers"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

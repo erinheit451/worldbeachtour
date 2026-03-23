@@ -1,0 +1,24 @@
+{
+  "slug": "lake-harriet-north-beach",
+  "name": "Lake Harriet North Beach",
+  "centroid_lat": 44.9283777,
+  "centroid_lng": -93.303989,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/45403811",
+      "source_url": "https://www.openstreetmap.org/way/45403811"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

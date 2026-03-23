@@ -1,0 +1,30 @@
+{
+  "slug": "cala-tamariua",
+  "name": "Cala Tamariua",
+  "centroid_lat": 42.3436527,
+  "centroid_lng": 3.2097177,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8312165",
+      "source_url": "https://www.openstreetmap.org/relation/8312165"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24021754",
+      "source_url": "https://www.wikidata.org/wiki/Q24021754"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20Tamariua%20%281%29.JPG"
+    }
+  }
+}

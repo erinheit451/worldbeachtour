@@ -1,0 +1,73 @@
+{
+  "slug": "spiaggia-fontanelle",
+  "name": "Spiaggia Fontanelle",
+  "centroid_lat": 45.6914386,
+  "centroid_lng": 10.6687159,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/69944383",
+      "source_url": "https://www.openstreetmap.org/way/69944383"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/189789211",
+      "source_url": "https://www.openstreetmap.org/way/189789211"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/189789251",
+      "source_url": "https://www.openstreetmap.org/way/189789251"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1316961236",
+      "source_url": "https://www.openstreetmap.org/way/1316961236"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1316961239",
+      "source_url": "https://www.openstreetmap.org/way/1316961239"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1411907915",
+      "source_url": "https://www.openstreetmap.org/way/1411907915"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT003017076005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT003017076006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT003017076005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT003017076006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

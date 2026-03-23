@@ -1,0 +1,24 @@
+{
+  "slug": "selo",
+  "name": "Selo",
+  "centroid_lat": 45.0661076,
+  "centroid_lng": 18.5767006,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/411767035",
+      "source_url": "https://www.openstreetmap.org/way/411767035"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

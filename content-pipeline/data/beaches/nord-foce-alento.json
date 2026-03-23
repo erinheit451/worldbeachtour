@@ -1,0 +1,56 @@
+{
+  "slug": "nord-foce-alento",
+  "name": "NORD FOCE ALENTO",
+  "centroid_lat": 40.1675,
+  "centroid_lng": 15.1368,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/217695077",
+      "source_url": "https://www.openstreetmap.org/way/217695077"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/217695083",
+      "source_url": "https://www.openstreetmap.org/way/217695083"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1155013299",
+      "source_url": "https://www.openstreetmap.org/way/1155013299"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1323821431",
+      "source_url": "https://www.openstreetmap.org/way/1323821431"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015065028004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015065028004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "private"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

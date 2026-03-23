@@ -1,0 +1,46 @@
+{
+  "slug": "playa-de-mar-de-cristal",
+  "name": "Playa de Mar de Cristal",
+  "centroid_lat": 37.641973,
+  "centroid_lng": -0.7576262,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/294032301",
+      "source_url": "https://www.openstreetmap.org/way/294032301"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q16466569",
+      "source_url": "https://www.wikidata.org/wiki/Q16466569"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES620M0161611",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES620M0161611",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Mar%20de%20Cristal22.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

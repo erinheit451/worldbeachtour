@@ -1,0 +1,30 @@
+{
+  "slug": "embalse-garcia-de-sola-puerto-pena-herrera-del-duque-pm1",
+  "name": "EMBALSE GARCIA DE SOLA /PUERTO PEÑA HERRERA DEL DUQUE PM1",
+  "centroid_lat": 39.193,
+  "centroid_lng": -5.1328,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES431C0632393",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES431C0632393",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

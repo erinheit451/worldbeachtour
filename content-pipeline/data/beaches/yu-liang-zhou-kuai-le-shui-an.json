@@ -1,0 +1,29 @@
+{
+  "slug": "yu-liang-zhou-kuai-le-shui-an",
+  "name": "鱼梁洲快乐水岸",
+  "centroid_lat": 32.0435041,
+  "centroid_lng": 112.1771167,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/810687508",
+      "source_url": "https://www.openstreetmap.org/way/810687508"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/952941613",
+      "source_url": "https://www.openstreetmap.org/way/952941613"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

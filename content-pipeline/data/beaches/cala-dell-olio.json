@@ -1,0 +1,29 @@
+{
+  "slug": "cala-dell-olio",
+  "name": "Cala dell'Olio",
+  "centroid_lat": 42.3893372,
+  "centroid_lng": 11.1190169,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12886451321",
+      "source_url": "https://www.openstreetmap.org/node/12886451321"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/178223688",
+      "source_url": "https://www.openstreetmap.org/way/178223688"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

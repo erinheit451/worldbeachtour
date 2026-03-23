@@ -1,0 +1,40 @@
+{
+  "slug": "paralia-neas-mekhanionas",
+  "name": "Παραλία Νέας Μηχανιώνας",
+  "centroid_lat": 40.4654895,
+  "centroid_lng": 22.8558248,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9035438496",
+      "source_url": "https://www.openstreetmap.org/node/9035438496"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/2361827",
+      "source_url": "https://www.openstreetmap.org/relation/2361827"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109029020101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109029020101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

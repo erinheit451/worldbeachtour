@@ -1,0 +1,24 @@
+{
+  "slug": "orgona-utcai-szabadstrand",
+  "name": "Orgona utcai szabadstrand",
+  "centroid_lat": 46.8958691,
+  "centroid_lng": 17.9924199,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/3116663",
+      "source_url": "https://www.openstreetmap.org/relation/3116663"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

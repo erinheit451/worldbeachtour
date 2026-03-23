@@ -1,0 +1,25 @@
+{
+  "slug": "kamalino-beach",
+  "name": "Kamalino Beach",
+  "centroid_lat": 21.8387096,
+  "centroid_lng": -160.2443424,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/678711674",
+      "source_url": "https://www.openstreetmap.org/way/678711674"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49321445",
+      "source_url": "https://www.wikidata.org/wiki/Q49321445"
+    }
+  ],
+  "attributes": {}
+}

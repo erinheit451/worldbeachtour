@@ -1,0 +1,33 @@
+{
+  "slug": "fkk-crvena-glavica",
+  "name": "FKK Crvena glavica",
+  "centroid_lat": 42.2460016,
+  "centroid_lng": 18.8963086,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/605054401",
+      "source_url": "https://www.openstreetmap.org/way/605054401"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1077046999",
+      "source_url": "https://www.openstreetmap.org/way/1077046999"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true,
+      "nudist": true
+    },
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

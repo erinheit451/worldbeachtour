@@ -1,0 +1,40 @@
+{
+  "slug": "burfelt",
+  "name": "Burfelt",
+  "centroid_lat": 49.9006825,
+  "centroid_lng": 5.8591232,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/760600239",
+      "source_url": "https://www.openstreetmap.org/way/760600239"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/762519393",
+      "source_url": "https://www.openstreetmap.org/way/762519393"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false,
+      "access": "yes"
+    },
+    "social": {
+      "dog_friendly": false,
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

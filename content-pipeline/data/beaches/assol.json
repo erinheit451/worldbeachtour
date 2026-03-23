@@ -1,0 +1,25 @@
+{
+  "slug": "assol",
+  "name": "Ассоль",
+  "centroid_lat": 54.5194606,
+  "centroid_lng": 37.0703152,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2708514",
+      "source_url": "https://www.openstreetmap.org/relation/2708514"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/2710432",
+      "source_url": "https://www.openstreetmap.org/relation/2710432"
+    }
+  ],
+  "attributes": {}
+}

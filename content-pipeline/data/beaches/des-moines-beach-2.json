@@ -1,0 +1,29 @@
+{
+  "slug": "des-moines-beach-2",
+  "name": "Des Moines Beach",
+  "centroid_lat": 47.4049027,
+  "centroid_lng": -122.3315553,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/7041838",
+      "source_url": "https://www.openstreetmap.org/relation/7041838"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320523",
+      "source_url": "https://www.wikidata.org/wiki/Q49320523"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Des%20Moines%20beach%20Park%20-%20Marina%20-%20panoramio%20%281%29.jpg"
+    }
+  }
+}

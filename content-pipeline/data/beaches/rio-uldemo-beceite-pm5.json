@@ -1,0 +1,29 @@
+{
+  "slug": "rio-uldemo-beceite-pm5",
+  "name": "RIO ULDEMO BECEITE PM5",
+  "centroid_lat": 40.8227,
+  "centroid_lng": 0.2404,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES242C0372721",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES242C0372721",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

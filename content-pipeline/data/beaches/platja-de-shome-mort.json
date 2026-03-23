@@ -1,0 +1,29 @@
+{
+  "slug": "platja-de-shome-mort",
+  "name": "Platja de s’Home Mort",
+  "centroid_lat": 39.7374844,
+  "centroid_lng": 3.2246279,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/306250021",
+      "source_url": "https://www.openstreetmap.org/way/306250021"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q17550425",
+      "source_url": "https://www.wikidata.org/wiki/Q17550425"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platja%20de%20s%27Home%20Mort%2001.jpg"
+    }
+  }
+}

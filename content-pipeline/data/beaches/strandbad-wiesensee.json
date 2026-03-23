@@ -1,0 +1,28 @@
+{
+  "slug": "strandbad-wiesensee",
+  "name": "Strandbad Wiesensee",
+  "centroid_lat": 49.5967167,
+  "centroid_lng": 8.6367047,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/172350493",
+      "source_url": "https://www.openstreetmap.org/way/172350493"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "fee_required": true,
+      "access": "customers"
+    }
+  }
+}

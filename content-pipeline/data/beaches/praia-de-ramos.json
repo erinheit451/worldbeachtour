@@ -1,0 +1,25 @@
+{
+  "slug": "praia-de-ramos",
+  "name": "Praia de Ramos",
+  "centroid_lat": -22.8389543,
+  "centroid_lng": -43.2503428,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/11005551",
+      "source_url": "https://www.openstreetmap.org/relation/11005551"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22068987",
+      "source_url": "https://www.wikidata.org/wiki/Q22068987"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "il-purgatorio",
+  "name": "Il Purgatorio",
+  "centroid_lat": 42.3696317,
+  "centroid_lng": 11.1517103,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12883556215",
+      "source_url": "https://www.openstreetmap.org/node/12883556215"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/176482084",
+      "source_url": "https://www.openstreetmap.org/way/176482084"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

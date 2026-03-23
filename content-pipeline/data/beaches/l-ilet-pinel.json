@@ -1,0 +1,35 @@
+{
+  "slug": "l-ilet-pinel",
+  "name": "L ILET PINEL",
+  "centroid_lat": 18.10538,
+  "centroid_lng": -63.01633,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/9565441",
+      "source_url": "https://www.openstreetmap.org/relation/9565441"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRY1097801M971403",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRY1097801M971403",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "putzu-idu",
+  "name": "Putzu Idu",
+  "centroid_lat": 40.0289957,
+  "centroid_lng": 8.4041499,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/178637430",
+      "source_url": "https://www.openstreetmap.org/way/178637430"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33344192",
+      "source_url": "https://www.wikidata.org/wiki/Q33344192"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Putzu%20idu%20-%20panoramio.jpg"
+    }
+  }
+}

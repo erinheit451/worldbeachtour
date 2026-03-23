@@ -1,0 +1,29 @@
+{
+  "slug": "platja-gran-3",
+  "name": "Platja Gran",
+  "centroid_lat": 42.2884969,
+  "centroid_lng": 3.2784105,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8308295",
+      "source_url": "https://www.openstreetmap.org/relation/8308295"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24019698",
+      "source_url": "https://www.wikidata.org/wiki/Q24019698"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cadaques.JPG"
+    }
+  }
+}

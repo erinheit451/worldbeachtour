@@ -1,0 +1,30 @@
+{
+  "slug": "pottawatomi-beach",
+  "name": "Pottawatomi Beach",
+  "centroid_lat": 44.5789078,
+  "centroid_lng": -80.9450968,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/607523711",
+      "source_url": "https://www.openstreetmap.org/way/607523711"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/607524524",
+      "source_url": "https://www.openstreetmap.org/way/607524524"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/607524525",
+      "source_url": "https://www.openstreetmap.org/way/607524525"
+    }
+  ],
+  "attributes": {}
+}

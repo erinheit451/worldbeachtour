@@ -1,0 +1,50 @@
+{
+  "slug": "loutra-kyllinis-kastro-1",
+  "name": "LOUTRA KYLLINIS - KASTRO 1",
+  "centroid_lat": 37.8595,
+  "centroid_lng": 21.1082,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/422301116",
+      "source_url": "https://www.openstreetmap.org/way/422301116"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/434869352",
+      "source_url": "https://www.openstreetmap.org/way/434869352"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53632584",
+      "source_url": "https://www.wikidata.org/wiki/Q53632584"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53632589",
+      "source_url": "https://www.wikidata.org/wiki/Q53632589"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW029135016101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW029135016101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

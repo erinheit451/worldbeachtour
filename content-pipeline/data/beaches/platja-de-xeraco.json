@@ -1,0 +1,43 @@
+{
+  "slug": "platja-de-xeraco",
+  "name": "Platja de Xeraco",
+  "centroid_lat": 39.0483775,
+  "centroid_lng": -0.1934302,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2071554",
+      "source_url": "https://www.openstreetmap.org/relation/2071554"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q11941969",
+      "source_url": "https://www.wikidata.org/wiki/Q11941969"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES523M1431033",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES523M1431033",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ahuir%20des%20de%20Gola%20riu%20Vaca.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

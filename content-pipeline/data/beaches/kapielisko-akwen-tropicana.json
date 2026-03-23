@@ -1,0 +1,48 @@
+{
+  "slug": "kapielisko-akwen-tropicana",
+  "name": "Kąpielisko AKWEN Tropicana",
+  "centroid_lat": 52.5145745,
+  "centroid_lng": 16.9926698,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1050281210",
+      "source_url": "https://www.openstreetmap.org/way/1050281210"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1050506678",
+      "source_url": "https://www.openstreetmap.org/way/1050506678"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14018438",
+      "source_url": "https://www.openstreetmap.org/relation/14018438"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4122104230000081",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4122104230000081",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

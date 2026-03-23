@@ -1,0 +1,40 @@
+{
+  "slug": "vn-vrbensky-kemp-matylda",
+  "name": "VN VRBENSKÝ - KEMP MATYLDA",
+  "centroid_lat": 50.5261,
+  "centroid_lng": 13.6188,
+  "country_code": "CZ",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/281574303",
+      "source_url": "https://www.openstreetmap.org/way/281574303"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/292158335",
+      "source_url": "https://www.openstreetmap.org/way/292158335"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZKO420902",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZKO420902",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

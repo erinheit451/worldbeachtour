@@ -1,0 +1,50 @@
+{
+  "slug": "inchydoney-beach",
+  "name": "Inchydoney Beach",
+  "centroid_lat": 51.5956317,
+  "centroid_lng": -8.8687818,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/347711941",
+      "source_url": "https://www.openstreetmap.org/way/347711941"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/5939079",
+      "source_url": "https://www.openstreetmap.org/relation/5939079"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IESWBWC100_0000_0100",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IESWBWC100_0000_0150",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IESWBWC100_0000_0100",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IESWBWC100_0000_0150",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

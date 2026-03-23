@@ -1,0 +1,58 @@
+{
+  "slug": "ciutat-jardi",
+  "name": "Ciutat Jardí",
+  "centroid_lat": 39.5516789,
+  "centroid_lng": 2.6891133,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "rock",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/430548744",
+      "source_url": "https://www.openstreetmap.org/way/430548744"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/963303749",
+      "source_url": "https://www.openstreetmap.org/way/963303749"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/2174956",
+      "source_url": "https://www.openstreetmap.org/relation/2174956"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0401179",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0401178",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0401179",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0401178",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

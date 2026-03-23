@@ -1,0 +1,25 @@
+{
+  "slug": "beach-white-one",
+  "name": "Beach White One",
+  "centroid_lat": 7.005668,
+  "centroid_lng": 134.222842,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357256747",
+      "source_url": "https://www.openstreetmap.org/node/357256747"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/357256751",
+      "source_url": "https://www.openstreetmap.org/node/357256751"
+    }
+  ],
+  "attributes": {}
+}

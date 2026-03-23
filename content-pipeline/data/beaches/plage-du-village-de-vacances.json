@@ -1,0 +1,54 @@
+{
+  "slug": "plage-du-village-de-vacances",
+  "name": "PLAGE DU VILLAGE DE VACANCES",
+  "centroid_lat": 49.36036,
+  "centroid_lng": -0.84078,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/266916057",
+      "source_url": "https://www.openstreetmap.org/way/266916057"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/266916058",
+      "source_url": "https://www.openstreetmap.org/way/266916058"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/610822998",
+      "source_url": "https://www.openstreetmap.org/way/610822998"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD1114165M014300",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD1114165M014300",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": "interval"
+    },
+    "facilities": {
+      "fee_required": false
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

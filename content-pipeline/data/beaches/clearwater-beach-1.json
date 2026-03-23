@@ -1,0 +1,29 @@
+{
+  "slug": "clearwater-beach-1",
+  "name": "Clearwater Beach",
+  "centroid_lat": 32.355806,
+  "centroid_lng": -64.6596652,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/155080043",
+      "source_url": "https://www.openstreetmap.org/way/155080043"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21790447",
+      "source_url": "https://www.wikidata.org/wiki/Q21790447"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "praia-do-caripi",
+  "name": "Praia do Caripi",
+  "centroid_lat": -1.490603,
+  "centroid_lng": -48.7047134,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/13063742",
+      "source_url": "https://www.openstreetmap.org/relation/13063742"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10352977",
+      "source_url": "https://www.wikidata.org/wiki/Q10352977"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20do%20Caripi%20-%20Barcarena%2003.jpg"
+    }
+  }
+}

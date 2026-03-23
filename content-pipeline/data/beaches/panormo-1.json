@@ -1,0 +1,45 @@
+{
+  "slug": "panormo-1",
+  "name": "PANORMO",
+  "centroid_lat": 35.4189,
+  "centroid_lng": 24.6911,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/134453103",
+      "source_url": "https://www.openstreetmap.org/way/134453103"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/134453104",
+      "source_url": "https://www.openstreetmap.org/way/134453104"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/453085750",
+      "source_url": "https://www.openstreetmap.org/way/453085750"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139317078101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139317078101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

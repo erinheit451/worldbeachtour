@@ -1,0 +1,35 @@
+{
+  "slug": "plage-de-santana",
+  "name": "PLAGE DE SANTANA",
+  "centroid_lat": 42.10069,
+  "centroid_lng": 8.70745,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/319082239",
+      "source_url": "https://www.openstreetmap.org/way/319082239"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRM012A090M02A055",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRM012A090M02A055",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

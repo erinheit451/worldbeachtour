@@ -1,0 +1,35 @@
+{
+  "slug": "cala-buguto-prospiciente-n-c-46-cornino",
+  "name": "CALA BUGUTO-PROSPICIENTE N.C 46-CORNINO",
+  "centroid_lat": 38.0918,
+  "centroid_lng": 12.6609,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/12589077",
+      "source_url": "https://www.openstreetmap.org/relation/12589077"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019081007002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019081007002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

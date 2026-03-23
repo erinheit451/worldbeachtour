@@ -1,0 +1,25 @@
+{
+  "slug": "ponta-do-saco",
+  "name": "Ponta do Saco",
+  "centroid_lat": -11.4338966,
+  "centroid_lng": -37.3538539,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12459816748",
+      "source_url": "https://www.openstreetmap.org/node/12459816748"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/5812751",
+      "source_url": "https://www.openstreetmap.org/relation/5812751"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "bagni-vicini",
+  "name": "Bagni Vicini",
+  "centroid_lat": 44.3351471,
+  "centroid_lng": 9.2145143,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/765872098",
+      "source_url": "https://www.openstreetmap.org/way/765872098"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/837062938",
+      "source_url": "https://www.openstreetmap.org/way/837062938"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/837062939",
+      "source_url": "https://www.openstreetmap.org/way/837062939"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1204455332",
+      "source_url": "https://www.openstreetmap.org/way/1204455332"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1204455333",
+      "source_url": "https://www.openstreetmap.org/way/1204455333"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1204455334",
+      "source_url": "https://www.openstreetmap.org/way/1204455334"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1204455335",
+      "source_url": "https://www.openstreetmap.org/way/1204455335"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1204455336",
+      "source_url": "https://www.openstreetmap.org/way/1204455336"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1204455337",
+      "source_url": "https://www.openstreetmap.org/way/1204455337"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33340884",
+      "source_url": "https://www.wikidata.org/wiki/Q33340884"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010054004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010054005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010054004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010054005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

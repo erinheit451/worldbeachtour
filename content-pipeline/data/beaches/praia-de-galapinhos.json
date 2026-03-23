@@ -1,0 +1,66 @@
+{
+  "slug": "praia-de-galapinhos",
+  "name": "Praia de Galapinhos",
+  "centroid_lat": 38.4836435,
+  "centroid_lng": -8.9679336,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/208966021",
+      "source_url": "https://www.openstreetmap.org/way/208966021"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/208966174",
+      "source_url": "https://www.openstreetmap.org/way/208966174"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49323700",
+      "source_url": "https://www.wikidata.org/wiki/Q49323700"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324260",
+      "source_url": "https://www.wikidata.org/wiki/Q49324260"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCT8X",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCW7E",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCT8X",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCW7E",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/PRAIA%20DE%20GALAPOS%20ARRABIDA.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

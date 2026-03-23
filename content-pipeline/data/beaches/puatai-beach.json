@@ -1,0 +1,25 @@
+{
+  "slug": "puatai-beach",
+  "name": "Puatai Beach",
+  "centroid_lat": -38.4777988,
+  "centroid_lng": 178.2811488,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/351390844",
+      "source_url": "https://www.openstreetmap.org/way/351390844"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324402",
+      "source_url": "https://www.wikidata.org/wiki/Q49324402"
+    }
+  ],
+  "attributes": {}
+}

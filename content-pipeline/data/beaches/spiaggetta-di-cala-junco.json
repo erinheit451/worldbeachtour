@@ -1,0 +1,50 @@
+{
+  "slug": "spiaggetta-di-cala-junco",
+  "name": "Spiaggetta di Cala junco",
+  "centroid_lat": 38.6255828,
+  "centroid_lng": 15.0630859,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/301224917",
+      "source_url": "https://www.openstreetmap.org/way/301224917"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/301224926",
+      "source_url": "https://www.openstreetmap.org/way/301224926"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/360108993",
+      "source_url": "https://www.openstreetmap.org/way/360108993"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/360110023",
+      "source_url": "https://www.openstreetmap.org/way/360110023"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019083041013",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019083041013",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

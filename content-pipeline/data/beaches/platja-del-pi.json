@@ -1,0 +1,24 @@
+{
+  "slug": "platja-del-pi",
+  "name": "Platja del Pi",
+  "centroid_lat": 42.4303555,
+  "centroid_lng": 3.1640671,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8312826",
+      "source_url": "https://www.openstreetmap.org/relation/8312826"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    }
+  }
+}

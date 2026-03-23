@@ -1,0 +1,29 @@
+{
+  "slug": "cala-de-enmedio",
+  "name": "Cala de Enmedio",
+  "centroid_lat": 36.9322711,
+  "centroid_lng": -1.9463717,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/26754013",
+      "source_url": "https://www.openstreetmap.org/way/26754013"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6400340",
+      "source_url": "https://www.wikidata.org/wiki/Q6400340"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20de%20Enmedio.jpg"
+    }
+  }
+}

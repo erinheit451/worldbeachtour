@@ -1,0 +1,24 @@
+{
+  "slug": "point-charming-beach",
+  "name": "Point Charming Beach",
+  "centroid_lat": 44.9310864,
+  "centroid_lng": -93.5534075,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1300633954",
+      "source_url": "https://www.openstreetmap.org/way/1300633954"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

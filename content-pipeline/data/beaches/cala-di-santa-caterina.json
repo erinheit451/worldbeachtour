@@ -1,0 +1,68 @@
+{
+  "slug": "cala-di-santa-caterina",
+  "name": "Cala di Santa Caterina",
+  "centroid_lat": 40.1004559,
+  "centroid_lng": 8.4898611,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/113810248",
+      "source_url": "https://www.openstreetmap.org/way/113810248"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/116625258",
+      "source_url": "https://www.openstreetmap.org/way/116625258"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/116625259",
+      "source_url": "https://www.openstreetmap.org/way/116625259"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/166739934",
+      "source_url": "https://www.openstreetmap.org/way/166739934"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33340834",
+      "source_url": "https://www.wikidata.org/wiki/Q33340834"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020095019009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020095019004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020095019009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020095019004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Santa%20caterina%20pittinuri%20-%20panoramio.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

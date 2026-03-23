@@ -1,0 +1,32 @@
+{
+  "slug": "corniglia-5-terre-la-spezia",
+  "name": "Corniglia 5 Terre La Spezia",
+  "centroid_lat": 44.1265487,
+  "centroid_lng": 9.7009104,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/177519753",
+      "source_url": "https://www.openstreetmap.org/way/177519753"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/201865785",
+      "source_url": "https://www.openstreetmap.org/way/201865785"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "permissive"
+    },
+    "facilities": {
+      "access": "no"
+    }
+  }
+}

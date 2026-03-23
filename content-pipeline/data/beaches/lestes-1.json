@@ -1,0 +1,25 @@
+{
+  "slug": "lestes-1",
+  "name": "Ληστής",
+  "centroid_lat": 34.9900772,
+  "centroid_lng": 25.3540591,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/713274201",
+      "source_url": "https://www.openstreetmap.org/way/713274201"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/865424605",
+      "source_url": "https://www.openstreetmap.org/way/865424605"
+    }
+  ],
+  "attributes": {}
+}

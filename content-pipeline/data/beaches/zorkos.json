@@ -1,0 +1,29 @@
+{
+  "slug": "zorkos",
+  "name": "Ζορκος",
+  "centroid_lat": 37.9698158,
+  "centroid_lng": 24.7913944,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/659806561",
+      "source_url": "https://www.openstreetmap.org/way/659806561"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/10334282",
+      "source_url": "https://www.openstreetmap.org/relation/10334282"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

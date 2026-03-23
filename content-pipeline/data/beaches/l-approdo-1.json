@@ -1,0 +1,40 @@
+{
+  "slug": "l-approdo-1",
+  "name": "L'approdo",
+  "centroid_lat": 40.467882,
+  "centroid_lng": 18.192853,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/766032023",
+      "source_url": "https://www.openstreetmap.org/way/766032023"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1201809656",
+      "source_url": "https://www.openstreetmap.org/way/1201809656"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1201809658",
+      "source_url": "https://www.openstreetmap.org/way/1201809658"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/16240365",
+      "source_url": "https://www.openstreetmap.org/relation/16240365"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/16240366",
+      "source_url": "https://www.openstreetmap.org/relation/16240366"
+    }
+  ],
+  "attributes": {}
+}

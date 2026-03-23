@@ -1,0 +1,25 @@
+{
+  "slug": "saltwater-beach",
+  "name": "Saltwater Beach",
+  "centroid_lat": -43.452361,
+  "centroid_lng": 169.770667,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11687215690",
+      "source_url": "https://www.openstreetmap.org/node/11687215690"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324566",
+      "source_url": "https://www.wikidata.org/wiki/Q49324566"
+    }
+  ],
+  "attributes": {}
+}

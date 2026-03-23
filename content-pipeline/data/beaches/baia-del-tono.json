@@ -1,0 +1,27 @@
+{
+  "slug": "baia-del-tono",
+  "name": "Baia del Tono",
+  "centroid_lat": 38.2438814,
+  "centroid_lng": 15.2414458,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/298613424",
+      "source_url": "https://www.openstreetmap.org/way/298613424"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

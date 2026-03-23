@@ -1,0 +1,30 @@
+{
+  "slug": "praia-do-bonfim",
+  "name": "Praia do Bonfim",
+  "centroid_lat": -2.5292572,
+  "centroid_lng": -44.321213,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7833547891",
+      "source_url": "https://www.openstreetmap.org/node/7833547891"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1267940328",
+      "source_url": "https://www.openstreetmap.org/way/1267940328"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1267940330",
+      "source_url": "https://www.openstreetmap.org/way/1267940330"
+    }
+  ],
+  "attributes": {}
+}

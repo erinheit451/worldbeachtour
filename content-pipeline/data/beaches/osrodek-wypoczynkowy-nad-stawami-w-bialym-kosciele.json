@@ -1,0 +1,30 @@
+{
+  "slug": "osrodek-wypoczynkowy-nad-stawami-w-bialym-kosciele",
+  "name": "OŚRODEK WYPOCZYNKOWY NAD STAWAMI W BIAŁYM KOŚCIELE",
+  "centroid_lat": 50.72586,
+  "centroid_lng": 17.0451,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL5111704502000015",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL5111704502000015",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

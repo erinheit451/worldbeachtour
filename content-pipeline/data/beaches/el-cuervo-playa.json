@@ -1,0 +1,30 @@
+{
+  "slug": "el-cuervo-playa",
+  "name": "El Cuervo (Playa)",
+  "centroid_lat": 36.748888888,
+  "centroid_lng": -3.221111111,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/875861978",
+      "source_url": "https://www.openstreetmap.org/way/875861978"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/875861979",
+      "source_url": "https://www.openstreetmap.org/way/875861979"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q5821660",
+      "source_url": "https://www.wikidata.org/wiki/Q5821660"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "praia-do-sul",
+  "name": "Praia do Sul",
+  "centroid_lat": 38.9548811,
+  "centroid_lng": -9.4165082,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/880590090",
+      "source_url": "https://www.openstreetmap.org/way/880590090"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1342250779",
+      "source_url": "https://www.openstreetmap.org/way/1342250779"
+    }
+  ],
+  "attributes": {}
+}

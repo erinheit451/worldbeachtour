@@ -1,0 +1,29 @@
+{
+  "slug": "playa-guayacanes",
+  "name": "Playa Guayacanes",
+  "centroid_lat": 18.4205351,
+  "centroid_lng": -69.4524977,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7331979611",
+      "source_url": "https://www.openstreetmap.org/node/7331979611"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/496140027",
+      "source_url": "https://www.openstreetmap.org/way/496140027"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

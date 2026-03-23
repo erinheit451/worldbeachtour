@@ -1,0 +1,24 @@
+{
+  "slug": "el-duque-norte",
+  "name": "El Duque Norte",
+  "centroid_lat": 28.0929967,
+  "centroid_lng": -16.7479851,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "rock",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/90845289",
+      "source_url": "https://www.openstreetmap.org/way/90845289"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "cala-binibequer",
+  "name": "Cala Binibèquer",
+  "centroid_lat": 39.8163243,
+  "centroid_lng": 4.2398175,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1601902",
+      "source_url": "https://www.openstreetmap.org/relation/1601902"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6078610",
+      "source_url": "https://www.wikidata.org/wiki/Q6078610"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Beca.jpg"
+    }
+  }
+}

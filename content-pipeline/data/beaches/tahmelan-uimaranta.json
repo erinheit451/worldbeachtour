@@ -1,0 +1,46 @@
+{
+  "slug": "tahmelan-uimaranta",
+  "name": "Tahmelan uimaranta",
+  "centroid_lat": 61.5000959,
+  "centroid_lng": 23.7082927,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/35667705",
+      "source_url": "https://www.openstreetmap.org/way/35667705"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1390482213",
+      "source_url": "https://www.openstreetmap.org/way/1390482213"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI124837012",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI124837012",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

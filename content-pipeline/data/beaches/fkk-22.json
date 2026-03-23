@@ -1,0 +1,25 @@
+{
+  "slug": "fkk-22",
+  "name": "FKK",
+  "centroid_lat": 53.323466,
+  "centroid_lng": 8.0551257,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6395415329",
+      "source_url": "https://www.openstreetmap.org/node/6395415329"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/233343350",
+      "source_url": "https://www.openstreetmap.org/way/233343350"
+    }
+  ],
+  "attributes": {}
+}

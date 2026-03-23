@@ -1,0 +1,25 @@
+{
+  "slug": "pliazh-29",
+  "name": "Пляж",
+  "centroid_lat": 46.7546866,
+  "centroid_lng": 38.4099588,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12514354951",
+      "source_url": "https://www.openstreetmap.org/node/12514354951"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1352543484",
+      "source_url": "https://www.openstreetmap.org/way/1352543484"
+    }
+  ],
+  "attributes": {}
+}

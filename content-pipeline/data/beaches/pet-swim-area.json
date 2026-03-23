@@ -1,0 +1,29 @@
+{
+  "slug": "pet-swim-area",
+  "name": "Pet Swim Area",
+  "centroid_lat": 42.9715547,
+  "centroid_lng": -89.2279991,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/181546909",
+      "source_url": "https://www.openstreetmap.org/way/181546909"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1230022416",
+      "source_url": "https://www.openstreetmap.org/way/1230022416"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": "designated"
+    }
+  }
+}

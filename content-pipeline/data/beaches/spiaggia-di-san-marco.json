@@ -1,0 +1,25 @@
+{
+  "slug": "spiaggia-di-san-marco",
+  "name": "Spiaggia di San Marco",
+  "centroid_lat": 37.7970477,
+  "centroid_lng": 15.2472213,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/491426677",
+      "source_url": "https://www.openstreetmap.org/way/491426677"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33344555",
+      "source_url": "https://www.wikidata.org/wiki/Q33344555"
+    }
+  ],
+  "attributes": {}
+}

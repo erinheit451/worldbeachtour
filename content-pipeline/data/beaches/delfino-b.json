@@ -1,0 +1,37 @@
+{
+  "slug": "delfino-b",
+  "name": "Delfino B",
+  "centroid_lat": 45.6328892,
+  "centroid_lng": 13.0671833,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10129682274",
+      "source_url": "https://www.openstreetmap.org/node/10129682274"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/10129682287",
+      "source_url": "https://www.openstreetmap.org/node/10129682287"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/10129682288",
+      "source_url": "https://www.openstreetmap.org/node/10129682288"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

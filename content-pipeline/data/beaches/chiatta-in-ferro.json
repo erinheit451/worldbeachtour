@@ -1,0 +1,50 @@
+{
+  "slug": "chiatta-in-ferro",
+  "name": "CHIATTA IN FERRO",
+  "centroid_lat": 39.748,
+  "centroid_lng": 15.803,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1305443213",
+      "source_url": "https://www.openstreetmap.org/way/1305443213"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1305443214",
+      "source_url": "https://www.openstreetmap.org/way/1305443214"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1305443215",
+      "source_url": "https://www.openstreetmap.org/way/1305443215"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1305443216",
+      "source_url": "https://www.openstreetmap.org/way/1305443216"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018078132001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018078132001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

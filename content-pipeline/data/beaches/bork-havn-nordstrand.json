@@ -1,0 +1,35 @@
+{
+  "slug": "bork-havn-nordstrand",
+  "name": "BORK HAVN NORDSTRAND",
+  "centroid_lat": 55.85075,
+  "centroid_lng": 8.28138,
+  "country_code": "DK",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/185660579",
+      "source_url": "https://www.openstreetmap.org/way/185660579"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW184",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW184",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

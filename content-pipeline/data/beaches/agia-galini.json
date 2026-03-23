@@ -1,0 +1,40 @@
+{
+  "slug": "agia-galini",
+  "name": "AGIA GALINI",
+  "centroid_lat": 35.098,
+  "centroid_lng": 24.6916,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/102881795",
+      "source_url": "https://www.openstreetmap.org/way/102881795"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53633275",
+      "source_url": "https://www.wikidata.org/wiki/Q53633275"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139314005101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139314005101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "lido-sovareto",
+  "name": "Lido Sovareto",
+  "centroid_lat": 37.4974418,
+  "centroid_lng": 13.1191912,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11089112771",
+      "source_url": "https://www.openstreetmap.org/node/11089112771"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/60692357",
+      "source_url": "https://www.openstreetmap.org/way/60692357"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33336671",
+      "source_url": "https://www.wikidata.org/wiki/Q33336671"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019084041003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019084041003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

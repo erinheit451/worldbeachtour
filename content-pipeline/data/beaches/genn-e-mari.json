@@ -1,0 +1,51 @@
+{
+  "slug": "genn-e-mari",
+  "name": "Genn'e Mari",
+  "centroid_lat": 39.1440784,
+  "centroid_lng": 9.4059576,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/328208190",
+      "source_url": "https://www.openstreetmap.org/way/328208190"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/1851562",
+      "source_url": "https://www.openstreetmap.org/relation/1851562"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33337979",
+      "source_url": "https://www.wikidata.org/wiki/Q33337979"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020092080002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020092080002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Spiagga%20Genn%27e%20Mari.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

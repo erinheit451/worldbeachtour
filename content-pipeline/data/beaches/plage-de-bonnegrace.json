@@ -1,0 +1,29 @@
+{
+  "slug": "plage-de-bonnegrace",
+  "name": "Plage de Bonnegrâce",
+  "centroid_lat": 43.1111345,
+  "centroid_lng": 5.8110405,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/186316065",
+      "source_url": "https://www.openstreetmap.org/way/186316065"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q126285573",
+      "source_url": "https://www.wikidata.org/wiki/Q126285573"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bonnegracecoucher.jpg"
+    }
+  }
+}

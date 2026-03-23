@@ -1,0 +1,29 @@
+{
+  "slug": "kalogria-beach",
+  "name": "Kalogria beach",
+  "centroid_lat": 38.15795222,
+  "centroid_lng": 21.36697768,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/659813200",
+      "source_url": "https://www.openstreetmap.org/way/659813200"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25162390",
+      "source_url": "https://www.wikidata.org/wiki/Q25162390"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kalogria_beach"
+    }
+  }
+}

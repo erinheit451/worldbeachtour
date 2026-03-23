@@ -1,0 +1,29 @@
+{
+  "slug": "crystal-crescent-beach",
+  "name": "Crystal Crescent Beach",
+  "centroid_lat": 44.4593464,
+  "centroid_lng": -63.6188651,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/9702028",
+      "source_url": "https://www.openstreetmap.org/relation/9702028"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22546473",
+      "source_url": "https://www.wikidata.org/wiki/Q22546473"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/2016%20Crystal%20Crescent%20Beach%202.jpg"
+    }
+  }
+}

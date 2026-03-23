@@ -1,0 +1,24 @@
+{
+  "slug": "sunset-rocks",
+  "name": "Sunset Rocks",
+  "centroid_lat": -34.0102412,
+  "centroid_lng": 18.335722,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9968087466",
+      "source_url": "https://www.openstreetmap.org/node/9968087466"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "endeavour-bay-beach",
+  "name": "Endeavour Bay Beach",
+  "centroid_lat": 12.8896773,
+  "centroid_lng": -61.1856139,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/786464912",
+      "source_url": "https://www.openstreetmap.org/way/786464912"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

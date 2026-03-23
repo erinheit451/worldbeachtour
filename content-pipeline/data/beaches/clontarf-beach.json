@@ -1,0 +1,39 @@
+{
+  "slug": "clontarf-beach",
+  "name": "Clontarf Beach",
+  "centroid_lat": -33.8032645,
+  "centroid_lng": 151.2518562,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/23240543",
+      "source_url": "https://www.openstreetmap.org/way/23240543"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/176766944",
+      "source_url": "https://www.openstreetmap.org/way/176766944"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/179935743",
+      "source_url": "https://www.openstreetmap.org/way/179935743"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21957154",
+      "source_url": "https://www.wikidata.org/wiki/Q21957154"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": "unleashed"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "playa-naturista-de-almayate",
+  "name": "Playa naturista de Almayate",
+  "centroid_lat": 36.7254956,
+  "centroid_lng": -4.1112934,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/16857044",
+      "source_url": "https://www.openstreetmap.org/relation/16857044"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    },
+    "facilities": {
+      "access": "private"
+    }
+  }
+}

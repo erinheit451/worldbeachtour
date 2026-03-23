@@ -1,0 +1,43 @@
+{
+  "slug": "plage-de-la-mine-d-or",
+  "name": "Plage de la Mine d'Or",
+  "centroid_lat": 47.4736233,
+  "centroid_lng": -2.4904537,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/467788828",
+      "source_url": "https://www.openstreetmap.org/way/467788828"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23927489",
+      "source_url": "https://www.wikidata.org/wiki/Q23927489"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0456155M056540",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0456155M056540",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plage%20de%20la%20Mine%20d%27or%20P%C3%A9nestin%20n%C2%B01.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

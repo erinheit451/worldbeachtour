@@ -1,0 +1,45 @@
+{
+  "slug": "de-vlegge",
+  "name": "DE VLEGGE",
+  "centroid_lat": 52.47231,
+  "centroid_lng": 6.6281,
+  "country_code": "NL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/55152435",
+      "source_url": "https://www.openstreetmap.org/way/55152435"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/55169649",
+      "source_url": "https://www.openstreetmap.org/way/55169649"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1262322503",
+      "source_url": "https://www.openstreetmap.org/way/1262322503"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW44_ORDV50",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW44_ORDV50",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

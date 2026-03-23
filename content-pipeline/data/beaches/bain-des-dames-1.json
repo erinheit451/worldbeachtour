@@ -1,0 +1,25 @@
+{
+  "slug": "bain-des-dames-1",
+  "name": "Bain des Dames",
+  "centroid_lat": 46.4504161,
+  "centroid_lng": 6.8580381,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/700833000",
+      "source_url": "https://www.openstreetmap.org/way/700833000"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/700833001",
+      "source_url": "https://www.openstreetmap.org/way/700833001"
+    }
+  ],
+  "attributes": {}
+}

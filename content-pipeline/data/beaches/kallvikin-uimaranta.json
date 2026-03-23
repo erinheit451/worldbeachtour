@@ -1,0 +1,45 @@
+{
+  "slug": "kallvikin-uimaranta",
+  "name": "Kallvikin uimaranta",
+  "centroid_lat": 60.1621995,
+  "centroid_lng": 24.5934265,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/56181942",
+      "source_url": "https://www.openstreetmap.org/way/56181942"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1377465476",
+      "source_url": "https://www.openstreetmap.org/way/1377465476"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1377465477",
+      "source_url": "https://www.openstreetmap.org/way/1377465477"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1377465479",
+      "source_url": "https://www.openstreetmap.org/way/1377465479"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "facilities": {
+      "access": "private"
+    }
+  }
+}

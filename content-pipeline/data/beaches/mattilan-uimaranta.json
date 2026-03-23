@@ -1,0 +1,24 @@
+{
+  "slug": "mattilan-uimaranta",
+  "name": "Mattilan uimaranta",
+  "centroid_lat": 61.0295212,
+  "centroid_lng": 28.1569579,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/345365936",
+      "source_url": "https://www.openstreetmap.org/way/345365936"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

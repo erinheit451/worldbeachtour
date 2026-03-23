@@ -1,0 +1,30 @@
+{
+  "slug": "hitihaku",
+  "name": "ビーチパーク",
+  "centroid_lat": 35.3151746,
+  "centroid_lng": 139.3552255,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9336141464",
+      "source_url": "https://www.openstreetmap.org/node/9336141464"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/9339404767",
+      "source_url": "https://www.openstreetmap.org/node/9339404767"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1011943361",
+      "source_url": "https://www.openstreetmap.org/way/1011943361"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "plage-naturiste-des-kaolins",
+  "name": "Plage naturiste des Kaolins",
+  "centroid_lat": 47.7228224,
+  "centroid_lng": -3.4887985,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/23860688",
+      "source_url": "https://www.openstreetmap.org/way/23860688"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

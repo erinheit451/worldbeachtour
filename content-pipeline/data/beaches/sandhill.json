@@ -1,0 +1,29 @@
+{
+  "slug": "sandhill",
+  "name": "Sandhill",
+  "centroid_lat": 38.1627536,
+  "centroid_lng": 21.3664661,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/367051108",
+      "source_url": "https://www.openstreetmap.org/way/367051108"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659813202",
+      "source_url": "https://www.openstreetmap.org/way/659813202"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

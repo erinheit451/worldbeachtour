@@ -1,0 +1,24 @@
+{
+  "slug": "praia-fluvial-do-sesmo",
+  "name": "Praia Fluvial do Sesmo",
+  "centroid_lat": 39.8596216,
+  "centroid_lng": -7.7425799,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/9645706",
+      "source_url": "https://www.openstreetmap.org/relation/9645706"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

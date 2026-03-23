@@ -1,0 +1,29 @@
+{
+  "slug": "kurio-village",
+  "name": "Kurio Village",
+  "centroid_lat": -6.6507887,
+  "centroid_lng": 39.2085445,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9328121778",
+      "source_url": "https://www.openstreetmap.org/node/9328121778"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/529074668",
+      "source_url": "https://www.openstreetmap.org/way/529074668"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "restrooms": true
+    }
+  }
+}

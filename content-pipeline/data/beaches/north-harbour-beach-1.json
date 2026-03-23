@@ -1,0 +1,30 @@
+{
+  "slug": "north-harbour-beach-1",
+  "name": "North Harbour Beach",
+  "centroid_lat": 47.161,
+  "centroid_lng": -53.65091,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2062566",
+      "source_url": "https://www.openstreetmap.org/relation/2062566"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/2062568",
+      "source_url": "https://www.openstreetmap.org/relation/2062568"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22376069",
+      "source_url": "https://www.wikidata.org/wiki/Q22376069"
+    }
+  ],
+  "attributes": {}
+}

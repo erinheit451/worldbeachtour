@@ -1,0 +1,29 @@
+{
+  "slug": "sperrys-beach",
+  "name": "Sperrys Beach",
+  "centroid_lat": 44.2254656,
+  "centroid_lng": -64.4364098,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10920214814",
+      "source_url": "https://www.openstreetmap.org/node/10920214814"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22593700",
+      "source_url": "https://www.wikidata.org/wiki/Q22593700"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

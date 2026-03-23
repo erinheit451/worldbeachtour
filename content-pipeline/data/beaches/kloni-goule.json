@@ -1,0 +1,29 @@
+{
+  "slug": "kloni-goule",
+  "name": "Κλωνί Γουλή",
+  "centroid_lat": 39.2078271,
+  "centroid_lng": 20.1828899,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/308848217",
+      "source_url": "https://www.openstreetmap.org/way/308848217"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/496952749",
+      "source_url": "https://www.openstreetmap.org/way/496952749"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

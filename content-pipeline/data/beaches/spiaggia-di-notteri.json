@@ -1,0 +1,32 @@
+{
+  "slug": "spiaggia-di-notteri",
+  "name": "spiaggia di Notteri",
+  "centroid_lat": 39.11713,
+  "centroid_lng": 9.52042,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/367227833",
+      "source_url": "https://www.openstreetmap.org/way/367227833"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33339322",
+      "source_url": "https://www.wikidata.org/wiki/Q33339322"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Lagoon%20Beach%20%2888937089%29.jpg"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "starogrodzkie",
+  "name": "STAROGRODZKIE",
+  "centroid_lat": 53.34073,
+  "centroid_lng": 18.38599,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/520800410",
+      "source_url": "https://www.openstreetmap.org/way/520800410"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6120401104000003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6120401104000003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

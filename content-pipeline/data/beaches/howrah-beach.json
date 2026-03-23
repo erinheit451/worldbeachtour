@@ -1,0 +1,32 @@
+{
+  "slug": "howrah-beach",
+  "name": "Howrah Beach",
+  "centroid_lat": -42.8831036,
+  "centroid_lng": 147.3978842,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/207554828",
+      "source_url": "https://www.openstreetmap.org/way/207554828"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956106",
+      "source_url": "https://www.wikidata.org/wiki/Q21956106"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Little%20Howrah%20Beach%20sign.jpg"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "spiaggia-di-san-giovanni",
+  "name": "Spiaggia di San Giovanni",
+  "centroid_lat": 40.5715599,
+  "centroid_lng": 8.3153308,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/309383924",
+      "source_url": "https://www.openstreetmap.org/way/309383924"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/839836872",
+      "source_url": "https://www.openstreetmap.org/way/839836872"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33343197",
+      "source_url": "https://www.wikidata.org/wiki/Q33343197"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020090003001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020090003001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Alghero%20beach%20early%20in%20the%20day..jpg"
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

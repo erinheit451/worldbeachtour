@@ -1,0 +1,29 @@
+{
+  "slug": "hautai-beach",
+  "name": "Hautai Beach",
+  "centroid_lat": -37.6626992,
+  "centroid_lng": 178.5055637,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/351554241",
+      "source_url": "https://www.openstreetmap.org/way/351554241"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q32218072",
+      "source_url": "https://www.wikidata.org/wiki/Q32218072"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/East%20Cape%20with%20Otiki%20and%20East%20Cape%20Lighthouse.jpg"
+    }
+  }
+}

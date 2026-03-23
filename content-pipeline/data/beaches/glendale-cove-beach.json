@@ -1,0 +1,37 @@
+{
+  "slug": "glendale-cove-beach",
+  "name": "Glendale Cove Beach",
+  "centroid_lat": 42.5086864,
+  "centroid_lng": -70.8869397,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/81743161",
+      "source_url": "https://www.openstreetmap.org/way/81743161"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/82003788",
+      "source_url": "https://www.openstreetmap.org/way/82003788"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1027306550",
+      "source_url": "https://www.openstreetmap.org/way/1027306550"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

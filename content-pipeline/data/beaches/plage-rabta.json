@@ -1,0 +1,24 @@
+{
+  "slug": "plage-rabta",
+  "name": "Plage Rabta",
+  "centroid_lat": 36.824415,
+  "centroid_lng": 5.7542228,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/301635619",
+      "source_url": "https://www.openstreetmap.org/way/301635619"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

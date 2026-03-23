@@ -1,0 +1,44 @@
+{
+  "slug": "posta-beach",
+  "name": "Pošta beach",
+  "centroid_lat": 44.7955574,
+  "centroid_lng": 14.6593553,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/702986172",
+      "source_url": "https://www.openstreetmap.org/way/702986172"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/911045906",
+      "source_url": "https://www.openstreetmap.org/way/911045906"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/911045907",
+      "source_url": "https://www.openstreetmap.org/way/911045907"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/923413278",
+      "source_url": "https://www.openstreetmap.org/way/923413278"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/939377191",
+      "source_url": "https://www.openstreetmap.org/way/939377191"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    }
+  }
+}

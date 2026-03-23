@@ -1,0 +1,63 @@
+{
+  "slug": "playa-castillo-bajamar-san-juan-pm1",
+  "name": "PLAYA CASTILLO-BAJAMAR (SAN JUAN) PM1",
+  "centroid_lat": 28.5554,
+  "centroid_lng": -16.3456,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/29178727",
+      "source_url": "https://www.openstreetmap.org/way/29178727"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q136030187",
+      "source_url": "https://www.wikidata.org/wiki/Q136030187"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES709M0231865",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES709M0232416",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES709M0232417",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES709M0231865",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES709M0232416",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES709M0232417",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20San%20Juan%20o%20de%20Bajamar%20%2836864%29.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

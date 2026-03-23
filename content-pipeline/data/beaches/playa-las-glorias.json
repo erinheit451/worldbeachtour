@@ -1,0 +1,29 @@
+{
+  "slug": "playa-las-glorias",
+  "name": "Playa Las Glorias",
+  "centroid_lat": 20.6323026,
+  "centroid_lng": -105.2331639,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1322365763",
+      "source_url": "https://www.openstreetmap.org/way/1322365763"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q109546574",
+      "source_url": "https://www.wikidata.org/wiki/Q109546574"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Las_Glorias_Beach"
+    }
+  }
+}

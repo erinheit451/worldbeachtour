@@ -1,0 +1,35 @@
+{
+  "slug": "dordogne-plage-de-coux",
+  "name": "DORDOGNE  PLAGE DE COUX",
+  "centroid_lat": 44.82576,
+  "centroid_lng": 0.96898,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/436703822",
+      "source_url": "https://www.openstreetmap.org/way/436703822"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1124142D024842",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1124142D024842",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

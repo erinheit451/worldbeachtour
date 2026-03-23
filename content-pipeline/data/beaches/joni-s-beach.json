@@ -1,0 +1,42 @@
+{
+  "slug": "joni-s-beach",
+  "name": "Joni's Beach",
+  "centroid_lat": 46.7749903,
+  "centroid_lng": -90.7839403,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/18996568",
+      "source_url": "https://www.openstreetmap.org/relation/18996568"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/19148204",
+      "source_url": "https://www.openstreetmap.org/relation/19148204"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/19148205",
+      "source_url": "https://www.openstreetmap.org/relation/19148205"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/19353152",
+      "source_url": "https://www.openstreetmap.org/relation/19353152"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "il-bajja-tas-salina-opp-triq-it-turisti",
+  "name": "IL-BAJJA TAS-SALINA OPP TRIQ IT-TURISTI",
+  "centroid_lat": 35.95574,
+  "centroid_lng": 14.42479,
+  "country_code": "MT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q20925856",
+      "source_url": "https://www.wikidata.org/wiki/Q20925856"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "MT0150155500000C29",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "MT0150155500000C30",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "MT0150155500000C29",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "MT0150155500000C30",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

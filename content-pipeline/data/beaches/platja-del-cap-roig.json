@@ -1,0 +1,37 @@
+{
+  "slug": "platja-del-cap-roig",
+  "name": "Platja del Cap Roig",
+  "centroid_lat": 40.821321,
+  "centroid_lng": 0.7323677,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/7336025",
+      "source_url": "https://www.openstreetmap.org/relation/7336025"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q123185932",
+      "source_url": "https://www.wikidata.org/wiki/Q123185932"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q130326571",
+      "source_url": "https://www.wikidata.org/wiki/Q130326571"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platja%20de%20Cap%20Roig.jpg"
+    }
+  }
+}

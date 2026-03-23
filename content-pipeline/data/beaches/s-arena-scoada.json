@@ -1,0 +1,45 @@
+{
+  "slug": "s-arena-scoada",
+  "name": "S'Arena Scoada",
+  "centroid_lat": 40.0173221,
+  "centroid_lng": 8.4141524,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/328018313",
+      "source_url": "https://www.openstreetmap.org/way/328018313"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/328018315",
+      "source_url": "https://www.openstreetmap.org/way/328018315"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33340502",
+      "source_url": "https://www.wikidata.org/wiki/Q33340502"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020095050001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020095050001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

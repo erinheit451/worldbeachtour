@@ -1,0 +1,30 @@
+{
+  "slug": "mazo-beach",
+  "name": "Mazo Beach",
+  "centroid_lat": 43.2254823,
+  "centroid_lng": -89.81586,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/195610359",
+      "source_url": "https://www.openstreetmap.org/way/195610359"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "no"
+    }
+  }
+}

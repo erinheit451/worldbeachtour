@@ -1,0 +1,65 @@
+{
+  "slug": "lido-porto-di-spagna",
+  "name": "Lido Porto di Spagna",
+  "centroid_lat": 38.0704276,
+  "centroid_lng": 13.5368509,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/47513660",
+      "source_url": "https://www.openstreetmap.org/way/47513660"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/47513664",
+      "source_url": "https://www.openstreetmap.org/way/47513664"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/47513665",
+      "source_url": "https://www.openstreetmap.org/way/47513665"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/47513667",
+      "source_url": "https://www.openstreetmap.org/way/47513667"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/47513669",
+      "source_url": "https://www.openstreetmap.org/way/47513669"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019082067005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019082067006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019082067005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019082067006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

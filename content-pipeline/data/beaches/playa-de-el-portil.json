@@ -1,0 +1,43 @@
+{
+  "slug": "playa-de-el-portil",
+  "name": "Playa de El Portil",
+  "centroid_lat": 37.2085716,
+  "centroid_lng": -7.0489811,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1156218337",
+      "source_url": "https://www.openstreetmap.org/way/1156218337"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6078730",
+      "source_url": "https://www.wikidata.org/wiki/Q6078730"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES615M0601500",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES615M0601500",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Huelva%20011.JPG"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "cala-tarida",
+  "name": "Cala Tarida",
+  "centroid_lat": 38.940082,
+  "centroid_lng": 1.2362003,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/119396811",
+      "source_url": "https://www.openstreetmap.org/way/119396811"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1408257083",
+      "source_url": "https://www.openstreetmap.org/way/1408257083"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1408257084",
+      "source_url": "https://www.openstreetmap.org/way/1408257084"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1408257085",
+      "source_url": "https://www.openstreetmap.org/way/1408257085"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1408257086",
+      "source_url": "https://www.openstreetmap.org/way/1408257086"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES531M0481208",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES531M0481207",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES531M0481208",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES531M0481207",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

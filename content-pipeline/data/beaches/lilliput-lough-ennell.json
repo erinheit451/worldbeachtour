@@ -1,0 +1,30 @@
+{
+  "slug": "lilliput-lough-ennell",
+  "name": "LILLIPUT, LOUGH ENNELL",
+  "centroid_lat": 53.4487,
+  "centroid_lng": -7.434,
+  "country_code": "IE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IESHBWL25_188_0100",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IESHBWL25_188_0100",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

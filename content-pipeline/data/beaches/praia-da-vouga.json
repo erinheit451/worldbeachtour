@@ -1,0 +1,24 @@
+{
+  "slug": "praia-da-vouga",
+  "name": "Praia da Vouga",
+  "centroid_lat": 42.7600522,
+  "centroid_lng": -9.063784,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/290004930",
+      "source_url": "https://www.openstreetmap.org/way/290004930"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

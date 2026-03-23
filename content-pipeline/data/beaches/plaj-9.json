@@ -1,0 +1,24 @@
+{
+  "slug": "plaj-9",
+  "name": "Plaj",
+  "centroid_lat": 36.5683706,
+  "centroid_lng": 31.9108367,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/326207065",
+      "source_url": "https://www.openstreetmap.org/way/326207065"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

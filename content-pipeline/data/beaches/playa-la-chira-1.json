@@ -1,0 +1,25 @@
+{
+  "slug": "playa-la-chira-1",
+  "name": "Playa La Chira",
+  "centroid_lat": -12.1970041,
+  "centroid_lng": -77.036243,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/12164870",
+      "source_url": "https://www.openstreetmap.org/relation/12164870"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49321693",
+      "source_url": "https://www.wikidata.org/wiki/Q49321693"
+    }
+  ],
+  "attributes": {}
+}

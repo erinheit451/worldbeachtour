@@ -1,0 +1,35 @@
+{
+  "slug": "kapielisko-miejskie-nad-jeziorem-bak-w-okonku",
+  "name": "KĄPIELISKO MIEJSKIE NAD JEZIOREM BĄK W OKONKU",
+  "centroid_lat": 53.5371,
+  "centroid_lng": 16.8745,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/653134517",
+      "source_url": "https://www.openstreetmap.org/way/653134517"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4113105430000120",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4113105430000120",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

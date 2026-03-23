@@ -1,0 +1,30 @@
+{
+  "slug": "matareva-beach",
+  "name": "Matareva Beach",
+  "centroid_lat": -13.989115,
+  "centroid_lng": -171.9322017,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/140968556",
+      "source_url": "https://www.openstreetmap.org/way/140968556"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1445870061",
+      "source_url": "https://www.openstreetmap.org/way/1445870061"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31951658",
+      "source_url": "https://www.wikidata.org/wiki/Q31951658"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "point-michaud-beach",
+  "name": "Point Michaud Beach",
+  "centroid_lat": 45.5842717,
+  "centroid_lng": -60.6870321,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1238035235",
+      "source_url": "https://www.openstreetmap.org/node/1238035235"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/107775926",
+      "source_url": "https://www.openstreetmap.org/way/107775926"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22415363",
+      "source_url": "https://www.wikidata.org/wiki/Q22415363"
+    }
+  ],
+  "attributes": {}
+}

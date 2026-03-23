@@ -1,0 +1,43 @@
+{
+  "slug": "plage-municipale-de-montferrat-herbe",
+  "name": "Plage municipale de Montferrat (herbe)",
+  "centroid_lat": 45.4683849,
+  "centroid_lng": 5.5577769,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/837544414",
+      "source_url": "https://www.openstreetmap.org/way/837544414"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/837546184",
+      "source_url": "https://www.openstreetmap.org/way/837546184"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2438256D038005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2438256D038005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

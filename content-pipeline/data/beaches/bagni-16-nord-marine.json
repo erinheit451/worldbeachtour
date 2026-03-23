@@ -1,0 +1,24 @@
+{
+  "slug": "bagni-16-nord-marine",
+  "name": "Bagni 16 Nord Marine",
+  "centroid_lat": 43.7272184,
+  "centroid_lng": 13.2070107,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/361414005",
+      "source_url": "https://www.openstreetmap.org/way/361414005"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

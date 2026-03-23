@@ -1,0 +1,38 @@
+{
+  "slug": "praia-dos-reis-magos",
+  "name": "Praia dos Reis Magos",
+  "centroid_lat": 32.64755,
+  "centroid_lng": -16.8238277,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/162453452",
+      "source_url": "https://www.openstreetmap.org/way/162453452"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTMH7X",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTMH7X",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

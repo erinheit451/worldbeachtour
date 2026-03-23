@@ -1,0 +1,35 @@
+{
+  "slug": "lac-du-paty",
+  "name": "LAC DU PATY",
+  "centroid_lat": 44.13363,
+  "centroid_lng": 5.11469,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/13004904935",
+      "source_url": "https://www.openstreetmap.org/node/13004904935"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0684030D084104",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0684030D084104",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

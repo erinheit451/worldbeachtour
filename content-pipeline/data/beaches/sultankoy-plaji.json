@@ -1,0 +1,24 @@
+{
+  "slug": "sultankoy-plaji",
+  "name": "Sultanköy Plajı",
+  "centroid_lat": 41.0134956,
+  "centroid_lng": 27.9870159,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1303601133",
+      "source_url": "https://www.openstreetmap.org/way/1303601133"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

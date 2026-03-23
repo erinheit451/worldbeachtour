@@ -1,0 +1,45 @@
+{
+  "slug": "ai-lagoudis",
+  "name": "AI LAGOUDIS",
+  "centroid_lat": 37.2545,
+  "centroid_lng": 21.6608,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/295702056",
+      "source_url": "https://www.openstreetmap.org/way/295702056"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659815654",
+      "source_url": "https://www.openstreetmap.org/way/659815654"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659815655",
+      "source_url": "https://www.openstreetmap.org/way/659815655"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW019258046101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW019258046101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

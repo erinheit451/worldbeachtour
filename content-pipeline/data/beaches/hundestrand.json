@@ -1,0 +1,37 @@
+{
+  "slug": "hundestrand",
+  "name": "Hundestrand",
+  "centroid_lat": 53.4510984,
+  "centroid_lng": 8.1188725,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/569971278",
+      "source_url": "https://www.openstreetmap.org/node/569971278"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/1590423062",
+      "source_url": "https://www.openstreetmap.org/node/1590423062"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/25293272",
+      "source_url": "https://www.openstreetmap.org/way/25293272"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true
+    },
+    "social": {
+      "dog_friendly": true
+    }
+  }
+}

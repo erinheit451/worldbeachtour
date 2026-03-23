@@ -1,0 +1,29 @@
+{
+  "slug": "praia-do-sono",
+  "name": "Praia do Sono",
+  "centroid_lat": -23.3343521,
+  "centroid_lng": -44.6338325,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/7584795",
+      "source_url": "https://www.openstreetmap.org/relation/7584795"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q124382117",
+      "source_url": "https://www.wikidata.org/wiki/Q124382117"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20do%20Sono%20Parati%20RJ.jpg"
+    }
+  }
+}

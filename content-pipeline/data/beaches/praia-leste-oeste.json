@@ -1,0 +1,25 @@
+{
+  "slug": "praia-leste-oeste",
+  "name": "Praia Leste Oeste",
+  "centroid_lat": -3.7149706,
+  "centroid_lng": -38.5405704,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/682521115",
+      "source_url": "https://www.openstreetmap.org/way/682521115"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/5899933",
+      "source_url": "https://www.openstreetmap.org/relation/5899933"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "het-voshuys-strand",
+  "name": "Het Voshuys strand",
+  "centroid_lat": 52.8936595,
+  "centroid_lng": 6.7372769,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/17792042",
+      "source_url": "https://www.openstreetmap.org/relation/17792042"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "private"
+    }
+  }
+}

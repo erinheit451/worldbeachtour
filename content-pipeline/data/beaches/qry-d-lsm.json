@@ -1,0 +1,25 @@
+{
+  "slug": "qry-d-lsm",
+  "name": "قرية دعاء السماء",
+  "centroid_lat": 30.883928,
+  "centroid_lng": 29.3720523,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/13403407496",
+      "source_url": "https://www.openstreetmap.org/node/13403407496"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/267180763",
+      "source_url": "https://www.openstreetmap.org/way/267180763"
+    }
+  ],
+  "attributes": {}
+}

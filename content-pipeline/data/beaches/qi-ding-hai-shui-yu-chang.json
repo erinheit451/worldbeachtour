@@ -1,0 +1,30 @@
+{
+  "slug": "qi-ding-hai-shui-yu-chang",
+  "name": "崎頂海水浴場",
+  "centroid_lat": 24.7229903,
+  "centroid_lng": 120.8652718,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1115665643",
+      "source_url": "https://www.openstreetmap.org/node/1115665643"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/174415354",
+      "source_url": "https://www.openstreetmap.org/way/174415354"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324444",
+      "source_url": "https://www.wikidata.org/wiki/Q49324444"
+    }
+  ],
+  "attributes": {}
+}

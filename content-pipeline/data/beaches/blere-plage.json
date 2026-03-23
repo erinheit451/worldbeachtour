@@ -1,0 +1,38 @@
+{
+  "slug": "blere-plage",
+  "name": "Bléré plage",
+  "centroid_lat": 47.3303233,
+  "centroid_lng": 0.9920389,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7726616482",
+      "source_url": "https://www.openstreetmap.org/node/7726616482"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRB0437027D037100",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRB0437027D037100",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "tjudo-badstrand",
+  "name": "Tjudö badstrand",
+  "centroid_lat": 60.3267185,
+  "centroid_lng": 19.9480602,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/845977446",
+      "source_url": "https://www.openstreetmap.org/node/845977446"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

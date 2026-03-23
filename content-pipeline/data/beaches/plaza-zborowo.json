@@ -1,0 +1,30 @@
+{
+  "slug": "plaza-zborowo",
+  "name": "Plaża Zborowo",
+  "centroid_lat": 52.3731404,
+  "centroid_lng": 16.6250994,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/259177338",
+      "source_url": "https://www.openstreetmap.org/way/259177338"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

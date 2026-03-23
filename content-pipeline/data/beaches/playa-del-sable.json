@@ -1,0 +1,58 @@
+{
+  "slug": "playa-del-sable",
+  "name": "Playa del Sable",
+  "centroid_lat": 43.498378,
+  "centroid_lng": -3.5423541,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/44907283",
+      "source_url": "https://www.openstreetmap.org/way/44907283"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/44907667",
+      "source_url": "https://www.openstreetmap.org/way/44907667"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/298178467",
+      "source_url": "https://www.openstreetmap.org/way/298178467"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q2835168",
+      "source_url": "https://www.wikidata.org/wiki/Q2835168"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q113653853",
+      "source_url": "https://www.wikidata.org/wiki/Q113653853"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES130M006538",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES130M006538",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Localidad%20de%20Isla%20en%20Cantabria.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "kaliva-residence",
+  "name": "Kaliva Residence",
+  "centroid_lat": 37.7384666,
+  "centroid_lng": 20.9056808,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10803858168",
+      "source_url": "https://www.openstreetmap.org/node/10803858168"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/79263301",
+      "source_url": "https://www.openstreetmap.org/way/79263301"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/79263308",
+      "source_url": "https://www.openstreetmap.org/way/79263308"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53631076",
+      "source_url": "https://www.wikidata.org/wiki/Q53631076"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW029116030101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW029116030101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

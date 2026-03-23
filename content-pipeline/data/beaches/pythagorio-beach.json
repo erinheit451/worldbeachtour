@@ -1,0 +1,24 @@
+{
+  "slug": "pythagorio-beach",
+  "name": "Pythagorio beach",
+  "centroid_lat": 37.6889897,
+  "centroid_lng": 26.9301697,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/231364296",
+      "source_url": "https://www.openstreetmap.org/way/231364296"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "permissive"
+    }
+  }
+}

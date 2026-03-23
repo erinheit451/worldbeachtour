@@ -1,0 +1,34 @@
+{
+  "slug": "sprat-hall-beach",
+  "name": "Sprat Hall Beach",
+  "centroid_lat": 17.7416675,
+  "centroid_lng": -64.8927139,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/356559641",
+      "source_url": "https://www.openstreetmap.org/node/356559641"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/18131004",
+      "source_url": "https://www.openstreetmap.org/relation/18131004"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q32023818",
+      "source_url": "https://www.wikidata.org/wiki/Q32023818"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

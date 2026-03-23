@@ -1,0 +1,25 @@
+{
+  "slug": "playa-ocean-club",
+  "name": "Playa Ocean Club",
+  "centroid_lat": 19.7697381,
+  "centroid_lng": -70.5164244,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1342200086",
+      "source_url": "https://www.openstreetmap.org/way/1342200086"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/9660590",
+      "source_url": "https://www.openstreetmap.org/relation/9660590"
+    }
+  ],
+  "attributes": {}
+}

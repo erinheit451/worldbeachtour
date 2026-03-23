@@ -1,0 +1,32 @@
+{
+  "slug": "halbinsel",
+  "name": "Halbinsel",
+  "centroid_lat": 47.4613447,
+  "centroid_lng": 11.8955571,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/296985846",
+      "source_url": "https://www.openstreetmap.org/way/296985846"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/296985847",
+      "source_url": "https://www.openstreetmap.org/way/296985847"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "social": {
+      "nudist": true
+    }
+  }
+}

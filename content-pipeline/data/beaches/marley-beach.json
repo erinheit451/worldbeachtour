@@ -1,0 +1,25 @@
+{
+  "slug": "marley-beach",
+  "name": "Marley Beach",
+  "centroid_lat": 32.2651508,
+  "centroid_lng": -64.7935298,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/407833822",
+      "source_url": "https://www.openstreetmap.org/way/407833822"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21790364",
+      "source_url": "https://www.wikidata.org/wiki/Q21790364"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "traeth-abersoch-beach-1",
+  "name": "Traeth Abersoch Beach",
+  "centroid_lat": 52.8223799,
+  "centroid_lng": -4.4994148,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1386935756",
+      "source_url": "https://www.openstreetmap.org/way/1386935756"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q107356918",
+      "source_url": "https://www.wikidata.org/wiki/Q107356918"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "brooks-beach",
+  "name": "Brooks Beach",
+  "centroid_lat": 43.386074,
+  "centroid_lng": -95.1249952,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/354346197",
+      "source_url": "https://www.openstreetmap.org/node/354346197"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1392404074",
+      "source_url": "https://www.openstreetmap.org/way/1392404074"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31810874",
+      "source_url": "https://www.wikidata.org/wiki/Q31810874"
+    }
+  ],
+  "attributes": {}
+}

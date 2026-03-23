@@ -1,0 +1,46 @@
+{
+  "slug": "hiukka",
+  "name": "Hiukka",
+  "centroid_lat": 64.1280084,
+  "centroid_lng": 28.3814104,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7726175394",
+      "source_url": "https://www.openstreetmap.org/node/7726175394"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/532698805",
+      "source_url": "https://www.openstreetmap.org/way/532698805"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI134765001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI134765001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

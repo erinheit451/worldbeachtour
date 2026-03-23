@@ -1,0 +1,139 @@
+{
+  "slug": "spiaggia-libera-delle-fornaci",
+  "name": "Spiaggia libera delle Fornaci",
+  "centroid_lat": 44.2981575,
+  "centroid_lng": 8.4693634,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7204963835",
+      "source_url": "https://www.openstreetmap.org/node/7204963835"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7204963836",
+      "source_url": "https://www.openstreetmap.org/node/7204963836"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7204963837",
+      "source_url": "https://www.openstreetmap.org/node/7204963837"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/178749792",
+      "source_url": "https://www.openstreetmap.org/way/178749792"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/298292699",
+      "source_url": "https://www.openstreetmap.org/way/298292699"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/298292701",
+      "source_url": "https://www.openstreetmap.org/way/298292701"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/298293212",
+      "source_url": "https://www.openstreetmap.org/way/298293212"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/326151789",
+      "source_url": "https://www.openstreetmap.org/way/326151789"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/351039022",
+      "source_url": "https://www.openstreetmap.org/way/351039022"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/351039024",
+      "source_url": "https://www.openstreetmap.org/way/351039024"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/351039026",
+      "source_url": "https://www.openstreetmap.org/way/351039026"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/351039028",
+      "source_url": "https://www.openstreetmap.org/way/351039028"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/374779515",
+      "source_url": "https://www.openstreetmap.org/way/374779515"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/623970594",
+      "source_url": "https://www.openstreetmap.org/way/623970594"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/623970595",
+      "source_url": "https://www.openstreetmap.org/way/623970595"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/623970596",
+      "source_url": "https://www.openstreetmap.org/way/623970596"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659713811",
+      "source_url": "https://www.openstreetmap.org/way/659713811"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676044241",
+      "source_url": "https://www.openstreetmap.org/way/676044241"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676044242",
+      "source_url": "https://www.openstreetmap.org/way/676044242"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/775918705",
+      "source_url": "https://www.openstreetmap.org/way/775918705"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33340973",
+      "source_url": "https://www.wikidata.org/wiki/Q33340973"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007009056003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007009056003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false,
+      "wheelchair_access": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

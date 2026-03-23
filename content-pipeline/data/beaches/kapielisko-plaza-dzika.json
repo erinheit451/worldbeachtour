@@ -1,0 +1,41 @@
+{
+  "slug": "kapielisko-plaza-dzika",
+  "name": "Kąpielisko Plaża Dzika",
+  "centroid_lat": 53.4399523,
+  "centroid_lng": 18.7350789,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/174369344",
+      "source_url": "https://www.openstreetmap.org/way/174369344"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6126201104000021A",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6126201104000021A",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

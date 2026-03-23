@@ -1,0 +1,57 @@
+{
+  "slug": "spiaggia-madonetta",
+  "name": "SPIAGGIA MADONETTA",
+  "centroid_lat": 44.3665,
+  "centroid_lng": 8.6081,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/188116381",
+      "source_url": "https://www.openstreetmap.org/way/188116381"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/351279960",
+      "source_url": "https://www.openstreetmap.org/way/351279960"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/803271255",
+      "source_url": "https://www.openstreetmap.org/way/803271255"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/834181167",
+      "source_url": "https://www.openstreetmap.org/way/834181167"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007009065007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007009065007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "customers",
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "boccadasse",
+  "name": "BOCCADASSE",
+  "centroid_lat": 44.3897,
+  "centroid_lng": 8.9745,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/24816128",
+      "source_url": "https://www.openstreetmap.org/way/24816128"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q137791400",
+      "source_url": "https://www.wikidata.org/wiki/Q137791400"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010025013",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010025013",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Boccadasse%20beach%202014.JPG"
+    },
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

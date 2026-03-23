@@ -1,0 +1,25 @@
+{
+  "slug": "campbells-beach",
+  "name": "Campbells Beach",
+  "centroid_lat": -36.3829841,
+  "centroid_lng": 174.7636111,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10605802423",
+      "source_url": "https://www.openstreetmap.org/node/10605802423"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q32150391",
+      "source_url": "https://www.wikidata.org/wiki/Q32150391"
+    }
+  ],
+  "attributes": {}
+}

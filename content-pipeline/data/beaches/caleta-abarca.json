@@ -1,0 +1,29 @@
+{
+  "slug": "caleta-abarca",
+  "name": "Caleta Abarca",
+  "centroid_lat": -33.0230983,
+  "centroid_lng": -71.5696842,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/27710762",
+      "source_url": "https://www.openstreetmap.org/way/27710762"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q61467029",
+      "source_url": "https://www.wikidata.org/wiki/Q61467029"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Vi%C3%B1a%20del%20Mar%20Caleta%20Abarca%2C%20playa%2002.jpg"
+    }
+  }
+}

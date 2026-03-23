@@ -1,0 +1,43 @@
+{
+  "slug": "osrodek-walpusz-ap-w-szczytnie",
+  "name": "Ośrodek Wałpusz AP w Szczytnie",
+  "centroid_lat": 53.6065972,
+  "centroid_lng": 21.0772453,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1328635252",
+      "source_url": "https://www.openstreetmap.org/way/1328635252"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1328635258",
+      "source_url": "https://www.openstreetmap.org/way/1328635258"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6221706228000066",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6221706228000066",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

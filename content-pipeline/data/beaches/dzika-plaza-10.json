@@ -1,0 +1,35 @@
+{
+  "slug": "dzika-plaza-10",
+  "name": "DZIKA PLAŻA",
+  "centroid_lat": 52.43583,
+  "centroid_lng": 21.03083,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1143917316",
+      "source_url": "https://www.openstreetmap.org/way/1143917316"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL1260803214000008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL1260803214000008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

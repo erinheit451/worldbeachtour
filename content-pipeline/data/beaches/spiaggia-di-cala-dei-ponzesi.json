@@ -1,0 +1,63 @@
+{
+  "slug": "spiaggia-di-cala-dei-ponzesi",
+  "name": "Spiaggia di Cala dei Ponzesi",
+  "centroid_lat": 41.0875106,
+  "centroid_lng": 8.3461025,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/13165413498",
+      "source_url": "https://www.openstreetmap.org/node/13165413498"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/13165413499",
+      "source_url": "https://www.openstreetmap.org/node/13165413499"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/455303993",
+      "source_url": "https://www.openstreetmap.org/way/455303993"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/455307446",
+      "source_url": "https://www.openstreetmap.org/way/455307446"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/455310407",
+      "source_url": "https://www.openstreetmap.org/way/455310407"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1432313960",
+      "source_url": "https://www.openstreetmap.org/way/1432313960"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020090058013",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020090058013",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "les-generelles",
+  "name": "Les Génerelles",
+  "centroid_lat": 46.3403507,
+  "centroid_lng": -1.4424732,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/107576524",
+      "source_url": "https://www.openstreetmap.org/way/107576524"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q135906291",
+      "source_url": "https://www.wikidata.org/wiki/Q135906291"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0585294M085363",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0585294M085363",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Les%20G%C3%A9nerelles%2C%20La%20Tranche-sur-Mer%20%2852329100826%29.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

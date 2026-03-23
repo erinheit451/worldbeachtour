@@ -1,0 +1,32 @@
+{
+  "slug": "pliazh-94",
+  "name": "Пляж",
+  "centroid_lat": 46.3702055,
+  "centroid_lng": 48.0260275,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11159052904",
+      "source_url": "https://www.openstreetmap.org/node/11159052904"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1203941657",
+      "source_url": "https://www.openstreetmap.org/way/1203941657"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

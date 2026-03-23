@@ -1,0 +1,30 @@
+{
+  "slug": "embalse-conde-de-guadalhorce-ardales-pm3",
+  "name": "EMBALSE CONDE DE GUADALHORCE ARDALES  PM3",
+  "centroid_lat": 36.9313,
+  "centroid_lng": -4.8019,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617C0182067",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617C0182067",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

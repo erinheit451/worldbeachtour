@@ -1,0 +1,30 @@
+{
+  "slug": "kund-malir-beach-1",
+  "name": "Kund Malir Beach",
+  "centroid_lat": 25.3890725,
+  "centroid_lng": 65.4673188,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/405973654",
+      "source_url": "https://www.openstreetmap.org/way/405973654"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6444236",
+      "source_url": "https://www.wikidata.org/wiki/Q6444236"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kund%20Malir%20Beach%2C%20Hingol%20National%20Park%2C%20Balochistan.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kund_Malir"
+    }
+  }
+}

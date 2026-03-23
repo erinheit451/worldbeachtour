@@ -1,0 +1,29 @@
+{
+  "slug": "locarno-beach",
+  "name": "Locarno Beach",
+  "centroid_lat": 49.2757334,
+  "centroid_lng": -123.206957,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/86340790",
+      "source_url": "https://www.openstreetmap.org/way/86340790"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6664722",
+      "source_url": "https://www.wikidata.org/wiki/Q6664722"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Locarno_Beach"
+    }
+  }
+}

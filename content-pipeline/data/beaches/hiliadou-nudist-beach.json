@@ -1,0 +1,37 @@
+{
+  "slug": "hiliadou-nudist-beach",
+  "name": "Hiliadou Nudist Beach",
+  "centroid_lat": 38.6719558,
+  "centroid_lng": 23.9164816,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5591153423",
+      "source_url": "https://www.openstreetmap.org/node/5591153423"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/225012738",
+      "source_url": "https://www.openstreetmap.org/way/225012738"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/323995234",
+      "source_url": "https://www.openstreetmap.org/way/323995234"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

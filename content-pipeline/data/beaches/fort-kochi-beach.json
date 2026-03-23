@@ -1,0 +1,30 @@
+{
+  "slug": "fort-kochi-beach",
+  "name": "Fort Kochi Beach",
+  "centroid_lat": 9.9671362,
+  "centroid_lng": 76.2398222,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1134603081",
+      "source_url": "https://www.openstreetmap.org/way/1134603081"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q18355921",
+      "source_url": "https://www.wikidata.org/wiki/Q18355921"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Fort%20Kochi%20Beach%20Sunset%202.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Fort_Kochi_Beach"
+    }
+  }
+}

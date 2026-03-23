@@ -1,0 +1,35 @@
+{
+  "slug": "centre-naturel-de-loisirs-et-sports-nautiques",
+  "name": "CENTRE NATUREL DE LOISIRS ET SPORTS NAUTIQUES",
+  "centroid_lat": 42.51313,
+  "centroid_lng": 2.80514,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9930053156",
+      "source_url": "https://www.openstreetmap.org/node/9930053156"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ1566178D066225",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ1566178D066225",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "plage-de-riviere-sens",
+  "name": "Plage de Rivière-Sens",
+  "centroid_lat": 15.9809237,
+  "centroid_lng": -61.7158019,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/25848354",
+      "source_url": "https://www.openstreetmap.org/way/25848354"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

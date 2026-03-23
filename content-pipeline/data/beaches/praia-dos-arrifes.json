@@ -1,0 +1,44 @@
+{
+  "slug": "praia-dos-arrifes",
+  "name": "Praia dos Arrifes",
+  "centroid_lat": 37.0759205,
+  "centroid_lng": -8.2775276,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1252144318",
+      "source_url": "https://www.openstreetmap.org/way/1252144318"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q16967622",
+      "source_url": "https://www.wikidata.org/wiki/Q16967622"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCT2P",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCT2P",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/137PT%2013%20November%202013%20Praia%20dos%20Arrifes.JPG",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_dos_Arrifes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

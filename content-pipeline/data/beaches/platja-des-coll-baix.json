@@ -1,0 +1,37 @@
+{
+  "slug": "platja-des-coll-baix",
+  "name": "Platja des Coll Baix",
+  "centroid_lat": 39.8625029,
+  "centroid_lng": 3.1874738,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/705890529",
+      "source_url": "https://www.openstreetmap.org/way/705890529"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q1566212",
+      "source_url": "https://www.wikidata.org/wiki/Q1566212"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false,
+      "access": "yes"
+    },
+    "social": {
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platja%20des%20Coll%20Baix%2011.JPG"
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

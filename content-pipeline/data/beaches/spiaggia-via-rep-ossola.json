@@ -1,0 +1,45 @@
+{
+  "slug": "spiaggia-via-rep-ossola",
+  "name": "SPIAGGIA VIA REP. OSSOLA",
+  "centroid_lat": 45.9318,
+  "centroid_lng": 8.4828,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/207237143",
+      "source_url": "https://www.openstreetmap.org/way/207237143"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/207237145",
+      "source_url": "https://www.openstreetmap.org/way/207237145"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/256625329",
+      "source_url": "https://www.openstreetmap.org/way/256625329"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT001103008004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT001103008004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

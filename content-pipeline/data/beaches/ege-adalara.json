@@ -1,0 +1,38 @@
+{
+  "slug": "ege-adalara",
+  "name": "Ege adalara",
+  "centroid_lat": 36.8035799,
+  "centroid_lng": 28.1151988,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/522246691",
+      "source_url": "https://www.openstreetmap.org/way/522246691"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/522246692",
+      "source_url": "https://www.openstreetmap.org/way/522246692"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/522278942",
+      "source_url": "https://www.openstreetmap.org/way/522278942"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false,
+      "access": "customers"
+    },
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

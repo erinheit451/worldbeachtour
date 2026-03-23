@@ -1,0 +1,29 @@
+{
+  "slug": "grand-greve",
+  "name": "Grand Greve",
+  "centroid_lat": 49.4210506,
+  "centroid_lng": -2.3674623,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/186380731",
+      "source_url": "https://www.openstreetmap.org/way/186380731"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/532885938",
+      "source_url": "https://www.openstreetmap.org/way/532885938"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

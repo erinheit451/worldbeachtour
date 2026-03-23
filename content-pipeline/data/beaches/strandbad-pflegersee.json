@@ -1,0 +1,27 @@
+{
+  "slug": "strandbad-pflegersee",
+  "name": "Strandbad Pflegersee",
+  "centroid_lat": 47.5196679,
+  "centroid_lng": 11.0817664,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/543579017",
+      "source_url": "https://www.openstreetmap.org/way/543579017"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

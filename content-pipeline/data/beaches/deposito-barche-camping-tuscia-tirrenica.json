@@ -1,0 +1,50 @@
+{
+  "slug": "deposito-barche-camping-tuscia-tirrenica",
+  "name": "DEPOSITO BARCHE CAMPING TUSCIA TIRRENICA",
+  "centroid_lat": 42.2306,
+  "centroid_lng": 11.6986,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/444566100",
+      "source_url": "https://www.openstreetmap.org/way/444566100"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/444566356",
+      "source_url": "https://www.openstreetmap.org/way/444566356"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT012056050005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT012056050014",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT012056050005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT012056050014",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

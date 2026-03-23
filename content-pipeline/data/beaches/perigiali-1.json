@@ -1,0 +1,46 @@
+{
+  "slug": "perigiali-1",
+  "name": "PERIGIALI",
+  "centroid_lat": 40.9455,
+  "centroid_lng": 24.4358,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/685485035",
+      "source_url": "https://www.openstreetmap.org/way/685485035"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53631681",
+      "source_url": "https://www.wikidata.org/wiki/Q53631681"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW119012009101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW119012009101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/KAVALA%20GREECE%20-%20panoramio.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

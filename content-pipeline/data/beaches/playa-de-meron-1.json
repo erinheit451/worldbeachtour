@@ -1,0 +1,29 @@
+{
+  "slug": "playa-de-meron-1",
+  "name": "Playa de Merón",
+  "centroid_lat": 43.5440325,
+  "centroid_lng": -5.4941165,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1957382",
+      "source_url": "https://www.openstreetmap.org/relation/1957382"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6078902",
+      "source_url": "https://www.wikidata.org/wiki/Q6078902"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Meron.jpg"
+    }
+  }
+}

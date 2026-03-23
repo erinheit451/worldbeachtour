@@ -1,0 +1,47 @@
+{
+  "slug": "plage-le-rocher",
+  "name": "Plage Le Rocher",
+  "centroid_lat": 42.6003425,
+  "centroid_lng": 8.8059752,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1312956959",
+      "source_url": "https://www.openstreetmap.org/way/1312956959"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1312957702",
+      "source_url": "https://www.openstreetmap.org/way/1312957702"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1312961792",
+      "source_url": "https://www.openstreetmap.org/way/1312961792"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1313988580",
+      "source_url": "https://www.openstreetmap.org/way/1313988580"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1313988581",
+      "source_url": "https://www.openstreetmap.org/way/1313988581"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

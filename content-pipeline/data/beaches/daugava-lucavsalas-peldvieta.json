@@ -1,0 +1,40 @@
+{
+  "slug": "daugava-lucavsalas-peldvieta",
+  "name": "DAUGAVA, LUCAVSALAS PELDVIETA",
+  "centroid_lat": 56.9322,
+  "centroid_lng": 24.1114,
+  "country_code": "LV",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/219735641",
+      "source_url": "https://www.openstreetmap.org/way/219735641"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1341061034",
+      "source_url": "https://www.openstreetmap.org/way/1341061034"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "LV00601000015",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "LV00601000015",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

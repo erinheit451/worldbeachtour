@@ -1,0 +1,29 @@
+{
+  "slug": "plage-de-grande-anse-1",
+  "name": "Plage de Grande Anse",
+  "centroid_lat": 16.3212415,
+  "centroid_lng": -61.7918821,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/54899850",
+      "source_url": "https://www.openstreetmap.org/way/54899850"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q3390845",
+      "source_url": "https://www.wikidata.org/wiki/Q3390845"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plage%20de%20Grande%20Anse%20vers%20le%20sud.JPG"
+    }
+  }
+}

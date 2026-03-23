@@ -1,0 +1,25 @@
+{
+  "slug": "marsa-el-cheikh",
+  "name": "Marsa El Cheikh",
+  "centroid_lat": 36.3297001,
+  "centroid_lng": 0.6811491,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5045046797",
+      "source_url": "https://www.openstreetmap.org/node/5045046797"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/513151243",
+      "source_url": "https://www.openstreetmap.org/way/513151243"
+    }
+  ],
+  "attributes": {}
+}

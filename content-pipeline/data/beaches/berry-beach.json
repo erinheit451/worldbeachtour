@@ -1,0 +1,25 @@
+{
+  "slug": "berry-beach",
+  "name": "Berry Beach",
+  "centroid_lat": 45.3675203,
+  "centroid_lng": -65.4992893,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/138190259",
+      "source_url": "https://www.openstreetmap.org/way/138190259"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22398763",
+      "source_url": "https://www.wikidata.org/wiki/Q22398763"
+    }
+  ],
+  "attributes": {}
+}

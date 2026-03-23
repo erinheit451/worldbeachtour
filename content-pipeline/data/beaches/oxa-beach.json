@@ -1,0 +1,25 @@
+{
+  "slug": "oxa-beach",
+  "name": "Oxa Beach",
+  "centroid_lat": 9.6869854,
+  "centroid_lng": 100.0459904,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7282828418",
+      "source_url": "https://www.openstreetmap.org/node/7282828418"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/171733163",
+      "source_url": "https://www.openstreetmap.org/way/171733163"
+    }
+  ],
+  "attributes": {}
+}

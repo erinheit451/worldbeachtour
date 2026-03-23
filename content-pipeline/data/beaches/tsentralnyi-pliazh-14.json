@@ -1,0 +1,32 @@
+{
+  "slug": "tsentralnyi-pliazh-14",
+  "name": "Центральный пляж",
+  "centroid_lat": 47.1994564,
+  "centroid_lng": 38.9254576,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/307531442",
+      "source_url": "https://www.openstreetmap.org/way/307531442"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28957480",
+      "source_url": "https://www.wikidata.org/wiki/Q28957480"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%A2%D0%B0%D0%B3%D0%B0%D0%BD%D1%80%D0%BE%D0%B3%20%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BF%D0%BB%D1%8F%D0%B61.jpg"
+    }
+  }
+}

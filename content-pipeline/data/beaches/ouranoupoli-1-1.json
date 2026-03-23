@@ -1,0 +1,55 @@
+{
+  "slug": "ouranoupoli-1-1",
+  "name": "OURANOUPOLI 1",
+  "centroid_lat": 40.3288,
+  "centroid_lng": 23.9783,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/159549778",
+      "source_url": "https://www.openstreetmap.org/way/159549778"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1201637968",
+      "source_url": "https://www.openstreetmap.org/way/1201637968"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53630188",
+      "source_url": "https://www.wikidata.org/wiki/Q53630188"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109056007101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109056019101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109056007101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109056019101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

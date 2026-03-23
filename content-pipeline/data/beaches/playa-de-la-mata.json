@@ -1,0 +1,32 @@
+{
+  "slug": "playa-de-la-mata",
+  "name": "Playa de La Mata",
+  "centroid_lat": 38.0166774,
+  "centroid_lng": -0.6522541,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/14404210",
+      "source_url": "https://www.openstreetmap.org/relation/14404210"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q18005781",
+      "source_url": "https://www.wikidata.org/wiki/Q18005781"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/La%20mata%20beach2.jpg"
+    }
+  }
+}

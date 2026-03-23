@@ -1,0 +1,49 @@
+{
+  "slug": "plage-des-bas-sablons",
+  "name": "Plage des Bas-Sablons",
+  "centroid_lat": 48.6382916,
+  "centroid_lng": -2.0203366,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/141752606",
+      "source_url": "https://www.openstreetmap.org/way/141752606"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q56849077",
+      "source_url": "https://www.wikidata.org/wiki/Q56849077"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0335288M035550",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0335288M035550",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Panorama%20Saint-Malo%20-%20plage%20des%20bas%20sablons.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

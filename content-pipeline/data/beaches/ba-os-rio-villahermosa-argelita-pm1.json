@@ -1,0 +1,45 @@
+{
+  "slug": "ba-os-rio-villahermosa-argelita-pm1",
+  "name": "BA OS RIO VILLAHERMOSA ARGELITA PM1",
+  "centroid_lat": 40.05523,
+  "centroid_lng": -0.34798,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/358665640",
+      "source_url": "https://www.openstreetmap.org/way/358665640"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/358665642",
+      "source_url": "https://www.openstreetmap.org/way/358665642"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/358665644",
+      "source_url": "https://www.openstreetmap.org/way/358665644"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES522C0152707",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES522C0152707",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

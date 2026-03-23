@@ -1,0 +1,25 @@
+{
+  "slug": "bakenberg",
+  "name": "Bakenberg",
+  "centroid_lat": 54.670307,
+  "centroid_lng": 13.281741,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/620266293",
+      "source_url": "https://www.openstreetmap.org/way/620266293"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q15785306",
+      "source_url": "https://www.wikidata.org/wiki/Q15785306"
+    }
+  ],
+  "attributes": {}
+}

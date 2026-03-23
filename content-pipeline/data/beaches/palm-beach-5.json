@@ -1,0 +1,75 @@
+{
+  "slug": "palm-beach-5",
+  "name": "Palm Beach",
+  "centroid_lat": 34.7187661,
+  "centroid_lng": 33.2765558,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/13115675170",
+      "source_url": "https://www.openstreetmap.org/node/13115675170"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/13115675171",
+      "source_url": "https://www.openstreetmap.org/node/13115675171"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/532953769",
+      "source_url": "https://www.openstreetmap.org/way/532953769"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/532953770",
+      "source_url": "https://www.openstreetmap.org/way/532953770"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/532953771",
+      "source_url": "https://www.openstreetmap.org/way/532953771"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/532953772",
+      "source_url": "https://www.openstreetmap.org/way/532953772"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1165236569",
+      "source_url": "https://www.openstreetmap.org/way/1165236569"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1215861043",
+      "source_url": "https://www.openstreetmap.org/way/1215861043"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1215861046",
+      "source_url": "https://www.openstreetmap.org/way/1215861046"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CY0005126000000063",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CY0005126000000063",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

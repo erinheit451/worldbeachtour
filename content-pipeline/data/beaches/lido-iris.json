@@ -1,0 +1,27 @@
+{
+  "slug": "lido-iris",
+  "name": "Lido Iris",
+  "centroid_lat": 42.5510726,
+  "centroid_lng": 14.1209466,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1197824821",
+      "source_url": "https://www.openstreetmap.org/way/1197824821"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

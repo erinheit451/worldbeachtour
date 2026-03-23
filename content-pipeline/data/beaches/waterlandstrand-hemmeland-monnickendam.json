@@ -1,0 +1,55 @@
+{
+  "slug": "waterlandstrand-hemmeland-monnickendam",
+  "name": "WATERLANDSTRAND HEMMELAND MONNICKENDAM",
+  "centroid_lat": 52.45661,
+  "centroid_lng": 5.05129,
+  "country_code": "NL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/103801952",
+      "source_url": "https://www.openstreetmap.org/way/103801952"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/103802217",
+      "source_url": "https://www.openstreetmap.org/way/103802217"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/103802297",
+      "source_url": "https://www.openstreetmap.org/way/103802297"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/103803015",
+      "source_url": "https://www.openstreetmap.org/way/103803015"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/103803160",
+      "source_url": "https://www.openstreetmap.org/way/103803160"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW92_GOUWZBD",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW92_GOUWZBD",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

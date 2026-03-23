@@ -1,0 +1,30 @@
+{
+  "slug": "saadjarve-aksi-supelrand",
+  "name": "Saadjärve Äksi supelrand",
+  "centroid_lat": 58.5249387,
+  "centroid_lng": 26.6735664,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/514946765",
+      "source_url": "https://www.openstreetmap.org/way/514946765"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "pico-beach-1",
+  "name": "Pico Beach",
+  "centroid_lat": 42.3694192,
+  "centroid_lng": -70.9836161,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/86295526",
+      "source_url": "https://www.openstreetmap.org/way/86295526"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14094745",
+      "source_url": "https://www.openstreetmap.org/relation/14094745"
+    }
+  ],
+  "attributes": {}
+}

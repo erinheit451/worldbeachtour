@@ -1,0 +1,25 @@
+{
+  "slug": "brittingham-beach",
+  "name": "Brittingham Beach",
+  "centroid_lat": 43.0633651,
+  "centroid_lng": -89.3913953,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1309915740",
+      "source_url": "https://www.openstreetmap.org/way/1309915740"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320248",
+      "source_url": "https://www.wikidata.org/wiki/Q49320248"
+    }
+  ],
+  "attributes": {}
+}

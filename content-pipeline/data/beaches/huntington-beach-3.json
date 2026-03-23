@@ -1,0 +1,27 @@
+{
+  "slug": "huntington-beach-3",
+  "name": "Huntington Beach",
+  "centroid_lat": 37.0154708,
+  "centroid_lng": -76.455262,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/246848444",
+      "source_url": "https://www.openstreetmap.org/way/246848444"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "osrodek-wypoczynkowy-gutwin",
+  "name": "OŚRODEK WYPOCZYNKOWY GUTWIN",
+  "centroid_lat": 50.97009,
+  "centroid_lng": 21.387,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/233930609",
+      "source_url": "https://www.openstreetmap.org/way/233930609"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/361853308",
+      "source_url": "https://www.openstreetmap.org/way/361853308"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL3300701126000011",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL3300701126000011",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "customers"
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

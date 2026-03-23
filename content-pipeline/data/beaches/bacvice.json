@@ -1,0 +1,72 @@
+{
+  "slug": "bacvice",
+  "name": "Bačvice",
+  "centroid_lat": 43.5019689,
+  "centroid_lng": 16.4469382,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9328465833",
+      "source_url": "https://www.openstreetmap.org/node/9328465833"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/17866195",
+      "source_url": "https://www.openstreetmap.org/relation/17866195"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/17866196",
+      "source_url": "https://www.openstreetmap.org/relation/17866196"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/17866197",
+      "source_url": "https://www.openstreetmap.org/relation/17866197"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q115103952",
+      "source_url": "https://www.wikidata.org/wiki/Q115103952"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2049",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2050",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2049",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2050",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false,
+      "wheelchair_access": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Strand%20Bacvice%20in%20Split%2C%20Kroatien%20%2848608740097%29.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

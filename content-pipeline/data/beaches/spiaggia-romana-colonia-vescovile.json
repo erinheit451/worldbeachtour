@@ -1,0 +1,35 @@
+{
+  "slug": "spiaggia-romana-colonia-vescovile",
+  "name": "SPIAGGIA ROMANA-COLONIA VESCOVILE",
+  "centroid_lat": 40.8301,
+  "centroid_lng": 14.047,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/422012577",
+      "source_url": "https://www.openstreetmap.org/way/422012577"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015063006001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015063006001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "mikro-kabouri",
+  "name": "Μικρό Καβούρι",
+  "centroid_lat": 37.8299059,
+  "centroid_lng": 23.7704134,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/329680712",
+      "source_url": "https://www.openstreetmap.org/way/329680712"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/329680717",
+      "source_url": "https://www.openstreetmap.org/way/329680717"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/727198922",
+      "source_url": "https://www.openstreetmap.org/way/727198922"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/727198930",
+      "source_url": "https://www.openstreetmap.org/way/727198930"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW069216024101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW069216022101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW069216024101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW069216022101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

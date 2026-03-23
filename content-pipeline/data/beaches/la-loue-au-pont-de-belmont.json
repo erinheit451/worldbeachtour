@@ -1,0 +1,40 @@
+{
+  "slug": "la-loue-au-pont-de-belmont",
+  "name": "LA LOUE AU PONT DE BELMONT",
+  "centroid_lat": 47.00985,
+  "centroid_lng": 5.59391,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/167110999",
+      "source_url": "https://www.openstreetmap.org/way/167110999"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/167111030",
+      "source_url": "https://www.openstreetmap.org/way/167111030"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRC2239048D039090",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRC2239048D039090",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

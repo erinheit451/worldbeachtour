@@ -1,0 +1,30 @@
+{
+  "slug": "cottesloe-beach",
+  "name": "Cottesloe Beach",
+  "centroid_lat": -31.9955178,
+  "centroid_lng": 115.7508069,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/29283079",
+      "source_url": "https://www.openstreetmap.org/way/29283079"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21955723",
+      "source_url": "https://www.wikidata.org/wiki/Q21955723"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cottesloe%20beach.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cottesloe_Beach"
+    }
+  }
+}

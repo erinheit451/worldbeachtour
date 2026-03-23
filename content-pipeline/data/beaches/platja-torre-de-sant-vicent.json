@@ -1,0 +1,43 @@
+{
+  "slug": "platja-torre-de-sant-vicent",
+  "name": "Platja Torre de Sant Vicent",
+  "centroid_lat": 40.0485037,
+  "centroid_lng": 0.0713868,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2169043",
+      "source_url": "https://www.openstreetmap.org/relation/2169043"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q18005783",
+      "source_url": "https://www.wikidata.org/wiki/Q18005783"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES522M028974",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES522M028974",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platja%20de%20la%20Torre%20Sant%20Vicent%20-%202021.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

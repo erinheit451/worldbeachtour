@@ -1,0 +1,24 @@
+{
+  "slug": "novyi-pliazh-3",
+  "name": "Новый пляж",
+  "centroid_lat": 57.0369826,
+  "centroid_lng": 34.1471116,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/257589357",
+      "source_url": "https://www.openstreetmap.org/way/257589357"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "playa-xpu-ha",
+  "name": "Playa Xpu Ha",
+  "centroid_lat": 20.475404,
+  "centroid_lng": -87.2556387,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6699308988",
+      "source_url": "https://www.openstreetmap.org/node/6699308988"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q124376096",
+      "source_url": "https://www.wikidata.org/wiki/Q124376096"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Xpu-Ha.jpg"
+    }
+  }
+}

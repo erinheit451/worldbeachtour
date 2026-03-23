@@ -1,0 +1,71 @@
+{
+  "slug": "akte-tsamakia",
+  "name": "Ακτή Τσαμάκια",
+  "centroid_lat": 39.107894,
+  "centroid_lng": 26.5645081,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/251823840",
+      "source_url": "https://www.openstreetmap.org/way/251823840"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1066468795",
+      "source_url": "https://www.openstreetmap.org/way/1066468795"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1109780190",
+      "source_url": "https://www.openstreetmap.org/way/1109780190"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1110135169",
+      "source_url": "https://www.openstreetmap.org/way/1110135169"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1110135170",
+      "source_url": "https://www.openstreetmap.org/way/1110135170"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1124008857",
+      "source_url": "https://www.openstreetmap.org/way/1124008857"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53633028",
+      "source_url": "https://www.wikidata.org/wiki/Q53633028"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149261109101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149261109101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

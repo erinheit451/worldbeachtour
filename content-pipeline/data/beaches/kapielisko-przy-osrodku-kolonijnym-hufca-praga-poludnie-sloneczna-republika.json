@@ -1,0 +1,30 @@
+{
+  "slug": "kapielisko-przy-osrodku-kolonijnym-hufca-praga-poludnie-sloneczna-republika",
+  "name": "KĄPIELISKO PRZY OŚRODKU  KOLONIJNYM HUFCA PRAGA-POŁUDNIE SŁONECZNA REPUBLIKA",
+  "centroid_lat": 53.8032,
+  "centroid_lng": 18.3084,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6321306222000137",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6321306222000137",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

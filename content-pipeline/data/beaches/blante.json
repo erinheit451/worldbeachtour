@@ -1,0 +1,25 @@
+{
+  "slug": "blante",
+  "name": "Βλαντή",
+  "centroid_lat": 37.5529069,
+  "centroid_lng": 24.3220229,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/496694661",
+      "source_url": "https://www.openstreetmap.org/way/496694661"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/616135268",
+      "source_url": "https://www.openstreetmap.org/way/616135268"
+    }
+  ],
+  "attributes": {}
+}

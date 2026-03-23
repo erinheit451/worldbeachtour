@@ -1,0 +1,29 @@
+{
+  "slug": "playa-san-mateo-1",
+  "name": "Playa San Mateo",
+  "centroid_lat": -33.0270431,
+  "centroid_lng": -71.6304725,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/27711127",
+      "source_url": "https://www.openstreetmap.org/way/27711127"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6078499",
+      "source_url": "https://www.wikidata.org/wiki/Q6078499"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20San%20Mateo%2C%20Valpara%C3%ADso%2020240309%2006.jpg"
+    }
+  }
+}

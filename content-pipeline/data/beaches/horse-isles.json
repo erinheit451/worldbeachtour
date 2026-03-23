@@ -1,0 +1,25 @@
+{
+  "slug": "horse-isles",
+  "name": "Horse Isles",
+  "centroid_lat": 54.8531066,
+  "centroid_lng": -3.8128726,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/439573262",
+      "source_url": "https://www.openstreetmap.org/node/439573262"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/380046961",
+      "source_url": "https://www.openstreetmap.org/way/380046961"
+    }
+  ],
+  "attributes": {}
+}

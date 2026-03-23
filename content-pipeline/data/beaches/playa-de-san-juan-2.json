@@ -1,0 +1,48 @@
+{
+  "slug": "playa-de-san-juan-2",
+  "name": "Playa de San Juan",
+  "centroid_lat": 28.1780791,
+  "centroid_lng": -16.8110131,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/160138497",
+      "source_url": "https://www.openstreetmap.org/way/160138497"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/184918804",
+      "source_url": "https://www.openstreetmap.org/way/184918804"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/1465563",
+      "source_url": "https://www.openstreetmap.org/relation/1465563"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES709M0191858",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES709M0191858",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

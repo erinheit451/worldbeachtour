@@ -1,0 +1,29 @@
+{
+  "slug": "plage-de-l-anse-mabouyas",
+  "name": "Plage de l'Anse Mabouyas",
+  "centroid_lat": 14.467906,
+  "centroid_lng": -60.9577431,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/253090411",
+      "source_url": "https://www.openstreetmap.org/way/253090411"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28952420",
+      "source_url": "https://www.wikidata.org/wiki/Q28952420"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Anse%20Mabouya%20vue%20cot%C3%A9%20sud.jpg"
+    }
+  }
+}

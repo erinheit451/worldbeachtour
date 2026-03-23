@@ -1,0 +1,25 @@
+{
+  "slug": "platja-d-en-robert",
+  "name": "Platja d'en Robert",
+  "centroid_lat": 42.3528515,
+  "centroid_lng": 3.1780937,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8312736",
+      "source_url": "https://www.openstreetmap.org/relation/8312736"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q124256822",
+      "source_url": "https://www.wikidata.org/wiki/Q124256822"
+    }
+  ],
+  "attributes": {}
+}

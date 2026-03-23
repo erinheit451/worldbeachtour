@@ -1,0 +1,25 @@
+{
+  "slug": "third-beach-7",
+  "name": "Third beach",
+  "centroid_lat": -31.6555412,
+  "centroid_lng": 29.5070887,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/105257233",
+      "source_url": "https://www.openstreetmap.org/way/105257233"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q32028789",
+      "source_url": "https://www.wikidata.org/wiki/Q32028789"
+    }
+  ],
+  "attributes": {}
+}

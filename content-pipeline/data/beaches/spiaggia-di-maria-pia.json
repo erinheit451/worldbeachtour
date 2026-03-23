@@ -1,0 +1,29 @@
+{
+  "slug": "spiaggia-di-maria-pia",
+  "name": "Spiaggia di Maria Pia",
+  "centroid_lat": 40.5867509,
+  "centroid_lng": 8.2995221,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/79193647",
+      "source_url": "https://www.openstreetmap.org/way/79193647"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q52064164",
+      "source_url": "https://www.wikidata.org/wiki/Q52064164"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Alghero%2C%20spiaggia%20di%20Maria%20Pia%20%2801%29.jpg"
+    }
+  }
+}

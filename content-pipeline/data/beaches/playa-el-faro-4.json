@@ -1,0 +1,39 @@
+{
+  "slug": "playa-el-faro-4",
+  "name": "Playa El Faro",
+  "centroid_lat": -29.901182,
+  "centroid_lng": -71.2741207,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9593193501",
+      "source_url": "https://www.openstreetmap.org/node/9593193501"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/307937586",
+      "source_url": "https://www.openstreetmap.org/way/307937586"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/307937588",
+      "source_url": "https://www.openstreetmap.org/way/307937588"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/687705068",
+      "source_url": "https://www.openstreetmap.org/way/687705068"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

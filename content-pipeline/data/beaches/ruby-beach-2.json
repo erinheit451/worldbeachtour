@@ -1,0 +1,25 @@
+{
+  "slug": "ruby-beach-2",
+  "name": "Ruby Beach",
+  "centroid_lat": -44.4236389,
+  "centroid_lng": 167.8912529,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1257085618",
+      "source_url": "https://www.openstreetmap.org/way/1257085618"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324530",
+      "source_url": "https://www.wikidata.org/wiki/Q49324530"
+    }
+  ],
+  "attributes": {}
+}

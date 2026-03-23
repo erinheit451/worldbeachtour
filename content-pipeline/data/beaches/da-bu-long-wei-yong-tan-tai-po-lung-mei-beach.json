@@ -1,0 +1,32 @@
+{
+  "slug": "da-bu-long-wei-yong-tan-tai-po-lung-mei-beach",
+  "name": "大埔龍尾泳灘 Tai Po Lung Mei Beach",
+  "centroid_lat": 22.4710783,
+  "centroid_lng": 114.2277321,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/557561335",
+      "source_url": "https://www.openstreetmap.org/way/557561335"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q32892",
+      "source_url": "https://www.wikidata.org/wiki/Q32892"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Lung%20Mei%20Beach%402021-09-22%2002.jpg"
+    }
+  }
+}

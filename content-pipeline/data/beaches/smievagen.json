@@ -1,0 +1,40 @@
+{
+  "slug": "smievagen",
+  "name": "Smievågen",
+  "centroid_lat": 60.1920485,
+  "centroid_lng": 5.5044648,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/8174466692",
+      "source_url": "https://www.openstreetmap.org/node/8174466692"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/896306417",
+      "source_url": "https://www.openstreetmap.org/way/896306417"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/896306418",
+      "source_url": "https://www.openstreetmap.org/way/896306418"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/919776393",
+      "source_url": "https://www.openstreetmap.org/way/919776393"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/919776396",
+      "source_url": "https://www.openstreetmap.org/way/919776396"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "port-burwell-east-beach-municipal",
+  "name": "Port Burwell East Beach (Municipal)",
+  "centroid_lat": 42.6427738,
+  "centroid_lng": -80.8040833,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/971677292",
+      "source_url": "https://www.openstreetmap.org/way/971677292"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

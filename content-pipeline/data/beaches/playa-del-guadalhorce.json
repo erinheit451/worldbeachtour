@@ -1,0 +1,30 @@
+{
+  "slug": "playa-del-guadalhorce",
+  "name": "Playa del Guadalhorce",
+  "centroid_lat": 36.6704402,
+  "centroid_lng": -4.4516157,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/9709082",
+      "source_url": "https://www.openstreetmap.org/relation/9709082"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6079251",
+      "source_url": "https://www.wikidata.org/wiki/Q6079251"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20del%20Guadalhorce.jpg"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "playa-quirilluca",
+  "name": "Playa Quirilluca",
+  "centroid_lat": -32.6974042,
+  "centroid_lng": -71.4583726,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/152162971",
+      "source_url": "https://www.openstreetmap.org/way/152162971"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22407359",
+      "source_url": "https://www.wikidata.org/wiki/Q22407359"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    }
+  }
+}

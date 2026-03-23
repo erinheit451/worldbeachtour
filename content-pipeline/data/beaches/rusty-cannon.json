@@ -1,0 +1,73 @@
+{
+  "slug": "rusty-cannon",
+  "name": "Rusty Cannon",
+  "centroid_lat": 38.1355604,
+  "centroid_lng": 24.0178418,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/659812025",
+      "source_url": "https://www.openstreetmap.org/way/659812025"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659812027",
+      "source_url": "https://www.openstreetmap.org/way/659812027"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659812028",
+      "source_url": "https://www.openstreetmap.org/way/659812028"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659812031",
+      "source_url": "https://www.openstreetmap.org/way/659812031"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659812032",
+      "source_url": "https://www.openstreetmap.org/way/659812032"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659812035",
+      "source_url": "https://www.openstreetmap.org/way/659812035"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25162207",
+      "source_url": "https://www.wikidata.org/wiki/Q25162207"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53632431",
+      "source_url": "https://www.wikidata.org/wiki/Q53632431"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW069220057101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW069220057101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

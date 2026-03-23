@@ -1,0 +1,29 @@
+{
+  "slug": "playa-tunquen",
+  "name": "Playa Tunquén",
+  "centroid_lat": -33.2868689,
+  "centroid_lng": -71.657959,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/405345473",
+      "source_url": "https://www.openstreetmap.org/way/405345473"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22407291",
+      "source_url": "https://www.wikidata.org/wiki/Q22407291"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20Tunquen%20%28180099601%29.jpeg"
+    }
+  }
+}

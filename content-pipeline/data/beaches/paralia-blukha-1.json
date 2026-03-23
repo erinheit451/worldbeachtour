@@ -1,0 +1,32 @@
+{
+  "slug": "paralia-blukha-1",
+  "name": "Παραλία Βλυχά",
+  "centroid_lat": 36.1072155,
+  "centroid_lng": 28.0697574,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/660054998",
+      "source_url": "https://www.openstreetmap.org/way/660054998"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/5140017",
+      "source_url": "https://www.openstreetmap.org/relation/5140017"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "permissive"
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

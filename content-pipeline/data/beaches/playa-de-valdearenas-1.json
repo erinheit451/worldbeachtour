@@ -1,0 +1,34 @@
+{
+  "slug": "playa-de-valdearenas-1",
+  "name": "Playa de Valdearenas",
+  "centroid_lat": 43.444791,
+  "centroid_lng": -3.9711137,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/201943677",
+      "source_url": "https://www.openstreetmap.org/way/201943677"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q3966673",
+      "source_url": "https://www.wikidata.org/wiki/Q3966673"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23991451",
+      "source_url": "https://www.wikidata.org/wiki/Q23991451"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20Valdearena-2.JPG"
+    }
+  }
+}

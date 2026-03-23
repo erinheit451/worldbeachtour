@@ -1,0 +1,48 @@
+{
+  "slug": "nikolina",
+  "name": "Nikolina",
+  "centroid_lat": 43.3553822,
+  "centroid_lng": 16.9486326,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/231069108",
+      "source_url": "https://www.openstreetmap.org/way/231069108"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/231069811",
+      "source_url": "https://www.openstreetmap.org/way/231069811"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q97445998",
+      "source_url": "https://www.wikidata.org/wiki/Q97445998"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2018",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2018",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

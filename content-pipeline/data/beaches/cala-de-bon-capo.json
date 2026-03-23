@@ -1,0 +1,43 @@
+{
+  "slug": "cala-de-bon-capo",
+  "name": "Cala de Bon Capó",
+  "centroid_lat": 40.8746237,
+  "centroid_lng": 0.7953195,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/14498433",
+      "source_url": "https://www.openstreetmap.org/relation/14498433"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/14498448",
+      "source_url": "https://www.openstreetmap.org/relation/14498448"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28121105",
+      "source_url": "https://www.wikidata.org/wiki/Q28121105"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28121205",
+      "source_url": "https://www.wikidata.org/wiki/Q28121205"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20Bon%20Cap%C3%B3.jpg"
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

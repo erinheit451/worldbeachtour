@@ -1,0 +1,30 @@
+{
+  "slug": "pee-wees-beach",
+  "name": "Pee Wees Beach",
+  "centroid_lat": -12.4125332,
+  "centroid_lng": 130.8246924,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/13387852851",
+      "source_url": "https://www.openstreetmap.org/node/13387852851"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1456417559",
+      "source_url": "https://www.openstreetmap.org/way/1456417559"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1456417560",
+      "source_url": "https://www.openstreetmap.org/way/1456417560"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "fkk-53",
+  "name": "FKK",
+  "centroid_lat": 50.7016334,
+  "centroid_lng": 14.8460542,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/241552523",
+      "source_url": "https://www.openstreetmap.org/way/241552523"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/712930358",
+      "source_url": "https://www.openstreetmap.org/way/712930358"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "social": {
+      "nudist": true
+    }
+  }
+}

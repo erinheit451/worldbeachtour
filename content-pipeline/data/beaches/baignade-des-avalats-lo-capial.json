@@ -1,0 +1,30 @@
+{
+  "slug": "baignade-des-avalats-lo-capial",
+  "name": "BAIGNADE DES AVALATS Lo Capial",
+  "centroid_lat": 43.94009,
+  "centroid_lng": 2.24331,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ2781257D081011",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ2781257D081011",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

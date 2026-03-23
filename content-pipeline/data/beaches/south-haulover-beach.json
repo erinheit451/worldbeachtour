@@ -1,0 +1,34 @@
+{
+  "slug": "south-haulover-beach",
+  "name": "South Haulover Beach",
+  "centroid_lat": 18.3465106,
+  "centroid_lng": -64.6806136,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/842265738",
+      "source_url": "https://www.openstreetmap.org/way/842265738"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/886779487",
+      "source_url": "https://www.openstreetmap.org/way/886779487"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31919540",
+      "source_url": "https://www.wikidata.org/wiki/Q31919540"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Haulover-Bay-Beach%20Saint-John-VI%202022-04-24%20A.jpg"
+    }
+  }
+}

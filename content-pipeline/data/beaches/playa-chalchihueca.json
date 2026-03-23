@@ -1,0 +1,25 @@
+{
+  "slug": "playa-chalchihueca",
+  "name": "Playa Chalchihueca",
+  "centroid_lat": 19.3327326,
+  "centroid_lng": -96.2979542,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/16073925",
+      "source_url": "https://www.openstreetmap.org/relation/16073925"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q27846699",
+      "source_url": "https://www.wikidata.org/wiki/Q27846699"
+    }
+  ],
+  "attributes": {}
+}

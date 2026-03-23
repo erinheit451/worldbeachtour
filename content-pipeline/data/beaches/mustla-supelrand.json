@@ -1,0 +1,30 @@
+{
+  "slug": "mustla-supelrand",
+  "name": "Mustla supelrand",
+  "centroid_lat": 58.2293302,
+  "centroid_lng": 25.8826258,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1191241977",
+      "source_url": "https://www.openstreetmap.org/way/1191241977"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

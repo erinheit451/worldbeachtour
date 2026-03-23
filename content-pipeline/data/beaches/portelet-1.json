@@ -1,0 +1,24 @@
+{
+  "slug": "portelet-1",
+  "name": "Portelet",
+  "centroid_lat": 49.1716481,
+  "centroid_lng": -2.1783794,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/179424363",
+      "source_url": "https://www.openstreetmap.org/way/179424363"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

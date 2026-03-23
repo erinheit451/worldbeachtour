@@ -1,0 +1,24 @@
+{
+  "slug": "praia-do-cavalinho-1",
+  "name": "Praia do Cavalinho",
+  "centroid_lat": -28.4255637,
+  "centroid_lng": -48.7439992,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/6450238",
+      "source_url": "https://www.openstreetmap.org/relation/6450238"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

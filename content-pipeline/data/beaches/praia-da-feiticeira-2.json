@@ -1,0 +1,29 @@
+{
+  "slug": "praia-da-feiticeira-2",
+  "name": "Praia da Feiticeira",
+  "centroid_lat": -23.8452812,
+  "centroid_lng": -45.4091371,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/758118207",
+      "source_url": "https://www.openstreetmap.org/way/758118207"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10352592",
+      "source_url": "https://www.wikidata.org/wiki/Q10352592"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Velejando%20nas%20nuvens.jpg"
+    }
+  }
+}

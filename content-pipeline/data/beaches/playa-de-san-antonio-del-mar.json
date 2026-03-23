@@ -1,0 +1,30 @@
+{
+  "slug": "playa-de-san-antonio-del-mar",
+  "name": "Playa de San Antonio del Mar",
+  "centroid_lat": 43.4594752,
+  "centroid_lng": -4.9281078,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/173310395",
+      "source_url": "https://www.openstreetmap.org/way/173310395"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/173310402",
+      "source_url": "https://www.openstreetmap.org/way/173310402"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q18714129",
+      "source_url": "https://www.wikidata.org/wiki/Q18714129"
+    }
+  ],
+  "attributes": {}
+}

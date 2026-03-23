@@ -1,0 +1,35 @@
+{
+  "slug": "plan-d-eau-communal-1",
+  "name": "PLAN D EAU COMMUNAL",
+  "centroid_lat": 45.20022,
+  "centroid_lng": 2.14732,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1065329423",
+      "source_url": "https://www.openstreetmap.org/way/1065329423"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI2119014D019020",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI2119014D019020",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

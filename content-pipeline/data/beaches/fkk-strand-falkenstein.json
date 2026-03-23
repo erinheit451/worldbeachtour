@@ -1,0 +1,32 @@
+{
+  "slug": "fkk-strand-falkenstein",
+  "name": "FKK Strand Falkenstein",
+  "centroid_lat": 54.413686,
+  "centroid_lng": 10.185978,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/3012372661",
+      "source_url": "https://www.openstreetmap.org/node/3012372661"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/485821674",
+      "source_url": "https://www.openstreetmap.org/way/485821674"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false
+    },
+    "social": {
+      "dog_friendly": true
+    }
+  }
+}

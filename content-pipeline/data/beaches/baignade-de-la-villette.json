@@ -1,0 +1,40 @@
+{
+  "slug": "baignade-de-la-villette",
+  "name": "Baignade de la Villette",
+  "centroid_lat": 48.8856628,
+  "centroid_lng": 2.3745753,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/508743351",
+      "source_url": "https://www.openstreetmap.org/way/508743351"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FR10175056D075001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FR10175056D075001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited",
+      "fee_required": false,
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

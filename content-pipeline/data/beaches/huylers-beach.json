@@ -1,0 +1,25 @@
+{
+  "slug": "huylers-beach",
+  "name": "Huylers Beach",
+  "centroid_lat": 40.925,
+  "centroid_lng": -73.9261111,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357748454",
+      "source_url": "https://www.openstreetmap.org/node/357748454"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q34683607",
+      "source_url": "https://www.wikidata.org/wiki/Q34683607"
+    }
+  ],
+  "attributes": {}
+}

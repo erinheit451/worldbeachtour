@@ -1,0 +1,25 @@
+{
+  "slug": "hyatts-beach",
+  "name": "Hyatts Beach",
+  "centroid_lat": -42.88225,
+  "centroid_lng": 147.95756,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/485462677",
+      "source_url": "https://www.openstreetmap.org/way/485462677"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956153",
+      "source_url": "https://www.wikidata.org/wiki/Q21956153"
+    }
+  ],
+  "attributes": {}
+}

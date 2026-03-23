@@ -1,0 +1,35 @@
+{
+  "slug": "la-alcaidesa-beach",
+  "name": "La Alcaidesa beach",
+  "centroid_lat": 36.233055555,
+  "centroid_lng": -5.314472222,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/593695052",
+      "source_url": "https://www.openstreetmap.org/way/593695052"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q4907193",
+      "source_url": "https://www.wikidata.org/wiki/Q4907193"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q4907216",
+      "source_url": "https://www.wikidata.org/wiki/Q4907216"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/La%20Alcaidesa.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_de_La_Alcaidesa"
+    }
+  }
+}

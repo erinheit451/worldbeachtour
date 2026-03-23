@@ -1,0 +1,24 @@
+{
+  "slug": "park-beach-1",
+  "name": "Park Beach",
+  "centroid_lat": -30.2884962,
+  "centroid_lng": 153.141143,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/506150317",
+      "source_url": "https://www.openstreetmap.org/way/506150317"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    }
+  }
+}

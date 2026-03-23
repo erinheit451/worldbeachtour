@@ -1,0 +1,44 @@
+{
+  "slug": "kapielisko-gminne-jezioro-biale",
+  "name": "Kąpielisko gminne Jezioro Białe",
+  "centroid_lat": 54.3767345,
+  "centroid_lng": 18.1950701,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/936810631",
+      "source_url": "https://www.openstreetmap.org/way/936810631"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6320502522000145",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6320502522000145",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "facilities": {
+      "access": "yes"
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

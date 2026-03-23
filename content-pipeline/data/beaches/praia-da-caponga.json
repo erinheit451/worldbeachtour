@@ -1,0 +1,29 @@
+{
+  "slug": "praia-da-caponga",
+  "name": "Praia da Caponga",
+  "centroid_lat": -4.0379571,
+  "centroid_lng": -38.1973053,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1333476369",
+      "source_url": "https://www.openstreetmap.org/way/1333476369"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10352759",
+      "source_url": "https://www.wikidata.org/wiki/Q10352759"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cal%C3%A7ad%C3%A3o%20da%20Praia%20de%20Caponga.JPG"
+    }
+  }
+}

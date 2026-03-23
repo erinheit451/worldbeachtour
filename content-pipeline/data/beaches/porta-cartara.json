@@ -1,0 +1,35 @@
+{
+  "slug": "porta-cartara",
+  "name": "PORTA CARTARA",
+  "centroid_lat": 42.8493,
+  "centroid_lng": 13.5692,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/9260020",
+      "source_url": "https://www.openstreetmap.org/relation/9260020"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT011044007001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT011044007001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

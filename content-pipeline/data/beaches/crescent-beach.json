@@ -1,0 +1,25 @@
+{
+  "slug": "crescent-beach",
+  "name": "Crescent Beach",
+  "centroid_lat": 43.3654198,
+  "centroid_lng": -95.1708463,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/354345705",
+      "source_url": "https://www.openstreetmap.org/node/354345705"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31810896",
+      "source_url": "https://www.wikidata.org/wiki/Q31810896"
+    }
+  ],
+  "attributes": {}
+}

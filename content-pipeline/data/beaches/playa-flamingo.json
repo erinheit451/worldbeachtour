@@ -1,0 +1,35 @@
+{
+  "slug": "playa-flamingo",
+  "name": "Playa Flamingo",
+  "centroid_lat": 28.8576342,
+  "centroid_lng": -13.8420328,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/154060448",
+      "source_url": "https://www.openstreetmap.org/way/154060448"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES708M0341813",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES708M0341813",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

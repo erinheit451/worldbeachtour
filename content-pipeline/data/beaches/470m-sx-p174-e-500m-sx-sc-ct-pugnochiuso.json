@@ -1,0 +1,30 @@
+{
+  "slug": "470m-sx-p174-e-500m-sx-sc-ct-pugnochiuso",
+  "name": "470M SX P174 E 500M SX SC.CT PUGNOCHIUSO",
+  "centroid_lat": 41.7961,
+  "centroid_lng": 16.1962,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016071060028",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016071060028",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

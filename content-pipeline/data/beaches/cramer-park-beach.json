@@ -1,0 +1,29 @@
+{
+  "slug": "cramer-park-beach",
+  "name": "Cramer Park Beach",
+  "centroid_lat": 17.7601583,
+  "centroid_lng": -64.5806851,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1323297584",
+      "source_url": "https://www.openstreetmap.org/way/1323297584"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31908645",
+      "source_url": "https://www.wikidata.org/wiki/Q31908645"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

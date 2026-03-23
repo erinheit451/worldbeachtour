@@ -1,0 +1,25 @@
+{
+  "slug": "psatha-1",
+  "name": "Ψάθα",
+  "centroid_lat": 40.863107,
+  "centroid_lng": 24.3263282,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/360468254",
+      "source_url": "https://www.openstreetmap.org/way/360468254"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1237817927",
+      "source_url": "https://www.openstreetmap.org/way/1237817927"
+    }
+  ],
+  "attributes": {}
+}

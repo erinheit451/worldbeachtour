@@ -1,0 +1,35 @@
+{
+  "slug": "platja-des-cavallet",
+  "name": "Platja des Cavallet",
+  "centroid_lat": 38.8444487,
+  "centroid_lng": 1.4026463,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/47233379",
+      "source_url": "https://www.openstreetmap.org/way/47233379"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1408253317",
+      "source_url": "https://www.openstreetmap.org/way/1408253317"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q18005796",
+      "source_url": "https://www.wikidata.org/wiki/Q18005796"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Palm%20umbrella.jpg"
+    }
+  }
+}

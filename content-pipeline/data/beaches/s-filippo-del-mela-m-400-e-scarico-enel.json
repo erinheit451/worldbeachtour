@@ -1,0 +1,40 @@
+{
+  "slug": "s-filippo-del-mela-m-400-e-scarico-enel",
+  "name": "S.FILIPPO DEL MELA M 400 E SCARICO ENEL",
+  "centroid_lat": 38.2067,
+  "centroid_lng": 15.2816,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/325007285",
+      "source_url": "https://www.openstreetmap.org/way/325007285"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/325007288",
+      "source_url": "https://www.openstreetmap.org/way/325007288"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019083077001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019083077001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

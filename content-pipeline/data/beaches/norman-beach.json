@@ -1,0 +1,24 @@
+{
+  "slug": "norman-beach",
+  "name": "Norman Beach",
+  "centroid_lat": 49.7607565,
+  "centroid_lng": -94.5268732,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/940001979",
+      "source_url": "https://www.openstreetmap.org/way/940001979"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true
+    }
+  }
+}

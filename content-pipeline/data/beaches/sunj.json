@@ -1,0 +1,29 @@
+{
+  "slug": "sunj",
+  "name": "Šunj",
+  "centroid_lat": 42.6799255,
+  "centroid_lng": 17.9519967,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/231071091",
+      "source_url": "https://www.openstreetmap.org/way/231071091"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q20527484",
+      "source_url": "https://www.wikidata.org/wiki/Q20527484"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cliffs%20near%20Sunj%20Beach%20on%20Lopud%20Island%2C%20Croatia%20%2848738692058%29.jpg"
+    }
+  }
+}

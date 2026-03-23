@@ -1,0 +1,24 @@
+{
+  "slug": "lido-eden-bleu",
+  "name": "Lido Eden Bleu",
+  "centroid_lat": 40.4078916,
+  "centroid_lng": 14.992619,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9910106070",
+      "source_url": "https://www.openstreetmap.org/node/9910106070"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

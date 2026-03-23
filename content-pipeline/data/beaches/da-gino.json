@@ -1,0 +1,45 @@
+{
+  "slug": "da-gino",
+  "name": "Da Gino",
+  "centroid_lat": 42.6145354,
+  "centroid_lng": 14.0648957,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/8726240759",
+      "source_url": "https://www.openstreetmap.org/node/8726240759"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/8726240760",
+      "source_url": "https://www.openstreetmap.org/node/8726240760"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/515583920",
+      "source_url": "https://www.openstreetmap.org/way/515583920"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT013067035003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT013067035003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

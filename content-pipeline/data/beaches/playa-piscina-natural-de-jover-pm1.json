@@ -1,0 +1,35 @@
+{
+  "slug": "playa-piscina-natural-de-jover-pm1",
+  "name": "PLAYA PISCINA NATURAL DE JOVER PM1",
+  "centroid_lat": 28.5471,
+  "centroid_lng": -16.3702,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1220090850",
+      "source_url": "https://www.openstreetmap.org/way/1220090850"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES709M0232453",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES709M0232453",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

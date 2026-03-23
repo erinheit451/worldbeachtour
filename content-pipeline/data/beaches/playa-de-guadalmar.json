@@ -1,0 +1,44 @@
+{
+  "slug": "playa-de-guadalmar",
+  "name": "Playa de Guadalmar",
+  "centroid_lat": 36.6634874,
+  "centroid_lng": -4.4570041,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/220911089",
+      "source_url": "https://www.openstreetmap.org/way/220911089"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6078759",
+      "source_url": "https://www.wikidata.org/wiki/Q6078759"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617M0671536",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617M0671536",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20Guadalmar%2001.JPG"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

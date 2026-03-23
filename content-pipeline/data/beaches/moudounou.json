@@ -1,0 +1,30 @@
+{
+  "slug": "moudounou",
+  "name": "Μουδουνού",
+  "centroid_lat": 40.0965762,
+  "centroid_lng": 23.4409384,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/3019063829",
+      "source_url": "https://www.openstreetmap.org/node/3019063829"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1249574868",
+      "source_url": "https://www.openstreetmap.org/way/1249574868"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1249574869",
+      "source_url": "https://www.openstreetmap.org/way/1249574869"
+    }
+  ],
+  "attributes": {}
+}

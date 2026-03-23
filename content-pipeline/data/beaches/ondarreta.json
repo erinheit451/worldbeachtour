@@ -1,0 +1,67 @@
+{
+  "slug": "ondarreta",
+  "name": "Ondarreta",
+  "centroid_lat": 43.3169264,
+  "centroid_lng": -2.001507,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/194402388",
+      "source_url": "https://www.openstreetmap.org/way/194402388"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/723169572",
+      "source_url": "https://www.openstreetmap.org/way/723169572"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q2032871",
+      "source_url": "https://www.wikidata.org/wiki/Q2032871"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24019691",
+      "source_url": "https://www.wikidata.org/wiki/Q24019691"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES212M069587",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES212M069588",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES212M069587",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES212M069588",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ondarreta%20Donostia%202006-07-08.JPG"
+    },
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

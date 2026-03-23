@@ -1,0 +1,29 @@
+{
+  "slug": "aghiofili-beach",
+  "name": "Aghiofili Beach",
+  "centroid_lat": 38.6054352,
+  "centroid_lng": 20.6129054,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1565801721",
+      "source_url": "https://www.openstreetmap.org/node/1565801721"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q123060023",
+      "source_url": "https://www.wikidata.org/wiki/Q123060023"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Agiofili%20Beach%20%2825419587704%29.jpg"
+    }
+  }
+}

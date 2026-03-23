@@ -1,0 +1,29 @@
+{
+  "slug": "gisenyi-beach",
+  "name": "Gisenyi Beach",
+  "centroid_lat": -1.7033,
+  "centroid_lng": 29.2588,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/161388860",
+      "source_url": "https://www.openstreetmap.org/way/161388860"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q123186198",
+      "source_url": "https://www.wikidata.org/wiki/Q123186198"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Beach%20in%20Gisenyi%20%28Rwanda%29.JPG"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "cresent-rock-beach",
+  "name": "Cresent Rock Beach",
+  "centroid_lat": 49.0342713,
+  "centroid_lng": -122.877672,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11249194995",
+      "source_url": "https://www.openstreetmap.org/node/11249194995"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

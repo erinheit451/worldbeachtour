@@ -1,0 +1,37 @@
+{
+  "slug": "brandy-cove",
+  "name": "Brandy Cove",
+  "centroid_lat": 51.5681838,
+  "centroid_lng": -4.0425897,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "rock",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/24968147",
+      "source_url": "https://www.openstreetmap.org/way/24968147"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/1479881",
+      "source_url": "https://www.openstreetmap.org/relation/1479881"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q4957231",
+      "source_url": "https://www.wikidata.org/wiki/Q4957231"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Brandy_Cove"
+    }
+  }
+}

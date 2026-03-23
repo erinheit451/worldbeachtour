@@ -1,0 +1,33 @@
+{
+  "slug": "praia-de-grumari",
+  "name": "Praia de Grumari",
+  "centroid_lat": -23.0501728,
+  "centroid_lng": -43.5254012,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/5538963",
+      "source_url": "https://www.openstreetmap.org/relation/5538963"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10352783",
+      "source_url": "https://www.wikidata.org/wiki/Q10352783"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20de%20Grumari.jpg"
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

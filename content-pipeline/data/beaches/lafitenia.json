@@ -1,0 +1,50 @@
+{
+  "slug": "lafitenia",
+  "name": "Lafitenia",
+  "centroid_lat": 43.4139342,
+  "centroid_lng": -1.629778,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/517323075",
+      "source_url": "https://www.openstreetmap.org/way/517323075"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25474033",
+      "source_url": "https://www.wikidata.org/wiki/Q25474033"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1564483M064115",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1564483M064115",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited",
+      "access": "yes"
+    },
+    "safety": {
+      "lifeguard": "11:00-19:00"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plage%20de%20Lafit%C3%A9nia.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "kutyabarat-strand",
+  "name": "Kutyabarát strand",
+  "centroid_lat": 46.8466874,
+  "centroid_lng": 17.8632585,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/4888132996",
+      "source_url": "https://www.openstreetmap.org/node/4888132996"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/746778334",
+      "source_url": "https://www.openstreetmap.org/way/746778334"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true
+    }
+  }
+}

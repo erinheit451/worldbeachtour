@@ -1,0 +1,32 @@
+{
+  "slug": "ondarraitz",
+  "name": "Ondarraitz",
+  "centroid_lat": 43.3745272,
+  "centroid_lng": -1.7743279,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/234073850",
+      "source_url": "https://www.openstreetmap.org/way/234073850"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q12265166",
+      "source_url": "https://www.wikidata.org/wiki/Q12265166"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": "09:30-19:00"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ondarraitz%20hondartza.jpg"
+    }
+  }
+}

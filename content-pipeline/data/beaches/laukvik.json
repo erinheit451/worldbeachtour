@@ -1,0 +1,27 @@
+{
+  "slug": "laukvik",
+  "name": "Laukvik",
+  "centroid_lat": 69.5604022,
+  "centroid_lng": 17.8968829,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/20033939",
+      "source_url": "https://www.openstreetmap.org/relation/20033939"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

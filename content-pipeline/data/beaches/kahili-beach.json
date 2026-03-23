@@ -1,0 +1,25 @@
+{
+  "slug": "kahili-beach",
+  "name": "Kahili Beach",
+  "centroid_lat": 22.2181517,
+  "centroid_lng": -159.3833369,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1581478",
+      "source_url": "https://www.openstreetmap.org/relation/1581478"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49321678",
+      "source_url": "https://www.wikidata.org/wiki/Q49321678"
+    }
+  ],
+  "attributes": {}
+}

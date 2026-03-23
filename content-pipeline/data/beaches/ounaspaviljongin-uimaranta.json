@@ -1,0 +1,28 @@
+{
+  "slug": "ounaspaviljongin-uimaranta",
+  "name": "Ounaspaviljongin uimaranta",
+  "centroid_lat": 66.5187539,
+  "centroid_lng": 25.7444787,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/379148082",
+      "source_url": "https://www.openstreetmap.org/way/379148082"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

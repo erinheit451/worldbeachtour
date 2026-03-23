@@ -1,0 +1,32 @@
+{
+  "slug": "olde-port-beach",
+  "name": "Olde Port Beach",
+  "centroid_lat": 35.1774325,
+  "centroid_lng": -120.749797,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10231629606",
+      "source_url": "https://www.openstreetmap.org/node/10231629606"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/322133781",
+      "source_url": "https://www.openstreetmap.org/way/322133781"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

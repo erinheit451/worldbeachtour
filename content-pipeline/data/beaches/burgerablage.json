@@ -1,0 +1,29 @@
+{
+  "slug": "burgerablage",
+  "name": "Bürgerablage",
+  "centroid_lat": 52.5849298,
+  "centroid_lng": 13.2112203,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/24043082",
+      "source_url": "https://www.openstreetmap.org/way/24043082"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q1021024",
+      "source_url": "https://www.wikidata.org/wiki/Q1021024"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Strand%20B%C3%BCrgerablage%20Havel%20Berlin%201.jpg"
+    }
+  }
+}

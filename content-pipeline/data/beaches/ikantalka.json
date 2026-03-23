@@ -1,0 +1,55 @@
+{
+  "slug": "ikantalka",
+  "name": "ИКАНТАЛЪКА",
+  "centroid_lat": 43.405,
+  "centroid_lng": 28.2422,
+  "country_code": "BG",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/141649358",
+      "source_url": "https://www.openstreetmap.org/way/141649358"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/141649359",
+      "source_url": "https://www.openstreetmap.org/way/141649359"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/247203845",
+      "source_url": "https://www.openstreetmap.org/way/247203845"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/698951091",
+      "source_url": "https://www.openstreetmap.org/way/698951091"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/698951094",
+      "source_url": "https://www.openstreetmap.org/way/698951094"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BG3321772693008010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BG3321772693008010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

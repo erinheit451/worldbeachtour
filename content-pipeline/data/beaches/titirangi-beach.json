@@ -1,0 +1,29 @@
+{
+  "slug": "titirangi-beach",
+  "name": "Titirangi Beach",
+  "centroid_lat": -36.9514162,
+  "centroid_lng": 174.6598712,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/840828402",
+      "source_url": "https://www.openstreetmap.org/way/840828402"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49325021",
+      "source_url": "https://www.wikidata.org/wiki/Q49325021"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/20220731%20172813%20Titirangi%20Beach.jpg"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "la-spiaggetta-3",
+  "name": "La Spiaggetta",
+  "centroid_lat": 37.3117992,
+  "centroid_lng": 13.4245544,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/566184731",
+      "source_url": "https://www.openstreetmap.org/way/566184731"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33331272",
+      "source_url": "https://www.wikidata.org/wiki/Q33331272"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

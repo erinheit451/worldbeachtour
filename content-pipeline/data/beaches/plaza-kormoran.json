@@ -1,0 +1,43 @@
+{
+  "slug": "plaza-kormoran",
+  "name": "Plaża Kormoran",
+  "centroid_lat": 52.220361,
+  "centroid_lng": 15.3944336,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/13015503952",
+      "source_url": "https://www.openstreetmap.org/node/13015503952"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1378177621",
+      "source_url": "https://www.openstreetmap.org/way/1378177621"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4320803208000006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4320803208000006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "playa-las-animas",
+  "name": "Playa Las Animas",
+  "centroid_lat": 20.5079669,
+  "centroid_lng": -105.3452859,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/391996679",
+      "source_url": "https://www.openstreetmap.org/way/391996679"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q125423758",
+      "source_url": "https://www.wikidata.org/wiki/Q125423758"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Boca%20de%20Tomatlan%20to%20Las%20Animas%20Beach%20hike.jpg"
+    }
+  }
+}

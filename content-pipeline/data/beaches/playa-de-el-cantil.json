@@ -1,0 +1,29 @@
+{
+  "slug": "playa-de-el-cantil",
+  "name": "Playa de El Cantil",
+  "centroid_lat": 37.1952749,
+  "centroid_lng": -7.3304934,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1163303498",
+      "source_url": "https://www.openstreetmap.org/way/1163303498"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6079232",
+      "source_url": "https://www.wikidata.org/wiki/Q6079232"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cantil.jpg"
+    }
+  }
+}

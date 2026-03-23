@@ -1,0 +1,55 @@
+{
+  "slug": "zwarte-dennen",
+  "name": "ZWARTE DENNEN",
+  "centroid_lat": 52.6246,
+  "centroid_lng": 6.2728,
+  "country_code": "NL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1255036870",
+      "source_url": "https://www.openstreetmap.org/way/1255036870"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1255036871",
+      "source_url": "https://www.openstreetmap.org/way/1255036871"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1255036874",
+      "source_url": "https://www.openstreetmap.org/way/1255036874"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1255036875",
+      "source_url": "https://www.openstreetmap.org/way/1255036875"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1255036877",
+      "source_url": "https://www.openstreetmap.org/way/1255036877"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW59_5KZW18",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW59_5KZW18",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

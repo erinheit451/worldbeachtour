@@ -1,0 +1,25 @@
+{
+  "slug": "serrambi-2",
+  "name": "Serrambi",
+  "centroid_lat": -8.5596495,
+  "centroid_lng": -35.0199212,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/13633606",
+      "source_url": "https://www.openstreetmap.org/relation/13633606"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10353113",
+      "source_url": "https://www.wikidata.org/wiki/Q10353113"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "delfini",
+  "name": "DELFINI",
+  "centroid_lat": 37.4585,
+  "centroid_lng": 24.8979,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7234288470",
+      "source_url": "https://www.openstreetmap.org/node/7234288470"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/302248377",
+      "source_url": "https://www.openstreetmap.org/way/302248377"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q12875866",
+      "source_url": "https://www.wikidata.org/wiki/Q12875866"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25167436",
+      "source_url": "https://www.wikidata.org/wiki/Q25167436"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149300318101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149300318101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Delfini%20beach%20Syros%201.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

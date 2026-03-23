@@ -1,0 +1,30 @@
+{
+  "slug": "playa-punta-arenas",
+  "name": "Playa Punta Arenas",
+  "centroid_lat": 10.976262,
+  "centroid_lng": -64.4044348,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/321583236",
+      "source_url": "https://www.openstreetmap.org/way/321583236"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7203155",
+      "source_url": "https://www.wikidata.org/wiki/Q7203155"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Punta%20Arenas.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_Punta_Arenas"
+    }
+  }
+}

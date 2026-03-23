@@ -1,0 +1,35 @@
+{
+  "slug": "bimbi-beach",
+  "name": "Bimbi Beach",
+  "centroid_lat": -35.2296437,
+  "centroid_lng": 149.074003,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/2283054200",
+      "source_url": "https://www.openstreetmap.org/node/2283054200"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/669864464",
+      "source_url": "https://www.openstreetmap.org/way/669864464"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/669864465",
+      "source_url": "https://www.openstreetmap.org/way/669864465"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21955596",
+      "source_url": "https://www.wikidata.org/wiki/Q21955596"
+    }
+  ],
+  "attributes": {}
+}

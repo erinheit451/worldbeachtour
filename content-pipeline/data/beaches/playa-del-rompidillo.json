@@ -1,0 +1,48 @@
+{
+  "slug": "playa-del-rompidillo",
+  "name": "Playa del Rompidillo",
+  "centroid_lat": 36.6208626,
+  "centroid_lng": -6.3553324,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/194605149",
+      "source_url": "https://www.openstreetmap.org/way/194605149"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1302086971",
+      "source_url": "https://www.openstreetmap.org/way/1302086971"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1302086972",
+      "source_url": "https://www.openstreetmap.org/way/1302086972"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES612M0301396",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES612M0301396",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

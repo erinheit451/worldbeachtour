@@ -1,0 +1,27 @@
+{
+  "slug": "lighthouse-beach-21",
+  "name": "Lighthouse Beach",
+  "centroid_lat": -31.5222004,
+  "centroid_lng": 152.8896899,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/173070325",
+      "source_url": "https://www.openstreetmap.org/way/173070325"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": "unleashed"
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

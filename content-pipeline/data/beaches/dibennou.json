@@ -1,0 +1,65 @@
+{
+  "slug": "dibennou",
+  "name": "DIBENNOU",
+  "centroid_lat": 48.63982,
+  "centroid_lng": -4.42852,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/438385433",
+      "source_url": "https://www.openstreetmap.org/way/438385433"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/438385437",
+      "source_url": "https://www.openstreetmap.org/way/438385437"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1103397080",
+      "source_url": "https://www.openstreetmap.org/way/1103397080"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1103397084",
+      "source_url": "https://www.openstreetmap.org/way/1103397084"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1103397085",
+      "source_url": "https://www.openstreetmap.org/way/1103397085"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1103397086",
+      "source_url": "https://www.openstreetmap.org/way/1103397086"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1103397097",
+      "source_url": "https://www.openstreetmap.org/way/1103397097"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229077M029268",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0229077M029268",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

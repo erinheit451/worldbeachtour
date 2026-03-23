@@ -1,0 +1,39 @@
+{
+  "slug": "collins-beach-1",
+  "name": "Collins Beach",
+  "centroid_lat": 41.460493,
+  "centroid_lng": -71.3602362,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1064459439",
+      "source_url": "https://www.openstreetmap.org/way/1064459439"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/13922089",
+      "source_url": "https://www.openstreetmap.org/relation/13922089"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/13922090",
+      "source_url": "https://www.openstreetmap.org/relation/13922090"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320426",
+      "source_url": "https://www.wikidata.org/wiki/Q49320426"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "customers"
+    }
+  }
+}

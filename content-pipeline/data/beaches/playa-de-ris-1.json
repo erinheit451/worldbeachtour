@@ -1,0 +1,29 @@
+{
+  "slug": "playa-de-ris-1",
+  "name": "Playa de Ris",
+  "centroid_lat": 43.492525,
+  "centroid_lng": -3.5297938,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1201492286",
+      "source_url": "https://www.openstreetmap.org/way/1201492286"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6078966",
+      "source_url": "https://www.wikidata.org/wiki/Q6078966"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20Ris%20%2813%20de%20agosto%20de%202013%2C%20Noja%29%2003.JPG"
+    }
+  }
+}

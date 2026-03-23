@@ -1,0 +1,40 @@
+{
+  "slug": "plage-de-lorient",
+  "name": "Plage de Lorient",
+  "centroid_lat": 17.9076062,
+  "centroid_lng": -62.8245553,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/136316761",
+      "source_url": "https://www.openstreetmap.org/way/136316761"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q127685522",
+      "source_url": "https://www.wikidata.org/wiki/Q127685522"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRY1097701M971330",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRY1097701M971330",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "dafnila-1",
+  "name": "DAFNILA",
+  "centroid_lat": 39.6677,
+  "centroid_lng": 19.8519,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/511337846",
+      "source_url": "https://www.openstreetmap.org/way/511337846"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53632131",
+      "source_url": "https://www.wikidata.org/wiki/Q53632131"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW059118036101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW059118036101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "badestrand-2-1",
+  "name": "Badestrand 2",
+  "centroid_lat": 51.2300361,
+  "centroid_lng": 6.582548,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/58665131",
+      "source_url": "https://www.openstreetmap.org/way/58665131"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/60164628",
+      "source_url": "https://www.openstreetmap.org/way/60164628"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/79232898",
+      "source_url": "https://www.openstreetmap.org/way/79232898"
+    }
+  ],
+  "attributes": {}
+}

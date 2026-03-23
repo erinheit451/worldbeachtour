@@ -1,0 +1,32 @@
+{
+  "slug": "rastilan-uimaranta",
+  "name": "Rastilan uimaranta",
+  "centroid_lat": 60.2075045,
+  "centroid_lng": 25.11511,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/31829254",
+      "source_url": "https://www.openstreetmap.org/way/31829254"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/31829521",
+      "source_url": "https://www.openstreetmap.org/way/31829521"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

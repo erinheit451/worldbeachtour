@@ -1,0 +1,25 @@
+{
+  "slug": "beekman-beach",
+  "name": "Beekman Beach",
+  "centroid_lat": 40.8767361,
+  "centroid_lng": -73.5412988,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/203009494",
+      "source_url": "https://www.openstreetmap.org/way/203009494"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q34641598",
+      "source_url": "https://www.wikidata.org/wiki/Q34641598"
+    }
+  ],
+  "attributes": {}
+}

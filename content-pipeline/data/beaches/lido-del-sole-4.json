@@ -1,0 +1,27 @@
+{
+  "slug": "lido-del-sole-4",
+  "name": "Lido del Sole",
+  "centroid_lat": 45.6859958,
+  "centroid_lng": 13.1417928,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1296953463",
+      "source_url": "https://www.openstreetmap.org/way/1296953463"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

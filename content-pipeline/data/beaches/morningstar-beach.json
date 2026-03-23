@@ -1,0 +1,25 @@
+{
+  "slug": "morningstar-beach",
+  "name": "Morningstar Beach",
+  "centroid_lat": 18.3199679,
+  "centroid_lng": -64.9194018,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/356559466",
+      "source_url": "https://www.openstreetmap.org/node/356559466"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31957719",
+      "source_url": "https://www.wikidata.org/wiki/Q31957719"
+    }
+  ],
+  "attributes": {}
+}

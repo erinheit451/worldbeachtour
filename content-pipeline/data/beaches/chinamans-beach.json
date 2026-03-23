@@ -1,0 +1,27 @@
+{
+  "slug": "chinamans-beach",
+  "name": "Chinamans Beach",
+  "centroid_lat": -35.0953433,
+  "centroid_lng": 150.6932707,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/5873935",
+      "source_url": "https://www.openstreetmap.org/way/5873935"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

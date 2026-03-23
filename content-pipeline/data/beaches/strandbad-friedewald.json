@@ -1,0 +1,33 @@
+{
+  "slug": "strandbad-friedewald",
+  "name": "Strandbad Friedewald",
+  "centroid_lat": 51.1415117,
+  "centroid_lng": 13.6651219,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/119749487",
+      "source_url": "https://www.openstreetmap.org/way/119749487"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

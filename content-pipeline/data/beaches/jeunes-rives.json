@@ -1,0 +1,35 @@
+{
+  "slug": "jeunes-rives",
+  "name": "Jeunes-Rives",
+  "centroid_lat": 46.9915505,
+  "centroid_lng": 6.9397165,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/45898808",
+      "source_url": "https://www.openstreetmap.org/way/45898808"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CH2031",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CH2031",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

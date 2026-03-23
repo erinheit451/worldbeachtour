@@ -1,0 +1,32 @@
+{
+  "slug": "cala-mariolu",
+  "name": "Cala Mariolu",
+  "centroid_lat": 40.1232825,
+  "centroid_lng": 9.6767178,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/184754084",
+      "source_url": "https://www.openstreetmap.org/way/184754084"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33336576",
+      "source_url": "https://www.wikidata.org/wiki/Q33336576"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20Mariolu%202012.jpg"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "maroubra-beach",
+  "name": "Maroubra Beach",
+  "centroid_lat": -33.9496645,
+  "centroid_lng": 151.257829,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2251446",
+      "source_url": "https://www.openstreetmap.org/relation/2251446"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21921810",
+      "source_url": "https://www.wikidata.org/wiki/Q21921810"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Maroubra%20beach%20Sydney%20Australia.jpg"
+    }
+  }
+}

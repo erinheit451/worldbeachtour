@@ -1,0 +1,29 @@
+{
+  "slug": "karekare-beach",
+  "name": "Karekare Beach",
+  "centroid_lat": -36.9886665,
+  "centroid_lng": 174.4727416,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/688128698",
+      "source_url": "https://www.openstreetmap.org/way/688128698"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q125983481",
+      "source_url": "https://www.wikidata.org/wiki/Q125983481"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Karekare.jpg"
+    }
+  }
+}

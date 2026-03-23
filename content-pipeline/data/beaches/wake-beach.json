@@ -1,0 +1,25 @@
+{
+  "slug": "wake-beach",
+  "name": "Wake Beach",
+  "centroid_lat": 37.5819646,
+  "centroid_lng": -76.4178454,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/8025937268",
+      "source_url": "https://www.openstreetmap.org/node/8025937268"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1086385119",
+      "source_url": "https://www.openstreetmap.org/way/1086385119"
+    }
+  ],
+  "attributes": {}
+}

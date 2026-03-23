@@ -1,0 +1,29 @@
+{
+  "slug": "front-beach-1",
+  "name": "Front Beach",
+  "centroid_lat": 42.6590399,
+  "centroid_lng": -70.6207436,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/81680988",
+      "source_url": "https://www.openstreetmap.org/way/81680988"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320757",
+      "source_url": "https://www.wikidata.org/wiki/Q49320757"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Front%20Beach%20-%20Rokport%20MA.jpg"
+    }
+  }
+}

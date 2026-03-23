@@ -1,0 +1,33 @@
+{
+  "slug": "iakhta-1",
+  "name": "Яхта",
+  "centroid_lat": 46.5522609,
+  "centroid_lng": 30.8391295,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/259121597",
+      "source_url": "https://www.openstreetmap.org/way/259121597"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/446402935",
+      "source_url": "https://www.openstreetmap.org/way/446402935"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    }
+  }
+}

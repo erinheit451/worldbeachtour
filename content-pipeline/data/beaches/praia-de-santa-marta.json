@@ -1,0 +1,35 @@
+{
+  "slug": "praia-de-santa-marta",
+  "name": "Praia de Santa Marta",
+  "centroid_lat": 42.1150587,
+  "centroid_lng": -8.8394897,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/39301796",
+      "source_url": "https://www.openstreetmap.org/way/39301796"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES114M003283",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES114M003283",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

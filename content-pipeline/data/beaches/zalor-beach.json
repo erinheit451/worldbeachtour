@@ -1,0 +1,25 @@
+{
+  "slug": "zalor-beach",
+  "name": "Zalor Beach",
+  "centroid_lat": 15.2006619,
+  "centroid_lng": 73.9345138,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/2637221317",
+      "source_url": "https://www.openstreetmap.org/node/2637221317"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1261919136",
+      "source_url": "https://www.openstreetmap.org/way/1261919136"
+    }
+  ],
+  "attributes": {}
+}

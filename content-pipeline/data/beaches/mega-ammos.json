@@ -1,0 +1,50 @@
+{
+  "slug": "mega-ammos",
+  "name": "Μέγα Άμμος",
+  "centroid_lat": 39.3981728,
+  "centroid_lng": 20.2569307,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/137438835",
+      "source_url": "https://www.openstreetmap.org/way/137438835"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/674841890",
+      "source_url": "https://www.openstreetmap.org/way/674841890"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/674841891",
+      "source_url": "https://www.openstreetmap.org/way/674841891"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53631816",
+      "source_url": "https://www.wikidata.org/wiki/Q53631816"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW059077014101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW059077014101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

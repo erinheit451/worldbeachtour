@@ -1,0 +1,30 @@
+{
+  "slug": "kennack-sands",
+  "name": "Kennack Sands",
+  "centroid_lat": 50.006132,
+  "centroid_lng": -5.1597129,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/139627690",
+      "source_url": "https://www.openstreetmap.org/way/139627690"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22004748",
+      "source_url": "https://www.wikidata.org/wiki/Q22004748"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kennack%20Sands%20-%20geograph.org.uk%20-%20999748.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kennack_Sands"
+    }
+  }
+}

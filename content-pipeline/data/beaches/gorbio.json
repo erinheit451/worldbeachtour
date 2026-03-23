@@ -1,0 +1,35 @@
+{
+  "slug": "gorbio",
+  "name": "GORBIO",
+  "centroid_lat": 43.76596,
+  "centroid_lng": 7.48866,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1161014185",
+      "source_url": "https://www.openstreetmap.org/way/1161014185"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306083M006690",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306083M006690",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

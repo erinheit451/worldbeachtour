@@ -1,0 +1,32 @@
+{
+  "slug": "plage-de-clugny",
+  "name": "Plage de Clugny",
+  "centroid_lat": 16.3544093,
+  "centroid_lng": -61.7529087,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/54905292",
+      "source_url": "https://www.openstreetmap.org/way/54905292"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24874504",
+      "source_url": "https://www.wikidata.org/wiki/Q24874504"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plage%20de%20Cluny%2C%20Ste-Rose%2C%20Guadeloupe.jpg"
+    }
+  }
+}

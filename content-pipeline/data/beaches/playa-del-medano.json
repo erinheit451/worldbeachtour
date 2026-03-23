@@ -1,0 +1,39 @@
+{
+  "slug": "playa-del-medano",
+  "name": "Playa del Médano",
+  "centroid_lat": 28.0427054,
+  "centroid_lng": -16.5406787,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/4885800621",
+      "source_url": "https://www.openstreetmap.org/node/4885800621"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/25892385",
+      "source_url": "https://www.openstreetmap.org/way/25892385"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q205081",
+      "source_url": "https://www.wikidata.org/wiki/Q205081"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited"
+    },
+    "social": {
+      "nudist": false,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Elmedano11.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/El_M%C3%A9dano"
+    }
+  }
+}

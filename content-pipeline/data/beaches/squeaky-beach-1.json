@@ -1,0 +1,25 @@
+{
+  "slug": "squeaky-beach-1",
+  "name": "Squeaky Beach",
+  "centroid_lat": -34.6805704,
+  "centroid_lng": 135.9203714,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/361722205",
+      "source_url": "https://www.openstreetmap.org/way/361722205"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21895516",
+      "source_url": "https://www.wikidata.org/wiki/Q21895516"
+    }
+  ],
+  "attributes": {}
+}

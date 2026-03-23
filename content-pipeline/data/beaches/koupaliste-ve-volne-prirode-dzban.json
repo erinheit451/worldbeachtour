@@ -1,0 +1,29 @@
+{
+  "slug": "koupaliste-ve-volne-prirode-dzban",
+  "name": "KOUPALIŠTĚ VE VOLNÉ PŘÍRODĚ DŽBÁN",
+  "centroid_lat": 50.0952,
+  "centroid_lng": 14.3312,
+  "country_code": "CZ",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZPK106051",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZPK106051",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

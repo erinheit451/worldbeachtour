@@ -1,0 +1,25 @@
+{
+  "slug": "spiaggia-marina-di-palma",
+  "name": "Spiaggia Marina di Palma",
+  "centroid_lat": 37.1716028,
+  "centroid_lng": 13.7187115,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/395553708",
+      "source_url": "https://www.openstreetmap.org/way/395553708"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33343574",
+      "source_url": "https://www.wikidata.org/wiki/Q33343574"
+    }
+  ],
+  "attributes": {}
+}

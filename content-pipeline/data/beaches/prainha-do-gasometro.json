@@ -1,0 +1,25 @@
+{
+  "slug": "prainha-do-gasometro",
+  "name": "Prainha do Gasômetro",
+  "centroid_lat": -30.0354314,
+  "centroid_lng": -51.2421913,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8440052",
+      "source_url": "https://www.openstreetmap.org/relation/8440052"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/8440507",
+      "source_url": "https://www.openstreetmap.org/relation/8440507"
+    }
+  ],
+  "attributes": {}
+}

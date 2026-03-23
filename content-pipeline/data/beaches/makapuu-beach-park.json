@@ -1,0 +1,35 @@
+{
+  "slug": "makapuu-beach-park",
+  "name": "Makapuu Beach Park",
+  "centroid_lat": 21.3112096,
+  "centroid_lng": -157.6599131,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/203014127",
+      "source_url": "https://www.openstreetmap.org/way/203014127"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49321934",
+      "source_url": "https://www.wikidata.org/wiki/Q49321934"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "surfing": {
+      "surfing_available": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/A182%2C%20Oahu%2C%20Hawaii%2C%20USA%2C%20southeast%20coast%20from%20Makapu%27u%20point%2C%202007.JPG"
+    }
+  }
+}

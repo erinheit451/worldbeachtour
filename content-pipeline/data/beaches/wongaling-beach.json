@@ -1,0 +1,29 @@
+{
+  "slug": "wongaling-beach",
+  "name": "Wongaling Beach",
+  "centroid_lat": -17.9042956,
+  "centroid_lng": 146.0973966,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/8353704854",
+      "source_url": "https://www.openstreetmap.org/node/8353704854"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956953",
+      "source_url": "https://www.wikidata.org/wiki/Q21956953"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wongaling%20Beach%20%281%29.jpg"
+    }
+  }
+}

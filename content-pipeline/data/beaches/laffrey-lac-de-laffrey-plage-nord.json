@@ -1,0 +1,41 @@
+{
+  "slug": "laffrey-lac-de-laffrey-plage-nord",
+  "name": "LAFFREY - LAC DE LAFFREY - PLAGE NORD",
+  "centroid_lat": 45.0236,
+  "centroid_lng": 5.78169,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/984901914",
+      "source_url": "https://www.openstreetmap.org/way/984901914"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2438203D038030",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2438203D038030",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

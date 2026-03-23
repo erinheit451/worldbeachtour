@@ -1,0 +1,35 @@
+{
+  "slug": "camiers-sainte-cecile",
+  "name": "CAMIERS SAINTE CECILE",
+  "centroid_lat": 50.57516,
+  "centroid_lng": 1.5761,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/268635888",
+      "source_url": "https://www.openstreetmap.org/way/268635888"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRE1262201M062220",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRE1262201M062220",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

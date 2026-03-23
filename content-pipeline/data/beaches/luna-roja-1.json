@@ -1,0 +1,29 @@
+{
+  "slug": "luna-roja-1",
+  "name": "Luna Roja",
+  "centroid_lat": -38.1727871,
+  "centroid_lng": -57.639456,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/620856149",
+      "source_url": "https://www.openstreetmap.org/way/620856149"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1360479719",
+      "source_url": "https://www.openstreetmap.org/way/1360479719"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

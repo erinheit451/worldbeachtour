@@ -1,0 +1,35 @@
+{
+  "slug": "tiki-village",
+  "name": "Tiki Village",
+  "centroid_lat": 47.1658905,
+  "centroid_lng": 27.615374,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/4339609913",
+      "source_url": "https://www.openstreetmap.org/node/4339609913"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/436082156",
+      "source_url": "https://www.openstreetmap.org/way/436082156"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/436082251",
+      "source_url": "https://www.openstreetmap.org/way/436082251"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "private",
+      "fee_required": true
+    }
+  }
+}

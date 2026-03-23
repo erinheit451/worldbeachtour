@@ -1,0 +1,24 @@
+{
+  "slug": "bagno-kursaal-1",
+  "name": "Bagno Kursaal",
+  "centroid_lat": 42.7106551,
+  "centroid_lng": 10.9857654,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/687333805",
+      "source_url": "https://www.openstreetmap.org/way/687333805"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

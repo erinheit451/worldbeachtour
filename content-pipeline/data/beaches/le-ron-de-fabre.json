@@ -1,0 +1,40 @@
+{
+  "slug": "le-ron-de-fabre",
+  "name": "LE RON DE FABRE",
+  "centroid_lat": 43.95505,
+  "centroid_lng": 4.48677,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1419148419",
+      "source_url": "https://www.openstreetmap.org/way/1419148419"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1422275071",
+      "source_url": "https://www.openstreetmap.org/way/1422275071"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ1230085D030511",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ1230085D030511",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

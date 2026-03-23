@@ -1,0 +1,32 @@
+{
+  "slug": "praia-de-itaguare",
+  "name": "Praia de Itaguaré",
+  "centroid_lat": -23.789197,
+  "centroid_lng": -45.9830878,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/6776925",
+      "source_url": "https://www.openstreetmap.org/relation/6776925"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10352800",
+      "source_url": "https://www.wikidata.org/wiki/Q10352800"
+    }
+  ],
+  "attributes": {
+    "surfing": {
+      "surfing_available": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Itaguar%C3%A9%2030032007.jpg"
+    }
+  }
+}

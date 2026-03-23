@@ -1,0 +1,35 @@
+{
+  "slug": "c-da-piana-grande",
+  "name": "C.DA PIANA GRANDE",
+  "centroid_lat": 37.4523,
+  "centroid_lng": 13.2234,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33343919",
+      "source_url": "https://www.wikidata.org/wiki/Q33343919"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019084033005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019084033005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

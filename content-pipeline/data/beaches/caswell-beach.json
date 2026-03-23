@@ -1,0 +1,25 @@
+{
+  "slug": "caswell-beach",
+  "name": "Caswell Beach",
+  "centroid_lat": 33.8954521,
+  "centroid_lng": -78.0508242,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357769960",
+      "source_url": "https://www.openstreetmap.org/node/357769960"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q34739381",
+      "source_url": "https://www.wikidata.org/wiki/Q34739381"
+    }
+  ],
+  "attributes": {}
+}

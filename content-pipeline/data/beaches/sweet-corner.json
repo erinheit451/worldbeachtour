@@ -1,0 +1,58 @@
+{
+  "slug": "sweet-corner",
+  "name": "Sweet Corner",
+  "centroid_lat": 40.7204504,
+  "centroid_lng": 23.7105507,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/235213044",
+      "source_url": "https://www.openstreetmap.org/way/235213044"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1196171450",
+      "source_url": "https://www.openstreetmap.org/way/1196171450"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1420204060",
+      "source_url": "https://www.openstreetmap.org/way/1420204060"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1420204061",
+      "source_url": "https://www.openstreetmap.org/way/1420204061"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1420204062",
+      "source_url": "https://www.openstreetmap.org/way/1420204062"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW119027003101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW119027003101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

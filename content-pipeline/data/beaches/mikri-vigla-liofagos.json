@@ -1,0 +1,51 @@
+{
+  "slug": "mikri-vigla-liofagos",
+  "name": "MIKRI VIGLA LIOFAGOS",
+  "centroid_lat": 37.0216,
+  "centroid_lng": 25.3718,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/614763477",
+      "source_url": "https://www.openstreetmap.org/way/614763477"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1298998001",
+      "source_url": "https://www.openstreetmap.org/way/1298998001"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25164459",
+      "source_url": "https://www.wikidata.org/wiki/Q25164459"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149292189101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149292189101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Mikri%20Vigla%20beach%20-%20panoramio.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

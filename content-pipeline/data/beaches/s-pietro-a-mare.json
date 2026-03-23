@@ -1,0 +1,48 @@
+{
+  "slug": "s-pietro-a-mare",
+  "name": "S.PIETRO A MARE",
+  "centroid_lat": 40.9295,
+  "centroid_lng": 8.8005,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/13296310074",
+      "source_url": "https://www.openstreetmap.org/node/13296310074"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/13296310075",
+      "source_url": "https://www.openstreetmap.org/node/13296310075"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33340761",
+      "source_url": "https://www.wikidata.org/wiki/Q33340761"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020090079001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020090079001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Badesi-Valledoria%2C%20foce%20del%20Coghinas%20%2805%29.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "mullet-bay-beach",
+  "name": "Mullet Bay Beach",
+  "centroid_lat": 18.0455944,
+  "centroid_lng": -63.1264065,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/9589205",
+      "source_url": "https://www.openstreetmap.org/relation/9589205"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q113556164",
+      "source_url": "https://www.wikidata.org/wiki/Q113556164"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Mullet%20Bay%2C%20St%20Maarten%2C%20Oct%202014%20%2815740985106%29.jpg"
+    }
+  }
+}

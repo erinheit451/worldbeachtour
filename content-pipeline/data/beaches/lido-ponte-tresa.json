@@ -1,0 +1,53 @@
+{
+  "slug": "lido-ponte-tresa",
+  "name": "LIDO PONTE TRESA",
+  "centroid_lat": 45.9607,
+  "centroid_lng": 8.8656,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1018819506",
+      "source_url": "https://www.openstreetmap.org/way/1018819506"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1085410649",
+      "source_url": "https://www.openstreetmap.org/way/1085410649"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT003012086001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT003012086001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true,
+      "access": "permissive"
+    },
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

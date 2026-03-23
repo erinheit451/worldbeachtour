@@ -1,0 +1,33 @@
+{
+  "slug": "playa-de-covachos",
+  "name": "Playa de Covachos",
+  "centroid_lat": 43.4725493,
+  "centroid_lng": -3.9111966,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/801864886",
+      "source_url": "https://www.openstreetmap.org/way/801864886"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6078683",
+      "source_url": "https://www.wikidata.org/wiki/Q6078683"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20Covachos%20-%20002%20%2831789480627%29.jpg"
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "waiakalua-beach",
+  "name": "Waiakalua Beach",
+  "centroid_lat": 22.2154753,
+  "centroid_lng": -159.3727452,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1581479",
+      "source_url": "https://www.openstreetmap.org/relation/1581479"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49325142",
+      "source_url": "https://www.wikidata.org/wiki/Q49325142"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49325141",
+      "source_url": "https://www.wikidata.org/wiki/Q49325141"
+    }
+  ],
+  "attributes": {}
+}

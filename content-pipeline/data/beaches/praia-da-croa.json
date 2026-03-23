@@ -1,0 +1,24 @@
+{
+  "slug": "praia-da-croa",
+  "name": "PRAIA DA CROA",
+  "centroid_lat": -0.8094103,
+  "centroid_lng": -47.0292564,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11194634529",
+      "source_url": "https://www.openstreetmap.org/node/11194634529"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

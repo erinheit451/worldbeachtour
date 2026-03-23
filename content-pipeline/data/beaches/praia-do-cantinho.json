@@ -1,0 +1,28 @@
+{
+  "slug": "praia-do-cantinho",
+  "name": "Praia do Cantinho",
+  "centroid_lat": 40.9568862,
+  "centroid_lng": -8.6557378,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/690775744",
+      "source_url": "https://www.openstreetmap.org/way/690775744"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false,
+      "access": "yes"
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

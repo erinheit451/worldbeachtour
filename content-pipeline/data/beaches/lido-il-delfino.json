@@ -1,0 +1,43 @@
+{
+  "slug": "lido-il-delfino",
+  "name": "Lido Il Delfino",
+  "centroid_lat": 38.4186243,
+  "centroid_lng": 16.5628981,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/154790180",
+      "source_url": "https://www.openstreetmap.org/way/154790180"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/586066195",
+      "source_url": "https://www.openstreetmap.org/way/586066195"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018080017002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018080017002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

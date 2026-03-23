@@ -1,0 +1,24 @@
+{
+  "slug": "plaja-doaga",
+  "name": "Plaja Doaga",
+  "centroid_lat": 45.8476042,
+  "centroid_lng": 27.2939763,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/352574261",
+      "source_url": "https://www.openstreetmap.org/way/352574261"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

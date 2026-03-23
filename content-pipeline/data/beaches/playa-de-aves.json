@@ -1,0 +1,24 @@
+{
+  "slug": "playa-de-aves",
+  "name": "Playa de Aves",
+  "centroid_lat": 19.4614873,
+  "centroid_lng": -99.0725283,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1278050601",
+      "source_url": "https://www.openstreetmap.org/way/1278050601"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

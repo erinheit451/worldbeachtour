@@ -1,0 +1,25 @@
+{
+  "slug": "par-sands",
+  "name": "Par Sands",
+  "centroid_lat": 50.3466827,
+  "centroid_lng": -4.69617,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/917173855",
+      "source_url": "https://www.openstreetmap.org/way/917173855"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/917173856",
+      "source_url": "https://www.openstreetmap.org/way/917173856"
+    }
+  ],
+  "attributes": {}
+}

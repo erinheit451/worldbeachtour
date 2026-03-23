@@ -1,0 +1,30 @@
+{
+  "slug": "pantai-anora",
+  "name": "Pantai Anora",
+  "centroid_lat": -5.8433665,
+  "centroid_lng": 110.4755726,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/363891157",
+      "source_url": "https://www.openstreetmap.org/way/363891157"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/375345219",
+      "source_url": "https://www.openstreetmap.org/way/375345219"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/691995972",
+      "source_url": "https://www.openstreetmap.org/way/691995972"
+    }
+  ],
+  "attributes": {}
+}

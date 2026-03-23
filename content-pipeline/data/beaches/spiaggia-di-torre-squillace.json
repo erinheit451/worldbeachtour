@@ -1,0 +1,35 @@
+{
+  "slug": "spiaggia-di-torre-squillace",
+  "name": "Spiaggia di Torre Squillace",
+  "centroid_lat": 40.2355531,
+  "centroid_lng": 17.9119994,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/406163430",
+      "source_url": "https://www.openstreetmap.org/way/406163430"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016075052009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT016075052009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

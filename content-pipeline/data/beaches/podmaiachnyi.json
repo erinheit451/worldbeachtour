@@ -1,0 +1,25 @@
+{
+  "slug": "podmaiachnyi",
+  "name": "Подмаячный",
+  "centroid_lat": 45.333009,
+  "centroid_lng": 37.2191323,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6098945686",
+      "source_url": "https://www.openstreetmap.org/node/6098945686"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/353965035",
+      "source_url": "https://www.openstreetmap.org/way/353965035"
+    }
+  ],
+  "attributes": {}
+}

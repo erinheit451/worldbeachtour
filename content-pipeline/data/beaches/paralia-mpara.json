@@ -1,0 +1,39 @@
+{
+  "slug": "paralia-mpara",
+  "name": "Παραλία Μπάρα",
+  "centroid_lat": 40.1792662,
+  "centroid_lng": 23.8298515,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1223108832",
+      "source_url": "https://www.openstreetmap.org/way/1223108832"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1224672326",
+      "source_url": "https://www.openstreetmap.org/way/1224672326"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1224672328",
+      "source_url": "https://www.openstreetmap.org/way/1224672328"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1224672329",
+      "source_url": "https://www.openstreetmap.org/way/1224672329"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

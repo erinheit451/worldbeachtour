@@ -1,0 +1,29 @@
+{
+  "slug": "cala-el-aspero",
+  "name": "Cala El Aspero",
+  "centroid_lat": 36.3075241,
+  "centroid_lng": -6.1517328,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/85553502",
+      "source_url": "https://www.openstreetmap.org/way/85553502"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/612266171",
+      "source_url": "https://www.openstreetmap.org/way/612266171"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true
+    }
+  }
+}

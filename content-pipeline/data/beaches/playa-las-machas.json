@@ -1,0 +1,32 @@
+{
+  "slug": "playa-las-machas",
+  "name": "Playa Las Machas",
+  "centroid_lat": -18.4453047,
+  "centroid_lng": -70.3032976,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10587222100",
+      "source_url": "https://www.openstreetmap.org/node/10587222100"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q9060620",
+      "source_url": "https://www.wikidata.org/wiki/Q9060620"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20las%20machas.jpg"
+    }
+  }
+}

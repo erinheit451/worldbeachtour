@@ -1,0 +1,27 @@
+{
+  "slug": "praia-da-duna-do-caldeirao",
+  "name": "Praia da Duna do Caldeirão",
+  "centroid_lat": 41.8067518,
+  "centroid_lng": -8.8667574,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/14410603",
+      "source_url": "https://www.openstreetmap.org/relation/14410603"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false
+    },
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

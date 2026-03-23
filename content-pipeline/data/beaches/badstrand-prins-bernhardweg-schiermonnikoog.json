@@ -1,0 +1,30 @@
+{
+  "slug": "badstrand-prins-bernhardweg-schiermonnikoog",
+  "name": "BADSTRAND PRINS BERNHARDWEG, SCHIERMONNIKOOG",
+  "centroid_lat": 53.50226,
+  "centroid_lng": 6.19044,
+  "country_code": "NL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW81_SCHIERMNOBSD",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW81_SCHIERMNOBSD",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

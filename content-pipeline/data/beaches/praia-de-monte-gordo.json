@@ -1,0 +1,109 @@
+{
+  "slug": "praia-de-monte-gordo",
+  "name": "Praia de Monte Gordo",
+  "centroid_lat": 37.1767224,
+  "centroid_lng": -7.4473719,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/587923984",
+      "source_url": "https://www.openstreetmap.org/way/587923984"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/590527191",
+      "source_url": "https://www.openstreetmap.org/way/590527191"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1303586582",
+      "source_url": "https://www.openstreetmap.org/way/1303586582"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1303586583",
+      "source_url": "https://www.openstreetmap.org/way/1303586583"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1303586588",
+      "source_url": "https://www.openstreetmap.org/way/1303586588"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1303586589",
+      "source_url": "https://www.openstreetmap.org/way/1303586589"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1303586590",
+      "source_url": "https://www.openstreetmap.org/way/1303586590"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1303586591",
+      "source_url": "https://www.openstreetmap.org/way/1303586591"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1303586592",
+      "source_url": "https://www.openstreetmap.org/way/1303586592"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1303586593",
+      "source_url": "https://www.openstreetmap.org/way/1303586593"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1303586594",
+      "source_url": "https://www.openstreetmap.org/way/1303586594"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1303586595",
+      "source_url": "https://www.openstreetmap.org/way/1303586595"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1303586596",
+      "source_url": "https://www.openstreetmap.org/way/1303586596"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10352829",
+      "source_url": "https://www.wikidata.org/wiki/Q10352829"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCF3H",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCF3H",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "fee_required": false
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Monte%20Gordo%20%283435107970%29.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "boomerang-beach-2",
+  "name": "Boomerang Beach",
+  "centroid_lat": -34.5818,
+  "centroid_lng": 146.0179,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/13538019",
+      "source_url": "https://www.openstreetmap.org/relation/13538019"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21957183",
+      "source_url": "https://www.wikidata.org/wiki/Q21957183"
+    }
+  ],
+  "attributes": {}
+}

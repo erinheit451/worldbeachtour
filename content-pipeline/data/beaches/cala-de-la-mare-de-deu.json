@@ -1,0 +1,40 @@
+{
+  "slug": "cala-de-la-mare-de-deu",
+  "name": "Cala de la Mare de Déu",
+  "centroid_lat": 38.2246372,
+  "centroid_lng": -0.5105533,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/229907254",
+      "source_url": "https://www.openstreetmap.org/way/229907254"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/695838438",
+      "source_url": "https://www.openstreetmap.org/way/695838438"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES521M1212534",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES521M1212534",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

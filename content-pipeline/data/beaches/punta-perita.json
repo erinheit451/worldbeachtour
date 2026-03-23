@@ -1,0 +1,30 @@
+{
+  "slug": "punta-perita",
+  "name": "Punta Perita",
+  "centroid_lat": -30.8576531,
+  "centroid_lng": -64.5541485,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12517270775",
+      "source_url": "https://www.openstreetmap.org/node/12517270775"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/13095261669",
+      "source_url": "https://www.openstreetmap.org/node/13095261669"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/13095261670",
+      "source_url": "https://www.openstreetmap.org/node/13095261670"
+    }
+  ],
+  "attributes": {}
+}

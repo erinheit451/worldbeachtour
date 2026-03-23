@@ -1,0 +1,36 @@
+{
+  "slug": "playa-cachamay",
+  "name": "Playa Cachamay",
+  "centroid_lat": 8.3137312,
+  "centroid_lng": -62.6900026,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6455616316",
+      "source_url": "https://www.openstreetmap.org/node/6455616316"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/9567343",
+      "source_url": "https://www.openstreetmap.org/relation/9567343"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    }
+  }
+}

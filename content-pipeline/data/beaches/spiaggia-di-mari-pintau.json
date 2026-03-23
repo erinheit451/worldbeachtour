@@ -1,0 +1,29 @@
+{
+  "slug": "spiaggia-di-mari-pintau",
+  "name": "Spiaggia di Mari Pintau",
+  "centroid_lat": 39.1727555,
+  "centroid_lng": 9.3719349,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/179174889",
+      "source_url": "https://www.openstreetmap.org/way/179174889"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33338715",
+      "source_url": "https://www.wikidata.org/wiki/Q33338715"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20Mari%20Pintau%20-%20panoramio.jpg"
+    }
+  }
+}

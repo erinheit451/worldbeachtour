@@ -1,0 +1,24 @@
+{
+  "slug": "playas-de-crespo",
+  "name": "Playas de Crespo",
+  "centroid_lat": 10.4468558,
+  "centroid_lng": -75.5227896,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/215315235",
+      "source_url": "https://www.openstreetmap.org/way/215315235"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

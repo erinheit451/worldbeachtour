@@ -1,0 +1,29 @@
+{
+  "slug": "playa-honda",
+  "name": "Playa Honda",
+  "centroid_lat": 37.6323712,
+  "centroid_lng": -0.7353033,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/294035582",
+      "source_url": "https://www.openstreetmap.org/way/294035582"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25413571",
+      "source_url": "https://www.wikidata.org/wiki/Q25413571"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

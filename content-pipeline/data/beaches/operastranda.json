@@ -1,0 +1,42 @@
+{
+  "slug": "operastranda",
+  "name": "Operastranda",
+  "centroid_lat": 59.9063605,
+  "centroid_lng": 10.7528347,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/936040800",
+      "source_url": "https://www.openstreetmap.org/way/936040800"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/959577557",
+      "source_url": "https://www.openstreetmap.org/way/959577557"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1115567717",
+      "source_url": "https://www.openstreetmap.org/way/1115567717"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1115567718",
+      "source_url": "https://www.openstreetmap.org/way/1115567718"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

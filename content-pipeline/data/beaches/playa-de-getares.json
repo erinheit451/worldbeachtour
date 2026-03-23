@@ -1,0 +1,35 @@
+{
+  "slug": "playa-de-getares",
+  "name": "Playa de Getares",
+  "centroid_lat": 36.0979127,
+  "centroid_lng": -5.4421829,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/178722711",
+      "source_url": "https://www.openstreetmap.org/way/178722711"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/681592741",
+      "source_url": "https://www.openstreetmap.org/way/681592741"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q4968669",
+      "source_url": "https://www.wikidata.org/wiki/Q4968669"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Getares.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_de_Getares"
+    }
+  }
+}

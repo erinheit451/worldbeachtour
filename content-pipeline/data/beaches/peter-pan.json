@@ -1,0 +1,24 @@
+{
+  "slug": "peter-pan",
+  "name": "Peter Pan",
+  "centroid_lat": 38.0241768,
+  "centroid_lng": 12.9000628,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12578378778",
+      "source_url": "https://www.openstreetmap.org/node/12578378778"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "platja-de-santa-eularia",
+  "name": "Platja de Santa Eulària",
+  "centroid_lat": 38.9828591,
+  "centroid_lng": 1.5347595,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/108601399",
+      "source_url": "https://www.openstreetmap.org/way/108601399"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/108601412",
+      "source_url": "https://www.openstreetmap.org/way/108601412"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q18005788",
+      "source_url": "https://www.wikidata.org/wiki/Q18005788"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Santaeularia.JPG"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "wakeclubcologne",
+  "name": "WakeClubCologne",
+  "centroid_lat": 50.9293982,
+  "centroid_lng": 7.0667884,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/145733631",
+      "source_url": "https://www.openstreetmap.org/way/145733631"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1290825435",
+      "source_url": "https://www.openstreetmap.org/way/1290825435"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

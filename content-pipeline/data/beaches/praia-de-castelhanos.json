@@ -1,0 +1,29 @@
+{
+  "slug": "praia-de-castelhanos",
+  "name": "Praia de Castelhanos",
+  "centroid_lat": -23.8557433,
+  "centroid_lng": -45.2874901,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/7578042",
+      "source_url": "https://www.openstreetmap.org/relation/7578042"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10353140",
+      "source_url": "https://www.wikidata.org/wiki/Q10353140"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Mirante%20do%20Cora%C3%A7%C3%A3o%20-%20Praia%20de%20Castelhanos.jpg"
+    }
+  }
+}

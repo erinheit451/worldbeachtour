@@ -1,0 +1,29 @@
+{
+  "slug": "praia-de-guarau",
+  "name": "Praia de Guaraú",
+  "centroid_lat": -24.373136,
+  "centroid_lng": -47.0159586,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/6004734",
+      "source_url": "https://www.openstreetmap.org/relation/6004734"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q136377366",
+      "source_url": "https://www.wikidata.org/wiki/Q136377366"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Guara%C3%BA%20-%20Peru%C3%ADbe%20-%20SP%20-%20Brasil.jpg"
+    }
+  }
+}

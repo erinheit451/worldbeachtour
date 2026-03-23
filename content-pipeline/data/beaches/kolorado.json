@@ -1,0 +1,24 @@
+{
+  "slug": "kolorado",
+  "name": "Kolorado",
+  "centroid_lat": 53.1783699,
+  "centroid_lng": 17.9612694,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1100789232",
+      "source_url": "https://www.openstreetmap.org/way/1100789232"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

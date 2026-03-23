@@ -1,0 +1,50 @@
+{
+  "slug": "paralia-agiou-ioanne",
+  "name": "Παραλία Αγίου Ιωάννη",
+  "centroid_lat": 40.1919432,
+  "centroid_lng": 23.69349,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/178610190",
+      "source_url": "https://www.openstreetmap.org/way/178610190"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676949785",
+      "source_url": "https://www.openstreetmap.org/way/676949785"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676949786",
+      "source_url": "https://www.openstreetmap.org/way/676949786"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/676949787",
+      "source_url": "https://www.openstreetmap.org/way/676949787"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109060088101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW109060088101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

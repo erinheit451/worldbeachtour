@@ -1,0 +1,25 @@
+{
+  "slug": "verkhniaia-slan",
+  "name": "Верхняя слань",
+  "centroid_lat": 60.2568418,
+  "centroid_lng": 40.1062839,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10776396226",
+      "source_url": "https://www.openstreetmap.org/node/10776396226"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1158798569",
+      "source_url": "https://www.openstreetmap.org/way/1158798569"
+    }
+  ],
+  "attributes": {}
+}

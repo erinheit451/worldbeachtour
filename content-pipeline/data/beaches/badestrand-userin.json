@@ -1,0 +1,27 @@
+{
+  "slug": "badestrand-userin",
+  "name": "Badestrand Userin",
+  "centroid_lat": 53.3402483,
+  "centroid_lng": 12.9764703,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/38754168",
+      "source_url": "https://www.openstreetmap.org/way/38754168"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

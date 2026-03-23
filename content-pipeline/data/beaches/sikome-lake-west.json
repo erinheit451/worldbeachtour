@@ -1,0 +1,30 @@
+{
+  "slug": "sikome-lake-west",
+  "name": "Sikome Lake West",
+  "centroid_lat": 50.8978391,
+  "centroid_lng": -114.0178706,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/230075327",
+      "source_url": "https://www.openstreetmap.org/way/230075327"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/230075328",
+      "source_url": "https://www.openstreetmap.org/way/230075328"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/230075329",
+      "source_url": "https://www.openstreetmap.org/way/230075329"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "spiaggia-di-foddini-i",
+  "name": "Spiaggia di Foddini I",
+  "centroid_lat": 39.7915594,
+  "centroid_lng": 9.670647,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10316962169",
+      "source_url": "https://www.openstreetmap.org/node/10316962169"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/10316962170",
+      "source_url": "https://www.openstreetmap.org/node/10316962170"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/167248534",
+      "source_url": "https://www.openstreetmap.org/way/167248534"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33337755",
+      "source_url": "https://www.wikidata.org/wiki/Q33337755"
+    }
+  ],
+  "attributes": {}
+}

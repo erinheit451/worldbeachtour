@@ -1,0 +1,29 @@
+{
+  "slug": "spiaggia-delle-sorgenti",
+  "name": "Spiaggia delle Sorgenti",
+  "centroid_lat": 40.1105527,
+  "centroid_lng": 9.6864538,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/249587233",
+      "source_url": "https://www.openstreetmap.org/way/249587233"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q123109594",
+      "source_url": "https://www.wikidata.org/wiki/Q123109594"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/08040%20Baunei%2C%20Province%20of%20Ogliastra%2C%20Italy%20-%20panoramio%20%282%29.jpg"
+    }
+  }
+}

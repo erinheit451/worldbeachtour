@@ -1,0 +1,29 @@
+{
+  "slug": "plaza-vazminec",
+  "name": "Plaža Važminec",
+  "centroid_lat": 45.14358,
+  "centroid_lng": 14.3682933,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/929710159",
+      "source_url": "https://www.openstreetmap.org/way/929710159"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/929710160",
+      "source_url": "https://www.openstreetmap.org/way/929710160"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "customary"
+    }
+  }
+}

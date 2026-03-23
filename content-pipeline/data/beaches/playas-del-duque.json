@@ -1,0 +1,71 @@
+{
+  "slug": "playas-del-duque",
+  "name": "Playas del Duque",
+  "centroid_lat": 36.4835408,
+  "centroid_lng": -4.9615221,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1302058793",
+      "source_url": "https://www.openstreetmap.org/way/1302058793"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1302058794",
+      "source_url": "https://www.openstreetmap.org/way/1302058794"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1302058795",
+      "source_url": "https://www.openstreetmap.org/way/1302058795"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1302058796",
+      "source_url": "https://www.openstreetmap.org/way/1302058796"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/1714967",
+      "source_url": "https://www.openstreetmap.org/relation/1714967"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q101569497",
+      "source_url": "https://www.wikidata.org/wiki/Q101569497"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q131745262",
+      "source_url": "https://www.wikidata.org/wiki/Q131745262"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617M0692425",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES617M0692425",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20Nueva%20Andaluc%C3%ADa.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

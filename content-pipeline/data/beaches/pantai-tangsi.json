@@ -1,0 +1,29 @@
+{
+  "slug": "pantai-tangsi",
+  "name": "Pantai Tangsi",
+  "centroid_lat": -8.8593375,
+  "centroid_lng": 116.5795977,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/150583736",
+      "source_url": "https://www.openstreetmap.org/way/150583736"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q26757388",
+      "source_url": "https://www.wikidata.org/wiki/Q26757388"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

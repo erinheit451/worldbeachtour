@@ -1,0 +1,25 @@
+{
+  "slug": "hollywood-beach-1",
+  "name": "Hollywood Beach",
+  "centroid_lat": 34.1669824,
+  "centroid_lng": -119.2315625,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/37783716",
+      "source_url": "https://www.openstreetmap.org/way/37783716"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49321205",
+      "source_url": "https://www.wikidata.org/wiki/Q49321205"
+    }
+  ],
+  "attributes": {}
+}

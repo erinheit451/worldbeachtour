@@ -1,0 +1,29 @@
+{
+  "slug": "lama-monachile",
+  "name": "Lama Monachile",
+  "centroid_lat": 40.9964052,
+  "centroid_lng": 17.2181943,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/62039664",
+      "source_url": "https://www.openstreetmap.org/way/62039664"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q66311666",
+      "source_url": "https://www.wikidata.org/wiki/Q66311666"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Lama%20Monachile.jpg"
+    }
+  }
+}

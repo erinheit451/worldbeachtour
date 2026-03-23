@@ -1,0 +1,25 @@
+{
+  "slug": "playa-cristal-1",
+  "name": "Playa Cristal",
+  "centroid_lat": 11.327378,
+  "centroid_lng": -74.0777088,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/117746876",
+      "source_url": "https://www.openstreetmap.org/way/117746876"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23726694",
+      "source_url": "https://www.wikidata.org/wiki/Q23726694"
+    }
+  ],
+  "attributes": {}
+}

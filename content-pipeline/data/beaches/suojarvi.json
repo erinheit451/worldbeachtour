@@ -1,0 +1,35 @@
+{
+  "slug": "suojarvi",
+  "name": "SUOJARVI",
+  "centroid_lat": 62.5613,
+  "centroid_lng": 25.8838,
+  "country_code": "FI",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/631205927",
+      "source_url": "https://www.openstreetmap.org/way/631205927"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI141774001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI141774001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

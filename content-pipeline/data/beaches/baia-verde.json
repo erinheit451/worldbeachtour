@@ -1,0 +1,30 @@
+{
+  "slug": "baia-verde",
+  "name": "Baia Verde",
+  "centroid_lat": 40.9255484,
+  "centroid_lng": 8.7953504,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/13296310072",
+      "source_url": "https://www.openstreetmap.org/node/13296310072"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/13296310073",
+      "source_url": "https://www.openstreetmap.org/node/13296310073"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1130941544",
+      "source_url": "https://www.openstreetmap.org/way/1130941544"
+    }
+  ],
+  "attributes": {}
+}

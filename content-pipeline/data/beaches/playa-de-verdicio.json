@@ -1,0 +1,29 @@
+{
+  "slug": "playa-de-verdicio",
+  "name": "Playa de Verdicio",
+  "centroid_lat": 43.6263064,
+  "centroid_lng": -5.876914,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/36867798",
+      "source_url": "https://www.openstreetmap.org/way/36867798"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q19360708",
+      "source_url": "https://www.wikidata.org/wiki/Q19360708"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Panor%C3%A1mica%20de%20la%20playa%20de%20Verdicio%2C%20Goz%C3%B3n.jpg"
+    }
+  }
+}

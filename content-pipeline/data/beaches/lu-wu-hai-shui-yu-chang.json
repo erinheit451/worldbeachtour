@@ -1,0 +1,29 @@
+{
+  "slug": "lu-wu-hai-shui-yu-chang",
+  "name": "芦屋海水浴場",
+  "centroid_lat": 33.8934044,
+  "centroid_lng": 130.6531906,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10277865060",
+      "source_url": "https://www.openstreetmap.org/node/10277865060"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1062362822",
+      "source_url": "https://www.openstreetmap.org/way/1062362822"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

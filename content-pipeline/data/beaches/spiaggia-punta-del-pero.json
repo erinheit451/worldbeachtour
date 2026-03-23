@@ -1,0 +1,30 @@
+{
+  "slug": "spiaggia-punta-del-pero",
+  "name": "Spiaggia Punta del Pero",
+  "centroid_lat": 37.0362092,
+  "centroid_lng": 15.2928888,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/374649698",
+      "source_url": "https://www.openstreetmap.org/way/374649698"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

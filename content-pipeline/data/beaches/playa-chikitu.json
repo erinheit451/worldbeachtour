@@ -1,0 +1,24 @@
+{
+  "slug": "playa-chikitu",
+  "name": "Playa Chikitu",
+  "centroid_lat": 12.279669,
+  "centroid_lng": -68.3491503,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1080775252",
+      "source_url": "https://www.openstreetmap.org/way/1080775252"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

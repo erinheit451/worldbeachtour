@@ -1,0 +1,29 @@
+{
+  "slug": "praia-de-acau",
+  "name": "Praia de Acaú",
+  "centroid_lat": -7.5440756,
+  "centroid_lng": -34.824386,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/10962395",
+      "source_url": "https://www.openstreetmap.org/relation/10962395"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10352708",
+      "source_url": "https://www.wikidata.org/wiki/Q10352708"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Rebenta%C3%A7%C3%A3o09II.jpg"
+    }
+  }
+}

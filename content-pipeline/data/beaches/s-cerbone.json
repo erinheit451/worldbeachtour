@@ -1,0 +1,35 @@
+{
+  "slug": "s-cerbone",
+  "name": "S.CERBONE",
+  "centroid_lat": 42.9906,
+  "centroid_lng": 10.5059,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/15985263",
+      "source_url": "https://www.openstreetmap.org/relation/15985263"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049012002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049012002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

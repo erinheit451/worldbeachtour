@@ -1,0 +1,47 @@
+{
+  "slug": "spiaggia-rei-sole",
+  "name": "Spiaggia Rei Sole",
+  "centroid_lat": 39.2760378,
+  "centroid_lng": 9.5887675,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/367371311",
+      "source_url": "https://www.openstreetmap.org/way/367371311"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1087225244",
+      "source_url": "https://www.openstreetmap.org/way/1087225244"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1087225245",
+      "source_url": "https://www.openstreetmap.org/way/1087225245"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1279281109",
+      "source_url": "https://www.openstreetmap.org/way/1279281109"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33334837",
+      "source_url": "https://www.wikidata.org/wiki/Q33334837"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Costa%20Rei%20-%20Spiaggia%20-%20panoramio.jpg"
+    }
+  }
+}

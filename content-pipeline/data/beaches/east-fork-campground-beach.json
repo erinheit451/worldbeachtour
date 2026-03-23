@@ -1,0 +1,24 @@
+{
+  "slug": "east-fork-campground-beach",
+  "name": "East Fork Campground Beach",
+  "centroid_lat": 39.0224274,
+  "centroid_lng": -84.0946105,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/18995655",
+      "source_url": "https://www.openstreetmap.org/relation/18995655"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

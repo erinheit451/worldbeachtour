@@ -1,0 +1,39 @@
+{
+  "slug": "le-lac-de-robertville",
+  "name": "LE LAC DE ROBERTVILLE",
+  "centroid_lat": 50.44687,
+  "centroid_lng": 6.11937,
+  "country_code": "BE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/647472907",
+      "source_url": "https://www.openstreetmap.org/way/647472907"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BE4300024000000F01",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BE4300024000000F01",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true,
+      "access": "customers"
+    },
+    "environment": {
+      "water_quality_rating": "excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

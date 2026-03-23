@@ -1,0 +1,43 @@
+{
+  "slug": "cap-ferret-phare",
+  "name": "CAP-FERRET PHARE",
+  "centroid_lat": 44.64708,
+  "centroid_lng": -1.24478,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/839299366",
+      "source_url": "https://www.openstreetmap.org/way/839299366"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q60847212",
+      "source_url": "https://www.wikidata.org/wiki/Q60847212"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1233236M033070",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI1233236M033070",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/CapFerret-plage%2Bparcs-huitres-byRundvald.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "bredsand-1",
+  "name": "BREDSAND",
+  "centroid_lat": 59.5905,
+  "centroid_lng": 17.0709,
+  "country_code": "SE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/381802627",
+      "source_url": "https://www.openstreetmap.org/way/381802627"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/9644308",
+      "source_url": "https://www.openstreetmap.org/relation/9644308"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0210381000001365",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0210381000001365",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

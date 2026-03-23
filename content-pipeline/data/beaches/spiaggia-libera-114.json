@@ -1,0 +1,73 @@
+{
+  "slug": "spiaggia-libera-114",
+  "name": "Spiaggia libera",
+  "centroid_lat": 42.4616913,
+  "centroid_lng": 14.2319438,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/809579262",
+      "source_url": "https://www.openstreetmap.org/way/809579262"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1047292542",
+      "source_url": "https://www.openstreetmap.org/way/1047292542"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1047295508",
+      "source_url": "https://www.openstreetmap.org/way/1047295508"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1047295742",
+      "source_url": "https://www.openstreetmap.org/way/1047295742"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1047296588",
+      "source_url": "https://www.openstreetmap.org/way/1047296588"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1047422725",
+      "source_url": "https://www.openstreetmap.org/way/1047422725"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1054178093",
+      "source_url": "https://www.openstreetmap.org/way/1054178093"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1054180132",
+      "source_url": "https://www.openstreetmap.org/way/1054180132"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1267186034",
+      "source_url": "https://www.openstreetmap.org/way/1267186034"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1267649442",
+      "source_url": "https://www.openstreetmap.org/way/1267649442"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false,
+      "wheelchair_access": true
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

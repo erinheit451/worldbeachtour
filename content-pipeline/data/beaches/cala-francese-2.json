@@ -1,0 +1,40 @@
+{
+  "slug": "cala-francese-2",
+  "name": "CALA FRANCESE",
+  "centroid_lat": 42.8669,
+  "centroid_lng": 10.7708,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/19648891",
+      "source_url": "https://www.openstreetmap.org/relation/19648891"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/19648894",
+      "source_url": "https://www.openstreetmap.org/relation/19648894"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009053024008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009053024008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

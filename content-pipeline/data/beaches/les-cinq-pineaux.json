@@ -1,0 +1,41 @@
+{
+  "slug": "les-cinq-pineaux",
+  "name": "Les Cinq pineaux",
+  "centroid_lat": 46.7075561,
+  "centroid_lng": -1.9797852,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/223273710",
+      "source_url": "https://www.openstreetmap.org/way/223273710"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0585226M085180",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0585226M085180",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

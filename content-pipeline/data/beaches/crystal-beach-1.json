@@ -1,0 +1,25 @@
+{
+  "slug": "crystal-beach-1",
+  "name": "Crystal Beach",
+  "centroid_lat": 29.4527328,
+  "centroid_lng": -94.6296375,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/356753643",
+      "source_url": "https://www.openstreetmap.org/node/356753643"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320482",
+      "source_url": "https://www.wikidata.org/wiki/Q49320482"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "sassonia",
+  "name": "Sassonia",
+  "centroid_lat": 43.8456353,
+  "centroid_lng": 13.0273737,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/119857262",
+      "source_url": "https://www.openstreetmap.org/way/119857262"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/751756665",
+      "source_url": "https://www.openstreetmap.org/way/751756665"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/751756669",
+      "source_url": "https://www.openstreetmap.org/way/751756669"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/751756670",
+      "source_url": "https://www.openstreetmap.org/way/751756670"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/760027371",
+      "source_url": "https://www.openstreetmap.org/way/760027371"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33337594",
+      "source_url": "https://www.wikidata.org/wiki/Q33337594"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT011041013008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT011041013008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/L%27esercito%20dell%27ombra%20-%20panoramio.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

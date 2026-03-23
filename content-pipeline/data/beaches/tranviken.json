@@ -1,0 +1,35 @@
+{
+  "slug": "tranviken",
+  "name": "Tranviken",
+  "centroid_lat": 62.3629402,
+  "centroid_lng": 17.5099508,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/391866636",
+      "source_url": "https://www.openstreetmap.org/way/391866636"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0712281000003474",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0712281000003474",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

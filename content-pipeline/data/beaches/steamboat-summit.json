@@ -1,0 +1,25 @@
+{
+  "slug": "steamboat-summit",
+  "name": "Steamboat Summit",
+  "centroid_lat": 45.2451822,
+  "centroid_lng": -115.746512,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/358658988",
+      "source_url": "https://www.openstreetmap.org/node/358658988"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324872",
+      "source_url": "https://www.wikidata.org/wiki/Q49324872"
+    }
+  ],
+  "attributes": {}
+}

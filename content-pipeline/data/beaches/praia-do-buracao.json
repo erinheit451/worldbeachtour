@@ -1,0 +1,29 @@
+{
+  "slug": "praia-do-buracao",
+  "name": "Praia do Buracão",
+  "centroid_lat": -13.0150044,
+  "centroid_lng": -38.4831025,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/138964086",
+      "source_url": "https://www.openstreetmap.org/way/138964086"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q104837522",
+      "source_url": "https://www.wikidata.org/wiki/Q104837522"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praias%20do%20Burac%C3%A3o%20e%20de%20Amaralina%20em%202005.jpg"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "ahvensaari",
+  "name": "AHVENSAARI",
+  "centroid_lat": 63.0746,
+  "centroid_lng": 21.6416,
+  "country_code": "FI",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/108729032",
+      "source_url": "https://www.openstreetmap.org/way/108729032"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI143905001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FI143905001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

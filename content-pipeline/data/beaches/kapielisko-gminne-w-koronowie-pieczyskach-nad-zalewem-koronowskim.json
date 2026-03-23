@@ -1,0 +1,30 @@
+{
+  "slug": "kapielisko-gminne-w-koronowie-pieczyskach-nad-zalewem-koronowskim",
+  "name": "KĄPIELISKO GMINNE W KORONOWIE-PIECZYSKACH NAD ZALEWEM KORONOWSKIM",
+  "centroid_lat": 53.34472,
+  "centroid_lng": 17.97222,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6110304404000014",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL6110304404000014",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "footbridge-beach",
+  "name": "Footbridge Beach",
+  "centroid_lat": 43.2629505,
+  "centroid_lng": -70.5883736,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/766104172",
+      "source_url": "https://www.openstreetmap.org/way/766104172"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33326377",
+      "source_url": "https://www.wikidata.org/wiki/Q33326377"
+    }
+  ],
+  "attributes": {}
+}

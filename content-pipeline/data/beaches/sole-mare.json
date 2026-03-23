@@ -1,0 +1,55 @@
+{
+  "slug": "sole-mare",
+  "name": "Sole Mare",
+  "centroid_lat": 43.3566345,
+  "centroid_lng": 10.4441169,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/971206294",
+      "source_url": "https://www.openstreetmap.org/way/971206294"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1396075165",
+      "source_url": "https://www.openstreetmap.org/way/1396075165"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1396075166",
+      "source_url": "https://www.openstreetmap.org/way/1396075166"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1396075167",
+      "source_url": "https://www.openstreetmap.org/way/1396075167"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33345198",
+      "source_url": "https://www.wikidata.org/wiki/Q33345198"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049017013",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT009049017013",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

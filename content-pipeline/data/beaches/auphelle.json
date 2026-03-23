@@ -1,0 +1,70 @@
+{
+  "slug": "auphelle",
+  "name": "AUPHELLE",
+  "centroid_lat": 45.80354,
+  "centroid_lng": 1.84515,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/177685686",
+      "source_url": "https://www.openstreetmap.org/way/177685686"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/281909473",
+      "source_url": "https://www.openstreetmap.org/way/281909473"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/281909474",
+      "source_url": "https://www.openstreetmap.org/way/281909474"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/281909476",
+      "source_url": "https://www.openstreetmap.org/way/281909476"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/281909477",
+      "source_url": "https://www.openstreetmap.org/way/281909477"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/281909478",
+      "source_url": "https://www.openstreetmap.org/way/281909478"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/281909481",
+      "source_url": "https://www.openstreetmap.org/way/281909481"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/281909483",
+      "source_url": "https://www.openstreetmap.org/way/281909483"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI2387117D087022",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRI2387117D087022",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

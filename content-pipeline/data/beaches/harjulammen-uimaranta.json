@@ -1,0 +1,27 @@
+{
+  "slug": "harjulammen-uimaranta",
+  "name": "Harjulammen uimaranta",
+  "centroid_lat": 61.9945701,
+  "centroid_lng": 22.9301283,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/637844865",
+      "source_url": "https://www.openstreetmap.org/way/637844865"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

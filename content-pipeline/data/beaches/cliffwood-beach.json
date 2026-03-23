@@ -1,0 +1,30 @@
+{
+  "slug": "cliffwood-beach",
+  "name": "Cliffwood Beach",
+  "centroid_lat": 40.4512338,
+  "centroid_lng": -74.2208995,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357719938",
+      "source_url": "https://www.openstreetmap.org/node/357719938"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/39835094",
+      "source_url": "https://www.openstreetmap.org/way/39835094"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q34705902",
+      "source_url": "https://www.wikidata.org/wiki/Q34705902"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "plage-de-roccapina",
+  "name": "Plage de Roccapina",
+  "centroid_lat": 41.4957888,
+  "centroid_lng": 8.934311,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/89837114",
+      "source_url": "https://www.openstreetmap.org/way/89837114"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322675",
+      "source_url": "https://www.wikidata.org/wiki/Q49322675"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRM012A272M02A294",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRM012A272M02A294",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Corsica%20-%20Roccapina%20-%20plage%20-%20view%20from%20above%20-%20panoramio.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

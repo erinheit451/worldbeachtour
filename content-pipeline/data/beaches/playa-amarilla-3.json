@@ -1,0 +1,32 @@
+{
+  "slug": "playa-amarilla-3",
+  "name": "Playa Amarilla",
+  "centroid_lat": -32.9227128,
+  "centroid_lng": -71.5250342,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/23582343",
+      "source_url": "https://www.openstreetmap.org/way/23582343"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q124417862",
+      "source_url": "https://www.wikidata.org/wiki/Q124417862"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20Amarilla%2C%20Conc%C3%B3n%2020230913%2002.jpg"
+    }
+  }
+}

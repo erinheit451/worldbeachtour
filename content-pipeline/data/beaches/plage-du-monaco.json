@@ -1,0 +1,46 @@
+{
+  "slug": "plage-du-monaco",
+  "name": "Plage du Monaco",
+  "centroid_lat": 43.1000996,
+  "centroid_lng": 6.013655,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1297772799",
+      "source_url": "https://www.openstreetmap.org/way/1297772799"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1297772800",
+      "source_url": "https://www.openstreetmap.org/way/1297772800"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0583098M083230",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0583098M083230",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "facilities": {
+      "access": "no"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

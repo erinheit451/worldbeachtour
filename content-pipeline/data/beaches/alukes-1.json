@@ -1,0 +1,45 @@
+{
+  "slug": "alukes-1",
+  "name": "Αλυκές",
+  "centroid_lat": 40.6046329,
+  "centroid_lng": 24.7406911,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/158929702",
+      "source_url": "https://www.openstreetmap.org/way/158929702"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/207259119",
+      "source_url": "https://www.openstreetmap.org/way/207259119"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1194759793",
+      "source_url": "https://www.openstreetmap.org/way/1194759793"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW129011016101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW129011016101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

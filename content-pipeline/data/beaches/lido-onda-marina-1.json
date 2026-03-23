@@ -1,0 +1,51 @@
+{
+  "slug": "lido-onda-marina-1",
+  "name": "Lido Onda Marina",
+  "centroid_lat": 38.2518015,
+  "centroid_lng": 15.7097245,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1217981058",
+      "source_url": "https://www.openstreetmap.org/way/1217981058"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1217981088",
+      "source_url": "https://www.openstreetmap.org/way/1217981088"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1217981110",
+      "source_url": "https://www.openstreetmap.org/way/1217981110"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018080085006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018080085006",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

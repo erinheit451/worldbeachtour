@@ -1,0 +1,24 @@
+{
+  "slug": "carli-bay",
+  "name": "Carli Bay",
+  "centroid_lat": 10.4241088,
+  "centroid_lng": -61.4946666,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/776351670",
+      "source_url": "https://www.openstreetmap.org/way/776351670"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

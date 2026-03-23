@@ -1,0 +1,35 @@
+{
+  "slug": "kapielisko-na-zalewie-bojary",
+  "name": "KĄPIELISKO NA ZALEWIE BOJARY",
+  "centroid_lat": 50.5537,
+  "centroid_lng": 22.7298,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/125153383",
+      "source_url": "https://www.openstreetmap.org/way/125153383"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL3120201106000021",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL3120201106000021",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

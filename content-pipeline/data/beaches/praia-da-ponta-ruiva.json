@@ -1,0 +1,29 @@
+{
+  "slug": "praia-da-ponta-ruiva",
+  "name": "Praia da Ponta Ruiva",
+  "centroid_lat": 37.0687722,
+  "centroid_lng": -8.9645734,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1243482695",
+      "source_url": "https://www.openstreetmap.org/way/1243482695"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49323767",
+      "source_url": "https://www.wikidata.org/wiki/Q49323767"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

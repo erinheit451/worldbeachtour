@@ -1,0 +1,29 @@
+{
+  "slug": "spiaggia-ciammarita",
+  "name": "Spiaggia Ciammarita",
+  "centroid_lat": 38.0754961,
+  "centroid_lng": 13.0583425,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/262433292",
+      "source_url": "https://www.openstreetmap.org/way/262433292"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q123012738",
+      "source_url": "https://www.wikidata.org/wiki/Q123012738"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Spiaggia%20Ciammarita.JPG"
+    }
+  }
+}

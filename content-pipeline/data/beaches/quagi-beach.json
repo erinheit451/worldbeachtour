@@ -1,0 +1,29 @@
+{
+  "slug": "quagi-beach",
+  "name": "Quagi Beach",
+  "centroid_lat": -33.8289216,
+  "centroid_lng": 121.2949832,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/480578269",
+      "source_url": "https://www.openstreetmap.org/way/480578269"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21955652",
+      "source_url": "https://www.wikidata.org/wiki/Q21955652"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Access%20stairs%20to%20Quagi%20Beach%2C%20Western%20Australia%2C%20January%202024%2002.jpg"
+    }
+  }
+}

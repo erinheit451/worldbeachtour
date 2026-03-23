@@ -1,0 +1,29 @@
+{
+  "slug": "seabright-beach-1",
+  "name": "Seabright Beach",
+  "centroid_lat": 36.9629496,
+  "centroid_lng": -122.0073936,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/7824977",
+      "source_url": "https://www.openstreetmap.org/relation/7824977"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324672",
+      "source_url": "https://www.wikidata.org/wiki/Q49324672"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Lighthouse%20California-06669%20-%20Walton%20Lighthouse%20%2821730827905%29.jpg"
+    }
+  }
+}

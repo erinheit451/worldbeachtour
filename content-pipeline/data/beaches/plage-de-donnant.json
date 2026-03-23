@@ -1,0 +1,34 @@
+{
+  "slug": "plage-de-donnant",
+  "name": "Plage de Donnant",
+  "centroid_lat": 47.3270742,
+  "centroid_lng": -3.235654,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/858194051",
+      "source_url": "https://www.openstreetmap.org/way/858194051"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/858194052",
+      "source_url": "https://www.openstreetmap.org/way/858194052"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322670",
+      "source_url": "https://www.wikidata.org/wiki/Q49322670"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plage%20de%20Donnant%20-%20dsmm05333.jpg"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "cala-granu",
+  "name": "Cala Granu",
+  "centroid_lat": 41.1459657,
+  "centroid_lng": 9.5262292,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/140367908",
+      "source_url": "https://www.openstreetmap.org/way/140367908"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/663820692",
+      "source_url": "https://www.openstreetmap.org/way/663820692"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33325821",
+      "source_url": "https://www.wikidata.org/wiki/Q33325821"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020104004018",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT020104004018",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

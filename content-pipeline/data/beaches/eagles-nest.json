@@ -1,0 +1,27 @@
+{
+  "slug": "eagles-nest",
+  "name": "Eagles Nest",
+  "centroid_lat": -38.6685253,
+  "centroid_lng": 145.6717984,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/479202423",
+      "source_url": "https://www.openstreetmap.org/way/479202423"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

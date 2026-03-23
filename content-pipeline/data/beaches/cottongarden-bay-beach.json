@@ -1,0 +1,42 @@
+{
+  "slug": "cottongarden-bay-beach",
+  "name": "Cottongarden Bay Beach",
+  "centroid_lat": 17.7586484,
+  "centroid_lng": -64.5859271,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/356559414",
+      "source_url": "https://www.openstreetmap.org/node/356559414"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1323821370",
+      "source_url": "https://www.openstreetmap.org/way/1323821370"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/18161915",
+      "source_url": "https://www.openstreetmap.org/relation/18161915"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31908561",
+      "source_url": "https://www.wikidata.org/wiki/Q31908561"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "social": {
+      "dog_friendly": false
+    }
+  }
+}

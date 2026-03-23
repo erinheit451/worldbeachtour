@@ -1,0 +1,25 @@
+{
+  "slug": "little-river-beach",
+  "name": "Little River Beach",
+  "centroid_lat": 45.2724253,
+  "centroid_lng": -66.0256537,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1496001582",
+      "source_url": "https://www.openstreetmap.org/node/1496001582"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22565478",
+      "source_url": "https://www.wikidata.org/wiki/Q22565478"
+    }
+  ],
+  "attributes": {}
+}

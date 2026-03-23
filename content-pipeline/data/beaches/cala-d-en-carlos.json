@@ -1,0 +1,29 @@
+{
+  "slug": "cala-d-en-carlos",
+  "name": "Cala d'en Carlos",
+  "centroid_lat": 41.7099051,
+  "centroid_lng": 2.908097,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8283520",
+      "source_url": "https://www.openstreetmap.org/relation/8283520"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24021711",
+      "source_url": "https://www.wikidata.org/wiki/Q24021711"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20d%27en%20Carlos%2C%20Tossa%20de%20Mar%20-%20panoramio.jpg"
+    }
+  }
+}

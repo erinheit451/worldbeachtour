@@ -1,0 +1,46 @@
+{
+  "slug": "plage-des-badamiers",
+  "name": "Plage des Badamiers",
+  "centroid_lat": -12.7652195,
+  "centroid_lng": 45.279828,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/757911149",
+      "source_url": "https://www.openstreetmap.org/way/757911149"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31996199",
+      "source_url": "https://www.wikidata.org/wiki/Q31996199"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRY5097608M976022",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRY5097608M976022",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited"
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

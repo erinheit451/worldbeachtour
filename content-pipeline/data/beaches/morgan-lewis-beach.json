@@ -1,0 +1,30 @@
+{
+  "slug": "morgan-lewis-beach",
+  "name": "Morgan Lewis Beach",
+  "centroid_lat": 13.2697395,
+  "centroid_lng": -59.5645988,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/439978866",
+      "source_url": "https://www.openstreetmap.org/node/439978866"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21746087",
+      "source_url": "https://www.wikidata.org/wiki/Q21746087"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21746142",
+      "source_url": "https://www.wikidata.org/wiki/Q21746142"
+    }
+  ],
+  "attributes": {}
+}

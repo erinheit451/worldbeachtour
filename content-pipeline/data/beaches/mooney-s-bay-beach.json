@@ -1,0 +1,32 @@
+{
+  "slug": "mooney-s-bay-beach",
+  "name": "Mooney's Bay Beach",
+  "centroid_lat": 45.3661582,
+  "centroid_lng": -75.6922725,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/18643795",
+      "source_url": "https://www.openstreetmap.org/way/18643795"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22373381",
+      "source_url": "https://www.wikidata.org/wiki/Q22373381"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

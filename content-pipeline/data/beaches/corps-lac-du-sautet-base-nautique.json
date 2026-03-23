@@ -1,0 +1,43 @@
+{
+  "slug": "corps-lac-du-sautet-base-nautique",
+  "name": "CORPS - LAC DU SAUTET - BASE NAUTIQUE",
+  "centroid_lat": 44.81613,
+  "centroid_lng": 5.93302,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6877988919",
+      "source_url": "https://www.openstreetmap.org/node/6877988919"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/968245134",
+      "source_url": "https://www.openstreetmap.org/way/968245134"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2438128D038111",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK2438128D038111",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "surfing": {
+      "surfing_available": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

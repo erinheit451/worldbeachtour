@@ -1,0 +1,29 @@
+{
+  "slug": "sahara-fkk",
+  "name": "Sahara (FKK)",
+  "centroid_lat": 44.8413956,
+  "centroid_lng": 14.756801,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/926714588",
+      "source_url": "https://www.openstreetmap.org/way/926714588"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/929863152",
+      "source_url": "https://www.openstreetmap.org/way/929863152"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "designated"
+    }
+  }
+}

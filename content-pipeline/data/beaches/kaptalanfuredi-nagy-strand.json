@@ -1,0 +1,32 @@
+{
+  "slug": "kaptalanfuredi-nagy-strand",
+  "name": "Káptalanfüredi Nagy Strand",
+  "centroid_lat": 47.0102458,
+  "centroid_lng": 18.0052032,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2997569",
+      "source_url": "https://www.openstreetmap.org/relation/2997569"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/3116664",
+      "source_url": "https://www.openstreetmap.org/relation/3116664"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

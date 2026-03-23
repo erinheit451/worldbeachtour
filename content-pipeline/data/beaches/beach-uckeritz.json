@@ -1,0 +1,31 @@
+{
+  "slug": "beach-uckeritz",
+  "name": "Beach Ückeritz",
+  "centroid_lat": 54.0229728,
+  "centroid_lng": 14.0605325,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/98504014",
+      "source_url": "https://www.openstreetmap.org/way/98504014"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q136760308",
+      "source_url": "https://www.wikidata.org/wiki/Q136760308"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true,
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Pl%C3%A1%C5%BE%20%C3%9Cckeritz%2C%20%C3%9Cckeritz%2C%20spolek%20obc%C3%AD%20Usedom-S%C3%BCd%2C%20Zemsk%C3%BD%20okres%20P%C5%99edn%C3%AD%20Pomo%C5%99ansko-Greifswald%2C%20Meklenbursko-P%C5%99edn%C3%AD%20Pomo%C5%99ansko%2C%20N%C4%9Bmecko%2006.jpg"
+    }
+  }
+}

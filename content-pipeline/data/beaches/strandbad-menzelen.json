@@ -1,0 +1,48 @@
+{
+  "slug": "strandbad-menzelen",
+  "name": "Strandbad Menzelen",
+  "centroid_lat": 51.6243705,
+  "centroid_lng": 6.5406992,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/340636685",
+      "source_url": "https://www.openstreetmap.org/way/340636685"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/550433498",
+      "source_url": "https://www.openstreetmap.org/way/550433498"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1254931521",
+      "source_url": "https://www.openstreetmap.org/way/1254931521"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DENW_PR_0035",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DENW_PR_0035",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

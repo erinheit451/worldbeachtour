@@ -1,0 +1,38 @@
+{
+  "slug": "stribrne-jezero",
+  "name": "STŘÍBRNÉ JEZERO",
+  "centroid_lat": 49.9546,
+  "centroid_lng": 17.8939,
+  "country_code": "CZ",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q134973585",
+      "source_url": "https://www.wikidata.org/wiki/Q134973585"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZKO811701",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CZKO811701",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sadrak%20Beach%20Point%2C%20St%C5%99%C3%ADbrn%C3%A9%20jezero%2C%20Kate%C5%99inky%2C%20Opava%2C%20okres%20Opava%2C%20Slezsko.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

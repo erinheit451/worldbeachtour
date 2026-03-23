@@ -1,0 +1,27 @@
+{
+  "slug": "platan-strand",
+  "name": "Platán Strand",
+  "centroid_lat": 46.7817777,
+  "centroid_lng": 17.6514155,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/12919242",
+      "source_url": "https://www.openstreetmap.org/relation/12919242"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

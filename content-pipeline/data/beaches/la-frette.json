@@ -1,0 +1,35 @@
+{
+  "slug": "la-frette",
+  "name": "LA FRETTE",
+  "centroid_lat": 49.64764,
+  "centroid_lng": 3.30959,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/419738905",
+      "source_url": "https://www.openstreetmap.org/way/419738905"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRE2102738D002565",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRE2102738D002565",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

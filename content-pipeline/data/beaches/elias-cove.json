@@ -1,0 +1,24 @@
+{
+  "slug": "elias-cove",
+  "name": "Elias Cove",
+  "centroid_lat": 39.1376246,
+  "centroid_lng": 23.8644183,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1109066282",
+      "source_url": "https://www.openstreetmap.org/way/1109066282"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

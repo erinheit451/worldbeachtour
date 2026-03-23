@@ -1,0 +1,29 @@
+{
+  "slug": "ereaga",
+  "name": "Ereaga",
+  "centroid_lat": 43.3442155,
+  "centroid_lng": -3.0133548,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/18892941",
+      "source_url": "https://www.openstreetmap.org/way/18892941"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q5851956",
+      "source_url": "https://www.wikidata.org/wiki/Q5851956"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ereaga%20hondartza.jpg"
+    }
+  }
+}

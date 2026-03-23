@@ -1,0 +1,34 @@
+{
+  "slug": "praia-de-lopes-mendes",
+  "name": "Praia de Lopes Mendes",
+  "centroid_lat": -23.1686565,
+  "centroid_lng": -44.1323509,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/3250252561",
+      "source_url": "https://www.openstreetmap.org/node/3250252561"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/26161374",
+      "source_url": "https://www.openstreetmap.org/way/26161374"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q1869771",
+      "source_url": "https://www.wikidata.org/wiki/Q1869771"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/IlhaGrande-LopesMendes2.jpg"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "rakamazi-strand",
+  "name": "Rakamazi strand",
+  "centroid_lat": 48.1152451,
+  "centroid_lng": 21.4184196,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/14724504",
+      "source_url": "https://www.openstreetmap.org/relation/14724504"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "showers": true,
+      "fee_required": true
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

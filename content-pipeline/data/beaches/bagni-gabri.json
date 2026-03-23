@@ -1,0 +1,54 @@
+{
+  "slug": "bagni-gabri",
+  "name": "Bagni Gabri",
+  "centroid_lat": 43.9130155,
+  "centroid_lng": 12.9208709,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1479910748",
+      "source_url": "https://www.openstreetmap.org/way/1479910748"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1479984257",
+      "source_url": "https://www.openstreetmap.org/way/1479984257"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1480376275",
+      "source_url": "https://www.openstreetmap.org/way/1480376275"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1480376276",
+      "source_url": "https://www.openstreetmap.org/way/1480376276"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1480376277",
+      "source_url": "https://www.openstreetmap.org/way/1480376277"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1480376280",
+      "source_url": "https://www.openstreetmap.org/way/1480376280"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1480376282",
+      "source_url": "https://www.openstreetmap.org/way/1480376282"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

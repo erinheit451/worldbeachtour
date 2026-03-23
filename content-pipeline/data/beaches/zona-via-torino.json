@@ -1,0 +1,40 @@
+{
+  "slug": "zona-via-torino",
+  "name": "ZONA VIA TORINO",
+  "centroid_lat": 44.2765,
+  "centroid_lng": 9.3925,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/11314896",
+      "source_url": "https://www.openstreetmap.org/relation/11314896"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33327436",
+      "source_url": "https://www.wikidata.org/wiki/Q33327436"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010059001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010059001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

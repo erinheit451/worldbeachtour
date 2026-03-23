@@ -1,0 +1,25 @@
+{
+  "slug": "playa-de-los-palos-1",
+  "name": "Playa de los Palos",
+  "centroid_lat": -43.1191458,
+  "centroid_lng": -71.6581716,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1267480385",
+      "source_url": "https://www.openstreetmap.org/way/1267480385"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/17403997",
+      "source_url": "https://www.openstreetmap.org/relation/17403997"
+    }
+  ],
+  "attributes": {}
+}

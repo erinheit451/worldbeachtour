@@ -1,0 +1,27 @@
+{
+  "slug": "playa-la-cangrejera",
+  "name": "Playa La Cangrejera",
+  "centroid_lat": 10.6237339,
+  "centroid_lng": -66.1968215,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/12846738",
+      "source_url": "https://www.openstreetmap.org/relation/12846738"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

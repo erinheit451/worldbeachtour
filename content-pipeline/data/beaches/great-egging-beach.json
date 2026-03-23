@@ -1,0 +1,30 @@
+{
+  "slug": "great-egging-beach",
+  "name": "Great Egging Beach",
+  "centroid_lat": 38.2008624,
+  "centroid_lng": -75.1784913,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/351694455",
+      "source_url": "https://www.openstreetmap.org/way/351694455"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/874153859",
+      "source_url": "https://www.openstreetmap.org/way/874153859"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320855",
+      "source_url": "https://www.wikidata.org/wiki/Q49320855"
+    }
+  ],
+  "attributes": {}
+}

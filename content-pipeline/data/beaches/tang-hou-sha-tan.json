@@ -1,0 +1,29 @@
+{
+  "slug": "tang-hou-sha-tan",
+  "name": "塘后沙灘",
+  "centroid_lat": 26.2228746,
+  "centroid_lng": 120.0049026,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/237173509",
+      "source_url": "https://www.openstreetmap.org/way/237173509"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/237173510",
+      "source_url": "https://www.openstreetmap.org/way/237173510"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

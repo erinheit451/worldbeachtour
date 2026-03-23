@@ -1,0 +1,25 @@
+{
+  "slug": "coskata-beach",
+  "name": "Coskata Beach",
+  "centroid_lat": 41.3584536,
+  "centroid_lng": -70.0244592,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/358275158",
+      "source_url": "https://www.openstreetmap.org/node/358275158"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320445",
+      "source_url": "https://www.wikidata.org/wiki/Q49320445"
+    }
+  ],
+  "attributes": {}
+}

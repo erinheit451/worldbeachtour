@@ -1,0 +1,29 @@
+{
+  "slug": "playa-de-los-mozos",
+  "name": "Playa de los Mozos",
+  "centroid_lat": 28.4944145,
+  "centroid_lng": -14.0894984,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1541169",
+      "source_url": "https://www.openstreetmap.org/relation/1541169"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23983304",
+      "source_url": "https://www.wikidata.org/wiki/Q23983304"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

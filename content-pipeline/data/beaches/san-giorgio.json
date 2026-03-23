@@ -1,0 +1,25 @@
+{
+  "slug": "san-giorgio",
+  "name": "San Giorgio",
+  "centroid_lat": 40.2385172,
+  "centroid_lng": 18.4569577,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/317726254",
+      "source_url": "https://www.openstreetmap.org/way/317726254"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33333007",
+      "source_url": "https://www.wikidata.org/wiki/Q33333007"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "plage-de-moelfre",
+  "name": "plage de Moelfre",
+  "centroid_lat": 53.356311,
+  "centroid_lng": -4.230447,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/523118012",
+      "source_url": "https://www.openstreetmap.org/way/523118012"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q65296423",
+      "source_url": "https://www.wikidata.org/wiki/Q65296423"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bythynod%20y%20Swnt%20cottages%20and%20a%20lively%20sea%20-%20geograph.org.uk%20-%201228333.jpg"
+    }
+  }
+}

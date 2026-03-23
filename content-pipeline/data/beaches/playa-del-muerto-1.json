@@ -1,0 +1,29 @@
+{
+  "slug": "playa-del-muerto-1",
+  "name": "Playa del Muerto",
+  "centroid_lat": 28.4262075,
+  "centroid_lng": -16.2918612,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/171235510",
+      "source_url": "https://www.openstreetmap.org/way/171235510"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6079267",
+      "source_url": "https://www.wikidata.org/wiki/Q6079267"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20del%20Muerto%20%28A%C3%B1aza%29.jpg"
+    }
+  }
+}

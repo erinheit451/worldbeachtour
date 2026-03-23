@@ -1,0 +1,29 @@
+{
+  "slug": "seaside-beach-2",
+  "name": "Seaside Beach",
+  "centroid_lat": 39.5585126,
+  "centroid_lng": -123.7661468,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/826578008",
+      "source_url": "https://www.openstreetmap.org/way/826578008"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324677",
+      "source_url": "https://www.wikidata.org/wiki/Q49324677"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Seaside%20Beach%20-%20October%202022%20-%20Sarah%20Stierch%2003.jpg"
+    }
+  }
+}

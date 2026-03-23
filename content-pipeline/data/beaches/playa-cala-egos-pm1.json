@@ -1,0 +1,38 @@
+{
+  "slug": "playa-cala-egos-pm1",
+  "name": "PLAYA CALA EGOS PM1",
+  "centroid_lat": 39.3608,
+  "centroid_lng": 3.2244,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/140553013",
+      "source_url": "https://www.openstreetmap.org/way/140553013"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0571247",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES532M0571247",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "4 - poor",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

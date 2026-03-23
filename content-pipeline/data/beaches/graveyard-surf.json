@@ -1,0 +1,24 @@
+{
+  "slug": "graveyard-surf",
+  "name": "Graveyard Surf",
+  "centroid_lat": -42.311775,
+  "centroid_lng": 173.7522892,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/2963319963",
+      "source_url": "https://www.openstreetmap.org/node/2963319963"
+    }
+  ],
+  "attributes": {
+    "surfing": {
+      "surfing_available": true
+    }
+  }
+}

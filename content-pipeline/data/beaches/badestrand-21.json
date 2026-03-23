@@ -1,0 +1,32 @@
+{
+  "slug": "badestrand-21",
+  "name": "Badestrand",
+  "centroid_lat": 49.7725322,
+  "centroid_lng": 8.3853052,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/4250596",
+      "source_url": "https://www.openstreetmap.org/relation/4250596"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    }
+  }
+}

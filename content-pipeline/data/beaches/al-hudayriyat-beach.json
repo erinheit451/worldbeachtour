@@ -1,0 +1,24 @@
+{
+  "slug": "al-hudayriyat-beach",
+  "name": "Al Hudayriyat Beach",
+  "centroid_lat": 24.4123599,
+  "centroid_lng": 54.3516659,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/603201039",
+      "source_url": "https://www.openstreetmap.org/way/603201039"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

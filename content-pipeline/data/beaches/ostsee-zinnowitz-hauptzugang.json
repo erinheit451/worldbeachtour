@@ -1,0 +1,44 @@
+{
+  "slug": "ostsee-zinnowitz-hauptzugang",
+  "name": "OSTSEE, ZINNOWITZ, HAUPTZUGANG",
+  "centroid_lat": 54.0786,
+  "centroid_lng": 13.925,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/577585299",
+      "source_url": "https://www.openstreetmap.org/way/577585299"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/788291959",
+      "source_url": "https://www.openstreetmap.org/way/788291959"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEMV_PR_1_0738",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DEMV_PR_1_0738",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "dog_friendly": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

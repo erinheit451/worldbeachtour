@@ -1,0 +1,24 @@
+{
+  "slug": "mocha-beach-club",
+  "name": "MOCHA BEACH CLUB",
+  "centroid_lat": 37.343659,
+  "centroid_lng": 27.2650373,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11873995338",
+      "source_url": "https://www.openstreetmap.org/node/11873995338"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

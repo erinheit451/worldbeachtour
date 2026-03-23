@@ -1,0 +1,35 @@
+{
+  "slug": "renan",
+  "name": "RENAN",
+  "centroid_lat": 48.79855,
+  "centroid_lng": -3.42476,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9759086515",
+      "source_url": "https://www.openstreetmap.org/node/9759086515"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0122134M022417",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0122134M022417",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

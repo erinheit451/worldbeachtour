@@ -1,0 +1,25 @@
+{
+  "slug": "praia-grossa",
+  "name": "Praia Grossa",
+  "centroid_lat": -22.7633119,
+  "centroid_lng": -43.1066839,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/144832893",
+      "source_url": "https://www.openstreetmap.org/way/144832893"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22069004",
+      "source_url": "https://www.wikidata.org/wiki/Q22069004"
+    }
+  ],
+  "attributes": {}
+}

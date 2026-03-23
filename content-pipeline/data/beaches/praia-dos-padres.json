@@ -1,0 +1,29 @@
+{
+  "slug": "praia-dos-padres",
+  "name": "Praia dos Padres",
+  "centroid_lat": -20.7359485,
+  "centroid_lng": -40.5335504,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/87687269",
+      "source_url": "https://www.openstreetmap.org/way/87687269"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10353154",
+      "source_url": "https://www.wikidata.org/wiki/Q10353154"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20dos%20Padres%2002.jpg"
+    }
+  }
+}

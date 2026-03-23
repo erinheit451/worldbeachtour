@@ -1,0 +1,25 @@
+{
+  "slug": "poplar-beach-1",
+  "name": "Poplar Beach",
+  "centroid_lat": 44.1343905,
+  "centroid_lng": -81.6865948,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1308513594",
+      "source_url": "https://www.openstreetmap.org/node/1308513594"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22551105",
+      "source_url": "https://www.wikidata.org/wiki/Q22551105"
+    }
+  ],
+  "attributes": {}
+}

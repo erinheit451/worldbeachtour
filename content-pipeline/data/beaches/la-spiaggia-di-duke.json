@@ -1,0 +1,27 @@
+{
+  "slug": "la-spiaggia-di-duke",
+  "name": "La Spiaggia di Duke",
+  "centroid_lat": 45.6464072,
+  "centroid_lng": 13.1012577,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1288005254",
+      "source_url": "https://www.openstreetmap.org/way/1288005254"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true
+    },
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

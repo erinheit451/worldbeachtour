@@ -1,0 +1,29 @@
+{
+  "slug": "whale-beach-2",
+  "name": "Whale Beach",
+  "centroid_lat": 39.1468054,
+  "centroid_lng": -119.9343162,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/723026786",
+      "source_url": "https://www.openstreetmap.org/way/723026786"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7990492",
+      "source_url": "https://www.wikidata.org/wiki/Q7990492"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Whale_Beach_(Nevada)"
+    }
+  }
+}

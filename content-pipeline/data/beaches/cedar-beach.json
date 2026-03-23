@@ -1,0 +1,30 @@
+{
+  "slug": "cedar-beach",
+  "name": "Cedar Beach",
+  "centroid_lat": 40.9653766,
+  "centroid_lng": -73.0328826,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357552765",
+      "source_url": "https://www.openstreetmap.org/node/357552765"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q17079007",
+      "source_url": "https://www.wikidata.org/wiki/Q17079007"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cedar%20Beach%20in%20Mount%20Sinai%2C%20New%20York.png",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cedar_Beach_(Brookhaven,_New_York)"
+    }
+  }
+}

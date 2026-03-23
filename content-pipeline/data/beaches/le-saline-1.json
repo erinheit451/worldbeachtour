@@ -1,0 +1,24 @@
+{
+  "slug": "le-saline-1",
+  "name": "Le Saline",
+  "centroid_lat": 40.9059015,
+  "centroid_lng": 8.2366038,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/437566558",
+      "source_url": "https://www.openstreetmap.org/way/437566558"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

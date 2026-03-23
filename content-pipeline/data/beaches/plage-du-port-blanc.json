@@ -1,0 +1,43 @@
+{
+  "slug": "plage-du-port-blanc",
+  "name": "Plage du Port-Blanc",
+  "centroid_lat": 48.6364923,
+  "centroid_lng": -2.0819086,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/291977816",
+      "source_url": "https://www.openstreetmap.org/way/291977816"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q96099942",
+      "source_url": "https://www.wikidata.org/wiki/Q96099942"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0335093M035755",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRH0335093M035755",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Dinard%20-%20Plage%20du%20Port-Blanc%2020210517-04.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

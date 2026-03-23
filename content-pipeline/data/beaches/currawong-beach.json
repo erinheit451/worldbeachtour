@@ -1,0 +1,25 @@
+{
+  "slug": "currawong-beach",
+  "name": "Currawong Beach",
+  "centroid_lat": -33.5959447,
+  "centroid_lng": 151.2997204,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/14061125",
+      "source_url": "https://www.openstreetmap.org/way/14061125"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53694717",
+      "source_url": "https://www.wikidata.org/wiki/Q53694717"
+    }
+  ],
+  "attributes": {}
+}

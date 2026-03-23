@@ -1,0 +1,63 @@
+{
+  "slug": "plage-caruchettu",
+  "name": "Plage Caruchettu",
+  "centroid_lat": 42.6336537,
+  "centroid_lng": 8.947249,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/211922077",
+      "source_url": "https://www.openstreetmap.org/way/211922077"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/625649076",
+      "source_url": "https://www.openstreetmap.org/way/625649076"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/669460906",
+      "source_url": "https://www.openstreetmap.org/way/669460906"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/669460907",
+      "source_url": "https://www.openstreetmap.org/way/669460907"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRM022B134M02B284",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRM022B134M02B285",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRM022B134M02B284",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRM022B134M02B285",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

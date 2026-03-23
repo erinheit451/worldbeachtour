@@ -1,0 +1,29 @@
+{
+  "slug": "plaza-crnikovica",
+  "name": "Plaža Črnikovica",
+  "centroid_lat": 45.3505431,
+  "centroid_lng": 14.3213143,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1035070578",
+      "source_url": "https://www.openstreetmap.org/way/1035070578"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1035070579",
+      "source_url": "https://www.openstreetmap.org/way/1035070579"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    }
+  }
+}

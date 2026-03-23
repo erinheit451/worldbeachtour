@@ -1,0 +1,25 @@
+{
+  "slug": "praia-mansa",
+  "name": "Praia Mansa",
+  "centroid_lat": -23.8682468,
+  "centroid_lng": -45.2904658,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10595047068",
+      "source_url": "https://www.openstreetmap.org/node/10595047068"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/17944456",
+      "source_url": "https://www.openstreetmap.org/relation/17944456"
+    }
+  ],
+  "attributes": {}
+}

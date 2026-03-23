@@ -1,0 +1,30 @@
+{
+  "slug": "playa-del-roque-de-las-bodegas",
+  "name": "Playa del Roque de las Bodegas",
+  "centroid_lat": 28.569699,
+  "centroid_lng": -16.2055348,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2108886",
+      "source_url": "https://www.openstreetmap.org/relation/2108886"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6079286",
+      "source_url": "https://www.wikidata.org/wiki/Q6079286"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20del%20Roque%20%28Taganana%29.JPG"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "alykes-beach",
+  "name": "Alykes beach",
+  "centroid_lat": 37.8447623,
+  "centroid_lng": 20.76369,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/79366785",
+      "source_url": "https://www.openstreetmap.org/way/79366785"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659808320",
+      "source_url": "https://www.openstreetmap.org/way/659808320"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

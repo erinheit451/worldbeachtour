@@ -1,0 +1,25 @@
+{
+  "slug": "weir-s-beach",
+  "name": "Weir's Beach",
+  "centroid_lat": 48.3531128,
+  "centroid_lng": -123.5446578,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/212192586",
+      "source_url": "https://www.openstreetmap.org/way/212192586"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22559633",
+      "source_url": "https://www.wikidata.org/wiki/Q22559633"
+    }
+  ],
+  "attributes": {}
+}

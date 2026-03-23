@@ -1,0 +1,27 @@
+{
+  "slug": "playa-chica-9",
+  "name": "Playa Chica",
+  "centroid_lat": -33.103829,
+  "centroid_lng": -71.679206,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/380074088",
+      "source_url": "https://www.openstreetmap.org/way/380074088"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

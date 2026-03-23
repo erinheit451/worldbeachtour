@@ -1,0 +1,80 @@
+{
+  "slug": "plage-de-porh-er-ster",
+  "name": "plage de Porh-Er-Stêr",
+  "centroid_lat": 47.3901089,
+  "centroid_lng": -2.5250761,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/467459846",
+      "source_url": "https://www.openstreetmap.org/way/467459846"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/471575955",
+      "source_url": "https://www.openstreetmap.org/way/471575955"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/626183268",
+      "source_url": "https://www.openstreetmap.org/way/626183268"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/626230079",
+      "source_url": "https://www.openstreetmap.org/way/626230079"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/626230080",
+      "source_url": "https://www.openstreetmap.org/way/626230080"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/626481640",
+      "source_url": "https://www.openstreetmap.org/way/626481640"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/626481641",
+      "source_url": "https://www.openstreetmap.org/way/626481641"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/626481642",
+      "source_url": "https://www.openstreetmap.org/way/626481642"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0144125M044090",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0144125M044080",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0144125M044090",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0144125M044080",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "shoreham-beach-4",
+  "name": "Shoreham Beach",
+  "centroid_lat": 50.826,
+  "centroid_lng": -0.271,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/320374105",
+      "source_url": "https://www.openstreetmap.org/way/320374105"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q65964317",
+      "source_url": "https://www.wikidata.org/wiki/Q65964317"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Shoreham%20beach%20-%20Flickr%20-%20peganum.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Shoreham_Beach"
+    }
+  }
+}

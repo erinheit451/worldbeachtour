@@ -1,0 +1,50 @@
+{
+  "slug": "leonidio-2",
+  "name": "LEONIDIO 2",
+  "centroid_lat": 37.1457,
+  "centroid_lng": 22.8924,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/282904473",
+      "source_url": "https://www.openstreetmap.org/way/282904473"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/471941894",
+      "source_url": "https://www.openstreetmap.org/way/471941894"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW039240084101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW039240091101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW039240084101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW039240091101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

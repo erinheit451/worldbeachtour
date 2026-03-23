@@ -1,0 +1,29 @@
+{
+  "slug": "hunt-beach",
+  "name": "Hunt Beach",
+  "centroid_lat": -43.531917,
+  "centroid_lng": 169.702639,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11687215687",
+      "source_url": "https://www.openstreetmap.org/node/11687215687"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q32226249",
+      "source_url": "https://www.wikidata.org/wiki/Q32226249"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Hunt%20Beach%20MRD%2003.jpg"
+    }
+  }
+}

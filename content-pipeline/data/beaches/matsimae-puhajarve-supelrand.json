@@ -1,0 +1,30 @@
+{
+  "slug": "matsimae-puhajarve-supelrand",
+  "name": "Matsimäe Pühajärve supelrand",
+  "centroid_lat": 59.0609092,
+  "centroid_lng": 25.5129779,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1192167329",
+      "source_url": "https://www.openstreetmap.org/way/1192167329"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

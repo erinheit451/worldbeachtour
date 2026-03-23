@@ -1,0 +1,28 @@
+{
+  "slug": "strandbad-cham",
+  "name": "Strandbad Cham",
+  "centroid_lat": 47.1806737,
+  "centroid_lng": 8.468867,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/162152362",
+      "source_url": "https://www.openstreetmap.org/way/162152362"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": "limited",
+      "fee_required": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

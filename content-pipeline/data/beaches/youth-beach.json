@@ -1,0 +1,24 @@
+{
+  "slug": "youth-beach",
+  "name": "Youth Beach",
+  "centroid_lat": 43.0900489,
+  "centroid_lng": 17.9629564,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1192182980",
+      "source_url": "https://www.openstreetmap.org/way/1192182980"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

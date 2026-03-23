@@ -1,0 +1,27 @@
+{
+  "slug": "koiraranta-1",
+  "name": "Koiraranta",
+  "centroid_lat": 61.5895694,
+  "centroid_lng": 21.4962809,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/7698966",
+      "source_url": "https://www.openstreetmap.org/relation/7698966"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": "designated"
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

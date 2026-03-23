@@ -1,0 +1,33 @@
+{
+  "slug": "al-bosco",
+  "name": "Al Bosco",
+  "centroid_lat": 45.6776267,
+  "centroid_lng": 13.4208391,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/620120264",
+      "source_url": "https://www.openstreetmap.org/way/620120264"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/16301112",
+      "source_url": "https://www.openstreetmap.org/relation/16301112"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "nudist": false
+    },
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

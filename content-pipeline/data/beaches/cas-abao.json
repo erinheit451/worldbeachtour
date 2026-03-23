@@ -1,0 +1,33 @@
+{
+  "slug": "cas-abao",
+  "name": "Cas Abao",
+  "centroid_lat": 12.2278521,
+  "centroid_lng": -69.0923088,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/199379765",
+      "source_url": "https://www.openstreetmap.org/way/199379765"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q113493740",
+      "source_url": "https://www.wikidata.org/wiki/Q113493740"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true,
+      "access": "private"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20Cas%20Abao%2C%20Cura%C3%A7ao%20%284384119620%29.jpg"
+    }
+  }
+}

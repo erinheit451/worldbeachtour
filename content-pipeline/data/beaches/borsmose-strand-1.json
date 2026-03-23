@@ -1,0 +1,43 @@
+{
+  "slug": "borsmose-strand-1",
+  "name": "BØRSMOSE STRAND",
+  "centroid_lat": 55.67178,
+  "centroid_lng": 8.13776,
+  "country_code": "DK",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/11804136",
+      "source_url": "https://www.openstreetmap.org/relation/11804136"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q12304896",
+      "source_url": "https://www.wikidata.org/wiki/Q12304896"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW1299",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW1299",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/B%C3%B8rsmose%20Strand%2C%20Denmark.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

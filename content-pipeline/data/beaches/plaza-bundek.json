@@ -1,0 +1,63 @@
+{
+  "slug": "plaza-bundek",
+  "name": "Plaža Bundek",
+  "centroid_lat": 45.7853276,
+  "centroid_lng": 15.9875554,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/35926202",
+      "source_url": "https://www.openstreetmap.org/way/35926202"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/170479577",
+      "source_url": "https://www.openstreetmap.org/way/170479577"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWI-INLAND_B-1",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWI-INLAND_B-3",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWI-INLAND_B-2",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWI-INLAND_B-1",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWI-INLAND_B-3",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWI-INLAND_B-2",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

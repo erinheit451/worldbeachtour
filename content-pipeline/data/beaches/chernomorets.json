@@ -1,0 +1,24 @@
+{
+  "slug": "chernomorets",
+  "name": "Черноморец",
+  "centroid_lat": 42.4491506,
+  "centroid_lng": 27.6373714,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/221183338",
+      "source_url": "https://www.openstreetmap.org/way/221183338"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

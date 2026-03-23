@@ -1,0 +1,39 @@
+{
+  "slug": "raco-de-les-dones",
+  "name": "Racó de les Dones",
+  "centroid_lat": 41.8370944,
+  "centroid_lng": 3.0933745,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/7514667",
+      "source_url": "https://www.openstreetmap.org/relation/7514667"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/7514669",
+      "source_url": "https://www.openstreetmap.org/relation/7514669"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q124695761",
+      "source_url": "https://www.wikidata.org/wiki/Q124695761"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q124695926",
+      "source_url": "https://www.wikidata.org/wiki/Q124695926"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20del%20Rac%C3%B3%20dels%20Homes%2C%20Calonge%20i%20Sant%20Antoni.jpg"
+    }
+  }
+}

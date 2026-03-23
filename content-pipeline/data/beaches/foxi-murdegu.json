@@ -1,0 +1,35 @@
+{
+  "slug": "foxi-murdegu",
+  "name": "Foxi Murdegu",
+  "centroid_lat": 39.6622286,
+  "centroid_lng": 9.6515699,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/141225813",
+      "source_url": "https://www.openstreetmap.org/way/141225813"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33337848",
+      "source_url": "https://www.wikidata.org/wiki/Q33337848"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

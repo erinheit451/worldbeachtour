@@ -1,0 +1,25 @@
+{
+  "slug": "blue-point-beach",
+  "name": "Blue Point Beach",
+  "centroid_lat": 40.746388888,
+  "centroid_lng": -73.025,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/971723740",
+      "source_url": "https://www.openstreetmap.org/way/971723740"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q34644384",
+      "source_url": "https://www.wikidata.org/wiki/Q34644384"
+    }
+  ],
+  "attributes": {}
+}

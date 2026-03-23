@@ -1,0 +1,34 @@
+{
+  "slug": "canovella-degli-zoppoli-pri-cupah",
+  "name": "Canovella degli Zoppoli / Pri čupah",
+  "centroid_lat": 45.7499144,
+  "centroid_lng": 13.6555708,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/97253614",
+      "source_url": "https://www.openstreetmap.org/way/97253614"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/97253617",
+      "source_url": "https://www.openstreetmap.org/way/97253617"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/97253618",
+      "source_url": "https://www.openstreetmap.org/way/97253618"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

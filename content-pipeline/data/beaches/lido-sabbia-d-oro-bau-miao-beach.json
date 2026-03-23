@@ -1,0 +1,124 @@
+{
+  "slug": "lido-sabbia-d-oro-bau-miao-beach",
+  "name": "Lido Sabbia D'Oro Bau Miao Beach",
+  "centroid_lat": 42.4447302,
+  "centroid_lng": 14.2537467,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10823817919",
+      "source_url": "https://www.openstreetmap.org/node/10823817919"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/844611700",
+      "source_url": "https://www.openstreetmap.org/way/844611700"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/844611701",
+      "source_url": "https://www.openstreetmap.org/way/844611701"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/844611705",
+      "source_url": "https://www.openstreetmap.org/way/844611705"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/844611706",
+      "source_url": "https://www.openstreetmap.org/way/844611706"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/844611707",
+      "source_url": "https://www.openstreetmap.org/way/844611707"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/844611708",
+      "source_url": "https://www.openstreetmap.org/way/844611708"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/844611709",
+      "source_url": "https://www.openstreetmap.org/way/844611709"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/844611710",
+      "source_url": "https://www.openstreetmap.org/way/844611710"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/844611712",
+      "source_url": "https://www.openstreetmap.org/way/844611712"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/844611713",
+      "source_url": "https://www.openstreetmap.org/way/844611713"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/844611714",
+      "source_url": "https://www.openstreetmap.org/way/844611714"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/844611715",
+      "source_url": "https://www.openstreetmap.org/way/844611715"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT013068028008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT013068028009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT013069035004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT013068028008",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT013068028009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT013069035004",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "social": {
+      "dog_friendly": true
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

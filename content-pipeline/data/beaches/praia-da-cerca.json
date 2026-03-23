@@ -1,0 +1,25 @@
+{
+  "slug": "praia-da-cerca",
+  "name": "Praia da Cerca",
+  "centroid_lat": -20.652956,
+  "centroid_lng": -40.4724894,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/25883818",
+      "source_url": "https://www.openstreetmap.org/way/25883818"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/87532899",
+      "source_url": "https://www.openstreetmap.org/way/87532899"
+    }
+  ],
+  "attributes": {}
+}

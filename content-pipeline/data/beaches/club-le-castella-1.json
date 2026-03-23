@@ -1,0 +1,55 @@
+{
+  "slug": "club-le-castella-1",
+  "name": "CLUB LE CASTELLA 1",
+  "centroid_lat": 38.9181,
+  "centroid_lng": 17.005,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/209813414",
+      "source_url": "https://www.openstreetmap.org/way/209813414"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/209813415",
+      "source_url": "https://www.openstreetmap.org/way/209813415"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/209813416",
+      "source_url": "https://www.openstreetmap.org/way/209813416"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/209813417",
+      "source_url": "https://www.openstreetmap.org/way/209813417"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/209813419",
+      "source_url": "https://www.openstreetmap.org/way/209813419"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018101013021",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT018101013021",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

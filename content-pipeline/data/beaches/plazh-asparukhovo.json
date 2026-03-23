@@ -1,0 +1,29 @@
+{
+  "slug": "plazh-asparukhovo",
+  "name": "Плаж Аспарухово",
+  "centroid_lat": 43.1775144,
+  "centroid_lng": 27.9128711,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/121400727",
+      "source_url": "https://www.openstreetmap.org/way/121400727"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q121335459",
+      "source_url": "https://www.wikidata.org/wiki/Q121335459"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "naaktstrand-galderse-meren",
+  "name": "Naaktstrand Galderse Meren",
+  "centroid_lat": 51.5254436,
+  "centroid_lng": 4.7577829,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/931922280",
+      "source_url": "https://www.openstreetmap.org/way/931922280"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true,
+      "access": "yes"
+    },
+    "social": {
+      "nudist": true
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

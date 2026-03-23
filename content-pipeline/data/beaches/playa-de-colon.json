@@ -1,0 +1,29 @@
+{
+  "slug": "playa-de-colon",
+  "name": "Playa de Colón",
+  "centroid_lat": 37.8040569,
+  "centroid_lng": -0.7998387,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/544142806",
+      "source_url": "https://www.openstreetmap.org/way/544142806"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q19517547",
+      "source_url": "https://www.wikidata.org/wiki/Q19517547"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/PlayaCol%C3%B3n.jpg"
+    }
+  }
+}

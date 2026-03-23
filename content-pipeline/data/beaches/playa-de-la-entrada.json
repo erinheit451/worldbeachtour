@@ -1,0 +1,25 @@
+{
+  "slug": "playa-de-la-entrada",
+  "name": "Playa de la Entrada",
+  "centroid_lat": 28.3253654,
+  "centroid_lng": -16.3621091,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2621558",
+      "source_url": "https://www.openstreetmap.org/relation/2621558"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23985733",
+      "source_url": "https://www.wikidata.org/wiki/Q23985733"
+    }
+  ],
+  "attributes": {}
+}

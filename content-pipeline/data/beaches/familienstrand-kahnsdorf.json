@@ -1,0 +1,29 @@
+{
+  "slug": "familienstrand-kahnsdorf",
+  "name": "Familienstrand Kahnsdorf",
+  "centroid_lat": 51.1688989,
+  "centroid_lng": 12.4385471,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/229202671",
+      "source_url": "https://www.openstreetmap.org/way/229202671"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/892608827",
+      "source_url": "https://www.openstreetmap.org/way/892608827"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "private"
+    }
+  }
+}

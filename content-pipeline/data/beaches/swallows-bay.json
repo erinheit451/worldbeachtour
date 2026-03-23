@@ -1,0 +1,29 @@
+{
+  "slug": "swallows-bay",
+  "name": "Swallows Bay",
+  "centroid_lat": 11.158469,
+  "centroid_lng": -60.8386352,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11071558246",
+      "source_url": "https://www.openstreetmap.org/node/11071558246"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/738691830",
+      "source_url": "https://www.openstreetmap.org/way/738691830"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

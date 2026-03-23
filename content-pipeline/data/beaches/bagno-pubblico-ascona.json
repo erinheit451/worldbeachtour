@@ -1,0 +1,38 @@
+{
+  "slug": "bagno-pubblico-ascona",
+  "name": "BAGNO PUBBLICO ASCONA",
+  "centroid_lat": 46.1467,
+  "centroid_lng": 8.7781,
+  "country_code": "CH",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/381478227",
+      "source_url": "https://www.openstreetmap.org/way/381478227"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CH21054",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CH21054",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "grosser-benzer-see-benz",
+  "name": "GROSSER BENZER SEE;BENZ",
+  "centroid_lat": 54.2003,
+  "centroid_lng": 10.6199,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1278159932",
+      "source_url": "https://www.openstreetmap.org/way/1278159932"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DESH_PR_0110",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DESH_PR_0110",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

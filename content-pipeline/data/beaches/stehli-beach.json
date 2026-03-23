@@ -1,0 +1,30 @@
+{
+  "slug": "stehli-beach",
+  "name": "Stehli Beach",
+  "centroid_lat": 40.9092653,
+  "centroid_lng": -73.5879033,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357591162",
+      "source_url": "https://www.openstreetmap.org/node/357591162"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1374798363",
+      "source_url": "https://www.openstreetmap.org/way/1374798363"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324877",
+      "source_url": "https://www.wikidata.org/wiki/Q49324877"
+    }
+  ],
+  "attributes": {}
+}

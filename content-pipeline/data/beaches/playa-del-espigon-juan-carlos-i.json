@@ -1,0 +1,29 @@
+{
+  "slug": "playa-del-espigon-juan-carlos-i",
+  "name": "Playa del Espigón Juan Carlos I.",
+  "centroid_lat": 37.14635,
+  "centroid_lng": -6.8932131,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/11212197765",
+      "source_url": "https://www.openstreetmap.org/node/11212197765"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6079246",
+      "source_url": "https://www.wikidata.org/wiki/Q6079246"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Espig%C3%B3n%20Huelva%20001.JPG"
+    }
+  }
+}

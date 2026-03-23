@@ -1,0 +1,29 @@
+{
+  "slug": "wilder-beach",
+  "name": "Wilder Beach",
+  "centroid_lat": 36.9535642,
+  "centroid_lng": -122.0779538,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/6391158",
+      "source_url": "https://www.openstreetmap.org/relation/6391158"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49325319",
+      "source_url": "https://www.wikidata.org/wiki/Q49325319"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "no"
+    }
+  }
+}

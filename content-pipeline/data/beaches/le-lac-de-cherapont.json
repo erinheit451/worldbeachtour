@@ -1,0 +1,35 @@
+{
+  "slug": "le-lac-de-cherapont",
+  "name": "LE LAC DE CHÉRAPONT",
+  "centroid_lat": 50.17585,
+  "centroid_lng": 5.92741,
+  "country_code": "BE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/278894944",
+      "source_url": "https://www.openstreetmap.org/way/278894944"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BE6200007000000H06",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BE6200007000000H06",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

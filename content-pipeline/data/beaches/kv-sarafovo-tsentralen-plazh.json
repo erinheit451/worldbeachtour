@@ -1,0 +1,35 @@
+{
+  "slug": "kv-sarafovo-tsentralen-plazh",
+  "name": "КВ. САРАФОВО-ЦЕНТРАЛЕН ПЛАЖ",
+  "centroid_lat": 42.5575,
+  "centroid_lng": 27.525,
+  "country_code": "BG",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/250119057",
+      "source_url": "https://www.openstreetmap.org/way/250119057"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BG3410407079002017",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "BG3410407079002017",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

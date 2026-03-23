@@ -1,0 +1,27 @@
+{
+  "slug": "friessner-s-strandbad-afritzersee",
+  "name": "Friessner's Strandbad Afritzersee",
+  "centroid_lat": 46.7376044,
+  "centroid_lng": 13.7724065,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/502980020",
+      "source_url": "https://www.openstreetmap.org/way/502980020"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

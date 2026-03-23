@@ -1,0 +1,25 @@
+{
+  "slug": "kaupoa-beach",
+  "name": "Kaupoa Beach",
+  "centroid_lat": 21.1288282,
+  "centroid_lng": -157.2968006,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/311962758",
+      "source_url": "https://www.openstreetmap.org/way/311962758"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49321506",
+      "source_url": "https://www.wikidata.org/wiki/Q49321506"
+    }
+  ],
+  "attributes": {}
+}

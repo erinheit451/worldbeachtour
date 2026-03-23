@@ -1,0 +1,50 @@
+{
+  "slug": "amoudy-beach",
+  "name": "Amoudy Beach",
+  "centroid_lat": 37.8418357,
+  "centroid_lng": 20.8040693,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/2907803942",
+      "source_url": "https://www.openstreetmap.org/node/2907803942"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/359931000",
+      "source_url": "https://www.openstreetmap.org/way/359931000"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/359931001",
+      "source_url": "https://www.openstreetmap.org/way/359931001"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53630958",
+      "source_url": "https://www.wikidata.org/wiki/Q53630958"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW029116035101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW029116035101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

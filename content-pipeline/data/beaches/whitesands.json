@@ -1,0 +1,25 @@
+{
+  "slug": "whitesands",
+  "name": "Whitesands",
+  "centroid_lat": 56.8168,
+  "centroid_lng": -5.8645475,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/95317977",
+      "source_url": "https://www.openstreetmap.org/way/95317977"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/95317986",
+      "source_url": "https://www.openstreetmap.org/way/95317986"
+    }
+  ],
+  "attributes": {}
+}

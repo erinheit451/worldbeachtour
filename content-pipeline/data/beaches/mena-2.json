@@ -1,0 +1,25 @@
+{
+  "slug": "mena-2",
+  "name": "Mena 2",
+  "centroid_lat": 30.8223776,
+  "centroid_lng": 29.1556509,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/9040725",
+      "source_url": "https://www.openstreetmap.org/relation/9040725"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/9040726",
+      "source_url": "https://www.openstreetmap.org/relation/9040726"
+    }
+  ],
+  "attributes": {}
+}

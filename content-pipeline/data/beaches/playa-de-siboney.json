@@ -1,0 +1,29 @@
+{
+  "slug": "playa-de-siboney",
+  "name": "Playa de Siboney",
+  "centroid_lat": 19.9599537,
+  "centroid_lng": -75.7036755,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/47470830",
+      "source_url": "https://www.openstreetmap.org/way/47470830"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q23788609",
+      "source_url": "https://www.wikidata.org/wiki/Q23788609"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20Siboney%20IMG%205313.jpg"
+    }
+  }
+}

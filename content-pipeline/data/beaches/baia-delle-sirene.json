@@ -1,0 +1,50 @@
+{
+  "slug": "baia-delle-sirene",
+  "name": "Baia delle Sirene",
+  "centroid_lat": 40.588254,
+  "centroid_lng": 14.3229076,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10724009344",
+      "source_url": "https://www.openstreetmap.org/node/10724009344"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/708616004",
+      "source_url": "https://www.openstreetmap.org/way/708616004"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/708616006",
+      "source_url": "https://www.openstreetmap.org/way/708616006"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1152995886",
+      "source_url": "https://www.openstreetmap.org/way/1152995886"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015063044005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT015063044005",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

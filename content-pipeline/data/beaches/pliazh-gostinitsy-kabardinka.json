@@ -1,0 +1,39 @@
+{
+  "slug": "pliazh-gostinitsy-kabardinka",
+  "name": "Пляж гостиницы Кабардинка",
+  "centroid_lat": 44.6571864,
+  "centroid_lng": 37.9219018,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/178633913",
+      "source_url": "https://www.openstreetmap.org/way/178633913"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/178633915",
+      "source_url": "https://www.openstreetmap.org/way/178633915"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1178809598",
+      "source_url": "https://www.openstreetmap.org/way/1178809598"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1178809599",
+      "source_url": "https://www.openstreetmap.org/way/1178809599"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "private"
+    }
+  }
+}

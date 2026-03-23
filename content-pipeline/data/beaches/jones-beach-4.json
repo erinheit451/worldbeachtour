@@ -1,0 +1,25 @@
+{
+  "slug": "jones-beach-4",
+  "name": "Jones Beach",
+  "centroid_lat": 46.1389899,
+  "centroid_lng": -123.3049465,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/464441186",
+      "source_url": "https://www.openstreetmap.org/way/464441186"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49321341",
+      "source_url": "https://www.wikidata.org/wiki/Q49321341"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "belvedere",
+  "name": "Belvedere",
+  "centroid_lat": 42.4800978,
+  "centroid_lng": 14.2020292,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/630758175",
+      "source_url": "https://www.openstreetmap.org/node/630758175"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/630774081",
+      "source_url": "https://www.openstreetmap.org/node/630774081"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/8533013568",
+      "source_url": "https://www.openstreetmap.org/node/8533013568"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/702491252",
+      "source_url": "https://www.openstreetmap.org/way/702491252"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/883254787",
+      "source_url": "https://www.openstreetmap.org/way/883254787"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true,
+      "wheelchair_access": true
+    }
+  }
+}

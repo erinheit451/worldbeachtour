@@ -1,0 +1,30 @@
+{
+  "slug": "pliazh-verbnii",
+  "name": "Пляж «Вербний»",
+  "centroid_lat": 50.4911014,
+  "centroid_lng": 30.518935,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/17516350",
+      "source_url": "https://www.openstreetmap.org/relation/17516350"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

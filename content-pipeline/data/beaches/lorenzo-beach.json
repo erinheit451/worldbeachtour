@@ -1,0 +1,30 @@
+{
+  "slug": "lorenzo-beach",
+  "name": "Lorenzo Beach",
+  "centroid_lat": 33.4736835,
+  "centroid_lng": -118.565723,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/7122480",
+      "source_url": "https://www.openstreetmap.org/relation/7122480"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/7122481",
+      "source_url": "https://www.openstreetmap.org/relation/7122481"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49321868",
+      "source_url": "https://www.wikidata.org/wiki/Q49321868"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "lilli-pilli-beach",
+  "name": "Lilli Pilli Beach",
+  "centroid_lat": -35.7743,
+  "centroid_lng": 150.231,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/307144211",
+      "source_url": "https://www.openstreetmap.org/way/307144211"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21956959",
+      "source_url": "https://www.wikidata.org/wiki/Q21956959"
+    }
+  ],
+  "attributes": {}
+}

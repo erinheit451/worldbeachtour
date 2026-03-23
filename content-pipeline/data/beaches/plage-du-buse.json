@@ -1,0 +1,29 @@
+{
+  "slug": "plage-du-buse",
+  "name": "Plage du Buse",
+  "centroid_lat": 43.760121,
+  "centroid_lng": 7.4597986,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/24648222",
+      "source_url": "https://www.openstreetmap.org/way/24648222"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49322576",
+      "source_url": "https://www.wikidata.org/wiki/Q49322576"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Beach%20of%20Roquebrune.jpg"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "swimming-and-kayak-launch",
+  "name": "Swimming and Kayak Launch",
+  "centroid_lat": -34.7412773,
+  "centroid_lng": 150.4716407,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10567801313",
+      "source_url": "https://www.openstreetmap.org/node/10567801313"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

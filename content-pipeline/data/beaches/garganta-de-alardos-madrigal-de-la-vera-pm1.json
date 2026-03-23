@@ -1,0 +1,30 @@
+{
+  "slug": "garganta-de-alardos-madrigal-de-la-vera-pm1",
+  "name": "GARGANTA DE ALARDOS MADRIGAL DE LA VERA PM1",
+  "centroid_lat": 40.1511,
+  "centroid_lng": -5.3563,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES432C1112399",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES432C1112399",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "poor",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

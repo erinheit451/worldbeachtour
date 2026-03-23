@@ -1,0 +1,32 @@
+{
+  "slug": "calanque-de-maubois",
+  "name": "Calanque de Maubois",
+  "centroid_lat": 43.4575634,
+  "centroid_lng": 6.9201881,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/126082636",
+      "source_url": "https://www.openstreetmap.org/way/126082636"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q123173228",
+      "source_url": "https://www.wikidata.org/wiki/Q123173228"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Miramarstrand.JPG"
+    }
+  }
+}

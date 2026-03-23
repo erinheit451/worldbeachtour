@@ -1,0 +1,35 @@
+{
+  "slug": "amman-tourist-beach",
+  "name": "Amman Tourist Beach",
+  "centroid_lat": 31.700079,
+  "centroid_lng": 35.5826009,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/133896436",
+      "source_url": "https://www.openstreetmap.org/way/133896436"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/206682400",
+      "source_url": "https://www.openstreetmap.org/way/206682400"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/655455891",
+      "source_url": "https://www.openstreetmap.org/way/655455891"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true,
+      "access": "yes"
+    }
+  }
+}

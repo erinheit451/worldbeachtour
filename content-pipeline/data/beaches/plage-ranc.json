@@ -1,0 +1,29 @@
+{
+  "slug": "plage-ranc",
+  "name": "Plage Ranc",
+  "centroid_lat": 43.1728563,
+  "centroid_lng": 6.6394228,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/118375081",
+      "source_url": "https://www.openstreetmap.org/way/118375081"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/338969638",
+      "source_url": "https://www.openstreetmap.org/way/338969638"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true
+    }
+  }
+}

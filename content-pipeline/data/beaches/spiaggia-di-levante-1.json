@@ -1,0 +1,24 @@
+{
+  "slug": "spiaggia-di-levante-1",
+  "name": "Spiaggia di levante",
+  "centroid_lat": 43.9090496,
+  "centroid_lng": 12.9261078,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/157716008",
+      "source_url": "https://www.openstreetmap.org/way/157716008"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "permissive"
+    }
+  }
+}

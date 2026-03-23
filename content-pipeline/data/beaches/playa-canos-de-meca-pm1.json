@@ -1,0 +1,38 @@
+{
+  "slug": "playa-canos-de-meca-pm1",
+  "name": "PLAYA  CAÑOS DE MECA PM1",
+  "centroid_lat": 36.1852,
+  "centroid_lng": -6.0095,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24024578",
+      "source_url": "https://www.wikidata.org/wiki/Q24024578"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES612M0071358",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES612M0071358",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ca%C3%B1os%20de%20Meca%20La%20Bre%C3%B1a%20y%20Marismas%20del%20Barbate.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

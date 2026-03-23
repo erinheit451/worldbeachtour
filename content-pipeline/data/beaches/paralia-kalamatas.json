@@ -1,0 +1,113 @@
+{
+  "slug": "paralia-kalamatas",
+  "name": "Παραλία Καλαμάτας",
+  "centroid_lat": 37.0217733,
+  "centroid_lng": 22.134372,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/366985698",
+      "source_url": "https://www.openstreetmap.org/way/366985698"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/470206525",
+      "source_url": "https://www.openstreetmap.org/way/470206525"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659814110",
+      "source_url": "https://www.openstreetmap.org/way/659814110"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659814111",
+      "source_url": "https://www.openstreetmap.org/way/659814111"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659814112",
+      "source_url": "https://www.openstreetmap.org/way/659814112"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659814235",
+      "source_url": "https://www.openstreetmap.org/way/659814235"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659814236",
+      "source_url": "https://www.openstreetmap.org/way/659814236"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659814237",
+      "source_url": "https://www.openstreetmap.org/way/659814237"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659814239",
+      "source_url": "https://www.openstreetmap.org/way/659814239"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659814240",
+      "source_url": "https://www.openstreetmap.org/way/659814240"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659814242",
+      "source_url": "https://www.openstreetmap.org/way/659814242"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659814243",
+      "source_url": "https://www.openstreetmap.org/way/659814243"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659814245",
+      "source_url": "https://www.openstreetmap.org/way/659814245"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659814246",
+      "source_url": "https://www.openstreetmap.org/way/659814246"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25162385",
+      "source_url": "https://www.wikidata.org/wiki/Q25162385"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53631323",
+      "source_url": "https://www.wikidata.org/wiki/Q53631323"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW019254055101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW019254055101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

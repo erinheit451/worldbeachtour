@@ -1,0 +1,45 @@
+{
+  "slug": "kapielisko-w-stepnicy-nad-zalewem-szczecinskim",
+  "name": "Kąpielisko w Stepnicy nad Zalewem Szczecińskim",
+  "centroid_lat": 53.650627,
+  "centroid_lng": 14.6178164,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1243248128",
+      "source_url": "https://www.openstreetmap.org/way/1243248128"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4210407232000009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4210407232000009",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true,
+      "access": "private"
+    },
+    "social": {
+      "nudist": false
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Transitional"
+    }
+  }
+}

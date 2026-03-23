@@ -1,0 +1,29 @@
+{
+  "slug": "salto-1-del-rio-via",
+  "name": "Salto 1 del Rio Via",
+  "centroid_lat": 18.5020742,
+  "centroid_lng": -70.7100751,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6171040132",
+      "source_url": "https://www.openstreetmap.org/node/6171040132"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/6171051907",
+      "source_url": "https://www.openstreetmap.org/node/6171051907"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

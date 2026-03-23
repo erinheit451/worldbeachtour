@@ -1,0 +1,25 @@
+{
+  "slug": "manchester-beach",
+  "name": "Manchester Beach",
+  "centroid_lat": 42.0747999,
+  "centroid_lng": -80.241782,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/983385745",
+      "source_url": "https://www.openstreetmap.org/way/983385745"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/983385746",
+      "source_url": "https://www.openstreetmap.org/way/983385746"
+    }
+  ],
+  "attributes": {}
+}

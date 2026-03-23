@@ -1,0 +1,25 @@
+{
+  "slug": "elegant-beach-resort",
+  "name": "Elegant Beach Resort",
+  "centroid_lat": 11.0189125,
+  "centroid_lng": 123.9094618,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/159127343",
+      "source_url": "https://www.openstreetmap.org/way/159127343"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/2049097",
+      "source_url": "https://www.openstreetmap.org/relation/2049097"
+    }
+  ],
+  "attributes": {}
+}

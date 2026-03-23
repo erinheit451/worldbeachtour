@@ -1,0 +1,29 @@
+{
+  "slug": "bai-bang-hai-shui-yu-chang",
+  "name": "白浜海水浴場",
+  "centroid_lat": 33.1241873,
+  "centroid_lng": 129.6611576,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1832711197",
+      "source_url": "https://www.openstreetmap.org/node/1832711197"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1192231663",
+      "source_url": "https://www.openstreetmap.org/way/1192231663"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

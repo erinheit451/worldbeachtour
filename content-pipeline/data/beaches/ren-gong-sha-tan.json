@@ -1,0 +1,24 @@
+{
+  "slug": "ren-gong-sha-tan",
+  "name": "人工沙滩",
+  "centroid_lat": 24.6819117,
+  "centroid_lng": 101.6345562,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/308174364",
+      "source_url": "https://www.openstreetmap.org/way/308174364"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

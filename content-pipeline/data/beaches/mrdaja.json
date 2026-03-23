@@ -1,0 +1,24 @@
+{
+  "slug": "mrdaja",
+  "name": "Мрдаја",
+  "centroid_lat": 41.1724091,
+  "centroid_lng": 22.7441611,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2419127",
+      "source_url": "https://www.openstreetmap.org/relation/2419127"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

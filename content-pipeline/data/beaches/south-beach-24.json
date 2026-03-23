@@ -1,0 +1,39 @@
+{
+  "slug": "south-beach-24",
+  "name": "South Beach",
+  "centroid_lat": 42.399108,
+  "centroid_lng": -86.2842091,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/288805852",
+      "source_url": "https://www.openstreetmap.org/way/288805852"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/288805853",
+      "source_url": "https://www.openstreetmap.org/way/288805853"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33327843",
+      "source_url": "https://www.wikidata.org/wiki/Q33327843"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33333287",
+      "source_url": "https://www.wikidata.org/wiki/Q33333287"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/North%20Beach%20%282%29.jpg"
+    }
+  }
+}

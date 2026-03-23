@@ -1,0 +1,30 @@
+{
+  "slug": "piste-hippique-3",
+  "name": "Piste hippique",
+  "centroid_lat": 50.5538695,
+  "centroid_lng": 4.1768485,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/319626782",
+      "source_url": "https://www.openstreetmap.org/way/319626782"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/319626783",
+      "source_url": "https://www.openstreetmap.org/way/319626783"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/319626784",
+      "source_url": "https://www.openstreetmap.org/way/319626784"
+    }
+  ],
+  "attributes": {}
+}

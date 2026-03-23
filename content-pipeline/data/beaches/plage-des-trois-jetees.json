@@ -1,0 +1,35 @@
+{
+  "slug": "plage-des-trois-jetees",
+  "name": "Plage des Trois Jetées",
+  "centroid_lat": 46.376403,
+  "centroid_lng": 6.2355043,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6616670318",
+      "source_url": "https://www.openstreetmap.org/node/6616670318"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CH22040",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CH22040",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "good",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

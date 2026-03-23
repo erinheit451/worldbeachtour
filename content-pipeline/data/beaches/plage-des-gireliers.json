@@ -1,0 +1,29 @@
+{
+  "slug": "plage-des-gireliers",
+  "name": "Plage des Gireliers",
+  "centroid_lat": 43.3442618,
+  "centroid_lng": 6.7028858,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/177291526",
+      "source_url": "https://www.openstreetmap.org/way/177291526"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/177291527",
+      "source_url": "https://www.openstreetmap.org/way/177291527"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

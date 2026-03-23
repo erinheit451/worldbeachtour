@@ -1,0 +1,30 @@
+{
+  "slug": "broad-haven-south",
+  "name": "Broad Haven South",
+  "centroid_lat": 51.609016,
+  "centroid_lng": -4.9200268,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/3430106",
+      "source_url": "https://www.openstreetmap.org/relation/3430106"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q4971888",
+      "source_url": "https://www.wikidata.org/wiki/Q4971888"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Broadhavensouth.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Broad_Haven_South"
+    }
+  }
+}

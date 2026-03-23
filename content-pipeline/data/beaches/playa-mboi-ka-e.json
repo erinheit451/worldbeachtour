@@ -1,0 +1,34 @@
+{
+  "slug": "playa-mboi-ka-e",
+  "name": "Playa Mboi Ka'e",
+  "centroid_lat": -27.3189339,
+  "centroid_lng": -55.8880034,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/2700093448",
+      "source_url": "https://www.openstreetmap.org/node/2700093448"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/264313736",
+      "source_url": "https://www.openstreetmap.org/way/264313736"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q137041499",
+      "source_url": "https://www.wikidata.org/wiki/Q137041499"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20Mboi%20Ka%27%C3%AA%20191727.jpg"
+    }
+  }
+}

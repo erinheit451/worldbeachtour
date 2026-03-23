@@ -1,0 +1,31 @@
+{
+  "slug": "szabadstrand-14",
+  "name": "Szabadstrand",
+  "centroid_lat": 46.9423706,
+  "centroid_lng": 20.1246058,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/391145529",
+      "source_url": "https://www.openstreetmap.org/way/391145529"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

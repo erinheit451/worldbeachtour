@@ -1,0 +1,25 @@
+{
+  "slug": "boat-beach-1",
+  "name": "Boat Beach",
+  "centroid_lat": 26.0836727,
+  "centroid_lng": -77.5375328,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9887588211",
+      "source_url": "https://www.openstreetmap.org/node/9887588211"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/83106298",
+      "source_url": "https://www.openstreetmap.org/way/83106298"
+    }
+  ],
+  "attributes": {}
+}

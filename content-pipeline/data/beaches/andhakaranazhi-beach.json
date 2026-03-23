@@ -1,0 +1,39 @@
+{
+  "slug": "andhakaranazhi-beach",
+  "name": "Andhakaranazhi Beach",
+  "centroid_lat": 9.74807692,
+  "centroid_lng": 76.28391409,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/8559598050",
+      "source_url": "https://www.openstreetmap.org/node/8559598050"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/921983463",
+      "source_url": "https://www.openstreetmap.org/way/921983463"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1086502329",
+      "source_url": "https://www.openstreetmap.org/way/1086502329"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q113529184",
+      "source_url": "https://www.wikidata.org/wiki/Q113529184"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Azheekkal%20Beach.JPG"
+    }
+  }
+}

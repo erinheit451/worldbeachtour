@@ -1,0 +1,43 @@
+{
+  "slug": "sickla-strand",
+  "name": "Sickla strand",
+  "centroid_lat": 59.3019106,
+  "centroid_lng": 18.1246904,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12106188144",
+      "source_url": "https://www.openstreetmap.org/node/12106188144"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/170194714",
+      "source_url": "https://www.openstreetmap.org/way/170194714"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0110182000001238",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "SE0110182000001238",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

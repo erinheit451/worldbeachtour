@@ -1,0 +1,29 @@
+{
+  "slug": "praia-de-garapua-1",
+  "name": "Praia de Garapuá",
+  "centroid_lat": -13.4820967,
+  "centroid_lng": -38.9139833,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/10608981",
+      "source_url": "https://www.openstreetmap.org/relation/10608981"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q75739573",
+      "source_url": "https://www.wikidata.org/wiki/Q75739573"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20de%20Garapu%C3%A1%20-%20Morro%20de%20S%C3%A3o%20Paulo%20-%20tiago%20lopes99.jpg"
+    }
+  }
+}

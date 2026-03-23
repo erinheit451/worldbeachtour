@@ -1,0 +1,29 @@
+{
+  "slug": "haimoon-maauimala",
+  "name": "Haimoon maauimala",
+  "centroid_lat": 60.4669306,
+  "centroid_lng": 24.4946313,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/594658978",
+      "source_url": "https://www.openstreetmap.org/way/594658978"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/600467276",
+      "source_url": "https://www.openstreetmap.org/way/600467276"
+    }
+  ],
+  "attributes": {
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "espace-de-loisirs-du-lac-de-chassenon",
+  "name": "Espace de loisirs du lac de Chassenon",
+  "centroid_lat": 46.4761453,
+  "centroid_lng": -0.7073715,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/717761575",
+      "source_url": "https://www.openstreetmap.org/way/717761575"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/717761590",
+      "source_url": "https://www.openstreetmap.org/way/717761590"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0585306D085610",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0585306D085610",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "fee_required": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

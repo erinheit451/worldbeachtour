@@ -1,0 +1,29 @@
+{
+  "slug": "sijunghohaebyeon",
+  "name": "시중호해변",
+  "centroid_lat": 39.0110358,
+  "centroid_lng": 127.8373719,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/589856060",
+      "source_url": "https://www.openstreetmap.org/way/589856060"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q106649238",
+      "source_url": "https://www.wikidata.org/wiki/Q106649238"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Beach%20near%20Lake%20Sijung%2C%20North%20Korea%20-%20panoramio%20-%20stngiam.jpg"
+    }
+  }
+}

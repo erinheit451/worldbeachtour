@@ -1,0 +1,43 @@
+{
+  "slug": "praia-naturista-do-salto",
+  "name": "Praia naturista do Salto",
+  "centroid_lat": 37.8603487,
+  "centroid_lng": -8.7943613,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/208884486",
+      "source_url": "https://www.openstreetmap.org/way/208884486"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/208884629",
+      "source_url": "https://www.openstreetmap.org/way/208884629"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/208885387",
+      "source_url": "https://www.openstreetmap.org/way/208885387"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q20059280",
+      "source_url": "https://www.wikidata.org/wiki/Q20059280"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "designated",
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Q20059280.jpg"
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

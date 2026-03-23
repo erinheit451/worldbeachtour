@@ -1,0 +1,34 @@
+{
+  "slug": "le-palme-1",
+  "name": "Le palme",
+  "centroid_lat": 44.0062204,
+  "centroid_lng": 12.6582953,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1695191",
+      "source_url": "https://www.openstreetmap.org/relation/1695191"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/1695192",
+      "source_url": "https://www.openstreetmap.org/relation/1695192"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33342972",
+      "source_url": "https://www.wikidata.org/wiki/Q33342972"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": "sand"
+    }
+  }
+}

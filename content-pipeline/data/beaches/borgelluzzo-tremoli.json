@@ -1,0 +1,40 @@
+{
+  "slug": "borgelluzzo-tremoli",
+  "name": "BORGELLUZZO-TREMOLI",
+  "centroid_lat": 36.9147,
+  "centroid_lng": 15.1551,
+  "country_code": "IT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/519725858",
+      "source_url": "https://www.openstreetmap.org/way/519725858"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q33343106",
+      "source_url": "https://www.wikidata.org/wiki/Q33343106"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019089002001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT019089002001",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

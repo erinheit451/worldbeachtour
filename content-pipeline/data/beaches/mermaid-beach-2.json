@@ -1,0 +1,34 @@
+{
+  "slug": "mermaid-beach-2",
+  "name": "Mermaid Beach",
+  "centroid_lat": 32.2611196,
+  "centroid_lng": -64.8024127,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/917054580",
+      "source_url": "https://www.openstreetmap.org/way/917054580"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/917054581",
+      "source_url": "https://www.openstreetmap.org/way/917054581"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21790363",
+      "source_url": "https://www.wikidata.org/wiki/Q21790363"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "private"
+    }
+  }
+}

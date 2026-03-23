@@ -1,0 +1,29 @@
+{
+  "slug": "spiaggia-dell-arenella",
+  "name": "Spiaggia dell'Arenella",
+  "centroid_lat": 38.1535378,
+  "centroid_lng": 13.3751542,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1286655467",
+      "source_url": "https://www.openstreetmap.org/way/1286655467"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1286655468",
+      "source_url": "https://www.openstreetmap.org/way/1286655468"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

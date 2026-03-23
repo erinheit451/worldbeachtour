@@ -1,0 +1,25 @@
+{
+  "slug": "bilgola-beach",
+  "name": "Bilgola Beach",
+  "centroid_lat": -33.6454131,
+  "centroid_lng": 151.3284863,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/4042505",
+      "source_url": "https://www.openstreetmap.org/way/4042505"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21918277",
+      "source_url": "https://www.wikidata.org/wiki/Q21918277"
+    }
+  ],
+  "attributes": {}
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "tsentralnyi-pliazh-22",
+  "name": "Центральный пляж",
+  "centroid_lat": 54.9877384,
+  "centroid_lng": 73.357675,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/155236741",
+      "source_url": "https://www.openstreetmap.org/way/155236741"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/2084941",
+      "source_url": "https://www.openstreetmap.org/relation/2084941"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "private"
+    }
+  }
+}

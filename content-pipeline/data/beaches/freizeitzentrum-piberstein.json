@@ -1,0 +1,38 @@
+{
+  "slug": "freizeitzentrum-piberstein",
+  "name": "FREIZEITZENTRUM PIBERSTEIN",
+  "centroid_lat": 47.0559,
+  "centroid_lng": 15.066,
+  "country_code": "AT",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1056062436",
+      "source_url": "https://www.openstreetmap.org/way/1056062436"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "AT2250010100200010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "AT2250010100200010",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": "none"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

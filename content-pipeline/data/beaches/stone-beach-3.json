@@ -1,0 +1,27 @@
+{
+  "slug": "stone-beach-3",
+  "name": "Stone Beach",
+  "centroid_lat": 38.2425034,
+  "centroid_lng": 15.2412893,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/514935331",
+      "source_url": "https://www.openstreetmap.org/way/514935331"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

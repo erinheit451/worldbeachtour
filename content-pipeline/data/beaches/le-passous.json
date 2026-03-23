@@ -1,0 +1,43 @@
+{
+  "slug": "le-passous",
+  "name": "LE PASSOUS",
+  "centroid_lat": 49.03694,
+  "centroid_lng": -1.59866,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/195421511",
+      "source_url": "https://www.openstreetmap.org/way/195421511"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q123039212",
+      "source_url": "https://www.wikidata.org/wiki/Q123039212"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD1250003M050340",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRD1250003M050340",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Coucher%20de%20soleil%20%C3%A0%20Coutainville%20%282219540440%29.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

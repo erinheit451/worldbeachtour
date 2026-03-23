@@ -1,0 +1,29 @@
+{
+  "slug": "playa-corazones",
+  "name": "Playa Corazones",
+  "centroid_lat": -18.5443919,
+  "centroid_lng": -70.3317749,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/257720819",
+      "source_url": "https://www.openstreetmap.org/way/257720819"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6078351",
+      "source_url": "https://www.wikidata.org/wiki/Q6078351"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "base-multisports",
+  "name": "BASE MULTISPORTS",
+  "centroid_lat": 45.36829,
+  "centroid_lng": 4.19672,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/435770165",
+      "source_url": "https://www.openstreetmap.org/way/435770165"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK1343012D043133",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRK1343012D043133",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

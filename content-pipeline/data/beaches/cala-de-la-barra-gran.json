@@ -1,0 +1,34 @@
+{
+  "slug": "cala-de-la-barra-gran",
+  "name": "Cala de la Barra Gran",
+  "centroid_lat": 38.630104,
+  "centroid_lng": 0.0056723,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/738985352",
+      "source_url": "https://www.openstreetmap.org/way/738985352"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false,
+      "access": "yes"
+    },
+    "social": {
+      "nudist": true
+    },
+    "safety": {
+      "lifeguard": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

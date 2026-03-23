@@ -1,0 +1,32 @@
+{
+  "slug": "cala-de-la-fustera",
+  "name": "Cala de la Fustera",
+  "centroid_lat": 38.6646414,
+  "centroid_lng": 0.0881215,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/94579771",
+      "source_url": "https://www.openstreetmap.org/way/94579771"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6079112",
+      "source_url": "https://www.wikidata.org/wiki/Q6079112"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20o%20platja%20de%20la%20Fustera%2C%20Benissa.JPG"
+    }
+  }
+}

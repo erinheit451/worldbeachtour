@@ -1,0 +1,41 @@
+{
+  "slug": "kapielisko-morskie-oko",
+  "name": "KĄPIELISKO MORSKIE OKO",
+  "centroid_lat": 51.12282,
+  "centroid_lng": 17.08252,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/310593114",
+      "source_url": "https://www.openstreetmap.org/way/310593114"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL5146401102000021",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL5146401102000021",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "customers"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

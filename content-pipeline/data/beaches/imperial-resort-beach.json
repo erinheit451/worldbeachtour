@@ -1,0 +1,29 @@
+{
+  "slug": "imperial-resort-beach",
+  "name": "Imperial Resort Beach",
+  "centroid_lat": 0.0457488,
+  "centroid_lng": 32.4714699,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7572403885",
+      "source_url": "https://www.openstreetmap.org/node/7572403885"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/263516402",
+      "source_url": "https://www.openstreetmap.org/way/263516402"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "scogli-della-rotonda",
+  "name": "Scogli della Rotonda",
+  "centroid_lat": 43.5133362,
+  "centroid_lng": 10.3154543,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "rock",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/477371425",
+      "source_url": "https://www.openstreetmap.org/way/477371425"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/477371429",
+      "source_url": "https://www.openstreetmap.org/way/477371429"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

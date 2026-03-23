@@ -1,0 +1,29 @@
+{
+  "slug": "langsand",
+  "name": "Långsand",
+  "centroid_lat": 61.9112451,
+  "centroid_lng": 16.590018,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1080298181",
+      "source_url": "https://www.openstreetmap.org/way/1080298181"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1080298182",
+      "source_url": "https://www.openstreetmap.org/way/1080298182"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

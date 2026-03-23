@@ -1,0 +1,29 @@
+{
+  "slug": "st-andrews-beach-2",
+  "name": "St Andrews Beach",
+  "centroid_lat": -38.428055555,
+  "centroid_lng": 144.834722222,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/928434008",
+      "source_url": "https://www.openstreetmap.org/way/928434008"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21955796",
+      "source_url": "https://www.wikidata.org/wiki/Q21955796"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Rock%202004%20-%20panoramio.jpg"
+    }
+  }
+}

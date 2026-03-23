@@ -1,0 +1,57 @@
+{
+  "slug": "uvala-drazica",
+  "name": "Uvala Drazica",
+  "centroid_lat": 44.95252,
+  "centroid_lng": 14.40354,
+  "country_code": "HR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/871905970",
+      "source_url": "https://www.openstreetmap.org/way/871905970"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/871914372",
+      "source_url": "https://www.openstreetmap.org/way/871914372"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/871914374",
+      "source_url": "https://www.openstreetmap.org/way/871914374"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/871914376",
+      "source_url": "https://www.openstreetmap.org/way/871914376"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6172",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR3-6172",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": true,
+      "access": "yes"
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

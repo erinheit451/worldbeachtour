@@ -1,0 +1,77 @@
+{
+  "slug": "firule",
+  "name": "Firule",
+  "centroid_lat": 43.5003625,
+  "centroid_lng": 16.4532287,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/9328465834",
+      "source_url": "https://www.openstreetmap.org/node/9328465834"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/142955242",
+      "source_url": "https://www.openstreetmap.org/way/142955242"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/142955252",
+      "source_url": "https://www.openstreetmap.org/way/142955252"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/539741703",
+      "source_url": "https://www.openstreetmap.org/way/539741703"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1303178454",
+      "source_url": "https://www.openstreetmap.org/way/1303178454"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q115103830",
+      "source_url": "https://www.wikidata.org/wiki/Q115103830"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2046",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2047",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2046",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "HRBWC-COAST-HR4-2047",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false,
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Firule%20Beach%20with%20a%20view%20to%20Marina%20Zenta%20in%20Split%2C%20Croatia%20%2848608227168%29.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

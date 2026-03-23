@@ -1,0 +1,29 @@
+{
+  "slug": "platja-del-callao",
+  "name": "Platja del Callao",
+  "centroid_lat": 41.539056,
+  "centroid_lng": 2.4557942,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/282951778",
+      "source_url": "https://www.openstreetmap.org/way/282951778"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24019716",
+      "source_url": "https://www.wikidata.org/wiki/Q24019716"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Platja%20del%20Callao%2002.JPG"
+    }
+  }
+}

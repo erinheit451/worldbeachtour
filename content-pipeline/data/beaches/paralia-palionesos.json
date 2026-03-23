@@ -1,0 +1,25 @@
+{
+  "slug": "paralia-palionesos",
+  "name": "Παραλία Παλιόνησος",
+  "centroid_lat": 37.0420816,
+  "centroid_lng": 26.9715108,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/541101",
+      "source_url": "https://www.openstreetmap.org/relation/541101"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/16819006",
+      "source_url": "https://www.openstreetmap.org/relation/16819006"
+    }
+  ],
+  "attributes": {}
+}

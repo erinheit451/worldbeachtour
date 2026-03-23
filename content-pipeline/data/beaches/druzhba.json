@@ -1,0 +1,39 @@
+{
+  "slug": "druzhba",
+  "name": "Дружба",
+  "centroid_lat": 52.7087978,
+  "centroid_lng": 41.4778256,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1167800763",
+      "source_url": "https://www.openstreetmap.org/way/1167800763"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1167800764",
+      "source_url": "https://www.openstreetmap.org/way/1167800764"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1167800766",
+      "source_url": "https://www.openstreetmap.org/way/1167800766"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1204746775",
+      "source_url": "https://www.openstreetmap.org/way/1204746775"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

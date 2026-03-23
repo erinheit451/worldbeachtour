@@ -1,0 +1,25 @@
+{
+  "slug": "roseway-beach",
+  "name": "Roseway Beach",
+  "centroid_lat": 43.6125985,
+  "centroid_lng": -65.3241403,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/1147171929",
+      "source_url": "https://www.openstreetmap.org/node/1147171929"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22464355",
+      "source_url": "https://www.wikidata.org/wiki/Q22464355"
+    }
+  ],
+  "attributes": {}
+}

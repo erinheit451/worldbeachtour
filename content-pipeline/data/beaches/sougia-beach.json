@@ -1,0 +1,70 @@
+{
+  "slug": "sougia-beach",
+  "name": "Sougia Beach",
+  "centroid_lat": 35.2480681,
+  "centroid_lng": 23.8120918,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/27662821",
+      "source_url": "https://www.openstreetmap.org/way/27662821"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/168674370",
+      "source_url": "https://www.openstreetmap.org/way/168674370"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/594251560",
+      "source_url": "https://www.openstreetmap.org/way/594251560"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1421482811",
+      "source_url": "https://www.openstreetmap.org/way/1421482811"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1421482812",
+      "source_url": "https://www.openstreetmap.org/way/1421482812"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q53631006",
+      "source_url": "https://www.wikidata.org/wiki/Q53631006"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139321061101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW139321061101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "social": {
+      "nudist": "permissive",
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/%CE%A3%CE%BF%CF%8D%CE%B3%CE%B9%CE%B1.jpg"
+    },
+    "facilities": {
+      "fee_required": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

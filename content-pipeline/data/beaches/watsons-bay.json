@@ -1,0 +1,25 @@
+{
+  "slug": "watsons-bay",
+  "name": "Watsons Bay",
+  "centroid_lat": -33.8442395,
+  "centroid_lng": 151.2815769,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/173232423",
+      "source_url": "https://www.openstreetmap.org/way/173232423"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/179732278",
+      "source_url": "https://www.openstreetmap.org/way/179732278"
+    }
+  ],
+  "attributes": {}
+}

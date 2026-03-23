@@ -1,0 +1,32 @@
+{
+  "slug": "sunset-beach-40",
+  "name": "Sunset Beach",
+  "centroid_lat": 25.2031744,
+  "centroid_lng": 55.232558,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/509577654",
+      "source_url": "https://www.openstreetmap.org/way/509577654"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/509577655",
+      "source_url": "https://www.openstreetmap.org/way/509577655"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "private"
+    }
+  }
+}

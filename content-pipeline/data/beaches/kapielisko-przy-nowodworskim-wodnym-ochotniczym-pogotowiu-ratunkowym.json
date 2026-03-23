@@ -1,0 +1,30 @@
+{
+  "slug": "kapielisko-przy-nowodworskim-wodnym-ochotniczym-pogotowiu-ratunkowym",
+  "name": "Kąpielisko przy Nowodworskim Wodnym Ochotniczym Pogotowiu Ratunkowym",
+  "centroid_lat": 52.44292,
+  "centroid_lng": 20.72192,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "river",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL1261401114000057",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL1261401114000057",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

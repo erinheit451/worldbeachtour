@@ -1,0 +1,35 @@
+{
+  "slug": "praia-da-area-da-secada",
+  "name": "Praia da Area da Secada",
+  "centroid_lat": 42.5680486,
+  "centroid_lng": -8.8871905,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/181438220",
+      "source_url": "https://www.openstreetmap.org/way/181438220"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES114M901452",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES114M901452",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

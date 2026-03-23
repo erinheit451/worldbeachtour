@@ -1,0 +1,29 @@
+{
+  "slug": "maldepan",
+  "name": "Måldepån",
+  "centroid_lat": 59.4011092,
+  "centroid_lng": 18.4300629,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/948453982",
+      "source_url": "https://www.openstreetmap.org/way/948453982"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1328855781",
+      "source_url": "https://www.openstreetmap.org/way/1328855781"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

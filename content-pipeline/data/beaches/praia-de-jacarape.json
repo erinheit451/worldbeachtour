@@ -1,0 +1,29 @@
+{
+  "slug": "praia-de-jacarape",
+  "name": "Praia de Jacarapé",
+  "centroid_lat": -7.1913475,
+  "centroid_lng": -34.79861,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/530608",
+      "source_url": "https://www.openstreetmap.org/relation/530608"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10352805",
+      "source_url": "https://www.wikidata.org/wiki/Q10352805"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Rio%20Jacarap%C3%AA%20na%20Praia%20de%20Jacarap%C3%AA%20em%20Jo%C3%A3o%20Pessoa%2C%20Para%C3%ADba.jpg"
+    }
+  }
+}

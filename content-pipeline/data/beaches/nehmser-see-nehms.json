@@ -1,0 +1,35 @@
+{
+  "slug": "nehmser-see-nehms",
+  "name": "NEHMSER SEE;NEHMS",
+  "centroid_lat": 54.0164,
+  "centroid_lng": 10.363,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/469737213",
+      "source_url": "https://www.openstreetmap.org/way/469737213"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DESH_PR_0298",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DESH_PR_0298",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

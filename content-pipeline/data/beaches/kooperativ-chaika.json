@@ -1,0 +1,24 @@
+{
+  "slug": "kooperativ-chaika",
+  "name": "Кооператив \"Чайка\"",
+  "centroid_lat": 44.852496,
+  "centroid_lng": 33.6036723,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1456926988",
+      "source_url": "https://www.openstreetmap.org/way/1456926988"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

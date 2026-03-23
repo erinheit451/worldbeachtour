@@ -1,0 +1,27 @@
+{
+  "slug": "uimahallin-ranta",
+  "name": "Uimahallin ranta",
+  "centroid_lat": 60.9909252,
+  "centroid_lng": 24.466034,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/22661642",
+      "source_url": "https://www.openstreetmap.org/way/22661642"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

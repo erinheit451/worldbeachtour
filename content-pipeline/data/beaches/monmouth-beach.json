@@ -1,0 +1,33 @@
+{
+  "slug": "monmouth-beach",
+  "name": "Monmouth Beach",
+  "centroid_lat": 50.7191774,
+  "centroid_lng": -2.9432469,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "pebble",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/104987893",
+      "source_url": "https://www.openstreetmap.org/way/104987893"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6901052",
+      "source_url": "https://www.wikidata.org/wiki/Q6901052"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Blue%20lias%20cliffs%20at%20Lyme%20Regis.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Monmouth_Beach,_Lyme_Regis"
+    }
+  }
+}

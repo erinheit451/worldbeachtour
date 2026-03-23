@@ -1,0 +1,27 @@
+{
+  "slug": "hundestrand-34",
+  "name": "Hundestrand",
+  "centroid_lat": 54.5340798,
+  "centroid_lng": 8.6029097,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/203091779",
+      "source_url": "https://www.openstreetmap.org/way/203091779"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": true
+    },
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

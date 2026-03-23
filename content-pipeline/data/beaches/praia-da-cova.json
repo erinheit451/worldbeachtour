@@ -1,0 +1,30 @@
+{
+  "slug": "praia-da-cova",
+  "name": "Praia da Cova",
+  "centroid_lat": 38.4409623,
+  "centroid_lng": -9.0594017,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/208967985",
+      "source_url": "https://www.openstreetmap.org/way/208967985"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49323668",
+      "source_url": "https://www.wikidata.org/wiki/Q49323668"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q107996677",
+      "source_url": "https://www.wikidata.org/wiki/Q107996677"
+    }
+  ],
+  "attributes": {}
+}

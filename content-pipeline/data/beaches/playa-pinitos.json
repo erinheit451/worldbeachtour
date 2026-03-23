@@ -1,0 +1,25 @@
+{
+  "slug": "playa-pinitos",
+  "name": "Playa Pinitos",
+  "centroid_lat": 23.2083097,
+  "centroid_lng": -106.4275942,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/249995288",
+      "source_url": "https://www.openstreetmap.org/way/249995288"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/250480790",
+      "source_url": "https://www.openstreetmap.org/way/250480790"
+    }
+  ],
+  "attributes": {}
+}

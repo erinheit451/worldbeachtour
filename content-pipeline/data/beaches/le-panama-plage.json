@@ -1,0 +1,86 @@
+{
+  "slug": "le-panama-plage",
+  "name": "Le Panama Plage",
+  "centroid_lat": 43.7813497,
+  "centroid_lng": 7.5107001,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/7206986480",
+      "source_url": "https://www.openstreetmap.org/node/7206986480"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7206986481",
+      "source_url": "https://www.openstreetmap.org/node/7206986481"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7206986482",
+      "source_url": "https://www.openstreetmap.org/node/7206986482"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7206986483",
+      "source_url": "https://www.openstreetmap.org/node/7206986483"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/7206986484",
+      "source_url": "https://www.openstreetmap.org/node/7206986484"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/28146099",
+      "source_url": "https://www.openstreetmap.org/way/28146099"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1451040906",
+      "source_url": "https://www.openstreetmap.org/way/1451040906"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q123694228",
+      "source_url": "https://www.wikidata.org/wiki/Q123694228"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306083M006710",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306083M006715",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306083M006710",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRL0306083M006715",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Plage%20des%20sablettes%20%28Menton%29.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

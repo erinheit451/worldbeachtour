@@ -1,0 +1,29 @@
+{
+  "slug": "privatstrand-hotel-zur-post",
+  "name": "Privatstrand \"Hotel zur Post\"",
+  "centroid_lat": 46.7747362,
+  "centroid_lng": 13.6398436,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12015153521",
+      "source_url": "https://www.openstreetmap.org/node/12015153521"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/430712564",
+      "source_url": "https://www.openstreetmap.org/way/430712564"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "private"
+    }
+  }
+}

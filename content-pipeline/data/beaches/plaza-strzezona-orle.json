@@ -1,0 +1,24 @@
+{
+  "slug": "plaza-strzezona-orle",
+  "name": "Plaża strzeżona \"Orle\"",
+  "centroid_lat": 54.3485507,
+  "centroid_lng": 18.8759664,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/5811675957",
+      "source_url": "https://www.openstreetmap.org/node/5811675957"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": "interval"
+    }
+  }
+}

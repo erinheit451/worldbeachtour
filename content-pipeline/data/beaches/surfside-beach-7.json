@@ -1,0 +1,29 @@
+{
+  "slug": "surfside-beach-7",
+  "name": "Surfside Beach",
+  "centroid_lat": 33.7272358,
+  "centroid_lng": -118.0842073,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/6651430",
+      "source_url": "https://www.openstreetmap.org/relation/6651430"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324917",
+      "source_url": "https://www.wikidata.org/wiki/Q49324917"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "private"
+    }
+  }
+}

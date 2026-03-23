@@ -1,0 +1,33 @@
+{
+  "slug": "paralia-purgou",
+  "name": "Παραλία Πύργου",
+  "centroid_lat": 40.2499116,
+  "centroid_lng": 23.7226618,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/362807124",
+      "source_url": "https://www.openstreetmap.org/way/362807124"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/838971388",
+      "source_url": "https://www.openstreetmap.org/way/838971388"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "access": "yes",
+      "fee_required": false
+    }
+  }
+}

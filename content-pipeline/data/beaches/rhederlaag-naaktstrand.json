@@ -1,0 +1,73 @@
+{
+  "slug": "rhederlaag-naaktstrand",
+  "name": "Rhederlaag (naaktstrand)",
+  "centroid_lat": 51.9875031,
+  "centroid_lng": 6.0425871,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/972943277",
+      "source_url": "https://www.openstreetmap.org/node/972943277"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/972943327",
+      "source_url": "https://www.openstreetmap.org/node/972943327"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/5823281208",
+      "source_url": "https://www.openstreetmap.org/node/5823281208"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/59306867",
+      "source_url": "https://www.openstreetmap.org/way/59306867"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/59307376",
+      "source_url": "https://www.openstreetmap.org/way/59307376"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/59307660",
+      "source_url": "https://www.openstreetmap.org/way/59307660"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/409729024",
+      "source_url": "https://www.openstreetmap.org/way/409729024"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/409729025",
+      "source_url": "https://www.openstreetmap.org/way/409729025"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW93_RHEDLBSSD",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "NLBW93_RHEDLBSSD",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "designated"
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

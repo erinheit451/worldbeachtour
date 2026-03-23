@@ -1,0 +1,79 @@
+{
+  "slug": "tartu-emajoe-vabaujula",
+  "name": "Tartu Emajõe vabaujula",
+  "centroid_lat": 58.3947888,
+  "centroid_lng": 26.7031927,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/30192676",
+      "source_url": "https://www.openstreetmap.org/way/30192676"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/383592498",
+      "source_url": "https://www.openstreetmap.org/way/383592498"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1173953857",
+      "source_url": "https://www.openstreetmap.org/way/1173953857"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1173953866",
+      "source_url": "https://www.openstreetmap.org/way/1173953866"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1173953868",
+      "source_url": "https://www.openstreetmap.org/way/1173953868"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1173953877",
+      "source_url": "https://www.openstreetmap.org/way/1173953877"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "EE00503015ELINN",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "EE00503015EVABA",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "EE00503015ELINN",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "EE00503015EVABA",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false
+    },
+    "water_conditions": {
+      "swimming": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "River"
+    }
+  }
+}

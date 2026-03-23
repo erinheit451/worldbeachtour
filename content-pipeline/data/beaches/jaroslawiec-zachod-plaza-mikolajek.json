@@ -1,0 +1,30 @@
+{
+  "slug": "jaroslawiec-zachod-plaza-mikolajek",
+  "name": "JAROSŁAWIEC ZACHÓD PLAŻA MIKOŁAJEK",
+  "centroid_lat": 54.5367,
+  "centroid_lng": 16.5214,
+  "country_code": "PL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4221305232000125",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PL4221305232000125",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

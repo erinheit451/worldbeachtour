@@ -1,0 +1,35 @@
+{
+  "slug": "joalland",
+  "name": "JOALLAND",
+  "centroid_lat": 47.15445,
+  "centroid_lng": -2.21628,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/102736272",
+      "source_url": "https://www.openstreetmap.org/way/102736272"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0144126M044490",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRG0144126M044490",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "3 - sufficient",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

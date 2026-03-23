@@ -1,0 +1,53 @@
+{
+  "slug": "bagni-lovera",
+  "name": "Bagni Lovera",
+  "centroid_lat": 44.236181,
+  "centroid_lng": 9.4934393,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/532137995",
+      "source_url": "https://www.openstreetmap.org/way/532137995"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/952738406",
+      "source_url": "https://www.openstreetmap.org/way/952738406"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010037003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010037002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010037003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "IT007010037002",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

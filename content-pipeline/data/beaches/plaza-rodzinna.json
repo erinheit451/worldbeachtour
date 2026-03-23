@@ -1,0 +1,24 @@
+{
+  "slug": "plaza-rodzinna",
+  "name": "Plaża rodzinna",
+  "centroid_lat": 52.5095105,
+  "centroid_lng": 21.3332875,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1193315518",
+      "source_url": "https://www.openstreetmap.org/way/1193315518"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

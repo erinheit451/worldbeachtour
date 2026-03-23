@@ -1,0 +1,58 @@
+{
+  "slug": "cap-aurora-iii-restaurant-pescaresc",
+  "name": "CAP AURORA III RESTAURANT PESCARESC",
+  "centroid_lat": 43.8478,
+  "centroid_lng": 28.6017,
+  "country_code": "RO",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/32534035",
+      "source_url": "https://www.openstreetmap.org/way/32534035"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/262534315",
+      "source_url": "https://www.openstreetmap.org/way/262534315"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/262534316",
+      "source_url": "https://www.openstreetmap.org/way/262534316"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "RO2230009055020003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "RO2230009055020007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "RO2230009055020003",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "RO2230009055020007",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "port-charlotte",
+  "name": "Port Charlotte",
+  "centroid_lat": 47.2437587,
+  "centroid_lng": -2.2622013,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/131340567",
+      "source_url": "https://www.openstreetmap.org/way/131340567"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/131340571",
+      "source_url": "https://www.openstreetmap.org/way/131340571"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/173054766",
+      "source_url": "https://www.openstreetmap.org/way/173054766"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    }
+  }
+}

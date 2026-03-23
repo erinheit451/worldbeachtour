@@ -1,0 +1,32 @@
+{
+  "slug": "plage-de-la-petite-cote",
+  "name": "Plage de la Petite Côte",
+  "centroid_lat": 47.4971989,
+  "centroid_lng": -3.1176215,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/242386518",
+      "source_url": "https://www.openstreetmap.org/way/242386518"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/495450423",
+      "source_url": "https://www.openstreetmap.org/way/495450423"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

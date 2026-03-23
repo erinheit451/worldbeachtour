@@ -1,0 +1,35 @@
+{
+  "slug": "arinella",
+  "name": "ARINELLA",
+  "centroid_lat": 42.67125,
+  "centroid_lng": 9.44686,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/130705514",
+      "source_url": "https://www.openstreetmap.org/way/130705514"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRM022B033M02B140",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRM022B033M02B140",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

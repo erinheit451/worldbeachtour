@@ -1,0 +1,43 @@
+{
+  "slug": "playa-de-langre",
+  "name": "Playa de Langre",
+  "centroid_lat": 43.4756876,
+  "centroid_lng": -3.6895665,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/128274175",
+      "source_url": "https://www.openstreetmap.org/way/128274175"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q5400255",
+      "source_url": "https://www.wikidata.org/wiki/Q5400255"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES130M061556",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES130M061556",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cantabria%201%20001%20playa%20de%20Langre.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

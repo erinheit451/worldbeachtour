@@ -1,0 +1,29 @@
+{
+  "slug": "windsor-beach-1",
+  "name": "Windsor Beach",
+  "centroid_lat": 34.4898,
+  "centroid_lng": -114.361,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1289065970",
+      "source_url": "https://www.openstreetmap.org/way/1289065970"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q8024569",
+      "source_url": "https://www.wikidata.org/wiki/Q8024569"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Windsor_Beach,_Lake_Havasu"
+    }
+  }
+}

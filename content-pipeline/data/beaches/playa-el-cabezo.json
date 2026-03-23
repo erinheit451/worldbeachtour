@@ -1,0 +1,29 @@
+{
+  "slug": "playa-el-cabezo",
+  "name": "Playa El Cabezo",
+  "centroid_lat": 28.0990495,
+  "centroid_lng": -16.7563068,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/4559829872",
+      "source_url": "https://www.openstreetmap.org/node/4559829872"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/170336737",
+      "source_url": "https://www.openstreetmap.org/way/170336737"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "parola-malms-brygga",
+  "name": "Parola Malms Brygga",
+  "centroid_lat": 58.0551496,
+  "centroid_lng": 14.3676327,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/10748438504",
+      "source_url": "https://www.openstreetmap.org/node/10748438504"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

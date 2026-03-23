@@ -1,0 +1,30 @@
+{
+  "slug": "praia-cristo-rei",
+  "name": "Praia Cristo Rei",
+  "centroid_lat": -8.5239602,
+  "centroid_lng": 125.6093575,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/2240897",
+      "source_url": "https://www.openstreetmap.org/relation/2240897"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q105623153",
+      "source_url": "https://www.wikidata.org/wiki/Q105623153"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cristo%20Rei%20beach%2C%20Dili%2C%202018%20%2801%29.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cristo_Rei_Beach"
+    }
+  }
+}

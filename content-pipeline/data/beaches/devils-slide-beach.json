@@ -1,0 +1,30 @@
+{
+  "slug": "devils-slide-beach",
+  "name": "Devils Slide Beach",
+  "centroid_lat": 37.566682,
+  "centroid_lng": -122.5148518,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/186543716",
+      "source_url": "https://www.openstreetmap.org/way/186543716"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49320529",
+      "source_url": "https://www.wikidata.org/wiki/Q49320529"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": "permissive",
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Gray%20Whale%20Cove%20State%20Beach.jpg"
+    }
+  }
+}

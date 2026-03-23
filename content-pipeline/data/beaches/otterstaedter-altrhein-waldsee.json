@@ -1,0 +1,35 @@
+{
+  "slug": "otterstaedter-altrhein-waldsee",
+  "name": "OTTERSTAEDTER ALTRHEIN - WALDSEE",
+  "centroid_lat": 49.39531,
+  "centroid_lng": 8.4731,
+  "country_code": "DE",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/517537872",
+      "source_url": "https://www.openstreetmap.org/way/517537872"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DERP_PR_0084",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DERP_PR_0084",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "0 - not classified",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "agia-anna-maragkas",
+  "name": "AGIA ANNA - MARAGKAS",
+  "centroid_lat": 37.0608,
+  "centroid_lng": 25.3564,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/659806942",
+      "source_url": "https://www.openstreetmap.org/way/659806942"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659806943",
+      "source_url": "https://www.openstreetmap.org/way/659806943"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659806944",
+      "source_url": "https://www.openstreetmap.org/way/659806944"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/659806945",
+      "source_url": "https://www.openstreetmap.org/way/659806945"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/720120035",
+      "source_url": "https://www.openstreetmap.org/way/720120035"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/720120036",
+      "source_url": "https://www.openstreetmap.org/way/720120036"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25162356",
+      "source_url": "https://www.wikidata.org/wiki/Q25162356"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149292410101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW149292410101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Maragkas%20beach.jpg"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

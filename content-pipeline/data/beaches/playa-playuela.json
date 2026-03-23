@@ -1,0 +1,32 @@
+{
+  "slug": "playa-playuela",
+  "name": "Playa Playuela",
+  "centroid_lat": 10.8275893,
+  "centroid_lng": -68.2403929,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/771478232",
+      "source_url": "https://www.openstreetmap.org/way/771478232"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/771478233",
+      "source_url": "https://www.openstreetmap.org/way/771478233"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    },
+    "facilities": {
+      "fee_required": false
+    }
+  }
+}

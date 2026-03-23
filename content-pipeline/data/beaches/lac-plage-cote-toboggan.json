@@ -1,0 +1,50 @@
+{
+  "slug": "lac-plage-cote-toboggan",
+  "name": "LAC.PLAGE COTE TOBOGGAN",
+  "centroid_lat": 43.97026,
+  "centroid_lng": 1.5941,
+  "country_code": "FR",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "lake",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/841315499",
+      "source_url": "https://www.openstreetmap.org/way/841315499"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/841315500",
+      "source_url": "https://www.openstreetmap.org/way/841315500"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/969720205",
+      "source_url": "https://www.openstreetmap.org/way/969720205"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/969720210",
+      "source_url": "https://www.openstreetmap.org/way/969720210"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ2882115D082061",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "FRJ2882115D082061",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Lake"
+    }
+  }
+}

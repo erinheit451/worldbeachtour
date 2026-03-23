@@ -1,0 +1,24 @@
+{
+  "slug": "plage-de-la-grave",
+  "name": "Plage de la Grave",
+  "centroid_lat": 44.4651438,
+  "centroid_lng": 2.9507155,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/12137333618",
+      "source_url": "https://www.openstreetmap.org/node/12137333618"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

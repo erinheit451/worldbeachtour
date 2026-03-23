@@ -1,0 +1,24 @@
+{
+  "slug": "seebad-haltern-am-see",
+  "name": "Seebad Haltern am See",
+  "centroid_lat": 51.7430653,
+  "centroid_lng": 7.2141037,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/28273177",
+      "source_url": "https://www.openstreetmap.org/way/28273177"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": true
+    }
+  }
+}

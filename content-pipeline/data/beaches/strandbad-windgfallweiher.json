@@ -1,0 +1,35 @@
+{
+  "slug": "strandbad-windgfallweiher",
+  "name": "Strandbad Windgfällweiher",
+  "centroid_lat": 47.8532097,
+  "centroid_lng": 8.1277227,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/111553921",
+      "source_url": "https://www.openstreetmap.org/way/111553921"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/254554591",
+      "source_url": "https://www.openstreetmap.org/way/254554591"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false
+    },
+    "facilities": {
+      "fee_required": true
+    },
+    "water_conditions": {
+      "swimming": true
+    }
+  }
+}

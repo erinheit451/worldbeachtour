@@ -1,0 +1,29 @@
+{
+  "slug": "grotta-beach",
+  "name": "Grotta beach",
+  "centroid_lat": 37.10826,
+  "centroid_lng": 25.37807,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/299915050",
+      "source_url": "https://www.openstreetmap.org/way/299915050"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q25162346",
+      "source_url": "https://www.wikidata.org/wiki/Q25162346"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Grotta%20beach.jpg"
+    }
+  }
+}

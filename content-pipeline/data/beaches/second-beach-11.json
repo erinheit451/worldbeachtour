@@ -1,0 +1,29 @@
+{
+  "slug": "second-beach-11",
+  "name": "Second beach",
+  "centroid_lat": -31.6488905,
+  "centroid_lng": 29.5190513,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/10720899",
+      "source_url": "https://www.openstreetmap.org/relation/10720899"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q32016531",
+      "source_url": "https://www.wikidata.org/wiki/Q32016531"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    }
+  }
+}

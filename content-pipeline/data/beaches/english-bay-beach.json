@@ -1,0 +1,64 @@
+{
+  "slug": "english-bay-beach",
+  "name": "English Bay Beach",
+  "centroid_lat": 49.2864577,
+  "centroid_lng": -123.1438481,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/86340299",
+      "source_url": "https://www.openstreetmap.org/way/86340299"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1070061174",
+      "source_url": "https://www.openstreetmap.org/way/1070061174"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1394547225",
+      "source_url": "https://www.openstreetmap.org/way/1394547225"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1394547229",
+      "source_url": "https://www.openstreetmap.org/way/1394547229"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1394547230",
+      "source_url": "https://www.openstreetmap.org/way/1394547230"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1394547233",
+      "source_url": "https://www.openstreetmap.org/way/1394547233"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1394547234",
+      "source_url": "https://www.openstreetmap.org/way/1394547234"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1396070040",
+      "source_url": "https://www.openstreetmap.org/way/1396070040"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q22410868",
+      "source_url": "https://www.wikidata.org/wiki/Q22410868"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}
