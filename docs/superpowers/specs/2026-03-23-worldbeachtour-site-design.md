@@ -99,6 +99,58 @@ content-pipeline/
         └── meta.json                    ← active lenses, quality tier, custom pages
 ```
 
+### JSON Export Schema
+
+Each beach exports as a single denormalized JSON file:
+
+```json
+{
+  "slug": "waikiki",
+  "name": "Waikiki Beach",
+  "centroid_lat": 21.2766,
+  "centroid_lng": -157.8278,
+  "country_code": "US",
+  "admin_level_1": "Hawaii",
+  "admin_level_2": "Honolulu",
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": 3200,
+  "sources": [
+    { "source_name": "osm", "source_id": "...", "source_url": "..." }
+  ],
+  "attributes": {
+    "surfing": { "wave_type": "beach break", "difficulty": "beginner", "best_season": "Oct-Mar" },
+    "facilities": { "lifeguard": true, "toilets": true, "showers": true, "parking": true },
+    "water_conditions": { "water_temp_avg_c": 25, "visibility_m": 8 },
+    "environment": { "protected_status": "none", "water_quality": "excellent" },
+    "travel": { "nearest_airport": "HNL", "access": "public" },
+    "safety": { "currents": "mild", "hazards": "none" },
+    "social": { "crowd_level": "high" }
+  }
+}
+```
+
+Attributes are grouped by the `category` field from the `beach_attributes` table. The content pipeline uses these categories to determine which lenses have sufficient data. Coordinates use `centroid_lat`/`centroid_lng` (not the geometry blob).
+
+### Slug Generation
+
+Slugs are generated as `name-admin_level_1-country_code` lowercased and hyphenated (e.g., `waikiki-hawaii-us`, `long-beach-california-us`, `long-beach-new-york-us`). For globally unique names, the short form is canonical with redirects from the long form.
+
+### meta.json Shape
+
+```json
+{
+  "tier": 1,
+  "lenses": ["travel", "surf", "environment", "family", "photography", "history", "sand"],
+  "custom": [],
+  "images": { "hero": "hero.jpg", "gallery": [] }
+}
+```
+
+### Image Strategy
+
+Phase 1 uses Wikimedia Commons and Unsplash images (both have API access for free/attribution-licensed photos). The content pipeline fetches candidate images per beach and stores references in `meta.json`. Long-term, user-contributed and licensed stock photography.
+
 ### How a Page Gets Built
 
 1. DB pipeline exports each beach as a JSON file (structured attributes, coordinates, sources)
@@ -147,7 +199,7 @@ The **overview page** shows a condensed card per lens: 2-3 sentence summary + to
 | Live data — tide/swell | Stormglass or NOAA |
 | Live data — weather | Open-Meteo (free) |
 | Live data — water quality | EPA BEACON (US), EU Bathing Water API (Europe) |
-| Hosting | Cloudflare Pages |
+| Hosting | Cloudflare Pages (pure SSG for Phase 1; ISR for Tier 3 deferred to Phase 3 — may require `@opennextjs/cloudflare` adapter or Vercel) |
 | Site search | Pagefind (static search index) |
 | Domain | WorldBeachTour.com (owned, currently on Squarespace DNS) |
 
