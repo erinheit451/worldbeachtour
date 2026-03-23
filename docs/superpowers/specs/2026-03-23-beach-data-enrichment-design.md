@@ -32,6 +32,22 @@ Today's tide times, current wave height, live weather. Store the station ID or g
 
 ---
 
+## Migration from Current Schema
+
+The existing schema (`src/db/schema.py`) has 3 tables: `beaches` (14 columns), `beach_sources` (TEXT id), and `beach_attributes` (EAV model). The enriched schema adds ~50 columns to `beaches`, adds 3 new tables, and deprecates `beach_attributes`.
+
+**Migration strategy:**
+1. **Additive ALTER TABLEs** — add all new columns to `beaches` with NULL defaults. No data loss.
+2. **EAV→flat migration** — script reads `beach_attributes` rows and writes values into the new flat columns (e.g., `facilities.access` → `has_parking`, `water_conditions.swimming` → swim-related fields).
+3. **Retain `geometry_geojson`** — the current schema stores beach polygon geometry as GeoJSON text. This is required for orientation computation (Phase 2d) and beach length (Phase 2e). Keep it on the `beaches` table.
+4. **Retain `beach_attributes`** — don't drop it during migration. Once all EAV data is migrated to flat columns and verified, it can be archived. Existing code that reads it continues to work during the transition.
+5. **`beach_sources.id`** — keep as TEXT (matching current schema), not INTEGER.
+6. **Create new tables** (`beach_photos`, `beach_species`, `climate_grid_cells`, `enrichment_log`) alongside existing tables.
+
+Migration script: `src/db/migrate_to_enriched.py` — idempotent, can be re-run safely.
+
+---
+
 ## SQLite Schema
 
 ### beaches table (enriched)
@@ -59,6 +75,7 @@ CREATE TABLE beaches (
   sunset_visible INTEGER,             -- 1 if orientation faces west-ish (225-315°)
   elevation_m REAL,                   -- beach elevation above sea level
   nearshore_depth_m REAL,             -- avg depth within 200m of shore (GEBCO)
+  geometry_geojson TEXT,               -- retained from current schema, needed for orientation + length
 
   -- Nearest places
   nearest_city TEXT,
@@ -86,7 +103,6 @@ CREATE TABLE beaches (
   ocean_wave_height_m JSON,           -- [1.2, 1.4, ...]  significant wave height avg
   ocean_wave_period_s JSON,           -- [8.5, 9.1, ...]  seconds
   ocean_swell_direction JSON,         -- ["NW", "NW", "W", ...]
-  ocean_visibility_m JSON,            -- [15, 12, 18, ...]  underwater visibility estimate
   ocean_salinity_psu JSON,            -- [35.1, 35.0, ...]  practical salinity units
   ocean_chlorophyll JSON,             -- [0.3, 0.5, ...]  mg/m³ (algae indicator)
   ocean_source TEXT,                  -- "copernicus_marine"
@@ -144,8 +160,10 @@ CREATE TABLE beaches (
   notability_score REAL,              -- computed composite (0-100)
 
   -- Computed / derived
-  best_months JSON,                   -- ["may", "jun", "jul", "aug", "sep"]
+  best_months JSON,                   -- ["may", "jun", "jul", "aug", "sep"] (always Jan-Dec indexed, works for both hemispheres)
   swim_suitability TEXT,              -- "excellent", "good", "fair", "poor", "dangerous"
+  swim_suitability_confidence TEXT,   -- "high" (ocean w/ full data), "medium" (partial), "low" (inland/sparse)
+  data_completeness_pct REAL,         -- % of enrichment fields that are non-NULL (0-100)
 
   -- Metadata
   source_layer INTEGER,               -- priority layer from dedup
@@ -167,7 +185,7 @@ CREATE INDEX idx_beaches_climate_grid ON beaches(climate_grid_cell);
 
 ```sql
 CREATE TABLE beach_sources (
-  id INTEGER PRIMARY KEY,
+  id TEXT PRIMARY KEY,
   beach_id TEXT REFERENCES beaches(id),
   source_name TEXT NOT NULL,          -- "osm", "geonames", "wikidata", etc
   source_id TEXT,                     -- external ID
@@ -195,6 +213,7 @@ CREATE TABLE beach_photos (
 );
 
 CREATE INDEX idx_photos_beach ON beach_photos(beach_id);
+CREATE INDEX idx_photos_source ON beach_photos(source);
 ```
 
 ### beach_species table (new)
@@ -213,6 +232,7 @@ CREATE TABLE beach_species (
 );
 
 CREATE INDEX idx_species_beach ON beach_species(beach_id);
+CREATE INDEX idx_species_name ON beach_species(species_name);
 ```
 
 ### climate_grid_cells table (new — deduplication cache)
@@ -242,6 +262,25 @@ CREATE TABLE climate_grid_cells (
 );
 ```
 
+### enrichment_log table (new — progress tracking)
+
+```sql
+CREATE TABLE enrichment_log (
+  id INTEGER PRIMARY KEY,
+  script_name TEXT NOT NULL,           -- "grid_climate", "computed_fields", etc
+  phase TEXT,                          -- "phase_1", "phase_2", etc
+  last_processed_id TEXT,              -- beach_id or cell_id of last successful row
+  total_processed INTEGER DEFAULT 0,
+  total_errors INTEGER DEFAULT 0,
+  status TEXT,                         -- "running", "completed", "failed", "paused"
+  started_at TEXT,
+  updated_at TEXT,
+  completed_at TEXT
+);
+
+CREATE INDEX idx_enrichment_script ON enrichment_log(script_name);
+```
+
 The pipeline fetches into `climate_grid_cells` first, then copies the relevant arrays into each beach's row based on its nearest cell. This means:
 - 50-80K API fetches instead of 412K
 - Each beach still has the data directly on its row for fast queries
@@ -266,12 +305,20 @@ The pipeline fetches into `climate_grid_cells` first, then copies the relevant a
 | 1f. Compute "best months" | Local computation | Composite score from temp + rain + sun + wind |
 
 **Grid deduplication algorithm:**
+```python
+import math
+
+def grid_cell(lat, lng):
+    # Use floor-based bucketing, not round() — avoids Python banker's rounding
+    # at .X5 boundaries where two beaches 0.001° apart could land in different cells
+    cell_lat = math.floor(lat * 10) / 10
+    cell_lng = math.floor(lng * 10) / 10
+    return f"{cell_lat}_{cell_lng}"
 ```
-For each beach:
-  cell_id = f"{round(lat, 1)}_{round(lng, 1)}"
-  assign beach to cell_id
-Deduplicate: fetch only unique cell_ids
-```
+
+**Open-Meteo aggregation note:** Open-Meteo returns daily historical data, not pre-computed monthly normals. The pipeline must fetch 30 years of daily data per grid cell, then aggregate into monthly averages locally. This increases per-cell payload size but is a one-time computation.
+
+**Copernicus Marine integration note:** Copernicus Marine Service (now Marine Data Store) requires account registration, per-dataset license acceptance, and uses the `copernicusmarine` Python toolbox. The auth flow changed in 2024-2025. Budget for integration complexity beyond simple REST calls.
 
 ### Phase 2: Per-Beach Computed (No API Calls)
 **Scope:** All 412K beaches
@@ -285,7 +332,7 @@ Deduplicate: fetch only unique cell_ids
 | 2d. Beach orientation | OSM polygon geometry + coastline | orientation_deg, orientation_label, sunset_visible |
 | 2e. Beach length | OSM polygon geometry | beach_length_m (where polygon exists, ~25-35%) |
 | 2f. Substrate heuristic | Name regex ("Sandy", "Rocky", "Pebble") | substrate_type upgrade for ~5-15K beaches |
-| 2g. Swim suitability | Composite: wave_height + water_quality + tide_range | swim_suitability rating |
+| 2g. Swim suitability | Composite: wave_height + water_quality + tide_range | swim_suitability rating (ocean formula uses waves+tides+quality; inland formula uses water_quality only; confidence = high/medium/low based on available inputs) |
 
 ### Phase 3: Per-Beach Spatial Queries (Moderate API/Data Load)
 **Scope:** All 412K beaches
@@ -293,8 +340,8 @@ Deduplicate: fetch only unique cell_ids
 
 | Step | Source | What it produces |
 |---|---|---|
-| 3a. OSM Overpass deep tags | Overpass API (rate-limited) | facilities (parking, restrooms, showers, etc), substrate, access |
-| 3b. Tidal range | FES2022 Python library (pyfes) | tide_range_spring_m, tide_range_neap_m, tide_type |
+| 3a. OSM Overpass deep tags | Overpass API (rate-limited) or local planet PBF extract | facilities (parking, restrooms, showers, etc), substrate, access. **Note:** 412K point queries against public Overpass may be too aggressive — consider downloading planet PBF and using osmium for local extraction. |
+| 3b. Tidal range | FES2022 Python library (pyfes) or `uptide` fallback | tide_range_spring_m, tide_range_neap_m, tide_type. **Note:** pyfes requires Fortran compilation — on Windows, run via Docker/WSL or use `uptide` (pure Python) as fallback. |
 | 3c. Bathymetry | GEBCO netCDF grid (local, 7GB) | nearshore_depth_m |
 | 3d. GCC substrate | Zenodo dataset (730K transects) | substrate_type upgrade to 75-85% coverage |
 | 3e. Protected areas | WDPA GeoPackage (spatial intersect) | protected_area_name/type/iucn |
@@ -348,6 +395,10 @@ notability_score = (
   normalize(species_observed_count, 0, 500) * 5                   -- 5% weight
 )
 ```
+
+**Southern hemisphere note:** `best_months` is computed globally from the actual monthly scores — it naturally produces summer months for each hemisphere. An Australian beach will show `["nov", "dec", "jan", "feb"]`. The 12-month arrays are always indexed Jan(0)–Dec(11) regardless of hemisphere.
+
+**Removed: `ocean_visibility_m`** — underwater visibility has no viable free global data source. It could be roughly derived from chlorophyll + turbidity as a future enhancement, but storing a permanently-NULL column adds no value.
 
 Beaches scoring >50 get full editorial treatment. Beaches scoring >20 get photo search + Wikipedia extract. All beaches get structured data regardless of score.
 
