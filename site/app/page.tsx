@@ -25,12 +25,12 @@ export default function HomePage() {
           {/* Stats */}
           <div className="mt-10 flex flex-wrap justify-center gap-8 sm:gap-12 text-center">
             <div>
-              <p className="font-display text-3xl sm:text-4xl text-white">412K+</p>
-              <p className="text-sm text-ocean-300 mt-1">Beaches</p>
+              <p className="font-display text-3xl sm:text-4xl text-white">228K+</p>
+              <p className="text-sm text-ocean-300 mt-1">Beaches Mapped</p>
             </div>
             <div>
-              <p className="font-display text-3xl sm:text-4xl text-white">249</p>
-              <p className="text-sm text-ocean-300 mt-1">Countries</p>
+              <p className="font-display text-3xl sm:text-4xl text-white">{beaches.length}</p>
+              <p className="text-sm text-ocean-300 mt-1">In-Depth Guides</p>
             </div>
             <div>
               <p className="font-display text-3xl sm:text-4xl text-white">8</p>
@@ -68,7 +68,10 @@ export default function HomePage() {
             </Link>
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {beaches.map((beach) => (
+            {beaches
+              .sort((a, b) => (b.notability_score ?? 0) - (a.notability_score ?? 0))
+              .slice(0, 6)
+              .map((beach) => (
               <BeachCard
                 key={beach.slug}
                 slug={beach.slug}
