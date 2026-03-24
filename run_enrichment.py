@@ -49,6 +49,16 @@ def show_status(conn):
     ).fetchone()[0]
     print(f"Best months: {with_best:,} / {total:,} ({with_best * 100 // max(total, 1)}%)")
 
+    with_shark = conn.execute(
+        "SELECT COUNT(*) FROM beaches WHERE shark_incidents_total IS NOT NULL"
+    ).fetchone()[0]
+    print(f"Shark incidents: {with_shark:,} / {total:,} ({with_shark * 100 // max(total, 1)}%)")
+
+    with_notability = conn.execute(
+        "SELECT COUNT(*) FROM beaches WHERE notability_score IS NOT NULL"
+    ).fetchone()[0]
+    print(f"Notability score: {with_notability:,} / {total:,} ({with_notability * 100 // max(total, 1)}%)")
+
     try:
         logs = conn.execute(
             "SELECT script_name, phase, status, total_processed, started_at, completed_at FROM enrichment_log ORDER BY started_at DESC LIMIT 10"
@@ -64,7 +74,7 @@ def show_status(conn):
 def main():
     parser = argparse.ArgumentParser(description="Beach enrichment pipeline")
     parser.add_argument("--db", default="output/world_beaches.db", help="Database path")
-    parser.add_argument("--phase", type=int, choices=[1, 2], help="Run specific phase only")
+    parser.add_argument("--phase", type=int, choices=[1, 2, 3], help="Run specific phase only")
     parser.add_argument("--max-cells", type=int, help="Limit grid cells to fetch (Phase 1)")
     parser.add_argument("--status", action="store_true", help="Show enrichment status")
     args = parser.parse_args()
@@ -91,6 +101,27 @@ def main():
         from src.enrich.best_months import enrich_best_months_and_swim
         print("\n=== Phase 2b: Best Months + Swim Suitability ===")
         enrich_best_months_and_swim(conn)
+
+    if args.phase is None or args.phase == 3:
+        from src.enrich.eav_migration import migrate_eav_to_flat
+        print("\n=== Phase 3a: EAV Migration ===")
+        migrate_eav_to_flat(conn)
+
+        from src.enrich.wikidata_editorial import enrich_wikidata_editorial
+        print("\n=== Phase 3b: Wikidata Editorial ===")
+        enrich_wikidata_editorial(conn)
+
+        from src.enrich.shark_incidents import enrich_shark_incidents
+        print("\n=== Phase 3c: Shark Incidents ===")
+        enrich_shark_incidents(conn)
+
+        from src.enrich.popularity import enrich_notability
+        print("\n=== Phase 3d: Notability Scoring ===")
+        enrich_notability(conn)
+
+        from src.enrich.best_months import update_data_completeness
+        print("\n=== Phase 3e: Data Completeness ===")
+        update_data_completeness(conn)
 
     show_status(conn)
     conn.close()
