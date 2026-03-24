@@ -3,8 +3,8 @@
   "name": "Waikīkī Beach",
   "centroid_lat": 21.2740616,
   "centroid_lng": -157.8262825,
-  "country_code": "US",
-  "admin_level_1": "Hawaii",
+  "country_code": null,
+  "admin_level_1": null,
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -14,16 +14,6 @@
       "source_name": "osm",
       "source_id": "way/218679862",
       "source_url": "https://www.openstreetmap.org/way/218679862"
-    },
-    {
-      "source_name": "geonames",
-      "source_id": "5854384",
-      "source_url": "https://www.geonames.org/5854384"
-    },
-    {
-      "source_name": "overture",
-      "source_id": "91dc4d60-20cf-421d-b867-bd5f4df34ecb",
-      "source_url": "https://overturemaps.org"
     }
   ],
   "attributes": {
@@ -36,5 +26,17 @@
     "surfing": {
       "surfing_available": true
     }
-  }
+  },
+  "nearest_city": "Honolulu",
+  "nearest_city_distance_km": 4.9,
+  "nearest_airport": {
+    "iata": "HNL",
+    "name": "Daniel K. Inouye International Airport",
+    "distance_km": 11.4
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "notability_score": 0.0,
+  "data_completeness_pct": 12.5
 }
