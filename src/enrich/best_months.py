@@ -185,6 +185,37 @@ def enrich_best_months_and_swim(conn) -> int:
     return count
 
 
+# Fields that count toward data completeness (enrichment fields only, not base fields)
+_COMPLETENESS_FIELDS = [
+    "sand_color", "coastal_type", "orientation_deg", "elevation_m", "nearshore_depth_m",
+    "nearest_city", "nearest_airport_iata",
+    "climate_air_temp_high", "climate_rain_mm", "climate_sun_hours",
+    "ocean_water_temp", "ocean_wave_height_m",
+    "tide_range_spring_m", "tide_type",
+    "water_quality_rating", "blue_flag",
+    "has_parking", "has_restrooms",
+    "protected_area_name", "species_observed_count",
+    "wikipedia_url", "photo_count",
+    "best_months", "swim_suitability",
+]
+
+
+def update_data_completeness(conn) -> int:
+    """Compute data_completeness_pct for all beaches."""
+    total_fields = len(_COMPLETENESS_FIELDS)
+    case_expr = " + ".join(
+        f"CASE WHEN {f} IS NOT NULL THEN 1 ELSE 0 END" for f in _COMPLETENESS_FIELDS
+    )
+    conn.execute(
+        f"""UPDATE beaches SET data_completeness_pct =
+            ROUND(({case_expr}) * 100.0 / {total_fields}, 1)"""
+    )
+    conn.commit()
+    count = conn.execute("SELECT COUNT(*) FROM beaches WHERE data_completeness_pct > 0").fetchone()[0]
+    print(f"Data completeness: {count} beaches have >0% completeness")
+    return count
+
+
 if __name__ == "__main__":
     import sys
     from src.db.schema import get_connection
