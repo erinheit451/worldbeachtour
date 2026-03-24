@@ -8,7 +8,7 @@
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
+  "beach_length_m": 9000.0,
   "sources": [
     {
       "source_name": "wikidata",
@@ -30,9 +30,14 @@
     "distance_km": 20.2
   },
   "safety": {
+    "lifeguard": true,
     "shark_incidents_total": 0
   },
+  "facilities": {
+    "restrooms": true,
+    "showers": true
+  },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Manly_Beach",
-  "notability_score": 1.3,
-  "data_completeness_pct": 16.7
+  "notability_score": 29.7,
+  "data_completeness_pct": 29.2
 }

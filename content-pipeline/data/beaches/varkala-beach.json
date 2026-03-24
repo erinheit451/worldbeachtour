@@ -8,7 +8,7 @@
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
+  "beach_length_m": 1200.0,
   "sources": [
     {
       "source_name": "osm",
@@ -36,7 +36,10 @@
   "safety": {
     "shark_incidents_total": 0
   },
+  "facilities": {
+    "restrooms": true
+  },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Varkala_Beach",
-  "notability_score": 5.4,
-  "data_completeness_pct": 16.7
+  "notability_score": 36.0,
+  "data_completeness_pct": 25.0
 }

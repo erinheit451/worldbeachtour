@@ -3,8 +3,8 @@
   "name": "Cala Goloritzè",
   "centroid_lat": 40.1080358,
   "centroid_lng": 9.6897108,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "IT",
+  "admin_level_1": "Sardinia",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "pebble",
@@ -33,5 +33,22 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20Goloritz%C3%A9%201.JPG",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Cala_Goloritz%C3%A9"
     }
-  }
+  },
+  "nearest_city": "Baunei",
+  "nearest_city_distance_km": 8.8,
+  "nearest_airport": {
+    "iata": "OLB",
+    "name": "Olbia Costa Smeralda Airport",
+    "distance_km": 89.1
+  },
+  "safety": {
+    "lifeguard": false,
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "wheelchair_accessible": false
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cala_Goloritz%C3%A9",
+  "notability_score": 31.8,
+  "data_completeness_pct": 20.8
 }

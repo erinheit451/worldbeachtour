@@ -8,7 +8,7 @@
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
-  "beach_length_m": null,
+  "beach_length_m": 1400.0,
   "sources": [
     {
       "source_name": "osm",
@@ -29,11 +29,12 @@
     "distance_km": 60.2
   },
   "safety": {
+    "lifeguard": false,
     "shark_incidents_total": 0
   },
   "facilities": {
     "wheelchair_accessible": false
   },
   "notability_score": 0.0,
-  "data_completeness_pct": 12.5
+  "data_completeness_pct": 16.7
 }

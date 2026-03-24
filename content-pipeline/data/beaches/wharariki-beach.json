@@ -3,8 +3,8 @@
   "name": "Wharariki Beach",
   "centroid_lat": -40.5027833,
   "centroid_lng": 172.6782452,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "NZ",
+  "admin_level_1": "Tasman",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -29,5 +29,21 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wharariki%20Beach%20and%20Archway%20Islands.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Wharariki_Beach"
     }
-  }
+  },
+  "nearest_city": "Takaka",
+  "nearest_city_distance_km": 40.0,
+  "nearest_airport": {
+    "iata": "NSN",
+    "name": "Nelson Airport",
+    "distance_km": 99.5
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "wheelchair_accessible": false
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Wharariki_Beach",
+  "notability_score": 31.4,
+  "data_completeness_pct": 20.8
 }

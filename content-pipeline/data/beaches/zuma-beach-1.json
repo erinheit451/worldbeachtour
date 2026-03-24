@@ -3,8 +3,8 @@
   "name": "Zuma Beach",
   "centroid_lat": 34.0162,
   "centroid_lng": -118.822,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "California",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -21,5 +21,18 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Zuma%20Beach%2C%20Malibu.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Zuma_Beach"
     }
-  }
+  },
+  "nearest_city": "Malibu",
+  "nearest_city_distance_km": 1.7,
+  "nearest_airport": {
+    "iata": "NTD",
+    "name": "Point Mugu Naval Air Station (Naval Base Ventura Co)",
+    "distance_km": 29.9
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Zuma_Beach",
+  "notability_score": 28.6,
+  "data_completeness_pct": 16.7
 }

@@ -8,7 +8,7 @@
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
-  "beach_length_m": null,
+  "beach_length_m": 4345.0,
   "sources": [
     {
       "source_name": "osm",
@@ -46,9 +46,11 @@
     "shark_incidents_total": 0
   },
   "facilities": {
+    "restrooms": true,
+    "showers": true,
     "dogs_allowed": false
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Coney_Island",
-  "notability_score": 15.2,
-  "data_completeness_pct": 16.7
+  "notability_score": 44.3,
+  "data_completeness_pct": 29.2
 }

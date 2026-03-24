@@ -5,10 +5,10 @@
   "centroid_lng": -157.8262825,
   "country_code": "US",
   "admin_level_1": "Hawaii",
-  "admin_level_2": null,
+  "admin_level_2": "Honolulu",
   "water_body_type": "ocean",
   "substrate_type": "sand",
-  "beach_length_m": null,
+  "beach_length_m": 3219.0,
   "sources": [
     {
       "source_name": "osm",
@@ -35,8 +35,14 @@
     "distance_km": 11.4
   },
   "safety": {
+    "lifeguard": true,
     "shark_incidents_total": 0
   },
-  "notability_score": 0.0,
-  "data_completeness_pct": 12.5
+  "facilities": {
+    "restrooms": true,
+    "showers": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Waik%C4%ABk%C4%AB",
+  "notability_score": 33.9,
+  "data_completeness_pct": 29.2
 }

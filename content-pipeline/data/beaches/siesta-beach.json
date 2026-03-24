@@ -8,7 +8,7 @@
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
-  "beach_length_m": null,
+  "beach_length_m": 3100.0,
   "sources": [
     {
       "source_name": "osm",
@@ -35,9 +35,10 @@
     "distance_km": 14.4
   },
   "safety": {
+    "lifeguard": true,
     "shark_incidents_total": 0
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Siesta_Beach",
-  "notability_score": 3.7,
-  "data_completeness_pct": 16.7
+  "notability_score": 32.0,
+  "data_completeness_pct": 20.8
 }

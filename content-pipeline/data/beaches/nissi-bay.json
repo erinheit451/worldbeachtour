@@ -4,11 +4,11 @@
   "centroid_lat": 34.9868,
   "centroid_lng": 33.9671,
   "country_code": "CY",
-  "admin_level_1": null,
+  "admin_level_1": "Ammochostos",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
+  "beach_length_m": 3200.0,
   "sources": [
     {
       "source_name": "osm",
@@ -50,9 +50,15 @@
   },
   "safety": {
     "water_quality_rating": "1 - excellent",
+    "lifeguard": true,
     "shark_incidents_total": 0
   },
+  "facilities": {
+    "parking": true,
+    "restrooms": true,
+    "showers": true
+  },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Nissi_Beach",
-  "notability_score": 8.8,
-  "data_completeness_pct": 20.8
+  "notability_score": 37.1,
+  "data_completeness_pct": 37.5
 }

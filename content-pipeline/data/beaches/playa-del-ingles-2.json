@@ -3,8 +3,8 @@
   "name": "Playa del Inglés",
   "centroid_lat": 27.75,
   "centroid_lng": -15.58056,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "ES",
+  "admin_level_1": "Canary Islands",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -21,5 +21,18 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20des%20ingles%20shoppingbeach.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_del_Ingl%C3%A9s"
     }
-  }
+  },
+  "nearest_city": "Playa del Ingles",
+  "nearest_city_distance_km": 0.8,
+  "nearest_airport": {
+    "iata": "LPA",
+    "name": "Gran Canaria Airport",
+    "distance_km": 27.8
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_del_Ingl%C3%A9s",
+  "notability_score": 28.4,
+  "data_completeness_pct": 16.7
 }

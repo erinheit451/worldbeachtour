@@ -3,8 +3,8 @@
   "name": "Baker Beach",
   "centroid_lat": 37.7930265,
   "centroid_lng": -122.4848009,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "California",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -30,5 +30,21 @@
     "facilities": {
       "access": "yes"
     }
-  }
+  },
+  "nearest_city": "Sausalito",
+  "nearest_city_distance_km": 7.3,
+  "nearest_airport": {
+    "iata": "SFO",
+    "name": "San Francisco International Airport",
+    "distance_km": 21.6
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "restrooms": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Baker_Beach",
+  "notability_score": 31.3,
+  "data_completeness_pct": 25.0
 }

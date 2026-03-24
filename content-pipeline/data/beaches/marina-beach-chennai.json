@@ -8,7 +8,7 @@
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
+  "beach_length_m": 13000.0,
   "sources": [
     {
       "source_name": "osm",
@@ -42,7 +42,10 @@
   "safety": {
     "shark_incidents_total": 0
   },
+  "facilities": {
+    "parking": true
+  },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Marina_Beach",
-  "notability_score": 10.5,
-  "data_completeness_pct": 16.7
+  "notability_score": 42.8,
+  "data_completeness_pct": 29.2
 }

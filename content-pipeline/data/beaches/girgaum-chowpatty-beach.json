@@ -3,8 +3,8 @@
   "name": "Girgaum Chowpatty Beach",
   "centroid_lat": 18.9543869,
   "centroid_lng": 72.8114236,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "IN",
+  "admin_level_1": "Maharashtra",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -31,5 +31,18 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Mumbai%2C%20India%2C%20Bombay%2C%20Chowpatty%20%28Chaupati%29%20Beach.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Girgaon_Chowpatty"
     }
-  }
+  },
+  "nearest_city": "Mumbai",
+  "nearest_city_distance_km": 15.1,
+  "nearest_airport": {
+    "iata": "BOM",
+    "name": "Chhatrapati Shivaji Maharaj International Airport",
+    "distance_km": 16.1
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Girgaon_Chowpatty",
+  "notability_score": 33.7,
+  "data_completeness_pct": 20.8
 }

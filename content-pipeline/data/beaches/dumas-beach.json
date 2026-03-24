@@ -3,8 +3,8 @@
   "name": "Dumas Beach",
   "centroid_lat": 21.07916667,
   "centroid_lng": 72.71527778,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "IN",
+  "admin_level_1": "Gujarat",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -21,5 +21,18 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Dumasbeach1.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Dumas_Beach"
     }
-  }
+  },
+  "nearest_city": "Surat",
+  "nearest_city_distance_km": 17.6,
+  "nearest_airport": {
+    "iata": "STV",
+    "name": "Surat International Airport",
+    "distance_km": 5.0
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dumas_Beach",
+  "notability_score": 29.2,
+  "data_completeness_pct": 20.8
 }

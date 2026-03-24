@@ -8,7 +8,7 @@
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
-  "beach_length_m": null,
+  "beach_length_m": 1300.0,
   "sources": [
     {
       "source_name": "osm",
@@ -37,7 +37,10 @@
   "safety": {
     "shark_incidents_total": 0
   },
+  "facilities": {
+    "restrooms": true
+  },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Maho_Beach",
-  "notability_score": 4.7,
-  "data_completeness_pct": 16.7
+  "notability_score": 34.8,
+  "data_completeness_pct": 25.0
 }

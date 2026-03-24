@@ -8,7 +8,7 @@
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
-  "beach_length_m": null,
+  "beach_length_m": 2900.0,
   "sources": [
     {
       "source_name": "osm",
@@ -38,9 +38,10 @@
     "distance_km": 8.5
   },
   "safety": {
+    "lifeguard": false,
     "shark_incidents_total": 0
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Lanikai_Beach",
-  "notability_score": 3.8,
-  "data_completeness_pct": 16.7
+  "notability_score": 32.0,
+  "data_completeness_pct": 25.0
 }

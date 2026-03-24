@@ -8,7 +8,7 @@
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
+  "beach_length_m": 400.0,
   "sources": [
     {
       "source_name": "wikidata",
@@ -30,9 +30,10 @@
     "distance_km": 50.7
   },
   "safety": {
+    "lifeguard": true,
     "shark_incidents_total": 0
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Puri_Beach",
-  "notability_score": 1.4,
-  "data_completeness_pct": 16.7
+  "notability_score": 30.0,
+  "data_completeness_pct": 20.8
 }

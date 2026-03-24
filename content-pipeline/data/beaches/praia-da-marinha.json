@@ -8,7 +8,7 @@
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
+  "beach_length_m": 3700.0,
   "sources": [
     {
       "source_name": "osm",
@@ -57,7 +57,11 @@
     "water_quality_rating": "1 - excellent",
     "shark_incidents_total": 0
   },
+  "facilities": {
+    "parking": true,
+    "restrooms": true
+  },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_da_Marinha",
-  "notability_score": 11.3,
-  "data_completeness_pct": 20.8
+  "notability_score": 40.8,
+  "data_completeness_pct": 37.5
 }
