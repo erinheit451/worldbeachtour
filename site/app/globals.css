@@ -1,2 +1,119 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
+
+@theme {
+  --color-ocean-50: #f0f9ff;
+  --color-ocean-100: #e0f2fe;
+  --color-ocean-200: #bae6fd;
+  --color-ocean-300: #7dd3fc;
+  --color-ocean-400: #38bdf8;
+  --color-ocean-500: #0ea5e9;
+  --color-ocean-600: #0284c7;
+  --color-ocean-700: #0369a1;
+  --color-ocean-800: #075985;
+  --color-ocean-900: #0c4a6e;
+  --color-ocean-950: #082f49;
+
+  --color-sand-50: #fefce8;
+  --color-sand-100: #fef9c3;
+  --color-sand-200: #fef08a;
+  --color-sand-300: #fde047;
+  --color-sand-400: #facc15;
+  --color-sand-500: #eab308;
+  --color-sand-600: #ca8a04;
+  --color-sand-700: #a16207;
+  --color-sand-800: #854d0e;
+  --color-sand-900: #713f12;
+
+  --color-reef-50: #ecfdf5;
+  --color-reef-100: #d1fae5;
+  --color-reef-200: #a7f3d0;
+  --color-reef-300: #6ee7b7;
+  --color-reef-400: #34d399;
+  --color-reef-500: #10b981;
+  --color-reef-600: #059669;
+  --color-reef-700: #047857;
+  --color-reef-800: #065f46;
+  --color-reef-900: #064e3b;
+
+  --color-coral-50: #fff1f2;
+  --color-coral-100: #ffe4e6;
+  --color-coral-200: #fecdd3;
+  --color-coral-300: #fda4af;
+  --color-coral-400: #fb7185;
+  --color-coral-500: #f43f5e;
+
+  --color-volcanic-50: #f8fafc;
+  --color-volcanic-100: #f1f5f9;
+  --color-volcanic-200: #e2e8f0;
+  --color-volcanic-300: #cbd5e1;
+  --color-volcanic-400: #94a3b8;
+  --color-volcanic-500: #64748b;
+  --color-volcanic-600: #475569;
+  --color-volcanic-700: #334155;
+  --color-volcanic-800: #1e293b;
+  --color-volcanic-900: #0f172a;
+  --color-volcanic-950: #020617;
+
+  --font-serif: var(--font-dm-serif-display), Georgia, 'Times New Roman', serif;
+  --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
+}
+
+/* Base styles */
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Serif headings */
+.font-display {
+  font-family: var(--font-serif);
+}
+
+/* Prose customization for MDX content */
+.prose {
+  --tw-prose-headings: var(--color-volcanic-900);
+  --tw-prose-body: var(--color-volcanic-700);
+  --tw-prose-links: var(--color-ocean-700);
+}
+
+.prose h2 {
+  font-family: var(--font-serif);
+  letter-spacing: -0.01em;
+}
+
+.prose h3 {
+  font-family: var(--font-serif);
+}
+
+/* Lens color system */
+.lens-travel { --lens-color: var(--color-ocean-500); --lens-bg: var(--color-ocean-50); }
+.lens-surf { --lens-color: #6366f1; --lens-bg: #eef2ff; }
+.lens-environment { --lens-color: var(--color-reef-600); --lens-bg: var(--color-reef-50); }
+.lens-family { --lens-color: #f59e0b; --lens-bg: #fffbeb; }
+.lens-photography { --lens-color: #8b5cf6; --lens-bg: #f5f3ff; }
+.lens-diving { --lens-color: #06b6d4; --lens-bg: #ecfeff; }
+.lens-history { --lens-color: #b45309; --lens-bg: #fffbeb; }
+.lens-sand { --lens-color: var(--color-sand-700); --lens-bg: var(--color-sand-50); }
+
+/* Scroll hint fade for tab bars */
+.scroll-fade-right {
+  mask-image: linear-gradient(to right, black 85%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, black 85%, transparent 100%);
+}
+
+/* Smooth scrollbar hide for tabs */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Smooth scroll for anchor links */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}

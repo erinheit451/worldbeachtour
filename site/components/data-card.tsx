@@ -6,12 +6,18 @@ interface DataCardProps {
 
 export default function DataCard({ label, value, unit }: DataCardProps) {
   return (
-    <div className="rounded-lg border border-gray-200 p-4">
-      <p className="text-xs uppercase tracking-wide text-gray-500">{label}</p>
-      <p className="text-lg font-semibold text-gray-900 mt-1">
+    <div className="not-prose inline-flex flex-col rounded-lg border border-volcanic-100 bg-volcanic-50/50 px-5 py-3.5 my-2 mr-2">
+      <span className="text-xs font-medium uppercase tracking-wider text-volcanic-400">
+        {label}
+      </span>
+      <span className="text-lg font-semibold text-volcanic-900 mt-0.5">
         {value}
-        {unit && <span className="text-sm font-normal text-gray-500 ml-1">{unit}</span>}
-      </p>
+        {unit && (
+          <span className="text-sm font-normal text-volcanic-400 ml-1.5">
+            {unit}
+          </span>
+        )}
+      </span>
     </div>
   );
 }
