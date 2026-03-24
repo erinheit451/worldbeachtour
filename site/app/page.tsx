@@ -1,5 +1,6 @@
 import Link from "next/link";
 import BeachCard from "@/components/beach-card";
+import LensIcon from "@/components/lens-icon";
 import { getAllBeaches } from "@/lib/beaches";
 
 export default function HomePage() {
@@ -100,22 +101,20 @@ export default function HomePage() {
           </p>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {[
-              { icon: "✈", label: "Travel", desc: "Getting there, where to stay, when to go" },
-              { icon: "🌊", label: "Surf", desc: "Wave conditions, breaks, skill levels" },
-              { icon: "🌿", label: "Environment", desc: "Water quality, ecosystems, conservation" },
-              { icon: "📷", label: "Photography", desc: "Compositions, golden hour, gear tips" },
-              { icon: "👨‍👩‍👧", label: "Family", desc: "Safety, facilities, kid-friendly activities" },
-              { icon: "🤿", label: "Diving", desc: "Marine life, visibility, dive sites" },
-              { icon: "📜", label: "History", desc: "Indigenous roots, mythology, modern story" },
-              { icon: "🏖", label: "Sand & Geology", desc: "Composition, formation, coastal science" },
+              { icon: "plane", label: "Travel", desc: "Getting there, where to stay, when to go" },
+              { icon: "waves", label: "Surf", desc: "Wave conditions, breaks, skill levels" },
+              { icon: "leaf", label: "Environment", desc: "Water quality, ecosystems, conservation" },
+              { icon: "camera", label: "Photography", desc: "Compositions, golden hour, gear tips" },
+              { icon: "users", label: "Family", desc: "Safety, facilities, kid-friendly activities" },
+              { icon: "anchor", label: "Diving", desc: "Marine life, visibility, dive sites" },
+              { icon: "scroll", label: "History", desc: "Indigenous roots, mythology, modern story" },
+              { icon: "mountain", label: "Sand & Geology", desc: "Composition, formation, coastal science" },
             ].map((lens) => (
               <div
                 key={lens.label}
-                className="rounded-xl bg-white border border-volcanic-100 p-5"
+                className="rounded-xl bg-white border border-volcanic-100 p-5 cursor-pointer transition-all duration-200 hover:shadow-md hover:border-ocean-200"
               >
-                <span className="text-2xl" role="img" aria-hidden="true">
-                  {lens.icon}
-                </span>
+                <LensIcon name={lens.icon} className="w-6 h-6 text-ocean-600" />
                 <h3 className="font-display text-lg text-volcanic-800 mt-3">
                   {lens.label}
                 </h3>
