@@ -1,6 +1,8 @@
 import { notFound } from "next/navigation";
 import LensSummaryCard from "@/components/lens-summary-card";
 import MapEmbed from "@/components/map-embed";
+import DataCard from "@/components/data-card";
+import Breadcrumbs from "@/components/breadcrumbs";
 import { getBeachData, getBeachMeta, getBeachMdx } from "@/lib/beaches";
 
 export default async function BeachOverviewPage({
@@ -13,24 +15,59 @@ export default async function BeachOverviewPage({
   const meta = getBeachMeta(slug);
   if (!data) notFound();
 
+  // Extract first meaningful paragraph from each lens MDX
   const summaries: Record<string, string> = {};
   for (const lensId of meta.lenses) {
     const mdx = getBeachMdx(slug, lensId);
     if (mdx) {
-      const firstParagraph = mdx
-        .split("\n")
-        .filter((line) => line.trim() && !line.startsWith("#") && !line.startsWith("import") && !line.startsWith("<"))
-        .slice(0, 1)
-        .join(" ")
-        .slice(0, 200);
-      summaries[lensId] = firstParagraph + (firstParagraph.length >= 200 ? "..." : "");
+      const lines = mdx.split("\n");
+      const paragraph = lines.find(
+        (line) =>
+          line.trim().length > 40 &&
+          !line.startsWith("#") &&
+          !line.startsWith("import") &&
+          !line.startsWith("<") &&
+          !line.startsWith("---") &&
+          !line.startsWith("*")
+      );
+      if (paragraph) {
+        const trimmed = paragraph.trim();
+        summaries[lensId] =
+          trimmed.length > 180 ? trimmed.slice(0, 180) + "..." : trimmed;
+      }
     }
   }
 
   return (
     <div>
-      <h2 className="text-2xl font-bold mb-6">Explore {data.name}</h2>
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 mb-8">
+      <Breadcrumbs
+        items={[
+          { label: "Beaches", href: "/beaches" },
+          { label: data.name },
+        ]}
+      />
+
+      {/* Quick facts */}
+      <div className="flex flex-wrap gap-3 mb-8">
+        {data.water_body_type && (
+          <DataCard label="Water Body" value={data.water_body_type} />
+        )}
+        {data.substrate_type && data.substrate_type !== "unknown" && (
+          <DataCard label="Sand Type" value={data.substrate_type} />
+        )}
+        {data.country_code && (
+          <DataCard label="Country" value={data.country_code} />
+        )}
+        {data.admin_level_1 && (
+          <DataCard label="Region" value={data.admin_level_1} />
+        )}
+      </div>
+
+      {/* Lens cards */}
+      <h2 className="font-display text-2xl text-volcanic-900 mb-6">
+        Explore {data.name}
+      </h2>
+      <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 mb-10">
         {meta.lenses.map((lensId) => (
           <LensSummaryCard
             key={lensId}
@@ -40,7 +77,13 @@ export default async function BeachOverviewPage({
           />
         ))}
       </div>
-      <MapEmbed lat={data.centroid_lat} lng={data.centroid_lng} name={data.name} />
+
+      {/* Map */}
+      <MapEmbed
+        lat={data.centroid_lat}
+        lng={data.centroid_lng}
+        name={data.name}
+      />
     </div>
   );
 }

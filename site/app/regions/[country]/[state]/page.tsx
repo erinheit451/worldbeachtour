@@ -1,4 +1,5 @@
 import BeachCard from "@/components/beach-card";
+import Breadcrumbs from "@/components/breadcrumbs";
 import {
   getBeachesByState,
   getCountries,
@@ -27,7 +28,6 @@ export default async function StatePage({
   const countryCode = country.toUpperCase();
   const stateName = decodeURIComponent(stateParam).replace(/-/g, " ");
 
-  // Find the actual state name (case-insensitive match)
   const states = getStatesByCountry(countryCode);
   const match = states.find(
     (s) => s.state.toLowerCase() === stateName.toLowerCase()
@@ -37,11 +37,23 @@ export default async function StatePage({
   const beaches = getBeachesByState(countryCode, actualState);
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6">
-        Beaches in {actualState}, {countryCode}
-      </h1>
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="mx-auto max-w-7xl px-4 py-12">
+      <Breadcrumbs
+        items={[
+          { label: "Regions", href: "/regions" },
+          { label: countryCode, href: `/regions/${country}` },
+          { label: actualState },
+        ]}
+      />
+      <div className="mb-10">
+        <h1 className="font-display text-4xl text-volcanic-900">
+          Beaches in {actualState}, {countryCode}
+        </h1>
+        <p className="text-volcanic-400 mt-2">
+          {beaches.length} {beaches.length === 1 ? "beach" : "beaches"}
+        </p>
+      </div>
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {beaches.map((beach) => (
           <BeachCard
             key={beach.slug}
