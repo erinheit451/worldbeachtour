@@ -115,12 +115,20 @@ def main():
         print("\n=== Phase 3c: Shark Incidents ===")
         enrich_shark_incidents(conn)
 
+        from src.enrich.wikipedia_pageviews import enrich_wikipedia_pageviews
+        print("\n=== Phase 3d: Wikipedia Page Views ===")
+        enrich_wikipedia_pageviews(conn)
+
+        from src.enrich.wikimedia_photos import enrich_wikimedia_photos
+        print("\n=== Phase 3e: Wikimedia Commons Photos (top 10k) ===")
+        enrich_wikimedia_photos(conn, limit=10_000)
+
         from src.enrich.popularity import enrich_notability
-        print("\n=== Phase 3d: Notability Scoring ===")
+        print("\n=== Phase 3f: Notability Scoring ===")
         enrich_notability(conn)
 
         from src.enrich.best_months import update_data_completeness
-        print("\n=== Phase 3e: Data Completeness ===")
+        print("\n=== Phase 3g: Data Completeness ===")
         update_data_completeness(conn)
 
     show_status(conn)
