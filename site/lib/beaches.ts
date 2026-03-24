@@ -24,6 +24,25 @@ export interface BeachData {
   beach_length_m: number | null;
   sources: { source_name: string; source_id: string; source_url: string }[];
   attributes: Record<string, Record<string, string | number | boolean>>;
+  // Enriched fields
+  nearest_city?: string;
+  nearest_city_distance_km?: number;
+  nearest_airport?: { iata: string; name: string; distance_km: number };
+  safety?: {
+    water_quality_rating?: string;
+    lifeguard?: boolean;
+    shark_incidents_total?: number;
+  };
+  facilities?: {
+    parking?: boolean;
+    restrooms?: boolean;
+    showers?: boolean;
+    wheelchair_accessible?: boolean;
+    dogs_allowed?: boolean;
+  };
+  wikipedia_url?: string;
+  notability_score?: number;
+  data_completeness_pct?: number;
 }
 
 export function getAllBeachSlugs(): string[] {
