@@ -21,15 +21,29 @@ def compute_notability_score(
     water_quality=None,
     species_count=0,
 ) -> float:
-    """Compute notability score 0-100."""
+    """Compute notability score 0-100.
+
+    Rebalanced: Wikipedia views use log scale (100K views = ~50 points)
+    so world-famous beaches clearly outrank local EU bathing sites.
+    """
+    import math
+    # Log-scale for page views: log10(100K) = 5, log10(1M) = 6, log10(10K) = 4
+    # Normalize log10(views) from 2 (100 views) to 6 (1M views) → 0-1
+    views = wikipedia_page_views or 0
+    if views > 0:
+        log_views = math.log10(max(views, 1))
+        views_score = _normalize(log_views, 2, 6) * 45  # 45% weight, log scale
+    else:
+        views_score = 0
+
     score = (
-        _normalize(wikipedia_page_views or 0, 0, 1_000_000) * 30 +
-        _normalize(wikidata_sitelinks or 0, 0, 50) * 20 +
-        _normalize(photo_count or 0, 0, 100) * 15 +
+        views_score +
+        _normalize(wikidata_sitelinks or 0, 0, 50) * 15 +
+        _normalize(photo_count or 0, 0, 100) * 10 +
         _normalize(source_count or 1, 1, 5) * 10 +
-        (10 if blue_flag else 0) +
-        (10 if water_quality == "excellent" else 0) +
-        _normalize(species_count or 0, 0, 500) * 5
+        (5 if blue_flag else 0) +
+        (5 if water_quality == "excellent" else 0) +
+        _normalize(species_count or 0, 0, 500) * 10
     )
     return round(score, 1)
 
