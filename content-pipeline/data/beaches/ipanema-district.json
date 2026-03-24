@@ -3,8 +3,8 @@
   "name": "Ipanema District",
   "centroid_lat": -22.983819444,
   "centroid_lng": -43.204527777,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "BR",
+  "admin_level_1": "Rio de Janeiro",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -21,5 +21,18 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ipaneman%20beach%20Rio%20de%20Janeirossa.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Ipanema"
     }
-  }
+  },
+  "nearest_city": "Rio de Janeiro",
+  "nearest_city_distance_km": 9.0,
+  "nearest_airport": {
+    "iata": "SDU",
+    "name": "Santos Dumont Airport",
+    "distance_km": 9.2
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ipanema",
+  "notability_score": 3.2,
+  "data_completeness_pct": 16.7
 }

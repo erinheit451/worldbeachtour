@@ -3,8 +3,8 @@
   "name": "Navagio",
   "centroid_lat": 37.859598197,
   "centroid_lng": 20.624872874,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "GR",
+  "admin_level_1": "Ionian Islands",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -21,5 +21,18 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Navagio%20beach%20Zakynthos.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Navagio_Beach"
     }
-  }
+  },
+  "nearest_city": "Katastarion",
+  "nearest_city_distance_km": 12.1,
+  "nearest_airport": {
+    "iata": "ZTH",
+    "name": "Zakynthos International Airport Dionysios Solomos",
+    "distance_km": 25.8
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Navagio_Beach",
+  "notability_score": 2.2,
+  "data_completeness_pct": 16.7
 }

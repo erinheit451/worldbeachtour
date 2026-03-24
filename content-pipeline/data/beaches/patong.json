@@ -3,8 +3,8 @@
   "name": "Patong",
   "centroid_lat": 7.89658,
   "centroid_lng": 98.29539,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "TH",
+  "admin_level_1": "Phuket",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -21,5 +21,18 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Patong%20Beach%20%281%29.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Patong"
     }
-  }
+  },
+  "nearest_city": "Patong",
+  "nearest_city_distance_km": 0.1,
+  "nearest_airport": {
+    "iata": "HKT",
+    "name": "Phuket International Airport",
+    "distance_km": 24.2
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Patong",
+  "notability_score": 2.0,
+  "data_completeness_pct": 16.7
 }

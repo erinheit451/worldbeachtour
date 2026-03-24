@@ -3,8 +3,8 @@
   "name": "Praia do Norte",
   "centroid_lat": 39.604416666,
   "centroid_lng": -9.085583333,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "PT",
+  "admin_level_1": "Leiria",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -21,5 +21,18 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Nazare%20North%20at%20sunset%202021%20-4%20%28wide%20with%20beach%29.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_do_Norte_(Nazar%C3%A9)"
     }
-  }
+  },
+  "nearest_city": "Nazare",
+  "nearest_city_distance_km": 1.5,
+  "nearest_airport": {
+    "iata": "LIS",
+    "name": "Lisbon Humberto Delgado Airport",
+    "distance_km": 91.6
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_do_Norte_(Nazar%C3%A9)",
+  "notability_score": 2.0,
+  "data_completeness_pct": 16.7
 }

@@ -3,8 +3,8 @@
   "name": "Glass Beach",
   "centroid_lat": 39.4536561,
   "centroid_lng": -123.8125443,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "California",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -31,5 +31,18 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Glass%20Beach%20Fort%20Bragg.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Glass_Beach_(Fort_Bragg,_California)"
     }
-  }
+  },
+  "nearest_city": "Fort Bragg",
+  "nearest_city_distance_km": 1.1,
+  "nearest_airport": {
+    "iata": "UKI",
+    "name": "Ukiah Municipal Airport",
+    "distance_km": 64.0
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Glass_Beach_(Fort_Bragg,_California)",
+  "notability_score": 7.8,
+  "data_completeness_pct": 16.7
 }

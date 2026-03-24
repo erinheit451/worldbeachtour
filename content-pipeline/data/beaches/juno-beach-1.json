@@ -3,8 +3,8 @@
   "name": "Juno Beach",
   "centroid_lat": 49.335277777,
   "centroid_lng": -0.415277777,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "FR",
+  "admin_level_1": "Lower Normandy",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -21,5 +21,18 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kanadische%20Truppen%20landen%20in%20der%20Normandie.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Juno_Beach"
     }
-  }
+  },
+  "nearest_city": "Bernieres-sur-Mer",
+  "nearest_city_distance_km": 0.8,
+  "nearest_airport": {
+    "iata": "CFR",
+    "name": "Caen Carpiquet airport",
+    "distance_km": 17.9
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Juno_Beach",
+  "notability_score": 4.3,
+  "data_completeness_pct": 16.7
 }

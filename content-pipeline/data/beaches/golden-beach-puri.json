@@ -3,8 +3,8 @@
   "name": "Golden Beach, Puri",
   "centroid_lat": 19.7949,
   "centroid_lng": 85.82497,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "IN",
+  "admin_level_1": "Odisha",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -21,5 +21,18 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Tierecke%208819%20-%20Puri%20beach.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Puri_Beach"
     }
-  }
+  },
+  "nearest_city": "Puri",
+  "nearest_city_distance_km": 0.4,
+  "nearest_airport": {
+    "iata": "BBI",
+    "name": "Biju Patnaik International Airport",
+    "distance_km": 50.7
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Puri_Beach",
+  "notability_score": 1.4,
+  "data_completeness_pct": 16.7
 }

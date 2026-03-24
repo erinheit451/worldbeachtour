@@ -40,5 +40,19 @@
       "water_quality_rating": "1 - excellent",
       "eu_bathing_water_type": "Coastal"
     }
-  }
+  },
+  "nearest_city": "Playa Blanca",
+  "nearest_city_distance_km": 0.2,
+  "nearest_airport": {
+    "iata": "ACE",
+    "name": "César Manrique-Lanzarote Airport",
+    "distance_km": 23.7
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_Blanca",
+  "notability_score": 9.0,
+  "data_completeness_pct": 20.8
 }

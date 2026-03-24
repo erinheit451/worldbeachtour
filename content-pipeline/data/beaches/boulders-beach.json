@@ -3,8 +3,8 @@
   "name": "Boulders Beach",
   "centroid_lat": -34.1980612,
   "centroid_lng": 18.4521659,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "ZA",
+  "admin_level_1": "Western Cape",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -26,5 +26,18 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Swimmers%20at%20Boulders%20Beach%2C%20Cape%20Town.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Boulders_Beach"
     }
-  }
+  },
+  "nearest_city": "Retreat",
+  "nearest_city_distance_km": 16.0,
+  "nearest_airport": {
+    "iata": "CPT",
+    "name": "Cape Town International Airport",
+    "distance_km": 28.6
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Boulders_Beach",
+  "notability_score": 4.0,
+  "data_completeness_pct": 16.7
 }

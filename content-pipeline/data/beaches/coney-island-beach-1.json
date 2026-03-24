@@ -3,8 +3,8 @@
   "name": "Coney Island Beach",
   "centroid_lat": 40.5728312,
   "centroid_lng": -73.9782436,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "New York",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -33,5 +33,22 @@
     "facilities": {
       "fee_required": false
     }
-  }
+  },
+  "nearest_city": "Coney Island",
+  "nearest_city_distance_km": 1.4,
+  "nearest_airport": {
+    "iata": "JFK",
+    "name": "John F. Kennedy International Airport",
+    "distance_km": 18.4
+  },
+  "safety": {
+    "lifeguard": false,
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "dogs_allowed": false
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Coney_Island",
+  "notability_score": 15.2,
+  "data_completeness_pct": 16.7
 }

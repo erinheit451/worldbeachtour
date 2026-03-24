@@ -3,8 +3,8 @@
   "name": "Siesta Beach",
   "centroid_lat": 27.2650178,
   "centroid_lng": -82.553578,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "Florida",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -26,5 +26,18 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Siesta%20Key%20Beach.%20Sarasota%20-%20panoramio%20-%204net%20%283%29.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Siesta_Beach"
     }
-  }
+  },
+  "nearest_city": "South Sarasota",
+  "nearest_city_distance_km": 3.1,
+  "nearest_airport": {
+    "iata": "SRQ",
+    "name": "Sarasota Bradenton International Airport",
+    "distance_km": 14.4
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Siesta_Beach",
+  "notability_score": 3.7,
+  "data_completeness_pct": 16.7
 }

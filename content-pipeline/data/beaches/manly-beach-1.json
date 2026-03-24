@@ -3,8 +3,8 @@
   "name": "Manly Beach",
   "centroid_lat": -33.789722222,
   "centroid_lng": 151.287777777,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "AU",
+  "admin_level_1": "New South Wales",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -21,5 +21,18 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Manly%20Beach%2C%20Manly%20from%20The%20Powerhouse%20Museum.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Manly_Beach"
     }
-  }
+  },
+  "nearest_city": "Manly",
+  "nearest_city_distance_km": 0.9,
+  "nearest_airport": {
+    "iata": "SYD",
+    "name": "Sydney Kingsford Smith International Airport",
+    "distance_km": 20.2
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Manly_Beach",
+  "notability_score": 1.3,
+  "data_completeness_pct": 16.7
 }

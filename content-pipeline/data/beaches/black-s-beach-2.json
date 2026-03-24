@@ -3,8 +3,8 @@
   "name": "Black's Beach",
   "centroid_lat": 32.8925,
   "centroid_lng": -117.253611111,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "California",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -21,5 +21,18 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Black%27s%20Beach%2C%20La%20Jolla%2C%20San%20Diego%2C%20California%2003.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Black%27s_Beach"
     }
-  }
+  },
+  "nearest_city": "La Jolla",
+  "nearest_city_distance_km": 5.4,
+  "nearest_airport": {
+    "iata": "NKX",
+    "name": "Miramar Marine Corps Air Station - Mitscher Field",
+    "distance_km": 10.7
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Black%27s_Beach",
+  "notability_score": 2.0,
+  "data_completeness_pct": 16.7
 }

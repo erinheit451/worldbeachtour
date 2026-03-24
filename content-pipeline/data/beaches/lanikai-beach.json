@@ -3,8 +3,8 @@
   "name": "Lanikai Beach",
   "centroid_lat": 21.3917353,
   "centroid_lng": -157.7155045,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "Hawaii",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -29,5 +29,18 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Lanikai%20Strand%20auf%20Oahu.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Lanikai_Beach"
     }
-  }
+  },
+  "nearest_city": "Kailua",
+  "nearest_city_distance_km": 2.9,
+  "nearest_airport": {
+    "iata": "NGF",
+    "name": "Kaneohe Bay MCAS (Marion E. Carl Field) Airport",
+    "distance_km": 8.5
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Lanikai_Beach",
+  "notability_score": 3.8,
+  "data_completeness_pct": 16.7
 }
