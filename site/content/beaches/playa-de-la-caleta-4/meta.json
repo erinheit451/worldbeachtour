@@ -1,9 +1,76 @@
 {
   "tier": 2,
-  "lenses": ["overview", "travel"],
+  "lenses": [
+    "overview",
+    "travel"
+  ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Playa_de_la_Caleta%2C_C%C3%A1diz%2C_Espa%C3%B1a%2C_2015-12-08%2C_DD_53.JPG",
+      "title": "Playa de la Caleta, C\u00e1diz, Espa\u00f1a, 2015-12-08, DD 53.JPG",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+      "license": "CC BY-SA 4.0",
+      "width": 8629,
+      "height": 4463,
+      "score": 95.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Playa_de_La_Caleta_en_C%C3%A1diz.JPG",
+        "title": "Playa de La Caleta en C\u00e1diz.JPG",
+        "license": "CC BY-SA 2.5",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2816,
+        "height": 2112
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Cadiz_playa_caleta.jpg",
+        "title": "Cadiz playa caleta.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 1536,
+        "height": 2048
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Alatriste_La_Caleta.jpg",
+        "title": "Alatriste La Caleta.jpg",
+        "license": "CC0",
+        "source_tier": 1,
+        "score": 70.0,
+        "width": 2760,
+        "height": 2052
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Playa_de_la_Caleta_en_C%C3%A1diz_-_panoramio.jpg",
+        "title": "Playa de la Caleta en C\u00e1diz - panoramio.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 70.0,
+        "width": 2592,
+        "height": 1944
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Castillo_de_San_Sebasti%C3%A1n_C%C3%A1diz_1.jpg",
+        "title": "Castillo de San Sebasti\u00e1n C\u00e1diz 1.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 65.0,
+        "width": 5230,
+        "height": 3465
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 50,
+      "tier_breakdown": {
+        "tier3": 27,
+        "tier1": 3,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

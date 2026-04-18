@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Mad_Crab.jpg",
+      "title": "Mad Crab.jpg",
+      "author": "<b><a href=\"https://en.wikipedia.org/wiki/User:Mydreamsparrow\" class=\"extiw\" title=\"w:User:Mydreamsparrow\">Augustus Binu</a>\u00a0: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/phot",
+      "license": "CC BY-SA 3.0",
+      "width": 3750,
+      "height": 2500,
+      "score": 100.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Fort-kochi-relics2.jpg",
+        "title": "Fort-kochi-relics2.jpg",
+        "license": "CC BY 2.5",
+        "source_tier": 1,
+        "score": 82.0,
+        "width": 1203,
+        "height": 800
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/%E0%B4%AB%E0%B5%8B%E0%B4%B0%E0%B5%8D%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B5%8D-%E0%B4%95%E0%B5%8A%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B4%BF-%E0%B4%9A%E0%B5%80%E0%B4%A8%E0%B4%B5%E0%B4%B2%E0%B4%95%E0%B5%BE.jpg",
+        "title": "\u0d2b\u0d4b\u0d30\u0d4d\u0d1f\u0d4d\u0d1f\u0d4d-\u0d15\u0d4a\u0d1a\u0d4d\u0d1a\u0d3f-\u0d1a\u0d40\u0d28\u0d35\u0d32\u0d15\u0d7e.jpg",
+        "license": "CC BY-SA 2.5",
+        "source_tier": 1,
+        "score": 70.0,
+        "width": 2595,
+        "height": 1448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Fort_Kochi_Beach_Walk_Way_DSC01075.JPG",
+        "title": "Fort Kochi Beach Walk Way DSC01075.JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 4320,
+        "height": 3240
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Fort_Kochi_Beach_Walk_Way_DSC01048.JPG",
+        "title": "Fort Kochi Beach Walk Way DSC01048.JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 55.0,
+        "width": 4320,
+        "height": 3240
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Fort_Kochi_2018-04-01e.jpg",
+        "title": "Fort Kochi 2018-04-01e.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 4577,
+        "height": 2726
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 62,
+      "tier_breakdown": {
+        "tier3": 39,
+        "tier1": 3,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

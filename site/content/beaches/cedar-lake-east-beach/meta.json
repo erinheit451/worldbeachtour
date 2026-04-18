@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Frieda_and_Henry_J._Neils_House.jpg",
+      "title": "Frieda and Henry J. Neils House.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:McGhiever\" title=\"User:McGhiever\">McGhiever</a>",
+      "license": "CC BY 4.0",
+      "width": 4436,
+      "height": 2010,
+      "score": 50.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Hidden-Beach-Mud-Pit-06.JPG",
+        "title": "Hidden-Beach-Mud-Pit-06.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Formerlifeguardtower.JPG",
+        "title": "Formerlifeguardtower.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Hidden_beach_winter.jpg",
+        "title": "Hidden beach winter.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Hidden-Beach-Packed.jpg",
+        "title": "Hidden-Beach-Packed.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 46.8,
+        "width": 600,
+        "height": 450
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Beachthen2.jpg",
+        "title": "Beachthen2.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 44.6,
+        "width": 960,
+        "height": 640
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 31,
+      "tier_breakdown": {
+        "tier1": 5,
+        "tier2": 20,
+        "tier3": 6
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

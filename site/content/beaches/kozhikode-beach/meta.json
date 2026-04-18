@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Calicut_beach_skyline.jpg",
+      "title": "Calicut beach skyline.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bidhunkrishna&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bidhunkrishna (page does not exist)\">Bidhunkrishna</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 5184,
+      "height": 3888,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Kozhikode_Beach_Coastline.jpg",
+        "title": "Kozhikode Beach Coastline.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 3010,
+        "height": 1292
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Kannam_Parambu_Masjidh%2C_Kozhikode.jpg",
+        "title": "Kannam Parambu Masjidh, Kozhikode.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 72.0,
+        "width": 803,
+        "height": 1245
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Kozhikkod_beach.JPG",
+        "title": "Kozhikkod beach.JPG",
+        "license": "CC0",
+        "source_tier": 1,
+        "score": 58.5,
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Kozhikode_Beach_01315.JPG",
+        "title": "Kozhikode Beach 01315.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Kozhikode_Beach_01603.JPG",
+        "title": "Kozhikode Beach 01603.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 6000,
+        "height": 4000
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 72,
+      "tier_breakdown": {
+        "tier1": 5,
+        "tier3": 47,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

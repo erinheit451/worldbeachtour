@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/2022_03_Nissi_beach_1.jpg",
+      "title": "2022 03 Nissi beach 1.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Qasinka\" title=\"User:Qasinka\">Qasinka</a>",
+      "license": "CC0",
+      "width": 4608,
+      "height": 3456,
+      "score": 55.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Ayia_Napa_beach2_by_Paride.JPG",
+        "title": "Ayia Napa beach2 by Paride.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Cyprus_relief_location_map.jpg",
+        "title": "Cyprus relief location map.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 2126,
+        "height": 1268
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Pla%C5%BEa_Nissi.jpg",
+        "title": "Pla\u017ea Nissi.jpg",
+        "license": "CC0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 4080,
+        "height": 3060
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/2022_03_Nissi_beach_2.jpg",
+        "title": "2022 03 Nissi beach 2.jpg",
+        "license": "CC0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 4608,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Agia_Napa_Nissi_Beach_4.jpg",
+        "title": "Agia Napa Nissi Beach 4.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 4536,
+        "height": 2892
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 66,
+      "tier_breakdown": {
+        "tier1": 6,
+        "tier3": 40,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

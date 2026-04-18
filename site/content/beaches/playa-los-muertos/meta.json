@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Playa_de_Los_Muertos.jpg",
+      "title": "Playa de Los Muertos.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Melikamp\" title=\"User:Melikamp\">Melikamp</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 4161,
+      "height": 2706,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Puerto_Vallarta%2C_Jalisco%2C_Mexico_%28March_2023%29_-_113.jpg",
+        "title": "Puerto Vallarta, Jalisco, Mexico (March 2023) - 113.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 55.0,
+        "width": 3883,
+        "height": 2912
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Puerto_Vallarta%2C_Jalisco%2C_2025_-_149.jpg",
+        "title": "Puerto Vallarta, Jalisco, 2025 - 149.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 55.0,
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Playa_de_Los_Muertos_%2816280162494%29.jpg",
+        "title": "Playa de Los Muertos (16280162494).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 46.5,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Puerto_Vallarta%2C_MX_%282023%29_-_015.jpg",
+        "title": "Puerto Vallarta, MX (2023) - 015.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Puerto_Vallarta%2C_MX_%282023%29_-_014.jpg",
+        "title": "Puerto Vallarta, MX (2023) - 014.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 4032,
+        "height": 3024
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 37,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier2": 20,
+        "tier3": 15
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

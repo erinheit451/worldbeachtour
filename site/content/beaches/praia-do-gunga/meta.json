@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Praia-do-gunga-2012-09-22.JPG",
+      "title": "Praia-do-gunga-2012-09-22.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Lageandre\" title=\"User:Lageandre\">Andr\u00e9 Lage Freitas</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 4288,
+      "height": 2848,
+      "score": 45.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Flag_map_of_Alagoas.png",
+        "title": "Flag map of Alagoas.png",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 2371,
+        "height": 1275
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Praia_do_Gunga_140.jpg",
+        "title": "Praia do Gunga 140.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 3072,
+        "height": 2304
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Barra_de_S%C3%A3o_Miguel_%26_Praia_do_Gunga.jpg",
+        "title": "Barra de S\u00e3o Miguel & Praia do Gunga.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 2048,
+        "height": 1345
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/A_fazenda_de_coqueiros_e_o_mar.JPG",
+        "title": "A fazenda de coqueiros e o mar.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 3200,
+        "height": 2400
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_rede_das_redes_%2812204061944%29.jpg",
+        "title": "A rede das redes (12204061944).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 3872,
+        "height": 2592
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 42,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier3": 29,
+        "tier2": 10
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Pink_Hibiscus_at_Varkala.jpg",
+      "title": "Pink Hibiscus at Varkala.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Shishirdasika\" title=\"User:Shishirdasika\">Shishirdasika</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 3264,
+      "height": 2448,
+      "score": 70.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Little_egret_at_Varkala_beach_11.jpg",
+        "title": "Little egret at Varkala beach 11.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 65.0,
+        "width": 5184,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Varkala_natural_spring.JPG",
+        "title": "Varkala natural spring.JPG",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 60.8,
+        "width": 720,
+        "height": 960
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Cliffs_Varkala.jpg",
+        "title": "Cliffs Varkala.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Papanasam_beach%2C_Varkala.jpg",
+        "title": "Papanasam beach, Varkala.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/%E0%B4%B5%E0%B5%BC%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B4%B2_%E0%B4%95%E0%B5%8D%E0%B4%B2%E0%B4%BF%E0%B4%AB%E0%B5%8D.jpg",
+        "title": "\u0d35\u0d7c\u0d15\u0d4d\u0d15\u0d32 \u0d15\u0d4d\u0d32\u0d3f\u0d2b\u0d4d.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 5184,
+        "height": 3384
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 73,
+      "tier_breakdown": {
+        "tier3": 47,
+        "tier1": 6,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

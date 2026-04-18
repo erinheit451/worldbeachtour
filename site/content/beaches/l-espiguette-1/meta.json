@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/LeGrau5.JPG",
+      "title": "LeGrau5.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Gonedelyon\" title=\"User:Gonedelyon\">Gonedelyon</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 4000,
+      "height": 3000,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Ammophila_arenaria_-_Plage_de_l%27Espiguette_02.jpg",
+        "title": "Ammophila arenaria - Plage de l'Espiguette 02.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 7360,
+        "height": 4912
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Ammophila_arenaria_-_Plage_de_l%27Espiguette_01.jpg",
+        "title": "Ammophila arenaria - Plage de l'Espiguette 01.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 7360,
+        "height": 4912
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Le_Grau_du_Roi-Pointe_de_l%27Espiguette-Phare-20150424.jpg",
+        "title": "Le Grau du Roi-Pointe de l'Espiguette-Phare-20150424.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 5472,
+        "height": 3648
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Le_Grau_du_Roi-Pointe_de_l%27Espiguette-Zone_humide-20150424.jpg",
+        "title": "Le Grau du Roi-Pointe de l'Espiguette-Zone humide-20150424.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 5472,
+        "height": 3648
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Le_Grau_du_Roi-Dunes_de_la_plage_de_l%27Espiguette-20210213.jpg",
+        "title": "Le Grau du Roi-Dunes de la plage de l'Espiguette-20210213.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 5473,
+        "height": 3648
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 32,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 30,
+        "tier2": 1
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Sunbeam_350HP_%27Bluebird%27.jpg",
+      "title": "Sunbeam 350HP 'Bluebird'.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Thruxton\" title=\"User:Thruxton\">Thruxton</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 5184,
+      "height": 2307,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Pendine_Sands_in_September_2008.jpg",
+        "title": "Pendine Sands in September 2008.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2032,
+        "height": 1515
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Bluebird_land_speed_record_car_1927_n041927.jpg",
+        "title": "Bluebird land speed record car 1927 n041927.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 75.2,
+        "width": 600,
+        "height": 346
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Parry_Thomas_and_Babs%2C_Pendine%2C_April_1926_%28Our_Generation%2C_1938%29.jpg",
+        "title": "Parry Thomas and Babs, Pendine, April 1926 (Our Generation, 1938).jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 64.0,
+        "width": 2360,
+        "height": 931
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Blue_Bird%2C_Pendine%2C_January_1927_%28Our_Generation%2C_1938%29.jpg",
+        "title": "Blue Bird, Pendine, January 1927 (Our Generation, 1938).jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 62.9,
+        "width": 2620,
+        "height": 859
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Babs_in_Museum_of_Speed%2C_Pendine_%285747%29.jpg",
+        "title": "Babs in Museum of Speed, Pendine (5747).jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 4288,
+        "height": 2848
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 58,
+      "tier_breakdown": {
+        "tier1": 5,
+        "tier3": 50,
+        "tier2": 3
+      },
+      "hero_auto_selected": true
+    }
   }
 }

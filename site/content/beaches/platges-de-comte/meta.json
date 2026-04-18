@@ -1,6 +1,76 @@
 {
   "tier": 2,
-  "lenses": ["overview", "travel"],
+  "lenses": [
+    "overview",
+    "travel"
+  ],
   "custom": [],
-  "images": { "hero": "", "gallery": [] }
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Cala_Conta_17_May_2011.JPG",
+      "title": "Cala Conta 17 May 2011.JPG",
+      "author": "stavros1",
+      "license": "CC BY 3.0",
+      "width": 4000,
+      "height": 3000,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Cala_Conta_Ibiza_17_May_2011_%282%29.JPG",
+        "title": "Cala Conta Ibiza 17 May 2011 (2).JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/2016_Ibiza_Platja_de_Comte.jpg",
+        "title": "2016 Ibiza Platja de Comte.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 58.0,
+        "width": 1304,
+        "height": 869
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Cala_Conta_Ibiza_17_May_2011_%281%29.JPG",
+        "title": "Cala Conta Ibiza 17 May 2011 (1).JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Sunset_Ashram_beach_Bar%2C_Cala_Conta_Tuesday_29_May_2012.JPG",
+        "title": "Sunset Ashram beach Bar, Cala Conta Tuesday 29 May 2012.JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/View_from_Beach_Bar_Cala_Conta_17_May_2011_%281%29.JPG",
+        "title": "View from Beach Bar Cala Conta 17 May 2011 (1).JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 4000,
+        "height": 3000
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 37,
+      "tier_breakdown": {
+        "tier1": 7,
+        "tier3": 10,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
+  }
 }

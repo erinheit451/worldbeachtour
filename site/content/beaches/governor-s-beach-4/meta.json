@@ -1,1 +1,66 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Small_wooden_pier_in_one_of_the_Governor%27s_Beach_bays%2C_Limassol%2C_Cyprus_%28PPL1-Corrected%29_julesvernex2.jpg",
+      "title": "Small wooden pier in one of the Governor's Beach bays, Limassol, Cyprus (PPL1-Corrected) julesvernex2.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Julesvernex2\" title=\"User:Julesvernex2\">Jules Verne Times Two</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 5916,
+      "height": 3794,
+      "score": 30.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Cyprus_relief_location_map.jpg",
+        "title": "Cyprus relief location map.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 2126,
+        "height": 1268
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Governor%27s_Beach.JPG",
+        "title": "Governor's Beach.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 41.2,
+        "width": 1000,
+        "height": 749
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Governor%27s_Beach%2C_Cyprus_-_panoramio_%2858%29.jpg",
+        "title": "Governor's Beach, Cyprus - panoramio (58).jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 5472,
+        "height": 3648
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Sunset_at_Governor%27s_Beach%2C_Cyprus_-_panoramio.jpg",
+        "title": "Sunset at Governor's Beach, Cyprus - panoramio.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 1920,
+        "height": 1280
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 5,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier2": 3
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/View_of_coastal_scrub_near_Cheviot_Hill_at_Point_Nepean_in_Portsea%2C_Victoria.jpg",
+      "title": "View of coastal scrub near Cheviot Hill at Point Nepean in Portsea, Victoria.jpg",
+      "author": "Philip Mallis",
+      "license": "CC BY-SA 4.0",
+      "width": 4080,
+      "height": 3072,
+      "score": 30.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Cheviot_Beach.png",
+        "title": "Cheviot Beach.png",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 2,
+        "score": 64.4,
+        "width": 992,
+        "height": 629
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Cheviot_Beach_%28cropped%29.png",
+        "title": "Cheviot Beach (cropped).png",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 42.6,
+        "width": 988,
+        "height": 509
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/VIC_in_Australia_map.png",
+        "title": "VIC in Australia map.png",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 32.8,
+        "width": 200,
+        "height": 186
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Looking_out_towards_the_waves_near_Cheviot_Hill_at_Point_Nepean_in_Portsea%2C_Victoria.jpg",
+        "title": "Looking out towards the waves near Cheviot Hill at Point Nepean in Portsea, Victoria.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 6960,
+        "height": 4640
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Ventura_bus_-1445_waiting_at_Cheviot_Beach_at_Point_Nepean_in_Portsea%2C_Victoria.jpg",
+        "title": "Ventura bus -1445 waiting at Cheviot Beach at Point Nepean in Portsea, Victoria.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 6960,
+        "height": 4640
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 11,
+      "tier_breakdown": {
+        "tier2": 7,
+        "tier1": 3,
+        "tier3": 1
+      },
+      "hero_auto_selected": true
+    }
   }
 }

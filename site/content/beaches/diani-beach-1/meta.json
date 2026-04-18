@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/A_bicyle_delivery_guy_in_diani_kenya.jpg",
+      "title": "A bicyle delivery guy in diani kenya.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Emmaculate_jacobine&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Emmaculate jacobine (page does not exist)\">Emmaculate jacobine</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 5760,
+      "height": 3840,
+      "score": 65.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Diani_Beach_Ukunda.jpg",
+        "title": "Diani Beach Ukunda.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Diani_Beach_2013_-_panoramio_%28143%29.jpg",
+        "title": "Diani Beach 2013 - panoramio (143).jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 4608,
+        "height": 2592
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Diani_Beach_2013_-_panoramio_%28144%29.jpg",
+        "title": "Diani Beach 2013 - panoramio (144).jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 3648,
+        "height": 2736
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Diani_beaches.jpg",
+        "title": "Diani beaches.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 3999,
+        "height": 2999
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/2011-07-20_09-54-46_7D_%2814435988112%29.jpg",
+        "title": "2011-07-20 09-54-46 7D (14435988112).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 5184,
+        "height": 3456
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 58,
+      "tier_breakdown": {
+        "tier3": 50,
+        "tier1": 1,
+        "tier2": 7
+      },
+      "hero_auto_selected": true
+    }
   }
 }

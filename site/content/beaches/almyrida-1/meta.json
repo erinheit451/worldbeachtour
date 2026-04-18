@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Panneau_d%27entr%C3%A9e_dans_Almyrida_%28La_Can%C3%A9e%2C_Cr%C3%A8te%29.jpg",
+      "title": "Panneau d'entr\u00e9e dans Almyrida (La Can\u00e9e, Cr\u00e8te).jpg",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42790984\" class=\"extiw\" title=\"d:Q42790984\"><span title=\"French computing engineer\">Beno\u00eet Prieur</span></a></bdi>",
+      "license": "CC0",
+      "width": 4032,
+      "height": 3024,
+      "score": 45.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/GreeceCrete.png",
+        "title": "GreeceCrete.png",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 63.0,
+        "width": 200,
+        "height": 204
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/B.Prieur_%C3%A0_Kalyv%C3%A8s_%28Cr%C3%A8te%29_en_juillet_2021.jpg",
+        "title": "B.Prieur \u00e0 Kalyv\u00e8s (Cr\u00e8te) en juillet 2021.jpg",
+        "license": "CC0",
+        "source_tier": 2,
+        "score": 50.0,
+        "width": 1972,
+        "height": 2203
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Almyrida_-_Kr%C3%A9ta_-_panoramio.jpg",
+        "title": "Almyrida - Kr\u00e9ta - panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 2592,
+        "height": 1944
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Waterfront_of_Almyrida_on_the_Island_of_Crete%2C_Greece_2009-04-12.jpg",
+        "title": "Waterfront of Almyrida on the Island of Crete, Greece 2009-04-12.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 35.0,
+        "width": 3072,
+        "height": 1100
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Caf%C3%A9_grec_%C3%A0_Almyrida_%282%29.jpg",
+        "title": "Caf\u00e9 grec \u00e0 Almyrida (2).jpg",
+        "license": "CC0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 4032,
+        "height": 3024
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 39,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier2": 20,
+        "tier3": 16
+      },
+      "hero_auto_selected": true
+    }
   }
 }

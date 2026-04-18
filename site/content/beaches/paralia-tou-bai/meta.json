@@ -1,6 +1,75 @@
 {
   "tier": 2,
-  "lenses": ["overview", "travel"],
+  "lenses": [
+    "overview",
+    "travel"
+  ],
   "custom": [],
-  "images": { "hero": "", "gallery": [] }
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Genista_acanthoclada_B.jpg",
+      "title": "Genista acanthoclada B.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Wouterhagens\" title=\"User:Wouterhagens\">Wouter Hagens</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 3008,
+      "height": 2000,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Vai_R05.jpg",
+        "title": "Vai R05.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 3900,
+        "height": 2327
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Vai_palm_forest.jpg",
+        "title": "Vai palm forest.jpg",
+        "license": "Attribution",
+        "source_tier": 1,
+        "score": 79.4,
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Phoenix_theophrasti_D.jpg",
+        "title": "Phoenix theophrasti D.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 2507,
+        "height": 1695
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Phoenix_theophrasti_A.jpg",
+        "title": "Phoenix theophrasti A.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 65.0,
+        "width": 2960,
+        "height": 1959
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Crete_Vai_C.jpg",
+        "title": "Crete Vai C.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 3008,
+        "height": 2000
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 36,
+      "tier_breakdown": {
+        "tier1": 20,
+        "tier2": 16
+      },
+      "hero_auto_selected": true
+    }
+  }
 }

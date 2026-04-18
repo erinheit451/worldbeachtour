@@ -6,7 +6,69 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Kund_Malir_Beach%2C_Hingol_National_Park%2C_Balochistan.jpg",
+      "title": "Kund Malir Beach, Hingol National Park, Balochistan.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Furqanlw\" title=\"User:Furqanlw\">Furqanlw</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 5472,
+      "height": 3648,
+      "score": 80.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Kund_Malir_Beach_Balochistan.jpg",
+        "title": "Kund Malir Beach Balochistan.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 5183,
+        "height": 3331
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Kund_Malir_Hangol_Pakistan_%28121067443%29.jpeg",
+        "title": "Kund Malir Hangol Pakistan (121067443).jpeg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 2048,
+        "height": 1371
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Kund_Malir_4.jpg",
+        "title": "Kund Malir 4.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 61.5,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Kund_Malir_Beach_Pakistan.jpg",
+        "title": "Kund Malir Beach Pakistan.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 5184,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Kund_Malir_Beach_Point.jpg",
+        "title": "Kund Malir Beach Point.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 5312,
+        "height": 2988
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 9,
+      "tier_breakdown": {
+        "tier1": 9
+      },
+      "hero_auto_selected": true
+    }
   }
 }

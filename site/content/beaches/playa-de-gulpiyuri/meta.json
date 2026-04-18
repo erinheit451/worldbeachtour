@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Playa_de_Gulpiyuri.jpg",
+      "title": "Playa de Gulpiyuri.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Einaz80\" title=\"User:Einaz80\">Einaz80</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 2016,
+      "height": 1512,
+      "score": 80.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Gulpiyuri.jpg",
+        "title": "Gulpiyuri.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 79.0,
+        "width": 900,
+        "height": 602
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Gulpiyuri_spiaggia.jpg",
+        "title": "Gulpiyuri spiaggia.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 55.0,
+        "width": 7405,
+        "height": 1975
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Playa_de_Gulpiyuri_-_panoramio_%281%29.jpg",
+        "title": "Playa de Gulpiyuri - panoramio (1).jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 2560,
+        "height": 1920
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Playa_de_Gulpiyuri_%2C_Asturias_-_panoramio.jpg",
+        "title": "Playa de Gulpiyuri , Asturias - panoramio.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Playa_de_Gulpiyuri_-_panoramio.jpg",
+        "title": "Playa de Gulpiyuri - panoramio.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 2560,
+        "height": 1920
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 9,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier3": 3,
+        "tier2": 4
+      },
+      "hero_auto_selected": true
+    }
   }
 }

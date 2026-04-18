@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Playa_Negra_Costa_Rica.jpg",
+      "title": "Playa Negra Costa Rica.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Alonsosanchon&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Alonsosanchon (page does not exist)\">Alonsosanchon</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 3264,
+      "height": 2448,
+      "score": 65.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Tree_sunbathing_at_Playa_Negra_%2815272764294%29.jpg",
+        "title": "Tree sunbathing at Playa Negra (15272764294).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 5472,
+        "height": 3648
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Dog_at_Playa_Negra_%2815272765604%29.jpg",
+        "title": "Dog at Playa Negra (15272765604).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4504,
+        "height": 3002
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Iguana_at_Playa_Negra_%2815894374532%29.jpg",
+        "title": "Iguana at Playa Negra (15894374532).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 5472,
+        "height": 3648
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Playa_Negra_in_2010.jpg",
+        "title": "Playa Negra in 2010.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/The_surfer_and_its_dog_waiting_for_waves_%2815707733900%29.jpg",
+        "title": "The surfer and its dog waiting for waves (15707733900).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 5284,
+        "height": 3522
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 8,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 5,
+        "tier2": 2
+      },
+      "hero_auto_selected": true
+    }
   }
 }

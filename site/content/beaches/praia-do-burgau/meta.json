@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Vista_aerea_de_Burgau%2C_Algarve_-_Portugal_-_11.03.2023.jpg",
+      "title": "Vista aerea de Burgau, Algarve - Portugal - 11.03.2023.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Bextrel\" title=\"User:Bextrel\">Bextrel</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4000,
+      "height": 2250,
+      "score": 40.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/East_Praia_Burgau.png",
+        "title": "East Praia Burgau.png",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 67.7,
+        "width": 640,
+        "height": 512
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Praiaburgau_west.jpg",
+        "title": "Praiaburgau west.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 61.5,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Praia_burgau_east_sunset.jpg",
+        "title": "Praia burgau east sunset.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 51.5,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Praiaburgau_center.jpg",
+        "title": "Praiaburgau center.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 51.5,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Posto_da_Guarda_Fiscal_de_Burgau_-_11.03.2023.jpg",
+        "title": "Posto da Guarda Fiscal de Burgau - 11.03.2023.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 4000,
+        "height": 2250
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 38,
+      "tier_breakdown": {
+        "tier1": 6,
+        "tier2": 20,
+        "tier3": 12
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

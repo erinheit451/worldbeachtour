@@ -1,1 +1,75 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Na_Pali_Coast_Kauai_Hawaii_%2832406276598%29.jpg",
+      "title": "Na Pali Coast Kauai Hawaii (32406276598).jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/132646954@N02\">dronepicr</a>",
+      "license": "CC BY 2.0",
+      "width": 5926,
+      "height": 3951,
+      "score": 35.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Kalalau_Trail_2004-08-22.JPG",
+        "title": "Kalalau Trail 2004-08-22.JPG",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 1704,
+        "height": 2272
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Napali_Coast_-_Flickr_-_romainguy.jpg",
+        "title": "Napali Coast - Flickr - romainguy.jpg",
+        "license": "CC0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 5514,
+        "height": 3676
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Sawtooth_%28209049249%29.jpeg",
+        "title": "Sawtooth (209049249).jpeg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 2048,
+        "height": 1365
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Sunset_on_Kalalau_Beach_-_panoramio.jpg",
+        "title": "Sunset on Kalalau Beach - panoramio.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 3968,
+        "height": 2645
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Kalalau_Beach_-_Alone_-_Flickr_-_sergejf.jpg",
+        "title": "Kalalau Beach - Alone - Flickr - sergejf.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 6240,
+        "height": 4160
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 8,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier2": 7
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Es_Canar_Sunrise.jpg",
+      "title": "Es Canar Sunrise.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Jtt030227&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Jtt030227 (page does not exist)\">Jtt030227</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4032,
+      "height": 3024,
+      "score": 50.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Eivissa_-_Es_Canar_from_Airplane.jpg",
+        "title": "Eivissa - Es Canar from Airplane.jpg",
+        "license": "CC0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2173,
+        "height": 1222
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Ibiza_2005_062_%28204250931%29.jpg",
+        "title": "Ibiza 2005 062 (204250931).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Platja_Es_Canar.jpg",
+        "title": "Platja Es Canar.jpg",
+        "license": "CC0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 8000,
+        "height": 6000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Location_map_Ibiza.png",
+        "title": "Location map Ibiza.png",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 41.6,
+        "width": 786,
+        "height": 771
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Ibiza_2005_-_Es_Cana_beach_road_%28204262147%29.jpg",
+        "title": "Ibiza 2005 - Es Cana beach road (204262147).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 2048,
+        "height": 1536
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 15,
+      "tier_breakdown": {
+        "tier1": 4,
+        "tier3": 8,
+        "tier2": 3
+      },
+      "hero_auto_selected": true
+    }
   }
 }

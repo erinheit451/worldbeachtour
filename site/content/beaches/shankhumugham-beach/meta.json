@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Remains_of_the_Shanghumugham_airport_road_after_sea_erosion.jpg",
+      "title": "Remains of the Shanghumugham airport road after sea erosion.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Shantham11\" title=\"User:Shantham11\">Shantham11</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4032,
+      "height": 3024,
+      "score": 60.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Shankumugam_Beach.jpg",
+        "title": "Shankumugam Beach.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 2921,
+        "height": 1750
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Sh-beach1.jpg",
+        "title": "Sh-beach1.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 62.2,
+        "width": 640,
+        "height": 480
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/A_sculpture_at_Shankumugham_beach.JPG",
+        "title": "A sculpture at Shankumugham beach.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 4608,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/%E0%B4%B6%E0%B4%82%E0%B4%96%E0%B5%81%E0%B4%AE%E0%B5%81%E0%B4%96%E0%B4%82_%E0%B4%95%E0%B4%9F%E0%B5%BD%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B5%80%E0%B4%B0%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B5%86_%E0%B4%AE%E0%B4%A4%E0%B5%8D%E0%B4%B8%E0%B5%8D%E0%B4%AF%E0%B4%95%E0%B4%A8%E0%B5%8D%E0%B4%AF%E0%B4%95_%E0%B4%B6%E0%B4%BF%E0%B4%B2%E0%B5%8D%E0%B4%AA%E0%B4%82.jpg",
+        "title": "\u0d36\u0d02\u0d16\u0d41\u0d2e\u0d41\u0d16\u0d02 \u0d15\u0d1f\u0d7d\u0d24\u0d4d\u0d24\u0d40\u0d30\u0d24\u0d4d\u0d24\u0d46 \u0d2e\u0d24\u0d4d\u0d38\u0d4d\u0d2f\u0d15\u0d28\u0d4d\u0d2f\u0d15 \u0d36\u0d3f\u0d32\u0d4d\u0d2a\u0d02.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 6000,
+        "height": 2988
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Chacha_Nehru_Traffic_Training_Park%2C_Thiruvananthapuram.JPG",
+        "title": "Chacha Nehru Traffic Training Park, Thiruvananthapuram.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4608,
+        "height": 3456
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 56,
+      "tier_breakdown": {
+        "tier1": 9,
+        "tier2": 20,
+        "tier3": 27
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

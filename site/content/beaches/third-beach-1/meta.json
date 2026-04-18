@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Thirdbeach.jpg",
+      "title": "Thirdbeach.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Eyewall\" title=\"User:Eyewall\">Eyewall</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 3264,
+      "height": 2448,
+      "score": 45.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Third_beach_sand.jpg",
+        "title": "Third beach sand.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 65.0,
+        "width": 1554,
+        "height": 1533
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/GVA-map.png",
+        "title": "GVA-map.png",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 40.5,
+        "width": 846,
+        "height": 701
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/3rd_Beach%2C_Vancouver%2C_BC_-_panoramio.jpg",
+        "title": "3rd Beach, Vancouver, BC - panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Third_Beach_Vancouver_Stanley_Park_%2844722108491%29.jpg",
+        "title": "Third Beach Vancouver Stanley Park (44722108491).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 6078,
+        "height": 4052
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Third_Beach_in_Stanley_Park_%2814627439426%29.jpg",
+        "title": "Third Beach in Stanley Park (14627439426).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 5616,
+        "height": 3744
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 33,
+      "tier_breakdown": {
+        "tier3": 11,
+        "tier1": 2,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/VirginGordaTheBaths.jpg",
+      "title": "VirginGordaTheBaths.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Calyponte\" title=\"User:Calyponte\">Calyponte</a>",
+      "license": "CC BY 3.0",
+      "width": 3888,
+      "height": 2592,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Virgin_Gorda_12.jpg",
+        "title": "Virgin Gorda 12.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 82.2,
+        "width": 1080,
+        "height": 810
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/TheBaths_VirginGorda_BVI.jpg",
+        "title": "TheBaths VirginGorda BVI.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 79.0,
+        "width": 800,
+        "height": 600
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/TheBaths_RockFormation_BritishVirginIslands_Feb6-2000.jpg",
+        "title": "TheBaths RockFormation BritishVirginIslands Feb6-2000.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 64.4,
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Virgin_Gorda_Boulders2.jpg",
+        "title": "Virgin Gorda Boulders2.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 1000,
+        "height": 666
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/CaveAtTheBaths01.JPG",
+        "title": "CaveAtTheBaths01.JPG",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 3072,
+        "height": 2048
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 24,
+      "tier_breakdown": {
+        "tier1": 6,
+        "tier2": 18
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Bima_statue_at_Pandawa_Beach%2C_Bali.jpg",
+      "title": "Bima statue at Pandawa Beach, Bali.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Satdeep_Gill\" title=\"User:Satdeep Gill\">Satdeep Gill</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 3497,
+      "height": 4465,
+      "score": 50.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Pandawa_Beach_road_entrance.jpg",
+        "title": "Pandawa Beach road entrance.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 2592,
+        "height": 1273
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Pandawa_beach_entrance.jpg",
+        "title": "Pandawa beach entrance.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 2592,
+        "height": 1944
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Sunset_At_Pandawa_Beach.jpg",
+        "title": "Sunset At Pandawa Beach.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 70.0,
+        "width": 2783,
+        "height": 1739
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Pandawa_Beach%2C_Kuta_Selatan_-_Bali.jpg",
+        "title": "Pandawa Beach, Kuta Selatan - Bali.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 3261,
+        "height": 1834
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Pantai_Pandawa%2C_Bali.jpg",
+        "title": "Pantai Pandawa, Bali.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 59.0,
+        "width": 4782,
+        "height": 934
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 55,
+      "tier_breakdown": {
+        "tier1": 4,
+        "tier3": 31,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

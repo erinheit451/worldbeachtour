@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Bahamas_1988_%28054%29_New_Providence_Cable_Beach_%2823365179346%29.jpg",
+      "title": "Bahamas 1988 (054) New Providence Cable Beach (23365179346).jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/69570948@N04\">R\u00fcdiger Stehn</a> from Kiel, Deutschland",
+      "license": "CC BY-SA 2.0",
+      "width": 6438,
+      "height": 4195,
+      "score": 50.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Cable_Beach_SkyLine_-_panoramio.jpg",
+        "title": "Cable Beach SkyLine - panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 5141,
+        "height": 2957
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Lucayan_National_Park_%284495719058%29.jpg",
+        "title": "Lucayan National Park (4495719058).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 3060,
+        "height": 2032
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Cable_beach.jpg",
+        "title": "Cable beach.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 39.0,
+        "width": 2810,
+        "height": 933
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Que_raro_-_panoramio.jpg",
+        "title": "Que raro - panoramio.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Feria_nassau_-_panoramio.jpg",
+        "title": "Feria nassau - panoramio.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 4000,
+        "height": 3000
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 15,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier2": 12
+      },
+      "hero_auto_selected": true
+    }
   }
 }

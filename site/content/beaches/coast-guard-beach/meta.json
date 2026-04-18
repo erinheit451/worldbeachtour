@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Nauset_Coast_Guard_Station%2C_Cape_Cod%2C_Mass_%2876201%29.jpg",
+      "title": "Nauset Coast Guard Station, Cape Cod, Mass (76201).jpg",
+      "author": "(Photo by Hicks) Pub. by H. L. Moore Co., West Yarmouth, Mass. Tichnor Bros. Inc., Boston, Mass.",
+      "license": "Public domain",
+      "width": 3349,
+      "height": 2162,
+      "score": 35.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Coast_Guard_Beach%2C_Eastham_on_Cape_Cod_-_Flickr_-_dennis.weeks8.jpg",
+        "title": "Coast Guard Beach, Eastham on Cape Cod - Flickr - dennis.weeks8.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 2048,
+        "height": 1152
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/9CoastGuardBeach20160922_064020_04.jpg",
+        "title": "9CoastGuardBeach20160922 064020 04.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/1940_Census_Enumeration_District_Descriptions_-_Massachusetts_-_Barnstable_County_-_ED_1-24%2C_ED_1-25%2C_ED_1-26%2C_ED_1-27_-_NARA_-_5863924.jpg",
+        "title": "1940 Census Enumeration District Descriptions - Massachusetts - Barnstable County - ED 1-24, ED 1-25, ED 1-26, ED 1-27 - NARA - 5863924.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4696,
+        "height": 2520
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Former_Coast_Guard_Station%2C_Nauset%2C_Cape_Cod_National_Seashore_%283518670190%29.jpg",
+        "title": "Former Coast Guard Station, Nauset, Cape Cod National Seashore (3518670190).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 34.0,
+        "width": 800,
+        "height": 600
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Coast_Guard_Station%2C_Nauset_MA_%282060824807%29.jpg",
+        "title": "Coast Guard Station, Nauset MA (2060824807).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 3072,
+        "height": 2304
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 24,
+      "tier_breakdown": {
+        "tier3": 4,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

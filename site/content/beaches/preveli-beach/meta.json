@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Preveli_03.jpg",
+      "title": "Preveli 03.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Oltau\" title=\"User:Oltau\">Olaf Tausch</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 3046,
+      "height": 2284,
+      "score": 90.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Plakias-Preveli_beach.jpg",
+        "title": "Plakias-Preveli beach.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 4800,
+        "height": 3200
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Preveli_02.jpg",
+        "title": "Preveli 02.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 50.0,
+        "width": 3633,
+        "height": 2721
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Beach_at_the_end_of_Preveli_Gorge%2C_Rethymno_Prefecture%2C_Greece_%282%29.jpg",
+        "title": "Beach at the end of Preveli Gorge, Rethymno Prefecture, Greece (2).jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 3968,
+        "height": 2976
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Limni_Preveli_02.JPG",
+        "title": "Limni Preveli 02.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 3932,
+        "height": 5243
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Palmenstrand_von_Preveli_18.jpg",
+        "title": "Palmenstrand von Preveli 18.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 4347,
+        "height": 3257
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 62,
+      "tier_breakdown": {
+        "tier2": 20,
+        "tier1": 1,
+        "tier3": 41
+      },
+      "hero_auto_selected": true
+    }
   }
 }

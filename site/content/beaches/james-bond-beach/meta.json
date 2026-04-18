@@ -1,1 +1,39 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/JamesBondBeach3.jpg",
+      "title": "JamesBondBeach3.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Banjoman1\" title=\"User:Banjoman1\">Banjoman1</a>",
+      "license": "Public domain",
+      "width": 550,
+      "height": 412,
+      "score": 76.2
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/JamesBondBeach2.jpg",
+        "title": "JamesBondBeach2.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 67.2,
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 2,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 1
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

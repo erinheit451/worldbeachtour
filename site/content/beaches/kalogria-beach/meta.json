@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/%CE%A0%CE%B1%CF%81%CE%B1%CE%BB%CE%AF%CE%B1_%CE%9A%CE%B1%CE%BB%CE%BF%CE%B3%CF%81%CE%B9%CE%AC%CF%82_-_Kalogria_Beach.jpg",
+      "title": "\u03a0\u03b1\u03c1\u03b1\u03bb\u03af\u03b1 \u039a\u03b1\u03bb\u03bf\u03b3\u03c1\u03b9\u03ac\u03c2 - Kalogria Beach.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Argymeg\" title=\"User:Argymeg\">Argymeg</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4087,
+      "height": 3065,
+      "score": 65.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Daptus_vittatus_up.jpg",
+        "title": "Daptus vittatus up.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 60.0,
+        "width": 2772,
+        "height": 2652
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Kalogria_mavra_vouna.jpg",
+        "title": "Kalogria mavra vouna.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/%CE%91%CE%BC%CE%BC%CE%BF%CE%B8%CE%AF%CE%BD%CE%B5%CF%82_%CF%83%CF%84%CE%B7%CE%BD_%CE%A0%CE%B1%CF%81%CE%B1%CE%BB%CE%AF%CE%B1_%CE%9A%CE%B1%CE%BB%CE%BF%CE%B3%CF%81%CE%B9%CE%AC%CF%82_-_Sand_dunes_at_Kalogria_Beach.jpg",
+        "title": "\u0391\u03bc\u03bc\u03bf\u03b8\u03af\u03bd\u03b5\u03c2 \u03c3\u03c4\u03b7\u03bd \u03a0\u03b1\u03c1\u03b1\u03bb\u03af\u03b1 \u039a\u03b1\u03bb\u03bf\u03b3\u03c1\u03b9\u03ac\u03c2 - Sand dunes at Kalogria Beach.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 4229,
+        "height": 3171
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Scarites_buparius_ch.jpg",
+        "title": "Scarites buparius ch.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 45.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Scarites_buparius_pair.jpg",
+        "title": "Scarites buparius pair.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 3128,
+        "height": 2348
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 17,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier2": 9,
+        "tier3": 5
+      },
+      "hero_auto_selected": true
+    }
   }
 }

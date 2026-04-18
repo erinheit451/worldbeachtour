@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Fort-Cronkhite-Marin-Headlands-Florin-WLM-08.jpg",
+      "title": "Fort-Cronkhite-Marin-Headlands-Florin-WLM-08.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Fabrice_Florin\" title=\"User:Fabrice Florin\">Fabrice Florin</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 3548,
+      "height": 2660,
+      "score": 35.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Marin_Headlands_with_Rodeo_Beach.jpg",
+        "title": "Marin Headlands with Rodeo Beach.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 100.0,
+        "width": 7000,
+        "height": 1278
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Rodeo_Beach_CA.jpg",
+        "title": "Rodeo Beach CA.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 2272,
+        "height": 1704
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Fort-Cronkhite-Marin-Headlands-Florin-WLM-09.jpg",
+        "title": "Fort-Cronkhite-Marin-Headlands-Florin-WLM-09.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 3137,
+        "height": 2353
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Fort-Cronkhite-Marin-Headlands-Florin-WLM-10.jpg",
+        "title": "Fort-Cronkhite-Marin-Headlands-Florin-WLM-10.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Marin_County_Ca_Marin_Headlands_Rodeo_Beach_se_PICT0077_19941016.jpg",
+        "title": "Marin County Ca Marin Headlands Rodeo Beach se PICT0077 19941016.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 2520,
+        "height": 1680
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 46,
+      "tier_breakdown": {
+        "tier3": 21,
+        "tier1": 5,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Bold_and_the_Beautiful_swim.jpg",
+      "title": "Bold and the Beautiful swim.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Wittylama\" title=\"User:Wittylama\">Wittylama</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 3264,
+      "height": 2448,
+      "score": 55.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Shelly_Beach_Manly.JPG",
+        "title": "Shelly Beach Manly.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 2560,
+        "height": 1920
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/MotorbikeShelly.jpg",
+        "title": "MotorbikeShelly.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 51.2,
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Shelly_Beach_in_Summer_2022.jpg",
+        "title": "Shelly Beach in Summer 2022.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4608,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Looking_over_Shelly_Beach_and_Cabbage_Tree_Bay_in_Sydney.jpg",
+        "title": "Looking over Shelly Beach and Cabbage Tree Bay in Sydney.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 50.0,
+        "width": 5418,
+        "height": 2769
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Shelly_Beach_pano.jpg",
+        "title": "Shelly Beach pano.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 8907,
+        "height": 2524
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 35,
+      "tier_breakdown": {
+        "tier1": 6,
+        "tier3": 10,
+        "tier2": 19
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/2012-02-14_001_IMG_7201.JPG",
+      "title": "2012-02-14 001 IMG 7201.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Anagoria\" title=\"User:Anagoria\">Anagoria</a>",
+      "license": "CC BY 3.0",
+      "width": 4752,
+      "height": 3168,
+      "score": 65.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/04052016PlayaGironPropagande.jpg",
+        "title": "04052016PlayaGironPropagande.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2560,
+        "height": 1920
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Airplane_in_Museo_Giron.jpg",
+        "title": "Airplane in Museo Giron.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 1536,
+        "height": 1020
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Attack_near_Playa_Giron._April_19%2C_1961._-_panoramio.jpg",
+        "title": "Attack near Playa Giron. April 19, 1961. - panoramio.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 65.4,
+        "width": 1024,
+        "height": 693
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Costa_de_Playa_Gir%C3%B3n.jpg",
+        "title": "Costa de Playa Gir\u00f3n.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 1984,
+        "height": 1488
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Anti-aircraft_gun_in_Museo_Giron.jpg",
+        "title": "Anti-aircraft gun in Museo Giron.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 1020,
+        "height": 1536
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 45,
+      "tier_breakdown": {
+        "tier1": 12,
+        "tier2": 9,
+        "tier3": 24
+      },
+      "hero_auto_selected": true
+    }
   }
 }

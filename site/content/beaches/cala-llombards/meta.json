@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Cala_Llombards_04.jpg",
+      "title": "Cala Llombards 04.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Oltau\" title=\"User:Oltau\">Olaf Tausch</a>",
+      "license": "CC BY 3.0",
+      "width": 4608,
+      "height": 3456,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Cala_llombards2.jpg",
+        "title": "Cala llombards2.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 3872,
+        "height": 2592
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/004_2015_06_08_Segelboote_und_Gro%C3%9Fsegler.jpg",
+        "title": "004 2015 06 08 Segelboote und Gro\u00dfsegler.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 2839,
+        "height": 1760
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/2015_06_05_004_Papageien.jpg",
+        "title": "2015 06 05 004 Papageien.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 55.0,
+        "width": 2868,
+        "height": 1742
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Beach_houses_and_beach_at_Cala_Llombards%2C_Mallorca_%28Spain%29_%2823459322020%29.jpg",
+        "title": "Beach houses and beach at Cala Llombards, Mallorca (Spain) (23459322020).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 4912,
+        "height": 3264
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Cala_Llombards_03.jpg",
+        "title": "Cala Llombards 03.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 4605,
+        "height": 3454
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 62,
+      "tier_breakdown": {
+        "tier3": 41,
+        "tier1": 1,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

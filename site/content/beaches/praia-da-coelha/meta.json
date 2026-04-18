@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/129PT_13_November_2013_Praia_da_Coelha.JPG",
+      "title": "129PT 13 November 2013 Praia da Coelha.JPG",
+      "author": "Beeston",
+      "license": "CC BY 3.0",
+      "width": 4000,
+      "height": 3000,
+      "score": 70.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/123PT_13_November_2013_Footpath_down_to_Praia_da_Coelha.JPG",
+        "title": "123PT 13 November 2013 Footpath down to Praia da Coelha.JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/126PT_13_November_2013_Steps_down_to_Praia_da_Coelha.JPG",
+        "title": "126PT 13 November 2013 Steps down to Praia da Coelha.JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/127PT_13_November_2013_Praia_da_Coelha.JPG",
+        "title": "127PT 13 November 2013 Praia da Coelha.JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/127PT_13_November_2013_Praia_da_Coelha.JPG",
+        "title": "127PT 13 November 2013 Praia da Coelha .JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/131PT_13_November_2013_Praia_da_Coelha.JPG",
+        "title": "131PT 13 November 2013 Praia da Coelha.JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4000,
+        "height": 3000
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 53,
+      "tier_breakdown": {
+        "tier1": 7,
+        "tier3": 31,
+        "tier2": 15
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -1,1 +1,75 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Chandrabhaga_beach.jpg",
+      "title": "Chandrabhaga beach.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Sidsahu\" title=\"User:Sidsahu\">Sidsahu</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 5312,
+      "height": 2988,
+      "score": 65.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Chandrabhaga_Beach_Orrisa.jpg",
+        "title": "Chandrabhaga Beach Orrisa.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 4160,
+        "height": 3120
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Chandrabhaga_Beach_%2817041041972%29.jpg",
+        "title": "Chandrabhaga Beach (17041041972).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 1536,
+        "height": 2048
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Sunrise_at_Chandarabhaga.JPG",
+        "title": "Sunrise at Chandarabhaga.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 5184,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Magha_Saptami_holy_dip_at_Chandrabhaga.jpg",
+        "title": "Magha Saptami holy dip at Chandrabhaga.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 3,
+        "score": 35.5,
+        "width": 1200,
+        "height": 701
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Chandrabhaga_Magha_Saptami_celebration.jpg",
+        "title": "Chandrabhaga Magha Saptami celebration.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 3,
+        "score": 35.1,
+        "width": 1200,
+        "height": 675
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 50,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 49
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

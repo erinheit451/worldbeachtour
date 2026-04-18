@@ -6,7 +6,61 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Aptdc_cottages_at_suryalanka_beach.JPG",
+      "title": "Aptdc cottages at suryalanka beach.JPG",
+      "author": "<a href=\"https://en.wikipedia.org/wiki/User:Mdhar_m\" class=\"extiw\" title=\"wikipedia:User:Mdhar m\">Mdhar m</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikip",
+      "license": "Public domain",
+      "width": 2816,
+      "height": 2112,
+      "score": 55.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Beautiful_Morning_at_Bay_of_Bengal.jpg",
+        "title": "Beautiful Morning at Bay of Bengal.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 55.0,
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Fishing_boat_near_Suryalanka_beach.jpg",
+        "title": "Fishing boat near Suryalanka beach.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 3814,
+        "height": 5107
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Beach_suryalanka.jpg",
+        "title": "Beach suryalanka.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Suryalanka_beach.jpg",
+        "title": "Suryalanka beach.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 3627,
+        "height": 2472
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 5,
+      "tier_breakdown": {
+        "tier3": 4,
+        "tier1": 1
+      },
+      "hero_auto_selected": true
+    }
   }
 }

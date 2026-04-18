@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Alleppey_beach.jpg",
+      "title": "Alleppey beach.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mohanrangaphotography&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mohanrangaphotography (page does not exist)\">Mohanrangaphotography<",
+      "license": "CC BY-SA 4.0",
+      "width": 6000,
+      "height": 3749,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Alappuzha_Bypass_Aerial_View_1.jpg",
+        "title": "Alappuzha Bypass Aerial View 1.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 1916,
+        "height": 1080
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Alappuzha_Bypass_Aerial_View_2.jpg",
+        "title": "Alappuzha Bypass Aerial View 2.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 65.0,
+        "width": 1898,
+        "height": 1080
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Alappy_beach.jpg",
+        "title": "Alappy beach.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 2592,
+        "height": 1936
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Alappuzha_Beach.JPG",
+        "title": "Alappuzha Beach.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Alappuzha_beach1.jpg",
+        "title": "Alappuzha beach1.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 3023,
+        "height": 1451
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 58,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 37,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

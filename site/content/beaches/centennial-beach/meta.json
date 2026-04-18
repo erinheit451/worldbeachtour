@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/View_-_panoramio_%283%29.jpg",
+      "title": "View - panoramio (3).jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161016161421/http://www.panoramio.com/user/4949197?with_photo_id=42967638\">Johnny Reyes</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 4000,
+      "height": 3000,
+      "score": 40.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Centennial_Beach.jpg",
+        "title": "Centennial Beach.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 62.5,
+        "width": 634,
+        "height": 500
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Dumetella_carolinensis-calling.jpg",
+        "title": "Dumetella carolinensis-calling.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 48.5,
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Centennial_Beach_from_west_side.jpg",
+        "title": "Centennial Beach from west side.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 42.5,
+        "width": 701,
+        "height": 500
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/NCHS_Aerial.jpg",
+        "title": "NCHS Aerial.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 4000,
+        "height": 2250
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Centennial_Beach_2022.jpg",
+        "title": "Centennial Beach 2022.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 3826,
+        "height": 2152
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 24,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier2": 20,
+        "tier3": 2
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

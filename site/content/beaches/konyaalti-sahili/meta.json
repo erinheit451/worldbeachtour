@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Falezlerden_Antalya_Konyaalt%C4%B1_Plaj%C4%B1na_do%C4%9Fru_bir_g%C3%B6r%C3%BCn%C3%BCm.jpg",
+      "title": "Falezlerden Antalya Konyaalt\u0131 Plaj\u0131na do\u011fru bir g\u00f6r\u00fcn\u00fcm.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Esginmurat\" title=\"User:Esginmurat\">Esginmurat</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 5312,
+      "height": 2988,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Antalyabeach.JPG",
+        "title": "Antalyabeach.JPG",
+        "license": "CC0",
+        "source_tier": 3,
+        "score": 70.0,
+        "width": 3456,
+        "height": 2592
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Ant%C3%A1lia_Beach_-_panoramio_%2812%29.jpg",
+        "title": "Ant\u00e1lia Beach - panoramio (12).jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 55.0,
+        "width": 3687,
+        "height": 2660
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Ant%C3%A1lia_Beach_-_panoramio_%281%29.jpg",
+        "title": "Ant\u00e1lia Beach - panoramio (1).jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 3654,
+        "height": 2404
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Ant%C3%A1lia_Beach_-_panoramio_%2813%29.jpg",
+        "title": "Ant\u00e1lia Beach - panoramio (13).jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 3657,
+        "height": 2205
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Antalya%2C_konyaalt%C4%B1_beach_-_panoramio.jpg",
+        "title": "Antalya, konyaalt\u0131 beach - panoramio.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 2560,
+        "height": 1920
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 50,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 49
+      },
+      "hero_auto_selected": true
+    }
   }
 }

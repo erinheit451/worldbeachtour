@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Jomtien_Beach_%2811%29.jpg",
+      "title": "Jomtien Beach (11).jpg",
+      "author": "\u0413\u0435\u043e\u0440\u0433\u0438\u0439 \u0414\u043e\u043b\u0433\u043e\u043f\u0441\u043a\u0438\u0439",
+      "license": "CC BY-SA 4.0",
+      "width": 2816,
+      "height": 2112,
+      "score": 65.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Jomtien_Beach_1.jpg",
+        "title": "Jomtien Beach 1.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 80.8,
+        "width": 1280,
+        "height": 719
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Pattaya_Soi_7_Thailand.jpg",
+        "title": "Pattaya Soi 7 Thailand.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Jomtien_Beach_%287%29.jpg",
+        "title": "Jomtien Beach (7).jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 2816,
+        "height": 2112
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Jomtien_Beach_%285841929757%29.jpg",
+        "title": "Jomtien Beach (5841929757).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 39.7,
+        "width": 1306,
+        "height": 980
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Pattaya_Park_Tower_view_over_Jomtien.jpg",
+        "title": "Pattaya Park Tower view over Jomtien.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 38.0,
+        "width": 1152,
+        "height": 864
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 56,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier3": 50,
+        "tier2": 3
+      },
+      "hero_auto_selected": true
+    }
   }
 }

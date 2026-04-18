@@ -1,1 +1,48 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Sauvie_Island_%282022%29_-_1.jpg",
+      "title": "Sauvie Island (2022) - 1.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Another_Believer\" title=\"User:Another Believer\">Another Believer</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 5312,
+      "height": 2988,
+      "score": 30.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/AUT5507-b.jpg",
+        "title": "AUT5507-b.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 51.3,
+        "width": 1074,
+        "height": 418
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Sauvie_Island_%282022%29_-_2.jpg",
+        "title": "Sauvie Island (2022) - 2.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 5312,
+        "height": 2988
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 3,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier2": 2
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

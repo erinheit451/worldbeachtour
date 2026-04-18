@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Sea_turtle_swimming_%28Unsplash%29.jpg",
+      "title": "Sea turtle swimming (Unsplash).jpg",
+      "author": "Randall Ruiz <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@ruizra\">ruizra</a>",
+      "license": "CC0",
+      "width": 4608,
+      "height": 3456,
+      "score": 60.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Kaputas_Beach.JPG",
+        "title": "Kaputas Beach.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 3008,
+        "height": 2000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Kaputa%C5%9F_4138.jpg",
+        "title": "Kaputa\u015f 4138.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4928,
+        "height": 3280
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Turkiye_Antalya_Kaputa%C5%9F_Plaj%C4%B1.jpg",
+        "title": "Turkiye Antalya Kaputa\u015f Plaj\u0131.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/View_from_Kaputa%C5%9F_Beach_to_the_bridge_%28cropped%29.JPG",
+        "title": "View from Kaputa\u015f Beach to the bridge (cropped).JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 1778,
+        "height": 1365
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Kaputas_Canyon.jpg",
+        "title": "Kaputas Canyon.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 2000,
+        "height": 3008
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 47,
+      "tier_breakdown": {
+        "tier1": 5,
+        "tier3": 23,
+        "tier2": 19
+      },
+      "hero_auto_selected": true
+    }
   }
 }

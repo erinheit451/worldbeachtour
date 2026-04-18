@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Australian_Safari_finish_at_Mindil_Beach.jpg",
+      "title": "Australian Safari finish at Mindil Beach.jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/40132991@N07\">kenhodge13</a>",
+      "license": "CC BY 2.0",
+      "width": 3496,
+      "height": 2320,
+      "score": 40.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Mindil_markets_230616_gnangarra-107.JPG",
+        "title": "Mindil markets 230616 gnangarra-107.JPG",
+        "license": "CC BY 2.5 au",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 2400,
+        "height": 1602
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Mindil_markets_230616_gnangarra-106.JPG",
+        "title": "Mindil markets 230616 gnangarra-106.JPG",
+        "license": "CC BY 2.5 au",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 2400,
+        "height": 1602
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/DarwinBeach.JPG",
+        "title": "DarwinBeach.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 36.5,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/A_front_moving_in_over_Mindil_Beach%2C_Darwin%2C_Australia_05.jpg",
+        "title": "A front moving in over Mindil Beach, Darwin, Australia 05.jpg",
+        "license": "CC0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 4608,
+        "height": 2592
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Beach_at_The_Gardens%2C_Northern_Territory.jpg",
+        "title": "Beach at The Gardens, Northern Territory.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 2592,
+        "height": 1936
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 38,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier3": 15,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

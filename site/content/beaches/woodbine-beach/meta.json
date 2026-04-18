@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/ONTARIO-00679_-_The_Beaches_%2814656727830%29.jpg",
+      "title": "ONTARIO-00679 - The Beaches (14656727830).jpg",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q122977591\" class=\"extiw\" title=\"d:Q122977591\"><span title=\"photographer\">Dennis G. Jarvis</span></a></bdi>",
+      "license": "CC BY-SA 2.0",
+      "width": 6000,
+      "height": 4000,
+      "score": 50.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Toronto_map.png",
+        "title": "Toronto map.png",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 1500,
+        "height": 1115
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Shore_at_Woodbine_Beach.jpg",
+        "title": "Shore at Woodbine Beach.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 2488,
+        "height": 3730
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/ONTARIO-00681_-_The_Beaches_%2814843435475%29.jpg",
+        "title": "ONTARIO-00681 - The Beaches (14843435475).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Blue-pink-orange_sky_at_sunset%2C_Woodbine_Beach%2C_Toronto%2C_Canada.jpg",
+        "title": "Blue-pink-orange sky at sunset, Woodbine Beach, Toronto, Canada.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 5325,
+        "height": 3550
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Footprints_in_the_Sand_2_%283179128762%29.jpg",
+        "title": "Footprints in the Sand 2 (3179128762).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 3785,
+        "height": 2527
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 47,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier3": 25,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

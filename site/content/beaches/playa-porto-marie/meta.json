@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Playa-Porto-Marie.jpg",
+      "title": "Playa-Porto-Marie.jpg",
+      "author": "Martijn Meijerink; SkitterPhoto",
+      "license": "CC0",
+      "width": 5969,
+      "height": 3979,
+      "score": 80.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Playa_Porto_Marie.jpg",
+        "title": "Playa Porto Marie.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 70.0,
+        "width": 4160,
+        "height": 3120
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Playa_Porto_Mari_beach_%2834089797754%29.jpg",
+        "title": "Playa Porto Mari beach (34089797754).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 45.0,
+        "width": 3181,
+        "height": 2384
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Playa_Porto_Marie_2.jpg",
+        "title": "Playa Porto Marie 2.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 4160,
+        "height": 3120
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Playa_Porto_Marie_3.jpg",
+        "title": "Playa Porto Marie 3.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 4160,
+        "height": 3120
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Playa_Porto_Mari_Strand_%2834933052135%29.jpg",
+        "title": "Playa Porto Mari Strand (34933052135).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 3661,
+        "height": 2056
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 8,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier2": 6,
+        "tier3": 1
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

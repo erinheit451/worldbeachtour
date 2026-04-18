@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Cala_Bassa_-_panoramio.jpg",
+      "title": "Cala Bassa - panoramio.jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161017110535/http://www.panoramio.com/user/2994848?with_photo_id=42608525\">Daria</a>",
+      "license": "CC BY 3.0",
+      "width": 4272,
+      "height": 2848,
+      "score": 30.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Cala_Bassa_%28Ibiza%29_%28190295961%29.jpg",
+        "title": "Cala Bassa (Ibiza) (190295961).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 81.5,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Location_map_Ibiza.png",
+        "title": "Location map Ibiza.png",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 41.6,
+        "width": 786,
+        "height": 771
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Cala_Bassa_-_panoramio_%283%29.jpg",
+        "title": "Cala Bassa - panoramio (3).jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 4272,
+        "height": 2848
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/In_flight_-_Ibiza.jpg",
+        "title": "In flight - Ibiza.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 4021,
+        "height": 1949
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Decompte.png",
+        "title": "Decompte.png",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 27.9,
+        "width": 193,
+        "height": 193
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 9,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier2": 5,
+        "tier3": 1
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

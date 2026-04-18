@@ -1,1 +1,49 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Doctors-Cave-Beach.jpg",
+      "title": "Doctors-Cave-Beach.jpg",
+      "author": "<a href=\"https://en.wikipedia.org/wiki/User:Op._Deo\" class=\"extiw\" title=\"en:User:Op. Deo\">en:User:Op. Deo</a>",
+      "license": "Public domain",
+      "width": 1011,
+      "height": 529,
+      "score": 77.9
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/DoctorsCaveBeach.jpeg",
+        "title": "DoctorsCaveBeach.jpeg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 67.7,
+        "width": 768,
+        "height": 512
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Plane_landing_at_Montego_Bay_Airport%2C_Jamaica_-_panoramio.jpg",
+        "title": "Plane landing at Montego Bay Airport, Jamaica - panoramio.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 50.0,
+        "width": 2592,
+        "height": 1944
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 3,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 1,
+        "tier2": 1
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

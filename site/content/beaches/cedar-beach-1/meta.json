@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Cedar_beach_marina_1.jpg",
+      "title": "Cedar beach marina 1.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Thrawn\" class=\"mw-redirect\" title=\"User:Thrawn\">Thrawn</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 3264,
+      "height": 2448,
+      "score": 55.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Ocean_Parkway_Road_on_Long_Island_2021.jpg",
+        "title": "Ocean Parkway Road on Long Island 2021.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 2,
+        "score": 55.0,
+        "width": 4000,
+        "height": 2250
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Cedar_beach_marina_2.jpg",
+        "title": "Cedar beach marina 2.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Cedar_Beach_pavilion.jpg",
+        "title": "Cedar Beach pavilion.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Barrier_beach%2C_south_shore_Long_Island_%283379501577%29.jpg",
+        "title": "Barrier beach, south shore Long Island (3379501577).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 3072,
+        "height": 2304
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/EB_Ocean_Parkway%3B_Cedar_Beach_Tunnel_%26_Salt_Shack.jpg",
+        "title": "EB Ocean Parkway; Cedar Beach Tunnel & Salt Shack.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 3648,
+        "height": 2736
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 9,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier2": 1,
+        "tier3": 7
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

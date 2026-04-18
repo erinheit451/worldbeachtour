@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Hanakapiai_Beach%2C_Kalalau_Trail%2C_Napali_Coast%2C_Kapaa_-_panoramio.jpg",
+      "title": "Hanakapiai Beach, Kalalau Trail, Napali Coast, Kapaa - panoramio.jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161031221920/http://www.panoramio.com/user/7508506?with_photo_id=117742932\">Bob Linsdell</a>",
+      "license": "CC BY 3.0",
+      "width": 4973,
+      "height": 2803,
+      "score": 30.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Hanakapiai_Beach%2C_Na_Pali_Coast%2C_Kauai%2C_Hawaii.jpg",
+        "title": "Hanakapiai Beach, Na Pali Coast, Kauai, Hawaii.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 1753,
+        "height": 1168
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Hanakapiai_Beach_Warning_Sign_Only.jpg",
+        "title": "Hanakapiai Beach Warning Sign Only.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 67.0,
+        "width": 469,
+        "height": 946
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Cat_Friends_%28209049579%29.jpeg",
+        "title": "Cat Friends (209049579).jpeg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 2048,
+        "height": 1365
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Looking_West_on_Hanakapi%27ai_Beach%2C_Kauai_-_panoramio.jpg",
+        "title": "Looking West on Hanakapi'ai Beach, Kauai - panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 2909,
+        "height": 2091
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Hanakapiai_Stream%2C_Kalalau_Trail%2C_Napali_Coast%2C_Kapaa_%28502900%29_%2816723036458%29.jpg",
+        "title": "Hanakapiai Stream, Kalalau Trail, Napali Coast, Kapaa (502900) (16723036458).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 5368,
+        "height": 3579
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 22,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

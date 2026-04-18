@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/San_Francisco_%28CA%2C_USA%29%2C_Baker_Beach_--_2022_--_3034.jpg",
+      "title": "San Francisco (CA, USA), Baker Beach -- 2022 -- 3034.jpg",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q34788025\" class=\"extiw\" title=\"d:Q34788025\"><span title=\"German photographer and mathematician\">Dietmar Rabich</span></a></bdi>",
+      "license": "CC BY-SA 4.0",
+      "width": 6671,
+      "height": 3752,
+      "score": 60.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Baker_Beach_2.jpg",
+        "title": "Baker Beach 2.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 100.0,
+        "width": 2580,
+        "height": 1600
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Seacliff_District_SF.jpg",
+        "title": "Seacliff District SF.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/6in_Rifled_Gun_No_9.jpg",
+        "title": "6in Rifled Gun No 9.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 65.4,
+        "width": 600,
+        "height": 359
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/BakeBeachAtMidday.jpg",
+        "title": "BakeBeachAtMidday.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Baker_Beach_path_with_shrubs_and_crow.jpg",
+        "title": "Baker Beach path with shrubs and crow.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 4640,
+        "height": 3480
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 70,
+      "tier_breakdown": {
+        "tier3": 46,
+        "tier1": 4,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

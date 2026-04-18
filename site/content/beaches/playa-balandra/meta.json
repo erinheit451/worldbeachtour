@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Playa_Balandra%2C_Baja_California_Sur_5.jpg",
+      "title": "Playa Balandra, Baja California Sur 5.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:ProtoplasmaKid\" title=\"User:ProtoplasmaKid\">ProtoplasmaKid</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 5568,
+      "height": 3712,
+      "score": 70.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Neorapana_tuberculata.jpg",
+        "title": "Neorapana tuberculata.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 70.0,
+        "width": 2048,
+        "height": 1368
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Playa_Balandra_in_La_Paz%2C_Mexico.jpg",
+        "title": "Playa Balandra in La Paz, Mexico.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 3616,
+        "height": 2260
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Mushroom_rock_01.jpg",
+        "title": "Mushroom rock 01.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 54.0,
+        "width": 800,
+        "height": 600
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Mushroom_Rock%2C_Point_Peron%2C_July_2019.jpg",
+        "title": "Mushroom Rock, Point Peron, July 2019.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 5152,
+        "height": 3864
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Mushroom_Rock_Kansas_1916.jpg",
+        "title": "Mushroom Rock Kansas 1916.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 48.6,
+        "width": 910,
+        "height": 1400
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 41,
+      "tier_breakdown": {
+        "tier2": 16,
+        "tier3": 24,
+        "tier1": 1
+      },
+      "hero_auto_selected": true
+    }
   }
 }

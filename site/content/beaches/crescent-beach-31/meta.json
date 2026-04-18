@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Blackie_Spit%2C_Surrey_%28504710%29_%2824177615311%29.jpg",
+      "title": "Blackie Spit, Surrey (504710) (24177615311).jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/92487715@N03\">Robert Linsdell</a> from St. Andrews, Canada",
+      "license": "CC BY 2.0",
+      "width": 3832,
+      "height": 2155,
+      "score": 40.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Cresbeach-groyne.jpg",
+        "title": "Cresbeach-groyne.jpg",
+        "license": "Attribution",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2272,
+        "height": 1704
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Crescent_Beach_walkway.jpg",
+        "title": "Crescent Beach walkway.jpg",
+        "license": "CC0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 2326,
+        "height": 1550
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Northview_from_Mid_Bay_2014.jpg",
+        "title": "Northview from Mid Bay 2014.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 2234,
+        "height": 1490
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Southview_Crescent_Beach_Surrey_1.jpg",
+        "title": "Southview Crescent Beach Surrey 1.jpg",
+        "license": "CC0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 2058,
+        "height": 1372
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Crescent_Beach%2C_White_Rock%2C_B.C.%2C_Canada.jpg",
+        "title": "Crescent Beach, White Rock, B.C., Canada.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 2000,
+        "height": 1314
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 25,
+      "tier_breakdown": {
+        "tier1": 5,
+        "tier3": 14,
+        "tier2": 6
+      },
+      "hero_auto_selected": true
+    }
   }
 }

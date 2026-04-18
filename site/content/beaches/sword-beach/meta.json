@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/The_Blue_Marble%2C_AS17-148-22727.jpg",
+      "title": "The Blue Marble, AS17-148-22727.jpg",
+      "author": "Harrison Schmitt / Apollo 17",
+      "license": "Public domain",
+      "width": 6750,
+      "height": 6750,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Allied_Invasion_Force.jpg",
+        "title": "Allied Invasion Force.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 84.5,
+        "width": 1265,
+        "height": 966
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/A_Gooseberry_off_the_beaches_at_Ouistreham.jpg",
+        "title": "A Gooseberry off the beaches at Ouistreham.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 5212,
+        "height": 3973
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Ouistreham.jpg",
+        "title": "Ouistreham.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 44.5,
+        "width": 1288,
+        "height": 966
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Film_still_from_the_D-Day_landings_showing_commandos_aboard_a_landing_craft_on_their_approach_to_Sword_Beach%2C_6_June_1944._BU1181.jpg",
+        "title": "Film still from the D-Day landings showing commandos aboard a landing craft on their approach to Sword Beach, 6 June 1944. BU1181.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 42.1,
+        "width": 1072,
+        "height": 808
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/140606-EV637-285.jpg",
+        "title": "140606-EV637-285.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 3335,
+        "height": 2222
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 47,
+      "tier_breakdown": {
+        "tier1": 10,
+        "tier3": 17,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Bridge-on-water-takwa-bay.jpg",
+      "title": "Bridge-on-water-takwa-bay.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:S.aderogba&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:S.aderogba (page does not exist)\">S.aderogba</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4000,
+      "height": 2250,
+      "score": 45.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Lagos_Island.jpg",
+        "title": "Lagos Island.jpg",
+        "license": "CC BY-SA 1.0",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 583,
+        "height": 330
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Tarkwa_Bay_-_Jetty_Station.jpg",
+        "title": "Tarkwa Bay - Jetty Station.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Tarkwa_Bay_Beach_Front.jpg",
+        "title": "Tarkwa Bay Beach Front.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Tarkwa_Bay_Beach_Tire_shot.jpg",
+        "title": "Tarkwa Bay Beach Tire shot.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Waterfront_.jpg",
+        "title": "Waterfront .jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 2000,
+        "height": 1500
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 24,
+      "tier_breakdown": {
+        "tier1": 5,
+        "tier2": 8,
+        "tier3": 11
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

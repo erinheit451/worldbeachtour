@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Kits-Beach.jpg",
+      "title": "Kits-Beach.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Xicotencatl\" title=\"User:Xicotencatl\">Xicotencatl</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 5717,
+      "height": 3582,
+      "score": 70.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Kits-Beach-Vancouver.jpg",
+        "title": "Kits-Beach-Vancouver.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 5828,
+        "height": 3978
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Canada_British_Columbia_relief_location_map.jpg",
+        "title": "Canada British Columbia relief location map.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 2127,
+        "height": 1723
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Kitsilano_Beach_Playground_2026.JPG",
+        "title": "Kitsilano Beach Playground 2026.JPG",
+        "license": "CC BY 4.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Big_Giant_Staple_March_2011.jpg",
+        "title": "Big Giant Staple March 2011.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 5616,
+        "height": 3744
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Blue_Bird_Day.jpg",
+        "title": "Blue Bird Day.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 3888,
+        "height": 2592
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 64,
+      "tier_breakdown": {
+        "tier1": 4,
+        "tier3": 40,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

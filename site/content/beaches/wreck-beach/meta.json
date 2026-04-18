@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Cherry_Blossoms_UBC.JPG",
+      "title": "Cherry Blossoms UBC.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Xicotencatl\" title=\"User:Xicotencatl\">Xicotencatl</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 6016,
+      "height": 4016,
+      "score": 60.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Wreckbeach-ptgrey.jpg",
+        "title": "Wreckbeach-ptgrey.jpg",
+        "license": "Attribution",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2272,
+        "height": 1704
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Carex_macrocephala_3793834.jpg",
+        "title": "Carex macrocephala 3793834.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 2,
+        "score": 60.0,
+        "width": 1152,
+        "height": 2048
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Marine_Drive_Cherry_Blossoms_02.JPG",
+        "title": "Marine Drive Cherry Blossoms 02.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 55.0,
+        "width": 6016,
+        "height": 4016
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Wreck_beach_1970.jpg",
+        "title": "Wreck beach 1970.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 41.8,
+        "width": 576,
+        "height": 450
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/WreckBeach.jpg",
+        "title": "WreckBeach.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 40.6,
+        "width": 500,
+        "height": 372
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 72,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier2": 20,
+        "tier3": 49
+      },
+      "hero_auto_selected": true
+    }
   }
 }

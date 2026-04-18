@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Praia_dos_Aveiros_5_March_2015_%285%29.JPG",
+      "title": "Praia dos Aveiros 5 March 2015 (5).JPG",
+      "author": "Kolforn",
+      "license": "CC BY 3.0",
+      "width": 4000,
+      "height": 3000,
+      "score": 60.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Cliff_path_at_the_east_of_Praia_dos_Aveiros_Albufeira_6_March_2015.JPG",
+        "title": "Cliff path at the east of Praia dos Aveiros Albufeira 6 March 2015.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Cliff_path_at_the_west_side_of_Praia_dos_Aveiros_Albufeira_6_March_2015_%282%29.JPG",
+        "title": "Cliff path at the west side of Praia dos Aveiros Albufeira 6 March 2015 (2).JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Satellite_beach_to_the_west_of_Praia_dos_Aveiros_6_March_2015_%283%29.JPG",
+        "title": "Satellite beach to the west of Praia dos Aveiros 6 March 2015 (3).JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Satellite_beach_to_the_west_of_Praia_dos_Aveiros_6_March_2015_%284%29.JPG",
+        "title": "Satellite beach to the west of Praia dos Aveiros 6 March 2015 (4).JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Steps_and_lane_leading_up_from_Praia_dos_Aveiros_5_March_2015_%281%29.JPG",
+        "title": "Steps and lane leading up from Praia dos Aveiros 5 March 2015 (1).JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4000,
+        "height": 3000
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 60,
+      "tier_breakdown": {
+        "tier1": 7,
+        "tier3": 36,
+        "tier2": 17
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Swimming_pool_overlooking_the_Bohol_sea_-_panoramio.jpg",
+      "title": "Swimming pool overlooking the Bohol sea - panoramio.jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161023202226/http://www.panoramio.com/user/671268?with_photo_id=64299570\">Mats Sj\u00f6din</a>",
+      "license": "CC BY 3.0",
+      "width": 3648,
+      "height": 2736,
+      "score": 45.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Alona_Beach_Overview.jpg",
+        "title": "Alona Beach Overview.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2272,
+        "height": 1704
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Alona_Beach_Palmtree.jpg",
+        "title": "Alona Beach Palmtree.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 2139,
+        "height": 1545
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Alona_Beach%2C_Bohol.jpg",
+        "title": "Alona Beach, Bohol.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 70.8,
+        "width": 960,
+        "height": 720
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Alona_beach_-_panoramio_%281%29.jpg",
+        "title": "Alona beach - panoramio (1).jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Alona_Beach_01.jpg",
+        "title": "Alona Beach 01.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 4272,
+        "height": 2848
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 67,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 46,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

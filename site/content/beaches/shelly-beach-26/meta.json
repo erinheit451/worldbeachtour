@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/2020-10-04_Shelly_Beach_Cronulla.jpg",
+      "title": "2020-10-04 Shelly Beach Cronulla.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Maxim75\" title=\"User:Maxim75\">Maksym Kozlenko</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 3968,
+      "height": 2976,
+      "score": 65.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sydney_Opera_House_Sails.jpg",
+        "title": "Sydney Opera House Sails.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2125,
+        "height": 1405
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Shelly_Beach_Cronulla_1.JPG",
+        "title": "Shelly Beach Cronulla 1.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 2560,
+        "height": 1920
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Shelly_beach_-_Rocks_and_ocean.jpg",
+        "title": "Shelly beach - Rocks and ocean.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/2020-08-22_Shelly_Beach%2C_Cronulla%2C_NSW.jpg",
+        "title": "2020-08-22 Shelly Beach, Cronulla, NSW.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 50.0,
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Shelly_Beach_Cronulla_3.JPG",
+        "title": "Shelly Beach Cronulla 3.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 44.0,
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 28,
+      "tier_breakdown": {
+        "tier1": 6,
+        "tier2": 20,
+        "tier3": 2
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Castillo_de_las_Coloradas.jpg",
+      "title": "Castillo de las Coloradas.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:JCB_Digger&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:JCB Digger (page does not exist)\">JCB Digger</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 4000,
+      "height": 3000,
+      "score": 60.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Playa_Blanca_Town_Promenade_and_Beach_01.JPG",
+        "title": "Playa Blanca Town Promenade and Beach 01.JPG",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 1782,
+        "height": 1325
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Vessel_Volc%C3%A1n_de_Tindaya.JPG",
+        "title": "Vessel Volc\u00e1n de Tindaya.JPG",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Lasioglossum_loetum_-_Flickr_-_S._Rae.jpg",
+        "title": "Lasioglossum loetum - Flickr - S. Rae.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 65.0,
+        "width": 1248,
+        "height": 1112
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Lanzarote_Monta%C3%B1a_Roja_R01.jpg",
+        "title": "Lanzarote Monta\u00f1a Roja R01.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 3748,
+        "height": 2365
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Lanzarote_-_Playa_Blanca.jpg",
+        "title": "Lanzarote - Playa Blanca.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 55.0,
+        "width": 3213,
+        "height": 1989
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 74,
+      "tier_breakdown": {
+        "tier1": 8,
+        "tier3": 46,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

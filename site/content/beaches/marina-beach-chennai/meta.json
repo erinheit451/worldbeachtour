@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Aerial_SE_Island_Grounds_Chennai_Jul25_R16_07915.jpg",
+      "title": "Aerial SE Island Grounds Chennai Jul25 R16 07915.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Tagooty\" title=\"User:Tagooty\">Timothy A. Gonsalves</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 3534,
+      "height": 2356,
+      "score": 70.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Aegopodium_podagraria1_ies.jpg",
+        "title": "Aegopodium podagraria1 ies.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 70.5,
+        "width": 800,
+        "height": 700
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/06Marina_Madras.jpg",
+        "title": "06Marina Madras.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 1597,
+        "height": 1349
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Chennai%2C_Beach.jpg",
+        "title": "Chennai, Beach.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 65.0,
+        "width": 2413,
+        "height": 2304
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Chennai%2C_India_%2821014159698%29.jpg",
+        "title": "Chennai, India (21014159698).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 4288,
+        "height": 2848
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Chennai_-_bird%27s-eye_view.jpg",
+        "title": "Chennai - bird's-eye view.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 4000,
+        "height": 3000
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 110,
+      "tier_breakdown": {
+        "tier1": 46,
+        "tier3": 44,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

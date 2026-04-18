@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Excavator_at_the_beach.jpg",
+      "title": "Excavator at the beach.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:JaredMcKenzie&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:JaredMcKenzie (page does not exist)\">JaredMcKenzie</a>",
+      "license": "CC0",
+      "width": 3000,
+      "height": 4000,
+      "score": 35.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Australia_New_South_Wales_relief_location_map.png",
+        "title": "Australia New South Wales relief location map.png",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 2226,
+        "height": 1972
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Stockton_Beach_-_north_eastern_end.jpg",
+        "title": "Stockton Beach - north eastern end.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 2300,
+        "height": 1231
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Stockton_Beach_-_southern_end.jpg",
+        "title": "Stockton Beach - southern end.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 2560,
+        "height": 1768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Tank_traps_at_Anna_Bay_001.jpg",
+        "title": "Tank traps at Anna Bay 001.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 1978,
+        "height": 1483
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Tank_traps_at_Anna_Bay_004.jpg",
+        "title": "Tank traps at Anna Bay 004.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 1841,
+        "height": 1379
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 39,
+      "tier_breakdown": {
+        "tier1": 12,
+        "tier3": 19,
+        "tier2": 8
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

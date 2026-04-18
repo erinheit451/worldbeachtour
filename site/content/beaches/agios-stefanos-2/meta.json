@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Agios_Stefanos_Mykonos.jpg",
+      "title": "Agios Stefanos Mykonos.jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.botev.pl/\">Rados\u0142aw Botev</a>",
+      "license": "Attribution",
+      "width": 5152,
+      "height": 3864,
+      "score": 70.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Agios_Stefanos_beach_Mykonos.jpg",
+        "title": "Agios Stefanos beach Mykonos.jpg",
+        "license": "CC BY 3.0 pl",
+        "source_tier": 3,
+        "score": 65.0,
+        "width": 5152,
+        "height": 3864
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/GreeceSouthAegean.png",
+        "title": "GreeceSouthAegean.png",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 63.0,
+        "width": 200,
+        "height": 204
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Agios_Stefanos_-_Mykonos.jpg",
+        "title": "Agios Stefanos - Mykonos.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Mykonos%2C_Greece_-_panoramio_%2872%29.jpg",
+        "title": "Mykonos, Greece - panoramio (72).jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 3648,
+        "height": 2060
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Epar.Od._Ormou_Agiou_Ioanni-Agiou_Stefanou%2C_Tourlos_846_00%2C_Greece_-_panoramio_%281%29.jpg",
+        "title": "Epar.Od. Ormou Agiou Ioanni-Agiou Stefanou, Tourlos 846 00, Greece - panoramio (1).jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 20.0,
+        "width": 5249,
+        "height": 2098
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 6,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier3": 1,
+        "tier2": 3
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

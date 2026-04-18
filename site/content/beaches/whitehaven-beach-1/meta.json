@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Whitsunday_Island_-_Whitehaven_Beach_02.jpg",
+      "title": "Whitsunday Island - Whitehaven Beach 02.jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/63906808@N00\">Damien Dempsey</a> from Melbourne, Australia",
+      "license": "CC BY 2.0",
+      "width": 3072,
+      "height": 2048,
+      "score": 80.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Whitehaven_Beach%2C_Whitsunday_Island%2C_Queensland.jpg",
+        "title": "Whitehaven Beach, Whitsunday Island, Queensland.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2929,
+        "height": 1947
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Whitsunday_Island_-_Whitehaven_Beach_01.jpg",
+        "title": "Whitsunday Island - Whitehaven Beach 01.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 3072,
+        "height": 2048
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Petrogale_inornata_166097066.jpg",
+        "title": "Petrogale inornata 166097066.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 2,
+        "score": 70.0,
+        "width": 2048,
+        "height": 1365
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Plage_Whitesunday_island.jpg",
+        "title": "Plage Whitesunday island.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 65.0,
+        "width": 5882,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Whitsunday_islands.jpg",
+        "title": "Whitsunday islands.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 57.6,
+        "width": 504,
+        "height": 600
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 59,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier3": 39,
+        "tier2": 17
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/TemploEcomenicoPlayaDelInglesGC.jpg",
+      "title": "TemploEcomenicoPlayaDelInglesGC.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:R%C3%BCdiger_Marmulla\" title=\"User:R\u00fcdiger Marmulla\">R\u00fcdiger Marmulla</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 3264,
+      "height": 2448,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Playa_del_Ingl%C3%A9s_-_Centro_Comercial_Yumbo_Centrum.jpg",
+        "title": "Playa del Ingl\u00e9s - Centro Comercial Yumbo Centrum.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 5915,
+        "height": 3949
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/AxelBeach.jpg",
+        "title": "AxelBeach.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 70.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Playa_del_Ingles_beach_A.jpg",
+        "title": "Playa del Ingles beach A.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 70.0,
+        "width": 3008,
+        "height": 2000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Playa_del_ingles_europalace_hotel.jpg",
+        "title": "Playa del ingles europalace hotel.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 3771,
+        "height": 2364
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/P1030783.JPG",
+        "title": "P1030783.JPG",
+        "license": "CC BY 2.5",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 2560,
+        "height": 1920
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 67,
+      "tier_breakdown": {
+        "tier1": 8,
+        "tier3": 46,
+        "tier2": 13
+      },
+      "hero_auto_selected": true
+    }
   }
 }

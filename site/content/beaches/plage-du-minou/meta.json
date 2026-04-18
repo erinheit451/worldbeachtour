@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Plage_du_Minou_mar%C3%A9e_haute_depuis_l%27entr%C3%A9e.jpg",
+      "title": "Plage du Minou mar\u00e9e haute depuis l'entr\u00e9e.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Laemito&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Laemito (page does not exist)\">Laemito</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4032,
+      "height": 2268,
+      "score": 35.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Phare_du_minou.jpg",
+        "title": "Phare du minou.jpg",
+        "license": "CC BY-SA 1.0",
+        "source_tier": 1,
+        "score": 77.9,
+        "width": 800,
+        "height": 524
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Fort_du_Minou.JPG",
+        "title": "Fort du Minou.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 2560,
+        "height": 1547
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Nourrir_le_minou_Second_Life.png",
+        "title": "Nourrir le minou Second Life.png",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 1280,
+        "height": 1021
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Minou_surf_club.jpg",
+        "title": "Minou surf club.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4032,
+        "height": 2268
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Plouzan%C3%A9_Plage_du_Minou.jpg",
+        "title": "Plouzan\u00e9 Plage du Minou.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 31.6,
+        "width": 1188,
+        "height": 772
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 25,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 4,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -6,7 +6,52 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Playalinda_Beach.JPG",
+      "title": "Playalinda Beach.JPG",
+      "author": "<a href=\"https://en.wikipedia.org/wiki/User:JohnWalton031954\" class=\"extiw\" title=\"en:User:JohnWalton031954\">User:JohnWalton031954</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 2048,
+      "height": 1536,
+      "score": 70.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Cocos_nucifera_460251575.jpg",
+        "title": "Cocos nucifera 460251575.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 2048,
+        "height": 1366
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Argopecten_gibbus_453355372.jpg",
+        "title": "Argopecten gibbus 453355372.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 2,
+        "score": 20.0,
+        "width": 1536,
+        "height": 2048
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/FLMap-doton-Playlinda.PNG",
+        "title": "FLMap-doton-Playlinda.PNG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": -0.6,
+        "width": 300,
+        "height": 295
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 4,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier2": 2
+      },
+      "hero_auto_selected": true
+    }
   }
 }

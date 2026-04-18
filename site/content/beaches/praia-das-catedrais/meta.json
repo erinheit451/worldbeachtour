@@ -1,9 +1,76 @@
 {
   "tier": 2,
-  "lenses": ["overview", "travel"],
+  "lenses": [
+    "overview",
+    "travel"
+  ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Ribadeo._Playa_de_las_catedrales.jpg",
+      "title": "Ribadeo. Playa de las catedrales.jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/11198957@N08\">Jaume Meneses</a>",
+      "license": "CC BY-SA 2.0",
+      "width": 3072,
+      "height": 2304,
+      "score": 70.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Playa_de_las_catedrales_%28Lugo%29.jpg",
+        "title": "Playa de las catedrales (Lugo).jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 64.1,
+        "width": 272,
+        "height": 435
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/As_Catedrais_Lugo_Galicia.jpg",
+        "title": "As Catedrais Lugo Galicia.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 62.4,
+        "width": 740,
+        "height": 493
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/As_Catedrais_-_panoramio.jpg",
+        "title": "As Catedrais - panoramio.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Xistos_na_praia_de_Augas_Santas_ou_das_Catedrais._Devesa._Ribadeo._Galiza-07.jpg",
+        "title": "Xistos na praia de Augas Santas ou das Catedrais. Devesa. Ribadeo. Galiza-07.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 55.0,
+        "width": 5192,
+        "height": 2679
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Acceso_%C3%A1_praia_de_Augas_Santas_ou_das_Catedrais._Devesa._Ribadeo._Galiza-02.jpg",
+        "title": "Acceso \u00e1 praia de Augas Santas ou das Catedrais. Devesa. Ribadeo. Galiza-02.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 55.0,
+        "width": 5049,
+        "height": 3366
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 78,
+      "tier_breakdown": {
+        "tier1": 8,
+        "tier2": 20,
+        "tier3": 50
+      },
+      "hero_auto_selected": true
+    }
   }
 }

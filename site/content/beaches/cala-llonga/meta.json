@@ -6,7 +6,62 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Cala_Llonga.jpg",
+      "title": "Cala Llonga.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Dreizung\" title=\"User:Dreizung\">Dreizung</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4896,
+      "height": 3264,
+      "score": 35.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Calallonga.JPG",
+        "title": "Calallonga.JPG",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2560,
+        "height": 1920
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Cal%C3%B2_d%27es_Pou%2C_Cala_D%27or%2C_Mallorca%2C_Illes_Balears%2C_Spain_-_panoramio.jpg",
+        "title": "Cal\u00f2 d'es Pou, Cala D'or, Mallorca, Illes Balears, Spain - panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4897,
+        "height": 2756
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Can_Xomeu_d%27en_Moss%C3%A8nyer_i_el_-_panoramio.jpg",
+        "title": "Can Xomeu d'en Moss\u00e8nyer i el - panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 12.9,
+        "width": 1280,
+        "height": 526
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Pla_de_Cala_Llonga_des_de_can_Xomeu_d%27en_Moss%C3%A8nyer_-_panoramio.jpg",
+        "title": "Pla de Cala Llonga des de can Xomeu d'en Moss\u00e8nyer - panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 11.9,
+        "width": 1280,
+        "height": 459
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 5,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 2,
+        "tier2": 2
+      },
+      "hero_auto_selected": true
+    }
   }
 }

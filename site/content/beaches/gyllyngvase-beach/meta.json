@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Gyllyngvase_Beach_%2828815318012%29.jpg",
+      "title": "Gyllyngvase Beach (28815318012).jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/93416311@N00\">Tim Green</a> from Bradford",
+      "license": "CC BY 2.0",
+      "width": 4000,
+      "height": 2667,
+      "score": 40.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/DSCN0866Gyllingvase.jpg",
+        "title": "DSCN0866Gyllingvase.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 1632,
+        "height": 1224
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/DSCN1936GyllyngvaseFromNansidwell.jpg",
+        "title": "DSCN1936GyllyngvaseFromNansidwell.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 1632,
+        "height": 1224
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/DSCN2150FalmouthHotelGyllyngvase.jpg",
+        "title": "DSCN2150FalmouthHotelGyllyngvase.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 1632,
+        "height": 1224
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Gyllyngvase_Beach_and_Restaurant.jpg",
+        "title": "Gyllyngvase Beach and Restaurant.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 2592,
+        "height": 1944
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Falmouth_Blick_aufs_Gylly_Beach_Caf%C3%A9_-_panoramio.jpg",
+        "title": "Falmouth Blick aufs Gylly Beach Caf\u00e9 - panoramio.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4320,
+        "height": 2880
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 66,
+      "tier_breakdown": {
+        "tier1": 4,
+        "tier3": 42,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

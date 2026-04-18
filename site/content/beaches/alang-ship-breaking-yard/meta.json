@@ -6,7 +6,61 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Aegopodium_podagraria1_ies.jpg",
+      "title": "Aegopodium podagraria1 ies.jpg",
+      "author": "Frank Vincentz",
+      "license": "CC BY-SA 3.0",
+      "width": 800,
+      "height": 700,
+      "score": 70.5
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Bedrijfsafval.jpg",
+        "title": "Bedrijfsafval.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 2304,
+        "height": 1728
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Shipwrecking_in_Alang%2C_India%2C_2017-03-23_by_Planet_Labs.jpg",
+        "title": "Shipwrecking in Alang, India, 2017-03-23 by Planet Labs.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 2400,
+        "height": 1800
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Calendar_2020_%2864%29.jpg",
+        "title": "Calendar 2020 (64).jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 41.7,
+        "width": 1040,
+        "height": 780
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Alang_Ship_Breaking_-_panoramio.jpg",
+        "title": "Alang Ship Breaking - panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 2048,
+        "height": 1536
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 5,
+      "tier_breakdown": {
+        "tier1": 4,
+        "tier2": 1
+      },
+      "hero_auto_selected": true
+    }
   }
 }

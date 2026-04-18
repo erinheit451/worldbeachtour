@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Praia_de_Odeceixe_Mar_11_November_2013_%282%29.JPG",
+      "title": "Praia de Odeceixe Mar 11 November 2013 (2).JPG",
+      "author": "Beeston",
+      "license": "CC BY 3.0",
+      "width": 4000,
+      "height": 3000,
+      "score": 65.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Aljezur_selec_portugal-13-b_%2835143786340%29.jpg",
+        "title": "Aljezur selec portugal-13-b (35143786340).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 5568,
+        "height": 3712
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Praia_de_Odeceixe%2C_8_April_2009.jpg",
+        "title": "Praia de Odeceixe, 8 April 2009.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 4272,
+        "height": 2848
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Praia_de_Odeceixe.JPG",
+        "title": "Praia de Odeceixe.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 54.0,
+        "width": 800,
+        "height": 600
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Algarve_Odeicexe.JPG",
+        "title": "Algarve Odeicexe.JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 2496,
+        "height": 1664
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Aljezur_selec_portugal-14-b_%2835530514055%29.jpg",
+        "title": "Aljezur selec portugal-14-b (35530514055).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 5568,
+        "height": 3712
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 34,
+      "tier_breakdown": {
+        "tier1": 12,
+        "tier2": 20,
+        "tier3": 2
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

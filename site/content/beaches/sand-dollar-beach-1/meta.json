@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_drive_down_the_PCH.jpg",
+      "title": "A drive down the PCH.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Thederekjohnson&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Thederekjohnson (page does not exist)\">Thederekjohnson</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 5184,
+      "height": 3456,
+      "score": 40.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Relief_map_of_California.png",
+        "title": "Relief map of California.png",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 40.2,
+        "width": 681,
+        "height": 780
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Sand_Dollar_Beach_%289386816015%29.jpg",
+        "title": "Sand Dollar Beach (9386816015).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Sand_Dollar_Beach_%289389589290%29.jpg",
+        "title": "Sand Dollar Beach (9389589290).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Sand_Dollar_Beach_RB.JPG",
+        "title": "Sand Dollar Beach RB.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Sand_Dollar_Beach.jpg",
+        "title": "Sand Dollar Beach.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4304,
+        "height": 2852
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 13,
+      "tier_breakdown": {
+        "tier1": 4,
+        "tier3": 5,
+        "tier2": 4
+      },
+      "hero_auto_selected": true
+    }
   }
 }

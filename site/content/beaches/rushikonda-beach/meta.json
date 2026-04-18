@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Aerial_view_of_Rushikonda_beach.jpg",
+      "title": "Aerial view of Rushikonda beach.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:IM3847\" class=\"mw-redirect\" title=\"User:IM3847\">iMahesh</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4000,
+      "height": 2250,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Rushikonda_beach_view_001.jpg",
+        "title": "Rushikonda beach view 001.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2560,
+        "height": 1920
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Paragliding_in_Visakhapatnam_%282%29.jpg",
+        "title": "Paragliding in Visakhapatnam (2).jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 1800,
+        "height": 4000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Rushikonda_hill_during_sunset_from_beach.jpg",
+        "title": "Rushikonda hill during sunset from beach.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 2,
+        "score": 50.0,
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Reflection_of_Rushikonda_hill_at_Beach_in_Vizag.jpg",
+        "title": "Reflection of Rushikonda hill at Beach in Vizag.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Visakhapatnam_City_Area_Map.png",
+        "title": "Visakhapatnam City Area Map.png",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 1176,
+        "height": 1070
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 67,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier3": 44,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -1,1 +1,75 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/W_hotel_%287448598674%29.jpg",
+      "title": "W hotel (7448598674).jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/30713600@N00\">Martin Abegglen</a> from Bern, Switzerland",
+      "license": "CC BY-SA 2.0",
+      "width": 4852,
+      "height": 3170,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Playa_de_Barcelona_%2C_Espa%C3%B1a._-_panoramio.jpg",
+        "title": "Playa de Barcelona , Espa\u00f1a. - panoramio.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Barcelona_%2830797968571%29.jpg",
+        "title": "Barcelona (30797968571).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Sand_sculptures_in_Catalonia_02.jpg",
+        "title": "Sand sculptures in Catalonia 02.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 5152,
+        "height": 3864
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Una_ma%C3%B1ana_cualquiera_de_domingo_%288647705039%29.jpg",
+        "title": "Una ma\u00f1ana cualquiera de domingo (8647705039).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 2539,
+        "height": 1645
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Barcelona_%2830585169310%29.jpg",
+        "title": "Barcelona (30585169310).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 3264,
+        "height": 2448
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 21,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

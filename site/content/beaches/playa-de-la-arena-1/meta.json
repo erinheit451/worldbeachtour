@@ -1,1 +1,75 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Puerto_de_Santiago%2C_Tenerife%2C_Espa%C3%B1a%2C_2012-12-16%2C_DD_03.jpg",
+      "title": "Puerto de Santiago, Tenerife, Espa\u00f1a, 2012-12-16, DD 03.jpg",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+      "license": "CC BY-SA 3.0",
+      "width": 5023,
+      "height": 2494,
+      "score": 65.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Black_sand_beach_Playa_de_la_Arena_on_Tenerife%2C_Spain_%2848225289937%29.jpg",
+        "title": "Black sand beach Playa de la Arena on Tenerife, Spain (48225289937).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 60.0,
+        "width": 4160,
+        "height": 2768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Barcelo_Varadero.JPG",
+        "title": "Barcelo Varadero.JPG",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 1492,
+        "height": 1417
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Puerto_de_Santiago%2C_Tenerife%2C_Espa%C3%B1a%2C_2012-12-16%2C_DD_02.jpg",
+        "title": "Puerto de Santiago, Tenerife, Espa\u00f1a, 2012-12-16, DD 02.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 45.0,
+        "width": 4893,
+        "height": 2107
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Playa_de_la_Arena_Strand_und_Umgebung.jpg",
+        "title": "Playa de la Arena Strand und Umgebung.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 3072,
+        "height": 2304
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/-_panoramio_%285250%29.jpg",
+        "title": "- panoramio (5250).jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 2592,
+        "height": 1936
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 21,
+      "tier_breakdown": {
+        "tier2": 20,
+        "tier1": 1
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

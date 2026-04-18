@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Railay_Beach_5.jpg",
+      "title": "Railay Beach 5.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Kallerna\" title=\"User:Kallerna\">kallerna</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 4160,
+      "height": 2490,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Railay_Beach_Panorama.jpeg",
+        "title": "Railay Beach Panorama.jpeg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 70.0,
+        "width": 11693,
+        "height": 1853
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Thailand_Krabi.png",
+        "title": "Thailand Krabi.png",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 62.7,
+        "width": 178,
+        "height": 300
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/West_Rai_Leh_%283%29.jpg",
+        "title": "West Rai Leh (3).jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 55.0,
+        "width": 5122,
+        "height": 2988
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Railay_Beach_Limestone_Cliffs.jpg",
+        "title": "Railay Beach Limestone Cliffs.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4000,
+        "height": 2659
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Cliffs_%284442239275%29.jpg",
+        "title": "Cliffs (4442239275).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 1200,
+        "height": 1600
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 25,
+      "tier_breakdown": {
+        "tier1": 5,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

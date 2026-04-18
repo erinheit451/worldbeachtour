@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Cancun_%28Mexico%2C_November_2018%29_-_31_%2850999277441%29.jpg",
+      "title": "Cancun (Mexico, November 2018) - 31 (50999277441).jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/37003135@N00\">Bruno Rijsman</a>",
+      "license": "CC BY-SA 2.0",
+      "width": 4896,
+      "height": 3672,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Cancun_Beach.jpg",
+        "title": "Cancun Beach.jpg",
+        "license": "CC BY-SA 2.5",
+        "source_tier": 1,
+        "score": 110.0,
+        "width": 2272,
+        "height": 1704
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Cancun_aerial_photo_by_safa.jpg",
+        "title": "Cancun aerial photo by safa.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 82.5,
+        "width": 1248,
+        "height": 832
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Cancun%2C_Mexico_-_Av_Kukulkan_2013.jpg",
+        "title": "Cancun, Mexico - Av Kukulkan 2013.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Cancun-beach-Mexico-2016-Luka-Peternel.jpg",
+        "title": "Cancun-beach-Mexico-2016-Luka-Peternel.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 5472,
+        "height": 3648
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Cancun_%28Mexico%2C_November_2018%29_-_2_%2850999324412%29.jpg",
+        "title": "Cancun (Mexico, November 2018) - 2 (50999324412).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4896,
+        "height": 3672
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 42,
+      "tier_breakdown": {
+        "tier1": 21,
+        "tier2": 20,
+        "tier3": 1
+      },
+      "hero_auto_selected": true
+    }
   }
 }

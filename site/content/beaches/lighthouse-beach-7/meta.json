@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Fire_Island%2C_NY%2C_USA_-_panoramio_%281%29.jpg",
+      "title": "Fire Island, NY, USA - panoramio (1).jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161016133946/http://www.panoramio.com/user/4821500?with_photo_id=43763595\">dans362</a>",
+      "license": "CC BY 3.0",
+      "width": 3648,
+      "height": 2736,
+      "score": 35.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/FI_Lighthouse_pan.jpg",
+        "title": "FI Lighthouse pan.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 11475,
+        "height": 1787
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Kovalam_Lighthouse_Beach.JPG",
+        "title": "Kovalam Lighthouse Beach.JPG",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Fire_Island_Light_Station_1.jpg",
+        "title": "Fire Island Light Station 1.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 70.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Kovalam_-_view_from_the_lighthouse.jpg",
+        "title": "Kovalam - view from the lighthouse.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 70.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Fishermen_pulling_in_the_nets%2C_lighthouse_beach.jpg",
+        "title": "Fishermen pulling in the nets, lighthouse beach.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 38.6,
+        "width": 320,
+        "height": 240
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 25,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 4,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

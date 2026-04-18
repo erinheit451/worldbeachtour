@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Second_Beach_Olympic_June_2018_008.jpg",
+      "title": "Second Beach Olympic June 2018 008.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:King_of_Hearts\" title=\"User:King of Hearts\">King of Hearts</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 5880,
+      "height": 3920,
+      "score": 140.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/La_Push_Beach2.jpg",
+        "title": "La Push Beach2.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 5184,
+        "height": 3888
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/1stbchlapush.jpg",
+        "title": "1stbchlapush.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 5184,
+        "height": 3888
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/First_Beach%2C_Washington_coast._Olympic_National_Park.jpg",
+        "title": "First Beach, Washington coast. Olympic National Park.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 2150,
+        "height": 1369
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Quileute_Tribal_School%2C_La_Push%2C_WA_Old_Coast_Guard_Building.jpg",
+        "title": "Quileute Tribal School, La Push, WA Old Coast Guard Building.jpg",
+        "license": "CC0",
+        "source_tier": 2,
+        "score": 45.0,
+        "width": 4032,
+        "height": 2268
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Indian_Shaker_Church%2C_La_Push%2C_WA.jpg",
+        "title": "Indian Shaker Church, La Push, WA.jpg",
+        "license": "CC0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 4032,
+        "height": 2268
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 9,
+      "tier_breakdown": {
+        "tier1": 5,
+        "tier2": 4
+      },
+      "hero_auto_selected": true
+    }
   }
 }

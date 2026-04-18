@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Wollaston_Beach_2023.jpg",
+      "title": "Wollaston Beach 2023.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Antony-22\" title=\"User:Antony-22\">Antony-22</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 6240,
+      "height": 4160,
+      "score": 55.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Wollastonbeachtoboston.jpg",
+        "title": "Wollastonbeachtoboston.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 3264,
+        "height": 1832
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Wolly_beach_1.jpg",
+        "title": "Wolly beach 1.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 3745,
+        "height": 2120
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Wol_Birds.jpg",
+        "title": "Wol Birds.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 3992,
+        "height": 2611
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Wol_club.jpg",
+        "title": "Wol club.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Wolsouth.jpg",
+        "title": "Wolsouth.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4032,
+        "height": 3024
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 15,
+      "tier_breakdown": {
+        "tier3": 8,
+        "tier1": 5,
+        "tier2": 2
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Boneyard_Beach_%28Florida%29.jpg",
+      "title": "Boneyard Beach (Florida).jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/23262226@N08\">oliver.dodd</a>",
+      "license": "CC BY 2.0",
+      "width": 3872,
+      "height": 2592,
+      "score": 55.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Trametes_lactinea-upperside.jpg",
+        "title": "Trametes lactinea-upperside.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 3,
+        "score": 53.5,
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Stereum_lobatum-upperside.jpg",
+        "title": "Stereum lobatum-upperside.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 2,
+        "score": 43.5,
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Boneyard_beach_bulls_island.jpg",
+        "title": "Boneyard beach bulls island.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 2560,
+        "height": 1704
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Trametes_lactinea-underside.jpg",
+        "title": "Trametes lactinea-underside.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 3,
+        "score": 38.5,
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Boneyard_Beach_%2810967035706%29.jpg",
+        "title": "Boneyard Beach (10967035706).jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 1632,
+        "height": 1224
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 8,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 5,
+        "tier2": 2
+      },
+      "hero_auto_selected": true
+    }
   }
 }

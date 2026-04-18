@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Rinconcillo_2.JPG",
+      "title": "Rinconcillo 2.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Falconaumanni\" title=\"User:Falconaumanni\">user:falconaumanni</a>",
+      "license": "CC BY 3.0",
+      "width": 3456,
+      "height": 2304,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Rinconcillo_norte_2.jpg",
+        "title": "Rinconcillo norte 2.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2304,
+        "height": 1728
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Rinconcillo.JPG",
+        "title": "Rinconcillo.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Getares.jpg",
+        "title": "Getares.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 67.7,
+        "width": 1000,
+        "height": 510
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Algeciras_Rinconcillo_beach_banner.jpg",
+        "title": "Algeciras Rinconcillo beach banner.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 54.5,
+        "width": 2100,
+        "height": 300
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Algeciras.jpg",
+        "title": "Algeciras.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 2048,
+        "height": 1536
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 8,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier3": 6
+      },
+      "hero_auto_selected": true
+    }
   }
 }

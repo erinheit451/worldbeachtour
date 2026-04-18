@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/The_Terekhol_River_and_Querim_Beach%2C_panoramic_view%2C_Goa%2C_India.jpg",
+      "title": "The Terekhol River and Querim Beach, panoramic view, Goa, India.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Argenberg\" title=\"User:Argenberg\">Vyacheslav Argenberg</a>",
+      "license": "CC BY 4.0",
+      "width": 4032,
+      "height": 2688,
+      "score": 110.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Querim_Beach%2C_Goa.jpg",
+        "title": "Querim Beach, Goa.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 4032,
+        "height": 2688
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Sunset_at_the_Querim_Beach%2C_sun_in_the_sky_and_trees%2C_Goa%2C_India.jpg",
+        "title": "Sunset at the Querim Beach, sun in the sky and trees, Goa, India.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 4032,
+        "height": 2688
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Querim_Beach%2C_Goa%2C_India.jpg",
+        "title": "Querim Beach, Goa, India.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 4032,
+        "height": 2688
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/%281%29_Querim_beach_Goa_India_2013.jpg",
+        "title": "(1) Querim beach Goa India 2013.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 1679,
+        "height": 1100
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Querim%2C_Goa%2C_March%2C_2018-1.jpg",
+        "title": "Querim, Goa, March, 2018-1.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 5881,
+        "height": 3921
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 8,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 7
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Pfeiffer_Beach_at_Dusk_%28Unsplash%29.jpg",
+      "title": "Pfeiffer Beach at Dusk (Unsplash).jpg",
+      "author": "Kace  Rodriguez <a rel=\"nofollow\" class=\"external text\" href=\"http://unsplash.com/@kace\">kace</a>",
+      "license": "CC0",
+      "width": 4276,
+      "height": 2851,
+      "score": 65.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Big_Sur%2C_United_States_%28Unsplash_xZqr8WtYEJ0%29.jpg",
+        "title": "Big Sur, United States (Unsplash xZqr8WtYEJ0).jpg",
+        "license": "CC0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 7568,
+        "height": 5048
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Pfieffer_Beach.jpg",
+        "title": "Pfieffer Beach.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 5616,
+        "height": 3744
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Portal_of_the_Sun%2C_Pfeiffer_Beach%2C_Big_Sur%2C_California.jpg",
+        "title": "Portal of the Sun, Pfeiffer Beach, Big Sur, California.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 49.4,
+        "width": 940,
+        "height": 625
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Pfeiffer_State_Beach_Reflection.JPG",
+        "title": "Pfeiffer State Beach Reflection.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 2816,
+        "height": 1880
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Pfeiffer_State_Beach_Sunset.JPG",
+        "title": "Pfeiffer State Beach Sunset.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 2816,
+        "height": 1880
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 49,
+      "tier_breakdown": {
+        "tier3": 25,
+        "tier1": 4,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

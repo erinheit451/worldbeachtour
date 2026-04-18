@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Praia_de_Albarquel%2C_Parque_Natural_da_Arr%C3%A1bida%2C_Set%C3%BAbal_01.jpg",
+      "title": "Praia de Albarquel, Parque Natural da Arr\u00e1bida, Set\u00fabal 01.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Sanjorgepinho\" title=\"User:Sanjorgepinho\">Sanjorgepinho</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 3968,
+      "height": 2976,
+      "score": 35.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Golfinho_do_Sado.jpg",
+        "title": "Golfinho do Sado.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 70.0,
+        "width": 1920,
+        "height": 1275
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Albarquel_Praia.JPG",
+        "title": "Albarquel Praia.JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 55.0,
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Arr%C3%A1bida.JPG",
+        "title": "Arr\u00e1bida.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 55.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Praia_de_Albarquel_-_Portugal_%28273035688%29.jpg",
+        "title": "Praia de Albarquel - Portugal (273035688).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 49.3,
+        "width": 1280,
+        "height": 955
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Forte_de_Albarquel%2C_Set%C3%BAbal_01.jpg",
+        "title": "Forte de Albarquel, Set\u00fabal 01.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 45.0,
+        "width": 3689,
+        "height": 1846
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 31,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier3": 10,
+        "tier2": 19
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

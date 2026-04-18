@@ -1,9 +1,76 @@
 {
   "tier": 2,
-  "lenses": ["overview", "travel"],
+  "lenses": [
+    "overview",
+    "travel"
+  ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/AUS_Sydney%2C_Waverley%2C_Bronte_Beach_006.jpg",
+      "title": "AUS Sydney, Waverley, Bronte Beach 006.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:-wuppertaler\" title=\"User:-wuppertaler\">-wuppertaler</a>",
+      "license": "CC BY 4.0",
+      "width": 4032,
+      "height": 3024,
+      "score": 70.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/BronteBeachSouth.jpg",
+        "title": "BronteBeachSouth.jpg",
+        "license": "CC BY-SA 2.5",
+        "source_tier": 3,
+        "score": 69.0,
+        "width": 800,
+        "height": 600
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bronte_Beach%2C_north_view_20230224_2.jpg",
+        "title": "Bronte Beach, north view 20230224 2.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 7976,
+        "height": 5070
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Bronte_Beach%2C_north_view_20230224_1.jpg",
+        "title": "Bronte Beach, north view 20230224 1.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 55.0,
+        "width": 7736,
+        "height": 4835
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Bronte_Beach%2C_16-6-2018.jpg",
+        "title": "Bronte Beach, 16-6-2018.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4096,
+        "height": 2144
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Bronte_Beach_afternoon.jpg",
+        "title": "Bronte Beach afternoon.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 2560,
+        "height": 1920
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 62,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier3": 39,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

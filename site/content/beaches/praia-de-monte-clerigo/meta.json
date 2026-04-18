@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Praia_de_Monte_Cl%C3%A9rigo.jpg",
+      "title": "Praia de Monte Cl\u00e9rigo.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rui_Gl%C3%B3ria&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rui Gl\u00f3ria (page does not exist)\">Rui Gl\u00f3ria</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 5184,
+      "height": 3456,
+      "score": 45.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Praia_do_Monte_Cl%C3%A9rigo_-_I.jpg",
+        "title": "Praia do Monte Cl\u00e9rigo - I.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 2576,
+        "height": 1932
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Praia_do_Monte_Clerigo.jpg",
+        "title": "Praia do Monte Clerigo.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 55.0,
+        "width": 2922,
+        "height": 1376
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Praia_do_Monte_Cl%C3%A9rigo_-_II.jpg",
+        "title": "Praia do Monte Cl\u00e9rigo - II.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 2546,
+        "height": 1855
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Praia_do_Monte_Cl%C3%A9rigo_-_III.jpg",
+        "title": "Praia do Monte Cl\u00e9rigo - III.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 2576,
+        "height": 1932
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Praia_do_Monte_Cl%C3%A9rigo_-_IV.jpg",
+        "title": "Praia do Monte Cl\u00e9rigo - IV.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 2576,
+        "height": 1932
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 50,
+      "tier_breakdown": {
+        "tier1": 5,
+        "tier2": 20,
+        "tier3": 25
+      },
+      "hero_auto_selected": true
+    }
   }
 }

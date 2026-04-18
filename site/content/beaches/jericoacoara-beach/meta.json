@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Imensid%C3%A3o_do_mar_vista_da_Duna_do_P%C3%B4r_do_Sol_-_Praia_de_Jericoacoara.jpg",
+      "title": "Imensid\u00e3o do mar vista da Duna do P\u00f4r do Sol - Praia de Jericoacoara.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Wanessa_Gabrielle&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Wanessa Gabrielle (page does not exist)\">Wanessa Gabrielle</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 6000,
+      "height": 4000,
+      "score": 55.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Anderps_067.JPG",
+        "title": "Anderps 067.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2741,
+        "height": 1824
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Jeri5.jpeg",
+        "title": "Jeri5.jpeg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 45.0,
+        "width": 3774,
+        "height": 2830
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Rio_Guri%C3%BA_divisa_Munic%C3%ADpio_de_Camocim_x_Jericoacoara_-_panoramio.jpg",
+        "title": "Rio Guri\u00fa divisa Munic\u00edpio de Camocim x Jericoacoara - panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Jeri_village3.jpeg",
+        "title": "Jeri village3.jpeg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Jeri4.JPG",
+        "title": "Jeri4.JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 4003,
+        "height": 2608
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 24,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier2": 20,
+        "tier3": 2
+      },
+      "hero_auto_selected": true
+    }
   }
 }

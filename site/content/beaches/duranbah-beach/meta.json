@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/View_south_from_Point_Danger_Lookout%2C_Coolangatta%2C_Queensland.jpg",
+      "title": "View south from Point Danger Lookout, Coolangatta, Queensland.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:GrieSeb&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:GrieSeb (page does not exist)\">GrieSeb</a>",
+      "license": "Public domain",
+      "width": 3264,
+      "height": 2448,
+      "score": 45.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Arieal7.jpg",
+        "title": "Arieal7.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 69.0,
+        "width": 899,
+        "height": 597
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Steve_%40_Duranbah.jpg",
+        "title": "Steve @ Duranbah.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 41.2,
+        "width": 413,
+        "height": 603
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Building_the_Captain_Cook_Memorial_Light%2C_Point_Danger_on_the_Queensland%2C_New_South_Wales_border.jpg",
+        "title": "Building the Captain Cook Memorial Light, Point Danger on the Queensland, New South Wales border.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 5000,
+        "height": 3491
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Duranbah_at_Sunrise.jpeg",
+        "title": "Duranbah at Sunrise.jpeg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 5224,
+        "height": 3480
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Duranbah_Beach_IMG_0014.jpg",
+        "title": "Duranbah Beach IMG 0014.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 6135,
+        "height": 4008
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 33,
+      "tier_breakdown": {
+        "tier3": 12,
+        "tier1": 1,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

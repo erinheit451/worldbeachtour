@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Riwiera_Olimpijska_1.jpg",
+      "title": "Riwiera Olimpijska 1.jpg",
+      "author": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:126910main_image_feature_402_mountolympus.jpg\" title=\"File:126910main image feature 402 mountolympus.jpg\">126910main_image_feature_402_mountolympus.j",
+      "license": "Public domain",
+      "width": 2794,
+      "height": 4218,
+      "score": 45.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/OlympicBeach.jpg",
+        "title": "OlympicBeach.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 81.2,
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Olympic_Beach%2C_Greece_02.jpg",
+        "title": "Olympic Beach, Greece 02.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 69.0,
+        "width": 800,
+        "height": 600
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/StDimitriosChapeliontheBeach.jpg",
+        "title": "StDimitriosChapeliontheBeach.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 56.2,
+        "width": 749,
+        "height": 1000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Olympische_Riviera_%2801%29.jpg",
+        "title": "Olympische Riviera (01).jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 2136,
+        "height": 1424
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Strand_in_Pieria.jpg",
+        "title": "Strand in Pieria.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 2136,
+        "height": 1424
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 45,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 34,
+        "tier2": 10
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

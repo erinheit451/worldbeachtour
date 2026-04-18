@@ -6,7 +6,43 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Wingaersheek_beach_summer_sunset.JPG",
+      "title": "Wingaersheek beach summer sunset.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Gabrielm199\" title=\"User:Gabrielm199\">Gabrielm199</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 2816,
+      "height": 2112,
+      "score": 65.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Coffin%27s_Beach_at_Sunset%2C_by_Fitz_Henry_Lane%2C_c._1862%2C_oil_on_canvas_-_Cape_Ann_Museum_-_Gloucester%2C_MA_-_DSC01211.jpg",
+        "title": "Coffin's Beach at Sunset, by Fitz Henry Lane, c. 1862, oil on canvas - Cape Ann Museum - Gloucester, MA - DSC01211.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4859,
+        "height": 2959
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Wingaersheek_sunset.JPG",
+        "title": "Wingaersheek sunset.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 25.0,
+        "width": 2592,
+        "height": 3872
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 3,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 2
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Padang_Padang_Beach_Bali.jpg",
+      "title": "Padang Padang Beach Bali.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:TMFalkner&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:TMFalkner (page does not exist)\">TMFalkner</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4032,
+      "height": 3024,
+      "score": 70.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Padang-Padang_Beach.jpg",
+        "title": "Padang-Padang Beach.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 30.3,
+        "width": 1024,
+        "height": 685
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Pecatu%2C_South_Kuta%2C_Badung_Regency%2C_Bali%2C_Indonesia_-_panoramio_%287%29.jpg",
+        "title": "Pecatu, South Kuta, Badung Regency, Bali, Indonesia - panoramio (7).jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Pecatu%2C_South_Kuta%2C_Badung_Regency%2C_Bali%2C_Indonesia_-_panoramio_%286%29.jpg",
+        "title": "Pecatu, South Kuta, Badung Regency, Bali, Indonesia - panoramio (6).jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 4935,
+        "height": 3292
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Padang_Padang_Beach_-_panoramio.jpg",
+        "title": "Padang Padang Beach - panoramio.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 4648,
+        "height": 3099
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Padang_Padang_Beach_-_panoramio_%281%29.jpg",
+        "title": "Padang Padang Beach - panoramio (1).jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 4761,
+        "height": 3174
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 12,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier2": 11
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/North_Shore_over_exposed_Spanish_Banks.JPG",
+      "title": "North Shore over exposed Spanish Banks.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Amateria1121\" title=\"User:Amateria1121\">Amateria1121</a>",
+      "license": "CC BY 3.0",
+      "width": 3008,
+      "height": 2000,
+      "score": 50.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Spanish_Banks_Sports.jpg",
+        "title": "Spanish Banks Sports.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 3116,
+        "height": 1700
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Lifeguard_Spanish_Banks.jpg",
+        "title": "Lifeguard Spanish Banks.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 2048,
+        "height": 1152
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Spanish_Banks_Vancouver_BC.jpg",
+        "title": "Spanish Banks Vancouver BC.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 2272,
+        "height": 1704
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Scapanus_orarius_2223845.jpg",
+        "title": "Scapanus orarius 2223845.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/The_Canadian_Mosaic_Camper_%2820531430973%29.jpg",
+        "title": "The Canadian Mosaic Camper (20531430973).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 4896,
+        "height": 3264
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 68,
+      "tier_breakdown": {
+        "tier1": 4,
+        "tier2": 20,
+        "tier3": 44
+      },
+      "hero_auto_selected": true
+    }
   }
 }

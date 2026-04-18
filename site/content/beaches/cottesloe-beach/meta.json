@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Cottesloe_pylon_storm_gnangarra.JPG",
+      "title": "Cottesloe pylon storm gnangarra.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Gnangarra\" title=\"User:Gnangarra\">Gnangarra</a>",
+      "license": "CC BY 2.5 au",
+      "width": 4672,
+      "height": 3104,
+      "score": 55.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Cottesloe_Beach%2C_Perth%2C_Western_Australia_%284431664542%29.jpg",
+        "title": "Cottesloe Beach, Perth, Western Australia (4431664542).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/CottesloeBeach_gobeirne.jpg",
+        "title": "CottesloeBeach gobeirne.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 7592,
+        "height": 1249
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Cottesloe_centenary_pavilion_1945.jpg",
+        "title": "Cottesloe centenary pavilion 1945.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 40.0,
+        "width": 600,
+        "height": 335
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/WomenBeachvolleyCottesloeSummer.jpg",
+        "title": "WomenBeachvolleyCottesloeSummer.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 3872,
+        "height": 2592
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Cottesloe_Sundial_-_panoramio.jpg",
+        "title": "Cottesloe Sundial - panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 3072,
+        "height": 2304
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 73,
+      "tier_breakdown": {
+        "tier1": 4,
+        "tier2": 19,
+        "tier3": 50
+      },
+      "hero_auto_selected": true
+    }
   }
 }

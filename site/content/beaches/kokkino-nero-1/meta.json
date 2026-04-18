@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Kokkino-nero-strand.jpg",
+      "title": "Kokkino-nero-strand.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Mboesch\" title=\"User:Mboesch\">Mboesch</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 3672,
+      "height": 2448,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Kokkino-nero-strand-c.jpg",
+        "title": "Kokkino-nero-strand-c.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 70.0,
+        "width": 3672,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Kokkino-nero-strand-b.jpg",
+        "title": "Kokkino-nero-strand-b.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 70.0,
+        "width": 3672,
+        "height": 2451
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Kokkino-nero-heilquelle.JPG",
+        "title": "Kokkino-nero-heilquelle.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 3672,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Kokkino-nero-heilquellen-b.JPG",
+        "title": "Kokkino-nero-heilquellen-b.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 3672,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Kokkino-nero-platia-ammos.JPG",
+        "title": "Kokkino-nero-platia-ammos.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 3672,
+        "height": 2448
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 8,
+      "tier_breakdown": {
+        "tier3": 6,
+        "tier1": 1,
+        "tier2": 1
+      },
+      "hero_auto_selected": true
+    }
   }
 }

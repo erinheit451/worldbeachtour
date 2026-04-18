@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Karl_Schmidt_Memorial_at_Elliot_Beach%2C_Chennai.jpg",
+      "title": "Karl Schmidt Memorial at Elliot Beach, Chennai.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Saptakatha&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Saptakatha (page does not exist)\">Saptakatha</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4608,
+      "height": 3456,
+      "score": 55.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Ashtalakshmi_temple_2.jpg",
+        "title": "Ashtalakshmi temple 2.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Elliots_Beach_at_Besant_Nagar%2C_Chennai.JPG",
+        "title": "Elliots Beach at Besant Nagar, Chennai.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2592,
+        "height": 1728
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Besant_Nagar_aerial.jpg",
+        "title": "Besant Nagar aerial.jpg",
+        "license": "CC BY-SA 2.5",
+        "source_tier": 3,
+        "score": 74.2,
+        "width": 1569,
+        "height": 949
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Besant_Nagar_Beach_Road.JPG",
+        "title": "Besant Nagar Beach Road.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 2592,
+        "height": 1728
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Bodhi_tree_in_Theosophical_Society.jpg",
+        "title": "Bodhi tree in Theosophical Society.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 50.8,
+        "width": 720,
+        "height": 960
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 67,
+      "tier_breakdown": {
+        "tier1": 6,
+        "tier3": 42,
+        "tier2": 19
+      },
+      "hero_auto_selected": true
+    }
   }
 }

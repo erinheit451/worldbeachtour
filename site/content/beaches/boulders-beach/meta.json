@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Boulders_Beach_2019_2.jpg",
+      "title": "Boulders Beach 2019 2.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Kallerna\" title=\"User:Kallerna\">kallerna</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4630,
+      "height": 3100,
+      "score": 110.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Playa_de_Boulders%2C_Simon%27s_Town%2C_Sud%C3%A1frica%2C_2018-07-23%2C_DD_47.jpg",
+        "title": "Playa de Boulders, Simon's Town, Sud\u00e1frica, 2018-07-23, DD 47.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 90.0,
+        "width": 8664,
+        "height": 5784
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Boulders_Beach%2C_South_Africa.jpg",
+        "title": "Boulders Beach, South Africa.jpg",
+        "license": "CC0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 5883,
+        "height": 2968
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Boulders_Beach_Suedafrika.jpg",
+        "title": "Boulders Beach Suedafrika.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 4704,
+        "height": 3233
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Bruth%C3%B6hlen_Brillenpinguin.jpg",
+        "title": "Bruth\u00f6hlen Brillenpinguin.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 4928,
+        "height": 3264
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Boulders-Beach.jpg",
+        "title": "Boulders-Beach.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 5774,
+        "height": 3850
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 85,
+      "tier_breakdown": {
+        "tier1": 15,
+        "tier3": 50,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

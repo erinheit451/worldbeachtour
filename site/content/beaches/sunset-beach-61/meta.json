@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Stetson_cowboy_hat_1920s_renovated_6.JPG",
+      "title": "Stetson cowboy hat 1920s renovated 6.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:-oo0(GoldTrader)0oo-&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:-oo0(GoldTrader)0oo- (page does not exist)\">-oo0(GoldTrader)0oo-</a>",
+      "license": "Public domain",
+      "width": 3008,
+      "height": 2000,
+      "score": 70.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/SunsetBeach.jpg",
+        "title": "SunsetBeach.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 78.5,
+        "width": 850,
+        "height": 567
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Stetson_cowboy_hat_1950.JPG",
+        "title": "Stetson cowboy hat 1950.JPG",
+        "license": "Public domain",
+        "source_tier": 2,
+        "score": 60.0,
+        "width": 3008,
+        "height": 2000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/P%C5%ABp%C5%ABkea_Sunset_Beach_2_Oahu_Hawaii_Photo_D_Ramey_Logan.jpg",
+        "title": "P\u016bp\u016bkea Sunset Beach 2 Oahu Hawaii Photo D Ramey Logan.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 2592,
+        "height": 1944
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/North_Shore_Walk_-_Sunset_Beach_%2813945842363%29.jpg",
+        "title": "North Shore Walk - Sunset Beach (13945842363).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 5276,
+        "height": 3515
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Sunset_at_Sunset_Beach%2C_Pupukea%2C_Oahu%2C_Hawaii.jpg",
+        "title": "Sunset at Sunset Beach, Pupukea, Oahu, Hawaii.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 3000,
+        "height": 2250
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 69,
+      "tier_breakdown": {
+        "tier1": 5,
+        "tier2": 20,
+        "tier3": 44
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

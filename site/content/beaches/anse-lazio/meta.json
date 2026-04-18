@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Anse_Lazio-Praslin-Seychellen.jpg",
+      "title": "Anse Lazio-Praslin-Seychellen.jpg",
+      "author": "Tobias Alt, <a href=\"//commons.wikimedia.org/wiki/User:Tobi_87\" title=\"User:Tobi 87\">Tobi 87</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 6789,
+      "height": 3605,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Anse_Lazio-rama_2015.JPG",
+        "title": "Anse Lazio-rama 2015.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 80.0,
+        "width": 3264,
+        "height": 1920
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Anse_Lazio_beach_Praslin_Seychelles.jpg",
+        "title": "Anse Lazio beach Praslin Seychelles.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 1500,
+        "height": 1000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Seychelles_praslin_anselazio.jpg",
+        "title": "Seychelles praslin anselazio.jpg",
+        "license": "CC BY-SA 2.0 de",
+        "source_tier": 3,
+        "score": 71.5,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Anse_Lazio_Beach%2C_Seychelles_%2838720921075%29.jpg",
+        "title": "Anse Lazio Beach, Seychelles (38720921075).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 3992,
+        "height": 2992
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Beach_Anse_Lazio_Praslin_Seychelles.DNG_%2838720879125%29.jpg",
+        "title": "Beach Anse Lazio Praslin Seychelles.DNG (38720879125).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 3777,
+        "height": 2121
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 45,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 25,
+        "tier2": 19
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

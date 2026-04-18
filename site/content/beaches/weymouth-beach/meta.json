@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Weymouth_beach_in_July_2011.jpg",
+      "title": "Weymouth beach in July 2011.jpg",
+      "author": "Edward Betts",
+      "license": "CC BY-SA 3.0",
+      "width": 4721,
+      "height": 2088,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Weymouth_beach.jpg",
+        "title": "Weymouth beach.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 75.7,
+        "width": 516,
+        "height": 379
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Weymouth_Beach.JPG",
+        "title": "Weymouth Beach.JPG",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 3872,
+        "height": 2592
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Beach_Volleyball_2007_%281436878951%29.jpg",
+        "title": "Beach Volleyball 2007 (1436878951).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 55.0,
+        "width": 500,
+        "height": 333
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Weymouth_Beach_24072012.jpg",
+        "title": "Weymouth Beach 24072012.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4000,
+        "height": 2250
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Weymouth_beach%2C_Dorset%2C_England_02.jpg",
+        "title": "Weymouth beach, Dorset, England 02.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4446,
+        "height": 3143
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 78,
+      "tier_breakdown": {
+        "tier1": 8,
+        "tier2": 20,
+        "tier3": 50
+      },
+      "hero_auto_selected": true
+    }
   }
 }

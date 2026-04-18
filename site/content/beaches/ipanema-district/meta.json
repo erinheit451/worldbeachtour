@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/1_ipanema_beach_vidigal_sunset.jpg",
+      "title": "1 ipanema beach vidigal sunset.jpg",
+      "author": "chensiyuan",
+      "license": "CC BY-SA 4.0",
+      "width": 4217,
+      "height": 2616,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Favela_cantagalo.JPG",
+        "title": "Favela cantagalo.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 1400,
+        "height": 1018
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Rio_de_Janeiro_-_%C3%89glise_Notre-Dame-de-la-Paix_-_2.jpg",
+        "title": "Rio de Janeiro - \u00c9glise Notre-Dame-de-la-Paix - 2.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 70.0,
+        "width": 1824,
+        "height": 1368
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/A_menina_dos_bal%C3%B5es_encantados.jpg",
+        "title": "A menina dos bal\u00f5es encantados.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 60.0,
+        "width": 2736,
+        "height": 3648
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Bairro_de_Ipanema%2C_early_20th_century.tif",
+        "title": "Bairro de Ipanema, early 20th century.tif",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 5489,
+        "height": 3953
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Rio_08_2013_Ipanema_beach_near_Posto_9_Km_6913.JPG",
+        "title": "Rio 08 2013 Ipanema beach near Posto 9 Km 6913.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 3000,
+        "height": 1997
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 72,
+      "tier_breakdown": {
+        "tier1": 4,
+        "tier3": 48,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

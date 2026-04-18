@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Praia_dos_Alem%C3%A3es_Albufeira_5_March_2015_%281%29.JPG",
+      "title": "Praia dos Alem\u00e3es Albufeira 5 March 2015 (1).JPG",
+      "author": "Kolforn",
+      "license": "CC BY 3.0",
+      "width": 4000,
+      "height": 3000,
+      "score": 60.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Albufeira_%28Portugal%29_%289918348073%29.jpg",
+        "title": "Albufeira (Portugal) (9918348073).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 2157,
+        "height": 1538
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Beach_hut_on_Praia_dos_Alem%C3%A3es_6_March_2015.JPG",
+        "title": "Beach hut on Praia dos Alem\u00e3es 6 March 2015.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Praia_dos_Alem%C3%A3es_March_2015_Albufeira.JPG",
+        "title": "Praia dos Alem\u00e3es March 2015 Albufeira.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/The_steps_down_to_the_eastern_end_of_Praia_dos_Alem%C3%A3es_Albufeira_6_March_2015_%282%29.JPG",
+        "title": "The steps down to the eastern end of Praia dos Alem\u00e3es Albufeira 6 March 2015 (2).JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Albufeira_beach.JPG",
+        "title": "Albufeira beach.JPG",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 58,
+      "tier_breakdown": {
+        "tier1": 5,
+        "tier3": 33,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

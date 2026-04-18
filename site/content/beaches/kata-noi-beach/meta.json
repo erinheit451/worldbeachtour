@@ -1,9 +1,76 @@
 {
   "tier": 2,
-  "lenses": ["overview", "travel"],
+  "lenses": [
+    "overview",
+    "travel"
+  ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Phuket_Viewpoint.jpg",
+      "title": "Phuket Viewpoint.jpg",
+      "author": "Oberpepe",
+      "license": "CC BY-SA 3.0",
+      "width": 3008,
+      "height": 2000,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/KataNoiReceding.jpg",
+        "title": "KataNoiReceding.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 79.0,
+        "width": 800,
+        "height": 600
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/KataNoiRegular.jpg",
+        "title": "KataNoiRegular.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 70.2,
+        "width": 845,
+        "height": 682
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/KataNoiHighest.jpg",
+        "title": "KataNoiHighest.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 65.6,
+        "width": 909,
+        "height": 706
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/KataNoiBeach.jpg",
+        "title": "KataNoiBeach.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 65.4,
+        "width": 800,
+        "height": 360
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Karon_View_Point_02.jpg",
+        "title": "Karon View Point 02.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 65.0,
+        "width": 2942,
+        "height": 1875
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 38,
+      "tier_breakdown": {
+        "tier1": 13,
+        "tier3": 10,
+        "tier2": 15
+      },
+      "hero_auto_selected": true
+    }
   }
 }

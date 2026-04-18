@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Lighthouse_overlooking_the_waves_%28Unsplash%29.jpg",
+      "title": "Lighthouse overlooking the waves (Unsplash).jpg",
+      "author": "Rob Bye <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@robertbye\">robertbye</a>",
+      "license": "CC0",
+      "width": 5184,
+      "height": 3456,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Can_you_see_the_surfer%3F_%2833988985575%29.jpg",
+        "title": "Can you see the surfer? (33988985575).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 80.2,
+        "width": 1024,
+        "height": 683
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Praia_do_Norte%2C_Nazar%C3%A9%2C_Portugal_%2833830450815%29.jpg",
+        "title": "Praia do Norte, Nazar\u00e9, Portugal (33830450815).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 80.2,
+        "width": 1024,
+        "height": 683
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Praia_do_Norte%2C_aspectos%2C_ilha_do_Faial%2C_A%C3%A7ores%2C_Portugal.JPG",
+        "title": "Praia do Norte, aspectos, ilha do Faial, A\u00e7ores, Portugal.JPG",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 3872,
+        "height": 2592
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/FaialAzoresNorte.JPG",
+        "title": "FaialAzoresNorte.JPG",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 62.2,
+        "width": 640,
+        "height": 480
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Vista_da_Caldeira_do_Faial.jpg",
+        "title": "Vista da Caldeira do Faial.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 4001,
+        "height": 2435
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 53,
+      "tier_breakdown": {
+        "tier1": 5,
+        "tier3": 28,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

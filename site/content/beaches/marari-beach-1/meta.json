@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Marari_Beach_Sunset_01.JPG",
+      "title": "Marari Beach Sunset 01.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mahendra.m&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mahendra.m (page does not exist)\">Mahendra M</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 5184,
+      "height": 3456,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Marari_Beach_Fisherman.JPG",
+        "title": "Marari Beach Fisherman.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 5184,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Shoreline_at_Marari_beach.JPG",
+        "title": "Shoreline at Marari beach.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 5184,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Sunset_from_Mararikulam_beach%2C_Kerala%2C_India.jpg",
+        "title": "Sunset from Mararikulam beach, Kerala, India.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 3872,
+        "height": 2592
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/A_log_at_Marari_Beach_02.jpg",
+        "title": "A log at Marari Beach 02.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 9280,
+        "height": 6944
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/A_log_at_Marari_Beach.jpg",
+        "title": "A log at Marari Beach.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 9280,
+        "height": 6944
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 52,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier3": 32,
+        "tier2": 17
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Landing_of_Lieutenant_James_Cook_at_Botany_Bay%2C_29_April_1770_%28painting_by_E_Phillips_Fox%29.jpg",
+      "title": "Landing of Lieutenant James Cook at Botany Bay, 29 April 1770 (painting by E Phillips Fox).jpg",
+      "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:E._Phillips_Fox\" class=\"extiw\" title=\"w:en:E. Phillips Fox\"><span title=\"Australian painter (1865-1915)\">E. Phillips Fox</span></a></bdi>",
+      "license": "Public domain",
+      "width": 5000,
+      "height": 3656,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Silver_Beach_New.jpg",
+        "title": "Silver Beach New.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 70.0,
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Cook%27s_landing_at_Botany_Bay.jpg",
+        "title": "Cook's landing at Botany Bay.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 65.5,
+        "width": 473,
+        "height": 364
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Silver_Beach_-_panoramio.jpg",
+        "title": "Silver Beach - panoramio.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Silver_Beach_Sydney.jpg",
+        "title": "Silver Beach Sydney.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 1920,
+        "height": 1440
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Silver_Beach_photo.jpg",
+        "title": "Silver Beach photo.jpg",
+        "license": "CC0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 4000,
+        "height": 2250
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 10,
+      "tier_breakdown": {
+        "tier1": 4,
+        "tier3": 3,
+        "tier2": 3
+      },
+      "hero_auto_selected": true
+    }
   }
 }

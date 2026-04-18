@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Uk_dor_churchcove.JPG",
+      "title": "Uk dor churchcove.JPG",
+      "author": "Steinsky",
+      "license": "CC BY-SA 3.0",
+      "width": 3008,
+      "height": 2000,
+      "score": 70.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Church_Ope_Cove%2C_Portland%2C_Dorset%2C_England_04.jpg",
+        "title": "Church Ope Cove, Portland, Dorset, England 04.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4570,
+        "height": 3228
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Beach_huts%2C_Church_Ope_Cove_-_geograph.org.uk_-_1030796.jpg",
+        "title": "Beach huts, Church Ope Cove - geograph.org.uk - 1030796.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 12.2,
+        "width": 640,
+        "height": 480
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Path_down_to_Church_Ope_Cove%2C_Portland_-_geograph.org.uk_-_861852.jpg",
+        "title": "Path down to Church Ope Cove, Portland - geograph.org.uk - 861852.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 12.2,
+        "width": 640,
+        "height": 480
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Church_Ope_Cove_Portland_-_geograph.org.uk_-_319756.jpg",
+        "title": "Church Ope Cove Portland - geograph.org.uk - 319756.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 11.5,
+        "width": 640,
+        "height": 433
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Church_Ope_Cove_-_geograph.org.uk_-_7848587.jpg",
+        "title": "Church Ope Cove - geograph.org.uk - 7848587.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 2,
+        "score": 0.0,
+        "width": 4000,
+        "height": 3000
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 25,
+      "tier_breakdown": {
+        "tier1": 5,
+        "tier2": 19,
+        "tier3": 1
+      },
+      "hero_auto_selected": true
+    }
   }
 }

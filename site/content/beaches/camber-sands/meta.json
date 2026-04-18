@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Camber_Beach_%2814178868463%29.jpg",
+      "title": "Camber Beach (14178868463).jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/31363949@N02\">Leonard  Bentley</a> from Iden, East Sussex, UK",
+      "license": "CC BY-SA 2.0",
+      "width": 4416,
+      "height": 3312,
+      "score": 35.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Camber_Sands_at_Low_Tide.jpg",
+        "title": "Camber Sands at Low Tide.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 80.0,
+        "width": 2560,
+        "height": 1920
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Camber_Beach_%2814155315731%29.jpg",
+        "title": "Camber Beach (14155315731).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 1788,
+        "height": 1194
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Camber_Sands_%28144268089%29.jpeg",
+        "title": "Camber Sands (144268089).jpeg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 2048,
+        "height": 1367
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/The_beach_at_Camber_from_a_footpath_-_geograph.org.uk_-_1504182.jpg",
+        "title": "The beach at Camber from a footpath - geograph.org.uk - 1504182.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 31.5,
+        "width": 640,
+        "height": 430
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Camber_Sands_%2889823821%29.jpeg",
+        "title": "Camber Sands (89823821).jpeg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 25.4,
+        "width": 480,
+        "height": 360
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 72,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier3": 49,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

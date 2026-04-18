@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/American_assault_troops_at_Omaha_Beach_02.jpg",
+      "title": "American assault troops at Omaha Beach 02.jpg",
+      "author": "<p>Taylor\n</p>\n<ul><li>Post-Work: <a href=\"//commons.wikimedia.org/wiki/User:W.wolny\" title=\"User:W.wolny\">User:W.wolny</a></li></ul>",
+      "license": "Public domain",
+      "width": 3788,
+      "height": 2497,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/2nd_Infantry_Division%2C_E-1_draw%2C_Easy_Red_sector%2C_Omaha_Beach%2C_D%2B1%2C_June_7%2C_1944.jpg",
+        "title": "2nd Infantry Division, E-1 draw, Easy Red sector, Omaha Beach, D+1, June 7, 1944.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2640,
+        "height": 1824
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Into_the_Jaws_of_Death_23-0455M_edit.jpg",
+        "title": "Into the Jaws of Death 23-0455M edit.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2963,
+        "height": 2385
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/The_Blue_Marble%2C_AS17-148-22727.jpg",
+        "title": "The Blue Marble, AS17-148-22727.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 6750,
+        "height": 6750
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/France-000813_-_Omaha_Beach_%2814880489210%29.jpg",
+        "title": "France-000813 - Omaha Beach (14880489210).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 65.0,
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/In_remembrance_poppies_Omaha_Beach.jpg",
+        "title": "In remembrance poppies Omaha Beach.jpg",
+        "license": "CC0",
+        "source_tier": 3,
+        "score": 65.0,
+        "width": 3966,
+        "height": 2595
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 91,
+      "tier_breakdown": {
+        "tier1": 26,
+        "tier3": 48,
+        "tier2": 17
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -1,6 +1,75 @@
 {
-  "tier": 1,
-  "lenses": ["travel", "sand", "history", "photography", "environment"],
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
   "custom": [],
-  "images": { "hero": "", "gallery": [] }
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Reynisfjara_-_Basalt_columns_-_Iceland_-_panoramio.jpg",
+      "title": "Reynisfjara - Basalt columns - Iceland - panoramio.jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161123020012/http://www.panoramio.com/user/156183?with_photo_id=27388652\">diego_cue</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 2816,
+      "height": 2112,
+      "score": 50.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Rock_on_black_sand_beach_%28Unsplash%29.jpg",
+        "title": "Rock on black sand beach (Unsplash).jpg",
+        "license": "CC0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 4077,
+        "height": 2548
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Ahrenberg_Gr%C3%B6nland_1929-_Islands_sydkust-_DIG136028.tif",
+        "title": "Ahrenberg Gr\u00f6nland 1929- Islands sydkust- DIG136028.tif",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 3543,
+        "height": 2439
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Beach_at_Vik_in_iceland_2.JPG",
+        "title": "Beach at Vik in iceland 2.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 2348,
+        "height": 1645
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Cave_at_Reynisfjara_%28H%C3%A1lsanefshellir%29%2C_Iceland.jpg",
+        "title": "Cave at Reynisfjara (H\u00e1lsanefshellir), Iceland.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 4928,
+        "height": 3264
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Cave_H%C3%A1lsanefshellir_at_Reynisfjara%2C_Iceland.jpg",
+        "title": "Cave H\u00e1lsanefshellir at Reynisfjara, Iceland.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 4928,
+        "height": 3264
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 62,
+      "tier_breakdown": {
+        "tier2": 20,
+        "tier3": 42
+      },
+      "hero_auto_selected": true
+    }
+  }
 }

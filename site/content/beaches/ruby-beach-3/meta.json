@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Cedar_Creek_Abbey_Island_Ruby_Beach.jpg",
+      "title": "Cedar Creek Abbey Island Ruby Beach.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Adbar\" title=\"User:Adbar\">Adbar</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 3872,
+      "height": 2592,
+      "score": 70.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Rock_face%2C_Ruby_Beach%2C_Olympic_National_Park%2C_Washington_State%2C_1992.JPG",
+        "title": "Rock face, Ruby Beach, Olympic National Park, Washington State, 1992.JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 125.0,
+        "width": 1890,
+        "height": 1216
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Ruby_Beach%2C_Olympic_National_Park%2C_on_a_Late_September_Afternoon.jpg",
+        "title": "Ruby Beach, Olympic National Park, on a Late September Afternoon.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 16236,
+        "height": 4175
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Ruby_Beach%2C_low_tide_%287747054478%29.jpg",
+        "title": "Ruby Beach, low tide (7747054478).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 55.0,
+        "width": 7293,
+        "height": 4803
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/On_the_Rocks_%284552715574%29.jpg",
+        "title": "On the Rocks (4552715574).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 48.5,
+        "width": 1353,
+        "height": 900
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Doorway_to_Ruby_Beach_in_Washington.jpg",
+        "title": "Doorway to Ruby Beach in Washington.jpg",
+        "license": "CC0",
+        "source_tier": 1,
+        "score": 40.0,
+        "width": 3000,
+        "height": 4000
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 67,
+      "tier_breakdown": {
+        "tier3": 43,
+        "tier2": 20,
+        "tier1": 4
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

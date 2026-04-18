@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Red_Beach_-_Panorama_-_Santorini_-_Grecia_-_agosto_2018.jpg",
+      "title": "Red Beach - Panorama - Santorini - Grecia - agosto 2018.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Sidvics\" title=\"User:Sidvics\">Sidvics</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 5081,
+      "height": 2553,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Santorini_red_beach.jpg",
+        "title": "Santorini red beach.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 3072,
+        "height": 2048
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Santorin_%28GR%29%2C_Akrotiri%2C_Bucht_--_2017_--_2498.jpg",
+        "title": "Santorin (GR), Akrotiri, Bucht -- 2017 -- 2498.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 5472,
+        "height": 3648
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Santorin_%28GR%29%2C_Akrotiri%2C_Bucht_--_2017_--_2500.jpg",
+        "title": "Santorin (GR), Akrotiri, Bucht -- 2017 -- 2500.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 5472,
+        "height": 3648
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Red_Beach%2C_Greece_Oct_29%2C_2018_07-12-47.jpeg",
+        "title": "Red Beach, Greece Oct 29, 2018 07-12-47.jpeg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Red_Beach_in_Santoroni.jpg",
+        "title": "Red Beach in Santoroni.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 49.4,
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 55,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier3": 34,
+        "tier2": 19
+      },
+      "hero_auto_selected": true
+    }
   }
 }

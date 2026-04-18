@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Palolem.JPG",
+      "title": "Palolem.JPG",
+      "author": "<a href=\"https://en.wikipedia.org/wiki/User:Yessrao\" class=\"extiw\" title=\"wikipedia:User:Yessrao\">Yessrao</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikip",
+      "license": "Public domain",
+      "width": 2816,
+      "height": 2112,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Give-if-you-can.jpg",
+        "title": "Give-if-you-can.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 80.8,
+        "width": 988,
+        "height": 718
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Lifesaver.JPG",
+        "title": "Lifesaver.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 61.9,
+        "width": 145,
+        "height": 128
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Palolem_Beach%2C_south_Goa.jpg",
+        "title": "Palolem Beach, south Goa.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 7360,
+        "height": 4253
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Palolem_Beach_Butterfly_Island.jpg",
+        "title": "Palolem Beach Butterfly Island.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 3264,
+        "height": 1836
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/View_of_Palolem_Beach_from_left_end.jpg",
+        "title": "View of Palolem Beach from left end.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 6258,
+        "height": 3927
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 73,
+      "tier_breakdown": {
+        "tier1": 11,
+        "tier3": 43,
+        "tier2": 19
+      },
+      "hero_auto_selected": true
+    }
   }
 }

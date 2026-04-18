@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/A_crab_on_Dhanushkodi_Beach.jpg",
+      "title": "A crab on Dhanushkodi Beach.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:IM3847\" class=\"mw-redirect\" title=\"User:IM3847\">IM3847</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4032,
+      "height": 3024,
+      "score": 35.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Dhanushkodi_by_ArunElectra.jpg",
+        "title": "Dhanushkodi by ArunElectra.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 57.9,
+        "width": 1280,
+        "height": 863
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Road_to_Arichal_Munai.jpg",
+        "title": "Road to Arichal Munai.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4000,
+        "height": 1894
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Dhan1.jpg",
+        "title": "Dhan1.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 44.0,
+        "width": 800,
+        "height": 600
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Beach_near_Dhanushkodi_01.jpg",
+        "title": "Beach near Dhanushkodi 01.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 1937,
+        "height": 1383
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Dhan15.jpg",
+        "title": "Dhan15.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 39.0,
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 51,
+      "tier_breakdown": {
+        "tier3": 50,
+        "tier1": 1
+      },
+      "hero_auto_selected": true
+    }
   }
 }

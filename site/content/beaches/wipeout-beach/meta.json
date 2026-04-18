@@ -1,9 +1,76 @@
 {
   "tier": 2,
-  "lenses": ["overview", "travel"],
+  "lenses": [
+    "overview",
+    "travel"
+  ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/LaJollaChildrensPoolByPhilKonstantin.jpg",
+      "title": "LaJollaChildrensPoolByPhilKonstantin.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Philkon\" title=\"User:Philkon\">Philkon (Phil Konstantin)</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 3264,
+      "height": 2448,
+      "score": 55.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/LaJolla_childrenspool.JPG",
+        "title": "LaJolla childrenspool.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2272,
+        "height": 1704
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/La_Jolla_Cove_15_2014-01-09.jpg",
+        "title": "La Jolla Cove 15 2014-01-09.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/San_Diego_La_Jolla_Wipeout_Beach_a.jpg",
+        "title": "San Diego La Jolla Wipeout Beach a.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Pdphoto_lajolla_6_bg_060504.jpg",
+        "title": "Pdphoto lajolla 6 bg 060504.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 41.5,
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/San_Diego_La_Jolla_Wipeout_Beach_b.jpg",
+        "title": "San Diego La Jolla Wipeout Beach b.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 3264,
+        "height": 2448
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 26,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier3": 3,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

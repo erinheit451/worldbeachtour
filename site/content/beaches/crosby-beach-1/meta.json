@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Crosby_Beach_%285469%29.jpg",
+      "title": "Crosby Beach (5469).jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Nilfanion\" title=\"User:Nilfanion\">Nilfanion</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4288,
+      "height": 2848,
+      "score": 50.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Ellen_Southard_1875b.jpg",
+        "title": "Ellen Southard 1875b.jpg",
+        "license": "Public domain",
+        "source_tier": 2,
+        "score": 53.1,
+        "width": 800,
+        "height": 543
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Waterloo_Marina_%28August_2017%29.jpg",
+        "title": "Waterloo Marina (August 2017).jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 2054,
+        "height": 1446
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Crosby_beach_-_panoramio_-_jim_walton_%282%29.jpg",
+        "title": "Crosby beach - panoramio - jim walton (2).jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 47.7,
+        "width": 1126,
+        "height": 845
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/2012_torch_relay_day_14_world_record_on_Crosby_beach_%288535849491%29.jpg",
+        "title": "2012 torch relay day 14 world record on Crosby beach (8535849491).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 9229,
+        "height": 4468
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/9.4.16_Another_Place_16_%2826261728212%29.jpg",
+        "title": "9.4.16 Another Place 16 (26261728212).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 6016,
+        "height": 4000
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 70,
+      "tier_breakdown": {
+        "tier2": 20,
+        "tier1": 4,
+        "tier3": 46
+      },
+      "hero_auto_selected": true
+    }
   }
 }

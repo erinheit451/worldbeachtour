@@ -1,1 +1,38 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Petani_beach-kefalonia.JPG",
+      "title": "Petani beach-kefalonia.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Splendid_entry&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Splendid entry (page does not exist)\">Splendid entry</a>",
+      "license": "CC BY 3.0",
+      "width": 2592,
+      "height": 1944,
+      "score": 60.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Petani_beach_south.JPG",
+        "title": "Petani beach south.JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 2592,
+        "height": 1944
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 2,
+      "tier_breakdown": {
+        "tier1": 2
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

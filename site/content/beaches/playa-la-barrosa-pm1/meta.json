@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/ACANTILADOS%2C_PLAYA_LA_BARROSA.jpg",
+      "title": "ACANTILADOS, PLAYA LA BARROSA.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:PEPE_GADEIRAS&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:PEPE GADEIRAS (page does not exist)\">PEPE GADEIRAS</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 5184,
+      "height": 3456,
+      "score": 35.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Torre_Bermeja%2C_playa_de_la_barrosa%2C_chiclana_de_la_frontera.jpg",
+        "title": "Torre Bermeja, playa de la barrosa, chiclana de la frontera.jpg",
+        "license": "CC BY-SA 3.0 es",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2560,
+        "height": 1920
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/La_Barrosa_01gm.jpg",
+        "title": "La Barrosa 01gm.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 2320,
+        "height": 1740
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/LaBarrosa-DSC08338.jpg",
+        "title": "LaBarrosa-DSC08338.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Islote_de_Sancti_Petri_desde_la_playa_de_Chiclana.jpg",
+        "title": "Islote de Sancti Petri desde la playa de Chiclana.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 71.5,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Playa_de_la_Barrosa_-_Paseo_mar%C3%ADtimo.JPG",
+        "title": "Playa de la Barrosa - Paseo mar\u00edtimo.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 1728,
+        "height": 2304
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 55,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier3": 45,
+        "tier2": 8
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

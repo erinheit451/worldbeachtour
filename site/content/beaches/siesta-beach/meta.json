@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Red_Lifeguard_Stand_at_Siesta_Key_Beach.jpg",
+      "title": "Red Lifeguard Stand at Siesta Key Beach.jpg",
+      "author": "Mickey Luigi Logitmark",
+      "license": "CC0",
+      "width": 6000,
+      "height": 3376,
+      "score": 70.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Siesta_Key_Beach._Sarasota_-_panoramio_-_4net_%283%29.jpg",
+        "title": "Siesta Key Beach. Sarasota - panoramio - 4net (3).jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 60.0,
+        "width": 2896,
+        "height": 1944
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Siesta_Beach_looking_north.jpg",
+        "title": "Siesta Beach looking north.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 3072,
+        "height": 2304
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/2017_Sarasota_Panorama_of_Siesta_Beach_on_Siesta_Key_at_Sunset_01_FRD_9748.jpg",
+        "title": "2017 Sarasota Panorama of Siesta Beach on Siesta Key at Sunset 01 FRD 9748.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 40.0,
+        "width": 8191,
+        "height": 1950
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Siesta_Beach_Panorama_29_Dec_2012.JPG",
+        "title": "Siesta Beach Panorama 29 Dec 2012.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 40.0,
+        "width": 9402,
+        "height": 2154
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/SIESTA_BEACH._SARASOTA_-_panoramio.jpg",
+        "title": "SIESTA BEACH. SARASOTA - panoramio.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 3072,
+        "height": 2304
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 35,
+      "tier_breakdown": {
+        "tier2": 19,
+        "tier1": 3,
+        "tier3": 13
+      },
+      "hero_auto_selected": true
+    }
   }
 }

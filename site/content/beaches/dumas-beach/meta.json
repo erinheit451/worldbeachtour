@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Dumas_Beach.JPG",
+      "title": "Dumas Beach.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rahul_71144&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rahul 71144 (page does not exist)\">Rahul Bhadane</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 5135,
+      "height": 3213,
+      "score": 65.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Dumasbeach1.jpg",
+        "title": "Dumasbeach1.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 77.5,
+        "width": 718,
+        "height": 500
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Dumasbeach2.jpg",
+        "title": "Dumasbeach2.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 77.5,
+        "width": 718,
+        "height": 500
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Gujarat_Small.png",
+        "title": "Gujarat Small.png",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 61.0,
+        "width": 72,
+        "height": 65
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Dumas_beach_Surat.jpg",
+        "title": "Dumas beach Surat.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4608,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Dumas_Beach_Gujarat.jpg",
+        "title": "Dumas Beach Gujarat.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 3264,
+        "height": 2448
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 14,
+      "tier_breakdown": {
+        "tier1": 4,
+        "tier3": 10
+      },
+      "hero_auto_selected": true
+    }
   }
 }

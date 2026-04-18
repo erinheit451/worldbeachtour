@@ -6,7 +6,34 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Hellshire-beach.jpg",
+      "title": "Hellshire-beach.jpg",
+      "author": "<a href=\"https://en.wikipedia.org/wiki/User:Op._Deo\" class=\"extiw\" title=\"wikipedia:User:Op. Deo\">Op. Deo</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikip",
+      "license": "Public domain",
+      "width": 1024,
+      "height": 768,
+      "score": 81.5
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Beach_at_Braeton%2C_Saint_Catherine%2C_Jamaica.jpg",
+        "title": "Beach at Braeton, Saint Catherine, Jamaica.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 2550,
+        "height": 1604
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 2,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier2": 1
+      },
+      "hero_auto_selected": true
+    }
   }
 }

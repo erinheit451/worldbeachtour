@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/PLAYA_OF_LAS_BRISAS_HOTEL._-_panoramio.jpg",
+      "title": "PLAYA OF LAS BRISAS HOTEL. - panoramio.jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161017203039/http://www.panoramio.com/user/4668630?with_photo_id=48078370\">Antal Feith</a>",
+      "license": "CC BY 3.0",
+      "width": 2816,
+      "height": 2112,
+      "score": 60.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Guardalavaca_beach.jpg",
+        "title": "Guardalavaca beach.jpg",
+        "license": "Public domain",
+        "source_tier": 2,
+        "score": 70.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Princess%2C_asleep.jpg",
+        "title": "Princess, asleep.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 68.0,
+        "width": 800,
+        "height": 534
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Christopher_Columbus_Cuba.jpg",
+        "title": "Christopher Columbus Cuba.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 65.0,
+        "width": 1538,
+        "height": 1530
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Hotel_in_Guardalavaca.JPG",
+        "title": "Hotel in Guardalavaca.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 46.4,
+        "width": 640,
+        "height": 427
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Brisas_Guardalavaca_2009_-_panoramio.jpg",
+        "title": "Brisas Guardalavaca 2009 - panoramio.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 45.0,
+        "width": 2304,
+        "height": 1536
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 45,
+      "tier_breakdown": {
+        "tier2": 14,
+        "tier3": 29,
+        "tier1": 2
+      },
+      "hero_auto_selected": true
+    }
   }
 }

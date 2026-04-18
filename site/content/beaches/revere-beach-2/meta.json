@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Revere_Beach_-_IMG_0859.JPG",
+      "title": "Revere Beach - IMG 0859.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Daderot\" title=\"User:Daderot\">Daderot</a>",
+      "license": "Public domain",
+      "width": 3264,
+      "height": 2448,
+      "score": 55.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Pier_Dancing_Pavilion%2C_Revere_Beach%2C_MA.jpg",
+        "title": "Pier Dancing Pavilion, Revere Beach, MA.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 70.6,
+        "width": 599,
+        "height": 374
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Beach_054b.jpg",
+        "title": "Beach 054b.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 65.0,
+        "width": 2592,
+        "height": 1952
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Derby_Racer_Revere_Beach.jpg",
+        "title": "Derby Racer Revere Beach.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 54.4,
+        "width": 1200,
+        "height": 957
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Charles_Eliot%2C_landscape_architect_-_a_lover_of_nature_and_of_his_kind_who_trained_himself_for_a_new_profession%2C_practised_it_happily_and_through_it_wrought_much_good_-Charles_William_Eliot_%281902%29_%2814597542430%29.jpg",
+        "title": "Charles Eliot, landscape architect - a lover of nature and of his kind who trained himself for a new profession, practised it happily and through it wrought much good -Charles William Eliot (1902) (14597542430).jpg",
+        "license": "No restrictions",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 3728,
+        "height": 2226
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Fenway_100th_Anniversary_Sand_Sculpture.jpg",
+        "title": "Fenway 100th Anniversary Sand Sculpture.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 7079,
+        "height": 4724
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 74,
+      "tier_breakdown": {
+        "tier1": 8,
+        "tier3": 47,
+        "tier2": 19
+      },
+      "hero_auto_selected": true
+    }
   }
 }

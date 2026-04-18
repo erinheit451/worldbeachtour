@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Curacao-Sea-Aquarium-2013.JPG",
+      "title": "Curacao-Sea-Aquarium-2013.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Uspn\" title=\"User:Uspn\">Bj\u00f8rn Christian T\u00f8rrissen</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 4573,
+      "height": 2865,
+      "score": 70.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Wilhemstad_from_the_coast.JPG",
+        "title": "Wilhemstad from the coast.JPG",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 448,
+        "height": 336
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Curacao_Iguana_iguana_2021_2.jpg",
+        "title": "Curacao Iguana iguana 2021 2.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 65.0,
+        "width": 5896,
+        "height": 3931
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Dolfijn_FM_Studio_Curacao.jpg",
+        "title": "Dolfijn FM Studio Curacao.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 63.0,
+        "width": 800,
+        "height": 533
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Needlefish2.JPG",
+        "title": "Needlefish2.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 2272,
+        "height": 1704
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Feeding_stingrays_at_the_Cura%C3%A7ao_Sea_Aquarium_2018.jpg",
+        "title": "Feeding stingrays at the Cura\u00e7ao Sea Aquarium 2018.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 55.0,
+        "width": 3721,
+        "height": 2092
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 21,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier2": 14,
+        "tier3": 6
+      },
+      "hero_auto_selected": true
+    }
   }
 }

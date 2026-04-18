@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/The_homeland_of_Caretta_caretta._Patara_beach%2C_Dalyan%2C_Antalya_%C2%A9Abdullah_Kiyga_-_panoramio.jpg",
+      "title": "The homeland of Caretta caretta. Patara beach, Dalyan, Antalya \u00a9Abdullah Kiyga - panoramio.jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161029165650/http://www.panoramio.com/user/2294806?with_photo_id=101848920\">Abdullah k\u0131yga</a>",
+      "license": "CC BY 3.0",
+      "width": 4608,
+      "height": 3456,
+      "score": 60.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Patara_D%C3%BCnen.jpg",
+        "title": "Patara D\u00fcnen.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 2304,
+        "height": 1728
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Patara_Strand.JPG",
+        "title": "Patara Strand.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 64.8,
+        "width": 1422,
+        "height": 984
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Patara_Beach_%287023424101%29.jpg",
+        "title": "Patara Beach (7023424101).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 1843,
+        "height": 1228
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Patara_Strandcafe.JPG",
+        "title": "Patara Strandcafe.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 1459,
+        "height": 1010
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Patara_Plaj%C4%B1.jpg",
+        "title": "Patara Plaj\u0131.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 5312,
+        "height": 2988
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 26,
+      "tier_breakdown": {
+        "tier3": 19,
+        "tier1": 2,
+        "tier2": 5
+      },
+      "hero_auto_selected": true
+    }
   }
 }

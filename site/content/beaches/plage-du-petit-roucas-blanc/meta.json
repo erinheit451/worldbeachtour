@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Marseille_20160827_02.jpg",
+      "title": "Marseille 20160827 02.jpg",
+      "author": "Georges Seguin (<a href=\"//commons.wikimedia.org/wiki/User:Okki\" title=\"User:Okki\">Okki</a>)",
+      "license": "CC BY-SA 4.0",
+      "width": 5184,
+      "height": 3456,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Grae_Morrris.jpg",
+        "title": "Grae Morrris.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 2,
+        "score": 60.0,
+        "width": 2176,
+        "height": 2899
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Erica_Dawon_and_Micah_Wilkinson_SAILING_JO_PARIS_2024_MARSEILLE_MARINA_NACRA_by_Eric_Salard_%28sq_cropped%29_%28cropped%29.jpg",
+        "title": "Erica Dawon and Micah Wilkinson SAILING JO PARIS 2024 MARSEILLE MARINA NACRA by Eric Salard (sq cropped) (cropped).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 2,
+        "score": 49.2,
+        "width": 280,
+        "height": 280
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Mistral_gagnant_Plages_du_Prado%2C_Marseille.jpg",
+        "title": "Mistral gagnant Plages du Prado, Marseille.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 3243,
+        "height": 2097
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/SAILING_JO_PARIS_2024_MARSEILLE_MARINA_ILCA_7_GOLD_MEDAL_Matt_WEARN_AUSTRALIA.jpg",
+        "title": "SAILING JO PARIS 2024 MARSEILLE MARINA ILCA 7 GOLD MEDAL Matt WEARN AUSTRALIA.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 4288,
+        "height": 2848
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/SAILING_JO_PARIS_2024_MARSEILLE_MARINA_ILCA_7.jpg",
+        "title": "SAILING JO PARIS 2024 MARSEILLE MARINA ILCA 7.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 4288,
+        "height": 2848
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 22,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

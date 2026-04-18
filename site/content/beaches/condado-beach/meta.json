@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/San_Juan%2C_Condado_beach%2C_Puerto_Rico.jpg",
+      "title": "San Juan, Condado beach, Puerto Rico.jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/17012490@N00\">Tomas Fano</a>",
+      "license": "CC BY-SA 2.0",
+      "width": 3072,
+      "height": 2304,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Scuba.png",
+        "title": "Scuba.png",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 61.0,
+        "width": 68,
+        "height": 66
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Condado_Beach%2C_San_Juan%2C_Puerto_Rico.jpg",
+        "title": "Condado Beach, San Juan, Puerto Rico.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 2048,
+        "height": 1478
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Condado_Beach.jpg",
+        "title": "Condado Beach.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 2586,
+        "height": 1426
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Condado%2C_San_Juan%2C_Puerto_Rico.jpg",
+        "title": "Condado, San Juan, Puerto Rico.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 4288,
+        "height": 2848
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Condadobeach.jpg",
+        "title": "Condadobeach.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 53.2,
+        "width": 800,
+        "height": 549
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 40,
+      "tier_breakdown": {
+        "tier1": 7,
+        "tier3": 13,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Poetto_beach.jpg",
+      "title": "Poetto beach.jpg",
+      "author": "Chris",
+      "license": "CC BY 2.0",
+      "width": 5472,
+      "height": 3648,
+      "score": 65.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Cagliari07.jpg",
+        "title": "Cagliari07.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 81.5,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Lungomare_Poetto_-_Cagliari.jpg",
+        "title": "Lungomare Poetto - Cagliari.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 81.5,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Cagliari_-_Tram_al_Poetto.jpg",
+        "title": "Cagliari - Tram al Poetto.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 64.7,
+        "width": 448,
+        "height": 313
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Plage_%22Il_Poetto%22%2C_Cagliari.JPG",
+        "title": "Plage \"Il Poetto\", Cagliari.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 3072,
+        "height": 2304
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Cagliaripoetto.jpg",
+        "title": "Cagliaripoetto.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 55.0,
+        "width": 2816,
+        "height": 2112
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 41,
+      "tier_breakdown": {
+        "tier1": 4,
+        "tier3": 33,
+        "tier2": 4
+      },
+      "hero_auto_selected": true
+    }
   }
 }

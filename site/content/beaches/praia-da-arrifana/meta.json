@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Aljezur_%2833482452931%29.jpg",
+      "title": "Aljezur (33482452931).jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/84292292@N00\">Aleksandr Zykov</a> from Russia",
+      "license": "CC BY-SA 2.0",
+      "width": 4288,
+      "height": 2848,
+      "score": 45.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Praia_da_Arrifana.JPG",
+        "title": "Praia da Arrifana.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 79.0,
+        "width": 800,
+        "height": 600
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Praia_da_Arrifana.jpg",
+        "title": "Praia da Arrifana.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 55.0,
+        "width": 3052,
+        "height": 1530
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Ribat_arrifana.jpg",
+        "title": "Ribat arrifana.jpg",
+        "license": "CC BY-SA 2.5",
+        "source_tier": 1,
+        "score": 49.2,
+        "width": 378,
+        "height": 283
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Arrifana_%282457366622%29.jpg",
+        "title": "Arrifana (2457366622).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 3008,
+        "height": 2000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Arrifana_-_panoramio_%282%29.jpg",
+        "title": "Arrifana - panoramio (2).jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 2956,
+        "height": 1852
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 59,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier2": 10,
+        "tier3": 47
+      },
+      "hero_auto_selected": true
+    }
   }
 }

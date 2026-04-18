@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Fistral_Beach_%281%29.jpg",
+      "title": "Fistral Beach (1).jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Sic19\" title=\"User:Sic19\">Simon Cobb</a>",
+      "license": "CC0",
+      "width": 3421,
+      "height": 2280,
+      "score": 60.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/BoardmastersFistralPre2010.jpg",
+        "title": "BoardmastersFistralPre2010.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 7030,
+        "height": 1400
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Fistral_Beach.jpg",
+        "title": "Fistral Beach.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Fistral_Bay.jpg",
+        "title": "Fistral Bay.jpg",
+        "license": "CC0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 4272,
+        "height": 2848
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Fistral_Beach_%280466%29.jpg",
+        "title": "Fistral Beach (0466).jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 4288,
+        "height": 2848
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Fistal_Beach_north.jpg",
+        "title": "Fistal Beach north.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 35.8,
+        "width": 2048,
+        "height": 723
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 68,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier3": 45,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

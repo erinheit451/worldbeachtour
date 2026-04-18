@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Gwangalli_Beach.jpg",
+      "title": "Gwangalli Beach.jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/27284887@N03\">Chelsea Hicks</a>",
+      "license": "CC BY 2.0",
+      "width": 4752,
+      "height": 3168,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Suyeong-gu_Gwanganli.jpg",
+        "title": "Suyeong-gu Gwanganli.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 2592,
+        "height": 1944
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Busan_Gwangalli_Night.jpg",
+        "title": "Busan Gwangalli Night.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 66.9,
+        "width": 1200,
+        "height": 795
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/The_Busan_International_Fireworks_Festival.jpg",
+        "title": "The Busan International Fireworks Festival.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 6600,
+        "height": 3300
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Sunrise_at_Gwangalli_Beach.jpg",
+        "title": "Sunrise at Gwangalli Beach.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 55.2,
+        "width": 1024,
+        "height": 683
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Gwangan_Beach_in_2019.jpg",
+        "title": "Gwangan Beach in 2019.jpg",
+        "license": "Attribution",
+        "source_tier": 3,
+        "score": 55.0,
+        "width": 5184,
+        "height": 3456
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 37,
+      "tier_breakdown": {
+        "tier1": 4,
+        "tier3": 18,
+        "tier2": 15
+      },
+      "hero_auto_selected": true
+    }
   }
 }

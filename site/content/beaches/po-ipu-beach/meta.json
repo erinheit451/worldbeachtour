@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Aerial-Poipu-Beach-Park-Kauai.jpg",
+      "title": "Aerial-Poipu-Beach-Park-Kauai.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Polihale\" title=\"User:Polihale\">Polihale</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 3072,
+      "height": 2048,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Poipu_Beach_surfspot_Kauai_Hawaii_%2846277756091%29.jpg",
+        "title": "Poipu Beach surfspot Kauai Hawaii (46277756091).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 4900,
+        "height": 3267
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Chelonia_mydas-basking_Poipu_Beach.jpg",
+        "title": "Chelonia mydas-basking Poipu Beach.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 8192,
+        "height": 5464
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Poipu_Beach_Kauai_Hawaii_%2831339158467%29.jpg",
+        "title": "Poipu Beach Kauai Hawaii (31339158467).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 6240,
+        "height": 4160
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Hawaiian_monk_seal_close-up_%28Neomonachus_schauinslandi%29.jpg",
+        "title": "Hawaiian monk seal close-up (Neomonachus schauinslandi).jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 5545,
+        "height": 3697
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Scorpaenopsis_diabolus_422134131.jpg",
+        "title": "Scorpaenopsis diabolus 422134131.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 2048,
+        "height": 1152
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 23,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

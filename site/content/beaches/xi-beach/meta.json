@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Beach-xi-mia-lacco.jpg",
+      "title": "Beach-xi-mia-lacco.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:ChristosV\" title=\"User:ChristosV\">ChristosV</a>",
+      "license": "CC BY 4.0",
+      "width": 3855,
+      "height": 2892,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Xi_Beach_Shade_Kefalonia.jpg",
+        "title": "Xi Beach Shade Kefalonia.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2592,
+        "height": 1944
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Xi-streets.jpg",
+        "title": "Xi-streets.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 4080,
+        "height": 3060
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Xi_Beach_Kefalonia.jpg",
+        "title": "Xi Beach Kefalonia.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 2592,
+        "height": 1944
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Xi_beach_cliffs_kefalonia.jpg",
+        "title": "Xi beach cliffs kefalonia.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 2592,
+        "height": 1944
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Xi_Beach_Info_Board_-_Unesco_Global_Geopark_20250713a.jpg",
+        "title": "Xi Beach Info Board - Unesco Global Geopark 20250713a.jpg",
+        "license": "CC0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 3024,
+        "height": 4032
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 9,
+      "tier_breakdown": {
+        "tier1": 6,
+        "tier3": 3
+      },
+      "hero_auto_selected": true
+    }
   }
 }

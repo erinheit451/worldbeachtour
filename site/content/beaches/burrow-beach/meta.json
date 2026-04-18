@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Sutton_beach1.jpg",
+      "title": "Sutton beach1.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Sebb\" title=\"User:Sebb\">Sebb</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 2048,
+      "height": 1536,
+      "score": 80.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Sutton_beach2.jpg",
+        "title": "Sutton beach2.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Sutton_Methodist_Church_-_geograph.org.uk_-_518809.jpg",
+        "title": "Sutton Methodist Church - geograph.org.uk - 518809.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 2,
+        "score": -2.8,
+        "width": 640,
+        "height": 480
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Beach_and_Island_-_geograph.org.uk_-_6170096.jpg",
+        "title": "Beach and Island - geograph.org.uk - 6170096.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 2,
+        "score": -6.0,
+        "width": 800,
+        "height": 600
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Evening_Wader_-_geograph.org.uk_-_6299383.jpg",
+        "title": "Evening Wader - geograph.org.uk - 6299383.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 2,
+        "score": -6.0,
+        "width": 800,
+        "height": 599
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Evening_Beach_-_geograph.org.uk_-_6299379.jpg",
+        "title": "Evening Beach - geograph.org.uk - 6299379.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 2,
+        "score": -6.0,
+        "width": 800,
+        "height": 599
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 8,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier2": 6
+      },
+      "hero_auto_selected": true
+    }
   }
 }

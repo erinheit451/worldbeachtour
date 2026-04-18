@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Hanlans_Point_nudist.jpg",
+      "title": "Hanlans Point nudist.jpg",
+      "author": "<a href=\"https://en.wikipedia.org/wiki/User:Jgera5\" class=\"extiw\" title=\"w:User:Jgera5\">Jgera5</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Jgera5\" class=\"extiw\" title=\"w:User talk:Jgera5\">ta",
+      "license": "CC BY-SA 3.0",
+      "width": 4320,
+      "height": 2432,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Hanlan%27s_Point_Beach%2C_Toronto.jpg",
+        "title": "Hanlan's Point Beach, Toronto.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 2592,
+        "height": 1936
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Rainbow_Road%2C_Hanlan%27s_Point_Beach.jpg",
+        "title": "Rainbow Road, Hanlan's Point Beach.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 1,
+        "score": 40.0,
+        "width": 2304,
+        "height": 4608
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Clothing_optional_beach.jpg",
+        "title": "Clothing optional beach.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 2586,
+        "height": 1726
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Hanlan%27s_Bay_%2852805631946%29.jpg",
+        "title": "Hanlan's Bay (52805631946).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 5764,
+        "height": 3843
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/GP_Lighthouse_ALD.jpg",
+        "title": "GP Lighthouse ALD.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 2048,
+        "height": 1365
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 42,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier3": 25,
+        "tier2": 15
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Taal%27s_Mouth.jpg",
+      "title": "Taal's Mouth.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Johnwesley.egalla&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Johnwesley.egalla (page does not exist)\">John Wesley Egalla</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 2679,
+      "height": 3572,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Laiyabydexdroid.jpg",
+        "title": "Laiyabydexdroid.jpg",
+        "license": "CC0",
+        "source_tier": 1,
+        "score": 70.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Virgin_Beach_Laiya.jpg",
+        "title": "Virgin Beach Laiya.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Laiya_Beach_San_Juan_Batangas.jpg",
+        "title": "Laiya Beach San Juan Batangas.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 6300,
+        "height": 4210
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Barrio_Laiya.jpg",
+        "title": "Barrio Laiya.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/WV_banner_San_Juan_Batangas_coastal_mountains_near_Laiya_beach.jpg",
+        "title": "WV banner San Juan Batangas coastal mountains near Laiya beach.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 37.0,
+        "width": 3264,
+        "height": 466
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 17,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier3": 15
+      },
+      "hero_auto_selected": true
+    }
   }
 }

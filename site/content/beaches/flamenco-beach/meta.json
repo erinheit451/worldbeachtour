@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Beach_at_Culebra_Island%2C_Puerto_Rico.jpg",
+      "title": "Beach at Culebra Island, Puerto Rico.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Hmalaret&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Hmalaret (page does not exist)\">Hmalaret</a>",
+      "license": "CC BY-SA 2.5",
+      "width": 3264,
+      "height": 2448,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Diving_Culebra.jpg",
+        "title": "Diving Culebra.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 4465,
+        "height": 2977
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Culebra_-_Playa_de_Flamenco.jpg",
+        "title": "Culebra - Playa de Flamenco.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 81.5,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Lifesaver.JPG",
+        "title": "Lifesaver.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 61.9,
+        "width": 145,
+        "height": 128
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Culebra_pl%C3%A1%C5%BE_Flamenco.jpg",
+        "title": "Culebra pl\u00e1\u017e Flamenco.jpg",
+        "license": "CC BY-SA 2.5",
+        "source_tier": 2,
+        "score": 61.7,
+        "width": 676,
+        "height": 449
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Gfi-set01-camping.png",
+        "title": "Gfi-set01-camping.png",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 60.5,
+        "width": 32,
+        "height": 32
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 35,
+      "tier_breakdown": {
+        "tier1": 13,
+        "tier2": 7,
+        "tier3": 15
+      },
+      "hero_auto_selected": true
+    }
   }
 }

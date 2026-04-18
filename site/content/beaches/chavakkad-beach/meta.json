@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Broad_billed_sandpiper_by_Sreedev_Puthur.jpg",
+      "title": "Broad billed sandpiper by Sreedev Puthur.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sreedev_Puthur&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sreedev Puthur (page does not exist)\">Sreedev Puthur</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 3600,
+      "height": 2400,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Beach_Kerala%2CArabian_Sea.jpg",
+        "title": "Beach Kerala,Arabian Sea.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 55.0,
+        "width": 4160,
+        "height": 2336
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Chavakkad1.jpg",
+        "title": "Chavakkad1.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 4288,
+        "height": 2848
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Ruddy_turnstone_from_Chavakkad.JPG",
+        "title": "Ruddy turnstone from Chavakkad.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 4479,
+        "height": 2799
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Vadakkumnathan_Temple.jpg",
+        "title": "Vadakkumnathan Temple.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 36.7,
+        "width": 750,
+        "height": 447
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Kudamatom_at_thrissur_pooram_2013_7618.JPG",
+        "title": "Kudamatom at thrissur pooram 2013 7618.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 35.0,
+        "width": 3070,
+        "height": 1434
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 66,
+      "tier_breakdown": {
+        "tier3": 43,
+        "tier1": 3,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

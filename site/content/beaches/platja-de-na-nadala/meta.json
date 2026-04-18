@@ -1,9 +1,66 @@
 {
   "tier": 2,
-  "lenses": ["overview", "travel"],
+  "lenses": [
+    "overview",
+    "travel"
+  ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Calvi%C3%A0._Palmanova._Platja_del_Carregador.jpg",
+      "title": "Calvi\u00e0. Palmanova. Platja del Carregador.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Joan_Gen%C3%A9&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Joan Gen\u00e9 (page does not exist)\">Joan Gen\u00e9</a>",
+      "license": "CC0",
+      "width": 4000,
+      "height": 3000,
+      "score": 45.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Playa_de_Palma_Nova.JPG",
+        "title": "Playa de Palma Nova.JPG",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2272,
+        "height": 1704
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/2015-045-0009_-_Flickr_-_The_Sasson.jpg",
+        "title": "2015-045-0009 - Flickr - The Sasson.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 4919,
+        "height": 3231
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Human_scrotum_and_testicles.jpg",
+        "title": "Human scrotum and testicles.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 29.5,
+        "width": 969,
+        "height": 1314
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Playa_de_Palma_Nova_en_invierno%2C_Mallorca_-_2013-01-21_-_85880458.jpg",
+        "title": "Playa de Palma Nova en invierno, Mallorca - 2013-01-21 - 85880458.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 20.0,
+        "width": 4875,
+        "height": 1300
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 5,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier2": 4
+      },
+      "hero_auto_selected": true
+    }
   }
 }

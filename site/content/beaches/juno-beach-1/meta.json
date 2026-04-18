@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/%27Nan_White%27_Beach%2C_JUNO_Area_at_Bernieres-sur-Mer.jpg",
+      "title": "'Nan White' Beach, JUNO Area at Bernieres-sur-Mer.jpg",
+      "author": "Post-Work: <a href=\"//commons.wikimedia.org/wiki/User:W.wolny\" title=\"User:W.wolny\">User:W.wolny</a>",
+      "license": "Public domain",
+      "width": 5248,
+      "height": 4005,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Allied_Invasion_Force.jpg",
+        "title": "Allied Invasion Force.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 84.5,
+        "width": 1265,
+        "height": 966
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Plage_Juno_2009.JPG",
+        "title": "Plage Juno 2009.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 70.0,
+        "width": 3648,
+        "height": 2736
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/716DI_1.jpg",
+        "title": "716DI 1.jpg",
+        "license": "Copyrighted free use",
+        "source_tier": 3,
+        "score": 65.3,
+        "width": 468,
+        "height": 354
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/General_De_Gaulle_landing_place%2C_Graye_sur_Mer%2C_Calvados%2C_Normandy%2C_France.jpg",
+        "title": "General De Gaulle landing place, Graye sur Mer, Calvados, Normandy, France.jpg",
+        "license": "CC0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 4592,
+        "height": 3056
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/PointeDuHoc.png",
+        "title": "PointeDuHoc.png",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 3200,
+        "height": 2400
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 75,
+      "tier_breakdown": {
+        "tier1": 13,
+        "tier3": 42,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

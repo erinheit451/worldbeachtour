@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Resorts_on_Seven_Mile_Beach%2C_Grand_Cayman.jpg",
+      "title": "Resorts on Seven Mile Beach, Grand Cayman.jpg",
+      "author": "<a href=\"https://en.wikipedia.org/wiki/User:RoadTripWarrior\" class=\"extiw\" title=\"en:User:RoadTripWarrior\">RoadTripWarrior</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 3264,
+      "height": 2174,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Seven_miles_beach-Grand_Cayman.JPG",
+        "title": "Seven miles beach-Grand Cayman.JPG",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 71.5,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Seven_Mile_Beach_cayman_sun.jpg",
+        "title": "Seven Mile Beach cayman sun.jpg",
+        "license": "CC0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 1170,
+        "height": 1515
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Sailboats%2C_Seven_Mile_Beach%2C_Grand_Cayman.jpg",
+        "title": "Sailboats, Seven Mile Beach, Grand Cayman.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 6224,
+        "height": 4660
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Hypoplectrus_indigo_255066682.jpg",
+        "title": "Hypoplectrus indigo 255066682.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 2,
+        "score": 45.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Seven_mile_beach.JPG",
+        "title": "Seven mile beach.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 2048,
+        "height": 1536
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 17,
+      "tier_breakdown": {
+        "tier3": 7,
+        "tier1": 1,
+        "tier2": 9
+      },
+      "hero_auto_selected": true
+    }
   }
 }

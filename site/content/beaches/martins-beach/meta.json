@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Popular_Martins_Beach_%2814883284959%29.jpg",
+      "title": "Popular Martins Beach (14883284959).jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/46369606@N04\">Lars Rosengreen</a>",
+      "license": "CC BY 2.0",
+      "width": 4187,
+      "height": 2731,
+      "score": 45.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Martin%27s_Beach_%2844942914911%29.jpg",
+        "title": "Martin's Beach (44942914911).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 2000,
+        "height": 1334
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Location_Map_San_Francisco_Bay_Area.png",
+        "title": "Location Map San Francisco Bay Area.png",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 37.9,
+        "width": 524,
+        "height": 636
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Eucalyptus_trees_along_San_Mateo_Coast_%2821565169045%29.jpg",
+        "title": "Eucalyptus trees along San Mateo Coast (21565169045).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Globe_Wireless_antennas_%2821573950861%29.jpg",
+        "title": "Globe Wireless antennas (21573950861).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Farmlands_and_the_ocean_beyond_%2821377317838%29.jpg",
+        "title": "Farmlands and the ocean beyond (21377317838).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 2048,
+        "height": 1536
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 6,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier2": 3
+      },
+      "hero_auto_selected": true
+    }
   }
 }

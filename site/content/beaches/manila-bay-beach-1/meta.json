@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Manila_Bay_beach_%28Roxas_Boulevard%2C_Manila%3B_09-19-2020%29_wiki.jpg",
+      "title": "Manila Bay beach (Roxas Boulevard, Manila; 09-19-2020) wiki.jpg",
+      "author": "patrickroque01",
+      "license": "CC BY-SA 4.0",
+      "width": 3648,
+      "height": 2736,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/President_Rodrigo_Duterte_portrait_%28cropped_portrait%29.jpg",
+        "title": "President Rodrigo Duterte portrait (cropped portrait).jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 69.3,
+        "width": 619,
+        "height": 823
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Manila_Bay_beach_front_%28Roxas_Boulevard%2C_Manila%3B_09-19-2020%29_wiki.jpg",
+        "title": "Manila Bay beach front (Roxas Boulevard, Manila; 09-19-2020) wiki.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 3648,
+        "height": 2736
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Entrance_to_the_Manila_Baywalk_Dolomite_Beach_along_Roxas_Boulevard_is_packed_with_visitors_on_March_19%2C_2023.jpg",
+        "title": "Entrance to the Manila Baywalk Dolomite Beach along Roxas Boulevard is packed with visitors on March 19, 2023.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 1920,
+        "height": 1280
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Manila_Bay_beach_-_gov%27t_officials_inspection_sand_%28Roxas_Boulevard%2C_Manila%3B_09-19-2020%29.jpg",
+        "title": "Manila Bay beach - gov't officials inspection sand (Roxas Boulevard, Manila; 09-19-2020).jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 2304,
+        "height": 1296
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Manila_Dolomite_Beach_2023-11-16.jpg",
+        "title": "Manila Dolomite Beach 2023-11-16.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4000,
+        "height": 3000
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 49,
+      "tier_breakdown": {
+        "tier3": 23,
+        "tier1": 6,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

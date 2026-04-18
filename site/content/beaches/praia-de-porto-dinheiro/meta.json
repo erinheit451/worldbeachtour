@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/20210804_160800_Praia_de_Porto_Dinheiro.jpg",
+      "title": "20210804 160800 Praia de Porto Dinheiro.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:GualdimG\" title=\"User:GualdimG\">GualdimG</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4608,
+      "height": 3456,
+      "score": 65.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/20210804_Praia_de_Porto_Dinheiro.jpg",
+        "title": "20210804 Praia de Porto Dinheiro.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 4608,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/20210804_160456_Praia_de_Porto_Dinheiro.jpg",
+        "title": "20210804 160456 Praia de Porto Dinheiro.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4608,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/20210804_Praia_de_Porto_Dinheiro_02.jpg",
+        "title": "20210804 Praia de Porto Dinheiro 02.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4608,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/20220813_Praia_de_Porto_Dinheiro_01.jpg",
+        "title": "20220813 Praia de Porto Dinheiro 01.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 1580,
+        "height": 1184
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/20220813_Praia_de_Porto_Dinheiro_02.jpg",
+        "title": "20220813 Praia de Porto Dinheiro 02.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 1868,
+        "height": 1401
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 50,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier2": 19,
+        "tier3": 30
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

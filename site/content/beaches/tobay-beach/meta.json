@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/1955_Dodge_Custom_Royal_sedan_front_4.28.18.jpg",
+      "title": "1955 Dodge Custom Royal sedan front 4.28.18.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Kevauto\" title=\"User:Kevauto\">Kevauto</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4616,
+      "height": 2651,
+      "score": 65.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Tobay_Beach%3B_Overhead_Welcome_Sign.jpg",
+        "title": "Tobay Beach; Overhead Welcome Sign.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 3648,
+        "height": 2736
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/1963_Sunbeam_Alpine_Series_3_front_4.28.18.jpg",
+        "title": "1963 Sunbeam Alpine Series 3 front 4.28.18.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 4957,
+        "height": 2699
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/1963_Sunbeam_Alpine_Series_3_rear_4.28.18.jpg",
+        "title": "1963 Sunbeam Alpine Series 3 rear 4.28.18.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 4768,
+        "height": 2421
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/1979_Mazda_RX-7_rear_4.28.18.jpg",
+        "title": "1979 Mazda RX-7 rear 4.28.18.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 5009,
+        "height": 2679
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/1955_Dodge_Custom_Royal_sedan_rear_4.28.18.jpg",
+        "title": "1955 Dodge Custom Royal sedan rear 4.28.18.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4981,
+        "height": 2305
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 50,
+      "tier_breakdown": {
+        "tier3": 49,
+        "tier1": 1
+      },
+      "hero_auto_selected": true
+    }
   }
 }

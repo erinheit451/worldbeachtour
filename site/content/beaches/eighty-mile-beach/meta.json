@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Eighty_mile_beach_during_day.jpg",
+      "title": "Eighty mile beach during day.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Linear77\" title=\"User:Linear77\">Linear77</a>",
+      "license": "CC BY 3.0",
+      "width": 3456,
+      "height": 2304,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Eighty_Mile_Beach%2C_Western_Australia.jpg",
+        "title": "Eighty Mile Beach, Western Australia.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 84.4,
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Calidris_tenuirostris_-_Great_Knot.jpg",
+        "title": "Calidris tenuirostris - Great Knot.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 83.4,
+        "width": 1339,
+        "height": 891
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Great_Knot_scarboro_.sep02.jpg",
+        "title": "Great Knot scarboro .sep02.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 71.2,
+        "width": 880,
+        "height": 746
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/80_mile_beach_29-4-2004_-_panoramio.jpg",
+        "title": "80 mile beach 29-4-2004 - panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 64.0,
+        "width": 850,
+        "height": 600
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/80_mile_beach_shells_29-4-2004_-_panoramio.jpg",
+        "title": "80 mile beach shells 29-4-2004 - panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 54.6,
+        "width": 850,
+        "height": 638
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 32,
+      "tier_breakdown": {
+        "tier1": 10,
+        "tier3": 22
+      },
+      "hero_auto_selected": true
+    }
   }
 }

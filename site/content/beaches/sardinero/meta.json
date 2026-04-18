@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Santander.Real.Club.Racing.de.Santander.jpg",
+      "title": "Santander.Real.Club.Racing.de.Santander.jpg",
+      "author": "Josep Panadero",
+      "license": "CC BY-SA 3.0",
+      "width": 3072,
+      "height": 2048,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Playa_Sardinero_-_Santander_-_Spain.jpg",
+        "title": "Playa Sardinero - Santander - Spain.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 79.3,
+        "width": 1104,
+        "height": 623
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/El_Sardinero_-_Palacio_de_Deportes.jpg",
+        "title": "El Sardinero - Palacio de Deportes.jpg",
+        "license": "CC BY 2.5",
+        "source_tier": 3,
+        "score": 71.1,
+        "width": 979,
+        "height": 739
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/El_Sardinero_Santander_2.png",
+        "title": "El Sardinero Santander 2.png",
+        "license": "CC BY-SA 3.0 es",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 2088,
+        "height": 1392
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Playa_de_los_Molinucos_2.jpg",
+        "title": "Playa de los Molinucos 2.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 45.0,
+        "width": 4624,
+        "height": 3472
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/View_of_Santander_from_Sardinero_Beach.jpg",
+        "title": "View of Santander from Sardinero Beach.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 44.0,
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 50,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 29,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

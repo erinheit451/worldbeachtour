@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Freshwater_swimming_pool.jpg",
+      "title": "Freshwater swimming pool.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mhsb&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mhsb (page does not exist)\">Mhsb</a>",
+      "license": "Public domain",
+      "width": 2848,
+      "height": 2136,
+      "score": 70.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Freshwater_Beach_sunset.jpg",
+        "title": "Freshwater Beach sunset.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Freshwater_Beach%2C_Manly_from_The_Powerhouse_Museum.jpg",
+        "title": "Freshwater Beach, Manly from The Powerhouse Museum.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 46.4,
+        "width": 1011,
+        "height": 759
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Squatina_australis_2.jpg",
+        "title": "Squatina australis 2.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 45.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/SLNSW_796332_Rescue_Contest_Freshwater_Surf_Carnival.jpg",
+        "title": "SLNSW 796332 Rescue Contest Freshwater Surf Carnival.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 41.5,
+        "width": 1400,
+        "height": 766
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Dukes_Day_2015_surfboard.JPG",
+        "title": "Dukes Day 2015 surfboard.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 4000,
+        "height": 3000
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 54,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier2": 7,
+        "tier3": 44
+      },
+      "hero_auto_selected": true
+    }
   }
 }

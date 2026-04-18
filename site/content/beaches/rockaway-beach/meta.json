@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Rockaway_Beach_Queens.JPG",
+      "title": "Rockaway Beach Queens.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Urielevy\" title=\"User:Urielevy\">Urielevy</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4928,
+      "height": 3264,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Rockaway_Beach_aerial_view.jpg",
+        "title": "Rockaway Beach aerial view.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 1500,
+        "height": 1002
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Aerial_view_of_Rockaway%2C_Queens_01A.jpg",
+        "title": "Aerial view of Rockaway, Queens 01A.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 4288,
+        "height": 2848
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Rockaway_Beach_%289340439090%29.jpg",
+        "title": "Rockaway Beach (9340439090).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 46.5,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Rockaway_Boardwalk_jeh.JPG",
+        "title": "Rockaway Boardwalk jeh.JPG",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 3072,
+        "height": 2304
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Smashed_boardwalk_end_RB_Sandy_jeh.jpg",
+        "title": "Smashed boardwalk end RB Sandy jeh.jpg",
+        "license": "CC0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 2400,
+        "height": 1600
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 35,
+      "tier_breakdown": {
+        "tier1": 8,
+        "tier3": 26,
+        "tier2": 1
+      },
+      "hero_auto_selected": true
+    }
   }
 }

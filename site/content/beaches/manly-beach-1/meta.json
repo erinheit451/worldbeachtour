@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/EAST_SYD1.png",
+      "title": "EAST SYD1.png",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Gompk\" title=\"User:Gompk\">Gompk</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 11880,
+      "height": 20000,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Manly_Beach%2C_Manly_from_The_Powerhouse_Museum.jpg",
+        "title": "Manly Beach, Manly from The Powerhouse Museum.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 81.4,
+        "width": 1018,
+        "height": 763
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Summer_days_at_Manly_Beach.jpg",
+        "title": "Summer days at Manly Beach.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 4032,
+        "height": 2597
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Manly_Beach%2C_NSW_%288401236894%29.jpg",
+        "title": "Manly Beach, NSW (8401236894).jpg",
+        "license": "No restrictions",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 1936,
+        "height": 1259
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Manly_Beach_001.jpg",
+        "title": "Manly Beach 001.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 2048,
+        "height": 1365
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Manly_Beach_3_April.jpg",
+        "title": "Manly Beach 3 April.jpg",
+        "license": "CC0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 3360,
+        "height": 1890
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 72,
+      "tier_breakdown": {
+        "tier1": 9,
+        "tier3": 43,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -1,1 +1,75 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Sandybeach_blowholeside.jpg",
+      "title": "Sandybeach blowholeside.jpg",
+      "author": "Glenn Cando",
+      "license": "CC BY-SA 3.0",
+      "width": 3072,
+      "height": 2304,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Liquid_Avalanche_%2811824769035%29.jpg",
+        "title": "Liquid Avalanche (11824769035).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 5869,
+        "height": 3918
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Sandy_Beach_Park%2C_Kalanianaole_Hwy%2C_Honolulu_%28503330%29_%2817955188972%29.jpg",
+        "title": "Sandy Beach Park, Kalanianaole Hwy, Honolulu (503330) (17955188972).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 5191,
+        "height": 2920
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Cuscuta_sandwichiana_%28endemic_Hawaiian_dodder%29_-_36562330184.jpg",
+        "title": "Cuscuta sandwichiana (endemic Hawaiian dodder) - 36562330184.jpg",
+        "license": "CC0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Cuscuta_sandwichiana_%28endemic_Hawaiian_dodder%29_-_36562328144.jpg",
+        "title": "Cuscuta sandwichiana (endemic Hawaiian dodder) - 36562328144.jpg",
+        "license": "CC0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Cuscuta_sandwichiana_%28endemic_Hawaiian_dodder%29_-_36562329344.jpg",
+        "title": "Cuscuta sandwichiana (endemic Hawaiian dodder) - 36562329344.jpg",
+        "license": "CC0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 4032,
+        "height": 3024
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 21,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

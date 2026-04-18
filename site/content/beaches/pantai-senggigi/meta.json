@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/GraveBatuLayar.JPG",
+      "title": "GraveBatuLayar.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Torbenbrinker&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Torbenbrinker (page does not exist)\">Torbenbrinker</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 3648,
+      "height": 2048,
+      "score": 50.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Bali%27s_Mighty_Volcanic_Mount_Agung_seen_from_Senggigi_Beach%2C_Lombok.jpg",
+        "title": "Bali's Mighty Volcanic Mount Agung seen from Senggigi Beach, Lombok.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 1600,
+        "height": 1064
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/A_Bay_near_Senggigi_Lombok.jpg",
+        "title": "A Bay near Senggigi Lombok.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Lombok_Locator_Topography.png",
+        "title": "Lombok Locator Topography.png",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 2003,
+        "height": 2037
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/SenggigiBeach.jpg",
+        "title": "SenggigiBeach.jpg",
+        "license": "CC0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/SenggigiHighSt1.JPG",
+        "title": "SenggigiHighSt1.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 2909,
+        "height": 2048
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 17,
+      "tier_breakdown": {
+        "tier3": 9,
+        "tier1": 6,
+        "tier2": 2
+      },
+      "hero_auto_selected": true
+    }
   }
 }

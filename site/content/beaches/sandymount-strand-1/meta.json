@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/IMG_SandymountStrabd1461.jpg",
+      "title": "IMG SandymountStrabd1461.jpg",
+      "author": "<a href=\"https://en.wikipedia.org/wiki/User:Sarah777\" class=\"extiw\" title=\"wikipedia:User:Sarah777\">Sarah777</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wi",
+      "license": "Public domain",
+      "width": 3888,
+      "height": 2592,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Dublin_Awaiting_the_Mariner.jpg",
+        "title": "Dublin Awaiting the Mariner.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 70.0,
+        "width": 3744,
+        "height": 5616
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/IMG_SandymountBaths.jpg",
+        "title": "IMG SandymountBaths.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 3836,
+        "height": 1447
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/View_From_Sandymount_Strand_%286050706895%29.jpg",
+        "title": "View From Sandymount Strand (6050706895).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 4592,
+        "height": 3056
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Sandymount_-_geograph.org.uk_-_189877.jpg",
+        "title": "Sandymount - geograph.org.uk - 189877.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 37.2,
+        "width": 640,
+        "height": 480
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Salle_D%27armes_Duffy.jpg",
+        "title": "Salle D'armes Duffy.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 3264,
+        "height": 2448
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 61,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier3": 43,
+        "tier2": 15
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/90_mile_beach.jpg",
+      "title": "90 mile beach.jpg",
+      "author": "<p><br style=\"clear:both\">\n</p>\n<table align=\"CENTER\" style=\"width:80%; background-color:var(--background-color-neutral-subtle, #f7f8ff); color: inherit; border:2px solid #8888aa; padding:5px;\">\n\n<tbo",
+      "license": "GFDL 1.2",
+      "width": 1600,
+      "height": 1200,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/90_mile_beach02.jpg",
+        "title": "90 mile beach02.jpg",
+        "license": "GFDL 1.2",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Ninety_Mile_Beach_Victoria_Western_end.jpg",
+        "title": "Ninety Mile Beach Victoria Western end.jpg",
+        "license": "CC0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 2592,
+        "height": 1944
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/90mile_beach_147.41000E_38.24102S.jpg",
+        "title": "90mile beach 147.41000E 38.24102S.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 44.2,
+        "width": 1280,
+        "height": 948
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/South-west_along_90_Mile_Beach%2C_Seaspray%2C_Vic%2C_jjron%2C_31.03.2016.jpg",
+        "title": "South-west along 90 Mile Beach, Seaspray, Vic, jjron, 31.03.2016.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 40.0,
+        "width": 1000,
+        "height": 667
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/The_garden_of_Canada_-_Burlington%2C_Oakville_and_district_%281902%29_%2814594753219%29.jpg",
+        "title": "The garden of Canada - Burlington, Oakville and district (1902) (14594753219).jpg",
+        "license": "No restrictions",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 1592,
+        "height": 1096
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 6,
+      "tier_breakdown": {
+        "tier1": 5,
+        "tier3": 1
+      },
+      "hero_auto_selected": true
+    }
   }
 }

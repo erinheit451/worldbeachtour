@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Cala_Vedella_sunset.jpg",
+      "title": "Cala Vedella sunset.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Vallejoale&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Vallejoale (page does not exist)\">Alejandro Vallejo Ortega</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 5184,
+      "height": 3456,
+      "score": 35.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Cala_Vadella_Front.JPG",
+        "title": "Cala Vadella Front.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 1984,
+        "height": 1488
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Cala_Vadella_Seite.jpg",
+        "title": "Cala Vadella Seite.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 1984,
+        "height": 1488
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Cala_Vedella_Eivissa.jpg",
+        "title": "Cala Vedella Eivissa.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 48.0,
+        "width": 800,
+        "height": 530
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Location_map_Ibiza.png",
+        "title": "Location map Ibiza.png",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 41.6,
+        "width": 786,
+        "height": 771
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Ibiza_Cala_Vedella_asv2023-04_img2.jpg",
+        "title": "Ibiza Cala Vedella asv2023-04 img2.jpg",
+        "license": "FAL",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 7952,
+        "height": 5304
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 11,
+      "tier_breakdown": {
+        "tier1": 4,
+        "tier2": 7
+      },
+      "hero_auto_selected": true
+    }
   }
 }

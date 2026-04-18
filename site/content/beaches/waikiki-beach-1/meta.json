@@ -1,19 +1,76 @@
 {
-  "tier": 1,
+  "tier": 2,
   "lenses": [
-    "diving",
-    "environment",
-    "family",
-    "history",
     "overview",
-    "photography",
-    "sand",
-    "surf",
     "travel"
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Waikiki_Beach_%282024%29-L1004709.jpg",
+      "title": "Waikiki Beach (2024)-L1004709.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Frank_Schulenburg\" title=\"User:Frank Schulenburg\">Frank Schulenburg</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 8487,
+      "height": 5637,
+      "score": 100.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Sunset_next_to_Waikiki_Beach%2C_Oahu%2C_Hawai%2C_USA1.jpg",
+        "title": "Sunset next to Waikiki Beach, Oahu, Hawai, USA1.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 90.0,
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Waikiki_Beach%2C_Honolulu.JPG",
+        "title": "Waikiki Beach, Honolulu.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2000,
+        "height": 1126
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Waikiki%2C_Honolulu_Panorama_%2816191692896%29.jpg",
+        "title": "Waikiki, Honolulu Panorama (16191692896).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 7326,
+        "height": 3461
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Surfboards_in_Waikiki.JPG",
+        "title": "Surfboards in Waikiki.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 70.0,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/1999_-_Waikiki_Beach_Honolulu_Hawa%C3%AF.jpg",
+        "title": "1999 - Waikiki Beach Honolulu Hawa\u00ef.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 67.0,
+        "width": 700,
+        "height": 466
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 65,
+      "tier_breakdown": {
+        "tier3": 28,
+        "tier1": 17,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

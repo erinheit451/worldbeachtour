@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Green_sea_turtle_near_Marsa_Alam.JPG",
+      "title": "Green sea turtle near Marsa Alam.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Alex.vasenin\" title=\"User:Alex.vasenin\">Alexander Vasenin</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 3754,
+      "height": 2816,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/HawkesBay.jpg",
+        "title": "HawkesBay.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 81.5,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/HawksBay_Beach.jpg",
+        "title": "HawksBay Beach.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 5184,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Karachi_Pak_collage.jpg",
+        "title": "Karachi Pak collage.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 1661,
+        "height": 3050
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Hawks_bay%2C_karachi.jpg",
+        "title": "Hawks bay, karachi.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 42.2,
+        "width": 640,
+        "height": 480
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Near_Hawkes_Bay_-_panoramio_%281%29.jpg",
+        "title": "Near Hawkes Bay - panoramio (1).jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4320,
+        "height": 2124
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 31,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier3": 28
+      },
+      "hero_auto_selected": true
+    }
   }
 }

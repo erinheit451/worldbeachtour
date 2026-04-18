@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Dennis_Bay_windmill.jpg",
+      "title": "Dennis Bay windmill.jpg",
+      "author": "John Milner for HABS",
+      "license": "Public domain",
+      "width": 4062,
+      "height": 3287,
+      "score": 50.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Oppenheimer_beach.jpg",
+        "title": "Oppenheimer beach.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 77.5,
+        "width": 1045,
+        "height": 501
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/A_view_from_the_ocean_on_Gibney_Beach.jpg",
+        "title": "A view from the ocean on Gibney Beach.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 76.4,
+        "width": 640,
+        "height": 426
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Trunk_Bay_-_panoramio.jpg",
+        "title": "Trunk Bay - panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 3504,
+        "height": 2336
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Denis-Bay-Beach_Saint-John-VI_2022-04-21_E.jpg",
+        "title": "Denis-Bay-Beach Saint-John-VI 2022-04-21 E.jpg",
+        "license": "CC0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Denis-Bay-Beach_Saint-John-VI_2022-04-21_B.jpg",
+        "title": "Denis-Bay-Beach Saint-John-VI 2022-04-21 B.jpg",
+        "license": "CC0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 4032,
+        "height": 3024
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 22,
+      "tier_breakdown": {
+        "tier1": 4,
+        "tier2": 18
+      },
+      "hero_auto_selected": true
+    }
   }
 }

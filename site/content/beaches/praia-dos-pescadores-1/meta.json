@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Praia_dos_Pescadores.jpg",
+      "title": "Praia dos Pescadores.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Liridon\" title=\"User:Liridon\">Liridon</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 3581,
+      "height": 4476,
+      "score": 65.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Albufeira_%28Portugal%29_%2810311666686%29.jpg",
+        "title": "Albufeira (Portugal) (10311666686).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 2154,
+        "height": 1530
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Albufeira%2C_Algarve_%287321317252%29.jpg",
+        "title": "Albufeira, Algarve (7321317252).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 3799,
+        "height": 2550
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Albufeira_%28Portugal%29_%2810311632635%29.jpg",
+        "title": "Albufeira (Portugal) (10311632635).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 2147,
+        "height": 1565
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Albufeira_%28Portugal%29_%2810539327253%29.jpg",
+        "title": "Albufeira (Portugal) (10539327253).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 2132,
+        "height": 1531
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Praia_dos_Pescadores_-_Albufeira_-_Portugal_%284082833831%29.jpg",
+        "title": "Praia dos Pescadores - Albufeira - Portugal (4082833831).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 7430,
+        "height": 4952
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 54,
+      "tier_breakdown": {
+        "tier1": 5,
+        "tier3": 29,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

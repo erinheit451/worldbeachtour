@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Adraga_03.jpg",
+      "title": "Adraga 03.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ppinhol&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ppinhol (page does not exist)\">Ppinhol</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 3872,
+      "height": 2592,
+      "score": 40.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Sintra_2006.JPG",
+        "title": "Sintra 2006.JPG",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2560,
+        "height": 1920
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Praia_da_adraga_1.jpg",
+        "title": "Praia da adraga 1.jpg",
+        "license": "CC BY-SA 2.5",
+        "source_tier": 1,
+        "score": 62.2,
+        "width": 640,
+        "height": 480
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Praia_da_Adraga_-_Portugal_%28231189762%29.jpg",
+        "title": "Praia da Adraga - Portugal (231189762).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 39.4,
+        "width": 1280,
+        "height": 959
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Roque_Gameiro_-_Praia_de_Adraga.jpg",
+        "title": "Roque Gameiro - Praia de Adraga.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 39.2,
+        "width": 827,
+        "height": 613
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Portugal_2%2C_Praia_da_Adraga_at_Almo%C3%A7ageme_%28Sintra_municipality%29.JPG",
+        "title": "Portugal 2, Praia da Adraga at Almo\u00e7ageme (Sintra municipality).JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 39.1,
+        "width": 940,
+        "height": 1416
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 65,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier3": 43,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

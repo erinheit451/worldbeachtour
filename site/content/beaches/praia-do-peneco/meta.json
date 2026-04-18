@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Albufeira-Strand-2.JPG",
+      "title": "Albufeira-Strand-2.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:CTHOE\" title=\"User:CTHOE\">CTHOE</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 3216,
+      "height": 2136,
+      "score": 60.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Albufeira-Strand_in_April.JPG",
+        "title": "Albufeira-Strand in April.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 70.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Albufeira-Strand-2_in_April.JPG",
+        "title": "Albufeira-Strand-2 in April.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Playa_en_Albufeira.jpg",
+        "title": "Playa en Albufeira.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 37.0,
+        "width": 1922,
+        "height": 800
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/2018-03-03_Al-Buhera_Palace_Hotel%2C_Largo_Jacinto_D%27Ayet%2C_Albufeira.JPG",
+        "title": "2018-03-03 Al-Buhera Palace Hotel, Largo Jacinto D'Ayet, Albufeira.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 5152,
+        "height": 3864
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/2018-03-03_Praia_do_T%C3%BAnel_%28Peneco%29%2C_Albufeira.JPG",
+        "title": "2018-03-03 Praia do T\u00fanel (Peneco), Albufeira.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 5152,
+        "height": 3864
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 63,
+      "tier_breakdown": {
+        "tier1": 4,
+        "tier3": 39,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

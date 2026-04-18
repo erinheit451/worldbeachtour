@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Myrtos2.JPG",
+      "title": "Myrtos2.JPG",
+      "author": "Rob Bendall (<a href=\"//commons.wikimedia.org/wiki/User:Highfields\" title=\"User:Highfields\">Highfields</a>)",
+      "license": "Attribution",
+      "width": 3698,
+      "height": 2556,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Kephalonia_089.JPG",
+        "title": "Kephalonia 089.JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 80.0,
+        "width": 2592,
+        "height": 1944
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/PebblesMyrtos.JPG",
+        "title": "PebblesMyrtos.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 75.1,
+        "width": 928,
+        "height": 672
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Divarata_beach_05-08-2024.jpg",
+        "title": "Divarata beach 05-08-2024.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 50.0,
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Mirtos_Beach_Panorama_%28222048177%29.jpeg",
+        "title": "Mirtos Beach Panorama (222048177).jpeg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 33.2,
+        "width": 2048,
+        "height": 544
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Myrtos_Beach_-_panoramio.jpg",
+        "title": "Myrtos Beach - panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 3264,
+        "height": 1952
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 15,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier2": 12
+      },
+      "hero_auto_selected": true
+    }
   }
 }

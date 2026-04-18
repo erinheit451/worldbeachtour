@@ -1,9 +1,76 @@
 {
   "tier": 2,
-  "lenses": ["overview", "travel"],
+  "lenses": [
+    "overview",
+    "travel"
+  ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/El_M%C3%A9dano_BW_2.JPG",
+      "title": "El M\u00e9dano BW 2.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Berthold_Werner\" title=\"User:Berthold Werner\">Berthold Werner</a>",
+      "license": "Public domain",
+      "width": 3872,
+      "height": 2592,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/El_M%C3%A9dano_BW_3.JPG",
+        "title": "El M\u00e9dano BW 3.JPG",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 3579,
+        "height": 2470
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/El_M%C3%A9dano_BW_1.JPG",
+        "title": "El M\u00e9dano BW 1.JPG",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 3872,
+        "height": 2592
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/El_M%C3%A9dano_BW_5.JPG",
+        "title": "El M\u00e9dano BW 5.JPG",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 3872,
+        "height": 2592
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/El_M%C3%A9dano_BW_4_edit.jpg",
+        "title": "El M\u00e9dano BW 4 edit.jpg",
+        "license": "Public domain",
+        "source_tier": 2,
+        "score": 60.0,
+        "width": 3671,
+        "height": 2452
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/El_Medano_-Beach%2C_Punta_Roja%2C_Promenade.jpg",
+        "title": "El Medano -Beach, Punta Roja, Promenade.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 7524,
+        "height": 1359
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 70,
+      "tier_breakdown": {
+        "tier1": 6,
+        "tier2": 19,
+        "tier3": 45
+      },
+      "hero_auto_selected": true
+    }
   }
 }

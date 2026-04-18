@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Cliffs_around_Tunnel_Beach.jpg",
+      "title": "Cliffs around Tunnel Beach.jpg",
+      "author": "<a href=\"https://en.wikipedia.org/wiki/User:Pseudopanax\" class=\"extiw\" title=\"wikipedia:User:Pseudopanax\">Pseudopanax</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">E",
+      "license": "Public domain",
+      "width": 6240,
+      "height": 4160,
+      "score": 50.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Durvillaea_antarctica_58570974.jpg",
+        "title": "Durvillaea antarctica 58570974.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 2,
+        "score": 45.0,
+        "width": 2048,
+        "height": 1365
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Tunnel_Beach_New_Zealand_I.jpg",
+        "title": "Tunnel Beach New Zealand I.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Tunnel_Beach_New_Zealand_II.jpg",
+        "title": "Tunnel Beach New Zealand II.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 40.0,
+        "width": 3600,
+        "height": 1600
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Tunnel_Beach_%283%29.jpg",
+        "title": "Tunnel Beach (3).jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 3024,
+        "height": 4032
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Tunnel_Beach_Arch%2C_New_Zealand.JPG",
+        "title": "Tunnel Beach Arch, New Zealand.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 3456,
+        "height": 2592
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 20,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier2": 9,
+        "tier3": 9
+      },
+      "hero_auto_selected": true
+    }
   }
 }

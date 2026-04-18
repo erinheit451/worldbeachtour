@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Dunas_enanas.JPG",
+      "title": "Dunas enanas.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Marpolia&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Marpolia (page does not exist)\">Marpolia</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 3072,
+      "height": 2048,
+      "score": 35.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Tenerife88.jpg",
+        "title": "Tenerife88.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 1484,
+        "height": 1092
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/La_Tejita.JPG",
+        "title": "La Tejita.JPG",
+        "license": "CC BY-SA 3.0 es",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 3128,
+        "height": 2346
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Tenerife%2C_La_Tejita_-_graffiti_Construye_un_hotel_-_destruye_un_paraiso.jpg",
+        "title": "Tenerife, La Tejita - graffiti Construye un hotel - destruye un paraiso.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4857,
+        "height": 2646
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Tenerife%2C_La_Tejita_-_house_with_horses_%281%29.jpg",
+        "title": "Tenerife, La Tejita - house with horses (1).jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 5063,
+        "height": 2749
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/ES7020049_Tenerife%2C_Monta%C3%B1a_Roja_desde_La_Tejita.jpg",
+        "title": "ES7020049 Tenerife, Monta\u00f1a Roja desde La Tejita.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 4500,
+        "height": 3375
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 14,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier2": 10,
+        "tier3": 3
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

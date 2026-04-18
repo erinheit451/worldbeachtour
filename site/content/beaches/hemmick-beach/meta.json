@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Hemmick_Cottage_01.jpg",
+      "title": "Hemmick Cottage 01.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Paul_the_Archivist&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Paul the Archivist (page does not exist)\">Paul the Archivist</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4608,
+      "height": 3456,
+      "score": 35.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Hemmick_Cottage_02.jpg",
+        "title": "Hemmick Cottage 02.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 4608,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Cornwall%3B_Hemmick_Beach%2C_Nr_Mevagissey_16608_RP_PPC_By_Judges%2C_Unused%2C_c_1940%27s_%2850626817523%29.jpg",
+        "title": "Cornwall; Hemmick Beach, Nr Mevagissey 16608 RP PPC By Judges, Unused, c 1940's (50626817523).jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 34.1,
+        "width": 1507,
+        "height": 938
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Hemmick_Beach_near_Boswinger.jpg",
+        "title": "Hemmick Beach near Boswinger.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 4608,
+        "height": 2592
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Hemmick_Beach_-_geograph.org.uk_-_412395.jpg",
+        "title": "Hemmick Beach - geograph.org.uk - 412395.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 22.2,
+        "width": 640,
+        "height": 481
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Hemmick_Beach_-_geograph.org.uk_-_1472551.jpg",
+        "title": "Hemmick Beach - geograph.org.uk - 1472551.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 21.4,
+        "width": 640,
+        "height": 426
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 24,
+      "tier_breakdown": {
+        "tier2": 19,
+        "tier3": 1,
+        "tier1": 4
+      },
+      "hero_auto_selected": true
+    }
   }
 }

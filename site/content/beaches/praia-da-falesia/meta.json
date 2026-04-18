@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/View_of_Praia_da_Rocha_Baixinha_24_September_2012.JPG",
+      "title": "View of Praia da Rocha Baixinha 24 September 2012.JPG",
+      "author": "stavros1",
+      "license": "CC BY 3.0",
+      "width": 4000,
+      "height": 3000,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Albufeira_coast_in_Portugal.JPG",
+        "title": "Albufeira coast in Portugal.JPG",
+        "license": "CC BY 3.0 de",
+        "source_tier": 3,
+        "score": 70.0,
+        "width": 2100,
+        "height": 1500
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Falesia_Beach_seen_from_sea.JPG",
+        "title": "Falesia Beach seen from sea.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 70.0,
+        "width": 3136,
+        "height": 2352
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Estrada_da_Rocha_Baixinha%2C_04_October_2016_%281%29.JPG",
+        "title": "Estrada da Rocha Baixinha, 04 October 2016 (1).JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 4608,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/A_footbridge%2C_Quarteira_River%2C_V%C3%A1rzea_de_Quarteira%2C_Albufeira%2C_04_October_2016.JPG",
+        "title": "A footbridge, Quarteira River, V\u00e1rzea de Quarteira, Albufeira, 04 October 2016.JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 4608,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/%22Praia_da_Fal%C3%A9sia%22_%285514170609%29.jpg",
+        "title": "\"Praia da Fal\u00e9sia\" (5514170609).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 5742,
+        "height": 3552
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 71,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 50,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

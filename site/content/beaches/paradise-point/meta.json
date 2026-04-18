@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Keamari_Town%2C_Karachi%2C_Pakistan_-_panoramio_%283%29.jpg",
+      "title": "Keamari Town, Karachi, Pakistan - panoramio (3).jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161031181126/http://www.panoramio.com/user/1502275?with_photo_id=125361697\">Najamuddin Shahwani</a>",
+      "license": "CC BY 3.0",
+      "width": 5312,
+      "height": 2988,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Paradise_Point.jpg",
+        "title": "Paradise Point.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 70.0,
+        "width": 2576,
+        "height": 1932
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Paradise_Point%2C_Karachi.jpg",
+        "title": "Paradise Point, Karachi.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 3648,
+        "height": 2736
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Paradies_point_-_panoramio.jpg",
+        "title": "Paradies point - panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 3072,
+        "height": 2304
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Keamari_Town%2C_Karachi%2C_Pakistan_-_panoramio.jpg",
+        "title": "Keamari Town, Karachi, Pakistan - panoramio.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 5312,
+        "height": 2988
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Keamari_Town%2C_Karachi%2C_Pakistan_-_panoramio_%281%29.jpg",
+        "title": "Keamari Town, Karachi, Pakistan - panoramio (1).jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 5312,
+        "height": 2988
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 9,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier3": 4,
+        "tier2": 3
+      },
+      "hero_auto_selected": true
+    }
   }
 }

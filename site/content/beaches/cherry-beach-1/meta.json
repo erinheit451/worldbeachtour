@@ -1,1 +1,76 @@
-{"tier": 2, "lenses": ["overview", "travel"], "custom": [], "images": {"hero": "", "gallery": []}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Cherry_Beach_Park_%2837949679394%29.jpg",
+      "title": "Cherry Beach Park (37949679394).jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/91281489@N00\">Jeff Hitchcock</a> from Seattle, WA, USA",
+      "license": "CC BY 2.0",
+      "width": 4823,
+      "height": 3163,
+      "score": 65.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Cherry_Beach.JPG",
+        "title": "Cherry Beach.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 1701,
+        "height": 1140
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Cherry_Beach_Park_%2838635593192%29.jpg",
+        "title": "Cherry Beach Park (38635593192).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4763,
+        "height": 3163
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Bathers_at_Cherry_Beach_prior_to_the_construction_of_the_Leslie_Street_spit_-a.jpg",
+        "title": "Bathers at Cherry Beach prior to the construction of the Leslie Street spit -a.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 45.1,
+        "width": 1032,
+        "height": 675
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Cherry_Beach_April_2009.jpg",
+        "title": "Cherry Beach April 2009.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4082,
+        "height": 2718
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Cherry_Beach_April_30_2009.jpg",
+        "title": "Cherry Beach April 30 2009.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4064,
+        "height": 2104
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 40,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier3": 19,
+        "tier2": 18
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

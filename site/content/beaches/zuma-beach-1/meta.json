@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/ZumaBeachCountyPark.jpg",
+      "title": "ZumaBeachCountyPark.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Parkerdr\" title=\"User:Parkerdr\">Dave Parker</a>",
+      "license": "CC BY 3.0",
+      "width": 3872,
+      "height": 2592,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Beach_Boys_1967_%28cropped_and_restored%29.jpg",
+        "title": "Beach Boys 1967 (cropped and restored).jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 1630,
+        "height": 1117
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Beach_Boys_1967_%28restored%29.jpg",
+        "title": "Beach Boys 1967 (restored).jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 65.0,
+        "width": 1802,
+        "height": 2456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Lifeguard_tower_12_at_Zuma_Beach_side_elevation_2014.jpg",
+        "title": "Lifeguard tower 12 at Zuma Beach side elevation 2014.jpg",
+        "license": "CC0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 2400,
+        "height": 1714
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Point_Dume_from_Zuma_Beach.JPG",
+        "title": "Point Dume from Zuma Beach.JPG",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 1600,
+        "height": 1202
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Parvati_Shallow.jpg",
+        "title": "Parvati Shallow.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 55.0,
+        "width": 2143,
+        "height": 3215
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 55,
+      "tier_breakdown": {
+        "tier1": 4,
+        "tier3": 49,
+        "tier2": 2
+      },
+      "hero_auto_selected": true
+    }
   }
 }

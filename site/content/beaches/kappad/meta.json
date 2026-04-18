@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Kappad_beach_kerala.jpg",
+      "title": "Kappad beach kerala.jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/7209155@N03\">Dijaraj Nair</a> from Mangalore, INDIA",
+      "license": "CC BY-SA 2.0",
+      "width": 3710,
+      "height": 2328,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Kappad_Beach.jpg",
+        "title": "Kappad Beach.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Kappad_beach_2.jpg",
+        "title": "Kappad beach 2.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 60.0,
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Kappad_2.jpg",
+        "title": "Kappad 2.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Kappad.jpg",
+        "title": "Kappad.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 16320,
+        "height": 12240
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Kappad_3.jpg",
+        "title": "Kappad 3.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 4000,
+        "height": 3000
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 10,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier2": 7,
+        "tier3": 1
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

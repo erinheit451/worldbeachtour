@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Curacao_Dushi_%2834800928041%29.jpg",
+      "title": "Curacao Dushi (34800928041).jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/132646954@N02\">dronepicr</a>",
+      "license": "CC BY 2.0",
+      "width": 3733,
+      "height": 2097,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Grote_Knip_in_Curacao.jpg",
+        "title": "Grote Knip in Curacao.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2838,
+        "height": 1887
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Grote_Knip_%28Cura%C3%A7ao%29.jpg",
+        "title": "Grote Knip (Cura\u00e7ao).jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Grote_Knip_Kenepa_Grandi_Curacao_%2836561697451%29.jpg",
+        "title": "Grote Knip Kenepa Grandi Curacao (36561697451).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 70.0,
+        "width": 5355,
+        "height": 3570
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Grote_Knip_Curacao_%2834800917861%29.jpg",
+        "title": "Grote Knip Curacao (34800917861).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 3698,
+        "height": 2772
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Grote_Knip_Kenepa_Grandi_beach_%2834933031995%29.jpg",
+        "title": "Grote Knip Kenepa Grandi beach (34933031995).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 3641,
+        "height": 2045
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 17,
+      "tier_breakdown": {
+        "tier1": 4,
+        "tier3": 2,
+        "tier2": 11
+      },
+      "hero_auto_selected": true
+    }
   }
 }

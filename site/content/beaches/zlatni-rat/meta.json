@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Bol_%2833626391504%29.jpg",
+      "title": "Bol (33626391504).jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/98124089@N00\">Miran Hojnik</a>",
+      "license": "CC BY 2.0",
+      "width": 3992,
+      "height": 2992,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Golden_Cape.jpg",
+        "title": "Golden Cape.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 71.5,
+        "width": 867,
+        "height": 768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Bol_na_Bracu_-_Zlatni_rat.jpg",
+        "title": "Bol na Bracu - Zlatni rat.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 71.5,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Aerial_view_of_Zlatni_rat_%28Golden_Horn%29_Beach_in_Bol%2C_Croatia_%2848608813081%29.jpg",
+        "title": "Aerial view of Zlatni rat (Golden Horn) Beach in Bol, Croatia (48608813081).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 55.0,
+        "width": 5464,
+        "height": 3640
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Croatia_Wikivoyage_banner.jpg",
+        "title": "Croatia Wikivoyage banner.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 54.5,
+        "width": 2100,
+        "height": 300
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Bol_beach.JPG",
+        "title": "Bol beach.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 2048,
+        "height": 1536
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 72,
+      "tier_breakdown": {
+        "tier3": 42,
+        "tier1": 10,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

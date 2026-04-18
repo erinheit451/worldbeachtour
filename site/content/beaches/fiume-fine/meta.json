@@ -1,1 +1,66 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Rosignano_Solvay_plant_discharge.jpg",
+      "title": "Rosignano Solvay plant discharge.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Lone-078&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Lone-078 (page does not exist)\">Lone-078</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4032,
+      "height": 3024,
+      "score": 55.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Rosignano_Solvay_Spiagge_Bianche.jpg",
+        "title": "Rosignano Solvay Spiagge Bianche.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 50.0,
+        "width": 4000,
+        "height": 2250
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Spiagge_Bianche_al_Tramonto_-_panoramio.jpg",
+        "title": "Spiagge Bianche al Tramonto - panoramio.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Vada_Rosignano_Livorno_La_Solvay_e_le_spiaggie_bianche.jpg",
+        "title": "Vada Rosignano Livorno La Solvay e le spiaggie bianche.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 4000,
+        "height": 2500
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Fairline_motorboat.jpg",
+        "title": "Fairline motorboat.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 5034,
+        "height": 2502
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 5,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier2": 4
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

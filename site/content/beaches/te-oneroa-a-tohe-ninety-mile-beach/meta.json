@@ -6,7 +6,60 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Ninety_Mile_Beach_looking_south.jpg",
+      "title": "Ninety Mile Beach looking south.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:ShakyIsles\" title=\"User:ShakyIsles\">ShakyIsles</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4032,
+      "height": 3024,
+      "score": 45.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/90mile_beach_nz_landsatimage.jpg",
+        "title": "90mile beach nz landsatimage.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 84.2,
+        "width": 1280,
+        "height": 948
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/NZ-Ninety_Mile_B.png",
+        "title": "NZ-Ninety Mile B.png",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 66.1,
+        "width": 405,
+        "height": 590
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/New_Zealand_%28relief_map%29.png",
+        "title": "New Zealand (relief map).png",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 1380,
+        "height": 1976
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/NinetyMileBeachSurfing.png",
+        "title": "NinetyMileBeachSurfing.png",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 44.5,
+        "width": 1622,
+        "height": 968
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 5,
+      "tier_breakdown": {
+        "tier1": 5
+      },
+      "hero_auto_selected": true
+    }
   }
 }

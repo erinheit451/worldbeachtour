@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Navagio_beach_Zakynthos.jpg",
+      "title": "Navagio beach Zakynthos.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Kallerna\" title=\"User:Kallerna\">kallerna</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4088,
+      "height": 5451,
+      "score": 100.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Cyclades_navagio_greece.jpg",
+        "title": "Cyclades navagio greece.jpg",
+        "license": "CC0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Navagio%2C_Zante_01.jpg",
+        "title": "Navagio, Zante 01.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Navagio_%22Shipwreck%22_Beach_aerial_%2844653856390%29.jpg",
+        "title": "Navagio \"Shipwreck\" Beach aerial (44653856390).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 80.0,
+        "width": 5253,
+        "height": 3502
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Navagio_Beach.jpg",
+        "title": "Navagio Beach.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 79.6,
+        "width": 960,
+        "height": 637
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Navagio_Beach_and_Shipwreck_of_the_Panagiotis_at_%27Smugglers_Cove%27_Zakynthos.JPG",
+        "title": "Navagio Beach and Shipwreck of the Panagiotis at 'Smugglers Cove' Zakynthos.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 3456,
+        "height": 2592
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 68,
+      "tier_breakdown": {
+        "tier1": 8,
+        "tier3": 41,
+        "tier2": 19
+      },
+      "hero_auto_selected": true
+    }
   }
 }

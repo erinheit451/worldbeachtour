@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Blackpool_Sands_from_Slapton_Sands_%289951%29.jpg",
+      "title": "Blackpool Sands from Slapton Sands (9951).jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Nilfanion\" title=\"User:Nilfanion\">Nilfanion</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4288,
+      "height": 2848,
+      "score": 35.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Blackpool_Sands_-_geograph.org.uk_-_24244.jpg",
+        "title": "Blackpool Sands - geograph.org.uk - 24244.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 37.2,
+        "width": 640,
+        "height": 480
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Blackpool_Sands_-_Flickr_-_ARG_Flickr.jpg",
+        "title": "Blackpool Sands - Flickr - ARG Flickr.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 3915,
+        "height": 1964
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Blackpool_Sands%2C_Devon_-_panoramio.jpg",
+        "title": "Blackpool Sands, Devon - panoramio.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 2304,
+        "height": 1728
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Blackpool_Sands.jpg",
+        "title": "Blackpool Sands.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 5152,
+        "height": 3864
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Blackpool_Sands_%2837336613761%29.jpg",
+        "title": "Blackpool Sands (37336613761).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 4760,
+        "height": 2886
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 57,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier3": 35,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

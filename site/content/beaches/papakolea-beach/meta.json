@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Papakolea_Beach_sand_low_mag_052915.JPG",
+      "title": "Papakolea Beach sand low mag 052915.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Wilson44691\" title=\"User:Wilson44691\">Wilson44691</a>",
+      "license": "CC0",
+      "width": 3000,
+      "height": 2046,
+      "score": 70.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Papakolea_snapshot.jpg",
+        "title": "Papakolea snapshot.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 2560,
+        "height": 1636
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Following_rough_paths_to_the_Green_Sand_Beach.jpg",
+        "title": "Following rough paths to the Green Sand Beach.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 4912,
+        "height": 3264
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/GreenSand.JPG",
+        "title": "GreenSand.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Looking_south_down_over_Papakolea_Beach.JPG",
+        "title": "Looking south down over Papakolea Beach.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 4912,
+        "height": 3264
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/OliveneCrystals.JPG",
+        "title": "OliveneCrystals.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 6000,
+        "height": 4000
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 45,
+      "tier_breakdown": {
+        "tier1": 11,
+        "tier2": 13,
+        "tier3": 21
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

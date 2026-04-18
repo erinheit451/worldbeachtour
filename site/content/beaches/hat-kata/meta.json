@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Kata_beach_morning_2.jpg",
+      "title": "Kata beach morning 2.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:HutheMeow\" title=\"User:HutheMeow\">HutheMeow</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 3264,
+      "height": 2448,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Kata_Beach_%285730364074%29.jpg",
+        "title": "Kata Beach (5730364074).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 65.0,
+        "width": 3008,
+        "height": 2000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Thai_massage_%282362463368%29.jpg",
+        "title": "Thai massage (2362463368).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 2,
+        "score": 55.0,
+        "width": 2754,
+        "height": 1829
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Soi_Pakbang%2C_Tambon_Karon%2C_Amphoe_Mueang_Phuket%2C_Chang_Wat_Phuket_83100%2C_Thailand_-_panoramio.jpg",
+        "title": "Soi Pakbang, Tambon Karon, Amphoe Mueang Phuket, Chang Wat Phuket 83100, Thailand - panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 3000,
+        "height": 1780
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Evening_Kata_Beach.jpg",
+        "title": "Evening Kata Beach.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Ko_Pu_Island.jpg",
+        "title": "Ko Pu Island.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 7194,
+        "height": 4047
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 21,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

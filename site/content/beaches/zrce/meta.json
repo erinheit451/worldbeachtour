@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Strand_Zrce_mit_Blick_auf_Club_Kalypso.JPG",
+      "title": "Strand Zrce mit Blick auf Club Kalypso.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Tobias662341\" class=\"mw-redirect\" title=\"User:Tobias662341\">Zrce.eu Tours UG</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 4272,
+      "height": 2848,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Papaya_club_%40_Zrche_beach_night.jpg",
+        "title": "Papaya club @ Zrche beach night.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 1000,
+        "height": 667
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Zrce-pag.JPG",
+        "title": "Zrce-pag.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 70.0,
+        "width": 3648,
+        "height": 2736
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Zr%C4%87e.jpg",
+        "title": "Zr\u0107e.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 3648,
+        "height": 2736
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Zr%C4%87e_at_6_AM.jpg",
+        "title": "Zr\u0107e at 6 AM.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 2691,
+        "height": 1511
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Zrce2012.JPG",
+        "title": "Zrce2012.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 65.0,
+        "width": 2816,
+        "height": 2112
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 27,
+      "tier_breakdown": {
+        "tier1": 9,
+        "tier3": 2,
+        "tier2": 16
+      },
+      "hero_auto_selected": true
+    }
   }
 }

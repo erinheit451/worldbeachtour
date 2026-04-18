@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Nantasket_beach_tide_pools.jpg",
+      "title": "Nantasket beach tide pools.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ildominante&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ildominante (page does not exist)\">Ildominante</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 2950,
+      "height": 3934,
+      "score": 40.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/General_View%2C_Nantasket_Beach%2C_MA.jpg",
+        "title": "General View, Nantasket Beach, MA.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 75.5,
+        "width": 574,
+        "height": 370
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Relief_map_of_USA_Massachusetts.png",
+        "title": "Relief map of USA Massachusetts.png",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 47.2,
+        "width": 700,
+        "height": 478
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Paragon_Carousel.jpg",
+        "title": "Paragon Carousel.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Art_Institute_of_Chicago-1186.jpg",
+        "title": "Art Institute of Chicago-1186.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 5499,
+        "height": 3863
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Fascination_Nantasket_Beach.jpg",
+        "title": "Fascination Nantasket Beach.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 2048,
+        "height": 1536
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 49,
+      "tier_breakdown": {
+        "tier1": 4,
+        "tier2": 10,
+        "tier3": 35
+      },
+      "hero_auto_selected": true
+    }
   }
 }

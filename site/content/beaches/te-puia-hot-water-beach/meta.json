@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Excavations_on_Hot_Water_Beach_-New_Zealand-12Dec2008.jpg",
+      "title": "Excavations on Hot Water Beach -New Zealand-12Dec2008.jpg",
+      "author": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/42215808@N00\">Steve &amp; Jem Copley</a>\n</p>\n<table class=\"toccolours layouttemplate commons-file-information-table\" sty",
+      "license": "CC BY-SA 2.0",
+      "width": 3712,
+      "height": 2088,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/00_23_0963_Hot_Water_Beach_-_NZ%2C_Coromandel.jpg",
+        "title": "00 23 0963 Hot Water Beach - NZ, Coromandel.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 65.0,
+        "width": 3150,
+        "height": 2100
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Chroicocephalus_novaehollandiae_at_Hot_Water_Beach_02.jpg",
+        "title": "Chroicocephalus novaehollandiae at Hot Water Beach 02.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 4368,
+        "height": 2912
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Excavations_on_Hot_Water_Beach_-New_Zealand-12Dec2008_%282%29.jpg",
+        "title": "Excavations on Hot Water Beach -New Zealand-12Dec2008 (2).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 3456,
+        "height": 2592
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Hot_Water_Beach%2C_Coromandel%2C_New_Zealand.jpg",
+        "title": "Hot Water Beach, Coromandel, New Zealand.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 3457,
+        "height": 1863
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Hot_water_beach_-_hot_spring_location.jpg",
+        "title": "Hot water beach - hot spring location.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 1951,
+        "height": 1394
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 62,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier3": 39,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

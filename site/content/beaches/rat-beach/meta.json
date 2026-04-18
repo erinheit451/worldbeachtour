@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Dra%C5%A1nice_-_panoramio.jpg",
+      "title": "Dra\u0161nice - panoramio.jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161028114803/http://www.panoramio.com/user/6736286?with_photo_id=95610016\">Mrcsifkin</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 3264,
+      "height": 2448,
+      "score": 40.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Rat_Beach_with_the_Palos_Verdes_Peninsula_in_the_Background.jpg",
+        "title": "Rat Beach with the Palos Verdes Peninsula in the Background.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 2560,
+        "height": 1920
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Rat_Beach_Lifeguard_Tower.jpg",
+        "title": "Rat Beach Lifeguard Tower.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 1,
+        "score": 46.5,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Rat_Beach_viewed_from_the_South.jpg",
+        "title": "Rat Beach viewed from the South.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 1,
+        "score": 46.5,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Palos_Verdes_%2831200906910%29.jpg",
+        "title": "Palos Verdes (31200906910).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Palos_Verdes_%2831200906650%29.jpg",
+        "title": "Palos Verdes (31200906650).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 3264,
+        "height": 2448
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 24,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier3": 1,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

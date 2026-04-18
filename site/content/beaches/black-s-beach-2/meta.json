@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Black%27s_Beach%2C_La_Jolla%2C_San_Diego%2C_California_03.jpg",
+      "title": "Black's Beach, La Jolla, San Diego, California 03.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Leviclancy\" class=\"mw-redirect\" title=\"User:Leviclancy\">Levi Clancy</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 6016,
+      "height": 4000,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Black%27s_beach.jpg",
+        "title": "Black's beach.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 79.0,
+        "width": 800,
+        "height": 600
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Blacks_surfer.jpg",
+        "title": "Blacks surfer.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 73.8,
+        "width": 411,
+        "height": 256
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/TorreyPinesBeach2008.jpg",
+        "title": "TorreyPinesBeach2008.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 72.4,
+        "width": 800,
+        "height": 494
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Flatrock_Point_Torrey_Pines_State_Beach_La_Jolla%2C_CA.JPG",
+        "title": "Flatrock Point Torrey Pines State Beach La Jolla, CA.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 3456,
+        "height": 2592
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Blacks-Beach-Road-From-UCSD.jpg",
+        "title": "Blacks-Beach-Road-From-UCSD.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 2592,
+        "height": 1944
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 76,
+      "tier_breakdown": {
+        "tier1": 11,
+        "tier3": 46,
+        "tier2": 19
+      },
+      "hero_auto_selected": true
+    }
   }
 }

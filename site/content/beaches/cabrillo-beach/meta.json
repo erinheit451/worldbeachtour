@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Larus_heermanni13.JPG",
+      "title": "Larus heermanni13.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Basar\" title=\"User:Basar\">Basar</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 2882,
+      "height": 2183,
+      "score": 95.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Larus_occidentalis6.jpg",
+        "title": "Larus occidentalis6.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 95.0,
+        "width": 4752,
+        "height": 3168
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Cabrillo1947.jpg",
+        "title": "Cabrillo1947.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 1,
+        "score": 70.0,
+        "width": 4119,
+        "height": 3480
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Cabrillo_Beach_at_sunset.jpeg",
+        "title": "Cabrillo Beach at sunset.jpeg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Cabrillo_Beach%2C_Calif.%2C_1947.jpg",
+        "title": "Cabrillo Beach, Calif., 1947.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 49.0,
+        "width": 750,
+        "height": 599
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Cabrillo_Beach_Bathouse_%28San_Pedro%2C_CA%29.jpg",
+        "title": "Cabrillo Beach Bathouse (San Pedro, CA).jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 2984,
+        "height": 2448
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 32,
+      "tier_breakdown": {
+        "tier2": 20,
+        "tier1": 2,
+        "tier3": 10
+      },
+      "hero_auto_selected": true
+    }
   }
 }

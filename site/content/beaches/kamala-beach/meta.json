@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Kamala_Beach.jpg",
+      "title": "Kamala Beach.jpg",
+      "author": "Jules Antonio",
+      "license": "CC BY-SA 2.0",
+      "width": 4032,
+      "height": 3024,
+      "score": 60.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Phuket_after_tsunami_%282004%29.jpg",
+        "title": "Phuket after tsunami (2004).jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 80.4,
+        "width": 1014,
+        "height": 693
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Tha%C3%AFlande_2010_248.jpg",
+        "title": "Tha\u00eflande 2010 248.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Kamala%2C_Phuket%2C_Thailand.jpg",
+        "title": "Kamala, Phuket, Thailand.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 58.0,
+        "width": 1022,
+        "height": 535
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Cockfight_at_Chatuchak_Weekend_Market%2C_Bangkok_January_1998.jpg",
+        "title": "Cockfight at Chatuchak Weekend Market, Bangkok January 1998.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 1544,
+        "height": 1024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Tambon_8302.png",
+        "title": "Tambon 8302.png",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 44.1,
+        "width": 281,
+        "height": 273
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 50,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier3": 28,
+        "tier2": 19
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/At_Puri_beach_05.jpg",
+      "title": "At Puri beach 05.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Kritzolina\" title=\"User:Kritzolina\">Kritzolina</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 3888,
+      "height": 2592,
+      "score": 100.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Puri_Sea_Beach_viewed_from_the_light_house.jpg",
+        "title": "Puri Sea Beach viewed from the light house.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 4928,
+        "height": 2348
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/PuriSea2.jpg",
+        "title": "PuriSea2.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 80.0,
+        "width": 3072,
+        "height": 2304
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Puri_Sea_Beach%2C_Odisha.jpg",
+        "title": "Puri Sea Beach, Odisha.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 2592,
+        "height": 1944
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/At_Puri_beach_04.jpg",
+        "title": "At Puri beach 04.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 3888,
+        "height": 2592
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Puri_Beach.JPG",
+        "title": "Puri Beach.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 49.0,
+        "width": 600,
+        "height": 800
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 69,
+      "tier_breakdown": {
+        "tier1": 4,
+        "tier3": 45,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

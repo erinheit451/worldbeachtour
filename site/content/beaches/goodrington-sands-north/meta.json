@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Quaywest%2C_Goodrington.jpg",
+      "title": "Quaywest, Goodrington.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Nilfanion\" title=\"User:Nilfanion\">Nilfanion</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 3694,
+      "height": 2678,
+      "score": 45.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/4277_BR_black_livery.JPG",
+        "title": "4277 BR black livery.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 47.3,
+        "width": 1366,
+        "height": 820
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Devon_UK_relief_location_map.jpg",
+        "title": "Devon UK relief location map.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 2009,
+        "height": 1846
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Goodrington_beach_-_4277_up_train.JPG",
+        "title": "Goodrington beach - 4277 up train.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 43.6,
+        "width": 1366,
+        "height": 910
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/75014_climbing_away_from_Goodrington.JPG",
+        "title": "75014 climbing away from Goodrington.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 43.6,
+        "width": 1366,
+        "height": 910
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Goodrington_-_Locomotive_Services_43046.JPG",
+        "title": "Goodrington - Locomotive Services 43046.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 38.6,
+        "width": 1366,
+        "height": 910
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 73,
+      "tier_breakdown": {
+        "tier3": 48,
+        "tier1": 5,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

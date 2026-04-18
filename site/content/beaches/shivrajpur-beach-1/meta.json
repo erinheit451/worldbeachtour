@@ -6,7 +6,43 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Administrative_map_of_Gujarat.png",
+      "title": "Administrative map of Gujarat.png",
+      "author": "<a href=\"https://de.wikipedia.org/wiki/User:Chumwa\" class=\"extiw\" title=\"de:User:Chumwa\">Maximilian D\u00f6rrbecker</a> (<a href=\"https://de.wikipedia.org/wiki/User:Chumwa\" class=\"extiw\" title=\"de:User:Chu",
+      "license": "CC BY-SA 3.0",
+      "width": 3014,
+      "height": 2391,
+      "score": 45.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Shivrajpur_beach_Devbhoomi_Dwarka_district.jpg",
+        "title": "Shivrajpur beach Devbhoomi Dwarka district.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 4608,
+        "height": 2240
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Shivrajpur_Beach_Daytime.jpg",
+        "title": "Shivrajpur Beach Daytime.jpg",
+        "license": "CC0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 3,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier3": 1
+      },
+      "hero_auto_selected": true
+    }
   }
 }

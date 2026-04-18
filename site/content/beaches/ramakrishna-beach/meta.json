@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ramakrishna_Math%2C_Visakhapatnam.jpg",
+      "title": "Ramakrishna Math, Visakhapatnam.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:%E0%B0%A1%E0%B0%BE._%E0%B0%97%E0%B0%A8%E0%B1%8D%E0%B0%A8%E0%B0%B5%E0%B0%B0%E0%B0%AA%E0%B1%81_%E0%B0%A8%E0%B0%B0%E0%B0%B8%E0%B0%BF%E0%B0%82%E0%B0%B9%E0%B0%AE%",
+      "license": "CC0",
+      "width": 3534,
+      "height": 2123,
+      "score": 60.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Lighthouse_on_Visakhapatnam_beach_road.jpg",
+        "title": "Lighthouse on Visakhapatnam beach road.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 3000,
+        "height": 4000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/RK_Beach_Night.jpg",
+        "title": "RK Beach Night.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 4592,
+        "height": 3056
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/RK_Beach_at_Sunset_time_03.JPG",
+        "title": "RK Beach at Sunset time 03.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Ramakrishna_Mission_Ashrama_Library%2C_Visakhapatnam.jpg",
+        "title": "Ramakrishna Mission Ashrama Library, Visakhapatnam.jpg",
+        "license": "CC0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 2816,
+        "height": 3754
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Statue_of_Sri_Vivekananda_Swamy%2C_Ramakrishna_Math%2C_Visakhapatnam.jpg",
+        "title": "Statue of Sri Vivekananda Swamy, Ramakrishna Math, Visakhapatnam.jpg",
+        "license": "CC0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 1846,
+        "height": 2893
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 29,
+      "tier_breakdown": {
+        "tier1": 9,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

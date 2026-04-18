@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Cala_Coloritze_vom_Land.JPG",
+      "title": "Cala Coloritze vom Land.JPG",
+      "author": "<a href=\"https://de.wikipedia.org/wiki/Benutzer:Yesuitus2001\" class=\"extiw\" title=\"de:Benutzer:Yesuitus2001\">Yesuitus2001</a>",
+      "license": "CC BY-SA 2.5",
+      "width": 4592,
+      "height": 3056,
+      "score": 80.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Cala_Goloritz%C3%A9_%28spiaggia%29.jpg",
+        "title": "Cala Goloritz\u00e9 (spiaggia).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 81.5,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Cala_Goloritze_o.jpg",
+        "title": "Cala Goloritze o.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 2816,
+        "height": 2112
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Cala_Goloritz%C3%A9_1.JPG",
+        "title": "Cala Goloritz\u00e9 1.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 70.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Cala_Goloritz%C3%A9_3.JPG",
+        "title": "Cala Goloritz\u00e9 3.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 70.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Cala_Goloritz%C3%A9_5.JPG",
+        "title": "Cala Goloritz\u00e9 5.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 2048,
+        "height": 1536
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 42,
+      "tier_breakdown": {
+        "tier1": 6,
+        "tier3": 24,
+        "tier2": 12
+      },
+      "hero_auto_selected": true
+    }
   }
 }

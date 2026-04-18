@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Clifton_Beach_5.jpg",
+      "title": "Clifton Beach 5.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:JJ_Harrison\" title=\"User:JJ Harrison\">JJ Harrison</a> (<a rel=\"nofollow\" class=\"external free\" href=\"https://www.jjharrison.com.au/\">https://www.jjharrison.c",
+      "license": "CC BY-SA 3.0",
+      "width": 3762,
+      "height": 2508,
+      "score": 125.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Clifton_Beach_4.jpg",
+        "title": "Clifton Beach 4.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 125.0,
+        "width": 1944,
+        "height": 1296
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Arabian_Sea_in_Karachi.jpg",
+        "title": "Arabian Sea in Karachi.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 4080,
+        "height": 3060
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Clifton_Beach_Karachi.JPG",
+        "title": "Clifton Beach Karachi.JPG",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 2816,
+        "height": 2112
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Do_Darya_karachi.jpg",
+        "title": "Do Darya karachi.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 5925,
+        "height": 3626
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Seaview_%28Clifton_Beach%29_Karachi.jpg",
+        "title": "Seaview (Clifton Beach) Karachi.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 4000,
+        "height": 3000
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 21,
+      "tier_breakdown": {
+        "tier3": 13,
+        "tier1": 8
+      },
+      "hero_auto_selected": true
+    }
   }
 }

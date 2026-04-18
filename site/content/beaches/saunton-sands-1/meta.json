@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/C-130_Mk3_Hercules_Transport_Aircraft_landing_at_Saunton_Sands_air_strip._MOD_45151000.jpg",
+      "title": "C-130 Mk3 Hercules Transport Aircraft landing at Saunton Sands air strip. MOD 45151000.jpg",
+      "author": "Becky Paget",
+      "license": "OGL v1.0",
+      "width": 7417,
+      "height": 5100,
+      "score": 50.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Saunton_Sands.JPG",
+        "title": "Saunton Sands.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/-2020-01-27_An_RNLI_lifeguard_Jet_Ski_craft..JPG",
+        "title": "-2020-01-27 An RNLI lifeguard Jet Ski craft..JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 2781,
+        "height": 2057
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Beach_huts_on_sauton_sands.jpg",
+        "title": "Beach huts on sauton sands.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Beach_hut%2C_kayak%2C_deckchair_hire_at_Saunton_Sands_-_geograph.org.uk_-_2334494.jpg",
+        "title": "Beach hut, kayak, deckchair hire at Saunton Sands - geograph.org.uk - 2334494.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 5.0,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Beach_huts_Saunton_Sands_-_geograph.org.uk_-_2339121.jpg",
+        "title": "Beach huts Saunton Sands - geograph.org.uk - 2339121.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 5.0,
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 58,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier3": 45,
+        "tier2": 11
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Flight_Schedule.jpg",
+      "title": "Flight Schedule.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Peterdostfuerth&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Peterdostfuerth (page does not exist)\">Peterdostfuerth</a>",
+      "license": "CC BY 3.0",
+      "width": 2048,
+      "height": 3072,
+      "score": 65.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Hurricane_Irma_on_Sint_Maarten_%28NL%29_09.jpg",
+        "title": "Hurricane Irma on Sint Maarten (NL) 09.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 82.5,
+        "width": 1250,
+        "height": 833
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Corsair_Airbus_A330_at_SXM_Bidini.jpg",
+        "title": "Corsair Airbus A330 at SXM Bidini.jpg",
+        "license": "GFDL 1.2",
+        "source_tier": 1,
+        "score": 82.3,
+        "width": 1199,
+        "height": 819
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/SXM-Maho-A343-takeoff-800.jpg",
+        "title": "SXM-Maho-A343-takeoff-800.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 78.0,
+        "width": 800,
+        "height": 533
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/SXMDanger.jpg",
+        "title": "SXMDanger.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 75.4,
+        "width": 480,
+        "height": 360
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Maho_Beach_%288244295365%29.jpg",
+        "title": "Maho Beach (8244295365).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 4000,
+        "height": 2666
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 73,
+      "tier_breakdown": {
+        "tier1": 4,
+        "tier3": 49,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

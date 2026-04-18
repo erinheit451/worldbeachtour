@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Night_in_Luna_Park%2C_Coney_Island_%281905%29.jpg",
+      "title": "Night in Luna Park, Coney Island (1905).jpg",
+      "author": "Detroit Publishing Co.",
+      "license": "Public domain",
+      "width": 5885,
+      "height": 4768,
+      "score": 115.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/2010-03-21_at_11-00-57.jpg",
+        "title": "2010-03-21 at 11-00-57.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2200,
+        "height": 1465
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Astroland_Coney_Island_by_David_Shankbone.JPG",
+        "title": "Astroland Coney Island by David Shankbone.JPG",
+        "license": "CC BY 2.5",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2816,
+        "height": 2112
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Brooklyn_Bridge_Postdlf.jpg",
+        "title": "Brooklyn Bridge Postdlf.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 2377,
+        "height": 1925
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/NYC_Coney_Island_beach.jpg",
+        "title": "NYC Coney Island beach.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 70.0,
+        "width": 4368,
+        "height": 2912
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/1879_Coney_Island.jpg",
+        "title": "1879 Coney Island.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 69.0,
+        "width": 4434,
+        "height": 930
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 85,
+      "tier_breakdown": {
+        "tier3": 29,
+        "tier1": 36,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Sea_glass_at_Glass_Beach_in_Fort_Bragg_2.jpg",
+      "title": "Sea glass at Glass Beach in Fort Bragg 2.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Grendelkhan\" title=\"User:Grendelkhan\">Grendelkhan</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4032,
+      "height": 3024,
+      "score": 60.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Glass_Beach_Fort_Bragg_2.jpg",
+        "title": "Glass Beach Fort Bragg 2.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 135.0,
+        "width": 2304,
+        "height": 1728
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Glass_Beach_Fort_Bragg.jpg",
+        "title": "Glass Beach Fort Bragg.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 82.0,
+        "width": 1200,
+        "height": 797
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Glass_Beach_Fort_Bragg_3.jpg",
+        "title": "Glass Beach Fort Bragg 3.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 2304,
+        "height": 1728
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Glass_Beach_Fort_Bragg_1.jpg",
+        "title": "Glass Beach Fort Bragg 1.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 2304,
+        "height": 1728
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Sea_glass_at_Glass_Beach_in_Fort_Bragg_3.jpg",
+        "title": "Sea glass at Glass Beach in Fort Bragg 3.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 4032,
+        "height": 3024
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 62,
+      "tier_breakdown": {
+        "tier1": 8,
+        "tier3": 36,
+        "tier2": 18
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Mykenische_Akropolis_%28Koukounaries%29_09.jpg",
+      "title": "Mykenische Akropolis (Koukounaries) 09.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Oltau\" title=\"User:Oltau\">Olaf Tausch</a>",
+      "license": "CC BY 3.0",
+      "width": 4608,
+      "height": 3456,
+      "score": 60.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Koukounaries_beach.jpg",
+        "title": "Koukounaries beach.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2272,
+        "height": 1704
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Mykenische_Akropolis_%28Koukounaries%29_18.jpg",
+        "title": "Mykenische Akropolis (Koukounaries) 18.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 4444,
+        "height": 3332
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Mykenische_Akropolis_%28Koukounaries%29_02.jpg",
+        "title": "Mykenische Akropolis (Koukounaries) 02.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 4601,
+        "height": 3448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Mykenische_Akropolis_%28Koukounaries%29_06.jpg",
+        "title": "Mykenische Akropolis (Koukounaries) 06.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 4361,
+        "height": 3270
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Mykenische_Akropolis_%28Koukounaries%29_11.jpg",
+        "title": "Mykenische Akropolis (Koukounaries) 11.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 4584,
+        "height": 3440
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 46,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 25,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

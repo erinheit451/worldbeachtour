@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Egremni_beach.JPG",
+      "title": "Egremni beach.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Neda_Glisovic\" title=\"User:Neda Glisovic\">Neda Glisovic</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4608,
+      "height": 2356,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Egremni_Beach_%28Lefkada%2C_Greece%29.jpg",
+        "title": "Egremni Beach (Lefkada, Greece).jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 1536,
+        "height": 2048
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/GreeceIonianIslands.png",
+        "title": "GreeceIonianIslands.png",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 63.0,
+        "width": 200,
+        "height": 204
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Egremni.JPG",
+        "title": "Egremni.JPG",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 3072,
+        "height": 2304
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/View_from_the_stairs_at_Egremni.JPG",
+        "title": "View from the stairs at Egremni.JPG",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 3072,
+        "height": 2304
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Egremni_beach_SF_0003.jpg",
+        "title": "Egremni beach SF 0003.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 4032,
+        "height": 3024
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 25,
+      "tier_breakdown": {
+        "tier1": 5,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

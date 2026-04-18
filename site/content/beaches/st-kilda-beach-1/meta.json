@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Melbourne_%28AU%29%2C_St_Kilda_Beach_--_2019_--_1590.jpg",
+      "title": "Melbourne (AU), St Kilda Beach -- 2019 -- 1590.jpg",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q34788025\" class=\"extiw\" title=\"d:Q34788025\"><span title=\"German photographer and mathematician\">Dietmar Rabich</span></a></bdi>",
+      "license": "CC BY-SA 4.0",
+      "width": 6720,
+      "height": 4480,
+      "score": 70.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Quiet_before_midday_-_St_Kilda_Beach_and_Pier_%283166045772%29.jpg",
+        "title": "Quiet before midday - St Kilda Beach and Pier (3166045772).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Melbourne_%28AU%29%2C_St_Kilda_Beach_--_2019_--_1592.jpg",
+        "title": "Melbourne (AU), St Kilda Beach -- 2019 -- 1592.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 65.0,
+        "width": 6378,
+        "height": 3189
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Kitesurfing_on_st_kilda_beaches.jpg",
+        "title": "Kitesurfing on st kilda beaches.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 53.2,
+        "width": 729,
+        "height": 215
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/St_kilda_sea_baths_c1910_SLV.jpg",
+        "title": "St kilda sea baths c1910 SLV.jpg",
+        "license": "CC0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 1600,
+        "height": 1191
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Lady_of_st_kilda_wreck.jpg",
+        "title": "Lady of st kilda wreck.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 49.0,
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 61,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier3": 39,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

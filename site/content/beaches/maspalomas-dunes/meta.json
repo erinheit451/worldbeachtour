@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Playa_del_ingles_dunes.jpg",
+      "title": "Playa del ingles dunes.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Wouterhagens\" title=\"User:Wouterhagens\">Wouter Hagens</a>",
+      "license": "Public domain",
+      "width": 3704,
+      "height": 2081,
+      "score": 45.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Dunas_de_Maspalomas.jpg",
+        "title": "Dunas de Maspalomas.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2304,
+        "height": 1268
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Collage_Gran_Canaria.jpg",
+        "title": "Collage Gran Canaria.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 56.1,
+        "width": 404,
+        "height": 404
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Hegeter_grancanariensis_Lindberg%2C_1950_%2812047238604%29.png",
+        "title": "Hegeter grancanariensis Lindberg, 1950 (12047238604).png",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 2,
+        "score": 45.0,
+        "width": 3271,
+        "height": 1857
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/PlayaDelInglesHotelView.jpg",
+        "title": "PlayaDelInglesHotelView.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Bauarbeiten_am_Strand_von_Playa_del_Ingl%C3%A9s_-_1978.jpg",
+        "title": "Bauarbeiten am Strand von Playa del Ingl\u00e9s - 1978.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 40.2,
+        "width": 1024,
+        "height": 683
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 31,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 10,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

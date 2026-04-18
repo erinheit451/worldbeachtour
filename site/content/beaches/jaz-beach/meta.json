@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Jaz_Beach_04.jpg",
+      "title": "Jaz Beach 04.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:BuhaM\" title=\"User:BuhaM\">Milica Buha</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 5152,
+      "height": 3864,
+      "score": 40.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Jaz_beach_11.jpg",
+        "title": "Jaz beach 11.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Jaz_beach_12.jpg",
+        "title": "Jaz beach 12.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 73.5,
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Sea_Dance_Festival_2015_%283%29.jpg",
+        "title": "Sea Dance Festival 2015 (3).jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 70.0,
+        "width": 1367,
+        "height": 2048
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Sea_Dance_Festival_2015_%282%29.jpg",
+        "title": "Sea Dance Festival 2015 (2).jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Jaz_Beach_01.jpg",
+        "title": "Jaz Beach 01.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 5152,
+        "height": 3864
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 25,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier3": 8,
+        "tier2": 15
+      },
+      "hero_auto_selected": true
+    }
   }
 }

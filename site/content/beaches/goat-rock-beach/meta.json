@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Arched_Rock_as_seen_from_Goat_Rock_Beach.jpg",
+      "title": "Arched Rock as seen from Goat Rock Beach.jpg",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q57175365\" class=\"extiw\" title=\"d:Q57175365\"><span title=\"German-American photographer, Wikipedian, and Executive Director of the Wiki Education Foundation\"",
+      "license": "CC BY-SA 3.0",
+      "width": 7003,
+      "height": 3248,
+      "score": 115.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Goat_Rock_Beach%2C_Sonoma_County%2C_California_%2802-11-2012%29.jpg",
+        "title": "Goat Rock Beach, Sonoma County, California (02-11-2012).jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Goat_Rock_Beach_%2810908575024%29.jpg",
+        "title": "Goat Rock Beach (10908575024).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 5581,
+        "height": 3721
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Fog_rolling_over_Arched_Rock.jpg",
+        "title": "Fog rolling over Arched Rock.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 3419,
+        "height": 2186
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Rocks_and_surf_on_Goat_Rock_Beach.jpg",
+        "title": "Rocks and surf on Goat Rock Beach.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 70.0,
+        "width": 3984,
+        "height": 2520
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Jenner_California_4000.jpg",
+        "title": "Jenner California 4000.jpg",
+        "license": "CC0",
+        "source_tier": 2,
+        "score": 68.9,
+        "width": 1870,
+        "height": 924
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 52,
+      "tier_breakdown": {
+        "tier3": 34,
+        "tier1": 6,
+        "tier2": 12
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Pepsi_Sign.jpg",
+      "title": "Pepsi Sign.jpg",
+      "author": "Eden, Janine and Jim",
+      "license": "CC BY 2.0",
+      "width": 3881,
+      "height": 2911,
+      "score": 30.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Manhattanhenge_in_june_2005.jpg",
+        "title": "Manhattanhenge in june 2005.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 1920,
+        "height": 2560
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/New_light_brown_sand.jpg",
+        "title": "New light brown sand.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 55.9,
+        "width": 528,
+        "height": 396
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Artificial_tree_on_East_River_Wharf.jpg",
+        "title": "Artificial tree on East River Wharf.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 40.0,
+        "width": 1662,
+        "height": 1590
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/LIC_dock_NY_Waterway_jeh.jpg",
+        "title": "LIC dock NY Waterway jeh.jpg",
+        "license": "CC0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 2403,
+        "height": 1800
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Hunters_Point_South_Pk_td_%282019-06-08%29_039_-_Cafe_Terrace.jpg",
+        "title": "Hunters Point South Pk td (2019-06-08) 039 - Cafe Terrace.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 5472,
+        "height": 3648
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 23,
+      "tier_breakdown": {
+        "tier3": 1,
+        "tier1": 2,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

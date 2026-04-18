@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Pondicherry-Rock_beach_aerial_view.jpg",
+      "title": "Pondicherry-Rock beach aerial view.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Karthik_Easvur\" title=\"User:Karthik Easvur\">Karthik Easvur</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 5184,
+      "height": 3456,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Banner_of_Puducherry.png",
+        "title": "Banner of Puducherry.png",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 76.8,
+        "width": 680,
+        "height": 454
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Beach_Promenade_at_Pondicherry_panorama.jpg",
+        "title": "Beach Promenade at Pondicherry panorama.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 12496,
+        "height": 2123
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/A_camel_on_the_beach_in_Puducherry%2C_Tamil_Nadu%2C_India.jpg",
+        "title": "A camel on the beach in Puducherry, Tamil Nadu, India.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 2932,
+        "height": 2000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Image_pondicherry.jpg",
+        "title": "Image pondicherry.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 4618,
+        "height": 3464
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Long_Pier%2C_Pondicherry.jpg",
+        "title": "Long Pier, Pondicherry.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 4208,
+        "height": 2320
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 77,
+      "tier_breakdown": {
+        "tier1": 10,
+        "tier3": 47,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

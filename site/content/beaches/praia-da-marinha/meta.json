@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Praia_da_Marinha_%282012-09-27%29%2C_by_Klugschnacker_in_Wikipedia_%281%29.JPG",
+      "title": "Praia da Marinha (2012-09-27), by Klugschnacker in Wikipedia (1).JPG",
+      "author": "Klugschnacker",
+      "license": "CC BY-SA 3.0",
+      "width": 4207,
+      "height": 2367,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Praia_da_Marinha_%282012-09-27%29%2C_by_Klugschnacker_in_Wikipedia_%2826%29.JPG",
+        "title": "Praia da Marinha (2012-09-27), by Klugschnacker in Wikipedia (26).JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 4259,
+        "height": 2396
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Praia_da_Marinha_%282012-09-27%29%2C_by_Klugschnacker_in_Wikipedia_%2831%29.JPG",
+        "title": "Praia da Marinha (2012-09-27), by Klugschnacker in Wikipedia (31).JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 4286,
+        "height": 2416
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Praia_da_Marinha_%282012-09-27%29%2C_by_Klugschnacker_in_Wikipedia_%2886%29.JPG",
+        "title": "Praia da Marinha (2012-09-27), by Klugschnacker in Wikipedia (86).JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 2848,
+        "height": 4288
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Algarve-1.jpg",
+        "title": "Algarve-1.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 69.0,
+        "width": 800,
+        "height": 600
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Praia_da_Marinha_%282012-09-27%29%2C_by_Klugschnacker_in_Wikipedia_%2864%29.JPG",
+        "title": "Praia da Marinha (2012-09-27), by Klugschnacker in Wikipedia (64).JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 65.0,
+        "width": 4274,
+        "height": 2402
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 72,
+      "tier_breakdown": {
+        "tier1": 7,
+        "tier3": 46,
+        "tier2": 19
+      },
+      "hero_auto_selected": true
+    }
   }
 }

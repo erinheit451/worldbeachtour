@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Aksa_Beach_afternoon.jpg",
+      "title": "Aksa Beach afternoon.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Sobarwiki\" title=\"User:Sobarwiki\">Sobarwiki</a>",
+      "license": "Public domain",
+      "width": 4320,
+      "height": 3240,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Chowpatti.jpg",
+        "title": "Chowpatti.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 82.8,
+        "width": 1136,
+        "height": 852
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Taj_Mahal_Palace_Hotel.jpg",
+        "title": "Taj Mahal Palace Hotel.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 70.0,
+        "width": 3989,
+        "height": 2719
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Elephanta_Caves%2C_India%2C_Shiva_as_Nataraja%2C_King_of_Dance.jpg",
+        "title": "Elephanta Caves, India, Shiva as Nataraja, King of Dance.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 3072,
+        "height": 2048
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Hajiali.jpg",
+        "title": "Hajiali.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 3008,
+        "height": 2000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Hanging-Gardens-5.jpg",
+        "title": "Hanging-Gardens-5.jpg",
+        "license": "CC BY 2.5",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 2592,
+        "height": 1952
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 16,
+      "tier_breakdown": {
+        "tier1": 10,
+        "tier3": 5,
+        "tier2": 1
+      },
+      "hero_auto_selected": true
+    }
   }
 }

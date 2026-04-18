@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Harry_Potter_Shell_Cottage_Freshwater_West.JPG",
+      "title": "Harry Potter Shell Cottage Freshwater West.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Rpriv2000\" title=\"User:Rpriv2000\">Russ Hamer</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 2502,
+      "height": 3531,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/HPatDH_-_Panache_-_Lynch_reading.jpg",
+        "title": "HPatDH - Panache - Lynch reading.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 69.2,
+        "width": 800,
+        "height": 615
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/HPatDH_-_Panache_-_Radcliffe_Gleeson_and_Lynch.jpg",
+        "title": "HPatDH - Panache - Radcliffe Gleeson and Lynch.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 61.4,
+        "width": 760,
+        "height": 800
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/HPatDH_-_Panache_-_b%26w_Harry_and_camera.jpg",
+        "title": "HPatDH - Panache - b&w Harry and camera.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 58.5,
+        "width": 565,
+        "height": 747
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/HPatDH_-_Panache_-_Emma_and_Dobby.jpg",
+        "title": "HPatDH - Panache - Emma and Dobby.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 58.5,
+        "width": 570,
+        "height": 800
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Daniel_Radcliffe_as_Harry_Potter.jpg",
+        "title": "Daniel Radcliffe as Harry Potter.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 42.5,
+        "width": 170,
+        "height": 367
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 61,
+      "tier_breakdown": {
+        "tier1": 7,
+        "tier3": 36,
+        "tier2": 18
+      },
+      "hero_auto_selected": true
+    }
   }
 }

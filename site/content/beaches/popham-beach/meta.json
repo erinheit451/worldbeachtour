@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Popham_beach_state_park_09.07.2012_23-22-01.jpg",
+      "title": "Popham beach state park 09.07.2012 23-22-01.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Southgeist\" title=\"User:Southgeist\">Dirk Ingo Franke</a>",
+      "license": "CC BY 3.0",
+      "width": 4672,
+      "height": 3104,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/August_2009%2C_The_fog_finally_lifted_off_of_Popham_Beach%2C_Phippsburg%2C_Maine_%284812183307%29.jpg",
+        "title": "August 2009, The fog finally lifted off of Popham Beach, Phippsburg, Maine (4812183307).jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 3216,
+        "height": 2136
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/The_outside_of_Fort_Popham_taken_from_the_Kennebec_River.jpg",
+        "title": "The outside of Fort Popham taken from the Kennebec River.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 4644,
+        "height": 3084
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/View_of_Popham_Beach%2C_Phippsburg%2C_ME.jpg",
+        "title": "View of Popham Beach, Phippsburg, ME.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 39.3,
+        "width": 1022,
+        "height": 618
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Pinto_%2823081972604%29.jpg",
+        "title": "Pinto (23081972604).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 37.9,
+        "width": 1400,
+        "height": 859
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Popham_Beach%2C_Phippsburg%2C_United_States_%28Unsplash%29.jpg",
+        "title": "Popham Beach, Phippsburg, United States (Unsplash).jpg",
+        "license": "CC0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4874,
+        "height": 2742
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 32,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 28,
+        "tier2": 3
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

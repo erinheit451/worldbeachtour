@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Batu_Ferringhi%2C_George_Town%2C_Penang_2023.jpg",
+      "title": "Batu Ferringhi, George Town, Penang 2023.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:HundenvonPenang&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:HundenvonPenang (page does not exist)\">HundenvonPenang</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 8064,
+      "height": 6048,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Lovers%27_Isle%2C_Batu_Ferringhi%2C_George_Town%2C_Penang.jpg",
+        "title": "Lovers' Isle, Batu Ferringhi, George Town, Penang.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Batu_Ferringhi_Panorama.jpg",
+        "title": "Batu Ferringhi Panorama.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 81.5,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Batu_Ferringhi_Clinic.jpg",
+        "title": "Batu Ferringhi Clinic.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 2816,
+        "height": 2112
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/BatuFerringhi2006.JPG",
+        "title": "BatuFerringhi2006.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 71.5,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Cmglee_Penang_Boon_Siew_Villa.jpg",
+        "title": "Cmglee Penang Boon Siew Villa.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 4096,
+        "height": 2048
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 58,
+      "tier_breakdown": {
+        "tier1": 7,
+        "tier3": 33,
+        "tier2": 18
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

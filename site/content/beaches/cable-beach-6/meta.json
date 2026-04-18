@@ -1,58 +1,75 @@
 {
   "tier": 2,
-  "lenses": ["overview", "travel"],
+  "lenses": [
+    "overview",
+    "travel"
+  ],
   "custom": [],
   "images": {
     "hero": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Dusk_at_Cable_Beach%2C_Broome%2C_WA%2C_Australia_03.jpg",
-      "title": "Dusk at Cable Beach, Broome",
-      "author": "Wikimedia Commons contributor",
-      "license": "CC BY-SA",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Dusk_at_Cable_Beach%2C_Broome%2C_WA%2C_Australia_16.jpg",
+      "title": "Dusk at Cable Beach, Broome, WA, Australia 16.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Ridiculopathy\" title=\"User:Ridiculopathy\">Ridiculopathy</a>",
+      "license": "CC0",
       "width": 4608,
-      "height": 2592
+      "height": 2592,
+      "score": 35.0
     },
     "gallery": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Cable_Beach%2C_Western_Australia.jpg",
-        "title": "Cable Beach, Western Australia",
-        "license": "CC BY-SA",
+        "title": "Cable Beach, Western Australia.jpg",
+        "license": "CC BY-SA 3.0",
         "source_tier": 1,
-        "score": 84.4
+        "score": 84.4,
+        "width": 1280,
+        "height": 960
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Cable_Beach_Panorama.jpg",
-        "title": "Cable Beach Panorama",
-        "license": "CC BY-SA",
+        "title": "Cable Beach Panorama.jpg",
+        "license": "CC BY 3.0",
         "source_tier": 1,
-        "score": 72.0
+        "score": 72.0,
+        "width": 3402,
+        "height": 800
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Cable_Beach%2C_Broome.jpg",
-        "title": "Cable Beach, Broome",
-        "license": "CC BY-SA",
+        "title": "Cable Beach, Broome.jpg",
+        "license": "CC BY-SA 3.0",
         "source_tier": 1,
-        "score": 65.0
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/A_Surfer_On_Cable_Beach_Broome_Australia_%2856440028%29.jpeg",
-        "title": "Surfer at Cable Beach",
-        "license": "CC BY-SA",
-        "source_tier": 3,
-        "score": 35.0
+        "score": 65.0,
+        "width": 2568,
+        "height": 1903
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Cable_beach_Sunset_with_saling_ship_5-5-2004_-_panoramio.jpg",
-        "title": "Cable Beach sunset with sailing ship",
-        "license": "CC BY-SA",
+        "title": "Cable beach Sunset with saling ship 5-5-2004 - panoramio.jpg",
+        "license": "CC BY-SA 3.0",
         "source_tier": 3,
-        "score": 64.5
+        "score": 64.5,
+        "width": 850,
+        "height": 632
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Broome_Cable_Beach_and_camels.jpg",
+        "title": "Broome Cable Beach and camels.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 50.4,
+        "width": 922,
+        "height": 691
       }
     ],
     "_enrichment": {
       "pipeline_version": "photo_enrichment.py v1",
       "candidates_evaluated": 30,
-      "tier_breakdown": {"tier1": 3, "tier2": 0, "tier3": 27},
-      "note": "Hero manually elevated: programmatic top-score was Tier-1 Wikipedia image (1280px), but Tier-3 dusk shot (4608x2592) is visually stronger. Legendary beach = human curation. For volume beaches, top-score wins."
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier3": 27
+      },
+      "hero_auto_selected": true
     }
   }
 }

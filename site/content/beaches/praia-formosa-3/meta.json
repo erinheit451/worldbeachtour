@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Montluc.JPG",
+      "title": "Montluc.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Coeli\" title=\"User:Coeli\">Coeli</a>",
+      "license": "Public domain",
+      "width": 2816,
+      "height": 2112,
+      "score": 70.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/S%C3%A3o_Martinho_%28Madeira%2C_Portugal%29%2C_Praia_Formosa_--_2025_--_0244.jpg",
+        "title": "S\u00e3o Martinho (Madeira, Portugal), Praia Formosa -- 2025 -- 0244.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 6720,
+        "height": 4480
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/S%C3%A3o_Martinho_%28Madeira%2C_Portugal%29%2C_Praia_Formosa_--_2025_--_0736.jpg",
+        "title": "S\u00e3o Martinho (Madeira, Portugal), Praia Formosa -- 2025 -- 0736.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 55.0,
+        "width": 6606,
+        "height": 4404
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Polovina_Praia_Formosa.JPG",
+        "title": "Polovina Praia Formosa.JPG",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 2816,
+        "height": 2112
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Praia_Formosa_-_Black_Pebble_Beach_in_February_Sunshine_%2832823123041%29.jpg",
+        "title": "Praia Formosa - Black Pebble Beach in February Sunshine (32823123041).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 4160,
+        "height": 2340
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/S%C3%A3o_Martinho_%28Madeira%2C_Portugal%29%2C_Praia_Formosa_--_2025_--_0190.jpg",
+        "title": "S\u00e3o Martinho (Madeira, Portugal), Praia Formosa -- 2025 -- 0190.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 4417,
+        "height": 6625
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 66,
+      "tier_breakdown": {
+        "tier3": 45,
+        "tier2": 20,
+        "tier1": 1
+      },
+      "hero_auto_selected": true
+    }
   }
 }

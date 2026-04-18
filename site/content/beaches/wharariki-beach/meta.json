@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Wharariki_Beach_and_Archway_Islands.jpg",
+      "title": "Wharariki Beach and Archway Islands.jpg",
+      "author": "<a href=\"https://en.wikipedia.org/wiki/User:Pseudopanax\" class=\"extiw\" title=\"wikipedia:User:Pseudopanax\">Pseudopanax</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">E",
+      "license": "Public domain",
+      "width": 4896,
+      "height": 3264,
+      "score": 45.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/New_Zealand_%28relief_map%29.png",
+        "title": "New Zealand (relief map).png",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 1380,
+        "height": 1976
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Archway_Islands_off_Wharariki_Beach.jpg",
+        "title": "Archway Islands off Wharariki Beach.jpg",
+        "license": "Public domain",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 4896,
+        "height": 2880
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Archway_Islands_behind_grasses_on_sand_dunes_at_Wharariki_Beach.jpg",
+        "title": "Archway Islands behind grasses on sand dunes at Wharariki Beach.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 4896,
+        "height": 3264
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Wharariki_Beach_%2840_of_43%29.jpg",
+        "title": "Wharariki Beach (40 of 43).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4288,
+        "height": 2848
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Wharariki_Beach_area_%285795489863%29.jpg",
+        "title": "Wharariki Beach area (5795489863).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 2121,
+        "height": 1414
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 28,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier2": 9,
+        "tier3": 17
+      },
+      "hero_auto_selected": true
+    }
   }
 }

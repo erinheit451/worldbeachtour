@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Porth_Mawr_%28Whitesands_Bay%29_near_Tyddewi_%28St_David%27s%29%2C_Sir_Benfro%2C_Cymru%2C_Wales_15.jpg",
+      "title": "Porth Mawr (Whitesands Bay) near Tyddewi (St David's), Sir Benfro, Cymru, Wales 15.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Llywelyn2000\" title=\"User:Llywelyn2000\">Llywelyn2000</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 3648,
+      "height": 2736,
+      "score": 80.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Carn_Llidi_%288397%29.jpg",
+        "title": "Carn Llidi (8397).jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 70.0,
+        "width": 4288,
+        "height": 2848
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Archaeological_dig_at_Porth_Mawr_%28recent_English_translation_-_%27Whitesands_Bay%27%29%2C_Sir_Benfro%2C_Cymru%2C_Wales_10.jpg",
+        "title": "Archaeological dig at Porth Mawr (recent English translation - 'Whitesands Bay'), Sir Benfro, Cymru, Wales 10.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 3451,
+        "height": 2589
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Whitesands_Bay%2C_Pembrokeshire_by_Chris_Shaw.jpg",
+        "title": "Whitesands Bay, Pembrokeshire by Chris Shaw.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 47.2,
+        "width": 640,
+        "height": 480
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Whitesands_Bay_-_geograph.org.uk_-_7008913.jpg",
+        "title": "Whitesands Bay - geograph.org.uk - 7008913.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 2,
+        "score": 0.0,
+        "width": 5152,
+        "height": 3864
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Whitesands_beach%2C_Pembrokeshire_-_geograph.org.uk_-_6240610.jpg",
+        "title": "Whitesands beach, Pembrokeshire - geograph.org.uk - 6240610.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 2,
+        "score": 0.0,
+        "width": 5184,
+        "height": 3888
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 24,
+      "tier_breakdown": {
+        "tier1": 4,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

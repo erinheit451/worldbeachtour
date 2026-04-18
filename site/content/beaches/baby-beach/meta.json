@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Baby_beach_Aruba_-_2.jpg",
+      "title": "Baby beach Aruba - 2.jpg",
+      "author": "DanielleJWiki",
+      "license": "CC BY-SA 4.0",
+      "width": 5312,
+      "height": 2988,
+      "score": 40.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Baby_Beach_Aruba.JPG",
+        "title": "Baby Beach Aruba.JPG",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2560,
+        "height": 1920
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Baby_Beach.jpg",
+        "title": "Baby Beach.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 2592,
+        "height": 1944
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Mangrove_Tree_%28Conocarpus_erectus%29_Aruba_Baby_Beach_%282908229093%29.jpg",
+        "title": "Mangrove Tree (Conocarpus erectus) Aruba Baby Beach (2908229093).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 2560,
+        "height": 1728
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Baby_beach_Aruba_-_3.jpg",
+        "title": "Baby beach Aruba - 3.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 5312,
+        "height": 2988
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Baby_beach_Aruba_-_4.jpg",
+        "title": "Baby beach Aruba - 4.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 5312,
+        "height": 2988
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 34,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 13,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

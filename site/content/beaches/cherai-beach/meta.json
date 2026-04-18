@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Cherai_Lagoon2.jpg",
+      "title": "Cherai Lagoon2.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sabincp&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sabincp (page does not exist)\">Sabincp</a>",
+      "license": "Public domain",
+      "width": 3888,
+      "height": 2592,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Beach_Resorts_Cherai.JPG",
+        "title": "Beach Resorts Cherai.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 2592,
+        "height": 1944
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Kerala_Thumb.png",
+        "title": "Kerala Thumb.png",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 61.1,
+        "width": 74,
+        "height": 120
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Cherai_3.jpg",
+        "title": "Cherai 3.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 3888,
+        "height": 2592
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Evening_sea_in_kerala.JPG",
+        "title": "Evening sea in kerala.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Paraglider_at_Cherai_Beach_Kerala_1.jpg",
+        "title": "Paraglider at Cherai Beach Kerala 1.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 2048,
+        "height": 1536
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 61,
+      "tier_breakdown": {
+        "tier1": 9,
+        "tier3": 47,
+        "tier2": 5
+      },
+      "hero_auto_selected": true
+    }
   }
 }

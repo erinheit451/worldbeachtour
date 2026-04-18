@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Wattamolla_lagoon.jpg",
+      "title": "Wattamolla lagoon.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Wittylama\" title=\"User:Wittylama\">Wittylama</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 3264,
+      "height": 2448,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Palm_Jungle.jpg",
+        "title": "Palm Jungle.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/WattamollaLiss.jpg",
+        "title": "WattamollaLiss.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 61.5,
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Wattamolla_-_panoramio.jpg",
+        "title": "Wattamolla - panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 2700,
+        "height": 1800
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/WattamollaMK.JPG",
+        "title": "WattamollaMK.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 4608,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Wattamolla_-_panoramio_%281%29.jpg",
+        "title": "Wattamolla - panoramio (1).jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 2700,
+        "height": 1800
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 48,
+      "tier_breakdown": {
+        "tier1": 10,
+        "tier3": 22,
+        "tier2": 16
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

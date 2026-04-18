@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Dutch_cavalry_at_Sanur_1906.jpg",
+      "title": "Dutch cavalry at Sanur 1906.jpg",
+      "author": "Dutch government",
+      "license": "Public domain",
+      "width": 2791,
+      "height": 2080,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Dutch_troops_landing_at_Sanur_1906.jpg",
+        "title": "Dutch troops landing at Sanur 1906.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2402,
+        "height": 1666
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Sanur_%28beach%29.jpg",
+        "title": "Sanur (beach).jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2272,
+        "height": 1704
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Sanur_Beach.JPG",
+        "title": "Sanur Beach.JPG",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 3008,
+        "height": 2000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/SanurPuraBelangjong.JPG",
+        "title": "SanurPuraBelangjong.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 80.0,
+        "width": 3648,
+        "height": 2048
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/SanurColumn1.JPG",
+        "title": "SanurColumn1.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 2048,
+        "height": 3648
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 32,
+      "tier_breakdown": {
+        "tier1": 12,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

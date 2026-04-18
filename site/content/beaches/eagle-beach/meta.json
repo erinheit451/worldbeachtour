@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Mangrove_tree_%28Conocarpus_erectus%29_at_Eagle_Beach%2C_Aruba_2019.jpg",
+      "title": "Mangrove tree (Conocarpus erectus) at Eagle Beach, Aruba 2019.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:SIryn\" title=\"User:SIryn\">SIryn</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 5280,
+      "height": 3617,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Eagle_Beach._Oranjestad%2C_Aruba.JPG",
+        "title": "Eagle Beach. Oranjestad, Aruba.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Aruba_-_Ride_this_wave_%288329348435%29.jpg",
+        "title": "Aruba - Ride this wave (8329348435).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 4320,
+        "height": 3240
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Eagle_Beach%2C_Oranjestad_Aruba_02.jpg",
+        "title": "Eagle Beach, Oranjestad Aruba 02.jpg",
+        "license": "CC0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4592,
+        "height": 3064
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Eagle_Beach%2C_Oranjestad_Aruba_01.jpg",
+        "title": "Eagle Beach, Oranjestad Aruba 01.jpg",
+        "license": "CC0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4592,
+        "height": 3064
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Eagle_Beach%2C_Oranjestad_Aruba_03.jpg",
+        "title": "Eagle Beach, Oranjestad Aruba 03.jpg",
+        "license": "CC0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4592,
+        "height": 3064
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 17,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 8,
+        "tier2": 8
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

@@ -1,1 +1,75 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/20-05-2017_Praia_da_Senhora_da_Rocha%2C_Porches.JPG",
+      "title": "20-05-2017 Praia da Senhora da Rocha, Porches.JPG",
+      "author": "Kolforn",
+      "license": "CC BY 3.0",
+      "width": 4608,
+      "height": 3456,
+      "score": 55.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/02-05-2017_Praia_da_Senhora_da_Rocha.JPG",
+        "title": "02-05-2017 Praia da Senhora da Rocha.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 4608,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Arma%C3%A7%C3%A3o_de_P%C3%AAra.Sra._da_Rocha._-_panoramio.jpg",
+        "title": "Arma\u00e7\u00e3o de P\u00eara.Sra. da Rocha. - panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 2832,
+        "height": 2128
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/20-05-2017_Pestana_viking_beach_and_spa_resort%2C_Porches.JPG",
+        "title": "20-05-2017 Pestana viking beach and spa resort, Porches.JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 4608,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/06-05-2017_Praia_da_Senhora_da_Rocha_%281%29.JPG",
+        "title": "06-05-2017 Praia da Senhora da Rocha (1).JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 4608,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Praia_da_Senhora_da_Rocha.jpg",
+        "title": "Praia da Senhora da Rocha.jpg",
+        "license": "CC0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 4000,
+        "height": 3000
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 20,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier2": 19
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

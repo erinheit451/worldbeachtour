@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Kontxa_bay.jpg",
+      "title": "Kontxa bay.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Kent_Wang\" title=\"User:Kent Wang\">Kent Wang</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 8064,
+      "height": 5376,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Aterrizaje_en_la_playa_de_la_Concha_del_bombardero_modelo_Heinkel_111%2C_que_ven%C3%ADa_directamente_desde_Noruega_de_L%C3%A9on_Degrelle%2C_piloto_belga_y_cabeza_del_partido_nazi_en_B%C3%A9lgica_en_la_Segunda..._%285_de_5%29_-_Fondo_Car-Kutxa_Fototeka.jpg",
+        "title": "Aterrizaje en la playa de la Concha del bombardero modelo Heinkel 111, que ven\u00eda directamente desde Noruega de L\u00e9on Degrelle, piloto belga y cabeza del partido nazi en B\u00e9lgica en la Segunda... (5 de 5) - Fondo Car-Kutxa Fototeka.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 80.0,
+        "width": 1024,
+        "height": 669
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Donostia_Kontxa_Loretope_gainetik2.JPG",
+        "title": "Donostia Kontxa Loretope gainetik2.JPG",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/%D0%A1%D0%B0%D0%BD-%D0%A1%D0%B5%D0%B1%D0%B0%D1%81%D1%82%D1%8C%D1%8F%D0%BD.jpg",
+        "title": "\u0421\u0430\u043d-\u0421\u0435\u0431\u0430\u0441\u0442\u044c\u044f\u043d.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 73.5,
+        "width": 5049,
+        "height": 900
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/San_Sebastian_Kontxa_beach_190363.jpg",
+        "title": "San Sebastian Kontxa beach 190363.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 4608,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/San_Sebastian_Kontxa_beach_1190650.jpg",
+        "title": "San Sebastian Kontxa beach 1190650.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 4608,
+        "height": 3230
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 53,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier3": 30,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Praia_da_Rocha%2C_Portim%C3%A3o_2.jpg",
+      "title": "Praia da Rocha, Portim\u00e3o 2.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Stevenfruitsmaak\" title=\"User:Stevenfruitsmaak\">Steven Fruitsmaak</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 3008,
+      "height": 2000,
+      "score": 110.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Praia_da_Rocha%2C_Portim%C3%A3o_fisherman.jpg",
+        "title": "Praia da Rocha, Portim\u00e3o fisherman.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 2940,
+        "height": 1892
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Praia_da_Rocha_2014-09-11.jpg",
+        "title": "Praia da Rocha 2014-09-11.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 3072,
+        "height": 2304
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Praia_da_Rocha_beach%2C_Portim%C3%A3o.jpg",
+        "title": "Praia da Rocha beach, Portim\u00e3o.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 35.0,
+        "width": 3300,
+        "height": 1515
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Algarve_Hotel_-_Beach_side_-_panoramio_%281%29.jpg",
+        "title": "Algarve Hotel - Beach side - panoramio (1).jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 3072,
+        "height": 2304
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Praia_da_rocha_portim%C3%A3o.jpg",
+        "title": "Praia da rocha portim\u00e3o.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4076,
+        "height": 2767
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 51,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier3": 28,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Bowling_Ball_Concretion_at_Schooner_Gulch_State_Beach_California.jpg",
+      "title": "Bowling Ball Concretion at Schooner Gulch State Beach California.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Lisafern\" title=\"User:Lisafern\">Lisa Redfern</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 5184,
+      "height": 3456,
+      "score": 35.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Bowling_Balls_Beach_2.jpg",
+        "title": "Bowling Balls Beach 2.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 125.0,
+        "width": 2142,
+        "height": 1386
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Bowling_Balls_Beach_2_edit.jpg",
+        "title": "Bowling Balls Beach 2 edit.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2142,
+        "height": 1386
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Bawling_balls_beach_3.jpg",
+        "title": "Bawling balls beach 3.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 1777,
+        "height": 1184
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Bowling_Balls_Beach_California_1.jpg",
+        "title": "Bowling Balls Beach California 1.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 2000,
+        "height": 1333
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/California_map_showing_Mendocino_County.png",
+        "title": "California map showing Mendocino County.png",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 33.0,
+        "width": 200,
+        "height": 231
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 8,
+      "tier_breakdown": {
+        "tier3": 5,
+        "tier1": 2,
+        "tier2": 1
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

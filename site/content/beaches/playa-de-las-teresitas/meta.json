@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/At_Tenerife_2019_116.jpg",
+      "title": "At Tenerife 2019 116.jpg",
+      "author": "Photograph by <a href=\"//commons.wikimedia.org/wiki/User:Mike_Peel\" title=\"User:Mike Peel\">Mike Peel</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://www.mikepeel.net/\">www.mikepeel.net</a>)",
+      "license": "CC BY-SA 4.0",
+      "width": 3456,
+      "height": 5184,
+      "score": 100.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Las_Teresitas2a.jpg",
+        "title": "Las Teresitas2a.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 82.3,
+        "width": 1100,
+        "height": 822
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/At_Playa_de_Las_Teresitas%2C_Tenerife_2021_034.jpg",
+        "title": "At Playa de Las Teresitas, Tenerife 2021 034.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 55.0,
+        "width": 6960,
+        "height": 4640
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/At_Playa_de_Las_Teresitas%2C_Tenerife_2021_037.jpg",
+        "title": "At Playa de Las Teresitas, Tenerife 2021 037.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 55.0,
+        "width": 6960,
+        "height": 4640
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/At_Playa_de_Las_Teresitas%2C_Tenerife_2021_003.jpg",
+        "title": "At Playa de Las Teresitas, Tenerife 2021 003.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 6960,
+        "height": 4640
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/At_Playa_de_Las_Teresitas%2C_Tenerife_2021_040.jpg",
+        "title": "At Playa de Las Teresitas, Tenerife 2021 040.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 4640,
+        "height": 6960
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 66,
+      "tier_breakdown": {
+        "tier1": 4,
+        "tier3": 42,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Amager_Strandpark_-_bridge.jpg",
+      "title": "Amager Strandpark - bridge.jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/64304748@N07\">Chris Alban Hansen</a> from Copenhagen, Denmark",
+      "license": "CC BY-SA 2.0",
+      "width": 3264,
+      "height": 2448,
+      "score": 40.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Amager_Strandpark_-_kite_surfers.jpg",
+        "title": "Amager Strandpark - kite surfers.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 3979,
+        "height": 1993
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Amager_strandpark_parkrun_Copenhagen_Denmark_5June2023.jpg",
+        "title": "Amager strandpark parkrun Copenhagen Denmark 5June2023.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 55.0,
+        "width": 2560,
+        "height": 1920
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Amager_Strandpark_fra_luften.jpg",
+        "title": "Amager Strandpark fra luften.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 49.0,
+        "width": 900,
+        "height": 601
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Amager_strandpark.jpg",
+        "title": "Amager strandpark.jpg",
+        "license": "CC BY-SA 2.5",
+        "source_tier": 3,
+        "score": 46.6,
+        "width": 660,
+        "height": 440
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Amager_Strandpark_2014.jpg",
+        "title": "Amager Strandpark 2014.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 1920,
+        "height": 1159
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 70,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 49,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

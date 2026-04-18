@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Path_on_former_Park_and_Ocean_Railroad_%281%29%2C_September_2019.JPG",
+      "title": "Path on former Park and Ocean Railroad (1), September 2019.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Pi.1415926535\" title=\"User:Pi.1415926535\">Pi.1415926535</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 5184,
+      "height": 3888,
+      "score": 35.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Cliff_House_from_Ocean_Beach.jpg",
+        "title": "Cliff House from Ocean Beach.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 110.0,
+        "width": 2222,
+        "height": 1447
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Ocean_Beach_San_Francisco_aerial_view.jpg",
+        "title": "Ocean Beach San Francisco aerial view.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 70.0,
+        "width": 1500,
+        "height": 999
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Sutro_Baths_in_San_Francisco.jpg",
+        "title": "Sutro Baths in San Francisco.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 67.0,
+        "width": 941,
+        "height": 464
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Shipwreck_at_Ocean_Beach.jpg",
+        "title": "Shipwreck at Ocean Beach.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 1944,
+        "height": 1296
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/San_Francisco_Ocean_Beach_01.jpg",
+        "title": "San Francisco Ocean Beach 01.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 12500,
+        "height": 1746
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 25,
+      "tier_breakdown": {
+        "tier1": 5,
+        "tier2": 19,
+        "tier3": 1
+      },
+      "hero_auto_selected": true
+    }
   }
 }

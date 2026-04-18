@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Gooseberry_Beach%2C_Newport_RI.jpg",
+      "title": "Gooseberry Beach, Newport RI.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Faolin42\" title=\"User:Faolin42\">John Phelan</a>",
+      "license": "CC BY 3.0",
+      "width": 2816,
+      "height": 2112,
+      "score": 65.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Waterfront_House_Ocean_Avenue_Newport_Rhode_Island_View_from_Gooseberry_Beach.jpg",
+        "title": "Waterfront House Ocean Avenue Newport Rhode Island View from Gooseberry Beach.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Waterfront_Mansion_Ocean_Avenue_Newport_Rhode_Island_and_Hobie_16_Sailing_Catamaran_View_from_Gooseberry_Beach.jpg",
+        "title": "Waterfront Mansion Ocean Avenue Newport Rhode Island and Hobie 16 Sailing Catamaran View from Gooseberry Beach.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 3892,
+        "height": 2856
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Gooseberry_Beach%2C_Newport_Rhode_Island.jpg",
+        "title": "Gooseberry Beach, Newport Rhode Island.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 3400,
+        "height": 2267
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Gooseberry_Island_Newport_Rhode_Island_View_from_Gooseberry_Beach.jpg",
+        "title": "Gooseberry Island Newport Rhode Island View from Gooseberry Beach.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 25.0,
+        "width": 3601,
+        "height": 2998
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Gooseberry_Beach_-_Newport%2C_Rhode_Island%2C_USA_-_October_1%2C_2023.jpg",
+        "title": "Gooseberry Beach - Newport, Rhode Island, USA - October 1, 2023.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 20.0,
+        "width": 19338,
+        "height": 8485
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 6,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 3,
+        "tier2": 2
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Porto_de_galinhas_67.jpg",
+      "title": "Porto de galinhas 67.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Andrevruas\" title=\"User:Andrevruas\">Andrevruas</a>",
+      "license": "CC BY 3.0",
+      "width": 3072,
+      "height": 2304,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Porto_de_Galinhas_-_Pernambuco_-_Brasil%282%29.jpg",
+        "title": "Porto de Galinhas - Pernambuco - Brasil(2).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 2048,
+        "height": 1361
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Porto_de_galinhas.jpg",
+        "title": "Porto de galinhas.jpg",
+        "license": "Public domain",
+        "source_tier": 2,
+        "score": 66.5,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Porto_de_Galinhas_piscinas_naturais.jpg",
+        "title": "Porto de Galinhas piscinas naturais.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 61.4,
+        "width": 1096,
+        "height": 763
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Porto_de_Galinhas%2C_Pernambuco%2C_Brasil%282%29.jpg",
+        "title": "Porto de Galinhas, Pernambuco, Brasil(2).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Piscinas_Naturais.tif",
+        "title": "Piscinas Naturais.tif",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 55.5,
+        "width": 1800,
+        "height": 702
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 76,
+      "tier_breakdown": {
+        "tier1": 13,
+        "tier3": 48,
+        "tier2": 15
+      },
+      "hero_auto_selected": true
+    }
   }
 }

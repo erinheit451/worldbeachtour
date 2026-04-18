@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Beach_volley_at_Hietsu_2013.jpg",
+      "title": "Beach volley at Hietsu 2013.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Jonik\" title=\"User:Jonik\">Jonik</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 3000,
+      "height": 2250,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Hietaniemi_beach.jpg",
+        "title": "Hietaniemi beach.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 64.6,
+        "width": 474,
+        "height": 307
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Hietaniemen_uimaranta_1.jpg",
+        "title": "Hietaniemen uimaranta 1.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 55.0,
+        "width": 7700,
+        "height": 2715
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Hietaranta_Helsinki_2022-09-19_03.jpg",
+        "title": "Hietaranta Helsinki 2022-09-19 03.jpg",
+        "license": "CC0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 8368,
+        "height": 5584
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Helsinki_Hietaniemi_Beach_cleaner_tractor_1_2011-06-08.jpg",
+        "title": "Helsinki Hietaniemi Beach cleaner tractor 1 2011-06-08.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 3888,
+        "height": 2592
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Hietaniemen_uimaranta_2.jpg",
+        "title": "Hietaniemen uimaranta 2.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 8800,
+        "height": 1700
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 64,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier3": 43,
+        "tier2": 19
+      },
+      "hero_auto_selected": true
+    }
   }
 }

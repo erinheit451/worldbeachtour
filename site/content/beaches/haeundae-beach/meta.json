@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Haeundae_Beach_May_2024.jpg",
+      "title": "Haeundae Beach May 2024.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Brit_in_Seoul&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Brit in Seoul (page does not exist)\">Brit in Seoul</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4082,
+      "height": 2599,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Haeundae_Beach_and_Haeundae_LCT_The_Sharp.jpg",
+        "title": "Haeundae Beach and Haeundae LCT The Sharp.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Haeundae_Beach_NightView.jpg",
+        "title": "Haeundae Beach NightView.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 1,
+        "score": 77.0,
+        "width": 1200,
+        "height": 801
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Haeundae_Beach_20200522_008.jpg",
+        "title": "Haeundae Beach 20200522 008.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 4200,
+        "height": 2800
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/180801_%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%B6%95%EC%A0%9C_%EB%8F%84%EB%81%BC_1.jpg",
+        "title": "180801 \ubd80\uc0b0\ubc14\ub2e4\ucd95\uc81c \ub3c4\ub07c 1.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 65.0,
+        "width": 1500,
+        "height": 2000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Haeundae_Sand_Festival_in_Busan%2C_South_Korea.jpg",
+        "title": "Haeundae Sand Festival in Busan, South Korea.jpg",
+        "license": "KOGL Type 1",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 1600,
+        "height": 1067
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 76,
+      "tier_breakdown": {
+        "tier1": 6,
+        "tier3": 50,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

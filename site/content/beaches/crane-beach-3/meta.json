@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Long_Island_and_Choate_Island%2C_Crane_Wildlife_Refuge%2C_Ipswich_MA.jpg",
+      "title": "Long Island and Choate Island, Crane Wildlife Refuge, Ipswich MA.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Faolin42\" title=\"User:Faolin42\">John Phelan</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 3072,
+      "height": 2304,
+      "score": 55.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Cranebeach.jpg",
+        "title": "Cranebeach.jpg",
+        "license": "CC BY-SA 2.5",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 4062,
+        "height": 1012
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Dovercourt_lighthouses%2C_from_south-west.jpg",
+        "title": "Dovercourt lighthouses, from south-west.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 3680,
+        "height": 1120
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Crane_Beach_-_Panoramic_view..JPG",
+        "title": "Crane Beach - Panoramic view..JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 40.0,
+        "width": 5380,
+        "height": 2542
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Symphyotrichum_novi-belgii_95840907.jpg",
+        "title": "Symphyotrichum novi-belgii 95840907.jpg",
+        "license": "CC0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/CRANE%27S_BEACH%2C_A_FEDERALLY-PROTECTED_DUNE_PRESERVE_BETWEEN_ESSEX_AND_IPSWICH_-_NARA_-_548220.jpg",
+        "title": "CRANE'S BEACH, A FEDERALLY-PROTECTED DUNE PRESERVE BETWEEN ESSEX AND IPSWICH - NARA - 548220.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 3000,
+        "height": 2036
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 18,
+      "tier_breakdown": {
+        "tier3": 15,
+        "tier1": 2,
+        "tier2": 1
+      },
+      "hero_auto_selected": true
+    }
   }
 }

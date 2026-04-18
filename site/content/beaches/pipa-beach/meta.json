@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/P%C3%B4r_do_Sol_da_Praia_do_Centro.jpg",
+      "title": "P\u00f4r do Sol da Praia do Centro.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Lessa.danilo&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Lessa.danilo (page does not exist)\">Lessa.danilo</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 3264,
+      "height": 2448,
+      "score": 30.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/PipaBeachView.JPG",
+        "title": "PipaBeachView.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2564,
+        "height": 1891
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Praia_de_Pipa.jpg",
+        "title": "Praia de Pipa.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 71.0,
+        "width": 600,
+        "height": 400
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Santu%C3%A1rio_Ecol%C3%B3gico_de_Pipa.jpg",
+        "title": "Santu\u00e1rio Ecol\u00f3gico de Pipa.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 1600,
+        "height": 1207
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Cruzeiro_de_Pipa_02.jpg",
+        "title": "Cruzeiro de Pipa 02.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 60.0,
+        "width": 1858,
+        "height": 2451
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Chapad%C3%A3o_Pipa_RN.jpg",
+        "title": "Chapad\u00e3o Pipa RN.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 59.4,
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 28,
+      "tier_breakdown": {
+        "tier1": 8,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

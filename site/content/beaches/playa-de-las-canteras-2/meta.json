@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Canteras_Beach-Auditorium%2C_La_C%C3%ADcer_%26_Los_Muellitos.jpg",
+      "title": "Canteras Beach-Auditorium, La C\u00edcer & Los Muellitos.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Pepelopex\" title=\"User:Pepelopex\">Pepelopex</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 3008,
+      "height": 2000,
+      "score": 65.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Canteras_Beach-La_Puntilla-Gran_Canaria.jpg",
+        "title": "Canteras Beach-La Puntilla-Gran Canaria.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Canteras_5335_Pan_%2846886275114%29.jpg",
+        "title": "Canteras 5335 Pan (46886275114).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 65.0,
+        "width": 10524,
+        "height": 3739
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Canteras_EM1B2907_%2840642755393%29.jpg",
+        "title": "Canteras EM1B2907 (40642755393).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 65.0,
+        "width": 7302,
+        "height": 5477
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Auditorio_alfredo_kraus_%26_plaza_de_la_musica_las_palmas_gran_canaria.jpg",
+        "title": "Auditorio alfredo kraus & plaza de la musica las palmas gran canaria.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 3008,
+        "height": 2000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Canteras_Beach-Pe%C3%B1a_La_Vieja_%26_Los_Lisos-Gran_Canaria.jpg",
+        "title": "Canteras Beach-Pe\u00f1a La Vieja & Los Lisos-Gran Canaria.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 2240,
+        "height": 1488
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 88,
+      "tier_breakdown": {
+        "tier1": 21,
+        "tier3": 47,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

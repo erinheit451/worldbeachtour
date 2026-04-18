@@ -1,1 +1,75 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Giardini_termali_poseidon_-_panoramio_%283%29.jpg",
+      "title": "Giardini termali poseidon - panoramio (3).jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161015061511/http://www.panoramio.com/user/3517988?with_photo_id=37585786\">francverde</a>",
+      "license": "CC BY 3.0",
+      "width": 3072,
+      "height": 2304,
+      "score": 30.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/MIM_PHX_2011-04-26_0151_edited.jpg",
+        "title": "MIM PHX 2011-04-26 0151 edited.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 3000,
+        "height": 1500
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Giardini_termali_poseidon_-_panoramio_%284%29.jpg",
+        "title": "Giardini termali poseidon - panoramio (4).jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 3072,
+        "height": 2304
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Giardini_termali_poseidon_-_panoramio.jpg",
+        "title": "Giardini termali poseidon - panoramio.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 3072,
+        "height": 2304
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Giardini_termali_poseidon_-_panoramio_%281%29.jpg",
+        "title": "Giardini termali poseidon - panoramio (1).jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 3072,
+        "height": 2304
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/La_spiaggia_de_%22I_Giardini_Poseidon%22_-_panoramio.jpg",
+        "title": "La spiaggia de \"I Giardini Poseidon\" - panoramio.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 30.0,
+        "width": 3072,
+        "height": 2304
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 10,
+      "tier_breakdown": {
+        "tier3": 1,
+        "tier2": 9
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

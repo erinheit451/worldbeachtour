@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/M4_Sherman_Utah_Beach.jpg",
+      "title": "M4 Sherman Utah Beach.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Jebulon\" title=\"User:Jebulon\">Jebulon</a>",
+      "license": "CC0",
+      "width": 4592,
+      "height": 3056,
+      "score": 70.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Naval_Bombardments_on_D-Day.png",
+        "title": "Naval Bombardments on D-Day.png",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 1498,
+        "height": 1013
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/German_prisoners_of_war_in_a_barbed-wire_enclosure_on_Utah_Beach.jpg",
+        "title": "German prisoners of war in a barbed-wire enclosure on Utah Beach.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 80.0,
+        "width": 1481,
+        "height": 1088
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/American_Soldiers_Landing_at_Utah_Beach.jpg",
+        "title": "American Soldiers Landing at Utah Beach.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 70.0,
+        "width": 3315,
+        "height": 2480
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/4CavalryRegtCOA.jpg",
+        "title": "4CavalryRegtCOA.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 62.1,
+        "width": 140,
+        "height": 270
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Arrow_Jacques_Joubert_des_Ouches_Utah_Beach_Calvados.jpg",
+        "title": "Arrow Jacques Joubert des Ouches Utah Beach Calvados.jpg",
+        "license": "CC0",
+        "source_tier": 2,
+        "score": 60.0,
+        "width": 2852,
+        "height": 4201
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 84,
+      "tier_breakdown": {
+        "tier1": 14,
+        "tier2": 20,
+        "tier3": 50
+      },
+      "hero_auto_selected": true
+    }
   }
 }

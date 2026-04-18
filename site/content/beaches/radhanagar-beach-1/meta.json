@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Radha_Nagar_beach%2C_Havelock_Island%2C_Andamn%2C_India-_Sun_set_view.jpg",
+      "title": "Radha Nagar beach, Havelock Island, Andamn, India- Sun set view.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Harvinder_Chandigarh\" title=\"User:Harvinder Chandigarh\">Harvinder Chandigarh</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4608,
+      "height": 3456,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Havelockradhanagar1.jpg",
+        "title": "Havelockradhanagar1.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 2576,
+        "height": 1932
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Havelockradhanagar2.jpg",
+        "title": "Havelockradhanagar2.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 75.0,
+        "width": 2576,
+        "height": 1932
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Havelockradhanagar3.jpg",
+        "title": "Havelockradhanagar3.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 2576,
+        "height": 1932
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Radha_Nagar_beach_%2C_Havelock_Island%2C_Andamn_%26_Nicobar_Islands_%2CIndia.JPG",
+        "title": "Radha Nagar beach , Havelock Island, Andamn & Nicobar Islands ,India.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 4608,
+        "height": 3248
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Radha_Nagar_beach_%2C_Havelock_Island%2C_Andamn%2CIndia.JPG",
+        "title": "Radha Nagar beach , Havelock Island, Andamn,India.JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 4608,
+        "height": 3456
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 51,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier3": 49
+      },
+      "hero_auto_selected": true
+    }
   }
 }

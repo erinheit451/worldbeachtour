@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/02-05-2017_Praia_de_Benagil_%282%29.JPG",
+      "title": "02-05-2017 Praia de Benagil (2).JPG",
+      "author": "<table style=\"margin: 1.5em auto; width:60%; background-color:#CCCCCC; border:2px solid #aaaaaa; padding:1px;\" cellspacing=\"10\">\n\n<tbody><tr>\n<td align=\"center\"><span typeof=\"mw:File\"><a href=\"//commo",
+      "license": "CC BY-SA 4.0",
+      "width": 4608,
+      "height": 3456,
+      "score": 55.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Benagil_Cave_seen_by_above.jpg",
+        "title": "Benagil Cave seen by above.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 81.7,
+        "width": 1200,
+        "height": 781
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Praia_de_Benagil_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2853650893917%29.jpg",
+        "title": "Praia de Benagil - Portugal \ud83c\uddf5\ud83c\uddf9 (53650893917).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 2048,
+        "height": 1365
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Praia_de_Benagil_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2853651979938%29.jpg",
+        "title": "Praia de Benagil - Portugal \ud83c\uddf5\ud83c\uddf9 (53651979938).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 2048,
+        "height": 1365
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Praia_de_Benagil.JPG",
+        "title": "Praia de Benagil.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 55.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Grotto_pano_at_Algar_de_Benagil.jpg",
+        "title": "Grotto pano at Algar de Benagil.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 9188,
+        "height": 1598
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 40,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier2": 18,
+        "tier3": 19
+      },
+      "hero_auto_selected": true
+    }
   }
 }

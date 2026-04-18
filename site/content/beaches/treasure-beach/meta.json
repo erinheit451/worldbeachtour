@@ -6,7 +6,43 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Treasure_Beach_Jamaica_2023.jpg",
+      "title": "Treasure Beach Jamaica 2023.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Treasurebeachjamaica&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Treasurebeachjamaica (page does not exist)\">Treasurebeachjamaica</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 960,
+      "height": 540,
+      "score": 78.1
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Treasure_Beach_Jamaica.JPG",
+        "title": "Treasure Beach Jamaica.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 2592,
+        "height": 1936
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Treasure_Beach_1994.jpg",
+        "title": "Treasure Beach 1994.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 2346,
+        "height": 1536
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 3,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 2
+      },
+      "hero_auto_selected": true
+    }
   }
 }

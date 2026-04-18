@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Trumpeter_swan_%2891399%29.jpg",
+      "title": "Trumpeter swan (91399).jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Rhododendrites\" title=\"User:Rhododendrites\">Rhododendrites</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 3363,
+      "height": 2192,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Sunnyside_Waterfront_View.JPG",
+        "title": "Sunnyside Waterfront View.JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 3072,
+        "height": 2304
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Sunnyside_Beach%2C_Toronto_%28I0001319%29.tif",
+        "title": "Sunnyside Beach, Toronto (I0001319).tif",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 13917,
+        "height": 10697
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Sunnyside_Beach.jpg",
+        "title": "Sunnyside Beach.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 3278,
+        "height": 2391
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Toronto_Beach.JPG",
+        "title": "Toronto Beach.JPG",
+        "license": "CC BY-SA 2.5",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Humber_Bay_%282356930420%29.jpg",
+        "title": "Humber Bay (2356930420).jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 1800,
+        "height": 1200
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 27,
+      "tier_breakdown": {
+        "tier3": 26,
+        "tier1": 1
+      },
+      "hero_auto_selected": true
+    }
   }
 }

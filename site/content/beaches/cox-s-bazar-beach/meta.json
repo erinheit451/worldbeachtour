@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Beauty_of_inani-beach_at_Cox%27s_bazar.jpg",
+      "title": "Beauty of inani-beach at Cox's bazar.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Syed07\" title=\"User:Syed07\">Syed sajidul islam</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 6000,
+      "height": 4000,
+      "score": 70.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Cox%27s_Bazar_sea_beach_01.jpg",
+        "title": "Cox's Bazar sea beach 01.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 95.0,
+        "width": 2137,
+        "height": 1424
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Cox%27s_Bazaar_Sunset_Sep2019.jpg",
+        "title": "Cox's Bazaar Sunset Sep2019.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 80.0,
+        "width": 3072,
+        "height": 1728
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Cox%27s_Bazaar_Sea_Beach.jpg",
+        "title": "Cox's Bazaar Sea Beach.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 70.0,
+        "width": 2696,
+        "height": 1775
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Cox%27s_Bazaar_in_daylight_Sep2019.jpg",
+        "title": "Cox's Bazaar in daylight Sep2019.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 70.0,
+        "width": 3072,
+        "height": 1728
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Air_to_cox_bazer.jpg",
+        "title": "Air to cox bazer.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 5616,
+        "height": 3744
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 63,
+      "tier_breakdown": {
+        "tier3": 30,
+        "tier1": 13,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/The_Blue_Marble%2C_AS17-148-22727.jpg",
+      "title": "The Blue Marble, AS17-148-22727.jpg",
+      "author": "Harrison Schmitt / Apollo 17",
+      "license": "Public domain",
+      "width": 6750,
+      "height": 6750,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/50th_Division_moving_forward_near_St_Gabriel%2C_6_June_1944.png",
+        "title": "50th Division moving forward near St Gabriel, 6 June 1944.png",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2470,
+        "height": 1530
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/50th_division.jpg",
+        "title": "50th division.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2848,
+        "height": 1818
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Allied_Invasion_Force.jpg",
+        "title": "Allied Invasion Force.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 84.5,
+        "width": 1265,
+        "height": 966
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Aerial_Gold_Beach.jpg",
+        "title": "Aerial Gold Beach.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 1289,
+        "height": 1300
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Batterie-longues-sur-mer.jpg",
+        "title": "Batterie-longues-sur-mer.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 3504,
+        "height": 2336
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 42,
+      "tier_breakdown": {
+        "tier1": 16,
+        "tier3": 6,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

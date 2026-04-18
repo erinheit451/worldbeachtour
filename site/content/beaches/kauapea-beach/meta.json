@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Secret_Beach_%28HDR%29_%28494416736%29.jpg",
+      "title": "Secret Beach (HDR) (494416736).jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/98185064@N00\">Bryce Edwards</a> from San Jose, CA, USA",
+      "license": "CC BY 2.0",
+      "width": 3889,
+      "height": 2614,
+      "score": 75.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Secret_Beach_Kauapea_Kauai_Hawaii_%2832405822358%29.jpg",
+        "title": "Secret Beach Kauapea Kauai Hawaii (32405822358).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 6123,
+        "height": 4082
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Secret_Beach%2C_Kauai%2C_7-12-1991.jpg",
+        "title": "Secret Beach, Kauai, 7-12-1991.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 1261,
+        "height": 1015
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/2021-10-08_13_43_10_View_down_the_trail_to_Kauapea_Beach_%28Secret_Beach%29_on_the_edge_of_Kilauea_and_Kalihiwai%2C_Kauai%2C_Hawaii.jpg",
+        "title": "2021-10-08 13 43 10 View down the trail to Kauapea Beach (Secret Beach) on the edge of Kilauea and Kalihiwai, Kauai, Hawaii.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/2021-10-08_13_44_16_View_down_the_trail_to_Kauapea_Beach_%28Secret_Beach%29_on_the_edge_of_Kilauea_and_Kalihiwai%2C_Kauai%2C_Hawaii.jpg",
+        "title": "2021-10-08 13 44 16 View down the trail to Kauapea Beach (Secret Beach) on the edge of Kilauea and Kalihiwai, Kauai, Hawaii.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/2021-10-08_13_44_47_View_down_the_trail_to_Kauapea_Beach_%28Secret_Beach%29_on_the_edge_of_Kilauea_and_Kalihiwai%2C_Kauai%2C_Hawaii.jpg",
+        "title": "2021-10-08 13 44 47 View down the trail to Kauapea Beach (Secret Beach) on the edge of Kilauea and Kalihiwai, Kauai, Hawaii.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 4032,
+        "height": 3024
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 48,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier3": 26,
+        "tier2": 19
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Orchard_Beach_Bus_Terminal.jpg",
+      "title": "Orchard Beach Bus Terminal.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Transitsylveonkpop\" title=\"User:Transitsylveonkpop\">Transitsylveonkpop</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4624,
+      "height": 2604,
+      "score": 50.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Orchard_Beach_-_Pelham_Bay_Park_-_The_Bronx.jpg",
+        "title": "Orchard Beach - Pelham Bay Park - The Bronx.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 80.0,
+        "width": 1920,
+        "height": 1078
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Orchardbeachny2.jpg",
+        "title": "Orchardbeachny2.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 75.0,
+        "width": 2703,
+        "height": 1453
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Pelham_Bay_Park_%282547803421%29.jpg",
+        "title": "Pelham Bay Park (2547803421).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 60.0,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Pelham_Bay_Park_aerial_view.jpg",
+        "title": "Pelham Bay Park aerial view.jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 55.0,
+        "width": 3516,
+        "height": 1954
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Pelham_Bay_Park_%282548628412%29.jpg",
+        "title": "Pelham Bay Park (2548628412).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 32,
+      "tier_breakdown": {
+        "tier1": 6,
+        "tier3": 24,
+        "tier2": 2
+      },
+      "hero_auto_selected": true
+    }
   }
 }

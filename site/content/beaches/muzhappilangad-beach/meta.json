@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Fishermen_at_work_by_Shagil_Kannur.jpg",
+      "title": "Fishermen at work by Shagil Kannur.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Shagil_Kannur\" class=\"mw-redirect\" title=\"User:Shagil Kannur\">Shagil Kannur</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 3852,
+      "height": 2568,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Flying_Whimbrel.jpg",
+        "title": "Flying Whimbrel.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 4314,
+        "height": 2489
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Muzhappilangad_Drive-in_Beach_2.jpg",
+        "title": "Muzhappilangad Drive-in Beach 2.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 1620,
+        "height": 1080
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Muzhapilangad-Beach.jpg",
+        "title": "Muzhapilangad-Beach.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 71.9,
+        "width": 1200,
+        "height": 795
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Muzhapilangad_beach.JPG",
+        "title": "Muzhapilangad beach.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 70.0,
+        "width": 3072,
+        "height": 2304
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Muzhappilangad_beach_%2812%29.JPG",
+        "title": "Muzhappilangad beach (12).JPG",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 70.0,
+        "width": 4987,
+        "height": 3456
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 70,
+      "tier_breakdown": {
+        "tier1": 20,
+        "tier2": 5,
+        "tier3": 45
+      },
+      "hero_auto_selected": true
+    }
   }
 }

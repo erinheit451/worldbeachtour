@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Cliff_top_above_Praia_da_Oura_Albufeira_16_March_2015_%281%29.JPG",
+      "title": "Cliff top above Praia da Oura Albufeira 16 March 2015 (1).JPG",
+      "author": "Kolforn",
+      "license": "CC BY 3.0",
+      "width": 4000,
+      "height": 3000,
+      "score": 55.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/P283_Praia_da_Oura_Albufeira_1_May_2014.JPG",
+        "title": "P283 Praia da Oura Albufeira 1 May 2014.JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 61.5,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Praia_da_Oura_Albufeira_15_March_2015_%285%29.JPG",
+        "title": "Praia da Oura Albufeira 15 March 2015 (5).JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Praia_da_Oura_Albufeira_5_March_2015.JPG",
+        "title": "Praia da Oura Albufeira 5 March 2015.JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Rua_Ramalho_Ortigao_14_March_2015_%281%29.JPG",
+        "title": "Rua Ramalho Ortigao 14 March 2015 (1).JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Rua_Ramalho_Ortigao_14_March_2015_%282%29.JPG",
+        "title": "Rua Ramalho Ortigao 14 March 2015 (2).JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 4000,
+        "height": 3000
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 67,
+      "tier_breakdown": {
+        "tier1": 9,
+        "tier3": 38,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

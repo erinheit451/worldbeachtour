@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Lanikai_Strand_auf_Oahu.jpg",
+      "title": "Lanikai Strand auf Oahu.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Hakilon&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Hakilon (page does not exist)\">Hakilon</a>",
+      "license": "CC BY 3.0",
+      "width": 3850,
+      "height": 2781,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Lanikai_Beach%2C_Hawaii.JPG",
+        "title": "Lanikai Beach, Hawaii.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 57.2,
+        "width": 1600,
+        "height": 814
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Lanikai_beach_culture.JPG",
+        "title": "Lanikai beach culture.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 50.0,
+        "width": 3648,
+        "height": 2062
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Lanikai_Strand.jpg",
+        "title": "Lanikai Strand.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 45.0,
+        "width": 3898,
+        "height": 2189
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/%27At_Lanikai%27_by_D._Howard_Hitchcock%2C_1938.jpg",
+        "title": "'At Lanikai' by D. Howard Hitchcock, 1938.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 44.0,
+        "width": 802,
+        "height": 600
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/The_Moks_from_Lanikai.JPG",
+        "title": "The Moks from Lanikai.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 2000,
+        "height": 1133
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 64,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier2": 19,
+        "tier3": 43
+      },
+      "hero_auto_selected": true
+    }
   }
 }

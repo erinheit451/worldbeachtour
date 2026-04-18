@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/059-The_house_of_Raoul_Villain%2C_Cala_de_San_Vicent_22_June_2013.JPG",
+      "title": "059-The house of Raoul Villain, Cala de San Vicent 22 June 2013.JPG",
+      "author": "Sobrassada",
+      "license": "CC BY 3.0",
+      "width": 4000,
+      "height": 3000,
+      "score": 60.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Cala_de_San_Vicent%2C_Ibiza.JPG",
+        "title": "Cala de San Vicent, Ibiza.JPG",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 85.0,
+        "width": 2272,
+        "height": 1704
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Cala_de_San_Vicente%2C_en_San_Juan_Bautista_%28Baleares%2C_Espa%C3%B1a%29.jpg",
+        "title": "Cala de San Vicente, en San Juan Bautista (Baleares, Espa\u00f1a).jpg",
+        "license": "Public domain",
+        "source_tier": 2,
+        "score": 70.0,
+        "width": 2168,
+        "height": 1220
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Ibiza.landschaft.jpg",
+        "title": "Ibiza.landschaft.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 68.4,
+        "width": 768,
+        "height": 563
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Sant_Vicent_de_sa_Cala%2C_Ibiza.JPG",
+        "title": "Sant Vicent de sa Cala, Ibiza.JPG",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 2272,
+        "height": 1704
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Cala_San_Vicent.jpg",
+        "title": "Cala San Vicent.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 2,
+        "score": 45.0,
+        "width": 4602,
+        "height": 2269
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 18,
+      "tier_breakdown": {
+        "tier1": 4,
+        "tier2": 4,
+        "tier3": 10
+      },
+      "hero_auto_selected": true
+    }
   }
 }

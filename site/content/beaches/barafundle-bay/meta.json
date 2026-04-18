@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Barafundle_Bay_-_panoramio_%283%29.jpg",
+      "title": "Barafundle Bay - panoramio (3).jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161014031424/http://www.panoramio.com/user/2490701?with_photo_id=26774010\">PJMarriott</a>",
+      "license": "CC BY 3.0",
+      "width": 3072,
+      "height": 2304,
+      "score": 40.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/BarafundleBeach_StackpoleEstate_WalesUK.jpg",
+        "title": "BarafundleBeach StackpoleEstate WalesUK.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 82.9,
+        "width": 1280,
+        "height": 857
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Barafundle_Bay_beach_%28May_2009%29.jpg",
+        "title": "Barafundle Bay beach (May 2009).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 55.0,
+        "width": 2592,
+        "height": 1944
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Barafundle_Bay_-_panoramio_%281%29.jpg",
+        "title": "Barafundle Bay - panoramio (1).jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 3072,
+        "height": 2304
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Barafundle_Bay_-_panoramio_%282%29.jpg",
+        "title": "Barafundle Bay - panoramio (2).jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 3072,
+        "height": 2304
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Barafundle_Bay_-_panoramio.jpg",
+        "title": "Barafundle Bay - panoramio.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 2560,
+        "height": 1920
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 67,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 46,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

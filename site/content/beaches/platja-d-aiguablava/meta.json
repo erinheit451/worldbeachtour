@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Cala_d%27Aiguablava%2C_Begur.jpg",
+      "title": "Cala d'Aiguablava, Begur.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Mapllavero\" title=\"User:Mapllavero\">Miquel \u00c0ngel Pati\u00f1o</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4128,
+      "height": 3096,
+      "score": 70.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Aigua_Blava_Bay.jpg",
+        "title": "Aigua Blava Bay.jpg",
+        "license": "Public domain",
+        "source_tier": 3,
+        "score": 70.0,
+        "width": 2210,
+        "height": 1597
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Fornells_2022-10-27_15.35.20.jpg",
+        "title": "Fornells 2022-10-27 15.35.20.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 65.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Cala-d%27Aiguablava-Begur_20180717_113805.jpg",
+        "title": "Cala-d'Aiguablava-Begur 20180717 113805.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 65.0,
+        "width": 3024,
+        "height": 4032
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Platja_d%27Aiguablava.jpg",
+        "title": "Platja d'Aiguablava.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 4608,
+        "height": 2592
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Barracas_de_pescadores_de_Aiguablava.jpg",
+        "title": "Barracas de pescadores de Aiguablava.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 55.0,
+        "width": 4096,
+        "height": 2304
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 40,
+      "tier_breakdown": {
+        "tier2": 15,
+        "tier3": 24,
+        "tier1": 1
+      },
+      "hero_auto_selected": true
+    }
   }
 }

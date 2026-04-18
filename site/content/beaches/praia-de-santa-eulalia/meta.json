@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Praia_de_Santa_Eulalia_1_10_2012.JPG",
+      "title": "Praia de Santa Eulalia 1 10 2012.JPG",
+      "author": "stavros1",
+      "license": "CC BY 3.0",
+      "width": 4000,
+      "height": 3000,
+      "score": 65.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Eastern_End_Praia_de_Santa_Eulalia_1_Oct_2012.jpg",
+        "title": "Eastern End Praia de Santa Eulalia 1 Oct 2012.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Gardens_at_Praia_de_Santa_Eulalia_1_Oct_2012.JPG",
+        "title": "Gardens at Praia de Santa Eulalia 1 Oct 2012.JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Praia_de_Santa_Eulalia_Western_End_1_Oct_2012.JPG",
+        "title": "Praia de Santa Eulalia Western End 1 Oct 2012.JPG",
+        "license": "CC BY 3.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Grande_Real_Santa_Eulalia_Resort_%26_Hotel_Spa.JPG",
+        "title": "Grande Real Santa Eulalia Resort & Hotel Spa.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 3072,
+        "height": 2304
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Grande_Real_Santa_Eulalia_Resort_%26_Hotel_Spa_1.JPG",
+        "title": "Grande Real Santa Eulalia Resort & Hotel Spa 1.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 3072,
+        "height": 2304
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 60,
+      "tier_breakdown": {
+        "tier1": 4,
+        "tier2": 20,
+        "tier3": 36
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

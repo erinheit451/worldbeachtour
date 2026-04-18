@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Fig_Tree_Bay.jpg",
+      "title": "Fig Tree Bay.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Catauggie\" title=\"User:Catauggie\">Catauggie</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4608,
+      "height": 3072,
+      "score": 45.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Cyprus_relief_location_map.jpg",
+        "title": "Cyprus relief location map.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 2126,
+        "height": 1268
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Fig_Tree_Bay_%2843006958294%29.jpg",
+        "title": "Fig Tree Bay (43006958294).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 6240,
+        "height": 4160
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Fig_Tree_Bay_Zypern_%2843006984754%29.jpg",
+        "title": "Fig Tree Bay Zypern (43006984754).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 5524,
+        "height": 3683
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Fig_Tree_Bay%2C_2023_%282%29.jpg",
+        "title": "Fig Tree Bay, 2023 (2).jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 3970,
+        "height": 2977
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Fig_Tree_Bay%2C_2023_%283%29.jpg",
+        "title": "Fig Tree Bay, 2023 (3).jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 3927,
+        "height": 2944
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 36,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier3": 15,
+        "tier2": 18
+      },
+      "hero_auto_selected": true
+    }
   }
 }

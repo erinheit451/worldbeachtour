@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Shell_Games_%288375933995%29.jpg",
+      "title": "Shell Games (8375933995).jpg",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/40467171@N00\">LASZLO ILYES</a> from Cleveland, Ohio, USA",
+      "license": "CC BY 2.0",
+      "width": 3370,
+      "height": 2247,
+      "score": 70.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Chelonia_Mydas.JPG",
+        "title": "Chelonia Mydas.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 70.0,
+        "width": 3472,
+        "height": 2604
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Playa_Forti_jump_%2830393478833%29.jpg",
+        "title": "Playa Forti jump (30393478833).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 1,
+        "score": 55.0,
+        "width": 4696,
+        "height": 2640
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Chelonia_Mydas_%28cropped%29.JPG",
+        "title": "Chelonia Mydas (cropped).JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 2778,
+        "height": 2083
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Bonaire_Kuminda_Krioyo_32.jpg",
+        "title": "Bonaire Kuminda Krioyo 32.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Caribbean_Lionfish%3F_%285196890495%29.jpg",
+        "title": "Caribbean Lionfish? (5196890495).jpg",
+        "license": "CC BY 2.0",
+        "source_tier": 2,
+        "score": 35.0,
+        "width": 4110,
+        "height": 2739
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 20,
+      "tier_breakdown": {
+        "tier2": 19,
+        "tier1": 1
+      },
+      "hero_auto_selected": true
+    }
   }
 }

@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Balloon_fish.jpg",
+      "title": "Balloon fish.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Bathula_Ganesh_Goud\" title=\"User:Bathula Ganesh Goud\">Bathula Ganesh Goud</a>",
+      "license": "CC BY 4.0",
+      "width": 4096,
+      "height": 3072,
+      "score": 30.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Mypadu_Beach.jpg",
+        "title": "Mypadu Beach.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 3328,
+        "height": 1872
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Mypadu_beach-sunrise.jpg",
+        "title": "Mypadu beach-sunrise.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 1798,
+        "height": 1200
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Mypadubeach.jpg",
+        "title": "Mypadubeach.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 54.7,
+        "width": 1152,
+        "height": 648
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Mypadu_Beach_2.jpg",
+        "title": "Mypadu Beach 2.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 3328,
+        "height": 1872
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Mypadu_beach_nellore.jpg",
+        "title": "Mypadu beach nellore.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 1800,
+        "height": 1200
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 12,
+      "tier_breakdown": {
+        "tier1": 1,
+        "tier3": 6,
+        "tier2": 5
+      },
+      "hero_auto_selected": true
+    }
   }
 }

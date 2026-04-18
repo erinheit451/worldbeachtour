@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Plan_of_the_Fremantle_Municipal_Baths_in_the_1900s.jpg",
+      "title": "Plan of the Fremantle Municipal Baths in the 1900s.jpg",
+      "author": "Not known",
+      "license": "Public domain",
+      "width": 4928,
+      "height": 3264,
+      "score": 55.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Terra.png",
+        "title": "Terra.png",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 69.0,
+        "width": 600,
+        "height": 600
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/AUS_Perth%2C_Fremantle%2C_Bathers_Beach_024.jpg",
+        "title": "AUS Perth, Fremantle, Bathers Beach 024.jpg",
+        "license": "CC BY 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Arthur_Head_from_the_FPA_building.jpg",
+        "title": "Arthur Head from the FPA building.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Arthur_Head_from_South_Mole.jpg",
+        "title": "Arthur Head from South Mole.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 45.0,
+        "width": 4608,
+        "height": 3072
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Fremantle_Jetty_and_Bathers_Beach_with_2_ships_1870_Fremantle.jpg",
+        "title": "Fremantle Jetty and Bathers Beach with 2 ships 1870 Fremantle.jpg",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 41.1,
+        "width": 698,
+        "height": 410
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 71,
+      "tier_breakdown": {
+        "tier1": 5,
+        "tier3": 46,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }

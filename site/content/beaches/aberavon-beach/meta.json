@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Aberavon_Beach_view%2C_seafront.jpg",
+      "title": "Aberavon Beach view, seafront.jpg",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Darren_Wyn_Rees\" title=\"User:Darren Wyn Rees\">Darren Wyn Rees</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 3888,
+      "height": 2592,
+      "score": 50.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Aberavon_Beach_view_to_Swansea_Bay.jpg",
+        "title": "Aberavon Beach view to Swansea Bay.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 65.0,
+        "width": 4032,
+        "height": 1960
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Aberavon_Beach_view_seafront.jpg",
+        "title": "Aberavon Beach view seafront.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 3888,
+        "height": 2592
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Aberavon_Beach_view_seafront_from_beach%2C_with_Kitetrail_sculpture_in_view.jpg",
+        "title": "Aberavon Beach view seafront from beach, with Kitetrail sculpture in view.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 3888,
+        "height": 2592
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/RNLI_Port_Talbot_Lifeboat_Station_at_Aberavon_Beach.jpg",
+        "title": "RNLI Port Talbot Lifeboat Station at Aberavon Beach.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 45.0,
+        "width": 3693,
+        "height": 1689
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Aberafan_Beach_near_Sandfields_%5E_Port_Talbot_-_panoramio.jpg",
+        "title": "Aberafan Beach near Sandfields ^ Port Talbot - panoramio.jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 2592,
+        "height": 1936
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 29,
+      "tier_breakdown": {
+        "tier1": 6,
+        "tier3": 3,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

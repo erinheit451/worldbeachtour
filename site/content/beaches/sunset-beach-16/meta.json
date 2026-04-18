@@ -1,1 +1,76 @@
-{"tier":2,"lenses":["overview","travel"],"custom":[],"images":{"hero":"","gallery":[]}}
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/217.5_Arc_x_13%2C_Sunset_Beach%2C_Vancouver_BC.JPG",
+      "title": "217.5 Arc x 13, Sunset Beach, Vancouver BC.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:PamMcP&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:PamMcP (page does not exist)\">PamMcP</a>",
+      "license": "CC BY-SA 4.0",
+      "width": 4608,
+      "height": 3456,
+      "score": 60.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Greater_Vancouver_Area.png",
+        "title": "Greater Vancouver Area.png",
+        "license": "Public domain",
+        "source_tier": 1,
+        "score": 70.5,
+        "width": 846,
+        "height": 701
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Sunset_Beach_and_Burrard_Street_Bridge%2C_Vancouver_20240830_2.jpg",
+        "title": "Sunset Beach and Burrard Street Bridge, Vancouver 20240830 2.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 7801,
+        "height": 4876
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/CCG_Hovercraft_Moytel.jpg",
+        "title": "CCG Hovercraft Moytel.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 4128,
+        "height": 3096
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Fireworks_focus_experiments_-_Flickr_-_colink..jpg",
+        "title": "Fireworks focus experiments - Flickr - colink..jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 3669,
+        "height": 2064
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Sunset_Beach_and_Burrard_Street_Bridge%2C_Vancouver_20240830_1.jpg",
+        "title": "Sunset Beach and Burrard Street Bridge, Vancouver 20240830 1.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 7931,
+        "height": 4461
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 45,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier3": 22,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
+  }
+}

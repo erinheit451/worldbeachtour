@@ -6,7 +6,70 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Bang_Saen_01.JPG",
+      "title": "Bang Saen 01.JPG",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Mstp77\" title=\"User:Mstp77\">atreyu</a>",
+      "license": "CC BY-SA 3.0",
+      "width": 4000,
+      "height": 3000,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/The_central_area_of_Wang_Saen_Suk%2C_featuring_the_Pretas_and_tortured_souls%2C_June_2013.jpg",
+        "title": "The central area of Wang Saen Suk, featuring the Pretas and tortured souls, June 2013.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 70.0,
+        "width": 1000,
+        "height": 667
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Fiat_131_Abarth%2C_Bangsaen_Speed_Festival_2007.jpg",
+        "title": "Fiat 131 Abarth, Bangsaen Speed Festival 2007.jpg",
+        "license": "CC BY-SA 2.0",
+        "source_tier": 3,
+        "score": 60.4,
+        "width": 615,
+        "height": 361
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Bang_Saen_Beach_at_sunset_2.jpg",
+        "title": "Bang Saen Beach at sunset 2.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 50.0,
+        "width": 2365,
+        "height": 1330
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Bang_saen_lang_beach.jpg",
+        "title": "Bang saen lang beach.jpg",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 3,
+        "score": 50.0,
+        "width": 6615,
+        "height": 4410
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Bang_Saen_04.JPG",
+        "title": "Bang Saen 04.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 40.0,
+        "width": 4000,
+        "height": 3000
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 42,
+      "tier_breakdown": {
+        "tier1": 2,
+        "tier3": 40
+      },
+      "hero_auto_selected": true
+    }
   }
 }

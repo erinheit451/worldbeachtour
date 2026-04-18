@@ -6,7 +6,71 @@
   ],
   "custom": [],
   "images": {
-    "hero": "",
-    "gallery": []
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Strandbad_Berlin-Wannsee_vom_See_04-2015.jpg",
+      "title": "Strandbad Berlin-Wannsee vom See 04-2015.jpg",
+      "author": "<b><span class=\"plainlinks\"><a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/User:A.Savin\">A.Savin</a></span></b>",
+      "license": "CC BY-SA 3.0",
+      "width": 5472,
+      "height": 2736,
+      "score": 85.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Strandbad_Wannsee_01.jpg",
+        "title": "Strandbad Wannsee 01.jpg",
+        "license": "CC BY 2.0 de",
+        "source_tier": 1,
+        "score": 70.0,
+        "width": 1632,
+        "height": 1224
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Bundesarchiv_Bild_102-09849%2C_Tanzschule_Laban_im_Strandbad_Wannsee.jpg",
+        "title": "Bundesarchiv Bild 102-09849, Tanzschule Laban im Strandbad Wannsee.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "source_tier": 3,
+        "score": 68.1,
+        "width": 800,
+        "height": 543
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/2012BerlinWannsee1.jpg",
+        "title": "2012BerlinWannsee1.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 5184,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Gedenktafel_Wagner_Ermisch.jpg",
+        "title": "Gedenktafel Wagner Ermisch.jpg",
+        "license": "CC BY 2.0 de",
+        "source_tier": 3,
+        "score": 60.0,
+        "width": 2346,
+        "height": 1707
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Bundesarchiv_Bild_102-00654A%2C_Berlin%2C_Strandbad_Wannsee.jpg",
+        "title": "Bundesarchiv Bild 102-00654A, Berlin, Strandbad Wannsee.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "source_tier": 1,
+        "score": 57.9,
+        "width": 800,
+        "height": 529
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 71,
+      "tier_breakdown": {
+        "tier1": 6,
+        "tier3": 45,
+        "tier2": 20
+      },
+      "hero_auto_selected": true
+    }
   }
 }
