@@ -124,3 +124,39 @@ def test_enrichment_log_table_works(fresh_db):
     fresh_db.commit()
     row = fresh_db.execute("SELECT * FROM enrichment_log WHERE script_name='grid_climate'").fetchone()
     assert row["status"] == "running"
+
+
+def test_migration_adds_v2_columns():
+    conn = sqlite3.connect(":memory:")
+    conn.row_factory = sqlite3.Row
+    init_db(conn)
+    migrate(conn)
+    cols = [r[1] for r in conn.execute("PRAGMA table_info(beaches)").fetchall()]
+    for c in [
+        "parking_capacity", "parking_fee_usd",
+        "ferry_terminal_id", "ferry_terminal_distance_km",
+        "transit_stops_500m_count",
+        "slope_pct", "drop_off_flag",
+        "bathing_water_grade", "blue_flag_latest_year",
+    ]:
+        assert c in cols, f"missing column {c}"
+
+
+def test_migration_creates_v2_tables():
+    conn = sqlite3.connect(":memory:")
+    conn.row_factory = sqlite3.Row
+    init_db(conn)
+    migrate(conn)
+    for t in ["admin_regions", "beach_hazards", "beach_webcams"]:
+        assert conn.execute(
+            "SELECT 1 FROM sqlite_master WHERE type='table' AND name=?", (t,)
+        ).fetchone() is not None, f"missing table {t}"
+
+
+def test_migration_v2_is_idempotent():
+    conn = sqlite3.connect(":memory:")
+    conn.row_factory = sqlite3.Row
+    init_db(conn)
+    migrate(conn)
+    added_second = migrate(conn)
+    assert added_second == 0

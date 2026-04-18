@@ -88,6 +88,16 @@ BEACHES_NEW_COLUMNS = [
     ("swim_suitability_confidence", "TEXT"),
     ("data_completeness_pct", "REAL"),
     ("enrichment_version", "INTEGER DEFAULT 0"),
+    # v2 enrichment columns (2026-04-18 spec)
+    ("parking_capacity", "INTEGER"),
+    ("parking_fee_usd", "REAL"),
+    ("ferry_terminal_id", "TEXT"),
+    ("ferry_terminal_distance_km", "REAL"),
+    ("transit_stops_500m_count", "INTEGER"),
+    ("slope_pct", "REAL"),
+    ("drop_off_flag", "INTEGER"),
+    ("bathing_water_grade", "TEXT"),
+    ("blue_flag_latest_year", "INTEGER"),
 ]
 
 NEW_INDEXES = [
@@ -163,6 +173,42 @@ NEW_TABLES = {
             completed_at TEXT
         )
     """,
+    "admin_regions": """
+        CREATE TABLE admin_regions (
+            id TEXT PRIMARY KEY,
+            country_code TEXT,
+            admin_l1 TEXT,
+            admin_l2 TEXT,
+            admin_l3 TEXT,
+            cuisine_json JSON,
+            festivals_json JSON,
+            transit_system_note TEXT,
+            source_url TEXT,
+            extracted_at TEXT
+        )
+    """,
+    "beach_hazards": """
+        CREATE TABLE beach_hazards (
+            id INTEGER PRIMARY KEY,
+            beach_id TEXT REFERENCES beaches(id),
+            hazard_type TEXT NOT NULL,
+            severity TEXT,
+            observed_date TEXT,
+            source TEXT,
+            source_url TEXT,
+            expires_at TEXT
+        )
+    """,
+    "beach_webcams": """
+        CREATE TABLE beach_webcams (
+            id INTEGER PRIMARY KEY,
+            beach_id TEXT REFERENCES beaches(id),
+            url TEXT NOT NULL,
+            network TEXT,
+            license TEXT,
+            last_verified TEXT
+        )
+    """,
 }
 
 NEW_TABLE_INDEXES = [
@@ -171,6 +217,10 @@ NEW_TABLE_INDEXES = [
     ("idx_species_beach", "beach_species(beach_id)"),
     ("idx_species_name", "beach_species(species_name)"),
     ("idx_enrichment_script", "enrichment_log(script_name)"),
+    ("idx_admin_regions_country", "admin_regions(country_code, admin_l2)"),
+    ("idx_hazards_beach", "beach_hazards(beach_id)"),
+    ("idx_hazards_type_date", "beach_hazards(hazard_type, observed_date)"),
+    ("idx_webcams_beach", "beach_webcams(beach_id)"),
 ]
 
 
