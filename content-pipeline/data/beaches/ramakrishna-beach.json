@@ -3,8 +3,8 @@
   "name": "Ramakrishna Beach",
   "centroid_lat": 17.712103,
   "centroid_lng": 83.3221954,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "IN",
+  "admin_level_1": "Andhra Pradesh",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -29,5 +29,22 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/RK%20Beach%20Visakhapatnam%20Nov%202012%20-%2002.JPG",
       "wikipedia_url": "https://en.wikipedia.org/wiki/RK_Beach"
     }
-  }
+  },
+  "nearest_city": "Yarada",
+  "nearest_city_distance_km": 7.8,
+  "nearest_airport": {
+    "iata": "VTZ",
+    "name": "Visakhapatnam International Airport",
+    "distance_km": 10.1
+  },
+  "safety": {
+    "lifeguard": true,
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "restrooms": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/RK_Beach",
+  "notability_score": 30.6,
+  "data_completeness_pct": 25.0
 }

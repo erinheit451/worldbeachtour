@@ -3,8 +3,8 @@
   "name": "Muzhappilangad Beach",
   "centroid_lat": 11.794446,
   "centroid_lng": 75.4409548,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "IN",
+  "admin_level_1": "Kerala",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -29,5 +29,18 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Muzhappilangad%20beach12.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Muzhappilangad_Beach"
     }
-  }
+  },
+  "nearest_city": "Mulappilangad",
+  "nearest_city_distance_km": 1.2,
+  "nearest_airport": {
+    "iata": "CNN",
+    "name": "Kannur International Airport",
+    "distance_km": 17.7
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Muzhappilangad_Beach",
+  "notability_score": 30.6,
+  "data_completeness_pct": 20.8
 }

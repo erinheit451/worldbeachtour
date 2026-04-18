@@ -3,8 +3,8 @@
   "name": "Te Puia / Hot Water Beach",
   "centroid_lat": -36.8804054,
   "centroid_lng": 175.8207319,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "NZ",
+  "admin_level_1": "Waikato",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -26,5 +26,22 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/00%2023%200963%20Hot%20Water%20Beach%20-%20NZ%2C%20Coromandel.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Hot_Water_Beach"
     }
-  }
+  },
+  "nearest_city": "Whitianga",
+  "nearest_city_distance_km": 11.9,
+  "nearest_airport": {
+    "iata": "AMZ",
+    "name": "Ardmore Airport",
+    "distance_km": 77.1
+  },
+  "safety": {
+    "lifeguard": true,
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "restrooms": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Hot_Water_Beach",
+  "notability_score": 30.1,
+  "data_completeness_pct": 25.0
 }

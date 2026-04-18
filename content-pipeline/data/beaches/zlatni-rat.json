@@ -3,8 +3,8 @@
   "name": "Zlatni rat",
   "centroid_lat": 43.2570391,
   "centroid_lng": 16.6344854,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "HR",
+  "admin_level_1": "Splitsko-Dalmatinska",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "pebble",
@@ -51,5 +51,24 @@
       "water_quality_rating": "1 - excellent",
       "eu_bathing_water_type": "Coastal"
     }
-  }
+  },
+  "nearest_city": "Bol",
+  "nearest_city_distance_km": 1.7,
+  "nearest_airport": {
+    "iata": "BWK",
+    "name": "Brač Airport",
+    "distance_km": 4.7
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "lifeguard": true,
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "parking": true,
+    "restrooms": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Zlatni_Rat",
+  "notability_score": 39.1,
+  "data_completeness_pct": 37.5
 }

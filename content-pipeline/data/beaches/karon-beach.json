@@ -3,8 +3,8 @@
   "name": "Karon Beach",
   "centroid_lat": 7.8426,
   "centroid_lng": 98.2938,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "TH",
+  "admin_level_1": "Phuket",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -21,5 +21,18 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Karonbeach%202004.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Karon_Beach"
     }
-  }
+  },
+  "nearest_city": "Ban Karon",
+  "nearest_city_distance_km": 0.8,
+  "nearest_airport": {
+    "iata": "HKT",
+    "name": "Phuket International Airport",
+    "distance_km": 30.2
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Karon_Beach",
+  "notability_score": 28.0,
+  "data_completeness_pct": 16.7
 }

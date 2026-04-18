@@ -3,8 +3,8 @@
   "name": "Elliots Beach",
   "centroid_lat": 12.9978864,
   "centroid_lng": 80.2730281,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "IN",
+  "admin_level_1": "Tamil Nadu",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -29,5 +29,21 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Elliots%20Beach%20at%20Besant%20Nagar%2C%20Chennai.JPG",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Edward_Elliot%27s_Beach"
     }
-  }
+  },
+  "nearest_city": "Gandhi Nagar",
+  "nearest_city_distance_km": 2.3,
+  "nearest_airport": {
+    "iata": "MAA",
+    "name": "Chennai International Airport",
+    "distance_km": 11.3
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "restrooms": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Edward_Elliot%27s_Beach",
+  "notability_score": 30.7,
+  "data_completeness_pct": 25.0
 }

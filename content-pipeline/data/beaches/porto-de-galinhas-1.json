@@ -3,8 +3,8 @@
   "name": "Porto de Galinhas",
   "centroid_lat": -8.5006262,
   "centroid_lng": -35.0018185,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "BR",
+  "admin_level_1": "Pernambuco",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -26,5 +26,21 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Porto%20de%20galinhas%20019.JPG",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Porto_de_Galinhas"
     }
-  }
+  },
+  "nearest_city": "Ipojuca",
+  "nearest_city_distance_km": 13.2,
+  "nearest_airport": {
+    "iata": "REC",
+    "name": "Recife/Guararapes - Gilberto Freyre International Airport",
+    "distance_km": 42.4
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "restrooms": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Porto_de_Galinhas",
+  "notability_score": 30.6,
+  "data_completeness_pct": 25.0
 }

@@ -3,8 +3,8 @@
   "name": "Cherai Beach",
   "centroid_lat": 10.1441876,
   "centroid_lng": 76.1773418,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "IN",
+  "admin_level_1": "Kerala",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -26,5 +26,21 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cherai%20Beach.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Cherai_Beach"
     }
-  }
+  },
+  "nearest_city": "Kodungallur",
+  "nearest_city_distance_km": 9.0,
+  "nearest_airport": {
+    "iata": "COK",
+    "name": "Cochin International Airport",
+    "distance_km": 24.5
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "showers": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cherai_Beach",
+  "notability_score": 30.8,
+  "data_completeness_pct": 20.8
 }

@@ -3,8 +3,8 @@
   "name": "Seven Mile Beach",
   "centroid_lat": 19.35,
   "centroid_lng": -81.383333333,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "KY",
+  "admin_level_1": "",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -21,5 +21,18 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Resorts%20on%20Seven%20Mile%20Beach%2C%20Grand%20Cayman.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Seven_Mile_Beach,_Grand_Cayman"
     }
-  }
+  },
+  "nearest_city": "West Bay",
+  "nearest_city_distance_km": 4.0,
+  "nearest_airport": {
+    "iata": "GCM",
+    "name": "Owen Roberts International Airport",
+    "distance_km": 6.9
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Seven_Mile_Beach,_Grand_Cayman",
+  "notability_score": 27.8,
+  "data_completeness_pct": 16.7
 }

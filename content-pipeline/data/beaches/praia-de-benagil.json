@@ -3,8 +3,8 @@
   "name": "Praia de Benagil",
   "centroid_lat": 37.0873509,
   "centroid_lng": -8.4258637,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "PT",
+  "admin_level_1": "Faro",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -40,5 +40,19 @@
       "water_quality_rating": "2 - good",
       "eu_bathing_water_type": "Coastal"
     }
-  }
+  },
+  "nearest_city": "Carvoeiro",
+  "nearest_city_distance_km": 2.5,
+  "nearest_airport": {
+    "iata": "PRM",
+    "name": "Portimão Airport",
+    "distance_km": 15.6
+  },
+  "safety": {
+    "water_quality_rating": "2 - good",
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Benagil",
+  "notability_score": 35.5,
+  "data_completeness_pct": 25.0
 }
