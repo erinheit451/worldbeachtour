@@ -11,8 +11,23 @@ Every pipeline should:
 
 import datetime as _dt
 import re as _re
+import sqlite3 as _sqlite3
 
 _IDENT = _re.compile(r"^[A-Za-z_][A-Za-z0-9_]*$")
+
+
+def open_db(path: str, timeout_s: int = 60) -> _sqlite3.Connection:
+    """Open a SQLite connection configured for concurrent enrichment pipelines.
+
+    Sets `busy_timeout` via PRAGMA (and Python-level timeout), so concurrent
+    writers wait up to `timeout_s` seconds for a locked DB before raising
+    sqlite3.OperationalError. The default 5s is too short for our batch writes.
+    """
+    conn = _sqlite3.connect(path, timeout=timeout_s)
+    conn.row_factory = _sqlite3.Row
+    conn.execute(f"PRAGMA busy_timeout = {int(timeout_s * 1000)}")
+    conn.execute("PRAGMA journal_mode = WAL")
+    return conn
 
 
 def _check_ident(name: str) -> str:

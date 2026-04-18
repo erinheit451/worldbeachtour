@@ -131,7 +131,7 @@ def enrich_gadm_admin(conn, gpkg_path: Path = GADM_PATH, layer: str = GADM_LAYER
 if __name__ == "__main__":
     import sqlite3, sys
     db_path = sys.argv[1] if len(sys.argv) > 1 else "output/world_beaches.db"
-    db = sqlite3.connect(db_path)
-    db.row_factory = sqlite3.Row
+    from src.enrich._common import open_db
+    db = open_db(db_path)
     enrich_gadm_admin(db)
     db.close()

@@ -132,7 +132,7 @@ def enrich_worldclim_climate(conn) -> int:
     updated_ids: set = set()
 
     for col, var in VARIABLES:
-        print(f"\nsampling {var} → {col} ...")
+        print(f"\nsampling {var} -> {col} ...")
         rasters = _open_var_rasters(var)
         batch_updates: list[tuple] = []
 
@@ -193,7 +193,7 @@ if __name__ == "__main__":
     import sys
 
     db_path = sys.argv[1] if len(sys.argv) > 1 else "output/world_beaches.db"
-    db = sqlite3.connect(db_path)
-    db.row_factory = sqlite3.Row
+    from src.enrich._common import open_db
+    db = open_db(db_path)
     enrich_worldclim_climate(db)
     db.close()
