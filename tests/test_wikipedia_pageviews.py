@@ -346,3 +346,16 @@ def test_expand_pageviews_throttles_even_on_skip_path(db_with_beaches, monkeypat
     wp.expand_pageviews(db_with_beaches)
     # Three iterations, three throttles — even though all are skipped
     assert len(sleep_calls) == 3
+
+
+def test_resolve_wikidata_returns_none_on_404(monkeypatch):
+    """Stale QID (deleted on Wikidata) → return None, don't raise."""
+    from src.enrich import wikipedia_pageviews as wp
+
+    class FakeResp:
+        status_code = 404
+        text = "Not Found"
+        url = "https://www.wikidata.org/wiki/Special:EntityData/Q99.json"
+
+    monkeypatch.setattr(wp.requests, "get", lambda *a, **k: FakeResp())
+    assert wp.resolve_wikidata_to_wikipedia_title("Q99") is None

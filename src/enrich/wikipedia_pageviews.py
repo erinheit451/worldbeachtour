@@ -161,10 +161,13 @@ WIKIDATA_ENTITY_URL = "https://www.wikidata.org/wiki/Special:EntityData/{qid}.js
 
 def resolve_wikidata_to_wikipedia_title(qid: str, lang: str = "en") -> str | None:
     """Resolve a Wikidata QID to the Wikipedia page title in the given language.
-    Returns None if the entity has no sitelink for that language.
+    Returns None if the entity has no sitelink for that language, or if the
+    QID itself no longer exists on Wikidata (404 — stale reference).
     Raises HttpError on 429/auth/5xx (no silent swallow)."""
     url = WIKIDATA_ENTITY_URL.format(qid=qid)
     resp = requests.get(url, timeout=20, headers={"User-Agent": USER_AGENT})
+    if resp.status_code == 404:
+        return None  # entity deleted or never existed — treat like no-sitelink
     raise_for_http(resp)
     data = resp.json()
     sitelinks = data.get("entities", {}).get(qid, {}).get("sitelinks", {})
