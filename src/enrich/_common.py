@@ -10,6 +10,15 @@ Every pipeline should:
 """
 
 import datetime as _dt
+import re as _re
+
+_IDENT = _re.compile(r"^[A-Za-z_][A-Za-z0-9_]*$")
+
+
+def _check_ident(name: str) -> str:
+    if not _IDENT.match(name):
+        raise ValueError(f"invalid SQL identifier: {name!r}")
+    return name
 
 
 class CoverageAssertionError(AssertionError):
@@ -18,6 +27,7 @@ class CoverageAssertionError(AssertionError):
 
 def coverage_count(conn, table: str, column: str) -> int:
     """Count rows where `column` is not null. Used before/after a pipeline run."""
+    _check_ident(table); _check_ident(column)
     return conn.execute(
         f"SELECT COUNT(*) FROM {table} WHERE {column} IS NOT NULL"
     ).fetchone()[0]
@@ -60,15 +70,23 @@ def assert_coverage_delta(conn, table: str, column: str, before: int, min_delta:
 
 
 class HttpError(RuntimeError):
-    """Raise on any HTTP 429, 5xx, or auth failure. Never swallow these silently."""
+    """Raised on any non-2xx HTTP response. Never swallowed silently."""
+    def __init__(self, message: str, status_code: int | None = None, url: str | None = None):
+        super().__init__(message)
+        self.status_code = status_code
+        self.url = url
 
 
 def raise_for_http(resp) -> None:
-    """Call after requests.get/post. Raises HttpError on 429/auth/5xx."""
+    """Raise HttpError on any non-2xx. status_code and url are attached to the exception."""
+    if 200 <= resp.status_code < 300:
+        return
     if resp.status_code == 429:
-        raise HttpError(f"rate-limited ({resp.url}): {resp.text[:200]}")
-    if resp.status_code in (401, 403):
-        raise HttpError(f"auth failure {resp.status_code} ({resp.url})")
-    if 500 <= resp.status_code < 600:
-        raise HttpError(f"server error {resp.status_code} ({resp.url}): {resp.text[:200]}")
-    resp.raise_for_status()
+        msg = f"rate-limited ({resp.url}): {resp.text[:200]}"
+    elif resp.status_code in (401, 403):
+        msg = f"auth failure {resp.status_code} ({resp.url})"
+    elif 500 <= resp.status_code < 600:
+        msg = f"server error {resp.status_code} ({resp.url}): {resp.text[:200]}"
+    else:
+        msg = f"http {resp.status_code} ({resp.url}): {resp.text[:200]}"
+    raise HttpError(msg, status_code=resp.status_code, url=resp.url)

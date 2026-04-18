@@ -1,22 +1,18 @@
 """
-Canonical smoke-test beach slugs and expected values per enrichment field.
+Canonical smoke-test beach slugs.
 
-Every pipeline should check: when run on the real DB, do these slugs come out
-with the expected values? If not, the pipeline is broken regardless of what
-enrichment_log says.
+Every Milestone A pipeline should run its own sanity check against these
+slugs when it finishes. The notes below describe why each slug is canonical
+— they are documentation for humans, not a machine-checked contract.
 """
 
-# slug → {column → expected approximate value (or range, or predicate)}
-# Only add a field here once the pipeline that fills it has been built.
+from src.enrich._common import _check_ident
+
 SMOKE_BEACHES = {
-    # Washington, USA — sand, semidiurnal, cool Pacific, easily checkable on Wikipedia
-    "waikiki-beach":      {"country_code": "US"},
-    # Spain, Galicia — known for extreme tidal range (Catedrais only visible at low tide)
-    "catedrais":          {"country_code": "ES"},
-    # Zakynthos, Greece — famous shipwreck beach, Bond location, cliff-enclosed
-    "navagio":            {"country_code": "GR"},
-    # Tanzania, Zanzibar — ferry-only, Indian Ocean
-    "oppenheimer-beach":  {"country_code": "TZ"},
+    "waikiki-beach":     "Honolulu, USA — sandy Pacific beach, well-documented, easily verifiable",
+    "catedrais":         "Galicia, Spain — only accessible at low tide, so tide_range_spring_m must be large",
+    "navagio":           "Zakynthos, Greece — cliff-enclosed Ionian Sea beach, featured in Bond",
+    "oppenheimer-beach": "Zanzibar, Tanzania — ferry-only Indian Ocean beach",
 }
 
 
@@ -27,15 +23,14 @@ def lookup_beach_id(conn, slug: str) -> str | None:
 
 
 def smoke_check(conn, column: str, predicate) -> list[str]:
-    """
-    Run `predicate(value)` for each smoke beach's value in `column`.
-    Returns list of slugs that failed. Empty list = all pass.
-    """
+    """Run `predicate(value)` on `column` for every smoke-test beach that exists in `conn`.
+    Returns list of failing "slug:column=value" strings. Empty list = all pass or not in DB."""
+    _check_ident(column)
     failed = []
     for slug in SMOKE_BEACHES:
         beach_id = lookup_beach_id(conn, slug)
         if beach_id is None:
-            continue  # smoke beach not in this DB (e.g., test fixture)
+            continue
         row = conn.execute(f"SELECT {column} FROM beaches WHERE id=?", (beach_id,)).fetchone()
         value = row[column] if row else None
         if not predicate(value):
