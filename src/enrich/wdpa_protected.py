@@ -43,6 +43,12 @@ def _discover_polygon_shapefiles(wdpa_dir: Path = WDPA_DIR) -> list[Path]:
 
 
 def _load_wdpa_polygons(wdpa_dir: Path = WDPA_DIR) -> gpd.GeoDataFrame:
+    """Eager-load every shapefile into one GDF. Used by unit tests.
+
+    For the real 5.9GB / 3-shapefile WDPA release, prefer `_iter_wdpa_polygon_gdfs`
+    (streaming) — concatenating all three polygon shapefiles into one GDF peaks
+    around 15-20GB of RAM and OOMs on most laptops.
+    """
     shapefiles = _discover_polygon_shapefiles(wdpa_dir)
     if not shapefiles:
         raise FileNotFoundError(
@@ -58,10 +64,28 @@ def _load_wdpa_polygons(wdpa_dir: Path = WDPA_DIR) -> gpd.GeoDataFrame:
         pandas.concat(frames, ignore_index=True),
         crs=frames[0].crs,
     )
-    # Ensure WGS84 for point-in-polygon tests
     if gdf.crs is not None and gdf.crs.to_epsg() != 4326:
         gdf = gdf.to_crs(epsg=4326)
     return gdf
+
+
+def _iter_wdpa_polygon_gdfs(wdpa_dir: Path = WDPA_DIR):
+    """Yield one (Path, GeoDataFrame) per shapefile so the caller can process
+    each and release RAM before loading the next. Required for the full WDPA
+    release (3 shapefiles × ~2GB geometry each)."""
+    shapefiles = _discover_polygon_shapefiles(wdpa_dir)
+    if not shapefiles:
+        raise FileNotFoundError(
+            f"No WDPA polygon shapefiles found under {wdpa_dir}. "
+            f"Download from https://www.protectedplanet.net/en/thematic-areas/wdpa "
+            f"and extract the three WDPA_*_shp_{{0,1,2}}.zip files into that directory."
+        )
+    for shp in sorted(shapefiles):
+        print(f"Loading {shp}...")
+        gdf = gpd.read_file(shp)
+        if gdf.crs is not None and gdf.crs.to_epsg() != 4326:
+            gdf = gdf.to_crs(epsg=4326)
+        yield shp, gdf
 
 
 def _build_spatial_index(gdf: gpd.GeoDataFrame) -> dict:
@@ -97,46 +121,70 @@ def _lookup_wdpa(idx: dict, lat: float, lng: float) -> dict | None:
 
 
 def enrich_wdpa_protected(conn, wdpa_dir: Path = WDPA_DIR) -> int:
-    gdf = _load_wdpa_polygons(wdpa_dir)
-    idx = _build_spatial_index(gdf)
+    """Streaming spatial join: process each WDPA shapefile in turn, release its
+    R-tree + GDF before loading the next. Each beach is checked against every
+    shapefile; the first match wins (WDPA polygons overlap in many places, so a
+    stable pick is fine)."""
+    # Fail fast on missing shapefiles before touching the DB
+    if not _discover_polygon_shapefiles(wdpa_dir):
+        raise FileNotFoundError(
+            f"No WDPA polygon shapefiles found under {wdpa_dir}. "
+            f"Download from https://www.protectedplanet.net/en/thematic-areas/wdpa "
+            f"and extract the three WDPA_*_shp_{{0,1,2}}.zip files into that directory."
+        )
 
     run_id = log_run_start(conn, "wdpa_protected", phase="A")
     before = coverage_count(conn, "beaches", "protected_area_name")
 
-    rows = conn.execute(
-        "SELECT id, centroid_lat, centroid_lng FROM beaches "
-        "WHERE protected_area_name IS NULL AND centroid_lat IS NOT NULL"
-    ).fetchall()
-
+    # Unmatched beach pool — beaches drop out of this set as they get a match.
+    beaches = [
+        dict(r)
+        for r in conn.execute(
+            "SELECT id, centroid_lat, centroid_lng FROM beaches "
+            "WHERE protected_area_name IS NULL AND centroid_lat IS NOT NULL"
+        ).fetchall()
+    ]
+    total_targets = len(beaches)
     updated = 0
-    for row in tqdm(rows, desc="wdpa join"):
-        match = _lookup_wdpa(idx, row["centroid_lat"], row["centroid_lng"])
-        if match is None:
-            continue
-        conn.execute(
-            """UPDATE beaches
-               SET protected_area_name = ?,
-                   protected_area_type = ?,
-                   protected_area_iucn = ?,
-                   protected_area_source = 'wdpa',
-                   unesco_site = COALESCE(unesco_site, ?),
-                   updated_at = datetime('now')
-               WHERE id = ?""",
-            (match["name"], match["type"], match["iucn"], match["unesco"], row["id"]),
-        )
-        updated += 1
-        if updated % 5000 == 0:
-            conn.commit()
-    conn.commit()
+
+    for shp_path, gdf in _iter_wdpa_polygon_gdfs(wdpa_dir):
+        if not beaches:
+            break  # every beach already matched
+        print(f"  building R-tree for {len(gdf):,} polygons from {shp_path.name}...")
+        idx = _build_spatial_index(gdf)
+        still_unmatched = []
+        for beach in tqdm(beaches, desc=f"wdpa {shp_path.parent.name}"):
+            match = _lookup_wdpa(idx, beach["centroid_lat"], beach["centroid_lng"])
+            if match is None:
+                still_unmatched.append(beach)
+                continue
+            conn.execute(
+                """UPDATE beaches
+                   SET protected_area_name = ?,
+                       protected_area_type = ?,
+                       protected_area_iucn = ?,
+                       protected_area_source = 'wdpa',
+                       unesco_site = COALESCE(unesco_site, ?),
+                       updated_at = datetime('now')
+                   WHERE id = ?""",
+                (match["name"], match["type"], match["iucn"], match["unesco"], beach["id"]),
+            )
+            updated += 1
+            if updated % 5000 == 0:
+                conn.commit()
+        conn.commit()
+        beaches = still_unmatched
+        # Explicitly release before next shapefile loads
+        del idx, gdf
 
     log_run_finish(conn, run_id, "ok", total_processed=updated)
-    if rows:
+    if total_targets:
         # WDPA coverage of beaches globally is ~5-10%, so use a loose threshold
         assert_coverage_delta(
             conn, "beaches", "protected_area_name",
-            before=before, min_delta=max(1, len(rows) // 50),
+            before=before, min_delta=max(1, total_targets // 50),
         )
-    print(f"WDPA: {updated} beaches matched to protected areas")
+    print(f"WDPA: {updated} / {total_targets} beaches matched to protected areas")
     return updated
 
 
