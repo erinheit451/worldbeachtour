@@ -1,0 +1,39 @@
+{
+  "slug": "alang-ship-breaking-yard",
+  "name": "Alang Ship Breaking Yard",
+  "centroid_lat": 21.41,
+  "centroid_lng": 72.1975,
+  "country_code": "IN",
+  "admin_level_1": "Gujarat",
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": 18000.0,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q336318",
+      "source_url": "https://www.wikidata.org/wiki/Q336318"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Alang%20Ship%20Buster%20-%20panoramio.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Alang_Ship_Breaking_Yard"
+    }
+  },
+  "nearest_city": "Talaja",
+  "nearest_city_distance_km": 18.0,
+  "nearest_airport": {
+    "iata": "BHU",
+    "name": "Bhavnagar Airport",
+    "distance_km": 38.1
+  },
+  "safety": {
+    "lifeguard": false,
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Alang_Ship_Breaking_Yard",
+  "notability_score": 33.3,
+  "data_completeness_pct": 20.8
+}

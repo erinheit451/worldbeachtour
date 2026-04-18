@@ -1,0 +1,38 @@
+{
+  "slug": "gold-beach",
+  "name": "Gold Beach",
+  "centroid_lat": 49.333333333,
+  "centroid_lng": -0.533333333,
+  "country_code": "FR",
+  "admin_level_1": "Lower Normandy",
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": 18000.0,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q745883",
+      "source_url": "https://www.wikidata.org/wiki/Q745883"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20British%20Army%20in%20the%20Normandy%20Campaign%201944%20B5128.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Gold_Beach"
+    }
+  },
+  "nearest_city": "Ver-sur-Mer",
+  "nearest_city_distance_km": 0.4,
+  "nearest_airport": {
+    "iata": "CFR",
+    "name": "Caen Carpiquet airport",
+    "distance_km": 18.3
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Gold_Beach",
+  "notability_score": 31.9,
+  "data_completeness_pct": 20.8
+}

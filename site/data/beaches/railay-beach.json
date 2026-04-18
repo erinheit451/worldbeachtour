@@ -1,0 +1,41 @@
+{
+  "slug": "railay-beach",
+  "name": "Railay Beach",
+  "centroid_lat": 8.010556,
+  "centroid_lng": 98.839444,
+  "country_code": "TH",
+  "admin_level_1": "Phangnga",
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": 5000.0,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q664877",
+      "source_url": "https://www.wikidata.org/wiki/Q664877"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Railay.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Railay_Beach"
+    }
+  },
+  "nearest_city": "Ban Ao Nang",
+  "nearest_city_distance_km": 5.1,
+  "nearest_airport": {
+    "iata": "KBV",
+    "name": "Krabi International Airport",
+    "distance_km": 19.0
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "restrooms": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Railay_Beach",
+  "notability_score": 30.6,
+  "data_completeness_pct": 29.2
+}

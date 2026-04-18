@@ -1,0 +1,44 @@
+{
+  "slug": "praia-dos-aveiros",
+  "name": "Praia dos Aveiros",
+  "centroid_lat": 37.0834062,
+  "centroid_lng": -8.231314,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/129581901",
+      "source_url": "https://www.openstreetmap.org/way/129581901"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q20311600",
+      "source_url": "https://www.wikidata.org/wiki/Q20311600"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCP7M",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCP7M",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20dos%20Aveiros%205%20March%202015%20%285%29.JPG",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_dos_Aveiros"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

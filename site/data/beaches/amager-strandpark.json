@@ -1,0 +1,55 @@
+{
+  "slug": "amager-strandpark",
+  "name": "Amager Strandpark",
+  "centroid_lat": 55.6564243,
+  "centroid_lng": 12.6411835,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/12328102",
+      "source_url": "https://www.openstreetmap.org/relation/12328102"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q452470",
+      "source_url": "https://www.wikidata.org/wiki/Q452470"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW1526",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW1527",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW1526",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "DKBW1527",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": "leashed",
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Amager%20Strandpark%20-%20kite%20surfers.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Amager_Strandpark"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

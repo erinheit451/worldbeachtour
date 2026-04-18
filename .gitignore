@@ -3,6 +3,9 @@ data/gadm/
 data/wdpa/
 data/fes2022/
 data/gebco/
+# Site-local bundled beach data must be committed for Vercel deploys
+!site/data/
+!site/data/**
 output/
 __pycache__/
 *.pyc

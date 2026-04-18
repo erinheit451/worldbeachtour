@@ -1,0 +1,59 @@
+{
+  "slug": "hemmick-beach",
+  "name": "Hemmick Beach",
+  "centroid_lat": 50.2301471,
+  "centroid_lng": -4.8141051,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/56228125",
+      "source_url": "https://www.openstreetmap.org/way/56228125"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/202654817",
+      "source_url": "https://www.openstreetmap.org/way/202654817"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/640065190",
+      "source_url": "https://www.openstreetmap.org/way/640065190"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/640065193",
+      "source_url": "https://www.openstreetmap.org/way/640065193"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/640076276",
+      "source_url": "https://www.openstreetmap.org/way/640076276"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/902623125",
+      "source_url": "https://www.openstreetmap.org/way/902623125"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q28402997",
+      "source_url": "https://www.wikidata.org/wiki/Q28402997"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "dog_friendly": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Hemmick%20Beach%20-%20geograph.org.uk%20-%20412395.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hemmick_Beach"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "baker-beach-3",
+  "name": "Baker Beach",
+  "centroid_lat": 37.7930265,
+  "centroid_lng": -122.4848009,
+  "country_code": "US",
+  "admin_level_1": "California",
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/6260732",
+      "source_url": "https://www.openstreetmap.org/relation/6260732"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q684879",
+      "source_url": "https://www.wikidata.org/wiki/Q684879"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": false,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Baker%20Beach%202.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Baker_Beach"
+    },
+    "facilities": {
+      "access": "yes"
+    }
+  },
+  "nearest_city": "Sausalito",
+  "nearest_city_distance_km": 7.3,
+  "nearest_airport": {
+    "iata": "SFO",
+    "name": "San Francisco International Airport",
+    "distance_km": 21.6
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "restrooms": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Baker_Beach",
+  "notability_score": 31.3,
+  "data_completeness_pct": 25.0
+}

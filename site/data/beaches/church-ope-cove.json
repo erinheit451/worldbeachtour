@@ -1,0 +1,35 @@
+{
+  "slug": "church-ope-cove",
+  "name": "Church Ope Cove",
+  "centroid_lat": 50.5381659,
+  "centroid_lng": -2.4277787,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "gravel",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/810765740",
+      "source_url": "https://www.openstreetmap.org/way/810765740"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1354424248",
+      "source_url": "https://www.openstreetmap.org/way/1354424248"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q5116655",
+      "source_url": "https://www.wikidata.org/wiki/Q5116655"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Church%20Ope%20Cove%20-%20geograph.org.uk%20-%201038763.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Church_Ope_Cove"
+    }
+  }
+}

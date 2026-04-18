@@ -1,0 +1,44 @@
+{
+  "slug": "wreck-beach",
+  "name": "Wreck Beach",
+  "centroid_lat": 49.2615025,
+  "centroid_lng": -123.2618575,
+  "country_code": "CA",
+  "admin_level_1": "British Columbia",
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/36812352",
+      "source_url": "https://www.openstreetmap.org/way/36812352"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10283669",
+      "source_url": "https://www.wikidata.org/wiki/Q10283669"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "nudist": true,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wreckbeach-ptgrey.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Wreck_Beach"
+    }
+  },
+  "nearest_city": "West End",
+  "nearest_city_distance_km": 9.6,
+  "nearest_airport": {
+    "iata": "YVR",
+    "name": "Vancouver International Airport",
+    "distance_km": 9.4
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Wreck_Beach",
+  "notability_score": 31.0,
+  "data_completeness_pct": 20.8
+}

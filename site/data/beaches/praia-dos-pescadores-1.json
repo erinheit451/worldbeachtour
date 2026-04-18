@@ -1,0 +1,55 @@
+{
+  "slug": "praia-dos-pescadores-1",
+  "name": "Praia dos Pescadores",
+  "centroid_lat": 37.0865629,
+  "centroid_lng": -8.2500905,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6312841568",
+      "source_url": "https://www.openstreetmap.org/node/6312841568"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/129575835",
+      "source_url": "https://www.openstreetmap.org/way/129575835"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10353153",
+      "source_url": "https://www.wikidata.org/wiki/Q10353153"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCV7X",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCV7X",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Albufeira%20%28Portugal%29%20%2810311666686%29.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_dos_Pescadores_(Albufeira)"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

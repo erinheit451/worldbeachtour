@@ -1,0 +1,43 @@
+{
+  "slug": "sword-beach",
+  "name": "Sword Beach",
+  "centroid_lat": 49.306388888,
+  "centroid_lng": -0.321111111,
+  "country_code": "FR",
+  "admin_level_1": "Lower Normandy",
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": 700.0,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/280831474",
+      "source_url": "https://www.openstreetmap.org/way/280831474"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q1138519",
+      "source_url": "https://www.wikidata.org/wiki/Q1138519"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Infantry%20waiting%20to%20move%20off%20%27Queen%20White%27%20Beach.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sword_Beach"
+    }
+  },
+  "nearest_city": "Lion-sur-Mer",
+  "nearest_city_distance_km": 0.7,
+  "nearest_airport": {
+    "iata": "CFR",
+    "name": "Caen Carpiquet airport",
+    "distance_km": 17.4
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sword_Beach",
+  "notability_score": 35.4,
+  "data_completeness_pct": 20.8
+}

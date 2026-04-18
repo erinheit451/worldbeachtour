@@ -1,0 +1,37 @@
+{
+  "slug": "water-taxi-beach",
+  "name": "Water Taxi Beach",
+  "centroid_lat": 40.7422,
+  "centroid_lng": -73.9613,
+  "country_code": "US",
+  "admin_level_1": "New York",
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7973408",
+      "source_url": "https://www.wikidata.org/wiki/Q7973408"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Water_Taxi_Beach"
+    }
+  },
+  "nearest_city": "Long Island City",
+  "nearest_city_distance_km": 1.1,
+  "nearest_airport": {
+    "iata": "LGA",
+    "name": "LaGuardia Airport",
+    "distance_km": 8.4
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Water_Taxi_Beach",
+  "notability_score": 28.6,
+  "data_completeness_pct": 16.7
+}

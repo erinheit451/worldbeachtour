@@ -1,0 +1,30 @@
+{
+  "slug": "kauapea-beach",
+  "name": "Kauapea Beach",
+  "centroid_lat": 22.2246239,
+  "centroid_lng": -159.4131221,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1581356",
+      "source_url": "https://www.openstreetmap.org/relation/1581356"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6378655",
+      "source_url": "https://www.wikidata.org/wiki/Q6378655"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Secret%20Beach%20%28HDR%29%20%28494416736%29.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Secret_Beach"
+    }
+  }
+}

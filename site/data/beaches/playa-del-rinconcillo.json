@@ -1,0 +1,64 @@
+{
+  "slug": "playa-del-rinconcillo",
+  "name": "Playa del Rinconcillo",
+  "centroid_lat": 36.1652554,
+  "centroid_lng": -5.4384995,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/4898146761",
+      "source_url": "https://www.openstreetmap.org/node/4898146761"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/3614879",
+      "source_url": "https://www.openstreetmap.org/relation/3614879"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q4170274",
+      "source_url": "https://www.wikidata.org/wiki/Q4170274"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q24024566",
+      "source_url": "https://www.wikidata.org/wiki/Q24024566"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES612M0041352",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES612M0041351",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES612M0041352",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES612M0041351",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Rinconcillo%20norte%202.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_de_El_Rinconcillo"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

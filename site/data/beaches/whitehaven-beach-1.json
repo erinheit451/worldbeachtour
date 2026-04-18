@@ -1,0 +1,38 @@
+{
+  "slug": "whitehaven-beach-1",
+  "name": "Whitehaven Beach",
+  "centroid_lat": -20.282677,
+  "centroid_lng": 149.034912,
+  "country_code": "AU",
+  "admin_level_1": "Queensland",
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": 12000.0,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q2123432",
+      "source_url": "https://www.wikidata.org/wiki/Q2123432"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Whitehaven%20Beach%2C%20Whitsunday%20Island%2C%20Queensland.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Whitehaven_Beach"
+    }
+  },
+  "nearest_city": "Proserpine",
+  "nearest_city_distance_km": 49.2,
+  "nearest_airport": {
+    "iata": "HTI",
+    "name": "Hamilton Island Airport",
+    "distance_km": 12.0
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Whitehaven_Beach",
+  "notability_score": 30.6,
+  "data_completeness_pct": 25.0
+}

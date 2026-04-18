@@ -1,0 +1,35 @@
+{
+  "slug": "playa-forti",
+  "name": "Playa Forti",
+  "centroid_lat": 12.3665127,
+  "centroid_lng": -69.1535875,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/401260811",
+      "source_url": "https://www.openstreetmap.org/way/401260811"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1053544229",
+      "source_url": "https://www.openstreetmap.org/way/1053544229"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q1818509",
+      "source_url": "https://www.wikidata.org/wiki/Q1818509"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Shell%20Games%20%288375933995%29.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_Forti"
+    }
+  }
+}

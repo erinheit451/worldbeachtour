@@ -1,0 +1,40 @@
+{
+  "slug": "reynisfjara",
+  "name": "Reynisfjara",
+  "centroid_lat": 63.4043946,
+  "centroid_lng": -19.069173,
+  "country_code": "IS",
+  "admin_level_1": "South",
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": 1400.0,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/13989221",
+      "source_url": "https://www.openstreetmap.org/relation/13989221"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "wheelchair_access": false
+    }
+  },
+  "nearest_city": "Vestmannaeyjar",
+  "nearest_city_distance_km": 60.1,
+  "nearest_airport": {
+    "iata": "VEY",
+    "name": "Vestmannaeyjar Airport",
+    "distance_km": 60.2
+  },
+  "safety": {
+    "lifeguard": false,
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "wheelchair_accessible": false
+  },
+  "notability_score": 0.0,
+  "data_completeness_pct": 16.7
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "platja-de-cala-vedella",
+  "name": "Platja de Cala Vedella",
+  "centroid_lat": 38.9134575,
+  "centroid_lng": 1.2240228,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/92839101",
+      "source_url": "https://www.openstreetmap.org/way/92839101"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1408256029",
+      "source_url": "https://www.openstreetmap.org/way/1408256029"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1408256030",
+      "source_url": "https://www.openstreetmap.org/way/1408256030"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1408256031",
+      "source_url": "https://www.openstreetmap.org/way/1408256031"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q1026167",
+      "source_url": "https://www.wikidata.org/wiki/Q1026167"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES531M0481209",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES531M0481209",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20Vadella%20Front.JPG",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cala_Vadella"
+    },
+    "environment": {
+      "water_quality_rating": "2 - good",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

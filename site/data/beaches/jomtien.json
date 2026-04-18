@@ -1,0 +1,38 @@
+{
+  "slug": "jomtien",
+  "name": "Jomtien",
+  "centroid_lat": 12.88233,
+  "centroid_lng": 100.89372,
+  "country_code": "TH",
+  "admin_level_1": "Chon Buri",
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q2423544",
+      "source_url": "https://www.wikidata.org/wiki/Q2423544"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jomtien%20Beach%201.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Jomtien_Beach"
+    }
+  },
+  "nearest_city": "Phatthaya",
+  "nearest_city_distance_km": 5.8,
+  "nearest_airport": {
+    "iata": "UTP",
+    "name": "U-Tapao–Rayong–Pattaya International Airport",
+    "distance_km": 25.5
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jomtien_Beach",
+  "notability_score": 29.0,
+  "data_completeness_pct": 20.8
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "kokkino-nero-1",
+  "name": "KOKKINO NERO",
+  "centroid_lat": 39.8351,
+  "centroid_lng": 22.7953,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6426671",
+      "source_url": "https://www.wikidata.org/wiki/Q6426671"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW089097001101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW089097001101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kokkino-nero-strand-b.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kokkino_Nero"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

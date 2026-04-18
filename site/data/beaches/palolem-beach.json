@@ -1,0 +1,46 @@
+{
+  "slug": "palolem-beach",
+  "name": "Palolem Beach",
+  "centroid_lat": 15.0086661,
+  "centroid_lng": 74.0203046,
+  "country_code": "IN",
+  "admin_level_1": "Goa",
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/8111859",
+      "source_url": "https://www.openstreetmap.org/relation/8111859"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q2048357",
+      "source_url": "https://www.wikidata.org/wiki/Q2048357"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Palolem%20beach.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Palolem_Beach"
+    }
+  },
+  "nearest_city": "Kankon",
+  "nearest_city_distance_km": 3.4,
+  "nearest_airport": {
+    "iata": "GOI",
+    "name": "Goa Dabolim International Airport",
+    "distance_km": 45.9
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "restrooms": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Palolem_Beach",
+  "notability_score": 31.6,
+  "data_completeness_pct": 25.0
+}

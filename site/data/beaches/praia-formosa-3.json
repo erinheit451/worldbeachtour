@@ -1,0 +1,44 @@
+{
+  "slug": "praia-formosa-3",
+  "name": "Praia Formosa",
+  "centroid_lat": 32.642071,
+  "centroid_lng": -16.9555388,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/838832734",
+      "source_url": "https://www.openstreetmap.org/way/838832734"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10352428",
+      "source_url": "https://www.wikidata.org/wiki/Q10352428"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTMH3U",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTMH3U",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20Formosa%20-%20Black%20Pebble%20Beach%20in%20February%20Sunshine%20%2832823123041%29.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_Formosa"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

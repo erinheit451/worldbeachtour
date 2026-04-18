@@ -1,0 +1,38 @@
+{
+  "slug": "waikiki-3",
+  "name": "Waikīkī",
+  "centroid_lat": 21.276666666,
+  "centroid_lng": -157.828611111,
+  "country_code": "US",
+  "admin_level_1": "Hawaii",
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": 4600.0,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q254861",
+      "source_url": "https://www.wikidata.org/wiki/Q254861"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Waikiki%20Beach%20%282024%29-L1004709.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Waik%C4%ABk%C4%AB"
+    }
+  },
+  "nearest_city": "Honolulu",
+  "nearest_city_distance_km": 4.6,
+  "nearest_airport": {
+    "iata": "HNL",
+    "name": "Daniel K. Inouye International Airport",
+    "distance_km": 11.1
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Waik%C4%ABk%C4%AB",
+  "notability_score": 33.9,
+  "data_completeness_pct": 25.0
+}

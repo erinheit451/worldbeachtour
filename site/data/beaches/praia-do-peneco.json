@@ -1,0 +1,60 @@
+{
+  "slug": "praia-do-peneco",
+  "name": "Praia do Peneco",
+  "centroid_lat": 37.0860984,
+  "centroid_lng": -8.2536574,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/6312841566",
+      "source_url": "https://www.openstreetmap.org/node/6312841566"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "node/6312841567",
+      "source_url": "https://www.openstreetmap.org/node/6312841567"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/129575837",
+      "source_url": "https://www.openstreetmap.org/way/129575837"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q10353071",
+      "source_url": "https://www.wikidata.org/wiki/Q10353071"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCL2Q",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCL2Q",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "safety": {
+      "lifeguard": true
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Albufeira-Strand%20in%20April.JPG",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_do_T%C3%BAnel_(Peneco)"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

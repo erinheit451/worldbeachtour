@@ -1,0 +1,33 @@
+{
+  "slug": "xi-beach",
+  "name": "Xi Beach",
+  "centroid_lat": 38.1602671,
+  "centroid_lng": 20.4146263,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/372765845",
+      "source_url": "https://www.openstreetmap.org/way/372765845"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q8044038",
+      "source_url": "https://www.wikidata.org/wiki/Q8044038"
+    }
+  ],
+  "attributes": {
+    "facilities": {
+      "fee_required": false
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Xi%20Beach%20Shade%20Kefalonia.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Xi_Beach"
+    }
+  }
+}

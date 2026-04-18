@@ -1,0 +1,30 @@
+{
+  "slug": "marari-beach-1",
+  "name": "Marari Beach",
+  "centroid_lat": 9.6035321,
+  "centroid_lng": 76.2979467,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/622418623",
+      "source_url": "https://www.openstreetmap.org/way/622418623"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6754857",
+      "source_url": "https://www.wikidata.org/wiki/Q6754857"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Marari%20Beach%20Sunset%2001.JPG",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Marari_Beach"
+    }
+  }
+}

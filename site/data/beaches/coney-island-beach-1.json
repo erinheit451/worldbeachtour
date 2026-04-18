@@ -1,0 +1,56 @@
+{
+  "slug": "coney-island-beach-1",
+  "name": "Coney Island Beach",
+  "centroid_lat": 40.5728312,
+  "centroid_lng": -73.9782436,
+  "country_code": "US",
+  "admin_level_1": "New York",
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": 4345.0,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/101123081",
+      "source_url": "https://www.openstreetmap.org/way/101123081"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q628201",
+      "source_url": "https://www.wikidata.org/wiki/Q628201"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Coney%20Island%20Parachute%20Jump.JPG",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Coney_Island"
+    },
+    "safety": {
+      "lifeguard": "10:00-18:00"
+    },
+    "facilities": {
+      "fee_required": false
+    }
+  },
+  "nearest_city": "Coney Island",
+  "nearest_city_distance_km": 1.4,
+  "nearest_airport": {
+    "iata": "JFK",
+    "name": "John F. Kennedy International Airport",
+    "distance_km": 18.4
+  },
+  "safety": {
+    "lifeguard": false,
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "restrooms": true,
+    "showers": true,
+    "dogs_allowed": false
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Coney_Island",
+  "notability_score": 44.3,
+  "data_completeness_pct": 29.2
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "porto-katsiki-2",
+  "name": "PORTO KATSIKI",
+  "centroid_lat": 38.6023,
+  "centroid_lng": 20.5497,
+  "country_code": "EL",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q1132269",
+      "source_url": "https://www.wikidata.org/wiki/Q1132269"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW049121033101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ELBW049121033101",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Lefkada%20kosta.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Porto_Katsiki"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

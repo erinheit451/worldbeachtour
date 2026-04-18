@@ -1,0 +1,47 @@
+{
+  "slug": "copacabana-7",
+  "name": "Copacabana",
+  "centroid_lat": -22.967033333,
+  "centroid_lng": -43.180697222,
+  "country_code": "BR",
+  "admin_level_1": "Rio de Janeiro",
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": 7700.0,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q202730",
+      "source_url": "https://www.wikidata.org/wiki/Q202730"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q63894",
+      "source_url": "https://www.wikidata.org/wiki/Q63894"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20Copacabana%20beach.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Copacabana,_Rio_de_Janeiro"
+    }
+  },
+  "nearest_city": "Rio de Janeiro",
+  "nearest_city_distance_km": 7.7,
+  "nearest_airport": {
+    "iata": "SDU",
+    "name": "Santos Dumont Airport",
+    "distance_km": 6.6
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "parking": true,
+    "restrooms": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Copacabana,_Rio_de_Janeiro",
+  "notability_score": 39.1,
+  "data_completeness_pct": 29.2
+}

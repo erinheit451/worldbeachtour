@@ -2,7 +2,11 @@ import fs from "fs";
 import path from "path";
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "beaches");
-const DATA_DIR = path.join(process.cwd(), "..", "content-pipeline", "data", "beaches");
+// Prefer bundled site-local data (for Vercel deploy); fall back to the sibling
+// content-pipeline/data/beaches for local dev.
+const SITE_DATA = path.join(process.cwd(), "data", "beaches");
+const FALLBACK_DATA = path.join(process.cwd(), "..", "content-pipeline", "data", "beaches");
+const DATA_DIR = fs.existsSync(SITE_DATA) ? SITE_DATA : FALLBACK_DATA;
 
 export interface BeachMeta {
   tier: number;

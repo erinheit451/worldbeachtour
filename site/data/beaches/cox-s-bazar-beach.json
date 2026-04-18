@@ -1,0 +1,38 @@
+{
+  "slug": "cox-s-bazar-beach",
+  "name": "Cox's Bazar Beach",
+  "centroid_lat": 21.43,
+  "centroid_lng": 91.96,
+  "country_code": "BD",
+  "admin_level_1": "Chittagong",
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": 120000.0,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q19458682",
+      "source_url": "https://www.wikidata.org/wiki/Q19458682"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cox%27s%20Bazaar%20Sea%20Beach.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cox%27s_Bazar_Beach"
+    }
+  },
+  "nearest_city": "Cox's Bazar",
+  "nearest_city_distance_km": 2.8,
+  "nearest_airport": {
+    "iata": "CXB",
+    "name": "Cox's Bazar Airport",
+    "distance_km": 3.1
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cox%27s_Bazar_Beach",
+  "notability_score": 31.4,
+  "data_completeness_pct": 20.8
+}

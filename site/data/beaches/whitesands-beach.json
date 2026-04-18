@@ -1,0 +1,30 @@
+{
+  "slug": "whitesands-beach",
+  "name": "Whitesands Beach",
+  "centroid_lat": 51.8941177,
+  "centroid_lng": -5.2981464,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/729065164",
+      "source_url": "https://www.openstreetmap.org/way/729065164"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7996233",
+      "source_url": "https://www.wikidata.org/wiki/Q7996233"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Porth%20Mawr%20%28Whitesands%20Bay%29%20near%20Tyddewi%20%28St%20David%27s%29%2C%20Sir%20Benfro%2C%20Cymru%2C%20Wales%2015.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Whitesands_Bay_(Pembrokeshire)"
+    }
+  }
+}

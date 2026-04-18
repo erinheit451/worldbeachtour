@@ -1,0 +1,64 @@
+{
+  "slug": "nissi-bay",
+  "name": "NISSI BAY",
+  "centroid_lat": 34.9868,
+  "centroid_lng": 33.9671,
+  "country_code": "CY",
+  "admin_level_1": "Ammochostos",
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": 3200.0,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/1071510291",
+      "source_url": "https://www.openstreetmap.org/way/1071510291"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7041122",
+      "source_url": "https://www.wikidata.org/wiki/Q7041122"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CY000310000000016A",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "CY000310000000016A",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Nissi-Beach.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Nissi_Beach"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  },
+  "nearest_city": "Ayia Napa",
+  "nearest_city_distance_km": 3.2,
+  "nearest_airport": {
+    "iata": "GEC",
+    "name": "Lefkoniko Airport / Geçitkale Air Base",
+    "distance_km": 35.7
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "lifeguard": true,
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "parking": true,
+    "restrooms": true,
+    "showers": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Nissi_Beach",
+  "notability_score": 37.1,
+  "data_completeness_pct": 37.5
+}

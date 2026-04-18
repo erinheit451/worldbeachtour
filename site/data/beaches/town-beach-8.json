@@ -1,0 +1,55 @@
+{
+  "slug": "town-beach-8",
+  "name": "Town Beach",
+  "centroid_lat": 41.3037644,
+  "centroid_lng": -72.1051379,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/380513461",
+      "source_url": "https://www.openstreetmap.org/way/380513461"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1026118127",
+      "source_url": "https://www.openstreetmap.org/way/1026118127"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/1420811062",
+      "source_url": "https://www.openstreetmap.org/way/1420811062"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q104845980",
+      "source_url": "https://www.wikidata.org/wiki/Q104845980"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31811087",
+      "source_url": "https://www.wikidata.org/wiki/Q31811087"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q31811136",
+      "source_url": "https://www.wikidata.org/wiki/Q31811136"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true
+    },
+    "facilities": {
+      "access": "yes"
+    },
+    "social": {
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ocean_Beach_(New_London)"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "omaha-beach-3",
+  "name": "Omaha Beach",
+  "centroid_lat": 49.368888888,
+  "centroid_lng": -0.868611111,
+  "country_code": "FR",
+  "admin_level_1": "Lower Normandy",
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": 8600.0,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q464257",
+      "source_url": "https://www.wikidata.org/wiki/Q464257"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/1944%20NormandyLST.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Omaha_Beach"
+    }
+  },
+  "nearest_city": "Port-en-Bessin-Huppain",
+  "nearest_city_distance_km": 8.6,
+  "nearest_airport": {
+    "iata": "CFR",
+    "name": "Caen Carpiquet airport",
+    "distance_km": 36.8
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Omaha_Beach",
+  "notability_score": 42.6,
+  "data_completeness_pct": 25.0
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "shelly-beach-8",
+  "name": "Shelly Beach",
+  "centroid_lat": -33.8005227,
+  "centroid_lng": 151.2979356,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/179948425",
+      "source_url": "https://www.openstreetmap.org/way/179948425"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7493888",
+      "source_url": "https://www.wikidata.org/wiki/Q7493888"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "dog_friendly": false,
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Looking%20over%20Shelly%20Beach%20and%20Cabbage%20Tree%20Bay%20in%20Sydney.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Shelly_Beach_(Manly)"
+    },
+    "safety": {
+      "lifeguard": false
+    }
+  }
+}

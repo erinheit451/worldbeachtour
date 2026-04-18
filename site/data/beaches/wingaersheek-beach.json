@@ -1,0 +1,40 @@
+{
+  "slug": "wingaersheek-beach",
+  "name": "Wingaersheek Beach",
+  "centroid_lat": 42.6501467,
+  "centroid_lng": -70.6857043,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/81522127",
+      "source_url": "https://www.openstreetmap.org/way/81522127"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/81994778",
+      "source_url": "https://www.openstreetmap.org/way/81994778"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/82006006",
+      "source_url": "https://www.openstreetmap.org/way/82006006"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q8025133",
+      "source_url": "https://www.wikidata.org/wiki/Q8025133"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wingaersheek%20beach%20summer%20sunset.JPG",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Wingaersheek_Beach"
+    }
+  }
+}

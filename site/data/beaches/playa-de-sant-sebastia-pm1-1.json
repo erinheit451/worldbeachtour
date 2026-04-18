@@ -1,0 +1,39 @@
+{
+  "slug": "playa-de-sant-sebastia-pm1-1",
+  "name": "PLAYA DE SANT SEBASTIÀ PM1",
+  "centroid_lat": 41.3723,
+  "centroid_lng": 2.1897,
+  "country_code": "ES",
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q3331620",
+      "source_url": "https://www.wikidata.org/wiki/Q3331620"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES511M0192471",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "ES511M0192471",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/W%20Barcelona%20by%20Ricardo%20Bofill.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sant_Sebasti%C3%A0"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "rockaway-beach",
+  "name": "Rockaway Beach",
+  "centroid_lat": 40.5714942,
+  "centroid_lng": -73.851524,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "node/357582584",
+      "source_url": "https://www.openstreetmap.org/node/357582584"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q34711903",
+      "source_url": "https://www.wikidata.org/wiki/Q34711903"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Rockaway%20Beach%20Queens.JPG",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Rockaway_Beach_and_Boardwalk"
+    }
+  }
+}

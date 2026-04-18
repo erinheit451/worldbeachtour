@@ -1,0 +1,30 @@
+{
+  "slug": "sand-dollar-beach-1",
+  "name": "Sand Dollar Beach",
+  "centroid_lat": 35.9239254,
+  "centroid_lng": -121.4698413,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/255485284",
+      "source_url": "https://www.openstreetmap.org/way/255485284"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49324590",
+      "source_url": "https://www.wikidata.org/wiki/Q49324590"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sand%20Dollar%20Beach%20-%20Big%20Sur.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sand_Dollar_Beach"
+    }
+  }
+}

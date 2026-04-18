@@ -1,0 +1,30 @@
+{
+  "slug": "marve-beach",
+  "name": "Marvé Beach",
+  "centroid_lat": 19.1973,
+  "centroid_lng": 72.7968,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/911455478",
+      "source_url": "https://www.openstreetmap.org/way/911455478"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q6778535",
+      "source_url": "https://www.wikidata.org/wiki/Q6778535"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Marve-creek.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Marv%C3%A9_Beach"
+    }
+  }
+}

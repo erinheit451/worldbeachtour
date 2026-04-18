@@ -1,0 +1,49 @@
+{
+  "slug": "praia-da-granja",
+  "name": "Praia da Granja",
+  "centroid_lat": 41.0406883,
+  "centroid_lng": -8.6504822,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/691310725",
+      "source_url": "https://www.openstreetmap.org/way/691310725"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "way/691310728",
+      "source_url": "https://www.openstreetmap.org/way/691310728"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7237768",
+      "source_url": "https://www.wikidata.org/wiki/Q7237768"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCV3D",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "eu_bathing",
+      "source_id": "PTCV3D",
+      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20da%20Granja%20-%20Portugal%20%28232970391%29.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_da_Granja"
+    },
+    "environment": {
+      "water_quality_rating": "1 - excellent",
+      "eu_bathing_water_type": "Coastal"
+    }
+  }
+}

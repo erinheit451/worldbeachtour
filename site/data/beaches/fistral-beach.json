@@ -1,0 +1,30 @@
+{
+  "slug": "fistral-beach",
+  "name": "Fistral Beach",
+  "centroid_lat": 50.4182741,
+  "centroid_lng": -5.1023226,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "relation/1017447",
+      "source_url": "https://www.openstreetmap.org/relation/1017447"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q5455353",
+      "source_url": "https://www.wikidata.org/wiki/Q5455353"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Fistral%20Beach%20%281%29.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Fistral_Beach"
+    }
+  }
+}

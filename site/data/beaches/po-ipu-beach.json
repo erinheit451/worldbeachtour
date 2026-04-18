@@ -1,0 +1,40 @@
+{
+  "slug": "po-ipu-beach",
+  "name": "Poʻipū Beach",
+  "centroid_lat": 21.8731715,
+  "centroid_lng": -159.4549377,
+  "country_code": null,
+  "admin_level_1": null,
+  "admin_level_2": null,
+  "water_body_type": "ocean",
+  "substrate_type": "unknown",
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/832033957",
+      "source_url": "https://www.openstreetmap.org/way/832033957"
+    },
+    {
+      "source_name": "osm",
+      "source_id": "relation/1576026",
+      "source_url": "https://www.openstreetmap.org/relation/1576026"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q7208411",
+      "source_url": "https://www.wikidata.org/wiki/Q7208411"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q49325181",
+      "source_url": "https://www.wikidata.org/wiki/Q49325181"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Aerial-Poipu-Beach-Park-Kauai.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Po%CA%BBip%C5%AB_Beach_Park"
+    }
+  }
+}
