@@ -71,9 +71,19 @@ def compute_length_and_orientation(geometry_geojson: dict) -> tuple[float, float
     return length, bearing
 
 
+_POLYGON_TYPES = {"Polygon", "MultiPolygon"}
+
+
 def enrich_geometry_derived(conn) -> int:
     """Fill beach_length_m, orientation_deg, orientation_label, sunset_visible
-    for every beach with a polygon but missing those fields."""
+    for every beach with a polygon/multipolygon but missing those fields.
+
+    Beaches stored as Point geometries cannot have an MBR — they are skipped.
+    The coverage-delta assertion only fires when at least one polygon was seen,
+    so a DB of all Points is a graceful no-op (with a warning) rather than a
+    failure. Populating polygons for Point-only beaches is out of scope for
+    this pipeline — see `docs/future-scope-polygon-geometry-fetch.md`.
+    """
     run_id = log_run_start(conn, "geometry_derived", phase="A")
     before_len = coverage_count(conn, "beaches", "beach_length_m")
 
@@ -85,9 +95,13 @@ def enrich_geometry_derived(conn) -> int:
 
     updated = 0
     errors = 0
+    polygon_count = 0
     for row in tqdm(rows, desc="geometry-derived"):
         try:
             geom = json.loads(row["geometry_geojson"])
+            if geom.get("type") not in _POLYGON_TYPES:
+                continue
+            polygon_count += 1
             length, bearing = compute_length_and_orientation(geom)
             if length is None or length <= 0 or bearing is None:
                 continue
@@ -112,11 +126,24 @@ def enrich_geometry_derived(conn) -> int:
     conn.commit()
     log_run_finish(conn, run_id, "ok", total_processed=updated, total_errors=errors)
 
-    if rows:
-        assert_coverage_delta(
-            conn, "beaches", "beach_length_m",
-            before=before_len, min_delta=max(1, len(rows) // 10),
+    print(
+        f"geometry_derived: scanned {len(rows)}, polygons seen {polygon_count}, "
+        f"updated {updated}, errors {errors}"
+    )
+    if polygon_count == 0:
+        print(
+            "  WARNING: no polygon/multipolygon geometries found. Beach length / "
+            "orientation cannot be derived from Point geometries. Populate polygons "
+            "via OSM fetch (see docs/future-scope-polygon-geometry-fetch.md) to use "
+            "this pipeline."
         )
+        return 0
+
+    # Only assert coverage delta when polygons were available to process.
+    assert_coverage_delta(
+        conn, "beaches", "beach_length_m",
+        before=before_len, min_delta=max(1, polygon_count // 10),
+    )
     return updated
 
 
