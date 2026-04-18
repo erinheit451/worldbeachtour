@@ -257,3 +257,92 @@ def test_expand_pageviews_skips_beach_when_no_sitelink(db_with_beaches, monkeypa
     ).fetchone()
     assert row["wikipedia_url"] is None
     assert row["wikipedia_page_views_annual"] is None
+
+
+def test_fetch_annual_views_raises_httperror_on_429(monkeypatch):
+    """_fetch_annual_views now translates urllib HTTPError(429) → HttpError."""
+    import urllib.error
+    from src.enrich import wikipedia_pageviews as wp
+    from src.enrich._common import HttpError
+    import pytest
+
+    def fake_urlopen(*a, **k):
+        raise urllib.error.HTTPError(
+            url="https://wikimedia/...", code=429, msg="Too Many Requests",
+            hdrs={}, fp=None,
+        )
+    monkeypatch.setattr(wp.urllib.request, "urlopen", fake_urlopen)
+
+    with pytest.raises(HttpError) as ei:
+        wp._fetch_annual_views("Bondi_Beach")
+    assert ei.value.status_code == 429
+
+
+def test_fetch_annual_views_raises_httperror_on_5xx(monkeypatch):
+    import urllib.error
+    from src.enrich import wikipedia_pageviews as wp
+    from src.enrich._common import HttpError
+    import pytest
+
+    def fake_urlopen(*a, **k):
+        raise urllib.error.HTTPError(
+            url="https://wikimedia/...", code=503, msg="Service Unavailable",
+            hdrs={}, fp=None,
+        )
+    monkeypatch.setattr(wp.urllib.request, "urlopen", fake_urlopen)
+
+    with pytest.raises(HttpError):
+        wp._fetch_annual_views("Bondi_Beach")
+
+
+def test_fetch_annual_views_still_returns_none_on_404(monkeypatch):
+    """Existing 404 behavior preserved (no regression)."""
+    import urllib.error
+    from src.enrich import wikipedia_pageviews as wp
+
+    def fake_urlopen(*a, **k):
+        raise urllib.error.HTTPError(
+            url="https://wikimedia/...", code=404, msg="Not Found",
+            hdrs={}, fp=None,
+        )
+    monkeypatch.setattr(wp.urllib.request, "urlopen", fake_urlopen)
+
+    assert wp._fetch_annual_views("Nonexistent_Beach_xyz") is None
+
+
+def test_expand_pageviews_reraises_wikimedia_429(db_with_beaches, monkeypatch):
+    """A 429 from the pageviews endpoint should break the loop, not be silently counted."""
+    from src.enrich import wikipedia_pageviews as wp
+    from src.enrich._common import HttpError
+    import pytest
+
+    db_with_beaches.execute("UPDATE beaches SET wikidata_id='Q180402' WHERE id='b3'")
+    db_with_beaches.commit()
+
+    monkeypatch.setattr(wp, "resolve_wikidata_to_wikipedia_title", lambda qid, lang="en": "Bondi Beach")
+    def boom(title):
+        raise HttpError("rate-limited", status_code=429, url="https://wikimedia/...")
+    monkeypatch.setattr(wp, "_fetch_annual_views", boom)
+    monkeypatch.setattr(wp.time, "sleep", lambda *a, **k: None)
+
+    with pytest.raises(HttpError):
+        wp.expand_pageviews(db_with_beaches)
+
+
+def test_expand_pageviews_throttles_even_on_skip_path(db_with_beaches, monkeypatch):
+    """time.sleep must fire for every iteration, including no-sitelink beaches."""
+    from src.enrich import wikipedia_pageviews as wp
+
+    # Three beaches with wikidata_ids, all with no enwiki sitelink
+    db_with_beaches.execute("UPDATE beaches SET wikidata_id='Q1' WHERE id='b1'")
+    db_with_beaches.execute("UPDATE beaches SET wikidata_id='Q2' WHERE id='b2'")
+    db_with_beaches.execute("UPDATE beaches SET wikidata_id='Q3' WHERE id='b3'")
+    db_with_beaches.commit()
+
+    monkeypatch.setattr(wp, "resolve_wikidata_to_wikipedia_title", lambda qid, lang="en": None)
+    sleep_calls = []
+    monkeypatch.setattr(wp.time, "sleep", lambda s: sleep_calls.append(s))
+
+    wp.expand_pageviews(db_with_beaches)
+    # Three iterations, three throttles — even though all are skipped
+    assert len(sleep_calls) == 3

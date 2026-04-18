@@ -53,8 +53,10 @@ def _fetch_annual_views(title: str) -> int | None:
     Fetch monthly page views for 2025 and sum them.
 
     Returns None on 404 (article not found / renamed).
-    Raises for other HTTP errors.
+    Raises HttpError on 429/auth/5xx (to enforce silent-failure policy).
+    Raises other HTTPError on unexpected status codes.
     """
+    from src.enrich._common import HttpError  # local import to avoid reordering
     url = PAGEVIEWS_API.format(title=title)
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     try:
@@ -63,7 +65,13 @@ def _fetch_annual_views(title: str) -> int | None:
     except urllib.error.HTTPError as exc:
         if exc.code == 404:
             return None
-        raise
+        if exc.code == 429:
+            raise HttpError(f"rate-limited ({url})", status_code=429, url=url) from exc
+        if exc.code in (401, 403):
+            raise HttpError(f"auth failure {exc.code} ({url})", status_code=exc.code, url=url) from exc
+        if 500 <= exc.code < 600:
+            raise HttpError(f"server error {exc.code} ({url})", status_code=exc.code, url=url) from exc
+        raise HttpError(f"http {exc.code} ({url})", status_code=exc.code, url=url) from exc
 
     items = data.get("items", [])
     return sum(item.get("views", 0) for item in items)
@@ -183,6 +191,7 @@ def expand_pageviews(conn, limit: int | None = None) -> int:
     updated = 0
     errors = 0
     for row in tqdm(targets, desc="resolving wikidata→wiki pageviews"):
+        time.sleep(DELAY_S)  # throttle every iteration, even on skip paths
         try:
             title = resolve_wikidata_to_wikipedia_title(row["wikidata_id"])
             if not title:
@@ -208,7 +217,6 @@ def expand_pageviews(conn, limit: int | None = None) -> int:
         except Exception:
             # Individual parse/other error: count and continue
             errors += 1
-        time.sleep(DELAY_S)
 
     conn.commit()
     log_run_finish(conn, run_id, "ok", total_processed=updated, total_errors=errors)
