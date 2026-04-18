@@ -10,7 +10,7 @@ from src.enrich._common import _check_ident
 
 SMOKE_BEACHES = {
     "waikiki-beach":     "Honolulu, USA — sandy Pacific beach, well-documented, easily verifiable",
-    "catedrais":         "Galicia, Spain — only accessible at low tide, so tide_range_spring_m must be large",
+    "praia-das-catedrais": "Galicia, Spain — only accessible at low tide, so tide_range_spring_m must be large",
     "navagio":           "Zakynthos, Greece — cliff-enclosed Ionian Sea beach, featured in Bond",
     "oppenheimer-beach": "Zanzibar, Tanzania — ferry-only Indian Ocean beach",
 }

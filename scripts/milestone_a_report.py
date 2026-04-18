@@ -67,7 +67,7 @@ def main():
 
     print()
     print("Smoke beaches (expected: present + key fields filled):")
-    for slug in ["waikiki-beach", "catedrais", "navagio", "oppenheimer-beach"]:
+    for slug in ["waikiki-beach", "praia-das-catedrais", "navagio", "oppenheimer-beach"]:
         try:
             row = conn.execute(
                 """SELECT name, admin_level_2, beach_length_m, tide_range_spring_m,
