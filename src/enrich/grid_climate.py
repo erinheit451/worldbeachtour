@@ -68,12 +68,11 @@ def _fetch_open_meteo_climate(lat: float, lng: float) -> dict | None:
         ]),
         "timezone": "auto",
     }
-    try:
-        resp = requests.get(url, params=params, timeout=60)
-        resp.raise_for_status()
-        data = resp.json()
-    except Exception:
-        return None
+    resp = requests.get(url, params=params, timeout=60)
+    if resp.status_code == 429:
+        raise RuntimeError(f"Open-Meteo 429 rate-limited: {resp.text[:200]}")
+    resp.raise_for_status()
+    data = resp.json()
 
     daily = data.get("daily", {})
     if not daily or not daily.get("time"):
@@ -152,14 +151,13 @@ def _fetch_open_meteo_marine(lat: float, lng: float) -> dict | None:
         "end_date": "2024-12-31",
         "timezone": "auto",
     }
-    try:
-        resp = requests.get(url, params=params, timeout=60)
-        if resp.status_code == 400:
-            return None  # Inland point, no marine data
-        resp.raise_for_status()
-        data = resp.json()
-    except Exception:
-        return None
+    resp = requests.get(url, params=params, timeout=60)
+    if resp.status_code == 400:
+        return None  # Inland point, no marine data
+    if resp.status_code == 429:
+        raise RuntimeError(f"Open-Meteo marine 429 rate-limited: {resp.text[:200]}")
+    resp.raise_for_status()
+    data = resp.json()
 
     daily = data.get("daily", {})
     if not daily or not daily.get("time"):
