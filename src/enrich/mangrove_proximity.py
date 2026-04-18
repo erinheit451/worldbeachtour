@@ -82,7 +82,7 @@ def enrich_mangrove_proximity(conn, gmw_path: Path = GMW_PATH) -> int:
         (-MANGROVE_LAT_BAND, MANGROVE_LAT_BAND),
     ).fetchone()[0]
     print(f"  {len(rows):,} tropical/subtropical beaches to check")
-    print(f"  {out_of_band:,} beaches outside mangrove band → marked 0")
+    print(f"  {out_of_band:,} beaches outside mangrove band -> marked 0")
 
     updated = 0
     for r in tqdm(rows, desc="mangrove match"):
