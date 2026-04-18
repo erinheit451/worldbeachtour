@@ -25,8 +25,8 @@ def test_deg_per_meter_polar_guard():
 def test_beach_bbox_is_roughly_symmetric_at_equator():
     minx, miny, maxx, maxy = _beach_bbox(0.0, 0.0, 1000)
     assert math.isclose(maxx - minx, maxy - miny, rel_tol=1e-3)
-    # 1000m ~ 0.009 deg at equator
-    assert 0.008 < (maxy - miny) < 0.011
+    # 1000m ~ 0.009 deg on each side at equator → diameter ~0.018 deg
+    assert 0.016 < (maxy - miny) < 0.020
 
 
 def test_enrich_raises_when_shapefile_missing():
