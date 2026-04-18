@@ -290,8 +290,10 @@ def enrich_ibtracs_cyclones(conn, csv_path: Path = IBTRACS_PATH) -> int:
             ):
                 stats["max_cat"] = category
 
-        if storms_processed % 500 == 0:
-            conn.commit()
+        # Commit per-storm. Each storm inserts 100-1000 hazard rows; holding a
+        # transaction across 500 storms locks the DB for minutes and starves
+        # concurrent pipelines. Per-storm commits cap each lock hold to < 1 sec.
+        conn.commit()
 
     conn.commit()
 
