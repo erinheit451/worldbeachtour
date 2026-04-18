@@ -67,8 +67,10 @@ def test_enrich_geometry_updates_db(db_with_beaches):
         "FROM beaches WHERE id='b1'"
     ).fetchone()
     assert 900 < row["beach_length_m"] < 1300
-    assert row["orientation_deg"] is not None
-    assert row["orientation_label"] in ("N", "NE", "E", "SE", "S", "SW", "W", "NW")
+    # Rect is E-W (long side along longitude) → bearing ~90° → label "E", no sunset
+    assert 80 <= row["orientation_deg"] <= 100
+    assert row["orientation_label"] == "E"
+    assert row["sunset_visible"] == 0
 
 
 def test_enrich_geometry_skips_beach_without_polygon(db_with_beaches):
@@ -76,3 +78,36 @@ def test_enrich_geometry_skips_beach_without_polygon(db_with_beaches):
     n = enrich_geometry_derived(db_with_beaches)
     # 0 updates since none of the sample beaches have geometries
     assert n == 0
+
+
+def _tall_rect(lat, lng, half_lng=0.0005, half_lat=0.005):
+    """N-S rect: longer side along latitude (north-south orientation)."""
+    return {
+        "type": "Polygon",
+        "coordinates": [[
+            [lng - half_lng, lat - half_lat],
+            [lng + half_lng, lat - half_lat],
+            [lng + half_lng, lat + half_lat],
+            [lng - half_lng, lat + half_lat],
+            [lng - half_lng, lat - half_lat],
+        ]],
+    }
+
+
+def test_enrich_geometry_flags_sunset_for_ns_axis(db_with_beaches):
+    import json
+    db_with_beaches.execute(
+        "UPDATE beaches SET geometry_geojson=? WHERE id='b1'",
+        (json.dumps(_tall_rect(21.274, -157.826)),),
+    )
+    db_with_beaches.commit()
+
+    enrich_geometry_derived(db_with_beaches)
+
+    row = db_with_beaches.execute(
+        "SELECT orientation_deg, orientation_label, sunset_visible "
+        "FROM beaches WHERE id='b1'"
+    ).fetchone()
+    # N-S axis → bearing ~0° (or just under 180° after normalization)
+    assert row["orientation_label"] == "N" or row["orientation_label"] == "S"
+    assert row["sunset_visible"] == 1

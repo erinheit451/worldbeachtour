@@ -1,4 +1,9 @@
-"""Derive beach_length_m, orientation_deg, orientation_label, sunset_visible from existing polygon geometry."""
+"""Derive beach_length_m, orientation_deg, orientation_label, sunset_visible from existing polygon geometry.
+
+`sunset_visible=1` when the beach's long axis runs N-S (within ±22.5°), meaning the coast
+plausibly faces east or west. We cannot distinguish sunrise-facing from sunset-facing from
+an undirected axis alone.
+"""
 
 import json
 import math
@@ -87,7 +92,11 @@ def enrich_geometry_derived(conn) -> int:
             if length is None or length <= 0 or bearing is None:
                 continue
             label = _orientation_label(bearing)
-            sunset = 1 if 225 <= bearing <= 315 else 0
+            # Sunset OR sunrise possible when the beach's long axis runs N-S
+            # (bearing near 0° or 180°, within 22.5° = one compass point).
+            # We can't distinguish E- vs W-facing from an undirected axis, so this
+            # flag means "coast plausibly faces east or west."
+            sunset = 1 if (bearing < 22.5 or bearing >= 157.5) else 0
             conn.execute(
                 """UPDATE beaches SET beach_length_m=?, orientation_deg=?,
                    orientation_label=?, sunset_visible=?, updated_at=datetime('now')
