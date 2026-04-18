@@ -108,31 +108,49 @@ def _sample_beach_months(rasters: list, lat: float, lng: float) -> list | None:
 def enrich_worldclim_climate(conn) -> int:
     """Enrich beaches with WorldClim v2.1 climate data.
 
-    Processes one variable at a time to avoid holding all 72 rasters in RAM.
-    Commits every 5 000 rows. Returns number of beaches enriched.
+    Each variable is processed independently: we re-query per-variable for
+    beaches still missing THAT specific column, since different vars have
+    different partial-fill state across resumed runs. Commits every 5000 rows.
     """
     _ensure_unzipped()
 
     run_id = log_run_start(conn, "worldclim_climate", phase="A")
-    before = coverage_count(conn, "beaches", "climate_air_temp_high")
 
-    rows = conn.execute(
-        "SELECT id, centroid_lat, centroid_lng FROM beaches "
-        "WHERE climate_air_temp_high IS NULL AND centroid_lat IS NOT NULL"
-    ).fetchall()
+    # Pick the laggard column as the coverage-assertion target — the one most
+    # likely to need populating if anything actually needs doing.
+    all_null_counts = {
+        col: conn.execute(
+            f"SELECT COUNT(*) FROM beaches WHERE {col} IS NULL AND centroid_lat IS NOT NULL"
+        ).fetchone()[0]
+        for col, _ in VARIABLES
+    }
+    laggard_col = max(all_null_counts, key=all_null_counts.get)
+    laggard_missing = all_null_counts[laggard_col]
+    before_laggard = coverage_count(conn, "beaches", laggard_col)
 
-    if not rows:
+    total_missing = sum(all_null_counts.values())
+    if total_missing == 0:
         log_run_finish(conn, run_id, "ok", total_processed=0)
-        print("WorldClim: no beaches to enrich (all already have climate_air_temp_high)")
+        print("WorldClim: all variables already populated")
         return 0
 
-    print(f"WorldClim: {len(rows):,} beaches to enrich")
+    print("WorldClim missing-by-variable:")
+    for col, n in all_null_counts.items():
+        print(f"  {col:28s} {n:>10,}")
 
-    # Track which beach IDs receive at least one variable successfully
     updated_ids: set = set()
 
     for col, var in VARIABLES:
-        print(f"\nsampling {var} -> {col} ...")
+        # Per-variable target list: only beaches where THIS column is null.
+        rows = conn.execute(
+            f"SELECT id, centroid_lat, centroid_lng FROM beaches "
+            f"WHERE {col} IS NULL AND centroid_lat IS NOT NULL"
+        ).fetchall()
+        if not rows:
+            print(f"\n{var} -> {col}: already complete, skipping")
+            continue
+
+        print(f"\nsampling {var} -> {col} for {len(rows):,} beaches...")
         rasters = _open_var_rasters(var)
         batch_updates: list[tuple] = []
 
@@ -177,14 +195,15 @@ def enrich_worldclim_climate(conn) -> int:
 
     log_run_finish(conn, run_id, "ok", total_processed=len(updated_ids))
 
-    if rows:
+    # Assert on the laggard variable (most likely to actually move)
+    if laggard_missing >= 100:
         assert_coverage_delta(
-            conn, "beaches", "climate_air_temp_high",
-            before=before,
-            min_delta=max(1, len(rows) // 2),
+            conn, "beaches", laggard_col,
+            before=before_laggard,
+            min_delta=max(1, laggard_missing // 2),
         )
 
-    print(f"\nWorldClim: {len(updated_ids):,} beaches enriched")
+    print(f"\nWorldClim: {len(updated_ids):,} beaches touched across {len(VARIABLES)} variables")
     return len(updated_ids)
 
 
