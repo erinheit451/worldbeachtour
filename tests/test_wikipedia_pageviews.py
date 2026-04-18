@@ -160,3 +160,100 @@ def test_skips_already_enriched(db_with_beaches):
 
     mock_open.assert_not_called()
     assert result["processed"] == 0
+
+
+def test_resolve_wikidata_to_wikipedia_title(monkeypatch):
+    """Given a Wikidata QID, return the English Wikipedia page title via sitelinks."""
+    from src.enrich import wikipedia_pageviews as wp
+
+    fake_response = {
+        "entities": {
+            "Q180402": {
+                "sitelinks": {
+                    "enwiki": {"title": "Bondi Beach"},
+                    "eswiki": {"title": "Playa Bondi"},
+                }
+            }
+        }
+    }
+
+    class FakeResp:
+        status_code = 200
+        url = "https://www.wikidata.org/..."
+        text = ""
+        def json(self): return fake_response
+        def raise_for_status(self): pass
+
+    monkeypatch.setattr(wp.requests, "get", lambda *a, **k: FakeResp())
+    assert wp.resolve_wikidata_to_wikipedia_title("Q180402") == "Bondi Beach"
+
+
+def test_resolve_wikidata_returns_none_when_no_sitelink(monkeypatch):
+    """If the entity has no enwiki sitelink, return None (don't raise)."""
+    from src.enrich import wikipedia_pageviews as wp
+
+    class FakeResp:
+        status_code = 200
+        url = "https://www.wikidata.org/..."
+        text = ""
+        def json(self): return {"entities": {"Q1": {"sitelinks": {"eswiki": {"title": "x"}}}}}
+        def raise_for_status(self): pass
+
+    monkeypatch.setattr(wp.requests, "get", lambda *a, **k: FakeResp())
+    assert wp.resolve_wikidata_to_wikipedia_title("Q1") is None
+
+
+def test_resolve_wikidata_raises_on_429(monkeypatch):
+    from src.enrich import wikipedia_pageviews as wp
+    from src.enrich._common import HttpError
+
+    class FakeResp:
+        status_code = 429
+        text = "rate limited"
+        url = "https://www.wikidata.org/..."
+
+    monkeypatch.setattr(wp.requests, "get", lambda *a, **k: FakeResp())
+    import pytest
+    with pytest.raises(HttpError):
+        wp.resolve_wikidata_to_wikipedia_title("Q180402")
+
+
+def test_expand_pageviews_updates_db(db_with_beaches, monkeypatch):
+    """Driver resolves QID→title and writes both wikipedia_url and page views."""
+    from src.enrich import wikipedia_pageviews as wp
+
+    db_with_beaches.execute("UPDATE beaches SET wikidata_id='Q180402' WHERE id='b3'")
+    db_with_beaches.commit()
+
+    monkeypatch.setattr(wp, "resolve_wikidata_to_wikipedia_title", lambda qid, lang="en": "Bondi Beach")
+    monkeypatch.setattr(wp, "_fetch_annual_views", lambda title: 50000)
+    monkeypatch.setattr(wp.time, "sleep", lambda *a, **k: None)  # skip rate-limit wait in tests
+
+    count = wp.expand_pageviews(db_with_beaches)
+    assert count == 1
+
+    row = db_with_beaches.execute(
+        "SELECT wikipedia_url, wikipedia_page_views_annual FROM beaches WHERE id='b3'"
+    ).fetchone()
+    assert row["wikipedia_url"] == "https://en.wikipedia.org/wiki/Bondi_Beach"
+    assert row["wikipedia_page_views_annual"] == 50000
+
+
+def test_expand_pageviews_skips_beach_when_no_sitelink(db_with_beaches, monkeypatch):
+    """If the QID has no enwiki sitelink, the beach is skipped (no URL/views written)."""
+    from src.enrich import wikipedia_pageviews as wp
+
+    db_with_beaches.execute("UPDATE beaches SET wikidata_id='Q9999' WHERE id='b3'")
+    db_with_beaches.commit()
+
+    monkeypatch.setattr(wp, "resolve_wikidata_to_wikipedia_title", lambda qid, lang="en": None)
+    monkeypatch.setattr(wp.time, "sleep", lambda *a, **k: None)
+
+    count = wp.expand_pageviews(db_with_beaches)
+    assert count == 0
+
+    row = db_with_beaches.execute(
+        "SELECT wikipedia_url, wikipedia_page_views_annual FROM beaches WHERE id='b3'"
+    ).fetchone()
+    assert row["wikipedia_url"] is None
+    assert row["wikipedia_page_views_annual"] is None

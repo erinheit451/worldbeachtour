@@ -141,6 +141,85 @@ def enrich_wikipedia_pageviews(conn, *, dry_run: bool = False) -> dict:
     }
 
 
+import requests
+
+from src.enrich._common import (
+    raise_for_http, log_run_start, log_run_finish,
+    coverage_count, assert_coverage_delta, HttpError,
+)
+
+WIKIDATA_ENTITY_URL = "https://www.wikidata.org/wiki/Special:EntityData/{qid}.json"
+
+
+def resolve_wikidata_to_wikipedia_title(qid: str, lang: str = "en") -> str | None:
+    """Resolve a Wikidata QID to the Wikipedia page title in the given language.
+    Returns None if the entity has no sitelink for that language.
+    Raises HttpError on 429/auth/5xx (no silent swallow)."""
+    url = WIKIDATA_ENTITY_URL.format(qid=qid)
+    resp = requests.get(url, timeout=20, headers={"User-Agent": USER_AGENT})
+    raise_for_http(resp)
+    data = resp.json()
+    sitelinks = data.get("entities", {}).get(qid, {}).get("sitelinks", {})
+    entry = sitelinks.get(f"{lang}wiki")
+    return entry["title"] if entry else None
+
+
+def expand_pageviews(conn, limit: int | None = None) -> int:
+    """For every beach with wikidata_id but no wikipedia_url, resolve + fetch pageviews.
+    Returns count of beaches updated. Raises CoverageAssertionError if the pipeline
+    had >=100 targets but filled <10% of them (silent-failure detection)."""
+    run_id = log_run_start(conn, "wikipedia_pageviews_expand", phase="A")
+    before = coverage_count(conn, "beaches", "wikipedia_page_views_annual")
+
+    q = """SELECT id, wikidata_id FROM beaches
+           WHERE wikidata_id IS NOT NULL AND wikipedia_url IS NULL"""
+    if limit:
+        q += f" LIMIT {int(limit)}"
+    targets = conn.execute(q).fetchall()
+    if not targets:
+        log_run_finish(conn, run_id, "ok", total_processed=0)
+        return 0
+
+    updated = 0
+    errors = 0
+    for row in tqdm(targets, desc="resolving wikidata→wiki pageviews"):
+        try:
+            title = resolve_wikidata_to_wikipedia_title(row["wikidata_id"])
+            if not title:
+                continue
+            views = _fetch_annual_views(title)
+            if views is None:
+                # 404: article gone since Wikidata record — skip, don't write URL
+                continue
+            url = f"https://en.wikipedia.org/wiki/{title.replace(' ', '_')}"
+            conn.execute(
+                """UPDATE beaches SET wikipedia_url=?, wikipedia_page_views_annual=?,
+                   updated_at=datetime('now') WHERE id=?""",
+                (url, views, row["id"]),
+            )
+            updated += 1
+            if updated % 500 == 0:
+                conn.commit()
+        except HttpError:
+            # 429/auth/5xx: commit what we have, record failure, re-raise loudly
+            conn.commit()
+            log_run_finish(conn, run_id, "error", total_processed=updated, total_errors=errors + 1)
+            raise
+        except Exception:
+            # Individual parse/other error: count and continue
+            errors += 1
+        time.sleep(DELAY_S)
+
+    conn.commit()
+    log_run_finish(conn, run_id, "ok", total_processed=updated, total_errors=errors)
+
+    # Coverage assertion: if we had enough targets, we must have filled *something*
+    if len(targets) >= 100:
+        assert_coverage_delta(conn, "beaches", "wikipedia_page_views_annual",
+                              before=before, min_delta=max(1, len(targets) // 10))
+    return updated
+
+
 if __name__ == "__main__":
     from src.db.schema import get_connection
     from src.db.migrate_to_enriched import migrate
