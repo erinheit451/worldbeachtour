@@ -5,12 +5,12 @@
   "custom": [],
   "images": {
     "hero": {
-      "url": "/nazare/hero-big-wave.jpg",
-      "title": "A big wave at Nazaré — Praia do Norte",
-      "author": "Walterpeitz",
-      "license": "CC BY-SA 4.0",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Big_Nazare.jpg",
-      "width": 4000, "height": 2248,
+      "url": "/nazare/aerial-shoreline-surfers.jpg",
+      "title": "Nazaré shoreline with surfers — aerial view",
+      "author": "Dmytro Barylo (Unsplash)",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nazaré_shoreline_surfers_(Unsplash).jpg",
+      "width": 5184, "height": 3456,
       "role": "hero"
     },
     "section": {
@@ -21,7 +21,10 @@
       "big_wave_2": { "url": "/nazare/big-wave-2.jpg", "title": "Nazaré big wave in the Praia do Norte break", "author": "Luís Ascenso", "license": "CC BY 3.0", "source_url": "https://commons.wikimedia.org/wiki/File:Nazaré_Praia_Do_Norte_Big_Wave_(133367589).jpeg", "width": 2048, "height": 1365, "role": "section:big_wave_2" },
       "funicular": { "url": "/nazare/funicular.jpg", "title": "The 1889 Funicular da Nazaré — connecting Praia to Sítio", "author": "Mister No", "license": "CC BY 3.0", "source_url": "https://commons.wikimedia.org/wiki/File:Nazare_Funicular_-_panoramio.jpg", "width": 4000, "height": 3000, "role": "section:funicular" },
       "santuario": { "url": "/nazare/santuario.jpg", "title": "Santuário de Nossa Senhora da Nazaré — the 14th-century Marian sanctuary at Sítio", "author": "Bernard Gagnon", "license": "CC BY 4.0", "source_url": "https://commons.wikimedia.org/wiki/File:Sanctuary_of_Our_Lady_of_Nazaré_01.jpg", "width": 6099, "height": 4066, "role": "section:santuario" },
-      "sitio_town": { "url": "/nazare/sitio-town.jpg", "title": "Sítio — the upper town on the cliff", "author": "Threeohsix", "license": "CC BY-SA 4.0", "source_url": "https://commons.wikimedia.org/wiki/File:Coreto_do_Sitio_da_Nazaré_com_Palácio_Real_ao_fundo.jpg", "width": 4624, "height": 3468, "role": "section:sitio_town" }
+      "sitio_town": { "url": "/nazare/sitio-town.jpg", "title": "Sítio — the upper town on the cliff", "author": "Threeohsix", "license": "CC BY-SA 4.0", "source_url": "https://commons.wikimedia.org/wiki/File:Coreto_do_Sitio_da_Nazaré_com_Palácio_Real_ao_fundo.jpg", "width": 4624, "height": 3468, "role": "section:sitio_town" },
+      "hero_big_wave": { "url": "/nazare/hero-big-wave.jpg", "title": "A big wave at Nazaré — Praia do Norte", "author": "Walterpeitz", "license": "CC BY-SA 4.0", "source_url": "https://commons.wikimedia.org/wiki/File:Big_Nazare.jpg", "width": 4000, "height": 2248, "role": "section:hero_big_wave" },
+      "sunset_wave_village": { "url": "/nazare/sunset-wave-village.jpg", "title": "Sunset at Nazaré with village and wave visible", "author": "Tracy Rolling", "license": "CC BY-SA 2.0", "source_url": "https://commons.wikimedia.org/wiki/File:Sunset_-_Nazaré_Municipality,_Leiria,_Portugal.jpg", "width": 2859, "height": 1893, "role": "section:sunset_wave_village" },
+      "lighthouse_with_wave": { "url": "/nazare/lighthouse-with-wave.jpg", "title": "Lighthouse with wave at Praia do Norte", "author": "Luis Ascenso", "license": "CC BY 2.0", "source_url": "https://commons.wikimedia.org/wiki/File:Praia_do_Norte,Nazaré_-13_(50656558647).jpg", "width": 2048, "height": 1365, "role": "section:lighthouse_with_wave" }
     },
     "gallery": [
       { "url": "/nazare/hero-big-wave.jpg", "title": "Big wave at Nazaré", "author": "Walterpeitz", "license": "CC BY-SA 4.0", "width": 4000, "height": 2248 },

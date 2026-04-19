@@ -8,6 +8,7 @@ import LegendaryBeach, {
 import NazareCanyon from "@/components/signature/nazare-canyon";
 import NazareMcnamara from "@/components/signature/nazare-mcnamara";
 import NazareVillage from "@/components/signature/nazare-village";
+import NazarePaths from "@/components/signature/nazare-paths";
 
 const DATA_PATH = path.join(process.cwd(), "data", "beaches", "praia-do-norte-6.json");
 const META_PATH = path.join(process.cwd(), "content", "beaches", "praia-do-norte-6", "meta.json");
@@ -83,6 +84,13 @@ export default function NazarePage() {
         text: "Three centuries inhabit the same kilometer of cliff. Almost nowhere else on Earth does this.",
       }}
       signatures={[
+        {
+          id: "paths",
+          label: "Paths",
+          group: "culture",
+          insertAfter: "story",
+          component: <NazarePaths />,
+        },
         {
           id: "canyon",
           label: "The Canyon",
@@ -266,11 +274,12 @@ export default function NazarePage() {
         ],
       }}
       viewBackImages={[
-        { role: "lighthouse_sunset", caption: "The Forte de São Miguel Arcanjo at sunset — in every iconic big-wave photograph, this is what's visible above the crest." },
-        { role: "forte_lighthouse", caption: "The fortress / lighthouse / surf museum, in daylight. Now the second-most-visited site in town." },
+        { role: "lighthouse_with_wave", caption: "The Forte lighthouse with wave at Praia do Norte — the composition every photographer comes here for." },
+        { role: "sunset_wave_village", caption: "Sunset over Nazaré — the village, the lighthouse, and the wave in the same frame." },
+        { role: "hero_big_wave", caption: "A winter big wave at Praia do Norte — the canyon's gift." },
         { role: "santuario", caption: "The Santuário de Nossa Senhora da Nazaré — the 14th-century Marian sanctuary that predates the modern village by 500 years." },
         { role: "sitio_town", caption: "Sítio, the upper town, looking toward the sanctuary." },
-        { role: "big_wave_2", caption: "A winter big wave at Praia do Norte — the canyon's gift." },
+        { role: "lighthouse_sunset", caption: "The Forte de São Miguel Arcanjo at sunset." },
       ]}
       honestContextTitle="The village beneath"
       honestContextEyebrow="· Honest Context"
