@@ -14,10 +14,22 @@ import BondiBlackSunday from "@/components/signature/bondi-black-sunday";
 
 const DATA_PATH = path.join(process.cwd(), "data", "beaches", "bondi-beach.json");
 const META_PATH = path.join(process.cwd(), "content", "beaches", "bondi-beach", "meta.json");
+// Showcase content lives outside the pipeline-managed data/ JSON so the
+// regeneration pipeline cannot overwrite it. See docs/legendary-beach-playbook.md.
+const SHOWCASE_PATH = path.join(
+  process.cwd(),
+  "content",
+  "beaches",
+  "bondi-beach",
+  "showcase.json"
+);
 
 function loadData(): { data: LegendaryData; meta: LegendaryMeta } {
   const data = JSON.parse(fs.readFileSync(DATA_PATH, "utf-8"));
   const meta = JSON.parse(fs.readFileSync(META_PATH, "utf-8"));
+  if (fs.existsSync(SHOWCASE_PATH)) {
+    data.showcase = JSON.parse(fs.readFileSync(SHOWCASE_PATH, "utf-8"));
+  }
   return { data, meta };
 }
 

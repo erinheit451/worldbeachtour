@@ -20,10 +20,23 @@ const META_PATH = path.join(
   "waikiki-beach-1",
   "meta.json"
 );
+// Showcase content lives outside the pipeline-managed data/ JSON so the
+// regeneration pipeline cannot overwrite it. See docs/legendary-beach-playbook.md.
+const SHOWCASE_PATH = path.join(
+  process.cwd(),
+  "content",
+  "beaches",
+  "waikiki-beach-1",
+  "showcase.json"
+);
 
 function loadData(): { data: LegendaryData; meta: LegendaryMeta } {
   const data = JSON.parse(fs.readFileSync(DATA_PATH, "utf-8"));
   const meta = JSON.parse(fs.readFileSync(META_PATH, "utf-8"));
+  // Merge showcase from its protected location into the beach data
+  if (fs.existsSync(SHOWCASE_PATH)) {
+    data.showcase = JSON.parse(fs.readFileSync(SHOWCASE_PATH, "utf-8"));
+  }
   return { data, meta };
 }
 

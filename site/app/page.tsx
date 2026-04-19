@@ -23,6 +23,11 @@ function loadBeach(slug: string) {
     const meta = JSON.parse(
       fs.readFileSync(path.join(process.cwd(), "content", "beaches", slug, "meta.json"), "utf-8")
     );
+    // Merge protected showcase content (if it exists — signature beaches only)
+    const showcasePath = path.join(process.cwd(), "content", "beaches", slug, "showcase.json");
+    if (fs.existsSync(showcasePath)) {
+      data.showcase = JSON.parse(fs.readFileSync(showcasePath, "utf-8"));
+    }
     return { data, meta };
   } catch {
     return null;

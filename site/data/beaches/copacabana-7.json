@@ -9,6 +9,24 @@
   "water_body_type": "ocean",
   "substrate_type": "unknown",
   "beach_length_m": 7700.0,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Copacabana,_Rio_de_Janeiro",
+  "notability_score": 39.1,
+  "data_completeness_pct": 29.2,
+  "nearest_city": "Rio de Janeiro",
+  "nearest_city_distance_km": 7.7,
+  "nearest_airport": {
+    "iata": "SDU",
+    "name": "Santos Dumont Airport",
+    "distance_km": 6.6
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "parking": true,
+    "restrooms": true,
+    "food_nearby": true
+  },
   "sources": [
     {
       "source_name": "wikidata",
@@ -27,39 +45,1266 @@
       "wikipedia_url": "https://en.wikipedia.org/wiki/Copacabana,_Rio_de_Janeiro"
     }
   },
-  "nearest_city": "Rio de Janeiro",
-  "nearest_city_distance_km": 7.7,
-  "nearest_airport": {
-    "iata": "SDU",
-    "name": "Santos Dumont Airport",
-    "distance_km": 6.6
-  },
-  "safety": {
-    "shark_incidents_total": 0
-  },
-  "facilities": {
-    "parking": true,
-    "restrooms": true
-  },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Copacabana,_Rio_de_Janeiro",
-  "notability_score": 39.1,
-  "data_completeness_pct": 29.2,
-  "sand": {
-    "predicted": {
-      "q_pct": 92.3,
-      "f_pct": 4.3,
-      "l_pct": 3.4,
-      "regime": "quartz-dominant",
-      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+  "species": [
+    {
+      "species_name": "Fregata magnificens",
+      "common_name": "Magnificent Frigatebird",
+      "taxon_group": "bird",
+      "observation_count": 76,
+      "source": "inaturalist"
     },
-    "curated": {
-      "story": "Copacabana's golden quartz sand was trucked in and renourished in the 1970s as part of the beach's expansion to nearly 100 metres width. The native sand — finer, slightly greyer — still outcrops at the eastern end near the Forte de Copacabana, where the original shoreline is preserved.",
-      "citations": [
-        "https://en.wikipedia.org/wiki/Copacabana,_Rio_de_Janeiro"
-      ],
-      "showcase_rank": 20,
-      "reference_photo_url": null,
-      "reference_photo_attribution": null
+    {
+      "species_name": "Callithrix jacchus",
+      "common_name": "Common Marmoset",
+      "taxon_group": "mammal",
+      "observation_count": 54,
+      "source": "inaturalist"
+    },
+    {
+      "species_name": "Columba livia",
+      "common_name": "Rock Pigeon",
+      "taxon_group": "bird",
+      "observation_count": 42,
+      "source": "inaturalist"
+    },
+    {
+      "species_name": "Coragyps atratus",
+      "common_name": "Black Vulture",
+      "taxon_group": "bird",
+      "observation_count": 37,
+      "source": "inaturalist"
+    },
+    {
+      "species_name": "Columbina talpacoti",
+      "common_name": "Ruddy Ground Dove",
+      "taxon_group": "bird",
+      "observation_count": 36,
+      "source": "inaturalist"
+    },
+    {
+      "species_name": "Fluvicola nengeta",
+      "common_name": "Masked Water-Tyrant",
+      "taxon_group": "bird",
+      "observation_count": 33,
+      "source": "inaturalist"
+    },
+    {
+      "species_name": "Thraupis palmarum",
+      "common_name": "Palm Tanager",
+      "taxon_group": "bird",
+      "observation_count": 32,
+      "source": "inaturalist"
+    },
+    {
+      "species_name": "Pitangus sulphuratus",
+      "common_name": "Great Kiskadee",
+      "taxon_group": "bird",
+      "observation_count": 29,
+      "source": "inaturalist"
+    },
+    {
+      "species_name": "Euphonia violacea",
+      "common_name": "Violaceous Euphonia",
+      "taxon_group": "bird",
+      "observation_count": 22,
+      "source": "inaturalist"
+    },
+    {
+      "species_name": "Turdus rufiventris",
+      "common_name": "Rufous-bellied Thrush",
+      "taxon_group": "bird",
+      "observation_count": 19,
+      "source": "inaturalist"
+    },
+    {
+      "species_name": "Larus dominicanus",
+      "common_name": "Kelp Gull",
+      "taxon_group": "bird",
+      "observation_count": 18,
+      "source": "inaturalist"
+    },
+    {
+      "species_name": "Turdus leucomelas",
+      "common_name": "Pale-breasted Thrush",
+      "taxon_group": "bird",
+      "observation_count": 18,
+      "source": "inaturalist"
+    },
+    {
+      "species_name": "Sula leucogaster",
+      "common_name": "Brown Booby",
+      "taxon_group": "bird",
+      "observation_count": 17,
+      "source": "inaturalist"
+    },
+    {
+      "species_name": "Penelope superciliaris",
+      "common_name": "Rusty-margined Guan",
+      "taxon_group": "bird",
+      "observation_count": 16,
+      "source": "inaturalist"
+    },
+    {
+      "species_name": "Machetornis rixosa",
+      "common_name": "Cattle Tyrant",
+      "taxon_group": "bird",
+      "observation_count": 16,
+      "source": "inaturalist"
+    },
+    {
+      "species_name": "Begonia maculata",
+      "common_name": "Polka Dot Begonia",
+      "taxon_group": "plant",
+      "observation_count": 16,
+      "source": "inaturalist"
+    },
+    {
+      "species_name": "Callithrix jacchus × penicillata",
+      "common_name": "Common × Black-tufted-ear Marmoset",
+      "taxon_group": "mammal",
+      "observation_count": 15,
+      "source": "inaturalist"
+    },
+    {
+      "species_name": "Tyrannus melancholicus",
+      "common_name": "Tropical Kingbird",
+      "taxon_group": "bird",
+      "observation_count": 14,
+      "source": "inaturalist"
+    },
+    {
+      "species_name": "Coereba flaveola",
+      "common_name": "Bananaquit",
+      "taxon_group": "bird",
+      "observation_count": 13,
+      "source": "inaturalist"
+    },
+    {
+      "species_name": "Donax hanleyanus",
+      "common_name": null,
+      "taxon_group": "invertebrate",
+      "observation_count": 13,
+      "source": "inaturalist"
     }
-  }
+  ],
+  "climate": {
+    "air_temp_high": [
+      30.61,
+      30.09,
+      29.11,
+      27.02,
+      25.15,
+      24.63,
+      24.58,
+      24.95,
+      26.31,
+      26.96,
+      26.95,
+      28.93
+    ],
+    "air_temp_low": [
+      23.78,
+      23.56,
+      23.14,
+      21.34,
+      19.2,
+      18.33,
+      17.64,
+      17.68,
+      19.13,
+      20.37,
+      20.94,
+      22.41
+    ],
+    "water_temp": [
+      25.3,
+      27.2,
+      26.6,
+      25.3,
+      24.2,
+      23.0,
+      22.2,
+      22.4,
+      23.3,
+      24.0,
+      24.9,
+      23.8
+    ],
+    "rain_mm": [
+      149.3,
+      148.5,
+      142.5,
+      98.5,
+      64.7,
+      45.9,
+      45.9,
+      60.7,
+      73.0,
+      82.0,
+      149.9,
+      133.2
+    ],
+    "sun_hours": [
+      10.8,
+      10.2,
+      10.5,
+      9.9,
+      9.2,
+      8.9,
+      8.9,
+      8.8,
+      9.5,
+      9.3,
+      9.6,
+      10.6
+    ],
+    "wind_speed_kmh": [
+      14.4,
+      14.37,
+      14.08,
+      14.57,
+      13.71,
+      13.15,
+      14.2,
+      15.84,
+      16.66,
+      17.07,
+      16.44,
+      15.22
+    ],
+    "wind_direction": [
+      132.35,
+      136.18,
+      136.49,
+      145.29,
+      148.33,
+      139.14,
+      132.01,
+      133.67,
+      137.93,
+      142.85,
+      145.04,
+      138.85
+    ],
+    "humidity_pct": [
+      78.11,
+      79.41,
+      81.4,
+      81.17,
+      81.92,
+      81.24,
+      78.43,
+      77.98,
+      79.12,
+      80.25,
+      80.65,
+      80.41
+    ],
+    "cloud_cover_pct": [
+      62.52,
+      64.12,
+      59.02,
+      49.08,
+      50.25,
+      46.23,
+      40.87,
+      44.35,
+      51.84,
+      66.79,
+      71.63,
+      64.92
+    ],
+    "wave_height_m": [
+      1.16,
+      1.13,
+      1.29,
+      1.65,
+      1.62,
+      1.62,
+      1.55,
+      1.76,
+      1.62,
+      1.45,
+      1.45,
+      1.29
+    ],
+    "wave_period_s": [
+      9.42,
+      10.53,
+      10.02,
+      10.82,
+      10.84,
+      11.49,
+      10.8,
+      11.17,
+      10.11,
+      10.21,
+      9.91,
+      9.39
+    ],
+    "swell_direction": [
+      145.29,
+      157.46,
+      147.42,
+      161.38,
+      162.31,
+      168.45,
+      158.37,
+      158.37,
+      150.32,
+      154.05,
+      154.4,
+      150.06
+    ],
+    "climate_source": "open-meteo-era5 (2014-2023 archive, monthly normals)",
+    "ocean_source": "open-meteo-marine (2014-2023 archive, monthly normals)"
+  },
+  "tides": {
+    "range_spring_m": 0.9395073286905462,
+    "range_neap_m": 0.2534890207772944,
+    "type": "mixed",
+    "source": "eot20"
+  },
+  "showcase": {
+    "is_showcase": true,
+    "external_file": "content/beaches/copacabana-7/showcase.json",
+    "_comment": "Actual showcase content lives in content/beaches/<slug>/showcase.json — protected from pipeline regeneration."
+  },
+  "photos": [
+    {
+      "id": 7618,
+      "title": "Bairros de Copacabana e Leme, early 20th century.tif",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Bairros_de_Copacabana_e_Leme%2C_early_20th_century.tif",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Bairros_de_Copacabana_e_Leme%2C_early_20th_century.tif/lossless-page1-1280px-Bairros_de_Copacabana_e_Leme%2C_early_20th_century.tif.png",
+      "source": "tier1",
+      "license": "Public domain",
+      "author": "<div class=\"fn value\">\nPhoto Lopes</div>",
+      "width": 5457,
+      "height": 3977
+    },
+    {
+      "id": 7619,
+      "title": "Calçadão de Copacabana.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Cal%C3%A7ad%C3%A3o_de_Copacabana.JPG",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Cal%C3%A7ad%C3%A3o_de_Copacabana.JPG/1280px-Cal%C3%A7ad%C3%A3o_de_Copacabana.JPG",
+      "source": "tier1",
+      "license": "CC BY-SA 3.0",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mteixeira62&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mteixeira62 (page does not exist)\">Mteixeira62</a>",
+      "width": 4288,
+      "height": 2416
+    },
+    {
+      "id": 7620,
+      "title": "Copacabana Palace Hotel Rio.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Copacabana_Palace_Hotel_Rio.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Copacabana_Palace_Hotel_Rio.jpg/1280px-Copacabana_Palace_Hotel_Rio.jpg",
+      "source": "tier1",
+      "license": "CC BY-SA 3.0",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q54800218\" class=\"extiw\" title=\"d:Q54800218\"><span title=\"Scottish wildlife photographer\">Charles J. Sharp</span></a></bdi>",
+      "width": 2890,
+      "height": 1927
+    },
+    {
+      "id": 7621,
+      "title": "Copacabana Rooftop View.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Copacabana_Rooftop_View.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Copacabana_Rooftop_View.jpg/1280px-Copacabana_Rooftop_View.jpg",
+      "source": "tier1",
+      "license": "CC BY 2.0",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/24001499@N03\">Porto Bay Hotels &amp; Resorts</a>",
+      "width": 6048,
+      "height": 4032
+    },
+    {
+      "id": 7622,
+      "title": "Copacabana Beach 1971.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Copacabana_Beach_1971.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Copacabana_Beach_1971.jpg",
+      "source": "tier1",
+      "license": "CC BY-SA 2.0",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/24736216@N07\">Roger Wollstadt</a>",
+      "width": 850,
+      "height": 563
+    },
+    {
+      "id": 7623,
+      "title": "Copacabana Beach.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Copacabana_Beach.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Copacabana_Beach.jpg/1280px-Copacabana_Beach.jpg",
+      "source": "tier1",
+      "license": "CC BY 2.0",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/40467171@N00\">LASZLO ILYES</a>",
+      "width": 2400,
+      "height": 1600
+    },
+    {
+      "id": 7627,
+      "title": "Location map Rio de Janeiro Copacabana.png",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Location_map_Rio_de_Janeiro_Copacabana.png",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Location_map_Rio_de_Janeiro_Copacabana.png/1280px-Location_map_Rio_de_Janeiro_Copacabana.png",
+      "source": "tier1",
+      "license": "CC BY-SA 2.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Dr._Blofeld\" title=\"User:Dr. Blofeld\">Dr. Blofeld</a>",
+      "width": 1846,
+      "height": 1954
+    },
+    {
+      "id": 7628,
+      "title": "Parque Olímpico Rio 2016 (cropped).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Parque_Ol%C3%ADmpico_Rio_2016_%28cropped%29.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Parque_Ol%C3%ADmpico_Rio_2016_%28cropped%29.jpg/1280px-Parque_Ol%C3%ADmpico_Rio_2016_%28cropped%29.jpg",
+      "source": "tier1",
+      "license": "CC BY 3.0 br",
+      "author": "Miriam Jeske/Brasil2016.gov.br",
+      "width": 2039,
+      "height": 1359
+    },
+    {
+      "id": 7629,
+      "title": "Participação da Defesa na JMJ (9400719501).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Participa%C3%A7%C3%A3o_da_Defesa_na_JMJ_%289400719501%29.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Participa%C3%A7%C3%A3o_da_Defesa_na_JMJ_%289400719501%29.jpg/1280px-Participa%C3%A7%C3%A3o_da_Defesa_na_JMJ_%289400719501%29.jpg",
+      "source": "tier1",
+      "license": "CC BY 2.0",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/77712181@N07\">Ministério da Defesa</a>",
+      "width": 2598,
+      "height": 1732
+    },
+    {
+      "id": 7630,
+      "title": "Praia de Copacabana rio.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Praia_de_Copacabana_rio.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Praia_de_Copacabana_rio.jpg/1280px-Praia_de_Copacabana_rio.jpg",
+      "source": "tier1",
+      "license": "CC BY-SA 3.0 de",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q78209280\" class=\"extiw\" title=\"d:Q78209280\"><span title=\"Photographer\">Arne Müseler</span></a></bdi>",
+      "width": 8006,
+      "height": 5340
+    },
+    {
+      "id": 7631,
+      "title": "Praia de Copacabana - Rio de Janeiro, Brasil.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Praia_de_Copacabana_-_Rio_de_Janeiro%2C_Brasil.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Praia_de_Copacabana_-_Rio_de_Janeiro%2C_Brasil.jpg",
+      "source": "tier1",
+      "license": "CC BY 2.0",
+      "author": "[www.flickr.com/photos/26912057@N02/ bisonlux]",
+      "width": 1023,
+      "height": 682
+    },
+    {
+      "id": 7634,
+      "title": "Panorama of Copacabana Beach - Rio de Janeiro - Brazil.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Panorama_of_Copacabana_Beach_-_Rio_de_Janeiro_-_Brazil.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Panorama_of_Copacabana_Beach_-_Rio_de_Janeiro_-_Brazil.jpg/1280px-Panorama_of_Copacabana_Beach_-_Rio_de_Janeiro_-_Brazil.jpg",
+      "source": "tier1",
+      "license": "CC BY-SA 3.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Adam63\" title=\"User:Adam63\">Adam Jones, Ph.D.</a>",
+      "width": 6761,
+      "height": 1074
+    },
+    {
+      "id": 7635,
+      "title": "Rio New Year Fireworks.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Rio_New_Year_Fireworks.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Rio_New_Year_Fireworks.jpg/1280px-Rio_New_Year_Fireworks.jpg",
+      "source": "tier1",
+      "license": "CC BY 2.0",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/24001499@N03\">Porto Bay Hotels &amp; Resorts</a>",
+      "width": 2598,
+      "height": 2559
+    },
+    {
+      "id": 7636,
+      "title": "Rèveillon 2013 (8333332944).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/R%C3%A8veillon_2013_%288333332944%29.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/R%C3%A8veillon_2013_%288333332944%29.jpg/1280px-R%C3%A8veillon_2013_%288333332944%29.jpg",
+      "source": "tier1",
+      "license": "CC BY 2.0",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/18115835@N00\">Leandro Neumann Ciuffo</a>",
+      "width": 3836,
+      "height": 1704
+    },
+    {
+      "id": 17507,
+      "title": "Aerial view of Copacabana Beach, c.1916–1926 (pre-expansion)",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vista_a%C3%A9rea_da_praia_de_Copacabana_%28007ALA110%29.jpg",
+      "thumbnail_url": null,
+      "source": "tier1_archival",
+      "license": "Public domain",
+      "author": "Jorge Kfuri, Instituto Moreira Salles",
+      "width": 7967,
+      "height": 5740
+    },
+    {
+      "id": 7632,
+      "title": "Leme, visto do morro do Inhangá (014AAN00501).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Leme%2C_visto_do_morro_do_Inhang%C3%A1_%28014AAN00501%29.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Leme%2C_visto_do_morro_do_Inhang%C3%A1_%28014AAN00501%29.jpg/1280px-Leme%2C_visto_do_morro_do_Inhang%C3%A1_%28014AAN00501%29.jpg",
+      "source": "tier2",
+      "license": "Public domain",
+      "author": "Núcleo de digitalização / IMS",
+      "width": 8080,
+      "height": 6098
+    },
+    {
+      "id": 7633,
+      "title": "Copacabana (014AAN00517).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Copacabana_%28014AAN00517%29.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Copacabana_%28014AAN00517%29.jpg/1280px-Copacabana_%28014AAN00517%29.jpg",
+      "source": "tier2",
+      "license": "Public domain",
+      "author": "Núcleo de digitalização / IMS",
+      "width": 7132,
+      "height": 5358
+    },
+    {
+      "id": 7680,
+      "title": "Lascar Copacabana borough and beach - One of the most famous of the world (4551771692).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Lascar_Copacabana_borough_and_beach_-_One_of_the_most_famous_of_the_world_%284551771692%29.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Lascar_Copacabana_borough_and_beach_-_One_of_the_most_famous_of_the_world_%284551771692%29.jpg/1280px-Lascar_Copacabana_borough_and_beach_-_One_of_the_most_famous_of_the_world_%284551771692%29.jpg",
+      "source": "tier2",
+      "license": "CC BY 2.0",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/8721758@N06\">Jorge Láscar</a> from Australia",
+      "width": 3216,
+      "height": 2136
+    },
+    {
+      "id": 7681,
+      "title": "Lascar Beach soccer - Copacabana beach (4551895402).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Lascar_Beach_soccer_-_Copacabana_beach_%284551895402%29.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Lascar_Beach_soccer_-_Copacabana_beach_%284551895402%29.jpg/1280px-Lascar_Beach_soccer_-_Copacabana_beach_%284551895402%29.jpg",
+      "source": "tier2",
+      "license": "CC BY 2.0",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/8721758@N06\">Jorge Láscar</a> from Australia",
+      "width": 2592,
+      "height": 1944
+    },
+    {
+      "id": 7682,
+      "title": "Lascar Copacabana - One of the most famous beaches of the world (4551781064).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Lascar_Copacabana_-_One_of_the_most_famous_beaches_of_the_world_%284551781064%29.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Lascar_Copacabana_-_One_of_the_most_famous_beaches_of_the_world_%284551781064%29.jpg/1280px-Lascar_Copacabana_-_One_of_the_most_famous_beaches_of_the_world_%284551781064%29.jpg",
+      "source": "tier2",
+      "license": "CC BY 2.0",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/8721758@N06\">Jorge Láscar</a> from Australia",
+      "width": 2592,
+      "height": 1944
+    },
+    {
+      "id": 7683,
+      "title": "Lascar Famous Portuguese pavement wave pattern at Copacabana beach (4551834064).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Lascar_Famous_Portuguese_pavement_wave_pattern_at_Copacabana_beach_%284551834064%29.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Lascar_Famous_Portuguese_pavement_wave_pattern_at_Copacabana_beach_%284551834064%29.jpg/1280px-Lascar_Famous_Portuguese_pavement_wave_pattern_at_Copacabana_beach_%284551834064%29.jpg",
+      "source": "tier2",
+      "license": "CC BY 2.0",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/8721758@N06\">Jorge Láscar</a> from Australia",
+      "width": 2592,
+      "height": 1944
+    },
+    {
+      "id": 7684,
+      "title": "Lascar Beach soccer - Copacabana beach at night (4551137949).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Lascar_Beach_soccer_-_Copacabana_beach_at_night_%284551137949%29.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Lascar_Beach_soccer_-_Copacabana_beach_at_night_%284551137949%29.jpg/1280px-Lascar_Beach_soccer_-_Copacabana_beach_at_night_%284551137949%29.jpg",
+      "source": "tier2",
+      "license": "CC BY 2.0",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/8721758@N06\">Jorge Láscar</a> from Australia",
+      "width": 2592,
+      "height": 1944
+    },
+    {
+      "id": 7685,
+      "title": "Copacabana, Rio de Janeiro - State of Rio de Janeiro, Brazil - panoramio (11).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Copacabana%2C_Rio_de_Janeiro_-_State_of_Rio_de_Janeiro%2C_Brazil_-_panoramio_%2811%29.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Copacabana%2C_Rio_de_Janeiro_-_State_of_Rio_de_Janeiro%2C_Brazil_-_panoramio_%2811%29.jpg/1280px-Copacabana%2C_Rio_de_Janeiro_-_State_of_Rio_de_Janeiro%2C_Brazil_-_panoramio_%2811%29.jpg",
+      "source": "tier2",
+      "license": "CC BY 3.0",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161029135703/http://www.panoramio.com/user/4763537?with_photo_id=101944495\">Jefferson Bernardino…</a>",
+      "width": 4320,
+      "height": 3240
+    },
+    {
+      "id": 7686,
+      "title": "Lascar Famous Portuguese pavement wave pattern at Copacabana beach (4551849264).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Lascar_Famous_Portuguese_pavement_wave_pattern_at_Copacabana_beach_%284551849264%29.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Lascar_Famous_Portuguese_pavement_wave_pattern_at_Copacabana_beach_%284551849264%29.jpg/1280px-Lascar_Famous_Portuguese_pavement_wave_pattern_at_Copacabana_beach_%284551849264%29.jpg",
+      "source": "tier2",
+      "license": "CC BY 2.0",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/8721758@N06\">Jorge Láscar</a> from Australia",
+      "width": 2592,
+      "height": 1944
+    },
+    {
+      "id": 7687,
+      "title": "Lascar Beach soccer - Copacabana beach (4551777846).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Lascar_Beach_soccer_-_Copacabana_beach_%284551777846%29.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Lascar_Beach_soccer_-_Copacabana_beach_%284551777846%29.jpg/1280px-Lascar_Beach_soccer_-_Copacabana_beach_%284551777846%29.jpg",
+      "source": "tier2",
+      "license": "CC BY 2.0",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/8721758@N06\">Jorge Láscar</a> from Australia",
+      "width": 2592,
+      "height": 1944
+    },
+    {
+      "id": 7688,
+      "title": "Lascar Kiosk where I found my Lonely Planet which I had lost the night before! =) (4551887276).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Lascar_Kiosk_where_I_found_my_Lonely_Planet_which_I_had_lost_the_night_before%21_%3D%29_%284551887276%29.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Lascar_Kiosk_where_I_found_my_Lonely_Planet_which_I_had_lost_the_night_before%21_%3D%29_%284551887276%29.jpg/1280px-Lascar_Kiosk_where_I_found_my_Lonely_Planet_which_I_had_lost_the_night_before%21_%3D%29_%284551887276%29.jpg",
+      "source": "tier2",
+      "license": "CC BY 2.0",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/8721758@N06\">Jorge Láscar</a> from Australia",
+      "width": 2592,
+      "height": 1944
+    },
+    {
+      "id": 7689,
+      "title": "Lascar Sandcastle - Copacabana beach (4551883720).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Lascar_Sandcastle_-_Copacabana_beach_%284551883720%29.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Lascar_Sandcastle_-_Copacabana_beach_%284551883720%29.jpg/1280px-Lascar_Sandcastle_-_Copacabana_beach_%284551883720%29.jpg",
+      "source": "tier2",
+      "license": "CC BY 2.0",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/8721758@N06\">Jorge Láscar</a> from Australia",
+      "width": 2592,
+      "height": 1944
+    },
+    {
+      "id": 7690,
+      "title": "POV na Praia de Copacabana.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/POV_na_Praia_de_Copacabana.JPG",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/POV_na_Praia_de_Copacabana.JPG/1280px-POV_na_Praia_de_Copacabana.JPG",
+      "source": "tier2",
+      "license": "CC BY-SA 3.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Daniel_Souza\" title=\"User:Daniel Souza\">Daniel Souza</a>",
+      "width": 3915,
+      "height": 1996
+    },
+    {
+      "id": 7691,
+      "title": "Av. Nossa Senhora de Copacabana - panoramio.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Av._Nossa_Senhora_de_Copacabana_-_panoramio.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Av._Nossa_Senhora_de_Copacabana_-_panoramio.jpg/1280px-Av._Nossa_Senhora_de_Copacabana_-_panoramio.jpg",
+      "source": "tier2",
+      "license": "CC BY-SA 3.0",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161112093157/http://www.panoramio.com/user/4646738?with_photo_id=41653540\">C.A.Müller</a>",
+      "width": 2560,
+      "height": 1920
+    },
+    {
+      "id": 7692,
+      "title": "Rua Tonelero (014AAN00508).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Rua_Tonelero_%28014AAN00508%29.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Rua_Tonelero_%28014AAN00508%29.jpg/1280px-Rua_Tonelero_%28014AAN00508%29.jpg",
+      "source": "tier2",
+      "license": "Public domain",
+      "author": "Núcleo de digitalização / IMS",
+      "width": 8137,
+      "height": 6094
+    },
+    {
+      "id": 7693,
+      "title": "Eduardo Volpato Evento Rio.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Eduardo_Volpato_Evento_Rio.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Eduardo_Volpato_Evento_Rio.jpg/1280px-Eduardo_Volpato_Evento_Rio.jpg",
+      "source": "tier2",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ERVOLPATO&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ERVOLPATO (page does not exist)\">ERVOLPATO</a>",
+      "width": 2048,
+      "height": 1536
+    },
+    {
+      "id": 7694,
+      "title": "Estátua de Nelson Rodrigues.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Est%C3%A1tua_de_Nelson_Rodrigues.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Est%C3%A1tua_de_Nelson_Rodrigues.jpg/1280px-Est%C3%A1tua_de_Nelson_Rodrigues.jpg",
+      "source": "tier2",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:NMaia\" title=\"User:NMaia\">NMaia</a>",
+      "width": 3120,
+      "height": 4160
+    },
+    {
+      "id": 7695,
+      "title": "Largo Inhangá em Copacabana - panoramio.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Largo_Inhang%C3%A1_em_Copacabana_-_panoramio.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Largo_Inhang%C3%A1_em_Copacabana_-_panoramio.jpg/1280px-Largo_Inhang%C3%A1_em_Copacabana_-_panoramio.jpg",
+      "source": "tier2",
+      "license": "CC BY-SA 3.0",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161112093130/http://www.panoramio.com/user/4646738?with_photo_id=41653664\">C.A.Müller</a>",
+      "width": 2560,
+      "height": 1920
+    },
+    {
+      "id": 7697,
+      "title": "Rua Copacabana (atual Avenida Nossa Senhora de Copacabana), esquina com a Rua Nove de Fevereiro (atual República do Peru) (007 IMG 3309).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Rua_Copacabana_%28atual_Avenida_Nossa_Senhora_de_Copacabana%29%2C_esquina_com_a_Rua_Nove_de_Fevereiro_%28atual_Rep%C3%BAblica_do_Peru%29_%28007_IMG_3309%29.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Rua_Copacabana_%28atual_Avenida_Nossa_Senhora_de_Copacabana%29%2C_esquina_com_a_Rua_Nove_de_Fevereiro_%28atual_Rep%C3%BAblica_do_Peru%29_%28007_IMG_3309%29.jpg/1280px-Rua_Copacabana_%28atual_Avenida_Nossa_Senhora_de_Copacabana%29%2C_esquina_com_a_Rua_Nove_de_Fevereiro_%28atual_Rep%C3%BAblica_do_Peru%29_%28007_IMG_3309%29.jpg",
+      "source": "tier2",
+      "license": "Public domain",
+      "author": "Núcleo de digitalização / IMS",
+      "width": 10301,
+      "height": 4878
+    },
+    {
+      "id": 7698,
+      "title": "Rua Copacabana (atual Avenida Nossa Senhora de Copacabana), esquina com a Rua Nove de Fevereiro (atual República do Peru) (007CX185-09).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Rua_Copacabana_%28atual_Avenida_Nossa_Senhora_de_Copacabana%29%2C_esquina_com_a_Rua_Nove_de_Fevereiro_%28atual_Rep%C3%BAblica_do_Peru%29_%28007CX185-09%29.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rua_Copacabana_%28atual_Avenida_Nossa_Senhora_de_Copacabana%29%2C_esquina_com_a_Rua_Nove_de_Fevereiro_%28atual_Rep%C3%BAblica_do_Peru%29_%28007CX185-09%29.jpg/1280px-Rua_Copacabana_%28atual_Avenida_Nossa_Senhora_de_Copacabana%29%2C_esquina_com_a_Rua_Nove_de_Fevereiro_%28atual_Rep%C3%BAblica_do_Peru%29_%28007CX185-09%29.jpg",
+      "source": "tier2",
+      "license": "Public domain",
+      "author": "Núcleo de digitalização / IMS",
+      "width": 9865,
+      "height": 4636
+    },
+    {
+      "id": 17508,
+      "title": "Dawn with fishermen on Copacabana Beach (2016)",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Amanhecer_com_pescadores_na_praia_de_Copacabana.jpg",
+      "thumbnail_url": null,
+      "source": "tier2",
+      "license": "CC BY-SA 4.0",
+      "author": "Laudelinojunior",
+      "width": 2074,
+      "height": 1383
+    },
+    {
+      "id": 17509,
+      "title": "Posto 5, Praia de Copacabana",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Posto_5_%28praia_de_Copacabana%2C_cidade_do_Rio_de_Janeiro%2C_Brasil%29_.jpg",
+      "thumbnail_url": null,
+      "source": "tier2",
+      "license": "CC BY-SA 2.0",
+      "author": "Eugenio Hansen, OFS",
+      "width": 4160,
+      "height": 3120
+    },
+    {
+      "id": 17510,
+      "title": "Copacabana from Sugarloaf at night",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Rio_de_Janeiro%2C_Copacabana%2C_the_beach_on_the_left%2C_Christ_Detentor_on_the_right_-_panoramio.jpg",
+      "thumbnail_url": null,
+      "source": "tier2",
+      "license": "CC BY 3.0",
+      "author": "Jack Soma",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "id": 7625,
+      "title": "Lady Gaga en Copacabana durante el concierto de 2025.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Lady_Gaga_en_Copacabana_durante_el_concierto_de_2025.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Lady_Gaga_en_Copacabana_durante_el_concierto_de_2025.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:CHr0m4tiko0&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:CHr0m4tiko0 (page does not exist)\">CHr0m4tiko0</a>",
+      "width": 720,
+      "height": 991
+    },
+    {
+      "id": 7637,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 01.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/New_Year_2025_Rio_de_Janeiro_Copacabana_01.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/New_Year_2025_Rio_de_Janeiro_Copacabana_01.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_01.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7638,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 02.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/New_Year_2025_Rio_de_Janeiro_Copacabana_02.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/New_Year_2025_Rio_de_Janeiro_Copacabana_02.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_02.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7639,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 03.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/New_Year_2025_Rio_de_Janeiro_Copacabana_03.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/New_Year_2025_Rio_de_Janeiro_Copacabana_03.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_03.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7640,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 04.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/New_Year_2025_Rio_de_Janeiro_Copacabana_04.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/New_Year_2025_Rio_de_Janeiro_Copacabana_04.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_04.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7641,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 05.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/New_Year_2025_Rio_de_Janeiro_Copacabana_05.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/New_Year_2025_Rio_de_Janeiro_Copacabana_05.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_05.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7642,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 06.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/New_Year_2025_Rio_de_Janeiro_Copacabana_06.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/New_Year_2025_Rio_de_Janeiro_Copacabana_06.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_06.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7643,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 07.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/New_Year_2025_Rio_de_Janeiro_Copacabana_07.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/New_Year_2025_Rio_de_Janeiro_Copacabana_07.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_07.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7644,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 08.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/New_Year_2025_Rio_de_Janeiro_Copacabana_08.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/New_Year_2025_Rio_de_Janeiro_Copacabana_08.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_08.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7645,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 09.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/New_Year_2025_Rio_de_Janeiro_Copacabana_09.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/New_Year_2025_Rio_de_Janeiro_Copacabana_09.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_09.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7646,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 10.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/New_Year_2025_Rio_de_Janeiro_Copacabana_10.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/New_Year_2025_Rio_de_Janeiro_Copacabana_10.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_10.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7647,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 11.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/New_Year_2025_Rio_de_Janeiro_Copacabana_11.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/New_Year_2025_Rio_de_Janeiro_Copacabana_11.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_11.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7648,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 12.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/New_Year_2025_Rio_de_Janeiro_Copacabana_12.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/New_Year_2025_Rio_de_Janeiro_Copacabana_12.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_12.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7649,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 13.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/New_Year_2025_Rio_de_Janeiro_Copacabana_13.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/New_Year_2025_Rio_de_Janeiro_Copacabana_13.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_13.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7650,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 14.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/New_Year_2025_Rio_de_Janeiro_Copacabana_14.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/New_Year_2025_Rio_de_Janeiro_Copacabana_14.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_14.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7651,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 15.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/New_Year_2025_Rio_de_Janeiro_Copacabana_15.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/New_Year_2025_Rio_de_Janeiro_Copacabana_15.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_15.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7652,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 16.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/New_Year_2025_Rio_de_Janeiro_Copacabana_16.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/New_Year_2025_Rio_de_Janeiro_Copacabana_16.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_16.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7653,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 17.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/New_Year_2025_Rio_de_Janeiro_Copacabana_17.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/New_Year_2025_Rio_de_Janeiro_Copacabana_17.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_17.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7654,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 18.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/New_Year_2025_Rio_de_Janeiro_Copacabana_18.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/New_Year_2025_Rio_de_Janeiro_Copacabana_18.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_18.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7655,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 19.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/New_Year_2025_Rio_de_Janeiro_Copacabana_19.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/New_Year_2025_Rio_de_Janeiro_Copacabana_19.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_19.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7656,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 20.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/New_Year_2025_Rio_de_Janeiro_Copacabana_20.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/New_Year_2025_Rio_de_Janeiro_Copacabana_20.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_20.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7657,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 21.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/New_Year_2025_Rio_de_Janeiro_Copacabana_21.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/New_Year_2025_Rio_de_Janeiro_Copacabana_21.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_21.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7658,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 22.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/New_Year_2025_Rio_de_Janeiro_Copacabana_22.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/New_Year_2025_Rio_de_Janeiro_Copacabana_22.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_22.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7659,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 23.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/New_Year_2025_Rio_de_Janeiro_Copacabana_23.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/New_Year_2025_Rio_de_Janeiro_Copacabana_23.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_23.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7660,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 24.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/New_Year_2025_Rio_de_Janeiro_Copacabana_24.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/New_Year_2025_Rio_de_Janeiro_Copacabana_24.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_24.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7661,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 25.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/New_Year_2025_Rio_de_Janeiro_Copacabana_25.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/New_Year_2025_Rio_de_Janeiro_Copacabana_25.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_25.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7662,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 26.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/New_Year_2025_Rio_de_Janeiro_Copacabana_26.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/New_Year_2025_Rio_de_Janeiro_Copacabana_26.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_26.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7663,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 27.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/New_Year_2025_Rio_de_Janeiro_Copacabana_27.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/New_Year_2025_Rio_de_Janeiro_Copacabana_27.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_27.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7664,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 28.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/New_Year_2025_Rio_de_Janeiro_Copacabana_28.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/New_Year_2025_Rio_de_Janeiro_Copacabana_28.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_28.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7665,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 29.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/New_Year_2025_Rio_de_Janeiro_Copacabana_29.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/New_Year_2025_Rio_de_Janeiro_Copacabana_29.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_29.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7666,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 30.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/New_Year_2025_Rio_de_Janeiro_Copacabana_30.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/New_Year_2025_Rio_de_Janeiro_Copacabana_30.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_30.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7667,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 31.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/New_Year_2025_Rio_de_Janeiro_Copacabana_31.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/New_Year_2025_Rio_de_Janeiro_Copacabana_31.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_31.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7668,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 32.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/New_Year_2025_Rio_de_Janeiro_Copacabana_32.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/New_Year_2025_Rio_de_Janeiro_Copacabana_32.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_32.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7669,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 33.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/New_Year_2025_Rio_de_Janeiro_Copacabana_33.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/New_Year_2025_Rio_de_Janeiro_Copacabana_33.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_33.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7670,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 34.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/New_Year_2025_Rio_de_Janeiro_Copacabana_34.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/New_Year_2025_Rio_de_Janeiro_Copacabana_34.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_34.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7671,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 35.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/New_Year_2025_Rio_de_Janeiro_Copacabana_35.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/New_Year_2025_Rio_de_Janeiro_Copacabana_35.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_35.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7672,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 36.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/New_Year_2025_Rio_de_Janeiro_Copacabana_36.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/New_Year_2025_Rio_de_Janeiro_Copacabana_36.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_36.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7673,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 37.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/New_Year_2025_Rio_de_Janeiro_Copacabana_37.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/New_Year_2025_Rio_de_Janeiro_Copacabana_37.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_37.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7674,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 38.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/New_Year_2025_Rio_de_Janeiro_Copacabana_38.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/New_Year_2025_Rio_de_Janeiro_Copacabana_38.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_38.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7675,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 39.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/New_Year_2025_Rio_de_Janeiro_Copacabana_39.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/New_Year_2025_Rio_de_Janeiro_Copacabana_39.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_39.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7676,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 40.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/New_Year_2025_Rio_de_Janeiro_Copacabana_40.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/New_Year_2025_Rio_de_Janeiro_Copacabana_40.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_40.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7677,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 41.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/New_Year_2025_Rio_de_Janeiro_Copacabana_41.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/New_Year_2025_Rio_de_Janeiro_Copacabana_41.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_41.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7678,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 42.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/New_Year_2025_Rio_de_Janeiro_Copacabana_42.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/New_Year_2025_Rio_de_Janeiro_Copacabana_42.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_42.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7679,
+      "title": "New Year 2025 Rio de Janeiro Copacabana 43.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/New_Year_2025_Rio_de_Janeiro_Copacabana_43.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/New_Year_2025_Rio_de_Janeiro_Copacabana_43.jpg/1280px-New_Year_2025_Rio_de_Janeiro_Copacabana_43.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 4.0",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Randy110912\" title=\"User:Randy110912\">Zakarie Faibis</a>",
+      "width": 3520,
+      "height": 1980
+    },
+    {
+      "id": 7696,
+      "title": "Copacabana Beach (26718167353).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Copacabana_Beach_%2826718167353%29.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Copacabana_Beach_%2826718167353%29.jpg/1280px-Copacabana_Beach_%2826718167353%29.jpg",
+      "source": "tier3",
+      "license": "CC BY-SA 2.0",
+      "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/99613024@N04\">Timothy M Roberts</a>",
+      "width": 3668,
+      "height": 7337
+    },
+    {
+      "id": 7624,
+      "title": "Copacabana, Rio de Janeiro.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Copacabana%2C_Rio_de_Janeiro.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Copacabana%2C_Rio_de_Janeiro.jpg/1280px-Copacabana%2C_Rio_de_Janeiro.jpg",
+      "source": "tier3_qi",
+      "license": "CC0",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q115464159\" class=\"extiw\" title=\"d:Q115464159\"><span title=\"developer analyst and photographer from Venezuela\">Wilfredor</span></a></bdi>",
+      "width": 8256,
+      "height": 5504
+    },
+    {
+      "id": 7626,
+      "title": "Police of Rio de Janeiro, Brazil 2.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Police_of_Rio_de_Janeiro%2C_Brazil_2.jpg",
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Police_of_Rio_de_Janeiro%2C_Brazil_2.jpg/1280px-Police_of_Rio_de_Janeiro%2C_Brazil_2.jpg",
+      "source": "tier3_qi",
+      "license": "CC0",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q115464159\" class=\"extiw\" title=\"d:Q115464159\"><span title=\"developer analyst and photographer from Venezuela\">Wilfredor</span></a></bdi>",
+      "width": 8256,
+      "height": 5504
+    }
+  ]
 }

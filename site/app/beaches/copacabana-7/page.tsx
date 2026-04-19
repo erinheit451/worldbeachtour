@@ -9,6 +9,7 @@ import BurleMarxDivider from "@/components/showcase/burle-marx-divider";
 import CopaCalcadao from "@/components/signature/copa-calcadao";
 import CopaAterro from "@/components/signature/copa-aterro";
 import CopaMusic from "@/components/signature/copa-music";
+import CopaMap from "@/components/showcase/copa-map";
 
 const DATA_PATH = path.join(process.cwd(), "data", "beaches", "copacabana-7.json");
 const META_PATH = path.join(
@@ -18,10 +19,22 @@ const META_PATH = path.join(
   "copacabana-7",
   "meta.json"
 );
+// Showcase content lives outside the pipeline-managed data/ JSON so the
+// regeneration pipeline cannot overwrite it. See docs/legendary-beach-playbook.md.
+const SHOWCASE_PATH = path.join(
+  process.cwd(),
+  "content",
+  "beaches",
+  "copacabana-7",
+  "showcase.json"
+);
 
 function loadData(): { data: LegendaryData; meta: LegendaryMeta } {
   const data = JSON.parse(fs.readFileSync(DATA_PATH, "utf-8"));
   const meta = JSON.parse(fs.readFileSync(META_PATH, "utf-8"));
+  if (fs.existsSync(SHOWCASE_PATH)) {
+    data.showcase = JSON.parse(fs.readFileSync(SHOWCASE_PATH, "utf-8"));
+  }
   return { data, meta };
 }
 
@@ -85,7 +98,7 @@ export default function CopacabanaPage() {
             label: "Music",
             group: "culture",
             insertAfter: "eat",
-            component: <CopaMusic />,
+            component: <CopaMusic jobimImage={meta.images.section.music_jobim} />,
           },
         ]}
         timelineImagesByYear={{
@@ -103,6 +116,7 @@ export default function CopacabanaPage() {
             tag: "Copacabana",
             tagTone: "ocean",
             headline: "Old fame, mixed ages, mass occasions",
+            image: meta.images.section.panorama,
             rows: [
               { label: "Anthem", value: '"Copacabana" (João de Barro / Alberto Ribeiro, 1946)' },
               { label: "Demographic", value: "Older (27.5% over 60), mixed class, heavy tourist" },
@@ -115,6 +129,7 @@ export default function CopacabanaPage() {
             tag: "Ipanema",
             tagTone: "sand",
             headline: "The intellectual beach, now",
+            image: meta.images.section.versus_ipanema,
             rows: [
               { label: "Anthem", value: '"Garota de Ipanema" (Jobim / Vinícius, 1962)' },
               { label: "Demographic", value: "Middle-upper, younger, artistic heritage" },
@@ -127,6 +142,7 @@ export default function CopacabanaPage() {
             tag: "Leblon",
             tagTone: "volcanic",
             headline: "The wealthy corner",
+            image: meta.images.section.versus_leblon,
             rows: [
               { label: "Character", value: "Rio's most expensive square meter" },
               { label: "Demographic", value: "Wealthy families, dog-walkers, restaurants" },
@@ -216,6 +232,26 @@ export default function CopacabanaPage() {
             { label: "Whale migration", value: "Jul–Oct" },
             { label: "Water quality", value: "inea.rj.gov.br" },
           ],
+        }}
+        waterCta={{ text: "The surfer's guide to Copa", href: "/beaches/copacabana-7/surf" }}
+        stayMap={<CopaMap />}
+        dayImages={{
+          dawn: meta.images.section.day_dawn,
+          midday: meta.images.section.day_midday,
+          golden: meta.images.section.day_golden,
+          night: meta.images.section.day_night,
+        }}
+        waterImages={[
+          meta.images.section.water_bird,
+          meta.images.section.water_surf,
+        ].filter(Boolean)}
+        eatImages={{
+          kiosk: meta.images.section.eat_kiosk,
+          drink: meta.images.section.eat_caipirinha,
+        }}
+        contextImages={{
+          access: meta.images.section.context_plano,
+          view: meta.images.section.context_mirante,
         }}
         viewBackImages={[
           { role: "panorama", caption: "Panorama from Morro do Leme looking south down the entire arc." },
