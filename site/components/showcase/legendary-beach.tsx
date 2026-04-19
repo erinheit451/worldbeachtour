@@ -146,6 +146,7 @@ export interface SignatureSection {
     | "versus"
     | "stay"
     | "eat"
+    | "culture"
     | "planner"
     | "safety"
     | "viewback"
@@ -161,6 +162,8 @@ export interface VersusCard {
   headline: string;
   /** Term/definition list */
   rows: { label: string; value: string }[];
+  /** Optional hero image at the top of the card */
+  image?: SectionImage;
 }
 
 export interface LegendaryBeachProps {
@@ -190,6 +193,18 @@ export interface LegendaryBeachProps {
   plannerRows?: { heading: string; items: [string, string][] }[];
   /** Water section — bespoke marine story + at-a-glance dl. */
   waterCopy?: { prose: string; atAGlance: { label: string; value: string }[] };
+  /** Optional CTA link rendered under the Water prose (e.g. specialist-hub deep link). */
+  waterCta?: { text: string; href: string };
+  /** Optional node rendered at the top of the Stay section (e.g. interactive map). */
+  stayMap?: ReactNode;
+  /** Per-vignette images for the A-Day-Here section. */
+  dayImages?: { dawn?: SectionImage; midday?: SectionImage; golden?: SectionImage; night?: SectionImage };
+  /** Optional image strip for the Water section (below prose). */
+  waterImages?: SectionImage[];
+  /** Optional images for the Eat section (kiosk scene, signature drink). */
+  eatImages?: { kiosk?: SectionImage; drink?: SectionImage };
+  /** Optional images embedded in the Honest Context section (e.g. favela access + view). */
+  contextImages?: { access?: SectionImage; view?: SectionImage };
   /** View-back section captions — one per image role. */
   viewBackImages?: { role: string; caption: string }[];
   /** Sources footer — allow per-beach voice override. */
@@ -204,6 +219,8 @@ export interface LegendaryBeachProps {
   };
   /** Timeline event-year → image key in meta.images.section. */
   timelineImagesByYear?: Record<number, string>;
+  /** Override the culture-section header. */
+  cultureHeader?: { eyebrow?: string; title?: string; kicker?: string };
 }
 
 // ----------------------------------------------------------------------------
@@ -490,38 +507,16 @@ function PostosSection({ zones, sign }: { zones: Zone[]; sign?: SectionImage }) 
 
 function DaySection({
   day,
+  images,
 }: {
   day: { dawn: string; midday: string; golden: string; night: string };
+  images?: { dawn?: SectionImage; midday?: SectionImage; golden?: SectionImage; night?: SectionImage };
 }) {
   const vignettes = [
-    {
-      key: "dawn",
-      label: "Dawn",
-      time: "05:30 – 07:00",
-      text: day.dawn,
-      tone: "bg-gradient-to-br from-ocean-50 to-ocean-100 text-volcanic-800",
-    },
-    {
-      key: "midday",
-      label: "Midday",
-      time: "11:00 – 15:00",
-      text: day.midday,
-      tone: "bg-gradient-to-br from-sand-50 to-sand-200 text-volcanic-900",
-    },
-    {
-      key: "golden",
-      label: "Golden Hour",
-      time: "17:00 – 19:00",
-      text: day.golden,
-      tone: "bg-gradient-to-br from-amber-200 via-orange-200 to-coral-200 text-volcanic-900",
-    },
-    {
-      key: "night",
-      label: "Night",
-      time: "20:00 – late",
-      text: day.night,
-      tone: "bg-gradient-to-br from-volcanic-900 to-volcanic-950 text-volcanic-100",
-    },
+    { key: "dawn" as const, label: "Dawn", time: "05:30 – 07:00", text: day.dawn, tone: "bg-gradient-to-br from-ocean-50 to-ocean-100 text-volcanic-800", img: images?.dawn },
+    { key: "midday" as const, label: "Midday", time: "11:00 – 15:00", text: day.midday, tone: "bg-gradient-to-br from-sand-50 to-sand-200 text-volcanic-900", img: images?.midday },
+    { key: "golden" as const, label: "Golden Hour", time: "17:00 – 19:00", text: day.golden, tone: "bg-gradient-to-br from-amber-200 via-orange-200 to-coral-200 text-volcanic-900", img: images?.golden },
+    { key: "night" as const, label: "Night", time: "20:00 – late", text: day.night, tone: "bg-gradient-to-br from-volcanic-900 to-volcanic-950 text-volcanic-100", img: images?.night },
   ];
   return (
     <Section id="day">
@@ -532,12 +527,19 @@ function DaySection({
       />
       <div className="grid gap-6 md:grid-cols-2">
         {vignettes.map((v) => (
-          <div key={v.key} className={`rounded-2xl p-7 ${v.tone}`}>
-            <div className="flex items-baseline justify-between mb-3">
-              <h3 className="font-display text-2xl">{v.label}</h3>
-              <span className="text-xs font-mono opacity-70">{v.time}</span>
+          <div key={v.key} className={`rounded-2xl overflow-hidden ${v.tone}`}>
+            {v.img && (
+              <div className="aspect-[3/2] overflow-hidden">
+                <img src={v.img.url} alt={v.img.title} className="w-full h-full object-cover" />
+              </div>
+            )}
+            <div className="p-7">
+              <div className="flex items-baseline justify-between mb-3">
+                <h3 className="font-display text-2xl">{v.label}</h3>
+                <span className="text-xs font-mono opacity-70">{v.time}</span>
+              </div>
+              <p className="leading-[1.65] text-[15px]">{v.text}</p>
             </div>
-            <p className="leading-[1.65] text-[15px]">{v.text}</p>
           </div>
         ))}
       </div>
@@ -708,7 +710,15 @@ function CalendarSection({
   );
 }
 
-function WaterSection({ copy }: { copy: LegendaryBeachProps["waterCopy"] }) {
+function WaterSection({
+  copy,
+  cta,
+  images,
+}: {
+  copy: LegendaryBeachProps["waterCopy"];
+  cta?: LegendaryBeachProps["waterCta"];
+  images?: SectionImage[];
+}) {
   if (!copy) return null;
   const paragraphs = copy.prose.split("\n\n").filter(Boolean);
   return (
@@ -723,6 +733,16 @@ function WaterSection({ copy }: { copy: LegendaryBeachProps["waterCopy"] }) {
           {paragraphs.map((p, i) => (
             <p key={i}>{renderWithBold(p)}</p>
           ))}
+          {cta && (
+            <p className="!mt-8">
+              <a
+                href={cta.href}
+                className="inline-flex items-center gap-2 text-sm font-mono uppercase tracking-wider text-ocean-700 hover:text-ocean-900 border-b-2 border-ocean-500 pb-1 no-underline"
+              >
+                {cta.text} →
+              </a>
+            </p>
+          )}
         </Prose>
         <div className="rounded-xl border border-volcanic-100 bg-white p-6">
           <div className="text-[10px] font-mono uppercase tracking-widest text-ocean-700 mb-4">
@@ -741,6 +761,22 @@ function WaterSection({ copy }: { copy: LegendaryBeachProps["waterCopy"] }) {
           </dl>
         </div>
       </div>
+      {images && images.length > 0 && (
+        <div className="mt-10 grid gap-4 md:grid-cols-2">
+          {images.slice(0, 2).map((img, i) => (
+            <figure key={i} className="overflow-hidden rounded-xl bg-volcanic-100">
+              <div className="aspect-[3/2] overflow-hidden">
+                <img src={img.url} alt={img.title} className="w-full h-full object-cover" />
+              </div>
+              <figcaption className="px-3 py-2 text-[11px] text-volcanic-500 italic">
+                {img.title}
+                {img.author && ` · ${img.author}`}
+                {` · ${img.license}`}
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+      )}
     </WideSection>
   );
 }
@@ -762,21 +798,26 @@ function VersusSection({ cards }: { cards: VersusCard[] }) {
       />
       <div className={`grid gap-6 md:grid-cols-${Math.min(cards.length, 3)}`}>
         {cards.map((c) => (
-          <article key={c.tag} className="rounded-2xl bg-white p-7 border border-volcanic-100">
-            <div
-              className={`text-xs font-mono uppercase tracking-widest mb-2 ${tones[c.tagTone || "ocean"]}`}
-            >
-              {c.tag}
+          <article key={c.tag} className="rounded-2xl bg-white border border-volcanic-100 overflow-hidden flex flex-col">
+            {c.image && (
+              <div className="aspect-[4/3] overflow-hidden bg-volcanic-100">
+                <img src={c.image.url} alt={c.image.title} className="w-full h-full object-cover" />
+              </div>
+            )}
+            <div className="p-7 flex-1">
+              <div className={`text-xs font-mono uppercase tracking-widest mb-2 ${tones[c.tagTone || "ocean"]}`}>
+                {c.tag}
+              </div>
+              <h3 className="font-display text-2xl mb-4">{c.headline}</h3>
+              <dl className="space-y-3 text-[15px] text-volcanic-700">
+                {c.rows.map((r) => (
+                  <div key={r.label}>
+                    <dt className="font-semibold text-volcanic-900 inline">{r.label}:</dt>{" "}
+                    <dd className="inline">{r.value}</dd>
+                  </div>
+                ))}
+              </dl>
             </div>
-            <h3 className="font-display text-2xl mb-4">{c.headline}</h3>
-            <dl className="space-y-3 text-[15px] text-volcanic-700">
-              {c.rows.map((r) => (
-                <div key={r.label}>
-                  <dt className="font-semibold text-volcanic-900 inline">{r.label}:</dt>{" "}
-                  <dd className="inline">{r.value}</dd>
-                </div>
-              ))}
-            </dl>
           </article>
         ))}
       </div>
@@ -784,7 +825,13 @@ function VersusSection({ cards }: { cards: VersusCard[] }) {
   );
 }
 
-function StaySection({ zones }: { zones: NonNullable<LegendaryBeachProps["stayZones"]> }) {
+function StaySection({
+  zones,
+  map,
+}: {
+  zones: NonNullable<LegendaryBeachProps["stayZones"]>;
+  map?: ReactNode;
+}) {
   return (
     <WideSection id="stay">
       <SectionHeader
@@ -792,6 +839,7 @@ function StaySection({ zones }: { zones: NonNullable<LegendaryBeachProps["stayZo
         title="The location decision"
         kicker="Which end of the beach drives 70% of your stay."
       />
+      {map && <div className="mb-10">{map}</div>}
       <div className="relative rounded-2xl bg-gradient-to-b from-ocean-50 to-sand-50 p-6 sm:p-10 overflow-hidden">
         <div className={`grid gap-6 md:grid-cols-${Math.min(zones.length, 3)}`}>
           {zones.map((z) => (
@@ -820,9 +868,11 @@ function StaySection({ zones }: { zones: NonNullable<LegendaryBeachProps["stayZo
 function EatSection({
   food,
   businesses,
+  images,
 }: {
   food: { name: string; description: string; where: string }[];
   businesses: Business[];
+  images?: { kiosk?: SectionImage; drink?: SectionImage };
 }) {
   const named = businesses.filter((b) => b.category === "restaurant" || b.category === "museum");
   return (
@@ -832,6 +882,32 @@ function EatSection({
         title="What to order, where to sit"
         kicker="At the kiosks, at the bar, at the table. All verified."
       />
+      {(images?.kiosk || images?.drink) && (
+        <div className="grid gap-4 md:grid-cols-2 mb-12">
+          {images.kiosk && (
+            <figure className="overflow-hidden rounded-xl bg-volcanic-100">
+              <div className="aspect-[3/2] overflow-hidden">
+                <img src={images.kiosk.url} alt={images.kiosk.title} className="w-full h-full object-cover" />
+              </div>
+              <figcaption className="px-3 py-2 text-[11px] text-volcanic-500 italic">
+                {images.kiosk.title} · {images.kiosk.license}
+              </figcaption>
+            </figure>
+          )}
+          {images.drink && (
+            <figure className="overflow-hidden rounded-xl bg-volcanic-100">
+              <div className="aspect-[3/2] overflow-hidden">
+                <img src={images.drink.url} alt={images.drink.title} className="w-full h-full object-cover" />
+              </div>
+              <figcaption className="px-3 py-2 text-[11px] text-volcanic-500 italic">
+                {images.drink.title}
+                {images.drink.author && ` · ${images.drink.author}`}
+                {` · ${images.drink.license}`}
+              </figcaption>
+            </figure>
+          )}
+        </div>
+      )}
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4 mb-12">
         {food.map((f) => (
           <div key={f.name} className="rounded-xl border border-sand-200 bg-sand-50 p-5">
@@ -878,6 +954,88 @@ function EatSection({
           </div>
         </>
       )}
+    </WideSection>
+  );
+}
+
+function CultureSection({
+  refs,
+  headerOverride,
+}: {
+  refs: LegendaryData["showcase"]["cultural_refs"];
+  headerOverride?: { eyebrow?: string; title?: string; kicker?: string };
+}) {
+  if (!refs || refs.length === 0) return null;
+  const byType: Record<string, typeof refs> = {};
+  for (const r of refs) {
+    const key = r.ref_type || "other";
+    (byType[key] ||= []).push(r);
+  }
+  const ORDER = ["film", "tv", "music", "literature", "historic", "brand", "other"];
+  const LABELS: Record<string, string> = {
+    film: "Film",
+    tv: "Television",
+    music: "Music",
+    literature: "Literature",
+    historic: "Historic",
+    brand: "Brand",
+    other: "Other",
+  };
+  const groups = ORDER.filter((k) => byType[k] && byType[k].length).map((k) => ({
+    key: k,
+    label: LABELS[k] || k,
+    items: byType[k],
+  }));
+  return (
+    <WideSection id="culture" className="bg-sand-50">
+      <SectionHeader
+        eyebrow={headerOverride?.eyebrow ?? "· In the Culture"}
+        title={headerOverride?.title ?? "Films, songs, books, ghosts"}
+        kicker={
+          headerOverride?.kicker ??
+          "Every iconic beach is a camera angle someone has already used. Here are the ones this beach earns."
+        }
+      />
+      <div className="space-y-10">
+        {groups.map((g) => (
+          <div key={g.key}>
+            <h3 className="font-display text-xl text-volcanic-800 mb-4 uppercase tracking-wider text-sm">
+              {g.label}
+            </h3>
+            <div className="grid gap-5 md:grid-cols-2">
+              {g.items.map((r, i) => (
+                <article
+                  key={`${g.key}-${i}`}
+                  className="rounded-xl bg-white border border-volcanic-100 p-5"
+                >
+                  <div className="flex items-baseline gap-2 flex-wrap mb-1">
+                    <h4 className="font-display text-lg text-volcanic-900">{r.title}</h4>
+                    {r.year && (
+                      <span className="text-xs font-mono text-volcanic-500">({r.year})</span>
+                    )}
+                  </div>
+                  {r.creator && (
+                    <p className="text-xs italic text-volcanic-500 mb-2">{r.creator}</p>
+                  )}
+                  {r.description && (
+                    <p className="text-sm text-volcanic-700 leading-relaxed">{r.description}</p>
+                  )}
+                  {r.wikipedia_url && (
+                    <a
+                      href={r.wikipedia_url}
+                      target="_blank"
+                      rel="noopener"
+                      className="text-xs text-ocean-600 hover:text-ocean-800 mt-2 inline-block"
+                    >
+                      Wikipedia →
+                    </a>
+                  )}
+                </article>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
     </WideSection>
   );
 }
@@ -987,10 +1145,12 @@ function ContextSection({
   note,
   title,
   eyebrow,
+  images,
 }: {
   note: string;
   title: string;
   eyebrow: string;
+  images?: { access?: SectionImage; view?: SectionImage };
 }) {
   if (!note || note.trim().length === 0) return null;
   const paragraphs = note.split("\n\n").filter(Boolean);
@@ -998,9 +1158,36 @@ function ContextSection({
     <Section id="context">
       <SectionHeader eyebrow={eyebrow} title={title} />
       <Prose>
-        {paragraphs.map((p, i) => (
-          <p key={i}>{renderWithBold(p)}</p>
-        ))}
+        {paragraphs.map((p, i) => {
+          // After the 2nd paragraph (access/UPP), insert the access image.
+          // After the 3rd (the Plano Inclinado + Mirante paragraph), insert the view image.
+          const injected: ReactNode[] = [<p key={i}>{renderWithBold(p)}</p>];
+          if (i === 1 && images?.access) {
+            injected.push(
+              <figure key={`${i}-access`} className="not-prose my-6 max-w-md overflow-hidden rounded-xl bg-volcanic-100">
+                <div className="aspect-[3/4] overflow-hidden">
+                  <img src={images.access.url} alt={images.access.title} className="w-full h-full object-cover" />
+                </div>
+                <figcaption className="px-3 py-2 text-[11px] text-volcanic-500 italic">
+                  {images.access.title}
+                  {images.access.author && ` · ${images.access.author}`}
+                  {` · ${images.access.license}`}
+                </figcaption>
+              </figure>
+            );
+          }
+          if (i === 2 && images?.view) {
+            injected.push(
+              <figure key={`${i}-view`} className="not-prose my-6 overflow-hidden rounded-xl bg-volcanic-100">
+                <img src={images.view.url} alt={images.view.title} className="w-full h-auto" />
+                <figcaption className="px-3 py-2 text-[11px] text-volcanic-500 italic">
+                  {images.view.title} · {images.view.license}
+                </figcaption>
+              </figure>
+            );
+          }
+          return injected;
+        })}
       </Prose>
     </Section>
   );
@@ -1100,6 +1287,9 @@ function buildNavGroups(
 
   planGroup.unshift(["stay", "Stay"]);
   planGroup.push(["eat", "Eat & Drink"]);
+  if (data.showcase.cultural_refs && data.showcase.cultural_refs.length > 0) {
+    cultureGroup.push(["culture", "In the Culture"]);
+  }
   planGroup.push(["planner", "Before You Go"]);
   planGroup.push(["safety", "Safety"]);
 
@@ -1129,6 +1319,12 @@ export default function LegendaryBeach(props: LegendaryBeachProps) {
     safetyCopy,
     plannerRows,
     waterCopy,
+    waterCta,
+    stayMap,
+    dayImages,
+    waterImages,
+    eatImages,
+    contextImages,
     viewBackImages,
     sourcesVoice,
     hideSections = [],
@@ -1166,7 +1362,7 @@ export default function LegendaryBeach(props: LegendaryBeachProps) {
         <div key={s.id}>{s.component}</div>
       ))}
 
-      <DaySection day={data.showcase.day_in_time} />
+      <DaySection day={data.showcase.day_in_time} images={dayImages} />
       {sigsAfter("day").map((s) => (
         <div key={s.id}>{s.component}</div>
       ))}
@@ -1192,7 +1388,7 @@ export default function LegendaryBeach(props: LegendaryBeachProps) {
         <div key={s.id}>{s.component}</div>
       ))}
 
-      <WaterSection copy={waterCopy} />
+      <WaterSection copy={waterCopy} cta={waterCta} images={waterImages} />
       {sigsAfter("water").map((s) => (
         <div key={s.id}>{s.component}</div>
       ))}
@@ -1202,13 +1398,18 @@ export default function LegendaryBeach(props: LegendaryBeachProps) {
         <div key={s.id}>{s.component}</div>
       ))}
 
-      {stayZones && <StaySection zones={stayZones} />}
+      {stayZones && <StaySection zones={stayZones} map={stayMap} />}
       {sigsAfter("stay").map((s) => (
         <div key={s.id}>{s.component}</div>
       ))}
 
-      <EatSection food={data.showcase.food_drink} businesses={data.showcase.businesses} />
+      <EatSection food={data.showcase.food_drink} businesses={data.showcase.businesses} images={eatImages} />
       {sigsAfter("eat").map((s) => (
+        <div key={s.id}>{s.component}</div>
+      ))}
+
+      <CultureSection refs={data.showcase.cultural_refs} headerOverride={props.cultureHeader} />
+      {sigsAfter("culture").map((s) => (
         <div key={s.id}>{s.component}</div>
       ))}
 
@@ -1234,6 +1435,7 @@ export default function LegendaryBeach(props: LegendaryBeachProps) {
           note={data.showcase.favela_note}
           title={honestContextTitle}
           eyebrow={honestContextEyebrow}
+          images={contextImages}
         />
       )}
       {sigsAfter("context").map((s) => (

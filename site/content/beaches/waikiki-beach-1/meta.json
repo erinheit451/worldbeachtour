@@ -6,33 +6,141 @@
   "images": {
     "hero": {
       "url": "/waikiki/hero-diamond-head.jpg",
-      "title": "Waikīkī Beach with Diamond Head at golden hour",
-      "author": "TODO — Wikimedia Commons search",
-      "license": "TODO — verify license before publish",
-      "source_url": "TODO — Commons URL",
-      "width": 4000,
-      "height": 2250,
+      "title": "Waikīkī Beach with Diamond Head",
+      "author": "Frank Schulenburg",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Waikiki_Beach_(2024)-L1004709.jpg",
+      "width": 8487,
+      "height": 5637,
       "role": "hero"
     },
     "section": {
-      "duke_statue": { "url": "/waikiki/duke-statue.jpg", "title": "The Duke Kahanamoku statue on Kalākaua Avenue, draped in leis", "author": "TODO", "license": "TODO", "width": 3000, "height": 4000, "role": "section:duke_statue" },
-      "duke_1920s": { "url": "/waikiki/duke-1920s-archival.jpg", "title": "Duke Kahanamoku with his board at Waikīkī, ca. 1920s", "author": "TODO archival", "license": "Public domain (pre-1928)", "width": 2000, "height": 1500, "role": "section:duke_1920s" },
-      "royal_hawaiian": { "url": "/waikiki/royal-hawaiian.jpg", "title": "The Royal Hawaiian Hotel — 'Pink Palace of the Pacific'", "author": "TODO", "license": "TODO", "width": 3000, "height": 2000, "role": "section:royal_hawaiian" },
-      "moana_surfrider_archival": { "url": "/waikiki/moana-surfrider-1901.jpg", "title": "The Moana Hotel on opening, 1901", "author": "Archival", "license": "Public domain", "width": 2000, "height": 1400, "role": "section:moana_surfrider_archival" },
-      "liliuokalani": { "url": "/waikiki/liliuokalani.jpg", "title": "Queen Liliʻuokalani, ca. 1891", "author": "Hawaiʻi State Archives", "license": "Public domain", "width": 1500, "height": 2000, "role": "section:liliuokalani" },
-      "iolani_palace": { "url": "/waikiki/iolani-palace.jpg", "title": "ʻIolani Palace, Honolulu", "author": "TODO", "license": "TODO", "width": 3000, "height": 2000, "role": "section:iolani_palace" },
-      "canoes_dawn": { "url": "/waikiki/canoes-dawn.jpg", "title": "Outrigger canoes at Kūhiō Beach at dawn", "author": "TODO", "license": "TODO", "width": 3000, "height": 2000, "role": "section:canoes_dawn" },
-      "diamond_head_aerial": { "url": "/waikiki/diamond-head-aerial.jpg", "title": "Aerial view of Waikīkī with Diamond Head", "author": "TODO", "license": "TODO", "width": 4000, "height": 2250, "role": "section:diamond_head_aerial" },
-      "hula_mound": { "url": "/waikiki/hula-mound-sunset.jpg", "title": "Kūhiō Beach Hula Mound at sunset", "author": "TODO", "license": "TODO", "width": 3000, "height": 2000, "role": "section:hula_mound" },
-      "pearl_harbor_1941": { "url": "/waikiki/pearl-harbor-1941.jpg", "title": "USS Arizona during the attack on Pearl Harbor, December 7, 1941", "author": "U.S. Navy", "license": "Public domain", "width": 2000, "height": 1400, "role": "section:pearl_harbor_1941" },
-      "blue_hawaii_poster": { "url": "/waikiki/blue-hawaii-poster.jpg", "title": "Blue Hawaii — 1961 theatrical poster", "author": "Paramount Pictures", "license": "Public domain", "width": 1800, "height": 2400, "role": "section:blue_hawaii_poster" },
-      "panorama_arc": { "url": "/waikiki/panorama.jpg", "title": "Panorama of Waikīkī, west to east", "author": "TODO", "license": "TODO", "width": 6000, "height": 1500, "role": "section:panorama_arc" }
+      "duke_statue": {
+        "url": "/waikiki/duke-statue.jpg",
+        "title": "Duke Kahanamoku statue on Kalākaua Avenue",
+        "author": "DestinationFearFan",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Duke_Paoa_Kahanamoku_Statue.jpg",
+        "width": 3120, "height": 4160, "role": "section:duke_statue"
+      },
+      "duke_1920s": {
+        "url": "/waikiki/duke-1920s-archival.jpg",
+        "title": "Duke Paoa Kahanamoku with his surfboard, ca. 1920s (PPWD-13-3-007)",
+        "author": "Unknown (archival)",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Anonymous_photograph_of_Duke_Paoa_Kahanamoku_with_his_surfboard_(PPWD-13-3-007).jpg",
+        "width": 3150, "height": 4254, "role": "section:duke_1920s"
+      },
+      "duke_amelia": {
+        "url": "/waikiki/duke-amelia.jpg",
+        "title": "Amelia Earhart and Duke Kahanamoku in Hawaiʻi",
+        "author": "Unknown (archival)",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_and_Duke_Kahanamoku_in_Hawaii.JPG",
+        "width": 3112, "height": 2436, "role": "section:duke_amelia"
+      },
+      "royal_hawaiian": {
+        "url": "/waikiki/royal-hawaiian.jpg",
+        "title": "The Royal Hawaiian Hotel — the 'Pink Palace of the Pacific'",
+        "author": "Peter Gill",
+        "license": "CC BY 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:A_Pink_Hotel,_a_boutique_and_a_swinging_hot-spot_-_panoramio.jpg",
+        "width": 2816, "height": 2112, "role": "section:royal_hawaiian"
+      },
+      "royal_hawaiian_courtyard": {
+        "url": "/waikiki/royal-hawaiian-courtyard.jpg",
+        "title": "Royal Hawaiian Hotel courtyard, Kalākaua Avenue",
+        "author": "w_lemay",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Courtyard,_Royal_Hawaiian_Hotel,_Kalakaua_Avenue,_Waikiki,_Honolulu,_HI_-_52273396329.jpg",
+        "width": 2885, "height": 3847, "role": "section:royal_hawaiian_courtyard"
+      },
+      "moana_hotel": {
+        "url": "/waikiki/moana-hotel.jpg",
+        "title": "The Moana Hotel (1901) — the original Waikīkī tourist hotel",
+        "author": "w_lemay",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Moana_Hotel,_Kalakaua_Avenue,_Waikiki,_Honolulu,_HI.jpg",
+        "width": 3776, "height": 2832, "role": "section:moana_hotel"
+      },
+      "liliuokalani": {
+        "url": "/waikiki/liliuokalani.jpg",
+        "title": "Queen Liliʻuokalani, ca. 1891",
+        "author": "James J. Williams (photo); restoration by Adam Cuerden",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Liliuokalani,_c._1891.jpg",
+        "width": 6820, "height": 8950, "role": "section:liliuokalani"
+      },
+      "iolani_palace": {
+        "url": "/waikiki/iolani-palace.jpg",
+        "title": "ʻIolani Palace, Honolulu",
+        "author": "Steven Pavlov",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:2023-04-19,_Iolani_Palace,_Honolulu,_Hawaii,_05.jpg",
+        "width": 4032, "height": 3024, "role": "section:iolani_palace"
+      },
+      "pearl_harbor_1941": {
+        "url": "/waikiki/pearl-harbor-1941.jpg",
+        "title": "USS Arizona burning at Pearl Harbor, December 7, 1941",
+        "author": "U.S. Navy",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:USS_Arizona_(BB-39)_burning_at_Pearl_Harbor_1941.jpg",
+        "width": 5729, "height": 4511, "role": "section:pearl_harbor_1941"
+      },
+      "canoes_waikiki": {
+        "url": "/waikiki/canoes-waikiki.jpg",
+        "title": "Outrigger canoes and surfers at Waikīkī Beach",
+        "author": "Charles O'Rear (NARA)",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:OUTRIGGER_CANOES_AND_SURFERS_AT_WAIKIKI_BEACH_-_NARA_-_553690.jpg",
+        "width": 3000, "height": 2007, "role": "section:canoes_waikiki"
+      },
+      "canoe_surfing_painting": {
+        "url": "/waikiki/canoe-surfing-painting.jpg",
+        "title": "'Canoe Surfing, Waikiki' by D. Howard Hitchcock",
+        "author": "D. Howard Hitchcock",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:'Canoe_Surfing,_Waikiki'_by_D._Howard_Hitchcock.JPG",
+        "width": 1618, "height": 964, "role": "section:canoe_surfing_painting"
+      },
+      "helumoa_historic_painting": {
+        "url": "/waikiki/helumoa-historic-painting.jpg",
+        "title": "Diamond Head, Waikiki Beach, and Helumoa — painting by Charles Furneaux",
+        "author": "Charles Furneaux",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Diamond_Head,_Waikiki_Beach,_and_Helumoa..._by_Charles_Furneaux.jpg",
+        "width": 2443, "height": 1432, "role": "section:helumoa_historic_painting"
+      },
+      "aerial_iss_hawaii": {
+        "url": "/waikiki/aerial-iss-hawaii.jpg",
+        "title": "Honolulu from the International Space Station",
+        "author": "NASA / Scott Kelly",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:ISS-43_Honolulu,_Hawaii.jpg",
+        "width": 4928, "height": 3280, "role": "section:aerial_iss_hawaii"
+      },
+      "natatorium": {
+        "url": "/waikiki/natatorium.jpg",
+        "title": "Waikīkī War Memorial Natatorium at sunrise — Hawaiʻi's beautiful ruin",
+        "author": "Flip Flops Hawaii",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sunrise_at_the_Waikiki_Natatorium.jpg",
+        "width": 4032, "height": 3024, "role": "section:natatorium"
+      },
+      "panorama_arc": {
+        "url": "/waikiki/panorama-night.jpg",
+        "title": "Waikīkī at night — 10-second exposure",
+        "author": "davidpinter",
+        "license": "CC BY 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:10_Second_Exposure,_Waikiki,_Oahu,_Hawaii_-_panoramio_(1).jpg",
+        "width": 4814, "height": 2444, "role": "section:panorama_arc"
+      }
     },
     "gallery": [
-      { "url": "/waikiki/panorama.jpg", "title": "Panorama — the full arc", "license": "TODO", "width": 6000, "height": 1500 },
-      { "url": "/waikiki/duke-statue.jpg", "title": "Duke with fresh leis", "license": "TODO", "width": 3000, "height": 4000 },
-      { "url": "/waikiki/canoes-dawn.jpg", "title": "Outrigger dawn", "license": "TODO", "width": 3000, "height": 2000 },
-      { "url": "/waikiki/royal-hawaiian.jpg", "title": "The Pink Palace", "license": "TODO", "width": 3000, "height": 2000 }
+      { "url": "/waikiki/panorama-night.jpg", "title": "Waikīkī at night — 10s exposure", "author": "davidpinter", "license": "CC BY 3.0", "width": 4814, "height": 2444 },
+      { "url": "/waikiki/duke-statue.jpg", "title": "Duke with fresh leis", "author": "DestinationFearFan", "license": "CC BY-SA 4.0", "width": 3120, "height": 4160 },
+      { "url": "/waikiki/aerial-iss-hawaii.jpg", "title": "Honolulu from ISS-43", "author": "NASA / Scott Kelly", "license": "Public domain", "width": 4928, "height": 3280 },
+      { "url": "/waikiki/royal-hawaiian.jpg", "title": "The Pink Palace", "author": "Peter Gill", "license": "CC BY 3.0", "width": 2816, "height": 2112 }
     ]
   }
 }

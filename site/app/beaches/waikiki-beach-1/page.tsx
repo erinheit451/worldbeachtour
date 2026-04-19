@@ -7,6 +7,8 @@ import LegendaryBeach, {
 } from "@/components/showcase/legendary-beach";
 import WaikikiDuke from "@/components/signature/waikiki-duke";
 import WaikikiMonarchy from "@/components/signature/waikiki-monarchy";
+import WaikikiBreaks from "@/components/signature/waikiki-breaks";
+import WaikikiPlacenames from "@/components/signature/waikiki-placenames";
 
 const DATA_PATH = path.join(process.cwd(), "data", "beaches", "waikiki-beach-1.json");
 const META_PATH = path.join(
@@ -26,10 +28,11 @@ function loadData(): { data: LegendaryData; meta: LegendaryMeta } {
 export const metadata: Metadata = {
   title: "Waikīkī — The Beach That Taught the World How to Beach",
   description:
-    "Two miles of sand, Diamond Head at one end, Duke Kahanamoku on every morning's leis. The surfing-birthplace mythology, the monarchy overthrown two miles away, and the beach that still belongs to the islands that built it.",
+    "Seven named surf breaks. A deposed queen two miles inland. Duke Kahanamoku's ninety-year-old leis. The Helumoa coconut grove under the Royal Hawaiian. The Natatorium ruin at the eastern edge. The definitive page on Hawaiʻi's most famous beach — written so a local nods.",
   openGraph: {
     title: "Waikīkī — The Beach That Taught the World How to Beach",
-    description: "Duke Kahanamoku, the Royal Hawaiian, the Apology Resolution, and the canoes still launching at dawn.",
+    description:
+      "Queens, Canoes, Publics, Threes — the seven named breaks. Duke Kahanamoku's statue with fresh leis every morning. The 1893 overthrow. The Kingdom beneath the tourist strip.",
     type: "article",
   },
 };
@@ -56,7 +59,7 @@ export default function WaikikiPage() {
         },
         howLong: {
           prose:
-            "Two days for Waikīkī alone. Four days to do Oʻahu right — add North Shore, Hanauma Bay, and ʻIolani Palace. A week lets you neighbor-island.",
+            "Two days for Waikīkī itself. Four days to do Oʻahu right — add North Shore, Hanauma Bay, and ʻIolani Palace. A week lets you neighbor-island.",
           linkText: "Itineraries",
           linkTo: "#planner",
         },
@@ -78,6 +81,20 @@ export default function WaikikiPage() {
           ),
         },
         {
+          id: "breaks",
+          label: "Named Breaks",
+          group: "beach",
+          insertAfter: "postos",
+          component: <WaikikiBreaks />,
+        },
+        {
+          id: "placenames",
+          label: "Reading the Land",
+          group: "culture",
+          insertAfter: "day",
+          component: <WaikikiPlacenames />,
+        },
+        {
           id: "monarchy",
           label: "Monarchy & Memory",
           group: "culture",
@@ -93,12 +110,17 @@ export default function WaikikiPage() {
       ]}
       timelineImagesByYear={{
         1893: "liliuokalani",
-        1901: "moana_surfrider_archival",
+        1901: "moana_hotel",
         1912: "duke_1920s",
         1927: "royal_hawaiian",
         1941: "pearl_harbor_1941",
-        1961: "blue_hawaii_poster",
         2002: "duke_statue",
+      }}
+      cultureHeader={{
+        eyebrow: "· In the Culture",
+        title: "Waikīkī in the American imagination",
+        kicker:
+          "A century of films, songs, novels, and TV shows about this two-mile strip. A few of them are what the mainland thinks Hawaiʻi is.",
       }}
       versusCompare={[
         {
@@ -106,11 +128,11 @@ export default function WaikikiPage() {
           tagTone: "ocean",
           headline: "The built beach — urban, layered, central",
           rows: [
-            { label: "Anthem", value: "Beyond the Reef (Jack Pitman, 1948); Somewhere Over the Rainbow (IZ, 1993)" },
+            { label: "Anthem", value: "Somewhere Over the Rainbow (IZ, 1993); Tiny Bubbles (Don Ho, 1966)" },
             { label: "Defining image", value: "Duke Kahanamoku statue + Diamond Head silhouette" },
+            { label: "Surf", value: "Queens, Canoes, Publics — longboard-friendly, crowded, classic" },
             { label: "Hotels on sand", value: "30,000+ rooms in a 2 km strip" },
             { label: "Best for", value: "First-time Hawaiʻi, urban amenities, shopping + beach" },
-            { label: "Surf", value: "Queens, Canoes, Publics — longboard-friendly, crowded but classic" },
           ],
         },
         {
@@ -121,7 +143,7 @@ export default function WaikikiPage() {
             { label: "Defining image", value: "Pipeline breaking in December" },
             { label: "Surf", value: "Pipeline, Sunset, Waimea — world-class, winter only, not for most swimmers" },
             { label: "Summer", value: "Calm beaches — Waimea Bay swimming, Shark's Cove snorkeling" },
-            { label: "Food", value: "Matsumoto's shave ice, shrimp trucks (Giovanni's)" },
+            { label: "Food", value: "Matsumoto's shave ice, shrimp trucks (Giovanni's, Romy's)" },
             { label: "Best for", value: "Surf-watching Dec–Feb, day trip any time of year" },
           ],
         },
@@ -142,7 +164,7 @@ export default function WaikikiPage() {
         {
           zone: "Kāhala / eastern",
           flavor:
-            "Residential Oʻahu east of Diamond Head. The Kāhala Resort (formerly Mandarin Oriental) is the one hotel — quieter, dolphin lagoon, 15-min drive to Waikīkī. Favored by returning visitors who want proximity without the strip.",
+            "Residential Oʻahu east of Diamond Head. The Kāhala Resort is the one hotel — quieter, dolphin lagoon, 15-min drive to Waikīkī. Favored by returning visitors who want proximity without the strip.",
           tiers: [
             { tier: "Luxury", examples: "The Kahala Hotel & Resort" },
             { tier: "Mid", examples: "Airbnb and condos in Kāhala" },
@@ -154,18 +176,9 @@ export default function WaikikiPage() {
           flavor:
             "The heart of the strip. Most restaurants, most shopping, most crowds. Every hotel here is within a 5-minute walk of the sand. If you want Waikīkī's full experience, stay here.",
           tiers: [
-            {
-              tier: "Luxury",
-              examples: "The Royal Hawaiian (Marriott Luxury Collection), Moana Surfrider (Marriott), Halekulani",
-            },
-            {
-              tier: "Mid",
-              examples: "Sheraton Waikīkī, Outrigger Waikīkī Beach Resort, Hyatt Centric",
-            },
-            {
-              tier: "Budget",
-              examples: "Waikiki Beachside Hostel, OHANA Waikiki East by Outrigger",
-            },
+            { tier: "Luxury", examples: "The Royal Hawaiian (Marriott Luxury Collection), Moana Surfrider (Marriott), Halekulani" },
+            { tier: "Mid", examples: "Sheraton Waikīkī, Outrigger Waikīkī Beach Resort, Hyatt Centric" },
+            { tier: "Budget", examples: "Waikiki Beachside Hostel, OHANA Waikiki East by Outrigger" },
           ],
         },
         {
@@ -214,7 +227,7 @@ export default function WaikikiPage() {
             ],
             [
               "Reef-safe sunscreen",
-              "Required by Hawaiʻi state law (HB1494, 2018) — oxybenzone and octinoxate are banned in sunscreen. Mineral sunscreens (zinc oxide, titanium dioxide) are legal and widely sold.",
+              "Required by Hawaiʻi state law (SB 2571, 2018) — oxybenzone and octinoxate are banned in sunscreen. Mineral sunscreens (zinc oxide, titanium dioxide) are legal and widely sold.",
             ],
           ],
         },
@@ -248,22 +261,37 @@ export default function WaikikiPage() {
             ],
             [
               "A week",
-              "Add a neighbor-island hop — Maui for Haleakalā and Ka'anapali, Kauaʻi for Nā Pali Coast, or Hawaiʻi (Big Island) for Volcanoes National Park.",
+              "Add a neighbor-island hop — Maui for Haleakalā and Kā'anapali, Kauaʻi for Nā Pali Coast, or Hawaiʻi (Big Island) for Volcanoes National Park.",
             ],
           ],
         },
       ]}
       safetyCopy={{
-        whatLocalsDo: `Waikīkī is **among the safer urban beaches in the world by absolute measures**. Violent crime is rare. The petty crime that exists is concentrated: cars parked on Kalākaua are targets for smash-and-grab (don't leave anything visible), and ATM-skimming rings appear periodically. Most of Waikīkī is patrolled and well-lit 24 hours.\n\nThe less-visible risk is **houselessness-related interaction**. Native Hawaiian homelessness is the highest per-capita in the U.S., and state parks (including beach parks) are where some unsheltered people spend the day. The vast majority are not a threat. Locals are courteous and give space; visitors sometimes misread the scene. Kapiʻolani Park after midnight has the most concentration; downtown Chinatown has more than Waikīkī itself.`,
-        inTheWater: `The **Hawaiʻi Beach and Ocean Safety website** (oceansafety.hawaii.gov) publishes daily beach conditions. Waikīkī's swimming zones (Kūhiō, Duke Kahanamoku Beach) are lifeguarded 9 a.m. to 5:30 p.m. year-round. The reef is close to shore — snorkeling here is better than expected, but the water clarity depends on whether the trades have been running.\n\n**Box jellyfish swarms** arrive on Oʻahu's south shore 8–10 days after each full moon, typically present in the water 10–14 days. Signs go up at Waikīkī when they're present. Vinegar (the locally-stocked treatment) is at every lifeguard stand.\n\n**Rip currents** exist but are moderate compared to North Shore. The bigger risk for visitors is **overconfidence** — the water looks calm, and it mostly is, but the reef shelf creates unexpected drop-offs. Shuffle your feet entering the water; step on a dozing honu (green sea turtle, federally protected) and you're both having a bad day.\n\n**Monk seals** (Hawaiian monk seals, an endangered species) haul out on Waikīkī beaches occasionally — most often at Kaimana Beach (east end). If you see one, stay 150 feet back; state-federal protocol is enforced. Volunteers rope off the area.`,
+        whatLocalsDo: `Waikīkī is **among the safer urban beaches in the world by absolute measures**. Violent crime is rare. The petty crime that exists is concentrated: cars parked on Kalākaua are targets for smash-and-grab (don't leave anything visible), and ATM-skimming rings appear periodically. Most of Waikīkī is patrolled and well-lit 24 hours.
+
+The less-visible risk is **houselessness-related interaction**. Native Hawaiian homelessness is the highest per-capita in the U.S., and state parks (including beach parks) are where some unsheltered people spend the day. The vast majority are not a threat. Locals are courteous and give space; visitors sometimes misread the scene. Kapiʻolani Park after midnight has the most concentration; downtown Chinatown has more than Waikīkī itself.`,
+        inTheWater: `The **Hawaiʻi Beach and Ocean Safety website** (oceansafety.hawaii.gov) publishes daily beach conditions. Waikīkī's swimming zones (Kūhiō, Duke Kahanamoku Beach) are lifeguarded 9 a.m. to 5:30 p.m. year-round. The reef is close to shore — snorkeling here is better than expected, but the water clarity depends on whether the trades have been running.
+
+**Box jellyfish swarms** arrive on Oʻahu's south shore 8–10 days after each full moon, typically present in the water 10–14 days. Signs go up at Waikīkī when they're present. Vinegar (the locally-stocked treatment) is at every lifeguard stand.
+
+**Rip currents** exist but are moderate compared to North Shore. The bigger risk for visitors is **overconfidence** — the water looks calm, and it mostly is, but the reef shelf creates unexpected drop-offs. Shuffle your feet entering the water; step on a dozing **honu** (green sea turtle, federally protected) and you're both having a bad day.
+
+**Hawaiian monk seals** (endangered, ~1,400 remaining worldwide) haul out on Waikīkī beaches occasionally — most often at Kaimana Beach (east end). If you see one, stay **50 feet back**; state-federal protocol is enforced. NOAA Marine Mammal Response volunteers rope off the area.`,
       }}
       waterCopy={{
-        prose: `**First, the reef.** Waikīkī sits inside a fringing reef that extends 100–400 m offshore. The reef is what makes the swimming calm, the surf longboard-friendly rather than barreling, and the coral ecosystem — while stressed by sunscreen, sediment, and warming — genuinely visible at snorkeling depth a short swim from the sand.\n\n**Second, the surf.** The three named breaks at Waikīkī — **Queens, Canoes, and Publics** — are the original longboard playground. Waves here rarely exceed head-high; summer south swells bring the cleanest conditions. The beach boys still run canoe-surfing rides from Royal Hawaiian Beach at $4 per person, the same rate since the 1950s (adjusted slightly for inflation, not for tourism).\n\n**Third, temperature and tides.** Water temperature runs 24°C in January/February, 27°C in August/September. The tidal range is tiny — 0.48 m spring, 0.21 m neap (mixed semidiurnal) — so the beach geometry barely changes across the day. What does change is the sand: **Waikīkī erodes at about 0.5 ft per year on average**, and the state has been nourishing the beach with barged-in or dredged sand since the 1920s.\n\n**Fourth, the marine life.** Green sea turtles (honu) are common and federally protected. Hawaiian monk seals occasionally haul out on the eastern beaches. Dolphins pass offshore but rarely enter the reef. Hurricanes reach Waikīkī occasionally — **seven tropical cyclones in the past 50 years** per IBTrACS; four of those Category 4. Hurricane ʻIniki (1992) spared Oʻahu but hit Kauaʻi hard enough to remind Hawaiʻi the Central Pacific is not a benign basin.`,
+        prose: `**First, the reef.** Waikīkī sits inside a fringing reef that extends 100–400 m offshore. The reef is what makes the swimming calm, the surf longboard-friendly rather than barreling, and the coral ecosystem — while stressed by sunscreen, sediment, and warming — genuinely visible at snorkeling depth a short swim from the sand. **Hawaiʻi's 2018 ban on oxybenzone-containing sunscreen** (the first in the world) was passed specifically to protect this reef system.
+
+**Second, the surf — seven named breaks.** See the Named Breaks section above. Summer (south swells, June–September) brings the cleanest conditions. The beach boys still run canoe-surfing rides at Canoes break from Royal Hawaiian Beach — the same service, roughly the same price, since the 1920s.
+
+**Third, temperature and tides.** Water runs 24°C in January, 27°C in August. The tidal range is tiny — 0.48 m spring, 0.21 m neap, mixed semidiurnal — so the beach geometry barely changes across a day. What does change is the sand: **Waikīkī erodes at about 0.5 ft per year on average**, and the state has been nourishing the beach with barged-in or dredged sand since the 1920s. The beach you are standing on is a maintained object.
+
+**Fourth, the marine life.** Green sea turtles (honu) are common and federally protected — give them space. Hawaiian monk seals occasionally haul out on the eastern beaches; volunteers rope them off. Humpback whales migrate past Oʻahu November through May; clearest from offshore charters. **Seven tropical cyclones in the past 50 years** (per IBTrACS), four of them Category 4 — Hawaiian islands are not immune to Central Pacific hurricanes. Hurricane ʻIniki (1992) spared Oʻahu but hit Kauaʻi hard enough to remind the state that the Central Pacific is not a benign basin.`,
         atAGlance: [
           { label: "Water temp", value: "24–27°C" },
           { label: "Tide range (spring)", value: "0.48 m" },
           { label: "Tide type", value: "Mixed semidiurnal" },
           { label: "Surf season", value: "Summer (south swells)" },
+          { label: "Named breaks", value: "7 (Pops to Kaisers)" },
           { label: "Cyclones 50 yr", value: "7 (incl. 4× Cat 4)" },
           { label: "Beach retreat rate", value: "~0.5 ft/yr" },
           { label: "Jellyfish", value: "8–10 days after full moon" },
@@ -272,21 +300,33 @@ export default function WaikikiPage() {
       viewBackImages={[
         {
           role: "panorama_arc",
-          caption: "Panorama from the Royal Hawaiian lawn, looking east toward Diamond Head.",
+          caption: "Waikīkī at night — ten-second exposure from the Royal Hawaiian lawn.",
         },
         {
-          role: "diamond_head_aerial",
-          caption: "Aerial view — the Ala Wai Canal on the mauka side; Diamond Head at the eastern end.",
+          role: "aerial_iss_hawaii",
+          caption:
+            "Honolulu from 400 km up — photographed by astronaut Scott Kelly aboard the ISS.",
         },
         {
-          role: "canoes_dawn",
-          caption: "Outrigger canoes at dawn — Kūhiō Beach before the tourists arrive.",
+          role: "helumoa_historic_painting",
+          caption:
+            "Charles Furneaux's 19th-century painting of Diamond Head and the Helumoa coconut grove — where the Royal Hawaiian Hotel now stands.",
+        },
+        {
+          role: "natatorium",
+          caption:
+            "The Waikīkī War Memorial Natatorium at sunrise — built 1927, closed 1979, still standing derelict at the eastern edge of the beach. Duke Kahanamoku set swimming records here.",
+        },
+        {
+          role: "canoe_surfing_painting",
+          caption:
+            "D. Howard Hitchcock's painting of canoe surfing at Waikīkī. The beach boys were doing this before tourists knew the word 'surf.'",
         },
       ]}
       honestContextTitle="The kingdom beneath"
       honestContextEyebrow="· Honest Context"
       honestContextNavLabel="Kingdom Beneath"
-      sourcesVoice="Written to pass the kumu hula test. Corrections and corrections of emphasis welcome — Hawaiian language diacritics, name spellings, and cultural framings may be refined with input from Hawaiian readers."
+      sourcesVoice="Written to pass the kumu hula test. Hawaiian-language diacritics and cultural framings may be refined with input from Hawaiian readers — corrections welcome."
     />
   );
 }
