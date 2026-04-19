@@ -13,6 +13,7 @@ const LENS_COLORS: Record<string, string> = {
   diving: "text-cyan-600 border-cyan-500",
   history: "text-amber-700 border-amber-700",
   sand: "text-sand-700 border-sand-600",
+  culture: "text-rose-600 border-rose-500",
 };
 
 interface LensTabsProps {

@@ -7,6 +7,7 @@ export const LENSES = [
   { id: "diving", label: "Diving", icon: "anchor" },
   { id: "history", label: "History", icon: "scroll" },
   { id: "sand", label: "Sand & Geology", icon: "mountain" },
+  { id: "culture", label: "Culture", icon: "landmark" },
 ] as const;
 
 export type LensId = (typeof LENSES)[number]["id"];

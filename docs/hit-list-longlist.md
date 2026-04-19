@@ -1,0 +1,379 @@
+# Hit List — Long-list candidates (pre-curation)
+
+Working scratch from research pass. Each line is `name | country | angle`. Cross-check + tier assignment happens next.
+
+## SURF (~60)
+
+- Banzai Pipeline | US-HI | Most filmed wave on earth
+- Sunset Beach | US-HI | North Shore winter big-wave
+- Waimea Bay | US-HI | The Eddie, big-wave history
+- Honolua Bay | US-HI | Maui's best righthander
+- Mavericks | US-CA | Big-wave proving ground (Half Moon Bay)
+- Trestles | US-CA | High-performance training wave (Lower/Upper)
+- Malibu Surfrider | US-CA | First Point — birthplace of modern surfing
+- Huntington Beach Pier | US-CA | "Surf City USA", US Open
+- Ocean Beach SF | US-CA | Heavy beach break
+- Steamer Lane | US-CA | Santa Cruz icon
+- Rincon | US-CA | "Queen of the Coast" (Santa Barbara)
+- Black's Beach | US-CA | Powerful San Diego peak (Torrey Pines)
+- Cloud 9 | PH | Siargao reef pass
+- Uluwatu | ID | Bali's signature lefthander
+- Padang Padang | ID | "Balinese Pipeline"
+- Keramas | ID | Bali east coast righthander
+- Desert Point | ID | Lombok world-class left
+- Lakey Peak | ID | Sumbawa A-frame
+- G-Land / Plengkung | ID | Java jungle left
+- Lagundri Bay | ID | Nias right
+- Mentawais beaches | ID | Macaronis, Lance's Right etc
+- Cloudbreak | FJ | Fiji reef pass
+- Restaurants | FJ | Tavarua left
+- Teahupoʻo | PF | Tahiti's heaviest wave, 2024 Olympics
+- Jeffrey's Bay | ZA | World's best right pointbreak
+- Dungeons | ZA | Hout Bay big-wave
+- Skeleton Bay | NA | Longest left in the world (Donkey Bay)
+- Anchor Point | MA | Morocco's signature right
+- Imsouane | MA | Long-ride right pointbreak
+- Mundaka | ES | Basque country left rivermouth
+- Hossegor / La Gravière | FR | French beach-break peaks
+- Supertubos | PT | Peniche A-frame
+- Coxos | PT | Ericeira power right
+- Bells Beach | AU | Rip Curl Pro home break
+- Snapper Rocks / Superbank | AU | World's longest sand-bottom right
+- Kirra | AU | Superbank section
+- Burleigh Heads | AU | QLD pointbreak
+- Margaret River | AU | WA reef-break power
+- Shipsterns Bluff | AU | Tasmania heavy slab
+- The Pass | AU | Byron longboard wave
+- Manly Beach | AU | Sydney birthplace of Australian surfing
+- Raglan / Manu Bay | NZ | Endless Summer left
+- Piha | NZ | Heavy black-sand break
+- Punta de Lobos | CL | Chile pointbreak
+- Pichilemu | CL | Chile big-wave hub
+- Chicama | PE | Reportedly longest left in world
+- Mancora | PE | North Peru point
+- Puerto Escondido | MX | "Mexican Pipeline" (Zicatela)
+- Pavones | CR | Long left
+- Witch's Rock / Ollie's Point | CR | Endless Summer II locations
+- Tamarindo | CR | Beginner-friendly icon
+- Salina Cruz | MX | Sand-bottom rights
+- Sayulita | MX | Beginner mecca
+- Mullaghmore Head | IE | Irish big-wave slab
+- Thurso East | GB | Scotland reef break
+- Anchor Point | MA | (dup ok)
+- Praia do Norte | PT | Nazaré (already built)
+- La Nord | FR | Hossegor section
+
+## SAND & GEOLOGY (~55)
+
+- Reynisfjara | IS | Black sand + basalt columns + sneaker waves
+- Diamond Beach (Jökulsárlón) | IS | Glacier ice on black sand
+- Vík í Mýrdal | IS | Reynisdrangar sea stacks
+- Punaluʻu | US-HI | Hawaiian black sand + green turtles
+- Papakōlea | US-HI | Olivine green sand (one of four globally)
+- Kaihalulu | US-HI | Maui red-sand cinder cone
+- Glass Beach (Fort Bragg) | US-CA | Tumbled dump glass
+- Glass Beach (Eleele) | US-HI | Kauai industrial glass
+- Pfeiffer Beach | US-CA | Manganese-garnet purple sand
+- Bowling Ball Beach | US-CA | Concretions at Schooner Gulch
+- Pink Sands Beach | BS | Harbour Island pink (foram fragments)
+- Pink Beach | ID | Komodo
+- Tangsi (Pink) | ID | Lombok
+- Elafonissi | GR | Crete pink + lagoon
+- Balos Lagoon | GR | Crete lagoon turquoise
+- Spiaggia Rosa (Budelli) | IT | Sardinia pink (closed/protected)
+- Whitehaven Beach | AU | Whitsundays 98% silica
+- Hyams Beach | AU | "Whitest sand in world" (Guinness)
+- Lucky Bay | AU | Squeaky white + roo neighbors
+- Cable Beach | AU | Broome 22km of red-cliff sand
+- Anse Source d'Argent | SC | La Digue granite boulders
+- Praia do Sancho | BR | Fernando de Noronha cliff descent
+- Navagio (Shipwreck) | GR | Zakynthos rusted wreck cove
+- Algar de Benagil | PT | Sea cave with ceiling oculus
+- Praia da Marinha | PT | Algarve arches
+- Étretat (Plage) | FR | Chalk arches & needle
+- Durdle Door | GB | Limestone arch (Dorset)
+- Old Harry Rocks | GB | Chalk stacks
+- Giant's Causeway shore | GB | Basalt columns
+- Cathedral Cove | NZ | Coromandel sea arch
+- Wharariki Beach | NZ | Sea stacks
+- Koekohe (Moeraki Boulders) | NZ | Spherical concretions
+- Shell Beach | AU | Shark Bay all-cockle-shell
+- Praia da Falésia | PT | Red-cliff Algarve
+- Praia Vermelha | BR | Red sand at Sugarloaf
+- Cox's Bazar | BD | Longest natural sea beach (~120km)
+- Praia da Adraga | PT | Sintra cliffs
+- Cala Goloritzé | IT | Sardinia limestone needle
+- Cala Mariolu | IT | Sardinia white pebbles
+- La Pelosa | IT | Sardinia turquoise + tower
+- Talisker Bay | GB | Skye black/grey sand
+- Sandymouth Bay | GB | Cornwall striped cliffs
+- Eureka Dunes (singing) | US-CA | Booming sand
+- Kaihalulu | US-HI | (dup ok)
+- Skeleton Coast beaches | NA | Shipwreck-strewn fog coast
+- Hidden Beach (Marieta) | MX | Crater roof collapse
+- Ulong Beach | PW | Survivor location, white crescent
+- Kynance Cove | GB | Cornwall serpentine
+- Falésia Beach | PT | (dup)
+- Kaikoura coast | NZ | Limestone cliffs + wildlife
+- Trafalgar Beach | GB | n/a
+- Talisker | GB | (dup)
+- Singing sand of Eigg | GB | Quartz sand sings underfoot
+- Ramla Bay | MT | Gozo red sand
+- Plage du Sillon | FR | Saint-Malo storm seawall
+
+## HISTORY (~40)
+
+- Omaha Beach | FR | D-Day (Bloody Omaha) US 1st/29th
+- Utah Beach | FR | D-Day US 4th
+- Juno Beach | FR | D-Day Canadians
+- Gold Beach | FR | D-Day British
+- Sword Beach | FR | D-Day British
+- Pointe du Hoc | FR | D-Day Rangers cliff assault
+- Anzio | IT | 1944 Allied landing
+- Salerno (Paestum) | IT | 1943 landing
+- Iwo Jima (Suribachi) | JP | Flag-raising beach
+- Tarawa (Betio) | KI | 1943 brutal landing
+- Saipan beaches | MP | 1944 invasion
+- Tinian | MP | Atomic-bomb staging
+- Peleliu beaches | PW | 1944 Marines
+- Guadalcanal (Red Beach) | SB | 1942 first US offensive
+- ANZAC Cove (Gallipoli) | TR | 1915 ANZAC landing
+- Suvla Bay | TR | Gallipoli August offensive
+- Inchon | KR | 1950 MacArthur landing
+- Dunkirk | FR | 1940 Operation Dynamo
+- Bay of Pigs (Playa Girón) | CU | 1961 invasion failure
+- Plymouth Rock area | US-MA | Pilgrim landing
+- Botany Bay | AU | Cook 1770 landing
+- Drake's Beach | US-CA | Drake's 1579 California claim
+- Port Arthur | AU | Convict colony
+- St. Augustine Beach | US-FL | Oldest continuous European settlement coast
+- Dieppe Beach | FR | 1942 Canadian raid
+- Walcheren | NL | 1944 Allied amphibious
+- Maleme Beach | GR | 1941 Crete invasion (paratroop+)
+- Goree Island shore | SN | Slave trade memorial
+- Cape Coast / Elmina | GH | Slave-trade castles + beaches
+- Bunce Island | SL | Slave-trade fortress
+- Sun Yat-sen Mem Park beach | n/a
+- Kwajalein | MH | 1944 invasion
+- San Carlos | FK | 1982 Falklands landing
+- Plymouth Hoe | GB | Drake's bowls / Armada
+- Mers-el-Kébir | DZ | 1940 French fleet attack
+- Hastings shore | GB | 1066 Norman landing area
+- Pevensey Bay | GB | William Conqueror landing
+- Marathon Beach | GR | Persian-war landing site
+- Salamis | GR | Battle viewpoint
+- Trafalgar Beach (Cádiz) | ES | 1805 battle off coast
+- Ostia Antica | IT | Roman seaport
+- Bunker Hill / Boston Harbor | US-MA | Revolutionary
+
+## PHOTOGRAPHY (~40)
+
+- Reynisfjara | IS | (dup — sand+photo overlap)
+- Diamond Beach | IS | (dup)
+- Lofoten - Uttakleiv / Haukland | NO | Arctic mountain beaches
+- Ramberg | NO | Lofoten white sand
+- Kvalvika | NO | Lofoten secluded
+- Sandur (Faroe) | FO | Faroe basalt + sea stacks
+- Saksun | FO | Tidal lagoon
+- Ramberg | NO | (dup)
+- Etretat | FR | (dup — chalk arches)
+- Kynance Cove | GB | (dup — turquoise)
+- Durdle Door | GB | (dup)
+- Old Harry Rocks | GB | (dup)
+- Praia da Marinha | PT | (dup — arches)
+- Algar de Benagil | PT | (dup — cave)
+- Navagio | GR | (dup — wreck)
+- Cala Goloritzé | IT | (dup — limestone needle)
+- Praia do Camilo | PT | Algarve cliff staircase
+- Plage de Notre-Dame (Porquerolles) | FR | Mediterranean turquoise
+- Anse Source d'Argent | SC | (dup — granite)
+- Anse Lazio | SC | Praslin
+- Praia do Sancho | BR | (dup — cliff descent)
+- Lopes Mendes | BR | Ilha Grande arc
+- Cathedral Cove | NZ | (dup)
+- Wharariki | NZ | (dup)
+- Hokitika | NZ | Driftwood beach
+- Koekohe | NZ | (dup — boulders)
+- Wineglass Bay | AU | Tasmania crescent
+- Twelve Apostles / Loch Ard Gorge | AU | Victoria limestone stacks
+- Bondi (sunrise icebergs pool) | AU | Iconic shot
+- Maya Bay | TH | The Beach (2000)
+- Phra Nang | TH | Krabi limestone
+- Railay | TH | Karst peninsula
+- Halong Bay coves | VN | Karst seascape
+- El Nido (Twin/Hidden Beach) | PH | Bacuit Bay
+- Coron (Kayangan) | PH | Limestone lake-beach
+- Pfeiffer Beach (keyhole) | US-CA | (dup — purple)
+- McWay Cove | US-CA | Big Sur waterfall on beach
+- Bandon Beach | US-OR | Sea stacks
+- Cannon Beach (Haystack Rock) | US-OR | Goonies / Kindergarten Cop
+- Ruby Beach | US-WA | Olympic NP sea stacks
+- Second Beach | US-WA | La Push sea stacks
+- Schwartz Bay / Stanley | FK | Penguin foreground
+- Fiordland beaches | NZ | Milford / Doubtful glimpses
+- Tracy Arm beaches | US-AK | Glacier proximity
+- Tongass beaches (Misty Fjords) | US-AK | n/a
+- Skye Talisker | GB | (dup)
+- Sandymouth | GB | (dup)
+- Cabo San Lucas Arch (Lover's) | MX | El Arco landmark
+
+## DIVING (~40)
+
+- Sipadan | MY | World-class coral wall (Borneo)
+- Mabul | MY | Macro/muck capital
+- Layang Layang | MY | Hammerhead atoll
+- Tubbataha Reef | PH | Sulu Sea pinnacle (UNESCO)
+- Apo Island | PH | Marine sanctuary
+- Coron Wrecks | PH | WWII Japanese fleet
+- Anilao | PH | Macro mecca
+- Raja Ampat (Wayag/Misool) | ID | Highest marine biodiversity
+- Wakatobi | ID | Coral triangle
+- Bunaken | ID | Sulawesi steep walls
+- Lembeh Strait | ID | Critter / muck
+- Hanifaru Bay | MV | Manta + whale shark feeding
+- Ari/Baa Atoll beaches | MV | Reef beaches
+- Havelock (Radhanagar) | IN | Andamans #1 ranked Asia
+- Lakshadweep beaches | IN | Untouched atolls
+- Similan Islands | TH | Sail rock granite
+- Surin Islands | TH | Manta cleaning
+- Ko Tao | TH | Cheapest cert in world
+- Heron Island | AU | GBR coral cay
+- Lady Elliot Island | AU | Manta + turtle
+- Ningaloo (Coral Bay) | AU | Whale-shark snorkel
+- Rottnest Island | AU | Quokka + reef
+- Lord Howe Island | AU | Southernmost coral
+- Tortuga Bay | EC | Galápagos iguanas
+- Gardner Bay | EC | Galápagos sea lions
+- Cocos Island | CR | Hammerhead schools (UNESCO)
+- Bonaire shore-dive sites | BQ | Klein Bonaire etc
+- Klein Curaçao | CW | Tug wreck
+- Stingray City (Grand Cayman) | KY | Sandbar swim-with
+- Hol Chan / Shark Ray Alley | BZ | Belize barrier reef
+- Roatán West Bay | HN | Mesoamerican reef
+- Cozumel (Palancar etc) | MX | Drift-dive walls
+- Ras Mohammed | EG | Red Sea cape
+- Dahab Blue Hole | EG | Free-dive landmark (also deadly)
+- Marsa Alam | EG | Dolphin house
+- Aliwal Shoal | ZA | Tigers / ragged-tooth
+- Sodwana Bay | ZA | Coelacanth coast
+- Aldabra Atoll | SC | Pristine UNESCO atoll
+- Chuuk (Truk) Lagoon | FM | WWII Japanese fleet
+- Bikini Atoll | MH | Saratoga + nuclear wrecks
+- Scapa Flow | GB | Scuttled WWI German fleet
+
+## ENVIRONMENT / WILDLIFE (~35)
+
+- Boulders Beach | ZA | African penguins
+- Tortuga Bay | EC | Marine iguanas (dup with diving)
+- Gardner Bay | EC | Sea lions (dup)
+- Ostional | CR | Olive ridley arribada (mass nesting)
+- Tortuguero | CR | Green turtles
+- Playa Grande (Las Baulas) | CR | Leatherback nesting
+- Praia do Forte (Tamar) | BR | Brazilian sea-turtle program
+- Mon Repos | AU | Loggerhead nesting (Bundaberg)
+- Heron Island | AU | Turtle / coral (dup)
+- Rekawa | LK | Sri Lanka turtle nesting
+- Nungwi | TZ | Zanzibar turtle conservancy
+- Akumal | MX | Green turtle snorkel
+- Phillip Island | AU | Little penguin parade
+- Bay of Fires | AU | Lichen orange rocks
+- Punta Tombo | AR | Magellanic penguin colony
+- Valdés Peninsula | AR | Right whales / orcas surf-strand
+- Ningaloo | AU | Whale shark (dup)
+- Hervey Bay | AU | Humpback nursery
+- Kaikōura | NZ | Sperm whales offshore
+- San Ignacio Lagoon | MX | Friendly grey whales
+- La Jolla Cove | US-CA | Sea lion haul-out
+- Año Nuevo | US-CA | Elephant seal rookery
+- Piedras Blancas | US-CA | Elephant seals roadside
+- Volunteer Point | FK | King penguin colony
+- Salisbury Plain | GS | South Georgia king-penguin sweep
+- St. Andrews Bay | GS | Largest king-penguin colony
+- Aiphavito (S Georgia) | GS | n/a
+- Donsol | PH | Whale-shark interaction
+- Mafia Island | TZ | Whale-shark season
+- Misali Island | TZ | Coral + turtle
+- Pulau Tiga | MY | Snake island (Borneo)
+- Christmas Island shore | CX | Red-crab migration
+- Cape Range / Turquoise Bay | AU | Drift snorkel turtles
+- Komodo beaches (Pink) | ID | Dragons + reef
+- Mafia (Chole) | TZ | Whale shark + coral
+
+## FAMILY (~25)
+
+- Siesta Key | US-FL | "America's best" (quartz powder)
+- Clearwater Beach | US-FL | Family resort archetype
+- St. Pete Beach | US-FL | Long calm Gulf shore
+- Coronado | US-CA | Calm + Hotel del
+- La Jolla Shores | US-CA | Gentle waves + tidepools
+- Carmel Beach | US-CA | White sand pet-friendly
+- Hapuna | US-HI | Big Island swim icon
+- Kāʻanapali | US-HI | Maui resort core
+- Bournemouth | GB | British family seaside
+- Brighton (Sussex) | GB | Pebble pier classic
+- Blackpool | GB | Pier + tower
+- Scheveningen | NL | The Hague resort
+- Sylt (Westerland) | DE | German family island
+- Warnemünde | DE | Baltic family beach
+- Lloret de Mar | ES | Costa Brava family resort
+- Marbella (Bounty) | ES | Costa del Sol family
+- Rimini | IT | Italian Riviera family
+- Forte dei Marmi | IT | Tuscany family chic
+- Lido di Jesolo | IT | Venice family lido
+- Cancún Hotel Zone | MX | Family beach archetype
+- Wildwood | US-NJ | Boardwalk family classic
+- Rehoboth | US-DE | Family Delaware
+- Virginia Beach | US-VA | Boardwalk family
+- Myrtle Beach | US-SC | Family resort capital
+- Cape May | US-NJ | Victorian family beach
+- Outer Banks (Nags Head) | US-NC | Wide family shore
+- Daytona Beach | US-FL | Drive-on family beach
+- Surfers Paradise | AU | Gold Coast family
+- Cottesloe | AU | Perth family icon
+- Mission Beach (SD) | US-CA | Family boardwalk
+- Ocean City | US-MD | Boardwalk family
+
+## TRAVEL / DESTINATION (~40 — overlap heavy)
+
+- Maldives generic atoll beaches | MV | Overwater archetype
+- Bora Bora (Matira) | PF | Lagoon archetype
+- Aitutaki Lagoon | CK | Cook Islands lagoon
+- Moorea (Temae) | PF | French Polynesia accessible
+- Mykonos (Paradise/Super Paradise) | GR | Party-beach archetype
+- Santorini (Red/Perissa/Kamari) | GR | Volcanic palette
+- Ibiza (Ses Salines) | ES | Balearic icon
+- Formentera (Illetes) | ES | Caribbean of Europe
+- Capri (Marina Piccola) | IT | Faraglioni view
+- Positano | IT | Amalfi cliffs
+- Amalfi (Marina Grande) | IT | Coast icon
+- Cinque Terre (Monterosso) | IT | Liguria classic
+- Promenade des Anglais | FR | Nice icon
+- Pampelonne | FR | St-Tropez
+- St Jean / Gouverneur | BL | St-Barth
+- Shoal Bay / Meads Bay | AI | Anguilla
+- Half Moon / Dickenson | AG | Antigua
+- Reduit / Anse Chastanet | LC | St Lucia
+- Mustique beaches | VC | Royal-favorite
+- Tulum | MX | Cliff Mayan beach
+- Holbox | MX | Whale-shark island
+- San Juan del Sur | NI | Surf-resort destination
+- Mirissa / Unawatuna / Arugam Bay | LK | Sri Lanka surf+travel
+- Anjuna / Palolem / Calangute | IN | Goa archetype
+- Patong / Kata / Karon | TH | Phuket
+- Chaweng / Lamai | TH | Koh Samui
+- Maya Bay (dup) | TH | The Beach movie
+- Railay / Ao Nang | TH | Krabi
+- Boracay (White Beach) | PH | Powdery destination
+- My Khe (China Beach) | VN | Da Nang R&R
+- Cua Dai | VN | Hoi An
+- Médano / Lover's | MX | Cabo
+- Manuel Antonio | CR | Pacific resort + monkeys
+- Punta del Este | UY | South-American Hamptons
+- Mar del Plata | AR | Argentine resort
+- Joaquina / Praia Mole | BR | Floripa
+- Trancoso / Itacaré / Jericoacoara / Pipa | BR | Brazil A-list
+- Ipanema | BR | Rio sister to Copa
+- Leblon | BR | Rio family side
+- Camps Bay / Clifton 1-4 | ZA | Cape Town glam
+
+EOF
