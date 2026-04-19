@@ -98,6 +98,14 @@ BEACHES_NEW_COLUMNS = [
     ("drop_off_flag", "INTEGER"),
     ("bathing_water_grade", "TEXT"),
     ("blue_flag_latest_year", "INTEGER"),
+    # Sand composition (2026-04-18 spec)
+    ("sand_q_pct", "REAL"),
+    ("sand_f_pct", "REAL"),
+    ("sand_l_pct", "REAL"),
+    ("sand_regime_label", "TEXT"),
+    ("sand_predicted_source", "TEXT"),
+    ("sand_description", "TEXT"),
+    ("sand_measured_available", "INTEGER DEFAULT 0"),
 ]
 
 NEW_INDEXES = [
@@ -209,6 +217,34 @@ NEW_TABLES = {
             last_verified TEXT
         )
     """,
+    "beach_sand_samples": """
+        CREATE TABLE beach_sand_samples (
+            id INTEGER PRIMARY KEY,
+            beach_id TEXT REFERENCES beaches(id),
+            source TEXT NOT NULL,
+            sample_lat REAL,
+            sample_lng REAL,
+            distance_m INTEGER,
+            grain_size_mean_mm REAL,
+            folk_class TEXT,
+            q_pct REAL,
+            f_pct REAL,
+            l_pct REAL,
+            citation_url TEXT,
+            created_at TEXT
+        )
+    """,
+    "beach_sand_curated": """
+        CREATE TABLE beach_sand_curated (
+            beach_id TEXT PRIMARY KEY REFERENCES beaches(id),
+            sand_story TEXT,
+            sand_story_citations JSON,
+            showcase_rank INTEGER,
+            reference_photo_url TEXT,
+            reference_photo_attribution TEXT,
+            created_at TEXT
+        )
+    """,
 }
 
 NEW_TABLE_INDEXES = [
@@ -221,6 +257,9 @@ NEW_TABLE_INDEXES = [
     ("idx_hazards_beach", "beach_hazards(beach_id)"),
     ("idx_hazards_type_date", "beach_hazards(hazard_type, observed_date)"),
     ("idx_webcams_beach", "beach_webcams(beach_id)"),
+    ("idx_sand_samples_beach", "beach_sand_samples(beach_id)"),
+    ("idx_sand_samples_source", "beach_sand_samples(source)"),
+    ("idx_sand_curated_rank", "beach_sand_curated(showcase_rank)"),
 ]
 
 

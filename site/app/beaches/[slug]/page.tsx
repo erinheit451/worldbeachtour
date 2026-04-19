@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import LensSummaryCard from "@/components/lens-summary-card";
+import SandGeology from "@/components/sand-geology";
 import MapEmbed from "@/components/map-embed";
 import DataCard from "@/components/data-card";
 import Breadcrumbs from "@/components/breadcrumbs";
@@ -190,8 +191,12 @@ export default async function BeachOverviewPage({
         </div>
       )}
 
+      {data.sand && (
+        <SandGeology sand={data.sand} slug={slug} />
+      )}
+
       {/* Lens cards */}
-      <h2 className="font-display text-2xl text-volcanic-900 mb-6">
+      <h2 className="font-display text-2xl text-volcanic-900 mb-6 mt-10">
         Explore {data.name}
       </h2>
       <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 mb-10">

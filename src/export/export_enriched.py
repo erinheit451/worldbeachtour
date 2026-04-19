@@ -124,6 +124,47 @@ def export_enriched(db_path: Path, site_content_dir: Path, output_dir: Path) -> 
             if val is not None:
                 facilities[out_key] = val
 
+        # Sand sub-object — composition, description, curated story, measured samples
+        sand: dict = {}
+        if row.get("sand_regime_label"):
+            sand["predicted"] = {
+                "q_pct": row.get("sand_q_pct"),
+                "f_pct": row.get("sand_f_pct"),
+                "l_pct": row.get("sand_l_pct"),
+                "regime": row.get("sand_regime_label"),
+                "source": row.get("sand_predicted_source"),
+            }
+        if row.get("sand_color"):
+            sand["color"] = row.get("sand_color")
+        if row.get("sand_description"):
+            sand["description"] = row.get("sand_description")
+
+        curated = conn.execute(
+            """SELECT sand_story, sand_story_citations, showcase_rank,
+                      reference_photo_url, reference_photo_attribution
+               FROM beach_sand_curated WHERE beach_id = ?""",
+            (row["id"],),
+        ).fetchone()
+        if curated:
+            c = dict(curated)
+            sand["curated"] = {
+                "story": c.get("sand_story"),
+                "citations": json.loads(c["sand_story_citations"]) if c.get("sand_story_citations") else [],
+                "showcase_rank": c.get("showcase_rank"),
+                "reference_photo_url": c.get("reference_photo_url"),
+                "reference_photo_attribution": c.get("reference_photo_attribution"),
+            }
+
+        samples = conn.execute(
+            """SELECT source, distance_m, grain_size_mean_mm, folk_class,
+                      q_pct, f_pct, l_pct, citation_url
+               FROM beach_sand_samples WHERE beach_id = ?
+               ORDER BY distance_m ASC LIMIT 10""",
+            (row["id"],),
+        ).fetchall()
+        if samples:
+            sand["measured_samples"] = [dict(s) for s in samples]
+
         beach_data: dict = {
             "slug": row["slug"],
             "name": row["name"],
@@ -153,6 +194,7 @@ def export_enriched(db_path: Path, site_content_dir: Path, output_dir: Path) -> 
             "wikipedia_url": row.get("wikipedia_url"),
             "notability_score": row.get("notability_score"),
             "data_completeness_pct": row.get("data_completeness_pct"),
+            "sand": sand if sand else None,
         }
 
         # Strip enriched optional fields that are entirely absent (None)
@@ -179,6 +221,85 @@ def export_enriched(db_path: Path, site_content_dir: Path, output_dir: Path) -> 
     return count
 
 
+def export_sand_hub(db_path: Path, output_path: Path) -> int:
+    """Export a single JSON file driving the /sand category hub.
+
+    Shape:
+      {
+        "generated_at": "...",
+        "curated": [ { slug, name, country_code, story, rank, color, regime, ... }, ... ],
+        "categories": { "black": [slugs], "pink": [slugs], ... }
+      }
+    """
+    conn = sqlite3.connect(db_path)
+    conn.row_factory = sqlite3.Row
+
+    curated_rows = conn.execute(
+        """SELECT b.slug, b.name, b.country_code, b.centroid_lat, b.centroid_lng,
+                  b.sand_color, b.sand_regime_label, b.sand_q_pct, b.sand_f_pct, b.sand_l_pct,
+                  b.sand_description,
+                  c.sand_story, c.showcase_rank, c.reference_photo_url, c.reference_photo_attribution,
+                  c.sand_story_citations
+           FROM beach_sand_curated c
+           JOIN beaches b ON b.id = c.beach_id
+           ORDER BY c.showcase_rank ASC"""
+    ).fetchall()
+
+    curated = []
+    categories: dict[str, list[str]] = {}
+    for r in curated_rows:
+        r = dict(r)
+        entry = {
+            "slug": r["slug"],
+            "name": r["name"],
+            "country_code": r["country_code"],
+            "lat": r["centroid_lat"],
+            "lng": r["centroid_lng"],
+            "color": r["sand_color"],
+            "regime": r["sand_regime_label"],
+            "q_pct": r["sand_q_pct"],
+            "f_pct": r["sand_f_pct"],
+            "l_pct": r["sand_l_pct"],
+            "description": r["sand_description"],
+            "story": r["sand_story"],
+            "showcase_rank": r["showcase_rank"],
+            "reference_photo_url": r["reference_photo_url"],
+            "reference_photo_attribution": r["reference_photo_attribution"],
+            "citations": json.loads(r["sand_story_citations"]) if r["sand_story_citations"] else [],
+        }
+        curated.append(entry)
+        if r["sand_color"]:
+            categories.setdefault(r["sand_color"], []).append(r["slug"])
+
+    # Also include high-notability beaches with a known sand_color but no curated story
+    # so the hub categories aren't limited to curated seeds.
+    extra_rows = conn.execute(
+        """SELECT b.slug, b.sand_color
+           FROM beaches b
+           LEFT JOIN beach_sand_curated c ON c.beach_id = b.id
+           WHERE b.sand_color IS NOT NULL AND c.beach_id IS NULL
+             AND b.notability_score >= 10
+           ORDER BY b.notability_score DESC
+           LIMIT 500"""
+    ).fetchall()
+    for r in extra_rows:
+        categories.setdefault(r["sand_color"], []).append(r["slug"])
+
+    hub = {
+        "generated_at": __import__("datetime").datetime.now(
+            __import__("datetime").timezone.utc
+        ).isoformat(timespec="seconds"),
+        "curated": curated,
+        "categories": categories,
+    }
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(hub, f, indent=2, ensure_ascii=False)
+    conn.close()
+    print(f"Sand hub: {len(curated)} curated + {len(extra_rows)} extra → {output_path}")
+    return len(curated)
+
+
 if __name__ == "__main__":
     repo_root = Path(__file__).resolve().parents[2]
     db_path = repo_root / "output" / "world_beaches.db"
@@ -186,3 +307,7 @@ if __name__ == "__main__":
     output_dir = repo_root / "content-pipeline" / "data" / "beaches"
 
     export_enriched(db_path, site_content_dir, output_dir)
+
+    # Sand hub export — site-local path for the /sand page
+    sand_hub_path = repo_root / "site" / "data" / "sand_hub.json"
+    export_sand_hub(db_path, sand_hub_path)

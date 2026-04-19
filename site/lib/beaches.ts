@@ -47,6 +47,42 @@ export interface BeachData {
   wikipedia_url?: string;
   notability_score?: number;
   data_completeness_pct?: number;
+  sand?: SandData;
+}
+
+export interface SandPredicted {
+  q_pct: number | null;
+  f_pct: number | null;
+  l_pct: number | null;
+  regime: string;
+  source: string;
+}
+
+export interface SandCurated {
+  story: string;
+  citations: string[];
+  showcase_rank: number | null;
+  reference_photo_url: string | null;
+  reference_photo_attribution: string | null;
+}
+
+export interface SandSample {
+  source: string;
+  distance_m: number | null;
+  grain_size_mean_mm: number | null;
+  folk_class: string | null;
+  q_pct: number | null;
+  f_pct: number | null;
+  l_pct: number | null;
+  citation_url: string | null;
+}
+
+export interface SandData {
+  predicted?: SandPredicted;
+  color?: string;
+  description?: string;
+  curated?: SandCurated;
+  measured_samples?: SandSample[];
 }
 
 export function getAllBeachSlugs(): string[] {
