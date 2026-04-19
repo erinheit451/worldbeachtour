@@ -1,76 +1,33 @@
 {
-  "tier": 2,
-  "lenses": [
-    "overview",
-    "travel"
-  ],
+  "tier": 1,
+  "showcase": true,
+  "lenses": [],
   "custom": [],
   "images": {
     "hero": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Lighthouse_overlooking_the_waves_%28Unsplash%29.jpg",
-      "title": "Lighthouse overlooking the waves (Unsplash).jpg",
-      "author": "Rob Bye <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@robertbye\">robertbye</a>",
-      "license": "CC0",
-      "width": 5184,
-      "height": 3456,
-      "score": 85.0
+      "url": "/nazare/hero-big-wave.jpg",
+      "title": "A big wave at Nazaré — Praia do Norte",
+      "author": "Walterpeitz",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Big_Nazare.jpg",
+      "width": 4000, "height": 2248,
+      "role": "hero"
+    },
+    "section": {
+      "praia_do_norte": { "url": "/nazare/praia-do-norte.jpg", "title": "Praia do Norte — the north beach below the lighthouse", "author": "Luis Ascenso", "license": "CC BY 2.0", "source_url": "https://commons.wikimedia.org/wiki/File:Praia_do_Norte,Nazaré_-22_(50655732113).jpg", "width": 2048, "height": 1365, "role": "section:praia_do_norte" },
+      "forte_lighthouse": { "url": "/nazare/forte-lighthouse.jpg", "title": "Forte de São Miguel Arcanjo — the 1577 fortress & 1903 lighthouse, now the Nazaré surf museum", "author": "Carjormartin", "license": "CC BY-SA 4.0", "source_url": "https://commons.wikimedia.org/wiki/File:Nazaré_-_Forte_de_São_Miguel_Arcanjo_-_2025-08-08.jpg", "width": 4080, "height": 3072, "role": "section:forte_lighthouse" },
+      "lighthouse_sunset": { "url": "/nazare/lighthouse-sunset.jpg", "title": "The Nazaré lighthouse at sunset", "author": "Addshore", "license": "CC BY-SA 3.0", "source_url": "https://commons.wikimedia.org/wiki/File:Nazaré_Lighthouse_-_Sunset_closeup_2021.jpg", "width": 3472, "height": 4640, "role": "section:lighthouse_sunset" },
+      "surfer_action": { "url": "/nazare/surfer-action.jpg", "title": "Big-wave surfer at Praia do Norte", "author": "Alohamansurfer", "license": "CC BY-SA 4.0", "source_url": "https://commons.wikimedia.org/wiki/File:Mysovskiy_Sergey_surfing_Nazare.jpg", "width": 2000, "height": 1074, "role": "section:surfer_action" },
+      "big_wave_2": { "url": "/nazare/big-wave-2.jpg", "title": "Nazaré big wave in the Praia do Norte break", "author": "Luís Ascenso", "license": "CC BY 3.0", "source_url": "https://commons.wikimedia.org/wiki/File:Nazaré_Praia_Do_Norte_Big_Wave_(133367589).jpeg", "width": 2048, "height": 1365, "role": "section:big_wave_2" },
+      "funicular": { "url": "/nazare/funicular.jpg", "title": "The 1889 Funicular da Nazaré — connecting Praia to Sítio", "author": "Mister No", "license": "CC BY 3.0", "source_url": "https://commons.wikimedia.org/wiki/File:Nazare_Funicular_-_panoramio.jpg", "width": 4000, "height": 3000, "role": "section:funicular" },
+      "santuario": { "url": "/nazare/santuario.jpg", "title": "Santuário de Nossa Senhora da Nazaré — the 14th-century Marian sanctuary at Sítio", "author": "Bernard Gagnon", "license": "CC BY 4.0", "source_url": "https://commons.wikimedia.org/wiki/File:Sanctuary_of_Our_Lady_of_Nazaré_01.jpg", "width": 6099, "height": 4066, "role": "section:santuario" },
+      "sitio_town": { "url": "/nazare/sitio-town.jpg", "title": "Sítio — the upper town on the cliff", "author": "Threeohsix", "license": "CC BY-SA 4.0", "source_url": "https://commons.wikimedia.org/wiki/File:Coreto_do_Sitio_da_Nazaré_com_Palácio_Real_ao_fundo.jpg", "width": 4624, "height": 3468, "role": "section:sitio_town" }
     },
     "gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Can_you_see_the_surfer%3F_%2833988985575%29.jpg",
-        "title": "Can you see the surfer? (33988985575).jpg",
-        "license": "CC BY 2.0",
-        "source_tier": 1,
-        "score": 80.2,
-        "width": 1024,
-        "height": 683
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Praia_do_Norte%2C_Nazar%C3%A9%2C_Portugal_%2833830450815%29.jpg",
-        "title": "Praia do Norte, Nazar\u00e9, Portugal (33830450815).jpg",
-        "license": "CC BY 2.0",
-        "source_tier": 1,
-        "score": 80.2,
-        "width": 1024,
-        "height": 683
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Praia_do_Norte%2C_aspectos%2C_ilha_do_Faial%2C_A%C3%A7ores%2C_Portugal.JPG",
-        "title": "Praia do Norte, aspectos, ilha do Faial, A\u00e7ores, Portugal.JPG",
-        "license": "Public domain",
-        "source_tier": 3,
-        "score": 75.0,
-        "width": 3872,
-        "height": 2592
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/FaialAzoresNorte.JPG",
-        "title": "FaialAzoresNorte.JPG",
-        "license": "Public domain",
-        "source_tier": 3,
-        "score": 62.2,
-        "width": 640,
-        "height": 480
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Vista_da_Caldeira_do_Faial.jpg",
-        "title": "Vista da Caldeira do Faial.jpg",
-        "license": "CC BY-SA 4.0",
-        "source_tier": 3,
-        "score": 60.0,
-        "width": 4001,
-        "height": 2435
-      }
-    ],
-    "_enrichment": {
-      "pipeline_version": "photo_enrichment.py v1",
-      "candidates_evaluated": 53,
-      "tier_breakdown": {
-        "tier1": 5,
-        "tier3": 28,
-        "tier2": 20
-      },
-      "hero_auto_selected": true
-    }
+      { "url": "/nazare/hero-big-wave.jpg", "title": "Big wave at Nazaré", "author": "Walterpeitz", "license": "CC BY-SA 4.0", "width": 4000, "height": 2248 },
+      { "url": "/nazare/forte-lighthouse.jpg", "title": "Forte de São Miguel Arcanjo", "author": "Carjormartin", "license": "CC BY-SA 4.0", "width": 4080, "height": 3072 },
+      { "url": "/nazare/santuario.jpg", "title": "Santuário de Nossa Senhora", "author": "Bernard Gagnon", "license": "CC BY 4.0", "width": 6099, "height": 4066 },
+      { "url": "/nazare/sitio-town.jpg", "title": "Sítio", "author": "Threeohsix", "license": "CC BY-SA 4.0", "width": 4624, "height": 3468 }
+    ]
   }
 }

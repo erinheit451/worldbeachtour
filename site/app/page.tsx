@@ -88,6 +88,7 @@ export default function HomePage() {
   const copa = loadBeach("copacabana-7");
   const waikiki = loadBeach("waikiki-beach-1");
   const bondi = loadBeach("bondi-beach");
+  const nazare = loadBeach("praia-do-norte-6");
 
   return (
     <div className="bg-white">
@@ -120,7 +121,7 @@ export default function HomePage() {
               <span className="text-white/60">beaches tracked</span>
             </span>
             <span>
-              <span className="font-mono text-white">3</span>{" "}
+              <span className="font-mono text-white">4</span>{" "}
               <span className="text-white/60">signature pages (so far)</span>
             </span>
             <span>
@@ -138,14 +139,14 @@ export default function HomePage() {
             · Signature Beaches
           </div>
           <h2 className="font-display text-4xl sm:text-5xl leading-[1.05] text-volcanic-900">
-            Three beaches, told at full depth
+            Four beaches, told at full depth
           </h2>
           <p className="mt-5 text-lg italic text-volcanic-500">
             These are the kind of pages every iconic beach deserves. We are building the next
             wave of Tier 1 pages in public.
           </p>
         </header>
-        <div className="grid gap-8 lg:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {copa && (
             <SignatureCard
               slug="copacabana-7"
@@ -173,9 +174,20 @@ export default function HomePage() {
               slug="bondi-beach"
               eyebrow="Sydney · Australia"
               headline="Bondi — where Australia invented surf culture"
-              blurb="The lifeguards of Bondi Rescue, the 1937 shark nets, the Icebergs pool at winter temperature, the Sculpture by the Sea walk, and the Gadigal country under it all."
+              blurb="Bondi Rescue's 4,500 rescues a year, the 1937 shark nets, the Icebergs pool at winter temperature, and the Gadigal country under it all."
               heroUrl={bondi.meta.images.hero.url}
               heroAlt={bondi.meta.images.hero.title}
+              accent="ocean"
+            />
+          )}
+          {nazare && (
+            <SignatureCard
+              slug="praia-do-norte-6"
+              eyebrow="Nazaré · Portugal"
+              headline="Nazaré — the canyon that made the biggest waves on Earth"
+              blurb="A 5-km submarine canyon 500 m from shore, focusing Atlantic swells into the tallest rideable waves ever documented. And a 900-year-old fishing village above the break."
+              heroUrl={nazare.meta.images.hero.url}
+              heroAlt={nazare.meta.images.hero.title}
               accent="ocean"
             />
           )}

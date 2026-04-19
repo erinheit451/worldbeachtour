@@ -8,7 +8,13 @@ import { getBeachData, getBeachMeta, getAllBeachSlugs } from "@/lib/beaches";
 // Slugs with an explicit handwritten showcase page at app/beaches/<slug>/page.tsx
 // are handled by that literal route; exclude them here so the static export
 // doesn't overwrite the showcase HTML.
-const SHOWCASE_SLUGS = new Set(["copacabana-7", "waikiki-beach-1", "bondi-beach"]);
+const SHOWCASE_SLUGS = new Set([
+  "copacabana-7",
+  "waikiki-beach-1",
+  "bondi-beach",
+  "brighton-beach-1",
+  "praia-do-norte-6",
+]);
 
 export function generateStaticParams() {
   return getAllBeachSlugs()
