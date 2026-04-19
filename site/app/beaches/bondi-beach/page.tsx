@@ -8,6 +8,9 @@ import LegendaryBeach, {
 import BondiRescue from "@/components/signature/bondi-rescue";
 import BondiSharks from "@/components/signature/bondi-sharks";
 import BondiIcebergs from "@/components/signature/bondi-icebergs";
+import BondiCountry from "@/components/signature/bondi-country";
+import BondiPaths from "@/components/signature/bondi-paths";
+import BondiBlackSunday from "@/components/signature/bondi-black-sunday";
 
 const DATA_PATH = path.join(process.cwd(), "data", "beaches", "bondi-beach.json");
 const META_PATH = path.join(process.cwd(), "content", "beaches", "bondi-beach", "meta.json");
@@ -62,14 +65,42 @@ export default function BondiPage() {
       }}
       signatures={[
         {
+          id: "paths",
+          label: "Paths",
+          group: "culture",
+          insertAfter: "story",
+          component: <BondiPaths />,
+        },
+        {
           id: "rescue",
           label: "Bondi Rescue",
           group: "culture",
           insertAfter: "story",
           component: (
             <BondiRescue
-              rescueImage={meta.images.section.pavilion}
+              rescueImage={meta.images.section.surf_life_saving_club}
               capImage={meta.images.section.historic_1937}
+            />
+          ),
+        },
+        {
+          id: "black-sunday",
+          label: "Black Sunday 1938",
+          group: "culture",
+          insertAfter: "history",
+          component: (
+            <BondiBlackSunday slsImage={meta.images.section.sls_boats_racing} />
+          ),
+        },
+        {
+          id: "country",
+          label: "Country Before Colony",
+          group: "culture",
+          insertAfter: "history",
+          component: (
+            <BondiCountry
+              engravingImage={meta.images.section.rock_engraving_example}
+              benBucklerImage={meta.images.section.ben_buckler}
             />
           ),
         },

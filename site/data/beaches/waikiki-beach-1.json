@@ -1,6 +1,6 @@
 {
   "slug": "waikiki-beach-1",
-  "name": "Waikīkī Beach",
+  "name": "Waikīkī",
   "centroid_lat": 21.2740616,
   "centroid_lng": -157.8262825,
   "country_code": "US",
@@ -8,34 +8,11 @@
   "admin_level_2": "Honolulu",
   "water_body_type": "ocean",
   "substrate_type": "sand",
-  "beach_length_m": 3219.0,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/218679862",
-      "source_url": "https://www.openstreetmap.org/way/218679862"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "facilities": {
-      "access": "yes"
-    },
-    "water_conditions": {
-      "swimming": true
-    },
-    "surfing": {
-      "surfing_available": true
-    },
-    "safety": {
-      "cyclone_count_50yr": "7",
-      "cyclone_max_category": "4"
-    }
-  },
+  "sand_color": "white",
+  "beach_length_m": 3219,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Waik%C4%ABk%C4%AB",
+  "notability_score": 33.9,
+  "data_completeness_pct": 29.2,
   "nearest_city": "Honolulu",
   "nearest_city_distance_km": 4.9,
   "nearest_airport": {
@@ -44,16 +21,730 @@
     "distance_km": 11.4
   },
   "safety": {
+    "shark_incidents_total": 0,
     "lifeguard": true,
-    "shark_incidents_total": 0
+    "cyclone_count_50yr": 7,
+    "cyclone_max_category": "4"
   },
   "facilities": {
+    "parking": true,
     "restrooms": true,
-    "showers": true
+    "showers": true,
+    "food_nearby": true
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Waik%C4%ABk%C4%AB",
-  "notability_score": 33.9,
-  "data_completeness_pct": 29.2,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q275194",
+      "source_url": "https://www.wikidata.org/wiki/Q275194"
+    }
+  ],
+  "attributes": {},
+  "climate": {
+    "air_temp_high": [
+      26.57,
+      26.76,
+      27.17,
+      27.68,
+      28.51,
+      29.38,
+      29.85,
+      30.41,
+      30.45,
+      29.82,
+      28.32,
+      27.15
+    ],
+    "air_temp_low": [
+      18.32,
+      18.13,
+      19.07,
+      19.87,
+      20.55,
+      21.75,
+      22.34,
+      22.65,
+      22.47,
+      21.91,
+      20.86,
+      19.46
+    ],
+    "water_temp": [
+      24.5,
+      24.2,
+      24.3,
+      24.7,
+      25.2,
+      25.9,
+      26.4,
+      26.8,
+      27.0,
+      26.7,
+      26.0,
+      25.2
+    ],
+    "rain_mm": [
+      140,
+      74,
+      80,
+      74,
+      82,
+      41,
+      56,
+      59,
+      51,
+      105,
+      105,
+      97
+    ],
+    "sun_hours": [
+      13967,
+      16589,
+      18954,
+      21468,
+      22183,
+      23069,
+      22708,
+      22153,
+      20431,
+      17506,
+      14310,
+      13356
+    ],
+    "climate_source": "WorldClim v2.1 (2.5')",
+    "ocean_source": "NOAA buoy 51201 Mokapu Point, 2014–2023"
+  },
+  "tides": {
+    "range_spring_m": 0.48,
+    "range_neap_m": 0.21,
+    "type": "mixed",
+    "source": "EOT20 (DGFI-TUM)"
+  },
+  "species": [
+    {
+      "species_name": "Paroaria coronata",
+      "common_name": "Red-crested Cardinal",
+      "taxon_group": "bird",
+      "observation_count": 1049
+    },
+    {
+      "species_name": "Geopelia striata",
+      "common_name": "Zebra Dove",
+      "taxon_group": "bird",
+      "observation_count": 848
+    },
+    {
+      "species_name": "Gygis candida",
+      "common_name": "Manu-o-Kū (White Tern)",
+      "taxon_group": "bird",
+      "observation_count": 592
+    },
+    {
+      "species_name": "Nycticorax nycticorax",
+      "common_name": "ʻAukuʻu (Black-crowned Night Heron)",
+      "taxon_group": "bird",
+      "observation_count": 564
+    },
+    {
+      "species_name": "Pluvialis fulva",
+      "common_name": "Kōlea (Pacific Golden-Plover)",
+      "taxon_group": "bird",
+      "observation_count": 345
+    },
+    {
+      "species_name": "Chelonia mydas",
+      "common_name": "Honu (Green Sea Turtle)",
+      "taxon_group": "reptile",
+      "observation_count": 180
+    },
+    {
+      "species_name": "Monachus schauinslandi",
+      "common_name": "Hawaiian Monk Seal",
+      "taxon_group": "mammal",
+      "observation_count": 24
+    }
+  ],
+  "showcase": {
+    "is_showcase": true,
+    "signature_motif": "duke-kahanamoku",
+    "intro_text": "Waikīkī is the beach that taught the world how to go to the beach.\n\nIt is two miles of sand curving along the leeward shore of Oʻahu, anchored at the eastern end by the volcanic crater of Diamond Head and at the western end by the Ala Wai Canal that — since 1928 — has separated the narrow tourist strip from the wetlands it used to be. Before the canal, before the high-rises, before the word \"tourism\" meant anything, Waikīkī was a royal retreat. The Hawaiian word means \"spouting water\" — a reference to the springs and streams that once fed this stretch of coast, now buried under the boulevards and hotels of what became the template for every tropical beach destination on Earth.\n\nThe sand here is not natural, most of it. The beach has been re-nourished repeatedly since the 1920s — truckloads of white sand barged in from Manhattan Beach in California in the 1930s, from Molokaʻi and from further-out Oʻahu since. The beach at Waikīkī is what a beach looks like when a city decides, a century ago, to maintain it as a product. It is not the beach Kamehameha walked on. It is the beach built on top of that one.\n\nAnd it is still the place where modern surfing was born — or rather, where it was reintroduced to the world. **Duke Paoa Kahanamoku**, Hawaiian, Olympic gold medalist in 1912 and 1920, rode a sixteen-foot koa-wood board at Waikīkī in an era when most of the world had never heard of the sport. He taught it in Sydney in 1914. He taught it in Southern California. When tourists showed up at Waikīkī in the 1920s, Duke and the **beach boys of Waikīkī** — Hawaiian watermen working the hotels as surf instructors and canoe captains — were who taught them. The template of \"go to a tropical beach and have someone local teach you to surf\" begins here, with these men.\n\nWhat's complicated — and what a travel guide normally elides — is how Waikīkī became available to tourism. The Hawaiian Kingdom was overthrown in 1893 by a group of American businessmen backed by U.S. Marines. Queen Liliʻuokalani was confined in ʻIolani Palace two miles inland from this beach. The islands were annexed in 1898 without a treaty. The Royal Hawaiian Hotel, which opened on Waikīkī's sand in 1927 and gave the neighborhood its pink-stucco Hollywood identity, sits on land that was part of a royal crown estate. The Moana Surfrider, four blocks east, opened in 1901 on what had been a chief's beachfront property. Every postcard of Waikīkī is an inheritance of that history, and the history is not ancient.\n\nWaikīkī today is a beach of layers that do not always talk to each other. Two million visitors a year. Thirty thousand hotel rooms in a two-kilometer strip. A surfing tradition that predates recorded history in these islands. The Duke statue on Kalākaua Avenue with flowers at its feet every morning. The canoes still launching off Kūhiō Beach at dawn. Manu-o-Kū — the Hawaiian White Tern, now the official bird of Honolulu — nesting in the ironwoods above the sand. You can come here for the hotel and miss all of it, and most people do. Or you can come here and understand that Waikīkī is not a resort — it is a royal beach that survived becoming one.",
+    "favela_note": "Waikīkī sits on land that was seized from a sovereign kingdom.\n\nThe **Hawaiian Kingdom** was a recognized nation-state. It had treaties with the United States, Britain, France, Japan, and a dozen other powers. In **1893**, a group of American and European businessmen — calling themselves the Committee of Safety — deposed Queen **Liliʻuokalani** in a coup backed by U.S. Marines from the USS *Boston*. President Grover Cleveland called the overthrow \"an act of war, committed with the participation of a diplomatic representative of the United States and without authority of Congress.\" The queen, rather than resist militarily, yielded her authority to what she believed would be U.S. restoration. It never came.\n\nIn **1898**, Congress annexed Hawaiʻi by joint resolution — bypassing the treaty process that had failed in the Senate. The **Kuʻe Petitions**, signed by 21,269 Native Hawaiians (more than half the indigenous population) protesting annexation, are preserved in the National Archives. Congressional apologies were issued only in **1993**. The legal status of Hawaiʻi's transition to U.S. territory is contested by Hawaiian sovereignty scholars to this day.\n\nThis matters at Waikīkī specifically because much of the shoreline — the Royal Hawaiian Hotel's beachfront, the Kalākaua Avenue frontage — sits on land that was part of the **Crown Lands**, held in trust for the Hawaiian people. After annexation, these lands passed to the U.S. federal government and eventually to the state of Hawaiʻi. The **Office of Hawaiian Affairs** and the **Department of Hawaiian Home Lands** were created in 1959 and 1920 respectively to address this inheritance. They remain chronically underfunded; Hawaiian homestead waiting lists are decades long. Native Hawaiians have the highest rates of homelessness and houselessness in the state their kingdom used to govern.\n\nYou can visit Waikīkī and never encounter any of this — the strip is engineered for you not to. But a few pieces sit in plain sight. **ʻIolani Palace** is a ten-minute drive inland; you can tour the room where Liliʻuokalani was held under house arrest. The **Queen Kapiʻolani statue** at the eastern end of the beach faces Diamond Head. The **Kūhiō Beach Hula Mound** has free Hawaiian music and hula performances at sunset several nights a week, hosted by Hawaiian cultural practitioners, not hotel staff. These are not tourist traps. They are the island's own way of keeping the history available to anyone who goes looking.\n\nThe ocean belongs to everyone in Hawaiian law — **kanawai kai**, the law of the sea — and no beachfront resort can privatize the sand. That principle predates the annexation and has outlasted it.",
+    "day_in_time": {
+      "dawn": "The sky over Diamond Head lightens before the sun clears the crater. Outrigger canoes are being pulled down from racks at Kūhiō Beach; the beach boys who work the morning lessons are already at the water's edge. Surfers paddle out past the reef to Queens, to Canoes, to Publics — the names of the surf spots that define the bay's geography in a way a non-surfer will never notice. Manu-o-Kū — the white terns — circle low over the sand on their way out to feed. The Royal Hawaiian's pink facade reflects the first light. Runners pass along Kalākaua Avenue, the joggers outnumbering the tourists for exactly one hour.",
+      "midday": "By eleven the beach is full. The Royal Hawaiian's pink beach umbrellas are deployed. The canoe shuttles to Diamond Head begin — four dollars per person, captain-and-six, beach boys guiding newcomers. The sand is packed. Shave ice lines form at Waiola. Spam musubi is on every snack bar. Along the concrete Wall at Kūhiō Beach, kids jump off into the engineered lagoons where the water is calm. The air is 29°C, the water 26°C, the trades steady at 15 knots. The bronze Duke Kahanamoku statue on Kalākaua is garlanded with fresh leis that get replaced silently every morning. Somebody is always taking a photograph of it.",
+      "golden": "The setting sun moves behind the Ala Wai Boat Harbor; the light on Diamond Head turns amber. Catamarans launch from Gray's Beach for the sunset sail. The Hula Mound at Kūhiō lights up its torches and the evening Hawaiian music begins — slack-key guitar, sometimes a chant, always free. House Without a Key at the Halekulani starts its service under the century-old kiawe tree; hotel guests and locals-in-the-know share the lanai seats. The ocean goes pink, then lavender, then navy in the span of twenty minutes.",
+      "night": "The Friday fireworks from the Hilton Hawaiian Village light up the western end of the bay — a tradition since 1988. Duke's Waikīkī is loud downstairs; RumFire at the Sheraton is busier. Further inland on Kūhiō Avenue, the neighborhood's nightlife is a mix of tiki bars that understand the cliché is their job and music venues where local Hawaiian groups play until 2 a.m. The beach itself empties by eleven; the lifeguards go home; the sand belongs to a handful of runners and to the monk seals that occasionally haul out at Sans Souci Beach at the eastern end. At 2 a.m. the terns come back to roost in the ironwoods."
+    },
+    "food_drink": [
+      {
+        "name": "Poke",
+        "description": "Cubed raw fish — usually ʻahi (yellowfin tuna) or aku (skipjack) — seasoned with shoyu, sesame oil, limu (seaweed), Hawaiian salt, and inamona (roasted kukui nut). The word means 'to cut crosswise into pieces'. Grocery-store poke in Waikīkī is genuinely excellent; Foodland's deli counter is the baseline. $12–18 a bowl.",
+        "where": "Foodland Farms (Ala Moana), Ono Seafood, Maguro Brothers"
+      },
+      {
+        "name": "Shave Ice",
+        "description": "Not a snow cone. Finely shaved block ice layered with housemade syrups — lilikoʻi (passion fruit), lychee, guava, pineapple — usually over azuki beans or vanilla ice cream, topped with condensed milk. Waiola is the local answer in town; Matsumoto's is the tourist destination on the North Shore. $5–8.",
+        "where": "Waiola Shave Ice, Uncle Clay's House of Pure Aloha"
+      },
+      {
+        "name": "Plate Lunch",
+        "description": "The post-plantation Hawaiian working lunch: two scoops rice, one scoop mac salad, and a protein — kalua pork, teriyaki chicken, loco moco, chicken katsu, Korean kalbi. Portions are enormous. $10–15. The dish tells the story of Hawaiian, Japanese, Chinese, Portuguese, Filipino, and Korean plantation labor more concisely than any museum exhibit.",
+        "where": "Rainbow Drive-In (10 min east), Zippy's (several locations)"
+      },
+      {
+        "name": "Mai Tai",
+        "description": "Invented in Oakland in 1944 by Victor 'Trader Vic' Bergeron — but the Waikīkī interpretation (at the Royal Hawaiian since 1953) is its own canonical thing. Two rums, orange curaçao, orgeat, lime. The Royal Hawaiian's version is $18 and served at the Mai Tai Bar with a view of Diamond Head.",
+        "where": "Royal Hawaiian Mai Tai Bar, Duke's Waikīkī, House Without a Key"
+      }
+    ],
+    "timeline": [
+      {
+        "year": 1795,
+        "month": null,
+        "event_type": "political",
+        "title": "Battle of Nuʻuanu",
+        "description": "Kamehameha I defeats the forces of Kalanikūpule and unifies Oʻahu. Waikīkī at this point is Kalanikūpule's royal seat and a major agricultural area watered by springs and fishponds.",
+        "wiki_url": "https://en.wikipedia.org/wiki/Battle_of_Nu%CA%BBuanu"
+      },
+      {
+        "year": 1850,
+        "month": null,
+        "event_type": "cultural",
+        "title": "Waikīkī as royal retreat",
+        "description": "Kamehameha III, Kamehameha IV, and later Kalākaua all maintain beach homes at Waikīkī. The oral tradition of surfing — heʻe nalu — continues on the breaks offshore, though the practice has declined with population collapse from introduced disease.",
+        "wiki_url": "https://en.wikipedia.org/wiki/Waik%C4%ABk%C4%AB"
+      },
+      {
+        "year": 1893,
+        "month": 1,
+        "event_type": "political",
+        "title": "Overthrow of the Hawaiian Kingdom",
+        "description": "A group of American and European businessmen backed by U.S. Marines from the USS Boston depose Queen Liliʻuokalani. Hawaiian sovereignty scholars and the 1993 U.S. Congressional Apology Resolution characterize this as an illegal overthrow.",
+        "wiki_url": "https://en.wikipedia.org/wiki/Overthrow_of_the_Hawaiian_Kingdom"
+      },
+      {
+        "year": 1898,
+        "month": 7,
+        "event_type": "political",
+        "title": "U.S. annexation",
+        "description": "Congress annexes Hawaiʻi via joint resolution (the Newlands Resolution) after a treaty failed in the Senate. 21,269 Native Hawaiians had signed the Kuʻe Petitions opposing annexation — more than half the indigenous population at the time.",
+        "wiki_url": "https://en.wikipedia.org/wiki/Newlands_Resolution"
+      },
+      {
+        "year": 1901,
+        "month": 3,
+        "event_type": "built",
+        "title": "Moana Hotel opens",
+        "description": "The first major tourist hotel on Waikīkī, a Beaux-Arts building on Kalākaua Avenue. Its opening marks the transition of Waikīkī from royal estate to tourist destination. The Moana Surfrider (as it is now known, owned by Marriott) is still operating in the original building.",
+        "wiki_url": "https://en.wikipedia.org/wiki/Moana_Surfrider,_A_Westin_Resort_%26_Spa"
+      },
+      {
+        "year": 1908,
+        "month": null,
+        "event_type": "cultural",
+        "title": "Outrigger Canoe Club founded",
+        "description": "Alexander Hume Ford — a mainland journalist — and a group of Hawaiian and haole watermen found the Outrigger Canoe Club at Waikīkī to preserve surfing and outrigger canoeing. The club's founding documents list 'the reviving of the ancient Hawaiian sports' as its explicit purpose.",
+        "wiki_url": "https://en.wikipedia.org/wiki/Outrigger_Canoe_Club"
+      },
+      {
+        "year": 1912,
+        "month": 7,
+        "event_type": "sport",
+        "title": "Duke Kahanamoku wins Olympic gold",
+        "description": "Duke Paoa Kahanamoku, born and raised at Waikīkī, wins the 100-meter freestyle at the Stockholm Olympics, setting a world record. He becomes the first global Hawaiian celebrity and will use his fame to reintroduce surfing to Australia (1914 at Sydney's Freshwater Beach) and to Southern California.",
+        "wiki_url": "https://en.wikipedia.org/wiki/Duke_Kahanamoku"
+      },
+      {
+        "year": 1927,
+        "month": 2,
+        "event_type": "built",
+        "title": "Royal Hawaiian Hotel opens",
+        "description": "The 'Pink Palace of the Pacific' — Spanish-Moorish pink stucco on Kalākaua Avenue — opens on former Crown Lands. Matson Navigation Company built it to serve its steamship route from San Francisco. The hotel defines Waikīkī's postcard image for the rest of the century.",
+        "wiki_url": "https://en.wikipedia.org/wiki/Royal_Hawaiian_Hotel"
+      },
+      {
+        "year": 1928,
+        "month": null,
+        "event_type": "infrastructure",
+        "title": "Ala Wai Canal completed",
+        "description": "A 2-mile drainage canal is cut along the mauka (mountain) side of Waikīkī, reclaiming the wetlands and fishponds that had defined the district for centuries and enabling the dense tourist development that follows.",
+        "wiki_url": "https://en.wikipedia.org/wiki/Ala_Wai_Canal"
+      },
+      {
+        "year": 1941,
+        "month": 12,
+        "event_type": "political",
+        "title": "Attack on Pearl Harbor",
+        "description": "The surprise Japanese attack on Pearl Harbor, 10 km west of Waikīkī, brings the U.S. into WWII. Hawaiʻi is placed under martial law until 1944. Waikīkī's beaches are strung with barbed wire; hotels are requisitioned as military R&R facilities. The beach does not fully return to civilian tourism until 1948.",
+        "wiki_url": "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor"
+      },
+      {
+        "year": 1959,
+        "month": 8,
+        "event_type": "political",
+        "title": "Hawaiʻi becomes a state",
+        "description": "Hawaiʻi is admitted to the Union as the 50th state. The statehood vote was conducted in a format that Hawaiian sovereignty activists and UN decolonization scholars have criticized for offering only statehood or territorial status — not independence.",
+        "wiki_url": "https://en.wikipedia.org/wiki/Hawaii_Admission_Act"
+      },
+      {
+        "year": 1961,
+        "month": null,
+        "event_type": "cultural",
+        "title": "Blue Hawaii",
+        "description": "Elvis Presley's Blue Hawaii is filmed in Waikīkī and Hanauma Bay. The movie is the second-highest-grossing film of 1961 and triggers a tourism boom that redefines the Hawaiian Islands in the American imagination for a generation.",
+        "wiki_url": "https://en.wikipedia.org/wiki/Blue_Hawaii"
+      },
+      {
+        "year": 1968,
+        "month": null,
+        "event_type": "cultural",
+        "title": "Hawaii Five-0 debuts",
+        "description": "Jack Lord's silhouette against the Ilikai penthouse in the Hawaii Five-0 credits becomes Waikīkī's global TV image for twelve years. The show's location filming shifts American television's idea of 'the tropics' from backlot sets to real Hawaiian locations.",
+        "wiki_url": "https://en.wikipedia.org/wiki/Hawaii_Five-O_(1968_TV_series)"
+      },
+      {
+        "year": 1992,
+        "month": 9,
+        "event_type": "event",
+        "title": "Hurricane ʻIniki",
+        "description": "Category 4 Hurricane ʻIniki hits Kauaʻi on September 11, 1992 — Hawaiʻi's most damaging storm. Waikīkī (on Oʻahu) is brushed but spared direct impact. The storm is a reminder: Hawaiian islands are exposed to Central Pacific cyclones and the sand management budget includes hurricane recovery.",
+        "wiki_url": "https://en.wikipedia.org/wiki/Hurricane_Iniki"
+      },
+      {
+        "year": 1993,
+        "month": 11,
+        "event_type": "political",
+        "title": "U.S. Apology Resolution",
+        "description": "On the 100th anniversary of the 1893 overthrow, Public Law 103-150 is signed by President Clinton. Congress formally apologizes for the overthrow of the Hawaiian Kingdom and acknowledges that Native Hawaiians 'never directly relinquished their claims to their inherent sovereignty as a people over their national lands.'",
+        "wiki_url": "https://en.wikipedia.org/wiki/Apology_Resolution"
+      },
+      {
+        "year": 2002,
+        "month": 8,
+        "event_type": "built",
+        "title": "Duke Kahanamoku statue dedicated",
+        "description": "The bronze statue of Duke, arms outstretched in front of a longboard, is installed on Kalākaua Avenue at Kūhiō Beach. Fresh leis appear on it every morning; it is arguably the most-photographed single object in Hawaiʻi.",
+        "wiki_url": "https://en.wikipedia.org/wiki/Duke_Kahanamoku"
+      },
+      {
+        "year": 2012,
+        "month": null,
+        "event_type": "infrastructure",
+        "title": "Waikīkī Beach nourishment",
+        "description": "The State of Hawaiʻi executes a $2.5M sand-replenishment project using sand dredged from offshore Waikīkī itself — the first such project in over thirty years. 24,000 cubic yards added. Similar projects continue to be planned as sea-level rise and chronic erosion shrink the beach at 0.5 ft/yr.",
+        "wiki_url": null
+      }
+    ],
+    "zones": [
+      {
+        "zone_code": "KAPI",
+        "name": "Kapiʻolani Beach Park",
+        "position_along_beach_pct": 95,
+        "character": "The eastern (Diamond Head) end. Largest park on Waikīkī; shaded by ironwoods. Surfer's Beach and Queen's Surf Beach are here. Queen's Surf is Waikīkī's gay beach, documented since the 1970s.",
+        "best_for": "Families, picnics, less-crowded swimming, sunset photos of Diamond Head",
+        "notes": null,
+        "lat": 21.2641,
+        "lng": -157.8221
+      },
+      {
+        "zone_code": "KUHIO",
+        "name": "Kūhiō Beach",
+        "position_along_beach_pct": 75,
+        "character": "The engineered swimming lagoon — two rectangular enclosures formed by the Waikīkī Wall (built 1930) that calm the surf for swimmers. The Hula Mound here hosts free Hawaiian cultural performances. Families with small children end up here.",
+        "best_for": "Safe swimming for kids, free hula at sunset, cheapest beachfront access",
+        "notes": "The Wall is low enough to walk on; locals fish off it at night.",
+        "lat": 21.2747,
+        "lng": -157.825
+      },
+      {
+        "zone_code": "ROYAL",
+        "name": "Royal Hawaiian / Sheraton Beach",
+        "position_along_beach_pct": 50,
+        "character": "The pink-umbrella stretch in front of the Royal Hawaiian and Sheraton Waikīkī. The most-photographed part of the beach. Beach boys here still run the outrigger-canoe rides to the surf breaks.",
+        "best_for": "The classic postcard photo, catamaran launches, the Mai Tai Bar directly behind",
+        "notes": null,
+        "lat": 21.2766,
+        "lng": -157.8278
+      },
+      {
+        "zone_code": "GRAY",
+        "name": "Gray's Beach / Halekulani",
+        "position_along_beach_pct": 40,
+        "character": "In front of the Halekulani. Narrow at high tide — sometimes disappears entirely. House Without a Key on the Halekulani's lanai is directly behind, under a 100-year-old kiawe tree. Quieter than Royal stretch.",
+        "best_for": "Sunset cocktail with Hawaiian music, quieter mornings",
+        "notes": "Beach width varies significantly with seasonal sand shifts.",
+        "lat": 21.2783,
+        "lng": -157.83
+      },
+      {
+        "zone_code": "FORT",
+        "name": "Fort DeRussy Beach",
+        "position_along_beach_pct": 20,
+        "character": "Military-adjacent beach (Fort DeRussy is a U.S. Army R&R station). Wide, family-friendly, less commercialized. Largest remaining green space on the beachfront.",
+        "best_for": "Wide sand, open grass for picnics, free parking at the Hale Koa",
+        "notes": null,
+        "lat": 21.2811,
+        "lng": -157.8339
+      },
+      {
+        "zone_code": "DUKE",
+        "name": "Duke Kahanamoku Beach",
+        "position_along_beach_pct": 5,
+        "character": "The western (ʻEwa) end, in front of the Hilton Hawaiian Village. A man-made lagoon protects the swimming area. Friday-night fireworks launch from here (since 1988). The Rainbow Tower is the backdrop.",
+        "best_for": "Calmest water, Friday fireworks, shorter walk to the Ala Wai Boat Harbor",
+        "notes": null,
+        "lat": 21.2829,
+        "lng": -157.8397
+      }
+    ],
+    "landmarks": [
+      {
+        "name": "Duke Kahanamoku statue",
+        "landmark_type": "monument",
+        "year_built": 2002,
+        "architect_or_designer": "Jan Gordon Fisher",
+        "description": "Bronze, 9 feet tall, hands outstretched in front of a longboard. Fresh leis appear daily. On Kalākaua Avenue at Kūhiō Beach.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Duke_Kahanamoku"
+      },
+      {
+        "name": "Royal Hawaiian Hotel",
+        "landmark_type": "hotel",
+        "year_built": 1927,
+        "architect_or_designer": "Warren and Wetmore",
+        "description": "The 'Pink Palace of the Pacific'. Spanish-Moorish. The oldest continuously-operating luxury hotel on Waikīkī's sand.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Royal_Hawaiian_Hotel"
+      },
+      {
+        "name": "Moana Surfrider",
+        "landmark_type": "hotel",
+        "year_built": 1901,
+        "architect_or_designer": "Oliver G. Traphagen",
+        "description": "The original Waikīkī tourist hotel. Beaux-Arts. The banyan tree on its courtyard is older than the building.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Moana_Surfrider,_A_Westin_Resort_%26_Spa"
+      },
+      {
+        "name": "Diamond Head (Lēʻahi)",
+        "landmark_type": "natural",
+        "year_built": null,
+        "architect_or_designer": null,
+        "description": "A 300,000-year-old volcanic tuff cone at the eastern end of Waikīkī. The summit hike (reservation required) is 1.6 mi round-trip with 560 ft of elevation gain and a panorama of the entire leeward coast.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Diamond_Head,_Hawaii"
+      },
+      {
+        "name": "Kapiʻolani Park",
+        "landmark_type": "park",
+        "year_built": 1877,
+        "architect_or_designer": "King Kalākaua (dedicated)",
+        "description": "The oldest public park in Hawaiʻi. Dedicated by King Kalākaua to his wife Queen Kapiʻolani. 300 acres. The Waikīkī Aquarium and the Honolulu Zoo are inside the park.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kapi%CA%BBolani_Park"
+      },
+      {
+        "name": "ʻIolani Palace",
+        "landmark_type": "historic",
+        "year_built": 1882,
+        "architect_or_designer": "Thomas Rowe, Charles Wall, Isaac Moore",
+        "description": "The only royal palace on U.S. soil. Site of Queen Liliʻuokalani's 1893 deposition and her subsequent house arrest. 10 min inland from Waikīkī; open for tours.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/%CA%BBIolani_Palace"
+      },
+      {
+        "name": "Waikīkī Aquarium",
+        "landmark_type": "attraction",
+        "year_built": 1904,
+        "architect_or_designer": null,
+        "description": "The third-oldest public aquarium in the U.S. Operated by the University of Hawaiʻi. Specializes in Pacific corals and the monk seal breeding program.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Waik%C4%ABk%C4%AB_Aquarium"
+      }
+    ],
+    "cultural_refs": [
+      {
+        "ref_type": "film",
+        "title": "Waikiki Wedding",
+        "creator": "Frank Tuttle / Bing Crosby",
+        "year": 1937,
+        "description": "Bing Crosby at Waikīkī, a musical that won the Academy Award for Best Original Song ('Sweet Leilani'). The first Hollywood film to cement the Hawaiian-tourism-fantasy template: ukulele + Bing + a Waikīkī backdrop.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Waikiki_Wedding"
+      },
+      {
+        "ref_type": "film",
+        "title": "From Here to Eternity",
+        "creator": "Fred Zinnemann",
+        "year": 1953,
+        "description": "Burt Lancaster and Deborah Kerr's beach kiss — filmed at Hālona Cove east of Waikīkī — became Hollywood's most famous shoreline embrace. Won 8 Academy Awards. The Pearl Harbor sequence, the Schofield Barracks scenes, the tension of pre-WWII Oʻahu: this is the film that taught the mainland what Hawaiʻi looked like.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/From_Here_to_Eternity"
+      },
+      {
+        "ref_type": "film",
+        "title": "Blue Hawaii",
+        "creator": "Norman Taurog / Elvis Presley",
+        "year": 1961,
+        "description": "Elvis as a tour guide returning from the Army. Filmed on-location at Waikīkī, Hanauma Bay, and the Coco Palms on Kauaʻi. Second-highest grossing film of 1961. The soundtrack sold 2 million copies. This is where the 'Elvis in Hawaiian shirt' cultural image was set in amber.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Blue_Hawaii"
+      },
+      {
+        "ref_type": "film",
+        "title": "Gidget Goes Hawaiian",
+        "creator": "Paul Wendkos",
+        "year": 1961,
+        "description": "The Gidget franchise relocates to Waikīkī. Alongside Blue Hawaii in the same year, it cemented Waikīkī as the teenage-mainland-tourism destination of the early 1960s.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gidget_Goes_Hawaiian"
+      },
+      {
+        "ref_type": "film",
+        "title": "50 First Dates",
+        "creator": "Peter Segal / Adam Sandler, Drew Barrymore",
+        "year": 2004,
+        "description": "Filmed almost entirely on Oʻahu. Key sequences at Waikīkī, though the diner scenes are at Makapuʻu. Reignited Hawaiʻi as a rom-com destination for a generation raised on Sandler.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/50_First_Dates"
+      },
+      {
+        "ref_type": "film",
+        "title": "The Descendants",
+        "creator": "Alexander Payne / George Clooney",
+        "year": 2011,
+        "description": "A Native Hawaiian family drama adapted from Kaui Hart Hemmings's novel. Unusually for a mainland-made Hawaiʻi movie, it is about Hawaiian land inheritance and ancestry. Clooney's character is a descendant of Kamehameha I. Nominated for 5 Oscars; won Best Adapted Screenplay.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/The_Descendants"
+      },
+      {
+        "ref_type": "film",
+        "title": "Lilo & Stitch",
+        "creator": "Disney / Chris Sanders, Dean DeBlois",
+        "year": 2002,
+        "description": "Disney's most sincere attempt at a Hawaiian family story. Partly set on Kauaʻi but the Hanauma Bay/Waikīkī visual grammar runs throughout. Hawaiian voice actors, Hawaiian-language music, Elvis cameos, and a monk seal named Stitch.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lilo_%26_Stitch"
+      },
+      {
+        "ref_type": "tv",
+        "title": "Hawaii Five-0 (original)",
+        "creator": "Leonard Freeman",
+        "year": 1968,
+        "description": "Jack Lord. The Ilikai Hotel penthouse silhouette. Twelve seasons, 1968–1980. The show's opening shot — the slow pan up the Ilikai with Morton Stevens's theme — is one of the most recognizable TV opens ever broadcast. 'Book 'em, Danno' entered American English.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hawaii_Five-O_(1968_TV_series)"
+      },
+      {
+        "ref_type": "tv",
+        "title": "Magnum, P.I.",
+        "creator": "Donald P. Bellisario / Tom Selleck",
+        "year": 1980,
+        "description": "Tom Selleck in a red Ferrari 308 on the Pali. Robin's Nest estate was on the North Shore but Honolulu and Waikīkī sequences are frequent. Eight seasons, 1980–1988. The show kept Hawaiʻi on American prime time for another decade after Five-0.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Magnum,_P.I."
+      },
+      {
+        "ref_type": "tv",
+        "title": "Hawaii Five-0 (reboot)",
+        "creator": "CBS / Peter M. Lenkov",
+        "year": 2010,
+        "description": "Ten seasons, 2010–2020. Filmed location-heavy across Oʻahu. Scott Caan and Alex O'Loughlin. The reboot kept Hawaiʻi's tourism economy closely coupled to American television well into the streaming era.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hawaii_Five-0_(2010_TV_series)"
+      },
+      {
+        "ref_type": "tv",
+        "title": "The Brady Bunch in Hawaii",
+        "creator": "Sherwood Schwartz",
+        "year": 1972,
+        "description": "A three-part arc at the Sheraton Waikīkī involving a cursed tiki idol. The episodes are campy, and Vincent Price appears. For millions of 1970s American children, this was their first visual image of Waikīkī.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/The_Brady_Bunch"
+      },
+      {
+        "ref_type": "music",
+        "title": "Tiny Bubbles",
+        "creator": "Don Ho",
+        "year": 1966,
+        "description": "Don Ho's signature song became the Waikīkī cocktail-lounge anthem. Ho performed at Duke Kahanamoku's nightclub in the International Market Place for decades. 'Tiny bubbles in the wine' is now shorthand for a specific mid-century Waikīkī lounge aesthetic that still echoes.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tiny_Bubbles"
+      },
+      {
+        "ref_type": "music",
+        "title": "Somewhere Over the Rainbow / What a Wonderful World",
+        "creator": "Israel Kamakawiwoʻole (IZ)",
+        "year": 1993,
+        "description": "Recorded in one take at a Honolulu studio. Over 1 billion Spotify streams. Plays daily at Waikīkī beach bars. IZ's ashes were scattered off Mākaha on Oʻahu's west side. The song's ukulele opening became, improbably, one of the most-recognized musical phrases of the 1990s.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Over_the_Rainbow_(Israel_Kamakawiwo%CA%BBole_song)"
+      },
+      {
+        "ref_type": "music",
+        "title": "Aloha from Hawaii Via Satellite",
+        "creator": "Elvis Presley",
+        "year": 1973,
+        "description": "The first concert broadcast worldwide via satellite, from the Honolulu International Center (now Neal S. Blaisdell Center), 5 km inland from Waikīkī. An estimated 1–1.5 billion viewers — roughly a quarter of everyone on Earth. Elvis wore the white American Eagle jumpsuit.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Aloha_from_Hawaii_Via_Satellite"
+      },
+      {
+        "ref_type": "music",
+        "title": "Hawaii Calls (radio)",
+        "creator": "Webley Edwards",
+        "year": 1935,
+        "description": "A live radio show broadcast from the courtyard of the Moana Hotel (the banyan tree that's still there). Aired weekly for forty years — at its peak, carried by 600+ stations worldwide. The sound effects department piped in surf noise from the beach itself. This is the voice of 20th-century Waikīkī tourism, pre-television.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hawaii_Calls"
+      },
+      {
+        "ref_type": "literature",
+        "title": "Hawaii",
+        "creator": "James A. Michener",
+        "year": 1959,
+        "description": "Michener's 937-page novel charting Hawaiian history from volcanic formation to statehood. Published days after statehood itself. Still widely read — the canonical mainland-audience Hawaiian-history primer for two generations.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hawaii_(novel)"
+      },
+      {
+        "ref_type": "literature",
+        "title": "The House Without a Key",
+        "creator": "Earl Derr Biggers",
+        "year": 1925,
+        "description": "The first Charlie Chan novel. Set at Waikīkī. The opening sentence: 'The Waikiki Beach was deserted, save for a tall, wistful Chinese gentleman pacing alone.' The Halekulani's lanai restaurant is named for this book. Biggers had visited Waikīkī and based Charlie Chan on real Honolulu detective Chang Apana.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/The_House_Without_a_Key"
+      },
+      {
+        "ref_type": "literature",
+        "title": "Hawaii's Story by Hawaii's Queen",
+        "creator": "Liliʻuokalani",
+        "year": 1898,
+        "description": "The deposed queen's memoir, written while she was in Washington lobbying against annexation. Published by Lee and Shepard of Boston. Still the primary English-language source for the Hawaiian side of the overthrow. In print continuously for over 125 years.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hawaii%27s_Story_by_Hawaii%27s_Queen"
+      },
+      {
+        "ref_type": "historic",
+        "title": "Kuʻe Petitions (Palapala Hoopii Kue Hoohui Aina)",
+        "creator": "Hui Aloha ʻĀina (Hawaiian Patriotic League)",
+        "year": 1897,
+        "description": "21,269 Native Hawaiian signatures opposing annexation. Recovered from the U.S. National Archives in 1997. Proof — historically suppressed — that annexation was rejected by the indigenous majority. Cited in the 1993 Apology Resolution.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/K%C5%AB%CA%BBe_Petitions"
+      },
+      {
+        "ref_type": "historic",
+        "title": "Apology Resolution (Public Law 103-150)",
+        "creator": "103rd U.S. Congress",
+        "year": 1993,
+        "description": "Signed by President Clinton on the centennial of the overthrow. Federal acknowledgment that the 1893 deposition of the Hawaiian Kingdom was illegal and that Native Hawaiians 'never directly relinquished their claims to their inherent sovereignty as a people over their national lands.'",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Apology_Resolution"
+      },
+      {
+        "ref_type": "brand",
+        "title": "Hawaiian Tropic",
+        "creator": "Ron Rice",
+        "year": 1969,
+        "description": "Founded in Daytona Beach (Florida, not Hawaiʻi) but built its brand entirely on a Hawaiian fantasy anchored visually in Waikīkī. For 50 years, 'Hawaiian Tropic' meant the bottle's smell and the beach where the commercials were shot. Hawaiian Tropic is now owned by Energizer Holdings.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hawaiian_Tropic"
+      },
+      {
+        "ref_type": "brand",
+        "title": "ABC Stores",
+        "creator": "Sidney Kosasa",
+        "year": 1964,
+        "description": "76 ABC Stores operate in Waikīkī alone — reportedly the highest concentration of any retailer anywhere on Earth. Founded in 1964 by a Japanese-American Honolulu entrepreneur, the chain sells sunscreen, souvenirs, liquor, and those $3 foam slippers that every visitor ends up buying by day three. A Waikīkī without ABC Stores would be unrecognizable.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/ABC_Stores_(Hawaii)"
+      },
+      {
+        "ref_type": "music",
+        "title": "The Ukulele",
+        "creator": "Portuguese immigrants (Madeira, 1879)",
+        "year": 1879,
+        "description": "Hawaiʻi's gift to world music. Portuguese contract laborers arriving on the Ravenscrag in August 1879 brought the machete, a small four-stringed instrument from Madeira. Hawaiian musicians adopted it, renamed it ʻukulele ('jumping flea'), and within a generation the instrument was inseparable from Hawaiian identity. Today Waikīkī has dedicated ukulele shops (Ukulele Puapua inside the Sheraton) and buskers on Kalākaua Avenue. Jake Shimabukuro — born and raised in Honolulu — is the modern virtuoso.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ukulele"
+      },
+      {
+        "ref_type": "historic",
+        "title": "Baehr v. Lewin (1993)",
+        "creator": "Hawaiʻi Supreme Court",
+        "year": 1993,
+        "description": "The first U.S. appellate ruling that same-sex marriage bans might violate equal protection — filed by three Hawaiian couples denied licenses. The decision triggered the 1996 federal Defense of Marriage Act response. Hawaiʻi eventually legalized same-sex marriage in 2013. The case's filing in Honolulu (with a plaintiff from Waikīkī) made Hawaiʻi the origin point of the modern American marriage-equality movement.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Baehr_v._Miike"
+      }
+    ],
+    "recurring_events": [
+      {
+        "name": "Friday Fireworks",
+        "when_text": "Every Friday, 7:45 p.m.",
+        "month": null,
+        "description": "The Hilton Hawaiian Village has launched a 5-minute fireworks show every Friday since 1988. Best viewed from Kahanamoku Beach or from the catamaran decks. Free.",
+        "typical_attendance": null
+      },
+      {
+        "name": "Duke's OceanFest",
+        "when_text": "Third week of August",
+        "month": 8,
+        "description": "Nine days of ocean sports around Duke's August 24 birthday: longboard surfing, outrigger canoe racing, tandem surfing, paddleboard championships, and the Duke Kahanamoku Surfing Classic. Founded 2002.",
+        "typical_attendance": 100000
+      },
+      {
+        "name": "Kūhiō Beach Hula Show",
+        "when_text": "Sat/Sun evenings, year-round",
+        "month": null,
+        "description": "Free hula performances at the Kūhiō Beach Hula Mound, sunset to 7:30 p.m. Hosted by Hawaiian cultural practitioners, not hotel staff. Slack-key guitar and sometimes chant.",
+        "typical_attendance": null
+      },
+      {
+        "name": "Honolulu Marathon",
+        "when_text": "Second Sunday of December",
+        "month": 12,
+        "description": "26.2 miles starting at Ala Moana, looping through Waikīkī and around Diamond Head. 25,000+ runners, a third of them Japanese visitors — the largest international marathon in the U.S. by foreign participation.",
+        "typical_attendance": 25000
+      },
+      {
+        "name": "Waikīkī Spam Jam",
+        "when_text": "Last Saturday of April",
+        "month": 4,
+        "description": "A Spam-themed street festival on Kalākaua Avenue. Hawaiʻi consumes more Spam per capita than any U.S. state. The festival is a tongue-in-cheek tribute that locals attend unironically.",
+        "typical_attendance": 30000
+      }
+    ],
+    "businesses": [
+      {
+        "name": "Royal Hawaiian Mai Tai Bar",
+        "category": "restaurant",
+        "description": "Open-air bar on the Royal Hawaiian's beach lawn. The hotel's Mai Tai recipe (since 1953) uses aged rum, orange curaçao, orgeat, and fresh lime. $18. View of Diamond Head.",
+        "address": "2259 Kalākaua Ave, Honolulu",
+        "year_established": 1927,
+        "external_url": "https://www.royal-hawaiian.com/dining/mai-tai-bar/"
+      },
+      {
+        "name": "House Without a Key",
+        "category": "restaurant",
+        "description": "Halekulani's open-air lanai restaurant under a century-old kiawe tree. Live Hawaiian music and hula nightly at sunset. Named for the 1925 Charlie Chan novel set on Waikīkī.",
+        "address": "2199 Kālia Rd, Honolulu",
+        "year_established": 1983,
+        "external_url": "https://www.halekulani.com/dining/house-without-a-key/"
+      },
+      {
+        "name": "Duke's Waikiki",
+        "category": "restaurant",
+        "description": "On the Outrigger Waikiki Beach Resort's beachfront. Named for Duke Kahanamoku. Casual — sliders, hula pie, mai tais. The 'Barefoot Bar' feels like a surf-film set.",
+        "address": "2335 Kalākaua Ave, Honolulu",
+        "year_established": 1994,
+        "external_url": "https://www.dukeswaikiki.com/"
+      },
+      {
+        "name": "Waiola Shave Ice",
+        "category": "restaurant",
+        "description": "Established 1940. Hawaiian shave ice, locally preferred over the North Shore tourist spot. Lilikoʻi, lychee, and the house 'Halo Halo' are standard orders. $5–8.",
+        "address": "3113 Mokihana St, Honolulu",
+        "year_established": 1940,
+        "external_url": "https://www.waiolashaveice.com/"
+      },
+      {
+        "name": "Waikīkī Aquarium",
+        "category": "museum",
+        "description": "Third-oldest public aquarium in the U.S. UH-operated. Monk seal exhibit, Pacific coral tanks. $12 adult; free for Hawaiʻi residents.",
+        "address": "2777 Kalākaua Ave, Honolulu",
+        "year_established": 1904,
+        "external_url": "https://www.waikikiaquarium.org/"
+      },
+      {
+        "name": "Leonard's Bakery",
+        "category": "restaurant",
+        "description": "The Portuguese-Hawaiian malasada — a sugared, filled doughnut. Opened 1952 in Kapahulu, a short walk mauka from Waikīkī. Line is out the door; it moves quickly.",
+        "address": "933 Kapahulu Ave, Honolulu",
+        "year_established": 1952,
+        "external_url": "https://www.leonardshawaii.com/"
+      },
+      {
+        "name": "ʻIolani Palace",
+        "category": "museum",
+        "description": "The only royal palace on U.S. soil. Guided and audio tours show throne room, state dining room, Liliʻuokalani's prison room (Queen's Imprisonment Room).",
+        "address": "364 S King St, Honolulu",
+        "year_established": 1882,
+        "external_url": "https://www.iolanipalace.org/"
+      }
+    ]
+  },
   "sand": {
     "predicted": {
       "q_pct": null,
@@ -64,5 +755,6 @@
     },
     "color": "white",
     "description": "The sandy beach is almost entirely man-made."
-  }
+  },
+  "photos": []
 }
