@@ -9,6 +9,8 @@ import WaikikiDuke from "@/components/signature/waikiki-duke";
 import WaikikiMonarchy from "@/components/signature/waikiki-monarchy";
 import WaikikiBreaks from "@/components/signature/waikiki-breaks";
 import WaikikiPlacenames from "@/components/signature/waikiki-placenames";
+import WaikikiMalama from "@/components/signature/waikiki-malama";
+import WaikikiPaths from "@/components/signature/waikiki-paths";
 
 const DATA_PATH = path.join(process.cwd(), "data", "beaches", "waikiki-beach-1.json");
 const META_PATH = path.join(
@@ -69,6 +71,13 @@ export default function WaikikiPage() {
       }}
       signatures={[
         {
+          id: "paths",
+          label: "Paths",
+          group: "culture",
+          insertAfter: "story",
+          component: <WaikikiPaths />,
+        },
+        {
           id: "duke",
           label: "Duke & Beach Boys",
           group: "culture",
@@ -106,6 +115,13 @@ export default function WaikikiPage() {
               pearlHarborImage={meta.images.section.pearl_harbor_1941}
             />
           ),
+        },
+        {
+          id: "malama",
+          label: "Mālama",
+          group: "culture",
+          insertAfter: "safety",
+          component: <WaikikiMalama />,
         },
       ]}
       timelineImagesByYear={{
