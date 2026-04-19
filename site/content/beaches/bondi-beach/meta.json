@@ -1,0 +1,79 @@
+{
+  "tier": 1,
+  "showcase": true,
+  "lenses": [],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "/bondi/hero-aerial.jpg",
+      "title": "Bondi Beach from above",
+      "author": "Maksym Kozlenko",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bondi_Beach_from_above.jpg",
+      "width": 2700, "height": 1800,
+      "role": "hero"
+    },
+    "section": {
+      "icebergs_pool": {
+        "url": "/bondi/icebergs-pool.jpg",
+        "title": "Bondi Icebergs ocean pool at the southern headland",
+        "author": "Alex Proimos",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bondi_Icebergs_(5848281116).jpg",
+        "width": 4368, "height": 2912,
+        "role": "section:icebergs_pool"
+      },
+      "icebergs_view": {
+        "url": "/bondi/icebergs-view.jpg",
+        "title": "Icebergs Club and pool from the Bondi-to-Bronte walk",
+        "author": "Prajwal433",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bondi_Icebergs_amazing_View.jpg",
+        "width": 5184, "height": 3456,
+        "role": "section:icebergs_view"
+      },
+      "pavilion": {
+        "url": "/bondi/pavilion.jpg",
+        "title": "Bondi Pavilion — 1928 Spanish Mission community building",
+        "author": "Sardaka",
+        "license": "CC BY 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:(1)_Bondi_pavilion.JPG",
+        "width": 2816, "height": 2112,
+        "role": "section:pavilion"
+      },
+      "historic_1937": {
+        "url": "/bondi/historic-1937.jpg",
+        "title": "Bondi Beach, 1937 — aerial view",
+        "author": "Royal Australian Historical Society",
+        "license": "No known restrictions",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bondi_Beach-_1937_(19508170652).jpg",
+        "width": 7000, "height": 5614,
+        "role": "section:historic_1937"
+      },
+      "sculpture_by_sea": {
+        "url": "/bondi/sculpture-by-sea.jpg",
+        "title": "Sculpture by the Sea — Bondi, 2017",
+        "author": "Ashishlohorung",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sculpture_By_The_Sea,_Bondi,_Sydney_2017.jpg",
+        "width": 4928, "height": 3264,
+        "role": "section:sculpture_by_sea"
+      },
+      "coastal_walk": {
+        "url": "/bondi/coastal-walk.jpg",
+        "title": "Bondi to Bronte coastal walk",
+        "author": "Dietmar Rabich",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sydney_(AU),_Bondi_To_Bronte_Coastal_Walk_--_2019_--_2358.jpg",
+        "width": 6720, "height": 4480,
+        "role": "section:coastal_walk"
+      }
+    },
+    "gallery": [
+      { "url": "/bondi/hero-aerial.jpg", "title": "Bondi from above", "author": "Maksym Kozlenko", "license": "CC BY-SA 3.0", "width": 2700, "height": 1800 },
+      { "url": "/bondi/icebergs-pool.jpg", "title": "The Icebergs pool", "author": "Alex Proimos", "license": "CC BY 2.0", "width": 4368, "height": 2912 },
+      { "url": "/bondi/sculpture-by-sea.jpg", "title": "Sculpture by the Sea", "author": "Ashishlohorung", "license": "CC BY-SA 4.0", "width": 4928, "height": 3264 },
+      { "url": "/bondi/coastal-walk.jpg", "title": "Bondi to Bronte", "author": "Dietmar Rabich", "license": "CC BY-SA 4.0", "width": 6720, "height": 4480 }
+    ]
+  }
+}

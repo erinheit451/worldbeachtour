@@ -82,6 +82,7 @@ function SignatureCard({
 export default function HomePage() {
   const copa = loadBeach("copacabana-7");
   const waikiki = loadBeach("waikiki-beach-1");
+  const bondi = loadBeach("bondi-beach");
 
   return (
     <div className="bg-white">
@@ -114,7 +115,7 @@ export default function HomePage() {
               <span className="text-white/60">beaches tracked</span>
             </span>
             <span>
-              <span className="font-mono text-white">2</span>{" "}
+              <span className="font-mono text-white">3</span>{" "}
               <span className="text-white/60">signature pages (so far)</span>
             </span>
             <span>
@@ -132,14 +133,14 @@ export default function HomePage() {
             · Signature Beaches
           </div>
           <h2 className="font-display text-4xl sm:text-5xl leading-[1.05] text-volcanic-900">
-            Two beaches, told at full depth
+            Three beaches, told at full depth
           </h2>
           <p className="mt-5 text-lg italic text-volcanic-500">
             These are the kind of pages every iconic beach deserves. We are building the next
             wave of Tier 1 pages in public.
           </p>
         </header>
-        <div className="grid gap-8 lg:grid-cols-2">
+        <div className="grid gap-8 lg:grid-cols-3">
           {copa && (
             <SignatureCard
               slug="copacabana-7"
@@ -156,9 +157,20 @@ export default function HomePage() {
               slug="waikiki-beach-1"
               eyebrow="Honolulu, Hawaiʻi · United States"
               headline="Waikīkī — the beach that taught the world how to beach"
-              blurb="Seven named surf breaks, Duke Kahanamoku's statue with fresh leis every morning, the 1893 overthrow of a sovereign kingdom two miles inland, and the Hawaiian place-names under the tourist grid."
+              blurb="Seven named surf breaks, Duke Kahanamoku's leis, the 1893 overthrow two miles inland, and the Hawaiian place-names under the tourist grid."
               heroUrl={waikiki.meta.images.hero.url}
               heroAlt={waikiki.meta.images.hero.title}
+              accent="ocean"
+            />
+          )}
+          {bondi && (
+            <SignatureCard
+              slug="bondi-beach"
+              eyebrow="Sydney · Australia"
+              headline="Bondi — where Australia invented surf culture"
+              blurb="The lifeguards of Bondi Rescue, the 1937 shark nets, the Icebergs pool at winter temperature, the Sculpture by the Sea walk, and the Gadigal country under it all."
+              heroUrl={bondi.meta.images.hero.url}
+              heroAlt={bondi.meta.images.hero.title}
               accent="ocean"
             />
           )}
@@ -206,10 +218,10 @@ export default function HomePage() {
         </header>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4 text-sm">
           {[
-            ["In progress", "Bondi Beach — Sydney, Australia"],
-            ["Wave 1", "Ipanema · Omaha · Maya Bay · Nazaré"],
-            ["Wave 2", "Navagio · Whitehaven · Reynisfjara · Pipeline"],
-            ["Wave 3", "Varkala · Coney Island · Glass Beach · Boulders"],
+            ["Next up", "Ipanema · Omaha · Maya Bay"],
+            ["Wave 2", "Nazaré · Pipeline · South Beach"],
+            ["Wave 3", "Navagio · Whitehaven · Reynisfjara · Maya Bay"],
+            ["Wave 4", "Varkala · Coney Island · Glass Beach · Boulders"],
           ].map(([eyebrow, list]) => (
             <div key={eyebrow as string} className="rounded-xl border border-volcanic-100 p-5">
               <div className="text-[10px] font-mono uppercase tracking-[0.25em] text-ocean-700 mb-2">
