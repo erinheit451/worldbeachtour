@@ -14,12 +14,21 @@
       "source_name": "wikidata",
       "source_id": "Q7261228",
       "source_url": "https://www.wikidata.org/wiki/Q7261228"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Tierecke%208819%20-%20Puri%20beach.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Puri_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "40",
+      "cyclone_max_category": "5"
     }
   },
   "nearest_city": "Puri",
@@ -35,5 +44,14 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Puri_Beach",
   "notability_score": 30.0,
-  "data_completeness_pct": 20.8
+  "data_completeness_pct": 20.8,
+  "sand": {
+    "predicted": {
+      "q_pct": 95.5,
+      "f_pct": 1.1,
+      "l_pct": 3.5,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  }
 }

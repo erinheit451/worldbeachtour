@@ -44,5 +44,23 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Glass_Beach_(Fort_Bragg,_California)",
   "notability_score": 38.4,
-  "data_completeness_pct": 20.8
+  "data_completeness_pct": 20.8,
+  "sand": {
+    "predicted": {
+      "q_pct": 23.3,
+      "f_pct": 7.5,
+      "l_pct": 69.2,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "curated": {
+      "story": "Decades of municipal dumping at Fort Bragg produced the world's most famous glass beach. Relentless Pacific surf has tumbled the broken bottles into rounded, frosted pebbles of green, brown, white, and rare blue. The glass is gradually being worn away and the beach is no longer self-replenishing.",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Glass_Beach,_Fort_Bragg,_California"
+      ],
+      "showcase_rank": 4,
+      "reference_photo_url": null,
+      "reference_photo_attribution": null
+    }
+  }
 }

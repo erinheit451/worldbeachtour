@@ -3,8 +3,8 @@
   "name": "Duranbah Beach",
   "centroid_lat": -28.1670444,
   "centroid_lng": 153.5520104,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "AU",
+  "admin_level_1": "New South Wales",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -24,11 +24,42 @@
       "source_name": "wikidata",
       "source_id": "Q16969931",
       "source_url": "https://www.wikidata.org/wiki/Q16969931"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "wikipedia_url": "https://en.wikipedia.org/wiki/Duranbah_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "2",
+      "cyclone_max_category": "2"
+    }
+  },
+  "nearest_city": "Tweed Heads West",
+  "nearest_city_distance_km": 3.6,
+  "nearest_airport": {
+    "iata": "OOL",
+    "name": "Gold Coast Airport",
+    "distance_km": 4.4
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Duranbah_Beach",
+  "notability_score": 23.9,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 74.3,
+      "f_pct": 18.1,
+      "l_pct": 7.6,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

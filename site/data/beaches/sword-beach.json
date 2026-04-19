@@ -19,12 +19,21 @@
       "source_name": "wikidata",
       "source_id": "Q1138519",
       "source_url": "https://www.wikidata.org/wiki/Q1138519"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Infantry%20waiting%20to%20move%20off%20%27Queen%20White%27%20Beach.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Sword_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "0",
+      "cyclone_max_category": "3"
     }
   },
   "nearest_city": "Lion-sur-Mer",
@@ -39,5 +48,14 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Sword_Beach",
   "notability_score": 35.4,
-  "data_completeness_pct": 20.8
+  "data_completeness_pct": 20.8,
+  "sand": {
+    "predicted": {
+      "q_pct": 50.9,
+      "f_pct": 8.7,
+      "l_pct": 40.4,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  }
 }

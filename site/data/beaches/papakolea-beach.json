@@ -3,8 +3,8 @@
   "name": "Papakōlea Beach",
   "centroid_lat": 18.9357094,
   "centroid_lng": -155.6462885,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "Hawaii",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -19,6 +19,11 @@
       "source_name": "wikidata",
       "source_id": "Q7132406",
       "source_url": "https://www.wikidata.org/wiki/Q7132406"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
@@ -28,6 +33,47 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Green%20Sand%20Beach%20%28Papakolea%20Beach%29%20%2817905163884%29.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Papak%C5%8Dlea_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "8",
+      "cyclone_max_category": "4"
+    }
+  },
+  "nearest_city": "Hawaiian Ocean View",
+  "nearest_city_distance_km": 19.3,
+  "nearest_airport": {
+    "iata": "KOA",
+    "name": "Ellison Onizuka Kona International Airport at Keāhole",
+    "distance_km": 98.6
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "wheelchair_accessible": false
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Papak%C5%8Dlea_Beach",
+  "notability_score": 24.7,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": null,
+      "f_pct": null,
+      "l_pct": null,
+      "regime": "unknown",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "green",
+    "description": "Unlike cinder cones, tuff rings consist mostly of volcanic ash produced by violent interactions of magma with groundwater (Diamond Head, on the Island of Oahu, is another example of a tuff ring).",
+    "curated": {
+      "story": "Papakolea is one of only four green-sand beaches on Earth. The color comes from olivine crystals — a silicate of iron and magnesium — eroded out of the nearby Puu Mahana cinder cone. Olivine is denser than the surrounding basaltic ash, so it accumulates here instead of being washed out to sea.",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Papak%C5%8Dlea_Beach",
+        "https://pubs.usgs.gov/publication/70045583"
+      ],
+      "showcase_rank": 1,
+      "reference_photo_url": "https://commons.wikimedia.org/wiki/File:Green_Sand_Beach_-_panoramio.jpg",
+      "reference_photo_attribution": "Wikimedia Commons, CC BY-SA"
     }
   }
 }

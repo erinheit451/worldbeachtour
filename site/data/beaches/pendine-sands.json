@@ -3,23 +3,55 @@
   "name": "Pendine Sands",
   "centroid_lat": 51.7325,
   "centroid_lng": -4.4975,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "GB",
+  "admin_level_1": "Wales",
   "admin_level_2": null,
   "water_body_type": "ocean",
-  "substrate_type": "unknown",
+  "substrate_type": "sand",
   "beach_length_m": null,
   "sources": [
     {
       "source_name": "wikidata",
       "source_id": "Q1800335",
       "source_url": "https://www.wikidata.org/wiki/Q1800335"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Pendine%20Sands%20in%20September%202008.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Pendine_Sands"
+    },
+    "safety": {
+      "cyclone_count_50yr": "3",
+      "cyclone_max_category": "3"
     }
+  },
+  "nearest_city": "Llanddowror",
+  "nearest_city_distance_km": 8.0,
+  "nearest_airport": {
+    "iata": "SWS",
+    "name": "Swansea Airport",
+    "distance_km": 32.8
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pendine_Sands",
+  "notability_score": 26.3,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 33.1,
+      "f_pct": 8.0,
+      "l_pct": 58.9,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "description": "Four other record-breaking runs were made on Pendine Sands between 1924 and 1927; two more by Campbell, and two by Welshman J."
   }
 }

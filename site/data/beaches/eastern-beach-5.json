@@ -3,8 +3,8 @@
   "name": "Eastern Beach",
   "centroid_lat": -38.1462474,
   "centroid_lng": 144.3699099,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "AU",
+  "admin_level_1": "Victoria",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -24,12 +24,42 @@
       "source_name": "wikidata",
       "source_id": "Q5330015",
       "source_url": "https://www.wikidata.org/wiki/Q5330015"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/View%20from%20Geelong%20ferris%20wheel.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Eastern_Beach_(Victoria)"
+    },
+    "safety": {
+      "cyclone_count_50yr": "0"
+    }
+  },
+  "nearest_city": "Geelong",
+  "nearest_city_distance_km": 0.8,
+  "nearest_airport": {
+    "iata": "AVV",
+    "name": "Melbourne Avalon International Airport",
+    "distance_km": 14.5
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Eastern_Beach_(Victoria)",
+  "notability_score": 28.4,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 41.5,
+      "f_pct": 16.8,
+      "l_pct": 41.7,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

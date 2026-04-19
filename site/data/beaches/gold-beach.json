@@ -14,12 +14,21 @@
       "source_name": "wikidata",
       "source_id": "Q745883",
       "source_url": "https://www.wikidata.org/wiki/Q745883"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20British%20Army%20in%20the%20Normandy%20Campaign%201944%20B5128.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Gold_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "0",
+      "cyclone_max_category": "3"
     }
   },
   "nearest_city": "Ver-sur-Mer",
@@ -34,5 +43,14 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Gold_Beach",
   "notability_score": 31.9,
-  "data_completeness_pct": 20.8
+  "data_completeness_pct": 20.8,
+  "sand": {
+    "predicted": {
+      "q_pct": 50.9,
+      "f_pct": 8.7,
+      "l_pct": 40.4,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  }
 }

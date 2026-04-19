@@ -3,8 +3,8 @@
   "name": "Plage du Petit Roucas Blanc",
   "centroid_lat": 43.264182,
   "centroid_lng": 5.3687327,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "FR",
+  "admin_level_1": "Provence-Alpes-Cote d'Azur",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -77,6 +77,32 @@
     "environment": {
       "water_quality_rating": "2 - good",
       "eu_bathing_water_type": "Coastal"
+    }
+  },
+  "nearest_city": "Marseille 08",
+  "nearest_city_distance_km": 1.3,
+  "nearest_airport": {
+    "iata": "MRS",
+    "name": "Marseille Provence Airport",
+    "distance_km": 23.1
+  },
+  "safety": {
+    "water_quality_rating": "2 - good",
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "wheelchair_accessible": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Plages_du_Prado",
+  "notability_score": 29.3,
+  "data_completeness_pct": 29.2,
+  "sand": {
+    "predicted": {
+      "q_pct": 42.2,
+      "f_pct": 6.4,
+      "l_pct": 51.4,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

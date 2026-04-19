@@ -3,8 +3,8 @@
   "name": "Praia dos Pescadores",
   "centroid_lat": 37.0865629,
   "centroid_lng": -8.2500905,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "PT",
+  "admin_level_1": "Faro",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -34,6 +34,11 @@
       "source_name": "eu_bathing",
       "source_id": "PTCV7X",
       "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
@@ -41,7 +46,9 @@
       "fee_required": false
     },
     "safety": {
-      "lifeguard": true
+      "lifeguard": true,
+      "cyclone_count_50yr": "2",
+      "cyclone_max_category": "4"
     },
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Albufeira%20%28Portugal%29%20%2810311666686%29.jpg",
@@ -50,6 +57,34 @@
     "environment": {
       "water_quality_rating": "1 - excellent",
       "eu_bathing_water_type": "Coastal"
+    }
+  },
+  "nearest_city": "Albufeira",
+  "nearest_city_distance_km": 0.2,
+  "nearest_airport": {
+    "iata": "FAO",
+    "name": "Faro - Gago Coutinho International Airport",
+    "distance_km": 26.0
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "lifeguard": true,
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "restrooms": true,
+    "showers": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_dos_Pescadores_(Albufeira)",
+  "notability_score": 32.6,
+  "data_completeness_pct": 33.3,
+  "sand": {
+    "predicted": {
+      "q_pct": 53.4,
+      "f_pct": 3.1,
+      "l_pct": 43.5,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

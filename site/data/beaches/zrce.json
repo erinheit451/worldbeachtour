@@ -3,8 +3,8 @@
   "name": "Zrće",
   "centroid_lat": 44.5393344,
   "centroid_lng": 14.9161896,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "HR",
+  "admin_level_1": "Licko-Senjska",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "gravel",
@@ -25,6 +25,28 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Zrce2012.JPG",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Zr%C4%87e"
+    }
+  },
+  "nearest_city": "Novalja",
+  "nearest_city_distance_km": 3.1,
+  "nearest_airport": {
+    "iata": "ZAD",
+    "name": "Zadar Airport",
+    "distance_km": 60.3
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Zr%C4%87e",
+  "notability_score": 27.7,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 42.9,
+      "f_pct": 6.8,
+      "l_pct": 50.2,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

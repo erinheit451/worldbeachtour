@@ -3,8 +3,8 @@
   "name": "Fig Tree Bay",
   "centroid_lat": 35.0128268,
   "centroid_lng": 34.0587099,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "CY",
+  "admin_level_1": "Ammochostos",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -31,6 +31,34 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Fig%20Tree%20Bay.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Fig_Tree_Bay"
+    }
+  },
+  "nearest_city": "Protaras",
+  "nearest_city_distance_km": 0.1,
+  "nearest_airport": {
+    "iata": "GEC",
+    "name": "Lefkoniko Airport / Geçitkale Air Base",
+    "distance_km": 39.5
+  },
+  "safety": {
+    "lifeguard": true,
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "parking": true,
+    "restrooms": true,
+    "showers": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Fig_Tree_Bay",
+  "notability_score": 28.7,
+  "data_completeness_pct": 25.0,
+  "sand": {
+    "predicted": {
+      "q_pct": 68.4,
+      "f_pct": 5.1,
+      "l_pct": 26.5,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

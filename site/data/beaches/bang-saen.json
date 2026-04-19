@@ -3,8 +3,8 @@
   "name": "Bang Saen",
   "centroid_lat": 13.26666667,
   "centroid_lng": 100.93333333,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "TH",
+  "admin_level_1": "Chon Buri",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -14,12 +14,43 @@
       "source_name": "wikidata",
       "source_id": "Q806451",
       "source_url": "https://www.wikidata.org/wiki/Q806451"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bang%20Saen%2001.JPG",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Bang_Saen_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "2",
+      "cyclone_max_category": "TS"
+    }
+  },
+  "nearest_city": "Si Racha",
+  "nearest_city_distance_km": 10.3,
+  "nearest_airport": {
+    "iata": "BKK",
+    "name": "Suvarnabhumi Airport",
+    "distance_km": 50.3
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Bang_Saen_Beach",
+  "notability_score": 26.3,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 91.8,
+      "f_pct": 3.9,
+      "l_pct": 4.2,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

@@ -3,8 +3,8 @@
   "name": "Platges de Comte",
   "centroid_lat": 38.9628832,
   "centroid_lng": 1.221338,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "ES",
+  "admin_level_1": "Balearic Islands",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -50,6 +50,33 @@
     "environment": {
       "water_quality_rating": "1 - excellent",
       "eu_bathing_water_type": "Coastal"
+    }
+  },
+  "nearest_city": "Sant Josep de sa Talaia",
+  "nearest_city_distance_km": 7.4,
+  "nearest_airport": {
+    "iata": "IBZ",
+    "name": "Ibiza Airport",
+    "distance_km": 16.5
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "lifeguard": true,
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "dogs_allowed": false
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cala_Comte",
+  "notability_score": 35.2,
+  "data_completeness_pct": 29.2,
+  "sand": {
+    "predicted": {
+      "q_pct": 59.1,
+      "f_pct": 3.5,
+      "l_pct": 37.4,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

@@ -4,7 +4,7 @@
   "centroid_lat": 39.8351,
   "centroid_lng": 22.7953,
   "country_code": "EL",
-  "admin_level_1": null,
+  "admin_level_1": "Thessaly",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -34,6 +34,29 @@
     "environment": {
       "water_quality_rating": "1 - excellent",
       "eu_bathing_water_type": "Coastal"
+    }
+  },
+  "nearest_city": "Agia",
+  "nearest_city_distance_km": 13.3,
+  "nearest_airport": {
+    "iata": "VOL",
+    "name": "Nea Anchialos National Airport",
+    "distance_km": 68.4
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Kokkino_Nero",
+  "notability_score": 26.2,
+  "data_completeness_pct": 20.8,
+  "sand": {
+    "predicted": {
+      "q_pct": 55.7,
+      "f_pct": 6.2,
+      "l_pct": 38.1,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

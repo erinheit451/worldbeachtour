@@ -3,8 +3,8 @@
   "name": "Praia Brava",
   "centroid_lat": -27.3992795,
   "centroid_lng": -48.4129148,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "BR",
+  "admin_level_1": "Santa Catarina",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -33,6 +33,28 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Floripa%2012%202014%20Brava%201079.JPG",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_Brava"
+    }
+  },
+  "nearest_city": "Itacorubi",
+  "nearest_city_distance_km": 22.0,
+  "nearest_airport": {
+    "iata": "FLN",
+    "name": "Hercílio Luz International Airport",
+    "distance_km": 33.1
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_Brava",
+  "notability_score": 25.1,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 90.0,
+      "f_pct": 7.2,
+      "l_pct": 2.8,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

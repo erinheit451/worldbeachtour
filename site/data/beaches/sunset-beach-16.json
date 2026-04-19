@@ -3,8 +3,8 @@
   "name": "Sunset Beach",
   "centroid_lat": 49.2784245,
   "centroid_lng": -123.1386051,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "CA",
+  "admin_level_1": "British Columbia",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -82,6 +82,32 @@
     },
     "social": {
       "wikipedia_url": "https://en.wikipedia.org/wiki/Sunset_Beach_(Vancouver)"
+    }
+  },
+  "nearest_city": "West End",
+  "nearest_city_distance_km": 0.7,
+  "nearest_airport": {
+    "iata": "YVR",
+    "name": "Vancouver International Airport",
+    "distance_km": 10.0
+  },
+  "safety": {
+    "lifeguard": false,
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "restrooms": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sunset_Beach_(Vancouver)",
+  "notability_score": 29.0,
+  "data_completeness_pct": 29.2,
+  "sand": {
+    "predicted": {
+      "q_pct": 38.8,
+      "f_pct": 37.4,
+      "l_pct": 23.8,
+      "regime": "feldspar-rich (plutonic/crystalline terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

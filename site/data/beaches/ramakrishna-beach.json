@@ -19,11 +19,18 @@
       "source_name": "wikidata",
       "source_id": "Q7288804",
       "source_url": "https://www.wikidata.org/wiki/Q7288804"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "safety": {
-      "lifeguard": true
+      "lifeguard": true,
+      "cyclone_count_50yr": "19",
+      "cyclone_max_category": "3"
     },
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/RK%20Beach%20Visakhapatnam%20Nov%202012%20-%2002.JPG",
@@ -46,5 +53,14 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/RK_Beach",
   "notability_score": 30.6,
-  "data_completeness_pct": 25.0
+  "data_completeness_pct": 25.0,
+  "sand": {
+    "predicted": {
+      "q_pct": 92.5,
+      "f_pct": 4.3,
+      "l_pct": 3.2,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  }
 }

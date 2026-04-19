@@ -3,8 +3,8 @@
   "name": "Coast Guard Beach",
   "centroid_lat": 41.8450596,
   "centroid_lng": -69.947164,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "Massachusetts",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -19,11 +19,42 @@
       "source_name": "wikidata",
       "source_id": "Q49320412",
       "source_url": "https://www.wikidata.org/wiki/Q49320412"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "wikipedia_url": "https://en.wikipedia.org/wiki/Coast_Guard_Beach_(Eastham,_Massachusetts)"
+    },
+    "safety": {
+      "cyclone_count_50yr": "16",
+      "cyclone_max_category": "5"
+    }
+  },
+  "nearest_city": "Eastham",
+  "nearest_city_distance_km": 2.8,
+  "nearest_airport": {
+    "iata": "HYA",
+    "name": "Cape Cod Gateway Airport",
+    "distance_km": 33.9
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Coast_Guard_Beach_(Eastham,_Massachusetts)",
+  "notability_score": 23.9,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 43.8,
+      "f_pct": 46.7,
+      "l_pct": 9.4,
+      "regime": "feldspar-rich (plutonic/crystalline terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

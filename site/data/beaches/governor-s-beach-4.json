@@ -3,8 +3,8 @@
   "name": "Governor's Beach",
   "centroid_lat": 34.7122485,
   "centroid_lng": 33.2719642,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "CY",
+  "admin_level_1": "Limassol",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "gravel",
@@ -49,6 +49,29 @@
     "environment": {
       "water_quality_rating": "1 - excellent",
       "eu_bathing_water_type": "Coastal"
+    }
+  },
+  "nearest_city": "Pyrgos",
+  "nearest_city_distance_km": 8.7,
+  "nearest_airport": {
+    "iata": "AKT",
+    "name": "RAF Akrotiri",
+    "distance_km": 29.3
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Governor%27s_Beach,_Limassol",
+  "notability_score": 30.4,
+  "data_completeness_pct": 29.2,
+  "sand": {
+    "predicted": {
+      "q_pct": 82.5,
+      "f_pct": 12.1,
+      "l_pct": 5.4,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

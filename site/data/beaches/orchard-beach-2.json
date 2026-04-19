@@ -3,8 +3,8 @@
   "name": "Orchard Beach",
   "centroid_lat": 40.8658111,
   "centroid_lng": -73.7897734,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "New York",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -19,12 +19,47 @@
       "source_name": "wikidata",
       "source_id": "Q7100176",
       "source_url": "https://www.wikidata.org/wiki/Q7100176"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "dog_friendly": false,
       "wikipedia_url": "https://en.wikipedia.org/wiki/Orchard_Beach_(Bronx)"
+    },
+    "safety": {
+      "cyclone_count_50yr": "14",
+      "cyclone_max_category": "5"
     }
+  },
+  "nearest_city": "Pelham Manor",
+  "nearest_city_distance_km": 3.6,
+  "nearest_airport": {
+    "iata": "LGA",
+    "name": "LaGuardia Airport",
+    "distance_km": 12.1
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "dogs_allowed": false
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Orchard_Beach_(Bronx)",
+  "notability_score": 29.9,
+  "data_completeness_pct": 20.8,
+  "sand": {
+    "predicted": {
+      "q_pct": 63.0,
+      "f_pct": 19.2,
+      "l_pct": 17.8,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "description": "The beach consists of a 13-section sandy shorefront, a hexagonal-block promenade, and a central pavilion with food stores and specialty shops."
   }
 }

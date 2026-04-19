@@ -14,12 +14,21 @@
       "source_name": "wikidata",
       "source_id": "Q880988",
       "source_url": "https://www.wikidata.org/wiki/Q880988"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Black%27s%20Beach%2C%20La%20Jolla%2C%20San%20Diego%2C%20California%2003.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Black%27s_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "1",
+      "cyclone_max_category": "4"
     }
   },
   "nearest_city": "La Jolla",
@@ -38,5 +47,14 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Black%27s_Beach",
   "notability_score": 31.8,
-  "data_completeness_pct": 25.0
+  "data_completeness_pct": 25.0,
+  "sand": {
+    "predicted": {
+      "q_pct": 64.9,
+      "f_pct": 19.0,
+      "l_pct": 16.1,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  }
 }

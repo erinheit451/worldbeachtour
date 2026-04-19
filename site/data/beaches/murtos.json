@@ -3,8 +3,8 @@
   "name": "Μύρτος",
   "centroid_lat": 38.3435982,
   "centroid_lng": 20.5355012,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "GR",
+  "admin_level_1": "Ionian Islands",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "pebble",
@@ -52,6 +52,33 @@
     "environment": {
       "water_quality_rating": "1 - excellent",
       "eu_bathing_water_type": "Coastal"
+    }
+  },
+  "nearest_city": "Sami",
+  "nearest_city_distance_km": 14.2,
+  "nearest_airport": {
+    "iata": "EFL",
+    "name": "Kefallinia Airport",
+    "distance_km": 25.0
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "restrooms": true,
+    "showers": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Myrtos_Beach",
+  "notability_score": 37.9,
+  "data_completeness_pct": 33.3,
+  "sand": {
+    "predicted": {
+      "q_pct": 56.8,
+      "f_pct": 1.2,
+      "l_pct": 42.0,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

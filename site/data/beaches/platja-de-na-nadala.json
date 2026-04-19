@@ -3,8 +3,8 @@
   "name": "Platja de na Nadala",
   "centroid_lat": 39.5190676,
   "centroid_lng": 2.5371425,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "ES",
+  "admin_level_1": "Balearic Islands",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -73,5 +73,30 @@
       "water_quality_rating": "1 - excellent",
       "eu_bathing_water_type": "Coastal"
     }
+  },
+  "nearest_city": "Magaluf",
+  "nearest_city_distance_km": 0.9,
+  "nearest_airport": {
+    "iata": "PMI",
+    "name": "Palma de Mallorca Airport",
+    "distance_km": 17.7
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Palmanova_beach",
+  "notability_score": 31.8,
+  "data_completeness_pct": 29.2,
+  "sand": {
+    "predicted": {
+      "q_pct": 70.6,
+      "f_pct": 3.8,
+      "l_pct": 25.6,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "white",
+    "description": "The beach has had an extension of 500 meters (1,600 ft) and has needed an artificial regeneration to achieve the current aspect of fine and white sand, as well as its dimensions."
   }
 }

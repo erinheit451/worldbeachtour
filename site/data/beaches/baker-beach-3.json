@@ -46,5 +46,14 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Baker_Beach",
   "notability_score": 31.3,
-  "data_completeness_pct": 25.0
+  "data_completeness_pct": 25.0,
+  "sand": {
+    "predicted": {
+      "q_pct": 46.6,
+      "f_pct": 16.0,
+      "l_pct": 37.4,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  }
 }

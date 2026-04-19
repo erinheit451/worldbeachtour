@@ -3,8 +3,8 @@
   "name": "Παραλία Κουκουναριές",
   "centroid_lat": 39.14818,
   "centroid_lng": 23.4025876,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "GR",
+  "admin_level_1": "Thessaly",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -54,5 +54,33 @@
       "water_quality_rating": "1 - excellent",
       "eu_bathing_water_type": "Coastal"
     }
+  },
+  "nearest_city": "Skiathos",
+  "nearest_city_distance_km": 7.8,
+  "nearest_airport": {
+    "iata": "JSI",
+    "name": "Skiathos Island National Airport",
+    "distance_km": 9.3
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "restrooms": true,
+    "showers": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Koukounaries",
+  "notability_score": 31.6,
+  "data_completeness_pct": 33.3,
+  "sand": {
+    "predicted": {
+      "q_pct": 47.1,
+      "f_pct": 3.2,
+      "l_pct": 49.6,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "golden"
   }
 }

@@ -14,12 +14,21 @@
       "source_name": "wikidata",
       "source_id": "Q5648577",
       "source_url": "https://www.wikidata.org/wiki/Q5648577"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Hanlans%20Point%20nudist.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Hanlan%27s_Point_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "4",
+      "cyclone_max_category": "5"
     }
   },
   "nearest_city": "Toronto",
@@ -34,5 +43,15 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Hanlan%27s_Point_Beach",
   "notability_score": 28.3,
-  "data_completeness_pct": 16.7
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 52.3,
+      "f_pct": 14.6,
+      "l_pct": 33.1,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "description": "The air on these sands is peculiarly clear and fine."
+  }
 }

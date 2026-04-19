@@ -3,8 +3,8 @@
   "name": "Hietaranta",
   "centroid_lat": 60.1739923,
   "centroid_lng": 24.9055777,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "FI",
+  "admin_level_1": "Uusimaa",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -47,6 +47,32 @@
     "environment": {
       "water_quality_rating": "1 - excellent",
       "eu_bathing_water_type": "Coastal"
+    }
+  },
+  "nearest_city": "Helsinki",
+  "nearest_city_distance_km": 1.7,
+  "nearest_airport": {
+    "iata": "HEL",
+    "name": "Helsinki Vantaa Airport",
+    "distance_km": 16.4
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "showers": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Hietaniemi_beach",
+  "notability_score": 29.9,
+  "data_completeness_pct": 29.2,
+  "sand": {
+    "predicted": {
+      "q_pct": 3.3,
+      "f_pct": 78.7,
+      "l_pct": 18.0,
+      "regime": "feldspar-rich (plutonic/crystalline terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

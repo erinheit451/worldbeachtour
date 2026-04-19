@@ -3,8 +3,8 @@
   "name": "Crash Boat Beach",
   "centroid_lat": 18.4583915,
   "centroid_lng": -67.164863333,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "PR",
+  "admin_level_1": "Aguadilla",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -14,12 +14,43 @@
       "source_name": "wikidata",
       "source_id": "Q5182344",
       "source_url": "https://www.wikidata.org/wiki/Q5182344"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/On%20the%20pier%20at%20Crash%20Boat%20Beach%20in%20Borinquen%2C%20Aguadilla%2C%20Puerto%20Rico.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Crash_Boat_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "17",
+      "cyclone_max_category": "5"
+    }
+  },
+  "nearest_city": "Caban",
+  "nearest_city_distance_km": 3.5,
+  "nearest_airport": {
+    "iata": "BQN",
+    "name": "Rafael Hernández International Airport",
+    "distance_km": 5.5
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Crash_Boat_Beach",
+  "notability_score": 25.9,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 66.2,
+      "f_pct": 13.1,
+      "l_pct": 20.7,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

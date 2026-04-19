@@ -43,5 +43,23 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Copacabana,_Rio_de_Janeiro",
   "notability_score": 39.1,
-  "data_completeness_pct": 29.2
+  "data_completeness_pct": 29.2,
+  "sand": {
+    "predicted": {
+      "q_pct": 92.3,
+      "f_pct": 4.3,
+      "l_pct": 3.4,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "curated": {
+      "story": "Copacabana's golden quartz sand was trucked in and renourished in the 1970s as part of the beach's expansion to nearly 100 metres width. The native sand — finer, slightly greyer — still outcrops at the eastern end near the Forte de Copacabana, where the original shoreline is preserved.",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Copacabana,_Rio_de_Janeiro"
+      ],
+      "showcase_rank": 20,
+      "reference_photo_url": null,
+      "reference_photo_attribution": null
+    }
+  }
 }

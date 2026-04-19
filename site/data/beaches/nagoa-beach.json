@@ -3,8 +3,8 @@
   "name": "Nagoa Beach",
   "centroid_lat": 20.7066718,
   "centroid_lng": 70.9192439,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "IN",
+  "admin_level_1": "Daman and Diu",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -19,11 +19,42 @@
       "source_name": "wikidata",
       "source_id": "Q6958471",
       "source_url": "https://www.wikidata.org/wiki/Q6958471"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "wikipedia_url": "https://en.wikipedia.org/wiki/Nago%C3%A1_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "15",
+      "cyclone_max_category": "3"
+    }
+  },
+  "nearest_city": "Diu",
+  "nearest_city_distance_km": 6.6,
+  "nearest_airport": {
+    "iata": "IXK",
+    "name": "Keshod Airport",
+    "distance_km": 95.6
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Nago%C3%A1_Beach",
+  "notability_score": 23.8,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 65.9,
+      "f_pct": 8.2,
+      "l_pct": 25.9,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

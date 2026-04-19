@@ -3,8 +3,8 @@
   "name": "Praia dos Alemães",
   "centroid_lat": 37.0840107,
   "centroid_lng": -8.2379658,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "PT",
+  "admin_level_1": "Faro",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -39,11 +39,18 @@
       "source_name": "eu_bathing",
       "source_id": "PTCU2T",
       "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "safety": {
-      "lifeguard": true
+      "lifeguard": true,
+      "cyclone_count_50yr": "2",
+      "cyclone_max_category": "4"
     },
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20dos%20Alem%C3%A3es%20Albufeira%205%20March%202015%20%281%29.JPG",
@@ -53,5 +60,31 @@
       "water_quality_rating": "1 - excellent",
       "eu_bathing_water_type": "Coastal"
     }
+  },
+  "nearest_city": "Albufeira",
+  "nearest_city_distance_km": 1.2,
+  "nearest_airport": {
+    "iata": "FAO",
+    "name": "Faro - Gago Coutinho International Airport",
+    "distance_km": 24.9
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "lifeguard": true,
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_dos_Alem%C3%A3es",
+  "notability_score": 24.9,
+  "data_completeness_pct": 25.0,
+  "sand": {
+    "predicted": {
+      "q_pct": 53.4,
+      "f_pct": 3.1,
+      "l_pct": 43.5,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "golden",
+    "description": "This wide beach is about 500 meters in length and has fine gold sand and is backed by sandy golden low cliffs prone to some erosion during wet weather some of which can be hazardous with rock falls."
   }
 }

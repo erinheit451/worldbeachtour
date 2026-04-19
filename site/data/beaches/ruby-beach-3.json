@@ -3,8 +3,8 @@
   "name": "Ruby Beach",
   "centroid_lat": 47.710833,
   "centroid_lng": -124.415556,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "Washington",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -20,6 +20,28 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Rubybeach.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Ruby_Beach"
+    }
+  },
+  "nearest_city": "Forks",
+  "nearest_city_distance_km": 26.7,
+  "nearest_airport": {
+    "iata": "HQM",
+    "name": "Bowerman Airport",
+    "distance_km": 89.8
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ruby_Beach",
+  "notability_score": 24.1,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 7.5,
+      "f_pct": 1.1,
+      "l_pct": 91.4,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

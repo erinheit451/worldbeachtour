@@ -3,8 +3,8 @@
   "name": "Cedar Lake East Beach",
   "centroid_lat": 44.9611714,
   "centroid_lng": -93.3181669,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "Minnesota",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -29,6 +29,28 @@
   "attributes": {
     "social": {
       "wikipedia_url": "https://en.wikipedia.org/wiki/Cedar_Lake_East_Beach"
+    }
+  },
+  "nearest_city": "Saint Louis Park",
+  "nearest_city_distance_km": 2.8,
+  "nearest_airport": {
+    "iata": "MSP",
+    "name": "Minneapolis–Saint Paul International Airport / Wold–Chamberlain Field",
+    "distance_km": 11.8
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cedar_Lake_East_Beach",
+  "notability_score": 26.3,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 53.2,
+      "f_pct": 26.3,
+      "l_pct": 20.5,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

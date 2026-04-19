@@ -3,8 +3,8 @@
   "name": "Martins Beach",
   "centroid_lat": 37.3751867,
   "centroid_lng": -122.4099045,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "California",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -25,6 +25,28 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Martin%27s%20Beach%20%2844942914911%29.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Martins_Beach"
+    }
+  },
+  "nearest_city": "Half Moon Bay",
+  "nearest_city_distance_km": 10.0,
+  "nearest_airport": {
+    "iata": "SQL",
+    "name": "San Carlos Airport",
+    "distance_km": 20.8
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Martins_Beach",
+  "notability_score": 26.9,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 46.6,
+      "f_pct": 16.0,
+      "l_pct": 37.4,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

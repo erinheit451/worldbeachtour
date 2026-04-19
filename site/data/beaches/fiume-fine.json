@@ -4,7 +4,7 @@
   "centroid_lat": 43.3722,
   "centroid_lng": 10.4391,
   "country_code": "IT",
-  "admin_level_1": null,
+  "admin_level_1": "Tuscany",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -39,6 +39,29 @@
     "environment": {
       "water_quality_rating": "1 - excellent",
       "eu_bathing_water_type": "Coastal"
+    }
+  },
+  "nearest_city": "Rosignano Solvay-Castiglioncello",
+  "nearest_city_distance_km": 1.9,
+  "nearest_airport": {
+    "iata": "PSA",
+    "name": "Pisa International Airport",
+    "distance_km": 34.9
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/White_Beaches_(Spiagge_Bianche)",
+  "notability_score": 31.2,
+  "data_completeness_pct": 25.0,
+  "sand": {
+    "predicted": {
+      "q_pct": 46.8,
+      "f_pct": 9.0,
+      "l_pct": 44.2,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

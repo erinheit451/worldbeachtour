@@ -3,8 +3,8 @@
   "name": "Chavakkad Beach",
   "centroid_lat": 10.569565,
   "centroid_lng": 76.0090078,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "IN",
+  "admin_level_1": "Kerala",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -19,6 +19,11 @@
       "source_name": "wikidata",
       "source_id": "Q5088455",
       "source_url": "https://www.wikidata.org/wiki/Q5088455"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
@@ -28,6 +33,32 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Chavakkad1.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Chavakkad_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "8",
+      "cyclone_max_category": "1"
+    }
+  },
+  "nearest_city": "Guruvayur",
+  "nearest_city_distance_km": 4.5,
+  "nearest_airport": {
+    "iata": "CCJ",
+    "name": "Calicut International Airport",
+    "distance_km": 63.3
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Chavakkad_Beach",
+  "notability_score": 27.6,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 92.4,
+      "f_pct": 4.6,
+      "l_pct": 3.1,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

@@ -3,8 +3,8 @@
   "name": "Kaputaş Beach",
   "centroid_lat": 36.2292,
   "centroid_lng": 29.4492,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "TR",
+  "admin_level_1": "Antalya",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -21,5 +21,28 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kaputas%20Beach.JPG",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Kaputa%C5%9F_Beach"
     }
+  },
+  "nearest_city": "Kalkan",
+  "nearest_city_distance_km": 5.1,
+  "nearest_airport": {
+    "iata": "DLM",
+    "name": "Dalaman International Airport",
+    "distance_km": 79.6
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Kaputa%C5%9F_Beach",
+  "notability_score": 23.6,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 60.3,
+      "f_pct": 1.2,
+      "l_pct": 38.4,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "description": "The canyon has been formed from the abrasion of the rocks by flowing waters over thousands of years."
   }
 }

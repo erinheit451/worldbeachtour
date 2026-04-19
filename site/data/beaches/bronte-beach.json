@@ -3,8 +3,8 @@
   "name": "Bronte Beach",
   "centroid_lat": -33.9035901,
   "centroid_lng": 151.2686499,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "AU",
+  "admin_level_1": "New South Wales",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -19,12 +19,43 @@
       "source_name": "wikidata",
       "source_id": "Q4974072",
       "source_url": "https://www.wikidata.org/wiki/Q4974072"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/AUS%20Sydney%2C%20Waverley%2C%20Bronte%20Beach%20006.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Bronte_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "0"
     }
+  },
+  "nearest_city": "Bronte",
+  "nearest_city_distance_km": 0.3,
+  "nearest_airport": {
+    "iata": "SYD",
+    "name": "Sydney Kingsford Smith International Airport",
+    "distance_km": 9.7
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Bronte_Beach",
+  "notability_score": 26.8,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 93.4,
+      "f_pct": 2.3,
+      "l_pct": 4.4,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "description": "On the Northern end, near a stairway, there is a naturally formed, large sandstone cave."
   }
 }

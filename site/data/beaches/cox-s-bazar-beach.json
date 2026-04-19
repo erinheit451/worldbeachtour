@@ -14,12 +14,21 @@
       "source_name": "wikidata",
       "source_id": "Q19458682",
       "source_url": "https://www.wikidata.org/wiki/Q19458682"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cox%27s%20Bazaar%20Sea%20Beach.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Cox%27s_Bazar_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "25",
+      "cyclone_max_category": "4"
     }
   },
   "nearest_city": "Cox's Bazar",
@@ -34,5 +43,23 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Cox%27s_Bazar_Beach",
   "notability_score": 31.4,
-  "data_completeness_pct": 20.8
+  "data_completeness_pct": 20.8,
+  "sand": {
+    "predicted": {
+      "q_pct": 77.0,
+      "f_pct": 2.5,
+      "l_pct": 20.4,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "curated": {
+      "story": "At 120 km, Cox's Bazar is often claimed as the longest natural sand beach on Earth. The sand is fine quartz sourced from the Ganges-Brahmaputra sediment system — the same Himalayan-erosion feedstock that builds most of Bangladesh's coastline.",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Cox%27s_Bazar"
+      ],
+      "showcase_rank": 13,
+      "reference_photo_url": null,
+      "reference_photo_attribution": null
+    }
+  }
 }

@@ -3,8 +3,8 @@
   "name": "Playa los Muertos",
   "centroid_lat": 20.5979442,
   "centroid_lng": -105.2398413,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "MX",
+  "admin_level_1": "Jalisco",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -24,12 +24,43 @@
       "source_name": "wikidata",
       "source_id": "Q108443820",
       "source_url": "https://www.wikidata.org/wiki/Q108443820"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20Los%20Muertos.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_de_los_Muertos_(Puerto_Vallarta)"
+    },
+    "safety": {
+      "cyclone_count_50yr": "21",
+      "cyclone_max_category": "5"
+    }
+  },
+  "nearest_city": "Puerto Vallarta",
+  "nearest_city_distance_km": 2.3,
+  "nearest_airport": {
+    "iata": "PVR",
+    "name": "Puerto Vallarta International Airport",
+    "distance_km": 9.2
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_de_los_Muertos_(Puerto_Vallarta)",
+  "notability_score": 25.4,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 66.5,
+      "f_pct": 16.7,
+      "l_pct": 16.8,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

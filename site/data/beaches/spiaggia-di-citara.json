@@ -3,8 +3,8 @@
   "name": "Spiaggia di Citara",
   "centroid_lat": 40.7171653,
   "centroid_lng": 13.8608584,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "IT",
+  "admin_level_1": "Campania",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -43,6 +43,29 @@
     "environment": {
       "water_quality_rating": "1 - excellent",
       "eu_bathing_water_type": "Coastal"
+    }
+  },
+  "nearest_city": "Forio",
+  "nearest_city_distance_km": 1.0,
+  "nearest_airport": {
+    "iata": "NAP",
+    "name": "Naples International Airport",
+    "distance_km": 40.8
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Citara",
+  "notability_score": 31.5,
+  "data_completeness_pct": 29.2,
+  "sand": {
+    "predicted": {
+      "q_pct": 23.3,
+      "f_pct": 8.1,
+      "l_pct": 68.5,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

@@ -50,11 +50,14 @@ COLOR_LABELS = {
     "rainbow": "rainbow",
 }
 
-# Match "<color> sand(s)" or "<color> <modifier> sand(s)" (e.g. "white silica sands").
-# Modifier is one lowercase word to avoid matching "Gold Beach in Curry County"
-# (which would require "Gold <noun> sand" — no sand follows in Gold Beach).
+# Match "<color> ... sand(s)" where between color and sand there are 0-3 short
+# lowercase words, optionally comma-separated (e.g. "black, natural, volcanic sand"
+# or "white silica sands"). Rejects "Gold Beach in Curry County" because no
+# "sand" word follows within the window.
 COLOR_SAND_RE = re.compile(
-    r"\b(" + "|".join(re.escape(k) for k in COLOR_LABELS) + r")[- ](?:[a-z]+ )?sand(s|y)?\b",
+    r"\b(" + "|".join(re.escape(k) for k in COLOR_LABELS) + r")[,\s-]+"
+    r"(?:[a-z]+[,\s-]+){0,3}"
+    r"sand(s|y)?\b",
     re.IGNORECASE,
 )
 

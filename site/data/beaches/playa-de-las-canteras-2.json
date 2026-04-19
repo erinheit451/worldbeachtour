@@ -3,8 +3,8 @@
   "name": "Playa de Las Canteras",
   "centroid_lat": 28.1395472,
   "centroid_lng": -15.4398073,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "ES",
+  "admin_level_1": "Canary Islands",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -29,5 +29,29 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Canteras%205335%20Pan%20%2846886275114%29.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_de_Las_Canteras"
     }
+  },
+  "nearest_city": "Las Palmas de Gran Canaria",
+  "nearest_city_distance_km": 5.1,
+  "nearest_airport": {
+    "iata": "LPA",
+    "name": "Gran Canaria Airport",
+    "distance_km": 23.7
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_de_Las_Canteras",
+  "notability_score": 28.2,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 8.0,
+      "f_pct": 24.1,
+      "l_pct": 67.9,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "golden",
+    "description": "Oriented to the northwest, it lies within the bay known as El Confital and stretches for just over three kilometres of fine golden sand, from the foothills of La Isleta to near the mouth of the Tamaraceite ravine."
   }
 }

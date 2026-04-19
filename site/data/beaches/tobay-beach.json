@@ -3,8 +3,8 @@
   "name": "Tobay Beach",
   "centroid_lat": 40.6090352,
   "centroid_lng": -73.4285892,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "New York",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -24,11 +24,42 @@
       "source_name": "wikidata",
       "source_id": "Q7811557",
       "source_url": "https://www.wikidata.org/wiki/Q7811557"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "wikipedia_url": "https://en.wikipedia.org/wiki/Tobay_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "15",
+      "cyclone_max_category": "5"
+    }
+  },
+  "nearest_city": "East Massapequa",
+  "nearest_city_distance_km": 7.2,
+  "nearest_airport": {
+    "iata": "FRG",
+    "name": "Republic Airport",
+    "distance_km": 13.3
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tobay_Beach",
+  "notability_score": 27.3,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 31.0,
+      "f_pct": 6.3,
+      "l_pct": 62.8,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

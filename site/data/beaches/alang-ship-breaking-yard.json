@@ -14,12 +14,21 @@
       "source_name": "wikidata",
       "source_id": "Q336318",
       "source_url": "https://www.wikidata.org/wiki/Q336318"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Alang%20Ship%20Buster%20-%20panoramio.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Alang_Ship_Breaking_Yard"
+    },
+    "safety": {
+      "cyclone_count_50yr": "8",
+      "cyclone_max_category": "3"
     }
   },
   "nearest_city": "Talaja",
@@ -35,5 +44,14 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Alang_Ship_Breaking_Yard",
   "notability_score": 33.3,
-  "data_completeness_pct": 20.8
+  "data_completeness_pct": 20.8,
+  "sand": {
+    "predicted": {
+      "q_pct": 85.0,
+      "f_pct": 6.5,
+      "l_pct": 8.6,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  }
 }

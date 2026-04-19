@@ -3,8 +3,8 @@
   "name": "Eighty Mile Beach",
   "centroid_lat": -19.2697,
   "centroid_lng": 121.397,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "AU",
+  "admin_level_1": "Western Australia",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -14,12 +14,44 @@
       "source_name": "wikidata",
       "source_id": "Q4167946",
       "source_url": "https://www.wikidata.org/wiki/Q4167946"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Eighty%20Mile%20Beach%2C%20Western%20Australia.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Eighty_Mile_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "28",
+      "cyclone_max_category": "4"
     }
+  },
+  "nearest_city": "Broome",
+  "nearest_city_distance_km": 171.0,
+  "nearest_airport": {
+    "iata": "BME",
+    "name": "Broome International Airport",
+    "distance_km": 171.0
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Eighty_Mile_Beach",
+  "notability_score": 25.3,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 91.3,
+      "f_pct": 4.3,
+      "l_pct": 4.4,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "description": "It consists of sand with a high proportion of shelly material, and experiences a very large tidal range with an amplitude of up to 9 m."
   }
 }

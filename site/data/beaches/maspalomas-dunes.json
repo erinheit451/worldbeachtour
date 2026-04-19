@@ -3,8 +3,8 @@
   "name": "Maspalomas Dunes",
   "centroid_lat": 27.7417,
   "centroid_lng": -15.5853,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "ES",
+  "admin_level_1": "Canary Islands",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -21,5 +21,28 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Dunas%20de%20Maspalomas.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Maspalomas_Dunes"
     }
+  },
+  "nearest_city": "Playa del Ingles",
+  "nearest_city_distance_km": 1.8,
+  "nearest_airport": {
+    "iata": "LPA",
+    "name": "Gran Canaria Airport",
+    "distance_km": 28.8
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Maspalomas_Dunes",
+  "notability_score": 26.0,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 8.0,
+      "f_pct": 24.1,
+      "l_pct": 67.9,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "description": "They were formed by sand from the now subdued marine shelf, when it was laid dry during the last ice age and the wind blew the sand towards the coast of the island."
   }
 }

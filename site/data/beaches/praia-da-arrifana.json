@@ -3,8 +3,8 @@
   "name": "Praia da Arrifana",
   "centroid_lat": 37.2920582,
   "centroid_lng": -8.8654644,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "PT",
+  "admin_level_1": "Faro",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -29,11 +29,18 @@
       "source_name": "eu_bathing",
       "source_id": "PTCX3C",
       "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "safety": {
-      "lifeguard": false
+      "lifeguard": false,
+      "cyclone_count_50yr": "2",
+      "cyclone_max_category": "4"
     },
     "facilities": {
       "access": "yes"
@@ -46,5 +53,31 @@
       "water_quality_rating": "1 - excellent",
       "eu_bathing_water_type": "Coastal"
     }
+  },
+  "nearest_city": "Aljezur",
+  "nearest_city_distance_km": 6.3,
+  "nearest_airport": {
+    "iata": "PRM",
+    "name": "Portimão Airport",
+    "distance_km": 29.6
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "lifeguard": false,
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_da_Arrifana",
+  "notability_score": 27.8,
+  "data_completeness_pct": 20.8,
+  "sand": {
+    "predicted": {
+      "q_pct": 82.3,
+      "f_pct": 7.3,
+      "l_pct": 10.5,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "golden",
+    "description": "The sand on Praia da Arrifana is of pale golden fine sand and is approximately 500 meters long."
   }
 }

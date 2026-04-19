@@ -3,8 +3,8 @@
   "name": "Kehena Beach",
   "centroid_lat": 19.3949339,
   "centroid_lng": -154.928222,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "Hawaii",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -19,6 +19,11 @@
       "source_name": "wikidata",
       "source_id": "Q22058955",
       "source_url": "https://www.wikidata.org/wiki/Q22058955"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
@@ -26,6 +31,33 @@
       "nudist": "permissive",
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kehena%20Beach%2C%20Big%20Island.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Kehena_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "7",
+      "cyclone_max_category": "4"
     }
+  },
+  "nearest_city": "Leilani Estates",
+  "nearest_city_distance_km": 8.2,
+  "nearest_airport": {
+    "iata": "ITO",
+    "name": "Hilo International Airport",
+    "distance_km": 38.3
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Kehena_Beach",
+  "notability_score": 23.8,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": null,
+      "f_pct": null,
+      "l_pct": null,
+      "regime": "unknown",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "black"
   }
 }

@@ -3,8 +3,8 @@
   "name": "Padang beach",
   "centroid_lat": -8.8440288,
   "centroid_lng": 115.189534,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "ID",
+  "admin_level_1": "Bali",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -19,12 +19,43 @@
       "source_name": "wikidata",
       "source_id": "Q19746970",
       "source_url": "https://www.wikidata.org/wiki/Q19746970"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Pandawa%20Beach%2C%20Kuta%20Selatan%20-%20Bali.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Pandawa_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "2",
+      "cyclone_max_category": "4"
+    }
+  },
+  "nearest_city": "Bualu",
+  "nearest_city_distance_km": 6.1,
+  "nearest_airport": {
+    "iata": "DPS",
+    "name": "Denpasar I Gusti Ngurah Rai International Airport",
+    "distance_km": 10.9
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pandawa_Beach",
+  "notability_score": 27.6,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 89.3,
+      "f_pct": 3.4,
+      "l_pct": 7.3,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

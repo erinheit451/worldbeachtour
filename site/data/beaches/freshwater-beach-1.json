@@ -3,8 +3,8 @@
   "name": "Freshwater Beach",
   "centroid_lat": -33.7820562,
   "centroid_lng": 151.2911721,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "AU",
+  "admin_level_1": "New South Wales",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -19,14 +19,43 @@
       "source_name": "wikidata",
       "source_id": "Q5503110",
       "source_url": "https://www.wikidata.org/wiki/Q5503110"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "safety": {
-      "lifeguard": true
+      "lifeguard": true,
+      "cyclone_count_50yr": "0"
     },
     "social": {
       "wikipedia_url": "https://en.wikipedia.org/wiki/Freshwater_Beach"
+    }
+  },
+  "nearest_city": "Freshwater",
+  "nearest_city_distance_km": 0.6,
+  "nearest_airport": {
+    "iata": "SYD",
+    "name": "Sydney Kingsford Smith International Airport",
+    "distance_km": 21.1
+  },
+  "safety": {
+    "lifeguard": true,
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Freshwater_Beach",
+  "notability_score": 23.5,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 80.6,
+      "f_pct": 1.4,
+      "l_pct": 18.1,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

@@ -3,8 +3,8 @@
   "name": "Playa de Gulpiyuri",
   "centroid_lat": 43.4475698,
   "centroid_lng": -4.8859752,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "ES",
+  "admin_level_1": "Asturias",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -28,6 +28,40 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Gulpiyuri.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_de_Gulpiyuri"
+    }
+  },
+  "nearest_city": "Llanes",
+  "nearest_city_distance_km": 11.0,
+  "nearest_airport": {
+    "iata": "SDR",
+    "name": "Seve Ballesteros-Santander Airport",
+    "distance_km": 86.1
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "wheelchair_accessible": false
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_de_Gulpiyuri",
+  "notability_score": 24.8,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 18.5,
+      "f_pct": 2.8,
+      "l_pct": 78.7,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "curated": {
+      "story": "Gulpiyuri sits 100 metres inland, in a sinkhole fed by seawater through a karst tunnel. Its sand is pure shell carbonate, washed in with each tide through the limestone aquifer — a rare inland beach that breathes with the Cantabrian Sea.",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Gulpiyuri_Beach"
+      ],
+      "showcase_rank": 9,
+      "reference_photo_url": null,
+      "reference_photo_attribution": null
     }
   }
 }

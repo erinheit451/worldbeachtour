@@ -3,8 +3,8 @@
   "name": "Praia da Adraga",
   "centroid_lat": 38.8036526,
   "centroid_lng": -9.484971,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "PT",
+  "admin_level_1": "Lisbon",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -29,6 +29,11 @@
       "source_name": "eu_bathing",
       "source_id": "PTCT9U",
       "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
@@ -39,6 +44,33 @@
     "environment": {
       "water_quality_rating": "1 - excellent",
       "eu_bathing_water_type": "Coastal"
+    },
+    "safety": {
+      "cyclone_count_50yr": "4",
+      "cyclone_max_category": "4"
+    }
+  },
+  "nearest_city": "Colares",
+  "nearest_city_distance_km": 3.3,
+  "nearest_airport": {
+    "iata": "CAT",
+    "name": "Cascais Airport",
+    "distance_km": 14.2
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_da_Adraga",
+  "notability_score": 27.6,
+  "data_completeness_pct": 20.8,
+  "sand": {
+    "predicted": {
+      "q_pct": 59.1,
+      "f_pct": 6.8,
+      "l_pct": 34.1,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

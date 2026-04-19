@@ -3,8 +3,8 @@
   "name": "La Tejita",
   "centroid_lat": 28.0310725,
   "centroid_lng": -16.5564177,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "ES",
+  "admin_level_1": "Canary Islands",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -25,6 +25,28 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Tenerife88.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/La_Tejita"
+    }
+  },
+  "nearest_city": "San Isidro",
+  "nearest_city_distance_km": 5.0,
+  "nearest_airport": {
+    "iata": "TFS",
+    "name": "Tenerife Sur Airport",
+    "distance_km": 2.2
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/La_Tejita",
+  "notability_score": 24.0,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 15.2,
+      "f_pct": 6.3,
+      "l_pct": 78.5,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

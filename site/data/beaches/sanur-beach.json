@@ -14,12 +14,21 @@
       "source_name": "wikidata",
       "source_id": "Q1789991",
       "source_url": "https://www.wikidata.org/wiki/Q1789991"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Pemandangan%20Pantai%20Sanur.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Sanur,_Bali"
+    },
+    "safety": {
+      "cyclone_count_50yr": "1",
+      "cyclone_max_category": "4"
     }
   },
   "nearest_city": "Banjar Taman",
@@ -34,5 +43,14 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Sanur,_Bali",
   "notability_score": 28.5,
-  "data_completeness_pct": 16.7
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 89.3,
+      "f_pct": 3.4,
+      "l_pct": 7.3,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  }
 }

@@ -3,8 +3,8 @@
   "name": "Platja de Cala Vedella",
   "centroid_lat": 38.9134575,
   "centroid_lng": 1.2240228,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "ES",
+  "admin_level_1": "Balearic Islands",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -55,5 +55,33 @@
       "water_quality_rating": "2 - good",
       "eu_bathing_water_type": "Coastal"
     }
+  },
+  "nearest_city": "Sant Josep de sa Talaia",
+  "nearest_city_distance_km": 5.1,
+  "nearest_airport": {
+    "iata": "IBZ",
+    "name": "Ibiza Airport",
+    "distance_km": 13.7
+  },
+  "safety": {
+    "water_quality_rating": "2 - good",
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "parking": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cala_Vadella",
+  "notability_score": 31.8,
+  "data_completeness_pct": 33.3,
+  "sand": {
+    "predicted": {
+      "q_pct": 59.1,
+      "f_pct": 3.5,
+      "l_pct": 37.4,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "white",
+    "description": "The main beach is a good size and depth, and is made of fine white sand and ideal for families with small children."
   }
 }

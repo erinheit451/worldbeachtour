@@ -296,7 +296,7 @@ def export_sand_hub(db_path: Path, output_path: Path) -> int:
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(hub, f, indent=2, ensure_ascii=False)
     conn.close()
-    print(f"Sand hub: {len(curated)} curated + {len(extra_rows)} extra → {output_path}")
+    print(f"Sand hub: {len(curated)} curated + {len(extra_rows)} extra -> {output_path}")
     return len(curated)
 
 

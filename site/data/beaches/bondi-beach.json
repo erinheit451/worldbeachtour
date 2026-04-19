@@ -5,154 +5,56 @@
   "centroid_lng": 151.2780805,
   "country_code": "AU",
   "admin_level_1": "New South Wales",
-  "admin_level_2": "Sydney",
+  "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
-  "sand_color": "gold",
-  "beach_length_m": 1000,
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Bondi_Beach",
-  "notability_score": 2.5,
-  "data_completeness_pct": 28,
-  "nearest_city": "Sydney",
-  "nearest_city_distance_km": 7.0,
+  "beach_length_m": null,
+  "sources": [
+    {
+      "source_name": "osm",
+      "source_id": "way/173244595",
+      "source_url": "https://www.openstreetmap.org/way/173244595"
+    },
+    {
+      "source_name": "wikidata",
+      "source_id": "Q21919992",
+      "source_url": "https://www.wikidata.org/wiki/Q21919992"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
+    }
+  ],
+  "attributes": {
+    "safety": {
+      "lifeguard": true,
+      "cyclone_count_50yr": "0"
+    },
+    "social": {
+      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bondi%20from%20above.jpg"
+    }
+  },
+  "nearest_city": "Bondi Beach",
+  "nearest_city_distance_km": 0.6,
   "nearest_airport": {
     "iata": "SYD",
     "name": "Sydney Kingsford Smith International Airport",
     "distance_km": 11.1
   },
   "safety": {
-    "shark_incidents_total": 2,
     "lifeguard": true,
-    "cyclone_count_50yr": 0,
-    "cyclone_max_category": null
+    "shark_incidents_total": 0
   },
-  "facilities": {
-    "parking": true,
-    "restrooms": true,
-    "showers": true,
-    "food_nearby": true
-  },
-  "sources": [
-    { "source_name": "wikidata", "source_id": "Q21919992", "source_url": "https://www.wikidata.org/wiki/Q21919992" }
-  ],
-  "attributes": {},
-  "climate": {
-    "air_temp_high": [25.46, 25.87, 24.78, 22.68, 20.02, 17.39, 16.70, 17.76, 19.83, 21.85, 22.76, 25.03],
-    "air_temp_low": [18.41, 18.72, 17.28, 14.64, 12.28, 9.36, 8.18, 8.74, 10.69, 13.25, 15.01, 17.37],
-    "water_temp": [22.5, 22.8, 22.1, 21.0, 19.3, 18.0, 17.5, 17.7, 18.4, 19.3, 20.4, 21.7],
-    "rain_mm": [136, 133, 153, 130, 114, 127, 76, 89, 76, 85, 96, 83],
-    "sun_hours": [21400, 19300, 19800, 18200, 16700, 15400, 16900, 19100, 20600, 21000, 21600, 22000],
-    "climate_source": "WorldClim v2.1 (2.5')",
-    "ocean_source": "Manly Hydraulics Laboratory buoy + CSIRO records"
-  },
-  "tides": {
-    "range_spring_m": 1.23,
-    "range_neap_m": 0.74,
-    "type": "mixed",
-    "source": "EOT20 (DGFI-TUM)"
-  },
-  "species": [
-    { "species_name": "Cacatua galerita", "common_name": "Sulphur-crested Cockatoo", "taxon_group": "bird", "observation_count": 420 },
-    { "species_name": "Eudyptula minor", "common_name": "Little Penguin (observed offshore)", "taxon_group": "bird", "observation_count": 35 },
-    { "species_name": "Megaptera novaeangliae", "common_name": "Humpback Whale (migration)", "taxon_group": "mammal", "observation_count": 180 },
-    { "species_name": "Arctocephalus forsteri", "common_name": "New Zealand Fur Seal (winter)", "taxon_group": "mammal", "observation_count": 22 },
-    { "species_name": "Carcharhinus brachyurus", "common_name": "Bronze Whaler Shark", "taxon_group": "fish", "observation_count": 14 },
-    { "species_name": "Larus novaehollandiae", "common_name": "Silver Gull", "taxon_group": "bird", "observation_count": 1520 }
-  ],
-  "showcase": {
-    "is_showcase": true,
-    "signature_motif": "bondi-rescue",
-    "intro_text": "Bondi Beach is Australia's identity-image beach — a one-kilometer crescent of gold sand at Sydney's eastern edge where the city's apartment blocks end and the Pacific begins with almost no transition. This is where the Australian beach myth lives in its densest form: the lifesavers in their red-and-yellow caps, the icebergs winter-swim club plunging into the ocean pool at the southern headland, the morning runners on the Bondi-to-Coogee coastal walk, and — overhead and underfoot — the cultural machinery that has made the word \"Bondi\" legible across the world.\n\nThe beach is short by Australian standards. Only about one kilometer from headland to headland. But it is wide — up to 90 meters of sand at low tide — and it curves almost perfectly, which is what makes it photograph so well. The two rocks that bracket it are what give it its character: **Ben Buckler** at the north, **Mackenzie's Point** at the south. Above each sit suburbs — North Bondi and South Bondi — that operate as social zones the way Copacabana's postos do in Rio. Which rock you walk toward, which end of the sand you settle on, tells a local exactly what kind of day you are planning to have.\n\n**The lifeguards are the reason the world recognizes Bondi.** Australia invented surf lifesaving — the organized, uniformed volunteer service that patrols beaches — at Bondi in 1907, and by 1915 there were red-and-yellow-capped lifesavers on patrol every weekend. The Bondi Rescue television program, running on Australian TV since 2006 and syndicated into more than 100 countries, has turned the professional lifeguards — the paid council employees who work alongside the volunteer lifesavers — into global celebrities. The rescues they perform here (an average of **4,500 a year**) are documented, dramatic, and often the difference between a visitor's best memory of Australia and their worst.\n\nThe beach is also, and this matters: **shark country.** In 1929, a series of fatal attacks along Sydney's eastern beaches created a public panic that led to the installation of shark nets in 1937 — a policy that has shaped Bondi's relationship with the ocean ever since. The nets are controversial now (they kill rays, turtles, and non-target sharks), and the debate about replacing them with SMART drum lines and listening stations is current Australian coastal politics. You can swim at Bondi with near-total safety. You should also know why that is, and at what cost.\n\nBondi is on **Gadigal country**, unceded land of the Eora nation. Aboriginal rock engravings — kangaroos, marine animals, a whale — still exist on the cliff top at North Bondi, unmarked, accessible, older than any European memory of this coast. The sand below them has not been reclaimed; it has been here since the Last Glacial Maximum. The Gadigal people were fishing, diving, and carving this headland for at least 20,000 years before Captain Cook sailed past in 1770. Australia's Bondi is 240 years old. The place it sits on is significantly older.\n\nAnd all of this lives inside a single kilometer of beach that a Sydney bus takes you to in 25 minutes from the central railway station. You can see all of it in a day. You should go twice — once in summer for the packed-in, sunburnt, impossibly-alive Australian-beach-holiday version, and once in winter for the Icebergs plunge, the coastal walk without the crowds, the whales migrating past offshore. Both are Bondi. Neither by itself is the whole thing.",
-    "favela_note": "Bondi is on **Gadigal country** — unceded land of the Eora nation, one of the several hundred Aboriginal nations whose territories collectively cover the Australian continent.\n\nAboriginal and Torres Strait Islander peoples have lived in what is now Australia for at least **65,000 years** — possibly longer. The Gadigal (or Cadigal) people of the coastal strip between what is now Bondi and Sydney Harbour were one of several clans of the Eora Nation. The word **Bondi** itself is an anglicization of an Eora word — probably *boondi*, meaning either \"water breaking over rocks\" or \"a place where a flight of nullas (throwing sticks) took place,\" depending on the elder you ask. Both meanings are attested in 19th-century records.\n\nBritish colonization began in January 1788 with the arrival of the First Fleet at Sydney Cove — 7 kilometers west of here. Within two years, **smallpox had killed roughly half of the Eora population.** Within five years, the remaining Gadigal had been largely displaced from the harbour lands by settler occupation. The specific brutality of Australian colonization — the **1788–1920s Frontier Wars**, the **Stolen Generations** (government removal of Aboriginal children from their families, 1910s–1970s), and the legal fiction of *terra nullius* (\"empty land\") that denied Aboriginal sovereignty until the **1992 Mabo decision** — is documented in the Australian Institute of Aboriginal and Torres Strait Islander Studies (AIATSIS) and the National Museum of Australia.\n\n**There was never a treaty.** Australia is one of the only Commonwealth countries to have never concluded a treaty with its Indigenous peoples. The 2023 national referendum on an **Aboriginal and Torres Strait Islander Voice to Parliament** — a constitutionally-recognized advisory body — failed 60-40 against. The legal and political conversation about Indigenous sovereignty, land rights, and reconciliation is ongoing.\n\nAt Bondi specifically, Aboriginal presence did not disappear. The **Bondi Aboriginal Rock Engravings** — carvings of kangaroos, fish, a large whale, a male figure, and marine shapes — sit on the sandstone cliff top at **North Bondi**, near the golf course. They are at least several hundred years old (possibly much older), unfenced, and **easily visited on foot from the beach**. They are not signposted in the way a Euro-American historical marker would be. This is deliberate: Aboriginal cultural heritage sites are often kept under-marked to prevent vandalism and to let people who know where to look see them, and people who don't, not.\n\nWaverley Council (the local government for Bondi) has since 2000 formally acknowledged Gadigal country in its public statements. **Welcome to Country** ceremonies — performed by a Gadigal elder at the start of formal events — are standard at municipal functions. The Aboriginal flag flies alongside the Australian flag at Bondi Pavilion. None of this is reparative; all of it is necessary.\n\nYou can walk the coastal path, swim in the pools, ride the waves, and never encounter any of this. The council does not force you to. But the engravings are there. The name is there. The country is there. Knowing it is the difference between visiting Bondi and being present at it.",
-    "day_in_time": {
-      "dawn": "Before six a.m., the Bondi-to-Bronte path is busier than it looks in the photographs. Runners in high-vis, stroller pushers who started too early, retirees walking the clifftop to Mackenzie's Point and back. Down on the sand, the ocean-pool swimmers at Bondi Icebergs have already done their 400 meters in cold water. Surfers pull on wetsuits in the South End parking lot. Sulphur-crested cockatoos scream from the Norfolk pines. The lifeguards do not yet have the red-and-yellow flags up; the sand is still officially unpatrolled. Nobody is drunk. It is one of the quietest moments Australia offers anywhere.",
-      "midday": "Between 11 a.m. and 3 p.m. from November through February, Bondi carries every Australian-beach cliché at full volume and does so earnestly. The lifeguards have been up for four hours; they've already pulled two swimmers from rips. Red-and-yellow flags mark the patrolled area, maybe 150 meters of water between the tents. Kids run in sets of nine and ten from the changing rooms. The summer line at Speedos at the corner of Ramsgate and Campbell is forty people deep. The smell is sunscreen, salt, charcoal barbecues from the headland picnic tables, and — specifically, unmistakably — the hot concrete of the promenade. Three helicopters pass overhead in an hour.",
-      "golden": "From 5 p.m. the light on the Pavilion's pale stucco turns the color of honey. Surfers paddle out at the south end for the evening session. The Icebergs pool glows turquoise against the black rock and the sunset. Icecreams at Gelato Messina across Campbell Parade. The kite flyers at the North Bondi end. And the promenade walkers — the thousand or two people who descend to walk the Bondi-to-Bronte path just before dusk. Every Saturday night in summer, there is at least one wedding photography session at Icebergs. Always.",
-      "night": "By 9 p.m. the sand has emptied. The Pavilion is lit. The bars of Campbell Parade — Rashays, The Bucket List, North Bondi RSL — are loud. Late-night joggers loop the clifftop by headlamp. The Bondi Beach Public School's courts get used as a skating rink by the teenagers the council hasn't quite managed to displace. On a moonless night you can sometimes see the Milky Way over the ocean from the Pavilion steps; light pollution from the city pushes it offshore, but not by much. The ocean does not get truly dark here. There is always a container ship somewhere on the horizon."
-    },
-    "food_drink": [
-      {
-        "name": "Flat white",
-        "description": "Australia (and New Zealand) invented this coffee — espresso with microfoam steamed milk, poured so the milk and crema integrate rather than layer. Every café at Bondi will make you a good one. A$4.50–5.50. The Bondi-specific refinement: 'flat white, soy, no sugar, and can I get a rye sourdough with smashed avo.' That is the dialect spoken here.",
-        "where": "Speedos, Chapter One, Porch and Parlour"
-      },
-      {
-        "name": "Fish and chips at the Pavilion kiosk",
-        "description": "Australian beach fish and chips is a specific genre — battered snapper or flathead, salt-and-vinegar thick-cut chips, eaten on the sand out of butcher's paper with seagulls circling aggressively. The Pavilion's kiosk is the baseline. A$18–22 for a meal.",
-        "where": "Bondi Pavilion, beachfront"
-      },
-      {
-        "name": "A lamington",
-        "description": "Australia's national cake — a cube of vanilla sponge dipped in chocolate syrup and rolled in desiccated coconut. Invented in Queensland but beloved in Sydney. Bondi cafes serve them at morning tea. A$4–6. Not optional if you're trying to understand the place.",
-        "where": "Bondi Junction shops, most café counters"
-      },
-      {
-        "name": "Sydney rock oyster",
-        "description": "A species (*Saccostrea glomerata*) endemic to the NSW coast. Smaller and sweeter than Pacific oysters. Sold at the Bondi Farmers Market on Saturdays, and at the North Bondi RSL for A$4 each. If you grew up elsewhere on oysters, this is a reset.",
-        "where": "North Bondi RSL, Sean's Bondi, Bondi Farmers Market (Saturdays)"
-      }
-    ],
-    "timeline": [
-      { "year": -20000, "month": null, "event_type": "cultural", "title": "Gadigal presence begins", "description": "The Gadigal people of the Eora Nation have lived on the Sydney coastal strip, including what is now Bondi, for at least 20,000 years (conservative estimate; the broader Aboriginal presence on the continent is dated to 65,000+ years). Rock engravings at North Bondi remain as physical evidence.", "wiki_url": "https://en.wikipedia.org/wiki/Eora" },
-      { "year": 1788, "month": 1, "event_type": "political", "title": "British colonization begins", "description": "The First Fleet arrives at Sydney Cove, 7 km west of Bondi. Within two years, smallpox reduces the Eora population by roughly half. British possession of the continent is asserted under the legal fiction of *terra nullius* — 'empty land' — overturned only in 1992 by the Mabo decision.", "wiki_url": "https://en.wikipedia.org/wiki/First_Fleet" },
-      { "year": 1855, "month": null, "event_type": "political", "title": "Bondi sold to private owners", "description": "The land later known as Bondi Beach is sold to Francis O'Brien and a group of investors. O'Brien names the area 'O'Brien Estate' and for several decades treats the beach as private property — charging visitors an admission fee on weekends.", "wiki_url": "https://en.wikipedia.org/wiki/Bondi_Beach" },
-      { "year": 1882, "month": null, "event_type": "political", "title": "Bondi declared a public beach", "description": "After growing public protest against O'Brien's admission fees, the New South Wales government formally declares Bondi Beach a public place. Access becomes free and Bondi begins its transformation from pastoral edge to metropolitan playground.", "wiki_url": "https://en.wikipedia.org/wiki/Bondi_Beach" },
-      { "year": 1903, "month": null, "event_type": "cultural", "title": "Daylight swimming legalized", "description": "New South Wales repeals the ban on daylight sea bathing (previously considered indecent). Within five years, beach culture explodes along Sydney's coast. Bondi is at the center of the transformation.", "wiki_url": null },
-      { "year": 1906, "month": null, "event_type": "sport", "title": "Bondi Surf Bathers' Life Saving Club founded", "description": "The world's first surf lifesaving club is founded at Bondi on 21 February 1907 (per official records) or late 1906 (per some accounts). The red-and-yellow-quartered cap becomes the Australian surf-lifesaving uniform.", "wiki_url": "https://en.wikipedia.org/wiki/Bondi_Surf_Bathers%27_Life_Saving_Club" },
-      { "year": 1928, "month": 12, "event_type": "built", "title": "Bondi Pavilion opens", "description": "The Bondi Pavilion — Spanish Mission-style stucco on the headland — opens on 21 December 1928 as changing rooms, ballroom, cinema, and Turkish baths. Architect Robertson & Marks. It is now a heritage-listed community arts center.", "wiki_url": "https://en.wikipedia.org/wiki/Bondi_Pavilion" },
-      { "year": 1929, "month": 2, "event_type": "event", "title": "Black Sunday", "description": "On 6 February 1938, three freak waves hit Bondi and sweep 200+ bathers off the sandbar. Lifesavers rescue approximately 250; five drown. The day becomes the founding trauma of Australian surf lifesaving and a reference point in every lifeguard's training since.", "wiki_url": "https://en.wikipedia.org/wiki/Black_Sunday_(1938)" },
-      { "year": 1929, "month": null, "event_type": "event", "title": "Bondi shark panic", "description": "A series of fatal shark attacks along Sydney's eastern beaches creates a public panic. The Bondi Council convenes a committee that will ultimately recommend the installation of meshing nets off the coast.", "wiki_url": null },
-      { "year": 1929, "month": 1, "event_type": "sport", "title": "Bondi Icebergs Winter Swimming Club", "description": "Founded at the southern headland by a group of men who wanted year-round ocean swimming. Initiation required swimming every Sunday of the winter; ice was added to the ocean pool. The club is still active; the building was rebuilt in 2002 and is an internationally photographed icon.", "wiki_url": "https://en.wikipedia.org/wiki/Bondi_Icebergs_Club" },
-      { "year": 1937, "month": null, "event_type": "infrastructure", "title": "Shark nets installed", "description": "NSW installs mesh nets offshore at Bondi and other Sydney beaches, directly in response to the 1929 panic. The nets do not form a barrier — they are intended to reduce shark populations in the area. Controversial since installation; the debate continues.", "wiki_url": "https://en.wikipedia.org/wiki/Shark_net" },
-      { "year": 1984, "month": 7, "event_type": "cultural", "title": "Bondi Mermaids banned", "description": "The controversial bronze 'Bondi Mermaids' statues installed on the rock at the beach's south end are removed by council. A parallel case of changing Australian beach sensibilities in the 1980s.", "wiki_url": null },
-      { "year": 2000, "month": 9, "event_type": "event", "title": "Sydney Olympics beach volleyball", "description": "Bondi hosts the beach volleyball competition at the 2000 Olympics — a 10,000-seat temporary stadium is built on the sand. The tournament is broadcast to a global audience and transforms Bondi's international brand.", "wiki_url": "https://en.wikipedia.org/wiki/Volleyball_at_the_2000_Summer_Olympics_%E2%80%93_Beach" },
-      { "year": 2003, "month": null, "event_type": "cultural", "title": "Sculpture by the Sea begins at Tamarama", "description": "The Bondi-to-Tamarama coastal walk becomes the venue for Sculpture by the Sea — the world's largest free outdoor sculpture exhibition. 100+ works from international sculptors, installed for three weeks each October. Draws 500,000 annual visitors.", "wiki_url": "https://en.wikipedia.org/wiki/Sculpture_by_the_Sea" },
-      { "year": 2006, "month": 2, "event_type": "cultural", "title": "Bondi Rescue premieres", "description": "The documentary reality-TV series Bondi Rescue debuts on Network Ten. It follows the Waverley Council professional lifeguards in real time. The show runs for 18+ seasons, syndicates to 100+ countries, and transforms the lifeguards into international celebrities.", "wiki_url": "https://en.wikipedia.org/wiki/Bondi_Rescue" },
-      { "year": 2016, "month": 12, "event_type": "political", "title": "Waverley Council acknowledges Gadigal country", "description": "Waverley Council (local government for Bondi) formalizes its Acknowledgement of Country for all municipal events. Welcome to Country by Gadigal elders becomes standard at Council functions. The Aboriginal flag is flown at Bondi Pavilion.", "wiki_url": null },
-      { "year": 2023, "month": 10, "event_type": "political", "title": "Voice to Parliament referendum", "description": "Australian voters reject, 60-40, a constitutional amendment to establish an Aboriginal and Torres Strait Islander Voice to Parliament. The result is seen by Indigenous leaders as a setback; the conversation about reconciliation and sovereignty continues.", "wiki_url": "https://en.wikipedia.org/wiki/2023_Australian_Indigenous_Voice_referendum" }
-    ],
-    "zones": [
-      { "zone_code": "NORTH", "name": "North Bondi", "position_along_beach_pct": 90, "character": "The family/local end. Calmer water, North Bondi Surf Club, the rock pool at Ben Buckler, the golf course on the headland above. The Aboriginal rock engravings are a short walk up from here. Quieter than the south end at all times of year.", "best_for": "Families with kids, the rock pool, walking to the engravings, the Sunday morning coffee scene at Porch and Parlour", "notes": "The rock engravings are unmarked; look for them near the golf course tee.", "lat": -33.8891, "lng": 151.2816 },
-      { "zone_code": "CENTRAL", "name": "Central Bondi / The Flags", "position_along_beach_pct": 50, "character": "Where the lifeguards put up the red-and-yellow flags. The safest swimming. Most of Bondi Rescue is filmed here. The tower is Tower 1. Always the most crowded stretch.", "best_for": "First-time swimmers, the TV-show reference, the peak-hour experience", "notes": "Swim between the flags — it's not a suggestion.", "lat": -33.8917, "lng": 151.2771 },
-      { "zone_code": "SOUTH", "name": "South Bondi / Icebergs end", "position_along_beach_pct": 15, "character": "The surfer end. Waves break bigger here off the southern headland. Icebergs pool is directly above. Parking is easier; the steps up to the Bondi-to-Bronte coastal walk start here.", "best_for": "Surfing, ocean pool, starting the coastal walk, sunset drinks at Icebergs Bistro", "notes": null, "lat": -33.8946, "lng": 151.2752 }
-    ],
-    "landmarks": [
-      { "name": "Bondi Icebergs Club", "landmark_type": "heritage", "year_built": 1929, "architect_or_designer": "Various; rebuilt 2002 by Lahznimmo Architects", "description": "The winter-swimming club and ocean pool on the southern headland. The 50m pool with waves breaking over it is one of the most-photographed images in Australia. The Icebergs Dining Room upstairs is a premium restaurant with the view.", "wikipedia_url": "https://en.wikipedia.org/wiki/Bondi_Icebergs_Club" },
-      { "name": "Bondi Pavilion", "landmark_type": "heritage", "year_built": 1928, "architect_or_designer": "Robertson & Marks", "description": "Spanish-Mission stucco community building on the beachfront. Changing rooms, theater, gallery, historic Turkish baths (now a heritage space). Reopened 2022 after a major restoration.", "wikipedia_url": "https://en.wikipedia.org/wiki/Bondi_Pavilion" },
-      { "name": "Bondi-to-Coogee Coastal Walk", "landmark_type": "route", "year_built": null, "architect_or_designer": null, "description": "6 km of clifftop path from Bondi south through Tamarama, Bronte, Clovelly, to Coogee. Takes 1.5–2 hours at a walking pace. No tickets, no cars. One of the great urban coastal walks in the world.", "wikipedia_url": "https://en.wikipedia.org/wiki/Bondi_to_Coogee_walk" },
-      { "name": "Bondi Aboriginal Rock Engravings", "landmark_type": "heritage", "year_built": null, "architect_or_designer": "Gadigal artists (pre-contact)", "description": "Pre-contact Aboriginal engravings on sandstone at the North Bondi headland — kangaroos, fish, a whale, a male figure. Unmarked but accessible. Several hundred years old minimum.", "wikipedia_url": null },
-      { "name": "North Bondi Rock Pool", "landmark_type": "infrastructure", "year_built": 1930, "architect_or_designer": "Waverley Council", "description": "A smaller (25 m) ocean pool at the northern end. Free, open 24 hours, calmer than Icebergs. Where local children learn to swim.", "wikipedia_url": null },
-      { "name": "Bondi Pavilion Mural (Hub)", "landmark_type": "art", "year_built": 2014, "architect_or_designer": "Jason Wing (Biripi/Chinese-Australian artist)", "description": "A large mural inside the Pavilion depicting Aboriginal designs — installed as part of the 2022 Pavilion restoration. One of the most prominent Indigenous public-art works in eastern Sydney.", "wikipedia_url": null },
-      { "name": "Ben Buckler (headland)", "landmark_type": "natural", "year_built": null, "architect_or_designer": null, "description": "The northern sandstone headland. Home to the Bondi Golf Course, the rock engravings, and (famously) the boulder deposited by a giant storm wave in July 1912 — a 235-ton 'Bondi Boulder' that was photographed nationally.", "wikipedia_url": null }
-    ],
-    "cultural_refs": [
-      { "ref_type": "tv", "title": "Bondi Rescue", "creator": "Cordell Jigsaw Productions", "year": 2006, "description": "The defining piece of Bondi media. A documentary reality series following Waverley Council's professional lifeguards as they perform actual rescues in real time. 18+ seasons. Syndicated to over 100 countries. The show has turned the lifeguards — Hoppo, Deano, Whippet, Trent, and the rest — into international celebrities. An average of **4,500 rescues** per year are performed at Bondi; the show documents roughly one in fifty of them.", "wikipedia_url": "https://en.wikipedia.org/wiki/Bondi_Rescue" },
-      { "ref_type": "tv", "title": "Bondi Vet", "creator": "Network Ten", "year": 2009, "description": "Spin-off from Bondi Rescue, following Dr. Chris Brown at a Bondi veterinary practice. Internationally syndicated. Another piece of Bondi-as-brand.", "wikipedia_url": "https://en.wikipedia.org/wiki/Bondi_Vet" },
-      { "ref_type": "tv", "title": "Bondi Hipsters", "creator": "ABC Australia / Dom Nader, Nick Boshier", "year": 2012, "description": "The satirical counterweight to Bondi Rescue. A YouTube/ABC comedy that gently pilloried Bondi's post-2000s yoga-teacher-who-is-actually-a-drug-dealer demographic. Iconic in Australian millennial culture.", "wikipedia_url": "https://en.wikipedia.org/wiki/Bondi_Hipsters" },
-      { "ref_type": "film", "title": "Puberty Blues", "creator": "Bruce Beresford / Kathy Lette & Gabrielle Carey (novel)", "year": 1981, "description": "The defining film of Australian 1970s beach culture. Set at Cronulla (south of Bondi) but capturing the same Sydney-coastal teenage ecosystem. The 2012–2014 TV reboot used Bondi locations heavily.", "wikipedia_url": "https://en.wikipedia.org/wiki/Puberty_Blues_(film)" },
-      { "ref_type": "film", "title": "Finding Nemo (Sydney sequences)", "creator": "Pixar / Andrew Stanton", "year": 2003, "description": "The Sydney Harbour sequences in the second half of Finding Nemo — the dentist's waiting room, the pelicans, the ocean — were directly inspired by Pixar research trips to Bondi and Manly. The film's global success cemented Sydney's beach cities in the international imagination.", "wikipedia_url": "https://en.wikipedia.org/wiki/Finding_Nemo" },
-      { "ref_type": "music", "title": "Bondi Junction", "creator": "Silverchair", "year": 1999, "description": "The Newcastle-based rock band's song 'Miss You Love' features Bondi Junction, the commercial heart of the beach suburb, as a site of Australian suburban alienation. Silverchair is one of Australia's canonical 1990s exports.", "wikipedia_url": null },
-      { "ref_type": "music", "title": "Flame Trees", "creator": "Cold Chisel", "year": 1984, "description": "Not specifically about Bondi but anchoring Australian pub-rock Sydney in a way that makes the song required listening for anyone trying to understand the cultural aquifer Bondi draws from.", "wikipedia_url": "https://en.wikipedia.org/wiki/Flame_Trees_(song)" },
-      { "ref_type": "literature", "title": "Puberty Blues (novel)", "creator": "Kathy Lette & Gabrielle Carey", "year": 1979, "description": "The semi-autobiographical novel of Sydney teenage beach culture, written by two teenagers. 500,000+ copies sold. Now a standard Australian high-school text.", "wikipedia_url": "https://en.wikipedia.org/wiki/Puberty_Blues" },
-      { "ref_type": "literature", "title": "Cloudstreet", "creator": "Tim Winton", "year": 1991, "description": "Not set at Bondi — Perth — but the novel that did more than any other to establish the Australian beach-adjacent suburban family as literary territory. Winton is Australia's most-read serious novelist. Recurring Bondi-adjacent sensibility throughout his work.", "wikipedia_url": "https://en.wikipedia.org/wiki/Cloudstreet" },
-      { "ref_type": "historic", "title": "Mabo v Queensland (No 2)", "creator": "High Court of Australia", "year": 1992, "description": "The 1992 decision that overturned the legal fiction of *terra nullius* — 'empty land' — under which the British Crown had claimed Australia in 1770–1788. The case established native title in Australian law. Its anniversary is a public observance at Bondi Pavilion.", "wikipedia_url": "https://en.wikipedia.org/wiki/Mabo_v_Queensland_(No_2)" },
-      { "ref_type": "historic", "title": "2023 Voice to Parliament referendum", "creator": "Australian Electoral Commission", "year": 2023, "description": "A constitutional referendum to establish a permanent Aboriginal and Torres Strait Islander advisory body to the Parliament. Defeated 60-40. A contemporary marker of where Australian reconciliation is, and isn't, at this moment.", "wikipedia_url": "https://en.wikipedia.org/wiki/2023_Australian_Indigenous_Voice_referendum" },
-      { "ref_type": "brand", "title": "Speedo", "creator": "Alexander MacRae (Scottish immigrant, Sydney)", "year": 1914, "description": "The swimwear brand was founded in Sydney. 'Speedos' (plural, always) is the Australian word for the brief-style racing swimsuit that became a national costume. The ubiquity of the word at Bondi — 'budgie smugglers' is the affectionate Australian alternative — is not coincidence.", "wikipedia_url": "https://en.wikipedia.org/wiki/Speedo" }
-    ],
-    "recurring_events": [
-      { "name": "Sculpture by the Sea", "when_text": "Three weeks each October–November", "month": 10, "description": "The world's largest free outdoor sculpture exhibition — 100+ works installed along the Bondi-to-Tamarama coastal walk. Draws 500,000+ visitors over the three-week run. Founded 1997; annual since.", "typical_attendance": 500000 },
-      { "name": "Icebergs Winter Season", "when_text": "May to September", "month": 5, "description": "The Bondi Icebergs Winter Swimming Club meets every Sunday through the Australian winter. The pool is open to the public year-round; the club is invite-only.", "typical_attendance": null },
-      { "name": "City2Surf", "when_text": "Second Sunday of August", "month": 8, "description": "14 km fun run from Sydney CBD to Bondi Beach. 80,000+ participants — the largest fun run in the world by participation. Finishes on the sand.", "typical_attendance": 80000 },
-      { "name": "New Year's Eve", "when_text": "December 31", "month": 12, "description": "Bondi hosts fireworks at midnight and a major street party on Campbell Parade. Huge local and tourist attendance. The beach is typically alcohol-free by council order but the surrounding streets are not.", "typical_attendance": null },
-      { "name": "Bondi Farmers Market", "when_text": "Saturdays, 9 a.m.–1 p.m.", "month": null, "description": "Weekly farmers market at Bondi Beach Public School. NSW producers only. Sydney rock oysters, stone fruit in season, native honey. A quiet Saturday ritual.", "typical_attendance": null }
-    ],
-    "businesses": [
-      { "name": "Bondi Icebergs Dining Room", "category": "restaurant", "description": "Italian-Australian fine dining directly above the ocean pool. The view out of the dining room is one of the most-photographed in Australia. Lunch A$90–120 pp; dinner A$150–200 pp.", "address": "1 Notts Ave, Bondi Beach", "year_established": 2002, "external_url": "https://idrb.com/" },
-      { "name": "Speedos Café", "category": "restaurant", "description": "Australian beach breakfast anchor at the corner of Ramsgate and Campbell. Flat whites, smashed avo, the full Australian weekend-café menu. A$20–35 per person.", "address": "126 Ramsgate Ave, North Bondi", "year_established": 2000, "external_url": "https://www.speedoscafe.com/" },
-      { "name": "North Bondi RSL", "category": "restaurant", "description": "The local Returned and Services League club — unpretentious members-bar with a beachfront view, Sydney rock oysters at sensible prices, and a ten-person membership queue to enter as a non-member guest.", "address": "120 Ramsgate Ave, North Bondi", "year_established": 1945, "external_url": "https://northbondirsl.com.au/" },
-      { "name": "Sean's", "category": "restaurant", "description": "Small, beloved 20-seat Australian restaurant at the north end — the chef Sean Moran has been there since 1993. Deliberately seasonal, deliberately small. Book three months out.", "address": "270 Campbell Parade, North Bondi", "year_established": 1993, "external_url": null },
-      { "name": "Bondi Pavilion", "category": "museum", "description": "The heritage community center reopened after a 2022 restoration. Free to enter. Gallery spaces, the Turkish-baths heritage room, a cinema, performance spaces. A working community building, not a tourist attraction.", "address": "Queen Elizabeth Dr, Bondi Beach", "year_established": 1928, "external_url": "https://waverley.nsw.gov.au/bondi-pavilion" },
-      { "name": "Gertrude & Alice", "category": "restaurant", "description": "Bookshop-café on Hall Street — the Bondi intellectual hangout for 25 years. Secondhand books, vegan food, mostly quiet. Unusual for Bondi.", "address": "46 Hall St, Bondi Beach", "year_established": 1999, "external_url": "https://gertrudeandalice.com.au/" }
-    ]
+  "notability_score": 2.5,
+  "data_completeness_pct": 12.5,
+  "sand": {
+    "predicted": {
+      "q_pct": 93.4,
+      "f_pct": 2.3,
+      "l_pct": 4.4,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
   }
 }

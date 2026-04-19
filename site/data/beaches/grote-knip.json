@@ -3,8 +3,8 @@
   "name": "Grote Knip",
   "centroid_lat": 12.3518927,
   "centroid_lng": -69.1514055,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "CW",
+  "admin_level_1": "",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -19,6 +19,11 @@
       "source_name": "wikidata",
       "source_id": "Q2489901",
       "source_url": "https://www.wikidata.org/wiki/Q2489901"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
@@ -28,6 +33,32 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Grote%20Knip%20in%20Curacao.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Grote_Knip"
+    },
+    "safety": {
+      "cyclone_count_50yr": "11",
+      "cyclone_max_category": "5"
+    }
+  },
+  "nearest_city": "Dorp Soto",
+  "nearest_city_distance_km": 11.0,
+  "nearest_airport": {
+    "iata": "CUR",
+    "name": "Hato International Airport",
+    "distance_km": 27.6
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Grote_Knip",
+  "notability_score": 26.1,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 93.6,
+      "f_pct": 3.1,
+      "l_pct": 3.3,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

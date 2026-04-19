@@ -3,8 +3,8 @@
   "name": "Cala Agulla",
   "centroid_lat": 39.7226709,
   "centroid_lng": 3.4529455,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "ES",
+  "admin_level_1": "Balearic Islands",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -42,6 +42,30 @@
     "environment": {
       "water_quality_rating": "1 - excellent",
       "eu_bathing_water_type": "Coastal"
+    }
+  },
+  "nearest_city": "Capdepera",
+  "nearest_city_distance_km": 2.7,
+  "nearest_airport": {
+    "iata": "PMI",
+    "name": "Palma de Mallorca Airport",
+    "distance_km": 64.0
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "lifeguard": false,
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cala_Agulla",
+  "notability_score": 29.8,
+  "data_completeness_pct": 25.0,
+  "sand": {
+    "predicted": {
+      "q_pct": 70.6,
+      "f_pct": 3.8,
+      "l_pct": 25.6,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

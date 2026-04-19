@@ -3,8 +3,8 @@
   "name": "Praia Formosa",
   "centroid_lat": 32.642071,
   "centroid_lng": -16.9555388,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "PT",
+  "admin_level_1": "Madeira",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -29,6 +29,11 @@
       "source_name": "eu_bathing",
       "source_id": "PTMH3U",
       "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
@@ -39,6 +44,37 @@
     "environment": {
       "water_quality_rating": "1 - excellent",
       "eu_bathing_water_type": "Coastal"
+    },
+    "safety": {
+      "cyclone_count_50yr": "1",
+      "cyclone_max_category": "2"
+    }
+  },
+  "nearest_city": "Camara de Lobos",
+  "nearest_city_distance_km": 1.4,
+  "nearest_airport": {
+    "iata": "FNC",
+    "name": "Cristiano Ronaldo International Airport",
+    "distance_km": 18.0
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "restrooms": true,
+    "showers": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_Formosa",
+  "notability_score": 29.4,
+  "data_completeness_pct": 29.2,
+  "sand": {
+    "predicted": {
+      "q_pct": 9.0,
+      "f_pct": 46.1,
+      "l_pct": 44.9,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

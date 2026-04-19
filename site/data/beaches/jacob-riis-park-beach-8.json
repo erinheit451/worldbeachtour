@@ -84,6 +84,11 @@
       "source_name": "wikidata",
       "source_id": "Q6119176",
       "source_url": "https://www.wikidata.org/wiki/Q6119176"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
@@ -91,6 +96,10 @@
       "nudist": "customary",
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jacob%20Riis%20Park.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Jacob_Riis_Park"
+    },
+    "safety": {
+      "cyclone_count_50yr": "13",
+      "cyclone_max_category": "5"
     }
   },
   "nearest_city": "East New York",
@@ -105,5 +114,15 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jacob_Riis_Park",
   "notability_score": 39.3,
-  "data_completeness_pct": 25.0
+  "data_completeness_pct": 25.0,
+  "sand": {
+    "predicted": {
+      "q_pct": 32.6,
+      "f_pct": 6.9,
+      "l_pct": 60.6,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "description": "It features an extensive sand beach along the Atlantic Ocean coastline and several historic Art Deco structures."
+  }
 }

@@ -3,8 +3,8 @@
   "name": "Flamenco Beach",
   "centroid_lat": 18.32801,
   "centroid_lng": -65.31627,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "PR",
+  "admin_level_1": "Culebra",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -14,12 +14,45 @@
       "source_name": "wikidata",
       "source_id": "Q5457193",
       "source_url": "https://www.wikidata.org/wiki/Q5457193"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Culebra%20-%20Playa%20de%20Flamenco.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Flamenco_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "22",
+      "cyclone_max_category": "5"
     }
+  },
+  "nearest_city": "Culebra",
+  "nearest_city_distance_km": 3.2,
+  "nearest_airport": {
+    "iata": "CPX",
+    "name": "Benjamin Rivera Noriega Airport",
+    "distance_km": 2.1
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Flamenco_Beach",
+  "notability_score": 27.4,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 22.9,
+      "f_pct": 57.2,
+      "l_pct": 19.9,
+      "regime": "feldspar-rich (plutonic/crystalline terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "white",
+    "description": "6 km) around the reef-sheltered, horseshoe-shaped Flamenco Bay, the beach is known for its shallow, calm turquoise waters and white sand, as well as its species-rich swimming areas and diving sites."
   }
 }

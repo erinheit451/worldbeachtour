@@ -3,8 +3,8 @@
   "name": "Crescent Beach",
   "centroid_lat": 49.052383,
   "centroid_lng": -122.883947,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "CA",
+  "admin_level_1": "British Columbia",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -20,6 +20,28 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cresbeach-groyne.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Crescent_Beach,_Surrey"
+    }
+  },
+  "nearest_city": "Surrey",
+  "nearest_city_distance_km": 7.4,
+  "nearest_airport": {
+    "iata": "YDT",
+    "name": "Boundary Bay Airport",
+    "distance_km": 9.3
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Crescent_Beach,_Surrey",
+  "notability_score": 24.0,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 28.6,
+      "f_pct": 8.3,
+      "l_pct": 63.1,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

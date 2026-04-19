@@ -3,8 +3,8 @@
   "name": "Cable Beach",
   "centroid_lat": -17.9503297,
   "centroid_lng": 122.1976994,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "AU",
+  "admin_level_1": "Western Australia",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -19,12 +19,44 @@
       "source_name": "wikidata",
       "source_id": "Q14205848",
       "source_url": "https://www.wikidata.org/wiki/Q14205848"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cable%20beach%20Sunset%20with%20saling%20ship%205-5-2004%20-%20panoramio.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Cable_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "36",
+      "cyclone_max_category": "4"
     }
+  },
+  "nearest_city": "Broome",
+  "nearest_city_distance_km": 4.4,
+  "nearest_airport": {
+    "iata": "BME",
+    "name": "Broome International Airport",
+    "distance_km": 3.2
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cable_Beach",
+  "notability_score": 26.4,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 89.5,
+      "f_pct": 4.6,
+      "l_pct": 5.9,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "white"
   }
 }

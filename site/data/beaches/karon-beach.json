@@ -14,12 +14,21 @@
       "source_name": "wikidata",
       "source_id": "Q13424404",
       "source_url": "https://www.wikidata.org/wiki/Q13424404"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Karonbeach%202004.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Karon_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "7",
+      "cyclone_max_category": "3"
     }
   },
   "nearest_city": "Ban Karon",
@@ -34,5 +43,14 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Karon_Beach",
   "notability_score": 28.0,
-  "data_completeness_pct": 16.7
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 80.3,
+      "f_pct": 5.3,
+      "l_pct": 14.4,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  }
 }

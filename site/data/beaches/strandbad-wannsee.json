@@ -3,8 +3,8 @@
   "name": "Strandbad Wannsee",
   "centroid_lat": 52.4372587,
   "centroid_lng": 13.1775391,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "DE",
+  "admin_level_1": "Berlin",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -45,6 +45,30 @@
     "environment": {
       "water_quality_rating": "1 - excellent",
       "eu_bathing_water_type": "Lake"
+    }
+  },
+  "nearest_city": "Nikolassee",
+  "nearest_city_distance_km": 1.6,
+  "nearest_airport": {
+    "iata": "BER",
+    "name": "Berlin Brandenburg Airport",
+    "distance_km": 23.6
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "lifeguard": true,
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Strandbad_Wannsee",
+  "notability_score": 27.8,
+  "data_completeness_pct": 20.8,
+  "sand": {
+    "predicted": {
+      "q_pct": 45.4,
+      "f_pct": 18.5,
+      "l_pct": 36.1,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

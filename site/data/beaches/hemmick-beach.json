@@ -3,8 +3,8 @@
   "name": "Hemmick Beach",
   "centroid_lat": 50.2301471,
   "centroid_lng": -4.8141051,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "GB",
+  "admin_level_1": "England",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -44,6 +44,11 @@
       "source_name": "wikidata",
       "source_id": "Q28402997",
       "source_url": "https://www.wikidata.org/wiki/Q28402997"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
@@ -54,6 +59,35 @@
       "dog_friendly": true,
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Hemmick%20Beach%20-%20geograph.org.uk%20-%20412395.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Hemmick_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "0",
+      "cyclone_max_category": "3"
+    }
+  },
+  "nearest_city": "Mevagissey",
+  "nearest_city_distance_km": 5.1,
+  "nearest_airport": {
+    "iata": "NQY",
+    "name": "Cornwall Airport Newquay",
+    "distance_km": 26.7
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "dogs_allowed": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Hemmick_Beach",
+  "notability_score": 25.1,
+  "data_completeness_pct": 20.8,
+  "sand": {
+    "predicted": {
+      "q_pct": 31.7,
+      "f_pct": 45.3,
+      "l_pct": 23.0,
+      "regime": "feldspar-rich (plutonic/crystalline terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

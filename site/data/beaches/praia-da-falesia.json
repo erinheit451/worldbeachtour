@@ -3,8 +3,8 @@
   "name": "Praia da Falésia",
   "centroid_lat": 37.0751927,
   "centroid_lng": -8.1323254,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "PT",
+  "admin_level_1": "Faro",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -64,6 +64,11 @@
       "source_name": "eu_bathing",
       "source_id": "PTCP8X",
       "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
@@ -74,6 +79,35 @@
     "environment": {
       "water_quality_rating": "1 - excellent",
       "eu_bathing_water_type": "Coastal"
+    },
+    "safety": {
+      "cyclone_count_50yr": "2",
+      "cyclone_max_category": "4"
     }
+  },
+  "nearest_city": "Vilamoura",
+  "nearest_city_distance_km": 2.0,
+  "nearest_airport": {
+    "iata": "FAO",
+    "name": "Faro - Gago Coutinho International Airport",
+    "distance_km": 15.8
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_da_Rocha_Baixinha",
+  "notability_score": 32.1,
+  "data_completeness_pct": 29.2,
+  "sand": {
+    "predicted": {
+      "q_pct": 53.4,
+      "f_pct": 3.1,
+      "l_pct": 43.5,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "golden",
+    "description": "The beach is wide with fine golden sand and stretches away westwards towards Praia da Falésia."
   }
 }

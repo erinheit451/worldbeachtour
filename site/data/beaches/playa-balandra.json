@@ -3,8 +3,8 @@
   "name": "Playa Balandra",
   "centroid_lat": 24.3208138,
   "centroid_lng": -110.324241,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "MX",
+  "admin_level_1": "Baja California Sur",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -24,12 +24,43 @@
       "source_name": "wikidata",
       "source_id": "Q7203137",
       "source_url": "https://www.wikidata.org/wiki/Q7203137"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20Balandra%20in%20La%20Paz%2C%20Mexico.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_Balandra"
+    },
+    "safety": {
+      "cyclone_count_50yr": "30",
+      "cyclone_max_category": "4"
+    }
+  },
+  "nearest_city": "La Paz",
+  "nearest_city_distance_km": 20.4,
+  "nearest_airport": {
+    "iata": "LAP",
+    "name": "Manuel Márquez de León International Airport",
+    "distance_km": 27.9
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_Balandra",
+  "notability_score": 27.5,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 84.1,
+      "f_pct": 11.2,
+      "l_pct": 4.7,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

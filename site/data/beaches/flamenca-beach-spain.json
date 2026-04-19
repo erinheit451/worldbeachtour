@@ -3,8 +3,8 @@
   "name": "Flamenca Beach, Spain",
   "centroid_lat": 37.92807,
   "centroid_lng": -0.72096,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "ES",
+  "admin_level_1": "Valencia",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -25,6 +25,28 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20flamenca%2C%20orihuela.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_Flamenca"
+    }
+  },
+  "nearest_city": "Torrevieja",
+  "nearest_city_distance_km": 6.6,
+  "nearest_airport": {
+    "iata": "ALC",
+    "name": "Alicante-Elche Miguel Hernández Airport",
+    "distance_km": 41.9
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_Flamenca",
+  "notability_score": 24.8,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 70.3,
+      "f_pct": 7.6,
+      "l_pct": 22.1,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

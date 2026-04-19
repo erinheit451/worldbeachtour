@@ -3,8 +3,8 @@
   "name": "Revere Beach",
   "centroid_lat": 42.407837,
   "centroid_lng": -70.990836,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "Massachusetts",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -14,12 +14,43 @@
       "source_name": "wikidata",
       "source_id": "Q2146799",
       "source_url": "https://www.wikidata.org/wiki/Q2146799"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sunset-after-rain-revere-beach-causevic.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Revere_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "12",
+      "cyclone_max_category": "5"
+    }
+  },
+  "nearest_city": "Revere",
+  "nearest_city_distance_km": 1.7,
+  "nearest_airport": {
+    "iata": "BOS",
+    "name": "Boston Logan International Airport",
+    "distance_km": 5.3
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Revere_Beach",
+  "notability_score": 27.2,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 40.1,
+      "f_pct": 40.3,
+      "l_pct": 19.6,
+      "regime": "feldspar-rich (plutonic/crystalline terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

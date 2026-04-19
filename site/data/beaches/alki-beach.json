@@ -3,8 +3,8 @@
   "name": "Alki Beach",
   "centroid_lat": 47.5817456,
   "centroid_lng": -122.4058115,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "Washington",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -33,6 +33,32 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/West%20Seattle%20Statue%20of%20Liberty%2002.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Alki_Beach_Park"
+    }
+  },
+  "nearest_city": "Seattle",
+  "nearest_city_distance_km": 6.2,
+  "nearest_airport": {
+    "iata": "BFI",
+    "name": "King County International Airport - Boeing Field",
+    "distance_km": 10.0
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "restrooms": true,
+    "showers": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Alki_Beach_Park",
+  "notability_score": 32.2,
+  "data_completeness_pct": 25.0,
+  "sand": {
+    "predicted": {
+      "q_pct": 24.6,
+      "f_pct": 8.6,
+      "l_pct": 66.8,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

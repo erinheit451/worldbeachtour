@@ -12,10 +12,13 @@ CAVEAT: GloPrSM is trained on modern fluvial (river) sand, not beach sand.
 Treat the output as predicted regional composition, not measured beach sand.
 """
 
+import math
 import sys
 from pathlib import Path
 
+import numpy as np
 import rasterio
+from rasterio.windows import Window
 from tqdm import tqdm
 
 from src.enrich._common import (
@@ -62,25 +65,74 @@ def _sample(dataset, lng: float, lat: float) -> float | None:
     return None
 
 
+def _sample_with_fallback(dataset, lng: float, lat: float,
+                          search_radius_deg: float = 0.5) -> float | None:
+    """Sample at lng/lat; if NaN, search nearest non-NaN pixel within a box.
+
+    0.5 degrees ≈ 55 km at the equator, matching the spec's 50 km fallback.
+    Reads a single window instead of per-pixel sampling for speed.
+    """
+    direct = _sample(dataset, lng, lat)
+    if direct is not None:
+        return direct
+
+    # Convert centre lng/lat + radius to a pixel window.
+    try:
+        row, col = dataset.index(lng, lat)
+    except (IndexError, ValueError):
+        return None
+    res_x, res_y = dataset.res  # degrees per pixel
+    half_rows = max(1, int(round(search_radius_deg / res_y)))
+    half_cols = max(1, int(round(search_radius_deg / res_x)))
+
+    r0 = max(0, row - half_rows)
+    r1 = min(dataset.height, row + half_rows + 1)
+    c0 = max(0, col - half_cols)
+    c1 = min(dataset.width, col + half_cols + 1)
+    if r1 <= r0 or c1 <= c0:
+        return None
+
+    window = Window(col_off=c0, row_off=r0, width=c1 - c0, height=r1 - r0)
+    arr = dataset.read(1, window=window, masked=False)
+    if dataset.nodata is not None:
+        arr = np.where(arr == dataset.nodata, np.nan, arr)
+
+    mask = ~np.isnan(arr)
+    if not mask.any():
+        return None
+
+    # Distance (in pixel units) from centre to each valid cell; pick the nearest.
+    local_row = row - r0
+    local_col = col - c0
+    ys, xs = np.where(mask)
+    d2 = (ys - local_row) ** 2 + (xs - local_col) ** 2
+    nearest = int(np.argmin(d2))
+    return float(arr[ys[nearest], xs[nearest]])
+
+
 def _open_rasters(raster_dir: Path):
-    """Open Q, F, L GeoTIFFs. Auto-detect filenames case-insensitively."""
-    wanted = {"Q": None, "F": None, "L": None}
+    """Open Q, F, L GeoTIFFs. Prefers *_med (median) over *_i95 (interval)."""
     if not raster_dir.exists():
         raise FileNotFoundError(f"raster dir not found: {raster_dir}")
-    for f in raster_dir.iterdir():
-        if f.suffix.lower() != ".tif":
-            continue
+    tifs = [p for p in raster_dir.iterdir() if p.suffix.lower() == ".tif"]
+    wanted: dict[str, Path | None] = {"Q": None, "F": None, "L": None}
+    # First pass: prefer _med
+    for f in tifs:
         stem = f.stem.upper()
         for key in wanted:
-            # Match files like Q.tif, q_mean.tif, IJ_Q.tif, Q_pct.tif
-            if stem == key or stem.startswith(key + "_") or stem.endswith("_" + key) or f"_{key}_" in stem:
-                if wanted[key] is None:
-                    wanted[key] = f
+            if stem == f"{key}_MED" and wanted[key] is None:
+                wanted[key] = f
+    # Second pass: anything starting with the letter
+    for f in tifs:
+        stem = f.stem.upper()
+        for key in wanted:
+            if wanted[key] is None and (stem == key or stem.startswith(key + "_")):
+                wanted[key] = f
     missing = [k for k, v in wanted.items() if v is None]
     if missing:
         raise FileNotFoundError(
             f"missing Q/F/L rasters in {raster_dir}. "
-            f"Found: {[p.name for p in raster_dir.iterdir() if p.suffix.lower() == '.tif']}"
+            f"Found: {[p.name for p in tifs]}"
         )
     return {k: rasterio.open(p) for k, p in wanted.items()}
 
@@ -103,9 +155,9 @@ def enrich_predicted(conn, *, raster_dir: Path = DEFAULT_RASTER_DIR,
         for row in tqdm(rows, desc="GloPrSM sample"):
             lat = row["centroid_lat"]
             lng = row["centroid_lng"]
-            qv = _sample(rasters["Q"], lng, lat)
-            fv = _sample(rasters["F"], lng, lat)
-            lv = _sample(rasters["L"], lng, lat)
+            qv = _sample_with_fallback(rasters["Q"], lng, lat)
+            fv = _sample_with_fallback(rasters["F"], lng, lat)
+            lv = _sample_with_fallback(rasters["L"], lng, lat)
             # Normalise: if rasters return 0-1, scale to 0-100.
             def _pct(v):
                 if v is None:

@@ -3,8 +3,8 @@
   "name": "Jaz Beach",
   "centroid_lat": 42.28333333,
   "centroid_lng": 18.80472222,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "ME",
+  "admin_level_1": "Budva",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -20,6 +20,28 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jaz%20beach%2011.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Jaz_Beach"
+    }
+  },
+  "nearest_city": "Budva",
+  "nearest_city_distance_km": 2.9,
+  "nearest_airport": {
+    "iata": "TIV",
+    "name": "Tivat Airport",
+    "distance_km": 15.1
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jaz_Beach",
+  "notability_score": 23.7,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 21.7,
+      "f_pct": 3.6,
+      "l_pct": 74.7,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

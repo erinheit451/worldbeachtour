@@ -3,8 +3,8 @@
   "name": "Ninety Mile Beach",
   "centroid_lat": -38.21667,
   "centroid_lng": 147.38333,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "AU",
+  "admin_level_1": "Victoria",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -14,12 +14,44 @@
       "source_name": "wikidata",
       "source_id": "Q1453927",
       "source_url": "https://www.wikidata.org/wiki/Q1453927"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/90mile%20beach%20147.41000E%2038.24102S.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Ninety_Mile_Beach,_Victoria"
+    },
+    "safety": {
+      "cyclone_count_50yr": "0"
     }
+  },
+  "nearest_city": "Sale",
+  "nearest_city_distance_km": 30.0,
+  "nearest_airport": {
+    "iata": "BSJ",
+    "name": "Bairnsdale Airport",
+    "distance_km": 40.1
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ninety_Mile_Beach,_Victoria",
+  "notability_score": 24.3,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 44.3,
+      "f_pct": 25.5,
+      "l_pct": 30.2,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "golden",
+    "description": "The beach is an uninterrupted stretch of untamed coastline; it does not have any rocky headlands or platforms, and offshore there are only a few ribbons of reef which are periodically covered by sand."
   }
 }

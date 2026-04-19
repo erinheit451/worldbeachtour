@@ -14,12 +14,21 @@
       "source_name": "wikidata",
       "source_id": "Q2123432",
       "source_url": "https://www.wikidata.org/wiki/Q2123432"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Whitehaven%20Beach%2C%20Whitsunday%20Island%2C%20Queensland.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Whitehaven_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "18",
+      "cyclone_max_category": "4"
     }
   },
   "nearest_city": "Proserpine",
@@ -34,5 +43,25 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Whitehaven_Beach",
   "notability_score": 30.6,
-  "data_completeness_pct": 25.0
+  "data_completeness_pct": 25.0,
+  "sand": {
+    "predicted": {
+      "q_pct": 41.2,
+      "f_pct": 6.9,
+      "l_pct": 51.9,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "white",
+    "description": "The beach is seven kilometres in length and is famous for its white silica sands and turquoise water.",
+    "curated": {
+      "story": "Whitehaven's sand is 98-99% pure silica — unusually fine quartz that reflects sunlight rather than absorbing it, keeping the sand cool in tropical heat. Geologists believe the deposit was transported by ancient currents from a source still not conclusively identified.",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Whitehaven_Beach"
+      ],
+      "showcase_rank": 5,
+      "reference_photo_url": null,
+      "reference_photo_attribution": null
+    }
+  }
 }
