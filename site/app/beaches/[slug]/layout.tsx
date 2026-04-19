@@ -5,8 +5,15 @@ import LensTabs from "@/components/lens-tabs";
 import BeachJsonLd from "@/components/beach-jsonld";
 import { getBeachData, getBeachMeta, getAllBeachSlugs } from "@/lib/beaches";
 
+// Slugs with an explicit handwritten showcase page at app/beaches/<slug>/page.tsx
+// are handled by that literal route; exclude them here so the static export
+// doesn't overwrite the showcase HTML.
+const SHOWCASE_SLUGS = new Set(["copacabana-7", "waikiki-beach-1"]);
+
 export function generateStaticParams() {
-  return getAllBeachSlugs().map((slug) => ({ slug }));
+  return getAllBeachSlugs()
+    .filter((slug) => !SHOWCASE_SLUGS.has(slug))
+    .map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({

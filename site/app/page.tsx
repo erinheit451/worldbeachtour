@@ -1,127 +1,237 @@
+import type { Metadata } from "next";
 import Link from "next/link";
-import BeachCard from "@/components/beach-card";
-import LensIcon from "@/components/lens-icon";
-import { getAllBeaches } from "@/lib/beaches";
+import fs from "fs";
+import path from "path";
+
+export const metadata: Metadata = {
+  title: "World Beach Tour — A single page, deeply, for every beach worth knowing",
+  description:
+    "The definitive internet home for every beach worth a week of your life. Two signature showcase pages — Copacabana and Waikīkī — plus a growing database of the world's coasts.",
+  openGraph: {
+    title: "World Beach Tour",
+    description:
+      "A single page, deeply, for every beach worth knowing. Signature showcases for Copacabana and Waikīkī; data-rich pages for the rest.",
+    type: "website",
+  },
+};
+
+function loadBeach(slug: string) {
+  try {
+    const data = JSON.parse(
+      fs.readFileSync(path.join(process.cwd(), "data", "beaches", `${slug}.json`), "utf-8")
+    );
+    const meta = JSON.parse(
+      fs.readFileSync(path.join(process.cwd(), "content", "beaches", slug, "meta.json"), "utf-8")
+    );
+    return { data, meta };
+  } catch {
+    return null;
+  }
+}
+
+function SignatureCard({
+  slug,
+  eyebrow,
+  headline,
+  blurb,
+  heroUrl,
+  heroAlt,
+  accent,
+}: {
+  slug: string;
+  eyebrow: string;
+  headline: string;
+  blurb: string;
+  heroUrl: string;
+  heroAlt: string;
+  accent: "ocean" | "coral";
+}) {
+  const accentClasses =
+    accent === "ocean"
+      ? "from-ocean-900/90 via-ocean-900/40 to-transparent"
+      : "from-rose-900/90 via-rose-900/40 to-transparent";
+  return (
+    <Link
+      href={`/beaches/${slug}`}
+      className="group relative block overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all"
+    >
+      <div className="relative h-[520px] sm:h-[620px]">
+        <img
+          src={heroUrl}
+          alt={heroAlt}
+          className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+        />
+        <div className={`absolute inset-0 bg-gradient-to-t ${accentClasses}`} />
+        <div className="absolute inset-x-0 bottom-0 p-7 sm:p-10 text-white">
+          <div className="text-[10px] font-mono uppercase tracking-[0.3em] text-white/70 mb-3">
+            {eyebrow}
+          </div>
+          <h3 className="font-display text-4xl sm:text-5xl leading-[1.05] -tracking-[0.01em] max-w-md">
+            {headline}
+          </h3>
+          <p className="mt-4 max-w-md text-[15px] text-white/85 leading-relaxed">{blurb}</p>
+          <div className="mt-6 inline-flex items-center text-sm font-medium text-white group-hover:text-white/80">
+            Read the page →
+          </div>
+        </div>
+      </div>
+    </Link>
+  );
+}
 
 export default function HomePage() {
-  const beaches = getAllBeaches();
+  const copa = loadBeach("copacabana-7");
+  const waikiki = loadBeach("waikiki-beach-1");
 
   return (
-    <div>
+    <div className="bg-white">
       {/* Hero */}
-      <section className="relative overflow-hidden bg-ocean-950 text-white">
-        <div className="absolute inset-0 bg-gradient-to-br from-ocean-950 via-ocean-900 to-reef-900" />
-        <div className="absolute inset-0 opacity-10 bg-[radial-gradient(ellipse_at_top_right,theme(colors.ocean.400),transparent_60%)]" />
-        <div className="absolute inset-0 opacity-10 bg-[radial-gradient(ellipse_at_bottom_left,theme(colors.reef.400),transparent_60%)]" />
-        <div className="relative mx-auto max-w-7xl px-4 py-24 sm:py-32 text-center">
-          <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl text-white">
+      <section className="relative overflow-hidden">
+        <div className="absolute inset-0">
+          <img
+            src="/waikiki/panorama-night.jpg"
+            alt="Waikīkī at night"
+            className="h-full w-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-volcanic-950/70 via-volcanic-950/50 to-white" />
+        </div>
+        <div className="relative mx-auto max-w-5xl px-6 pt-24 pb-32 sm:pt-32 sm:pb-40">
+          <div className="text-[10px] font-mono uppercase tracking-[0.35em] text-white/80 mb-6">
             World Beach Tour
-          </h1>
-          <p className="mt-6 text-lg sm:text-xl text-ocean-200 max-w-2xl mx-auto leading-relaxed">
-            The definitive guide to every beach on Earth. Explore through the
-            lens that matters to you — travel, surf, environment, history,
-            geology, and more.
-          </p>
-
-          {/* Stats */}
-          <div className="mt-10 flex flex-wrap justify-center gap-8 sm:gap-12 text-center">
-            <div>
-              <p className="font-display text-3xl sm:text-4xl text-white">228K+</p>
-              <p className="text-sm text-ocean-300 mt-1">Beaches Mapped</p>
-            </div>
-            <div>
-              <p className="font-display text-3xl sm:text-4xl text-white">{beaches.length}</p>
-              <p className="text-sm text-ocean-300 mt-1">In-Depth Guides</p>
-            </div>
-            <div>
-              <p className="font-display text-3xl sm:text-4xl text-white">8</p>
-              <p className="text-sm text-ocean-300 mt-1">Lenses</p>
-            </div>
           </div>
-
-          <Link
-            href="/beaches"
-            className="mt-10 inline-flex items-center gap-2 bg-white text-ocean-950 font-semibold px-8 py-3.5 rounded-full hover:bg-ocean-50 transition-colors shadow-lg shadow-ocean-950/30"
-          >
-            Explore Beaches
-            <span aria-hidden="true">→</span>
-          </Link>
+          <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl text-white leading-[0.95] -tracking-[0.02em] max-w-3xl">
+            A single page, deeply, for every beach worth knowing.
+          </h1>
+          <p className="mt-8 max-w-2xl text-lg sm:text-xl text-white/85 leading-relaxed">
+            Most beach pages are written once and forgotten. We are writing the internet's best
+            page on each beach that deserves one — structured data, verified history, honest
+            context, archival photography, and the local knowledge that distinguishes the beach
+            from the postcard.
+          </p>
+          <div className="mt-10 flex flex-wrap gap-6 text-sm text-white/80">
+            <span>
+              <span className="font-mono text-white">228,000+</span>{" "}
+              <span className="text-white/60">beaches tracked</span>
+            </span>
+            <span>
+              <span className="font-mono text-white">2</span>{" "}
+              <span className="text-white/60">signature pages (so far)</span>
+            </span>
+            <span>
+              <span className="font-mono text-white">301</span>{" "}
+              <span className="text-white/60">data-rich beach guides</span>
+            </span>
+          </div>
         </div>
       </section>
 
-      {/* Featured beaches */}
-      {beaches.length > 0 && (
-        <section className="mx-auto max-w-7xl px-4 py-16">
-          <div className="flex items-end justify-between mb-8">
-            <div>
-              <h2 className="font-display text-3xl text-volcanic-900">
-                Featured Beaches
-              </h2>
-              <p className="text-volcanic-400 mt-2">
-                Hand-picked destinations with in-depth guides
-              </p>
-            </div>
-            <Link
-              href="/beaches"
-              className="text-sm font-medium text-ocean-600 hover:text-ocean-700 transition-colors hidden sm:block"
-            >
-              View all →
-            </Link>
+      {/* Signatures */}
+      <section className="mx-auto max-w-7xl px-6 py-20 sm:py-28">
+        <header className="mb-12 max-w-3xl">
+          <div className="text-xs font-mono uppercase tracking-[0.3em] text-ocean-700 mb-4">
+            · Signature Beaches
           </div>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {beaches
-              .sort((a, b) => (b.notability_score ?? 0) - (a.notability_score ?? 0))
-              .slice(0, 6)
-              .map((beach) => (
-              <BeachCard
-                key={beach.slug}
-                slug={beach.slug}
-                name={beach.name}
-                location={[beach.admin_level_1, beach.country_code]
-                  .filter(Boolean)
-                  .join(", ")}
-                waterBodyType={beach.water_body_type}
-                substrateType={beach.substrate_type}
-              />
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/* Lenses section */}
-      <section className="bg-volcanic-50 py-16">
-        <div className="mx-auto max-w-7xl px-4">
-          <h2 className="font-display text-3xl text-volcanic-900 text-center mb-4">
-            One Beach, Many Lenses
+          <h2 className="font-display text-4xl sm:text-5xl leading-[1.05] text-volcanic-900">
+            Two beaches, told at full depth
           </h2>
-          <p className="text-volcanic-400 text-center max-w-2xl mx-auto mb-12">
-            Every beach has layers of information. We organize it by what matters
-            to you — whether you're planning a trip, chasing a wave, or studying
-            coastal geology.
+          <p className="mt-5 text-lg italic text-volcanic-500">
+            These are the kind of pages every iconic beach deserves. We are building the next
+            wave of Tier 1 pages in public.
           </p>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        </header>
+        <div className="grid gap-8 lg:grid-cols-2">
+          {copa && (
+            <SignatureCard
+              slug="copacabana-7"
+              eyebrow="Rio de Janeiro · Brazil"
+              headline="Copacabana — the beach the world imagines"
+              blurb="Four kilometers of arc, six postos, the Burle Marx wave underfoot, and a century of Brazilian glamour. Plus the favela above that completes the view."
+              heroUrl={copa.meta.images.hero.url}
+              heroAlt={copa.meta.images.hero.title}
+              accent="coral"
+            />
+          )}
+          {waikiki && (
+            <SignatureCard
+              slug="waikiki-beach-1"
+              eyebrow="Honolulu, Hawaiʻi · United States"
+              headline="Waikīkī — the beach that taught the world how to beach"
+              blurb="Seven named surf breaks, Duke Kahanamoku's statue with fresh leis every morning, the 1893 overthrow of a sovereign kingdom two miles inland, and the Hawaiian place-names under the tourist grid."
+              heroUrl={waikiki.meta.images.hero.url}
+              heroAlt={waikiki.meta.images.hero.title}
+              accent="ocean"
+            />
+          )}
+        </div>
+      </section>
+
+      {/* What we build */}
+      <section className="bg-sand-50 border-y border-sand-200">
+        <div className="mx-auto max-w-5xl px-6 py-20 sm:py-28">
+          <header className="mb-12 max-w-3xl">
+            <div className="text-xs font-mono uppercase tracking-[0.3em] text-ocean-700 mb-4">
+              · What's in a page
+            </div>
+            <h2 className="font-display text-3xl sm:text-4xl leading-tight text-volcanic-900">
+              The anatomy of a signature beach page
+            </h2>
+          </header>
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {[
-              { icon: "plane", label: "Travel", desc: "Getting there, where to stay, when to go" },
-              { icon: "waves", label: "Surf", desc: "Wave conditions, breaks, skill levels" },
-              { icon: "leaf", label: "Environment", desc: "Water quality, ecosystems, conservation" },
-              { icon: "camera", label: "Photography", desc: "Compositions, golden hour, gear tips" },
-              { icon: "users", label: "Family", desc: "Safety, facilities, kid-friendly activities" },
-              { icon: "anchor", label: "Diving", desc: "Marine life, visibility, dive sites" },
-              { icon: "scroll", label: "History", desc: "Indigenous roots, mythology, modern story" },
-              { icon: "mountain", label: "Sand & Geology", desc: "Composition, formation, coastal science" },
-            ].map((lens) => (
-              <div
-                key={lens.label}
-                className="rounded-xl bg-white border border-volcanic-100 p-5 cursor-pointer transition-all duration-200 hover:shadow-md hover:border-ocean-200"
-              >
-                <LensIcon name={lens.icon} className="w-6 h-6 text-ocean-600" />
-                <h3 className="font-display text-lg text-volcanic-800 mt-3">
-                  {lens.label}
-                </h3>
-                <p className="text-sm text-volcanic-400 mt-1">{lens.desc}</p>
+              ["Structured truth", "Monthly climate, tides, bathymetry, reef and hazard data — all sourced, dated, and kept fresh."],
+              ["Local knowledge", "The named breaks, the zones locals use as coordinates, the beach-boy rates since 1950."],
+              ["Real history", "12-18 timeline events per page, each with a Wikipedia citation. No invented anecdotes."],
+              ["Honest context", "The inheritance the beach carries. The tension a travel guide usually elides."],
+              ["Archival photography", "Wikimedia Commons, each image attributed and licensed visible on the page."],
+              ["A single page, deeply", "No SEO sprawl. No dated price points. The longest page on this beach, written once and maintained."],
+            ].map(([h, p]) => (
+              <div key={h as string}>
+                <h3 className="font-display text-lg text-volcanic-900 mb-2">{h}</h3>
+                <p className="text-sm text-volcanic-700 leading-relaxed">{p}</p>
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Next waves */}
+      <section className="mx-auto max-w-5xl px-6 py-20 sm:py-28">
+        <header className="mb-12 max-w-3xl">
+          <div className="text-xs font-mono uppercase tracking-[0.3em] text-ocean-700 mb-4">
+            · What's coming
+          </div>
+          <h2 className="font-display text-3xl sm:text-4xl leading-tight text-volcanic-900">
+            The next waves of signature beaches
+          </h2>
+        </header>
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4 text-sm">
+          {[
+            ["In progress", "Bondi Beach — Sydney, Australia"],
+            ["Wave 1", "Ipanema · Omaha · Maya Bay · Nazaré"],
+            ["Wave 2", "Navagio · Whitehaven · Reynisfjara · Pipeline"],
+            ["Wave 3", "Varkala · Coney Island · Glass Beach · Boulders"],
+          ].map(([eyebrow, list]) => (
+            <div key={eyebrow as string} className="rounded-xl border border-volcanic-100 p-5">
+              <div className="text-[10px] font-mono uppercase tracking-[0.25em] text-ocean-700 mb-2">
+                {eyebrow}
+              </div>
+              <p className="text-volcanic-700 leading-relaxed">{list}</p>
+            </div>
+          ))}
+        </div>
+        <div className="mt-12 flex gap-6">
+          <Link
+            href="/beaches"
+            className="inline-flex items-center rounded-lg bg-volcanic-900 px-6 py-3 text-white text-sm font-medium hover:bg-volcanic-800 transition-colors"
+          >
+            Browse all beaches →
+          </Link>
+          <Link
+            href="/regions"
+            className="inline-flex items-center rounded-lg border border-volcanic-200 px-6 py-3 text-volcanic-700 text-sm font-medium hover:bg-volcanic-50 transition-colors"
+          >
+            Browse by region →
+          </Link>
         </div>
       </section>
     </div>
