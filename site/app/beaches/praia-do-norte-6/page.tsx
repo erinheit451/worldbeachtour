@@ -94,7 +94,7 @@ export default function NazarePage() {
           id: "mcnamara",
           label: "The McNamara Era",
           group: "culture",
-          insertAfter: "canyon",
+          insertAfter: "story",
           component: (
             <NazareMcnamara archivalImage={meta.images.section.surfer_action} />
           ),
