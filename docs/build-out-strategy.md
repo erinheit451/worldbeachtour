@@ -100,15 +100,17 @@ time and Fable session usage, both protected by this split.
 
 ## Images & storage
 
-Today: ~350MB of marquee images in git + repo history. Fine for now (today's
-push needed chunking, but it works). The walls ahead:
+Measured 2026-06-10: `site/public/` is 370MB (largest: malibu 57, copa 56,
+teahupoo 48, pipeline 44) and `.git` history is already 627MB — ~1GB on disk
+total. Today's push needed per-commit chunking to survive. The walls ahead:
 
 - GitHub gets painful past ~1–2GB and history only grows; pushes get fragile.
 - T1-with-images (1,046 × 2–5MB) ≈ +2–5GB → too big for git.
 - Long-tail (1 image × 200KB × 228K) ≈ 45GB → never git.
 
-Plan: **keep marquee images in git until ~1GB**, then move `site/public/<beach>/`
-to **Cloudflare R2** (10GB free, zero egress) behind `images.worldbeachtour.com`,
+Plan: existing marquee images stay in git (rewriting history isn't worth it),
+but **every new image batch from here goes to Cloudflare R2** (10GB free, zero
+egress) behind `images.worldbeachtour.com`,
 fronted by Cloudflare's free CDN (also fixes US latency from the DE box).
 Attribution `.meta.json` manifests stay in git; server keeps a synced copy as
 backup. For long-tail stubs, prefer **on-demand Wikimedia Commons URLs**
@@ -157,8 +159,9 @@ same playbook as supplements).
 3. **AI-crawler policy.** Recommended: allow (distribution > moat at this stage).
 4. **Bulk-content spend channel.** Recommended: Anthropic Batch API (~$10–75
    real dollars total) instead of burning Claude-session usage on bulk prose.
-5. **Image storage trigger.** Recommended: R2 cutover when repo nears 1GB or
-   when T2 image sourcing starts, whichever first.
+5. **Image storage.** Recommended: repo is already ~1GB (627MB history +
+   370MB images) — existing images stay, but new image batches go to R2
+   starting with the next marquee/T2 sourcing run.
 6. **Design validation.** Recommended: don't pause for a redesign — ship the
    Phase-1 pilot (Whitehaven or similar T2), instrument, and let the marquee
    audit's spoke pages (Spectator's Guide, Local's Guide, event deep-dives) be
