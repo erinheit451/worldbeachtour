@@ -1,0 +1,71 @@
+{
+  "enabled": true,
+  "zones": [
+    {
+      "zone_code": "Z1",
+      "name": "Malibu Lagoon State Park lot",
+      "position_along_beach_pct": 5,
+      "lat": 34.0362,
+      "lng": -118.6798,
+      "character": "The asphalt starting point. $12–15 parking, interpretive signage (modest, for the significance), Surfrider Beach World Surfing Reserve plaque, snack kiosk. The unmarked edge of CA-LAN-264 — Humaliwo — is where you just parked.",
+      "best_for": "Entry point for all three points. Read the plaque before walking to the sand.",
+      "notes": "Arrive before 8am on any summer weekend if you want a spot. Metered PCH above the break is the fallback; read the tow signs."
+    },
+    {
+      "zone_code": "Z2",
+      "name": "Adamson House bluff",
+      "position_along_beach_pct": 15,
+      "lat": 34.0356,
+      "lng": -118.6785,
+      "character": "The Rindge-Adamson family's 1929 Malibu-Potteries-tiled landmark sits on Vaquero Hill between the lagoon and First Point. California State Historic Monument. Small Gidget display inside. The bluff behind it is the best free viewing bench on the entire coast.",
+      "best_for": "First-time visitors; anyone who wants the Malibu story told by docents who know more than most books.",
+      "notes": "Tours most days; schedule varies by season. The tile work is as good as anything in Spain."
+    },
+    {
+      "zone_code": "Z3",
+      "name": "First Point (the rock)",
+      "position_along_beach_pct": 30,
+      "lat": 34.0353,
+      "lng": -118.6772,
+      "character": "The wave. Forty yards north of the pier. The rock — an unnamed submerged feature the regulars triangulate by pelican and piling — is where the takeoff sits. Fifty to seventy surfers on a clean summer morning. The shoulder travels at the pace of a relaxed conversation.",
+      "best_for": "Longboarders at first light on a mid-May weekday. Spectators any time — the wave is visible from the bluff and the pier.",
+      "notes": "Etiquette is specific and unwritten. The deepest surfer has priority; drop-ins are a negotiation. Learn the lineup before paddling out."
+    },
+    {
+      "zone_code": "Z4",
+      "name": "Malibu Pier",
+      "position_along_beach_pct": 40,
+      "lat": 34.0349,
+      "lng": -118.6764,
+      "character": "1905 Rindge freight landing, 1926 public. The southern anchor of the three points. Malibu Farm restaurants on the deck, sport-fishing charters, a California State Parks pier-walkers' economy that has adapted over a century of the Rindge wall cracking and resealing.",
+      "best_for": "Casual visitors, sunset drinkers, fishing families.",
+      "notes": "The pier itself is not the wave. The wave is the right, peeling north off the cobblestone, visible from the pier railing."
+    },
+    {
+      "zone_code": "Z5",
+      "name": "Second Point",
+      "position_along_beach_pct": 55,
+      "lat": 34.0369,
+      "lng": -118.6798,
+      "character": "Between First and Third. Shorter, steeper, faster. Needs four feet minimum to turn on. The shortboard crew's release valve when First Point clogs.",
+      "best_for": "Shortboarders on a moderate south swell.",
+      "notes": "Quieter lineup than First. Historically where the faster rides happen."
+    },
+    {
+      "zone_code": "Z6",
+      "name": "Third Point & the Colony fence",
+      "position_along_beach_pct": 70,
+      "lat": 34.0385,
+      "lng": -118.6821,
+      "character": "The northernmost of the three. Needs the biggest south swell to connect. The Malibu Colony's fence line runs directly behind the takeoff zone — a century of Hollywood money pressing against California's Coastal Act. Least ridden wave on the mile, partly because of conditions, partly because of the fence.",
+      "best_for": "Experienced surfers on a real south pulse — six feet, long period, the kind that arrives two or three times a season.",
+      "notes": "Walk the wet sand only. The Colony boundary is enforced. Do not trespass above the tide line."
+    }
+  ],
+  "day_in_time": {
+    "dawn": "The mountains are still cool, the water is still glass. The first longboarder of the morning paddles out from the lagoon side with a white board under one arm. The Santa Monica Mountains hold the westerly off the water. You can count the pelicans — they fly a line so low the wing tips touch the back of the swell. Offshore winds until about nine. If you are going to surf First Point in 2026, **this is the hour**.",
+    "midday": "The thermal gradient flips around 11am and the westerly fills. The glass breaks up into texture; the shoulder-hop crowd — fifty, sixty, seventy surfers by now — ties itself into a floating knot at the peak. Beach traffic on PCH is heavy. The Adamson House docents are leading their first tour. The pier is full of sport-fishing charters going out and coming back.",
+    "golden": "An hour before sunset the light goes soft, orange, and a specific Malibu-golden that Bruce Brown understood in 1966 and Instagram has been trying to replicate ever since. The surfers thin. A last wave. The regulars walk up to Duke's or the pier deck. The pelicans get another loop. If you have ever wondered why Malibu is an image before it is a place, you are inside the answer.",
+    "night": "The pier neon goes on. The Colony lights up like a row of small galaxies behind Third Point. The wave keeps peeling but nobody is surfing it. Coyotes come down the canyon after the parking lot empties. On certain nights when the swell is up and the wind is right, you can stand in the empty lot and hear what the Chumash heard two thousand years ago. The village was named for it."
+  }
+}

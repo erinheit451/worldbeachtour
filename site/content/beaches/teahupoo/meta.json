@@ -1,0 +1,200 @@
+{
+  "tier": 1,
+  "showcase": true,
+  "lenses": ["surf", "history", "photography", "culture"],
+  "custom": ["bathymetry", "tower-fight"],
+  "images": {
+    "hero": {
+      "url": "/teahupoo/wave-aerial-1.jpg",
+      "title": "The Teahupoʻo wave breaks unbroken across the shallow reef of Passe Havae",
+      "author": "Olivier Dugornay / Ifremer",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vague_de_Teahupoo_(Tahiti)_(Ifremer_00783-89469_-_49353).jpg",
+      "width": 2400,
+      "height": 1064,
+      "role": "hero"
+    },
+    "section": {
+      "wave_aerial_2": {
+        "url": "/teahupoo/wave-aerial-2.jpg",
+        "title": "Aerial view: the swell rears as it hits Teahupoʻo's coral shelf",
+        "author": "Olivier Dugornay / Ifremer",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Surf_sur_la_Vague_de_Teahupoo_(Tahiti)_(Ifremer_00783-89468_-_49343).jpg",
+        "width": 2400,
+        "height": 1600,
+        "role": "section:wave_aerial_2"
+      },
+      "wave_aerial_3": {
+        "url": "/teahupoo/wave-aerial-3.jpg",
+        "title": "Looking down the line at the heaviest wave in surfing",
+        "author": "Olivier Dugornay / Ifremer",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Surf_sur_la_Vague_de_Teahupoo_(Tahiti)_(Ifremer_00783-89468_-_49346).jpg",
+        "width": 2400,
+        "height": 1600,
+        "role": "section:wave_aerial_3"
+      },
+      "wave_channel": {
+        "url": "/teahupoo/wave-channel.jpg",
+        "title": "The Teahupoʻo break, viewed from the channel",
+        "author": "Lookitt",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Teahupoo_Wave.jpg",
+        "width": 2000,
+        "height": 1335,
+        "role": "section:wave_channel"
+      },
+      "hero_laird": {
+        "url": "/teahupoo/hero-laird.jpg",
+        "title": "Laird Hamilton at Teahupoʻo — the wave that put this reef on the global surfing map",
+        "author": "Duncan Rawlinson / The Last Minute (Flickr)",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:TeahupooLaird.jpg",
+        "width": 2400,
+        "height": 1600,
+        "role": "section:hero_laird"
+      },
+      "pk_marker": {
+        "url": "/teahupoo/pk-marker.jpg",
+        "title": "The PK marker at Teahupoʻo — literally where the road ends on Tahiti Iti",
+        "author": "Saga70",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Teahupoo_pk.jpg",
+        "width": 1800,
+        "height": 1200,
+        "role": "section:pk_marker"
+      },
+      "village_arrival": {
+        "url": "/teahupoo/village-arrival.jpg",
+        "title": "Arriving at Teahupoʻo village (2011)",
+        "author": "Yanik1214",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Teahupoo2011.jpg",
+        "width": 1800,
+        "height": 1200,
+        "role": "section:village_arrival"
+      },
+      "tahiti_from_orbit": {
+        "url": "/teahupoo/tahiti-from-orbit.png",
+        "title": "Tahiti from orbit — the round Tahiti Nui and the smaller Tahiti Iti to the southeast, captured days before the 2024 Olympics",
+        "author": "Contains modified Copernicus Sentinel data 2024",
+        "license": "Copernicus terms (free use with attribution)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tahiti_seen_from_above!_(Copernicus_2024-07-30).png",
+        "width": 2400,
+        "height": 2400,
+        "role": "section:tahiti_from_orbit"
+      },
+      "tahiti_iti_coast": {
+        "url": "/teahupoo/tahiti-iti-coast.jpg",
+        "title": "The Tahiti Iti coast near Teahupoʻo (2019)",
+        "author": "Matthew Dillon (Flickr)",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tahiti,_French_Polynesia_-_Teahupo'o_(48041249403).jpg",
+        "width": 2000,
+        "height": 1333,
+        "role": "section:tahiti_iti_coast"
+      },
+      "channel_view": {
+        "url": "/teahupoo/channel-view.jpg",
+        "title": "Inside the channel at Teahupoʻo",
+        "author": "Matthew Dillon (Flickr)",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tahiti,_French_Polynesia_-_Teahupo'o_(48041311167).jpg",
+        "width": 2000,
+        "height": 1333,
+        "role": "section:channel_view"
+      },
+      "lagoon_mountains": {
+        "url": "/teahupoo/lagoon-mountains.jpg",
+        "title": "Lagoon and mountains at Teahupoʻo — the Tahiti Iti ridge above the village",
+        "author": "Matthew Dillon (Flickr)",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tahiti,_French_Polynesia_-_Teahupo'o_(48059019436).jpg",
+        "width": 2000,
+        "height": 1333,
+        "role": "section:lagoon_mountains"
+      },
+      "vahine_fierro": {
+        "url": "/teahupoo/vahine-fierro.jpg",
+        "title": "Vahine Fierro at Teahupoʻo, January 2024 — months before her Tahiti Pro win",
+        "author": "Saga70",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Vahine_Fierro_%C3%A0_Teahupoo.jpg",
+        "width": 1600,
+        "height": 1067,
+        "role": "section:vahine_fierro"
+      },
+      "surf_riding_1858": {
+        "url": "/teahupoo/surf-riding-1858.jpg",
+        "title": "\"Surf-riding\" — the earliest published illustration of Native Hawaiian heʻe nalu, 1858. Tahiti is the elder cousin of this tradition.",
+        "author": "Hutchings' California Magazine",
+        "license": "Public domain (US, pre-1929)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Surf-riding_1858.jpg",
+        "width": 1600,
+        "height": 1067,
+        "role": "section:surf_riding_1858"
+      },
+      "tahitian_canoes_martin": {
+        "url": "/teahupoo/tahitian-canoes-martin.jpg",
+        "title": "Tahitian sailing canoes, painted by British naval officer Henry Byam Martin in the 1840s",
+        "author": "Henry Byam Martin (1846–47)",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tahitian_sailing_canoes,_painting_by_Henry_Byam_Martin.jpg",
+        "width": 1800,
+        "height": 1200,
+        "role": "section:tahitian_canoes_martin"
+      },
+      "tahitian_canoes_1827": {
+        "url": "/teahupoo/tahitian-canoes-1827.jpg",
+        "title": "Tahitian double-hulled war canoes (pahi), 1827 engraving from Le Costume Ancien et Moderne",
+        "author": "Engraved by Fumagalli, from Giulio Ferrario",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tahitian_warrior_dugouts,_Le_Costume_Ancien_et_Moderne_by_Giulio_Ferrario,_1827.jpg",
+        "width": 1800,
+        "height": 1200,
+        "role": "section:tahitian_canoes_1827"
+      },
+      "olo_board": {
+        "url": "/teahupoo/olo-board.jpg",
+        "title": "A traditional Hawaiian olo board — an ancestor to every modern surfboard ridden at Teahupoʻo",
+        "author": "Andro Keshelashvili",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Olo_board.jpg",
+        "width": 1200,
+        "height": 800,
+        "role": "section:olo_board"
+      },
+      "paea_multi_surfers": {
+        "url": "/teahupoo/paea-multi-surfers.jpg",
+        "title": "Multiple surfers share a single wave at Paea, Tahiti — surfing remains a living tradition in Polynesia",
+        "author": "Brigitte Bourger",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:La_horde_-_Surfers_riding_a_wave_in_Paea,_Tahiti.jpg",
+        "width": 2000,
+        "height": 1333,
+        "role": "section:paea_multi_surfers"
+      },
+      "aranui_5": {
+        "url": "/teahupoo/aranui-5.jpg",
+        "title": "The Aranui 5 — used as floating Olympic accommodation off Teahupoʻo during the 2024 Games",
+        "author": "Saga70",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Aranui_5.jpg",
+        "width": 1800,
+        "height": 1200,
+        "role": "section:aranui_5"
+      }
+    },
+    "gallery": [
+      { "url": "/teahupoo/wave-aerial-2.jpg", "title": "Aerial view of Teahupoʻo wave", "author": "Olivier Dugornay / Ifremer", "license": "CC BY 4.0", "width": 2400, "height": 1600 },
+      { "url": "/teahupoo/wave-aerial-3.jpg", "title": "Looking down the line", "author": "Olivier Dugornay / Ifremer", "license": "CC BY 4.0", "width": 2400, "height": 1600 },
+      { "url": "/teahupoo/wave-aerial-4.jpg", "title": "Aerial pass over the reef break", "author": "Olivier Dugornay / Ifremer", "license": "CC BY 4.0", "width": 2400, "height": 1600 },
+      { "url": "/teahupoo/wave-channel.jpg", "title": "The break from the channel", "author": "Lookitt", "license": "CC BY-SA 4.0", "width": 2000, "height": 1335 },
+      { "url": "/teahupoo/pk-marker.jpg", "title": "PK marker — end of the road", "author": "Saga70", "license": "CC BY-SA 4.0", "width": 1800, "height": 1200 },
+      { "url": "/teahupoo/lagoon-mountains.jpg", "title": "Lagoon and Tahiti Iti ridge", "author": "Matthew Dillon", "license": "CC BY 2.0", "width": 2000, "height": 1333 },
+      { "url": "/teahupoo/channel-view.jpg", "title": "Inside the channel", "author": "Matthew Dillon", "license": "CC BY 2.0", "width": 2000, "height": 1333 },
+      { "url": "/teahupoo/shoreline.jpg", "title": "The Teahupoʻo shoreline", "author": "Matthew Dillon", "license": "CC BY 2.0", "width": 2000, "height": 1333 }
+    ]
+  }
+}

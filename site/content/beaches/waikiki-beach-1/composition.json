@@ -1,0 +1,39 @@
+{
+  "slug": "waikiki-beach-1",
+  "beach_name": "Waikīkī",
+  "version": "0.7",
+  "tier": 1,
+  "spike": "surfing-reintroduced",
+  "spike_statement": "The two miles of Pacific sand where modern surfing was reintroduced to the world.",
+  "levers": {
+    "primary_color": "#E8B4B8",
+    "supporting_color": "#1E5F74",
+    "hero_type": "LAYERED",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "REVERENT",
+    "motif_path": "/beaches/waikiki-beach-1/motif.svg",
+    "photo_tone": "kodachrome-pacific-1960s"
+  },
+  "byline": "Written by Erin Rose",
+  "motif_cultural_clearance_required": true,
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "place_anatomy",
+    "day_in_life",
+    "timeline",
+    "culture",
+    "plan_stack",
+    "honest_reckoning",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    { "slug": "duke-and-the-beach-boys", "type": "deep_dive" },
+    { "slug": "the-monarchy", "type": "deep_dive" },
+    { "slug": "the-breaks", "type": "audience_guide" },
+    { "slug": "malama-hawaii", "type": "honest_reckoning_expansion" }
+  ]
+}

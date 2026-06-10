@@ -1,0 +1,38 @@
+{
+  "slug": "pipeline",
+  "beach_name": "Pipeline",
+  "version": "0.9",
+  "tier": 1,
+  "spike": "proving-ground",
+  "spike_statement": "The wave the world's elite surfers measure themselves against. The single most-photographed and most-deadly break in surfing.",
+  "levers": {
+    "primary_color": "#0B3D5C",
+    "supporting_color": "#D9A441",
+    "hero_type": "MONUMENT",
+    "display_pairing": "AUSTERE",
+    "voice_register": "SEVERE",
+    "motif_path": "/pipeline/motif.svg",
+    "photo_tone": "north-shore-winter"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "story",
+    "the_wave",
+    "pipe_masters",
+    "zones",
+    "day_in_life",
+    "history",
+    "culture",
+    "fatalities",
+    "nearby",
+    "spokes",
+    "sources"
+  ],
+  "spokes": [
+    { "slug": "surfing", "type": "audience_guide" },
+    { "slug": "north-shore", "type": "audience_guide" },
+    { "slug": "the-eddie", "type": "deep_dive" },
+    { "slug": "malama", "type": "honest_reckoning_expansion" }
+  ]
+}

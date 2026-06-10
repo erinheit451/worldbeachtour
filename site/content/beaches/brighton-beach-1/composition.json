@@ -1,0 +1,38 @@
+{
+  "slug": "brighton-beach-1",
+  "beach_name": "Brighton",
+  "version": "0.8",
+  "tier": 1,
+  "spike": "two-piers",
+  "spike_statement": "Two Victorian piers: one working, one a burnt skeleton in the sea.",
+  "levers": {
+    "primary_color": "#3A4E5C",
+    "supporting_color": "#8B5A3C",
+    "hero_type": "LAYERED",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "WRY",
+    "motif_path": "/beaches/brighton-beach-1/motif.svg",
+    "photo_tone": "british-seaside-overcast"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "place_anatomy",
+    "day_in_life",
+    "timeline",
+    "comparison",
+    "plan_stack",
+    "culture",
+    "honest_reckoning",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    { "slug": "pavilion-deep", "type": "deep_dive" },
+    { "slug": "mods-and-rockers-1964", "type": "event" },
+    { "slug": "kemptown-queer-seaside", "type": "honest_reckoning_expansion" }
+  ]
+}

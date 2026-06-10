@@ -1,0 +1,37 @@
+{
+  "slug": "malibu",
+  "beach_name": "Surfrider Beach (Malibu)",
+  "version": "0.9",
+  "tier": 1,
+  "spike": "surf-culture-origin",
+  "spike_statement": "The three-point cobblestone right-hander where the longboard canon was written, modern surf culture was packaged for the world, and the Clean Water Act grew teeth.",
+  "levers": {
+    "primary_color": "#8E5A3C",
+    "supporting_color": "#C98B5F",
+    "hero_type": "LAYERED",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "WRY",
+    "motif_path": "/malibu/motif.svg",
+    "photo_tone": "california-sun-bleached"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "story",
+    "the_wave",
+    "cultural_footprint",
+    "miki_dora",
+    "history",
+    "three_points",
+    "honest_reckoning",
+    "nearby",
+    "spokes",
+    "sources"
+  ],
+  "spokes": [
+    { "slug": "first-point", "type": "deep_dive" },
+    { "slug": "gidget", "type": "deep_dive" },
+    { "slug": "humaliwo", "type": "honest_reckoning_expansion" },
+    { "slug": "surfrider-foundation", "type": "honest_reckoning_expansion" }
+  ]
+}

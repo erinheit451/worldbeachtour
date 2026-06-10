@@ -1,0 +1,39 @@
+{
+  "slug": "praia-do-norte-6",
+  "beach_name": "Nazaré (Praia do Norte)",
+  "version": "0.7",
+  "tier": 1,
+  "spike": "the-canyon",
+  "spike_statement": "A submarine canyon produces the world's largest surfable wave.",
+  "levers": {
+    "primary_color": "#2B3E50",
+    "supporting_color": "#D4A574",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "SEVERE",
+    "motif_path": "/beaches/praia-do-norte-6/motif.svg",
+    "photo_tone": "atlantic-storm"
+  },
+  "byline": "Written by Erin Rose",
+  "reference_implementation": true,
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "data_science",
+    "place_anatomy",
+    "day_in_life",
+    "timeline",
+    "comparison",
+    "plan_stack",
+    "honest_reckoning",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    { "slug": "canyon-science", "type": "deep_dive" },
+    { "slug": "spectator-guide", "type": "audience_guide" },
+    { "slug": "record-rides", "type": "anthology" }
+  ]
+}

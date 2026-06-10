@@ -8,11 +8,39 @@ const SITE_DATA = path.join(process.cwd(), "data", "beaches");
 const FALLBACK_DATA = path.join(process.cwd(), "..", "content-pipeline", "data", "beaches");
 const DATA_DIR = fs.existsSync(SITE_DATA) ? SITE_DATA : FALLBACK_DATA;
 
+export interface BeachImage {
+  url: string;
+  title?: string;
+  author?: string;
+  license?: string;
+  source_url?: string;
+  width?: number;
+  height?: number;
+}
+
 export interface BeachMeta {
   tier: number;
   lenses: string[];
   custom: string[];
-  images: { hero: string; gallery: string[] };
+  /**
+   * The lens that carries the most weight on this beach's page. Optional —
+   * inferred from `lenses[0]` (or "overview") when absent. Drives main-page
+   * lens-section emphasis and which subpage gets the editorial expansion.
+   */
+  dominant_lens?: string;
+  images: {
+    hero?: BeachImage;
+    gallery?: BeachImage[];
+    section?: Record<string, BeachImage>;
+  };
+}
+
+/**
+ * Resolve the dominant lens for a beach: explicit field if present, else
+ * the first lens in the `lenses` array, else "overview" as the floor.
+ */
+export function getDominantLens(meta: BeachMeta): string {
+  return meta.dominant_lens ?? meta.lenses?.[0] ?? "overview";
 }
 
 export interface BeachData {

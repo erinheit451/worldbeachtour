@@ -1,0 +1,70 @@
+{
+  "slug": "teahupoo",
+  "name": "Teahupoʻo",
+  "centroid_lat": -17.8527,
+  "centroid_lng": -149.274,
+  "country_code": "PF",
+  "admin_level_1": "Iles du Vent (Windward Islands)",
+  "admin_level_2": "Tahiti",
+  "admin_level_3": "Taiarapu-Ouest",
+  "water_body_type": "ocean",
+  "substrate_type": "reef",
+  "beach_length_m": 800,
+  "sources": [
+    {
+      "source_name": "wikidata",
+      "source_id": "Q1366155",
+      "source_url": "https://www.wikidata.org/wiki/Q1366155"
+    },
+    {
+      "source_name": "wikipedia_en",
+      "source_id": "Teahupoʻo",
+      "source_url": "https://en.wikipedia.org/wiki/Teahupo%CA%BBo"
+    },
+    {
+      "source_name": "surfline_mechanics",
+      "source_id": "mechanics-of-teahupoo",
+      "source_url": "https://www.surfline.com/surf-news/mechanics-of-teahupoo-tahiti-surf-worlds-heaviest-wave/31797"
+    }
+  ],
+  "attributes": {
+    "social": {
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Teahupo%CA%BBo"
+    },
+    "safety": {
+      "surf_fatalities_modern_era": "1 (Brice Taerea, 27 April 2000)"
+    }
+  },
+  "nearest_city": "Vairao",
+  "nearest_city_distance_km": 12.0,
+  "nearest_airport": {
+    "iata": "PPT",
+    "name": "Faaʻa International Airport",
+    "distance_km": 70.0
+  },
+  "safety": {
+    "shark_incidents_total": 0,
+    "lifeguard": false,
+    "rip_current_severity": "extreme on the inside reef",
+    "fatal_history": "Brice Taerea (27 April 2000) — broken cervical vertebrae after duck-diving a 12-ft set"
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Teahupo%CA%BBo",
+  "notability_score": 90.0,
+  "data_completeness_pct": 35.0,
+  "facilities": {
+    "parking": true,
+    "restrooms": false,
+    "food_nearby": true,
+    "lifeguard": false,
+    "boat_charter_required_to_view_wave": true
+  },
+  "tides": {
+    "range_spring_m": 0.6,
+    "range_neap_m": 0.3,
+    "type": "diurnal (mixed semidiurnal — small range typical of central South Pacific)",
+    "source": "Service Hydrographique et Océanographique de la Marine (SHOM); NOAA tide stations Papeete (1611005)"
+  },
+  "best_months": ["Apr", "May", "Jun", "Jul", "Aug", "Sep"],
+  "swim_suitability": "watch-only / not-recommended",
+  "swim_suitability_confidence": "high"
+}

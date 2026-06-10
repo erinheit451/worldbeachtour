@@ -1,0 +1,29 @@
+{
+  "slug": "glass-beach-4",
+  "beach_name": "Glass Beach",
+  "version": "0.7",
+  "tier": 2,
+  "subtitle": "Sand of rounded gemstone-coloured sea glass.",
+  "levers": {
+    "primary_color": "#4A7B6A",
+    "supporting_color": "#C5885B",
+    "hero_type": "ABSENCE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "CLINICAL",
+    "motif_path": "/beaches/glass-beach-4/motif.svg",
+    "photo_tone": "pacific-northern-california-cool"
+  },
+  "byline": "Written by Erin Rose",
+  "reference_implementation_tier_2": true,
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "feature_deep_explainer",
+    "data_science",
+    "honest_reckoning",
+    "gallery",
+    "plan_stack",
+    "sources"
+  ]
+}

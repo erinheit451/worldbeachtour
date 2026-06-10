@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
+@import "leaflet/dist/leaflet.css";
 
 @theme {
   --color-ocean-50: #f0f9ff;
@@ -57,6 +58,7 @@
 
   --font-serif: var(--font-dm-serif-display), Georgia, 'Times New Roman', serif;
   --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, "SF Mono", Menlo, monospace;
 }
 
 /* Base styles */

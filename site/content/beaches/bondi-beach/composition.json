@@ -1,0 +1,38 @@
+{
+  "slug": "bondi-beach",
+  "beach_name": "Bondi",
+  "version": "0.7",
+  "tier": 1,
+  "spike": "surf-lifesaving-origin",
+  "spike_statement": "The beach Australian surf lifesaving was born on.",
+  "levers": {
+    "primary_color": "#D9B66B",
+    "supporting_color": "#0D3B5C",
+    "hero_type": "MONUMENT",
+    "display_pairing": "AUSTERE",
+    "voice_register": "WRY",
+    "motif_path": "/beaches/bondi-beach/motif.svg",
+    "photo_tone": "modern-australian-clean"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "place_anatomy",
+    "day_in_life",
+    "timeline",
+    "culture",
+    "plan_stack",
+    "honest_reckoning",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    { "slug": "black-sunday-1938", "type": "event" },
+    { "slug": "bondi-rescue", "type": "deep_dive" },
+    { "slug": "gadigal-country", "type": "honest_reckoning_expansion" },
+    { "slug": "icebergs", "type": "deep_dive" }
+  ]
+}

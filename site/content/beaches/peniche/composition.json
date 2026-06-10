@@ -1,0 +1,37 @@
+{
+  "slug": "peniche",
+  "beach_name": "Peniche",
+  "version": "0.9",
+  "tier": 2,
+  "spike": "portugal-surf-capital",
+  "spike_statement": "The Portuguese surf capital — home to Supertubos, the country's WSL Championship Tour break, and to the 16th-century fortress that Salazar's secret police used as Portugal's most famous political prison.",
+  "levers": {
+    "primary_color": "#0A4D68",
+    "supporting_color": "#F4A261",
+    "hero_type": "LAYERED",
+    "display_pairing": "AUSTERE",
+    "voice_register": "WRY",
+    "motif_path": "/peniche/motif.svg",
+    "photo_tone": "atlantic-peninsula"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "story",
+    "supertubos",
+    "fortaleza",
+    "zones",
+    "day_in_life",
+    "history",
+    "culture",
+    "berlengas",
+    "nearby",
+    "spokes",
+    "sources"
+  ],
+  "spokes": [
+    { "slug": "surfing", "type": "audience_guide" },
+    { "slug": "visiting", "type": "audience_guide" },
+    { "slug": "berlengas", "type": "deep_dive" }
+  ]
+}

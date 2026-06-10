@@ -4,6 +4,7 @@ import SandGeology from "@/components/sand-geology";
 import MapEmbed from "@/components/map-embed";
 import DataCard from "@/components/data-card";
 import Breadcrumbs from "@/components/breadcrumbs";
+import StubBeach from "@/components/stub-beach";
 import { getBeachData, getBeachMeta, getBeachMdx } from "@/lib/beaches";
 
 function FacilityBadge({
@@ -43,6 +44,17 @@ export default async function BeachOverviewPage({
   const data = getBeachData(slug);
   const meta = getBeachMeta(slug);
   if (!data) notFound();
+
+  // T0 stub — minimal, honest render for long-tail beaches.
+  // See docs/beach-page-architecture.md for the tier system.
+  if ((meta as unknown as { tier?: number }).tier === 0) {
+    return (
+      <StubBeach
+        data={data as unknown as Parameters<typeof StubBeach>[0]["data"]}
+        neighbors={(data as unknown as { neighbors?: Parameters<typeof StubBeach>[0]["neighbors"] }).neighbors}
+      />
+    );
+  }
 
   // Extract first meaningful paragraph from each lens MDX
   const summaries: Record<string, string> = {};

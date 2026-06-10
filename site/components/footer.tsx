@@ -8,8 +8,8 @@ export default function Footer() {
           <div>
             <h3 className="font-display text-lg text-white mb-3">World Beach Tour</h3>
             <p className="text-sm text-ocean-300 leading-relaxed">
-              The definitive guide to every beach on Earth. 412,000+ beaches
-              across 249 countries, explored through the lens that matters to you.
+              The canonical page for every beach on Earth. 228,612 beaches
+              across 249 countries, written one beach at a time.
             </p>
           </div>
           <div>

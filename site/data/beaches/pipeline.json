@@ -1,0 +1,43 @@
+{
+  "slug": "pipeline",
+  "name": "Pipeline (Banzai Pipeline / Ehukai Beach Park)",
+  "centroid_lat": 21.6647,
+  "centroid_lng": -158.0533,
+  "country_code": "US",
+  "admin_level_1": "Hawaiʻi",
+  "beach_length_m": 800,
+  "water_body_type": "North Pacific Ocean",
+  "substrate_type": "fine white sand over coral reef",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Banzai_Pipeline",
+  "nearest_city": "Haleʻiwa",
+  "nearest_city_distance_km": 12,
+  "nearest_airport": {
+    "iata": "HNL",
+    "name": "Daniel K. Inouye International (Honolulu)",
+    "distance_km": 58
+  },
+  "climate": {
+    "air_temp_high": [25.5, 25.5, 26.0, 26.5, 27.5, 29.0, 30.0, 30.5, 30.0, 29.0, 27.5, 26.0],
+    "air_temp_low": [19.0, 19.0, 20.0, 21.0, 22.5, 24.0, 25.0, 25.5, 25.0, 24.0, 22.0, 20.5],
+    "water_temp": [24.0, 24.0, 24.0, 24.5, 25.5, 26.5, 27.0, 27.5, 27.5, 27.0, 26.0, 25.0],
+    "rain_mm": [95, 75, 65, 45, 35, 20, 20, 20, 30, 55, 85, 110],
+    "sun_hours": [215, 215, 245, 265, 285, 295, 310, 305, 280, 255, 220, 210],
+    "climate_source": "NOAA Hawaiian Islands climate normals / Haleʻiwa station",
+    "ocean_source": "NOAA Ocean Service / PacIOOS Hawaiian buoys"
+  },
+  "tides": {
+    "range_spring_m": 0.65,
+    "range_neap_m": 0.25,
+    "type": "mixed semidiurnal",
+    "source": "NOAA Tides and Currents / Haleʻiwa gauge"
+  },
+  "species": [],
+  "facilities": {
+    "parking": true,
+    "restrooms": true,
+    "food_nearby": true,
+    "showers": true,
+    "lifeguard": true,
+    "wheelchair_accessible": false
+  }
+}

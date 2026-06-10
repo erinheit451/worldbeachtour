@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { DM_Serif_Display, Inter } from "next/font/google";
+import Script from "next/script";
+import { DM_Serif_Display, Inter, JetBrains_Mono, Barlow_Condensed } from "next/font/google";
 import Nav from "@/components/nav";
 import Footer from "@/components/footer";
 import "./globals.css";
@@ -17,15 +18,28 @@ const inter = Inter({
   display: "swap",
 });
 
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-jetbrains-mono",
+  display: "swap",
+});
+
+const barlowCondensed = Barlow_Condensed({
+  weight: ["500", "600", "700", "800"],
+  subsets: ["latin"],
+  variable: "--font-barlow-condensed",
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   title: "World Beach Tour — Every Beach on Earth",
   description:
-    "The definitive guide to every beach on Earth. Explore 412,000+ beaches through the lens that matters to you — travel, surf, environment, history, sand geology, and more.",
+    "Search 228,612 beaches worldwide. Real history, real climate data, real local knowledge — the canonical page for every beach on Earth, written one beach at a time.",
   metadataBase: new URL("https://worldbeachtour.com"),
   openGraph: {
     title: "World Beach Tour — Every Beach on Earth",
     description:
-      "The definitive guide to every beach on Earth. 412,000+ beaches across 249 countries.",
+      "228,612 beaches across 249 countries. Real history, real climate data, real local knowledge.",
     siteName: "World Beach Tour",
     type: "website",
   },
@@ -34,7 +48,12 @@ export const metadata: Metadata = {
     title: "World Beach Tour",
     description: "The definitive guide to every beach on Earth.",
   },
+  verification: {
+    google: "SITH76i6JrGmRNjaAPoaAJPXfcPvNSj6vnptZaI62W8",
+  },
 };
+
+const GA_MEASUREMENT_ID = "G-5HC2J82REX";
 
 export default function RootLayout({
   children,
@@ -42,7 +61,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${dmSerif.variable} ${inter.variable}`}>
+    <html lang="en" className={`${dmSerif.variable} ${inter.variable} ${jetbrainsMono.variable} ${barlowCondensed.variable}`}>
       <head>
         <meta name="theme-color" content="#082f49" />
       </head>
@@ -50,6 +69,16 @@ export default function RootLayout({
         <Nav />
         <main className="flex-1">{children}</main>
         <Footer />
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_MEASUREMENT_ID}');`}
+        </Script>
       </body>
     </html>
   );

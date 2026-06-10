@@ -1,0 +1,34 @@
+{
+  "slug": "sao-martinho-do-porto",
+  "beach_name": "São Martinho do Porto",
+  "version": "0.9",
+  "tier": 3,
+  "spike": "shell-shaped-bay",
+  "spike_statement": "The almost-perfectly-circular natural harbor on the Portuguese Atlantic coast — calm water by geography, inside the country's most dramatic surf region.",
+  "levers": {
+    "primary_color": "#2B6F8C",
+    "supporting_color": "#D8B97E",
+    "hero_type": "MONUMENT",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "REVERENT",
+    "motif_path": "/sao-martinho-do-porto/motif.svg",
+    "photo_tone": "silver-coast-afternoon"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "story",
+    "shell_explainer",
+    "zones",
+    "day_in_life",
+    "history",
+    "culture",
+    "nearby",
+    "spokes",
+    "sources"
+  ],
+  "spokes": [
+    { "slug": "visiting", "type": "audience_guide" },
+    { "slug": "family", "type": "audience_guide" }
+  ]
+}

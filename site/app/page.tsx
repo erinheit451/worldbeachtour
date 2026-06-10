@@ -1,266 +1,426 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import fs from "fs";
-import path from "path";
+import HeroRotator from "@/components/hero-rotator";
+import SearchAutocomplete from "@/components/search-autocomplete";
+import { getPublishedBeaches, topCountries } from "@/lib/published-beaches";
 
 export const metadata: Metadata = {
-  title: "World Beach Tour — A single page, deeply, for every beach worth knowing",
+  title: "World Beach Tour — Every beach on Earth, one real page at a time",
   description:
-    "The definitive internet home for every beach worth a week of your life. Two signature showcase pages — Copacabana and Waikīkī — plus a growing database of the world's coasts.",
+    "Search 228,612 beaches worldwide. Real history, real climate data, real local knowledge — not another list of 'top 10 beaches.'",
   openGraph: {
     title: "World Beach Tour",
     description:
-      "A single page, deeply, for every beach worth knowing. Signature showcases for Copacabana and Waikīkī; data-rich pages for the rest.",
+      "Search 228,612 beaches worldwide. Real history, real climate data, real local knowledge.",
     type: "website",
   },
 };
 
-function loadBeach(slug: string) {
-  try {
-    const data = JSON.parse(
-      fs.readFileSync(path.join(process.cwd(), "data", "beaches", `${slug}.json`), "utf-8")
-    );
-    const meta = JSON.parse(
-      fs.readFileSync(path.join(process.cwd(), "content", "beaches", slug, "meta.json"), "utf-8")
-    );
-    // Merge protected showcase content (if it exists — signature beaches only)
-    const showcasePath = path.join(process.cwd(), "content", "beaches", slug, "showcase.json");
-    if (fs.existsSync(showcasePath)) {
-      data.showcase = JSON.parse(fs.readFileSync(showcasePath, "utf-8"));
-    }
-    return { data, meta };
-  } catch {
-    return null;
-  }
-}
+const TOTAL_BEACHES = 228612;
+const COUNTRIES = 249;
 
-function SignatureCard({
-  slug,
-  eyebrow,
-  headline,
-  blurb,
-  heroUrl,
-  heroAlt,
-  accent,
-}: {
-  slug: string;
-  eyebrow: string;
-  headline: string;
-  blurb: string;
-  heroUrl: string;
-  heroAlt: string;
-  accent: "ocean" | "coral";
-}) {
-  const accentClasses =
-    accent === "ocean"
-      ? "from-ocean-900/90 via-ocean-900/40 to-transparent"
-      : "from-rose-900/90 via-rose-900/40 to-transparent";
-  return (
-    <Link
-      href={`/beaches/${slug}`}
-      className="group relative block overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all"
-    >
-      <div className="relative h-[520px] sm:h-[620px]">
-        <img
-          src={heroUrl}
-          alt={heroAlt}
-          className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
-        />
-        <div className={`absolute inset-0 bg-gradient-to-t ${accentClasses}`} />
-        <div className="absolute inset-x-0 bottom-0 p-7 sm:p-10 text-white">
-          <div className="text-[10px] font-mono uppercase tracking-[0.3em] text-white/70 mb-3">
-            {eyebrow}
-          </div>
-          <h3 className="font-display text-4xl sm:text-5xl leading-[1.05] -tracking-[0.01em] max-w-md">
-            {headline}
-          </h3>
-          <p className="mt-4 max-w-md text-[15px] text-white/85 leading-relaxed">{blurb}</p>
-          <div className="mt-6 inline-flex items-center text-sm font-medium text-white group-hover:text-white/80">
-            Read the page →
-          </div>
-        </div>
-      </div>
-    </Link>
-  );
-}
+const SIGNATURE_PICKS = [
+  {
+    slug: "copacabana-7",
+    name: "Copacabana",
+    where: "Rio de Janeiro, Brazil",
+    image: "/copa/hero-aerial.jpg",
+    blurb: "Four kilometers of arc, six postos, and the century of glamour built along it.",
+  },
+  {
+    slug: "waikiki-beach-1",
+    name: "Waikīkī",
+    where: "Honolulu, Hawaiʻi",
+    image: "/waikiki/hero-diamond-head.jpg",
+    blurb: "Seven named breaks, Duke Kahanamoku's surfboard, and the overthrow two miles inland.",
+  },
+  {
+    slug: "bondi-beach",
+    name: "Bondi",
+    where: "Sydney, Australia",
+    image: "/bondi/hero-aerial.jpg",
+    blurb: "4,500 rescues a year, the world's oldest surf lifesaving club, and Icebergs in winter.",
+  },
+  {
+    slug: "praia-do-norte-6",
+    name: "Praia do Norte",
+    where: "Nazaré, Portugal",
+    image: "/nazare/hero-big-wave.jpg",
+    blurb: "A submarine canyon five kilometers offshore, focusing Atlantic swells into the tallest rideable waves on Earth.",
+  },
+];
+
+const HERO_SLIDES = [
+  {
+    src: "/copa/hero-aerial.jpg",
+    alt: "Copacabana, Rio de Janeiro at golden hour",
+    caption: "Copacabana · Rio de Janeiro, Brazil",
+  },
+  {
+    src: "/nazare/hero-big-wave.jpg",
+    alt: "A surfer descending the face of a big wave at Nazaré",
+    caption: "Praia do Norte · Nazaré, Portugal",
+  },
+  {
+    src: "/bondi/hero-aerial.jpg",
+    alt: "Bondi Beach from the air, with Icebergs pool at the southern end",
+    caption: "Bondi · Sydney, Australia",
+  },
+];
+
+const WRITING_NEXT = [
+  ["Ipanema", "Rio de Janeiro, Brazil", "The other half of Rio's beach myth. Tom Jobim, the 1968 protest, the daily volleyball religion."],
+  ["Pipeline", "Banzai, Oʻahu", "The most photographed wave on Earth. Also the deadliest."],
+  ["Maya Bay", "Phi Phi Leh, Thailand", "From DiCaprio in 2000 to a four-year ecological closure. The recovery tourism studies now."],
+  ["Whitehaven", "Whitsundays, Australia", "98% silica sand. Cool to walk on, squeaks underfoot, sits on the Great Barrier Reef."],
+  ["Reynisfjara", "Vík, Iceland", "Black basalt, sneaker waves that have killed hikers, the columnar cliffs behind."],
+];
+
+const PAGE_CHECKLIST = [
+  "Monthly climate normals (1991–2020)",
+  "Tide, swell, and safety notes",
+  "Archival photography, licensed and credited",
+  "History, with dated citations",
+  "Access, parking, and local logistics",
+  "Who to trust locally",
+];
+
+const CONTRIBUTE_EMAIL = "erinrose451@gmail.com";
 
 export default function HomePage() {
-  const copa = loadBeach("copacabana-7");
-  const waikiki = loadBeach("waikiki-beach-1");
-  const bondi = loadBeach("bondi-beach");
-  const nazare = loadBeach("praia-do-norte-6");
+  const all = getPublishedBeaches();
+  const top = topCountries(8);
+  const defaults = [
+    all.find((b) => b.slug === "copacabana-7"),
+    all.find((b) => b.slug === "waikiki-beach-1"),
+    all.find((b) => b.slug === "bondi-beach"),
+    all.find((b) => b.slug === "praia-do-norte-6"),
+  ].filter(Boolean) as ReturnType<typeof getPublishedBeaches>;
 
   return (
     <div className="bg-white">
-      {/* Hero */}
-      <section className="relative overflow-hidden">
-        <div className="absolute inset-0">
-          <img
-            src="/waikiki/panorama-night.jpg"
-            alt="Waikīkī at night"
-            className="h-full w-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-volcanic-950/70 via-volcanic-950/50 to-white" />
-        </div>
-        <div className="relative mx-auto max-w-5xl px-6 pt-24 pb-32 sm:pt-32 sm:pb-40">
-          <div className="text-[10px] font-mono uppercase tracking-[0.35em] text-white/80 mb-6">
-            World Beach Tour
-          </div>
-          <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl text-white leading-[0.95] -tracking-[0.02em] max-w-3xl">
-            A single page, deeply, for every beach worth knowing.
-          </h1>
-          <p className="mt-8 max-w-2xl text-lg sm:text-xl text-white/85 leading-relaxed">
-            Most beach pages are written once and forgotten. We are writing the internet's best
-            page on each beach that deserves one — structured data, verified history, honest
-            context, archival photography, and the local knowledge that distinguishes the beach
-            from the postcard.
-          </p>
-          <div className="mt-10 flex flex-wrap gap-6 text-sm text-white/80">
-            <span>
-              <span className="font-mono text-white">228,000+</span>{" "}
-              <span className="text-white/60">beaches tracked</span>
-            </span>
-            <span>
-              <span className="font-mono text-white">4</span>{" "}
-              <span className="text-white/60">signature pages (so far)</span>
-            </span>
-            <span>
-              <span className="font-mono text-white">301</span>{" "}
-              <span className="text-white/60">data-rich beach guides</span>
-            </span>
+      {/* HERO — search-forward, rotating, headline first */}
+      <section className="relative">
+        <div className="relative h-[70vh] min-h-[560px] sm:min-h-[620px] overflow-hidden">
+          <HeroRotator slides={HERO_SLIDES} />
+          {/* readability gradient — left-darker so right side stays photographic */}
+          <div className="absolute inset-0 bg-gradient-to-r from-volcanic-950/85 via-volcanic-950/55 to-volcanic-950/15" />
+          <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-volcanic-950/70 to-transparent" />
+
+          <div className="absolute inset-x-0 top-0 bottom-0 flex flex-col">
+            <div className="flex-1" />
+            <div className="mx-auto w-full max-w-7xl px-6 pb-10 sm:pb-14">
+              <div className="max-w-3xl">
+                <h1 className="font-display text-white text-[40px] leading-[0.96] sm:text-6xl lg:text-[72px] -tracking-[0.02em]">
+                  Every beach on Earth,
+                  <br />
+                  <span className="italic text-ocean-100">one real page at a time.</span>
+                </h1>
+                <p className="mt-6 max-w-xl text-base sm:text-lg text-white/85 leading-relaxed">
+                  Search {TOTAL_BEACHES.toLocaleString()} beaches worldwide. Real history, real climate data, real
+                  local knowledge — not another list of &ldquo;top 10 beaches.&rdquo;
+                </p>
+
+                <div className="mt-8 max-w-2xl">
+                  <SearchAutocomplete
+                    index={all}
+                    total={TOTAL_BEACHES}
+                    defaultSuggestions={defaults}
+                    variant="hero"
+                  />
+                </div>
+
+                <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2 text-[13px] text-white/75 font-mono">
+                  <span>
+                    <span className="text-white">{TOTAL_BEACHES.toLocaleString()}</span> beaches
+                  </span>
+                  <span className="text-white/30">·</span>
+                  <span>
+                    <span className="text-white">{COUNTRIES}</span> countries
+                  </span>
+                  <span className="text-white/30">·</span>
+                  <span>
+                    <span className="text-white">{all.length}</span> in-depth guides
+                  </span>
+                  <span className="text-white/30">·</span>
+                  <span>updated weekly</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Signatures */}
-      <section className="mx-auto max-w-7xl px-6 py-20 sm:py-28">
-        <header className="mb-12 max-w-3xl">
-          <div className="text-xs font-mono uppercase tracking-[0.3em] text-ocean-700 mb-4">
-            · Signature Beaches
+      {/* THREE PORTALS — find by name / browse by region / editor's picks */}
+      <section className="bg-volcanic-50">
+        <div className="mx-auto max-w-7xl px-6 py-20 sm:py-24">
+          <header className="mb-12 max-w-3xl">
+            <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl leading-[1.05] text-volcanic-900 -tracking-[0.015em]">
+              Find your beach three ways.
+            </h2>
+            <p className="mt-4 text-[17px] text-volcanic-600 leading-relaxed">
+              However you think about the coast, start here.
+            </p>
+          </header>
+
+          <div className="grid gap-6 lg:grid-cols-3">
+            {/* Portal 1 — search */}
+            <div className="rounded-2xl bg-white ring-1 ring-volcanic-200 p-7 flex flex-col">
+              <div className="flex items-center gap-2 text-[12px] uppercase tracking-[0.2em] font-mono text-ocean-700 mb-3">
+                <span>By name</span>
+              </div>
+              <h3 className="font-display text-2xl text-volcanic-900 mb-2">Search the database</h3>
+              <p className="text-[14px] text-volcanic-600 leading-relaxed mb-5">
+                Live results from {all.length} in-depth guides, with the full {TOTAL_BEACHES.toLocaleString()}-beach
+                database one click away.
+              </p>
+              <SearchAutocomplete
+                index={all}
+                total={TOTAL_BEACHES}
+                defaultSuggestions={defaults}
+                variant="panel"
+              />
+              <div className="mt-auto pt-5 text-[12px] text-volcanic-500">
+                Try: Copacabana · Bondi · or your hometown
+              </div>
+            </div>
+
+            {/* Portal 2 — browse by region */}
+            <div className="rounded-2xl bg-white ring-1 ring-volcanic-200 p-7 flex flex-col">
+              <div className="flex items-center gap-2 text-[12px] uppercase tracking-[0.2em] font-mono text-ocean-700 mb-3">
+                <span>By region</span>
+              </div>
+              <h3 className="font-display text-2xl text-volcanic-900 mb-2">Pick a country</h3>
+              <p className="text-[14px] text-volcanic-600 leading-relaxed mb-5">
+                {COUNTRIES} coastal countries and territories. Start with the ones we&apos;ve covered most.
+              </p>
+              <ul className="space-y-1.5">
+                {top.map((c) => (
+                  <li key={c.code}>
+                    <Link
+                      href={`/regions/${c.code.toLowerCase()}`}
+                      className="flex items-center justify-between py-1 text-[14px] text-volcanic-800 hover:text-ocean-700 transition-colors group"
+                    >
+                      <span className="font-medium">{c.name}</span>
+                      <span className="text-[12px] text-volcanic-400 font-mono group-hover:text-ocean-700">
+                        {c.count} guide{c.count === 1 ? "" : "s"}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              <div className="mt-auto pt-5">
+                <Link
+                  href="/regions"
+                  className="text-[13px] font-medium text-ocean-700 hover:underline"
+                >
+                  See all {COUNTRIES} regions →
+                </Link>
+              </div>
+            </div>
+
+            {/* Portal 3 — editor's picks */}
+            <div className="rounded-2xl bg-volcanic-950 text-white p-7 flex flex-col">
+              <div className="flex items-center gap-2 text-[12px] uppercase tracking-[0.2em] font-mono text-ocean-300 mb-3">
+                <span>Editor&apos;s picks</span>
+              </div>
+              <h3 className="font-display text-2xl mb-2">Start with these four</h3>
+              <p className="text-[14px] text-white/70 leading-relaxed mb-5">
+                The longest, deepest pages we&apos;ve written — top to bottom, every claim sourced.
+              </p>
+              <ul className="space-y-3">
+                {SIGNATURE_PICKS.map((p) => (
+                  <li key={p.slug}>
+                    <Link
+                      href={`/beaches/${p.slug}`}
+                      className="flex items-center gap-3 group"
+                    >
+                      <img
+                        src={p.image}
+                        alt={p.name}
+                        className="h-12 w-16 rounded object-cover ring-1 ring-white/10 shrink-0"
+                      />
+                      <div className="min-w-0">
+                        <div className="font-display text-[16px] leading-tight group-hover:text-ocean-200 transition-colors">
+                          {p.name}
+                        </div>
+                        <div className="text-[11px] text-white/50 font-mono uppercase tracking-[0.1em] mt-0.5 truncate">
+                          {p.where}
+                        </div>
+                      </div>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
-          <h2 className="font-display text-4xl sm:text-5xl leading-[1.05] text-volcanic-900">
-            Four beaches, told at full depth
+        </div>
+      </section>
+
+      {/* PROOF — one row of four signature pages */}
+      <section className="mx-auto max-w-7xl px-6 py-20 sm:py-24">
+        <header className="mb-10 max-w-3xl">
+          <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl leading-[1.05] text-volcanic-900 -tracking-[0.015em]">
+            What a finished page looks like.
           </h2>
-          <p className="mt-5 text-lg italic text-volcanic-500">
-            These are the kind of pages every iconic beach deserves. We are building the next
-            wave of Tier 1 pages in public.
+          <p className="mt-4 text-[17px] text-volcanic-600 leading-relaxed">
+            Four beaches we&apos;ve written top to bottom. Every claim dated, every photo credited, every page open
+            to public revision.
           </p>
         </header>
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-          {copa && (
-            <SignatureCard
-              slug="copacabana-7"
-              eyebrow="Rio de Janeiro · Brazil"
-              headline="Copacabana — the beach the world imagines"
-              blurb="Four kilometers of arc, six postos, the Burle Marx wave underfoot, and a century of Brazilian glamour. Plus the favela above that completes the view."
-              heroUrl={copa.meta.images.hero.url}
-              heroAlt={copa.meta.images.hero.title}
-              accent="coral"
-            />
-          )}
-          {waikiki && (
-            <SignatureCard
-              slug="waikiki-beach-1"
-              eyebrow="Honolulu, Hawaiʻi · United States"
-              headline="Waikīkī — the beach that taught the world how to beach"
-              blurb="Seven named surf breaks, Duke Kahanamoku's leis, the 1893 overthrow two miles inland, and the Hawaiian place-names under the tourist grid."
-              heroUrl={waikiki.meta.images.hero.url}
-              heroAlt={waikiki.meta.images.hero.title}
-              accent="ocean"
-            />
-          )}
-          {bondi && (
-            <SignatureCard
-              slug="bondi-beach"
-              eyebrow="Sydney · Australia"
-              headline="Bondi — where Australia invented surf culture"
-              blurb="Bondi Rescue's 4,500 rescues a year, the 1937 shark nets, the Icebergs pool at winter temperature, and the Gadigal country under it all."
-              heroUrl={bondi.meta.images.hero.url}
-              heroAlt={bondi.meta.images.hero.title}
-              accent="ocean"
-            />
-          )}
-          {nazare && (
-            <SignatureCard
-              slug="praia-do-norte-6"
-              eyebrow="Nazaré · Portugal"
-              headline="Nazaré — the canyon that made the biggest waves on Earth"
-              blurb="A 5-km submarine canyon 500 m from shore, focusing Atlantic swells into the tallest rideable waves ever documented. And a 900-year-old fishing village above the break."
-              heroUrl={nazare.meta.images.hero.url}
-              heroAlt={nazare.meta.images.hero.title}
-              accent="ocean"
-            />
-          )}
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {SIGNATURE_PICKS.map((p) => (
+            <Link
+              key={p.slug}
+              href={`/beaches/${p.slug}`}
+              className="group block rounded-xl overflow-hidden ring-1 ring-volcanic-200 hover:ring-volcanic-900 transition-all bg-white"
+            >
+              <div className="relative aspect-[4/3] overflow-hidden">
+                <img
+                  src={p.image}
+                  alt={p.name}
+                  className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.04]"
+                />
+              </div>
+              <div className="p-5">
+                <div className="text-[11px] font-mono uppercase tracking-[0.18em] text-ocean-700">{p.where}</div>
+                <h3 className="font-display text-xl text-volcanic-900 mt-1.5 mb-2">{p.name}</h3>
+                <p className="text-[13px] text-volcanic-600 leading-snug">{p.blurb}</p>
+              </div>
+            </Link>
+          ))}
+        </div>
+        <div className="mt-10">
+          <Link
+            href="/beaches"
+            className="inline-flex items-center text-[14px] font-medium text-volcanic-900 hover:text-ocean-700 transition-colors"
+          >
+            See all {all.length} in-depth guides →
+          </Link>
         </div>
       </section>
 
-      {/* What we build */}
-      <section className="bg-sand-50 border-y border-sand-200">
-        <div className="mx-auto max-w-5xl px-6 py-20 sm:py-28">
-          <header className="mb-12 max-w-3xl">
-            <div className="text-xs font-mono uppercase tracking-[0.3em] text-ocean-700 mb-4">
-              · What's in a page
+      {/* WHAT'S ON A PAGE */}
+      <section className="bg-sand-50 border-y border-sand-200/70">
+        <div className="mx-auto max-w-7xl px-6 py-20 sm:py-24">
+          <div className="grid gap-12 lg:grid-cols-12 lg:gap-16">
+            <div className="lg:col-span-6">
+              <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl leading-[1.05] text-volcanic-900 -tracking-[0.015em]">
+                Not &ldquo;beautiful.&rdquo; <span className="italic">Specific.</span>
+              </h2>
+              <p className="mt-5 text-[17px] text-volcanic-700 leading-relaxed">
+                Travel sites tell you the beach is stunning. We tell you the sea-surface temperature by month, the
+                name the lifeguards actually use for each tower, who built the promenade in what year, and what the
+                locals know about the rip currents.
+              </p>
+              <p className="mt-4 text-[15px] text-volcanic-600 leading-relaxed">
+                Every number dated. Every quote sourced. Every photo credited. Pages are living documents — we
+                update them when the coast changes, and so can you.
+              </p>
             </div>
-            <h2 className="font-display text-3xl sm:text-4xl leading-tight text-volcanic-900">
-              The anatomy of a signature beach page
+            <div className="lg:col-span-6">
+              <div className="rounded-2xl bg-white ring-1 ring-sand-200 p-7">
+                <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-ocean-700 mb-5">
+                  On every signature page
+                </div>
+                <ul className="space-y-3">
+                  {PAGE_CHECKLIST.map((item) => (
+                    <li key={item} className="flex items-start gap-3 text-[15px] text-volcanic-800">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" className="mt-0.5 shrink-0 text-ocean-600">
+                        <path
+                          d="m5 12 5 5L20 7"
+                          stroke="currentColor"
+                          strokeWidth="2.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* MISSION + CONTRIBUTE */}
+      <section className="mx-auto max-w-7xl px-6 py-20 sm:py-24">
+        <div className="grid gap-12 lg:grid-cols-12 lg:gap-16 items-start">
+          <div className="lg:col-span-7">
+            <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl leading-[1.05] text-volcanic-900 -tracking-[0.015em]">
+              Beaches are public.
+              <br />
+              <span className="text-volcanic-500">Their pages shouldn&apos;t be owned by the same three travel sites.</span>
             </h2>
+            <p className="mt-6 text-[17px] text-volcanic-700 leading-relaxed max-w-xl">
+              We&apos;re building the canonical page for every beach on Earth — slowly, carefully, in the open. If you
+              know a coast better than the internet does, we want to hear from you.
+            </p>
+          </div>
+          <div className="lg:col-span-5 flex flex-col gap-3">
+            <a
+              href={`mailto:${CONTRIBUTE_EMAIL}?subject=Suggest a beach`}
+              className="rounded-xl bg-volcanic-900 text-white px-6 py-5 hover:bg-volcanic-700 transition-colors group"
+            >
+              <div className="font-display text-lg">Suggest a beach →</div>
+              <div className="text-[13px] text-white/70 mt-1">
+                Tell us about a beach we should write up next.
+              </div>
+            </a>
+            <a
+              href={`mailto:${CONTRIBUTE_EMAIL}?subject=Correction`}
+              className="rounded-xl bg-white ring-1 ring-volcanic-200 px-6 py-5 hover:ring-volcanic-900 transition-colors"
+            >
+              <div className="font-display text-lg text-volcanic-900">Submit a correction →</div>
+              <div className="text-[13px] text-volcanic-600 mt-1">
+                Spotted something wrong? Help us fix it.
+              </div>
+            </a>
+            <a
+              href={`mailto:${CONTRIBUTE_EMAIL}?subject=Adopt a beach`}
+              className="rounded-xl bg-white ring-1 ring-volcanic-200 px-6 py-5 hover:ring-volcanic-900 transition-colors"
+            >
+              <div className="font-display text-lg text-volcanic-900">Adopt a beach near you →</div>
+              <div className="text-[13px] text-volcanic-600 mt-1">
+                Be the local voice on a coast you know.
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* WRITING NEXT */}
+      <section className="bg-volcanic-50 border-t border-volcanic-100">
+        <div className="mx-auto max-w-6xl px-6 py-20 sm:py-24">
+          <header className="mb-10 max-w-3xl">
+            <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl leading-[1.05] text-volcanic-900 -tracking-[0.015em]">
+              Writing next.
+            </h2>
+            <p className="mt-4 text-[17px] text-volcanic-600 leading-relaxed">
+              In research this quarter. Each page goes into public revision once the first draft is up.
+            </p>
           </header>
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {[
-              ["Structured truth", "Monthly climate, tides, bathymetry, reef and hazard data — all sourced, dated, and kept fresh."],
-              ["Local knowledge", "The named breaks, the zones locals use as coordinates, the beach-boy rates since 1950."],
-              ["Real history", "12-18 timeline events per page, each with a Wikipedia citation. No invented anecdotes."],
-              ["Honest context", "The inheritance the beach carries. The tension a travel guide usually elides."],
-              ["Archival photography", "Wikimedia Commons, each image attributed and licensed visible on the page."],
-              ["A single page, deeply", "No SEO sprawl. No dated price points. The longest page on this beach, written once and maintained."],
-            ].map(([h, p]) => (
-              <div key={h as string}>
-                <h3 className="font-display text-lg text-volcanic-900 mb-2">{h}</h3>
-                <p className="text-sm text-volcanic-700 leading-relaxed">{p}</p>
+
+          <div className="border-t border-volcanic-200">
+            {WRITING_NEXT.map(([name, where, blurb]) => (
+              <div
+                key={name}
+                className="grid gap-2 lg:grid-cols-12 lg:gap-8 lg:items-baseline border-b border-volcanic-200 py-6"
+              >
+                <div className="lg:col-span-3 font-display text-xl sm:text-2xl text-volcanic-900 -tracking-[0.015em]">
+                  {name}
+                </div>
+                <div className="lg:col-span-3 font-mono text-[12px] uppercase tracking-[0.18em] text-volcanic-500">
+                  {where}
+                </div>
+                <div className="lg:col-span-6 text-[14px] sm:text-[15px] text-volcanic-700 leading-relaxed">
+                  {blurb}
+                </div>
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Next waves */}
-      <section className="mx-auto max-w-5xl px-6 py-20 sm:py-28">
-        <header className="mb-12 max-w-3xl">
-          <div className="text-xs font-mono uppercase tracking-[0.3em] text-ocean-700 mb-4">
-            · What's coming
-          </div>
-          <h2 className="font-display text-3xl sm:text-4xl leading-tight text-volcanic-900">
-            The next waves of signature beaches
-          </h2>
-        </header>
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4 text-sm">
-          {[
-            ["Next up", "Ipanema · Omaha · Maya Bay"],
-            ["Wave 2", "Nazaré · Pipeline · South Beach"],
-            ["Wave 3", "Navagio · Whitehaven · Reynisfjara · Maya Bay"],
-            ["Wave 4", "Varkala · Coney Island · Glass Beach · Boulders"],
-          ].map(([eyebrow, list]) => (
-            <div key={eyebrow as string} className="rounded-xl border border-volcanic-100 p-5">
-              <div className="text-[10px] font-mono uppercase tracking-[0.25em] text-ocean-700 mb-2">
-                {eyebrow}
-              </div>
-              <p className="text-volcanic-700 leading-relaxed">{list}</p>
-            </div>
-          ))}
-        </div>
-        <div className="mt-12 flex gap-6">
-          <Link
-            href="/beaches"
-            className="inline-flex items-center rounded-lg bg-volcanic-900 px-6 py-3 text-white text-sm font-medium hover:bg-volcanic-800 transition-colors"
-          >
-            Browse all beaches →
-          </Link>
-          <Link
-            href="/regions"
-            className="inline-flex items-center rounded-lg border border-volcanic-200 px-6 py-3 text-volcanic-700 text-sm font-medium hover:bg-volcanic-50 transition-colors"
-          >
-            Browse by region →
-          </Link>
         </div>
       </section>
     </div>

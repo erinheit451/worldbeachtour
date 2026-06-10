@@ -1,76 +1,57 @@
 {
-  "tier": 2,
-  "lenses": [
-    "overview",
-    "travel"
-  ],
+  "tier": 1,
+  "showcase": true,
+  "lenses": [],
   "custom": [],
   "images": {
     "hero": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Bairros_de_Copacabana_e_Leme%2C_early_20th_century.tif",
-      "title": "Bairros de Copacabana e Leme, early 20th century.tif",
-      "author": "<div class=\"fn value\">\nPhoto Lopes</div>",
-      "license": "Public domain",
-      "width": 5457,
-      "height": 3977,
-      "score": 85.0
+      "url": "/copa/hero-aerial.jpg",
+      "title": "Praia de Copacabana — aerial view of the arc at sunset",
+      "author": "Nilton Souza (Wikimedia)",
+      "license": "CC BY-SA 3.0 de",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Praia_de_Copacabana_rio.jpg",
+      "width": 8006,
+      "height": 5340,
+      "role": "hero"
+    },
+    "section": {
+      "night": { "url": "/copa/rooftop-night.jpg", "title": "Copacabana at blue hour — rooftop view toward Leme", "license": "CC BY 2.0", "width": 6048, "height": 4032, "role": "section:night" },
+      "mosaic": { "url": "/copa/mosaic-walkway.jpg", "title": "Calçadão de Copacabana — the Burle Marx wave pavement", "license": "CC BY-SA 3.0", "width": 4288, "height": 2416, "role": "section:mosaic" },
+      "mosaic_detail": { "url": "/copa/mosaic-pattern-detail.jpg", "title": "The Portuguese wave pattern, up close", "license": "CC BY 2.0", "author": "Jorge Láscar", "width": 2592, "height": 1944, "role": "section:mosaic_detail" },
+      "palace": { "url": "/copa/copacabana-palace.jpg", "title": "Copacabana Palace Hotel (1923) — Avenida Atlântica", "license": "CC BY-SA 3.0", "width": 2890, "height": 1927, "role": "section:palace" },
+      "pre_expansion": { "url": "/copa/pre-expansion-1916.jpg", "title": "Aerial view of Copacabana, c.1916–1926 (before the 1970 land reclamation)", "author": "Jorge Kfuri — Instituto Moreira Salles", "license": "Public domain", "width": 7967, "height": 5740, "role": "section:pre_expansion" },
+      "historic_1971": { "url": "/copa/historic-1971.jpg", "title": "Copacabana Beach, 1971", "license": "CC BY-SA 2.0", "width": 850, "height": 563, "role": "section:historic_1971" },
+      "olympic_2016": { "url": "/copa/olympic-2016.jpg", "title": "Rio 2016 — beach volleyball venue on Copacabana", "license": "CC BY 3.0", "width": 2039, "height": 1359, "role": "section:olympic_2016" },
+      "nye": { "url": "/copa/nye-fireworks.jpg", "title": "Réveillon — New Year's Eve fireworks on Copacabana", "license": "CC BY 2.0", "author": "Porto Bay Hotels", "width": 2598, "height": 2559, "role": "section:nye" },
+      "fishermen_dawn": { "url": "/copa/fishermen-dawn.jpg", "title": "Dawn with fishermen on Copacabana, 2016", "author": "Laudelinojunior", "license": "CC BY-SA 4.0", "width": 2074, "height": 1383, "role": "section:fishermen_dawn" },
+      "posto_5_sign": { "url": "/copa/posto-5-sign.jpg", "title": "Posto 5 — Copacabana lifeguard station", "author": "Eugenio Hansen, OFS", "license": "CC BY-SA 2.0", "width": 4160, "height": 3120, "role": "section:posto_5_sign" },
+      "beach_soccer_night": { "url": "/copa/beach-soccer-night.jpg", "title": "Beach soccer at Copacabana, after dark", "author": "Jorge Láscar", "license": "CC BY 2.0", "width": 2592, "height": 1944, "role": "section:beach_soccer_night" },
+      "sugarloaf_night": { "url": "/copa/sugarloaf-night.jpg", "title": "Copacabana from Sugarloaf at night", "author": "Jack Soma", "license": "CC BY 3.0", "width": 4000, "height": 3000, "role": "section:sugarloaf_night" },
+      "zweig_portrait": { "url": "/copa/stefan-zweig.jpg", "title": "Stefan Zweig, 1900 (portrait)", "license": "Public domain", "width": 1005, "height": 1500, "role": "section:zweig_portrait" },
+      "flying_down_poster": { "url": "/copa/flying-down-to-rio-poster.jpg", "title": "Flying Down to Rio, 1933 — RKO theatrical poster", "license": "Public domain", "width": 2224, "height": 2898, "role": "section:flying_down_poster" },
+      "forte_1930": { "url": "/copa/forte-1930.jpg", "title": "President Washington Luís at Forte de Copacabana, 1930", "author": "Alfredo Storni", "license": "Public domain", "width": 1223, "height": 1042, "role": "section:forte_1930" },
+      "panorama": { "url": "/copa/panorama-arc.jpg", "title": "Panorama of Copacabana Beach", "author": "Adam Jones", "license": "CC BY-SA 3.0", "width": 6761, "height": 1074, "role": "section:panorama" },
+      "day_dawn": { "url": "/copa/fishermen-dawn.jpg", "title": "Dawn fishermen at Posto 6", "author": "Laudelinojunior", "license": "CC BY-SA 4.0", "width": 2074, "height": 1383, "role": "section:day_dawn" },
+      "day_midday": { "url": "/copa/beach-midday.jpg", "title": "Copacabana at midday", "license": "CC BY 2.0", "width": 2400, "height": 1600, "role": "section:day_midday" },
+      "day_golden": { "url": "/copa/golden-hour-arpoador.jpg", "title": "Late light over the Copa-Ipanema arc", "author": "Ricardo Cohen", "license": "CC BY-SA 3.0", "width": 3840, "height": 2160, "role": "section:day_golden" },
+      "day_night": { "url": "/copa/rooftop-night.jpg", "title": "Copacabana at blue hour", "license": "CC BY 2.0", "width": 6048, "height": 4032, "role": "section:day_night" },
+      "water_bird": { "url": "/copa/frigatebird-flight.jpg", "title": "Magnificent Frigatebird in flight", "license": "CC BY 4.0", "width": 3289, "height": 2220, "role": "section:water_bird" },
+      "water_surf": { "url": "/copa/surfer-copa.jpg", "title": "In the surf at Copacabana", "author": "Adam Jones", "license": "CC BY-SA 2.0", "width": 3456, "height": 2304, "role": "section:water_surf" },
+      "water_whale": { "url": "/copa/humpback-breach.jpg", "title": "Humpback whale breaching", "author": "Giles Laurent", "license": "CC BY-SA 4.0", "width": 3261, "height": 2174, "role": "section:water_whale" },
+      "eat_kiosk": { "url": "/copa/kiosk-drinkstall.jpg", "title": "A numbered kiosk on Avenida Atlântica", "license": "CC BY-SA 3.0", "width": 1536, "height": 2048, "role": "section:eat_kiosk" },
+      "eat_caipirinha": { "url": "/copa/caipirinha.jpg", "title": "The caipirinha — cachaça, lime, sugar, crushed ice", "author": "Achim Schleuning", "license": "CC BY-SA 3.0", "width": 3456, "height": 2304, "role": "section:eat_caipirinha" },
+      "music_jobim": { "url": "/copa/tom-jobim.jpg", "title": "Antônio Carlos (Tom) Jobim — Correio da Manhã archive, 1965", "license": "Public domain", "width": 1206, "height": 1063, "role": "section:music_jobim" },
+      "versus_ipanema": { "url": "/copa/ipanema-dois-irmaos.jpg", "title": "Ipanema with Dois Irmãos behind", "author": "Instituto Moreira Salles", "license": "Public domain", "width": 9717, "height": 5911, "role": "section:versus_ipanema" },
+      "versus_leblon": { "url": "/copa/leblon-beach.jpg", "title": "Leblon Beach", "author": "Boaventuravinicius", "license": "CC BY-SA 4.0", "width": 1776, "height": 997, "role": "section:versus_leblon" },
+      "arpoador_sunset": { "url": "/copa/arpoador-sunset.jpg", "title": "Sunset at Arpoador — the rock between Copa and Ipanema", "author": "NMaia", "license": "CC BY-SA 4.0", "width": 3120, "height": 4160, "role": "section:arpoador_sunset" },
+      "context_plano": { "url": "/copa/plano-inclinado.jpg", "title": "Plano Inclinado do Pavão-Pavãozinho — the free municipal funicular", "author": "ArlindoPereira", "license": "CC BY-SA 4.0", "width": 3024, "height": 4032, "role": "section:context_plano" },
+      "context_mirante": { "url": "/copa/mirante-cantagalo.jpg", "title": "The view from Cantagalo-Pavão-Pavãozinho — the overlook that sees it all", "license": "CC BY-SA 3.0 de", "width": 7453, "height": 4971, "role": "section:context_mirante" }
     },
     "gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Cal%C3%A7ad%C3%A3o_de_Copacabana.JPG",
-        "title": "Cal\u00e7ad\u00e3o de Copacabana.JPG",
-        "license": "CC BY-SA 3.0",
-        "source_tier": 1,
-        "score": 85.0,
-        "width": 4288,
-        "height": 2416
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Copacabana_Palace_Hotel_Rio.jpg",
-        "title": "Copacabana Palace Hotel Rio.jpg",
-        "license": "CC BY-SA 3.0",
-        "source_tier": 1,
-        "score": 85.0,
-        "width": 2890,
-        "height": 1927
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Copacabana_Rooftop_View.jpg",
-        "title": "Copacabana Rooftop View.jpg",
-        "license": "CC BY 2.0",
-        "source_tier": 1,
-        "score": 85.0,
-        "width": 6048,
-        "height": 4032
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Copacabana_Beach_1971.jpg",
-        "title": "Copacabana Beach 1971.jpg",
-        "license": "CC BY-SA 2.0",
-        "source_tier": 1,
-        "score": 78.4,
-        "width": 850,
-        "height": 563
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Copacabana_Beach.jpg",
-        "title": "Copacabana Beach.jpg",
-        "license": "CC BY 2.0",
-        "source_tier": 1,
-        "score": 70.0,
-        "width": 2400,
-        "height": 1600
-      }
-    ],
-    "_enrichment": {
-      "pipeline_version": "photo_enrichment.py v1",
-      "candidates_evaluated": 81,
-      "tier_breakdown": {
-        "tier1": 14,
-        "tier3": 47,
-        "tier2": 20
-      },
-      "hero_auto_selected": true
-    }
+      { "url": "/copa/panorama-arc.jpg", "title": "Panorama — the full arc", "license": "CC BY-SA 3.0", "width": 6761, "height": 1074 },
+      { "url": "/copa/beach-midday.jpg", "title": "Copacabana at midday", "license": "CC BY 2.0", "width": 2400, "height": 1600 },
+      { "url": "/copa/mosaic-pattern-detail.jpg", "title": "The wave pattern up close", "license": "CC BY 2.0", "width": 2592, "height": 1944 },
+      { "url": "/copa/beach-soccer-night.jpg", "title": "Beach soccer at night", "license": "CC BY 2.0", "width": 2592, "height": 1944 }
+    ]
   }
 }

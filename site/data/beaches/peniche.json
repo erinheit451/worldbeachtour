@@ -1,0 +1,43 @@
+{
+  "slug": "peniche",
+  "name": "Peniche",
+  "centroid_lat": 39.3558,
+  "centroid_lng": -9.3802,
+  "country_code": "PT",
+  "admin_level_1": "Leiria",
+  "beach_length_m": 8500,
+  "water_body_type": "Atlantic Ocean",
+  "substrate_type": "sand and limestone bedrock",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Peniche,_Portugal",
+  "nearest_city": "Caldas da Rainha",
+  "nearest_city_distance_km": 24,
+  "nearest_airport": {
+    "iata": "LIS",
+    "name": "Humberto Delgado (Lisbon)",
+    "distance_km": 95
+  },
+  "climate": {
+    "air_temp_high": [14.0, 14.5, 16.0, 17.0, 19.0, 22.0, 23.5, 24.0, 23.0, 20.0, 16.5, 14.5],
+    "air_temp_low": [8.0, 8.0, 9.0, 10.0, 12.0, 14.5, 16.0, 16.5, 15.5, 13.0, 10.5, 8.5],
+    "water_temp": [14.5, 14.0, 14.0, 14.5, 15.5, 17.0, 18.5, 19.0, 18.5, 17.5, 16.0, 15.0],
+    "rain_mm": [90, 75, 55, 55, 40, 12, 4, 5, 25, 75, 100, 105],
+    "sun_hours": [145, 165, 210, 230, 265, 285, 310, 295, 230, 185, 150, 135],
+    "climate_source": "IPMA (Instituto Português do Mar e da Atmosfera) — Peniche / Cabo Carvoeiro regional normals",
+    "ocean_source": "Portuguese Hydrographic Institute"
+  },
+  "tides": {
+    "range_spring_m": 2.68,
+    "range_neap_m": 1.27,
+    "type": "semidiurnal",
+    "source": "Portuguese Hydrographic Institute"
+  },
+  "species": [],
+  "facilities": {
+    "parking": true,
+    "restrooms": true,
+    "food_nearby": true,
+    "showers": true,
+    "lifeguard": true,
+    "wheelchair_accessible": true
+  }
+}

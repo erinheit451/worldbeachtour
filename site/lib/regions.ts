@@ -1,14 +1,29 @@
 import { getAllBeaches, type BeachData, type BeachMeta } from "./beaches";
+import { computeTier } from "./tier";
 
-export function getCountries(): { code: string; count: number }[] {
+export interface CountryEntry {
+  code: string;
+  count: number;
+  monumentCount: number;
+}
+
+export function getCountries(): CountryEntry[] {
   const beaches = getAllBeaches();
-  const countryMap = new Map<string, number>();
+  const counts = new Map<string, number>();
+  const monuments = new Map<string, number>();
   for (const b of beaches) {
     if (!b.country_code) continue;
-    countryMap.set(b.country_code, (countryMap.get(b.country_code) || 0) + 1);
+    counts.set(b.country_code, (counts.get(b.country_code) || 0) + 1);
+    if (computeTier(b.slug, b, b.meta) === 3) {
+      monuments.set(b.country_code, (monuments.get(b.country_code) || 0) + 1);
+    }
   }
-  return Array.from(countryMap.entries())
-    .map(([code, count]) => ({ code, count }))
+  return Array.from(counts.entries())
+    .map(([code, count]) => ({
+      code,
+      count,
+      monumentCount: monuments.get(code) ?? 0,
+    }))
     .sort((a, b) => b.count - a.count);
 }
 

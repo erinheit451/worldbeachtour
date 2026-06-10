@@ -4,6 +4,7 @@ import BeachHero from "@/components/beach-hero";
 import LensTabs from "@/components/lens-tabs";
 import BeachJsonLd from "@/components/beach-jsonld";
 import { getBeachData, getBeachMeta, getAllBeachSlugs } from "@/lib/beaches";
+import { computeTier } from "@/lib/tier";
 
 // Slugs with an explicit handwritten showcase page at app/beaches/<slug>/page.tsx
 // are handled by that literal route; exclude them here so the static export
@@ -28,19 +29,22 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const data = getBeachData(slug);
+  const data = getBeachData(slug) as (ReturnType<typeof getBeachData> & { name_english?: string | null; subtitle?: string | null }) | null;
   if (!data) return {};
 
+  const displayName = data.name_english || data.name;
   const location = [data.admin_level_1, data.country_code]
     .filter(Boolean)
     .join(", ");
-  const description = `Complete guide to ${data.name}${location ? ` in ${location}` : ""}. Travel tips, surf conditions, environment, history, sand geology, and more.`;
+  const description =
+    data.subtitle ||
+    `Complete guide to ${displayName}${location ? ` in ${location}` : ""}. Travel tips, surf conditions, environment, history, sand geology, and more.`;
 
   return {
-    title: `${data.name} — World Beach Tour`,
+    title: `${displayName} — World Beach Tour`,
     description,
     openGraph: {
-      title: `${data.name} — World Beach Tour`,
+      title: `${displayName} — World Beach Tour`,
       description,
       type: "article",
     },
@@ -55,10 +59,24 @@ export default async function BeachLayout({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const data = getBeachData(slug);
+  const data = getBeachData(slug) as (ReturnType<typeof getBeachData> & { name_english?: string | null }) | null;
   const meta = getBeachMeta(slug);
   if (!data) notFound();
 
+  // T0 stubs render their own full-page layout (StubBeach). Skip the generic
+  // hero + lens-tab chrome — it would duplicate the stub's header and add a
+  // single-tab lens UI that isn't meaningful here.
+  const tier = computeTier(slug, data, meta);
+  if (tier === 0) {
+    return (
+      <>
+        <BeachJsonLd data={data} />
+        {children}
+      </>
+    );
+  }
+
+  const displayName = data.name_english || data.name;
   const location = [data.admin_level_1, data.country_code]
     .filter(Boolean)
     .join(", ");
@@ -66,7 +84,7 @@ export default async function BeachLayout({
   return (
     <div>
       <BeachJsonLd data={data} />
-      <BeachHero name={data.name} location={location} />
+      <BeachHero name={displayName} location={location} />
       <LensTabs slug={slug} activeLenses={meta.lenses} />
       <div className="mx-auto max-w-7xl px-4 py-8">{children}</div>
     </div>

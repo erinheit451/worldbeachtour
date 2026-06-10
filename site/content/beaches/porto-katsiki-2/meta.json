@@ -1,0 +1,76 @@
+{
+  "tier": 2,
+  "lenses": [
+    "overview",
+    "travel"
+  ],
+  "custom": [],
+  "images": {
+    "hero": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Lefkada_kosta.jpg",
+      "title": "Lefkada kosta.jpg",
+      "author": "<a href=\"https://en.wikipedia.org/wiki/User:Moumouza\" class=\"extiw\" title=\"wikipedia:User:Moumouza\">Moumouza</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wi",
+      "license": "Public domain",
+      "width": 6235,
+      "height": 2059,
+      "score": 35.0
+    },
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/GreeceIonianIslands.png",
+        "title": "GreeceIonianIslands.png",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 63.0,
+        "width": 200,
+        "height": 204
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Apollonii%2C_Greece_-_panoramio_%283%29.jpg",
+        "title": "Apollonii, Greece - panoramio (3).jpg",
+        "license": "CC BY 3.0",
+        "source_tier": 2,
+        "score": 40.0,
+        "width": 2560,
+        "height": 1920
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Porto_Katsiki_SF_0001.jpg",
+        "title": "Porto Katsiki SF 0001.jpg",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 1,
+        "score": 35.0,
+        "width": 10174,
+        "height": 3860
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Lefkas14.JPG",
+        "title": "Lefkas14.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Lefkas15.JPG",
+        "title": "Lefkas15.JPG",
+        "license": "CC BY-SA 3.0",
+        "source_tier": 3,
+        "score": 35.0,
+        "width": 3264,
+        "height": 2448
+      }
+    ],
+    "_enrichment": {
+      "pipeline_version": "photo_enrichment.py v1",
+      "candidates_evaluated": 33,
+      "tier_breakdown": {
+        "tier1": 3,
+        "tier2": 15,
+        "tier3": 15
+      },
+      "hero_auto_selected": true
+    }
+  }
+}
