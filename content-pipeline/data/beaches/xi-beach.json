@@ -3,8 +3,8 @@
   "name": "Xi Beach",
   "centroid_lat": 38.1602671,
   "centroid_lng": 20.4146263,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "GR",
+  "admin_level_1": "Ionian Islands",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -29,5 +29,29 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Xi%20Beach%20Shade%20Kefalonia.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Xi_Beach"
     }
+  },
+  "nearest_city": "Lixouri",
+  "nearest_city_distance_km": 5.0,
+  "nearest_airport": {
+    "iata": "EFL",
+    "name": "Kefallinia Airport",
+    "distance_km": 8.7
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Xi_Beach",
+  "notability_score": 25.1,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 56.8,
+      "f_pct": 1.2,
+      "l_pct": 42.0,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "red",
+    "description": "Particle size analysis of these sediments revealed that they consist of 1–2% sand, 29–54% silt, and 44–70% clay."
   }
 }

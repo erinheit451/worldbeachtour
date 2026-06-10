@@ -3,8 +3,8 @@
   "name": "Town Beach",
   "centroid_lat": 41.3037644,
   "centroid_lng": -72.1051379,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "Connecticut",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -39,11 +39,18 @@
       "source_name": "wikidata",
       "source_id": "Q31811136",
       "source_url": "https://www.wikidata.org/wiki/Q31811136"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "safety": {
-      "lifeguard": true
+      "lifeguard": true,
+      "cyclone_count_50yr": "16",
+      "cyclone_max_category": "5"
     },
     "facilities": {
       "access": "yes"
@@ -51,5 +58,29 @@
     "social": {
       "wikipedia_url": "https://en.wikipedia.org/wiki/Ocean_Beach_(New_London)"
     }
+  },
+  "nearest_city": "Central Waterford",
+  "nearest_city_distance_km": 5.0,
+  "nearest_airport": {
+    "iata": "GON",
+    "name": "Groton New London Airport",
+    "distance_km": 5.8
+  },
+  "safety": {
+    "lifeguard": true,
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ocean_Beach_(New_London)",
+  "notability_score": 32.0,
+  "data_completeness_pct": 20.8,
+  "sand": {
+    "predicted": {
+      "q_pct": 45.1,
+      "f_pct": 35.8,
+      "l_pct": 19.1,
+      "regime": "feldspar-rich (plutonic/crystalline terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "description": "Ocean Beach Park contains within its boundaries a large sugar-sand beach, boardwalk, mini golf, kiddie rides, waterslides, olympic-size swimming pool, cafeteria, ice cream stand, nature trail, banquet halls, arcade, and often has live music performances during the summer season, specifically on its center boardwalk stage."
   }
 }

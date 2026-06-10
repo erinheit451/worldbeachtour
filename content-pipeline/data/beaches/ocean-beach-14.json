@@ -34,5 +34,15 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ocean_Beach,_San_Francisco",
   "notability_score": 28.2,
-  "data_completeness_pct": 16.7
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 46.6,
+      "f_pct": 16.0,
+      "l_pct": 37.4,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "description": "The beach is often covered with sand dollars (specifically, the Dendraster excentricus)."
+  }
 }

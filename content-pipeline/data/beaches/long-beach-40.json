@@ -3,8 +3,8 @@
   "name": "Long Beach",
   "centroid_lat": 49.065674,
   "centroid_lng": -125.760554,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "CA",
+  "admin_level_1": "British Columbia",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -25,6 +25,28 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Long%20Beach%2C%20Tofino%20%281574396688%29.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Long_Beach_(British_Columbia)"
+    }
+  },
+  "nearest_city": "Tofino",
+  "nearest_city_distance_km": 14.5,
+  "nearest_airport": {
+    "iata": "YAZ",
+    "name": "Tofino / Long Beach Airport",
+    "distance_km": 1.9
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Long_Beach_(British_Columbia)",
+  "notability_score": 25.0,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 12.3,
+      "f_pct": 23.8,
+      "l_pct": 64.0,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

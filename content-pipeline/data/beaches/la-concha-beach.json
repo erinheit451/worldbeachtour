@@ -3,8 +3,8 @@
   "name": "La Concha Beach",
   "centroid_lat": 43.315199999,
   "centroid_lng": -1.991499999,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "ES",
+  "admin_level_1": "Basque Country",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -21,5 +21,28 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Donostia%20Kontxa%20Loretope%20gainetik2.JPG",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Beach_of_La_Concha"
     }
+  },
+  "nearest_city": "San Sebastian",
+  "nearest_city_distance_km": 1.4,
+  "nearest_airport": {
+    "iata": "EAS",
+    "name": "San Sebastián Airport",
+    "distance_km": 16.9
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Beach_of_La_Concha",
+  "notability_score": 26.1,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 15.5,
+      "f_pct": 4.2,
+      "l_pct": 80.4,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "description": "It is a sandy beach and shallow substrate, in which the tide fluctuation greatly affects the area available for use."
   }
 }

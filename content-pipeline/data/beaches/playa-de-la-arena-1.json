@@ -3,8 +3,8 @@
   "name": "Playa de la Arena",
   "centroid_lat": 28.229705,
   "centroid_lng": -16.8409842,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "ES",
+  "admin_level_1": "Canary Islands",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -29,5 +29,29 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Black%20sand%20beach%20Playa%20de%20la%20Arena%20on%20Tenerife%2C%20Spain%20%2848225289937%29.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_de_la_Arena"
     }
+  },
+  "nearest_city": "Guia de Isora",
+  "nearest_city_distance_km": 6.4,
+  "nearest_airport": {
+    "iata": "TFS",
+    "name": "Tenerife Sur Airport",
+    "distance_km": 33.4
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_de_la_Arena",
+  "notability_score": 26.2,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 15.2,
+      "f_pct": 6.3,
+      "l_pct": 78.5,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "black",
+    "description": "The playa is entirely made of black, natural, volcanic sand."
   }
 }

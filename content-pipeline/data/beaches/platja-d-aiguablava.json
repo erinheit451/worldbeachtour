@@ -3,8 +3,8 @@
   "name": "Platja d'Aiguablava",
   "centroid_lat": 41.9340855,
   "centroid_lng": 3.216232,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "ES",
+  "admin_level_1": "Catalonia",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -30,6 +30,28 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20d%27Aiguablava%2C%20Begur.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Cala_d%27Aiguablava"
+    }
+  },
+  "nearest_city": "Begur",
+  "nearest_city_distance_km": 1.8,
+  "nearest_airport": {
+    "iata": "GRO",
+    "name": "Girona-Costa Brava Airport",
+    "distance_km": 37.7
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cala_d%27Aiguablava",
+  "notability_score": 26.8,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 74.9,
+      "f_pct": 9.2,
+      "l_pct": 15.8,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

@@ -3,8 +3,8 @@
   "name": "Jericoacoara Beach",
   "centroid_lat": -2.793055555,
   "centroid_lng": -40.520277777,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "BR",
+  "admin_level_1": "Ceara",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -21,5 +21,28 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Anderps%20067.JPG",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Jericoacoara_Beach"
     }
+  },
+  "nearest_city": "Camocim",
+  "nearest_city_distance_km": 37.6,
+  "nearest_airport": {
+    "iata": "JJD",
+    "name": "Comandante Ariston Pessoa Airport",
+    "distance_km": 22.1
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jericoacoara_Beach",
+  "notability_score": 24.9,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 97.9,
+      "f_pct": 0.7,
+      "l_pct": 1.4,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "description": "The village has streets covered in sand from the dunes."
   }
 }

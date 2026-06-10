@@ -3,23 +3,54 @@
   "name": "Saunton Sands",
   "centroid_lat": 51.1,
   "centroid_lng": -4.22583,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "GB",
+  "admin_level_1": "England",
   "admin_level_2": null,
   "water_body_type": "ocean",
-  "substrate_type": "unknown",
+  "substrate_type": "sand",
   "beach_length_m": null,
   "sources": [
     {
       "source_name": "wikidata",
       "source_id": "Q7427501",
       "source_url": "https://www.wikidata.org/wiki/Q7427501"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Saunton%20Sands%20-%20Panorama-8453-54.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Saunton_Sands"
+    },
+    "safety": {
+      "cyclone_count_50yr": "1",
+      "cyclone_max_category": "3"
+    }
+  },
+  "nearest_city": "Appledore",
+  "nearest_city_distance_km": 5.8,
+  "nearest_airport": {
+    "iata": "SWS",
+    "name": "Swansea Airport",
+    "distance_km": 56.8
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Saunton_Sands",
+  "notability_score": 24.8,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 47.9,
+      "f_pct": 12.7,
+      "l_pct": 39.4,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

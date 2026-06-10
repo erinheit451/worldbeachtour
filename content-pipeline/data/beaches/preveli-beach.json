@@ -3,8 +3,8 @@
   "name": "Preveli Beach",
   "centroid_lat": 35.15222222,
   "centroid_lng": 24.47388889,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "GR",
+  "admin_level_1": "Crete",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -20,6 +20,28 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Preveli%20beach%2001.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Preveli_Beach"
+    }
+  },
+  "nearest_city": "Agia Foteini",
+  "nearest_city_distance_km": 18.5,
+  "nearest_airport": {
+    "iata": "CHQ",
+    "name": "Chania International Airport",
+    "distance_km": 51.3
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Preveli_Beach",
+  "notability_score": 25.2,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 52.5,
+      "f_pct": 1.6,
+      "l_pct": 45.9,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

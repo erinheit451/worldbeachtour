@@ -3,8 +3,8 @@
   "name": "One Cable Beach",
   "centroid_lat": 25.0762943,
   "centroid_lng": -77.4035851,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "BS",
+  "admin_level_1": "New Providence",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -24,12 +24,52 @@
       "source_name": "wikidata",
       "source_id": "Q21713748",
       "source_url": "https://www.wikidata.org/wiki/Q21713748"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bahamas%201988%20%28059%29%20New%20Providence%20Cable%20Beach%20%2822762816374%29.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Cable_Beach,_Bahamas"
+    },
+    "safety": {
+      "cyclone_count_50yr": "18",
+      "cyclone_max_category": "5"
+    }
+  },
+  "nearest_city": "Nassau",
+  "nearest_city_distance_km": 6.4,
+  "nearest_airport": {
+    "iata": "NAS",
+    "name": "Lynden Pindling International Airport",
+    "distance_km": 7.5
+  },
+  "safety": {
+    "shark_incidents_total": 141
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cable_Beach,_Bahamas",
+  "notability_score": 28.3,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 88.6,
+      "f_pct": 1.5,
+      "l_pct": 10.0,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "curated": {
+      "story": "Bahamian Cable Beach is almost entirely oolitic aragonite — tiny concentric spheres of calcium carbonate that precipitate directly from the warm, supersaturated Bahama Banks seawater. Walking on oolite feels unusually smooth because each grain is nearly a perfect sphere.",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Oolite"
+      ],
+      "showcase_rank": 14,
+      "reference_photo_url": null,
+      "reference_photo_attribution": null
     }
   }
 }

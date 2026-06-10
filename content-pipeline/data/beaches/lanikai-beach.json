@@ -19,6 +19,11 @@
       "source_name": "wikidata",
       "source_id": "Q5195257",
       "source_url": "https://www.wikidata.org/wiki/Q5195257"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
@@ -28,6 +33,10 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Lanikai%20Strand%20auf%20Oahu.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Lanikai_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "9",
+      "cyclone_max_category": "4"
     }
   },
   "nearest_city": "Kailua",
@@ -43,5 +52,15 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Lanikai_Beach",
   "notability_score": 32.0,
-  "data_completeness_pct": 25.0
+  "data_completeness_pct": 25.0,
+  "sand": {
+    "predicted": {
+      "q_pct": null,
+      "f_pct": null,
+      "l_pct": null,
+      "regime": "unknown",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "white"
+  }
 }

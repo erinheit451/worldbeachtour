@@ -3,8 +3,8 @@
   "name": "Bondi Beach",
   "centroid_lat": -33.8923747,
   "centroid_lng": 151.2780805,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "AU",
+  "admin_level_1": "New South Wales",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -19,14 +19,42 @@
       "source_name": "wikidata",
       "source_id": "Q21919992",
       "source_url": "https://www.wikidata.org/wiki/Q21919992"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "safety": {
-      "lifeguard": true
+      "lifeguard": true,
+      "cyclone_count_50yr": "0"
     },
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bondi%20from%20above.jpg"
+    }
+  },
+  "nearest_city": "Bondi Beach",
+  "nearest_city_distance_km": 0.6,
+  "nearest_airport": {
+    "iata": "SYD",
+    "name": "Sydney Kingsford Smith International Airport",
+    "distance_km": 11.1
+  },
+  "safety": {
+    "lifeguard": true,
+    "shark_incidents_total": 0
+  },
+  "notability_score": 2.5,
+  "data_completeness_pct": 12.5,
+  "sand": {
+    "predicted": {
+      "q_pct": 93.4,
+      "f_pct": 2.3,
+      "l_pct": 4.4,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

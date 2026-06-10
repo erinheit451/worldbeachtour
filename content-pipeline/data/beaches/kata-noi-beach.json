@@ -3,8 +3,8 @@
   "name": "Kata Noi beach",
   "centroid_lat": 7.80638889,
   "centroid_lng": 98.29888889,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "TH",
+  "admin_level_1": "Phuket",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -14,12 +14,43 @@
       "source_name": "wikidata",
       "source_id": "Q13424403",
       "source_url": "https://www.wikidata.org/wiki/Q13424403"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Phuket%20-%20Kata%20Beach%20001.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Hat_Kata_Noi"
+    },
+    "safety": {
+      "cyclone_count_50yr": "6",
+      "cyclone_max_category": "3"
+    }
+  },
+  "nearest_city": "Nai Harn",
+  "nearest_city_distance_km": 3.2,
+  "nearest_airport": {
+    "iata": "HKT",
+    "name": "Phuket International Airport",
+    "distance_km": 34.2
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Hat_Kata_Noi",
+  "notability_score": 23.9,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 80.3,
+      "f_pct": 5.3,
+      "l_pct": 14.4,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

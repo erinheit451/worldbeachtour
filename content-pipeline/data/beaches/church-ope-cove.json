@@ -3,8 +3,8 @@
   "name": "Church Ope Cove",
   "centroid_lat": 50.5381659,
   "centroid_lng": -2.4277787,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "GB",
+  "admin_level_1": "England",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "gravel",
@@ -24,12 +24,43 @@
       "source_name": "wikidata",
       "source_id": "Q5116655",
       "source_url": "https://www.wikidata.org/wiki/Q5116655"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Church%20Ope%20Cove%20-%20geograph.org.uk%20-%201038763.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Church_Ope_Cove"
+    },
+    "safety": {
+      "cyclone_count_50yr": "1",
+      "cyclone_max_category": "TS"
+    }
+  },
+  "nearest_city": "Easton",
+  "nearest_city_distance_km": 1.7,
+  "nearest_airport": {
+    "iata": "YEO",
+    "name": "RNAS Yeovilton",
+    "distance_km": 54.5
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Church_Ope_Cove",
+  "notability_score": 23.7,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 42.0,
+      "f_pct": 6.6,
+      "l_pct": 51.4,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

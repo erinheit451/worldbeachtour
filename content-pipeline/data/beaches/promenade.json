@@ -3,8 +3,8 @@
   "name": "Promenade",
   "centroid_lat": 11.9321674,
   "centroid_lng": 79.8360554,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "IN",
+  "admin_level_1": "Pondicherry",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -19,15 +19,49 @@
       "source_name": "wikidata",
       "source_id": "Q16898816",
       "source_url": "https://www.wikidata.org/wiki/Q16898816"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "safety": {
-      "lifeguard": false
+      "lifeguard": false,
+      "cyclone_count_50yr": "23",
+      "cyclone_max_category": "4"
     },
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Beach%20Promenade%20at%20Pondicherry%20panorama.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Promenade_Beach"
+    }
+  },
+  "nearest_city": "Puducherry",
+  "nearest_city_distance_km": 0.7,
+  "nearest_airport": {
+    "iata": "PNY",
+    "name": "Pondicherry Airport",
+    "distance_km": 4.8
+  },
+  "safety": {
+    "lifeguard": false,
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "parking": true,
+    "restrooms": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Promenade_Beach",
+  "notability_score": 29.0,
+  "data_completeness_pct": 29.2,
+  "sand": {
+    "predicted": {
+      "q_pct": 94.7,
+      "f_pct": 0.9,
+      "l_pct": 4.4,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

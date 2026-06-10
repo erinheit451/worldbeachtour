@@ -3,8 +3,8 @@
   "name": "Marvé Beach",
   "centroid_lat": 19.1973,
   "centroid_lng": 72.7968,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "IN",
+  "admin_level_1": "Maharashtra",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -19,12 +19,43 @@
       "source_name": "wikidata",
       "source_id": "Q6778535",
       "source_url": "https://www.wikidata.org/wiki/Q6778535"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Marve-creek.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Marv%C3%A9_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "6",
+      "cyclone_max_category": "2"
+    }
+  },
+  "nearest_city": "Borivli",
+  "nearest_city_distance_km": 7.8,
+  "nearest_airport": {
+    "iata": "BOM",
+    "name": "Chhatrapati Shivaji Maharaj International Airport",
+    "distance_km": 14.2
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Marv%C3%A9_Beach",
+  "notability_score": 24.9,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 52.8,
+      "f_pct": 38.9,
+      "l_pct": 8.3,
+      "regime": "feldspar-rich (plutonic/crystalline terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

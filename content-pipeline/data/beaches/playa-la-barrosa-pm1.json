@@ -4,7 +4,7 @@
   "centroid_lat": 36.3687,
   "centroid_lng": -6.1815,
   "country_code": "ES",
-  "admin_level_1": null,
+  "admin_level_1": "Andalusia",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -34,6 +34,29 @@
     "environment": {
       "water_quality_rating": "1 - excellent",
       "eu_bathing_water_type": "Coastal"
+    }
+  },
+  "nearest_city": "Chiclana de la Frontera",
+  "nearest_city_distance_km": 6.3,
+  "nearest_airport": {
+    "iata": "ROZ",
+    "name": "Rota Naval Station Airport",
+    "distance_km": 34.2
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_de_la_Barrosa",
+  "notability_score": 26.0,
+  "data_completeness_pct": 20.8,
+  "sand": {
+    "predicted": {
+      "q_pct": 86.5,
+      "f_pct": 4.5,
+      "l_pct": 9.0,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

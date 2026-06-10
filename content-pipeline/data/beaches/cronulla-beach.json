@@ -3,8 +3,8 @@
   "name": "Cronulla Beach",
   "centroid_lat": -34.0550712,
   "centroid_lng": 151.155084,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "AU",
+  "admin_level_1": "New South Wales",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -24,15 +24,45 @@
       "source_name": "wikidata",
       "source_id": "Q5187744",
       "source_url": "https://www.wikidata.org/wiki/Q5187744"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "safety": {
-      "lifeguard": true
+      "lifeguard": true,
+      "cyclone_count_50yr": "0"
     },
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/South%20Cronulla%20Beach.JPG",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Cronulla_Beach"
     }
+  },
+  "nearest_city": "Cronulla",
+  "nearest_city_distance_km": 1.0,
+  "nearest_airport": {
+    "iata": "SYD",
+    "name": "Sydney Kingsford Smith International Airport",
+    "distance_km": 12.3
+  },
+  "safety": {
+    "lifeguard": true,
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cronulla_Beach",
+  "notability_score": 27.8,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 83.4,
+      "f_pct": 6.1,
+      "l_pct": 10.5,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "description": "Cronulla is derived from an Aboriginal word kurranulla, meaning 'place of pink seashells'."
   }
 }

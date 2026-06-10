@@ -3,11 +3,11 @@
   "name": "Blackpool Sands",
   "centroid_lat": 50.3192638,
   "centroid_lng": -3.6096751,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "GB",
+  "admin_level_1": "England",
   "admin_level_2": null,
   "water_body_type": "ocean",
-  "substrate_type": "unknown",
+  "substrate_type": "sand",
   "beach_length_m": null,
   "sources": [
     {
@@ -24,12 +24,44 @@
       "source_name": "wikidata",
       "source_id": "Q4923269",
       "source_url": "https://www.wikidata.org/wiki/Q4923269"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Blackpool%20Sands%20-%20geograph.org.uk%20-%2024244.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Blackpool_Sands,_Dartmouth"
+    },
+    "safety": {
+      "cyclone_count_50yr": "0",
+      "cyclone_max_category": "3"
     }
+  },
+  "nearest_city": "Dartmouth",
+  "nearest_city_distance_km": 4.2,
+  "nearest_airport": {
+    "iata": "EXT",
+    "name": "Exeter International Airport",
+    "distance_km": 48.2
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Blackpool_Sands,_Dartmouth",
+  "notability_score": 24.1,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 37.3,
+      "f_pct": 36.5,
+      "l_pct": 26.2,
+      "regime": "feldspar-rich (plutonic/crystalline terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "description": "The beach is formed of smooth small shingle; this has been cited as the cause of the water being \"astonishingly clear\"."
   }
 }

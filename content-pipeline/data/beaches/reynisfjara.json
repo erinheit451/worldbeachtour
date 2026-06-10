@@ -14,11 +14,20 @@
       "source_name": "osm",
       "source_id": "relation/13989221",
       "source_url": "https://www.openstreetmap.org/relation/13989221"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "facilities": {
       "wheelchair_access": false
+    },
+    "safety": {
+      "cyclone_count_50yr": "2",
+      "cyclone_max_category": "3"
     }
   },
   "nearest_city": "Vestmannaeyjar",
@@ -36,5 +45,24 @@
     "wheelchair_accessible": false
   },
   "notability_score": 0.0,
-  "data_completeness_pct": 16.7
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 3.2,
+      "f_pct": 11.1,
+      "l_pct": 85.8,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "black",
+    "curated": {
+      "story": "Reynisfjara's pitch-black sand is fragmented basalt from the Katla volcanic system, deposited by the turbulent North Atlantic. The beach is backed by columnar basalt cliffs where rapid cooling of thick lava produced regular hexagonal joints.",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Reynisfjara"
+      ],
+      "showcase_rank": 3,
+      "reference_photo_url": null,
+      "reference_photo_attribution": null
+    }
+  }
 }

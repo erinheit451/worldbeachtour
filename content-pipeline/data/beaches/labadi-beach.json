@@ -3,8 +3,8 @@
   "name": "Labadi Beach",
   "centroid_lat": 5.56242,
   "centroid_lng": -0.13943,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "GH",
+  "admin_level_1": "Greater Accra",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -20,6 +20,28 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Labadi%20beach.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Labadi_Beach"
+    }
+  },
+  "nearest_city": "Teshi Old Town",
+  "nearest_city_distance_km": 4.3,
+  "nearest_airport": {
+    "iata": "ACC",
+    "name": "Kotoka International Airport",
+    "distance_km": 5.6
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Labadi_Beach",
+  "notability_score": 24.8,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 95.6,
+      "f_pct": 1.6,
+      "l_pct": 2.8,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

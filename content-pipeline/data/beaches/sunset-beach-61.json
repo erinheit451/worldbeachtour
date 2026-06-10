@@ -3,8 +3,8 @@
   "name": "Sunset Beach",
   "centroid_lat": 21.6644,
   "centroid_lng": -158.052,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "Hawaii",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -14,12 +14,44 @@
       "source_name": "wikidata",
       "source_id": "Q7641228",
       "source_url": "https://www.wikidata.org/wiki/Q7641228"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/SunsetBeach.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Sunset_Beach_(Oahu)"
+    },
+    "safety": {
+      "cyclone_count_50yr": "8",
+      "cyclone_max_category": "4"
     }
+  },
+  "nearest_city": "Pupukea",
+  "nearest_city_distance_km": 1.4,
+  "nearest_airport": {
+    "iata": "NGF",
+    "name": "Kaneohe Bay MCAS (Marion E. Carl Field) Airport",
+    "distance_km": 37.8
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sunset_Beach_(Oahu)",
+  "notability_score": 25.0,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": null,
+      "f_pct": null,
+      "l_pct": null,
+      "regime": "unknown",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "description": "During December in 2017 following several long lasting episodes with at least 30' to 40' waves for several days, severe sand erosion, which formed a more than 20' cliff along the edge of bicycle trail, closed the beach the week before Christmas."
   }
 }

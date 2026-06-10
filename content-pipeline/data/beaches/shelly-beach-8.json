@@ -3,8 +3,8 @@
   "name": "Shelly Beach",
   "centroid_lat": -33.8005227,
   "centroid_lng": 151.2979356,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "AU",
+  "admin_level_1": "New South Wales",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -19,6 +19,11 @@
       "source_name": "wikidata",
       "source_id": "Q7493888",
       "source_url": "https://www.wikidata.org/wiki/Q7493888"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
@@ -28,7 +33,34 @@
       "wikipedia_url": "https://en.wikipedia.org/wiki/Shelly_Beach_(Manly)"
     },
     "safety": {
-      "lifeguard": false
+      "lifeguard": false,
+      "cyclone_count_50yr": "0"
+    }
+  },
+  "nearest_city": "Manly",
+  "nearest_city_distance_km": 0.9,
+  "nearest_airport": {
+    "iata": "SYD",
+    "name": "Sydney Kingsford Smith International Airport",
+    "distance_km": 19.7
+  },
+  "safety": {
+    "lifeguard": false,
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "dogs_allowed": false
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Shelly_Beach_(Manly)",
+  "notability_score": 26.6,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 80.6,
+      "f_pct": 1.4,
+      "l_pct": 18.1,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

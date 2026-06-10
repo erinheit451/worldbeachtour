@@ -3,8 +3,8 @@
   "name": "Lighthouse Beach",
   "centroid_lat": 40.6291207,
   "centroid_lng": -73.2205146,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "New York",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -24,6 +24,11 @@
       "source_name": "wikidata",
       "source_id": "Q6546317",
       "source_url": "https://www.wikidata.org/wiki/Q6546317"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
@@ -33,6 +38,32 @@
     },
     "facilities": {
       "access": "yes"
+    },
+    "safety": {
+      "cyclone_count_50yr": "17",
+      "cyclone_max_category": "5"
+    }
+  },
+  "nearest_city": "Bay Shore",
+  "nearest_city_distance_km": 10.9,
+  "nearest_airport": {
+    "iata": "ISP",
+    "name": "Long Island MacArthur Airport",
+    "distance_km": 21.1
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Lighthouse_Beach",
+  "notability_score": 25.2,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 33.1,
+      "f_pct": 9.8,
+      "l_pct": 57.1,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

@@ -3,8 +3,8 @@
   "name": "Kitsilano Beach",
   "centroid_lat": 49.2756821,
   "centroid_lng": -123.1542891,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "CA",
+  "admin_level_1": "British Columbia",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -30,6 +30,33 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kitsilano%20Beach%20Park%20Vancouver%20%2842912894340%29.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Kitsilano_Beach"
+    }
+  },
+  "nearest_city": "West End",
+  "nearest_city_distance_km": 1.7,
+  "nearest_airport": {
+    "iata": "YVR",
+    "name": "Vancouver International Airport",
+    "distance_km": 9.3
+  },
+  "safety": {
+    "lifeguard": true,
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "restrooms": true,
+    "showers": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Kitsilano_Beach",
+  "notability_score": 28.8,
+  "data_completeness_pct": 20.8,
+  "sand": {
+    "predicted": {
+      "q_pct": 38.8,
+      "f_pct": 37.4,
+      "l_pct": 23.8,
+      "regime": "feldspar-rich (plutonic/crystalline terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

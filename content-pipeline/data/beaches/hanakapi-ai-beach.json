@@ -3,8 +3,8 @@
   "name": "Hanakapiʻai Beach",
   "centroid_lat": 22.20934,
   "centroid_lng": -159.5979898,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "Hawaii",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -19,12 +19,43 @@
       "source_name": "wikidata",
       "source_id": "Q5646853",
       "source_url": "https://www.wikidata.org/wiki/Q5646853"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Hanakapiai%20Beach%2C%20Na%20Pali%20Coast%2C%20Kauai%2C%20Hawaii.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Hanak%C4%81p%C4%AB%CA%BBai_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "9",
+      "cyclone_max_category": "4"
+    }
+  },
+  "nearest_city": "Princeville",
+  "nearest_city_distance_km": 12.3,
+  "nearest_airport": {
+    "iata": "BKH",
+    "name": "Barking Sands Airport",
+    "distance_km": 28.3
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Hanak%C4%81p%C4%AB%CA%BBai_Beach",
+  "notability_score": 28.6,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": null,
+      "f_pct": null,
+      "l_pct": null,
+      "regime": "unknown",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

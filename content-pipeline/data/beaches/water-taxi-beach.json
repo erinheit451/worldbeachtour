@@ -14,11 +14,20 @@
       "source_name": "wikidata",
       "source_id": "Q7973408",
       "source_url": "https://www.wikidata.org/wiki/Q7973408"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "wikipedia_url": "https://en.wikipedia.org/wiki/Water_Taxi_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "16",
+      "cyclone_max_category": "5"
     }
   },
   "nearest_city": "Long Island City",
@@ -33,5 +42,14 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Water_Taxi_Beach",
   "notability_score": 28.6,
-  "data_completeness_pct": 16.7
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 36.9,
+      "f_pct": 10.8,
+      "l_pct": 52.3,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  }
 }

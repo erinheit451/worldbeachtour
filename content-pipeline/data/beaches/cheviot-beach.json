@@ -3,8 +3,8 @@
   "name": "Cheviot Beach",
   "centroid_lat": -38.3129732,
   "centroid_lng": 144.6672586,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "AU",
+  "admin_level_1": "Victoria",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -19,12 +19,42 @@
       "source_name": "wikidata",
       "source_id": "Q5094345",
       "source_url": "https://www.wikidata.org/wiki/Q5094345"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cheviot%20Beach.png",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Cheviot_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "0"
+    }
+  },
+  "nearest_city": "Queenscliff",
+  "nearest_city_distance_km": 5.0,
+  "nearest_airport": {
+    "iata": "AVV",
+    "name": "Melbourne Avalon International Airport",
+    "distance_km": 35.0
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cheviot_Beach",
+  "notability_score": 28.6,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 52.7,
+      "f_pct": 14.8,
+      "l_pct": 32.5,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

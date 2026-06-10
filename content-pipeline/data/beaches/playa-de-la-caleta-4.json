@@ -3,8 +3,8 @@
   "name": "Playa de La Caleta",
   "centroid_lat": 36.5301604,
   "centroid_lng": -6.3061737,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "ES",
+  "admin_level_1": "Andalusia",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -42,6 +42,34 @@
     "environment": {
       "water_quality_rating": "1 - excellent",
       "eu_bathing_water_type": "Coastal"
+    }
+  },
+  "nearest_city": "Cadiz",
+  "nearest_city_distance_km": 1.0,
+  "nearest_airport": {
+    "iata": "ROZ",
+    "name": "Rota Naval Station Airport",
+    "distance_km": 13.4
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "lifeguard": true,
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "restrooms": true,
+    "showers": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/La_Caleta,_Spain",
+  "notability_score": 31.7,
+  "data_completeness_pct": 29.2,
+  "sand": {
+    "predicted": {
+      "q_pct": 78.2,
+      "f_pct": 4.1,
+      "l_pct": 17.6,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

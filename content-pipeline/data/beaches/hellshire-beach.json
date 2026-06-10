@@ -3,8 +3,8 @@
   "name": "Hellshire Beach",
   "centroid_lat": 17.8968129,
   "centroid_lng": -76.893826,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "JM",
+  "admin_level_1": "Saint Catherine",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -19,11 +19,18 @@
       "source_name": "wikidata",
       "source_id": "Q15223535",
       "source_url": "https://www.wikidata.org/wiki/Q15223535"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "safety": {
-      "lifeguard": false
+      "lifeguard": false,
+      "cyclone_count_50yr": "15",
+      "cyclone_max_category": "5"
     },
     "facilities": {
       "access": "yes"
@@ -35,5 +42,29 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Hellshire-beach.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Hellshire_Beach"
     }
+  },
+  "nearest_city": "Portmore",
+  "nearest_city_distance_km": 6.1,
+  "nearest_airport": {
+    "iata": "KIN",
+    "name": "Norman Manley International Airport",
+    "distance_km": 12.1
+  },
+  "safety": {
+    "lifeguard": false,
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Hellshire_Beach",
+  "notability_score": 24.4,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 74.7,
+      "f_pct": 2.2,
+      "l_pct": 23.1,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "white"
   }
 }

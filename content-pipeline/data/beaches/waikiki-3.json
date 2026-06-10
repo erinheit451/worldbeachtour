@@ -14,12 +14,21 @@
       "source_name": "wikidata",
       "source_id": "Q254861",
       "source_url": "https://www.wikidata.org/wiki/Q254861"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Waikiki%20Beach%20%282024%29-L1004709.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Waik%C4%ABk%C4%AB"
+    },
+    "safety": {
+      "cyclone_count_50yr": "7",
+      "cyclone_max_category": "4"
     }
   },
   "nearest_city": "Honolulu",
@@ -34,5 +43,16 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Waik%C4%ABk%C4%AB",
   "notability_score": 33.9,
-  "data_completeness_pct": 25.0
+  "data_completeness_pct": 25.0,
+  "sand": {
+    "predicted": {
+      "q_pct": null,
+      "f_pct": null,
+      "l_pct": null,
+      "regime": "unknown",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "golden",
+    "description": "The sandy beach is almost entirely man-made."
+  }
 }

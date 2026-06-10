@@ -3,8 +3,8 @@
   "name": "Poetto",
   "centroid_lat": 39.2082707,
   "centroid_lng": 9.1775973,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "IT",
+  "admin_level_1": "Sardinia",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -26,5 +26,29 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Poetto%20beach.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Poetto"
     }
+  },
+  "nearest_city": "Quartucciu",
+  "nearest_city_distance_km": 4.9,
+  "nearest_airport": {
+    "iata": "CAG",
+    "name": "Cagliari Elmas Airport",
+    "distance_km": 11.7
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Poetto",
+  "notability_score": 26.5,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 78.6,
+      "f_pct": 11.2,
+      "l_pct": 10.2,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "white",
+    "description": "However, the result was not as successful as expected: the white, fine-grained sand was replaced by sand of a completely different color, size and consistency."
   }
 }

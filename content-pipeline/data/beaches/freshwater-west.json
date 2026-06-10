@@ -3,8 +3,8 @@
   "name": "Freshwater West",
   "centroid_lat": 51.6588391,
   "centroid_lng": -5.0649146,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "GB",
+  "admin_level_1": "Wales",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -19,6 +19,11 @@
       "source_name": "wikidata",
       "source_id": "Q5503127",
       "source_url": "https://www.wikidata.org/wiki/Q5503127"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
@@ -28,6 +33,32 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Access%20path%20to%20Freshwater%20West%20beach%20-%20geograph.org.uk%20-%205427785.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Freshwater_West"
+    },
+    "safety": {
+      "cyclone_count_50yr": "3",
+      "cyclone_max_category": "4"
+    }
+  },
+  "nearest_city": "Castlemartin",
+  "nearest_city_distance_km": 3.6,
+  "nearest_airport": {
+    "iata": "HAW",
+    "name": "Haverfordwest Airport",
+    "distance_km": 20.7
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Freshwater_West",
+  "notability_score": 27.2,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 33.1,
+      "f_pct": 8.0,
+      "l_pct": 58.9,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

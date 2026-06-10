@@ -3,8 +3,8 @@
   "name": "Nantasket Beach",
   "centroid_lat": 42.2703,
   "centroid_lng": -70.8547,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "Massachusetts",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -14,12 +14,45 @@
       "source_name": "wikidata",
       "source_id": "Q1964753",
       "source_url": "https://www.wikidata.org/wiki/Q1964753"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/General%20View%2C%20Nantasket%20Beach%2C%20MA.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Nantasket_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "13",
+      "cyclone_max_category": "5"
     }
+  },
+  "nearest_city": "Hingham",
+  "nearest_city_distance_km": 4.3,
+  "nearest_airport": {
+    "iata": "BOS",
+    "name": "Boston Logan International Airport",
+    "distance_km": 16.2
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Nantasket_Beach",
+  "notability_score": 25.9,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 29.2,
+      "f_pct": 67.6,
+      "l_pct": 3.3,
+      "regime": "feldspar-rich (plutonic/crystalline terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "grey",
+    "description": "The shore has fine, light gray sand and is one of the most highly rated beaches in Greater Boston."
   }
 }

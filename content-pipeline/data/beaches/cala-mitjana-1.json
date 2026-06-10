@@ -3,8 +3,8 @@
   "name": "Cala Mitjana",
   "centroid_lat": 39.9344356,
   "centroid_lng": 3.9727991,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "ES",
+  "admin_level_1": "Balearic Islands",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -25,6 +25,28 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20Mitjana.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Cala_Mitjana"
+    }
+  },
+  "nearest_city": "Ferreries",
+  "nearest_city_distance_km": 6.4,
+  "nearest_airport": {
+    "iata": "MAH",
+    "name": "Menorca Airport",
+    "distance_km": 22.4
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cala_Mitjana",
+  "notability_score": 24.7,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 64.6,
+      "f_pct": 4.4,
+      "l_pct": 31.1,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

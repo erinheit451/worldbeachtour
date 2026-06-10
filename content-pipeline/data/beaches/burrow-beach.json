@@ -3,8 +3,8 @@
   "name": "Burrow Beach",
   "centroid_lat": 53.3943468,
   "centroid_lng": -6.1018313,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "IE",
+  "admin_level_1": "Leinster",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -29,6 +29,11 @@
       "source_name": "eu_bathing",
       "source_id": "IEEABWC070_0000_0100",
       "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
@@ -38,6 +43,34 @@
     "environment": {
       "water_quality_rating": "2 - good",
       "eu_bathing_water_type": "Coastal"
+    },
+    "safety": {
+      "cyclone_count_50yr": "0",
+      "cyclone_max_category": "3"
     }
+  },
+  "nearest_city": "Sutton",
+  "nearest_city_distance_km": 0.8,
+  "nearest_airport": {
+    "iata": "DUB",
+    "name": "Dublin Airport",
+    "distance_km": 11.3
+  },
+  "safety": {
+    "water_quality_rating": "2 - good",
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Burrow_Beach",
+  "notability_score": 28.0,
+  "data_completeness_pct": 20.8,
+  "sand": {
+    "predicted": {
+      "q_pct": 50.2,
+      "f_pct": 11.7,
+      "l_pct": 38.1,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "description": "2km long sandy beach and contains a large area of sand dunes."
   }
 }

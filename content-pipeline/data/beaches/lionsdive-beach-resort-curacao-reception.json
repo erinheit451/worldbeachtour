@@ -3,8 +3,8 @@
   "name": "LionsDive Beach Resort Curaçao reception",
   "centroid_lat": 12.0857728,
   "centroid_lng": -68.8972158,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "CW",
+  "admin_level_1": "",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -49,12 +49,43 @@
       "source_name": "wikidata",
       "source_id": "Q22088885",
       "source_url": "https://www.wikidata.org/wiki/Q22088885"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wilhemstad%20from%20the%20coast.JPG",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Seaquarium_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "7",
+      "cyclone_max_category": "5"
+    }
+  },
+  "nearest_city": "Willemstad",
+  "nearest_city_distance_km": 4.7,
+  "nearest_airport": {
+    "iata": "CUR",
+    "name": "Hato International Airport",
+    "distance_km": 13.3
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Seaquarium_Beach",
+  "notability_score": 28.3,
+  "data_completeness_pct": 20.8,
+  "sand": {
+    "predicted": {
+      "q_pct": 93.6,
+      "f_pct": 3.1,
+      "l_pct": 3.3,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

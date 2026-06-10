@@ -14,12 +14,21 @@
       "source_name": "wikidata",
       "source_id": "Q1186221",
       "source_url": "https://www.wikidata.org/wiki/Q1186221"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/90mile%20beach%20nz%20landsatimage.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Ninety_Mile_Beach,_New_Zealand"
+    },
+    "safety": {
+      "cyclone_count_50yr": "6",
+      "cyclone_max_category": "3"
     }
   },
   "nearest_city": "Ahipara",
@@ -34,5 +43,14 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ninety_Mile_Beach,_New_Zealand",
   "notability_score": 29.2,
-  "data_completeness_pct": 20.8
+  "data_completeness_pct": 20.8,
+  "sand": {
+    "predicted": {
+      "q_pct": 68.6,
+      "f_pct": 2.7,
+      "l_pct": 28.7,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  }
 }

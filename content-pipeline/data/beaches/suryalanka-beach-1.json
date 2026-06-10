@@ -3,8 +3,8 @@
   "name": "Suryalanka Beach",
   "centroid_lat": 15.8345,
   "centroid_lng": 80.5051,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "IN",
+  "admin_level_1": "Andhra Pradesh",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -14,11 +14,42 @@
       "source_name": "wikidata",
       "source_id": "Q7647409",
       "source_url": "https://www.wikidata.org/wiki/Q7647409"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "wikipedia_url": "https://en.wikipedia.org/wiki/Suryalanka_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "24",
+      "cyclone_max_category": "4"
+    }
+  },
+  "nearest_city": "Bapatla",
+  "nearest_city_distance_km": 8.7,
+  "nearest_airport": {
+    "iata": "VGA",
+    "name": "Vijayawada International Airport",
+    "distance_km": 83.7
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Suryalanka_Beach",
+  "notability_score": 27.2,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 88.4,
+      "f_pct": 5.0,
+      "l_pct": 6.5,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

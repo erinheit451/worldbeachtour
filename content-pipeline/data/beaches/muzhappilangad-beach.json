@@ -19,6 +19,11 @@
       "source_name": "wikidata",
       "source_id": "Q12062240",
       "source_url": "https://www.wikidata.org/wiki/Q12062240"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
@@ -28,6 +33,10 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Muzhappilangad%20beach12.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Muzhappilangad_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "10",
+      "cyclone_max_category": "4"
     }
   },
   "nearest_city": "Mulappilangad",
@@ -42,5 +51,14 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Muzhappilangad_Beach",
   "notability_score": 30.6,
-  "data_completeness_pct": 20.8
+  "data_completeness_pct": 20.8,
+  "sand": {
+    "predicted": {
+      "q_pct": 93.5,
+      "f_pct": 3.9,
+      "l_pct": 2.6,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  }
 }

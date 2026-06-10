@@ -14,11 +14,20 @@
       "source_name": "wikidata",
       "source_id": "Q28180338",
       "source_url": "https://www.wikidata.org/wiki/Q28180338"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "wikipedia_url": "https://en.wikipedia.org/wiki/Dhanushkodi_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "10",
+      "cyclone_max_category": "TS"
     }
   },
   "nearest_city": "Rameswaram",
@@ -33,5 +42,14 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Dhanushkodi_Beach",
   "notability_score": 28.9,
-  "data_completeness_pct": 20.8
+  "data_completeness_pct": 20.8,
+  "sand": {
+    "predicted": {
+      "q_pct": 91.9,
+      "f_pct": 3.9,
+      "l_pct": 4.2,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  }
 }

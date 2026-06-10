@@ -3,8 +3,8 @@
   "name": "Amager Strandpark",
   "centroid_lat": 55.6564243,
   "centroid_lng": 12.6411835,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "DK",
+  "admin_level_1": "Capital Region",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -50,6 +50,33 @@
     "environment": {
       "water_quality_rating": "1 - excellent",
       "eu_bathing_water_type": "Coastal"
+    }
+  },
+  "nearest_city": "Tarnby",
+  "nearest_city_distance_km": 3.9,
+  "nearest_airport": {
+    "iata": "CPH",
+    "name": "Copenhagen Kastrup Airport",
+    "distance_km": 4.4
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "restrooms": true,
+    "dogs_allowed": false
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Amager_Strandpark",
+  "notability_score": 33.6,
+  "data_completeness_pct": 33.3,
+  "sand": {
+    "predicted": {
+      "q_pct": 36.6,
+      "f_pct": 13.4,
+      "l_pct": 50.0,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

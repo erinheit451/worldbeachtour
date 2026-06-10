@@ -3,8 +3,8 @@
   "name": "Poʻipū Beach",
   "centroid_lat": 21.8731715,
   "centroid_lng": -159.4549377,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "Hawaii",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -29,12 +29,43 @@
       "source_name": "wikidata",
       "source_id": "Q49325181",
       "source_url": "https://www.wikidata.org/wiki/Q49325181"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Aerial-Poipu-Beach-Park-Kauai.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Po%CA%BBip%C5%AB_Beach_Park"
+    },
+    "safety": {
+      "cyclone_count_50yr": "8",
+      "cyclone_max_category": "4"
+    }
+  },
+  "nearest_city": "Koloa",
+  "nearest_city_distance_km": 3.4,
+  "nearest_airport": {
+    "iata": "LIH",
+    "name": "Lihue Airport",
+    "distance_km": 16.6
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Po%CA%BBip%C5%AB_Beach_Park",
+  "notability_score": 24.3,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": null,
+      "f_pct": null,
+      "l_pct": null,
+      "regime": "unknown",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

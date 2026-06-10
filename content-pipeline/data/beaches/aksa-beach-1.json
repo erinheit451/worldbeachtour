@@ -14,12 +14,21 @@
       "source_name": "wikidata",
       "source_id": "Q4701731",
       "source_url": "https://www.wikidata.org/wiki/Q4701731"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Aksa%20Beach%20afternoon.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Aksa_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "6",
+      "cyclone_max_category": "2"
     }
   },
   "nearest_city": "Borivli",
@@ -34,5 +43,14 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Aksa_Beach",
   "notability_score": 29.1,
-  "data_completeness_pct": 20.8
+  "data_completeness_pct": 20.8,
+  "sand": {
+    "predicted": {
+      "q_pct": 52.8,
+      "f_pct": 38.9,
+      "l_pct": 8.3,
+      "regime": "feldspar-rich (plutonic/crystalline terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  }
 }

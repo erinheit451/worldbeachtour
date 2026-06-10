@@ -3,8 +3,8 @@
   "name": "Playa de las Teresitas",
   "centroid_lat": 28.507964,
   "centroid_lng": -16.1843439,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "ES",
+  "admin_level_1": "Canary Islands",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -26,5 +26,33 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Las%20Teresitas%2C%20Tenerife%204.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_de_Las_Teresitas"
     }
+  },
+  "nearest_city": "Santa Cruz de Tenerife",
+  "nearest_city_distance_km": 8.2,
+  "nearest_airport": {
+    "iata": "TFN",
+    "name": "Tenerife Norte-Ciudad de La Laguna Airport",
+    "distance_km": 15.6
+  },
+  "safety": {
+    "lifeguard": true,
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "restrooms": true,
+    "showers": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Playa_de_Las_Teresitas",
+  "notability_score": 29.6,
+  "data_completeness_pct": 25.0,
+  "sand": {
+    "predicted": {
+      "q_pct": 15.2,
+      "f_pct": 6.3,
+      "l_pct": 78.5,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "white"
   }
 }

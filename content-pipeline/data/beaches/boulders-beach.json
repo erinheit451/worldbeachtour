@@ -39,5 +39,15 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Boulders_Beach",
   "notability_score": 32.8,
-  "data_completeness_pct": 25.0
+  "data_completeness_pct": 25.0,
+  "sand": {
+    "predicted": {
+      "q_pct": 91.4,
+      "f_pct": 1.2,
+      "l_pct": 7.4,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "golden"
+  }
 }

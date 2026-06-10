@@ -3,8 +3,8 @@
   "name": "Alona Beach",
   "centroid_lat": 9.5483086,
   "centroid_lng": 123.7723366,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "PH",
+  "admin_level_1": "Central Visayas",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -19,12 +19,45 @@
       "source_name": "wikidata",
       "source_id": "Q17485759",
       "source_url": "https://www.wikidata.org/wiki/Q17485759"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Alona%20Beach%20Overview.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Alona_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "36",
+      "cyclone_max_category": "3"
     }
+  },
+  "nearest_city": "Tawala",
+  "nearest_city_distance_km": 0.7,
+  "nearest_airport": {
+    "iata": "TAG",
+    "name": "Bohol-Panglao International Airport",
+    "distance_km": 2.8
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Alona_Beach",
+  "notability_score": 27.5,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 91.7,
+      "f_pct": 3.4,
+      "l_pct": 4.9,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "white",
+    "description": "The beach is situated less than two miles from the Bohol-Panglao International Airport  It is known for its white sand, rocky cliffs, and commercial facilities that line the 1 kilometre (0."
   }
 }

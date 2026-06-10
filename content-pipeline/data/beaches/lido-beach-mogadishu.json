@@ -3,8 +3,8 @@
   "name": "Lido Beach, Mogadishu",
   "centroid_lat": 2.039751,
   "centroid_lng": 45.363723,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "SO",
+  "admin_level_1": "Banaadir",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -19,6 +19,28 @@
   "attributes": {
     "social": {
       "wikipedia_url": "https://en.wikipedia.org/wiki/Lido_Beach,_Mogadishu"
+    }
+  },
+  "nearest_city": "Mogadishu",
+  "nearest_city_distance_km": 2.2,
+  "nearest_airport": {
+    "iata": "MGQ",
+    "name": "Aden Adde International Airport",
+    "distance_km": 7.1
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Lido_Beach,_Mogadishu",
+  "notability_score": 25.1,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 93.4,
+      "f_pct": 3.8,
+      "l_pct": 2.8,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

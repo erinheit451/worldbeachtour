@@ -3,8 +3,8 @@
   "name": "Weymouth Beach",
   "centroid_lat": 50.6113,
   "centroid_lng": -2.4525,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "GB",
+  "admin_level_1": "England",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -19,12 +19,44 @@
       "source_name": "wikidata",
       "source_id": "Q7990355",
       "source_url": "https://www.wikidata.org/wiki/Q7990355"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Weymouth%20beach%20in%20July%202011.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Weymouth_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "1",
+      "cyclone_max_category": "TS"
     }
+  },
+  "nearest_city": "Weymouth",
+  "nearest_city_distance_km": 0.6,
+  "nearest_airport": {
+    "iata": "YEO",
+    "name": "RNAS Yeovilton",
+    "distance_km": 46.2
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Weymouth_Beach",
+  "notability_score": 26.1,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 42.0,
+      "f_pct": 6.6,
+      "l_pct": 51.4,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "golden"
   }
 }

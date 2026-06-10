@@ -3,8 +3,8 @@
   "name": "Guardalavaca",
   "centroid_lat": 21.125,
   "centroid_lng": -75.828888888,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "CU",
+  "admin_level_1": "Holguin",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -19,12 +19,45 @@
       "source_name": "wikidata",
       "source_id": "Q115358",
       "source_url": "https://www.wikidata.org/wiki/Q115358"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Guardalavaca%20beach.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Guardalavaca"
+    },
+    "safety": {
+      "cyclone_count_50yr": "20",
+      "cyclone_max_category": "5"
     }
+  },
+  "nearest_city": "Banes",
+  "nearest_city_distance_km": 21.4,
+  "nearest_airport": {
+    "iata": "HOG",
+    "name": "Frank Pais International Airport",
+    "distance_km": 63.1
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Guardalavaca",
+  "notability_score": 24.6,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 77.5,
+      "f_pct": 10.4,
+      "l_pct": 12.1,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "white",
+    "description": "All of these beaches feature coral sand and are protected by coral reefs and feature all-inclusive hotels."
   }
 }

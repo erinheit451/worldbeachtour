@@ -3,8 +3,8 @@
   "name": "Praia do Gunga",
   "centroid_lat": -9.860886,
   "centroid_lng": -35.9044241,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "BR",
+  "admin_level_1": "Alagoas",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -25,6 +25,28 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20do%20Gunga%20140.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_do_Gunga"
+    }
+  },
+  "nearest_city": "Marechal Deodoro",
+  "nearest_city_distance_km": 16.8,
+  "nearest_airport": {
+    "iata": "MCZ",
+    "name": "Zumbi dos Palmares International Airport",
+    "distance_km": 40.7
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_do_Gunga",
+  "notability_score": 26.3,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 86.1,
+      "f_pct": 2.3,
+      "l_pct": 11.6,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

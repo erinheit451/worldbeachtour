@@ -3,18 +3,50 @@
   "name": "Brighton Beach",
   "centroid_lat": 50.8189093,
   "centroid_lng": -0.1380384,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "GB",
+  "admin_level_1": "Brighton and Hove, England",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "pebble",
-  "beach_length_m": null,
+  "beach_length_m": 8000.0,
   "sources": [
     {
       "source_name": "osm",
       "source_id": "way/96624947",
       "source_url": "https://www.openstreetmap.org/way/96624947"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
-  "attributes": {}
+  "attributes": {
+    "safety": {
+      "cyclone_count_50yr": "0",
+      "cyclone_max_category": "3"
+    }
+  },
+  "nearest_city": "Brighton",
+  "nearest_city_distance_km": 1.1,
+  "nearest_airport": {
+    "iata": "ESH",
+    "name": "Brighton City Airport",
+    "distance_km": 11.3
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Brighton",
+  "notability_score": 0.0,
+  "data_completeness_pct": 12.5,
+  "sand": {
+    "predicted": {
+      "q_pct": 45.6,
+      "f_pct": 7.1,
+      "l_pct": 47.4,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  }
 }

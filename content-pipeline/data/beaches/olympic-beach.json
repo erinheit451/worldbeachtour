@@ -3,8 +3,8 @@
   "name": "Olympic Beach",
   "centroid_lat": 40.2379222,
   "centroid_lng": 22.5880636,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "GR",
+  "admin_level_1": "Central Macedonia",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -132,6 +132,29 @@
     "environment": {
       "water_quality_rating": "1 - excellent",
       "eu_bathing_water_type": "Coastal"
+    }
+  },
+  "nearest_city": "Paralia",
+  "nearest_city_distance_km": 3.3,
+  "nearest_airport": {
+    "iata": "SKG",
+    "name": "Thessaloniki Macedonia International Airport",
+    "distance_km": 45.0
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Olympiaki_Akti",
+  "notability_score": 32.9,
+  "data_completeness_pct": 29.2,
+  "sand": {
+    "predicted": {
+      "q_pct": 50.9,
+      "f_pct": 6.4,
+      "l_pct": 42.7,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

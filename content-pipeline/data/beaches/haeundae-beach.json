@@ -14,12 +14,21 @@
       "source_name": "wikidata",
       "source_id": "Q491203",
       "source_url": "https://www.wikidata.org/wiki/Q491203"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Haeundae%20Beach%20in%20Busan.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Haeundae_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "41",
+      "cyclone_max_category": "4"
     }
   },
   "nearest_city": "Kijang",
@@ -39,5 +48,15 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Haeundae_Beach",
   "notability_score": 29.3,
-  "data_completeness_pct": 29.2
+  "data_completeness_pct": 29.2,
+  "sand": {
+    "predicted": {
+      "q_pct": 5.7,
+      "f_pct": 42.6,
+      "l_pct": 51.7,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "description": "There is also Haeundae Sand Festival, the only sand-related eco-festival in Korea, during which artwork made of sand is featured and activities are available for visitors."
+  }
 }

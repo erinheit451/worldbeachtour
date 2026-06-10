@@ -3,8 +3,8 @@
   "name": "Spanish Banks Beach",
   "centroid_lat": 49.2771058,
   "centroid_lng": -123.2196703,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "CA",
+  "admin_level_1": "British Columbia",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -25,6 +25,28 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Spanish%20Banks%20Sports.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Spanish_Banks"
+    }
+  },
+  "nearest_city": "West End",
+  "nearest_city_distance_km": 6.3,
+  "nearest_airport": {
+    "iata": "YVR",
+    "name": "Vancouver International Airport",
+    "distance_km": 9.6
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Spanish_Banks",
+  "notability_score": 24.4,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 38.8,
+      "f_pct": 37.4,
+      "l_pct": 23.8,
+      "regime": "feldspar-rich (plutonic/crystalline terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

@@ -3,8 +3,8 @@
   "name": "Radhanagar Beach",
   "centroid_lat": 11.982,
   "centroid_lng": 92.964,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "IN",
+  "admin_level_1": "Andaman and Nicobar Islands",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -14,11 +14,44 @@
       "source_name": "wikidata",
       "source_id": "Q132189910",
       "source_url": "https://www.wikidata.org/wiki/Q132189910"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "wikipedia_url": "https://en.wikipedia.org/wiki/Radhanagar_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "16",
+      "cyclone_max_category": "4"
     }
+  },
+  "nearest_city": "Bamboo Flat",
+  "nearest_city_distance_km": 41.3,
+  "nearest_airport": {
+    "iata": "IXZ",
+    "name": "Veer Savarkar International Airport / INS Utkrosh",
+    "distance_km": 45.8
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Radhanagar_Beach",
+  "notability_score": 26.6,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 86.5,
+      "f_pct": 4.0,
+      "l_pct": 9.5,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "white",
+    "description": "The beach is known for its white sand, clear turquoise waters, and dense tropical forests."
   }
 }

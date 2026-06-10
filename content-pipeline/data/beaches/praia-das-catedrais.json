@@ -3,8 +3,8 @@
   "name": "Praia das Catedrais",
   "centroid_lat": 43.5543298,
   "centroid_lng": -7.1562917,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "ES",
+  "admin_level_1": "Galicia",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -29,6 +29,11 @@
       "source_name": "eu_bathing",
       "source_id": "ES112M051258",
       "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
@@ -39,6 +44,38 @@
     "environment": {
       "water_quality_rating": "1 - excellent",
       "eu_bathing_water_type": "Coastal"
+    },
+    "safety": {
+      "cyclone_count_50yr": "3",
+      "cyclone_max_category": "4"
     }
+  },
+  "nearest_city": "Barreiros",
+  "nearest_city_distance_km": 6.6,
+  "nearest_airport": {
+    "iata": "OVD",
+    "name": "Asturias Airport",
+    "distance_km": 90.4
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "restrooms": true,
+    "showers": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/As_Catedrais_beach",
+  "notability_score": 34.1,
+  "data_completeness_pct": 29.2,
+  "sand": {
+    "predicted": {
+      "q_pct": 30.5,
+      "f_pct": 10.1,
+      "l_pct": 59.4,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "description": "At low tide, there is access to a sand deposit delimited by a rocky wall made from slate and schist forming 30 metre arches resembling cathedral flying buttresses, large caves, sand corridors between rocky blocks, and other geological features."
   }
 }

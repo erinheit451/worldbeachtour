@@ -3,8 +3,8 @@
   "name": "Wipeout Beach",
   "centroid_lat": 32.8451887,
   "centroid_lng": -117.2789804,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "California",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -39,12 +39,46 @@
       "source_name": "wikidata",
       "source_id": "Q137485450",
       "source_url": "https://www.wikidata.org/wiki/Q137485450"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/LaJolla%20childrenspool.JPG",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Children%27s_Pool_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "1",
+      "cyclone_max_category": "4"
+    }
+  },
+  "nearest_city": "La Jolla",
+  "nearest_city_distance_km": 0.5,
+  "nearest_airport": {
+    "iata": "NKX",
+    "name": "Miramar Marine Corps Air Station - Mitscher Field",
+    "distance_km": 13.0
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "restrooms": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Children%27s_Pool_Beach",
+  "notability_score": 34.8,
+  "data_completeness_pct": 29.2,
+  "sand": {
+    "predicted": {
+      "q_pct": 64.9,
+      "f_pct": 19.0,
+      "l_pct": 16.1,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

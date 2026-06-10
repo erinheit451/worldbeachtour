@@ -3,8 +3,8 @@
   "name": "Bowling Ball Beach",
   "centroid_lat": 38.8707428,
   "centroid_lng": -123.6583486,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "California",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -25,6 +25,28 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bowling%20Balls%20Beach%202%20edit.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Bowling_Ball_Beach"
+    }
+  },
+  "nearest_city": "Sea Ranch",
+  "nearest_city_distance_km": 24.7,
+  "nearest_airport": {
+    "iata": "UKI",
+    "name": "Ukiah Municipal Airport",
+    "distance_km": 48.7
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Bowling_Ball_Beach",
+  "notability_score": 25.8,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 14.8,
+      "f_pct": 8.4,
+      "l_pct": 76.8,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

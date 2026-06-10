@@ -3,8 +3,8 @@
   "name": "Cala Salada",
   "centroid_lat": 39.0095194,
   "centroid_lng": 1.2990834,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "ES",
+  "admin_level_1": "Balearic Islands",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "pebble",
@@ -57,6 +57,32 @@
     "environment": {
       "water_quality_rating": "1 - excellent",
       "eu_bathing_water_type": "Coastal"
+    }
+  },
+  "nearest_city": "Sant Antoni de Portmany",
+  "nearest_city_distance_km": 3.2,
+  "nearest_airport": {
+    "iata": "IBZ",
+    "name": "Ibiza Airport",
+    "distance_km": 16.5
+  },
+  "safety": {
+    "water_quality_rating": "1 - excellent",
+    "shark_incidents_total": 0
+  },
+  "facilities": {
+    "wheelchair_accessible": true
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cala_Salada",
+  "notability_score": 28.8,
+  "data_completeness_pct": 29.2,
+  "sand": {
+    "predicted": {
+      "q_pct": 59.1,
+      "f_pct": 3.5,
+      "l_pct": 37.4,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

@@ -14,12 +14,21 @@
       "source_name": "wikidata",
       "source_id": "Q99519364",
       "source_url": "https://www.wikidata.org/wiki/Q99519364"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Manila%20Bay%20beach%20%28Roxas%20Boulevard%2C%20Manila%3B%2009-19-2020%29%20wiki.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Manila_Dolomite_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "69",
+      "cyclone_max_category": "4"
     }
   },
   "nearest_city": "Port Area",
@@ -34,5 +43,15 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Manila_Dolomite_Beach",
   "notability_score": 28.5,
-  "data_completeness_pct": 16.7
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 78.9,
+      "f_pct": 5.4,
+      "l_pct": 15.7,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "black"
+  }
 }

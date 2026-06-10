@@ -24,12 +24,21 @@
       "source_name": "wikidata",
       "source_id": "Q26793807",
       "source_url": "https://www.wikidata.org/wiki/Q26793807"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Mumbai%2C%20India%2C%20Bombay%2C%20Chowpatty%20%28Chaupati%29%20Beach.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Girgaon_Chowpatty"
+    },
+    "safety": {
+      "cyclone_count_50yr": "6",
+      "cyclone_max_category": "2"
     }
   },
   "nearest_city": "Mumbai",
@@ -44,5 +53,14 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Girgaon_Chowpatty",
   "notability_score": 33.7,
-  "data_completeness_pct": 20.8
+  "data_completeness_pct": 20.8,
+  "sand": {
+    "predicted": {
+      "q_pct": 52.8,
+      "f_pct": 38.9,
+      "l_pct": 8.3,
+      "regime": "feldspar-rich (plutonic/crystalline terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  }
 }

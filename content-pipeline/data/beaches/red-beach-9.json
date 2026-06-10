@@ -3,8 +3,8 @@
   "name": "Red Beach",
   "centroid_lat": 36.348680555,
   "centroid_lng": 25.394436111,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "GR",
+  "admin_level_1": "South Aegean",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -21,5 +21,29 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Red%20Beach%20-%20Panorama%20-%20Santorini%20-%20Grecia%20-%20agosto%202018.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Red_Beach_(Santorini)"
     }
+  },
+  "nearest_city": "Emporeio",
+  "nearest_city_distance_km": 4.6,
+  "nearest_airport": {
+    "iata": "JTR",
+    "name": "Santorini International Airport",
+    "distance_km": 9.5
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Red_Beach_(Santorini)",
+  "notability_score": 24.6,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 63.4,
+      "f_pct": 3.7,
+      "l_pct": 33.0,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "red",
+    "description": "The beach's sand is composed of black and red pulverized volcanic rock from the nearby Santorini caldera."
   }
 }

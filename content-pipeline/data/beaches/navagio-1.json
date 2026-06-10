@@ -35,5 +35,23 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Navagio_Beach",
   "notability_score": 32.2,
-  "data_completeness_pct": 20.8
+  "data_completeness_pct": 20.8,
+  "sand": {
+    "predicted": {
+      "q_pct": 64.8,
+      "f_pct": 1.2,
+      "l_pct": 34.0,
+      "regime": "mixed Q-F-L",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "curated": {
+      "story": "Navagio's sand is pale limestone gravel and fine carbonate, the weathered remains of the Triassic limestone cliffs that enclose the cove. The sand is noticeably brighter than surrounding beaches because it contains almost no silicate minerals — only dissolved and re-precipitated calcium carbonate.",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Navagio"
+      ],
+      "showcase_rank": 8,
+      "reference_photo_url": null,
+      "reference_photo_attribution": null
+    }
+  }
 }

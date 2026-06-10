@@ -3,8 +3,8 @@
   "name": "Konyaaltı Sahili",
   "centroid_lat": 36.8624852,
   "centroid_lng": 30.6463598,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "TR",
+  "admin_level_1": "Antalya",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "gravel",
@@ -26,5 +26,28 @@
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Konyaalt%C4%B1%20Plaj%C4%B1%20-%20panoramio.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Konyaalt%C4%B1_Beach"
     }
+  },
+  "nearest_city": "Antalya",
+  "nearest_city_distance_km": 6.7,
+  "nearest_airport": {
+    "iata": "AYT",
+    "name": "Antalya International Airport",
+    "distance_km": 14.3
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Konyaalt%C4%B1_Beach",
+  "notability_score": 27.7,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 85.1,
+      "f_pct": 2.2,
+      "l_pct": 12.7,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "description": "The beach is located on the western side of the city and stretches for 13 km primarily composed of fine pebbles, but also has some sand."
   }
 }

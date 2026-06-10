@@ -14,6 +14,11 @@
       "source_name": "osm",
       "source_id": "way/218679862",
       "source_url": "https://www.openstreetmap.org/way/218679862"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
@@ -25,6 +30,10 @@
     },
     "surfing": {
       "surfing_available": true
+    },
+    "safety": {
+      "cyclone_count_50yr": "7",
+      "cyclone_max_category": "4"
     }
   },
   "nearest_city": "Honolulu",
@@ -44,5 +53,16 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Waik%C4%ABk%C4%AB",
   "notability_score": 33.9,
-  "data_completeness_pct": 29.2
+  "data_completeness_pct": 29.2,
+  "sand": {
+    "predicted": {
+      "q_pct": null,
+      "f_pct": null,
+      "l_pct": null,
+      "regime": "unknown",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "white",
+    "description": "The sandy beach is almost entirely man-made."
+  }
 }

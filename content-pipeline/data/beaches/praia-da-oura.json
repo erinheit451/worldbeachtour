@@ -3,8 +3,8 @@
   "name": "Praia da Oura",
   "centroid_lat": 37.0853107,
   "centroid_lng": -8.2233713,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "PT",
+  "admin_level_1": "Faro",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -19,12 +19,45 @@
       "source_name": "wikidata",
       "source_id": "Q18129063",
       "source_url": "https://www.wikidata.org/wiki/Q18129063"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/P283%20Praia%20da%20Oura%20Albufeira%201%20May%202014.JPG",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_da_Oura"
+    },
+    "safety": {
+      "cyclone_count_50yr": "2",
+      "cyclone_max_category": "4"
     }
+  },
+  "nearest_city": "Albufeira",
+  "nearest_city_distance_km": 2.4,
+  "nearest_airport": {
+    "iata": "FAO",
+    "name": "Faro - Gago Coutinho International Airport",
+    "distance_km": 23.7
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_da_Oura",
+  "notability_score": 25.2,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 53.4,
+      "f_pct": 3.1,
+      "l_pct": 43.5,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "color": "golden",
+    "description": "The beach is in a small bay and has fine gold sand and some rock formations."
   }
 }

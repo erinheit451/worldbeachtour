@@ -3,8 +3,8 @@
   "name": "Hotel Zone",
   "centroid_lat": 21.134444444,
   "centroid_lng": -86.746111111,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "MX",
+  "admin_level_1": "Quintana Roo",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
@@ -14,12 +14,44 @@
       "source_name": "wikidata",
       "source_id": "Q134996543",
       "source_url": "https://www.wikidata.org/wiki/Q134996543"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Skyline%20cancun%20mexico.%20%2824209557802%29.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Hotel_Zone_(Canc%C3%BAn)"
+    },
+    "safety": {
+      "cyclone_count_50yr": "26",
+      "cyclone_max_category": "5"
     }
+  },
+  "nearest_city": "Isla Mujeres",
+  "nearest_city_distance_km": 10.9,
+  "nearest_airport": {
+    "iata": "CUN",
+    "name": "Cancún International Airport",
+    "distance_km": 16.8
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Hotel_Zone_(Canc%C3%BAn)",
+  "notability_score": 26.4,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 89.9,
+      "f_pct": 2.0,
+      "l_pct": 8.1,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "description": "It was formed over thousands of years through a process of ocean currents, known as longshore drift, carrying sand and sediment along the coast, parallel to the Yucatán Peninsula."
   }
 }

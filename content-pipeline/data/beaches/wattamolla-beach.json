@@ -3,8 +3,8 @@
   "name": "Wattamolla Beach",
   "centroid_lat": -34.137512,
   "centroid_lng": 151.1169603,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "AU",
+  "admin_level_1": "New South Wales",
   "admin_level_2": null,
   "water_body_type": "ocean",
   "substrate_type": "sand",
@@ -24,12 +24,42 @@
       "source_name": "wikidata",
       "source_id": "Q21956916",
       "source_url": "https://www.wikidata.org/wiki/Q21956916"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wattamolla%20lagoon.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Wattamolla"
+    },
+    "safety": {
+      "cyclone_count_50yr": "0"
+    }
+  },
+  "nearest_city": "Bundeena",
+  "nearest_city_distance_km": 6.7,
+  "nearest_airport": {
+    "iata": "SYD",
+    "name": "Sydney Kingsford Smith International Airport",
+    "distance_km": 22.0
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Wattamolla",
+  "notability_score": 26.0,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 83.4,
+      "f_pct": 6.1,
+      "l_pct": 10.5,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }

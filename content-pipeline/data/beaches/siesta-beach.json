@@ -19,12 +19,21 @@
       "source_name": "wikidata",
       "source_id": "Q7511756",
       "source_url": "https://www.wikidata.org/wiki/Q7511756"
+    },
+    {
+      "source_name": "ibtracs_v04r01",
+      "source_id": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
     }
   ],
   "attributes": {
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Siesta%20Key%20Beach.%20Sarasota%20-%20panoramio%20-%204net%20%283%29.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Siesta_Beach"
+    },
+    "safety": {
+      "cyclone_count_50yr": "20",
+      "cyclone_max_category": "5"
     }
   },
   "nearest_city": "South Sarasota",
@@ -40,5 +49,15 @@
   },
   "wikipedia_url": "https://en.wikipedia.org/wiki/Siesta_Beach",
   "notability_score": 32.0,
-  "data_completeness_pct": 20.8
+  "data_completeness_pct": 20.8,
+  "sand": {
+    "predicted": {
+      "q_pct": 88.7,
+      "f_pct": 1.7,
+      "l_pct": 9.6,
+      "regime": "quartz-dominant",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    },
+    "description": "Unlike beaches elsewhere that are made up mostly of pulverized coral, Siesta Beach's sand is 99% quartz, most of which comes from the Appalachian Mountains."
+  }
 }

@@ -3,11 +3,11 @@
   "name": "Goat Rock Beach",
   "centroid_lat": 38.4458186,
   "centroid_lng": -123.1273535,
-  "country_code": null,
-  "admin_level_1": null,
+  "country_code": "US",
+  "admin_level_1": "California",
   "admin_level_2": null,
   "water_body_type": "ocean",
-  "substrate_type": "unknown",
+  "substrate_type": "rock",
   "beach_length_m": null,
   "sources": [
     {
@@ -25,6 +25,28 @@
     "social": {
       "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Goat%20Rock%20Beach%20%2810908575024%29.jpg",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Goat_Rock_Beach"
+    }
+  },
+  "nearest_city": "Monte Rio",
+  "nearest_city_distance_km": 10.5,
+  "nearest_airport": {
+    "iata": "STS",
+    "name": "Charles M. Schulz Sonoma County Airport",
+    "distance_km": 28.3
+  },
+  "safety": {
+    "shark_incidents_total": 0
+  },
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Goat_Rock_Beach",
+  "notability_score": 27.1,
+  "data_completeness_pct": 16.7,
+  "sand": {
+    "predicted": {
+      "q_pct": 36.2,
+      "f_pct": 19.3,
+      "l_pct": 44.4,
+      "regime": "lithic-rich (volcanic/collisional terrane)",
+      "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
   }
 }
