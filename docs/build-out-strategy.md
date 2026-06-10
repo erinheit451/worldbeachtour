@@ -119,30 +119,46 @@ until a beach earns curated images.
 
 ## Execution phases
 
-**Phase 1 — Data completion sprint** (programs only, this week)
+> Re-sequenced 2026-06-10 after talking it through with Erin: **data first, then
+> the page, then the pipes, then the scale.** The original order put the ISR
+> migration ahead of page design; that was backwards — the page that will exist
+> 227K times (the stub/T1 "every-beach page") has never been designed with the
+> care the marquees got, and designing it needs no new infrastructure.
+
+**Phase 1 — Data completion sprint** (programs only, starts immediately)
 best-months derivation → finish climate tail (~5K) → famous-beach QID seed +
 pageviews backfill → per-beach data-completeness score → tier recompute.
-Output: every beach has the fields a stub page renders.
+Output: every beach has the fields the every-beach page renders.
 
-**Phase 2 — ISR migration** (the gate for everything; Sonnet subagents + Fable review)
+**Phase 2 — Design the every-beach page** (the heart; iterative with Erin)
+Pick ~20 deliberately diverse beaches (famous / mid / data-rich nobody /
+data-poor nobody / cold-water / urban / remote) and design the T0/T1 page on
+the **current static site** until each would make a local nod. This is where
+tier boundaries, usability, and depth get settled — at a scale where changing
+course costs an afternoon. Page quality IS the SEO (engagement signals);
+design and SEO are the same workstream here.
+
+**Phase 3 — ISR migration** (after Phase 2 stabilizes; Sonnet subagents + Fable review)
 DB copy to server → standalone build → systemd service → nginx micro-cache →
 load test (target: stub p95 < 100ms first-hit, < 5ms cached) → cutover with
 static rollback path. Validate 1,000 random slugs render correctly from DB.
+Plumbing only — no page is redesigned; the same components render at request
+time instead of build time.
 
-**Phase 3 — SEO scaffolding** (programs + one Sonnet pass)
-Tiered sitemaps + lastmod tracking, per-page robots meta from completeness score,
-JSON-LD everywhere, region/country hub pages, internal-link modules, AI-crawler
-robots.txt policy.
-
-**Phase 4 — Content engine** (Haiku Batch + review gates)
-T1 prose program with grounding validation → T2 essays (Haiku draft, Sonnet
-tighten, Erin spot-check ~10%) → T3 cadence stays hand-built (1–2/week, Fable).
-Stubs go live noindexed the moment Phase 2 ships — they cost nothing.
+**Phase 4 — SEO scaffolding + content engine** (programs + Haiku Batch + review gates)
+Tiered sitemaps + lastmod tracking, per-page robots meta from completeness
+score, JSON-LD everywhere, region/country hubs, internal-link modules,
+AI-crawler robots.txt policy. T1 prose program with grounding validation →
+T2 essays (Haiku draft, Sonnet tighten, Erin spot-check ~10%). Stubs go live
+noindexed the moment Phase 3 ships — they cost nothing.
 
 **Phase 5 — Measure & promote** (ongoing, mostly dashboards)
 GSC per-tier indexation + GA4 engagement → promote stub cohorts → demote/fix
 underperformers. The tier-design doubt gets answered with data, not debate:
 GA4 is live as of today and Search Console unlocks the moment Erin verifies.
+
+**Continuous track (independent of all phases):** marquee/T3 editorial pages
+keep landing at sustainable cadence — they're the reputation engine.
 
 **Parallel product track** (post-Phase 2, each is a contained feature):
 beach compare · similar-beaches · "best right now" seasonal hub · map explorer ·
