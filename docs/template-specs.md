@@ -7,6 +7,36 @@
 >
 > Companion: `template-sample-set.md` (the ~20 beaches we validate against).
 
+## REVISED TIER MODEL (2026-06-11, after the data sweep with Erin)
+
+The original architecture-doc split (index only ~1,100, everything else
+"stub") was gated on **English Wikipedia presence** — which measures Anglophone
+documentation, not whether a beach is real or known. The DB sweep showed the
+correct fourth axis is **named vs unnamed**, and the counts under Erin's model:
+
+| Tier | Name | Gate | Count today | Count after identity repairs |
+|---|---|---|---|---|
+| **1 — Marquee** | world-legendary | **hand-curated list only** (pageview thresholds surface D-Day beaches and a ship-breaking yard — curation is the only honest gate) | 8 built | 20–100 (hit-list has 200 candidates) |
+| **2 — Popular** | beaches people travel for | pv > ~5K OR wikidata + clean notability ≥ 20 | ~500–1,000 | ~1,500–3,000 |
+| **3 — Named** | "the world's beaches" — on the map, not obscure | **has a name** (+ findability) | **79,147** | same |
+| **4 — Stub** | there, but not easily found | unnamed (OSM geometry only) | **148,633** | same |
+
+Numbering note: Erin's numbering (1 = top) is now canonical in docs and
+discussion. The codebase's `tier.ts` uses the inverse (3 = monument); to avoid
+permanent confusion we use the **names** — Marquee / Popular / Named / Stub —
+everywhere, and the code's numeric scale gets remapped during the template
+build. Sections below were drafted under the old labels: T3→Marquee,
+T2→Popular, T1+T0→split into Named (named beaches — the field-guide template
+with identity) and Stub (unnamed — a reduced coordinates+data+nearby variant).
+
+Known data caveats feeding the gates:
+- `notability_score` is polluted (960 *unnamed* beaches score ≥10, incl. a
+  beach club) — never gate on it alone; always pair with name/wikidata.
+- `beach_length_m` is unpopulated (34 rows) — size can't gate anything yet.
+- The famous-37 QID repair + any-language sitelinks sweep + pageviews backfill
+  (all zero-LLM programs) firm up the Marquee/Popular boundary before bulk
+  production.
+
 ## The flex principle (applies to every tier)
 
 A section renders **only when its data exists and is worth showing**. No empty
