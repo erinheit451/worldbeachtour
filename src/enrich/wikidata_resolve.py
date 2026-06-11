@@ -3,10 +3,16 @@ Resolve Wikidata IDs to English Wikipedia URLs via SPARQL.
 Then fetch page views for newly-discovered URLs.
 """
 
+import socket
 import sqlite3
 import time
 import requests
+import urllib3.util.connection as _urllib3_conn
 from tqdm import tqdm
+
+# The local IPv6 route to Wikimedia flaps (WinError 10051 for minutes at a
+# time) while IPv4 stays up. Python tries IPv6 first by default; pin to IPv4.
+_urllib3_conn.allowed_gai_family = lambda: socket.AF_INET
 
 SPARQL_URL = "https://query.wikidata.org/sparql"
 USER_AGENT = "WorldBeachTour/1.0 (beach-enrichment)"
@@ -24,23 +30,26 @@ def _sparql_batch(qids):
     }}
     """
     headers = {"User-Agent": USER_AGENT, "Accept": "application/json"}
-    try:
-        resp = requests.get(SPARQL_URL, params={"query": query}, headers=headers, timeout=60)
-        if resp.status_code == 429:
-            print("  Rate limited — waiting 60s")
-            time.sleep(60)
+    for attempt, backoff in enumerate((10, 30, 0)):
+        try:
             resp = requests.get(SPARQL_URL, params={"query": query}, headers=headers, timeout=60)
-        resp.raise_for_status()
-        results = resp.json()["results"]["bindings"]
-        mapping = {}
-        for r in results:
-            qid = r["item"]["value"].split("/")[-1]
-            url = r["article"]["value"]
-            mapping[qid] = url
-        return mapping
-    except Exception as e:
-        print(f"  SPARQL error: {e}")
-        return {}
+            if resp.status_code == 429:
+                print("  Rate limited — waiting 60s")
+                time.sleep(60)
+                resp = requests.get(SPARQL_URL, params={"query": query}, headers=headers, timeout=60)
+            resp.raise_for_status()
+            results = resp.json()["results"]["bindings"]
+            mapping = {}
+            for r in results:
+                qid = r["item"]["value"].split("/")[-1]
+                url = r["article"]["value"]
+                mapping[qid] = url
+            return mapping
+        except Exception as e:
+            print(f"  SPARQL error (attempt {attempt + 1}/3): {e}")
+            if backoff:
+                time.sleep(backoff)
+    return {}
 
 
 def resolve_wikidata_urls(conn) -> int:
