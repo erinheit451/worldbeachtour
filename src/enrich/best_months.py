@@ -26,19 +26,37 @@ def compute_best_months(
     - Sunshine: more is better (25% weight)
     - Wind: less is better (10% weight)
 
-    Returns month names with score >= 60% of the best month's score.
+    Returns month names that score >= 70% of the best month's score AND
+    clear an absolute floor of 45/100. The floor matters in uniformly
+    harsh climates (e.g. Falkland Islands): without it, every month of a
+    bad year qualifies because the threshold is relative. An empty list
+    is a meaningful result — "no reliable beach season" — and is stored
+    as [] (not NULL) so incremental runs don't reprocess it.
     """
     if not air_temp_high:
         return None
+
+    # Unit detection: WorldClim rows store solar RADIATION (kJ/m²/day,
+    # thousands) in the sun column and wind in m/s; Open-Meteo rows store
+    # monthly sun HOURS (≤ ~400) and wind in km/h. Detect by magnitude.
+    sun_vals = [v for v in (sun_hours or []) if v is not None]
+    sun_is_radiation = bool(sun_vals) and max(sun_vals) > 1000
+    wind_vals = [v for v in (wind_speed or []) if v is not None]
+    wind_is_ms = bool(wind_vals) and max(wind_vals) <= 15
 
     scores = []
     for m in range(12):
         score = 0.0
         components = 0
 
-        # Temperature score (0-40): ideal is 22-30°C
+        # Temperature score (0-40): ideal is 22-30°C.
+        # Hard gate: a month with highs below 15°C is never a "best month"
+        # for general visitation, regardless of how sunny/dry it is.
         if air_temp_high and air_temp_high[m] is not None:
             t = air_temp_high[m]
+            if t < 15:
+                scores.append(0)
+                continue
             if 22 <= t <= 30:
                 temp_score = 40
             elif t < 22:
@@ -54,24 +72,34 @@ def compute_best_months(
             score += rain_score
             components += 1
 
-        # Sunshine score (0-25): 300hrs = 25, 0hrs = 0
+        # Sunshine score (0-25): radiation 25,000 kJ/m²/day = 25,
+        # or monthly hours 300 = 25
         if sun_hours and sun_hours[m] is not None:
-            sun_score = min(25, sun_hours[m] / 12)
+            if sun_is_radiation:
+                sun_score = min(25, sun_hours[m] / 1000)
+            else:
+                sun_score = min(25, sun_hours[m] / 12)
             score += sun_score
             components += 1
 
-        # Wind score (0-10): 0km/h = 10, 30+ = 0
+        # Wind score (0-10): 0 = 10, 30+ km/h = 0
         if wind_speed and wind_speed[m] is not None:
-            wind_score = max(0, 10 - wind_speed[m] / 3)
+            w_kmh = wind_speed[m] * 3.6 if wind_is_ms else wind_speed[m]
+            wind_score = max(0, 10 - w_kmh / 3)
             score += wind_score
             components += 1
 
         scores.append(score if components > 0 else 0)
 
-    if not scores or max(scores) == 0:
+    if not scores:
         return None
+    if max(scores) == 0:
+        # Climate data exists but no month clears the temperature gate —
+        # a real finding ("no beach season here"), not missing data.
+        return []
 
-    threshold = max(scores) * 0.7
+    ABSOLUTE_FLOOR = 45.0
+    threshold = max(max(scores) * 0.7, ABSOLUTE_FLOOR)
     return [MONTH_NAMES[m] for m in range(12) if scores[m] >= threshold]
 
 
@@ -174,7 +202,7 @@ def enrich_best_months_and_swim(conn) -> int:
             """UPDATE beaches SET best_months = ?, swim_suitability = ?,
                swim_suitability_confidence = ?, updated_at = datetime('now')
                WHERE id = ?""",
-            (json.dumps(best) if best else None, swim_rating, swim_conf, row["id"]),
+            (json.dumps(best) if best is not None else None, swim_rating, swim_conf, row["id"]),
         )
         count += 1
         if count % 10000 == 0:
