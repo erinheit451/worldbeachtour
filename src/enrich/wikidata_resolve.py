@@ -49,7 +49,7 @@ def _sparql_batch(qids):
             print(f"  SPARQL error (attempt {attempt + 1}/3): {e}")
             if backoff:
                 time.sleep(backoff)
-    return {}
+    return None  # all attempts failed — distinct from a legitimate empty result
 
 
 def resolve_wikidata_urls(conn) -> int:
@@ -73,20 +73,20 @@ def resolve_wikidata_urls(conn) -> int:
 
         results = _sparql_batch(qids)
 
-        # A batch of 50 real Q-IDs returning nothing is almost always a
-        # network/endpoint failure, not 50 articleless items. Abort loudly
-        # after 5 in a row instead of burning every batch against a dead
-        # connection and exiting 0.
-        if not results:
+        # None = all retry attempts threw (endpoint/network down). An empty
+        # dict is a legitimate answer — most OSM-imported beach Q-IDs have
+        # no English Wikipedia article. Only true failures count toward the
+        # abort, so a dead connection fails loudly instead of exiting 0.
+        if results is None:
             consecutive_failures += 1
             if consecutive_failures >= 5:
                 conn.commit()
                 raise RuntimeError(
-                    f"5 consecutive empty SPARQL batches (last at offset {i}) — "
+                    f"5 consecutive failed SPARQL batches (last at offset {i}) — "
                     f"endpoint unreachable. {count} resolved before abort; rerun to resume."
                 )
-        else:
-            consecutive_failures = 0
+            continue
+        consecutive_failures = 0
 
         for qid, url in results.items():
             beach_id = id_map.get(qid)
