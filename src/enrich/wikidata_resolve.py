@@ -56,12 +56,28 @@ def resolve_wikidata_urls(conn) -> int:
     print(f"Resolving {len(rows)} Wikidata IDs to Wikipedia URLs...")
 
     count = 0
+    consecutive_failures = 0
     for i in tqdm(range(0, len(rows), BATCH_SIZE), desc="SPARQL batches"):
         batch = rows[i:i + BATCH_SIZE]
         qids = [r[1] for r in batch if r[1]]  # r[1] = wikidata_id
         id_map = {r[1]: r[0] for r in batch if r[1]}  # qid -> beach_id
 
         results = _sparql_batch(qids)
+
+        # A batch of 50 real Q-IDs returning nothing is almost always a
+        # network/endpoint failure, not 50 articleless items. Abort loudly
+        # after 5 in a row instead of burning every batch against a dead
+        # connection and exiting 0.
+        if not results:
+            consecutive_failures += 1
+            if consecutive_failures >= 5:
+                conn.commit()
+                raise RuntimeError(
+                    f"5 consecutive empty SPARQL batches (last at offset {i}) — "
+                    f"endpoint unreachable. {count} resolved before abort; rerun to resume."
+                )
+        else:
+            consecutive_failures = 0
 
         for qid, url in results.items():
             beach_id = id_map.get(qid)
