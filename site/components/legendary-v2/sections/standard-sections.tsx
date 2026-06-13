@@ -232,7 +232,8 @@ export function PlanStackSection({ bundle }: { bundle: LegendaryPageBundle }) {
   const { data, showcase } = bundle;
   const food = showcase.food_drink ?? [];
   const events = showcase.recurring_events ?? [];
-  const hasGettingThere = data.nearest_airport || data.nearest_city;
+  const accessNote = (showcase as unknown as { access_note?: string }).access_note;
+  const hasGettingThere = data.nearest_airport || data.nearest_city || accessNote;
   if (!hasGettingThere && food.length === 0 && events.length === 0) return null;
   return (
     <section id="plan_stack" className="mx-auto max-w-5xl px-6 py-20 sm:py-24">
@@ -255,6 +256,9 @@ export function PlanStackSection({ bundle }: { bundle: LegendaryPageBundle }) {
                 </div>
               )}
             </dl>
+            {accessNote && (
+              <p className="text-[15px] text-volcanic-600 leading-[1.65] mt-4">{accessNote}</p>
+            )}
           </div>
         )}
         {events.length > 0 && (
@@ -285,6 +289,121 @@ export function PlanStackSection({ bundle }: { bundle: LegendaryPageBundle }) {
           </div>
         </div>
       )}
+    </section>
+  );
+}
+
+// ── THINGS TO KNOW (derived hazards + authored rules/fees/etiquette) ────
+interface TTKNote { label: string; note: string }
+export function ThingsToKnowSection({ bundle }: { bundle: LegendaryPageBundle }) {
+  const d = bundle.data as unknown as {
+    waves?: { summary?: { character: string; biggest_month: string; calmest_month: string } };
+    safety?: { shark_incidents_total?: number; lifeguard?: boolean };
+    blue_flag?: boolean;
+    water_quality?: { rating: string };
+  };
+  const authored: TTKNote[] = (bundle.showcase as unknown as { things_to_know?: TTKNote[] }).things_to_know ?? [];
+  const items: TTKNote[] = [];
+
+  // Derived — works on any beach with the data, no authoring needed.
+  const w = d.waves?.summary;
+  if (w && /Heavy|Exposed/.test(w.character)) {
+    items.push({ label: "Surf & rip", note: `Powerful water — strongest around ${w.biggest_month}, gentlest in ${w.calmest_month}. Mind rip currents; this isn't a wade-in-anywhere beach.` });
+  } else if (w && /Calm/.test(w.character)) {
+    items.push({ label: "Swimming", note: `Usually calm water — among the gentler beaches for a swim.` });
+  }
+  if (d.safety?.shark_incidents_total === 0) {
+    items.push({ label: "Sharks", note: "No incidents on record in the global shark-attack file." });
+  } else if (typeof d.safety?.shark_incidents_total === "number" && d.safety.shark_incidents_total > 0) {
+    items.push({ label: "Sharks", note: `${d.safety.shark_incidents_total} recorded incident${d.safety.shark_incidents_total === 1 ? "" : "s"} historically — check local signage.` });
+  }
+  if (d.safety?.lifeguard === false) items.push({ label: "Lifeguard", note: "No lifeguard service — swim within your limits." });
+  if (d.blue_flag) items.push({ label: "Water quality", note: "Holds Blue Flag status for water quality and safety." });
+
+  const all = [...authored, ...items];
+  if (all.length === 0) return null;
+  return (
+    <section id="things_to_know" className="mx-auto max-w-5xl px-6 py-20 sm:py-24">
+      <SectionHeader eyebrow="Before you go" title="Things to know" />
+      <div className="grid gap-x-10 gap-y-6 sm:grid-cols-2">
+        {all.map((t, i) => (
+          <div key={i} className="flex gap-4">
+            <div className="font-mono text-[10px] uppercase tracking-[0.12em] text-volcanic-400 w-28 shrink-0 pt-1">{t.label}</div>
+            <p className="text-[15px] text-volcanic-700 leading-[1.6]">{t.note}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+// ── SEA & SURF (wave climatology — serves surfers AND swim-safety) ──────
+interface Waves {
+  height_mean_m: (number | null)[];
+  height_big_m: (number | null)[];
+  period_mean_s: (number | null)[];
+  summary: {
+    annual_mean_m: number; biggest_month: string; biggest_month_m: number;
+    calmest_month: string; calmest_month_m: number; typical_period_s: number | null;
+    character: string;
+  };
+  source: string;
+}
+const WMONTHS = ["J", "F", "M", "A", "M", "J", "J", "A", "S", "O", "N", "D"];
+export function SeaSurfSection({ bundle, lead }: { bundle: LegendaryPageBundle; lead?: LeadImg }) {
+  const w = (bundle.data as unknown as { waves?: Waves }).waves;
+  if (!w) return null;
+  const s = w.summary;
+  const heights = w.height_mean_m;
+  const bigs = w.height_big_m;
+  const maxH = Math.max(1, ...heights.filter((h): h is number => h != null), ...bigs.filter((h): h is number => h != null));
+  // Sheltered coves read "heavy" off open-water grid data — soften the claim.
+  const swelly = s.typical_period_s != null && s.typical_period_s >= 8;
+  return (
+    <section id="sea_surf" className="mx-auto max-w-5xl px-6 py-20 sm:py-24">
+      <SectionLead img={lead} />
+      <SectionHeader eyebrow="Sea & surf" title="What the water does" />
+      <div className="grid gap-10 md:grid-cols-[1.3fr_1fr] items-start">
+        {/* Monthly wave-height chart */}
+        <div>
+          <svg viewBox="0 0 360 150" className="w-full h-auto">
+            {heights.map((h, i) => {
+              if (h == null) return null;
+              const x = 10 + i * 29;
+              const bh = (h / maxH) * 110;
+              const big = bigs[i];
+              return (
+                <g key={i}>
+                  {big != null && (
+                    <rect x={x} y={120 - (big / maxH) * 110} width={18} height={(big / maxH) * 110} fill="var(--beach-primary,#0369a1)" opacity="0.18" />
+                  )}
+                  <rect x={x} y={120 - bh} width={18} height={bh} fill="var(--beach-primary,#0369a1)" opacity="0.65" />
+                  <text x={x + 9} y={134} fontFamily="ui-monospace,monospace" fontSize="8" fill="#94a3b8" textAnchor="middle">{WMONTHS[i]}</text>
+                </g>
+              );
+            })}
+            <text x={10} y={12} fontFamily="ui-monospace,monospace" fontSize="8" fill="#94a3b8">metres (significant wave height)</text>
+          </svg>
+          <p className="text-[12px] text-volcanic-400 italic mt-2">
+            Solid = typical monthly wave height; pale = the bigger days (90th pct).
+            Offshore/regional swell from {w.source}; a sheltered cove may sit calmer than this.
+          </p>
+        </div>
+        {/* Summary */}
+        <div className="space-y-4">
+          <div>
+            <div className="font-display text-2xl text-volcanic-900 leading-tight">{s.character}</div>
+          </div>
+          <dl className="space-y-2 text-[15px]">
+            <div className="flex justify-between border-b border-volcanic-100 pb-1.5"><dt className="text-volcanic-500">Typical wave height</dt><dd className="text-volcanic-900">{s.annual_mean_m} m</dd></div>
+            <div className="flex justify-between border-b border-volcanic-100 pb-1.5"><dt className="text-volcanic-500">Biggest swell</dt><dd className="text-volcanic-900">{s.biggest_month} · {s.biggest_month_m} m</dd></div>
+            <div className="flex justify-between border-b border-volcanic-100 pb-1.5"><dt className="text-volcanic-500">Calmest</dt><dd className="text-volcanic-900">{s.calmest_month} · {s.calmest_month_m} m</dd></div>
+            {s.typical_period_s != null && (
+              <div className="flex justify-between border-b border-volcanic-100 pb-1.5"><dt className="text-volcanic-500">Typical period</dt><dd className="text-volcanic-900">{s.typical_period_s} s {swelly ? "(groundswell)" : "(wind chop)"}</dd></div>
+            )}
+          </dl>
+        </div>
+      </div>
     </section>
   );
 }

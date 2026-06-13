@@ -27,6 +27,8 @@ import {
   HonestReckoningSection,
   PlanStackSection,
   ComparisonSection,
+  SeaSurfSection,
+  ThingsToKnowSection,
   GallerySection,
 } from "./sections/standard-sections";
 import SectionDivider from "./primitives/section-divider";
@@ -144,6 +146,10 @@ export default function LegendaryBeachV2({ bundle }: LegendaryBeachV2Props) {
             return <HonestReckoningSection key={sectionId} bundle={bundle} />;
           case "comparison":
             return <ComparisonSection key={sectionId} bundle={bundle} />;
+          case "sea_surf":
+            return <SeaSurfSection key={sectionId} bundle={bundle} lead={lead(4)} />;
+          case "things_to_know":
+            return <ThingsToKnowSection key={sectionId} bundle={bundle} />;
           case "plan_stack":
             return <PlanStackSection key={sectionId} bundle={bundle} />;
           case "gallery":
@@ -254,6 +260,8 @@ function buildNavGroups(sectionIds: string[]): NavGroup[] {
     timeline: "History",
     data_science: "Data",
     comparison: "Compare",
+    sea_surf: "Sea & surf",
+    things_to_know: "Know before",
     plan_stack: "Plan",
     culture: "Culture",
     honest_reckoning: "Context",
@@ -271,8 +279,8 @@ function buildNavGroups(sectionIds: string[]): NavGroup[] {
     "culture",
     "honest_reckoning",
   ]);
-  const BEACH_GROUP = new Set(["data_science", "comparison", "gallery"]);
-  const PLAN_GROUP = new Set(["plan_stack"]);
+  const BEACH_GROUP = new Set(["data_science", "comparison", "sea_surf", "gallery"]);
+  const PLAN_GROUP = new Set(["things_to_know", "plan_stack"]);
 
   const culture: [string, string][] = [];
   const beach: [string, string][] = [];
