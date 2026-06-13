@@ -1,0 +1,408 @@
+{
+  "data": {
+    "slug": "marina-beach-chennai",
+    "name": "Marina Beach,Chennai",
+    "country_code": "IN",
+    "admin_level_1": "Tamil Nadu",
+    "centroid_lat": 13.0533969,
+    "centroid_lng": 80.2833328,
+    "water_body_type": "ocean",
+    "substrate_type": "unknown",
+    "beach_length_m": 13000.0,
+    "slope_pct": 1.0517420768737793,
+    "nearshore_depth_m": 13.8125,
+    "classification": {
+      "primary_type": "Ocean",
+      "primary_type_slug": "ocean",
+      "coastal_type": "Ocean",
+      "coastal_type_slug": "ocean",
+      "micro_type": "Ocean",
+      "micro_type_slug": "ocean"
+    },
+    "nearest_city": "Chennai",
+    "nearest_city_distance_km": 3.9,
+    "nearest_airport": {
+      "iata": "MAA",
+      "name": "Chennai International Airport",
+      "distance_km": 14.2
+    },
+    "climate": {
+      "air_temp_high": [
+        29.5182,
+        31.3136,
+        33.4864,
+        35.6,
+        37.7409,
+        37.3455,
+        35.4727,
+        34.8,
+        34.6227,
+        32.5682,
+        30.3591,
+        29.2045
+      ],
+      "air_temp_low": [
+        21.0364,
+        22.0818,
+        23.6,
+        26.1,
+        27.6,
+        27.3,
+        26.2,
+        25.8,
+        25.4,
+        24.5045,
+        23.0364,
+        21.7773
+      ],
+      "rain_mm": [
+        24.0,
+        9.0,
+        3.0,
+        12.0,
+        45.0,
+        55.0,
+        100.0,
+        135.0,
+        124.0,
+        250.0,
+        344.0,
+        146.0
+      ],
+      "wind_speed": [
+        2.2182,
+        2.4409,
+        2.4909,
+        2.6227,
+        3.2091,
+        4.0273,
+        3.6909,
+        3.5364,
+        2.8273,
+        2.1318,
+        2.2773,
+        2.5682
+      ],
+      "sun_hours": [
+        18800.0,
+        22090.0,
+        24200.0,
+        24123.0,
+        22879.0,
+        20512.0,
+        18931.0,
+        19487.0,
+        19852.0,
+        17807.0,
+        16186.0,
+        16267.0
+      ],
+      "climate_source": "worldclim_v2.1_2.5m",
+      "climate_type": null,
+      "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
+    },
+    "tides": {
+      "range_spring_m": 0.9242132248493307,
+      "range_neap_m": 0.3980258461290765,
+      "type": "mixed",
+      "source": "eot20"
+    },
+    "sand": {
+      "predicted": {
+        "q_pct": 96.4,
+        "f_pct": 2.2,
+        "l_pct": 1.4,
+        "regime": "quartz-dominant",
+        "regime_plain": "Quartz-dominant",
+        "source": "GloPrSM v1.0.0 (IJ_QFL)"
+      }
+    },
+    "storm_history": {
+      "cyclone_count_50yr": 71,
+      "paragraph": "71 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1877–2024).",
+      "source": "IBTrACS v04r01 (NOAA)"
+    },
+    "photos": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Chennai_Thiruvanmayur_beach.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chennai_Thiruvanmayur_beach.jpg/1280px-Chennai_Thiruvanmayur_beach.jpg",
+        "license": "CC BY-SA 4.0",
+        "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Vimalananth_V&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Vimalananth V (page does not exist)\">Vimalananth V</a>",
+        "title": "Chennai Thiruvanmayur beach.jpg",
+        "width": 8000,
+        "height": 6000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Food_Stall_at_Marina_Beach-WUS-01467.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Food_Stall_at_Marina_Beach-WUS-01467.jpg/1280px-Food_Stall_at_Marina_Beach-WUS-01467.jpg",
+        "license": "CC BY-SA 4.0",
+        "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Rainer_Halama\" title=\"User:Rainer Halama\">Rainer Halama</a>",
+        "title": "Food Stall at Marina Beach-WUS-01467.jpg",
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Aerial_SE_Island_Grounds_Chennai_Jul25_R16_07919.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Aerial_SE_Island_Grounds_Chennai_Jul25_R16_07919.jpg/1280px-Aerial_SE_Island_Grounds_Chennai_Jul25_R16_07919.jpg",
+        "license": "CC BY-SA 4.0",
+        "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Tagooty\" title=\"User:Tagooty\">Timothy A. Gonsalves</a>",
+        "title": "Aerial SE Island Grounds Chennai Jul25 R16 07919.jpg",
+        "width": 5388,
+        "height": 3592
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Food_Stall_at_Marina_Beach-WUS-01465.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Food_Stall_at_Marina_Beach-WUS-01465.jpg/1280px-Food_Stall_at_Marina_Beach-WUS-01465.jpg",
+        "license": "CC BY-SA 4.0",
+        "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Rainer_Halama\" title=\"User:Rainer Halama\">Rainer Halama</a>",
+        "title": "Food Stall at Marina Beach-WUS-01465.jpg",
+        "width": 5307,
+        "height": 3538
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Fish_Fry_Marina_Beach_Chennai.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Fish_Fry_Marina_Beach_Chennai.jpg/1280px-Fish_Fry_Marina_Beach_Chennai.jpg",
+        "license": "CC BY-SA 4.0",
+        "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Sivahari\" title=\"User:Sivahari\">Sivahari</a>",
+        "title": "Fish Fry Marina Beach Chennai.jpg",
+        "width": 5184,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Glitters%2C_at_Marina_beach%2C_Chennai.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Glitters%2C_at_Marina_beach%2C_Chennai.jpg/1280px-Glitters%2C_at_Marina_beach%2C_Chennai.jpg",
+        "license": "CC BY-SA 4.0",
+        "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Vasanthkumar.d92\" title=\"User:Vasanthkumar.d92\">D. Vasanth Kumar</a>",
+        "title": "Glitters, at Marina beach, Chennai.jpg",
+        "width": 5184,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Marina_Beach_dusk_panorama.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Marina_Beach_dusk_panorama.jpg/1280px-Marina_Beach_dusk_panorama.jpg",
+        "license": "CC BY-SA 3.0",
+        "author_html": "<table style=\"margin: 1.5em auto; width:100%; background-color:#F8F8F8; border:2px solid #E8E8E8; padding:1px;\" cellspacing=\"2\">\n<tbody><tr>\n<td align=\"center\">\n</td>\n<td><i><a href=\"https://upload.wikimedia.org/wikipedia/commons/7/72/Marina_Beach_dusk_panorama.jpg\" class=\"internal\" title=\"Marina Beach dusk panorama.jpg\"><b>This Image</b></a> <b>was created by</b> </i><b><a href=\"https://en.wikipedia.org/wiki/User:Planemad\" class=\"extiw\" title=\"en:User:Planemad\">User:PlaneMad</a></b><i>.</i><br>\n<ul><li>If you are using the image under the <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/3.0/\">creative commons share alike license</a> please credit the photo <b>CC-by-sa PlaneMad/Wikimedia</b> and include a link to this page. No explicit permission is needed from me, but id appreciate an email if my work has been of help to you.</li>\n<li>If you dont want to release your work under a creative commons license, please mail me at <b><a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/Special:EmailUser/PlaneMad\">arun.planemad@gmail.com</a></b> or catch me at my <b><a rel=\"nofollow\" class=\"external text\" href=\"http://bitterscotch.wordpress.com/\">Website</a></b> to negotiate a custom license as per your needs.</li></ul>\n</td></tr></tbody></table>",
+        "title": "Marina Beach dusk panorama.jpg",
+        "width": 5000,
+        "height": 881
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Sunset_seen_from_Marina_Beach_5.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Sunset_seen_from_Marina_Beach_5.JPG/1280px-Sunset_seen_from_Marina_Beach_5.JPG",
+        "license": "CC BY-SA 4.0",
+        "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Surya_Prakash.S.A.\" class=\"mw-redirect\" title=\"User:Surya Prakash.S.A.\">Surya Prakash.S.A.</a>",
+        "title": "Sunset seen from Marina Beach 5.JPG",
+        "width": 4608,
+        "height": 3456
+      }
+    ],
+    "safety": {
+      "shark_incidents_total": 0,
+      "shark_incident_last_year": null,
+      "nearshore_depth_m": 13.8125
+    },
+    "facilities": {
+      "parking": true
+    },
+    "wildlife": {
+      "total_species": 20,
+      "groups": [
+        {
+          "label": "Invertebrates",
+          "key": "invertebrate",
+          "count": 12,
+          "top": [
+            {
+              "common": "Tawny Coster",
+              "latin": "Acraea terpsicore",
+              "obs": 133,
+              "iucn": null
+            },
+            {
+              "common": "Mottled Emigrant",
+              "latin": "Catopsilia pyranthe",
+              "obs": 67,
+              "iucn": null
+            },
+            {
+              "common": "Plain Tiger Butterfly",
+              "latin": "Danaus chrysippus",
+              "obs": 63,
+              "iucn": null
+            },
+            {
+              "common": "Lemon Pansy",
+              "latin": "Junonia lemonias",
+              "obs": 57,
+              "iucn": null
+            },
+            {
+              "common": "African Giant Snail",
+              "latin": "Lissachatina fulica",
+              "obs": 42,
+              "iucn": null
+            },
+            {
+              "common": "Lime Swallowtail",
+              "latin": "Papilio demoleus",
+              "obs": 40,
+              "iucn": null
+            },
+            {
+              "common": "Common Jay",
+              "latin": "Graphium doson",
+              "obs": 39,
+              "iucn": null
+            },
+            {
+              "common": "Common Castor Butterfly",
+              "latin": "Ariadne merione",
+              "obs": 38,
+              "iucn": null
+            }
+          ]
+        },
+        {
+          "label": "Birds",
+          "key": "bird",
+          "count": 4,
+          "top": [
+            {
+              "common": "House Crow",
+              "latin": "Corvus splendens",
+              "obs": 65,
+              "iucn": null
+            },
+            {
+              "common": "Rock Pigeon",
+              "latin": "Columba livia",
+              "obs": 37,
+              "iucn": null
+            },
+            {
+              "common": "Black Kite",
+              "latin": "Milvus migrans",
+              "obs": 36,
+              "iucn": null
+            },
+            {
+              "common": "Rose-ringed Parakeet",
+              "latin": "Psittacula krameri",
+              "obs": 34,
+              "iucn": null
+            }
+          ]
+        },
+        {
+          "label": "Plants",
+          "key": "plant",
+          "count": 2,
+          "top": [
+            {
+              "common": "Sacred fig",
+              "latin": "Ficus religiosa",
+              "obs": 49,
+              "iucn": null
+            },
+            {
+              "common": "Neem",
+              "latin": "Azadirachta indica",
+              "obs": 45,
+              "iucn": null
+            }
+          ]
+        },
+        {
+          "label": "Reptiles",
+          "key": "reptile",
+          "count": 1,
+          "top": [
+            {
+              "common": "Oriental Garden Lizard",
+              "latin": "Calotes versicolor",
+              "obs": 33,
+              "iucn": null
+            }
+          ]
+        },
+        {
+          "label": "Mammals",
+          "key": "mammal",
+          "count": 1,
+          "top": [
+            {
+              "common": "Three-striped Palm Squirrel",
+              "latin": "Funambulus palmarum",
+              "obs": 33,
+              "iucn": null
+            }
+          ]
+        }
+      ]
+    },
+    "comparisons": [
+      {
+        "metric": "Peak warmth",
+        "text": "Warmer than 96% of beaches in its country",
+        "detail": "Peak-month high ≈ 38°C"
+      },
+      {
+        "metric": "Worldwide",
+        "text": "Among the warmest 1% of beaches on Earth",
+        "detail": null
+      }
+    ],
+    "wikidata_id": "Q673659",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Marina_Beach",
+    "wikipedia_page_views_annual": 184826,
+    "notability_score": 42.8,
+    "data_completeness_pct": 62.5,
+    "best_months": [
+      "jan",
+      "feb",
+      "mar",
+      "apr",
+      "nov",
+      "dec"
+    ],
+    "swim_suitability": "fair"
+  },
+  "neighbors": [
+    {
+      "slug": "santhome-beach",
+      "name": "Santhome Beach",
+      "distance_km": 3.1,
+      "has_wiki": false
+    },
+    {
+      "slug": "elliots-beach",
+      "name": "Elliots Beach",
+      "distance_km": 6.3,
+      "has_wiki": true
+    },
+    {
+      "slug": "arupadaiveedu-temple-beach",
+      "name": "Arupadaiveedu Temple Beach",
+      "distance_km": 7.3,
+      "has_wiki": false
+    },
+    {
+      "slug": "valmiki-nagar-beach",
+      "name": "Valmiki Nagar Beach",
+      "distance_km": 8.4,
+      "has_wiki": false
+    },
+    {
+      "slug": "keaattttivaakkm-kttrrkrai",
+      "name": "கொட்டிவாக்கம் கடற்கரை",
+      "distance_km": 9.5,
+      "has_wiki": false
+    },
+    {
+      "slug": "neelangarai-beach",
+      "name": "Neelangarai Beach",
+      "distance_km": 12.0,
+      "has_wiki": false
+    }
+  ]
+}

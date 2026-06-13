@@ -1,0 +1,204 @@
+{
+  "data": {
+    "slug": "playa-de-cuesta-maneli",
+    "name": "Playa de Cuesta Maneli",
+    "country_code": "ES",
+    "admin_level_1": "Andalusia",
+    "centroid_lat": 37.0698266,
+    "centroid_lng": -6.6879281,
+    "water_body_type": "ocean",
+    "substrate_type": "sand",
+    "slope_pct": 2.128457498550415,
+    "nearshore_depth_m": 7.550152778625488,
+    "classification": {
+      "primary_type": "Sand",
+      "primary_type_slug": "sand",
+      "coastal_type": "Sand",
+      "coastal_type_slug": "sand",
+      "micro_type": "Ocean",
+      "micro_type_slug": "ocean"
+    },
+    "nearest_city": "Mazagon",
+    "nearest_city_distance_km": 8.4,
+    "nearest_airport": {
+      "iata": "ROZ",
+      "name": "Rota Naval Station Airport",
+      "distance_km": 56.0
+    },
+    "climate": {
+      "air_temp_high": [
+        15.6111,
+        16.7556,
+        19.3111,
+        20.8222,
+        23.7778,
+        27.2667,
+        30.6444,
+        30.4222,
+        28.0,
+        23.8556,
+        19.4333,
+        16.3333
+      ],
+      "air_temp_low": [
+        6.5333,
+        7.6333,
+        9.0222,
+        10.6333,
+        13.4444,
+        16.7778,
+        19.0667,
+        19.1889,
+        17.6,
+        14.2556,
+        10.3333,
+        7.9333
+      ],
+      "rain_mm": [
+        76.0,
+        51.0,
+        37.0,
+        46.0,
+        28.0,
+        13.0,
+        2.0,
+        5.0,
+        15.0,
+        58.0,
+        79.0,
+        87.0
+      ],
+      "wind_speed": [
+        3.8222,
+        4.1444,
+        4.1,
+        4.1667,
+        4.2,
+        3.8444,
+        3.7,
+        3.5333,
+        3.3667,
+        3.6,
+        3.7667,
+        3.9667
+      ],
+      "sun_hours": [
+        9075.0,
+        12284.0,
+        15590.0,
+        21030.0,
+        24830.0,
+        27027.0,
+        27756.0,
+        24981.0,
+        19337.0,
+        14412.0,
+        9879.0,
+        7729.0
+      ],
+      "climate_source": "worldclim_v2.1_2.5m",
+      "climate_type": null,
+      "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
+    },
+    "tides": {
+      "range_spring_m": 2.805797796971598,
+      "range_neap_m": 1.309167544561744,
+      "type": "semidiurnal",
+      "source": "eot20"
+    },
+    "sand": {
+      "predicted": {
+        "q_pct": 86.3,
+        "f_pct": 4.3,
+        "l_pct": 9.5,
+        "regime": "quartz-dominant",
+        "regime_plain": "Quartz-dominant",
+        "source": "GloPrSM v1.0.0 (IJ_QFL)"
+      }
+    },
+    "storm_history": {
+      "cyclone_count_50yr": 2,
+      "paragraph": "2 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1952–2005).",
+      "source": "IBTrACS v04r01 (NOAA)"
+    },
+    "safety": {
+      "shark_incidents_total": 0,
+      "shark_incident_last_year": null,
+      "nearshore_depth_m": 7.550152778625488
+    },
+    "conservation": {
+      "name": "Doñana",
+      "type": "Natural park",
+      "iucn": "V",
+      "unesco": false
+    },
+    "comparisons": [
+      {
+        "metric": "Peak warmth",
+        "text": "Warmer than 83% of beaches in its country",
+        "detail": "Peak-month high ≈ 31°C"
+      },
+      {
+        "metric": "Worldwide",
+        "text": "Among the warmest 19% of beaches on Earth",
+        "detail": null
+      },
+      {
+        "metric": "Beach season",
+        "text": "Longer beach season than 67% of beaches in its country",
+        "detail": "8 comfortable months a year"
+      }
+    ],
+    "notability_score": 0.0,
+    "data_completeness_pct": 50.0,
+    "best_months": [
+      "mar",
+      "apr",
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep",
+      "oct"
+    ],
+    "swim_suitability": "fair"
+  },
+  "neighbors": [
+    {
+      "slug": "naturist-beach-playa-del-asperrillo",
+      "name": "Naturist Beach Playa Del Asperrillo",
+      "distance_km": 0.4,
+      "has_wiki": false
+    },
+    {
+      "slug": "arenas-gordas",
+      "name": "Arenas Gordas",
+      "distance_km": 0.6,
+      "has_wiki": false
+    },
+    {
+      "slug": "playa-medano-del-loro",
+      "name": "Playa Médano del Loro",
+      "distance_km": 4.0,
+      "has_wiki": false
+    },
+    {
+      "slug": "playa-de-torre-del-loro",
+      "name": "Playa de Torre del Loro",
+      "distance_km": 4.3,
+      "has_wiki": false
+    },
+    {
+      "slug": "playa-mazagon-castilla-pm1-1",
+      "name": "PLAYA  MAZAGON/CASTILLA PM1",
+      "distance_km": 4.4,
+      "has_wiki": false
+    },
+    {
+      "slug": "playa-mata-del-difunto",
+      "name": "Playa Mata del Difunto",
+      "distance_km": 4.8,
+      "has_wiki": false
+    }
+  ]
+}

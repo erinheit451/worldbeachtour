@@ -1,0 +1,189 @@
+{
+  "data": {
+    "slug": "gezira-beach",
+    "name": "Gezira Beach",
+    "country_code": "SO",
+    "admin_level_1": "Lower Shabeelle",
+    "centroid_lat": 1.94396,
+    "centroid_lng": 45.16684,
+    "water_body_type": "ocean",
+    "substrate_type": "unknown",
+    "slope_pct": 2.760779729485512,
+    "nearshore_depth_m": 55.4375,
+    "classification": {
+      "primary_type": "Ocean",
+      "primary_type_slug": "ocean",
+      "coastal_type": "Ocean",
+      "coastal_type_slug": "ocean",
+      "micro_type": "Ocean",
+      "micro_type_slug": "ocean"
+    },
+    "nearest_city": "Afgooye",
+    "nearest_city_distance_km": 22.2,
+    "nearest_airport": {
+      "iata": "MGQ",
+      "name": "Aden Adde International Airport",
+      "distance_km": 17.2
+    },
+    "climate": {
+      "air_temp_high": [
+        32.15,
+        32.5,
+        33.5,
+        33.9,
+        32.2,
+        30.7,
+        29.8,
+        29.95,
+        30.6,
+        31.9,
+        32.0,
+        32.0
+      ],
+      "air_temp_low": [
+        21.2,
+        21.4,
+        22.6,
+        23.3,
+        22.8,
+        21.9,
+        21.35,
+        21.15,
+        21.6,
+        22.1,
+        21.9,
+        21.7
+      ],
+      "rain_mm": [
+        2.0,
+        1.0,
+        7.0,
+        74.0,
+        76.0,
+        66.0,
+        58.0,
+        32.0,
+        12.0,
+        42.0,
+        80.0,
+        20.0
+      ],
+      "wind_speed": [
+        5.5,
+        4.65,
+        3.8,
+        2.95,
+        3.35,
+        4.55,
+        5.1,
+        5.25,
+        4.4,
+        3.8,
+        3.5,
+        4.5
+      ],
+      "sun_hours": [
+        21852.0,
+        23560.0,
+        23728.0,
+        21719.0,
+        20468.0,
+        18368.0,
+        18984.0,
+        20968.0,
+        22827.0,
+        21638.0,
+        20911.0,
+        20712.0
+      ],
+      "climate_source": "worldclim_v2.1_2.5m",
+      "climate_type": null,
+      "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
+    },
+    "tides": {
+      "range_spring_m": 2.129271254219965,
+      "range_neap_m": 0.728150197348296,
+      "type": "mixed",
+      "source": "eot20"
+    },
+    "sand": {
+      "predicted": {
+        "q_pct": 93.4,
+        "f_pct": 3.8,
+        "l_pct": 2.8,
+        "regime": "quartz-dominant",
+        "regime_plain": "Quartz-dominant",
+        "source": "GloPrSM v1.0.0 (IJ_QFL)"
+      }
+    },
+    "safety": {
+      "shark_incidents_total": 0,
+      "shark_incident_last_year": null,
+      "nearshore_depth_m": 55.4375
+    },
+    "comparisons": [
+      {
+        "metric": "Peak warmth",
+        "text": "Warmer than 70% of beaches in its country",
+        "detail": "Peak-month high ≈ 34°C"
+      },
+      {
+        "metric": "Worldwide",
+        "text": "Among the warmest 3% of beaches on Earth",
+        "detail": null
+      }
+    ],
+    "wikidata_id": "Q16911505",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jazeera_Beach",
+    "wikipedia_page_views_annual": 4980,
+    "notability_score": 19.1,
+    "data_completeness_pct": 50.0,
+    "best_months": [
+      "jan",
+      "feb",
+      "mar",
+      "apr",
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep",
+      "oct",
+      "nov",
+      "dec"
+    ],
+    "swim_suitability": "fair"
+  },
+  "neighbors": [
+    {
+      "slug": "jaziira-beach",
+      "name": "Jaziira Beach",
+      "distance_km": 1.2,
+      "has_wiki": false
+    },
+    {
+      "slug": "rocky-beach-5",
+      "name": "Rocky Beach",
+      "distance_km": 17.2,
+      "has_wiki": false
+    },
+    {
+      "slug": "second-lido-beach-shty-lydw-lthny",
+      "name": "Second Lido Beach شاطئ ليدو الثاني",
+      "distance_km": 22.1,
+      "has_wiki": false
+    },
+    {
+      "slug": "lido-beach-mogadishu",
+      "name": "Lido Beach, Mogadishu",
+      "distance_km": 24.3,
+      "has_wiki": true
+    },
+    {
+      "slug": "liido-beach-shty-lydw",
+      "name": "Liido Beach شاطئ ليدو",
+      "distance_km": 25.3,
+      "has_wiki": false
+    }
+  ]
+}

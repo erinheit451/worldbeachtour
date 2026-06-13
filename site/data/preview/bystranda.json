@@ -1,0 +1,309 @@
+{
+  "data": {
+    "slug": "bystranda",
+    "name": "Bystranda",
+    "country_code": "NO",
+    "admin_level_1": "Vest-Agder",
+    "centroid_lat": 58.1460004,
+    "centroid_lng": 8.0073494,
+    "water_body_type": "ocean",
+    "substrate_type": "sand",
+    "slope_pct": 1.9343204736709596,
+    "nearshore_depth_m": 33.7161979675293,
+    "classification": {
+      "primary_type": "Sand",
+      "primary_type_slug": "sand",
+      "coastal_type": "Sand",
+      "coastal_type_slug": "sand",
+      "micro_type": "Ocean",
+      "micro_type_slug": "ocean"
+    },
+    "nearest_city": "Kristiansand",
+    "nearest_city_distance_km": 0.7,
+    "nearest_airport": {
+      "iata": "KRS",
+      "name": "Kristiansand Airport",
+      "distance_km": 7.9
+    },
+    "climate": {
+      "air_temp_high": [
+        2.42,
+        2.5533,
+        4.7867,
+        8.6867,
+        14.3467,
+        17.9733,
+        20.1733,
+        19.5533,
+        15.42,
+        11.0333,
+        6.5067,
+        3.7267
+      ],
+      "air_temp_low": [
+        -2.66,
+        -3.0067,
+        -0.8867,
+        1.64,
+        6.28,
+        10.14,
+        12.1067,
+        11.72,
+        8.7,
+        5.4733,
+        1.5,
+        -1.4133
+      ],
+      "rain_mm": [
+        145.0,
+        100.0,
+        108.0,
+        66.0,
+        73.0,
+        82.0,
+        82.0,
+        114.0,
+        152.0,
+        172.0,
+        176.0,
+        140.0
+      ],
+      "wind_speed": [
+        5.5733,
+        5.3733,
+        5.2733,
+        4.9733,
+        4.8533,
+        4.7267,
+        4.66,
+        4.56,
+        5.1667,
+        5.2667,
+        5.2933,
+        5.3667
+      ],
+      "sun_hours": [
+        1587.0,
+        3690.0,
+        7708.0,
+        13189.0,
+        17906.0,
+        19310.0,
+        18123.0,
+        15023.0,
+        9178.0,
+        4868.0,
+        2020.0,
+        1103.0
+      ],
+      "climate_source": "worldclim_v2.1_2.5m",
+      "climate_type": null,
+      "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
+    },
+    "tides": {
+      "range_spring_m": 0.2628189962128687,
+      "range_neap_m": 0.1599246384677645,
+      "type": "semidiurnal",
+      "source": "eot20"
+    },
+    "sand": {
+      "predicted": {
+        "q_pct": 56.5,
+        "f_pct": 20.1,
+        "l_pct": 23.4,
+        "regime": "mixed Q-F-L",
+        "regime_plain": "Mixed q-f-l",
+        "source": "GloPrSM v1.0.0 (IJ_QFL)"
+      }
+    },
+    "safety": {
+      "shark_incidents_total": 0,
+      "shark_incident_last_year": null,
+      "nearshore_depth_m": 33.7161979675293
+    },
+    "wildlife": {
+      "total_species": 20,
+      "groups": [
+        {
+          "label": "Birds",
+          "key": "bird",
+          "count": 10,
+          "top": [
+            {
+              "common": "Hooded Crow",
+              "latin": "Corvus cornix",
+              "obs": 41,
+              "iucn": null
+            },
+            {
+              "common": "Common Gull",
+              "latin": "Larus canus",
+              "obs": 17,
+              "iucn": null
+            },
+            {
+              "common": "Mallard",
+              "latin": "Anas platyrhynchos",
+              "obs": 13,
+              "iucn": null
+            },
+            {
+              "common": "Mute Swan",
+              "latin": "Cygnus olor",
+              "obs": 10,
+              "iucn": null
+            },
+            {
+              "common": "Eurasian Oystercatcher",
+              "latin": "Haematopus ostralegus",
+              "obs": 9,
+              "iucn": null
+            },
+            {
+              "common": "Common Eider",
+              "latin": "Somateria mollissima",
+              "obs": 9,
+              "iucn": null
+            },
+            {
+              "common": "House Sparrow",
+              "latin": "Passer domesticus",
+              "obs": 8,
+              "iucn": null
+            },
+            {
+              "common": "Eurasian Magpie",
+              "latin": "Pica pica",
+              "obs": 7,
+              "iucn": null
+            }
+          ]
+        },
+        {
+          "label": "Plants",
+          "key": "plant",
+          "count": 9,
+          "top": [
+            {
+              "common": "purple foxglove",
+              "latin": "Digitalis purpurea",
+              "obs": 8,
+              "iucn": null
+            },
+            {
+              "common": "common heather",
+              "latin": "Calluna vulgaris",
+              "obs": 8,
+              "iucn": null
+            },
+            {
+              "common": "Common Cow-wheat",
+              "latin": "Melampyrum pratense",
+              "obs": 7,
+              "iucn": null
+            },
+            {
+              "common": "Rock Campion",
+              "latin": "Atocion rupestre",
+              "obs": 7,
+              "iucn": null
+            },
+            {
+              "common": "European beech",
+              "latin": "Fagus sylvatica",
+              "obs": 6,
+              "iucn": null
+            },
+            {
+              "common": "Sea Campion",
+              "latin": "Silene uniflora",
+              "obs": 6,
+              "iucn": null
+            },
+            {
+              "common": "sycamore maple",
+              "latin": "Acer pseudoplatanus",
+              "obs": 6,
+              "iucn": null
+            },
+            {
+              "common": "common bilberry",
+              "latin": "Vaccinium myrtillus",
+              "obs": 6,
+              "iucn": null
+            }
+          ]
+        },
+        {
+          "label": "Invertebrates",
+          "key": "invertebrate",
+          "count": 1,
+          "top": [
+            {
+              "common": "Lion's Mane Jelly",
+              "latin": "Cyanea capillata",
+              "obs": 11,
+              "iucn": null
+            }
+          ]
+        }
+      ]
+    },
+    "comparisons": [
+      {
+        "metric": "Peak warmth",
+        "text": "Warmer than 65% of beaches in its country",
+        "detail": "Peak-month high ≈ 20°C"
+      }
+    ],
+    "wikidata_id": "Q17402676",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bystranda",
+    "wikipedia_page_views_annual": 3862,
+    "notability_score": 20.4,
+    "data_completeness_pct": 54.2,
+    "best_months": [
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "swim_suitability": "fair"
+  },
+  "neighbors": [
+    {
+      "slug": "galgebergtangen",
+      "name": "Galgebergtangen",
+      "distance_km": 0.7,
+      "has_wiki": false
+    },
+    {
+      "slug": "bendiksbukta",
+      "name": "Bendiksbukta",
+      "distance_km": 0.8,
+      "has_wiki": false
+    },
+    {
+      "slug": "bertesbukta",
+      "name": "Bertesbukta",
+      "distance_km": 1.4,
+      "has_wiki": false
+    },
+    {
+      "slug": "som",
+      "name": "Søm",
+      "distance_km": 2.8,
+      "has_wiki": false
+    },
+    {
+      "slug": "paradisbukta-2",
+      "name": "Paradisbukta",
+      "distance_km": 4.2,
+      "has_wiki": false
+    },
+    {
+      "slug": "solstrand",
+      "name": "Solstrand",
+      "distance_km": 6.0,
+      "has_wiki": false
+    }
+  ]
+}

@@ -7,6 +7,33 @@
 >
 > Companion: `template-sample-set.md` (the ~20 beaches we validate against).
 
+## DECISIONS LOCKED (2026-06-13, with Erin) — supersede the open questions below
+
+1. **T1 gate (was Q4): any Wikidata presence.** A beach with a `wikidata_id`
+   gets the T1 "page with a voice" template — **with one reconciliation:** the
+   unnamed/named axis still rules, so the effective gate is
+   **`wikidata_id` present AND `name` present**. Unnamed-but-wikidata beaches
+   (they exist — three are in the sample set) stay **Stub**, never promoted to a
+   voice page. Broad gate ⇒ the flex principle must hold hard: a wikidata-only
+   beach with no grounded text degrades to a *rich T0*, never a hollow essay.
+2. **ISR migration: GO** (was build-out decision 1). The every-beach page is
+   designed assuming live-DB sections (compare, similar-beaches, "best right
+   now") are available.
+3. **Indexing: index ~1,300 (T1–T3) now, stubs noindexed, cohort promotion by
+   GSC evidence** (was build-out decision 2 + Q3/Q5). Mechanism requirement:
+   `noindex` ships in the **initial HTML head**, not JS-injected — built into the
+   page from day one.
+
+**Data-state correction (verified against `output/world_beaches.db` 2026-06-13):**
+the Jun-10 strategy doc's "best-months 0%" was stale — `best_months` is
+**97.7%** populated (222,544), `data_completeness_pct` **100%**, climate 97.7%.
+The Phase-1 data sprint is therefore largely *already done*; remaining data work
+is narrow (tier recompute under the new gate, `wikidata_id` into the export, the
+~37 famous-QID seed). `ocean_water_temp` is **0.0%** (2 rows) — confirms the
+YearStrip needs an air-temp fallback (wiring gap #1 below is real). Sample-set
+fix: `rio-tuerto-villaobispo-de-otero-pm` is missing from the DB →
+substitute **`playa-fluvial-de-villoria-de-orbigo`** (Órbigo river, León).
+
 ## REVISED TIER MODEL (2026-06-11, after the data sweep with Erin)
 
 The original architecture-doc split (index only ~1,100, everything else

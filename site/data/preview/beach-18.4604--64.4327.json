@@ -1,0 +1,196 @@
+{
+  "data": {
+    "slug": "beach-18.4604--64.4327",
+    "country_code": "VG",
+    "admin_level_1": "",
+    "centroid_lat": 18.4603828,
+    "centroid_lng": -64.4326745,
+    "water_body_type": "ocean",
+    "substrate_type": "unknown",
+    "slope_pct": 1.6123449325561523,
+    "nearshore_depth_m": 19.496145248413086,
+    "classification": {
+      "primary_type": "Ocean",
+      "primary_type_slug": "ocean",
+      "coastal_type": "Ocean",
+      "coastal_type_slug": "ocean",
+      "micro_type": "Ocean",
+      "micro_type_slug": "ocean"
+    },
+    "nearest_city": "Tortola",
+    "nearest_city_distance_km": 18.2,
+    "nearest_airport": {
+      "iata": "VIJ",
+      "name": "Virgin Gorda Airport",
+      "distance_km": 1.6
+    },
+    "climate": {
+      "air_temp_high": [
+        28.25,
+        28.35,
+        28.65,
+        29.3,
+        29.85,
+        30.5,
+        31.05,
+        31.25,
+        31.3,
+        30.95,
+        29.8,
+        28.6
+      ],
+      "air_temp_low": [
+        21.85,
+        21.7,
+        21.95,
+        22.5,
+        23.25,
+        24.15,
+        24.25,
+        24.5,
+        24.25,
+        24.0,
+        23.3,
+        22.45
+      ],
+      "rain_mm": [
+        60.0,
+        46.0,
+        54.0,
+        76.0,
+        116.0,
+        63.0,
+        72.0,
+        108.0,
+        130.0,
+        130.0,
+        136.0,
+        102.0
+      ],
+      "wind_speed": [
+        4.45,
+        4.6,
+        4.6,
+        4.5,
+        4.4,
+        4.9,
+        5.2,
+        4.9,
+        4.2,
+        3.75,
+        4.0,
+        4.4
+      ],
+      "sun_hours": [
+        16780.0,
+        18774.0,
+        21482.0,
+        22890.0,
+        22809.0,
+        23053.0,
+        23262.0,
+        22828.0,
+        20418.0,
+        18777.0,
+        16566.0,
+        15710.0
+      ],
+      "climate_source": "worldclim_v2.1_2.5m",
+      "climate_type": null,
+      "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
+    },
+    "tides": {
+      "range_spring_m": 0.19124139223842507,
+      "range_neap_m": 0.14831129871956888,
+      "type": "diurnal",
+      "source": "eot20"
+    },
+    "sand": {
+      "predicted": {
+        "q_pct": 22.9,
+        "f_pct": 57.2,
+        "l_pct": 19.9,
+        "regime": "feldspar-rich (plutonic/crystalline terrane)",
+        "regime_plain": "Feldspar-rich (plutonic/crystalline terrane)",
+        "source": "GloPrSM v1.0.0 (IJ_QFL)"
+      }
+    },
+    "storm_history": {
+      "cyclone_count_50yr": 90,
+      "paragraph": "90 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1852–2024).",
+      "source": "IBTrACS v04r01 (NOAA)"
+    },
+    "safety": {
+      "shark_incidents_total": 0,
+      "shark_incident_last_year": null,
+      "nearshore_depth_m": 19.496145248413086
+    },
+    "comparisons": [
+      {
+        "metric": "Peak warmth",
+        "text": "Warmer than 56% of beaches in its country",
+        "detail": "Peak-month high ≈ 31°C"
+      },
+      {
+        "metric": "Worldwide",
+        "text": "Among the warmest 14% of beaches on Earth",
+        "detail": null
+      }
+    ],
+    "notability_score": 0.0,
+    "data_completeness_pct": 45.8,
+    "best_months": [
+      "jan",
+      "feb",
+      "mar",
+      "apr",
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep",
+      "oct",
+      "nov",
+      "dec"
+    ],
+    "swim_suitability": "fair"
+  },
+  "neighbors": [
+    {
+      "slug": "fishers-cove",
+      "name": "Fishers Cove",
+      "distance_km": 1.2,
+      "has_wiki": false
+    },
+    {
+      "slug": "the-baths",
+      "name": "The Baths",
+      "distance_km": 3.7,
+      "has_wiki": true
+    },
+    {
+      "slug": "devil-s-bay",
+      "name": "Devil's Bay",
+      "distance_km": 3.9,
+      "has_wiki": false
+    },
+    {
+      "slug": "stoney-bay",
+      "name": "Stoney Bay",
+      "distance_km": 4.0,
+      "has_wiki": false
+    },
+    {
+      "slug": "north-beach-48",
+      "name": "North Beach",
+      "distance_km": 9.3,
+      "has_wiki": false
+    },
+    {
+      "slug": "turtle-beach-9",
+      "name": "Turtle Beach",
+      "distance_km": 10.5,
+      "has_wiki": false
+    }
+  ]
+}

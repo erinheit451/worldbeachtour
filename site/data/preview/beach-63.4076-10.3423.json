@@ -1,0 +1,184 @@
+{
+  "data": {
+    "slug": "beach-63.4076-10.3423",
+    "country_code": "NO",
+    "admin_level_1": "Sor-Trondelag",
+    "centroid_lat": 63.4075688,
+    "centroid_lng": 10.3423183,
+    "water_body_type": "ocean",
+    "substrate_type": "unknown",
+    "classification": {
+      "primary_type": "Ocean",
+      "primary_type_slug": "ocean",
+      "coastal_type": "Ocean",
+      "coastal_type_slug": "ocean",
+      "micro_type": "Ocean",
+      "micro_type_slug": "ocean"
+    },
+    "nearest_city": "Trondheim",
+    "nearest_city_distance_km": 3.7,
+    "nearest_airport": {
+      "iata": "TRD",
+      "name": "Trondheim Airport, Værnes",
+      "distance_km": 29.5
+    },
+    "climate": {
+      "air_temp_high": [
+        0.208,
+        0.848,
+        3.408,
+        7.188,
+        13.04,
+        15.788,
+        17.736,
+        16.996,
+        13.088,
+        8.16,
+        3.152,
+        0.772
+      ],
+      "air_temp_low": [
+        -5.516,
+        -5.04,
+        -2.852,
+        -0.236,
+        4.088,
+        7.324,
+        9.428,
+        9.092,
+        5.912,
+        2.16,
+        -1.808,
+        -4.732
+      ],
+      "rain_mm": [
+        82.0,
+        71.0,
+        63.0,
+        60.0,
+        54.0,
+        73.0,
+        90.0,
+        88.0,
+        111.0,
+        107.0,
+        82.0,
+        104.0
+      ],
+      "wind_speed": [
+        5.18,
+        4.676,
+        4.412,
+        3.98,
+        3.828,
+        3.492,
+        3.248,
+        3.24,
+        3.904,
+        4.224,
+        4.576,
+        4.668
+      ],
+      "sun_hours": [
+        781.0,
+        2828.0,
+        7010.0,
+        12887.0,
+        17428.0,
+        18656.0,
+        17580.0,
+        13379.0,
+        8119.0,
+        3658.0,
+        1134.0,
+        485.0
+      ],
+      "climate_source": "worldclim_v2.1_2.5m",
+      "climate_type": null,
+      "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
+    },
+    "tides": {
+      "range_spring_m": 0.6973746264289886,
+      "range_neap_m": 0.09965403742364848,
+      "type": "mixed",
+      "source": "eot20"
+    },
+    "sand": {
+      "predicted": {
+        "q_pct": 55.3,
+        "f_pct": 18.0,
+        "l_pct": 26.7,
+        "regime": "mixed Q-F-L",
+        "regime_plain": "Mixed q-f-l",
+        "source": "GloPrSM v1.0.0 (IJ_QFL)"
+      }
+    },
+    "storm_history": {
+      "cyclone_count_50yr": 2,
+      "paragraph": "2 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1966–1969).",
+      "source": "IBTrACS v04r01 (NOAA)"
+    },
+    "safety": {
+      "shark_incidents_total": 0,
+      "shark_incident_last_year": null
+    },
+    "comparisons": [
+      {
+        "metric": "Peak warmth",
+        "text": "Cooler than 51% of beaches in its country",
+        "detail": "Peak-month high ≈ 18°C"
+      },
+      {
+        "metric": "Worldwide",
+        "text": "Among the coolest 19% of beaches on Earth",
+        "detail": null
+      }
+    ],
+    "notability_score": 0.0,
+    "data_completeness_pct": 41.7,
+    "best_months": [
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "swim_suitability": "fair"
+  },
+  "neighbors": [
+    {
+      "slug": "braennebukta",
+      "name": "Brænnebukta",
+      "distance_km": 4.5,
+      "has_wiki": false
+    },
+    {
+      "slug": "skjellbreia",
+      "name": "Skjellbreia",
+      "distance_km": 5.3,
+      "has_wiki": false
+    },
+    {
+      "slug": "korsvika",
+      "name": "Korsvika",
+      "distance_km": 6.5,
+      "has_wiki": false
+    },
+    {
+      "slug": "fagerheimbukta",
+      "name": "Fagerheimbukta",
+      "distance_km": 7.7,
+      "has_wiki": false
+    },
+    {
+      "slug": "ringvebukta",
+      "name": "Ringvebukta",
+      "distance_km": 7.8,
+      "has_wiki": false
+    },
+    {
+      "slug": "grilstadstranda",
+      "name": "Grilstadstranda",
+      "distance_km": 9.1,
+      "has_wiki": false
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "data": {
+    "slug": "praia-da-marinha",
+    "name": "Praia da Marinha",
+    "country_code": "PT",
+    "admin_level_1": "Faro",
+    "centroid_lat": 37.0897772,
+    "centroid_lng": -8.4126076,
+    "water_body_type": "ocean",
+    "substrate_type": "unknown",
+    "beach_length_m": 3700.0,
+    "slope_pct": 2.0812663555145265,
+    "nearshore_depth_m": 11.516900062561035,
+    "classification": {
+      "primary_type": "Ocean",
+      "primary_type_slug": "ocean",
+      "coastal_type": "Ocean",
+      "coastal_type_slug": "ocean",
+      "micro_type": "Ocean",
+      "micro_type_slug": "ocean"
+    },
+    "nearest_city": "Carvoeiro",
+    "nearest_city_distance_km": 3.7,
+    "nearest_airport": {
+      "iata": "PRM",
+      "name": "Portimão Airport",
+      "distance_km": 16.6
+    },
+    "climate": {
+      "air_temp_high": [
+        15.6389,
+        16.3889,
+        18.4,
+        19.6611,
+        22.1611,
+        25.5722,
+        28.4889,
+        28.35,
+        26.3056,
+        22.4556,
+        19.0389,
+        16.5222
+      ],
+      "air_temp_low": [
+        7.6944,
+        8.3333,
+        9.4556,
+        10.5333,
+        12.6667,
+        15.4889,
+        17.3778,
+        17.5778,
+        16.4611,
+        13.9944,
+        11.1333,
+        9.3222
+      ],
+      "rain_mm": [
+        75.0,
+        61.0,
+        44.0,
+        44.0,
+        26.0,
+        11.0,
+        1.0,
+        3.0,
+        17.0,
+        56.0,
+        81.0,
+        99.0
+      ],
+      "wind_speed": [
+        3.4778,
+        3.8444,
+        4.0,
+        4.0167,
+        3.9889,
+        4.0,
+        4.1,
+        3.8667,
+        3.3444,
+        3.5333,
+        3.5667,
+        3.7111
+      ],
+      "sun_hours": [
+        8832.0,
+        11671.0,
+        16044.0,
+        20729.0,
+        24751.0,
+        26366.0,
+        27371.0,
+        24456.0,
+        19122.0,
+        13889.0,
+        9613.0,
+        7761.0
+      ],
+      "climate_source": "worldclim_v2.1_2.5m",
+      "climate_type": null,
+      "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
+    },
+    "tides": {
+      "range_spring_m": 2.7221452747877293,
+      "range_neap_m": 1.2686851634972376,
+      "type": "semidiurnal",
+      "source": "eot20"
+    },
+    "sand": {
+      "predicted": {
+        "q_pct": 53.4,
+        "f_pct": 3.1,
+        "l_pct": 43.5,
+        "regime": "lithic-rich (volcanic/collisional terrane)",
+        "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
+        "source": "GloPrSM v1.0.0 (IJ_QFL)"
+      }
+    },
+    "storm_history": {
+      "cyclone_count_50yr": 3,
+      "paragraph": "3 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1952–2015).",
+      "source": "IBTrACS v04r01 (NOAA)"
+    },
+    "photos": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Algar_Seco_october_2024.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Algar_Seco_october_2024.jpg/1280px-Algar_Seco_october_2024.jpg",
+        "license": "CC BY-SA 4.0",
+        "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:MartinD\" title=\"User:MartinD\">MartinD</a>",
+        "title": "Algar Seco october 2024.jpg",
+        "width": 8400,
+        "height": 2872
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Praia_da_Marinha_-_Portugal_%284857020412%29.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Praia_da_Marinha_-_Portugal_%284857020412%29.jpg/1280px-Praia_da_Marinha_-_Portugal_%284857020412%29.jpg",
+        "license": "CC BY-SA 2.0",
+        "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/21446942@N00\">Vitor Oliveira</a> from Torres Vedras, PORTUGAL",
+        "title": "Praia da Marinha - Portugal (4857020412).jpg",
+        "width": 7596,
+        "height": 5064
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Praia_da_Marinha_-_Portugal_%286762258601%29.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Praia_da_Marinha_-_Portugal_%286762258601%29.jpg/1280px-Praia_da_Marinha_-_Portugal_%286762258601%29.jpg",
+        "license": "CC BY-SA 2.0",
+        "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/21446942@N00\">Vitor Oliveira</a> from Torres Vedras, PORTUGAL",
+        "title": "Praia da Marinha - Portugal (6762258601).jpg",
+        "width": 7580,
+        "height": 5052
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Portugal_Coast_%2848415016606%29.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Portugal_Coast_%2848415016606%29.jpg/1280px-Portugal_Coast_%2848415016606%29.jpg",
+        "license": "CC BY 2.0",
+        "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/60199688@N08\">erikccooper</a> from Chicago, United Stats",
+        "title": "Portugal Coast (48415016606).jpg",
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Portugal_Coast_%2848415017011%29.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Portugal_Coast_%2848415017011%29.jpg/1280px-Portugal_Coast_%2848415017011%29.jpg",
+        "license": "CC BY 2.0",
+        "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/60199688@N08\">erikccooper</a> from Chicago, United Stats",
+        "title": "Portugal Coast (48415017011).jpg",
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Portugal_Coast_%2848415164472%29.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Portugal_Coast_%2848415164472%29.jpg/1280px-Portugal_Coast_%2848415164472%29.jpg",
+        "license": "CC BY 2.0",
+        "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/60199688@N08\">erikccooper</a> from Chicago, United Stats",
+        "title": "Portugal Coast (48415164472).jpg",
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Portugal_Coast_%2848415164577%29.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Portugal_Coast_%2848415164577%29.jpg/1280px-Portugal_Coast_%2848415164577%29.jpg",
+        "license": "CC BY 2.0",
+        "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/60199688@N08\">erikccooper</a> from Chicago, United Stats",
+        "title": "Portugal Coast (48415164577).jpg",
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Portugal_Coast_%2848415168467%29.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Portugal_Coast_%2848415168467%29.jpg/1280px-Portugal_Coast_%2848415168467%29.jpg",
+        "license": "CC BY 2.0",
+        "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/60199688@N08\">erikccooper</a> from Chicago, United Stats",
+        "title": "Portugal Coast (48415168467).jpg",
+        "width": 6000,
+        "height": 4000
+      }
+    ],
+    "safety": {
+      "shark_incidents_total": 0,
+      "shark_incident_last_year": null,
+      "nearshore_depth_m": 11.516900062561035
+    },
+    "facilities": {
+      "parking": true,
+      "restrooms": true,
+      "food_nearby": true
+    },
+    "water_quality": {
+      "rating": "1 - excellent",
+      "source": "eu_bathing",
+      "year": null
+    },
+    "wildlife": {
+      "total_species": 20,
+      "groups": [
+        {
+          "label": "Plants",
+          "key": "plant",
+          "count": 18,
+          "top": [
+            {
+              "common": "Mediterranean juniper",
+              "latin": "Juniperus turbinata",
+              "obs": 66,
+              "iucn": null
+            },
+            {
+              "common": "mastic",
+              "latin": "Pistacia lentiscus",
+              "obs": 62,
+              "iucn": null
+            },
+            {
+              "common": "Grey-leaved Cistus",
+              "latin": "Cistus albidus",
+              "obs": 57,
+              "iucn": null
+            },
+            {
+              "common": "Barbary-nut",
+              "latin": "Moraea sisyrinchium",
+              "obs": 45,
+              "iucn": null
+            },
+            {
+              "common": "Mediterranean fan palm",
+              "latin": "Chamaerops humilis",
+              "obs": 40,
+              "iucn": null
+            },
+            {
+              "common": "gold coin",
+              "latin": "Pallenis maritima",
+              "obs": 37,
+              "iucn": null
+            },
+            {
+              "common": "sweet alyssum",
+              "latin": "Lobularia maritima",
+              "obs": 32,
+              "iucn": null
+            },
+            {
+              "common": "African Sandalwood",
+              "latin": "Osyris lanceolata",
+              "obs": 30,
+              "iucn": null
+            }
+          ]
+        },
+        {
+          "label": "Birds",
+          "key": "bird",
+          "count": 1,
+          "top": [
+            {
+              "common": "Yellow-legged Gull",
+              "latin": "Larus michahellis",
+              "obs": 59,
+              "iucn": null
+            }
+          ]
+        },
+        {
+          "label": "Invertebrates",
+          "key": "invertebrate",
+          "count": 1,
+          "top": [
+            {
+              "common": "Marsh Fritillary",
+              "latin": "Euphydryas aurinia",
+              "obs": 23,
+              "iucn": null
+            }
+          ]
+        }
+      ]
+    },
+    "comparisons": [
+      {
+        "metric": "Peak warmth",
+        "text": "Warmer than 86% of beaches in its country",
+        "detail": "Peak-month high ≈ 28°C"
+      }
+    ],
+    "wikidata_id": "Q1626861",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_da_Marinha",
+    "wikipedia_page_views_annual": 44787,
+    "notability_score": 40.8,
+    "data_completeness_pct": 70.8,
+    "best_months": [
+      "apr",
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep",
+      "oct"
+    ],
+    "swim_suitability": "fair"
+  },
+  "neighbors": [
+    {
+      "slug": "praia-do-buraco",
+      "name": "Praia do Buraco",
+      "distance_km": 0.1,
+      "has_wiki": false
+    },
+    {
+      "slug": "praia-do-pau",
+      "name": "Praia do Pau",
+      "distance_km": 0.2,
+      "has_wiki": false
+    },
+    {
+      "slug": "praia-da-mesquita",
+      "name": "Praia da Mesquita",
+      "distance_km": 0.2,
+      "has_wiki": false
+    },
+    {
+      "slug": "praia-da-malhada-do-baraco",
+      "name": "Praia da Malhada do Baraço",
+      "distance_km": 0.5,
+      "has_wiki": false
+    },
+    {
+      "slug": "praia-do-cao-raivoso",
+      "name": "Praia do Cão Raivoso",
+      "distance_km": 0.6,
+      "has_wiki": false
+    },
+    {
+      "slug": "praia-do-barranquinho",
+      "name": "Praia do Barranquinho",
+      "distance_km": 0.6,
+      "has_wiki": false
+    }
+  ]
+}

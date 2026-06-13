@@ -8,10 +8,65 @@
  */
 
 import Link from "next/link";
+import MapEmbed from "@/components/map-embed";
 
 // ── Types ────────────────────────────────────────────────────────────
 
 type Confidence = "verified" | "computed" | "predicted";
+
+export interface GalleryPhoto {
+  url: string;
+  thumb: string;
+  license?: string | null;
+  author_html?: string | null;
+  title?: string | null;
+  width?: number | null;
+  height?: number | null;
+}
+
+export interface Comparison {
+  metric: string;
+  text: string;
+  detail?: string | null;
+}
+
+interface WildlifeGroup {
+  label: string;
+  key: string;
+  count: number;
+  top: { common: string; latin?: string | null; obs?: number | null; iucn?: string | null }[];
+}
+
+export interface Wildlife {
+  total_species: number;
+  groups: WildlifeGroup[];
+}
+
+export interface Conservation {
+  name: string;
+  type?: string | null;
+  iucn?: string | null;
+  unesco?: boolean;
+}
+
+export interface Facilities {
+  parking?: boolean;
+  restrooms?: boolean;
+  showers?: boolean;
+  changing_rooms?: boolean;
+  food_nearby?: boolean;
+  wheelchair?: boolean;
+  dogs?: boolean;
+  camping?: boolean;
+  nudism?: boolean;
+}
+
+export interface SafetyInfo {
+  shark_incidents_total?: number;
+  shark_incident_last_year?: number | null;
+  nearshore_depth_m?: number;
+  lifeguard?: boolean;
+}
 
 interface ContextPhoto {
   url: string;
@@ -91,6 +146,8 @@ interface StubData {
     air_temp_high: (number | null)[];
     air_temp_low: (number | null)[];
     rain_mm: (number | null)[];
+    wind_speed?: (number | null)[] | null;
+    sun_hours?: (number | null)[] | null;
     water_temp_c?: (number | null)[];
     water_temp_source_note?: string;
     climate_source: string | null;
@@ -119,6 +176,14 @@ interface StubData {
     note?: string;
   };
   typological_siblings_placeholder?: Sibling[];
+  photos?: GalleryPhoto[];
+  comparisons?: Comparison[];
+  wildlife?: Wildlife;
+  conservation?: Conservation;
+  facilities?: Facilities;
+  water_quality?: { rating: string; source?: string | null; year?: number | null };
+  blue_flag?: boolean | null;
+  safety?: SafetyInfo;
 }
 
 interface Neighbor {
@@ -363,11 +428,11 @@ function CoastlineDiagram({
 // ── Year at a glance SVG ──────────────────────────────────────────────
 
 function YearStrip({
-  waterTemp,
+  temp,
   rain,
   goodMonths,
 }: {
-  waterTemp: (number | null)[];
+  temp: (number | null)[];
   rain: (number | null)[];
   goodMonths: Set<number>;
 }) {
@@ -378,13 +443,24 @@ function YearStrip({
   const colW = innerW / 12;
 
   const maxRain = Math.max(180, ...(rain.filter((r): r is number => r != null)));
-  const tempMin = 8, tempMax = 24;
+
+  // Adaptive temperature axis — air-temp fallback spans a far wider range than
+  // sea temp (cold-water beaches dip below 0°C), so derive bounds from the data
+  // with a little padding and "nice" rounding.
+  const temps = temp.filter((t): t is number => t != null);
+  const rawMin = temps.length ? Math.min(...temps) : 8;
+  const rawMax = temps.length ? Math.max(...temps) : 24;
+  const tempMin = Math.floor((rawMin - 2) / 5) * 5;
+  const tempMax = Math.ceil((rawMax + 2) / 5) * 5;
+  const tempSpan = Math.max(1, tempMax - tempMin);
+  const ticks: number[] = [];
+  for (let t = tempMin; t <= tempMax; t += 5) ticks.push(t);
 
   return (
     <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto block">
       {/* Axis grid */}
-      {[10, 15, 20].map((t) => {
-        const y = padT + innerH - ((t - tempMin) / (tempMax - tempMin)) * innerH;
+      {ticks.map((t) => {
+        const y = padT + innerH - ((t - tempMin) / tempSpan) * innerH;
         return (
           <g key={t}>
             <line x1={padL} y1={y} x2={W - padR} y2={y} stroke="#e2e8f0" strokeWidth="0.5" />
@@ -406,24 +482,30 @@ function YearStrip({
         );
       })}
 
-      {/* Water temp line */}
+      {/* Temperature line (sea temp where known, else air-temp high) */}
       <path
-        d={waterTemp
-          .map((t, i) => {
-            if (t == null) return "";
-            const x = padL + i * colW + colW / 2;
-            const y = padT + innerH - ((t - tempMin) / (tempMax - tempMin)) * innerH;
-            return `${i === 0 ? "M" : "L"} ${x.toFixed(1)} ${y.toFixed(1)}`;
-          })
-          .join(" ")}
+        d={(() => {
+          let started = false;
+          return temp
+            .map((t, i) => {
+              if (t == null) return "";
+              const x = padL + i * colW + colW / 2;
+              const y = padT + innerH - ((t - tempMin) / tempSpan) * innerH;
+              const cmd = started ? "L" : "M";
+              started = true;
+              return `${cmd} ${x.toFixed(1)} ${y.toFixed(1)}`;
+            })
+            .filter(Boolean)
+            .join(" ");
+        })()}
         fill="none"
         stroke="#075985"
         strokeWidth="2"
       />
-      {waterTemp.map((t, i) => {
+      {temp.map((t, i) => {
         if (t == null) return null;
         const x = padL + i * colW + colW / 2;
-        const y = padT + innerH - ((t - tempMin) / (tempMax - tempMin)) * innerH;
+        const y = padT + innerH - ((t - tempMin) / tempSpan) * innerH;
         return <circle key={i} cx={x} cy={y} r={2.5} fill="#075985" />;
       })}
 
@@ -538,6 +620,22 @@ export default function StubBeach({ data, neighbors = [] }: StubBeachProps) {
   const thisMonth = now.getMonth();
   const todayTemp = climate?.water_temp_c?.[thisMonth];
   const todayAir = climate?.air_temp_high?.[thisMonth];
+
+  // Sea-surface temperature is absent for ~all beaches in the DB. Rather than
+  // hide the season chart (or fake a water temp), fall back to air-temp highs,
+  // clearly labelled. Honesty over coverage.
+  const tempSeries = climate?.water_temp_c ?? climate?.air_temp_high ?? [];
+  const tempIsWater = !!climate?.water_temp_c;
+  const tempLabel = tempIsWater ? "Water temp" : "Air temp (high)";
+
+  // Wind (m/s) — present ~97%. Beaufort-ish descriptor for the current month.
+  const windSeries = climate?.wind_speed ?? null;
+  const todayWind = windSeries?.[thisMonth] ?? null;
+  const windWord = (w: number) =>
+    w < 2 ? "Calm" : w < 4 ? "Light breeze" : w < 6 ? "Moderate" : w < 9 ? "Fresh, often breezy" : "Windy";
+  // Sunshine: present ~97% but in an unlabelled unit; use it only to rank the
+  // sunniest months relative to this beach's own year, never as an absolute.
+  const sunSeries = climate?.sun_hours ?? null;
 
   return (
     <div className="bg-[#FBF9F4] min-h-screen">
@@ -674,43 +772,316 @@ export default function StubBeach({ data, neighbors = [] }: StubBeachProps) {
           )}
         </section>
 
+        {/* ── HOW IT COMPARES (the moat — only possible with all 228K) ── */}
+        {data.comparisons && data.comparisons.length > 0 && (
+          <section className="px-8 md:px-12 py-10 border-b border-volcanic-100">
+            <SectionHeading>How it compares</SectionHeading>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+              {data.comparisons.map((cmp, i) => (
+                <div key={i} className="border border-volcanic-100 bg-white rounded-sm p-4">
+                  <div className="font-mono text-[10px] uppercase tracking-[0.1em] text-ocean-800 mb-2">
+                    {cmp.metric}
+                  </div>
+                  <div className="font-display text-[17px] leading-[1.25] text-volcanic-900">
+                    {cmp.text}
+                  </div>
+                  {cmp.detail && (
+                    <div className="text-xs text-volcanic-500 mt-2">{cmp.detail}</div>
+                  )}
+                </div>
+              ))}
+            </div>
+            <p className="text-[12px] text-volcanic-400 italic mt-3">
+              Ranked against every beach in our database — 228,000+ worldwide.
+            </p>
+          </section>
+        )}
+
         {/* ── TODAY (typical) ────────────────────────────────────────── */}
-        {hasClimate && todayTemp != null && (
+        {hasClimate && (todayTemp != null || todayAir != null) && (
           <section className="px-8 md:px-12 py-10 border-b border-volcanic-100">
             <SectionHeading>Typical conditions · {MONTHS[thisMonth]}</SectionHeading>
             <div className="grid grid-cols-2 md:grid-cols-4 bg-white border border-volcanic-100 rounded-sm overflow-hidden">
-              <div className="p-5 border-r border-volcanic-100">
-                <div className="font-mono text-[10px] uppercase tracking-[0.1em] text-volcanic-400 mb-2">Water temp</div>
-                <div className="font-display text-3xl text-volcanic-900 leading-none">{todayTemp.toFixed(1)}°C</div>
-                <div className="text-xs text-volcanic-500 mt-2">
-                  {todayTemp < 15 ? "Cool · wetsuit recommended" : todayTemp < 19 ? "Refreshing · brief swims" : "Warm enough"}
+              {todayTemp != null && (
+                <div className="p-5 border-r border-volcanic-100">
+                  <div className="font-mono text-[10px] uppercase tracking-[0.1em] text-volcanic-400 mb-2">Water temp</div>
+                  <div className="font-display text-3xl text-volcanic-900 leading-none">{todayTemp.toFixed(1)}°C</div>
+                  <div className="text-xs text-volcanic-500 mt-2">
+                    {todayTemp < 15 ? "Cool · wetsuit recommended" : todayTemp < 19 ? "Refreshing · brief swims" : "Warm enough"}
+                  </div>
                 </div>
-              </div>
-              <div className="p-5 border-r border-volcanic-100">
-                <div className="font-mono text-[10px] uppercase tracking-[0.1em] text-volcanic-400 mb-2">Air (high)</div>
-                <div className="font-display text-3xl text-volcanic-900 leading-none">{todayAir?.toFixed(0)}°C</div>
-                <div className="text-xs text-volcanic-500 mt-2">{climate!.climate_type}</div>
-              </div>
-              <div className="p-5 border-r border-volcanic-100">
-                <div className="font-mono text-[10px] uppercase tracking-[0.1em] text-volcanic-400 mb-2">Tide range</div>
-                <div className="font-display text-3xl text-volcanic-900 leading-none">
-                  {data.tides?.range_spring_m.toFixed(1)} m
+              )}
+              {todayAir != null && (
+                <div className="p-5 border-r border-volcanic-100">
+                  <div className="font-mono text-[10px] uppercase tracking-[0.1em] text-volcanic-400 mb-2">Air (high)</div>
+                  <div className="font-display text-3xl text-volcanic-900 leading-none">{todayAir.toFixed(0)}°C</div>
+                  {todayTemp == null && (
+                    <div className="text-xs text-volcanic-500 mt-2">No sea-temp record · air shown</div>
+                  )}
                 </div>
-                <div className="text-xs text-volcanic-500 mt-2">Spring · semidiurnal</div>
-              </div>
-              <div className="p-5">
+              )}
+              {hasTides && (
+                <div className="p-5 border-r border-volcanic-100">
+                  <div className="font-mono text-[10px] uppercase tracking-[0.1em] text-volcanic-400 mb-2">Tide range</div>
+                  <div className="font-display text-3xl text-volcanic-900 leading-none">
+                    {data.tides!.range_spring_m.toFixed(1)} m
+                  </div>
+                  <div className="text-xs text-volcanic-500 mt-2 capitalize">Spring · {data.tides!.type?.replace("_", "-") || "—"}</div>
+                </div>
+              )}
+              <div className="p-5 border-r border-volcanic-100">
                 <div className="font-mono text-[10px] uppercase tracking-[0.1em] text-volcanic-400 mb-2">Rain</div>
                 <div className="font-display text-3xl text-volcanic-900 leading-none">
                   {climate!.rain_mm[thisMonth]?.toFixed(0)} mm
                 </div>
                 <div className="text-xs text-volcanic-500 mt-2">Monthly average</div>
               </div>
+              {todayWind != null && (
+                <div className="p-5">
+                  <div className="font-mono text-[10px] uppercase tracking-[0.1em] text-volcanic-400 mb-2">Wind</div>
+                  <div className="font-display text-3xl text-volcanic-900 leading-none">
+                    {todayWind.toFixed(1)} <span className="text-base text-volcanic-500">m/s</span>
+                  </div>
+                  <div className="text-xs text-volcanic-500 mt-2">{windWord(todayWind)}</div>
+                </div>
+              )}
             </div>
             <p className="mt-3 text-[12px] text-volcanic-400 italic">
-              Monthly climatology, not a live forecast. Live conditions (swell, current tide, wind) pending pipeline integration — {MONTHS[thisMonth]} normals shown as a proxy.
+              Monthly climatology, not a live forecast — {MONTHS[thisMonth]} normals shown as a proxy.
             </p>
           </section>
         )}
+
+        {/* ── A YEAR HERE (climate chart — sits with Typical conditions) ── */}
+        {hasClimate && tempSeries.length > 0 && (
+          <section className="px-8 md:px-12 py-10 border-b border-volcanic-100">
+            <SectionHeading>A year here</SectionHeading>
+            <div className="border border-volcanic-100 bg-white p-5">
+              <YearStrip
+                temp={tempSeries}
+                rain={climate!.rain_mm}
+                goodMonths={bestMonths}
+              />
+              <div className="flex flex-wrap gap-x-6 gap-y-2 mt-3 pt-3 border-t border-volcanic-100 font-mono text-[10px] uppercase tracking-[0.05em] text-volcanic-500">
+                <span className="flex items-center gap-1.5"><span className="inline-block w-4 h-0.5 bg-ocean-800" />{tempLabel}</span>
+                <span className="flex items-center gap-1.5"><span className="inline-block w-4 h-1.5 bg-sand-700 opacity-35" />Rainfall</span>
+                <span className="flex items-center gap-1.5"><span className="inline-block w-4 h-1.5 bg-sand-600 opacity-90" />Beach-day window</span>
+              </div>
+            </div>
+            <p className="text-[12px] text-volcanic-400 italic mt-3">
+              Monthly normals from {climate!.climate_source || "WorldClim v2.1"}.{" "}
+              {tempIsWater
+                ? climate!.water_temp_source_note
+                : "Sea-surface temperature isn't on record for this beach, so the line tracks average daytime air-temperature highs; the beach-day window keys to air temperature and rainfall."}
+            </p>
+          </section>
+        )}
+
+        {/* ── PHOTOGRAPHS (Commons, proximity-fetched) ───────────────── */}
+        {data.photos && data.photos.length > 0 && (
+          <section className="px-8 md:px-12 py-10 border-b border-volcanic-100">
+            <SectionHeading>Photographs near here</SectionHeading>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+              {data.photos.map((p, i) => (
+                <figure
+                  key={i}
+                  className={`group relative overflow-hidden bg-volcanic-100 ${
+                    i === 0 ? "col-span-2 row-span-2 aspect-square" : "aspect-square"
+                  }`}
+                >
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={p.thumb}
+                    alt={p.title || `Photo near ${displayName}`}
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    loading="lazy"
+                  />
+                  {p.author_html && (
+                    <figcaption className="absolute inset-x-0 bottom-0 px-2 py-1 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                      <span
+                        className="text-[9px] font-mono text-white/85 line-clamp-1 [&_a]:underline"
+                        dangerouslySetInnerHTML={{ __html: `${p.author_html} · ${p.license || ""}` }}
+                      />
+                    </figcaption>
+                  )}
+                </figure>
+              ))}
+            </div>
+            <p className="text-[12px] text-volcanic-400 italic mt-3">
+              Images from Wikimedia Commons within range of this beach, ranked by
+              resolution — not yet hand-verified as the beach itself. Reuse under
+              each photo&rsquo;s own license.
+            </p>
+          </section>
+        )}
+
+        {/* ── SAFETY & CONDITIONS ────────────────────────────────────── */}
+        {data.safety && (data.safety.shark_incidents_total != null || data.safety.nearshore_depth_m != null || data.safety.lifeguard != null) && (
+          <section className="px-8 md:px-12 py-10 border-b border-volcanic-100">
+            <SectionHeading>Safety &amp; conditions</SectionHeading>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+              {data.safety.shark_incidents_total != null && (
+                <Datum
+                  label="Shark incidents"
+                  conf="verified"
+                  value={
+                    data.safety.shark_incidents_total === 0
+                      ? <span className="text-[19px]">None recorded</span>
+                      : <span className="text-[19px]">{data.safety.shark_incidents_total} recorded</span>
+                  }
+                  sub={
+                    data.safety.shark_incidents_total === 0
+                      ? "No incidents in the global shark-attack file"
+                      : data.safety.shark_incident_last_year
+                        ? `Most recent: ${data.safety.shark_incident_last_year}`
+                        : "Historical record"
+                  }
+                />
+              )}
+              {data.safety.nearshore_depth_m != null && (
+                <Datum
+                  label="Water depth nearby"
+                  conf="computed"
+                  value={<span className="text-[19px]">~{data.safety.nearshore_depth_m.toFixed(0)} m</span>}
+                  sub={
+                    data.safety.nearshore_depth_m < 5 ? "Shallow & gradual close to shore"
+                      : data.safety.nearshore_depth_m < 15 ? "Moderate depth offshore"
+                        : "Deep water relatively close in"
+                  }
+                />
+              )}
+              {data.safety.lifeguard != null && (
+                <Datum
+                  label="Lifeguard"
+                  value={<span className="text-[19px]">{data.safety.lifeguard ? "Yes, in season" : "No lifeguard"}</span>}
+                />
+              )}
+            </div>
+          </section>
+        )}
+
+        {/* ── FACILITIES & ACCESS ────────────────────────────────────── */}
+        {data.facilities && Object.keys(data.facilities).length > 0 && (
+          <section className="px-8 md:px-12 py-10 border-b border-volcanic-100">
+            <SectionHeading>Facilities &amp; access</SectionHeading>
+            <div className="flex flex-wrap gap-2">
+              {(
+                [
+                  ["parking", "Parking"], ["restrooms", "Restrooms"], ["showers", "Showers"],
+                  ["changing_rooms", "Changing rooms"], ["food_nearby", "Food nearby"],
+                  ["wheelchair", "Wheelchair access"], ["dogs", "Dogs allowed"],
+                  ["camping", "Camping"], ["nudism", "Naturist"],
+                ] as [keyof Facilities, string][]
+              ).map(([key, label]) =>
+                data.facilities![key] === undefined ? null : (
+                  <span
+                    key={key}
+                    className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-sm border ${
+                      data.facilities![key]
+                        ? "bg-reef-50 text-reef-800 border-reef-200"
+                        : "bg-volcanic-50 text-volcanic-400 border-volcanic-100 line-through"
+                    }`}
+                  >
+                    {data.facilities![key] ? "✓" : "✗"} {label}
+                  </span>
+                )
+              )}
+            </div>
+            <p className="text-[12px] text-volcanic-400 italic mt-4">
+              From OpenStreetMap tags — absence of a tag isn&rsquo;t proof of absence on the ground.
+            </p>
+          </section>
+        )}
+
+        {/* ── WATER QUALITY / BLUE FLAG ──────────────────────────────── */}
+        {(data.water_quality || data.blue_flag) && (
+          <section className="px-8 md:px-12 py-10 border-b border-volcanic-100">
+            <SectionHeading>Water quality</SectionHeading>
+            <div className="flex flex-wrap items-center gap-4">
+              {data.blue_flag && (
+                <span className="inline-flex items-center gap-2 rounded-sm px-3 py-1.5 bg-ocean-800 text-white text-sm font-medium">
+                  ⚑ Blue Flag beach
+                </span>
+              )}
+              {data.water_quality && (
+                <Datum
+                  label="Bathing-water rating"
+                  conf="verified"
+                  value={<span className="text-[19px] capitalize">{data.water_quality.rating}</span>}
+                  sub={[data.water_quality.source, data.water_quality.year].filter(Boolean).join(" · ") || undefined}
+                />
+              )}
+            </div>
+          </section>
+        )}
+
+        {/* ── WHAT LIVES HERE (wildlife) ─────────────────────────────── */}
+        {data.wildlife && data.wildlife.groups.length > 0 && (
+          <section className="px-8 md:px-12 py-10 border-b border-volcanic-100">
+            <SectionHeading>What lives here</SectionHeading>
+            <p className="text-sm text-volcanic-600 max-w-2xl mb-6 leading-relaxed">
+              {data.wildlife.total_species} species recorded near this beach by citizen
+              scientists, most-observed first.
+            </p>
+            <div className="space-y-5">
+              {data.wildlife.groups.slice(0, 5).map((g) => (
+                <div key={g.key}>
+                  <div className="font-mono text-[10px] uppercase tracking-[0.1em] text-ocean-800 mb-2">
+                    {g.label} <span className="text-volcanic-400">· {g.count}</span>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    {g.top.map((s, i) => (
+                      <span
+                        key={i}
+                        className="inline-flex items-center gap-1.5 rounded-full border border-volcanic-100 bg-white px-3 py-1 text-[13px] text-volcanic-800"
+                        title={s.latin || undefined}
+                      >
+                        {s.common}
+                        {s.iucn && ["EN", "CR", "VU"].includes(s.iucn) && (
+                          <span className="font-mono text-[9px] text-coral-500 uppercase">{s.iucn}</span>
+                        )}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+            <p className="text-[12px] text-volcanic-400 italic mt-5">
+              Observation data from iNaturalist. Presence reflects what people report, not a survey.
+            </p>
+          </section>
+        )}
+
+        {/* ── CONSERVATION ───────────────────────────────────────────── */}
+        {data.conservation && (
+          <section className="px-8 md:px-12 py-10 border-b border-volcanic-100">
+            <SectionHeading>Protected status</SectionHeading>
+            <div className="border-l-2 border-reef-500 pl-5">
+              <div className="font-display text-2xl text-volcanic-900 leading-tight">
+                {data.conservation.name}
+              </div>
+              <div className="text-sm text-volcanic-600 mt-1.5 flex flex-wrap gap-x-3 gap-y-1">
+                {data.conservation.type && <span>{data.conservation.type}</span>}
+                {data.conservation.iucn && <span>· IUCN {data.conservation.iucn}</span>}
+                {data.conservation.unesco && <span className="text-ocean-800 font-medium">· UNESCO World Heritage</span>}
+              </div>
+              <p className="text-sm text-volcanic-500 mt-3 max-w-2xl">
+                This beach falls within a designated protected area — access and activities
+                may be regulated.
+              </p>
+            </div>
+          </section>
+        )}
+
+        {/* ── WHERE IT IS (map) ──────────────────────────────────────── */}
+        <section className="px-8 md:px-12 py-10 border-b border-volcanic-100">
+          <SectionHeading>Where it is</SectionHeading>
+          <MapEmbed
+            lat={data.centroid_lat}
+            lng={data.centroid_lng}
+            name={displayName}
+          />
+        </section>
 
         {/* ── COASTLINE DIAGRAM ──────────────────────────────────────── */}
         {data.osm?.geometry && (
@@ -768,28 +1139,6 @@ export default function StubBeach({ data, neighbors = [] }: StubBeachProps) {
             <SectionHeading>Setting — {data.setting.region}</SectionHeading>
             <p className="font-display text-[18px] leading-[1.65] text-volcanic-800 max-w-2xl">
               {data.setting.paragraph}
-            </p>
-          </section>
-        )}
-
-        {/* ── YEAR AT A GLANCE ───────────────────────────────────────── */}
-        {hasClimate && climate?.water_temp_c && (
-          <section className="px-8 md:px-12 py-10 border-b border-volcanic-100">
-            <SectionHeading>A year here</SectionHeading>
-            <div className="border border-volcanic-100 bg-white p-5">
-              <YearStrip
-                waterTemp={climate.water_temp_c}
-                rain={climate.rain_mm}
-                goodMonths={bestMonths}
-              />
-              <div className="flex flex-wrap gap-x-6 gap-y-2 mt-3 pt-3 border-t border-volcanic-100 font-mono text-[10px] uppercase tracking-[0.05em] text-volcanic-500">
-                <span className="flex items-center gap-1.5"><span className="inline-block w-4 h-0.5 bg-ocean-800" />Water temp</span>
-                <span className="flex items-center gap-1.5"><span className="inline-block w-4 h-1.5 bg-sand-700 opacity-35" />Rainfall</span>
-                <span className="flex items-center gap-1.5"><span className="inline-block w-4 h-1.5 bg-sand-600 opacity-90" />Beach-day window</span>
-              </div>
-            </div>
-            <p className="text-[12px] text-volcanic-400 italic mt-3">
-              Monthly normals from {climate.climate_source || "WorldClim v2.1"}. {climate.water_temp_source_note}
             </p>
           </section>
         )}

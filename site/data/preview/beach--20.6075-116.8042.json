@@ -1,0 +1,175 @@
+{
+  "data": {
+    "slug": "beach--20.6075-116.8042",
+    "country_code": "AU",
+    "admin_level_1": "Western Australia",
+    "centroid_lat": -20.6074545,
+    "centroid_lng": 116.8042172,
+    "water_body_type": "ocean",
+    "substrate_type": "sand",
+    "slope_pct": 1.504852867126465,
+    "nearshore_depth_m": 3.1683387756347656,
+    "classification": {
+      "primary_type": "Sand",
+      "primary_type_slug": "sand",
+      "coastal_type": "Sand",
+      "coastal_type_slug": "sand",
+      "micro_type": "Ocean",
+      "micro_type_slug": "ocean"
+    },
+    "nearest_city": "Dampier",
+    "nearest_city_distance_km": 11.3,
+    "nearest_airport": {
+      "iata": "KTA",
+      "name": "Karratha Airport",
+      "distance_km": 12.1
+    },
+    "climate": {
+      "air_temp_high": [
+        36.8692,
+        36.4769,
+        36.4077,
+        34.2923,
+        30.1,
+        26.6615,
+        26.1846,
+        28.0538,
+        30.9385,
+        33.5077,
+        35.0538,
+        36.6692
+      ],
+      "air_temp_low": [
+        25.5385,
+        25.7692,
+        25.2692,
+        22.6231,
+        18.3077,
+        15.2769,
+        13.6308,
+        14.6231,
+        16.5,
+        19.3231,
+        21.6692,
+        24.1385
+      ],
+      "rain_mm": [
+        29.0,
+        63.0,
+        44.0,
+        21.0,
+        32.0,
+        36.0,
+        15.0,
+        6.0,
+        1.0,
+        1.0,
+        0.0,
+        12.0
+      ],
+      "wind_speed": [
+        5.1846,
+        4.7462,
+        4.2077,
+        3.9692,
+        3.8154,
+        3.9538,
+        3.6615,
+        3.9923,
+        4.3385,
+        5.0615,
+        4.9538,
+        5.1462
+      ],
+      "sun_hours": [
+        27016.0,
+        25109.0,
+        23096.0,
+        19751.0,
+        16152.0,
+        14870.0,
+        16182.0,
+        19132.0,
+        23225.0,
+        27001.0,
+        28753.0,
+        28768.0
+      ],
+      "climate_source": "worldclim_v2.1_2.5m",
+      "climate_type": null,
+      "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
+    },
+    "tides": {
+      "range_spring_m": 3.727602374232533,
+      "range_neap_m": 0.9471885948759224,
+      "type": "semidiurnal",
+      "source": "eot20"
+    },
+    "sand": {
+      "predicted": {
+        "q_pct": 76.0,
+        "f_pct": 15.3,
+        "l_pct": 8.7,
+        "regime": "quartz-dominant",
+        "regime_plain": "Quartz-dominant",
+        "source": "GloPrSM v1.0.0 (IJ_QFL)"
+      }
+    },
+    "storm_history": {
+      "cyclone_count_50yr": 62,
+      "paragraph": "62 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1899–2020).",
+      "source": "IBTrACS v04r01 (NOAA)"
+    },
+    "safety": {
+      "shark_incidents_total": 0,
+      "shark_incident_last_year": null,
+      "nearshore_depth_m": 3.1683387756347656
+    },
+    "conservation": {
+      "name": "Murujuga",
+      "type": "National park",
+      "iucn": "II",
+      "unesco": false
+    },
+    "comparisons": [
+      {
+        "metric": "Peak warmth",
+        "text": "Warmer than 96% of beaches in its country",
+        "detail": "Peak-month high ≈ 37°C"
+      },
+      {
+        "metric": "Worldwide",
+        "text": "Among the warmest 1% of beaches on Earth",
+        "detail": null
+      },
+      {
+        "metric": "Beach season",
+        "text": "Longer beach season than 69% of beaches in its country",
+        "detail": "10 comfortable months a year"
+      }
+    ],
+    "notability_score": 0.0,
+    "data_completeness_pct": 50.0,
+    "best_months": [
+      "jan",
+      "apr",
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep",
+      "oct",
+      "nov",
+      "dec"
+    ],
+    "swim_suitability": "fair"
+  },
+  "neighbors": [
+    {
+      "slug": "anna-beach",
+      "name": "Anna Beach",
+      "distance_km": 27.3,
+      "has_wiki": false
+    }
+  ]
+}

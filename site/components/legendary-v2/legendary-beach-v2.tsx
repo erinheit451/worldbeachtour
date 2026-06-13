@@ -19,6 +19,16 @@ import QuickFactsStrip from "./sections/quick-facts";
 import Story from "./sections/story";
 import SpikeDeepExplainer from "./sections/spike-deep-explainer";
 import Sources from "./sections/sources";
+import {
+  TimelineSection,
+  PlaceAnatomySection,
+  DayInLifeSection,
+  CultureSection,
+  HonestReckoningSection,
+  PlanStackSection,
+  ComparisonSection,
+  GallerySection,
+} from "./sections/standard-sections";
 import SectionDivider from "./primitives/section-divider";
 
 interface LegendaryBeachV2Props {
@@ -34,6 +44,11 @@ export default function LegendaryBeachV2({ bundle }: LegendaryBeachV2Props) {
 
   // Collect quick facts from the data bundle
   const quickFacts = buildQuickFacts(bundle);
+
+  // Gallery pool — distributed as section lead images so the page isn't a
+  // wall of text. Falls back gracefully when a beach has few photos.
+  const galleryPool = meta.images?.gallery ?? [];
+  const lead = (i: number) => galleryPool.length ? galleryPool[i % galleryPool.length] : undefined;
 
   // Image resolution helpers — defensive. meta.images.section may be undefined
   // (e.g. Glass Beach Tier 2 meta hasn't declared section images).
@@ -117,6 +132,22 @@ export default function LegendaryBeachV2({ bundle }: LegendaryBeachV2Props) {
                 />
               </div>
             );
+          case "timeline":
+            return <TimelineSection key={sectionId} bundle={bundle} lead={lead(1)} />;
+          case "place_anatomy":
+            return <PlaceAnatomySection key={sectionId} bundle={bundle} lead={lead(2)} />;
+          case "day_in_life":
+            return <DayInLifeSection key={sectionId} bundle={bundle} />;
+          case "culture":
+            return <CultureSection key={sectionId} bundle={bundle} lead={lead(3)} />;
+          case "honest_reckoning":
+            return <HonestReckoningSection key={sectionId} bundle={bundle} />;
+          case "comparison":
+            return <ComparisonSection key={sectionId} bundle={bundle} />;
+          case "plan_stack":
+            return <PlanStackSection key={sectionId} bundle={bundle} />;
+          case "gallery":
+            return <GallerySection key={sectionId} bundle={bundle} />;
           case "sources":
             return (
               <Sources

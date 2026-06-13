@@ -1,0 +1,196 @@
+{
+  "data": {
+    "slug": "karang-bolong-beach",
+    "name": "Karang Bolong Beach",
+    "country_code": "ID",
+    "admin_level_1": "Central Java",
+    "centroid_lat": -7.76036,
+    "centroid_lng": 109.042,
+    "water_body_type": "ocean",
+    "substrate_type": "unknown",
+    "slope_pct": 0.9429757356643677,
+    "nearshore_depth_m": 16.5,
+    "classification": {
+      "primary_type": "Ocean",
+      "primary_type_slug": "ocean",
+      "coastal_type": "Ocean",
+      "coastal_type_slug": "ocean",
+      "micro_type": "Ocean",
+      "micro_type_slug": "ocean"
+    },
+    "nearest_city": "Karangbadar Kidul",
+    "nearest_city_distance_km": 6.2,
+    "nearest_airport": {
+      "iata": "CXP",
+      "name": "Tunggul Wulung Airport",
+      "distance_km": 12.9
+    },
+    "climate": {
+      "air_temp_high": [
+        29.7,
+        30.2,
+        30.2,
+        30.1,
+        30.0,
+        29.4,
+        28.4,
+        28.2,
+        28.2,
+        29.1,
+        29.2,
+        29.6
+      ],
+      "air_temp_low": [
+        23.3,
+        22.3,
+        23.1,
+        23.6,
+        23.3,
+        22.7,
+        21.8,
+        21.6,
+        22.2,
+        22.9,
+        23.1,
+        23.5
+      ],
+      "rain_mm": [
+        304.0,
+        245.0,
+        280.0,
+        271.0,
+        224.0,
+        183.0,
+        113.0,
+        115.0,
+        172.0,
+        341.0,
+        395.0,
+        323.0
+      ],
+      "wind_speed": [
+        3.3,
+        2.6,
+        3.0,
+        2.4,
+        2.4,
+        2.4,
+        2.5,
+        3.2,
+        2.9,
+        3.2,
+        3.2,
+        2.7
+      ],
+      "sun_hours": [
+        17063.0,
+        17299.0,
+        17671.0,
+        17745.0,
+        17138.0,
+        16638.0,
+        17484.0,
+        19008.0,
+        20050.0,
+        19976.0,
+        19915.0,
+        18367.0
+      ],
+      "climate_source": "worldclim_v2.1_2.5m",
+      "climate_type": null,
+      "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
+    },
+    "tides": {
+      "range_spring_m": 1.4302894702487685,
+      "range_neap_m": 0.45067382243451265,
+      "type": "mixed",
+      "source": "eot20"
+    },
+    "sand": {
+      "predicted": {
+        "q_pct": 90.6,
+        "f_pct": 3.3,
+        "l_pct": 6.0,
+        "regime": "quartz-dominant",
+        "regime_plain": "Quartz-dominant",
+        "source": "GloPrSM v1.0.0 (IJ_QFL)"
+      }
+    },
+    "safety": {
+      "shark_incidents_total": 0,
+      "shark_incident_last_year": null,
+      "nearshore_depth_m": 16.5
+    },
+    "conservation": {
+      "name": "Nusakambangan Timur",
+      "type": "Nature reserve",
+      "iucn": "III",
+      "unesco": false
+    },
+    "comparisons": [
+      {
+        "metric": "Peak warmth",
+        "text": "Cooler than 86% of beaches in its country",
+        "detail": "Peak-month high ≈ 30°C"
+      }
+    ],
+    "wikidata_id": "Q20231077",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Karang_Bolong_Beach_(Nusa_Kambangan)",
+    "wikipedia_page_views_annual": 2123,
+    "notability_score": 14.9,
+    "data_completeness_pct": 58.3,
+    "best_months": [
+      "jan",
+      "feb",
+      "mar",
+      "apr",
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep",
+      "oct",
+      "nov",
+      "dec"
+    ],
+    "swim_suitability": "fair"
+  },
+  "neighbors": [
+    {
+      "slug": "penyu-bay",
+      "name": "Penyu Bay",
+      "distance_km": 3.1,
+      "has_wiki": true
+    },
+    {
+      "slug": "pantai",
+      "name": "Pantai",
+      "distance_km": 4.7,
+      "has_wiki": false
+    },
+    {
+      "slug": "pantai-ujung-tanggul",
+      "name": "Pantai Ujung Tanggul",
+      "distance_km": 6.6,
+      "has_wiki": false
+    },
+    {
+      "slug": "pantai-indah-bunton",
+      "name": "Pantai Indah Bunton",
+      "distance_km": 13.7,
+      "has_wiki": false
+    },
+    {
+      "slug": "pantai-widarapayung",
+      "name": "Pantai Widarapayung",
+      "distance_km": 24.4,
+      "has_wiki": false
+    },
+    {
+      "slug": "pantai-jetis",
+      "name": "Pantai Jetis",
+      "distance_km": 37.0,
+      "has_wiki": false
+    }
+  ]
+}

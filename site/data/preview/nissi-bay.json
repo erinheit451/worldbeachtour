@@ -1,0 +1,439 @@
+{
+  "data": {
+    "slug": "nissi-bay",
+    "name": "NISSI BAY",
+    "country_code": "CY",
+    "admin_level_1": "Ammochostos",
+    "centroid_lat": 34.9868,
+    "centroid_lng": 33.9671,
+    "water_body_type": "ocean",
+    "substrate_type": "unknown",
+    "beach_length_m": 3200.0,
+    "slope_pct": 1.9888988971710204,
+    "nearshore_depth_m": 24.0,
+    "classification": {
+      "primary_type": "Ocean",
+      "primary_type_slug": "ocean",
+      "coastal_type": "Ocean",
+      "coastal_type_slug": "ocean",
+      "micro_type": "Ocean",
+      "micro_type_slug": "ocean"
+    },
+    "nearest_city": "Ayia Napa",
+    "nearest_city_distance_km": 3.2,
+    "nearest_airport": {
+      "iata": "GEC",
+      "name": "Lefkoniko Airport / Geçitkale Air Base",
+      "distance_km": 35.7
+    },
+    "climate": {
+      "air_temp_high": [
+        15.81,
+        16.67,
+        19.02,
+        22.8,
+        26.85,
+        30.46,
+        32.75,
+        33.0,
+        31.17,
+        27.54,
+        22.59,
+        18.11
+      ],
+      "air_temp_low": [
+        6.28,
+        6.68,
+        7.97,
+        11.03,
+        14.74,
+        18.84,
+        21.58,
+        21.64,
+        19.3,
+        15.68,
+        11.54,
+        8.66
+      ],
+      "rain_mm": [
+        87.0,
+        58.0,
+        52.0,
+        18.0,
+        14.0,
+        2.0,
+        0.0,
+        0.0,
+        3.0,
+        29.0,
+        52.0,
+        116.0
+      ],
+      "wind_speed": [
+        2.68,
+        2.86,
+        2.68,
+        3.25,
+        3.55,
+        3.59,
+        3.36,
+        3.47,
+        2.8,
+        2.72,
+        2.34,
+        2.78
+      ],
+      "sun_hours": [
+        9126.0,
+        12043.0,
+        16362.0,
+        20850.0,
+        25235.0,
+        28088.0,
+        28329.0,
+        26305.0,
+        21682.0,
+        16148.0,
+        11776.0,
+        8837.0
+      ],
+      "climate_source": "worldclim_v2.1_2.5m",
+      "climate_type": null,
+      "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
+    },
+    "tides": {
+      "range_spring_m": 0.35042648091225626,
+      "range_neap_m": 0.08866468594143559,
+      "type": "mixed",
+      "source": "eot20"
+    },
+    "sand": {
+      "predicted": {
+        "q_pct": 82.5,
+        "f_pct": 12.1,
+        "l_pct": 5.4,
+        "regime": "quartz-dominant",
+        "regime_plain": "Quartz-dominant",
+        "source": "GloPrSM v1.0.0 (IJ_QFL)"
+      }
+    },
+    "photos": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Nissi_bay_Cyprus_%2843674991012%29.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Nissi_bay_Cyprus_%2843674991012%29.jpg/1280px-Nissi_bay_Cyprus_%2843674991012%29.jpg",
+        "license": "CC BY 2.0",
+        "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/132646954@N02\">dronepicr</a>",
+        "title": "Nissi bay Cyprus (43674991012).jpg",
+        "width": 9301,
+        "height": 3306
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Nissi_beach_Cyprus_%2843006730484%29.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Nissi_beach_Cyprus_%2843006730484%29.jpg/1280px-Nissi_beach_Cyprus_%2843006730484%29.jpg",
+        "license": "CC BY 2.0",
+        "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/132646954@N02\">dronepicr</a>",
+        "title": "Nissi beach Cyprus (43006730484).jpg",
+        "width": 6178,
+        "height": 4119
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Nissi_beach_sandbank_Agia_Napa_%2843006702954%29.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Nissi_beach_sandbank_Agia_Napa_%2843006702954%29.jpg/1280px-Nissi_beach_sandbank_Agia_Napa_%2843006702954%29.jpg",
+        "license": "CC BY 2.0",
+        "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/132646954@N02\">dronepicr</a>",
+        "title": "Nissi beach sandbank Agia Napa (43006702954).jpg",
+        "width": 5951,
+        "height": 3967
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Gabriel_at_Nissi_Beach%2C_Agia_Napa%2C_Cyprus_%28PPL3-Altered%29_julesvernex2.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Gabriel_at_Nissi_Beach%2C_Agia_Napa%2C_Cyprus_%28PPL3-Altered%29_julesvernex2.jpg/1280px-Gabriel_at_Nissi_Beach%2C_Agia_Napa%2C_Cyprus_%28PPL3-Altered%29_julesvernex2.jpg",
+        "license": "CC BY-SA 4.0",
+        "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Julesvernex2\" title=\"User:Julesvernex2\">Jules Verne Times Two</a>",
+        "title": "Gabriel at Nissi Beach, Agia Napa, Cyprus (PPL3-Altered) julesvernex2.jpg",
+        "width": 5937,
+        "height": 3958
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Nissi_beach_Agia_Napa_%2843674974622%29.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nissi_beach_Agia_Napa_%2843674974622%29.jpg/1280px-Nissi_beach_Agia_Napa_%2843674974622%29.jpg",
+        "license": "CC BY 2.0",
+        "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/132646954@N02\">dronepicr</a>",
+        "title": "Nissi beach Agia Napa (43674974622).jpg",
+        "width": 5857,
+        "height": 3905
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Nissi_Beach%2C_Ayia_Napa%2C_Cyprus_-_panoramio_%281%29.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Nissi_Beach%2C_Ayia_Napa%2C_Cyprus_-_panoramio_%281%29.jpg/1280px-Nissi_Beach%2C_Ayia_Napa%2C_Cyprus_-_panoramio_%281%29.jpg",
+        "license": "CC BY 3.0",
+        "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161028111934/http://www.panoramio.com/user/4508107?with_photo_id=91883148\">Dmitry Panov</a>",
+        "title": "Nissi Beach, Ayia Napa, Cyprus - panoramio (1).jpg",
+        "width": 5637,
+        "height": 3758
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Nissi_Beach%2C_Ayia_Napa%2C_Cyprus_-_panoramio.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Nissi_Beach%2C_Ayia_Napa%2C_Cyprus_-_panoramio.jpg/1280px-Nissi_Beach%2C_Ayia_Napa%2C_Cyprus_-_panoramio.jpg",
+        "license": "CC BY 3.0",
+        "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161030115542/http://www.panoramio.com/user/4508107?with_photo_id=91881680\">Dmitry Panov</a>",
+        "title": "Nissi Beach, Ayia Napa, Cyprus - panoramio.jpg",
+        "width": 5472,
+        "height": 3648
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Nissi_bay_aerial_Cyprus_%2842818864975%29.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Nissi_bay_aerial_Cyprus_%2842818864975%29.jpg/1280px-Nissi_bay_aerial_Cyprus_%2842818864975%29.jpg",
+        "license": "CC BY 2.0",
+        "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/132646954@N02\">dronepicr</a>",
+        "title": "Nissi bay aerial Cyprus (42818864975).jpg",
+        "width": 5464,
+        "height": 3070
+      }
+    ],
+    "safety": {
+      "shark_incidents_total": 0,
+      "shark_incident_last_year": null,
+      "nearshore_depth_m": 24.0,
+      "lifeguard": true
+    },
+    "facilities": {
+      "parking": true,
+      "restrooms": true,
+      "showers": true,
+      "food_nearby": true
+    },
+    "water_quality": {
+      "rating": "1 - excellent",
+      "source": "eu_bathing",
+      "year": null
+    },
+    "wildlife": {
+      "total_species": 20,
+      "groups": [
+        {
+          "label": "Invertebrates",
+          "key": "invertebrate",
+          "count": 7,
+          "top": [
+            {
+              "common": "Mediterranean Cone Snail",
+              "latin": "Conus ventricosus",
+              "obs": 15,
+              "iucn": null
+            },
+            {
+              "common": "snakelocks anemone",
+              "latin": "Anemonia viridis",
+              "obs": 11,
+              "iucn": null
+            },
+            {
+              "common": "Marbled Crab",
+              "latin": "Pachygrapsus marmoratus",
+              "obs": 10,
+              "iucn": null
+            },
+            {
+              "common": "Mediterranean Limpet",
+              "latin": "Patella caerulea",
+              "obs": 9,
+              "iucn": null
+            },
+            {
+              "common": "Saint Piran's Hermit Crab",
+              "latin": "Clibanarius erythropus",
+              "obs": 8,
+              "iucn": null
+            },
+            {
+              "common": "Turbinate Monodont",
+              "latin": "Phorcus turbinatus",
+              "obs": 8,
+              "iucn": null
+            },
+            {
+              "common": "Warty Crab",
+              "latin": "Eriphia verrucosa",
+              "obs": 7,
+              "iucn": null
+            }
+          ]
+        },
+        {
+          "label": "Plants",
+          "key": "plant",
+          "count": 5,
+          "top": [
+            {
+              "common": "Sea Daffodil",
+              "latin": "Pancratium maritimum",
+              "obs": 11,
+              "iucn": null
+            },
+            {
+              "common": "American century plant",
+              "latin": "Agave americana",
+              "obs": 9,
+              "iucn": null
+            },
+            {
+              "common": "oleander",
+              "latin": "Nerium oleander",
+              "obs": 7,
+              "iucn": null
+            },
+            {
+              "common": "Mexican Fan Palm",
+              "latin": "Washingtonia robusta",
+              "obs": 7,
+              "iucn": null
+            },
+            {
+              "common": "Spanish Oregano",
+              "latin": "Thymbra capitata",
+              "obs": 7,
+              "iucn": null
+            }
+          ]
+        },
+        {
+          "label": "Fish",
+          "key": "fish",
+          "count": 4,
+          "top": [
+            {
+              "common": "Ornate Wrasse",
+              "latin": "Thalassoma pavo",
+              "obs": 14,
+              "iucn": null
+            },
+            {
+              "common": "Red Sea Goatfish",
+              "latin": "Parupeneus forsskali",
+              "obs": 13,
+              "iucn": null
+            },
+            {
+              "common": "Blue-spotted Cornetfish",
+              "latin": "Fistularia commersonii",
+              "obs": 12,
+              "iucn": null
+            },
+            {
+              "common": "Flavimaculosus Puffer",
+              "latin": "Torquigener flavimaculosus",
+              "obs": 11,
+              "iucn": null
+            }
+          ]
+        },
+        {
+          "label": "Birds",
+          "key": "bird",
+          "count": 2,
+          "top": [
+            {
+              "common": "Laughing Dove",
+              "latin": "Spilopelia senegalensis",
+              "obs": 14,
+              "iucn": null
+            },
+            {
+              "common": "House Sparrow",
+              "latin": "Passer domesticus",
+              "obs": 8,
+              "iucn": null
+            }
+          ]
+        },
+        {
+          "label": "Reptiles",
+          "key": "reptile",
+          "count": 2,
+          "top": [
+            {
+              "common": "Schreiber's Fringe-fingered Lizard",
+              "latin": "Acanthodactylus schreiberi",
+              "obs": 6,
+              "iucn": null
+            },
+            {
+              "common": "Snake-eyed Lizard",
+              "latin": "Ophisops elegans",
+              "obs": 6,
+              "iucn": null
+            }
+          ]
+        }
+      ]
+    },
+    "comparisons": [
+      {
+        "metric": "Peak warmth",
+        "text": "Warmer than 58% of beaches in its country",
+        "detail": "Peak-month high ≈ 33°C"
+      },
+      {
+        "metric": "Worldwide",
+        "text": "Among the warmest 5% of beaches on Earth",
+        "detail": null
+      }
+    ],
+    "wikidata_id": "Q7041122",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nissi_Beach",
+    "wikipedia_page_views_annual": 42499,
+    "notability_score": 37.1,
+    "data_completeness_pct": 75.0,
+    "best_months": [
+      "mar",
+      "apr",
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep",
+      "oct",
+      "nov"
+    ],
+    "swim_suitability": "fair"
+  },
+  "neighbors": [
+    {
+      "slug": "adams-beach",
+      "name": "Adams beach",
+      "distance_km": 0.2,
+      "has_wiki": false
+    },
+    {
+      "slug": "nissi",
+      "name": "Nissi",
+      "distance_km": 0.2,
+      "has_wiki": false
+    },
+    {
+      "slug": "landa-golden-beach",
+      "name": "Landa Golden Beach",
+      "distance_km": 0.7,
+      "has_wiki": false
+    },
+    {
+      "slug": "landa",
+      "name": "LANDA",
+      "distance_km": 0.7,
+      "has_wiki": false
+    },
+    {
+      "slug": "makronisos-bay-beach",
+      "name": "Makronisos Bay Beach",
+      "distance_km": 0.8,
+      "has_wiki": false
+    },
+    {
+      "slug": "vathia-gonia",
+      "name": "Vathia Gonia",
+      "distance_km": 1.1,
+      "has_wiki": false
+    }
+  ]
+}

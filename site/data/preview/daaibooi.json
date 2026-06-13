@@ -1,0 +1,351 @@
+{
+  "data": {
+    "slug": "daaibooi",
+    "name": "Daaibooi",
+    "country_code": "CW",
+    "admin_level_1": "",
+    "centroid_lat": 12.2120655,
+    "centroid_lng": -69.0847108,
+    "water_body_type": "ocean",
+    "substrate_type": "unknown",
+    "slope_pct": 17.794935607910155,
+    "nearshore_depth_m": 705.25,
+    "classification": {
+      "primary_type": "Ocean",
+      "primary_type_slug": "ocean",
+      "coastal_type": "Ocean",
+      "coastal_type_slug": "ocean",
+      "micro_type": "Ocean",
+      "micro_type_slug": "ocean"
+    },
+    "nearest_city": "Dorp Soto",
+    "nearest_city_distance_km": 6.3,
+    "nearest_airport": {
+      "iata": "CUR",
+      "name": "Hato International Airport",
+      "distance_km": 13.8
+    },
+    "climate": {
+      "air_temp_high": [
+        29.2,
+        29.325,
+        29.6875,
+        30.4125,
+        31.1,
+        31.325,
+        31.4625,
+        31.75,
+        32.2625,
+        31.6375,
+        30.6875,
+        29.5875
+      ],
+      "air_temp_low": [
+        23.4375,
+        23.4625,
+        23.65,
+        24.45,
+        25.2125,
+        25.525,
+        25.4125,
+        25.5375,
+        25.6625,
+        25.375,
+        24.7375,
+        23.9375
+      ],
+      "rain_mm": [
+        43.0,
+        22.0,
+        12.0,
+        17.0,
+        22.0,
+        34.0,
+        35.0,
+        36.0,
+        34.0,
+        71.0,
+        103.0,
+        92.0
+      ],
+      "wind_speed": [
+        5.9125,
+        6.275,
+        6.5125,
+        6.475,
+        6.375,
+        6.575,
+        6.2875,
+        5.7875,
+        5.475,
+        5.0625,
+        4.975,
+        5.425
+      ],
+      "sun_hours": [
+        18677.0,
+        20878.0,
+        21919.0,
+        21402.0,
+        20350.0,
+        20525.0,
+        21458.0,
+        22110.0,
+        21271.0,
+        19635.0,
+        18017.0,
+        17550.0
+      ],
+      "climate_source": "worldclim_v2.1_2.5m",
+      "climate_type": null,
+      "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
+    },
+    "tides": {
+      "range_spring_m": 0.09001936072610145,
+      "range_neap_m": 0.07723400117588594,
+      "type": "diurnal",
+      "source": "eot20"
+    },
+    "sand": {
+      "predicted": {
+        "q_pct": 93.6,
+        "f_pct": 3.1,
+        "l_pct": 3.3,
+        "regime": "quartz-dominant",
+        "regime_plain": "Quartz-dominant",
+        "source": "GloPrSM v1.0.0 (IJ_QFL)"
+      }
+    },
+    "storm_history": {
+      "cyclone_count_50yr": 23,
+      "paragraph": "23 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1852–2023).",
+      "source": "IBTrACS v04r01 (NOAA)"
+    },
+    "safety": {
+      "shark_incidents_total": 0,
+      "shark_incident_last_year": null,
+      "nearshore_depth_m": 705.25
+    },
+    "facilities": {
+      "wheelchair": false
+    },
+    "wildlife": {
+      "total_species": 20,
+      "groups": [
+        {
+          "label": "Fish",
+          "key": "fish",
+          "count": 10,
+          "top": [
+            {
+              "common": "French Angelfish",
+              "latin": "Pomacanthus paru",
+              "obs": 18,
+              "iucn": null
+            },
+            {
+              "common": "Atlantic Sergeant Major",
+              "latin": "Abudefduf saxatilis",
+              "obs": 16,
+              "iucn": null
+            },
+            {
+              "common": "Caribbean Bluehead Wrasse",
+              "latin": "Thalassoma bifasciatum",
+              "obs": 16,
+              "iucn": null
+            },
+            {
+              "common": "French Grunt",
+              "latin": "Haemulon flavolineatum",
+              "obs": 14,
+              "iucn": null
+            },
+            {
+              "common": "Redband Parrotfish",
+              "latin": "Sparisoma aurofrenatum",
+              "obs": 14,
+              "iucn": null
+            },
+            {
+              "common": "Stoplight Parrotfish",
+              "latin": "Sparisoma viride",
+              "obs": 14,
+              "iucn": null
+            },
+            {
+              "common": "Atlantic Blue Tang",
+              "latin": "Acanthurus coeruleus",
+              "obs": 14,
+              "iucn": null
+            },
+            {
+              "common": "Yellow Goatfish",
+              "latin": "Mulloidichthys martinicus",
+              "obs": 14,
+              "iucn": null
+            }
+          ]
+        },
+        {
+          "label": "Birds",
+          "key": "bird",
+          "count": 6,
+          "top": [
+            {
+              "common": "Venezuelan Troupial",
+              "latin": "Icterus icterus",
+              "obs": 36,
+              "iucn": null
+            },
+            {
+              "common": "Rufous-collared Sparrow",
+              "latin": "Zonotrichia capensis",
+              "obs": 32,
+              "iucn": null
+            },
+            {
+              "common": "Bananaquit",
+              "latin": "Coereba flaveola",
+              "obs": 18,
+              "iucn": null
+            },
+            {
+              "common": "Carib Grackle",
+              "latin": "Quiscalus lugubris",
+              "obs": 17,
+              "iucn": null
+            },
+            {
+              "common": "Brown Pelican",
+              "latin": "Pelecanus occidentalis",
+              "obs": 15,
+              "iucn": null
+            },
+            {
+              "common": "House Sparrow",
+              "latin": "Passer domesticus",
+              "obs": 13,
+              "iucn": null
+            }
+          ]
+        },
+        {
+          "label": "Invertebrates",
+          "key": "invertebrate",
+          "count": 2,
+          "top": [
+            {
+              "common": "Lettuce Coral",
+              "latin": "Agaricia agaricites",
+              "obs": 177,
+              "iucn": null
+            },
+            {
+              "common": "Giant Anemone",
+              "latin": "Condylactis gigantea",
+              "obs": 14,
+              "iucn": null
+            }
+          ]
+        },
+        {
+          "label": "Reptiles",
+          "key": "reptile",
+          "count": 1,
+          "top": [
+            {
+              "common": "Green Iguana",
+              "latin": "Iguana iguana",
+              "obs": 36,
+              "iucn": null
+            }
+          ]
+        },
+        {
+          "label": "Mammals",
+          "key": "mammal",
+          "count": 1,
+          "top": [
+            {
+              "common": "Wild Boar",
+              "latin": "Sus scrofa",
+              "obs": 15,
+              "iucn": null
+            }
+          ]
+        }
+      ]
+    },
+    "comparisons": [
+      {
+        "metric": "Peak warmth",
+        "text": "Cooler than 59% of beaches in its country",
+        "detail": "Peak-month high ≈ 32°C"
+      },
+      {
+        "metric": "Worldwide",
+        "text": "Among the warmest 8% of beaches on Earth",
+        "detail": null
+      }
+    ],
+    "wikidata_id": "Q2048674",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Daaibooi",
+    "wikipedia_page_views_annual": 5040,
+    "notability_score": 21.7,
+    "data_completeness_pct": 54.2,
+    "best_months": [
+      "jan",
+      "feb",
+      "mar",
+      "apr",
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep",
+      "oct",
+      "nov",
+      "dec"
+    ],
+    "swim_suitability": "fair"
+  },
+  "neighbors": [
+    {
+      "slug": "playa-porto-marie",
+      "name": "Playa Porto Marie",
+      "distance_km": 0.8,
+      "has_wiki": true
+    },
+    {
+      "slug": "oasis-parks-beach",
+      "name": "Oasis Parks Beach",
+      "distance_km": 1.6,
+      "has_wiki": false
+    },
+    {
+      "slug": "cas-abao",
+      "name": "Cas Abao",
+      "distance_km": 1.9,
+      "has_wiki": false
+    },
+    {
+      "slug": "salina-abou",
+      "name": "Saliña Abou",
+      "distance_km": 2.0,
+      "has_wiki": false
+    },
+    {
+      "slug": "playa-largu",
+      "name": "Playa Largu",
+      "distance_km": 3.1,
+      "has_wiki": false
+    },
+    {
+      "slug": "playa-shon-mosa",
+      "name": "Playa Shon Mosa",
+      "distance_km": 4.1,
+      "has_wiki": false
+    }
+  ]
+}

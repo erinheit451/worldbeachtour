@@ -1,0 +1,197 @@
+{
+  "data": {
+    "slug": "praia-da-ilha-das-andorinhas",
+    "name": "praia da ilha das andorinhas",
+    "country_code": "BR",
+    "admin_level_1": "Espirito Santo",
+    "centroid_lat": -21.1618612,
+    "centroid_lng": -40.8850811,
+    "water_body_type": "ocean",
+    "substrate_type": "unknown",
+    "slope_pct": 0.7203314542770386,
+    "nearshore_depth_m": 10.25,
+    "classification": {
+      "primary_type": "Ocean",
+      "primary_type_slug": "ocean",
+      "coastal_type": "Ocean",
+      "coastal_type_slug": "ocean",
+      "micro_type": "Ocean",
+      "micro_type_slug": "ocean"
+    },
+    "nearest_city": "Marataizes",
+    "nearest_city_distance_km": 14.6,
+    "nearest_airport": {
+      "iata": "CAW",
+      "name": "Bartolomeu Lisandro Airport",
+      "distance_km": 73.6
+    },
+    "climate": {
+      "air_temp_high": [
+        29.8421,
+        30.4368,
+        30.0895,
+        28.5105,
+        27.3421,
+        26.1684,
+        25.5263,
+        25.8895,
+        25.8842,
+        26.9947,
+        27.8158,
+        28.8579
+      ],
+      "air_temp_low": [
+        21.6368,
+        21.7474,
+        21.3632,
+        19.4842,
+        17.4579,
+        15.9211,
+        15.3316,
+        16.1421,
+        17.6474,
+        19.0368,
+        20.1,
+        20.9053
+      ],
+      "rain_mm": [
+        125.0,
+        89.0,
+        97.0,
+        86.0,
+        58.0,
+        41.0,
+        33.0,
+        31.0,
+        57.0,
+        105.0,
+        157.0,
+        159.0
+      ],
+      "wind_speed": [
+        2.7947,
+        2.9,
+        2.5579,
+        2.2684,
+        2.5842,
+        2.4526,
+        2.5842,
+        3.0526,
+        3.0842,
+        3.3526,
+        3.1842,
+        3.3421
+      ],
+      "sun_hours": [
+        20400.0,
+        19796.0,
+        17032.0,
+        14686.0,
+        12693.0,
+        11233.0,
+        12184.0,
+        14651.0,
+        15294.0,
+        15975.0,
+        16577.0,
+        16927.0
+      ],
+      "climate_source": "worldclim_v2.1_2.5m",
+      "climate_type": null,
+      "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
+    },
+    "tides": {
+      "range_spring_m": 1.4000907970727017,
+      "range_neap_m": 0.4875488174708395,
+      "type": "semidiurnal",
+      "source": "eot20"
+    },
+    "sand": {
+      "predicted": {
+        "q_pct": 92.3,
+        "f_pct": 1.7,
+        "l_pct": 6.0,
+        "regime": "quartz-dominant",
+        "regime_plain": "Quartz-dominant",
+        "source": "GloPrSM v1.0.0 (IJ_QFL)"
+      }
+    },
+    "storm_history": {
+      "cyclone_count_50yr": 1,
+      "paragraph": "1 tropical-cyclone track have passed within range of this coast in the historical record (IBTrACS, 2011–2011).",
+      "source": "IBTrACS v04r01 (NOAA)"
+    },
+    "safety": {
+      "shark_incidents_total": 0,
+      "shark_incident_last_year": null,
+      "nearshore_depth_m": 10.25
+    },
+    "comparisons": [
+      {
+        "metric": "Peak warmth",
+        "text": "Warmer than 53% of beaches in its country",
+        "detail": "Peak-month high ≈ 30°C"
+      },
+      {
+        "metric": "Worldwide",
+        "text": "Among the warmest 20% of beaches on Earth",
+        "detail": null
+      }
+    ],
+    "notability_score": 2.5,
+    "data_completeness_pct": 45.8,
+    "best_months": [
+      "jan",
+      "feb",
+      "mar",
+      "apr",
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep",
+      "oct",
+      "nov",
+      "dec"
+    ],
+    "swim_suitability": "fair"
+  },
+  "neighbors": [
+    {
+      "slug": "praia-do-micinho",
+      "name": "praia do micinho",
+      "distance_km": 1.0,
+      "has_wiki": false
+    },
+    {
+      "slug": "praia-das-pedrinhas-2",
+      "name": "praia das pedrinhas",
+      "distance_km": 1.0,
+      "has_wiki": false
+    },
+    {
+      "slug": "praia-das-falesias-1",
+      "name": "Praia das Falésias",
+      "distance_km": 1.2,
+      "has_wiki": false
+    },
+    {
+      "slug": "praia-da-tiririca",
+      "name": "praia da Tiririca",
+      "distance_km": 1.5,
+      "has_wiki": false
+    },
+    {
+      "slug": "praia-de-caculucagem",
+      "name": "Praia de Caculucagem",
+      "distance_km": 2.0,
+      "has_wiki": false
+    },
+    {
+      "slug": "praia-da-boa-vista",
+      "name": "praia da boa vista",
+      "distance_km": 2.6,
+      "has_wiki": false
+    }
+  ]
+}

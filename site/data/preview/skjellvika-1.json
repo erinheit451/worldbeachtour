@@ -1,0 +1,184 @@
+{
+  "data": {
+    "slug": "skjellvika-1",
+    "name": "Skjellvika",
+    "country_code": "NO",
+    "admin_level_1": "Vestfold",
+    "centroid_lat": 59.12683,
+    "centroid_lng": 10.22329,
+    "water_body_type": "ocean",
+    "substrate_type": "unknown",
+    "classification": {
+      "primary_type": "Ocean",
+      "primary_type_slug": "ocean",
+      "coastal_type": "Ocean",
+      "coastal_type_slug": "ocean",
+      "micro_type": "Ocean",
+      "micro_type_slug": "ocean"
+    },
+    "nearest_city": "Sandefjord",
+    "nearest_city_distance_km": 0.6,
+    "nearest_airport": {
+      "iata": "TRF",
+      "name": "Sandefjord Airport, Torp",
+      "distance_km": 7.0
+    },
+    "climate": {
+      "air_temp_high": [
+        -0.34,
+        0.384,
+        4.092,
+        8.888,
+        15.208,
+        18.668,
+        20.796,
+        19.892,
+        15.164,
+        9.712,
+        4.184,
+        0.532
+      ],
+      "air_temp_low": [
+        -3.704,
+        -3.988,
+        -0.884,
+        2.76,
+        8.572,
+        12.604,
+        14.512,
+        13.292,
+        9.208,
+        5.22,
+        0.864,
+        -2.712
+      ],
+      "rain_mm": [
+        70.0,
+        48.0,
+        63.0,
+        46.0,
+        54.0,
+        63.0,
+        76.0,
+        88.0,
+        106.0,
+        118.0,
+        110.0,
+        73.0
+      ],
+      "wind_speed": [
+        4.988,
+        4.804,
+        4.568,
+        4.276,
+        4.28,
+        4.256,
+        4.064,
+        4.128,
+        4.712,
+        4.752,
+        4.892,
+        4.756
+      ],
+      "sun_hours": [
+        1359.0,
+        3402.0,
+        7827.0,
+        13255.0,
+        18256.0,
+        19452.0,
+        18376.0,
+        14873.0,
+        9236.0,
+        4621.0,
+        1707.0,
+        888.0
+      ],
+      "climate_source": "worldclim_v2.1_2.5m",
+      "climate_type": null,
+      "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
+    },
+    "tides": {
+      "range_spring_m": 0.2979516752860415,
+      "range_neap_m": 0.17325397434056627,
+      "type": "semidiurnal",
+      "source": "eot20"
+    },
+    "sand": {
+      "predicted": {
+        "q_pct": 29.8,
+        "f_pct": 66.2,
+        "l_pct": 4.0,
+        "regime": "feldspar-rich (plutonic/crystalline terrane)",
+        "regime_plain": "Feldspar-rich (plutonic/crystalline terrane)",
+        "source": "GloPrSM v1.0.0 (IJ_QFL)"
+      }
+    },
+    "safety": {
+      "shark_incidents_total": 0,
+      "shark_incident_last_year": null
+    },
+    "comparisons": [
+      {
+        "metric": "Peak warmth",
+        "text": "Warmer than 82% of beaches in its country",
+        "detail": "Peak-month high ≈ 21°C"
+      },
+      {
+        "metric": "Beach season",
+        "text": "Longer beach season than 80% of beaches in its country",
+        "detail": "4 comfortable months a year"
+      }
+    ],
+    "wikidata_id": "Q56063311",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Skjellvika",
+    "wikipedia_page_views_annual": 1350,
+    "notability_score": 12.7,
+    "data_completeness_pct": 45.8,
+    "best_months": [
+      "may",
+      "jun",
+      "jul",
+      "aug"
+    ],
+    "swim_suitability": "fair"
+  },
+  "neighbors": [
+    {
+      "slug": "hagalokka",
+      "name": "Hagaløkka",
+      "distance_km": 3.9,
+      "has_wiki": false
+    },
+    {
+      "slug": "skjellvika",
+      "name": "Skjellvika",
+      "distance_km": 4.1,
+      "has_wiki": false
+    },
+    {
+      "slug": "langeby",
+      "name": "Langeby",
+      "distance_km": 5.8,
+      "has_wiki": true
+    },
+    {
+      "slug": "vora",
+      "name": "Vøra",
+      "distance_km": 6.4,
+      "has_wiki": false
+    },
+    {
+      "slug": "sperrvik",
+      "name": "Sperrvik",
+      "distance_km": 6.5,
+      "has_wiki": false
+    },
+    {
+      "slug": "sandvika-5",
+      "name": "Sandvika",
+      "distance_km": 6.6,
+      "has_wiki": false
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "data": {
+    "slug": "coney-island-beach-1",
+    "name": "Coney Island Beach",
+    "country_code": "US",
+    "admin_level_1": "New York",
+    "centroid_lat": 40.5728312,
+    "centroid_lng": -73.9782436,
+    "water_body_type": "ocean",
+    "substrate_type": "sand",
+    "beach_length_m": 4345.0,
+    "slope_pct": 0.23597723320126535,
+    "nearshore_depth_m": 4.921055316925049,
+    "classification": {
+      "primary_type": "Sand",
+      "primary_type_slug": "sand",
+      "coastal_type": "Sand",
+      "coastal_type_slug": "sand",
+      "micro_type": "Ocean",
+      "micro_type_slug": "ocean"
+    },
+    "nearest_city": "Coney Island",
+    "nearest_city_distance_km": 1.4,
+    "nearest_airport": {
+      "iata": "JFK",
+      "name": "John F. Kennedy International Airport",
+      "distance_km": 18.4
+    },
+    "climate": {
+      "air_temp_high": [
+        3.8833,
+        4.8667,
+        8.95,
+        14.4,
+        20.0833,
+        25.0333,
+        28.25,
+        27.5,
+        23.5667,
+        17.5667,
+        12.1,
+        6.6333
+      ],
+      "air_temp_low": [
+        -4.05,
+        -3.45,
+        0.2,
+        5.0,
+        10.2667,
+        15.55,
+        18.95,
+        18.6,
+        14.45,
+        8.35,
+        3.8333,
+        -1.1
+      ],
+      "rain_mm": [
+        94.0,
+        78.0,
+        104.0,
+        100.0,
+        108.0,
+        87.0,
+        112.0,
+        113.0,
+        98.0,
+        89.0,
+        101.0,
+        95.0
+      ],
+      "wind_speed": [
+        4.9333,
+        5.0333,
+        5.1,
+        4.8833,
+        4.2,
+        4.0,
+        3.7,
+        3.6,
+        3.9,
+        4.1,
+        4.6,
+        4.8
+      ],
+      "sun_hours": [
+        6533.0,
+        9768.0,
+        13143.0,
+        16647.0,
+        19258.0,
+        20853.0,
+        20610.0,
+        18351.0,
+        14668.0,
+        10779.0,
+        7016.0,
+        5766.0
+      ],
+      "climate_source": "worldclim_v2.1_2.5m",
+      "climate_type": null,
+      "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
+    },
+    "tides": {
+      "range_spring_m": 1.6687798232517161,
+      "range_neap_m": 1.1526958928456736,
+      "type": "semidiurnal",
+      "source": "eot20"
+    },
+    "sand": {
+      "predicted": {
+        "q_pct": 32.6,
+        "f_pct": 6.9,
+        "l_pct": 60.6,
+        "regime": "lithic-rich (volcanic/collisional terrane)",
+        "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
+        "source": "GloPrSM v1.0.0 (IJ_QFL)"
+      }
+    },
+    "storm_history": {
+      "cyclone_count_50yr": 48,
+      "paragraph": "48 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1861–2021).",
+      "source": "IBTrACS v04r01 (NOAA)"
+    },
+    "photos": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Coney_Island_panorama_%28June_2016%29_2.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Coney_Island_panorama_%28June_2016%29_2.jpg/1280px-Coney_Island_panorama_%28June_2016%29_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:MusikAnimal\" title=\"User:MusikAnimal\">MusikAnimal</a>",
+        "title": "Coney Island panorama (June 2016) 2.jpg",
+        "width": 21652,
+        "height": 3635
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Coney_island_board_walk.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Coney_island_board_walk.jpg/1280px-Coney_island_board_walk.jpg",
+        "license": "CC BY-SA 4.0",
+        "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Princessj44&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Princessj44 (page does not exist)\">Princessj44</a>",
+        "title": "Coney island board walk.jpg",
+        "width": 13632,
+        "height": 3050
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/New_York_-_Coney_Island_-_NARA_-_68145925.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/New_York_-_Coney_Island_-_NARA_-_68145925.jpg/1280px-New_York_-_Coney_Island_-_NARA_-_68145925.jpg",
+        "license": "Public domain",
+        "author_html": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span> or not provided</div>",
+        "title": "New York - Coney Island - NARA - 68145925.jpg",
+        "width": 7036,
+        "height": 5467
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Coney_Island_beach_%28June_2016%29.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Coney_Island_beach_%28June_2016%29.jpg/1280px-Coney_Island_beach_%28June_2016%29.jpg",
+        "license": "CC BY-SA 4.0",
+        "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:MusikAnimal\" title=\"User:MusikAnimal\">MusikAnimal</a>",
+        "title": "Coney Island beach (June 2016).jpg",
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Coney_Island_beach_and_amusement_parks_%28June_2016%29.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Coney_Island_beach_and_amusement_parks_%28June_2016%29.jpg/1280px-Coney_Island_beach_and_amusement_parks_%28June_2016%29.jpg",
+        "license": "CC BY-SA 4.0",
+        "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:MusikAnimal\" title=\"User:MusikAnimal\">MusikAnimal</a>",
+        "title": "Coney Island beach and amusement parks (June 2016).jpg",
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Night_in_Luna_Park%2C_Coney_Island_%281905%29.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Night_in_Luna_Park%2C_Coney_Island_%281905%29.jpg/1280px-Night_in_Luna_Park%2C_Coney_Island_%281905%29.jpg",
+        "license": "Public domain",
+        "author_html": "Detroit Publishing Co.",
+        "title": "Night in Luna Park, Coney Island (1905).jpg",
+        "width": 5885,
+        "height": 4768
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Abraham_Lincoln_High_School.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Abraham_Lincoln_High_School.jpg/1280px-Abraham_Lincoln_High_School.jpg",
+        "license": "CC0",
+        "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nothing149&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nothing149 (page does not exist)\">Nothing149</a>",
+        "title": "Abraham Lincoln High School.jpg",
+        "width": 5184,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Coney_Carousel_006.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Coney_Carousel_006.JPG/1280px-Coney_Carousel_006.JPG",
+        "license": "CC BY-SA 3.0",
+        "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Peter_Greenberg&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Peter Greenberg (page does not exist)\">Peter Greenberg</a>",
+        "title": "Coney Carousel 006.JPG",
+        "width": 5184,
+        "height": 3456
+      }
+    ],
+    "safety": {
+      "shark_incidents_total": 0,
+      "shark_incident_last_year": null,
+      "nearshore_depth_m": 4.921055316925049,
+      "lifeguard": false
+    },
+    "facilities": {
+      "restrooms": true,
+      "showers": true,
+      "food_nearby": true,
+      "dogs": false
+    },
+    "wildlife": {
+      "total_species": 20,
+      "groups": [
+        {
+          "label": "Birds",
+          "key": "bird",
+          "count": 17,
+          "top": [
+            {
+              "common": "Laughing Gull",
+              "latin": "Leucophaeus atricilla",
+              "obs": 265,
+              "iucn": null
+            },
+            {
+              "common": "American Herring Gull",
+              "latin": "Larus smithsonianus",
+              "obs": 207,
+              "iucn": null
+            },
+            {
+              "common": "Ring-billed Gull",
+              "latin": "Larus delawarensis",
+              "obs": 204,
+              "iucn": null
+            },
+            {
+              "common": "Rock Pigeon",
+              "latin": "Columba livia",
+              "obs": 157,
+              "iucn": null
+            },
+            {
+              "common": "Great Black-backed Gull",
+              "latin": "Larus marinus",
+              "obs": 113,
+              "iucn": null
+            },
+            {
+              "common": "European Starling",
+              "latin": "Sturnus vulgaris",
+              "obs": 103,
+              "iucn": null
+            },
+            {
+              "common": "Brant",
+              "latin": "Branta bernicla",
+              "obs": 82,
+              "iucn": null
+            },
+            {
+              "common": "Black Scoter",
+              "latin": "Melanitta americana",
+              "obs": 79,
+              "iucn": null
+            }
+          ]
+        },
+        {
+          "label": "Invertebrates",
+          "key": "invertebrate",
+          "count": 2,
+          "top": [
+            {
+              "common": "Atlantic Horseshoe Crab",
+              "latin": "Limulus polyphemus",
+              "obs": 76,
+              "iucn": null
+            },
+            {
+              "common": "Spotted Lanternfly",
+              "latin": "Lycorma delicatula",
+              "obs": 45,
+              "iucn": null
+            }
+          ]
+        },
+        {
+          "label": "Plants",
+          "key": "plant",
+          "count": 1,
+          "top": [
+            {
+              "common": "common mugwort",
+              "latin": "Artemisia vulgaris",
+              "obs": 40,
+              "iucn": null
+            }
+          ]
+        }
+      ]
+    },
+    "comparisons": [
+      {
+        "metric": "Peak warmth",
+        "text": "Warmer than 58% of beaches in its country",
+        "detail": "Peak-month high ≈ 28°C"
+      }
+    ],
+    "wikidata_id": "Q628201",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Coney_Island",
+    "wikipedia_page_views_annual": 424911,
+    "notability_score": 44.3,
+    "data_completeness_pct": 62.5,
+    "best_months": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "swim_suitability": "fair"
+  },
+  "neighbors": [
+    {
+      "slug": "manhattan-beach-2",
+      "name": "Manhattan Beach",
+      "distance_km": 2.9,
+      "has_wiki": false
+    },
+    {
+      "slug": "kingsborough-beach-park",
+      "name": "Kingsborough Beach Park",
+      "distance_km": 3.6,
+      "has_wiki": false
+    },
+    {
+      "slug": "breezy-point-surf-club",
+      "name": "Breezy Point Surf Club",
+      "distance_km": 4.6,
+      "has_wiki": false
+    },
+    {
+      "slug": "gerritsen-beach",
+      "name": "Gerritsen Beach",
+      "distance_km": 4.9,
+      "has_wiki": false
+    },
+    {
+      "slug": "plumb-beach",
+      "name": "Plumb Beach",
+      "distance_km": 5.0,
+      "has_wiki": false
+    },
+    {
+      "slug": "silver-gull-beach-club",
+      "name": "Silver Gull Beach Club",
+      "distance_km": 6.7,
+      "has_wiki": false
+    }
+  ]
+}

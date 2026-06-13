@@ -9,7 +9,7 @@
 
 | Asset | State |
 |---|---|
-| DB | 227,780 beaches, 117 columns. Climate **97%** (was "blocked" — now nearly done). City/airport/shark/notability 100%. Bathymetry 90K, cyclones 13K, sand predicted all + curated 20 + wikipedia 1,081. **Best-months 0%** (derivable from climate already in DB — pure compute). |
+| DB | 227,780 beaches, 117 columns. Climate **97%** (was "blocked" — now nearly done). City/airport/shark/notability 100%. Bathymetry 90K, cyclones 13K, sand predicted all + curated 20 + wikipedia 1,081. **Best-months 97.7%** (222,544 rows; was mislabeled "0%" here on Jun-10 — verified populated 2026-06-13). `data_completeness_pct` 100%. `ocean_water_temp` 0% (YearStrip needs air-temp fallback). |
 | Site | 311 pages live on Hetzner, static export. GA4 + Search Console verification live as of today. |
 | Pages | ~10 marquee (T3) pages with bespoke signatures; tier system coded in `site/lib/tier.ts`. |
 | Repo | Everything committed and pushed to `erinheit451/worldbeachtour` (master). |

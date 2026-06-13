@@ -1,0 +1,250 @@
+{
+  "data": {
+    "slug": "grote-rietplas-parelstrand",
+    "name": "GROTE RIETPLAS - PARELSTRAND",
+    "country_code": "NL",
+    "admin_level_1": "Drenthe",
+    "centroid_lat": 52.73591,
+    "centroid_lng": 6.90546,
+    "water_body_type": "lake",
+    "substrate_type": "unknown",
+    "classification": {
+      "primary_type": "Lake",
+      "primary_type_slug": "lake",
+      "coastal_type": "Lake",
+      "coastal_type_slug": "lake",
+      "micro_type": "Lake",
+      "micro_type_slug": "lake"
+    },
+    "nearest_city": "Emmen",
+    "nearest_city_distance_km": 4.8,
+    "nearest_airport": {
+      "iata": "ENS",
+      "name": "Twente Airport",
+      "distance_km": 51.2
+    },
+    "climate": {
+      "air_temp_high": [
+        4.6,
+        5.272,
+        8.74,
+        12.9,
+        17.96,
+        20.236,
+        22.084,
+        22.228,
+        18.3,
+        13.58,
+        8.54,
+        5.596
+      ],
+      "air_temp_low": [
+        -0.308,
+        -0.404,
+        1.596,
+        3.4,
+        7.48,
+        10.152,
+        12.144,
+        11.712,
+        9.276,
+        5.996,
+        2.896,
+        0.996
+      ],
+      "rain_mm": [
+        66.0,
+        47.0,
+        62.0,
+        44.0,
+        53.0,
+        75.0,
+        75.0,
+        55.0,
+        67.0,
+        69.0,
+        70.0,
+        74.0
+      ],
+      "wind_speed": [
+        4.176,
+        3.9,
+        4.032,
+        3.544,
+        3.4,
+        3.12,
+        3.0,
+        2.8,
+        3.0,
+        3.3,
+        3.5,
+        3.896
+      ],
+      "sun_hours": [
+        2259.0,
+        4683.0,
+        7881.0,
+        12951.0,
+        16826.0,
+        17538.0,
+        16928.0,
+        14875.0,
+        10056.0,
+        6008.0,
+        2875.0,
+        1744.0
+      ],
+      "climate_source": "worldclim_v2.1_2.5m",
+      "climate_type": null,
+      "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
+    },
+    "sand": {
+      "predicted": {
+        "q_pct": 45.3,
+        "f_pct": 9.8,
+        "l_pct": 44.9,
+        "regime": "lithic-rich (volcanic/collisional terrane)",
+        "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
+        "source": "GloPrSM v1.0.0 (IJ_QFL)"
+      }
+    },
+    "photos": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Am_Rietplas-See_in_Emmen_-_panoramio_%2824%29.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Am_Rietplas-See_in_Emmen_-_panoramio_%2824%29.jpg/960px-Am_Rietplas-See_in_Emmen_-_panoramio_%2824%29.jpg",
+        "license": "CC BY-SA 3.0",
+        "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161025041834/http://www.panoramio.com/user/288043?with_photo_id=75783197\">Helfmann</a>",
+        "title": "Am Rietplas-See in Emmen - panoramio (24).jpg",
+        "width": 5184,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Am_Rietplas-See_in_Emmen_-_panoramio_%2825%29.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Am_Rietplas-See_in_Emmen_-_panoramio_%2825%29.jpg/960px-Am_Rietplas-See_in_Emmen_-_panoramio_%2825%29.jpg",
+        "license": "CC BY-SA 3.0",
+        "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161027014451/http://www.panoramio.com/user/288043?with_photo_id=75783200\">Helfmann</a>",
+        "title": "Am Rietplas-See in Emmen - panoramio (25).jpg",
+        "width": 5184,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Am_Rietplas-See_in_Emmen_-_panoramio_%2826%29.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Am_Rietplas-See_in_Emmen_-_panoramio_%2826%29.jpg/960px-Am_Rietplas-See_in_Emmen_-_panoramio_%2826%29.jpg",
+        "license": "CC BY-SA 3.0",
+        "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161027014510/http://www.panoramio.com/user/288043?with_photo_id=75783209\">Helfmann</a>",
+        "title": "Am Rietplas-See in Emmen - panoramio (26).jpg",
+        "width": 5184,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Parc_Sandur_am_Rietplas-See_-_panoramio_%284%29.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Parc_Sandur_am_Rietplas-See_-_panoramio_%284%29.jpg/960px-Parc_Sandur_am_Rietplas-See_-_panoramio_%284%29.jpg",
+        "license": "CC BY-SA 3.0",
+        "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161024191658/http://www.panoramio.com/user/288043?with_photo_id=75782169\">Helfmann</a>",
+        "title": "Parc Sandur am Rietplas-See - panoramio (4).jpg",
+        "width": 5184,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Parc_Sandur_am_Rietplas-See_-_panoramio_%285%29.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Parc_Sandur_am_Rietplas-See_-_panoramio_%285%29.jpg/960px-Parc_Sandur_am_Rietplas-See_-_panoramio_%285%29.jpg",
+        "license": "CC BY-SA 3.0",
+        "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161026063606/http://www.panoramio.com/user/288043?with_photo_id=75782190\">Helfmann</a>",
+        "title": "Parc Sandur am Rietplas-See - panoramio (5).jpg",
+        "width": 5184,
+        "height": 3456
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/The_lonely_swimmer_%2815288887262%29.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/The_lonely_swimmer_%2815288887262%29.jpg/960px-The_lonely_swimmer_%2815288887262%29.jpg",
+        "license": "CC BY 2.0",
+        "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44206268@N07\">Alias 0591</a> from the Netherlands",
+        "title": "The lonely swimmer (15288887262).jpg",
+        "width": 4111,
+        "height": 2529
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Lake_Rietplas_%2815333707612%29.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Lake_Rietplas_%2815333707612%29.jpg/960px-Lake_Rietplas_%2815333707612%29.jpg",
+        "license": "CC BY 2.0",
+        "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44206268@N07\">Alias 0591</a> from the Netherlands",
+        "title": "Lake Rietplas (15333707612).jpg",
+        "width": 4004,
+        "height": 2284
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Rowing_%2815248231916%29.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Rowing_%2815248231916%29.jpg/960px-Rowing_%2815248231916%29.jpg",
+        "license": "CC BY 2.0",
+        "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44206268@N07\">Alias 0591</a> from the Netherlands",
+        "title": "Rowing (15248231916).jpg",
+        "width": 3999,
+        "height": 2406
+      }
+    ],
+    "safety": {
+      "shark_incidents_total": 0,
+      "shark_incident_last_year": null
+    },
+    "water_quality": {
+      "rating": "excellent",
+      "source": "eu_bathing",
+      "year": null
+    },
+    "comparisons": [
+      {
+        "metric": "Peak warmth",
+        "text": "Warmer than 59% of beaches in its country",
+        "detail": "Peak-month high ≈ 22°C"
+      }
+    ],
+    "notability_score": 16.0,
+    "data_completeness_pct": 41.7,
+    "best_months": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "swim_suitability": "excellent"
+  },
+  "neighbors": [
+    {
+      "slug": "grote-rietplas-watersportstrand",
+      "name": "GROTE RIETPLAS - WATERSPORTSTRAND",
+      "distance_km": 1.0,
+      "has_wiki": false
+    },
+    {
+      "slug": "bargerhoek",
+      "name": "BARGERHOEK",
+      "distance_km": 1.3,
+      "has_wiki": false
+    },
+    {
+      "slug": "kleine-rietplas",
+      "name": "KLEINE RIETPLAS",
+      "distance_km": 1.4,
+      "has_wiki": false
+    },
+    {
+      "slug": "de-zandpol",
+      "name": "DE ZANDPOL",
+      "distance_km": 5.7,
+      "has_wiki": false
+    },
+    {
+      "slug": "ermerzand",
+      "name": "ERMERZAND",
+      "distance_km": 6.8,
+      "has_wiki": false
+    },
+    {
+      "slug": "de-fruithof",
+      "name": "DE FRUITHOF",
+      "distance_km": 10.7,
+      "has_wiki": false
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "data": {
+    "slug": "playa-fluvial-de-villoria-de-orbigo",
+    "name": "Playa fluvial de Villoria de Órbigo",
+    "country_code": "ES",
+    "admin_level_1": "Castille and Leon",
+    "centroid_lat": 42.4073984,
+    "centroid_lng": -5.8741227,
+    "water_body_type": "ocean",
+    "substrate_type": "unknown",
+    "classification": {
+      "primary_type": "Ocean",
+      "primary_type_slug": "ocean",
+      "coastal_type": "Ocean",
+      "coastal_type_slug": "ocean",
+      "micro_type": "Ocean",
+      "micro_type_slug": "ocean"
+    },
+    "nearest_city": "San Cristobal de la Polantera",
+    "nearest_city_distance_km": 3.3,
+    "nearest_airport": {
+      "iata": "LEN",
+      "name": "León Int'l Airport",
+      "distance_km": 27.3
+    },
+    "climate": {
+      "air_temp_high": [
+        7.596,
+        9.956,
+        13.692,
+        15.316,
+        19.032,
+        23.792,
+        26.408,
+        26.0,
+        22.868,
+        16.9,
+        11.836,
+        8.6
+      ],
+      "air_temp_low": [
+        -0.6,
+        0.624,
+        2.2,
+        3.844,
+        7.32,
+        11.212,
+        13.492,
+        12.896,
+        10.528,
+        6.68,
+        2.9,
+        0.744
+      ],
+      "rain_mm": [
+        79.0,
+        65.0,
+        47.0,
+        61.0,
+        64.0,
+        43.0,
+        28.0,
+        26.0,
+        46.0,
+        74.0,
+        80.0,
+        89.0
+      ],
+      "wind_speed": [
+        2.5,
+        2.916,
+        3.176,
+        3.5,
+        3.0,
+        2.7,
+        2.608,
+        2.6,
+        2.4,
+        2.6,
+        2.412,
+        2.596
+      ],
+      "sun_hours": [
+        5909.0,
+        9146.0,
+        12868.0,
+        17603.0,
+        20642.0,
+        23486.0,
+        25310.0,
+        22177.0,
+        16351.0,
+        10800.0,
+        6870.0,
+        4931.0
+      ],
+      "climate_source": "worldclim_v2.1_2.5m",
+      "climate_type": null,
+      "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
+    },
+    "sand": {
+      "predicted": {
+        "q_pct": 33.2,
+        "f_pct": 6.4,
+        "l_pct": 60.4,
+        "regime": "lithic-rich (volcanic/collisional terrane)",
+        "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
+        "source": "GloPrSM v1.0.0 (IJ_QFL)"
+      }
+    },
+    "safety": {
+      "shark_incidents_total": 0,
+      "shark_incident_last_year": null
+    },
+    "comparisons": [
+      {
+        "metric": "Peak warmth",
+        "text": "Cooler than 62% of beaches in its country",
+        "detail": "Peak-month high ≈ 26°C"
+      }
+    ],
+    "notability_score": 0.0,
+    "data_completeness_pct": 33.3,
+    "best_months": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "swim_suitability": "fair"
+  },
+  "neighbors": [
+    {
+      "slug": "playa-fluvial-de-san-justo-de-la-vega",
+      "name": "Playa fluvial de San Justo de la Vega",
+      "distance_km": 13.2,
+      "has_wiki": false
+    },
+    {
+      "slug": "rio-orbigo-cimanes-del-tejar-03-pm1",
+      "name": "RIO ORBIGO CIMANES DEL TEJAR 03 PM1",
+      "distance_km": 16.6,
+      "has_wiki": false
+    },
+    {
+      "slug": "rio-tuerto-villaobispo-de-otero-pm1",
+      "name": "RIO TUERTO VILLAOBISPO DE OTERO PM1",
+      "distance_km": 16.8,
+      "has_wiki": false
+    },
+    {
+      "slug": "rio-orbigo-llamas-de-la-ribera-02-pm1",
+      "name": "RIO ORBIGO LLAMAS DE LA RIBERA 02 PM1",
+      "distance_km": 22.8,
+      "has_wiki": false
+    },
+    {
+      "slug": "rio-orbigo-cimanes-del-tejar-02-pm1",
+      "name": "RIO ORBIGO CIMANES DEL TEJAR 02 PM1",
+      "distance_km": 24.0,
+      "has_wiki": false
+    },
+    {
+      "slug": "rio-orbigo-llamas-de-la-ribera-pm1",
+      "name": "RIO ORBIGO LLAMAS DE LA RIBERA PM1",
+      "distance_km": 26.0,
+      "has_wiki": false
+    }
+  ]
+}

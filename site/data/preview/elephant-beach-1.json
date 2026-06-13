@@ -1,0 +1,149 @@
+{
+  "data": {
+    "slug": "elephant-beach-1",
+    "name": "Elephant Beach",
+    "country_code": "FK",
+    "admin_level_1": "",
+    "centroid_lat": -51.3030113,
+    "centroid_lng": -59.5714089,
+    "water_body_type": "ocean",
+    "substrate_type": "sand",
+    "slope_pct": 0.1631268858909607,
+    "nearshore_depth_m": 1.0625,
+    "classification": {
+      "primary_type": "Sand",
+      "primary_type_slug": "sand",
+      "coastal_type": "Sand",
+      "coastal_type_slug": "sand",
+      "micro_type": "Ocean",
+      "micro_type_slug": "ocean"
+    },
+    "nearest_city": "Stanley",
+    "nearest_city_distance_km": 127.1,
+    "nearest_airport": {
+      "iata": "MPN",
+      "name": "Mount Pleasant Airport / RAF Mount Pleasant",
+      "distance_km": 96.9
+    },
+    "climate": {
+      "air_temp_high": [
+        14.0625,
+        13.8313,
+        12.5813,
+        9.9688,
+        7.6188,
+        5.8625,
+        5.375,
+        6.0687,
+        7.2875,
+        9.3875,
+        11.2937,
+        12.9563
+      ],
+      "air_temp_low": [
+        7.55,
+        7.5188,
+        6.75,
+        5.1188,
+        3.5312,
+        2.1187,
+        1.5187,
+        1.7313,
+        2.125,
+        3.4938,
+        4.8625,
+        6.4188
+      ],
+      "rain_mm": [
+        61.0,
+        41.0,
+        49.0,
+        48.0,
+        47.0,
+        38.0,
+        37.0,
+        35.0,
+        31.0,
+        33.0,
+        36.0,
+        50.0
+      ],
+      "wind_speed": [
+        7.8,
+        7.8938,
+        7.3,
+        7.2,
+        6.7062,
+        6.6437,
+        6.8125,
+        7.4188,
+        7.4125,
+        7.7,
+        7.7,
+        7.5938
+      ],
+      "sun_hours": [
+        18744.0,
+        15320.0,
+        11053.0,
+        6494.0,
+        3729.0,
+        2537.0,
+        2941.0,
+        5336.0,
+        8832.0,
+        13884.0,
+        18457.0,
+        19873.0
+      ],
+      "climate_source": "worldclim_v2.1_2.5m",
+      "climate_type": null,
+      "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
+    },
+    "tides": {
+      "range_spring_m": 1.9370170250521952,
+      "range_neap_m": 1.0683747289657226,
+      "type": "mixed",
+      "source": "eot20"
+    },
+    "sand": {
+      "predicted": {
+        "q_pct": 32.3,
+        "f_pct": 9.5,
+        "l_pct": 58.2,
+        "regime": "lithic-rich (volcanic/collisional terrane)",
+        "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
+        "source": "GloPrSM v1.0.0 (IJ_QFL)"
+      }
+    },
+    "safety": {
+      "shark_incidents_total": 0,
+      "shark_incident_last_year": null,
+      "nearshore_depth_m": 1.0625
+    },
+    "comparisons": [
+      {
+        "metric": "Peak warmth",
+        "text": "Warmer than 66% of beaches in its country",
+        "detail": "Peak-month high ≈ 14°C"
+      },
+      {
+        "metric": "Worldwide",
+        "text": "Among the coolest 10% of beaches on Earth",
+        "detail": null
+      }
+    ],
+    "notability_score": 0.0,
+    "data_completeness_pct": 45.8,
+    "best_months": [],
+    "swim_suitability": "fair"
+  },
+  "neighbors": [
+    {
+      "slug": "rabit-beach",
+      "name": "Rabit Beach",
+      "distance_km": 9.8,
+      "has_wiki": false
+    }
+  ]
+}

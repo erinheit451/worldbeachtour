@@ -1,0 +1,256 @@
+{
+  "data": {
+    "slug": "parc-de-l-arabie",
+    "name": "PARC DE L'ARABIE",
+    "country_code": "CH",
+    "admin_level_1": "Vaud",
+    "centroid_lat": 46.4614,
+    "centroid_lng": 6.8346,
+    "water_body_type": "lake",
+    "substrate_type": "unknown",
+    "classification": {
+      "primary_type": "Lake",
+      "primary_type_slug": "lake",
+      "coastal_type": "Lake",
+      "coastal_type_slug": "lake",
+      "micro_type": "Lake",
+      "micro_type_slug": "lake"
+    },
+    "nearest_city": "Vevey",
+    "nearest_city_distance_km": 0.7,
+    "nearest_airport": {
+      "iata": "VIP",
+      "name": "Payerne Air Base",
+      "distance_km": 42.9
+    },
+    "climate": {
+      "air_temp_high": [
+        4.224,
+        5.82,
+        9.816,
+        13.2,
+        18.072,
+        21.256,
+        24.288,
+        23.912,
+        19.692,
+        14.02,
+        8.192,
+        5.14
+      ],
+      "air_temp_low": [
+        -2.036,
+        -1.436,
+        0.916,
+        3.612,
+        8.076,
+        11.116,
+        13.528,
+        13.336,
+        9.968,
+        5.976,
+        1.328,
+        -1.016
+      ],
+      "rain_mm": [
+        88.0,
+        88.0,
+        83.0,
+        94.0,
+        111.0,
+        141.0,
+        118.0,
+        120.0,
+        109.0,
+        105.0,
+        105.0,
+        96.0
+      ],
+      "wind_speed": [
+        1.844,
+        2.012,
+        2.216,
+        2.28,
+        2.06,
+        1.976,
+        1.904,
+        1.724,
+        1.648,
+        1.664,
+        1.788,
+        1.932
+      ],
+      "sun_hours": [
+        4495.0,
+        7411.0,
+        11620.0,
+        15955.0,
+        18416.0,
+        21297.0,
+        21592.0,
+        18158.0,
+        13781.0,
+        8501.0,
+        5014.0,
+        3745.0
+      ],
+      "climate_source": "worldclim_v2.1_2.5m",
+      "climate_type": null,
+      "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
+    },
+    "sand": {
+      "predicted": {
+        "q_pct": 45.6,
+        "f_pct": 11.2,
+        "l_pct": 43.1,
+        "regime": "lithic-rich (volcanic/collisional terrane)",
+        "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
+        "source": "GloPrSM v1.0.0 (IJ_QFL)"
+      }
+    },
+    "photos": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Vevey%2C_D%C3%A9barcadaire_Vevey-March%C3%A9.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Vevey%2C_D%C3%A9barcadaire_Vevey-March%C3%A9.jpg/960px-Vevey%2C_D%C3%A9barcadaire_Vevey-March%C3%A9.jpg",
+        "license": "CC BY-SA 4.0",
+        "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Maudinou07&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Maudinou07 (page does not exist)\">Maude Rion</a>",
+        "title": "Vevey, Débarcadaire Vevey-Marché.jpg",
+        "width": 6016,
+        "height": 4000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/L%27Arabie%27s_Vevey%27s_sight_toward_%22Thonon%22_on_fall%2C_sunset_-_panoramio.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/L%27Arabie%27s_Vevey%27s_sight_toward_%22Thonon%22_on_fall%2C_sunset_-_panoramio.jpg/960px-L%27Arabie%27s_Vevey%27s_sight_toward_%22Thonon%22_on_fall%2C_sunset_-_panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161102023816/http://www.panoramio.com/user/5795495?with_photo_id=120656848\">Picea Abies</a>",
+        "title": "L'Arabie's Vevey's sight toward \"Thonon\" on fall, sunset - panoramio.jpg",
+        "width": 4896,
+        "height": 3672
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/L%27Arabie%27s_Vevey_on_fall_-_panoramio.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/L%27Arabie%27s_Vevey_on_fall_-_panoramio.jpg/960px-L%27Arabie%27s_Vevey_on_fall_-_panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161101060657/http://www.panoramio.com/user/5795495?with_photo_id=120656816\">Picea Abies</a>",
+        "title": "L'Arabie's Vevey on fall - panoramio.jpg",
+        "width": 4896,
+        "height": 3672
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Vevey_-_Le_Vevey_-_2022-06-22_-_01.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Vevey_-_Le_Vevey_-_2022-06-22_-_01.jpg/960px-Vevey_-_Le_Vevey_-_2022-06-22_-_01.jpg",
+        "license": "CC BY-SA 4.0",
+        "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Jmh2o\" title=\"User:Jmh2o\">Jmh2o</a>",
+        "title": "Vevey - Le Vevey - 2022-06-22 - 01.jpg",
+        "width": 4579,
+        "height": 2577
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Vevey_-_rue_de_la_Byronne_1_-_01.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Vevey_-_rue_de_la_Byronne_1_-_01.jpg/960px-Vevey_-_rue_de_la_Byronne_1_-_01.jpg",
+        "license": "CC BY-SA 4.0",
+        "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Jmh2o\" title=\"User:Jmh2o\">Jmh2o</a>",
+        "title": "Vevey - rue de la Byronne 1 - 01.jpg",
+        "width": 4558,
+        "height": 3019
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Vevey_-_rue_du_Midi_16_-_01.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Vevey_-_rue_du_Midi_16_-_01.jpg/960px-Vevey_-_rue_du_Midi_16_-_01.jpg",
+        "license": "CC BY-SA 4.0",
+        "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Jmh2o\" title=\"User:Jmh2o\">Jmh2o</a>",
+        "title": "Vevey - rue du Midi 16 - 01.jpg",
+        "width": 3979,
+        "height": 3184
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/2009-08-27_Lake_Geneva_402.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/2009-08-27_Lake_Geneva_402.JPG/960px-2009-08-27_Lake_Geneva_402.JPG",
+        "license": "CC BY 3.0",
+        "author_html": "Norbert Aepli, Switzerland (<a href=\"//commons.wikimedia.org/wiki/User:Noebu\" title=\"User:Noebu\">User:Noebu</a>)",
+        "title": "2009-08-27 Lake Geneva 402.JPG",
+        "width": 3648,
+        "height": 2736
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/2009-08-27_Lake_Geneva_403.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/2009-08-27_Lake_Geneva_403.JPG/960px-2009-08-27_Lake_Geneva_403.JPG",
+        "license": "CC BY 3.0",
+        "author_html": "Norbert Aepli, Switzerland (<a href=\"//commons.wikimedia.org/wiki/User:Noebu\" title=\"User:Noebu\">User:Noebu</a>)",
+        "title": "2009-08-27 Lake Geneva 403.JPG",
+        "width": 3648,
+        "height": 2736
+      }
+    ],
+    "safety": {
+      "shark_incidents_total": 0,
+      "shark_incident_last_year": null
+    },
+    "conservation": {
+      "name": "Les Grangettes",
+      "type": "Wetland of international importance (ramsar site)",
+      "iucn": "IV",
+      "unesco": false
+    },
+    "water_quality": {
+      "rating": "excellent",
+      "source": "eu_bathing",
+      "year": null
+    },
+    "comparisons": [
+      {
+        "metric": "Peak warmth",
+        "text": "Warmer than 67% of beaches in its country",
+        "detail": "Peak-month high ≈ 24°C"
+      }
+    ],
+    "notability_score": 16.0,
+    "data_completeness_pct": 45.8,
+    "best_months": [
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep"
+    ],
+    "swim_suitability": "excellent"
+  },
+  "neighbors": [
+    {
+      "slug": "centre-nautique-et-balneaire",
+      "name": "CENTRE NAUTIQUE ET BALNÉAIRE",
+      "distance_km": 0.3,
+      "has_wiki": false
+    },
+    {
+      "slug": "corseaux",
+      "name": "CORSEAUX",
+      "distance_km": 0.7,
+      "has_wiki": false
+    },
+    {
+      "slug": "la-pichette",
+      "name": "LA PICHETTE",
+      "distance_km": 1.0,
+      "has_wiki": false
+    },
+    {
+      "slug": "bains-de-la-crottaz",
+      "name": "Bains de la Crottaz",
+      "distance_km": 1.2,
+      "has_wiki": false
+    },
+    {
+      "slug": "bain-des-dames-1",
+      "name": "Bain des Dames",
+      "distance_km": 2.2,
+      "has_wiki": false
+    },
+    {
+      "slug": "plage-de-st-saphorin",
+      "name": "Plage de St-Saphorin",
+      "distance_km": 3.0,
+      "has_wiki": false
+    }
+  ]
+}
