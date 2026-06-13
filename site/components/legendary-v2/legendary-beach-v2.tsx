@@ -29,6 +29,8 @@ import {
   ComparisonSection,
   SeaSurfSection,
   ThingsToKnowSection,
+  SpikeSection,
+  BibliographySection,
   GallerySection,
 } from "./sections/standard-sections";
 import SectionDivider from "./primitives/section-divider";
@@ -103,37 +105,13 @@ export default function LegendaryBeachV2({ bundle }: LegendaryBeachV2Props) {
                     ? { text: composition.spike_statement }
                     : undefined
                 }
+                marginNotes={(showcase as unknown as { margin_notes?: { audience: string; anchor_para_index: number; text: string }[] }).margin_notes}
                 tier={composition.tier}
               />
             );
           case "spike_deep_explainer":
           case "feature_deep_explainer":
-            return (
-              <div key={sectionId}>
-                <SectionDivider motifPath={composition.levers.motif_path} />
-                <SpikeDeepExplainer
-                  title={titleForSpike(composition)}
-                  kicker={composition.spike_statement ?? composition.subtitle}
-                  prose={buildSpikeProse(bundle)}
-                  leadImage={
-                    firstAvailable(
-                      "big_wave_2",
-                      "hero_big_wave",
-                      "spike",
-                      "mosaic",
-                      "palace",
-                      "palace_pier"
-                    ) ?? primaryHero
-                  }
-                  supportingImages={
-                    Object.values(section)
-                      .filter((img) => img !== primaryHero)
-                      .slice(0, 2)
-                  }
-                  tier={composition.tier}
-                />
-              </div>
-            );
+            return <SpikeSection key={sectionId} bundle={bundle} />;
           case "timeline":
             return <TimelineSection key={sectionId} bundle={bundle} lead={lead(1)} />;
           case "place_anatomy":
@@ -156,13 +134,15 @@ export default function LegendaryBeachV2({ bundle }: LegendaryBeachV2Props) {
             return <GallerySection key={sectionId} bundle={bundle} />;
           case "sources":
             return (
-              <Sources
-                key={sectionId}
-                composition={composition}
-                tideSource={data.tides?.source}
-                climateSource={data.climate?.climate_source ?? undefined}
-                doneness={doneness}
-              />
+              <div key={sectionId}>
+                <BibliographySection bundle={bundle} />
+                <Sources
+                  composition={composition}
+                  tideSource={data.tides?.source}
+                  climateSource={data.climate?.climate_source ?? undefined}
+                  doneness={doneness}
+                />
+              </div>
             );
           default:
             return <PendingSection key={sectionId} id={sectionId} />;

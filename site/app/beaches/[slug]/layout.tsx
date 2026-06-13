@@ -17,6 +17,9 @@ const SHOWCASE_SLUGS = new Set([
   "praia-do-norte-6",
   "navagio-1",
   "boulders-beach",
+  "whitehaven-beach-1",
+  "varkala-beach",
+  "patong",
 ]);
 
 export function generateStaticParams() {

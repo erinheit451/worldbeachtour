@@ -58,5 +58,72 @@
       "regime": "quartz-dominant",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
-  }
+  },
+  "waves": {
+    "height_mean_m": [
+      0.52,
+      0.51,
+      0.46,
+      0.47,
+      0.85,
+      1.15,
+      1.24,
+      1.08,
+      1.29,
+      0.71,
+      0.46,
+      0.53
+    ],
+    "height_big_m": [
+      0.76,
+      0.74,
+      0.66,
+      0.66,
+      1.36,
+      1.68,
+      1.94,
+      1.64,
+      2.24,
+      1.16,
+      0.72,
+      0.7
+    ],
+    "period_mean_s": [
+      7.92,
+      7.97,
+      8.98,
+      10.7,
+      9.89,
+      7.47,
+      7.29,
+      7.98,
+      7.62,
+      8.31,
+      9.52,
+      9.63
+    ],
+    "summary": {
+      "annual_mean_m": 0.77,
+      "biggest_month": "Sep",
+      "biggest_month_m": 1.29,
+      "calmest_month": "Mar",
+      "calmest_month_m": 0.46,
+      "peak_big_day_m": 2.24,
+      "typical_period_s": 8.6,
+      "character": "Mixed — usually swimmable, with a livelier season"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 63% of beaches in its country",
+      "detail": "Peak-month high ≈ 33°C"
+    },
+    {
+      "metric": "Worldwide",
+      "text": "Among the warmest 5% of beaches on Earth",
+      "detail": null
+    }
+  ]
 }

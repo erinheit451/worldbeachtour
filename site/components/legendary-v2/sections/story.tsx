@@ -9,12 +9,19 @@
 import type { ReactNode } from "react";
 import PullQuote from "../primitives/pull-quote";
 
+interface MarginNote {
+  audience: string;
+  anchor_para_index: number;
+  text: string;
+}
+
 interface StoryProps {
   text: string;
   pullQuote?: {
     text: string;
     attribution?: string;
   };
+  marginNotes?: MarginNote[];
   tier: 1 | 2;
 }
 
@@ -26,41 +33,55 @@ function renderInline(text: string): ReactNode[] {
   });
 }
 
-export default function Story({ text, pullQuote, tier }: StoryProps) {
+export default function Story({ text, pullQuote, marginNotes = [], tier }: StoryProps) {
   const paragraphs = text.split("\n\n").filter(Boolean);
+  const hasMargins = marginNotes.length > 0;
 
   return (
     <section
       id="story"
-      className="mx-auto max-w-3xl px-6 py-20 sm:py-28"
+      className={`mx-auto px-6 py-20 sm:py-28 ${hasMargins ? "max-w-5xl" : "max-w-3xl"}`}
     >
       <SectionHeader eyebrow="Story" title="" />
-      <div className="prose prose-lg max-w-none prose-p:text-volcanic-700 prose-p:leading-[1.75] prose-p:text-[19px] prose-p:my-6">
-        {paragraphs.map((p, i) => (
-          <p
-            key={i}
-            className={
-              i === 0
-                ? "first-letter:font-display first-letter:text-[96px] first-letter:float-left first-letter:leading-[0.8] first-letter:pr-3 first-letter:pt-2"
-                : ""
-            }
-            style={
-              i === 0
-                ? {
-                    ["--first-letter-color" as "color"]:
-                      "var(--beach-primary, #475569)",
-                  }
-                : undefined
-            }
-          >
-            {renderInline(p)}
-          </p>
-        ))}
+      <div className="space-y-6">
+        {paragraphs.map((p, i) => {
+          const notes = marginNotes.filter((n) => n.anchor_para_index === i);
+          return (
+            <div key={i} className={hasMargins ? "lg:grid lg:grid-cols-[1fr_220px] lg:gap-10" : ""}>
+              <p
+                className={`text-volcanic-700 leading-[1.78] text-[19px] ${
+                  i === 0
+                    ? "first-letter:font-display first-letter:text-[96px] first-letter:float-left first-letter:leading-[0.8] first-letter:pr-3 first-letter:pt-2"
+                    : ""
+                }`}
+                style={
+                  i === 0
+                    ? { ["--first-letter-color" as "color"]: "var(--beach-primary, #475569)" }
+                    : undefined
+                }
+              >
+                {renderInline(p)}
+              </p>
+              {hasMargins && (
+                <div className="mt-3 lg:mt-1.5 space-y-4">
+                  {notes.map((n, j) => (
+                    <aside key={j} className="border-l-2 pl-3 lg:border-l lg:pl-4" style={{ borderColor: "var(--beach-primary, #cbd5e1)" }}>
+                      <div className="font-mono text-[9px] uppercase tracking-[0.15em] text-volcanic-400 mb-1">{n.audience}</div>
+                      <div className="text-[13px] leading-[1.55] text-volcanic-600 font-serif italic">{n.text}</div>
+                    </aside>
+                  ))}
+                </div>
+              )}
+            </div>
+          );
+        })}
       </div>
       {pullQuote && (
-        <PullQuote size="hero" attribution={pullQuote.attribution}>
-          {pullQuote.text}
-        </PullQuote>
+        <div className={hasMargins ? "max-w-3xl" : ""}>
+          <PullQuote size="hero" attribution={pullQuote.attribution}>
+            {pullQuote.text}
+          </PullQuote>
+        </div>
       )}
     </section>
   );

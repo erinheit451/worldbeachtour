@@ -12,6 +12,14 @@
 
 import type { LegendaryPageBundle } from "../types";
 import { SectionHeader } from "./story";
+import { getSignature } from "../signatures";
+
+function renderInline(text: string): React.ReactNode[] {
+  return text.split(/(\*\*[^*]+\*\*)/g).map((part, i) => {
+    const m = part.match(/^\*\*([^*]+)\*\*$/);
+    return m ? <strong key={i}>{m[1]}</strong> : <span key={i}>{part}</span>;
+  });
+}
 
 const MONTHS = ["", "January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December"];
@@ -43,6 +51,55 @@ function Eyebrow({ children }: { children: React.ReactNode }) {
     >
       {children}
     </div>
+  );
+}
+
+// ── FACT RAIL (the monument numbers) ────────────────────────────────────
+interface KeyFact { label: string; value: string; source?: string }
+function FactRail({ facts }: { facts: KeyFact[] }) {
+  if (!facts || facts.length === 0) return null;
+  return (
+    <aside className="my-12 border-y-2 py-6" style={{ borderColor: "var(--beach-primary, #cbd5e1)" }}>
+      <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-volcanic-400 mb-5">The numbers</div>
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-7">
+        {facts.map((f, i) => (
+          <div key={i}>
+            <div className="font-display text-[26px] leading-[1.05] text-volcanic-900" style={{ fontFamily: "var(--display-family)" }}>{f.value}</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.1em] text-volcanic-400 mt-1.5">{f.label}</div>
+          </div>
+        ))}
+      </div>
+    </aside>
+  );
+}
+
+// ── THE SPIKE (real deep-explainer + signature visual + fact-rail) ──────
+export function SpikeSection({ bundle }: { bundle: LegendaryPageBundle }) {
+  const { showcase, composition } = bundle;
+  const explainer = (showcase as unknown as { spike_explainer?: string }).spike_explainer;
+  const keyFacts = (showcase as unknown as { key_facts?: KeyFact[] }).key_facts ?? [];
+  const Signature = getSignature(composition.slug);
+  // Fall back to the old behaviour only if there's genuinely no authored spike.
+  if (!explainer && !Signature && keyFacts.length === 0) return null;
+
+  const paras = (explainer ?? "").split("\n\n").filter(Boolean);
+  return (
+    <section id="spike_deep_explainer" className="py-20 sm:py-28" style={{ background: "var(--beach-supporting, #f6f4ef)" }}>
+      <div className="mx-auto max-w-3xl px-6">
+        <SectionHeader eyebrow="The spike" title={composition.spike_statement ?? composition.beach_name} />
+        {Signature && (
+          <div className="mb-12 border border-volcanic-100 bg-white/60 p-4 rounded-sm">
+            <Signature />
+          </div>
+        )}
+        {keyFacts.length > 0 && <FactRail facts={keyFacts} />}
+        <div className="prose prose-lg max-w-none">
+          {paras.map((p, i) => (
+            <p key={i} className="text-volcanic-700 leading-[1.78] text-[19px] my-6">{renderInline(p)}</p>
+          ))}
+        </div>
+      </div>
+    </section>
   );
 }
 
@@ -210,6 +267,7 @@ export function CultureSection({ bundle, lead }: { bundle: LegendaryPageBundle; 
 export function HonestReckoningSection({ bundle }: { bundle: LegendaryPageBundle }) {
   const note = bundle.showcase.honest_reckoning_note ?? bundle.showcase.favela_note;
   if (!note) return null;
+  const pull = (bundle.showcase as unknown as { reckoning_pullquote?: string }).reckoning_pullquote;
   const paras = note.split("\n\n").filter(Boolean);
   return (
     <section id="honest_reckoning" className="py-20 sm:py-24" style={{ background: "#15110d" }}>
@@ -217,6 +275,11 @@ export function HonestReckoningSection({ bundle }: { bundle: LegendaryPageBundle
         <div className="text-[11px] font-mono uppercase tracking-[0.3em] mb-3 text-amber-200/70">
           The honest part
         </div>
+        {pull && (
+          <blockquote className="font-display text-[28px] sm:text-[34px] leading-[1.2] text-amber-50 mb-10 max-w-2xl" style={{ fontFamily: "var(--display-family)" }}>
+            &ldquo;{pull}&rdquo;
+          </blockquote>
+        )}
         <div className="space-y-5">
           {paras.map((p, i) => (
             <p key={i} className="text-[18px] leading-[1.75] text-stone-200 font-serif">{p}</p>
@@ -426,6 +489,41 @@ export function ComparisonSection({ bundle }: { bundle: LegendaryPageBundle }) {
         ))}
       </div>
       <p className="text-[12px] text-volcanic-400 italic mt-4">Ranked against every beach in our database — 228,000+ worldwide.</p>
+    </section>
+  );
+}
+
+// ── BIBLIOGRAPHY (citations auto-compiled from source fields) ───────────
+export function BibliographySection({ bundle }: { bundle: LegendaryPageBundle }) {
+  const sh = bundle.showcase as unknown as {
+    timeline?: { source?: string }[];
+    landmarks?: { source?: string }[];
+    cultural_refs?: { source?: string }[];
+    key_facts?: { source?: string }[];
+  };
+  const counts = new Map<string, number>();
+  const add = (s?: string) => {
+    if (!s) return;
+    const k = s.trim();
+    if (k) counts.set(k, (counts.get(k) ?? 0) + 1);
+  };
+  (sh.timeline ?? []).forEach((t) => add(t.source));
+  (sh.landmarks ?? []).forEach((t) => add(t.source));
+  (sh.cultural_refs ?? []).forEach((t) => add(t.source));
+  (sh.key_facts ?? []).forEach((t) => add(t.source));
+  const sources = [...counts.entries()].sort((a, b) => b[1] - a[1]);
+  if (sources.length === 0) return null;
+  return (
+    <section id="bibliography" className="mx-auto max-w-3xl px-6 py-16 border-t border-volcanic-100">
+      <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-volcanic-400 mb-5">Sources &amp; references</div>
+      <ol className="space-y-2 list-decimal pl-5 marker:text-volcanic-300 marker:font-mono marker:text-[11px]">
+        {sources.map(([src, n], i) => (
+          <li key={i} className="text-[13px] text-volcanic-600 leading-[1.5]">
+            {src}
+            {n > 1 && <span className="text-volcanic-400"> · cited {n}×</span>}
+          </li>
+        ))}
+      </ol>
     </section>
   );
 }
