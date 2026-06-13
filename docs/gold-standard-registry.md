@@ -9,6 +9,20 @@
 Numbering note: this supersedes the loose "T0/T1/T3" labels used earlier. One
 ladder: **Tier 1 Legendary → Tier 2 Featured → Tier 3 Field Guide → Tier 4 Stub.**
 
+## DESIGNATED GOLD STANDARDS (status 2026-06-13)
+
+| Tier | Gold-standard page | Status |
+|---|---|---|
+| **1 Legendary** | `/beaches/huntington-city-beach` (+ `/surf`, `/the-pier`) | ✅ **complete** — both axes + adaptive + spokes |
+| **1 Legendary** | `/beaches/waikiki-beach-1` | ✅ bespoke editorial + data axis (live + lens-reorder pending bespoke→generic migration) |
+| **2 Featured** | `/beaches/navagio-1` | ✅ designated — editorial-rich, signature visual |
+| **3 Field Guide** | `/preview/playa-de-cuesta-maneli` | ✅ designated — full data surfaces incl. **Sea & surf** (now ported), Doñana conservation, on a zero-fame beach |
+| **4 Stub** | `/preview/beach-18.4604--64.4327` | ✅ designated — unnamed BVI cove; computed title + map + honesty block |
+
+One page now exists for every rung. Remaining to "best-possible": Waikīkī's
+bespoke→generic migration (for live + adaptive), the cross-cutting DB gaps below,
+and a Tier-2 tightening pass on Navagio.
+
 ---
 
 ## TIER 1 — Legendary  ·  exemplars: **Huntington Beach** + **Waikīkī**

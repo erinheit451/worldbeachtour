@@ -388,6 +388,22 @@ def build_stub(conn, slug, dist):
     wildlife = build_wildlife(conn, row["id"])
     comparisons = build_comparisons(row, dist)
 
+    # Sea & surf — fetch wave climatology (Open-Meteo Marine). Best-effort.
+    waves = None
+    try:
+        from enrich_waves import fetch_daily, monthly_climatology, summarize
+        raw = fetch_daily(row["centroid_lat"], row["centroid_lng"])
+        daily = raw.get("daily")
+        if daily:
+            hm, hb, pm = monthly_climatology(daily)
+            summ = summarize(hm, hb, pm)
+            if summ:
+                waves = {"height_mean_m": hm, "height_big_m": hb,
+                         "period_mean_s": pm, "summary": summ,
+                         "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"}
+    except Exception as e:
+        print(f"    (waves skipped for {slug}: {e})")
+
     # Safety & conditions — shark history is 100% populated; depth/tide gate flex.
     safety = {}
     sharks = row.get("shark_incidents_total")
@@ -473,6 +489,7 @@ def build_stub(conn, slug, dist):
         "water_quality": water_quality,
         "blue_flag": blue_flag,
         "wildlife": wildlife,
+        "waves": waves,
         "comparisons": comparisons or None,
         # Fields the tier gate + T1 template need:
         "wikidata_id": row.get("wikidata_id"),

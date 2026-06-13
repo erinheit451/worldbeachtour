@@ -68,6 +68,18 @@ export interface SafetyInfo {
   lifeguard?: boolean;
 }
 
+export interface WaveData {
+  height_mean_m: (number | null)[];
+  height_big_m: (number | null)[];
+  period_mean_s: (number | null)[];
+  summary: {
+    annual_mean_m: number; biggest_month: string; biggest_month_m: number;
+    calmest_month: string; calmest_month_m: number; typical_period_s: number | null;
+    character: string;
+  };
+  source: string;
+}
+
 interface ContextPhoto {
   url: string;
   caption: string;
@@ -178,6 +190,7 @@ interface StubData {
   typological_siblings_placeholder?: Sibling[];
   photos?: GalleryPhoto[];
   comparisons?: Comparison[];
+  waves?: WaveData;
   wildlife?: Wildlife;
   conservation?: Conservation;
   facilities?: Facilities;
@@ -914,6 +927,49 @@ export default function StubBeach({ data, neighbors = [] }: StubBeachProps) {
             </p>
           </section>
         )}
+
+        {/* ── SEA & SURF (wave climatology) ──────────────────────────── */}
+        {data.waves && (() => {
+          const w = data.waves!;
+          const hs = w.height_mean_m, bs = w.height_big_m;
+          const maxH = Math.max(1, ...hs.filter((h): h is number => h != null), ...bs.filter((h): h is number => h != null));
+          return (
+            <section className="px-8 md:px-12 py-10 border-b border-volcanic-100">
+              <SectionHeading>Sea &amp; surf</SectionHeading>
+              <div className="grid md:grid-cols-[1.2fr_1fr] gap-8 items-start">
+                <div className="border border-volcanic-100 bg-white p-5">
+                  <svg viewBox="0 0 360 140" className="w-full h-auto">
+                    {hs.map((h, i) => {
+                      if (h == null) return null;
+                      const x = 10 + i * 29, bh = (h / maxH) * 100, big = bs[i];
+                      return (
+                        <g key={i}>
+                          {big != null && <rect x={x} y={110 - (big / maxH) * 100} width={18} height={(big / maxH) * 100} fill="#0369a1" opacity="0.16" />}
+                          <rect x={x} y={110 - bh} width={18} height={bh} fill="#0369a1" opacity="0.6" />
+                          <text x={x + 9} y={124} fontFamily="ui-monospace,monospace" fontSize="8" fill="#94a3b8" textAnchor="middle">{MONTHS[i][0]}</text>
+                        </g>
+                      );
+                    })}
+                  </svg>
+                  <p className="text-[11px] text-volcanic-400 italic mt-2">
+                    Solid = typical monthly wave height; pale = the bigger days. Offshore/regional swell — a sheltered cove may sit calmer.
+                  </p>
+                </div>
+                <div>
+                  <Datum label="Character" conf="computed" value={<span className="text-[18px] leading-tight">{w.summary.character}</span>} />
+                  <div className="mt-5 space-y-2 font-mono text-[12px] text-volcanic-600">
+                    <div className="flex justify-between border-b border-volcanic-100 pb-1.5"><span>Typical height</span><span className="text-volcanic-900">{w.summary.annual_mean_m} m</span></div>
+                    <div className="flex justify-between border-b border-volcanic-100 pb-1.5"><span>Biggest swell</span><span className="text-volcanic-900">{w.summary.biggest_month} · {w.summary.biggest_month_m} m</span></div>
+                    <div className="flex justify-between border-b border-volcanic-100 pb-1.5"><span>Calmest</span><span className="text-volcanic-900">{w.summary.calmest_month} · {w.summary.calmest_month_m} m</span></div>
+                    {w.summary.typical_period_s != null && (
+                      <div className="flex justify-between"><span>Period</span><span className="text-volcanic-900">{w.summary.typical_period_s} s {w.summary.typical_period_s >= 8 ? "(groundswell)" : "(wind chop)"}</span></div>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </section>
+          );
+        })()}
 
         {/* ── SAFETY & CONDITIONS ────────────────────────────────────── */}
         {data.safety && (data.safety.shark_incidents_total != null || data.safety.nearshore_depth_m != null || data.safety.lifeguard != null) && (

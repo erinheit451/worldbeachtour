@@ -121,6 +121,61 @@
       "shark_incident_last_year": null,
       "nearshore_depth_m": 1.0625
     },
+    "waves": {
+      "height_mean_m": [
+        0.91,
+        1.05,
+        1.14,
+        1.19,
+        1.16,
+        0.96,
+        1.1,
+        1.07,
+        1.07,
+        0.98,
+        1.05,
+        0.85
+      ],
+      "height_big_m": [
+        1.18,
+        1.66,
+        1.5,
+        1.92,
+        1.76,
+        1.66,
+        1.68,
+        1.56,
+        1.68,
+        1.4,
+        1.74,
+        1.28
+      ],
+      "period_mean_s": [
+        5.48,
+        6.18,
+        5.77,
+        6.12,
+        6.28,
+        6.23,
+        7.09,
+        7.06,
+        6.61,
+        5.74,
+        6.36,
+        5.37
+      ],
+      "summary": {
+        "annual_mean_m": 1.04,
+        "biggest_month": "Apr",
+        "biggest_month_m": 1.19,
+        "calmest_month": "Dec",
+        "calmest_month_m": 0.85,
+        "peak_big_day_m": 1.92,
+        "typical_period_s": 6.2,
+        "character": "Mixed — usually swimmable, with a livelier season"
+      },
+      "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
+    },
     "comparisons": [
       {
         "metric": "Peak warmth",
