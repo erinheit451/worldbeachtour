@@ -60,6 +60,11 @@ import {
   ClusterLink,
   WAIKIKI_MAIN,
 } from "./waikiki/shared";
+import {
+  SeaSurfSection,
+  ComparisonSection,
+  ThingsToKnowSection,
+} from "./sections/standard-sections";
 
 // ============================================================================
 // STORY — 4 paragraphs, gestures, doesn't spoil
@@ -1111,6 +1116,12 @@ export default function WaikikiV2Page({
       <TimelineSection bundle={bundle} />
       <CulturalFootprintSection bundle={bundle} />
       <MalamaSection bundle={bundle} />
+
+      {/* Data axis — the fusion: generic conditions modules onto bespoke editorial */}
+      <SeaSurfSection bundle={bundle} />
+      <ComparisonSection bundle={bundle} />
+      <ThingsToKnowSection bundle={bundle} />
+
       <NearbySection />
       <SpokeFooter />
       <PageProvenance bundle={bundle} />

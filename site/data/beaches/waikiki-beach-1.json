@@ -22,9 +22,9 @@
   },
   "safety": {
     "shark_incidents_total": 0,
-    "lifeguard": true,
-    "cyclone_count_50yr": 7,
-    "cyclone_max_category": "4"
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 11.856118202209473,
+    "lifeguard": true
   },
   "facilities": {
     "parking": true,
@@ -235,5 +235,22 @@
       "character": "Exposed — real surf, and rip current to respect"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Warmer than 75% of beaches in its country",
+      "detail": "Peak-month high ≈ 30°C"
+    },
+    {
+      "metric": "Worldwide",
+      "text": "Among the warmest 20% of beaches on Earth",
+      "detail": null
+    },
+    {
+      "metric": "Beach season",
+      "text": "Longer beach season than 96% of beaches in its country",
+      "detail": "12 comfortable months a year"
+    }
+  ]
 }
