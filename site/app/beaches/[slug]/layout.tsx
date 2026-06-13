@@ -20,6 +20,7 @@ const SHOWCASE_SLUGS = new Set([
   "whitehaven-beach-1",
   "varkala-beach",
   "patong",
+  "huntington-city-beach",
 ]);
 
 export function generateStaticParams() {

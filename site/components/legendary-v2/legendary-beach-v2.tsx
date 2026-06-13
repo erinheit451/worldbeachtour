@@ -33,7 +33,9 @@ import {
   BibliographySection,
   GallerySection,
 } from "./sections/standard-sections";
+import { LiveInstrument } from "./live";
 import SectionDivider from "./primitives/section-divider";
+import Link from "next/link";
 
 interface LegendaryBeachV2Props {
   bundle: LegendaryPageBundle;
@@ -112,6 +114,10 @@ export default function LegendaryBeachV2({ bundle }: LegendaryBeachV2Props) {
           case "spike_deep_explainer":
           case "feature_deep_explainer":
             return <SpikeSection key={sectionId} bundle={bundle} />;
+          case "live_now":
+            return <LiveInstrument key={sectionId} bundle={bundle} />;
+          case "spokes":
+            return <SpokesSection key={sectionId} bundle={bundle} />;
           case "timeline":
             return <TimelineSection key={sectionId} bundle={bundle} lead={lead(1)} />;
           case "place_anatomy":
@@ -232,6 +238,8 @@ function buildSpikeProse(bundle: LegendaryPageBundle): string {
 // ----------------------------------------------------------------------------
 function buildNavGroups(sectionIds: string[]): NavGroup[] {
   const LABELS: Record<string, string> = {
+    live_now: "Right now",
+    spokes: "Go deeper",
     story: "Story",
     spike_deep_explainer: "The Spike",
     feature_deep_explainer: "Feature",
@@ -288,6 +296,41 @@ function buildNavGroups(sectionIds: string[]): NavGroup[] {
 // ----------------------------------------------------------------------------
 // Placeholder for unimplemented sections
 // ----------------------------------------------------------------------------
+function SpokesSection({ bundle }: { bundle: LegendaryPageBundle }) {
+  const spokes = bundle.composition.spokes ?? [];
+  if (spokes.length === 0) return null;
+  const LABELS: Record<string, string> = {
+    audience_guide: "Audience guide", deep_dive: "Deep dive",
+    event: "Event", anthology: "Anthology",
+  };
+  const title = (s: string) =>
+    s.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+  return (
+    <section id="spokes" className="mx-auto max-w-5xl px-6 py-16 sm:py-20">
+      <div className="text-[11px] font-mono uppercase tracking-[0.3em] mb-6" style={{ color: "var(--beach-primary, #475569)" }}>
+        Go deeper
+      </div>
+      <div className="grid gap-4 sm:grid-cols-2">
+        {spokes.map((sp, i) => (
+          <Link
+            key={i}
+            href={`/beaches/${bundle.composition.slug}/${sp.slug}`}
+            className="group flex items-baseline justify-between gap-4 border-t-2 pt-4 hover:opacity-80 transition-opacity"
+            style={{ borderColor: "var(--beach-primary, #cbd5e1)" }}
+          >
+            <span className="font-display text-2xl text-volcanic-900" style={{ fontFamily: "var(--display-family)" }}>
+              {title(sp.slug)}
+            </span>
+            <span className="font-mono text-[10px] uppercase tracking-[0.12em] text-volcanic-400 whitespace-nowrap">
+              {LABELS[sp.type] ?? "More"} →
+            </span>
+          </Link>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 function PendingSection({ id }: { id: string }) {
   return (
     <section

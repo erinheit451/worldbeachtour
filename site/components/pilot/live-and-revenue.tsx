@@ -101,7 +101,7 @@ function BuoyCard() {
     (async () => {
       try {
         const res = await fetch(
-          `https://www.ndbc.noaa.gov/data/realtime2/${NDBC_STATION}.txt`,
+          `/api/ndbc/${NDBC_STATION}`,
           { cache: "no-store" }
         );
         if (!res.ok) throw new Error(String(res.status));

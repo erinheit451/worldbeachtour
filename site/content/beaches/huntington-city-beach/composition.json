@@ -1,0 +1,46 @@
+{
+  "slug": "huntington-city-beach",
+  "beach_name": "Huntington Beach",
+  "version": "0.9",
+  "tier": 1,
+  "spike": "surf-city",
+  "spike_statement": "The beach that trademarked the name \"Surf City USA\" in 2004, then spent two decades making the claim impossible to argue with.",
+  "levers": {
+    "primary_color": "#0E5C8A",
+    "supporting_color": "#E8B14C",
+    "hero_type": "MONUMENT",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "ROMANTIC",
+    "photo_tone": "high-sun California gold, the pier in silhouette against an over-water sunset, wet sand mirroring the sky"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "live_now",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "surf",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "the-pier",
+      "type": "deep_dive"
+    }
+  ]
+}
