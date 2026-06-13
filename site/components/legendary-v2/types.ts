@@ -81,6 +81,7 @@ export interface Composition {
   levers: Levers;
   byline: string;                           // "Written by Erin Rose"
   sections: string[];
+  adaptive?: boolean;            // Tier-1: lens-reorder shell
   spokes?: SpokeDeclaration[];
 
   // Flags

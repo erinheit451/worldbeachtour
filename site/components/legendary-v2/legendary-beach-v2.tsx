@@ -34,6 +34,7 @@ import {
   GallerySection,
 } from "./sections/standard-sections";
 import { LiveInstrument } from "./live";
+import LensReorder from "./lens-reorder";
 import SectionDivider from "./primitives/section-divider";
 import Link from "next/link";
 
@@ -92,7 +93,8 @@ export default function LegendaryBeachV2({ bundle }: LegendaryBeachV2Props) {
 
       <StickyNavV2 groups={navGroups} />
 
-      {composition.sections.map((sectionId) => {
+      {(() => {
+        const renderSection = (sectionId: string): React.ReactNode => {
         switch (sectionId) {
           case "hero":
           case "quick_facts":
@@ -151,9 +153,27 @@ export default function LegendaryBeachV2({ bundle }: LegendaryBeachV2Props) {
               </div>
             );
           default:
-            return <PendingSection key={sectionId} id={sectionId} />;
+            return <PendingSection id={sectionId} />;
         }
-      })}
+        };
+        const bodyIds = composition.sections.filter((id) => id !== "hero" && id !== "quick_facts");
+        const nodes = bodyIds.map((id) => ({ id, node: renderSection(id) }));
+        const PIN_TOP = new Set(["live_now"]);
+        const PIN_BOTTOM = new Set(["sources"]);
+        const adaptive = !!(composition as unknown as { adaptive?: boolean }).adaptive;
+        const top = nodes.filter((n) => PIN_TOP.has(n.id));
+        const bottom = nodes.filter((n) => PIN_BOTTOM.has(n.id));
+        const body = nodes.filter((n) => !PIN_TOP.has(n.id) && !PIN_BOTTOM.has(n.id));
+        return (
+          <>
+            {top.map((n) => <div key={n.id}>{n.node}</div>)}
+            {adaptive
+              ? <LensReorder items={body} />
+              : body.map((n) => <div key={n.id}>{n.node}</div>)}
+            {bottom.map((n) => <div key={n.id}>{n.node}</div>)}
+          </>
+        );
+      })()}
     </LegendaryShell>
   );
 }
