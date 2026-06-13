@@ -1,0 +1,232 @@
+{
+  "slug": "huntington-city-beach",
+  "name": "Huntington Beach",
+  "official_name": "Huntington City Beach",
+  "centroid_lat": 33.6511422,
+  "centroid_lng": -117.996343,
+  "country_code": "US",
+  "admin_level_1": "California",
+  "water_body_type": "ocean",
+  "substrate_type": "sand",
+  "wikidata_id": "Q49321253",
+  "notability_score": 2.5,
+  "data_completeness_pct": 45.8,
+  "dominant_lens": "surf",
+  "location": {
+    "nearest_city": "Huntington Beach",
+    "nearest_city_distance_km": 1.1,
+    "nearest_airport_iata": "SNA",
+    "nearest_airport_name": "John Wayne Orange County International Airport",
+    "nearest_airport_distance_km": 12.1
+  },
+  "climate": {
+    "air_temp_high": [
+      18.7929,
+      19.15,
+      19.0,
+      20.4429,
+      20.9143,
+      22.4857,
+      24.2429,
+      24.95,
+      24.8571,
+      23.5786,
+      21.2857,
+      19.0571
+    ],
+    "air_temp_low": [
+      8.2,
+      9.1714,
+      9.8857,
+      11.1643,
+      13.2071,
+      15.3214,
+      16.9429,
+      17.5929,
+      16.7,
+      14.2786,
+      10.4786,
+      7.9929
+    ],
+    "rain_mm": [
+      70.0,
+      69.0,
+      58.0,
+      17.0,
+      5.0,
+      2.0,
+      1.0,
+      2.0,
+      8.0,
+      8.0,
+      32.0,
+      46.0
+    ],
+    "sun_hours": [
+      9864.0,
+      12088.0,
+      16720.0,
+      21588.0,
+      22506.0,
+      23621.0,
+      24095.0,
+      23038.0,
+      18902.0,
+      14446.0,
+      11413.0,
+      9464.0
+    ],
+    "wind_speed": [
+      3.1929,
+      3.45,
+      3.7143,
+      3.8643,
+      3.8643,
+      3.7929,
+      3.7214,
+      3.6,
+      3.4786,
+      3.2,
+      3.25,
+      3.0357
+    ],
+    "source": "worldclim_v2.1_2.5m"
+  },
+  "ocean": {
+    "wave_height_m": [
+      1.35,
+      1.35,
+      1.26,
+      1.16,
+      1.06,
+      0.95,
+      0.9,
+      0.96,
+      0.99,
+      1.03,
+      1.01,
+      1.16
+    ],
+    "wave_period_s": [
+      12.37,
+      11.99,
+      11.02,
+      10.89,
+      11.65,
+      11.21,
+      11.03,
+      11.09,
+      11.43,
+      12.07,
+      12.04,
+      12.13
+    ],
+    "swell_direction": [
+      "W",
+      "W",
+      "W",
+      "SW",
+      "SW",
+      "SW",
+      "SW",
+      "SW",
+      "SW",
+      "SW",
+      "SW",
+      "W"
+    ],
+    "source": "open_meteo_marine (2015-2024 daily-max monthly normals)"
+  },
+  "tides": {
+    "range_spring_m": 1.41,
+    "range_neap_m": 0.59,
+    "type": "mixed",
+    "source": "eot20"
+  },
+  "bathymetry": {
+    "slope_pct": 1.06,
+    "nearshore_depth_m": 16.3,
+    "drop_off_flag": 0
+  },
+  "sand": {
+    "q_pct": 90.3,
+    "f_pct": 2.4,
+    "l_pct": 7.3,
+    "regime_label": "quartz-dominant",
+    "source": "GloPrSM v1.0.0 (IJ_QFL)"
+  },
+  "best_months": [
+    "mar",
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct",
+    "nov"
+  ],
+  "swim_suitability": "fair",
+  "swim_suitability_confidence": "medium",
+  "surfable": {
+    "surfable": true,
+    "confidence": "moderate (bathymetry + wave climatology; orientation pending OSM polygon re-fetch)",
+    "break_type_guess": "beach break",
+    "max_mean_wave_m": 1.35,
+    "best_surf_months": [
+      "jan",
+      "feb",
+      "mar",
+      "apr",
+      "dec"
+    ],
+    "note": "World-famous beach break (Surf City USA). v1 flag derived from data; ground truth confirms surfable."
+  },
+  "hazards": [
+    {
+      "id": 1728098,
+      "beach_id": "f71ed5dd-eb1e-47b6-9b50-5d42b1b39fca",
+      "hazard_type": "tropical_cyclone",
+      "severity": "3",
+      "observed_date": "1972-09-06 12:00:00",
+      "source": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/",
+      "expires_at": null
+    },
+    {
+      "id": 1824477,
+      "beach_id": "f71ed5dd-eb1e-47b6-9b50-5d42b1b39fca",
+      "hazard_type": "tropical_cyclone",
+      "severity": "1",
+      "observed_date": "1977-08-18 00:00:00",
+      "source": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/",
+      "expires_at": null
+    },
+    {
+      "id": 1843176,
+      "beach_id": "f71ed5dd-eb1e-47b6-9b50-5d42b1b39fca",
+      "hazard_type": "tropical_cyclone",
+      "severity": "4",
+      "observed_date": "1978-09-06 15:00:00",
+      "source": "ibtracs_v04r01",
+      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/",
+      "expires_at": null
+    }
+  ],
+  "months_index": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "eav_attributes": {}
+}
