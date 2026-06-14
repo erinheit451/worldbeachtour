@@ -32,8 +32,17 @@
     "sources"
   ],
   "spokes": [
-    { "slug": "canyon-science", "type": "deep_dive" },
-    { "slug": "spectator-guide", "type": "audience_guide" },
-    { "slug": "record-rides", "type": "anthology" }
+    {
+      "slug": "canyon-science",
+      "type": "deep_dive"
+    },
+    {
+      "slug": "spectator-guide",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "record-rides",
+      "type": "anthology"
+    }
   ]
 }

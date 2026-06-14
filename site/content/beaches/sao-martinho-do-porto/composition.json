@@ -28,7 +28,13 @@
     "sources"
   ],
   "spokes": [
-    { "slug": "visiting", "type": "audience_guide" },
-    { "slug": "family", "type": "audience_guide" }
+    {
+      "slug": "visiting",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "family",
+      "type": "audience_guide"
+    }
   ]
 }

@@ -31,9 +31,21 @@
     "sources"
   ],
   "spokes": [
-    { "slug": "calcadao-deep", "type": "deep_dive" },
-    { "slug": "reveillon", "type": "event" },
-    { "slug": "favela-above", "type": "honest_reckoning_expansion" },
-    { "slug": "bossa-nova-origins", "type": "deep_dive" }
+    {
+      "slug": "calcadao-deep",
+      "type": "deep_dive"
+    },
+    {
+      "slug": "reveillon",
+      "type": "event"
+    },
+    {
+      "slug": "favela-above",
+      "type": "honest_reckoning_expansion"
+    },
+    {
+      "slug": "bossa-nova-origins",
+      "type": "deep_dive"
+    }
   ]
 }

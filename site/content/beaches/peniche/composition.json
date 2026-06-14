@@ -30,8 +30,17 @@
     "sources"
   ],
   "spokes": [
-    { "slug": "surfing", "type": "audience_guide" },
-    { "slug": "visiting", "type": "audience_guide" },
-    { "slug": "berlengas", "type": "deep_dive" }
+    {
+      "slug": "surfing",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "visiting",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "berlengas",
+      "type": "deep_dive"
+    }
   ]
 }
