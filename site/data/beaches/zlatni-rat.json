@@ -1,56 +1,21 @@
 {
   "slug": "zlatni-rat",
   "name": "Zlatni rat",
-  "centroid_lat": 43.2570391,
-  "centroid_lng": 16.6344854,
   "country_code": "HR",
   "admin_level_1": "Splitsko-Dalmatinska",
-  "admin_level_2": null,
+  "centroid_lat": 43.2570391,
+  "centroid_lng": 16.6344854,
   "water_body_type": "ocean",
   "substrate_type": "pebble",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/299176619",
-      "source_url": "https://www.openstreetmap.org/way/299176619"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q1262826",
-      "source_url": "https://www.wikidata.org/wiki/Q1262826"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "HRBWC-COAST-HR4-2112",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "HRBWC-COAST-HR4-2113",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "HRBWC-COAST-HR4-2112",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "HRBWC-COAST-HR4-2113",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "nudist": false,
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bol%20%2833626391504%29.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Zlatni_Rat"
-    },
-    "environment": {
-      "water_quality_rating": "1 - excellent",
-      "eu_bathing_water_type": "Coastal"
-    }
+  "slope_pct": 3.776609230041504,
+  "nearshore_depth_m": 58.9375,
+  "classification": {
+    "primary_type": "Pebble",
+    "primary_type_slug": "pebble",
+    "coastal_type": "Pebble",
+    "coastal_type_slug": "pebble",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Bol",
   "nearest_city_distance_km": 1.7,
@@ -59,27 +24,353 @@
     "name": "Brač Airport",
     "distance_km": 4.7
   },
-  "safety": {
-    "water_quality_rating": "1 - excellent",
-    "lifeguard": true,
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      9.47,
+      9.69,
+      12.05,
+      15.785,
+      20.78,
+      24.88,
+      27.83,
+      27.86,
+      23.425,
+      18.695,
+      13.985,
+      10.83
+    ],
+    "air_temp_low": [
+      3.945,
+      3.48,
+      5.37,
+      8.22,
+      12.66,
+      16.125,
+      18.545,
+      18.5,
+      15.29,
+      11.715,
+      7.845,
+      5.21
+    ],
+    "rain_mm": [
+      74.0,
+      62.0,
+      69.0,
+      66.0,
+      53.0,
+      46.0,
+      30.0,
+      46.0,
+      67.0,
+      90.0,
+      105.0,
+      89.0
+    ],
+    "wind_speed": [
+      3.79,
+      4.06,
+      4.02,
+      3.67,
+      3.215,
+      2.905,
+      2.92,
+      2.8,
+      3.19,
+      3.45,
+      4.23,
+      4.275
+    ],
+    "sun_hours": [
+      5641.0,
+      8373.0,
+      11958.0,
+      16442.0,
+      20342.0,
+      22912.0,
+      24612.0,
+      21679.0,
+      16187.0,
+      10468.0,
+      6036.0,
+      4740.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "facilities": {
-    "parking": true,
-    "restrooms": true
+  "tides": {
+    "range_spring_m": 0.32845666104861804,
+    "range_neap_m": 0.02928151228957801,
+    "type": "mixed",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Zlatni_Rat",
-  "notability_score": 39.1,
-  "data_completeness_pct": 37.5,
   "sand": {
     "predicted": {
       "q_pct": 24.3,
       "f_pct": 4.3,
       "l_pct": 71.4,
       "regime": "lithic-rich (volcanic/collisional terrane)",
+      "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Panoramic_view_of_the_Golden_Horn_beach%2C_Bol%2C_Croatia_%28PPL3-Altered%29_julesvernex2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Panoramic_view_of_the_Golden_Horn_beach%2C_Bol%2C_Croatia_%28PPL3-Altered%29_julesvernex2.jpg/1280px-Panoramic_view_of_the_Golden_Horn_beach%2C_Bol%2C_Croatia_%28PPL3-Altered%29_julesvernex2.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Julesvernex2\" title=\"User:Julesvernex2\">Jules Verne Times Two</a>",
+      "title": "Panoramic view of the Golden Horn beach, Bol, Croatia (PPL3-Altered) julesvernex2.jpg",
+      "width": 7661,
+      "height": 3537
     },
-    "description": "The landform itself is mostly composed of a white pebble beach, with a Mediterranean pine grove taking up the remainder."
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Bouncy_castle_in_the_Adriatic_Sea_of_Bol%2C_Croatia_%2848693876436%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bouncy_castle_in_the_Adriatic_Sea_of_Bol%2C_Croatia_%2848693876436%29.jpg/1280px-Bouncy_castle_in_the_Adriatic_Sea_of_Bol%2C_Croatia_%2848693876436%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/132646954@N02\">dronepicr</a>",
+      "title": "Bouncy castle in the Adriatic Sea of Bol, Croatia (48693876436).jpg",
+      "width": 6240,
+      "height": 4160
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Aleppo_pine_%28Pinus_halepensis%29_with_the_Golden_Horn_beach_on_the_background%2C_Bol%2C_Croatia_%28PPL3-Altered%29_julesvernex2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Aleppo_pine_%28Pinus_halepensis%29_with_the_Golden_Horn_beach_on_the_background%2C_Bol%2C_Croatia_%28PPL3-Altered%29_julesvernex2.jpg/1280px-Aleppo_pine_%28Pinus_halepensis%29_with_the_Golden_Horn_beach_on_the_background%2C_Bol%2C_Croatia_%28PPL3-Altered%29_julesvernex2.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Julesvernex2\" title=\"User:Julesvernex2\">Jules Verne Times Two</a>",
+      "title": "Aleppo pine (Pinus halepensis) with the Golden Horn beach on the background, Bol, Croatia (PPL3-Altered) julesvernex2.jpg",
+      "width": 6233,
+      "height": 4155
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Famous_beach_on_Brac_island_near_the_town_of_Bol_%2820125195098%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Famous_beach_on_Brac_island_near_the_town_of_Bol_%2820125195098%29.jpg/1280px-Famous_beach_on_Brac_island_near_the_town_of_Bol_%2820125195098%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/95436125@N04\">Jeroen Komen</a> from Utrecht, Netherlands",
+      "title": "Famous beach on Brac island near the town of Bol (20125195098).jpg",
+      "width": 5616,
+      "height": 3744
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Aerial_view_of_Zlatni_rat_%28Golden_Horn%29_Beach_in_Bol%2C_Croatia_%2848608813081%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Aerial_view_of_Zlatni_rat_%28Golden_Horn%29_Beach_in_Bol%2C_Croatia_%2848608813081%29.jpg/1280px-Aerial_view_of_Zlatni_rat_%28Golden_Horn%29_Beach_in_Bol%2C_Croatia_%2848608813081%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/132646954@N02\">dronepicr</a>",
+      "title": "Aerial view of Zlatni rat (Golden Horn) Beach in Bol, Croatia (48608813081).jpg",
+      "width": 5464,
+      "height": 3640
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Das_Adriatische_Meer_in_der_N%C3%A4he_vom_Strand_Goldenes_Horn_in_Bol%2C_Kroatien_%2848608825776%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Das_Adriatische_Meer_in_der_N%C3%A4he_vom_Strand_Goldenes_Horn_in_Bol%2C_Kroatien_%2848608825776%29.jpg/1280px-Das_Adriatische_Meer_in_der_N%C3%A4he_vom_Strand_Goldenes_Horn_in_Bol%2C_Kroatien_%2848608825776%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/132646954@N02\">dronepicr</a>",
+      "title": "Das Adriatische Meer in der Nähe vom Strand Goldenes Horn in Bol, Kroatien (48608825776).jpg",
+      "width": 5464,
+      "height": 3640
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Luftbild_vom_Strand_Goldenes_Horn_in_Bol%2C_Kroatien_%2848608811781%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Luftbild_vom_Strand_Goldenes_Horn_in_Bol%2C_Kroatien_%2848608811781%29.jpg/1280px-Luftbild_vom_Strand_Goldenes_Horn_in_Bol%2C_Kroatien_%2848608811781%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/132646954@N02\">dronepicr</a>",
+      "title": "Luftbild vom Strand Goldenes Horn in Bol, Kroatien (48608811781).jpg",
+      "width": 5464,
+      "height": 3070
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Zlatni_rat_Beach_surrounded_by_the_Adriatic_Sea_in_Bol%2C_Croatia_%2848608454483%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Zlatni_rat_Beach_surrounded_by_the_Adriatic_Sea_in_Bol%2C_Croatia_%2848608454483%29.jpg/1280px-Zlatni_rat_Beach_surrounded_by_the_Adriatic_Sea_in_Bol%2C_Croatia_%2848608454483%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/132646954@N02\">dronepicr</a>",
+      "title": "Zlatni rat Beach surrounded by the Adriatic Sea in Bol, Croatia (48608454483).jpg",
+      "width": 5464,
+      "height": 3640
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 58.9375,
+    "lifeguard": true
+  },
+  "conservation": {
+    "name": "Zlatni rat",
+    "type": "Significant landscape",
+    "iucn": "Not Reported",
+    "unesco": false
+  },
+  "facilities": {
+    "parking": true,
+    "restrooms": true,
+    "food_nearby": true,
+    "nudism": true
+  },
+  "water_quality": {
+    "rating": "1 - excellent",
+    "source": "eu_bathing",
+    "year": null
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 7,
+        "top": [
+          {
+            "common": "Egyptian Bird Grasshopper",
+            "latin": "Anacridium aegyptium",
+            "obs": 7,
+            "iucn": null
+          },
+          {
+            "common": "Almond Stink Bug",
+            "latin": "Apodiphus amygdali",
+            "obs": 6,
+            "iucn": null
+          },
+          {
+            "common": "Eurasian Hummingbird Hawkmoth",
+            "latin": "Macroglossum stellatarum",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "Scarce Swallowtail",
+            "latin": "Iphiclides podalirius",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "Red Tubeworm",
+            "latin": "Serpula vermicularis",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Black Pine Sawyer Beetle",
+            "latin": "Monochamus galloprovincialis",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Transcaucasian Giant Mantis",
+            "latin": "Hierodula transcaucasica",
+            "obs": 4,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Fish",
+        "key": "fish",
+        "count": 6,
+        "top": [
+          {
+            "common": "Longstriped Blenny",
+            "latin": "Parablennius rouxi",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "Black Scorpionfish",
+            "latin": "Scorpaena porcus",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "Striped Red Mullet",
+            "latin": "Mullus surmuletus",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Greater Weever",
+            "latin": "Trachinus draco",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Saddled Seabream",
+            "latin": "Oblada melanurus",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Tompot Blenny",
+            "latin": "Parablennius gattorugine",
+            "obs": 4,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 4,
+        "top": [
+          {
+            "common": "Aleppo pine",
+            "latin": "Pinus halepensis",
+            "obs": 6,
+            "iucn": null
+          },
+          {
+            "common": "mastic",
+            "latin": "Pistacia lentiscus",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "purple salsify",
+            "latin": "Tragopogon porrifolius",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "viper's-bugloss",
+            "latin": "Echium vulgare",
+            "obs": 4,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 2,
+        "top": [
+          {
+            "common": "European Turtle-Dove",
+            "latin": "Streptopelia turtur",
+            "obs": 8,
+            "iucn": null
+          },
+          {
+            "common": "Common Chaffinch",
+            "latin": "Fringilla coelebs",
+            "obs": 4,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 1,
+        "top": [
+          {
+            "common": "Dalmatian Wall Lizard",
+            "latin": "Podarcis melisellensis",
+            "obs": 5,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -135,5 +426,25 @@
       "character": "Calm — gentle swimming water most of the year"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 80% of beaches in its country",
+      "detail": "Peak-month high ≈ 28°C"
+    }
+  ],
+  "wikidata_id": "Q1262826",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Zlatni_Rat",
+  "wikipedia_page_views_annual": 31510,
+  "notability_score": 39.1,
+  "data_completeness_pct": 75.0,
+  "best_months": [
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep"
+  ],
+  "swim_suitability": "fair"
 }

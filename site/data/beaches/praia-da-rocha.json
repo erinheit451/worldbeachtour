@@ -1,54 +1,21 @@
 {
   "slug": "praia-da-rocha",
   "name": "Praia da Rocha",
-  "centroid_lat": 37.1156474,
-  "centroid_lng": -8.536273,
   "country_code": "PT",
   "admin_level_1": "Faro",
-  "admin_level_2": null,
+  "centroid_lat": 37.1156474,
+  "centroid_lng": -8.536273,
   "water_body_type": "ocean",
   "substrate_type": "sand",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/98687797",
-      "source_url": "https://www.openstreetmap.org/way/98687797"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q1752037",
-      "source_url": "https://www.wikidata.org/wiki/Q1752037"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "PTCH9Q",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "PTCH9Q",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Praia%20da%20Rocha%20-%20Portugal%20%2811747902275%29.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_da_Rocha"
-    },
-    "environment": {
-      "water_quality_rating": "1 - excellent",
-      "eu_bathing_water_type": "Coastal"
-    },
-    "safety": {
-      "cyclone_count_50yr": "2",
-      "cyclone_max_category": "4"
-    }
+  "slope_pct": 0.8860783576965332,
+  "nearshore_depth_m": 24.7324275970459,
+  "classification": {
+    "primary_type": "Sand",
+    "primary_type_slug": "sand",
+    "coastal_type": "Sand",
+    "coastal_type_slug": "sand",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Portimao",
   "nearest_city_distance_km": 2.6,
@@ -57,25 +24,356 @@
     "name": "Portimão Airport",
     "distance_km": 5.6
   },
-  "safety": {
-    "water_quality_rating": "1 - excellent",
-    "lifeguard": true,
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      15.6727,
+      16.2273,
+      17.9636,
+      19.0091,
+      21.1545,
+      24.1909,
+      26.6818,
+      26.6909,
+      25.0455,
+      21.8727,
+      18.8545,
+      16.6364
+    ],
+    "air_temp_low": [
+      8.4,
+      8.9909,
+      10.0182,
+      11.0818,
+      13.1182,
+      15.6909,
+      17.2636,
+      17.5636,
+      16.8,
+      14.5,
+      11.7455,
+      9.9273
+    ],
+    "rain_mm": [
+      73.0,
+      61.0,
+      44.0,
+      42.0,
+      24.0,
+      10.0,
+      1.0,
+      3.0,
+      16.0,
+      54.0,
+      80.0,
+      94.0
+    ],
+    "wind_speed": [
+      3.4182,
+      3.8273,
+      3.9455,
+      3.9636,
+      4.0,
+      3.9636,
+      4.1091,
+      3.8727,
+      3.3273,
+      3.4818,
+      3.4909,
+      3.6455
+    ],
+    "sun_hours": [
+      8793.0,
+      11642.0,
+      16026.0,
+      20735.0,
+      24801.0,
+      26326.0,
+      27299.0,
+      24519.0,
+      19116.0,
+      13845.0,
+      9606.0,
+      7724.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "facilities": {
-    "restrooms": true
+  "tides": {
+    "range_spring_m": 2.719887214507027,
+    "range_neap_m": 1.2681591785729986,
+    "type": "semidiurnal",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_da_Rocha",
-  "notability_score": 34.9,
-  "data_completeness_pct": 29.2,
   "sand": {
     "predicted": {
       "q_pct": 84.5,
       "f_pct": 9.9,
       "l_pct": 5.6,
       "regime": "quartz-dominant",
+      "regime_plain": "Quartz-dominant",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 3,
+    "paragraph": "3 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1952–2015).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Praia_da_Rocha_-_Portugal_%2811356152435%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Praia_da_Rocha_-_Portugal_%2811356152435%29.jpg/1280px-Praia_da_Rocha_-_Portugal_%2811356152435%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/21446942@N00\">Vitor Oliveira</a> from Torres Vedras, PORTUGAL",
+      "title": "Praia da Rocha - Portugal (11356152435).jpg",
+      "width": 5184,
+      "height": 3888
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Ajuntamento_%286945121999%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Ajuntamento_%286945121999%29.jpg/1280px-Ajuntamento_%286945121999%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/31212180@N08\">Aires Almeida</a> from Portimão, Portugal",
+      "title": "Ajuntamento (6945121999).jpg",
+      "width": 4928,
+      "height": 3264
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Praia_da_rocha_portim%C3%A3o.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Praia_da_rocha_portim%C3%A3o.jpg/1280px-Praia_da_rocha_portim%C3%A3o.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:CesareBonaparte\" title=\"User:CesareBonaparte\">CesareBonaparte</a>",
+      "title": "Praia da rocha portimão.jpg",
+      "width": 4076,
+      "height": 2767
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Praia_da_Rocha-Portimao_%28Portugal%29_%2833471441366%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Praia_da_Rocha-Portimao_%28Portugal%29_%2833471441366%29.jpg/1280px-Praia_da_Rocha-Portimao_%28Portugal%29_%2833471441366%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/91124353@N05\">Jose A.</a>",
+      "title": "Praia da Rocha-Portimao (Portugal) (33471441366).jpg",
+      "width": 4000,
+      "height": 3008
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Praia_da_Rocha_2022_01.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Praia_da_Rocha_2022_01.jpg/1280px-Praia_da_Rocha_2022_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Joseolgon\" title=\"User:Joseolgon\">Joseolgon</a>",
+      "title": "Praia da Rocha 2022 01.jpg",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Praia_da_Rocha_2022_02.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Praia_da_Rocha_2022_02.jpg/1280px-Praia_da_Rocha_2022_02.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Joseolgon\" title=\"User:Joseolgon\">Joseolgon</a>",
+      "title": "Praia da Rocha 2022 02.jpg",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Praia_da_Rocha-Portimao_%28Portugal%29_%2832697801433%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Praia_da_Rocha-Portimao_%28Portugal%29_%2832697801433%29.jpg/1280px-Praia_da_Rocha-Portimao_%28Portugal%29_%2832697801433%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/91124353@N05\">Jose A.</a>",
+      "title": "Praia da Rocha-Portimao (Portugal) (32697801433).jpg",
+      "width": 4000,
+      "height": 3008
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Praia_da_Rocha-Portimao_%28Portugal%29_%2833384142101%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Praia_da_Rocha-Portimao_%28Portugal%29_%2833384142101%29.jpg/1280px-Praia_da_Rocha-Portimao_%28Portugal%29_%2833384142101%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/91124353@N05\">Jose A.</a>",
+      "title": "Praia da Rocha-Portimao (Portugal) (33384142101).jpg",
+      "width": 4000,
+      "height": 3008
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 24.7324275970459,
+    "lifeguard": true
+  },
+  "conservation": {
+    "name": "Costa Sudoeste",
+    "type": "Site of community importance (habitats directive)",
+    "iucn": "Not Reported",
+    "unesco": false
+  },
+  "facilities": {
+    "restrooms": true,
+    "food_nearby": true
+  },
+  "water_quality": {
+    "rating": "1 - excellent",
+    "source": "eu_bathing",
+    "year": null
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 6,
+        "top": [
+          {
+            "common": "sweet alyssum",
+            "latin": "Lobularia maritima",
+            "obs": 18,
+            "iucn": null
+          },
+          {
+            "common": "mastic",
+            "latin": "Pistacia lentiscus",
+            "obs": 13,
+            "iucn": null
+          },
+          {
+            "common": "Garland Daisy",
+            "latin": "Glebionis coronaria",
+            "obs": 12,
+            "iucn": null
+          },
+          {
+            "common": "rock samphire",
+            "latin": "Crithmum maritimum",
+            "obs": 12,
+            "iucn": null
+          },
+          {
+            "common": "Bermuda buttercup",
+            "latin": "Oxalis pes-caprae",
+            "obs": 11,
+            "iucn": null
+          },
+          {
+            "common": "purple viper's-bugloss",
+            "latin": "Echium plantagineum",
+            "obs": 11,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 5,
+        "top": [
+          {
+            "common": "Yellow-legged Gull",
+            "latin": "Larus michahellis",
+            "obs": 49,
+            "iucn": null
+          },
+          {
+            "common": "White Stork",
+            "latin": "Ciconia ciconia",
+            "obs": 36,
+            "iucn": null
+          },
+          {
+            "common": "Ruddy Turnstone",
+            "latin": "Arenaria interpres",
+            "obs": 14,
+            "iucn": null
+          },
+          {
+            "common": "Eurasian Kestrel",
+            "latin": "Falco tinnunculus",
+            "obs": 13,
+            "iucn": null
+          },
+          {
+            "common": "Iberian Magpie",
+            "latin": "Cyanopica cooki",
+            "obs": 12,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 5,
+        "top": [
+          {
+            "common": "Marbled Crab",
+            "latin": "Pachygrapsus marmoratus",
+            "obs": 28,
+            "iucn": null
+          },
+          {
+            "common": "European Green Crab",
+            "latin": "Carcinus maenas",
+            "obs": 12,
+            "iucn": null
+          },
+          {
+            "common": "Milk Snail",
+            "latin": "Otala lactea",
+            "obs": 12,
+            "iucn": null
+          },
+          {
+            "common": "Rhizostoma luteum",
+            "latin": "Rhizostoma luteum",
+            "obs": 12,
+            "iucn": null
+          },
+          {
+            "common": "Atlantic Blue Crab",
+            "latin": "Callinectes sapidus",
+            "obs": 11,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Fish",
+        "key": "fish",
+        "count": 3,
+        "top": [
+          {
+            "common": "Atlantic rainbow wrasse",
+            "latin": "Coris melanura",
+            "obs": 20,
+            "iucn": null
+          },
+          {
+            "common": "Common Two-banded Seabream",
+            "latin": "Diplodus vulgaris",
+            "obs": 16,
+            "iucn": null
+          },
+          {
+            "common": "Goldsinny Wrasse",
+            "latin": "Ctenolabrus rupestris",
+            "obs": 12,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 1,
+        "top": [
+          {
+            "common": "Moorish Gecko",
+            "latin": "Tarentola mauritanica",
+            "obs": 12,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -131,5 +429,27 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Warmer than 69% of beaches in its country",
+      "detail": "Peak-month high ≈ 27°C"
+    }
+  ],
+  "wikidata_id": "Q1752037",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Praia_da_Rocha",
+  "wikipedia_page_views_annual": 27023,
+  "notability_score": 34.9,
+  "data_completeness_pct": 70.8,
+  "best_months": [
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct"
+  ],
+  "swim_suitability": "fair"
 }

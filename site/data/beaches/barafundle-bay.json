@@ -1,40 +1,21 @@
 {
   "slug": "barafundle-bay",
   "name": "Barafundle Bay",
-  "centroid_lat": 51.6184883,
-  "centroid_lng": -4.9028374,
   "country_code": "GB",
   "admin_level_1": "Wales",
-  "admin_level_2": null,
+  "centroid_lat": 51.6184883,
+  "centroid_lng": -4.9028374,
   "water_body_type": "ocean",
   "substrate_type": "sand",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "relation/3430105",
-      "source_url": "https://www.openstreetmap.org/relation/3430105"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q4858166",
-      "source_url": "https://www.wikidata.org/wiki/Q4858166"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/BarafundleBeach%20StackpoleEstate%20WalesUK.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Barafundle_Bay"
-    },
-    "safety": {
-      "cyclone_count_50yr": "3",
-      "cyclone_max_category": "4"
-    }
+  "slope_pct": 2.1865594387054443,
+  "nearshore_depth_m": 10.721537590026855,
+  "classification": {
+    "primary_type": "Sand",
+    "primary_type_slug": "sand",
+    "coastal_type": "Sand",
+    "coastal_type_slug": "sand",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Pembroke",
   "nearest_city_distance_km": 6.3,
@@ -43,20 +24,321 @@
     "name": "Haverfordwest Airport",
     "distance_km": 24.2
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      8.6,
+      8.2,
+      9.65,
+      11.7,
+      14.6,
+      16.85,
+      18.9,
+      19.05,
+      17.1,
+      14.25,
+      11.4,
+      9.5
+    ],
+    "air_temp_low": [
+      4.35,
+      3.875,
+      4.7,
+      5.5,
+      8.025,
+      10.55,
+      12.8,
+      12.975,
+      11.6,
+      9.475,
+      6.9,
+      5.425
+    ],
+    "rain_mm": [
+      95.0,
+      70.0,
+      71.0,
+      54.0,
+      50.0,
+      60.0,
+      54.0,
+      76.0,
+      78.0,
+      100.0,
+      109.0,
+      100.0
+    ],
+    "wind_speed": [
+      7.35,
+      7.0,
+      6.65,
+      5.7,
+      5.4,
+      5.0,
+      4.95,
+      5.05,
+      5.75,
+      6.6,
+      6.875,
+      7.225
+    ],
+    "sun_hours": [
+      2651.0,
+      4926.0,
+      8730.0,
+      14276.0,
+      18372.0,
+      19630.0,
+      18105.0,
+      15446.0,
+      11078.0,
+      6214.0,
+      3270.0,
+      2038.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Barafundle_Bay",
-  "notability_score": 28.8,
-  "data_completeness_pct": 16.7,
+  "tides": {
+    "range_spring_m": 6.791630862901053,
+    "range_neap_m": 3.188173603142843,
+    "type": "semidiurnal",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 33.1,
       "f_pct": 8.0,
       "l_pct": 58.9,
       "regime": "lithic-rich (volcanic/collisional terrane)",
+      "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 7,
+    "paragraph": "7 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1883–2020).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Rock_islet%2C_north_side_of_Barafundle_Bay_-_geograph.org.uk_-_7826310.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Rock_islet%2C_north_side_of_Barafundle_Bay_-_geograph.org.uk_-_7826310.jpg/1280px-Rock_islet%2C_north_side_of_Barafundle_Bay_-_geograph.org.uk_-_7826310.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/121191\">M J Roscoe</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Rock_islet,_north_side_of_Barafundle_Bay_-_geograph.org.uk_-_7826310.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png\" decoding=\"async\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+      "title": "Rock islet, north side of Barafundle Bay - geograph.org.uk - 7826310.jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Barafundle_bay.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Barafundle_bay.jpg/1280px-Barafundle_bay.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a href=\"https://en.wikipedia.org/wiki/User:Lofty\" class=\"extiw\" title=\"en:User:Lofty\">Lofty</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Lofty\" class=\"extiw\" title=\"en:User talk:Lofty\">talk</a>)",
+      "title": "Barafundle bay.jpg",
+      "width": 5040,
+      "height": 1352
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Barafundle_Bay_-_geograph.org.uk_-_5295280.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Barafundle_Bay_-_geograph.org.uk_-_5295280.jpg/1280px-Barafundle_Bay_-_geograph.org.uk_-_5295280.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/124609\">Mel hartshorn</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Barafundle_Bay_-_geograph.org.uk_-_5295280.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png\" decoding=\"async\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+      "title": "Barafundle Bay - geograph.org.uk - 5295280.jpg",
+      "width": 4928,
+      "height": 3264
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Barafundle_Bay_-_geograph.org.uk_-_5295285.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Barafundle_Bay_-_geograph.org.uk_-_5295285.jpg/1280px-Barafundle_Bay_-_geograph.org.uk_-_5295285.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/124609\">Mel hartshorn</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Barafundle_Bay_-_geograph.org.uk_-_5295285.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png\" decoding=\"async\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+      "title": "Barafundle Bay - geograph.org.uk - 5295285.jpg",
+      "width": 4752,
+      "height": 2976
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Barafundle_Bay_-_geograph.org.uk_-_3204062.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Barafundle_Bay_-_geograph.org.uk_-_3204062.jpg/1280px-Barafundle_Bay_-_geograph.org.uk_-_3204062.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/4820\">Gordon Hatton</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Barafundle_Bay_-_geograph.org.uk_-_3204062.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png\" decoding=\"async\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+      "title": "Barafundle Bay - geograph.org.uk - 3204062.jpg",
+      "width": 4320,
+      "height": 3240
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Barafundle_Bay_-_geograph.org.uk_-_3204066.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Barafundle_Bay_-_geograph.org.uk_-_3204066.jpg/1280px-Barafundle_Bay_-_geograph.org.uk_-_3204066.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/4820\">Gordon Hatton</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Barafundle_Bay_-_geograph.org.uk_-_3204066.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png\" decoding=\"async\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+      "title": "Barafundle Bay - geograph.org.uk - 3204066.jpg",
+      "width": 4320,
+      "height": 2160
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Barafundle_Bay.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Barafundle_Bay.jpg/1280px-Barafundle_Bay.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Green0w&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Green0w (page does not exist)\">Green0w</a>",
+      "title": "Barafundle Bay.jpg",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Catamaran_at_Barafundle_Bay_-_geograph.org.uk_-_2594147.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Catamaran_at_Barafundle_Bay_-_geograph.org.uk_-_2594147.jpg/1280px-Catamaran_at_Barafundle_Bay_-_geograph.org.uk_-_2594147.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/28981\">John Finch</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Catamaran_at_Barafundle_Bay_-_geograph.org.uk_-_2594147.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png\" decoding=\"async\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+      "title": "Catamaran at Barafundle Bay - geograph.org.uk - 2594147.jpg",
+      "width": 4032,
+      "height": 3024
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 10.721537590026855
+  },
+  "conservation": {
+    "name": "Pembrokeshire Coast",
+    "type": "National park",
+    "iucn": "V",
+    "unesco": false
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 11,
+        "top": [
+          {
+            "common": "viper's-bugloss",
+            "latin": "Echium vulgare",
+            "obs": 51,
+            "iucn": null
+          },
+          {
+            "common": "pyramidal orchid",
+            "latin": "Anacamptis pyramidalis",
+            "obs": 35,
+            "iucn": null
+          },
+          {
+            "common": "Hart's-tongue fern",
+            "latin": "Asplenium scolopendrium",
+            "obs": 25,
+            "iucn": null
+          },
+          {
+            "common": "rock samphire",
+            "latin": "Crithmum maritimum",
+            "obs": 18,
+            "iucn": null
+          },
+          {
+            "common": "Sea Thrift",
+            "latin": "Armeria maritima",
+            "obs": 17,
+            "iucn": null
+          },
+          {
+            "common": "Spring Squill",
+            "latin": "Scilla verna",
+            "obs": 16,
+            "iucn": null
+          },
+          {
+            "common": "Old man's beard",
+            "latin": "Clematis vitalba",
+            "obs": 15,
+            "iucn": null
+          },
+          {
+            "common": "ivy broomrape",
+            "latin": "Orobanche hederae",
+            "obs": 14,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 5,
+        "top": [
+          {
+            "common": "Small-spotted Catshark",
+            "latin": "Scyliorhinus canicula",
+            "obs": 34,
+            "iucn": null
+          },
+          {
+            "common": "Spiny Spider Crab",
+            "latin": "Maja brachydactyla",
+            "obs": 16,
+            "iucn": null
+          },
+          {
+            "common": "Dustbin-lid Jelly",
+            "latin": "Rhizostoma octopus",
+            "obs": 15,
+            "iucn": null
+          },
+          {
+            "common": "Common Blue",
+            "latin": "Polyommatus icarus",
+            "obs": 13,
+            "iucn": null
+          },
+          {
+            "common": "Cinnabar moth",
+            "latin": "Tyria jacobaeae",
+            "obs": 11,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 3,
+        "top": [
+          {
+            "common": "Common Chaffinch",
+            "latin": "Fringilla coelebs",
+            "obs": 18,
+            "iucn": null
+          },
+          {
+            "common": "Red-billed Chough",
+            "latin": "Pyrrhocorax pyrrhocorax",
+            "obs": 15,
+            "iucn": null
+          },
+          {
+            "common": "European Robin",
+            "latin": "Erithacus rubecula",
+            "obs": 12,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Fish",
+        "key": "fish",
+        "count": 1,
+        "top": [
+          {
+            "common": "Atlantic Pollock",
+            "latin": "Pollachius pollachius",
+            "obs": 12,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -112,5 +394,24 @@
       "character": "Exposed — real surf, and rip current to respect"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Warmer than 62% of beaches in its country",
+      "detail": "Peak-month high ≈ 19°C"
+    }
+  ],
+  "wikidata_id": "Q4858166",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Barafundle_Bay",
+  "wikipedia_page_views_annual": 21745,
+  "notability_score": 28.8,
+  "data_completeness_pct": 62.5,
+  "best_months": [
+    "jun",
+    "jul",
+    "aug",
+    "sep"
+  ],
+  "swim_suitability": "fair"
 }

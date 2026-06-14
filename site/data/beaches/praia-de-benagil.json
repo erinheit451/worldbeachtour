@@ -1,54 +1,21 @@
 {
   "slug": "praia-de-benagil",
   "name": "Praia de Benagil",
-  "centroid_lat": 37.0873509,
-  "centroid_lng": -8.4258637,
   "country_code": "PT",
   "admin_level_1": "Faro",
-  "admin_level_2": null,
+  "centroid_lat": 37.0873509,
+  "centroid_lng": -8.4258637,
   "water_body_type": "ocean",
   "substrate_type": "sand",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/465776072",
-      "source_url": "https://www.openstreetmap.org/way/465776072"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q2895643",
-      "source_url": "https://www.wikidata.org/wiki/Q2895643"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "PTCW3J",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "PTCW3J",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/02-05-2017%20Praia%20de%20Benagil%20%282%29.JPG",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Benagil"
-    },
-    "environment": {
-      "water_quality_rating": "2 - good",
-      "eu_bathing_water_type": "Coastal"
-    },
-    "safety": {
-      "cyclone_count_50yr": "2",
-      "cyclone_max_category": "4"
-    }
+  "slope_pct": 2.6027820587158206,
+  "nearshore_depth_m": 11.811531066894531,
+  "classification": {
+    "primary_type": "Sand",
+    "primary_type_slug": "sand",
+    "coastal_type": "Sand",
+    "coastal_type_slug": "sand",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Carvoeiro",
   "nearest_city_distance_km": 2.5,
@@ -57,21 +24,277 @@
     "name": "Portimão Airport",
     "distance_km": 15.6
   },
-  "safety": {
-    "water_quality_rating": "2 - good",
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      15.5958,
+      16.3,
+      18.275,
+      19.4625,
+      21.8375,
+      25.1167,
+      27.9208,
+      27.8458,
+      25.9167,
+      22.2542,
+      18.9625,
+      16.5125
+    ],
+    "air_temp_low": [
+      7.8167,
+      8.4292,
+      9.5417,
+      10.6125,
+      12.7292,
+      15.4792,
+      17.2625,
+      17.5,
+      16.4875,
+      14.075,
+      11.2208,
+      9.425
+    ],
+    "rain_mm": [
+      74.0,
+      61.0,
+      45.0,
+      43.0,
+      25.0,
+      11.0,
+      1.0,
+      3.0,
+      17.0,
+      55.0,
+      81.0,
+      98.0
+    ],
+    "wind_speed": [
+      3.4,
+      3.8917,
+      3.9583,
+      4.0,
+      4.0,
+      3.9917,
+      4.1,
+      3.85,
+      3.3333,
+      3.4125,
+      3.5042,
+      3.7208
+    ],
+    "sun_hours": [
+      8852.0,
+      11749.0,
+      16038.0,
+      20780.0,
+      24816.0,
+      26366.0,
+      27337.0,
+      24463.0,
+      19164.0,
+      13952.0,
+      9631.0,
+      7802.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Benagil",
-  "notability_score": 35.5,
-  "data_completeness_pct": 25.0,
+  "tides": {
+    "range_spring_m": 2.7221452747877293,
+    "range_neap_m": 1.2686851634972376,
+    "type": "semidiurnal",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 53.4,
       "f_pct": 3.1,
       "l_pct": 43.5,
       "regime": "lithic-rich (volcanic/collisional terrane)",
+      "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 3,
+    "paragraph": "3 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1952–2015).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Grotto_pano_at_Algar_de_Benagil.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Grotto_pano_at_Algar_de_Benagil.jpg/1280px-Grotto_pano_at_Algar_de_Benagil.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Dicklyon\" class=\"mw-redirect\" title=\"User:Dicklyon\">Dicklyon</a>",
+      "title": "Grotto pano at Algar de Benagil.jpg",
+      "width": 9188,
+      "height": 1598
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Praia_de_Benagil_%281%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Praia_de_Benagil_%281%29.jpg/1280px-Praia_de_Benagil_%281%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Joseolgon\" title=\"User:Joseolgon\">Joseolgon</a>",
+      "title": "Praia de Benagil (1).jpg",
+      "width": 5472,
+      "height": 3648
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Praia_de_Benagil_%282%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Praia_de_Benagil_%282%29.jpg/1280px-Praia_de_Benagil_%282%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Joseolgon\" title=\"User:Joseolgon\">Joseolgon</a>",
+      "title": "Praia de Benagil (2).jpg",
+      "width": 5472,
+      "height": 3648
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Praia_de_Benagil_%283%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Praia_de_Benagil_%283%29.jpg/1280px-Praia_de_Benagil_%283%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Joseolgon\" title=\"User:Joseolgon\">Joseolgon</a>",
+      "title": "Praia de Benagil (3).jpg",
+      "width": 5472,
+      "height": 3648
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Praia_de_Benagil_%284%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Praia_de_Benagil_%284%29.jpg/1280px-Praia_de_Benagil_%284%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Joseolgon\" title=\"User:Joseolgon\">Joseolgon</a>",
+      "title": "Praia de Benagil (4).jpg",
+      "width": 5472,
+      "height": 3648
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Ausblick_auf_den_Atlantik_%2829401571595%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Ausblick_auf_den_Atlantik_%2829401571595%29.jpg/1280px-Ausblick_auf_den_Atlantik_%2829401571595%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/27280854@N03\">David Schiersner</a> from Pegnitz / Bayern, Deutschland",
+      "title": "Ausblick auf den Atlantik (29401571595).jpg",
+      "width": 5083,
+      "height": 3389
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Felslandschaft_%2829401602985%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Felslandschaft_%2829401602985%29.jpg/1280px-Felslandschaft_%2829401602985%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/27280854@N03\">David Schiersner</a> from Pegnitz / Bayern, Deutschland",
+      "title": "Felslandschaft (29401602985).jpg",
+      "width": 5001,
+      "height": 3334
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/02-05-2017_Praia_de_Benagil_%282%29.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/02-05-2017_Praia_de_Benagil_%282%29.JPG/1280px-02-05-2017_Praia_de_Benagil_%282%29.JPG",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<table style=\"margin: 1.5em auto; width:60%; background-color:#CCCCCC; border:2px solid #aaaaaa; padding:1px;\" cellspacing=\"10\">\n\n<tbody><tr>\n<td align=\"center\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Flag-globe-2.gif\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Flag-globe-2.gif/120px-Flag-globe-2.gif\" decoding=\"async\" width=\"80\" height=\"79\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Flag-globe-2.gif/250px-Flag-globe-2.gif 2x\" data-file-width=\"257\" data-file-height=\"254\"></a></span>\n<p><b>Kolforn</b> <small>(<a href=\"//commons.wikimedia.org/wiki/User:Kolforn\" title=\"User:Kolforn\">Kolforn</a>)</small><br>\n<i>I'd appreciate if you could mail me <b>(Kolforn@gmail.com)</b> if you want to use this picture out of the Wikimedia project scope.</i>\n</p>\n</td></tr></tbody></table>\n<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png\" decoding=\"async\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png\" decoding=\"async\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"share alike\"><img alt=\"share alike\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/40px-Cc-sa_white.svg.png\" decoding=\"async\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/60px-Cc-sa_white.svg.png 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by-sa/4.0/deed.en\" class=\"extiw\" title=\"creativecommons:by-sa/4.0/deed.en\">Attribution-Share Alike 4.0 International</a> license.</div><div class=\"rlicense-desc\" style=\"text-align:start;\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>\n<li><b>share alike</b> – If you remix, transform, or build upon the material, you must distribute your contributions under the <a href=\"https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses\" class=\"extiw\" title=\"ccorg:share-your-work/licensing-considerations/compatible-licenses\">same or compatible license</a> as the original.</li></ul></dd></dl></div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by-sa/4.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY-SA 4.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution-Share Alike 4.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>",
+      "title": "02-05-2017 Praia de Benagil (2).JPG",
+      "width": 4608,
+      "height": 3456
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 11.811531066894531
+  },
+  "water_quality": {
+    "rating": "2 - good",
+    "source": "eu_bathing",
+    "year": null
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 17,
+        "top": [
+          {
+            "common": "mastic",
+            "latin": "Pistacia lentiscus",
+            "obs": 61,
+            "iucn": null
+          },
+          {
+            "common": "Mediterranean juniper",
+            "latin": "Juniperus turbinata",
+            "obs": 56,
+            "iucn": null
+          },
+          {
+            "common": "Mediterranean fan palm",
+            "latin": "Chamaerops humilis",
+            "obs": 47,
+            "iucn": null
+          },
+          {
+            "common": "Grey-leaved Cistus",
+            "latin": "Cistus albidus",
+            "obs": 46,
+            "iucn": null
+          },
+          {
+            "common": "Barbary-nut",
+            "latin": "Moraea sisyrinchium",
+            "obs": 43,
+            "iucn": null
+          },
+          {
+            "common": "gold coin",
+            "latin": "Pallenis maritima",
+            "obs": 35,
+            "iucn": null
+          },
+          {
+            "common": "rock samphire",
+            "latin": "Crithmum maritimum",
+            "obs": 32,
+            "iucn": null
+          },
+          {
+            "common": "Rough Bindweed",
+            "latin": "Smilax aspera",
+            "obs": 29,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 2,
+        "top": [
+          {
+            "common": "Yellow-legged Gull",
+            "latin": "Larus michahellis",
+            "obs": 65,
+            "iucn": null
+          },
+          {
+            "common": "Rock Pigeon",
+            "latin": "Columba livia",
+            "obs": 20,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 1,
+        "top": [
+          {
+            "common": "Marsh Fritillary",
+            "latin": "Euphydryas aurinia",
+            "obs": 24,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -127,5 +350,27 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Warmer than 82% of beaches in its country",
+      "detail": "Peak-month high ≈ 28°C"
+    }
+  ],
+  "wikidata_id": "Q2895643",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Benagil",
+  "wikipedia_page_views_annual": 30666,
+  "notability_score": 35.5,
+  "data_completeness_pct": 62.5,
+  "best_months": [
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct"
+  ],
+  "swim_suitability": "fair"
 }
