@@ -52,5 +52,60 @@
       "regime": "lithic-rich (volcanic/collisional terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "waves": {
+    "height_mean_m": [
+      0.92,
+      0.74,
+      0.71,
+      0.8,
+      0.71,
+      0.66,
+      0.57,
+      0.59,
+      0.67,
+      0.61,
+      0.92,
+      1.04
+    ],
+    "height_big_m": [
+      1.46,
+      1.3,
+      1.12,
+      1.46,
+      1.24,
+      1.42,
+      0.84,
+      0.92,
+      1.22,
+      1.04,
+      1.58,
+      1.92
+    ],
+    "period_mean_s": [
+      4.37,
+      4.0,
+      4.07,
+      4.31,
+      4.33,
+      3.99,
+      3.59,
+      3.72,
+      4.09,
+      3.89,
+      4.36,
+      4.53
+    ],
+    "summary": {
+      "annual_mean_m": 0.74,
+      "biggest_month": "Dec",
+      "biggest_month_m": 1.04,
+      "calmest_month": "Jul",
+      "calmest_month_m": 0.57,
+      "peak_big_day_m": 1.92,
+      "typical_period_s": 4.1,
+      "character": "Mixed — usually swimmable, with a livelier season"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

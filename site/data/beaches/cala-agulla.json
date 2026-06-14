@@ -67,5 +67,60 @@
       "regime": "mixed Q-F-L",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "waves": {
+    "height_mean_m": [
+      0.96,
+      1.03,
+      0.81,
+      0.75,
+      0.62,
+      0.6,
+      0.59,
+      0.57,
+      0.73,
+      0.81,
+      0.95,
+      0.78
+    ],
+    "height_big_m": [
+      1.64,
+      2.14,
+      1.52,
+      1.32,
+      1.04,
+      1.0,
+      0.86,
+      0.96,
+      1.16,
+      1.5,
+      2.06,
+      1.32
+    ],
+    "period_mean_s": [
+      6.42,
+      6.51,
+      5.84,
+      5.87,
+      5.9,
+      5.74,
+      5.09,
+      5.26,
+      5.84,
+      5.7,
+      6.22,
+      6.36
+    ],
+    "summary": {
+      "annual_mean_m": 0.77,
+      "biggest_month": "Feb",
+      "biggest_month_m": 1.03,
+      "calmest_month": "Aug",
+      "calmest_month_m": 0.57,
+      "peak_big_day_m": 2.14,
+      "typical_period_s": 5.9,
+      "character": "Mixed — usually swimmable, with a livelier season"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

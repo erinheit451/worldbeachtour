@@ -53,5 +53,60 @@
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     },
     "description": "It consists of a four-mile-long (6 km) sandy beachfront, dunes, and a maritime pitch pine forest."
+  },
+  "waves": {
+    "height_mean_m": [
+      1.03,
+      0.95,
+      1.1,
+      0.86,
+      0.72,
+      0.53,
+      0.52,
+      0.51,
+      0.86,
+      0.77,
+      0.8,
+      0.87
+    ],
+    "height_big_m": [
+      1.94,
+      1.42,
+      2.08,
+      1.46,
+      1.04,
+      0.82,
+      0.72,
+      0.78,
+      1.58,
+      1.2,
+      1.32,
+      1.52
+    ],
+    "period_mean_s": [
+      8.88,
+      8.79,
+      9.05,
+      8.39,
+      7.64,
+      6.99,
+      7.64,
+      8.57,
+      9.44,
+      9.23,
+      8.69,
+      8.92
+    ],
+    "summary": {
+      "annual_mean_m": 0.79,
+      "biggest_month": "Mar",
+      "biggest_month_m": 1.1,
+      "calmest_month": "Aug",
+      "calmest_month_m": 0.51,
+      "peak_big_day_m": 2.08,
+      "typical_period_s": 8.5,
+      "character": "Mixed — usually swimmable, with a livelier season"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

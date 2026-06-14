@@ -57,5 +57,60 @@
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     },
     "description": "On the Northern end, near a stairway, there is a naturally formed, large sandstone cave."
+  },
+  "waves": {
+    "height_mean_m": [
+      1.3,
+      1.42,
+      1.31,
+      1.53,
+      1.54,
+      1.23,
+      1.34,
+      1.06,
+      1.26,
+      1.44,
+      1.25,
+      1.21
+    ],
+    "height_big_m": [
+      1.92,
+      2.08,
+      1.72,
+      2.2,
+      2.3,
+      2.3,
+      2.12,
+      1.48,
+      1.96,
+      1.86,
+      1.58,
+      1.58
+    ],
+    "period_mean_s": [
+      8.46,
+      9.16,
+      9.46,
+      9.89,
+      10.1,
+      9.59,
+      10.08,
+      9.65,
+      9.59,
+      9.34,
+      8.34,
+      8.25
+    ],
+    "summary": {
+      "annual_mean_m": 1.32,
+      "biggest_month": "May",
+      "biggest_month_m": 1.54,
+      "calmest_month": "Aug",
+      "calmest_month_m": 1.06,
+      "peak_big_day_m": 2.3,
+      "typical_period_s": 9.3,
+      "character": "Exposed — real surf, and rip current to respect"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

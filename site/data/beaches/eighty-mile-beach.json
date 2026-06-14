@@ -53,5 +53,60 @@
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     },
     "description": "It consists of sand with a high proportion of shelly material, and experiences a very large tidal range with an amplitude of up to 9 m."
+  },
+  "waves": {
+    "height_mean_m": [
+      0.98,
+      0.91,
+      0.7,
+      0.67,
+      0.43,
+      0.39,
+      0.44,
+      0.42,
+      0.54,
+      0.61,
+      0.72,
+      0.84
+    ],
+    "height_big_m": [
+      1.56,
+      1.28,
+      1.32,
+      1.0,
+      0.58,
+      0.62,
+      0.64,
+      0.56,
+      0.76,
+      0.88,
+      1.14,
+      1.18
+    ],
+    "period_mean_s": [
+      6.07,
+      6.45,
+      6.25,
+      6.24,
+      6.43,
+      8.03,
+      7.9,
+      8.64,
+      6.46,
+      6.59,
+      5.63,
+      6.49
+    ],
+    "summary": {
+      "annual_mean_m": 0.64,
+      "biggest_month": "Jan",
+      "biggest_month_m": 0.98,
+      "calmest_month": "Jun",
+      "calmest_month_m": 0.39,
+      "peak_big_day_m": 1.56,
+      "typical_period_s": 6.8,
+      "character": "Mixed — usually swimmable, with a livelier season"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

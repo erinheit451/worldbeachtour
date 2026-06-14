@@ -61,5 +61,60 @@
     },
     "color": "white",
     "description": "The beach is composed of small white pebbles and sand."
+  },
+  "waves": {
+    "height_mean_m": [
+      0.9,
+      0.78,
+      0.82,
+      0.75,
+      0.67,
+      0.49,
+      0.49,
+      0.4,
+      0.69,
+      0.71,
+      0.9,
+      1.0
+    ],
+    "height_big_m": [
+      1.64,
+      1.58,
+      1.64,
+      1.24,
+      1.3,
+      0.78,
+      0.98,
+      0.72,
+      1.38,
+      1.32,
+      2.12,
+      2.32
+    ],
+    "period_mean_s": [
+      4.89,
+      5.01,
+      5.13,
+      5.16,
+      5.35,
+      4.93,
+      4.25,
+      3.92,
+      4.8,
+      4.93,
+      5.18,
+      5.35
+    ],
+    "summary": {
+      "annual_mean_m": 0.72,
+      "biggest_month": "Dec",
+      "biggest_month_m": 1.0,
+      "calmest_month": "Aug",
+      "calmest_month_m": 0.4,
+      "peak_big_day_m": 2.32,
+      "typical_period_s": 4.9,
+      "character": "Mixed — usually swimmable, with a livelier season"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

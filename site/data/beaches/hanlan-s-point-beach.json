@@ -53,5 +53,60 @@
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     },
     "description": "The air on these sands is peculiarly clear and fine."
+  },
+  "waves": {
+    "height_mean_m": [
+      0.71,
+      0.71,
+      0.67,
+      0.64,
+      0.32,
+      0.36,
+      0.24,
+      0.33,
+      0.37,
+      0.51,
+      0.65,
+      0.65
+    ],
+    "height_big_m": [
+      1.34,
+      1.28,
+      1.14,
+      1.46,
+      0.58,
+      0.72,
+      0.44,
+      0.56,
+      0.72,
+      0.92,
+      1.18,
+      1.06
+    ],
+    "period_mean_s": [
+      3.83,
+      3.55,
+      3.66,
+      3.61,
+      3.08,
+      2.9,
+      2.62,
+      2.96,
+      2.92,
+      3.19,
+      3.56,
+      3.66
+    ],
+    "summary": {
+      "annual_mean_m": 0.51,
+      "biggest_month": "Jan",
+      "biggest_month_m": 0.71,
+      "calmest_month": "Jul",
+      "calmest_month_m": 0.24,
+      "peak_big_day_m": 1.46,
+      "typical_period_s": 3.3,
+      "character": "Calm — gentle swimming water most of the year"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

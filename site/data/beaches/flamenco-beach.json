@@ -54,5 +54,60 @@
     },
     "color": "white",
     "description": "6 km) around the reef-sheltered, horseshoe-shaped Flamenco Bay, the beach is known for its shallow, calm turquoise waters and white sand, as well as its species-rich swimming areas and diving sites."
+  },
+  "waves": {
+    "height_mean_m": [
+      1.39,
+      1.45,
+      1.35,
+      1.23,
+      1.0,
+      1.14,
+      1.31,
+      1.23,
+      1.12,
+      1.13,
+      1.37,
+      1.45
+    ],
+    "height_big_m": [
+      1.72,
+      1.96,
+      1.74,
+      1.8,
+      1.26,
+      1.42,
+      1.64,
+      1.66,
+      1.46,
+      1.54,
+      1.8,
+      1.96
+    ],
+    "period_mean_s": [
+      6.79,
+      7.56,
+      8.23,
+      7.16,
+      6.07,
+      5.33,
+      5.37,
+      5.65,
+      7.64,
+      8.14,
+      7.73,
+      7.42
+    ],
+    "summary": {
+      "annual_mean_m": 1.26,
+      "biggest_month": "Feb",
+      "biggest_month_m": 1.45,
+      "calmest_month": "May",
+      "calmest_month_m": 1.0,
+      "peak_big_day_m": 1.96,
+      "typical_period_s": 6.9,
+      "character": "Exposed — real surf, and rip current to respect"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

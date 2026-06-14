@@ -64,5 +64,60 @@
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     },
     "description": "Cronulla is derived from an Aboriginal word kurranulla, meaning 'place of pink seashells'."
+  },
+  "waves": {
+    "height_mean_m": [
+      1.68,
+      1.82,
+      1.73,
+      2.0,
+      2.09,
+      1.74,
+      1.88,
+      1.42,
+      1.65,
+      1.94,
+      1.63,
+      1.62
+    ],
+    "height_big_m": [
+      2.54,
+      2.86,
+      2.26,
+      3.22,
+      2.98,
+      3.32,
+      3.14,
+      2.02,
+      2.7,
+      2.62,
+      2.14,
+      2.34
+    ],
+    "period_mean_s": [
+      8.65,
+      9.43,
+      9.97,
+      10.09,
+      10.35,
+      9.69,
+      10.39,
+      10.05,
+      9.82,
+      9.66,
+      8.91,
+      8.63
+    ],
+    "summary": {
+      "annual_mean_m": 1.77,
+      "biggest_month": "May",
+      "biggest_month_m": 2.09,
+      "calmest_month": "Aug",
+      "calmest_month_m": 1.42,
+      "peak_big_day_m": 3.32,
+      "typical_period_s": 9.6,
+      "character": "Exposed — real surf, and rip current to respect"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

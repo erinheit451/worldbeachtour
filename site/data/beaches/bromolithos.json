@@ -43,12 +43,52 @@
     "paragraph": "Leros is a 53 km² Greek island in the southern Aegean, 317 km from Athens's port of Piraeus and about 32 km from the Turkish mainland. The Dodecanese are what's left of a chain of volcanic-arc mountaintops that broke the surface when the Aegean basin opened in the Miocene — which is why the sand and gravel at Vromolithos is not the pale quartz of Atlantic beaches but a darker, lithic-rich mix: basalt and tuff ground up by the sea, with quartz made up from the roots of older rocks. The island's modern history is punctuated by the Italian fascist architecture at Lakki harbour, the British and Italian defence against the Germans in the Battle of Leros (November 1943), and a long second life as the setting of psychiatric hospitals — subject of Greek journalism and Samaras's 1990 film The Suspended Step of the Stork."
   },
   "nearby_features": [
-    { "name": "Pandeli", "type": "village", "distance_m": 650, "direction": "N", "blurb": "Fishing harbour and tavernas below the castle; the loveliest of Leros's east-side villages." },
-    { "name": "Castle of Pandeli (Kástro)", "type": "landmark", "distance_m": 900, "direction": "NNW", "blurb": "Byzantine-origin, Venetian- and Hospitaller-rebuilt castle on the ridge above Platános. Visible from the beach; a 15-minute climb from Pandeli harbour.", "wiki_url": "https://en.wikipedia.org/wiki/Leros" },
-    { "name": "Platános", "type": "town", "distance_m": 1200, "direction": "NW", "blurb": "The capital of Leros, sitting in the saddle between the Pandeli and Agía Marína harbours." },
-    { "name": "Agía Marína", "type": "town", "distance_m": 1400, "direction": "N", "blurb": "The main port. Ferries to Piraeus, Kos and Patmos.", "wiki_url": "https://en.wikipedia.org/wiki/Leros" },
-    { "name": "HMS Intrepid (D10) wreck site", "type": "landmark", "distance_m": 3200, "direction": "N", "blurb": "British Royal Navy destroyer sunk in Leros Bay on 27 September 1943, six weeks before the Battle of Leros. Still lies on the seabed between Leros and the small islet of Rina.", "wiki_url": "https://en.wikipedia.org/wiki/HMS_Intrepid_(D10)" },
-    { "name": "Lakki", "type": "town", "distance_m": 3500, "direction": "SW", "blurb": "Leros's deep-water harbour — a planned-rationalist port town built by the Italians in the 1920s, one of the most complete examples of Italian Fascist architecture outside Italy.", "wiki_url": "https://en.wikipedia.org/wiki/Lakki,_Leros" }
+    {
+      "name": "Pandeli",
+      "type": "village",
+      "distance_m": 650,
+      "direction": "N",
+      "blurb": "Fishing harbour and tavernas below the castle; the loveliest of Leros's east-side villages."
+    },
+    {
+      "name": "Castle of Pandeli (Kástro)",
+      "type": "landmark",
+      "distance_m": 900,
+      "direction": "NNW",
+      "blurb": "Byzantine-origin, Venetian- and Hospitaller-rebuilt castle on the ridge above Platános. Visible from the beach; a 15-minute climb from Pandeli harbour.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Leros"
+    },
+    {
+      "name": "Platános",
+      "type": "town",
+      "distance_m": 1200,
+      "direction": "NW",
+      "blurb": "The capital of Leros, sitting in the saddle between the Pandeli and Agía Marína harbours."
+    },
+    {
+      "name": "Agía Marína",
+      "type": "town",
+      "distance_m": 1400,
+      "direction": "N",
+      "blurb": "The main port. Ferries to Piraeus, Kos and Patmos.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Leros"
+    },
+    {
+      "name": "HMS Intrepid (D10) wreck site",
+      "type": "landmark",
+      "distance_m": 3200,
+      "direction": "N",
+      "blurb": "British Royal Navy destroyer sunk in Leros Bay on 27 September 1943, six weeks before the Battle of Leros. Still lies on the seabed between Leros and the small islet of Rina.",
+      "wiki_url": "https://en.wikipedia.org/wiki/HMS_Intrepid_(D10)"
+    },
+    {
+      "name": "Lakki",
+      "type": "town",
+      "distance_m": 3500,
+      "direction": "SW",
+      "blurb": "Leros's deep-water harbour — a planned-rationalist port town built by the Italians in the 1920s, one of the most complete examples of Italian Fascist architecture outside Italy.",
+      "wiki_url": "https://en.wikipedia.org/wiki/Lakki,_Leros"
+    }
   ],
   "coastal_path": {
     "name": "Platános–Pandeli–Vromolithos footpath",
@@ -86,10 +126,62 @@
   ],
   "context_photos_note": "Vromolithos itself has not been uploaded to Wikimedia Commons. These photographs are from the adjoining villages of Pandeli, Platános and Agía Marína — all within a fifteen-minute walk.",
   "climate": {
-    "air_temp_high": [13.59, 13.96, 16.42, 20.16, 25.09, 30.28, 32.74, 32.29, 28.62, 23.68, 18.82, 15.01],
-    "air_temp_low": [7.70, 7.81, 9.24, 12.05, 15.76, 20.06, 22.80, 22.68, 19.55, 15.99, 12.21, 9.34],
-    "rain_mm": [142, 106, 76, 32, 15, 5, 1, 2, 14, 42, 83, 143],
-    "water_temp_c": [15.4, 15.0, 15.3, 16.5, 18.7, 22.3, 24.9, 25.3, 24.0, 21.5, 19.0, 16.8],
+    "air_temp_high": [
+      13.59,
+      13.96,
+      16.42,
+      20.16,
+      25.09,
+      30.28,
+      32.74,
+      32.29,
+      28.62,
+      23.68,
+      18.82,
+      15.01
+    ],
+    "air_temp_low": [
+      7.7,
+      7.81,
+      9.24,
+      12.05,
+      15.76,
+      20.06,
+      22.8,
+      22.68,
+      19.55,
+      15.99,
+      12.21,
+      9.34
+    ],
+    "rain_mm": [
+      142,
+      106,
+      76,
+      32,
+      15,
+      5,
+      1,
+      2,
+      14,
+      42,
+      83,
+      143
+    ],
+    "water_temp_c": [
+      15.4,
+      15.0,
+      15.3,
+      16.5,
+      18.7,
+      22.3,
+      24.9,
+      25.3,
+      24.0,
+      21.5,
+      19.0,
+      16.8
+    ],
     "water_temp_source_note": "Water-temp curve is a typical northern-Aegean monthly profile placeholder pending the sea-surface-temperature pipeline.",
     "climate_source": "WorldClim v2.1",
     "climate_type": "Hot-summer Mediterranean (Köppen Csa)"
@@ -116,24 +208,148 @@
     "note": "Not a Blue Flag beach and not listed on Greece's national bathing-waters registry (epb.ypeka.gr). A local and visitor-known beach without municipal services."
   },
   "typological_siblings_placeholder": [
-    { "name": "Agía Kioura (Xirókampos)", "region": "Leros, Greece",            "distance_km": 7,    "similarity": 93 },
-    { "name": "Kamaras Beach",            "region": "Kalymnos, Greece",         "distance_km": 24,   "similarity": 89 },
-    { "name": "Agia Theodoti",            "region": "Ios, Greece",              "distance_km": 220,  "similarity": 84 },
-    { "name": "Cala Tirrena",             "region": "Ustica, Italy",            "distance_km": 1450, "similarity": 80 },
-    { "name": "Isla Grosa cove",          "region": "Murcia, Spain",            "distance_km": 2400, "similarity": 74 }
+    {
+      "name": "Agía Kioura (Xirókampos)",
+      "region": "Leros, Greece",
+      "distance_km": 7,
+      "similarity": 93
+    },
+    {
+      "name": "Kamaras Beach",
+      "region": "Kalymnos, Greece",
+      "distance_km": 24,
+      "similarity": 89
+    },
+    {
+      "name": "Agia Theodoti",
+      "region": "Ios, Greece",
+      "distance_km": 220,
+      "similarity": 84
+    },
+    {
+      "name": "Cala Tirrena",
+      "region": "Ustica, Italy",
+      "distance_km": 1450,
+      "similarity": 80
+    },
+    {
+      "name": "Isla Grosa cove",
+      "region": "Murcia, Spain",
+      "distance_km": 2400,
+      "similarity": 74
+    }
   ],
   "neighbors": [
-    { "slug": "vromolithos-beach", "name": "Vromolithos Beach (secondary entry)", "distance_km": 0.18, "has_wiki": false },
-    { "slug": "panteli", "name": "Panteli", "distance_km": 0.65, "has_wiki": false },
-    { "slug": "agia-marina-6", "name": "Agía Marína", "distance_km": 1.73, "has_wiki": false },
-    { "slug": "krithonio", "name": "Krithoni", "distance_km": 2.08, "has_wiki": false },
-    { "slug": "koulouki", "name": "Koulouki", "distance_km": 2.36, "has_wiki": false },
-    { "slug": "gourna-drymonas", "name": "Gourna – Drymonas", "distance_km": 2.58, "has_wiki": false },
-    { "slug": "gourna-beach", "name": "Gourna Beach", "distance_km": 2.82, "has_wiki": false },
-    { "slug": "alinta", "name": "Álinta", "distance_km": 2.95, "has_wiki": false }
+    {
+      "slug": "vromolithos-beach",
+      "name": "Vromolithos Beach (secondary entry)",
+      "distance_km": 0.18,
+      "has_wiki": false
+    },
+    {
+      "slug": "panteli",
+      "name": "Panteli",
+      "distance_km": 0.65,
+      "has_wiki": false
+    },
+    {
+      "slug": "agia-marina-6",
+      "name": "Agía Marína",
+      "distance_km": 1.73,
+      "has_wiki": false
+    },
+    {
+      "slug": "krithonio",
+      "name": "Krithoni",
+      "distance_km": 2.08,
+      "has_wiki": false
+    },
+    {
+      "slug": "koulouki",
+      "name": "Koulouki",
+      "distance_km": 2.36,
+      "has_wiki": false
+    },
+    {
+      "slug": "gourna-drymonas",
+      "name": "Gourna – Drymonas",
+      "distance_km": 2.58,
+      "has_wiki": false
+    },
+    {
+      "slug": "gourna-beach",
+      "name": "Gourna Beach",
+      "distance_km": 2.82,
+      "has_wiki": false
+    },
+    {
+      "slug": "alinta",
+      "name": "Álinta",
+      "distance_km": 2.95,
+      "has_wiki": false
+    }
   ],
   "sources": [
-    { "source_name": "osm", "source_id": "node/268603507", "source_url": "https://www.openstreetmap.org/node/268603507" }
+    {
+      "source_name": "osm",
+      "source_id": "node/268603507",
+      "source_url": "https://www.openstreetmap.org/node/268603507"
+    }
   ],
-  "attributes": {}
+  "attributes": {},
+  "waves": {
+    "height_mean_m": [
+      1.27,
+      1.2,
+      1.09,
+      1.12,
+      0.8,
+      0.83,
+      1.02,
+      0.85,
+      0.88,
+      0.81,
+      1.15,
+      1.13
+    ],
+    "height_big_m": [
+      2.1,
+      1.96,
+      1.7,
+      1.76,
+      1.36,
+      1.3,
+      1.36,
+      1.3,
+      1.36,
+      1.4,
+      2.14,
+      1.66
+    ],
+    "period_mean_s": [
+      5.15,
+      5.03,
+      4.96,
+      4.92,
+      4.54,
+      4.41,
+      4.54,
+      4.63,
+      4.56,
+      4.54,
+      4.9,
+      5.15
+    ],
+    "summary": {
+      "annual_mean_m": 1.01,
+      "biggest_month": "Jan",
+      "biggest_month_m": 1.27,
+      "calmest_month": "May",
+      "calmest_month_m": 0.8,
+      "peak_big_day_m": 2.14,
+      "typical_period_s": 4.8,
+      "character": "Mixed — usually swimmable, with a livelier season"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
+  }
 }

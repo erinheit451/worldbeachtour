@@ -1306,5 +1306,60 @@
       "width": 8256,
       "height": 5504
     }
-  ]
+  ],
+  "waves": {
+    "height_mean_m": [
+      1.25,
+      1.1,
+      1.28,
+      1.49,
+      1.61,
+      1.38,
+      1.64,
+      1.73,
+      1.58,
+      1.46,
+      1.44,
+      1.32
+    ],
+    "height_big_m": [
+      1.88,
+      1.56,
+      2.14,
+      2.12,
+      2.56,
+      2.18,
+      2.1,
+      2.36,
+      2.12,
+      1.88,
+      2.16,
+      2.08
+    ],
+    "period_mean_s": [
+      9.54,
+      10.15,
+      9.54,
+      10.96,
+      10.8,
+      11.13,
+      11.05,
+      11.27,
+      9.86,
+      9.73,
+      9.49,
+      9.67
+    ],
+    "summary": {
+      "annual_mean_m": 1.44,
+      "biggest_month": "Aug",
+      "biggest_month_m": 1.73,
+      "calmest_month": "Feb",
+      "calmest_month_m": 1.1,
+      "peak_big_day_m": 2.56,
+      "typical_period_s": 10.3,
+      "character": "Exposed — real surf, and rip current to respect"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
+  }
 }

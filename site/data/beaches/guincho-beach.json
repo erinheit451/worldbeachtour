@@ -52,5 +52,60 @@
       "regime": "mixed Q-F-L",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "waves": {
+    "height_mean_m": [
+      2.99,
+      2.69,
+      3.34,
+      2.17,
+      1.82,
+      1.63,
+      1.57,
+      1.76,
+      1.83,
+      2.72,
+      2.52,
+      2.39
+    ],
+    "height_big_m": [
+      4.38,
+      4.46,
+      5.68,
+      3.22,
+      2.66,
+      2.32,
+      2.18,
+      2.46,
+      2.76,
+      4.54,
+      3.9,
+      3.42
+    ],
+    "period_mean_s": [
+      11.85,
+      12.33,
+      11.95,
+      10.15,
+      8.75,
+      7.78,
+      7.7,
+      8.18,
+      9.74,
+      10.76,
+      11.16,
+      11.55
+    ],
+    "summary": {
+      "annual_mean_m": 2.29,
+      "biggest_month": "Mar",
+      "biggest_month_m": 3.34,
+      "calmest_month": "Jul",
+      "calmest_month_m": 1.57,
+      "peak_big_day_m": 5.68,
+      "typical_period_s": 10.2,
+      "character": "Heavy — a powerful, surf-driven coast"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

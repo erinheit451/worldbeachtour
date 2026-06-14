@@ -5,6 +5,8 @@ import MapEmbed from "@/components/map-embed";
 import DataCard from "@/components/data-card";
 import Breadcrumbs from "@/components/breadcrumbs";
 import StubBeach from "@/components/stub-beach";
+import LegendaryBeachV2 from "@/components/legendary-v2/legendary-beach-v2";
+import { loadBundle } from "@/components/legendary-v2/load-bundle";
 import { getBeachData, getBeachMeta, getBeachMdx } from "@/lib/beaches";
 
 function FacilityBadge({
@@ -41,6 +43,13 @@ export default async function BeachOverviewPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+
+  // Scale routing: any beach with a composition.json auto-renders the legendary
+  // page through the generic renderer — no per-beach page.tsx or SHOWCASE_SLUGS
+  // entry needed. Production = write composition/showcase/meta/data, done.
+  const bundle = loadBundle(slug);
+  if (bundle) return <LegendaryBeachV2 bundle={bundle} />;
+
   const data = getBeachData(slug);
   const meta = getBeachMeta(slug);
   if (!data) notFound();
