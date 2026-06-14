@@ -9,6 +9,11 @@ import LegendaryBeachV2 from "@/components/legendary-v2/legendary-beach-v2";
 import { loadBundle } from "@/components/legendary-v2/load-bundle";
 import { getBeachData, getBeachMeta, getBeachMdx } from "@/lib/beaches";
 
+// ISR: pre-render the editorial cohort (generateStaticParams in layout); render
+// any other beach on first request and cache it for a day.
+export const dynamicParams = true;
+export const revalidate = 86400;
+
 function FacilityBadge({
   label,
   value,
