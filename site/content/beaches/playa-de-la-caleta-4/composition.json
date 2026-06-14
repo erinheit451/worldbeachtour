@@ -27,10 +27,16 @@
     "sea_surf",
     "things_to_know",
     "plan_stack",
+    "spokes",
     "gallery",
     "sources"
   ],
   "spike_statement": "Cádiz is one of the oldest cities in Western Europe, and La Caleta is the seam in it: a small beach where a Phoenician channel resurfaces at low tide.",
-  "spokes": [],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    }
+  ],
   "adaptive": true
 }

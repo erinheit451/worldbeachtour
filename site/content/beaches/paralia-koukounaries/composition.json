@@ -27,10 +27,16 @@
     "sea_surf",
     "things_to_know",
     "plan_stack",
+    "spokes",
     "gallery",
     "sources"
   ],
   "spike_statement": "The pines that name Koukounaries are stone pines, one of Greece's few native stands; beach, forest and lagoon share the name and the protection.",
-  "spokes": [],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    }
+  ],
   "adaptive": true
 }

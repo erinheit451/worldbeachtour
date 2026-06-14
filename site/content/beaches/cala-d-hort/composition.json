@@ -27,10 +27,16 @@
     "sea_surf",
     "things_to_know",
     "plan_stack",
+    "spokes",
     "gallery",
     "sources"
   ],
   "spike_statement": "The cove is small and ordinary; what makes it famous stands 2.5 km offshore: Es Vedrà, 413 m of bare limestone that the sunset turns to silhouette.",
-  "spokes": [],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    }
+  ],
   "adaptive": true
 }

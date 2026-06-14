@@ -66,6 +66,13 @@ export function computeTier(
   // MONUMENT_SLUGS above so we ignore that branch here.
   if (meta?.tier === 3) return 2;
 
+  // An authored showcase bundle (composition.json + showcase.json) is, by
+  // definition, a Featured page — the assembler stamps meta.tier === 2 on
+  // every one. Treat that as the source of truth so the lens/spoke routes
+  // and adaptive depth un-gate for the whole authored cohort, regardless of
+  // the data-driven notability signal below (rule 2 in the header).
+  if (meta?.tier === 2) return 2;
+
   // Stubs are explicit in the meta — content that's known-thin.
   if (meta?.tier === 0) return 0;
 

@@ -27,10 +27,16 @@
     "sea_surf",
     "things_to_know",
     "plan_stack",
+    "spokes",
     "gallery",
     "sources"
   ],
   "spike_statement": "A 1962 landslide built this cove and left a 143-meter spire; today a 250-person daily cap rations who may stand in it.",
-  "spokes": [],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    }
+  ],
   "adaptive": true
 }
