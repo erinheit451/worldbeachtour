@@ -53,5 +53,60 @@
     },
     "color": "golden",
     "description": "The beach is an uninterrupted stretch of untamed coastline; it does not have any rocky headlands or platforms, and offshore there are only a few ribbons of reef which are periodically covered by sand."
+  },
+  "waves": {
+    "height_mean_m": [
+      1.2,
+      1.13,
+      1.13,
+      1.08,
+      1.04,
+      1.16,
+      1.07,
+      0.84,
+      0.95,
+      1.23,
+      1.13,
+      1.19
+    ],
+    "height_big_m": [
+      1.58,
+      1.66,
+      1.66,
+      1.92,
+      1.7,
+      1.9,
+      1.88,
+      1.24,
+      1.46,
+      1.64,
+      1.62,
+      1.84
+    ],
+    "period_mean_s": [
+      7.16,
+      7.48,
+      7.45,
+      8.71,
+      8.14,
+      7.77,
+      8.98,
+      8.21,
+      7.45,
+      7.68,
+      7.36,
+      7.06
+    ],
+    "summary": {
+      "annual_mean_m": 1.1,
+      "biggest_month": "Oct",
+      "biggest_month_m": 1.23,
+      "calmest_month": "Aug",
+      "calmest_month_m": 0.84,
+      "peak_big_day_m": 1.92,
+      "typical_period_s": 7.8,
+      "character": "Mixed — usually swimmable, with a livelier season"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

@@ -1,54 +1,21 @@
 {
   "slug": "praia-das-catedrais",
   "name": "Praia das Catedrais",
-  "centroid_lat": 43.5543298,
-  "centroid_lng": -7.1562917,
   "country_code": "ES",
   "admin_level_1": "Galicia",
-  "admin_level_2": null,
+  "centroid_lat": 43.5543298,
+  "centroid_lng": -7.1562917,
   "water_body_type": "ocean",
   "substrate_type": "sand",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "relation/5484102",
-      "source_url": "https://www.openstreetmap.org/relation/5484102"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q2561808",
-      "source_url": "https://www.wikidata.org/wiki/Q2561808"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "ES112M051258",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "ES112M051258",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/As%20Catedrais%20-%20Mari%C3%B1a%20luguesa.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/As_Catedrais_beach"
-    },
-    "environment": {
-      "water_quality_rating": "1 - excellent",
-      "eu_bathing_water_type": "Coastal"
-    },
-    "safety": {
-      "cyclone_count_50yr": "3",
-      "cyclone_max_category": "4"
-    }
+  "slope_pct": 1.5179600059986114,
+  "nearshore_depth_m": 30.41309928894043,
+  "classification": {
+    "primary_type": "Sand",
+    "primary_type_slug": "sand",
+    "coastal_type": "Sand",
+    "coastal_type_slug": "sand",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Barreiros",
   "nearest_city_distance_km": 6.6,
@@ -57,25 +24,398 @@
     "name": "Asturias Airport",
     "distance_km": 90.4
   },
-  "safety": {
-    "water_quality_rating": "1 - excellent",
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      13.64,
+      14.24,
+      15.54,
+      16.18,
+      18.55,
+      21.19,
+      23.0,
+      23.72,
+      22.66,
+      19.48,
+      16.11,
+      14.11
+    ],
+    "air_temp_low": [
+      6.23,
+      6.42,
+      6.99,
+      8.01,
+      10.14,
+      12.57,
+      14.61,
+      14.74,
+      13.38,
+      11.33,
+      8.79,
+      7.18
+    ],
+    "rain_mm": [
+      120.0,
+      101.0,
+      84.0,
+      96.0,
+      84.0,
+      47.0,
+      34.0,
+      40.0,
+      73.0,
+      120.0,
+      124.0,
+      134.0
+    ],
+    "wind_speed": [
+      3.21,
+      3.31,
+      3.5,
+      3.81,
+      3.31,
+      3.4,
+      3.36,
+      3.07,
+      2.94,
+      3.01,
+      2.87,
+      3.27
+    ],
+    "sun_hours": [
+      4980.0,
+      7832.0,
+      11363.0,
+      15959.0,
+      18240.0,
+      19685.0,
+      19820.0,
+      17938.0,
+      13976.0,
+      9525.0,
+      5972.0,
+      4265.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "facilities": {
-    "restrooms": true,
-    "showers": true
+  "tides": {
+    "range_spring_m": 3.3728287205584295,
+    "range_neap_m": 1.6270693107023093,
+    "type": "semidiurnal",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/As_Catedrais_beach",
-  "notability_score": 34.1,
-  "data_completeness_pct": 29.2,
   "sand": {
     "predicted": {
       "q_pct": 30.5,
       "f_pct": 10.1,
       "l_pct": 59.4,
       "regime": "lithic-rich (volcanic/collisional terrane)",
+      "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 3,
+    "paragraph": "3 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1981–2024).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Praia_de_Augas_Santas_ou_das_Catedrais._Devesa._Ribadeo._Galiza-16.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Praia_de_Augas_Santas_ou_das_Catedrais._Devesa._Ribadeo._Galiza-16.jpg/1280px-Praia_de_Augas_Santas_ou_das_Catedrais._Devesa._Ribadeo._Galiza-16.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lmbuga\" title=\"User:Lmbuga\">Luis Miguel Bugallo Sánchez (Lmbuga)</a>",
+      "title": "Praia de Augas Santas ou das Catedrais. Devesa. Ribadeo. Galiza-16.jpg",
+      "width": 5616,
+      "height": 2914
     },
-    "description": "At low tide, there is access to a sand deposit delimited by a rocky wall made from slate and schist forming 30 metre arches resembling cathedral flying buttresses, large caves, sand corridors between rocky blocks, and other geological features."
-  }
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Praia_de_Augas_Santas_ou_das_Catedrais._Devesa._Ribadeo._Galiza-21.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Praia_de_Augas_Santas_ou_das_Catedrais._Devesa._Ribadeo._Galiza-21.jpg/1280px-Praia_de_Augas_Santas_ou_das_Catedrais._Devesa._Ribadeo._Galiza-21.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lmbuga\" title=\"User:Lmbuga\">Luis Miguel Bugallo Sánchez (Lmbuga)</a>",
+      "title": "Praia de Augas Santas ou das Catedrais. Devesa. Ribadeo. Galiza-21.jpg",
+      "width": 5489,
+      "height": 3668
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Praia_de_Augas_Santas_ou_das_Catedrais._Devesa._Ribadeo._Galiza-20.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Praia_de_Augas_Santas_ou_das_Catedrais._Devesa._Ribadeo._Galiza-20.jpg/1280px-Praia_de_Augas_Santas_ou_das_Catedrais._Devesa._Ribadeo._Galiza-20.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lmbuga\" title=\"User:Lmbuga\">Luis Miguel Bugallo Sánchez (Lmbuga)</a>",
+      "title": "Praia de Augas Santas ou das Catedrais. Devesa. Ribadeo. Galiza-20.jpg",
+      "width": 5464,
+      "height": 3643
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/2014._Praia_de_Augas_Santas._Galiza.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/2014._Praia_de_Augas_Santas._Galiza.jpg/1280px-2014._Praia_de_Augas_Santas._Galiza.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lmbuga\" title=\"User:Lmbuga\">Luis Miguel Bugallo Sánchez (Lmbuga)</a>",
+      "title": "2014. Praia de Augas Santas. Galiza.jpg",
+      "width": 5208,
+      "height": 3472
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Xistos_na_praia_de_Augas_Santas_ou_das_Catedrais._Devesa._Ribadeo._Galiza-07.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Xistos_na_praia_de_Augas_Santas_ou_das_Catedrais._Devesa._Ribadeo._Galiza-07.jpg/1280px-Xistos_na_praia_de_Augas_Santas_ou_das_Catedrais._Devesa._Ribadeo._Galiza-07.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lmbuga\" title=\"User:Lmbuga\">Luis Miguel Bugallo Sánchez (Lmbuga)</a>",
+      "title": "Xistos na praia de Augas Santas ou das Catedrais. Devesa. Ribadeo. Galiza-07.jpg",
+      "width": 5192,
+      "height": 2679
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/La_Playa_de_las_Catedrales.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/La_Playa_de_las_Catedrales.jpg/1280px-La_Playa_de_las_Catedrales.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Sek13c\" title=\"User:Sek13c\">Sek13c</a>",
+      "title": "La Playa de las Catedrales.jpg",
+      "width": 5184,
+      "height": 3888
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Bar_Restaurante_Playa_Augas_Santas_As_Catedrais.001_-_Praia_das_Catedrais.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Bar_Restaurante_Playa_Augas_Santas_As_Catedrais.001_-_Praia_das_Catedrais.jpg/1280px-Bar_Restaurante_Playa_Augas_Santas_As_Catedrais.001_-_Praia_das_Catedrais.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Drow_male\" title=\"User:Drow male\">Fernando Losada Rodríguez</a>",
+      "title": "Bar Restaurante Playa Augas Santas As Catedrais.001 - Praia das Catedrais.jpg",
+      "width": 5152,
+      "height": 3864
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Bar_Restaurante_Playa_Augas_Santas_As_Catedrais.002_-_Praia_das_Catedrais.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Bar_Restaurante_Playa_Augas_Santas_As_Catedrais.002_-_Praia_das_Catedrais.jpg/1280px-Bar_Restaurante_Playa_Augas_Santas_As_Catedrais.002_-_Praia_das_Catedrais.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Drow_male\" title=\"User:Drow male\">Fernando Losada Rodríguez</a>",
+      "title": "Bar Restaurante Playa Augas Santas As Catedrais.002 - Praia das Catedrais.jpg",
+      "width": 5152,
+      "height": 3864
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 30.41309928894043
+  },
+  "conservation": {
+    "name": "A praia das Catedrais",
+    "type": "Natural monument",
+    "iucn": "Not Assigned",
+    "unesco": false
+  },
+  "facilities": {
+    "restrooms": true,
+    "showers": true
+  },
+  "water_quality": {
+    "rating": "1 - excellent",
+    "source": "eu_bathing",
+    "year": null
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 12,
+        "top": [
+          {
+            "common": "Black Redstart",
+            "latin": "Phoenicurus ochruros",
+            "obs": 29,
+            "iucn": null
+          },
+          {
+            "common": "European Stonechat",
+            "latin": "Saxicola rubicola",
+            "obs": 22,
+            "iucn": null
+          },
+          {
+            "common": "Common Gull",
+            "latin": "Larus canus",
+            "obs": 12,
+            "iucn": null
+          },
+          {
+            "common": "House Sparrow",
+            "latin": "Passer domesticus",
+            "obs": 11,
+            "iucn": null
+          },
+          {
+            "common": "Sanderling",
+            "latin": "Calidris alba",
+            "obs": 10,
+            "iucn": null
+          },
+          {
+            "common": "Dunlin",
+            "latin": "Calidris alpina",
+            "obs": 8,
+            "iucn": null
+          },
+          {
+            "common": "Bar-tailed Godwit",
+            "latin": "Limosa lapponica",
+            "obs": 8,
+            "iucn": null
+          },
+          {
+            "common": "Common Loon",
+            "latin": "Gavia immer",
+            "obs": 8,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 5,
+        "top": [
+          {
+            "common": "Goose barnacle",
+            "latin": "Pollicipes pollicipes",
+            "obs": 83,
+            "iucn": null
+          },
+          {
+            "common": "Atlantic Beadlet Anemone",
+            "latin": "Actinia equina",
+            "obs": 31,
+            "iucn": null
+          },
+          {
+            "common": "Marbled Crab",
+            "latin": "Pachygrapsus marmoratus",
+            "obs": 24,
+            "iucn": null
+          },
+          {
+            "common": "Common Sea Slater",
+            "latin": "Ligia oceanica",
+            "obs": 15,
+            "iucn": null
+          },
+          {
+            "common": "Portuguese Man o' War",
+            "latin": "Physalia physalis",
+            "obs": 12,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 2,
+        "top": [
+          {
+            "common": "Lithophyllum byssoides",
+            "latin": "Lithophyllum byssoides",
+            "obs": 11,
+            "iucn": null
+          },
+          {
+            "common": "Tree Mallow",
+            "latin": "Malva arborea",
+            "obs": 8,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 1,
+        "top": [
+          {
+            "common": "Bocage's Wall Lizard",
+            "latin": "Podarcis bocagei",
+            "obs": 8,
+            "iucn": null
+          }
+        ]
+      }
+    ]
+  },
+  "waves": {
+    "height_mean_m": [
+      2.31,
+      2.28,
+      2.05,
+      1.61,
+      1.45,
+      1.14,
+      1.22,
+      1.43,
+      1.56,
+      1.81,
+      2.02,
+      2.3
+    ],
+    "height_big_m": [
+      3.76,
+      4.52,
+      3.06,
+      2.54,
+      2.04,
+      1.76,
+      1.68,
+      1.86,
+      2.34,
+      3.26,
+      4.16,
+      3.76
+    ],
+    "period_mean_s": [
+      11.34,
+      11.78,
+      11.32,
+      9.51,
+      8.4,
+      7.44,
+      8.22,
+      8.99,
+      9.54,
+      10.59,
+      10.53,
+      11.42
+    ],
+    "summary": {
+      "annual_mean_m": 1.76,
+      "biggest_month": "Jan",
+      "biggest_month_m": 2.31,
+      "calmest_month": "Jun",
+      "calmest_month_m": 1.14,
+      "peak_big_day_m": 4.52,
+      "typical_period_s": 9.9,
+      "character": "Exposed — real surf, and rip current to respect"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 71% of beaches in its country",
+      "detail": "Peak-month high ≈ 24°C"
+    }
+  ],
+  "wikidata_id": "Q2561808",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/As_Catedrais_beach",
+  "wikipedia_page_views_annual": 22940,
+  "notability_score": 34.1,
+  "data_completeness_pct": 70.8,
+  "best_months": [
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep"
+  ],
+  "swim_suitability": "fair"
 }

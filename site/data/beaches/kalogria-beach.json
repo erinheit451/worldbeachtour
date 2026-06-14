@@ -48,5 +48,60 @@
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     },
     "description": "The area close to the beach has many sand dunes that are formed by sea sand that moves with the aid of the westerly winds and the Ionian Sea waves."
+  },
+  "waves": {
+    "height_mean_m": [
+      0.74,
+      0.56,
+      0.64,
+      0.62,
+      0.43,
+      0.4,
+      0.51,
+      0.41,
+      0.45,
+      0.47,
+      0.79,
+      0.67
+    ],
+    "height_big_m": [
+      1.44,
+      1.02,
+      1.04,
+      1.12,
+      0.84,
+      0.82,
+      0.74,
+      0.74,
+      0.92,
+      0.72,
+      1.64,
+      1.18
+    ],
+    "period_mean_s": [
+      5.43,
+      5.17,
+      5.22,
+      5.03,
+      4.8,
+      4.14,
+      4.26,
+      4.32,
+      4.45,
+      4.55,
+      5.18,
+      5.46
+    ],
+    "summary": {
+      "annual_mean_m": 0.56,
+      "biggest_month": "Nov",
+      "biggest_month_m": 0.79,
+      "calmest_month": "Jun",
+      "calmest_month_m": 0.4,
+      "peak_big_day_m": 1.64,
+      "typical_period_s": 4.8,
+      "character": "Calm — gentle swimming water most of the year"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

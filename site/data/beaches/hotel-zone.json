@@ -53,5 +53,60 @@
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     },
     "description": "It was formed over thousands of years through a process of ocean currents, known as longshore drift, carrying sand and sediment along the coast, parallel to the Yucatán Peninsula."
+  },
+  "waves": {
+    "height_mean_m": [
+      1.35,
+      1.21,
+      1.29,
+      1.15,
+      0.95,
+      1.17,
+      1.06,
+      0.79,
+      0.82,
+      1.21,
+      1.27,
+      1.41
+    ],
+    "height_big_m": [
+      1.94,
+      1.72,
+      1.66,
+      1.68,
+      1.38,
+      2.3,
+      1.3,
+      1.06,
+      1.28,
+      1.86,
+      1.96,
+      1.94
+    ],
+    "period_mean_s": [
+      6.15,
+      6.04,
+      5.89,
+      5.9,
+      5.8,
+      6.31,
+      6.21,
+      6.12,
+      6.33,
+      6.06,
+      6.39,
+      6.46
+    ],
+    "summary": {
+      "annual_mean_m": 1.14,
+      "biggest_month": "Dec",
+      "biggest_month_m": 1.41,
+      "calmest_month": "Aug",
+      "calmest_month_m": 0.79,
+      "peak_big_day_m": 2.3,
+      "typical_period_s": 6.1,
+      "character": "Mixed — usually swimmable, with a livelier season"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

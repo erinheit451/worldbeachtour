@@ -17,11 +17,76 @@
     "distance_km": 108
   },
   "climate": {
-    "air_temp_high": [14.0, 14.5, 16.0, 17.0, 19.0, 22.0, 24.0, 24.5, 23.0, 20.0, 16.5, 14.5],
-    "air_temp_low": [7.5, 8.0, 9.0, 10.0, 12.0, 14.5, 16.0, 16.5, 15.0, 13.0, 10.0, 8.0],
-    "water_temp": [14.5, 14.0, 14.0, 14.5, 15.5, 17.5, 19.5, 20.5, 19.5, 18.0, 16.5, 15.0],
-    "rain_mm": [95, 80, 60, 60, 45, 15, 5, 6, 25, 75, 105, 110],
-    "sun_hours": [140, 160, 205, 225, 255, 275, 295, 280, 225, 180, 145, 135],
+    "air_temp_high": [
+      14.0,
+      14.5,
+      16.0,
+      17.0,
+      19.0,
+      22.0,
+      24.0,
+      24.5,
+      23.0,
+      20.0,
+      16.5,
+      14.5
+    ],
+    "air_temp_low": [
+      7.5,
+      8.0,
+      9.0,
+      10.0,
+      12.0,
+      14.5,
+      16.0,
+      16.5,
+      15.0,
+      13.0,
+      10.0,
+      8.0
+    ],
+    "water_temp": [
+      14.5,
+      14.0,
+      14.0,
+      14.5,
+      15.5,
+      17.5,
+      19.5,
+      20.5,
+      19.5,
+      18.0,
+      16.5,
+      15.0
+    ],
+    "rain_mm": [
+      95,
+      80,
+      60,
+      60,
+      45,
+      15,
+      5,
+      6,
+      25,
+      75,
+      105,
+      110
+    ],
+    "sun_hours": [
+      140,
+      160,
+      205,
+      225,
+      255,
+      275,
+      295,
+      280,
+      225,
+      180,
+      145,
+      135
+    ],
     "climate_source": "IPMA (Instituto Português do Mar e da Atmosfera) — São Martinho / Alcobaça regional normals",
     "ocean_source": "Portuguese Hydrographic Institute"
   },
@@ -39,5 +104,60 @@
     "showers": true,
     "lifeguard": true,
     "wheelchair_accessible": true
+  },
+  "waves": {
+    "height_mean_m": [
+      3.1,
+      2.76,
+      3.37,
+      2.25,
+      1.93,
+      1.64,
+      1.66,
+      1.83,
+      1.91,
+      2.73,
+      2.52,
+      2.55
+    ],
+    "height_big_m": [
+      4.58,
+      4.68,
+      5.62,
+      3.16,
+      2.78,
+      2.42,
+      2.32,
+      2.52,
+      2.92,
+      4.68,
+      4.34,
+      3.76
+    ],
+    "period_mean_s": [
+      11.94,
+      12.56,
+      11.96,
+      10.21,
+      8.79,
+      7.84,
+      7.85,
+      8.34,
+      9.87,
+      10.98,
+      11.42,
+      11.62
+    ],
+    "summary": {
+      "annual_mean_m": 2.35,
+      "biggest_month": "Mar",
+      "biggest_month_m": 3.37,
+      "calmest_month": "Jun",
+      "calmest_month_m": 1.64,
+      "peak_big_day_m": 5.62,
+      "typical_period_s": 10.3,
+      "character": "Heavy — a powerful, surf-driven coast"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

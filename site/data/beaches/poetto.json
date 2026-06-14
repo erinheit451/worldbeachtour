@@ -50,5 +50,60 @@
     },
     "color": "white",
     "description": "However, the result was not as successful as expected: the white, fine-grained sand was replaced by sand of a completely different color, size and consistency."
+  },
+  "waves": {
+    "height_mean_m": [
+      0.56,
+      0.54,
+      0.62,
+      0.51,
+      0.48,
+      0.44,
+      0.42,
+      0.36,
+      0.43,
+      0.57,
+      0.55,
+      0.57
+    ],
+    "height_big_m": [
+      1.0,
+      1.1,
+      1.04,
+      0.96,
+      0.72,
+      0.74,
+      0.68,
+      0.66,
+      0.72,
+      1.0,
+      1.04,
+      1.04
+    ],
+    "period_mean_s": [
+      4.9,
+      5.62,
+      5.3,
+      4.91,
+      5.97,
+      4.98,
+      4.04,
+      3.51,
+      4.89,
+      5.39,
+      5.17,
+      4.92
+    ],
+    "summary": {
+      "annual_mean_m": 0.5,
+      "biggest_month": "Mar",
+      "biggest_month_m": 0.62,
+      "calmest_month": "Aug",
+      "calmest_month_m": 0.36,
+      "peak_big_day_m": 1.1,
+      "typical_period_s": 5.0,
+      "character": "Calm — gentle swimming water most of the year"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

@@ -79,5 +79,60 @@
     },
     "color": "golden",
     "description": "The sand on Praia da Arrifana is of pale golden fine sand and is approximately 500 meters long."
+  },
+  "waves": {
+    "height_mean_m": [
+      2.79,
+      2.54,
+      3.15,
+      2.04,
+      1.74,
+      1.54,
+      1.59,
+      1.78,
+      1.73,
+      2.52,
+      2.28,
+      2.17
+    ],
+    "height_big_m": [
+      3.94,
+      4.52,
+      5.32,
+      3.12,
+      2.36,
+      2.26,
+      1.98,
+      2.4,
+      2.66,
+      4.36,
+      3.64,
+      3.14
+    ],
+    "period_mean_s": [
+      12.04,
+      12.29,
+      12.18,
+      10.24,
+      8.66,
+      7.7,
+      7.41,
+      8.06,
+      9.66,
+      10.8,
+      11.41,
+      11.74
+    ],
+    "summary": {
+      "annual_mean_m": 2.16,
+      "biggest_month": "Mar",
+      "biggest_month_m": 3.15,
+      "calmest_month": "Jun",
+      "calmest_month_m": 1.54,
+      "peak_big_day_m": 5.32,
+      "typical_period_s": 10.2,
+      "character": "Heavy — a powerful, surf-driven coast"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

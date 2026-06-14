@@ -44,5 +44,60 @@
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     },
     "description": "They were formed by sand from the now subdued marine shelf, when it was laid dry during the last ice age and the wind blew the sand towards the coast of the island."
+  },
+  "waves": {
+    "height_mean_m": [
+      1.18,
+      1.12,
+      1.28,
+      1.02,
+      1.0,
+      0.89,
+      1.07,
+      1.13,
+      0.84,
+      0.95,
+      0.95,
+      1.09
+    ],
+    "height_big_m": [
+      1.66,
+      1.7,
+      1.6,
+      1.52,
+      1.4,
+      1.16,
+      1.38,
+      1.5,
+      1.22,
+      1.24,
+      1.3,
+      1.62
+    ],
+    "period_mean_s": [
+      9.05,
+      9.66,
+      9.92,
+      9.07,
+      8.14,
+      7.92,
+      7.0,
+      7.95,
+      8.45,
+      8.94,
+      9.8,
+      8.14
+    ],
+    "summary": {
+      "annual_mean_m": 1.04,
+      "biggest_month": "Mar",
+      "biggest_month_m": 1.28,
+      "calmest_month": "Sep",
+      "calmest_month_m": 0.84,
+      "peak_big_day_m": 1.7,
+      "typical_period_s": 8.7,
+      "character": "Mixed — usually swimmable, with a livelier season"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

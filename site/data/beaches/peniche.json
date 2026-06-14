@@ -17,11 +17,76 @@
     "distance_km": 95
   },
   "climate": {
-    "air_temp_high": [14.0, 14.5, 16.0, 17.0, 19.0, 22.0, 23.5, 24.0, 23.0, 20.0, 16.5, 14.5],
-    "air_temp_low": [8.0, 8.0, 9.0, 10.0, 12.0, 14.5, 16.0, 16.5, 15.5, 13.0, 10.5, 8.5],
-    "water_temp": [14.5, 14.0, 14.0, 14.5, 15.5, 17.0, 18.5, 19.0, 18.5, 17.5, 16.0, 15.0],
-    "rain_mm": [90, 75, 55, 55, 40, 12, 4, 5, 25, 75, 100, 105],
-    "sun_hours": [145, 165, 210, 230, 265, 285, 310, 295, 230, 185, 150, 135],
+    "air_temp_high": [
+      14.0,
+      14.5,
+      16.0,
+      17.0,
+      19.0,
+      22.0,
+      23.5,
+      24.0,
+      23.0,
+      20.0,
+      16.5,
+      14.5
+    ],
+    "air_temp_low": [
+      8.0,
+      8.0,
+      9.0,
+      10.0,
+      12.0,
+      14.5,
+      16.0,
+      16.5,
+      15.5,
+      13.0,
+      10.5,
+      8.5
+    ],
+    "water_temp": [
+      14.5,
+      14.0,
+      14.0,
+      14.5,
+      15.5,
+      17.0,
+      18.5,
+      19.0,
+      18.5,
+      17.5,
+      16.0,
+      15.0
+    ],
+    "rain_mm": [
+      90,
+      75,
+      55,
+      55,
+      40,
+      12,
+      4,
+      5,
+      25,
+      75,
+      100,
+      105
+    ],
+    "sun_hours": [
+      145,
+      165,
+      210,
+      230,
+      265,
+      285,
+      310,
+      295,
+      230,
+      185,
+      150,
+      135
+    ],
     "climate_source": "IPMA (Instituto Português do Mar e da Atmosfera) — Peniche / Cabo Carvoeiro regional normals",
     "ocean_source": "Portuguese Hydrographic Institute"
   },
@@ -39,5 +104,60 @@
     "showers": true,
     "lifeguard": true,
     "wheelchair_accessible": true
+  },
+  "waves": {
+    "height_mean_m": [
+      2.99,
+      2.66,
+      3.26,
+      2.16,
+      1.87,
+      1.63,
+      1.61,
+      1.78,
+      1.84,
+      2.66,
+      2.46,
+      2.44
+    ],
+    "height_big_m": [
+      4.34,
+      4.36,
+      5.48,
+      3.08,
+      2.7,
+      2.38,
+      2.22,
+      2.46,
+      2.86,
+      4.42,
+      4.0,
+      3.68
+    ],
+    "period_mean_s": [
+      11.79,
+      12.41,
+      11.87,
+      10.09,
+      8.63,
+      7.77,
+      7.67,
+      8.16,
+      9.69,
+      10.79,
+      11.19,
+      11.44
+    ],
+    "summary": {
+      "annual_mean_m": 2.28,
+      "biggest_month": "Mar",
+      "biggest_month_m": 3.26,
+      "calmest_month": "Jul",
+      "calmest_month_m": 1.61,
+      "peak_big_day_m": 5.48,
+      "typical_period_s": 10.1,
+      "character": "Heavy — a powerful, surf-driven coast"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

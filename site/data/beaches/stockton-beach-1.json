@@ -52,5 +52,60 @@
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     },
     "description": "These middens, which are up to 12,000 years old, consist mainly of the remnants of pipis and whelk shells."
+  },
+  "waves": {
+    "height_mean_m": [
+      1.66,
+      1.79,
+      1.72,
+      2.12,
+      2.1,
+      1.7,
+      1.87,
+      1.43,
+      1.78,
+      2.02,
+      1.59,
+      1.54
+    ],
+    "height_big_m": [
+      2.34,
+      2.68,
+      2.34,
+      3.2,
+      3.1,
+      3.1,
+      2.7,
+      2.04,
+      3.06,
+      2.72,
+      1.98,
+      2.32
+    ],
+    "period_mean_s": [
+      8.63,
+      9.48,
+      9.99,
+      10.34,
+      10.64,
+      9.86,
+      10.42,
+      10.0,
+      10.16,
+      9.76,
+      9.02,
+      8.54
+    ],
+    "summary": {
+      "annual_mean_m": 1.78,
+      "biggest_month": "Apr",
+      "biggest_month_m": 2.12,
+      "calmest_month": "Aug",
+      "calmest_month_m": 1.43,
+      "peak_big_day_m": 3.2,
+      "typical_period_s": 9.7,
+      "character": "Exposed — real surf, and rip current to respect"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

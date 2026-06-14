@@ -45,5 +45,60 @@
     },
     "color": "white",
     "description": "Then it was discovered by surfers and backpackers, attracted by a set of natural attributes rarely found even in other Brazilian beaches: crystal-clear waters, fine, white sand, areas of preservation Atlantic Forest, 10-meter-high vertical cliffs, and friendly locals."
+  },
+  "waves": {
+    "height_mean_m": [
+      0.73,
+      0.76,
+      0.68,
+      0.67,
+      0.82,
+      0.98,
+      1.02,
+      0.96,
+      1.05,
+      0.88,
+      0.82,
+      0.8
+    ],
+    "height_big_m": [
+      0.9,
+      0.92,
+      0.9,
+      0.84,
+      1.1,
+      1.22,
+      1.16,
+      1.16,
+      1.24,
+      1.04,
+      0.98,
+      0.94
+    ],
+    "period_mean_s": [
+      6.41,
+      6.56,
+      7.43,
+      7.4,
+      7.02,
+      7.13,
+      7.05,
+      6.56,
+      6.72,
+      6.31,
+      6.06,
+      6.13
+    ],
+    "summary": {
+      "annual_mean_m": 0.85,
+      "biggest_month": "Sep",
+      "biggest_month_m": 1.05,
+      "calmest_month": "Apr",
+      "calmest_month_m": 0.67,
+      "peak_big_day_m": 1.24,
+      "typical_period_s": 6.7,
+      "character": "Mixed — usually swimmable, with a livelier season"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

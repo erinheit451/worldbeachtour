@@ -74,5 +74,60 @@
       "regime": "feldspar-rich (plutonic/crystalline terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "waves": {
+    "height_mean_m": [
+      0.62,
+      0.5,
+      0.39,
+      0.41,
+      0.3,
+      0.32,
+      0.41,
+      0.43,
+      0.48,
+      0.66,
+      0.65,
+      0.55
+    ],
+    "height_big_m": [
+      1.0,
+      0.86,
+      0.76,
+      0.76,
+      0.58,
+      0.58,
+      0.6,
+      0.7,
+      0.98,
+      1.14,
+      1.4,
+      0.98
+    ],
+    "period_mean_s": [
+      3.99,
+      3.35,
+      3.27,
+      3.16,
+      2.9,
+      3.06,
+      3.47,
+      3.45,
+      3.41,
+      3.98,
+      4.0,
+      3.78
+    ],
+    "summary": {
+      "annual_mean_m": 0.48,
+      "biggest_month": "Oct",
+      "biggest_month_m": 0.66,
+      "calmest_month": "May",
+      "calmest_month_m": 0.3,
+      "peak_big_day_m": 1.4,
+      "typical_period_s": 3.5,
+      "character": "Calm — gentle swimming water most of the year"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

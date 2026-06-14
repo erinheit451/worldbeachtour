@@ -43,5 +43,60 @@
       "regime": "quartz-dominant",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "waves": {
+    "height_mean_m": [
+      1.04,
+      1.09,
+      1.18,
+      1.31,
+      1.47,
+      1.63,
+      1.56,
+      1.72,
+      1.58,
+      1.27,
+      1.14,
+      1.03
+    ],
+    "height_big_m": [
+      1.28,
+      1.32,
+      1.38,
+      1.62,
+      1.96,
+      2.02,
+      1.9,
+      2.1,
+      2.02,
+      1.56,
+      1.4,
+      1.24
+    ],
+    "period_mean_s": [
+      10.26,
+      10.09,
+      10.08,
+      10.67,
+      11.42,
+      10.46,
+      10.31,
+      11.17,
+      10.35,
+      9.81,
+      10.46,
+      10.25
+    ],
+    "summary": {
+      "annual_mean_m": 1.33,
+      "biggest_month": "Aug",
+      "biggest_month_m": 1.72,
+      "calmest_month": "Dec",
+      "calmest_month_m": 1.03,
+      "peak_big_day_m": 2.1,
+      "typical_period_s": 10.4,
+      "character": "Exposed — real surf, and rip current to respect"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

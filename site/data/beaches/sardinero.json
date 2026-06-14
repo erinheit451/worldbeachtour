@@ -50,5 +50,60 @@
     },
     "color": "golden",
     "description": "In total about 4,300 feet (1,300 meters) long and 260 feet (79 meters) deep, the beach features fine golden sand and moderate waves; it is bordered by a wide promenade running its entire length."
+  },
+  "waves": {
+    "height_mean_m": [
+      2.36,
+      2.31,
+      2.25,
+      1.63,
+      1.36,
+      1.03,
+      1.22,
+      1.44,
+      1.51,
+      1.87,
+      2.19,
+      2.43
+    ],
+    "height_big_m": [
+      3.92,
+      4.98,
+      3.88,
+      3.16,
+      2.02,
+      1.76,
+      1.82,
+      1.94,
+      2.52,
+      3.08,
+      4.42,
+      3.7
+    ],
+    "period_mean_s": [
+      11.86,
+      12.53,
+      11.97,
+      10.06,
+      8.78,
+      7.71,
+      8.39,
+      9.28,
+      9.71,
+      10.96,
+      11.02,
+      11.5
+    ],
+    "summary": {
+      "annual_mean_m": 1.8,
+      "biggest_month": "Dec",
+      "biggest_month_m": 2.43,
+      "calmest_month": "Jun",
+      "calmest_month_m": 1.03,
+      "peak_big_day_m": 4.98,
+      "typical_period_s": 10.3,
+      "character": "Exposed — real surf, and rip current to respect"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

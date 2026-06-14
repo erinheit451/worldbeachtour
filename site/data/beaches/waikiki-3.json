@@ -54,5 +54,60 @@
     },
     "color": "golden",
     "description": "The sandy beach is almost entirely man-made."
+  },
+  "waves": {
+    "height_mean_m": [
+      1.33,
+      1.56,
+      1.38,
+      1.45,
+      1.37,
+      1.34,
+      1.28,
+      1.35,
+      1.24,
+      1.14,
+      1.31,
+      1.24
+    ],
+    "height_big_m": [
+      1.76,
+      2.04,
+      1.76,
+      1.92,
+      1.76,
+      1.7,
+      1.54,
+      1.74,
+      1.48,
+      1.46,
+      1.78,
+      1.62
+    ],
+    "period_mean_s": [
+      10.55,
+      9.04,
+      9.15,
+      9.19,
+      10.38,
+      9.71,
+      8.88,
+      9.57,
+      9.56,
+      10.76,
+      9.24,
+      9.94
+    ],
+    "summary": {
+      "annual_mean_m": 1.33,
+      "biggest_month": "Feb",
+      "biggest_month_m": 1.56,
+      "calmest_month": "Oct",
+      "calmest_month_m": 1.14,
+      "peak_big_day_m": 2.04,
+      "typical_period_s": 9.7,
+      "character": "Exposed — real surf, and rip current to respect"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

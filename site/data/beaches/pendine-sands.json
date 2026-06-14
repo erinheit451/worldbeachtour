@@ -53,5 +53,60 @@
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     },
     "description": "Four other record-breaking runs were made on Pendine Sands between 1924 and 1927; two more by Campbell, and two by Welshman J."
+  },
+  "waves": {
+    "height_mean_m": [
+      1.8,
+      1.32,
+      1.73,
+      1.32,
+      0.73,
+      0.79,
+      1.17,
+      1.28,
+      1.14,
+      1.41,
+      1.51,
+      1.86
+    ],
+    "height_big_m": [
+      3.12,
+      1.86,
+      2.52,
+      2.58,
+      1.32,
+      1.52,
+      1.9,
+      2.02,
+      2.74,
+      2.06,
+      2.74,
+      3.24
+    ],
+    "period_mean_s": [
+      9.7,
+      8.63,
+      9.5,
+      8.5,
+      8.07,
+      6.76,
+      6.64,
+      6.73,
+      7.55,
+      8.55,
+      8.73,
+      8.08
+    ],
+    "summary": {
+      "annual_mean_m": 1.34,
+      "biggest_month": "Dec",
+      "biggest_month_m": 1.86,
+      "calmest_month": "May",
+      "calmest_month_m": 0.73,
+      "peak_big_day_m": 3.24,
+      "typical_period_s": 8.1,
+      "character": "Exposed — real surf, and rip current to respect"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

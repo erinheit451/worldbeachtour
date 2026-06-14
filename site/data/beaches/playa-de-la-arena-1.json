@@ -53,5 +53,60 @@
     },
     "color": "black",
     "description": "The playa is entirely made of black, natural, volcanic sand."
+  },
+  "waves": {
+    "height_mean_m": [
+      1.55,
+      1.48,
+      1.86,
+      1.4,
+      1.24,
+      1.15,
+      1.27,
+      1.41,
+      1.24,
+      1.55,
+      1.39,
+      1.42
+    ],
+    "height_big_m": [
+      1.98,
+      2.34,
+      2.84,
+      2.12,
+      1.58,
+      1.48,
+      1.56,
+      1.78,
+      1.72,
+      2.08,
+      2.3,
+      1.84
+    ],
+    "period_mean_s": [
+      11.55,
+      11.48,
+      11.79,
+      10.47,
+      9.35,
+      8.8,
+      8.07,
+      9.03,
+      9.85,
+      11.24,
+      11.76,
+      10.84
+    ],
+    "summary": {
+      "annual_mean_m": 1.41,
+      "biggest_month": "Mar",
+      "biggest_month_m": 1.86,
+      "calmest_month": "Jun",
+      "calmest_month_m": 1.15,
+      "peak_big_day_m": 2.84,
+      "typical_period_s": 10.4,
+      "character": "Exposed — real surf, and rip current to respect"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

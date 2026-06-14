@@ -1,38 +1,21 @@
 {
   "slug": "cala-goloritze",
   "name": "Cala Goloritzè",
-  "centroid_lat": 40.1080358,
-  "centroid_lng": 9.6897108,
   "country_code": "IT",
   "admin_level_1": "Sardinia",
-  "admin_level_2": null,
+  "centroid_lat": 40.1080358,
+  "centroid_lng": 9.6897108,
   "water_body_type": "ocean",
   "substrate_type": "pebble",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/121848768",
-      "source_url": "https://www.openstreetmap.org/way/121848768"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q2933429",
-      "source_url": "https://www.wikidata.org/wiki/Q2933429"
-    }
-  ],
-  "attributes": {
-    "facilities": {
-      "wheelchair_access": false,
-      "fee_required": true
-    },
-    "safety": {
-      "lifeguard": false
-    },
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cala%20Goloritz%C3%A9%201.JPG",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Cala_Goloritz%C3%A9"
-    }
+  "slope_pct": 8.136448669433594,
+  "nearshore_depth_m": 22.5625,
+  "classification": {
+    "primary_type": "Pebble",
+    "primary_type_slug": "pebble",
+    "coastal_type": "Pebble",
+    "coastal_type_slug": "pebble",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Baunei",
   "nearest_city_distance_km": 8.8,
@@ -41,26 +24,309 @@
     "name": "Olbia Costa Smeralda Airport",
     "distance_km": 89.1
   },
-  "safety": {
-    "lifeguard": false,
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      11.3722,
+      11.3833,
+      12.8611,
+      15.25,
+      19.2056,
+      23.4778,
+      26.7722,
+      27.0611,
+      23.7333,
+      19.35,
+      15.0556,
+      12.2556
+    ],
+    "air_temp_low": [
+      6.5944,
+      6.4833,
+      7.3056,
+      9.0278,
+      12.8333,
+      16.4667,
+      19.5611,
+      20.0056,
+      17.3389,
+      14.1556,
+      10.1056,
+      7.9611
+    ],
+    "rain_mm": [
+      44.0,
+      45.0,
+      42.0,
+      36.0,
+      26.0,
+      18.0,
+      7.0,
+      14.0,
+      39.0,
+      55.0,
+      59.0,
+      69.0
+    ],
+    "wind_speed": [
+      4.3444,
+      4.9056,
+      4.5,
+      4.6333,
+      3.8833,
+      4.0,
+      3.8278,
+      3.7611,
+      3.9,
+      3.8556,
+      4.1056,
+      4.7611
+    ],
+    "sun_hours": [
+      6792.0,
+      9861.0,
+      13804.0,
+      17749.0,
+      21950.0,
+      23904.0,
+      25320.0,
+      22260.0,
+      16962.0,
+      12167.0,
+      7756.0,
+      6105.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "facilities": {
-    "wheelchair_accessible": false
+  "tides": {
+    "range_spring_m": 0.25749625245361246,
+    "range_neap_m": 0.13336870409834542,
+    "type": "mixed",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Cala_Goloritz%C3%A9",
-  "notability_score": 31.8,
-  "data_completeness_pct": 20.8,
   "sand": {
     "predicted": {
       "q_pct": 50.2,
       "f_pct": 9.0,
       "l_pct": 40.9,
       "regime": "lithic-rich (volcanic/collisional terrane)",
+      "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Goloritze_pano.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Goloritze_pano.jpg/1280px-Goloritze_pano.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:KlausF&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:KlausF (page does not exist)\">KlausF</a>",
+      "title": "Goloritze pano.jpg",
+      "width": 10526,
+      "height": 4517
     },
-    "color": "white",
-    "description": "The beach is composed of small white pebbles and sand."
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Arco_naturale_cala_Goloritz%C3%A9.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Arco_naturale_cala_Goloritz%C3%A9.jpg/1280px-Arco_naturale_cala_Goloritz%C3%A9.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bakis66&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bakis66 (page does not exist)\">Bakis66</a>",
+      "title": "Arco naturale cala Goloritzé.jpg",
+      "width": 5664,
+      "height": 3184
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Cala_Goloritz%C3%A8%2C_Parco_nazionale_del_Golfo_di_Orosei_e_del_Gennargentu%2C_Dorgali_NU%2C_Sardinia%2C_Italy_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Cala_Goloritz%C3%A8%2C_Parco_nazionale_del_Golfo_di_Orosei_e_del_Gennargentu%2C_Dorgali_NU%2C_Sardinia%2C_Italy_-_panoramio.jpg/1280px-Cala_Goloritz%C3%A8%2C_Parco_nazionale_del_Golfo_di_Orosei_e_del_Gennargentu%2C_Dorgali_NU%2C_Sardinia%2C_Italy_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161026005838/http://www.panoramio.com/user/861544?with_photo_id=78377082\">trolvag</a>",
+      "title": "Cala Goloritzè, Parco nazionale del Golfo di Orosei e del Gennargentu, Dorgali NU, Sardinia, Italy - panoramio.jpg",
+      "width": 5256,
+      "height": 3420
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/08040_Baunei%2C_Province_of_Ogliastra%2C_Italy_-_panoramio_%282%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/08040_Baunei%2C_Province_of_Ogliastra%2C_Italy_-_panoramio_%282%29.jpg/1280px-08040_Baunei%2C_Province_of_Ogliastra%2C_Italy_-_panoramio_%282%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161030104620/http://www.panoramio.com/user/8331982?with_photo_id=108264448\">goldpicasa</a>",
+      "title": "08040 Baunei, Province of Ogliastra, Italy - panoramio (2).jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Italy_-_panoramio_%286%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Italy_-_panoramio_%286%29.jpg/1280px-Italy_-_panoramio_%286%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161029023036/http://www.panoramio.com/user/8331982?with_photo_id=108264392\">goldpicasa</a>",
+      "title": "Italy - panoramio (6).jpg",
+      "width": 5100,
+      "height": 3400
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Cala_Coloritze.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Cala_Coloritze.JPG/1280px-Cala_Coloritze.JPG",
+      "license": "CC BY-SA 2.5",
+      "author_html": "<a href=\"https://de.wikipedia.org/wiki/Benutzer:Yesuitus2001\" class=\"extiw\" title=\"de:Benutzer:Yesuitus2001\">Yesuitus2001</a>",
+      "title": "Cala Coloritze.JPG",
+      "width": 4696,
+      "height": 3215
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Cala_Coloritze_vom_Land.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Cala_Coloritze_vom_Land.JPG/1280px-Cala_Coloritze_vom_Land.JPG",
+      "license": "CC BY-SA 2.5",
+      "author_html": "<a href=\"https://de.wikipedia.org/wiki/Benutzer:Yesuitus2001\" class=\"extiw\" title=\"de:Benutzer:Yesuitus2001\">Yesuitus2001</a>",
+      "title": "Cala Coloritze vom Land.JPG",
+      "width": 4592,
+      "height": 3056
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Cala_Goloritz%C3%A8_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Cala_Goloritz%C3%A8_-_panoramio.jpg/1280px-Cala_Goloritz%C3%A8_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161010111812/http://www.panoramio.com/user/410152?with_photo_id=2795941\">Carlo Pelagalli</a>",
+      "title": "Cala Goloritzè - panoramio.jpg",
+      "width": 3888,
+      "height": 2592
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 22.5625,
+    "lifeguard": false
+  },
+  "conservation": {
+    "name": "Golfo di Orosei",
+    "type": "Special protection area (birds directive)",
+    "iucn": "Not Reported",
+    "unesco": false
+  },
+  "facilities": {
+    "wheelchair": false
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 14,
+        "top": [
+          {
+            "common": "carob tree",
+            "latin": "Ceratonia siliqua",
+            "obs": 7,
+            "iucn": null
+          },
+          {
+            "common": "strawberry tree",
+            "latin": "Arbutus unedo",
+            "obs": 6,
+            "iucn": null
+          },
+          {
+            "common": "Hoary Rock-rose",
+            "latin": "Cistus creticus",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Autumn Arum",
+            "latin": "Arum pictum",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Spring Sowbread",
+            "latin": "Cyclamen repandum",
+            "obs": 3,
+            "iucn": null
+          },
+          {
+            "common": "Holm oak",
+            "latin": "Quercus ilex",
+            "obs": 3,
+            "iucn": null
+          },
+          {
+            "common": "Red Rockrose-parasite",
+            "latin": "Cytinus ruber",
+            "obs": 3,
+            "iucn": null
+          },
+          {
+            "common": "Corsican Heath",
+            "latin": "Erica terminalis",
+            "obs": 3,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 2,
+        "top": [
+          {
+            "common": "Tyrrhenian Wall Lizard",
+            "latin": "Podarcis tiliguerta",
+            "obs": 10,
+            "iucn": null
+          },
+          {
+            "common": "Fitzinger's Algyroides",
+            "latin": "Algyroides fitzingeri",
+            "obs": 2,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 2,
+        "top": [
+          {
+            "common": "Two-tailed Pasha",
+            "latin": "Charaxes jasius",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "Corsican Heath",
+            "latin": "Coenonympha corinna",
+            "obs": 2,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Fish",
+        "key": "fish",
+        "count": 1,
+        "top": [
+          {
+            "common": "Saddled Seabream",
+            "latin": "Oblada melanurus",
+            "obs": 5,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 1,
+        "top": [
+          {
+            "common": "Eleonora's Falcon",
+            "latin": "Falco eleonorae",
+            "obs": 2,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -116,5 +382,25 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 91% of beaches in its country",
+      "detail": "Peak-month high ≈ 27°C"
+    }
+  ],
+  "wikidata_id": "Q2933429",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cala_Goloritz%C3%A9",
+  "wikipedia_page_views_annual": 39842,
+  "notability_score": 31.8,
+  "data_completeness_pct": 66.7,
+  "best_months": [
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep"
+  ],
+  "swim_suitability": "fair"
 }

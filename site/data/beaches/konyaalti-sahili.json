@@ -49,5 +49,60 @@
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     },
     "description": "The beach is located on the western side of the city and stretches for 13 km primarily composed of fine pebbles, but also has some sand."
+  },
+  "waves": {
+    "height_mean_m": [
+      0.69,
+      0.43,
+      0.49,
+      0.4,
+      0.39,
+      0.28,
+      0.32,
+      0.28,
+      0.3,
+      0.24,
+      0.56,
+      0.65
+    ],
+    "height_big_m": [
+      1.68,
+      0.92,
+      0.92,
+      0.78,
+      0.78,
+      0.4,
+      0.48,
+      0.44,
+      0.46,
+      0.52,
+      1.18,
+      1.6
+    ],
+    "period_mean_s": [
+      5.38,
+      4.55,
+      4.84,
+      4.43,
+      4.45,
+      3.96,
+      3.78,
+      4.17,
+      4.24,
+      4.05,
+      4.88,
+      5.35
+    ],
+    "summary": {
+      "annual_mean_m": 0.42,
+      "biggest_month": "Jan",
+      "biggest_month_m": 0.69,
+      "calmest_month": "Oct",
+      "calmest_month_m": 0.24,
+      "peak_big_day_m": 1.68,
+      "typical_period_s": 4.5,
+      "character": "Calm — gentle swimming water most of the year"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

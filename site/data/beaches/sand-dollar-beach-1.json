@@ -48,5 +48,60 @@
       "regime": "lithic-rich (volcanic/collisional terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "waves": {
+    "height_mean_m": [
+      3.01,
+      2.86,
+      2.5,
+      2.04,
+      1.85,
+      1.81,
+      1.5,
+      1.4,
+      1.61,
+      1.9,
+      2.22,
+      2.77
+    ],
+    "height_big_m": [
+      4.18,
+      4.48,
+      3.44,
+      2.86,
+      2.42,
+      2.3,
+      1.82,
+      1.84,
+      2.26,
+      2.64,
+      3.08,
+      4.2
+    ],
+    "period_mean_s": [
+      12.94,
+      12.66,
+      11.5,
+      10.35,
+      10.41,
+      9.5,
+      9.0,
+      9.29,
+      10.53,
+      11.48,
+      12.17,
+      13.27
+    ],
+    "summary": {
+      "annual_mean_m": 2.12,
+      "biggest_month": "Jan",
+      "biggest_month_m": 3.01,
+      "calmest_month": "Aug",
+      "calmest_month_m": 1.4,
+      "peak_big_day_m": 4.48,
+      "typical_period_s": 11.1,
+      "character": "Heavy — a powerful, surf-driven coast"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

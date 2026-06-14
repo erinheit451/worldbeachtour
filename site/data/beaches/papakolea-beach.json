@@ -75,5 +75,60 @@
       "reference_photo_url": "https://commons.wikimedia.org/wiki/File:Green_Sand_Beach_-_panoramio.jpg",
       "reference_photo_attribution": "Wikimedia Commons, CC BY-SA"
     }
+  },
+  "waves": {
+    "height_mean_m": [
+      1.96,
+      2.35,
+      2.03,
+      2.0,
+      1.91,
+      1.91,
+      1.98,
+      2.08,
+      1.86,
+      1.71,
+      2.04,
+      2.06
+    ],
+    "height_big_m": [
+      2.36,
+      3.2,
+      2.64,
+      2.46,
+      2.34,
+      2.36,
+      2.38,
+      2.5,
+      2.26,
+      2.3,
+      2.7,
+      2.52
+    ],
+    "period_mean_s": [
+      10.22,
+      8.79,
+      8.85,
+      8.54,
+      9.04,
+      8.4,
+      7.94,
+      8.32,
+      8.3,
+      9.37,
+      8.69,
+      9.14
+    ],
+    "summary": {
+      "annual_mean_m": 1.99,
+      "biggest_month": "Feb",
+      "biggest_month_m": 2.35,
+      "calmest_month": "Oct",
+      "calmest_month_m": 1.71,
+      "peak_big_day_m": 3.2,
+      "typical_period_s": 8.8,
+      "character": "Exposed — real surf, and rip current to respect"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

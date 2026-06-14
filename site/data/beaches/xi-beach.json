@@ -53,5 +53,60 @@
     },
     "color": "red",
     "description": "Particle size analysis of these sediments revealed that they consist of 1–2% sand, 29–54% silt, and 44–70% clay."
+  },
+  "waves": {
+    "height_mean_m": [
+      1.63,
+      1.43,
+      1.4,
+      1.2,
+      1.01,
+      0.76,
+      0.82,
+      0.77,
+      0.78,
+      0.95,
+      1.63,
+      1.43
+    ],
+    "height_big_m": [
+      3.0,
+      2.76,
+      2.26,
+      1.96,
+      1.96,
+      1.62,
+      1.58,
+      1.2,
+      1.54,
+      1.68,
+      3.36,
+      2.52
+    ],
+    "period_mean_s": [
+      6.4,
+      6.15,
+      6.0,
+      5.77,
+      5.65,
+      5.11,
+      4.86,
+      4.85,
+      5.25,
+      5.45,
+      6.14,
+      6.2
+    ],
+    "summary": {
+      "annual_mean_m": 1.15,
+      "biggest_month": "Jan",
+      "biggest_month_m": 1.63,
+      "calmest_month": "Jun",
+      "calmest_month_m": 0.76,
+      "peak_big_day_m": 3.36,
+      "typical_period_s": 5.7,
+      "character": "Mixed — usually swimmable, with a livelier season"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
   }
 }

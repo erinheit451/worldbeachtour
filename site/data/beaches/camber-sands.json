@@ -1,45 +1,22 @@
 {
   "slug": "camber-sands",
   "name": "Camber Sands",
-  "centroid_lat": 50.9319289,
-  "centroid_lng": 0.7924184,
   "country_code": "GB",
   "admin_level_1": "England",
-  "admin_level_2": null,
+  "centroid_lat": 50.9319289,
+  "centroid_lng": 0.7924184,
   "water_body_type": "ocean",
   "substrate_type": "sand",
   "beach_length_m": 4600.0,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/249568121",
-      "source_url": "https://www.openstreetmap.org/way/249568121"
-    },
-    {
-      "source_name": "osm",
-      "source_id": "way/254522995",
-      "source_url": "https://www.openstreetmap.org/way/254522995"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q5025038",
-      "source_url": "https://www.wikidata.org/wiki/Q5025038"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Camber%20Sands%20at%20Low%20Tide.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Camber_Sands"
-    },
-    "safety": {
-      "cyclone_count_50yr": "0",
-      "cyclone_max_category": "3"
-    }
+  "slope_pct": 0.27196474075317384,
+  "nearshore_depth_m": 5.064294815063477,
+  "classification": {
+    "primary_type": "Sand",
+    "primary_type_slug": "sand",
+    "coastal_type": "Sand",
+    "coastal_type_slug": "sand",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Rye",
   "nearest_city_distance_km": 4.6,
@@ -48,23 +25,337 @@
     "name": "Lydd London Ashford Airport",
     "distance_km": 10.6
   },
-  "safety": {
-    "lifeguard": false,
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      6.7235,
+      7.2471,
+      10.2,
+      12.6941,
+      16.5294,
+      19.3,
+      21.8765,
+      21.8,
+      18.7,
+      14.6,
+      10.1,
+      7.3882
+    ],
+    "air_temp_low": [
+      1.3353,
+      1.2294,
+      3.0,
+      4.5,
+      7.7,
+      10.5235,
+      12.7,
+      12.5294,
+      10.1765,
+      7.4353,
+      3.7941,
+      2.0529
+    ],
+    "rain_mm": [
+      75.0,
+      46.0,
+      52.0,
+      43.0,
+      40.0,
+      47.0,
+      41.0,
+      48.0,
+      63.0,
+      78.0,
+      77.0,
+      76.0
+    ],
+    "wind_speed": [
+      6.1765,
+      5.7,
+      5.6529,
+      5.1059,
+      5.0353,
+      4.6294,
+      4.7,
+      4.6294,
+      4.9824,
+      5.2706,
+      5.5059,
+      5.7941
+    ],
+    "sun_hours": [
+      2810.0,
+      5031.0,
+      8989.0,
+      13973.0,
+      17138.0,
+      18752.0,
+      17867.0,
+      15273.0,
+      11035.0,
+      6606.0,
+      3350.0,
+      2205.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Camber_Sands",
-  "notability_score": 36.9,
-  "data_completeness_pct": 25.0,
+  "tides": {
+    "range_spring_m": 6.972039837969565,
+    "range_neap_m": 3.5364795586535918,
+    "type": "semidiurnal",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 45.7,
       "f_pct": 7.6,
       "l_pct": 46.8,
       "regime": "lithic-rich (volcanic/collisional terrane)",
+      "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 1,
+    "paragraph": "1 tropical-cyclone track have passed within range of this coast in the historical record (IBTrACS, 1963–1963).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Camber_Sands_-_geograph.org.uk_-_3225558.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Camber_Sands_-_geograph.org.uk_-_3225558.jpg/1280px-Camber_Sands_-_geograph.org.uk_-_3225558.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/10354\">Oast House Archive</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Camber_Sands_-_geograph.org.uk_-_3225558.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png\" decoding=\"async\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+      "title": "Camber Sands - geograph.org.uk - 3225558.jpg",
+      "width": 7944,
+      "height": 3209
     },
-    "color": "golden",
-    "description": "Follow That Camel was shot here during the early months of 1967, with Camber Sands representing the Sahara Desert, although filming had to be stopped several times because the dunes were covered in snow."
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Camber_Beach_%2814178868463%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Camber_Beach_%2814178868463%29.jpg/1280px-Camber_Beach_%2814178868463%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/31363949@N02\">Leonard  Bentley</a> from Iden, East Sussex, UK",
+      "title": "Camber Beach (14178868463).jpg",
+      "width": 4416,
+      "height": 3312
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Camber_Sands_-_and_adjacent_buildings_-_geograph.org.uk_-_7253372.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Camber_Sands_-_and_adjacent_buildings_-_geograph.org.uk_-_7253372.jpg/1280px-Camber_Sands_-_and_adjacent_buildings_-_geograph.org.uk_-_7253372.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/1768\">Ian Hawfinch</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Camber_Sands_-_and_adjacent_buildings_-_geograph.org.uk_-_7253372.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png\" decoding=\"async\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+      "title": "Camber Sands - and adjacent buildings - geograph.org.uk - 7253372.jpg",
+      "width": 4030,
+      "height": 2266
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Camber_Sands_-_geograph.org.uk_-_7671143.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Camber_Sands_-_geograph.org.uk_-_7671143.jpg/1280px-Camber_Sands_-_geograph.org.uk_-_7671143.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/14760\">Shaun Ferguson</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Camber_Sands_-_geograph.org.uk_-_7671143.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png\" decoding=\"async\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+      "title": "Camber Sands - geograph.org.uk - 7671143.jpg",
+      "width": 4000,
+      "height": 2250
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Camber_Beach_%2816609876392%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Camber_Beach_%2816609876392%29.jpg/1280px-Camber_Beach_%2816609876392%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/31363949@N02\">Leonard  Bentley</a> from Iden, East Sussex, UK",
+      "title": "Camber Beach (16609876392).jpg",
+      "width": 3611,
+      "height": 3513
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Camber_Sands_at_Low_Tide.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Camber_Sands_at_Low_Tide.jpg/1280px-Camber_Sands_at_Low_Tide.jpg",
+      "license": "Public domain",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Segaboyno2010&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Segaboyno2010 (page does not exist)\">Segaboyno2010</a>",
+      "title": "Camber Sands at Low Tide.jpg",
+      "width": 2560,
+      "height": 1920
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Camber_Sands_%28144268089%29.jpeg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Camber_Sands_%28144268089%29.jpeg/1280px-Camber_Sands_%28144268089%29.jpeg",
+      "license": "CC BY 3.0",
+      "author_html": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/JamesRobertButtenshaw\">James Robert Buttenshaw</a></div>",
+      "title": "Camber Sands (144268089).jpeg",
+      "width": 2048,
+      "height": 1367
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Camber_Beach_%2814155315731%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Camber_Beach_%2814155315731%29.jpg/1280px-Camber_Beach_%2814155315731%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/31363949@N02\">Leonard  Bentley</a> from Iden, East Sussex, UK",
+      "title": "Camber Beach (14155315731).jpg",
+      "width": 1788,
+      "height": 1194
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 5.064294815063477,
+    "lifeguard": false
+  },
+  "conservation": {
+    "name": "Dungeness, Romney Marsh and Rye Bay",
+    "type": "Site of special scientific interest",
+    "iucn": "IV",
+    "unesco": false
+  },
+  "facilities": {
+    "food_nearby": true
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 9,
+        "top": [
+          {
+            "common": "Eurasian Oystercatcher",
+            "latin": "Haematopus ostralegus",
+            "obs": 25,
+            "iucn": null
+          },
+          {
+            "common": "Common Redshank",
+            "latin": "Tringa totanus",
+            "obs": 23,
+            "iucn": null
+          },
+          {
+            "common": "Little Egret",
+            "latin": "Egretta garzetta",
+            "obs": 23,
+            "iucn": null
+          },
+          {
+            "common": "European Herring Gull",
+            "latin": "Larus argentatus",
+            "obs": 20,
+            "iucn": null
+          },
+          {
+            "common": "Ruddy Turnstone",
+            "latin": "Arenaria interpres",
+            "obs": 14,
+            "iucn": null
+          },
+          {
+            "common": "Eurasian Curlew",
+            "latin": "Numenius arquata",
+            "obs": 13,
+            "iucn": null
+          },
+          {
+            "common": "Common Ringed Plover",
+            "latin": "Charadrius hiaticula",
+            "obs": 12,
+            "iucn": null
+          },
+          {
+            "common": "Pied Avocet",
+            "latin": "Recurvirostra avosetta",
+            "obs": 11,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 8,
+        "top": [
+          {
+            "common": "sea kale",
+            "latin": "Crambe maritima",
+            "obs": 38,
+            "iucn": null
+          },
+          {
+            "common": "Yellow Horned Poppy",
+            "latin": "Glaucium flavum",
+            "obs": 27,
+            "iucn": null
+          },
+          {
+            "common": "Sea-buckthorn",
+            "latin": "Hippophae rhamnoides",
+            "obs": 26,
+            "iucn": null
+          },
+          {
+            "common": "viper's-bugloss",
+            "latin": "Echium vulgare",
+            "obs": 23,
+            "iucn": null
+          },
+          {
+            "common": "bittersweet nightshade",
+            "latin": "Solanum dulcamara",
+            "obs": 12,
+            "iucn": null
+          },
+          {
+            "common": "Wand Mullein",
+            "latin": "Verbascum virgatum",
+            "obs": 11,
+            "iucn": null
+          },
+          {
+            "common": "Sea Campion",
+            "latin": "Silene uniflora",
+            "obs": 10,
+            "iucn": null
+          },
+          {
+            "common": "Sea Spurge",
+            "latin": "Euphorbia paralias",
+            "obs": 8,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 2,
+        "top": [
+          {
+            "common": "Common Atlantic Slippersnail",
+            "latin": "Crepidula fornicata",
+            "obs": 12,
+            "iucn": null
+          },
+          {
+            "common": "Spiny Spider Crab",
+            "latin": "Maja brachydactyla",
+            "obs": 9,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Mammals",
+        "key": "mammal",
+        "count": 1,
+        "top": [
+          {
+            "common": "European Rabbit",
+            "latin": "Oryctolagus cuniculus",
+            "obs": 8,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -120,5 +411,30 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Warmer than 96% of beaches in its country",
+      "detail": "Peak-month high ≈ 22°C"
+    },
+    {
+      "metric": "Beach season",
+      "text": "Longer beach season than 80% of beaches in its country",
+      "detail": "5 comfortable months a year"
+    }
+  ],
+  "wikidata_id": "Q5025038",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Camber_Sands",
+  "wikipedia_page_views_annual": 68791,
+  "notability_score": 36.9,
+  "data_completeness_pct": 66.7,
+  "best_months": [
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep"
+  ],
+  "swim_suitability": "fair"
 }
