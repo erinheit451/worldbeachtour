@@ -1,41 +1,21 @@
 {
   "slug": "ramakrishna-beach",
   "name": "Ramakrishna Beach",
-  "centroid_lat": 17.712103,
-  "centroid_lng": 83.3221954,
   "country_code": "IN",
   "admin_level_1": "Andhra Pradesh",
-  "admin_level_2": null,
+  "centroid_lat": 17.712103,
+  "centroid_lng": 83.3221954,
   "water_body_type": "ocean",
   "substrate_type": "sand",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/63133082",
-      "source_url": "https://www.openstreetmap.org/way/63133082"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q7288804",
-      "source_url": "https://www.wikidata.org/wiki/Q7288804"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "safety": {
-      "lifeguard": true,
-      "cyclone_count_50yr": "19",
-      "cyclone_max_category": "3"
-    },
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/RK%20Beach%20Visakhapatnam%20Nov%202012%20-%2002.JPG",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/RK_Beach"
-    }
+  "slope_pct": 1.0278830289840697,
+  "nearshore_depth_m": 23.75,
+  "classification": {
+    "primary_type": "Sand",
+    "primary_type_slug": "sand",
+    "coastal_type": "Sand",
+    "coastal_type_slug": "sand",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Yarada",
   "nearest_city_distance_km": 7.8,
@@ -44,24 +24,282 @@
     "name": "Visakhapatnam International Airport",
     "distance_km": 10.1
   },
-  "safety": {
-    "lifeguard": true,
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      28.1333,
+      30.075,
+      32.25,
+      33.8833,
+      35.1667,
+      34.35,
+      32.0417,
+      31.7875,
+      31.9375,
+      31.3583,
+      29.6958,
+      28.0875
+    ],
+    "air_temp_low": [
+      19.0125,
+      20.9625,
+      23.5167,
+      26.025,
+      27.7417,
+      27.6583,
+      26.2792,
+      25.9583,
+      25.7333,
+      24.5667,
+      21.8125,
+      19.2125
+    ],
+    "rain_mm": [
+      10.0,
+      8.0,
+      13.0,
+      22.0,
+      54.0,
+      111.0,
+      122.0,
+      148.0,
+      174.0,
+      245.0,
+      69.0,
+      6.0
+    ],
+    "wind_speed": [
+      1.8583,
+      2.1875,
+      2.4042,
+      3.2208,
+      3.5833,
+      3.5,
+      3.075,
+      2.8042,
+      2.2,
+      1.8917,
+      1.9917,
+      2.025
+    ],
+    "sun_hours": [
+      18527.0,
+      20741.0,
+      22996.0,
+      23784.0,
+      23196.0,
+      19452.0,
+      17568.0,
+      17402.0,
+      18161.0,
+      18382.0,
+      17706.0,
+      17409.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "facilities": {
-    "restrooms": true
+  "tides": {
+    "range_spring_m": 1.3258649038189816,
+    "range_neap_m": 0.523438937215058,
+    "type": "semidiurnal",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/RK_Beach",
-  "notability_score": 30.6,
-  "data_completeness_pct": 25.0,
   "sand": {
     "predicted": {
       "q_pct": 92.5,
       "f_pct": 4.3,
       "l_pct": 3.2,
       "regime": "quartz-dominant",
+      "regime_plain": "Quartz-dominant",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 73,
+    "paragraph": "73 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1877–2024).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/RK_Beach_Night.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/RK_Beach_Night.jpg/1280px-RK_Beach_Night.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Av9&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Av9 (page does not exist)\">Av9</a>",
+      "title": "RK Beach Night.jpg",
+      "width": 4592,
+      "height": 3056
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Sunnt_morning.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Sunnt_morning.jpg/1280px-Sunnt_morning.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Abhishek_SingerVerma\" title=\"User:Abhishek SingerVerma\">Abhishek SingerVerma</a>",
+      "title": "Sunnt morning.jpg",
+      "width": 4208,
+      "height": 2368
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/RK_Beach_at_Sunset_time_03.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/RK_Beach_at_Sunset_time_03.JPG/1280px-RK_Beach_at_Sunset_time_03.JPG",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Adityamadhav83\" title=\"User:Adityamadhav83\">Adityamadhav83</a>",
+      "title": "RK Beach at Sunset time 03.JPG",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ramakrishna_Math%2C_Visakhapatnam.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ramakrishna_Math%2C_Visakhapatnam.jpg/1280px-Ramakrishna_Math%2C_Visakhapatnam.jpg",
+      "license": "CC0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:%E0%B0%A1%E0%B0%BE._%E0%B0%97%E0%B0%A8%E0%B1%8D%E0%B0%A8%E0%B0%B5%E0%B0%B0%E0%B0%AA%E0%B1%81_%E0%B0%A8%E0%B0%B0%E0%B0%B8%E0%B0%BF%E0%B0%82%E0%B0%B9%E0%B0%AE%E0%B1%82%E0%B0%B0%E0%B1%8D%E0%B0%A4%E0%B0%BF\" title=\"User:డా. గన్నవరపు నరసింహమూర్తి\">డా. గన్నవరపు నరసింహమూర్తి</a>",
+      "title": "Ramakrishna Math, Visakhapatnam.jpg",
+      "width": 3534,
+      "height": 2123
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Dinosaur_statue_at_RK_Beach_Visakhapatnam_06.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Dinosaur_statue_at_RK_Beach_Visakhapatnam_06.jpg/1280px-Dinosaur_statue_at_RK_Beach_Visakhapatnam_06.jpg",
+      "license": "CC0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Kasyap\" title=\"User:Kasyap\">Kasyap</a>",
+      "title": "Dinosaur statue at RK Beach Visakhapatnam 06.jpg",
+      "width": 3280,
+      "height": 1476
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Mermaids_Jala_Kanya_Statues_at_RK_Beach_Visakhapatnam_01.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Mermaids_Jala_Kanya_Statues_at_RK_Beach_Visakhapatnam_01.jpg/1280px-Mermaids_Jala_Kanya_Statues_at_RK_Beach_Visakhapatnam_01.jpg",
+      "license": "CC0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Kasyap\" title=\"User:Kasyap\">Kasyap</a>",
+      "title": "Mermaids Jala Kanya Statues at RK Beach Visakhapatnam 01.jpg",
+      "width": 3280,
+      "height": 1476
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Viswanatha_Satyanarayana%2C_Gurram_Jashua%2C_Dr._C_Narayana_Reddy_Statues_Statues_at_RK_Beach_Visakhapatnam_15.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Viswanatha_Satyanarayana%2C_Gurram_Jashua%2C_Dr._C_Narayana_Reddy_Statues_Statues_at_RK_Beach_Visakhapatnam_15.jpg/1280px-Viswanatha_Satyanarayana%2C_Gurram_Jashua%2C_Dr._C_Narayana_Reddy_Statues_Statues_at_RK_Beach_Visakhapatnam_15.jpg",
+      "license": "CC0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Kasyap\" title=\"User:Kasyap\">Kasyap</a>",
+      "title": "Viswanatha Satyanarayana, Gurram Jashua, Dr. C Narayana Reddy Statues Statues at RK Beach Visakhapatnam 15.jpg",
+      "width": 3280,
+      "height": 1476
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Sea_shore_on_vizg.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Sea_shore_on_vizg.jpg/1280px-Sea_shore_on_vizg.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Abhishek_SingerVerma\" title=\"User:Abhishek SingerVerma\">Abhishek SingerVerma</a>",
+      "title": "Sea shore on vizg.jpg",
+      "width": 2592,
+      "height": 1458
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 23.75,
+    "lifeguard": true
+  },
+  "facilities": {
+    "restrooms": true,
+    "food_nearby": true
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 15,
+        "top": [
+          {
+            "common": "elegant feather star",
+            "latin": "Tropiometra carinata",
+            "obs": 68,
+            "iucn": null
+          },
+          {
+            "common": "ocellate cowrie",
+            "latin": "Naria ocellata",
+            "obs": 40,
+            "iucn": null
+          },
+          {
+            "common": "Anjuna Anemone",
+            "latin": "Anthopleura anjunae",
+            "obs": 37,
+            "iucn": null
+          },
+          {
+            "common": "pot-hole urchin",
+            "latin": "Stomopneustes variolaris",
+            "obs": 32,
+            "iucn": null
+          },
+          {
+            "common": "Banded-leg swimming crab",
+            "latin": "Charybdis annulata",
+            "obs": 30,
+            "iucn": null
+          },
+          {
+            "common": "Blue Button",
+            "latin": "Porpita porpita",
+            "obs": 27,
+            "iucn": null
+          },
+          {
+            "common": "Mottled Lightfoot Crab",
+            "latin": "Grapsus albolineatus",
+            "obs": 24,
+            "iucn": null
+          },
+          {
+            "common": "Cellana cylindrica",
+            "latin": "Cellana cylindrica",
+            "obs": 23,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 5,
+        "top": [
+          {
+            "common": "Broadleaf Sea Lettuce",
+            "latin": "Ulva lactuca",
+            "obs": 22,
+            "iucn": null
+          },
+          {
+            "common": "Antennate bristle alga",
+            "latin": "Chaetomorpha antennina",
+            "obs": 18,
+            "iucn": null
+          },
+          {
+            "common": "Indian banyan",
+            "latin": "Ficus benghalensis",
+            "obs": 14,
+            "iucn": null
+          },
+          {
+            "common": "Coral Vine",
+            "latin": "Antigonon leptopus",
+            "obs": 13,
+            "iucn": null
+          },
+          {
+            "common": "Sea Grapes",
+            "latin": "Caulerpa racemosa",
+            "obs": 13,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -117,5 +355,33 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Warmer than 78% of beaches in its country",
+      "detail": "Peak-month high ≈ 35°C"
+    },
+    {
+      "metric": "Worldwide",
+      "text": "Among the warmest 2% of beaches on Earth",
+      "detail": null
+    }
+  ],
+  "wikidata_id": "Q7288804",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/RK_Beach",
+  "wikipedia_page_views_annual": 31520,
+  "notability_score": 30.6,
+  "data_completeness_pct": 62.5,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "may",
+    "jul",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

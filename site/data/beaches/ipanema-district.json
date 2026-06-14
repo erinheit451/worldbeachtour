@@ -1,26 +1,22 @@
 {
   "slug": "ipanema-district",
   "name": "Ipanema District",
-  "centroid_lat": -22.983819444,
-  "centroid_lng": -43.204527777,
   "country_code": "BR",
   "admin_level_1": "Rio de Janeiro",
-  "admin_level_2": null,
+  "centroid_lat": -22.983819444,
+  "centroid_lng": -43.204527777,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
   "beach_length_m": 9000.0,
-  "sources": [
-    {
-      "source_name": "wikidata",
-      "source_id": "Q468540",
-      "source_url": "https://www.wikidata.org/wiki/Q468540"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ipaneman%20beach%20Rio%20de%20Janeirossa.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Ipanema"
-    }
+  "slope_pct": 0.5146542072296143,
+  "nearshore_depth_m": 21.6875,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Rio de Janeiro",
   "nearest_city_distance_km": 9.0,
@@ -29,21 +25,261 @@
     "name": "Santos Dumont Airport",
     "distance_km": 9.2
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      30.8615,
+      31.2385,
+      30.1462,
+      28.3846,
+      26.9846,
+      26.2923,
+      26.0154,
+      26.5308,
+      26.3077,
+      26.9769,
+      28.1692,
+      29.1538
+    ],
+    "air_temp_low": [
+      20.8923,
+      21.2077,
+      20.8,
+      19.5077,
+      17.4538,
+      15.9385,
+      15.4,
+      15.7923,
+      16.6231,
+      17.8385,
+      19.0,
+      20.3462
+    ],
+    "rain_mm": [
+      136.0,
+      143.0,
+      158.0,
+      132.0,
+      82.0,
+      52.0,
+      42.0,
+      36.0,
+      46.0,
+      66.0,
+      74.0,
+      117.0
+    ],
+    "wind_speed": [
+      2.6077,
+      2.6769,
+      2.5077,
+      2.3769,
+      2.3308,
+      2.2077,
+      2.3769,
+      2.7,
+      2.9923,
+      3.2,
+      3.1077,
+      3.1
+    ],
+    "sun_hours": [
+      18849.0,
+      18289.0,
+      16529.0,
+      14418.0,
+      11792.0,
+      11280.0,
+      11829.0,
+      14073.0,
+      14184.0,
+      15871.0,
+      16458.0,
+      16165.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Ipanema",
-  "notability_score": 34.1,
-  "data_completeness_pct": 25.0,
+  "tides": {
+    "range_spring_m": 0.939190647677453,
+    "range_neap_m": 0.2515612890505962,
+    "type": "mixed",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 92.3,
       "f_pct": 4.3,
       "l_pct": 3.4,
       "regime": "quartz-dominant",
+      "regime_plain": "Quartz-dominant",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Escrit%C3%B3rios_da_Companhia_Carioca_em_Ipanema_%28013RJ012042%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Escrit%C3%B3rios_da_Companhia_Carioca_em_Ipanema_%28013RJ012042%29.jpg/1280px-Escrit%C3%B3rios_da_Companhia_Carioca_em_Ipanema_%28013RJ012042%29.jpg",
+      "license": "Public domain",
+      "author_html": "Núcleo de digitalização / IMS",
+      "title": "Escritórios da Companhia Carioca em Ipanema (013RJ012042).jpg",
+      "width": 8983,
+      "height": 6847
     },
-    "color": "golden"
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ipanema_rio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Ipanema_rio.jpg/1280px-Ipanema_rio.jpg",
+      "license": "CC BY-SA 3.0 de",
+      "author_html": "<bdi><a href=\"https://www.wikidata.org/wiki/Q78209280\" class=\"extiw\" title=\"d:Q78209280\"><span title=\"Photographer\">Arne Müseler</span></a></bdi>",
+      "title": "Ipanema rio.jpg",
+      "width": 7453,
+      "height": 4971
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Bairro_de_Ipanema%2C_early_20th_century.tif",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Bairro_de_Ipanema%2C_early_20th_century.tif/lossless-page1-1280px-Bairro_de_Ipanema%2C_early_20th_century.tif.png",
+      "license": "Public domain",
+      "author_html": "<div class=\"fn value\">\nPhoto Lopes</div>",
+      "title": "Bairro de Ipanema, early 20th century.tif",
+      "width": 5489,
+      "height": 3953
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Colch%C3%B5es_Botafogo.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Colch%C3%B5es_Botafogo.jpg/1280px-Colch%C3%B5es_Botafogo.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Eduardo_P\" title=\"User:Eduardo P\">Eduardo P</a>",
+      "title": "Colchões Botafogo.jpg",
+      "width": 4320,
+      "height": 3240
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Floresta_nacional_de_ipanema.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Floresta_nacional_de_ipanema.jpg/1280px-Floresta_nacional_de_ipanema.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Edmilson_sanches&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Edmilson sanches (page does not exist)\">Edmilson sanches</a>",
+      "title": "Floresta nacional de ipanema.jpg",
+      "width": 4224,
+      "height": 3168
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/1_ipanema_beach_vidigal_sunset.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/1_ipanema_beach_vidigal_sunset.jpg/1280px-1_ipanema_beach_vidigal_sunset.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "chensiyuan",
+      "title": "1 ipanema beach vidigal sunset.jpg",
+      "width": 4217,
+      "height": 2616
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ipanema_Beach_%284589735501%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Ipanema_Beach_%284589735501%29.jpg/1280px-Ipanema_Beach_%284589735501%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/10345599@N03\">Francisco Anzola</a>",
+      "title": "Ipanema Beach (4589735501).jpg",
+      "width": 4134,
+      "height": 2827
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Av._Epitacio_Pessoa_looking_West_%28Ipanema%29_%284589731383%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Av._Epitacio_Pessoa_looking_West_%28Ipanema%29_%284589731383%29.jpg/1280px-Av._Epitacio_Pessoa_looking_West_%28Ipanema%29_%284589731383%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/10345599@N03\">Francisco Anzola</a>",
+      "title": "Av. Epitacio Pessoa looking West (Ipanema) (4589731383).jpg",
+      "width": 3852,
+      "height": 3105
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 21.6875
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 18,
+        "top": [
+          {
+            "common": "Common Gallinule",
+            "latin": "Gallinula galeata",
+            "obs": 220,
+            "iucn": null
+          },
+          {
+            "common": "Neotropic Cormorant",
+            "latin": "Nannopterum brasilianum",
+            "obs": 112,
+            "iucn": null
+          },
+          {
+            "common": "Masked Water-Tyrant",
+            "latin": "Fluvicola nengeta",
+            "obs": 83,
+            "iucn": null
+          },
+          {
+            "common": "Black-crowned Night Heron",
+            "latin": "Nycticorax nycticorax",
+            "obs": 75,
+            "iucn": null
+          },
+          {
+            "common": "Great Kiskadee",
+            "latin": "Pitangus sulphuratus",
+            "obs": 70,
+            "iucn": null
+          },
+          {
+            "common": "Magnificent Frigatebird",
+            "latin": "Fregata magnificens",
+            "obs": 69,
+            "iucn": null
+          },
+          {
+            "common": "Striated Heron",
+            "latin": "Butorides striata",
+            "obs": 67,
+            "iucn": null
+          },
+          {
+            "common": "Rufous Hornero",
+            "latin": "Furnarius rufus",
+            "obs": 65,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Mammals",
+        "key": "mammal",
+        "count": 1,
+        "top": [
+          {
+            "common": "Capybara",
+            "latin": "Hydrochoerus hydrochaeris",
+            "obs": 58,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 1,
+        "top": [
+          {
+            "common": "Erect Pricklypear",
+            "latin": "Opuntia dillenii",
+            "obs": 29,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -99,5 +335,37 @@
       "character": "Exposed — real surf, and rip current to respect"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Warmer than 76% of beaches in its country",
+      "detail": "Peak-month high ≈ 31°C"
+    },
+    {
+      "metric": "Worldwide",
+      "text": "Among the warmest 14% of beaches on Earth",
+      "detail": null
+    }
+  ],
+  "wikidata_id": "Q468540",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ipanema",
+  "wikipedia_page_views_annual": 108287,
+  "notability_score": 34.1,
+  "data_completeness_pct": 62.5,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

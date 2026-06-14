@@ -1,31 +1,21 @@
 {
   "slug": "porto-de-galinhas-1",
   "name": "Porto de Galinhas",
-  "centroid_lat": -8.5006262,
-  "centroid_lng": -35.0018185,
   "country_code": "BR",
   "admin_level_1": "Pernambuco",
-  "admin_level_2": null,
+  "centroid_lat": -8.5006262,
+  "centroid_lng": -35.0018185,
   "water_body_type": "ocean",
   "substrate_type": "sand",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/188837378",
-      "source_url": "https://www.openstreetmap.org/way/188837378"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q2334856",
-      "source_url": "https://www.wikidata.org/wiki/Q2334856"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Porto%20de%20galinhas%20019.JPG",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Porto_de_Galinhas"
-    }
+  "slope_pct": 0.3589457869529724,
+  "nearshore_depth_m": 4.6875,
+  "classification": {
+    "primary_type": "Sand",
+    "primary_type_slug": "sand",
+    "coastal_type": "Sand",
+    "coastal_type_slug": "sand",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Ipojuca",
   "nearest_city_distance_km": 13.2,
@@ -34,23 +24,309 @@
     "name": "Recife/Guararapes - Gilberto Freyre International Airport",
     "distance_km": 42.4
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      29.3091,
+      29.3273,
+      29.0682,
+      28.5818,
+      27.7045,
+      26.8818,
+      26.3364,
+      26.3864,
+      27.0091,
+      28.1318,
+      28.7818,
+      29.1273
+    ],
+    "air_temp_low": [
+      22.5273,
+      22.5636,
+      22.4045,
+      22.0364,
+      21.5636,
+      20.8818,
+      20.1818,
+      19.9182,
+      20.5682,
+      21.1636,
+      21.7364,
+      22.1818
+    ],
+    "rain_mm": [
+      81.0,
+      114.0,
+      180.0,
+      225.0,
+      240.0,
+      262.0,
+      248.0,
+      148.0,
+      90.0,
+      46.0,
+      33.0,
+      48.0
+    ],
+    "wind_speed": [
+      2.7227,
+      2.65,
+      2.4,
+      2.5727,
+      2.6273,
+      3.1273,
+      3.4273,
+      3.0682,
+      3.0818,
+      2.9045,
+      2.2545,
+      2.15
+    ],
+    "sun_hours": [
+      21287.0,
+      22054.0,
+      19991.0,
+      18307.0,
+      15389.0,
+      14923.0,
+      14926.0,
+      17601.0,
+      20188.0,
+      21520.0,
+      22302.0,
+      22049.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "facilities": {
-    "restrooms": true
+  "tides": {
+    "range_spring_m": 2.0490616951197813,
+    "range_neap_m": 0.9556138102009302,
+    "type": "semidiurnal",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Porto_de_Galinhas",
-  "notability_score": 30.6,
-  "data_completeness_pct": 25.0,
   "sand": {
     "predicted": {
       "q_pct": 85.0,
       "f_pct": 7.5,
       "l_pct": 7.6,
       "regime": "quartz-dominant",
+      "regime_plain": "Quartz-dominant",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Porto_de_Galinhas_-_Pernambuco_-_Brasil_%2811531517795%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Porto_de_Galinhas_-_Pernambuco_-_Brasil_%2811531517795%29.jpg/1280px-Porto_de_Galinhas_-_Pernambuco_-_Brasil_%2811531517795%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/60071636@N08\">Marinelson Almeida - Traveling through Brazil</a> from Niteroi, Brasil",
+      "title": "Porto de Galinhas - Pernambuco - Brasil (11531517795).jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Porto_de_Galinhas_-_Pernambuco_-_Brasil_%2811531580364%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Porto_de_Galinhas_-_Pernambuco_-_Brasil_%2811531580364%29.jpg/1280px-Porto_de_Galinhas_-_Pernambuco_-_Brasil_%2811531580364%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/60071636@N08\">Marinelson Almeida - Traveling through Brazil</a> from Niteroi, Brasil",
+      "title": "Porto de Galinhas - Pernambuco - Brasil (11531580364).jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Porto_de_Galinhas_-_Pernambuco._-_Brasil_%287489931810%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Porto_de_Galinhas_-_Pernambuco._-_Brasil_%287489931810%29.jpg/1280px-Porto_de_Galinhas_-_Pernambuco._-_Brasil_%287489931810%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/60071636@N08\">Marinelson Almeida - Traveling through Brazil</a> from Niteroi, Brasil",
+      "title": "Porto de Galinhas - Pernambuco. - Brasil (7489931810).jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/BRUNO_LIMA_PISCINAS_NATURAIS_DE_PORTO_DE_GALINHAS_IPOJUCA_PE_%2827037766848%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/BRUNO_LIMA_PISCINAS_NATURAIS_DE_PORTO_DE_GALINHAS_IPOJUCA_PE_%2827037766848%29.jpg/1280px-BRUNO_LIMA_PISCINAS_NATURAIS_DE_PORTO_DE_GALINHAS_IPOJUCA_PE_%2827037766848%29.jpg",
+      "license": "Public domain",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/163189519@N03\">MTur Destinos</a>",
+      "title": "BRUNO LIMA PISCINAS NATURAIS DE PORTO DE GALINHAS IPOJUCA PE (27037766848).jpg",
+      "width": 4961,
+      "height": 3508
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/BRUNO_LIMA_PRAIA_DE_PORTO_DE_GALINHAS_IPOJUCA_PE_%2839098827660%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/BRUNO_LIMA_PRAIA_DE_PORTO_DE_GALINHAS_IPOJUCA_PE_%2839098827660%29.jpg/1280px-BRUNO_LIMA_PRAIA_DE_PORTO_DE_GALINHAS_IPOJUCA_PE_%2839098827660%29.jpg",
+      "license": "Public domain",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/163189519@N03\">MTur Destinos</a>",
+      "title": "BRUNO LIMA PRAIA DE PORTO DE GALINHAS IPOJUCA PE (39098827660).jpg",
+      "width": 4961,
+      "height": 3508
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Strand_in_Porto_de_Galinhas.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Strand_in_Porto_de_Galinhas.jpg/1280px-Strand_in_Porto_de_Galinhas.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Dronepicr\" title=\"User:Dronepicr\">Dronepicr</a>",
+      "title": "Strand in Porto de Galinhas.jpg",
+      "width": 4696,
+      "height": 2390
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Lago_de_Porto_de_Galinhas_01.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Lago_de_Porto_de_Galinhas_01.jpg/1280px-Lago_de_Porto_de_Galinhas_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:T%C3%BAllio_F\" title=\"User:Túllio F\">Túllio F</a>",
+      "title": "Lago de Porto de Galinhas 01.jpg",
+      "width": 4608,
+      "height": 3072
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Lago_de_Porto_de_Galinhas_02.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Lago_de_Porto_de_Galinhas_02.jpg/1280px-Lago_de_Porto_de_Galinhas_02.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:T%C3%BAllio_F\" title=\"User:Túllio F\">Túllio F</a>",
+      "title": "Lago de Porto de Galinhas 02.jpg",
+      "width": 4608,
+      "height": 3072
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 4.6875
+  },
+  "facilities": {
+    "restrooms": true,
+    "food_nearby": true
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 13,
+        "top": [
+          {
+            "common": "Scaled Dove",
+            "latin": "Columbina squammata",
+            "obs": 44,
+            "iucn": null
+          },
+          {
+            "common": "White-headed Marsh Tyrant",
+            "latin": "Arundinicola leucocephala",
+            "obs": 24,
+            "iucn": null
+          },
+          {
+            "common": "Purple Gallinule",
+            "latin": "Porphyrio martinica",
+            "obs": 22,
+            "iucn": null
+          },
+          {
+            "common": "Great Kiskadee",
+            "latin": "Pitangus sulphuratus",
+            "obs": 22,
+            "iucn": null
+          },
+          {
+            "common": "Masked Water-Tyrant",
+            "latin": "Fluvicola nengeta",
+            "obs": 21,
+            "iucn": null
+          },
+          {
+            "common": "Wattled Jacana",
+            "latin": "Jacana jacana",
+            "obs": 20,
+            "iucn": null
+          },
+          {
+            "common": "Common Gallinule",
+            "latin": "Gallinula galeata",
+            "obs": 19,
+            "iucn": null
+          },
+          {
+            "common": "Tropical Kingbird",
+            "latin": "Tyrannus melancholicus",
+            "obs": 15,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Fish",
+        "key": "fish",
+        "count": 3,
+        "top": [
+          {
+            "common": "Atlantic Sergeant Major",
+            "latin": "Abudefduf saxatilis",
+            "obs": 45,
+            "iucn": null
+          },
+          {
+            "common": "Atlantic Blue Tang",
+            "latin": "Acanthurus coeruleus",
+            "obs": 29,
+            "iucn": null
+          },
+          {
+            "common": "Brazilian damselfish",
+            "latin": "Stegastes fuscus",
+            "obs": 15,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 2,
+        "top": [
+          {
+            "common": "Mottled Shore Crab",
+            "latin": "Pachygrapsus transversus",
+            "obs": 47,
+            "iucn": null
+          },
+          {
+            "common": "Redfinger Rubble Crab",
+            "latin": "Eriphia gonagra",
+            "obs": 31,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 1,
+        "top": [
+          {
+            "common": "Peters' Lava Lizard",
+            "latin": "Tropidurus hispidus",
+            "obs": 32,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Mammals",
+        "key": "mammal",
+        "count": 1,
+        "top": [
+          {
+            "common": "Common Marmoset",
+            "latin": "Callithrix jacchus",
+            "obs": 18,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -106,5 +382,29 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 69% of beaches in its country",
+      "detail": "Peak-month high ≈ 29°C"
+    }
+  ],
+  "wikidata_id": "Q2334856",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Porto_de_Galinhas",
+  "wikipedia_page_views_annual": 31178,
+  "notability_score": 30.6,
+  "data_completeness_pct": 62.5,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "aug",
+    "sep",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

@@ -1,43 +1,21 @@
 {
   "slug": "wharariki-beach",
   "name": "Wharariki Beach",
-  "centroid_lat": -40.5027833,
-  "centroid_lng": 172.6782452,
   "country_code": "NZ",
   "admin_level_1": "Tasman",
-  "admin_level_2": null,
+  "centroid_lat": -40.5027833,
+  "centroid_lng": 172.6782452,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/148634069",
-      "source_url": "https://www.openstreetmap.org/way/148634069"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q24189757",
-      "source_url": "https://www.wikidata.org/wiki/Q24189757"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "facilities": {
-      "wheelchair_access": false
-    },
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wharariki%20Beach%20and%20Archway%20Islands.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Wharariki_Beach"
-    },
-    "safety": {
-      "cyclone_count_50yr": "3",
-      "cyclone_max_category": "3"
-    }
+  "slope_pct": 2.6143550872802734,
+  "nearshore_depth_m": 19.1875,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Takaka",
   "nearest_city_distance_km": 40.0,
@@ -46,23 +24,336 @@
     "name": "Nelson Airport",
     "distance_km": 99.5
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      20.45,
+      20.925,
+      19.7917,
+      17.4375,
+      14.7792,
+      12.9792,
+      12.2417,
+      12.775,
+      13.975,
+      15.5375,
+      17.1042,
+      18.9
+    ],
+    "air_temp_low": [
+      13.025,
+      13.2042,
+      12.2917,
+      10.0875,
+      8.0417,
+      5.9458,
+      5.1542,
+      5.7375,
+      7.2292,
+      8.6958,
+      10.2375,
+      11.8708
+    ],
+    "rain_mm": [
+      121.0,
+      95.0,
+      143.0,
+      160.0,
+      167.0,
+      164.0,
+      199.0,
+      193.0,
+      154.0,
+      188.0,
+      165.0,
+      135.0
+    ],
+    "wind_speed": [
+      5.5667,
+      5.4875,
+      5.1292,
+      4.8333,
+      4.5333,
+      4.9833,
+      4.6417,
+      4.7792,
+      5.4917,
+      5.5667,
+      5.2833,
+      5.1667
+    ],
+    "sun_hours": [
+      23805.0,
+      20557.0,
+      15490.0,
+      10897.0,
+      7190.0,
+      5671.0,
+      6451.0,
+      9082.0,
+      13224.0,
+      17831.0,
+      21904.0,
+      23606.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "facilities": {
-    "wheelchair_accessible": false
+  "tides": {
+    "range_spring_m": 3.127567187901666,
+    "range_neap_m": 1.8126025093150315,
+    "type": "semidiurnal",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Wharariki_Beach",
-  "notability_score": 31.4,
-  "data_completeness_pct": 20.8,
   "sand": {
     "predicted": {
       "q_pct": 34.9,
       "f_pct": 24.3,
       "l_pct": 40.8,
       "regime": "lithic-rich (volcanic/collisional terrane)",
+      "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 5,
+    "paragraph": "5 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1955–2014).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Wharariki_Beach_360_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Wharariki_Beach_360_-_panoramio.jpg/1280px-Wharariki_Beach_360_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161029012106/http://www.panoramio.com/user/8171966?with_photo_id=104463910\">Simeon W</a>",
+      "title": "Wharariki Beach 360 - panoramio.jpg",
+      "width": 23430,
+      "height": 4096
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Wharariki_Beach_track_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Wharariki_Beach_track_-_panoramio.jpg/1280px-Wharariki_Beach_track_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161028204510/http://www.panoramio.com/user/8171966?with_photo_id=104464022\">Simeon W</a>",
+      "title": "Wharariki Beach track - panoramio.jpg",
+      "width": 21754,
+      "height": 3243
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Wharariki_Beach_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Wharariki_Beach_-_panoramio.jpg/1280px-Wharariki_Beach_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161030055227/http://www.panoramio.com/user/8171966?with_photo_id=104467859\">Simeon W</a>",
+      "title": "Wharariki Beach - panoramio.jpg",
+      "width": 20206,
+      "height": 4372
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/WhararikiPanorama.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/WhararikiPanorama.jpg/1280px-WhararikiPanorama.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Knipptang\" title=\"User:Knipptang\">Arne Hückelheim</a>",
+      "title": "WhararikiPanorama.jpg",
+      "width": 13336,
+      "height": 2229
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/WhararikiPanoramaWest.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/WhararikiPanoramaWest.jpg/1280px-WhararikiPanoramaWest.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Knipptang\" title=\"User:Knipptang\">Arne Hückelheim</a>",
+      "title": "WhararikiPanoramaWest.jpg",
+      "width": 7699,
+      "height": 2089
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wharariki_Silence.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Wharariki_Silence.jpg/1280px-Wharariki_Silence.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "life in still.",
+      "title": "Wharariki Silence.jpg",
+      "width": 5512,
+      "height": 2756
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Wharariki_Silence_%28cropped%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Wharariki_Silence_%28cropped%29.jpg/1280px-Wharariki_Silence_%28cropped%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "life in still.",
+      "title": "Wharariki Silence (cropped).jpg",
+      "width": 5512,
+      "height": 1383
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/WhararikiPanoramaEast.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/WhararikiPanoramaEast.jpg/1280px-WhararikiPanoramaEast.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Knipptang\" title=\"User:Knipptang\">Arne Hückelheim</a>",
+      "title": "WhararikiPanoramaEast.jpg",
+      "width": 5142,
+      "height": 2138
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 19.1875
+  },
+  "facilities": {
+    "wheelchair": false
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 8,
+        "top": [
+          {
+            "common": "Indian Peafowl",
+            "latin": "Pavo cristatus",
+            "obs": 40,
+            "iucn": null
+          },
+          {
+            "common": "Variable Oystercatcher",
+            "latin": "Haematopus unicolor",
+            "obs": 32,
+            "iucn": null
+          },
+          {
+            "common": "Pied Cormorant",
+            "latin": "Phalacrocorax varius",
+            "obs": 19,
+            "iucn": null
+          },
+          {
+            "common": "Silver Gull",
+            "latin": "Chroicocephalus novaehollandiae",
+            "obs": 16,
+            "iucn": null
+          },
+          {
+            "common": "New Zealand Fernbird",
+            "latin": "Poodytes punctatus",
+            "obs": 14,
+            "iucn": null
+          },
+          {
+            "common": "Paradise Shelduck",
+            "latin": "Tadorna variegata",
+            "obs": 13,
+            "iucn": null
+          },
+          {
+            "common": "Muscovy Duck",
+            "latin": "Cairina moschata",
+            "obs": 12,
+            "iucn": null
+          },
+          {
+            "common": "Yellowhammer",
+            "latin": "Emberiza citrinella",
+            "obs": 10,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 6,
+        "top": [
+          {
+            "common": "Giant Umbrella Sedge",
+            "latin": "Cyperus ustulatus",
+            "obs": 17,
+            "iucn": null
+          },
+          {
+            "common": "Shining Spleenwort",
+            "latin": "Asplenium oblongifolium",
+            "obs": 12,
+            "iucn": null
+          },
+          {
+            "common": "Shore Hard Fern",
+            "latin": "Blechnum banksii",
+            "obs": 12,
+            "iucn": null
+          },
+          {
+            "common": "coastal bush lupine",
+            "latin": "Lupinus arboreus",
+            "obs": 10,
+            "iucn": null
+          },
+          {
+            "common": "European marram grass",
+            "latin": "Calamagrostis arenaria",
+            "obs": 10,
+            "iucn": null
+          },
+          {
+            "common": "Sand Coprosma",
+            "latin": "Coprosma acerosa",
+            "obs": 9,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 5,
+        "top": [
+          {
+            "common": "Giant Shore Anemone",
+            "latin": "Oulactis magna",
+            "obs": 18,
+            "iucn": null
+          },
+          {
+            "common": "Waratah Anemone",
+            "latin": "Actinia tenebrosa",
+            "obs": 15,
+            "iucn": null
+          },
+          {
+            "common": "By-the-wind Sailor",
+            "latin": "Velella velella",
+            "obs": 13,
+            "iucn": null
+          },
+          {
+            "common": "Purple Rock Crab",
+            "latin": "Leptograpsus variegatus",
+            "obs": 13,
+            "iucn": null
+          },
+          {
+            "common": "Ram's Horn Squid",
+            "latin": "Spirula spirula",
+            "obs": 11,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Mammals",
+        "key": "mammal",
+        "count": 1,
+        "top": [
+          {
+            "common": "Long-nosed Fur Seal",
+            "latin": "Arctocephalus forsteri",
+            "obs": 98,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -118,5 +409,24 @@
       "character": "Exposed — real surf, and rip current to respect"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 66% of beaches in its country",
+      "detail": "Peak-month high ≈ 21°C"
+    }
+  ],
+  "wikidata_id": "Q24189757",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Wharariki_Beach",
+  "wikipedia_page_views_annual": 37203,
+  "notability_score": 31.4,
+  "data_completeness_pct": 58.3,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

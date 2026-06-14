@@ -1,35 +1,21 @@
 {
   "slug": "baker-beach-3",
   "name": "Baker Beach",
-  "centroid_lat": 37.7930265,
-  "centroid_lng": -122.4848009,
   "country_code": "US",
   "admin_level_1": "California",
-  "admin_level_2": null,
+  "centroid_lat": 37.7930265,
+  "centroid_lng": -122.4848009,
   "water_body_type": "ocean",
   "substrate_type": "sand",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "relation/6260732",
-      "source_url": "https://www.openstreetmap.org/relation/6260732"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q684879",
-      "source_url": "https://www.wikidata.org/wiki/Q684879"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "nudist": false,
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Baker%20Beach%202.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Baker_Beach"
-    },
-    "facilities": {
-      "access": "yes"
-    }
+  "slope_pct": 3.2534436225891112,
+  "nearshore_depth_m": 57.017154693603516,
+  "classification": {
+    "primary_type": "Sand",
+    "primary_type_slug": "sand",
+    "coastal_type": "Sand",
+    "coastal_type_slug": "sand",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Sausalito",
   "nearest_city_distance_km": 7.3,
@@ -38,23 +24,340 @@
     "name": "San Francisco International Airport",
     "distance_km": 21.6
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      13.4556,
+      15.4667,
+      16.5667,
+      18.2111,
+      19.3778,
+      20.7778,
+      21.8111,
+      21.8333,
+      22.4889,
+      21.4889,
+      17.4,
+      14.1556
+    ],
+    "air_temp_low": [
+      6.2333,
+      7.1889,
+      7.6556,
+      8.2444,
+      9.4,
+      10.5111,
+      11.0556,
+      11.7111,
+      11.7889,
+      10.7778,
+      8.4889,
+      6.5
+    ],
+    "rain_mm": [
+      187.0,
+      157.0,
+      133.0,
+      52.0,
+      19.0,
+      6.0,
+      3.0,
+      3.0,
+      11.0,
+      49.0,
+      125.0,
+      151.0
+    ],
+    "wind_speed": [
+      3.7,
+      3.9889,
+      4.4222,
+      4.6667,
+      4.9222,
+      4.9333,
+      4.4778,
+      4.2667,
+      3.8556,
+      3.6556,
+      3.5889,
+      3.6778
+    ],
+    "sun_hours": [
+      6843.0,
+      9497.0,
+      14865.0,
+      19813.0,
+      22764.0,
+      25490.0,
+      24419.0,
+      22029.0,
+      18477.0,
+      13491.0,
+      8726.0,
+      6542.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "facilities": {
-    "restrooms": true
+  "tides": {
+    "range_spring_m": 1.5141762570094799,
+    "range_neap_m": 0.9287257305660539,
+    "type": "mixed",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Baker_Beach",
-  "notability_score": 31.3,
-  "data_completeness_pct": 25.0,
   "sand": {
     "predicted": {
       "q_pct": 46.6,
       "f_pct": 16.0,
       "l_pct": 37.4,
       "regime": "mixed Q-F-L",
+      "regime_plain": "Mixed q-f-l",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/San_Francisco_Baker_Beach.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/San_Francisco_Baker_Beach.jpg/1280px-San_Francisco_Baker_Beach.jpg",
+      "license": "Copyrighted free use",
+      "author_html": "Darwindarak",
+      "title": "San Francisco Baker Beach.jpg",
+      "width": 10314,
+      "height": 1919
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/San_Francisco_%28CA%2C_USA%29%2C_Baker_Beach_--_2022_--_3034.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/San_Francisco_%28CA%2C_USA%29%2C_Baker_Beach_--_2022_--_3034.jpg/1280px-San_Francisco_%28CA%2C_USA%29%2C_Baker_Beach_--_2022_--_3034.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<bdi><a href=\"https://www.wikidata.org/wiki/Q34788025\" class=\"extiw\" title=\"d:Q34788025\"><span title=\"German photographer and mathematician\">Dietmar Rabich</span></a></bdi>",
+      "title": "San Francisco (CA, USA), Baker Beach -- 2022 -- 3034.jpg",
+      "width": 6671,
+      "height": 3752
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Baker_Beach%2C_San_Francisco%2C_California%2C_US.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Baker_Beach%2C_San_Francisco%2C_California%2C_US.jpg/1280px-Baker_Beach%2C_San_Francisco%2C_California%2C_US.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Semiautonomous\" title=\"User:Semiautonomous\">Clyde Charles Brown</a>",
+      "title": "Baker Beach, San Francisco, California, US.jpg",
+      "width": 6240,
+      "height": 4160
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Baker_Beach_2025e.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Baker_Beach_2025e.jpg/1280px-Baker_Beach_2025e.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Antony-22\" title=\"User:Antony-22\">Antony-22</a>",
+      "title": "Baker Beach 2025e.jpg",
+      "width": 6240,
+      "height": 4160
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/No_leading_lines%2C_No_point_of_focus_%2830327519604%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/No_leading_lines%2C_No_point_of_focus_%2830327519604%29.jpg/1280px-No_leading_lines%2C_No_point_of_focus_%2830327519604%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/136315829@N03\">Steven Penton</a> from Bakers Beach, Tasmania Australia",
+      "title": "No leading lines, No point of focus (30327519604).jpg",
+      "width": 5081,
+      "height": 3387
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Presidio%2C_San_Francisco%2C_CA%2C_USA_-_panoramio_%2847%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Presidio%2C_San_Francisco%2C_CA%2C_USA_-_panoramio_%2847%29.jpg/1280px-Presidio%2C_San_Francisco%2C_CA%2C_USA_-_panoramio_%2847%29.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161102180537/http://www.panoramio.com/user/1699605?with_photo_id=121821392\">Roman Eugeniusz</a>",
+      "title": "Presidio, San Francisco, CA, USA - panoramio (47).jpg",
+      "width": 4928,
+      "height": 3264
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Presidio%2C_San_Francisco%2C_CA%2C_USA_-_panoramio_%2844%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Presidio%2C_San_Francisco%2C_CA%2C_USA_-_panoramio_%2844%29.jpg/1280px-Presidio%2C_San_Francisco%2C_CA%2C_USA_-_panoramio_%2844%29.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161031103148/http://www.panoramio.com/user/1699605?with_photo_id=121821287\">Roman Eugeniusz</a>",
+      "title": "Presidio, San Francisco, CA, USA - panoramio (44).jpg",
+      "width": 4928,
+      "height": 3264
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Presidio%2C_San_Francisco%2C_CA%2C_USA_-_panoramio_%2848%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Presidio%2C_San_Francisco%2C_CA%2C_USA_-_panoramio_%2848%29.jpg/1280px-Presidio%2C_San_Francisco%2C_CA%2C_USA_-_panoramio_%2848%29.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161031224105/http://www.panoramio.com/user/1699605?with_photo_id=121821312\">Roman Eugeniusz</a>",
+      "title": "Presidio, San Francisco, CA, USA - panoramio (48).jpg",
+      "width": 4836,
+      "height": 3118
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 57.017154693603516
+  },
+  "conservation": {
+    "name": "Golden Gate National Recreation Area",
+    "type": "Marine protected area",
+    "iucn": "V",
+    "unesco": false
+  },
+  "facilities": {
+    "restrooms": true,
+    "nudism": true
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 10,
+        "top": [
+          {
+            "common": "California poppy",
+            "latin": "Eschscholzia californica",
+            "obs": 606,
+            "iucn": null
+          },
+          {
+            "common": "beach strawberry",
+            "latin": "Fragaria chiloensis",
+            "obs": 467,
+            "iucn": null
+          },
+          {
+            "common": "coyote brush",
+            "latin": "Baccharis pilularis",
+            "obs": 464,
+            "iucn": null
+          },
+          {
+            "common": "blueblossom",
+            "latin": "Ceanothus thyrsiflorus",
+            "obs": 453,
+            "iucn": null
+          },
+          {
+            "common": "orange bush monkeyflower",
+            "latin": "Diplacus aurantiacus",
+            "obs": 446,
+            "iucn": null
+          },
+          {
+            "common": "coastal bush lupine",
+            "latin": "Lupinus arboreus",
+            "obs": 402,
+            "iucn": null
+          },
+          {
+            "common": "California beeplant",
+            "latin": "Scrophularia californica",
+            "obs": 390,
+            "iucn": null
+          },
+          {
+            "common": "Bermuda buttercup",
+            "latin": "Oxalis pes-caprae",
+            "obs": 377,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 6,
+        "top": [
+          {
+            "common": "Anna's Hummingbird",
+            "latin": "Calypte anna",
+            "obs": 773,
+            "iucn": null
+          },
+          {
+            "common": "Red-tailed Hawk",
+            "latin": "Buteo jamaicensis",
+            "obs": 720,
+            "iucn": null
+          },
+          {
+            "common": "White-crowned Sparrow",
+            "latin": "Zonotrichia leucophrys",
+            "obs": 663,
+            "iucn": null
+          },
+          {
+            "common": "Red-shouldered Hawk",
+            "latin": "Buteo lineatus",
+            "obs": 465,
+            "iucn": null
+          },
+          {
+            "common": "Great Horned Owl",
+            "latin": "Bubo virginianus",
+            "obs": 406,
+            "iucn": null
+          },
+          {
+            "common": "Dark-eyed Junco",
+            "latin": "Junco hyemalis",
+            "obs": 335,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 1,
+        "top": [
+          {
+            "common": "Variable Checkerspot",
+            "latin": "Euphydryas chalcedona",
+            "obs": 831,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Mammals",
+        "key": "mammal",
+        "count": 1,
+        "top": [
+          {
+            "common": "Coyote",
+            "latin": "Canis latrans",
+            "obs": 783,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 1,
+        "top": [
+          {
+            "common": "Western Fence Lizard",
+            "latin": "Sceloporus occidentalis",
+            "obs": 536,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Amphibians",
+        "key": "amphibian",
+        "count": 1,
+        "top": [
+          {
+            "common": "California Slender Salamander",
+            "latin": "Batrachoseps attenuatus",
+            "obs": 482,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -110,5 +413,32 @@
       "character": "Exposed — real surf, and rip current to respect"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 91% of beaches in its country",
+      "detail": "Peak-month high ≈ 22°C"
+    },
+    {
+      "metric": "Beach season",
+      "text": "Longer beach season than 66% of beaches in its country",
+      "detail": "7 comfortable months a year"
+    }
+  ],
+  "wikidata_id": "Q684879",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Baker_Beach",
+  "wikipedia_page_views_annual": 36424,
+  "notability_score": 31.3,
+  "data_completeness_pct": 66.7,
+  "best_months": [
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct"
+  ],
+  "swim_suitability": "fair"
 }

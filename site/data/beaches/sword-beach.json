@@ -1,40 +1,22 @@
 {
   "slug": "sword-beach",
   "name": "Sword Beach",
-  "centroid_lat": 49.306388888,
-  "centroid_lng": -0.321111111,
   "country_code": "FR",
   "admin_level_1": "Lower Normandy",
-  "admin_level_2": null,
+  "centroid_lat": 49.306388888,
+  "centroid_lng": -0.321111111,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
   "beach_length_m": 700.0,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/280831474",
-      "source_url": "https://www.openstreetmap.org/way/280831474"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q1138519",
-      "source_url": "https://www.wikidata.org/wiki/Q1138519"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Infantry%20waiting%20to%20move%20off%20%27Queen%20White%27%20Beach.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Sword_Beach"
-    },
-    "safety": {
-      "cyclone_count_50yr": "0",
-      "cyclone_max_category": "3"
-    }
+  "slope_pct": 0.22907021045684814,
+  "nearshore_depth_m": 5.5,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Lion-sur-Mer",
   "nearest_city_distance_km": 0.7,
@@ -43,20 +25,308 @@
     "name": "Caen Carpiquet airport",
     "distance_km": 17.4
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      8.2,
+      8.8,
+      11.0857,
+      13.0571,
+      16.5857,
+      19.2,
+      21.5714,
+      22.1143,
+      19.6714,
+      15.9,
+      11.5286,
+      9.1571
+    ],
+    "air_temp_low": [
+      3.2714,
+      3.0857,
+      4.5714,
+      5.6857,
+      8.8714,
+      11.4429,
+      13.5,
+      13.6714,
+      11.8571,
+      9.1857,
+      5.9143,
+      4.2571
+    ],
+    "rain_mm": [
+      74.0,
+      60.0,
+      54.0,
+      47.0,
+      52.0,
+      47.0,
+      43.0,
+      42.0,
+      64.0,
+      75.0,
+      80.0,
+      82.0
+    ],
+    "wind_speed": [
+      6.5,
+      6.0,
+      5.7857,
+      5.4,
+      5.0857,
+      4.7429,
+      4.8,
+      4.7,
+      5.1143,
+      5.5857,
+      5.7857,
+      6.1
+    ],
+    "sun_hours": [
+      3262.0,
+      5610.0,
+      9888.0,
+      14788.0,
+      18254.0,
+      19652.0,
+      19127.0,
+      16749.0,
+      12012.0,
+      7113.0,
+      3838.0,
+      2563.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Sword_Beach",
-  "notability_score": 35.4,
-  "data_completeness_pct": 20.8,
+  "tides": {
+    "range_spring_m": 6.534111024923622,
+    "range_neap_m": 3.2361920394613186,
+    "type": "semidiurnal",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 50.9,
       "f_pct": 8.7,
       "l_pct": 40.4,
       "regime": "lithic-rich (volcanic/collisional terrane)",
+      "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 1,
+    "paragraph": "1 tropical-cyclone track have passed within range of this coast in the historical record (IBTrACS, 1963–1963).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Sword_Beach_%2843170179140%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Sword_Beach_%2843170179140%29.jpg/1280px-Sword_Beach_%2843170179140%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/158652122@N02\">Mike McBey</a>",
+      "title": "Sword Beach (43170179140).jpg",
+      "width": 9506,
+      "height": 5444
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/The_beach_at_Lion-Sur-Mer_%2848012050296%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/The_beach_at_Lion-Sur-Mer_%2848012050296%29.jpg/1280px-The_beach_at_Lion-Sur-Mer_%2848012050296%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/158652122@N02\">Mike McBey</a>",
+      "title": "The beach at Lion-Sur-Mer (48012050296).jpg",
+      "width": 7778,
+      "height": 3736
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/The_Blue_Marble%2C_AS17-148-22727.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/The_Blue_Marble%2C_AS17-148-22727.jpg/1280px-The_Blue_Marble%2C_AS17-148-22727.jpg",
+      "license": "Public domain",
+      "author_html": "Harrison Schmitt / Apollo 17",
+      "title": "The Blue Marble, AS17-148-22727.jpg",
+      "width": 6750,
+      "height": 6750
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/WW2_memorial%2C_Normandy_%E2%80%94_Churchill_Avre_Tank_%E2%80%93_Lion-sur-Mer.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/WW2_memorial%2C_Normandy_%E2%80%94_Churchill_Avre_Tank_%E2%80%93_Lion-sur-Mer.jpg/1280px-WW2_memorial%2C_Normandy_%E2%80%94_Churchill_Avre_Tank_%E2%80%93_Lion-sur-Mer.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "Mike McBey",
+      "title": "WW2 memorial, Normandy — Churchill Avre Tank – Lion-sur-Mer.jpg",
+      "width": 5665,
+      "height": 2668
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/A_Gooseberry_off_the_beaches_at_Ouistreham.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/A_Gooseberry_off_the_beaches_at_Ouistreham.jpg/1280px-A_Gooseberry_off_the_beaches_at_Ouistreham.jpg",
+      "license": "Public domain",
+      "author_html": "<bdi><a href=\"https://www.wikidata.org/wiki/Q110967291\" class=\"extiw\" title=\"d:Q110967291\"><span title=\"official war photographer of the Royal Navy\">Claude Henry Parnall</span></a></bdi>",
+      "title": "A Gooseberry off the beaches at Ouistreham.jpg",
+      "width": 5212,
+      "height": 3973
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/140606-EV637-294.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/140606-EV637-294.jpg/1280px-140606-EV637-294.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a href=\"//www.flickr.com/people/68842444@N03\" class=\"extiw\" title=\"flickruser:68842444@N03\">Chuck Hagel</a>",
+      "title": "140606-EV637-294.jpg",
+      "width": 4928,
+      "height": 3280
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Infantry_waiting_to_move_off_%27Queen_White%27_Beach.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Infantry_waiting_to_move_off_%27Queen_White%27_Beach.jpg/1280px-Infantry_waiting_to_move_off_%27Queen_White%27_Beach.jpg",
+      "license": "Public domain",
+      "author_html": "Ich",
+      "title": "Infantry waiting to move off 'Queen White' Beach.jpg",
+      "width": 4618,
+      "height": 4552
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Lion-sur-Mer_monument_d%C3%A9barquement_1944_cadran_solaire.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Lion-sur-Mer_monument_d%C3%A9barquement_1944_cadran_solaire.JPG/1280px-Lion-sur-Mer_monument_d%C3%A9barquement_1944_cadran_solaire.JPG",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Roi.dagobert\" title=\"User:Roi.dagobert\">Roi.dagobert</a>",
+      "title": "Lion-sur-Mer monument débarquement 1944 cadran solaire.JPG",
+      "width": 4272,
+      "height": 2848
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 5.5
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 10,
+        "top": [
+          {
+            "common": "Black-headed Gull",
+            "latin": "Chroicocephalus ridibundus",
+            "obs": 12,
+            "iucn": null
+          },
+          {
+            "common": "Ruddy Turnstone",
+            "latin": "Arenaria interpres",
+            "obs": 9,
+            "iucn": null
+          },
+          {
+            "common": "Sanderling",
+            "latin": "Calidris alba",
+            "obs": 7,
+            "iucn": null
+          },
+          {
+            "common": "Common Ringed Plover",
+            "latin": "Charadrius hiaticula",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "Dunlin",
+            "latin": "Calidris alpina",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Common Gull",
+            "latin": "Larus canus",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Northern Gannet",
+            "latin": "Morus bassanus",
+            "obs": 3,
+            "iucn": null
+          },
+          {
+            "common": "Great Black-backed Gull",
+            "latin": "Larus marinus",
+            "obs": 3,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 9,
+        "top": [
+          {
+            "common": "European Green Crab",
+            "latin": "Carcinus maenas",
+            "obs": 18,
+            "iucn": null
+          },
+          {
+            "common": "Edible Crab",
+            "latin": "Cancer pagurus",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "Asian Shore Crab",
+            "latin": "Hemigrapsus sanguineus",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Common Sea Slater",
+            "latin": "Ligia oceanica",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "European Stag Beetle",
+            "latin": "Lucanus cervus",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "European Sand Hopper",
+            "latin": "Talitrus saltator",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Dustbin-lid Jelly",
+            "latin": "Rhizostoma octopus",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Six-spot Burnet",
+            "latin": "Zygaena filipendulae",
+            "obs": 3,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Fish",
+        "key": "fish",
+        "count": 1,
+        "top": [
+          {
+            "common": "Ballan Wrasse",
+            "latin": "Labrus bergylta",
+            "obs": 3,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -112,5 +382,25 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 72% of beaches in its country",
+      "detail": "Peak-month high ≈ 22°C"
+    }
+  ],
+  "wikidata_id": "Q1138519",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sword_Beach",
+  "wikipedia_page_views_annual": 83611,
+  "notability_score": 35.4,
+  "data_completeness_pct": 58.3,
+  "best_months": [
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep"
+  ],
+  "swim_suitability": "fair"
 }

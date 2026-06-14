@@ -1,56 +1,21 @@
 {
   "slug": "amager-strandpark",
   "name": "Amager Strandpark",
-  "centroid_lat": 55.6564243,
-  "centroid_lng": 12.6411835,
   "country_code": "DK",
   "admin_level_1": "Capital Region",
-  "admin_level_2": null,
+  "centroid_lat": 55.6564243,
+  "centroid_lng": 12.6411835,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "relation/12328102",
-      "source_url": "https://www.openstreetmap.org/relation/12328102"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q452470",
-      "source_url": "https://www.wikidata.org/wiki/Q452470"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "DKBW1526",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "DKBW1527",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "DKBW1526",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "DKBW1527",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "dog_friendly": "leashed",
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Amager%20Strandpark%20-%20kite%20surfers.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Amager_Strandpark"
-    },
-    "environment": {
-      "water_quality_rating": "1 - excellent",
-      "eu_bathing_water_type": "Coastal"
-    }
+  "slope_pct": 0.5352978058159351,
+  "nearshore_depth_m": 10.576940536499023,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Tarnby",
   "nearest_city_distance_km": 3.9,
@@ -59,25 +24,337 @@
     "name": "Copenhagen Kastrup Airport",
     "distance_km": 4.4
   },
-  "safety": {
-    "water_quality_rating": "1 - excellent",
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      2.76,
+      2.6133,
+      5.1133,
+      9.7067,
+      15.4533,
+      18.9933,
+      20.8133,
+      20.7467,
+      16.4733,
+      11.78,
+      7.1267,
+      4.2
+    ],
+    "air_temp_low": [
+      -1.28,
+      -1.4867,
+      -0.06,
+      2.6933,
+      7.34,
+      11.24,
+      13.2,
+      13.0867,
+      10.1067,
+      6.82,
+      2.98,
+      0.28
+    ],
+    "rain_mm": [
+      47.0,
+      29.0,
+      42.0,
+      37.0,
+      41.0,
+      53.0,
+      56.0,
+      51.0,
+      64.0,
+      55.0,
+      54.0,
+      54.0
+    ],
+    "wind_speed": [
+      5.88,
+      5.6067,
+      5.4533,
+      4.86,
+      4.58,
+      4.58,
+      4.4467,
+      4.46,
+      4.98,
+      5.2533,
+      5.72,
+      5.66
+    ],
+    "sun_hours": [
+      1718.0,
+      3729.0,
+      8155.0,
+      13909.0,
+      18478.0,
+      19767.0,
+      18932.0,
+      15831.0,
+      9577.0,
+      5271.0,
+      2115.0,
+      1173.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "facilities": {
-    "restrooms": true,
-    "dogs_allowed": false
+  "tides": {
+    "range_spring_m": 0.08502686872221932,
+    "range_neap_m": 0.047656766319849275,
+    "type": "mixed",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Amager_Strandpark",
-  "notability_score": 33.6,
-  "data_completeness_pct": 33.3,
   "sand": {
     "predicted": {
       "q_pct": 36.6,
       "f_pct": 13.4,
       "l_pct": 50.0,
       "regime": "lithic-rich (volcanic/collisional terrane)",
+      "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Copenhagen_2018-01-07_%2838830475125%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Copenhagen_2018-01-07_%2838830475125%29.jpg/1280px-Copenhagen_2018-01-07_%2838830475125%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/84554176@N00\">Guillaume Baviere</a> from Uppsala, Sweden",
+      "title": "Copenhagen 2018-01-07 (38830475125).jpg",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Copenhagen_2018-01-07_%2839019566664%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Copenhagen_2018-01-07_%2839019566664%29.jpg/1280px-Copenhagen_2018-01-07_%2839019566664%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/84554176@N00\">Guillaume Baviere</a> from Uppsala, Sweden",
+      "title": "Copenhagen 2018-01-07 (39019566664).jpg",
+      "width": 5790,
+      "height": 3477
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Amager_Strandpark_pier.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Amager_Strandpark_pier.jpg/1280px-Amager_Strandpark_pier.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/84554176@N00\">Guillaume Baviere</a> from Uppsala, Sweden",
+      "title": "Amager Strandpark pier.jpg",
+      "width": 5777,
+      "height": 3621
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Amager_Strandpark%2C_Copenhagen_2018-01-07_%2839719310251%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Amager_Strandpark%2C_Copenhagen_2018-01-07_%2839719310251%29.jpg/1280px-Amager_Strandpark%2C_Copenhagen_2018-01-07_%2839719310251%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/84554176@N00\">Guillaume Baviere</a> from Uppsala, Sweden",
+      "title": "Amager Strandpark, Copenhagen 2018-01-07 (39719310251).jpg",
+      "width": 5760,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Copenhagen_2017-08-19_%2837970026791%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Copenhagen_2017-08-19_%2837970026791%29.jpg/1280px-Copenhagen_2017-08-19_%2837970026791%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/84554176@N00\">Guillaume Baviere</a> from Uppsala, Sweden",
+      "title": "Copenhagen 2017-08-19 (37970026791).jpg",
+      "width": 5718,
+      "height": 3441
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Copenhagen_2016-08-21_%2829979359672%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Copenhagen_2016-08-21_%2829979359672%29.jpg/1280px-Copenhagen_2016-08-21_%2829979359672%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/84554176@N00\">Guillaume Baviere</a> from Copenhagen, Denmark",
+      "title": "Copenhagen 2016-08-21 (29979359672).jpg",
+      "width": 4752,
+      "height": 3168
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Copenhagen_2016-08-21_%2829979358572%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Copenhagen_2016-08-21_%2829979358572%29.jpg/1280px-Copenhagen_2016-08-21_%2829979358572%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/84554176@N00\">Guillaume Baviere</a> from Copenhagen, Denmark",
+      "title": "Copenhagen 2016-08-21 (29979358572).jpg",
+      "width": 4752,
+      "height": 2908
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Copenhagen_2016-08-21_%2829465971533%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Copenhagen_2016-08-21_%2829465971533%29.jpg/1280px-Copenhagen_2016-08-21_%2829465971533%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/84554176@N00\">Guillaume Baviere</a> from Copenhagen, Denmark",
+      "title": "Copenhagen 2016-08-21 (29465971533).jpg",
+      "width": 4752,
+      "height": 2976
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 10.576940536499023
+  },
+  "conservation": {
+    "name": "W",
+    "type": "Marine strategy area",
+    "iucn": "IV",
+    "unesco": false
+  },
+  "facilities": {
+    "restrooms": true,
+    "food_nearby": true,
+    "dogs": false
+  },
+  "water_quality": {
+    "rating": "1 - excellent",
+    "source": "eu_bathing",
+    "year": null
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 8,
+        "top": [
+          {
+            "common": "Garden Snail",
+            "latin": "Cornu aspersum",
+            "obs": 31,
+            "iucn": null
+          },
+          {
+            "common": "European Green Crab",
+            "latin": "Carcinus maenas",
+            "obs": 23,
+            "iucn": null
+          },
+          {
+            "common": "Asian Lady Beetle",
+            "latin": "Harmonia axyridis",
+            "obs": 21,
+            "iucn": null
+          },
+          {
+            "common": "Cross Orbweaver",
+            "latin": "Araneus diadematus",
+            "obs": 20,
+            "iucn": null
+          },
+          {
+            "common": "Western Honey Bee",
+            "latin": "Apis mellifera",
+            "obs": 18,
+            "iucn": null
+          },
+          {
+            "common": "Seven-spotted Lady Beetle",
+            "latin": "Coccinella septempunctata",
+            "obs": 18,
+            "iucn": null
+          },
+          {
+            "common": "Green Shield Bug",
+            "latin": "Palomena prasina",
+            "obs": 15,
+            "iucn": null
+          },
+          {
+            "common": "Speckled Bush-cricket",
+            "latin": "Leptophyes punctatissima",
+            "obs": 15,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 6,
+        "top": [
+          {
+            "common": "Black-headed Gull",
+            "latin": "Chroicocephalus ridibundus",
+            "obs": 29,
+            "iucn": null
+          },
+          {
+            "common": "Hooded Crow",
+            "latin": "Corvus cornix",
+            "obs": 22,
+            "iucn": null
+          },
+          {
+            "common": "European Herring Gull",
+            "latin": "Larus argentatus",
+            "obs": 22,
+            "iucn": null
+          },
+          {
+            "common": "Mallard",
+            "latin": "Anas platyrhynchos",
+            "obs": 19,
+            "iucn": null
+          },
+          {
+            "common": "Eurasian Jackdaw",
+            "latin": "Coloeus monedula",
+            "obs": 19,
+            "iucn": null
+          },
+          {
+            "common": "Rook",
+            "latin": "Corvus frugilegus",
+            "obs": 18,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 6,
+        "top": [
+          {
+            "common": "European Searocket",
+            "latin": "Cakile maritima",
+            "obs": 27,
+            "iucn": null
+          },
+          {
+            "common": "fireweed",
+            "latin": "Chamaenerion angustifolium",
+            "obs": 24,
+            "iucn": null
+          },
+          {
+            "common": "rugosa rose",
+            "latin": "Rosa rugosa",
+            "obs": 18,
+            "iucn": null
+          },
+          {
+            "common": "Lawn daisy",
+            "latin": "Bellis perennis",
+            "obs": 17,
+            "iucn": null
+          },
+          {
+            "common": "garlic mustard",
+            "latin": "Alliaria petiolata",
+            "obs": 17,
+            "iucn": null
+          },
+          {
+            "common": "broadleaved pepperweed",
+            "latin": "Lepidium latifolium",
+            "obs": 15,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -133,5 +410,24 @@
       "character": "Calm — gentle swimming water most of the year"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Warmer than 94% of beaches in its country",
+      "detail": "Peak-month high ≈ 21°C"
+    }
+  ],
+  "wikidata_id": "Q452470",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Amager_Strandpark",
+  "wikipedia_page_views_annual": 10105,
+  "notability_score": 33.6,
+  "data_completeness_pct": 70.8,
+  "best_months": [
+    "may",
+    "jun",
+    "jul",
+    "aug"
+  ],
+  "swim_suitability": "fair"
 }

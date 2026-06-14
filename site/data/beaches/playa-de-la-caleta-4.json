@@ -1,48 +1,21 @@
 {
   "slug": "playa-de-la-caleta-4",
   "name": "Playa de La Caleta",
-  "centroid_lat": 36.5301604,
-  "centroid_lng": -6.3061737,
   "country_code": "ES",
   "admin_level_1": "Andalusia",
-  "admin_level_2": null,
+  "centroid_lat": 36.5301604,
+  "centroid_lng": -6.3061737,
   "water_body_type": "ocean",
   "substrate_type": "sand",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "relation/12380331",
-      "source_url": "https://www.openstreetmap.org/relation/12380331"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q24022072",
-      "source_url": "https://www.wikidata.org/wiki/Q24022072"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "ES612M0121370",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "ES612M0121370",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    }
-  ],
-  "attributes": {
-    "facilities": {
-      "access": "yes"
-    },
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Playa%20de%20la%20Caleta%2C%20C%C3%A1diz%2C%20Espa%C3%B1a%2C%202015-12-08%2C%20DD%2053.JPG",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/La_Caleta,_Spain"
-    },
-    "environment": {
-      "water_quality_rating": "1 - excellent",
-      "eu_bathing_water_type": "Coastal"
-    }
+  "slope_pct": 0.35882153511047366,
+  "nearshore_depth_m": 11.84255313873291,
+  "classification": {
+    "primary_type": "Sand",
+    "primary_type_slug": "sand",
+    "coastal_type": "Sand",
+    "coastal_type_slug": "sand",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Cadiz",
   "nearest_city_distance_km": 1.0,
@@ -51,26 +24,308 @@
     "name": "Rota Naval Station Airport",
     "distance_km": 13.4
   },
-  "safety": {
-    "water_quality_rating": "1 - excellent",
-    "lifeguard": true,
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      15.2,
+      15.9,
+      17.55,
+      18.9,
+      21.05,
+      24.1,
+      27.25,
+      27.15,
+      25.85,
+      22.35,
+      18.7,
+      16.0
+    ],
+    "air_temp_low": [
+      8.7,
+      9.55,
+      10.55,
+      12.2,
+      14.8,
+      18.1,
+      20.6,
+      20.6,
+      19.4,
+      15.95,
+      12.45,
+      9.9
+    ],
+    "rain_mm": [
+      80.0,
+      60.0,
+      42.0,
+      46.0,
+      30.0,
+      13.0,
+      1.0,
+      3.0,
+      14.0,
+      58.0,
+      82.0,
+      94.0
+    ],
+    "wind_speed": [
+      3.6,
+      4.1,
+      4.0,
+      4.1,
+      4.3,
+      3.75,
+      3.6,
+      3.4,
+      3.5,
+      3.5,
+      3.55,
+      3.85
+    ],
+    "sun_hours": [
+      9356.0,
+      12338.0,
+      15762.0,
+      20901.0,
+      24547.0,
+      27240.0,
+      27728.0,
+      25074.0,
+      19910.0,
+      14748.0,
+      10116.0,
+      7967.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "facilities": {
-    "restrooms": true,
-    "showers": true
+  "tides": {
+    "range_spring_m": 2.736143921628791,
+    "range_neap_m": 1.2833082513343812,
+    "type": "semidiurnal",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/La_Caleta,_Spain",
-  "notability_score": 31.7,
-  "data_completeness_pct": 29.2,
   "sand": {
     "predicted": {
       "q_pct": 78.2,
       "f_pct": 4.1,
       "l_pct": 17.6,
       "regime": "quartz-dominant",
+      "regime_plain": "Quartz-dominant",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Playa_de_la_Caleta%2C_C%C3%A1diz%2C_Espa%C3%B1a%2C_2015-12-08%2C_DD_53.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Playa_de_la_Caleta%2C_C%C3%A1diz%2C_Espa%C3%B1a%2C_2015-12-08%2C_DD_53.JPG/1280px-Playa_de_la_Caleta%2C_C%C3%A1diz%2C_Espa%C3%B1a%2C_2015-12-08%2C_DD_53.JPG",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+      "title": "Playa de la Caleta, Cádiz, España, 2015-12-08, DD 53.JPG",
+      "width": 8629,
+      "height": 4463
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/C%C3%A1diz_-_Playa_de_la_Caleta.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/C%C3%A1diz_-_Playa_de_la_Caleta.jpg/1280px-C%C3%A1diz_-_Playa_de_la_Caleta.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Benjism89\" title=\"User:Benjism89\">Benjamin Smith</a>",
+      "title": "Cádiz - Playa de la Caleta.jpg",
+      "width": 6720,
+      "height": 4480
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/C%C3%A1diz_Castillo_de_San_Sebasti%C3%A1n_from_Avenida_Duque_de_N%C3%A1jera.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/C%C3%A1diz_Castillo_de_San_Sebasti%C3%A1n_from_Avenida_Duque_de_N%C3%A1jera.jpg/1280px-C%C3%A1diz_Castillo_de_San_Sebasti%C3%A1n_from_Avenida_Duque_de_N%C3%A1jera.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Ymblanter\" title=\"User:Ymblanter\">Ymblanter</a>",
+      "title": "Cádiz Castillo de San Sebastián from Avenida Duque de Nájera.jpg",
+      "width": 6008,
+      "height": 4008
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/C%C3%A1diz_-_La_Caleta_-_54910414030.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/C%C3%A1diz_-_La_Caleta_-_54910414030.jpg/1280px-C%C3%A1diz_-_La_Caleta_-_54910414030.jpg",
+      "license": "CC BY 4.0",
+      "author_html": "Jorge Franganillo",
+      "title": "Cádiz - La Caleta - 54910414030.jpg",
+      "width": 5988,
+      "height": 3368
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/C%C3%A1diz_Castillo_de_Santa_Catalina_from_Avenida_Duque_de_N%C3%A1jera_1.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/C%C3%A1diz_Castillo_de_Santa_Catalina_from_Avenida_Duque_de_N%C3%A1jera_1.jpg/1280px-C%C3%A1diz_Castillo_de_Santa_Catalina_from_Avenida_Duque_de_N%C3%A1jera_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Ymblanter\" title=\"User:Ymblanter\">Ymblanter</a>",
+      "title": "Cádiz Castillo de Santa Catalina from Avenida Duque de Nájera 1.jpg",
+      "width": 5913,
+      "height": 3762
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/C%C3%A1diz_-_La_Caleta.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/C%C3%A1diz_-_La_Caleta.jpg/1280px-C%C3%A1diz_-_La_Caleta.jpg",
+      "license": "CC BY 4.0",
+      "author_html": "Jorge Franganillo",
+      "title": "Cádiz - La Caleta.jpg",
+      "width": 5905,
+      "height": 3543
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/C%C3%A1diz_Castillo_de_Santa_Catalina_from_Avenida_Duque_de_N%C3%A1jera_2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/C%C3%A1diz_Castillo_de_Santa_Catalina_from_Avenida_Duque_de_N%C3%A1jera_2.jpg/1280px-C%C3%A1diz_Castillo_de_Santa_Catalina_from_Avenida_Duque_de_N%C3%A1jera_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Ymblanter\" title=\"User:Ymblanter\">Ymblanter</a>",
+      "title": "Cádiz Castillo de Santa Catalina from Avenida Duque de Nájera 2.jpg",
+      "width": 5895,
+      "height": 4008
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/C%C3%A1diz_Playa_de_la_Caleta_boats.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/C%C3%A1diz_Playa_de_la_Caleta_boats.jpg/1280px-C%C3%A1diz_Playa_de_la_Caleta_boats.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Ymblanter\" title=\"User:Ymblanter\">Ymblanter</a>",
+      "title": "Cádiz Playa de la Caleta boats.jpg",
+      "width": 5806,
+      "height": 3858
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 11.84255313873291,
+    "lifeguard": true
+  },
+  "facilities": {
+    "restrooms": true,
+    "showers": true,
+    "food_nearby": true
+  },
+  "water_quality": {
+    "rating": "1 - excellent",
+    "source": "eu_bathing",
+    "year": null
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 12,
+        "top": [
+          {
+            "common": "Yellow-legged Gull",
+            "latin": "Larus michahellis",
+            "obs": 202,
+            "iucn": null
+          },
+          {
+            "common": "Ruddy Turnstone",
+            "latin": "Arenaria interpres",
+            "obs": 158,
+            "iucn": null
+          },
+          {
+            "common": "Monk Parakeet",
+            "latin": "Myiopsitta monachus",
+            "obs": 107,
+            "iucn": null
+          },
+          {
+            "common": "Rock Pigeon",
+            "latin": "Columba livia",
+            "obs": 59,
+            "iucn": null
+          },
+          {
+            "common": "House Sparrow",
+            "latin": "Passer domesticus",
+            "obs": 45,
+            "iucn": null
+          },
+          {
+            "common": "Lesser Black-backed Gull",
+            "latin": "Larus fuscus",
+            "obs": 36,
+            "iucn": null
+          },
+          {
+            "common": "Eurasian Collared-Dove",
+            "latin": "Streptopelia decaocto",
+            "obs": 27,
+            "iucn": null
+          },
+          {
+            "common": "Little Egret",
+            "latin": "Egretta garzetta",
+            "obs": 26,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 5,
+        "top": [
+          {
+            "common": "Speckled Wood",
+            "latin": "Pararge aegeria",
+            "obs": 32,
+            "iucn": null
+          },
+          {
+            "common": "Nomad",
+            "latin": "Sympetrum fonscolombii",
+            "obs": 25,
+            "iucn": null
+          },
+          {
+            "common": "Saint Piran's Hermit Crab",
+            "latin": "Clibanarius erythropus",
+            "obs": 23,
+            "iucn": null
+          },
+          {
+            "common": "White Sea Star",
+            "latin": "Coscinasterias tenuispina",
+            "obs": 15,
+            "iucn": null
+          },
+          {
+            "common": "Marbled Crab",
+            "latin": "Pachygrapsus marmoratus",
+            "obs": 14,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 3,
+        "top": [
+          {
+            "common": "sweet alyssum",
+            "latin": "Lobularia maritima",
+            "obs": 17,
+            "iucn": null
+          },
+          {
+            "common": "tree tobacco",
+            "latin": "Nicotiana glauca",
+            "obs": 17,
+            "iucn": null
+          },
+          {
+            "common": "rock samphire",
+            "latin": "Crithmum maritimum",
+            "obs": 16,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -126,5 +381,27 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 58% of beaches in its country",
+      "detail": "Peak-month high ≈ 27°C"
+    }
+  ],
+  "wikidata_id": "Q24022072",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/La_Caleta,_Spain",
+  "wikipedia_page_views_annual": 14260,
+  "notability_score": 31.7,
+  "data_completeness_pct": 66.7,
+  "best_months": [
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct"
+  ],
+  "swim_suitability": "fair"
 }

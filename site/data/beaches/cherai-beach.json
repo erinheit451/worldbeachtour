@@ -1,40 +1,21 @@
 {
   "slug": "cherai-beach",
   "name": "Cherai Beach",
-  "centroid_lat": 10.1441876,
-  "centroid_lng": 76.1773418,
   "country_code": "IN",
   "admin_level_1": "Kerala",
-  "admin_level_2": null,
+  "centroid_lat": 10.1441876,
+  "centroid_lng": 76.1773418,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/25977369",
-      "source_url": "https://www.openstreetmap.org/way/25977369"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q10957902",
-      "source_url": "https://www.wikidata.org/wiki/Q10957902"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cherai%20Beach.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Cherai_Beach"
-    },
-    "safety": {
-      "cyclone_count_50yr": "8",
-      "cyclone_max_category": "1"
-    }
+  "slope_pct": 0.3068066477775574,
+  "nearshore_depth_m": 7.4375,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Kodungallur",
   "nearest_city_distance_km": 9.0,
@@ -43,23 +24,344 @@
     "name": "Cochin International Airport",
     "distance_km": 24.5
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      31.2647,
+      31.8412,
+      32.7529,
+      32.9235,
+      32.1353,
+      29.4353,
+      28.4529,
+      28.6882,
+      29.5,
+      30.0176,
+      30.4176,
+      31.0235
+    ],
+    "air_temp_low": [
+      22.5353,
+      23.7118,
+      25.1176,
+      25.7824,
+      25.3706,
+      23.6471,
+      23.1059,
+      23.4176,
+      23.8647,
+      23.8765,
+      23.6882,
+      22.9
+    ],
+    "rain_mm": [
+      7.0,
+      18.0,
+      29.0,
+      105.0,
+      348.0,
+      708.0,
+      722.0,
+      396.0,
+      295.0,
+      293.0,
+      157.0,
+      38.0
+    ],
+    "wind_speed": [
+      2.8353,
+      2.8647,
+      2.7941,
+      2.8,
+      3.4529,
+      3.6059,
+      3.3176,
+      3.5235,
+      3.4824,
+      2.6529,
+      2.5176,
+      2.7
+    ],
+    "sun_hours": [
+      20442.0,
+      22070.0,
+      23452.0,
+      21164.0,
+      19373.0,
+      16701.0,
+      16504.0,
+      17735.0,
+      19266.0,
+      17594.0,
+      17631.0,
+      18516.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "facilities": {
-    "showers": true
+  "tides": {
+    "range_spring_m": 0.7584186582703101,
+    "range_neap_m": 0.350005766736311,
+    "type": "mixed",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Cherai_Beach",
-  "notability_score": 30.8,
-  "data_completeness_pct": 20.8,
   "sand": {
     "predicted": {
       "q_pct": 98.5,
       "f_pct": 1.2,
       "l_pct": 0.3,
       "regime": "quartz-dominant",
+      "regime_plain": "Quartz-dominant",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 18,
+    "paragraph": "18 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1842–2018).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Cherai_beach_2022_pano.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Cherai_beach_2022_pano.jpg/1280px-Cherai_beach_2022_pano.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Vis_M\" title=\"User:Vis M\">Vis M</a>",
+      "title": "Cherai beach 2022 pano.jpg",
+      "width": 11408,
+      "height": 4256
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Cherai_beach_2022.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Cherai_beach_2022.jpg/1280px-Cherai_beach_2022.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Vis_M\" title=\"User:Vis M\">Vis M</a>",
+      "title": "Cherai beach 2022.jpg",
+      "width": 9280,
+      "height": 6944
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Cherai_Beach_scenery_02.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Cherai_Beach_scenery_02.jpg/1280px-Cherai_Beach_scenery_02.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Vis_M\" title=\"User:Vis M\">Vis M</a>",
+      "title": "Cherai Beach scenery 02.jpg",
+      "width": 9248,
+      "height": 6936
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Cherai_Beach_02.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Cherai_Beach_02.jpg/1280px-Cherai_Beach_02.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Vis_M\" title=\"User:Vis M\">Vis M</a>",
+      "title": "Cherai Beach 02.jpg",
+      "width": 9248,
+      "height": 6936
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Cherai_Beach_03.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Cherai_Beach_03.jpg/1280px-Cherai_Beach_03.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Vis_M\" title=\"User:Vis M\">Vis M</a>",
+      "title": "Cherai Beach 03.jpg",
+      "width": 9248,
+      "height": 6936
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Cherai_Beach_04.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Cherai_Beach_04.jpg/1280px-Cherai_Beach_04.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Vis_M\" title=\"User:Vis M\">Vis M</a>",
+      "title": "Cherai Beach 04.jpg",
+      "width": 9248,
+      "height": 6936
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Cherai_Beach_07.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Cherai_Beach_07.jpg/1280px-Cherai_Beach_07.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Vis_M\" title=\"User:Vis M\">Vis M</a>",
+      "title": "Cherai Beach 07.jpg",
+      "width": 9248,
+      "height": 6936
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Cherai_Beach_scenery_03.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Cherai_Beach_scenery_03.jpg/1280px-Cherai_Beach_scenery_03.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Vis_M\" title=\"User:Vis M\">Vis M</a>",
+      "title": "Cherai Beach scenery 03.jpg",
+      "width": 9248,
+      "height": 6936
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 7.4375
+  },
+  "facilities": {
+    "showers": true,
+    "food_nearby": true
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 7,
+        "top": [
+          {
+            "common": "Coral Vine",
+            "latin": "Antigonon leptopus",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Yellow Cosmos",
+            "latin": "Cosmos sulphureus",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Mile-a-minute vine",
+            "latin": "Ipomoea cairica",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Sacred Lotus",
+            "latin": "Nelumbo nucifera",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Taro",
+            "latin": "Colocasia esculenta",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "cashew",
+            "latin": "Anacardium occidentale",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Jackfruit",
+            "latin": "Artocarpus heterophyllus",
+            "obs": 1,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 6,
+        "top": [
+          {
+            "common": "Ditch Jewel",
+            "latin": "Brachythemis contaminata",
+            "obs": 2,
+            "iucn": null
+          },
+          {
+            "common": "Lime Swallowtail",
+            "latin": "Papilio demoleus",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Pallid Ghost Crab",
+            "latin": "Ocypode pallidula",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Blue Marsh Hawk",
+            "latin": "Orthetrum glaucum",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Common Indian Crow",
+            "latin": "Euploea core",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Grey Pansy",
+            "latin": "Junonia atlites",
+            "obs": 1,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 5,
+        "top": [
+          {
+            "common": "Common Greenshank",
+            "latin": "Tringa nebularia",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Brahminy Kite",
+            "latin": "Haliastur indus",
+            "obs": 2,
+            "iucn": null
+          },
+          {
+            "common": "Eurasian Whimbrel",
+            "latin": "Numenius phaeopus",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Black-winged Stilt",
+            "latin": "Himantopus himantopus",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "House Crow",
+            "latin": "Corvus splendens",
+            "obs": 1,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 1,
+        "top": [
+          {
+            "common": "Keeled Indian Mabuya",
+            "latin": "Eutropis carinata",
+            "obs": 1,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Fish",
+        "key": "fish",
+        "count": 1,
+        "top": [
+          {
+            "common": "Green Chromide",
+            "latin": "Etroplus suratensis",
+            "obs": 1,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -115,5 +417,36 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 74% of beaches in its country",
+      "detail": "Peak-month high ≈ 33°C"
+    },
+    {
+      "metric": "Worldwide",
+      "text": "Among the warmest 5% of beaches on Earth",
+      "detail": null
+    }
+  ],
+  "wikidata_id": "Q10957902",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cherai_Beach",
+  "wikipedia_page_views_annual": 32480,
+  "notability_score": 30.8,
+  "data_completeness_pct": 58.3,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

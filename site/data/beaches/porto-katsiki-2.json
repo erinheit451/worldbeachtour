@@ -1,40 +1,21 @@
 {
   "slug": "porto-katsiki-2",
   "name": "PORTO KATSIKI",
-  "centroid_lat": 38.6023,
-  "centroid_lng": 20.5497,
   "country_code": "EL",
   "admin_level_1": "Ionian Islands",
-  "admin_level_2": null,
+  "centroid_lat": 38.6023,
+  "centroid_lng": 20.5497,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "wikidata",
-      "source_id": "Q1132269",
-      "source_url": "https://www.wikidata.org/wiki/Q1132269"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "ELBW049121033101",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "ELBW049121033101",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Lefkada%20kosta.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Porto_Katsiki"
-    },
-    "environment": {
-      "water_quality_rating": "1 - excellent",
-      "eu_bathing_water_type": "Coastal"
-    }
+  "slope_pct": 9.06875,
+  "nearshore_depth_m": 239.0625,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Nidri",
   "nearest_city_distance_km": 18.1,
@@ -43,25 +24,296 @@
     "name": "Aktion National Airport",
     "distance_km": 40.5
   },
-  "safety": {
-    "water_quality_rating": "1 - excellent",
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      13.0824,
+      13.0235,
+      14.5882,
+      17.1941,
+      21.8882,
+      26.1765,
+      28.8118,
+      29.2176,
+      26.1235,
+      21.8471,
+      17.2529,
+      14.3
+    ],
+    "air_temp_low": [
+      6.2,
+      6.1824,
+      7.0588,
+      9.4235,
+      13.0176,
+      16.3765,
+      18.3882,
+      18.9118,
+      16.7529,
+      13.6529,
+      10.0588,
+      7.3294
+    ],
+    "rain_mm": [
+      111.0,
+      117.0,
+      83.0,
+      62.0,
+      31.0,
+      14.0,
+      9.0,
+      15.0,
+      46.0,
+      107.0,
+      160.0,
+      147.0
+    ],
+    "wind_speed": [
+      2.9647,
+      3.2941,
+      3.1059,
+      2.7882,
+      2.6706,
+      2.7118,
+      2.7824,
+      2.8,
+      2.5706,
+      2.6882,
+      2.7941,
+      2.9941
+    ],
+    "sun_hours": [
+      6532.0,
+      9134.0,
+      13177.0,
+      18111.0,
+      21635.0,
+      24486.0,
+      25737.0,
+      23134.0,
+      17823.0,
+      12014.0,
+      7765.0,
+      5878.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "facilities": {
-    "restrooms": true,
-    "showers": true
+  "tides": {
+    "range_spring_m": 0.14881953329555975,
+    "range_neap_m": 0.02598254992582054,
+    "type": "mixed",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Porto_Katsiki",
-  "notability_score": 31.8,
-  "data_completeness_pct": 29.2,
   "sand": {
     "predicted": {
       "q_pct": 48.2,
       "f_pct": 1.0,
       "l_pct": 50.8,
       "regime": "lithic-rich (volcanic/collisional terrane)",
+      "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Porto_Katsiki_SF_0001.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Porto_Katsiki_SF_0001.jpg/1280px-Porto_Katsiki_SF_0001.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<bdi><a href=\"//commons.wikimedia.org/wiki/User:DerFussi\" title=\"User:DerFussi\">Stefan Fussan</a></bdi>",
+      "title": "Porto Katsiki SF 0001.jpg",
+      "width": 10174,
+      "height": 3860
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Lefkada_kosta.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Lefkada_kosta.jpg/1280px-Lefkada_kosta.jpg",
+      "license": "Public domain",
+      "author_html": "<a href=\"https://en.wikipedia.org/wiki/User:Moumouza\" class=\"extiw\" title=\"wikipedia:User:Moumouza\">Moumouza</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+      "title": "Lefkada kosta.jpg",
+      "width": 6235,
+      "height": 2059
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Lefkada_banner_Porto_Katsiki.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Lefkada_banner_Porto_Katsiki.jpg/1280px-Lefkada_banner_Porto_Katsiki.jpg",
+      "license": "CC0",
+      "author_html": "User:Moumouza",
+      "title": "Lefkada banner Porto Katsiki.jpg",
+      "width": 6235,
+      "height": 891
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Porto_Katsiki_Beach%2C_Lefkada%2C_Ionian_Islands%2C_Greece.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Porto_Katsiki_Beach%2C_Lefkada%2C_Ionian_Islands%2C_Greece.jpg/1280px-Porto_Katsiki_Beach%2C_Lefkada%2C_Ionian_Islands%2C_Greece.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Dimitra_Papadimitriou&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Dimitra Papadimitriou (page does not exist)\">Dimitra Papadimitriou</a>",
+      "title": "Porto Katsiki Beach, Lefkada, Ionian Islands, Greece.jpg",
+      "width": 5790,
+      "height": 3860
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Porto_Katsiki_beach%2C_pic1.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Porto_Katsiki_beach%2C_pic1.JPG/1280px-Porto_Katsiki_beach%2C_pic1.JPG",
+      "license": "CC0",
+      "author_html": "Alf van Beem",
+      "title": "Porto Katsiki beach, pic1.JPG",
+      "width": 4608,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Porto_Katsiki_beach%2C_pic2.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Porto_Katsiki_beach%2C_pic2.JPG/1280px-Porto_Katsiki_beach%2C_pic2.JPG",
+      "license": "CC0",
+      "author_html": "Alf van Beem",
+      "title": "Porto Katsiki beach, pic2.JPG",
+      "width": 4608,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Porto_katsiki_%28Unsplash%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Porto_katsiki_%28Unsplash%29.jpg/1280px-Porto_katsiki_%28Unsplash%29.jpg",
+      "license": "CC0",
+      "author_html": "Mikuláš Prokop <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@mikulas_prokop\">mikulas_prokop</a>",
+      "title": "Porto katsiki (Unsplash).jpg",
+      "width": 3511,
+      "height": 2278
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Lefkas14.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Lefkas14.JPG/1280px-Lefkas14.JPG",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Igorm77&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Igorm77 (page does not exist)\">Igorm77</a>",
+      "title": "Lefkas14.JPG",
+      "width": 3264,
+      "height": 2448
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 239.0625
+  },
+  "facilities": {
+    "restrooms": true,
+    "showers": true,
+    "food_nearby": true
+  },
+  "water_quality": {
+    "rating": "1 - excellent",
+    "source": "eu_bathing",
+    "year": null
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 15,
+        "top": [
+          {
+            "common": "Spanish Oregano",
+            "latin": "Thymbra capitata",
+            "obs": 3,
+            "iucn": null
+          },
+          {
+            "common": "Common Venus'-looking-glass",
+            "latin": "Legousia speculum-veneris",
+            "obs": 2,
+            "iucn": null
+          },
+          {
+            "common": "Pink Hawk's-beard",
+            "latin": "Crepis rubra",
+            "obs": 2,
+            "iucn": null
+          },
+          {
+            "common": "Mediterranean Heath",
+            "latin": "Erica multiflora",
+            "obs": 2,
+            "iucn": null
+          },
+          {
+            "common": "Common centaury",
+            "latin": "Centaurium erythraea",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Star Clover",
+            "latin": "Trifolium stellatum",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "American century plant",
+            "latin": "Agave americana",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Broadleaf Glandweed",
+            "latin": "Parentucellia latifolia",
+            "obs": 1,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 2,
+        "top": [
+          {
+            "common": "Eurasian Sparrowhawk",
+            "latin": "Accipiter nisus",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Common Hoopoe",
+            "latin": "Upupa epops",
+            "obs": 1,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 2,
+        "top": [
+          {
+            "common": "Wall Brown",
+            "latin": "Lasiommata megera",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Littoral Tiger Beetle",
+            "latin": "Calomera littoralis",
+            "obs": 1,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Fish",
+        "key": "fish",
+        "count": 1,
+        "top": [
+          {
+            "common": "Silver Puffer",
+            "latin": "Lagocephalus sceleratus",
+            "obs": 1,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -117,5 +369,26 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 83% of beaches in its country",
+      "detail": "Peak-month high ≈ 29°C"
+    }
+  ],
+  "wikidata_id": "Q1132269",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Porto_Katsiki",
+  "wikipedia_page_views_annual": 24038,
+  "notability_score": 31.8,
+  "data_completeness_pct": 66.7,
+  "best_months": [
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct"
+  ],
+  "swim_suitability": "fair"
 }

@@ -1,45 +1,19 @@
 {
   "slug": "girgaum-chowpatty-beach",
   "name": "Girgaum Chowpatty Beach",
-  "centroid_lat": 18.9543869,
-  "centroid_lng": 72.8114236,
   "country_code": "IN",
   "admin_level_1": "Maharashtra",
-  "admin_level_2": null,
+  "centroid_lat": 18.9543869,
+  "centroid_lng": 72.8114236,
   "water_body_type": "ocean",
   "substrate_type": "sand",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/38718382",
-      "source_url": "https://www.openstreetmap.org/way/38718382"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q5564239",
-      "source_url": "https://www.wikidata.org/wiki/Q5564239"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q26793807",
-      "source_url": "https://www.wikidata.org/wiki/Q26793807"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Mumbai%2C%20India%2C%20Bombay%2C%20Chowpatty%20%28Chaupati%29%20Beach.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Girgaon_Chowpatty"
-    },
-    "safety": {
-      "cyclone_count_50yr": "6",
-      "cyclone_max_category": "2"
-    }
+  "classification": {
+    "primary_type": "Sand",
+    "primary_type_slug": "sand",
+    "coastal_type": "Sand",
+    "coastal_type_slug": "sand",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Mumbai",
   "nearest_city_distance_km": 15.1,
@@ -48,20 +22,255 @@
     "name": "Chhatrapati Shivaji Maharaj International Airport",
     "distance_km": 16.1
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      29.8778,
+      30.2333,
+      31.8333,
+      32.5444,
+      33.0556,
+      31.5778,
+      29.6556,
+      29.2556,
+      30.1667,
+      32.4556,
+      32.7556,
+      31.1778
+    ],
+    "air_temp_low": [
+      18.5333,
+      19.2222,
+      21.9,
+      24.7,
+      27.0,
+      26.4889,
+      25.5333,
+      25.1556,
+      24.7667,
+      24.4111,
+      22.2778,
+      19.8889
+    ],
+    "rain_mm": [
+      1.0,
+      1.0,
+      1.0,
+      9.0,
+      26.0,
+      450.0,
+      658.0,
+      422.0,
+      284.0,
+      88.0,
+      13.0,
+      3.0
+    ],
+    "wind_speed": [
+      2.0333,
+      2.3111,
+      2.4667,
+      2.8111,
+      3.6556,
+      4.1111,
+      4.7111,
+      4.1556,
+      2.7889,
+      1.9778,
+      1.9667,
+      1.9
+    ],
+    "sun_hours": [
+      18046.0,
+      20690.0,
+      23364.0,
+      24470.0,
+      23341.0,
+      18073.0,
+      14824.0,
+      15177.0,
+      17558.0,
+      19172.0,
+      18496.0,
+      17114.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Girgaon_Chowpatty",
-  "notability_score": 33.7,
-  "data_completeness_pct": 20.8,
+  "tides": {
+    "range_spring_m": 3.108262242954629,
+    "range_neap_m": 1.300272163563783,
+    "type": "mixed",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 52.8,
       "f_pct": 38.9,
       "l_pct": 8.3,
       "regime": "feldspar-rich (plutonic/crystalline terrane)",
+      "regime_plain": "Feldspar-rich (plutonic/crystalline terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 19,
+    "paragraph": "19 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1854–2020).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Chowpatty_beach_2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Chowpatty_beach_2.jpg/1280px-Chowpatty_beach_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Ganesh_Mohan_T\" class=\"mw-redirect\" title=\"User:Ganesh Mohan T\">Ganesh Mohan T</a>",
+      "title": "Chowpatty beach 2.jpg",
+      "width": 16320,
+      "height": 12240
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Chowpaty%2C_Pre-monson_2012_-_panoramio_%2839%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Chowpaty%2C_Pre-monson_2012_-_panoramio_%2839%29.jpg/1280px-Chowpaty%2C_Pre-monson_2012_-_panoramio_%2839%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161026054739/http://www.panoramio.com/user/6549655?with_photo_id=74507060\">Udaykumar PR</a>",
+      "title": "Chowpaty, Pre-monson 2012 - panoramio (39).jpg",
+      "width": 8828,
+      "height": 2000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Chaupati_beach_Mumbai%2C_India.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Chaupati_beach_Mumbai%2C_India.jpg/1280px-Chaupati_beach_Mumbai%2C_India.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:JitendraSharma009\" title=\"User:JitendraSharma009\">JitendraSharma009</a>",
+      "title": "Chaupati beach Mumbai, India.jpg",
+      "width": 5152,
+      "height": 3864
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Girgaum_Chowpaty%2CMumbai_-_panoramio_%283%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Girgaum_Chowpaty%2CMumbai_-_panoramio_%283%29.jpg/1280px-Girgaum_Chowpaty%2CMumbai_-_panoramio_%283%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161022013054/http://www.panoramio.com/user/6549655?with_photo_id=69518568\">Udaykumar PR</a>",
+      "title": "Girgaum Chowpaty,Mumbai - panoramio (3).jpg",
+      "width": 4767,
+      "height": 1080
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Girgaum_Chowpaty%2CMumbai_-_panoramio_%286%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Girgaum_Chowpaty%2CMumbai_-_panoramio_%286%29.jpg/1280px-Girgaum_Chowpaty%2CMumbai_-_panoramio_%286%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161024014257/http://www.panoramio.com/user/6549655?with_photo_id=69518574\">Udaykumar PR</a>",
+      "title": "Girgaum Chowpaty,Mumbai - panoramio (6).jpg",
+      "width": 4767,
+      "height": 1080
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Girgaum_Chowpaty%2CMumbai_-_panoramio_%2813%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Girgaum_Chowpaty%2CMumbai_-_panoramio_%2813%29.jpg/1280px-Girgaum_Chowpaty%2CMumbai_-_panoramio_%2813%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161020015331/http://www.panoramio.com/user/6549655?with_photo_id=69518636\">Udaykumar PR</a>",
+      "title": "Girgaum Chowpaty,Mumbai - panoramio (13).jpg",
+      "width": 4767,
+      "height": 1080
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Girgaum_Chowpaty%2CMumbai_-_panoramio_%289%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Girgaum_Chowpaty%2CMumbai_-_panoramio_%289%29.jpg/1280px-Girgaum_Chowpaty%2CMumbai_-_panoramio_%289%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161023122058/http://www.panoramio.com/user/6549655?with_photo_id=69518624\">Udaykumar PR</a>",
+      "title": "Girgaum Chowpaty,Mumbai - panoramio (9).jpg",
+      "width": 4767,
+      "height": 1080
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Girgaum_Chowpaty%2CMumbai_-_panoramio_%281%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Girgaum_Chowpaty%2CMumbai_-_panoramio_%281%29.jpg/1280px-Girgaum_Chowpaty%2CMumbai_-_panoramio_%281%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161020104946/http://www.panoramio.com/user/6549655?with_photo_id=69518559\">Udaykumar PR</a>",
+      "title": "Girgaum Chowpaty,Mumbai - panoramio (1).jpg",
+      "width": 4767,
+      "height": 1080
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null
+  },
+  "facilities": {
+    "food_nearby": true
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 19,
+        "top": [
+          {
+            "common": "Green Button Polyp",
+            "latin": "Palythoa mutuki",
+            "obs": 182,
+            "iucn": null
+          },
+          {
+            "common": "Arabian Cowry",
+            "latin": "Mauritia arabica",
+            "obs": 141,
+            "iucn": null
+          },
+          {
+            "common": "Star-tentacled Bornella",
+            "latin": "Bornella stellifera",
+            "obs": 91,
+            "iucn": null
+          },
+          {
+            "common": "scribbled nudibranch",
+            "latin": "Doriopsilla miniata",
+            "obs": 82,
+            "iucn": null
+          },
+          {
+            "common": "Violet Zoanthids",
+            "latin": "Zoanthus sansibaricus",
+            "obs": 66,
+            "iucn": null
+          },
+          {
+            "common": "Banded-leg swimming crab",
+            "latin": "Charybdis annulata",
+            "obs": 47,
+            "iucn": null
+          },
+          {
+            "common": "Verrill's encrusting cup coral",
+            "latin": "Polycyathus verrilli",
+            "obs": 45,
+            "iucn": null
+          },
+          {
+            "common": "Pearly Sea Anemone",
+            "latin": "Paracondylactis sinensis",
+            "obs": 42,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 1,
+        "top": [
+          {
+            "common": "Black Kite",
+            "latin": "Milvus migrans",
+            "obs": 35,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -117,5 +326,33 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 67% of beaches in its country",
+      "detail": "Peak-month high ≈ 33°C"
+    },
+    {
+      "metric": "Worldwide",
+      "text": "Among the warmest 5% of beaches on Earth",
+      "detail": null
+    }
+  ],
+  "wikidata_id": "Q26793807",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Girgaon_Chowpatty",
+  "wikipedia_page_views_annual": 35336,
+  "notability_score": 33.7,
+  "data_completeness_pct": 54.2,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "may",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

@@ -1,43 +1,21 @@
 {
   "slug": "elliots-beach",
   "name": "Elliots Beach",
-  "centroid_lat": 12.9978864,
-  "centroid_lng": 80.2730281,
   "country_code": "IN",
   "admin_level_1": "Tamil Nadu",
-  "admin_level_2": null,
+  "centroid_lat": 12.9978864,
+  "centroid_lng": 80.2730281,
   "water_body_type": "ocean",
   "substrate_type": "sand",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "relation/14304132",
-      "source_url": "https://www.openstreetmap.org/relation/14304132"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q4455449",
-      "source_url": "https://www.wikidata.org/wiki/Q4455449"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "facilities": {
-      "access": "yes"
-    },
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Elliots%20Beach%20at%20Besant%20Nagar%2C%20Chennai.JPG",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Edward_Elliot%27s_Beach"
-    },
-    "safety": {
-      "cyclone_count_50yr": "28",
-      "cyclone_max_category": "4"
-    }
+  "slope_pct": 0.5594899773597718,
+  "nearshore_depth_m": 13.0625,
+  "classification": {
+    "primary_type": "Sand",
+    "primary_type_slug": "sand",
+    "coastal_type": "Sand",
+    "coastal_type_slug": "sand",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Gandhi Nagar",
   "nearest_city_distance_km": 2.3,
@@ -46,23 +24,312 @@
     "name": "Chennai International Airport",
     "distance_km": 11.3
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      29.1,
+      30.9636,
+      33.2,
+      35.2636,
+      37.2818,
+      36.9727,
+      35.0636,
+      34.3636,
+      34.0364,
+      32.0545,
+      29.8,
+      28.8182
+    ],
+    "air_temp_low": [
+      20.9182,
+      21.9273,
+      23.4455,
+      25.9636,
+      27.4545,
+      27.1455,
+      26.0091,
+      25.6455,
+      25.3091,
+      24.5,
+      23.0909,
+      21.7091
+    ],
+    "rain_mm": [
+      24.0,
+      9.0,
+      4.0,
+      11.0,
+      42.0,
+      55.0,
+      101.0,
+      138.0,
+      126.0,
+      250.0,
+      346.0,
+      150.0
+    ],
+    "wind_speed": [
+      2.0545,
+      2.5091,
+      2.5545,
+      2.5909,
+      3.5182,
+      4.1091,
+      3.6909,
+      3.5636,
+      2.8273,
+      1.8364,
+      2.2818,
+      2.2364
+    ],
+    "sun_hours": [
+      19000.0,
+      22199.0,
+      24360.0,
+      24205.0,
+      22923.0,
+      20593.0,
+      19079.0,
+      19657.0,
+      20162.0,
+      18078.0,
+      16463.0,
+      16392.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "facilities": {
-    "restrooms": true
+  "tides": {
+    "range_spring_m": 0.9086416921411132,
+    "range_neap_m": 0.3938823460371509,
+    "type": "mixed",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Edward_Elliot%27s_Beach",
-  "notability_score": 30.7,
-  "data_completeness_pct": 25.0,
   "sand": {
     "predicted": {
       "q_pct": 96.4,
       "f_pct": 2.2,
       "l_pct": 1.4,
       "regime": "quartz-dominant",
+      "regime_plain": "Quartz-dominant",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 71,
+    "paragraph": "71 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1877–2024).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Bessi_Beach_%287962068852%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Bessi_Beach_%287962068852%29.jpg/1280px-Bessi_Beach_%287962068852%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/34501870@N00\">Ashwin Kumar</a> from Bangalore, India",
+      "title": "Bessi Beach (7962068852).jpg",
+      "width": 6197,
+      "height": 2083
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Besant_nagar_beach%2C_Chennai%2C_India_%28Unsplash%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Besant_nagar_beach%2C_Chennai%2C_India_%28Unsplash%29.jpg/1280px-Besant_nagar_beach%2C_Chennai%2C_India_%28Unsplash%29.jpg",
+      "license": "CC0",
+      "author_html": "Prasanna Kumar <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@prasannasnap\">prasannasnap</a>",
+      "title": "Besant nagar beach, Chennai, India (Unsplash).jpg",
+      "width": 6016,
+      "height": 4016
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/SAZI_01.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/SAZI_01.jpg/1280px-SAZI_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Saziwiki&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Saziwiki (page does not exist)\">SASIDHARAN</a>",
+      "title": "SAZI 01.jpg",
+      "width": 5472,
+      "height": 3648
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Besant_Nagar_Beach_boat.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Besant_Nagar_Beach_boat.jpg/1280px-Besant_Nagar_Beach_boat.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/71160755@N05\">Sridharan Chakravarthy</a> from Chennai, India",
+      "title": "Besant Nagar Beach boat.jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Baloon_besant_nagar_beach_chennai.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Baloon_besant_nagar_beach_chennai.jpg/1280px-Baloon_besant_nagar_beach_chennai.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Sivahari\" title=\"User:Sivahari\">Sivahari</a>",
+      "title": "Baloon besant nagar beach chennai.jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Elliot%27s_Beach%2C_Chennai_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Elliot%27s_Beach%2C_Chennai_-_panoramio.jpg/1280px-Elliot%27s_Beach%2C_Chennai_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161031142537/http://www.panoramio.com/user/1770775?with_photo_id=118189192\">Alexey Komarov</a>",
+      "title": "Elliot's Beach, Chennai - panoramio.jpg",
+      "width": 4962,
+      "height": 2435
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Besant_nagar_beach_tapri.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Besant_nagar_beach_tapri.JPG/1280px-Besant_nagar_beach_tapri.JPG",
+      "license": "CC BY-SA 3.0",
+      "author_html": "Salina Wilson",
+      "title": "Besant nagar beach tapri.JPG",
+      "width": 4752,
+      "height": 3168
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Fire_from_corn_barbeque_at_besant_nagar_beach_%2C_Chennai.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Fire_from_corn_barbeque_at_besant_nagar_beach_%2C_Chennai.jpg/1280px-Fire_from_corn_barbeque_at_besant_nagar_beach_%2C_Chennai.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Shanmugamp7\" title=\"User:Shanmugamp7\">Shanmugamp7</a>",
+      "title": "Fire from corn barbeque at besant nagar beach , Chennai.jpg",
+      "width": 4640,
+      "height": 2610
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 13.0625
+  },
+  "facilities": {
+    "restrooms": true,
+    "food_nearby": true
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 11,
+        "top": [
+          {
+            "common": "Tawny Coster",
+            "latin": "Acraea terpsicore",
+            "obs": 95,
+            "iucn": null
+          },
+          {
+            "common": "Cuneate Wedge Shell",
+            "latin": "Latona cuneata",
+            "obs": 83,
+            "iucn": null
+          },
+          {
+            "common": "Indian Red Bug",
+            "latin": "Probergrothius sanguinolens",
+            "obs": 40,
+            "iucn": null
+          },
+          {
+            "common": "Horn-eyed Ghost Crab",
+            "latin": "Ocypode brevicornis",
+            "obs": 39,
+            "iucn": null
+          },
+          {
+            "common": "Sunset Siliqua",
+            "latin": "Siliqua radiata",
+            "obs": 35,
+            "iucn": null
+          },
+          {
+            "common": "Lime Swallowtail",
+            "latin": "Papilio demoleus",
+            "obs": 31,
+            "iucn": null
+          },
+          {
+            "common": "Braided Tiger Beetle",
+            "latin": "Lophyra catena",
+            "obs": 31,
+            "iucn": null
+          },
+          {
+            "common": "Lemon Pansy",
+            "latin": "Junonia lemonias",
+            "obs": 29,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 6,
+        "top": [
+          {
+            "common": "Little Egret",
+            "latin": "Egretta garzetta",
+            "obs": 64,
+            "iucn": null
+          },
+          {
+            "common": "House Crow",
+            "latin": "Corvus splendens",
+            "obs": 56,
+            "iucn": null
+          },
+          {
+            "common": "Asian Green Bee-eater",
+            "latin": "Merops orientalis",
+            "obs": 55,
+            "iucn": null
+          },
+          {
+            "common": "Tibetan Sand-Plover",
+            "latin": "Anarhynchus atrifrons",
+            "obs": 49,
+            "iucn": null
+          },
+          {
+            "common": "Large-billed Crow",
+            "latin": "Corvus macrorhynchos",
+            "obs": 27,
+            "iucn": null
+          },
+          {
+            "common": "Common Sandpiper",
+            "latin": "Actitis hypoleucos",
+            "obs": 26,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 3,
+        "top": [
+          {
+            "common": "Beach Morning Glory",
+            "latin": "Ipomoea pes-caprae",
+            "obs": 39,
+            "iucn": null
+          },
+          {
+            "common": "Cuban Buttercup",
+            "latin": "Turnera subulata",
+            "obs": 39,
+            "iucn": null
+          },
+          {
+            "common": "Neem",
+            "latin": "Azadirachta indica",
+            "obs": 29,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -118,5 +385,31 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Warmer than 94% of beaches in its country",
+      "detail": "Peak-month high ≈ 37°C"
+    },
+    {
+      "metric": "Worldwide",
+      "text": "Among the warmest 1% of beaches on Earth",
+      "detail": null
+    }
+  ],
+  "wikidata_id": "Q4455449",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Edward_Elliot%27s_Beach",
+  "wikipedia_page_views_annual": 31967,
+  "notability_score": 30.7,
+  "data_completeness_pct": 62.5,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

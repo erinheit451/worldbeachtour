@@ -1,106 +1,21 @@
 {
   "slug": "jacob-riis-park-beach-8",
   "name": "Jacob Riis Park Beach 8",
-  "centroid_lat": 40.5643154,
-  "centroid_lng": -73.8754424,
   "country_code": "US",
   "admin_level_1": "New York",
-  "admin_level_2": null,
+  "centroid_lat": 40.5643154,
+  "centroid_lng": -73.8754424,
   "water_body_type": "ocean",
   "substrate_type": "sand",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/904163072",
-      "source_url": "https://www.openstreetmap.org/way/904163072"
-    },
-    {
-      "source_name": "osm",
-      "source_id": "way/1057432963",
-      "source_url": "https://www.openstreetmap.org/way/1057432963"
-    },
-    {
-      "source_name": "osm",
-      "source_id": "way/1057432964",
-      "source_url": "https://www.openstreetmap.org/way/1057432964"
-    },
-    {
-      "source_name": "osm",
-      "source_id": "way/1057432965",
-      "source_url": "https://www.openstreetmap.org/way/1057432965"
-    },
-    {
-      "source_name": "osm",
-      "source_id": "way/1057432966",
-      "source_url": "https://www.openstreetmap.org/way/1057432966"
-    },
-    {
-      "source_name": "osm",
-      "source_id": "way/1057432967",
-      "source_url": "https://www.openstreetmap.org/way/1057432967"
-    },
-    {
-      "source_name": "osm",
-      "source_id": "way/1057432968",
-      "source_url": "https://www.openstreetmap.org/way/1057432968"
-    },
-    {
-      "source_name": "osm",
-      "source_id": "way/1057432969",
-      "source_url": "https://www.openstreetmap.org/way/1057432969"
-    },
-    {
-      "source_name": "osm",
-      "source_id": "way/1057432970",
-      "source_url": "https://www.openstreetmap.org/way/1057432970"
-    },
-    {
-      "source_name": "osm",
-      "source_id": "way/1057432971",
-      "source_url": "https://www.openstreetmap.org/way/1057432971"
-    },
-    {
-      "source_name": "osm",
-      "source_id": "way/1057432972",
-      "source_url": "https://www.openstreetmap.org/way/1057432972"
-    },
-    {
-      "source_name": "osm",
-      "source_id": "way/1057432973",
-      "source_url": "https://www.openstreetmap.org/way/1057432973"
-    },
-    {
-      "source_name": "osm",
-      "source_id": "way/1057432974",
-      "source_url": "https://www.openstreetmap.org/way/1057432974"
-    },
-    {
-      "source_name": "osm",
-      "source_id": "way/1057432975",
-      "source_url": "https://www.openstreetmap.org/way/1057432975"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q6119176",
-      "source_url": "https://www.wikidata.org/wiki/Q6119176"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "nudist": "customary",
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jacob%20Riis%20Park.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Jacob_Riis_Park"
-    },
-    "safety": {
-      "cyclone_count_50yr": "13",
-      "cyclone_max_category": "5"
-    }
+  "slope_pct": 0.276995849609375,
+  "nearshore_depth_m": 10.917170524597168,
+  "classification": {
+    "primary_type": "Sand",
+    "primary_type_slug": "sand",
+    "coastal_type": "Sand",
+    "coastal_type_slug": "sand",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "East New York",
   "nearest_city_distance_km": 11.4,
@@ -109,21 +24,335 @@
     "name": "John F. Kennedy International Airport",
     "distance_km": 11.6
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      4.2875,
+      4.9875,
+      8.5375,
+      13.6375,
+      19.225,
+      24.125,
+      27.5875,
+      26.925,
+      23.1,
+      17.425,
+      12.35,
+      7.1
+    ],
+    "air_temp_low": [
+      -3.375,
+      -2.925,
+      0.3375,
+      4.975,
+      9.975,
+      15.175,
+      18.7125,
+      18.6,
+      14.875,
+      9.2375,
+      4.775,
+      -0.1875
+    ],
+    "rain_mm": [
+      91.0,
+      78.0,
+      104.0,
+      98.0,
+      104.0,
+      82.0,
+      106.0,
+      113.0,
+      93.0,
+      87.0,
+      99.0,
+      94.0
+    ],
+    "wind_speed": [
+      5.0375,
+      5.1,
+      5.1375,
+      4.9,
+      4.3,
+      4.0375,
+      3.8,
+      3.65,
+      3.9125,
+      4.2,
+      4.7,
+      4.9
+    ],
+    "sun_hours": [
+      6565.0,
+      9787.0,
+      13218.0,
+      16717.0,
+      19437.0,
+      21318.0,
+      20990.0,
+      18606.0,
+      14710.0,
+      10813.0,
+      7064.0,
+      5791.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Jacob_Riis_Park",
-  "notability_score": 39.3,
-  "data_completeness_pct": 25.0,
+  "tides": {
+    "range_spring_m": 1.5093655383131526,
+    "range_neap_m": 1.0612531807237988,
+    "type": "semidiurnal",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 32.6,
       "f_pct": 6.9,
       "l_pct": 60.6,
       "regime": "lithic-rich (volcanic/collisional terrane)",
+      "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 48,
+    "paragraph": "48 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1861–2021).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/1950_Census_Enumeration_District_Maps_-_New_York_%28NY%29_-_Queens_County_-_Queens_-_ED_41-1_to_2176_-_NARA_-_24519584_%28page_14%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/1950_Census_Enumeration_District_Maps_-_New_York_%28NY%29_-_Queens_County_-_Queens_-_ED_41-1_to_2176_-_NARA_-_24519584_%28page_14%29.jpg/1280px-1950_Census_Enumeration_District_Maps_-_New_York_%28NY%29_-_Queens_County_-_Queens_-_ED_41-1_to_2176_-_NARA_-_24519584_%28page_14%29.jpg",
+      "license": "Public domain",
+      "author_html": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span> or not provided</div>",
+      "title": "1950 Census Enumeration District Maps - New York (NY) - Queens County - Queens - ED 41-1 to 2176 - NARA - 24519584 (page 14).jpg",
+      "width": 11730,
+      "height": 10383
     },
-    "description": "It features an extensive sand beach along the Atlantic Ocean coastline and several historic Art Deco structures."
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Marine4_%287448170488%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Marine4_%287448170488%29.jpg/1280px-Marine4_%287448170488%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/61135621@N03\">Metropolitan Transportation Authority of the State of New York</a>",
+      "title": "Marine4 (7448170488).jpg",
+      "width": 11332,
+      "height": 8959
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Marine2_%287448168582%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Marine2_%287448168582%29.jpg/1280px-Marine2_%287448168582%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/61135621@N03\">Metropolitan Transportation Authority of the State of New York</a>",
+      "title": "Marine2 (7448168582).jpg",
+      "width": 7857,
+      "height": 5424
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/1940_Census_Enumeration_District_Maps_-_New_York_-_Queens_County_-_ED_41-1_-_ED_41-1890_-_NARA_-_5835757_%28page_4%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/1940_Census_Enumeration_District_Maps_-_New_York_-_Queens_County_-_ED_41-1_-_ED_41-1890_-_NARA_-_5835757_%28page_4%29.jpg/1280px-1940_Census_Enumeration_District_Maps_-_New_York_-_Queens_County_-_ED_41-1_-_ED_41-1890_-_NARA_-_5835757_%28page_4%29.jpg",
+      "license": "Public domain",
+      "author_html": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span> or not provided</div>",
+      "title": "1940 Census Enumeration District Maps - New York - Queens County - ED 41-1 - ED 41-1890 - NARA - 5835757 (page 4).jpg",
+      "width": 6088,
+      "height": 6008
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Jacob_Riis_Park_td_%282018-08-03%29_019.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Jacob_Riis_Park_td_%282018-08-03%29_019.jpg/1280px-Jacob_Riis_Park_td_%282018-08-03%29_019.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Tdorante10\" title=\"User:Tdorante10\">Tdorante10</a>",
+      "title": "Jacob Riis Park td (2018-08-03) 019.jpg",
+      "width": 5472,
+      "height": 3648
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Jacob_Riis_Park_td_%282018-08-12%29_043_-_Central_Mall_Buildings%2C_Jacob_Riis_Bust.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Jacob_Riis_Park_td_%282018-08-12%29_043_-_Central_Mall_Buildings%2C_Jacob_Riis_Bust.jpg/1280px-Jacob_Riis_Park_td_%282018-08-12%29_043_-_Central_Mall_Buildings%2C_Jacob_Riis_Bust.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Tdorante10\" title=\"User:Tdorante10\">Tdorante10</a>",
+      "title": "Jacob Riis Park td (2018-08-12) 043 - Central Mall Buildings, Jacob Riis Bust.jpg",
+      "width": 5472,
+      "height": 3648
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Jacob_Riis_Park_td_%282018-08-12%29_041_-_Central_Mall_Buildings.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Jacob_Riis_Park_td_%282018-08-12%29_041_-_Central_Mall_Buildings.jpg/1280px-Jacob_Riis_Park_td_%282018-08-12%29_041_-_Central_Mall_Buildings.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Tdorante10\" title=\"User:Tdorante10\">Tdorante10</a>",
+      "title": "Jacob Riis Park td (2018-08-12) 041 - Central Mall Buildings.jpg",
+      "width": 5472,
+      "height": 3648
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Jacob_Riis_Park_td_%282018-08-12%29_040_-_Central_Mall_Buildings.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Jacob_Riis_Park_td_%282018-08-12%29_040_-_Central_Mall_Buildings.jpg/1280px-Jacob_Riis_Park_td_%282018-08-12%29_040_-_Central_Mall_Buildings.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Tdorante10\" title=\"User:Tdorante10\">Tdorante10</a>",
+      "title": "Jacob Riis Park td (2018-08-12) 040 - Central Mall Buildings.jpg",
+      "width": 5472,
+      "height": 3648
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 10.917170524597168
+  },
+  "conservation": {
+    "name": "Gateway National Recreation Area",
+    "type": "Marine protected area",
+    "iucn": "V",
+    "unesco": false
+  },
+  "facilities": {
+    "nudism": true
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 8,
+        "top": [
+          {
+            "common": "Asian bittersweet",
+            "latin": "Celastrus orbiculatus",
+            "obs": 145,
+            "iucn": null
+          },
+          {
+            "common": "rugosa rose",
+            "latin": "Rosa rugosa",
+            "obs": 76,
+            "iucn": null
+          },
+          {
+            "common": "northern seaside goldenrod",
+            "latin": "Solidago sempervirens",
+            "obs": 70,
+            "iucn": null
+          },
+          {
+            "common": "common yucca",
+            "latin": "Yucca filamentosa",
+            "obs": 45,
+            "iucn": null
+          },
+          {
+            "common": "eastern poison ivy",
+            "latin": "Toxicodendron radicans",
+            "obs": 44,
+            "iucn": null
+          },
+          {
+            "common": "northern bayberry",
+            "latin": "Morella pensylvanica",
+            "obs": 44,
+            "iucn": null
+          },
+          {
+            "common": "American searocket",
+            "latin": "Cakile edentula",
+            "obs": 42,
+            "iucn": null
+          },
+          {
+            "common": "Japanese honeysuckle",
+            "latin": "Lonicera japonica",
+            "obs": 42,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 7,
+        "top": [
+          {
+            "common": "Atlantic Horseshoe Crab",
+            "latin": "Limulus polyphemus",
+            "obs": 69,
+            "iucn": null
+          },
+          {
+            "common": "Atlantic Bay Scallop",
+            "latin": "Argopecten irradians",
+            "obs": 59,
+            "iucn": null
+          },
+          {
+            "common": "West Atlantic Surfclam",
+            "latin": "Spisula solidissima",
+            "obs": 59,
+            "iucn": null
+          },
+          {
+            "common": "Monarch",
+            "latin": "Danaus plexippus",
+            "obs": 45,
+            "iucn": null
+          },
+          {
+            "common": "Eastern Oyster",
+            "latin": "Crassostrea virginica",
+            "obs": 44,
+            "iucn": null
+          },
+          {
+            "common": "Atlantic Ghost Crab",
+            "latin": "Ocypode quadrata",
+            "obs": 44,
+            "iucn": null
+          },
+          {
+            "common": "Atlantic Sand Crab",
+            "latin": "Emerita talpoida",
+            "obs": 43,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 5,
+        "top": [
+          {
+            "common": "American Oystercatcher",
+            "latin": "Haematopus palliatus",
+            "obs": 227,
+            "iucn": null
+          },
+          {
+            "common": "Laughing Gull",
+            "latin": "Leucophaeus atricilla",
+            "obs": 73,
+            "iucn": null
+          },
+          {
+            "common": "Sanderling",
+            "latin": "Calidris alba",
+            "obs": 57,
+            "iucn": null
+          },
+          {
+            "common": "American Herring Gull",
+            "latin": "Larus smithsonianus",
+            "obs": 57,
+            "iucn": null
+          },
+          {
+            "common": "Brant",
+            "latin": "Branta bernicla",
+            "obs": 50,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -179,5 +408,25 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 51% of beaches in its country",
+      "detail": "Peak-month high ≈ 28°C"
+    }
+  ],
+  "wikidata_id": "Q6119176",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jacob_Riis_Park",
+  "wikipedia_page_views_annual": 32560,
+  "notability_score": 39.3,
+  "data_completeness_pct": 62.5,
+  "best_months": [
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep"
+  ],
+  "swim_suitability": "fair"
 }

@@ -1,50 +1,21 @@
 {
   "slug": "cala-d-hort",
   "name": "Cala d'Hort",
-  "centroid_lat": 38.8899394,
-  "centroid_lng": 1.224038,
   "country_code": "ES",
   "admin_level_1": "Balearic Islands",
-  "admin_level_2": null,
+  "centroid_lat": 38.8899394,
+  "centroid_lng": 1.224038,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/172420703",
-      "source_url": "https://www.openstreetmap.org/way/172420703"
-    },
-    {
-      "source_name": "osm",
-      "source_id": "way/1408255824",
-      "source_url": "https://www.openstreetmap.org/way/1408255824"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q1850763",
-      "source_url": "https://www.wikidata.org/wiki/Q1850763"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "ES531M0481212",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "ES531M0481212",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ibiza%20rock%20volcano%20%28747230830%29.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Cala_d%27Hort"
-    },
-    "environment": {
-      "water_quality_rating": "1 - excellent",
-      "eu_bathing_water_type": "Coastal"
-    }
+  "slope_pct": 5.067780876159668,
+  "nearshore_depth_m": 64.01239776611328,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Sant Josep de sa Talaia",
   "nearest_city_distance_km": 5.9,
@@ -53,21 +24,288 @@
     "name": "Ibiza Airport",
     "distance_km": 13.0
   },
-  "safety": {
-    "water_quality_rating": "1 - excellent",
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      14.7889,
+      15.4667,
+      17.0667,
+      18.9722,
+      22.1611,
+      26.0667,
+      29.2167,
+      29.7667,
+      27.1444,
+      22.7444,
+      18.6278,
+      15.9333
+    ],
+    "air_temp_low": [
+      6.75,
+      7.0111,
+      8.15,
+      9.6556,
+      12.9833,
+      16.8889,
+      19.7222,
+      20.4778,
+      18.0722,
+      14.2778,
+      10.4278,
+      8.1
+    ],
+    "rain_mm": [
+      40.0,
+      32.0,
+      37.0,
+      33.0,
+      26.0,
+      14.0,
+      6.0,
+      17.0,
+      46.0,
+      66.0,
+      48.0,
+      54.0
+    ],
+    "wind_speed": [
+      3.7667,
+      3.95,
+      3.85,
+      4.0278,
+      3.6,
+      3.5,
+      3.3111,
+      3.2389,
+      3.2667,
+      3.5167,
+      3.6111,
+      3.8611
+    ],
+    "sun_hours": [
+      7927.0,
+      10904.0,
+      14801.0,
+      19002.0,
+      22613.0,
+      25092.0,
+      26140.0,
+      23290.0,
+      17018.0,
+      12293.0,
+      8673.0,
+      7032.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Cala_d%27Hort",
-  "notability_score": 32.4,
-  "data_completeness_pct": 29.2,
+  "tides": {
+    "range_spring_m": 0.05043073632088566,
+    "range_neap_m": 0.022385452034218815,
+    "type": "diurnal",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 59.1,
       "f_pct": 3.5,
       "l_pct": 37.4,
       "regime": "mixed Q-F-L",
+      "regime_plain": "Mixed q-f-l",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Ibiza_Cala_d%27Hort_asv2023-04.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Ibiza_Cala_d%27Hort_asv2023-04.jpg/1280px-Ibiza_Cala_d%27Hort_asv2023-04.jpg",
+      "license": "FAL",
+      "author_html": "<b><span class=\"plainlinks\"><a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/User:A.Savin\">A.Savin</a></span></b>",
+      "title": "Ibiza Cala d'Hort asv2023-04.jpg",
+      "width": 7952,
+      "height": 4473
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Ibiza_sunset_at_Es_Vedr%C3%A0_asv2023-04_img1.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Ibiza_sunset_at_Es_Vedr%C3%A0_asv2023-04_img1.jpg/1280px-Ibiza_sunset_at_Es_Vedr%C3%A0_asv2023-04_img1.jpg",
+      "license": "FAL",
+      "author_html": "<b><span class=\"plainlinks\"><a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/User:A.Savin\">A.Savin</a></span></b>",
+      "title": "Ibiza sunset at Es Vedrà asv2023-04 img1.jpg",
+      "width": 7952,
+      "height": 4970
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Ibiza_sunset_at_Es_Vedr%C3%A0_asv2023-04_img4.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Ibiza_sunset_at_Es_Vedr%C3%A0_asv2023-04_img4.jpg/1280px-Ibiza_sunset_at_Es_Vedr%C3%A0_asv2023-04_img4.jpg",
+      "license": "FAL",
+      "author_html": "<b><span class=\"plainlinks\"><a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/User:A.Savin\">A.Savin</a></span></b>",
+      "title": "Ibiza sunset at Es Vedrà asv2023-04 img4.jpg",
+      "width": 7815,
+      "height": 5210
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Ibiza_sunset_at_Es_Vedr%C3%A0_asv2023-04_img3.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Ibiza_sunset_at_Es_Vedr%C3%A0_asv2023-04_img3.jpg/1280px-Ibiza_sunset_at_Es_Vedr%C3%A0_asv2023-04_img3.jpg",
+      "license": "FAL",
+      "author_html": "<b><span class=\"plainlinks\"><a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/User:A.Savin\">A.Savin</a></span></b>",
+      "title": "Ibiza sunset at Es Vedrà asv2023-04 img3.jpg",
+      "width": 7491,
+      "height": 4682
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Ibiza_sunset_at_Es_Vedr%C3%A0_asv2023-04_img2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Ibiza_sunset_at_Es_Vedr%C3%A0_asv2023-04_img2.jpg/1280px-Ibiza_sunset_at_Es_Vedr%C3%A0_asv2023-04_img2.jpg",
+      "license": "FAL",
+      "author_html": "<b><span class=\"plainlinks\"><a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/User:A.Savin\">A.Savin</a></span></b>",
+      "title": "Ibiza sunset at Es Vedrà asv2023-04 img2.jpg",
+      "width": 7404,
+      "height": 4165
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Cala_d%27Hort_panor%C3%A0mica.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Cala_d%27Hort_panor%C3%A0mica.JPG/1280px-Cala_d%27Hort_panor%C3%A0mica.JPG",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:ToNToNi\" title=\"User:ToNToNi\">ToNToNi</a>",
+      "title": "Cala d'Hort panoràmica.JPG",
+      "width": 6482,
+      "height": 1760
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Es_Vedr%C3%A1.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Es_Vedr%C3%A1.JPG/1280px-Es_Vedr%C3%A1.JPG",
+      "license": "CC BY-SA 4.0",
+      "author_html": "Kitti Balog",
+      "title": "Es Vedrá.JPG",
+      "width": 4944,
+      "height": 1360
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Es_vedra.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Es_vedra.jpg/1280px-Es_vedra.jpg",
+      "license": "Public domain",
+      "author_html": "<a href=\"https://en.wikipedia.org/wiki/de:User:Andre30c\" class=\"extiw\" title=\"w:de:User:Andre30c\">Andre30c</a> at <a href=\"https://en.wikipedia.org/wiki/de:\" class=\"extiw\" title=\"w:de:\">German Wikipedia</a>",
+      "title": "Es vedra.jpg",
+      "width": 4216,
+      "height": 856
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 64.01239776611328
+  },
+  "conservation": {
+    "name": "Espacio marino del poniente y norte de Ibiza",
+    "type": "Special protection area (birds directive)",
+    "iucn": "Not Reported",
+    "unesco": false
+  },
+  "facilities": {
+    "food_nearby": true
+  },
+  "water_quality": {
+    "rating": "1 - excellent",
+    "source": "eu_bathing",
+    "year": null
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 17,
+        "top": [
+          {
+            "common": "Diplotaxis ibicensis",
+            "latin": "Diplotaxis ibicensis",
+            "obs": 7,
+            "iucn": null
+          },
+          {
+            "common": "pyramidal orchid",
+            "latin": "Anacamptis pyramidalis",
+            "obs": 6,
+            "iucn": null
+          },
+          {
+            "common": "Mediterranean juniper",
+            "latin": "Juniperus turbinata",
+            "obs": 6,
+            "iucn": null
+          },
+          {
+            "common": "white mignonette",
+            "latin": "Reseda alba",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "Grey-leaved Cistus",
+            "latin": "Cistus albidus",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "Mediterranean Heath",
+            "latin": "Erica multiflora",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "Scentless Whitweed",
+            "latin": "Micromeria inodora",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "mastic",
+            "latin": "Pistacia lentiscus",
+            "obs": 4,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 1,
+        "top": [
+          {
+            "common": "Spotted Flycatcher",
+            "latin": "Muscicapa striata",
+            "obs": 2,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 1,
+        "top": [
+          {
+            "common": "Ibiza Wall Lizard",
+            "latin": "Podarcis pityusensis",
+            "obs": 2,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Fish",
+        "key": "fish",
+        "count": 1,
+        "top": [
+          {
+            "common": "Wide-eyed Flounder",
+            "latin": "Bothus podas",
+            "obs": 2,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -123,5 +361,27 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Warmer than 74% of beaches in its country",
+      "detail": "Peak-month high ≈ 30°C"
+    }
+  ],
+  "wikidata_id": "Q1850763",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cala_d%27Hort",
+  "wikipedia_page_views_annual": 7964,
+  "notability_score": 32.4,
+  "data_completeness_pct": 66.7,
+  "best_months": [
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct"
+  ],
+  "swim_suitability": "fair"
 }

@@ -1,35 +1,22 @@
 {
   "slug": "gold-beach",
   "name": "Gold Beach",
-  "centroid_lat": 49.333333333,
-  "centroid_lng": -0.533333333,
   "country_code": "FR",
   "admin_level_1": "Lower Normandy",
-  "admin_level_2": null,
+  "centroid_lat": 49.333333333,
+  "centroid_lng": -0.533333333,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
   "beach_length_m": 18000.0,
-  "sources": [
-    {
-      "source_name": "wikidata",
-      "source_id": "Q745883",
-      "source_url": "https://www.wikidata.org/wiki/Q745883"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20British%20Army%20in%20the%20Normandy%20Campaign%201944%20B5128.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Gold_Beach"
-    },
-    "safety": {
-      "cyclone_count_50yr": "0",
-      "cyclone_max_category": "3"
-    }
+  "slope_pct": 2.1292583465576174,
+  "nearshore_depth_m": 1.3125,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Ver-sur-Mer",
   "nearest_city_distance_km": 0.4,
@@ -38,20 +25,327 @@
     "name": "Caen Carpiquet airport",
     "distance_km": 18.3
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      8.068,
+      8.62,
+      10.836,
+      12.684,
+      16.252,
+      18.892,
+      21.384,
+      21.924,
+      19.532,
+      15.696,
+      11.348,
+      8.964
+    ],
+    "air_temp_low": [
+      2.928,
+      2.732,
+      4.332,
+      5.38,
+      8.556,
+      11.104,
+      13.172,
+      13.244,
+      11.412,
+      8.752,
+      5.568,
+      3.92
+    ],
+    "rain_mm": [
+      78.0,
+      63.0,
+      59.0,
+      50.0,
+      55.0,
+      49.0,
+      45.0,
+      44.0,
+      67.0,
+      79.0,
+      85.0,
+      86.0
+    ],
+    "wind_speed": [
+      6.524,
+      6.052,
+      5.812,
+      5.448,
+      5.04,
+      4.724,
+      4.768,
+      4.672,
+      5.064,
+      5.556,
+      5.74,
+      6.128
+    ],
+    "sun_hours": [
+      3256.0,
+      5601.0,
+      9787.0,
+      14715.0,
+      18162.0,
+      19577.0,
+      18947.0,
+      16652.0,
+      11921.0,
+      7016.0,
+      3840.0,
+      2536.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Gold_Beach",
-  "notability_score": 31.9,
-  "data_completeness_pct": 20.8,
+  "tides": {
+    "range_spring_m": 6.493245227874483,
+    "range_neap_m": 3.210398426356904,
+    "type": "semidiurnal",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 50.9,
       "f_pct": 8.7,
       "l_pct": 40.4,
       "regime": "lithic-rich (volcanic/collisional terrane)",
+      "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 1,
+    "paragraph": "1 tropical-cyclone track have passed within range of this coast in the historical record (IBTrACS, 1963–1963).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/The_Blue_Marble%2C_AS17-148-22727.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/The_Blue_Marble%2C_AS17-148-22727.jpg/1280px-The_Blue_Marble%2C_AS17-148-22727.jpg",
+      "license": "Public domain",
+      "author_html": "Harrison Schmitt / Apollo 17",
+      "title": "The Blue Marble, AS17-148-22727.jpg",
+      "width": 6750,
+      "height": 6750
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/%C3%89glise_Saint-Martin_de_Ver-sur-Mer_-_Monument_aux_Morts.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/%C3%89glise_Saint-Martin_de_Ver-sur-Mer_-_Monument_aux_Morts.jpg/1280px-%C3%89glise_Saint-Martin_de_Ver-sur-Mer_-_Monument_aux_Morts.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Xfigpower\" title=\"User:Xfigpower\">Xfigpower</a>",
+      "title": "Église Saint-Martin de Ver-sur-Mer - Monument aux Morts.jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/%C3%89glise_Saint-Martin_de_Ver-sur-Mer_-_Modillons_%289%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/%C3%89glise_Saint-Martin_de_Ver-sur-Mer_-_Modillons_%289%29.jpg/1280px-%C3%89glise_Saint-Martin_de_Ver-sur-Mer_-_Modillons_%289%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Xfigpower\" title=\"User:Xfigpower\">Xfigpower</a>",
+      "title": "Église Saint-Martin de Ver-sur-Mer - Modillons (9).jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/%C3%89glise_Saint-Martin_de_Ver-sur-Mer_-_Tympan_ext%C3%A9rieur.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/%C3%89glise_Saint-Martin_de_Ver-sur-Mer_-_Tympan_ext%C3%A9rieur.jpg/1280px-%C3%89glise_Saint-Martin_de_Ver-sur-Mer_-_Tympan_ext%C3%A9rieur.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Xfigpower\" title=\"User:Xfigpower\">Xfigpower</a>",
+      "title": "Église Saint-Martin de Ver-sur-Mer - Tympan extérieur.jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/%C3%89glise_Saint-Martin_de_Ver-sur-Mer_-_Modillons.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/%C3%89glise_Saint-Martin_de_Ver-sur-Mer_-_Modillons.jpg/1280px-%C3%89glise_Saint-Martin_de_Ver-sur-Mer_-_Modillons.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Xfigpower\" title=\"User:Xfigpower\">Xfigpower</a>",
+      "title": "Église Saint-Martin de Ver-sur-Mer - Modillons.jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/%C3%89glise_Saint-Martin_de_Ver-sur-Mer_-_Modillons_%288%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/%C3%89glise_Saint-Martin_de_Ver-sur-Mer_-_Modillons_%288%29.jpg/1280px-%C3%89glise_Saint-Martin_de_Ver-sur-Mer_-_Modillons_%288%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Xfigpower\" title=\"User:Xfigpower\">Xfigpower</a>",
+      "title": "Église Saint-Martin de Ver-sur-Mer - Modillons (8).jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/%C3%89glise_Saint-Martin_de_Ver-sur-Mer_-_Modillons_%285%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/%C3%89glise_Saint-Martin_de_Ver-sur-Mer_-_Modillons_%285%29.jpg/1280px-%C3%89glise_Saint-Martin_de_Ver-sur-Mer_-_Modillons_%285%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Xfigpower\" title=\"User:Xfigpower\">Xfigpower</a>",
+      "title": "Église Saint-Martin de Ver-sur-Mer - Modillons (5).jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/%C3%89glise_Saint-Martin_de_Ver-sur-Mer_-_Nef.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/%C3%89glise_Saint-Martin_de_Ver-sur-Mer_-_Nef.jpg/1280px-%C3%89glise_Saint-Martin_de_Ver-sur-Mer_-_Nef.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Xfigpower\" title=\"User:Xfigpower\">Xfigpower</a>",
+      "title": "Église Saint-Martin de Ver-sur-Mer - Nef.jpg",
+      "width": 5184,
+      "height": 3456
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 1.3125
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 9,
+        "top": [
+          {
+            "common": "Black-headed Gull",
+            "latin": "Chroicocephalus ridibundus",
+            "obs": 17,
+            "iucn": null
+          },
+          {
+            "common": "European Herring Gull",
+            "latin": "Larus argentatus",
+            "obs": 13,
+            "iucn": null
+          },
+          {
+            "common": "Common Gull",
+            "latin": "Larus canus",
+            "obs": 12,
+            "iucn": null
+          },
+          {
+            "common": "Little Egret",
+            "latin": "Egretta garzetta",
+            "obs": 12,
+            "iucn": null
+          },
+          {
+            "common": "Meadow Pipit",
+            "latin": "Anthus pratensis",
+            "obs": 11,
+            "iucn": null
+          },
+          {
+            "common": "Great Black-backed Gull",
+            "latin": "Larus marinus",
+            "obs": 9,
+            "iucn": null
+          },
+          {
+            "common": "Sanderling",
+            "latin": "Calidris alba",
+            "obs": 8,
+            "iucn": null
+          },
+          {
+            "common": "Eurasian Linnet",
+            "latin": "Linaria cannabina",
+            "obs": 7,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 5,
+        "top": [
+          {
+            "common": "Gatekeeper",
+            "latin": "Pyronia tithonus",
+            "obs": 10,
+            "iucn": null
+          },
+          {
+            "common": "White Italian Snail",
+            "latin": "Theba pisana",
+            "obs": 7,
+            "iucn": null
+          },
+          {
+            "common": "Cinnabar moth",
+            "latin": "Tyria jacobaeae",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "Small White",
+            "latin": "Pieris rapae",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "Common Darter",
+            "latin": "Sympetrum striolatum",
+            "obs": 4,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 5,
+        "top": [
+          {
+            "common": "Hare's Tail Grass",
+            "latin": "Lagurus ovatus",
+            "obs": 7,
+            "iucn": null
+          },
+          {
+            "common": "wild garlic",
+            "latin": "Allium vineale",
+            "obs": 6,
+            "iucn": null
+          },
+          {
+            "common": "Bull Thistle",
+            "latin": "Cirsium vulgare",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "wild carrot",
+            "latin": "Daucus carota",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "Field Eryngo",
+            "latin": "Eryngium campestre",
+            "obs": 5,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Fish",
+        "key": "fish",
+        "count": 1,
+        "top": [
+          {
+            "common": "Threespine Stickleback",
+            "latin": "Gasterosteus aculeatus",
+            "obs": 5,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -107,5 +401,25 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 75% of beaches in its country",
+      "detail": "Peak-month high ≈ 22°C"
+    }
+  ],
+  "wikidata_id": "Q745883",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Gold_Beach",
+  "wikipedia_page_views_annual": 69004,
+  "notability_score": 31.9,
+  "data_completeness_pct": 58.3,
+  "best_months": [
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep"
+  ],
+  "swim_suitability": "fair"
 }

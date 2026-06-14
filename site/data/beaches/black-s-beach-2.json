@@ -1,35 +1,22 @@
 {
   "slug": "black-s-beach-2",
   "name": "Black's Beach",
-  "centroid_lat": 32.8925,
-  "centroid_lng": -117.253611111,
   "country_code": "US",
   "admin_level_1": "California",
-  "admin_level_2": null,
+  "centroid_lat": 32.8925,
+  "centroid_lng": -117.253611111,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
   "beach_length_m": 5400.0,
-  "sources": [
-    {
-      "source_name": "wikidata",
-      "source_id": "Q880988",
-      "source_url": "https://www.wikidata.org/wiki/Q880988"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Black%27s%20Beach%2C%20La%20Jolla%2C%20San%20Diego%2C%20California%2003.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Black%27s_Beach"
-    },
-    "safety": {
-      "cyclone_count_50yr": "1",
-      "cyclone_max_category": "4"
-    }
+  "slope_pct": 3.2776973247528076,
+  "nearshore_depth_m": 53.62371826171875,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "La Jolla",
   "nearest_city_distance_km": 5.4,
@@ -38,24 +25,327 @@
     "name": "Miramar Marine Corps Air Station - Mitscher Field",
     "distance_km": 10.7
   },
-  "safety": {
-    "lifeguard": false,
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      17.6,
+      17.65,
+      16.95,
+      18.1,
+      18.0,
+      19.25,
+      21.65,
+      22.55,
+      22.25,
+      21.1,
+      19.35,
+      18.0
+    ],
+    "air_temp_low": [
+      8.95,
+      9.4,
+      10.1,
+      11.5,
+      13.4,
+      14.95,
+      16.6,
+      17.55,
+      16.9,
+      14.6,
+      11.1,
+      9.05
+    ],
+    "rain_mm": [
+      62.0,
+      55.0,
+      56.0,
+      22.0,
+      7.0,
+      2.0,
+      1.0,
+      2.0,
+      7.0,
+      11.0,
+      36.0,
+      41.0
+    ],
+    "wind_speed": [
+      2.9,
+      3.1,
+      3.3,
+      3.4,
+      3.45,
+      3.4,
+      3.4,
+      3.3,
+      3.2,
+      3.0,
+      2.9,
+      2.7
+    ],
+    "sun_hours": [
+      10701.0,
+      12908.0,
+      17113.0,
+      21594.0,
+      22271.0,
+      23798.0,
+      24096.0,
+      22928.0,
+      19022.0,
+      14850.0,
+      11987.0,
+      10136.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "facilities": {
-    "restrooms": true
+  "tides": {
+    "range_spring_m": 1.399840752464745,
+    "range_neap_m": 0.5855748637851464,
+    "type": "mixed",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Black%27s_Beach",
-  "notability_score": 31.8,
-  "data_completeness_pct": 25.0,
   "sand": {
     "predicted": {
       "q_pct": 64.9,
       "f_pct": 19.0,
       "l_pct": 16.1,
       "regime": "mixed Q-F-L",
+      "regime_plain": "Mixed q-f-l",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 3,
+    "paragraph": "3 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1963–1978).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/San_Diego_%2826835697293%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/San_Diego_%2826835697293%29.jpg/1280px-San_Diego_%2826835697293%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/133200397@N03\">Sergei Gussev</a>",
+      "title": "San Diego (26835697293).jpg",
+      "width": 6986,
+      "height": 2332
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/San_Diego_%2827370826402%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/San_Diego_%2827370826402%29.jpg/1280px-San_Diego_%2827370826402%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/133200397@N03\">Sergei Gussev</a>",
+      "title": "San Diego (27370826402).jpg",
+      "width": 6816,
+      "height": 2404
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Black%27s_Beach%2C_La_Jolla%2C_San_Diego%2C_California_03.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Black%27s_Beach%2C_La_Jolla%2C_San_Diego%2C_California_03.jpg/1280px-Black%27s_Beach%2C_La_Jolla%2C_San_Diego%2C_California_03.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Leviclancy\" class=\"mw-redirect\" title=\"User:Leviclancy\">Levi Clancy</a>",
+      "title": "Black's Beach, La Jolla, San Diego, California 03.jpg",
+      "width": 6016,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Black%27s_Beach%2C_La_Jolla%2C_San_Diego%2C_California_13.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Black%27s_Beach%2C_La_Jolla%2C_San_Diego%2C_California_13.jpg/1280px-Black%27s_Beach%2C_La_Jolla%2C_San_Diego%2C_California_13.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Leviclancy\" class=\"mw-redirect\" title=\"User:Leviclancy\">Levi Clancy</a>",
+      "title": "Black's Beach, La Jolla, San Diego, California 13.jpg",
+      "width": 6016,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Beach_tent_at_Black%27s_Beach%2C_La_Jolla%2C_San_Diego%2C_California_20.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Beach_tent_at_Black%27s_Beach%2C_La_Jolla%2C_San_Diego%2C_California_20.jpg/1280px-Beach_tent_at_Black%27s_Beach%2C_La_Jolla%2C_San_Diego%2C_California_20.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Leviclancy\" class=\"mw-redirect\" title=\"User:Leviclancy\">Levi Clancy</a>",
+      "title": "Beach tent at Black's Beach, La Jolla, San Diego, California 20.jpg",
+      "width": 6016,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Black%27s_Beach%2C_La_Jolla%2C_San_Diego%2C_California_01.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Black%27s_Beach%2C_La_Jolla%2C_San_Diego%2C_California_01.jpg/1280px-Black%27s_Beach%2C_La_Jolla%2C_San_Diego%2C_California_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Leviclancy\" class=\"mw-redirect\" title=\"User:Leviclancy\">Levi Clancy</a>",
+      "title": "Black's Beach, La Jolla, San Diego, California 01.jpg",
+      "width": 6016,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Black%27s_Beach%2C_La_Jolla%2C_San_Diego%2C_California_04.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Black%27s_Beach%2C_La_Jolla%2C_San_Diego%2C_California_04.jpg/1280px-Black%27s_Beach%2C_La_Jolla%2C_San_Diego%2C_California_04.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Leviclancy\" class=\"mw-redirect\" title=\"User:Leviclancy\">Levi Clancy</a>",
+      "title": "Black's Beach, La Jolla, San Diego, California 04.jpg",
+      "width": 6016,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Black%27s_Beach%2C_La_Jolla%2C_San_Diego%2C_California_05.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Black%27s_Beach%2C_La_Jolla%2C_San_Diego%2C_California_05.jpg/1280px-Black%27s_Beach%2C_La_Jolla%2C_San_Diego%2C_California_05.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Leviclancy\" class=\"mw-redirect\" title=\"User:Leviclancy\">Levi Clancy</a>",
+      "title": "Black's Beach, La Jolla, San Diego, California 05.jpg",
+      "width": 6016,
+      "height": 4000
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 53.62371826171875,
+    "lifeguard": false
+  },
+  "facilities": {
+    "restrooms": true,
+    "food_nearby": true
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 11,
+        "top": [
+          {
+            "common": "lemonade berry",
+            "latin": "Rhus integrifolia",
+            "obs": 342,
+            "iucn": null
+          },
+          {
+            "common": "California sagebrush",
+            "latin": "Artemisia californica",
+            "obs": 218,
+            "iucn": null
+          },
+          {
+            "common": "California brittlebush",
+            "latin": "Encelia californica",
+            "obs": 218,
+            "iucn": null
+          },
+          {
+            "common": "Crystalline ice plant",
+            "latin": "Mesembryanthemum crystallinum",
+            "obs": 185,
+            "iucn": null
+          },
+          {
+            "common": "Coast Cholla",
+            "latin": "Cylindropuntia prolifera",
+            "obs": 159,
+            "iucn": null
+          },
+          {
+            "common": "Bladderpod",
+            "latin": "Cleomella arborea",
+            "obs": 157,
+            "iucn": null
+          },
+          {
+            "common": "Fingertips",
+            "latin": "Dudleya edulis",
+            "obs": 147,
+            "iucn": null
+          },
+          {
+            "common": "Santa Barbara Milkvetch",
+            "latin": "Astragalus trichopodus",
+            "obs": 141,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 5,
+        "top": [
+          {
+            "common": "Dark-eyed Junco",
+            "latin": "Junco hyemalis",
+            "obs": 150,
+            "iucn": null
+          },
+          {
+            "common": "Hudsonian Whimbrel",
+            "latin": "Numenius hudsonicus",
+            "obs": 138,
+            "iucn": null
+          },
+          {
+            "common": "Western Gull",
+            "latin": "Larus occidentalis",
+            "obs": 128,
+            "iucn": null
+          },
+          {
+            "common": "Common Raven",
+            "latin": "Corvus corax",
+            "obs": 124,
+            "iucn": null
+          },
+          {
+            "common": "California Towhee",
+            "latin": "Melozone crissalis",
+            "obs": 114,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Mammals",
+        "key": "mammal",
+        "count": 2,
+        "top": [
+          {
+            "common": "Common Bottlenose Dolphin",
+            "latin": "Tursiops truncatus",
+            "obs": 450,
+            "iucn": null
+          },
+          {
+            "common": "California Ground Squirrel",
+            "latin": "Otospermophilus beecheyi",
+            "obs": 108,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 1,
+        "top": [
+          {
+            "common": "Western Fence Lizard",
+            "latin": "Sceloporus occidentalis",
+            "obs": 218,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 1,
+        "top": [
+          {
+            "common": "Western Honey Bee",
+            "latin": "Apis mellifera",
+            "obs": 128,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -111,5 +401,33 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 91% of beaches in its country",
+      "detail": "Peak-month high ≈ 23°C"
+    },
+    {
+      "metric": "Beach season",
+      "text": "Longer beach season than 79% of beaches in its country",
+      "detail": "8 comfortable months a year"
+    }
+  ],
+  "wikidata_id": "Q880988",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Black%27s_Beach",
+  "wikipedia_page_views_annual": 67141,
+  "notability_score": 31.8,
+  "data_completeness_pct": 62.5,
+  "best_months": [
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct",
+    "nov"
+  ],
+  "swim_suitability": "fair"
 }

@@ -1,36 +1,21 @@
 {
   "slug": "tarkwa-bay-beach",
   "name": "Tarkwa Bay Beach",
-  "centroid_lat": 6.4014433,
-  "centroid_lng": 3.3956448,
   "country_code": "NG",
   "admin_level_1": "Lagos",
-  "admin_level_2": null,
+  "centroid_lat": 6.4014433,
+  "centroid_lng": 3.3956448,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/670538910",
-      "source_url": "https://www.openstreetmap.org/way/670538910"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q25042468",
-      "source_url": "https://www.wikidata.org/wiki/Q25042468"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q110924225",
-      "source_url": "https://www.wikidata.org/wiki/Q110924225"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wla%20DJI%200037%2021.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Tarkwa_Bay_Beach"
-    }
+  "slope_pct": 0.31272547841072085,
+  "nearshore_depth_m": 6.7602996826171875,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Lagos",
   "nearest_city_distance_km": 5.9,
@@ -39,20 +24,305 @@
     "name": "Murtala Muhammed International Airport",
     "distance_km": 21.2
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      31.6143,
+      32.4571,
+      32.5857,
+      32.0286,
+      30.8714,
+      29.2571,
+      28.1857,
+      27.7,
+      28.6571,
+      29.7286,
+      31.2714,
+      31.5857
+    ],
+    "air_temp_low": [
+      23.1,
+      24.0857,
+      24.5714,
+      24.5,
+      23.8714,
+      23.1,
+      22.9286,
+      22.4286,
+      22.6571,
+      22.9571,
+      23.6571,
+      23.3
+    ],
+    "rain_mm": [
+      18.0,
+      40.0,
+      84.0,
+      134.0,
+      214.0,
+      306.0,
+      214.0,
+      84.0,
+      176.0,
+      176.0,
+      63.0,
+      19.0
+    ],
+    "wind_speed": [
+      2.3429,
+      2.5857,
+      2.5429,
+      2.6857,
+      2.3429,
+      2.2714,
+      2.6143,
+      2.4714,
+      2.2714,
+      2.1429,
+      1.9571,
+      2.0143
+    ],
+    "sun_hours": [
+      16211.0,
+      17307.0,
+      18500.0,
+      18417.0,
+      17296.0,
+      13949.0,
+      12390.0,
+      12730.0,
+      13171.0,
+      15839.0,
+      17144.0,
+      16168.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Tarkwa_Bay_Beach",
-  "notability_score": 30.7,
-  "data_completeness_pct": 20.8,
+  "tides": {
+    "range_spring_m": 1.3706339390327513,
+    "range_neap_m": 0.638243311034337,
+    "type": "semidiurnal",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 88.2,
       "f_pct": 2.8,
       "l_pct": 8.9,
       "regime": "quartz-dominant",
+      "regime_plain": "Quartz-dominant",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/AfricanGuitarist.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/AfricanGuitarist.jpg/1280px-AfricanGuitarist.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:DeveshubaNg&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:DeveshubaNg (page does not exist)\">deveshubaNg</a>",
+      "title": "AfricanGuitarist.jpg",
+      "width": 5472,
+      "height": 3648
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Tarkwa_bay_beach%2C_Lagos%2C_Nigeria.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Tarkwa_bay_beach%2C_Lagos%2C_Nigeria.jpg/1280px-Tarkwa_bay_beach%2C_Lagos%2C_Nigeria.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:OfficialKOL&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:OfficialKOL (page does not exist)\">OfficialKOL</a>",
+      "title": "Tarkwa bay beach, Lagos, Nigeria.jpg",
+      "width": 4608,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Wla_DJI_0037_21.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Wla_DJI_0037_21.jpg/1280px-Wla_DJI_0037_21.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Solasly\" title=\"User:Solasly\">Solasly</a>",
+      "title": "Wla DJI 0037 21.jpg",
+      "width": 4048,
+      "height": 3032
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Takwa_Bay_beach_-_20191006180528.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Takwa_Bay_beach_-_20191006180528.jpg/1280px-Takwa_Bay_beach_-_20191006180528.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Solasly\" title=\"User:Solasly\">Solasly</a>",
+      "title": "Takwa Bay beach - 20191006180528.jpg",
+      "width": 4048,
+      "height": 3032
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Wla_DJI_0037_16.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Wla_DJI_0037_16.jpg/1280px-Wla_DJI_0037_16.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Solasly\" title=\"User:Solasly\">Solasly</a>",
+      "title": "Wla DJI 0037 16.jpg",
+      "width": 4048,
+      "height": 3032
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Takwa_Bay_beach_-_20191006180508.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Takwa_Bay_beach_-_20191006180508.jpg/1280px-Takwa_Bay_beach_-_20191006180508.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Solasly\" title=\"User:Solasly\">Solasly</a>",
+      "title": "Takwa Bay beach - 20191006180508.jpg",
+      "width": 4048,
+      "height": 3032
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Takwa_Bay_beach_-_20191006180602.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Takwa_Bay_beach_-_20191006180602.jpg/1280px-Takwa_Bay_beach_-_20191006180602.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Solasly\" title=\"User:Solasly\">Solasly</a>",
+      "title": "Takwa Bay beach - 20191006180602.jpg",
+      "width": 4048,
+      "height": 3032
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Wla_DJI_0037_15.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Wla_DJI_0037_15.jpg/1280px-Wla_DJI_0037_15.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Solasly\" title=\"User:Solasly\">Solasly</a>",
+      "title": "Wla DJI 0037 15.jpg",
+      "width": 4036,
+      "height": 2889
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 6.7602996826171875
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 13,
+        "top": [
+          {
+            "common": "Eurasian Whimbrel",
+            "latin": "Numenius phaeopus",
+            "obs": 2,
+            "iucn": null
+          },
+          {
+            "common": "Western Reef Heron",
+            "latin": "Egretta gularis",
+            "obs": 2,
+            "iucn": null
+          },
+          {
+            "common": "Common Bulbul",
+            "latin": "Pycnonotus barbatus",
+            "obs": 2,
+            "iucn": null
+          },
+          {
+            "common": "Common Sandpiper",
+            "latin": "Actitis hypoleucos",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Black Tern",
+            "latin": "Chlidonias niger",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Collared Pratincole",
+            "latin": "Glareola pratincola",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Common Ringed Plover",
+            "latin": "Charadrius hiaticula",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Black-winged Stilt",
+            "latin": "Himantopus himantopus",
+            "obs": 1,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 3,
+        "top": [
+          {
+            "common": "Mimic Diadem",
+            "latin": "Hypolimnas misippus",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Tufted Ghost Crab",
+            "latin": "Ocypode cursor",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Plain Tiger Butterfly",
+            "latin": "Danaus chrysippus",
+            "obs": 1,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 2,
+        "top": [
+          {
+            "common": "Bitter Melon",
+            "latin": "Momordica charantia",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Cocoplum",
+            "latin": "Chrysobalanus icaco",
+            "obs": 1,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 1,
+        "top": [
+          {
+            "common": "Dwarf Crocodile",
+            "latin": "Osteolaemus tetraspis",
+            "obs": 1,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Fish",
+        "key": "fish",
+        "count": 1,
+        "top": [
+          {
+            "common": "Smooth Puffer",
+            "latin": "Lagocephalus laevigatus",
+            "obs": 1,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -108,5 +378,37 @@
       "character": "Exposed — real surf, and rip current to respect"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Warmer than 63% of beaches in its country",
+      "detail": "Peak-month high ≈ 33°C"
+    },
+    {
+      "metric": "Worldwide",
+      "text": "Among the warmest 7% of beaches on Earth",
+      "detail": null
+    }
+  ],
+  "wikidata_id": "Q110924225",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tarkwa_Bay_Beach",
+  "wikipedia_page_views_annual": 19252,
+  "notability_score": 30.7,
+  "data_completeness_pct": 58.3,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

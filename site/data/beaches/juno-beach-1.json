@@ -1,35 +1,22 @@
 {
   "slug": "juno-beach-1",
   "name": "Juno Beach",
-  "centroid_lat": 49.335277777,
-  "centroid_lng": -0.415277777,
   "country_code": "FR",
   "admin_level_1": "Lower Normandy",
-  "admin_level_2": null,
+  "centroid_lat": 49.335277777,
+  "centroid_lng": -0.415277777,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
   "beach_length_m": 800.0,
-  "sources": [
-    {
-      "source_name": "wikidata",
-      "source_id": "Q832409",
-      "source_url": "https://www.wikidata.org/wiki/Q832409"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kanadische%20Truppen%20landen%20in%20der%20Normandie.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Juno_Beach"
-    },
-    "safety": {
-      "cyclone_count_50yr": "0",
-      "cyclone_max_category": "3"
-    }
+  "slope_pct": -0.0022285342216491703,
+  "nearshore_depth_m": 3.875,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Bernieres-sur-Mer",
   "nearest_city_distance_km": 0.8,
@@ -38,20 +25,265 @@
     "name": "Caen Carpiquet airport",
     "distance_km": 17.9
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "tides": {
+    "range_spring_m": 6.614724251436369,
+    "range_neap_m": 3.2728299333268924,
+    "type": "semidiurnal",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Juno_Beach",
-  "notability_score": 35.5,
-  "data_completeness_pct": 20.8,
   "sand": {
     "predicted": {
       "q_pct": 50.9,
       "f_pct": 8.7,
       "l_pct": 40.4,
       "regime": "lithic-rich (volcanic/collisional terrane)",
+      "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 1,
+    "paragraph": "1 tropical-cyclone track have passed within range of this coast in the historical record (IBTrACS, 1963–1963).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Flag_of_Canada_on_Juno_Beach_2025-03-25.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_Canada_on_Juno_Beach_2025-03-25.jpg/1280px-Flag_of_Canada_on_Juno_Beach_2025-03-25.jpg",
+      "license": "CC0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Onthewings\" title=\"User:Onthewings\">Andy Li</a>",
+      "title": "Flag of Canada on Juno Beach 2025-03-25.jpg",
+      "width": 8160,
+      "height": 6144
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Juno_Beach_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Juno_Beach_-_panoramio.jpg/1280px-Juno_Beach_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161021164335/http://www.panoramio.com/user/5118185?with_photo_id=51603501\">JamesWoolley</a>",
+      "title": "Juno Beach - panoramio.jpg",
+      "width": 7133,
+      "height": 4391
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/The_Blue_Marble%2C_AS17-148-22727.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/The_Blue_Marble%2C_AS17-148-22727.jpg/1280px-The_Blue_Marble%2C_AS17-148-22727.jpg",
+      "license": "Public domain",
+      "author_html": "Harrison Schmitt / Apollo 17",
+      "title": "The Blue Marble, AS17-148-22727.jpg",
+      "width": 6750,
+      "height": 6750
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Juno_Beach%2C_Normandy_%2835742238420%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Juno_Beach%2C_Normandy_%2835742238420%29.jpg/1280px-Juno_Beach%2C_Normandy_%2835742238420%29.jpg",
+      "license": "CC0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/63234672@N04\">Joe deSousa</a>",
+      "title": "Juno Beach, Normandy (35742238420).jpg",
+      "width": 5930,
+      "height": 3336
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Juno_Beach%2C_Normandy_%2853963778965%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Juno_Beach%2C_Normandy_%2853963778965%29.jpg/1280px-Juno_Beach%2C_Normandy_%2853963778965%29.jpg",
+      "license": "CC0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/63234672@N04\">Mustang Joe</a>",
+      "title": "Juno Beach, Normandy (53963778965).jpg",
+      "width": 5895,
+      "height": 3935
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Juno_Beach_%28Courseulles-sur-Mer%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Juno_Beach_%28Courseulles-sur-Mer%29.jpg/1280px-Juno_Beach_%28Courseulles-sur-Mer%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Gzen92\" title=\"User:Gzen92\">Gzen92</a>",
+      "title": "Juno Beach (Courseulles-sur-Mer).jpg",
+      "width": 5472,
+      "height": 3648
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/%27Nan_White%27_Beach%2C_JUNO_Area_at_Bernieres-sur-Mer.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/%27Nan_White%27_Beach%2C_JUNO_Area_at_Bernieres-sur-Mer.jpg/1280px-%27Nan_White%27_Beach%2C_JUNO_Area_at_Bernieres-sur-Mer.jpg",
+      "license": "Public domain",
+      "author_html": "Post-Work: <a href=\"//commons.wikimedia.org/wiki/User:W.wolny\" title=\"User:W.wolny\">User:W.wolny</a>",
+      "title": "'Nan White' Beach, JUNO Area at Bernieres-sur-Mer.jpg",
+      "width": 5248,
+      "height": 4005
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Minefield_Sign%2C_Juno_Beach.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Minefield_Sign%2C_Juno_Beach.jpg/1280px-Minefield_Sign%2C_Juno_Beach.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "Tim Sheerman-Chase",
+      "title": "Minefield Sign, Juno Beach.jpg",
+      "width": 5184,
+      "height": 3456
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 3.875
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 8,
+        "top": [
+          {
+            "common": "Common Ringed Plover",
+            "latin": "Charadrius hiaticula",
+            "obs": 6,
+            "iucn": null
+          },
+          {
+            "common": "Sanderling",
+            "latin": "Calidris alba",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "Black-headed Gull",
+            "latin": "Chroicocephalus ridibundus",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Dunlin",
+            "latin": "Calidris alpina",
+            "obs": 3,
+            "iucn": null
+          },
+          {
+            "common": "Ruddy Turnstone",
+            "latin": "Arenaria interpres",
+            "obs": 3,
+            "iucn": null
+          },
+          {
+            "common": "Eurasian Coot",
+            "latin": "Fulica atra",
+            "obs": 2,
+            "iucn": null
+          },
+          {
+            "common": "Brant",
+            "latin": "Branta bernicla",
+            "obs": 2,
+            "iucn": null
+          },
+          {
+            "common": "House Sparrow",
+            "latin": "Passer domesticus",
+            "obs": 2,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 8,
+        "top": [
+          {
+            "common": "European Green Crab",
+            "latin": "Carcinus maenas",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Common Atlantic Slippersnail",
+            "latin": "Crepidula fornicata",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Garden Snail",
+            "latin": "Cornu aspersum",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Large White",
+            "latin": "Pieris brassicae",
+            "obs": 3,
+            "iucn": null
+          },
+          {
+            "common": "Asian Shore Crab",
+            "latin": "Hemigrapsus sanguineus",
+            "obs": 2,
+            "iucn": null
+          },
+          {
+            "common": "Speckled Wood",
+            "latin": "Pararge aegeria",
+            "obs": 2,
+            "iucn": null
+          },
+          {
+            "common": "Small White",
+            "latin": "Pieris rapae",
+            "obs": 2,
+            "iucn": null
+          },
+          {
+            "common": "Common Blue",
+            "latin": "Polyommatus icarus",
+            "obs": 2,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 2,
+        "top": [
+          {
+            "common": "European Searocket",
+            "latin": "Cakile maritima",
+            "obs": 6,
+            "iucn": null
+          },
+          {
+            "common": "pellitory-of-the-wall",
+            "latin": "Parietaria judaica",
+            "obs": 3,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Amphibians",
+        "key": "amphibian",
+        "count": 1,
+        "top": [
+          {
+            "common": "European Toad",
+            "latin": "Bufo bufo",
+            "obs": 7,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Mammals",
+        "key": "mammal",
+        "count": 1,
+        "top": [
+          {
+            "common": "Red Fox",
+            "latin": "Vulpes vulpes",
+            "obs": 2,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -107,5 +339,10 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "wikidata_id": "Q832409",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Juno_Beach",
+  "wikipedia_page_views_annual": 143571,
+  "notability_score": 35.5,
+  "data_completeness_pct": 37.5
 }

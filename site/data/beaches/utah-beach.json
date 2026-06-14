@@ -1,35 +1,22 @@
 {
   "slug": "utah-beach",
   "name": "Utah Beach",
-  "centroid_lat": 49.415833333,
-  "centroid_lng": -1.174722222,
   "country_code": "FR",
   "admin_level_1": "Lower Normandy",
-  "admin_level_2": null,
+  "centroid_lat": 49.415833333,
+  "centroid_lng": -1.174722222,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
   "beach_length_m": 13000.0,
-  "sources": [
-    {
-      "source_name": "wikidata",
-      "source_id": "Q757273",
-      "source_url": "https://www.wikidata.org/wiki/Q757273"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Landings%20on%20Utah%20beach.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Utah_Beach"
-    },
-    "safety": {
-      "cyclone_count_50yr": "0",
-      "cyclone_max_category": "3"
-    }
+  "slope_pct": 0.3134303569793701,
+  "nearshore_depth_m": 4.875,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Saint-Hilaire-Petitville",
   "nearest_city_distance_km": 13.0,
@@ -38,24 +25,405 @@
     "name": "Cherbourg Manche airport",
     "distance_km": 33.7
   },
-  "safety": {
-    "lifeguard": true,
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      8.3417,
+      8.8083,
+      10.9667,
+      12.7042,
+      16.2083,
+      18.7417,
+      20.9583,
+      21.2667,
+      18.9833,
+      15.7167,
+      11.8,
+      9.3792
+    ],
+    "air_temp_low": [
+      3.5292,
+      3.2833,
+      4.6667,
+      5.6083,
+      8.5458,
+      10.9958,
+      13.1042,
+      13.2958,
+      11.675,
+      9.1958,
+      6.1542,
+      4.4875
+    ],
+    "rain_mm": [
+      83.0,
+      64.0,
+      64.0,
+      52.0,
+      59.0,
+      48.0,
+      43.0,
+      46.0,
+      68.0,
+      86.0,
+      96.0,
+      91.0
+    ],
+    "wind_speed": [
+      7.2125,
+      6.625,
+      6.3917,
+      5.9,
+      5.3542,
+      5.0792,
+      5.1333,
+      4.9917,
+      5.5208,
+      6.2833,
+      6.4458,
+      6.9917
+    ],
+    "sun_hours": [
+      3130.0,
+      5472.0,
+      9707.0,
+      14511.0,
+      18023.0,
+      19430.0,
+      19360.0,
+      16472.0,
+      11951.0,
+      6789.0,
+      3810.0,
+      2523.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "facilities": {
-    "parking": true,
-    "restrooms": true
+  "tides": {
+    "range_spring_m": 5.953797328487441,
+    "range_neap_m": 2.9201867618990063,
+    "type": "semidiurnal",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Utah_Beach",
-  "notability_score": 35.0,
-  "data_completeness_pct": 29.2,
   "sand": {
     "predicted": {
       "q_pct": 51.6,
       "f_pct": 31.1,
       "l_pct": 17.2,
       "regime": "mixed Q-F-L",
+      "regime_plain": "Mixed q-f-l",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
-  }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 2,
+    "paragraph": "2 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1887–1963).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/190607-N-AC979-0063_%2848023329222%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/190607-N-AC979-0063_%2848023329222%29.jpg/1280px-190607-N-AC979-0063_%2848023329222%29.jpg",
+      "license": "Public domain",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/94966166@N02\">Commander, U.S. Naval Forces Europe-Africa/U.S. 6th Fleet</a>",
+      "title": "190607-N-AC979-0063 (48023329222).jpg",
+      "width": 8256,
+      "height": 5504
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/190607-N-AC979-0060_%2848023248708%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/190607-N-AC979-0060_%2848023248708%29.jpg/1280px-190607-N-AC979-0060_%2848023248708%29.jpg",
+      "license": "Public domain",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/94966166@N02\">Commander, U.S. Naval Forces Europe-Africa/U.S. 6th Fleet</a>",
+      "title": "190607-N-AC979-0060 (48023248708).jpg",
+      "width": 7706,
+      "height": 5504
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/190607-N-AC979-0040_%2848023249368%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/190607-N-AC979-0040_%2848023249368%29.jpg/1280px-190607-N-AC979-0040_%2848023249368%29.jpg",
+      "license": "Public domain",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/94966166@N02\">Commander, U.S. Naval Forces Europe-Africa/U.S. 6th Fleet</a>",
+      "title": "190607-N-AC979-0040 (48023249368).jpg",
+      "width": 7306,
+      "height": 5219
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/190606-N-WO404-300_%2848014594457%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/190606-N-WO404-300_%2848014594457%29.jpg/1280px-190606-N-WO404-300_%2848014594457%29.jpg",
+      "license": "Public domain",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/94966166@N02\">Commander, U.S. Naval Forces Europe-Africa/U.S. 6th Fleet</a>",
+      "title": "190606-N-WO404-300 (48014594457).jpg",
+      "width": 6999,
+      "height": 4671
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/190606-N-WO404-269_%2848014595117%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/190606-N-WO404-269_%2848014595117%29.jpg/1280px-190606-N-WO404-269_%2848014595117%29.jpg",
+      "license": "Public domain",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/94966166@N02\">Commander, U.S. Naval Forces Europe-Africa/U.S. 6th Fleet</a>",
+      "title": "190606-N-WO404-269 (48014595117).jpg",
+      "width": 6976,
+      "height": 4656
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/190606-N-WO404-133_%2848023323122%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/190606-N-WO404-133_%2848023323122%29.jpg/1280px-190606-N-WO404-133_%2848023323122%29.jpg",
+      "license": "Public domain",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/94966166@N02\">Commander, U.S. Naval Forces Europe-Africa/U.S. 6th Fleet</a>",
+      "title": "190606-N-WO404-133 (48023323122).jpg",
+      "width": 6937,
+      "height": 4630
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/190606-N-WO404-085_%2848023322227%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/190606-N-WO404-085_%2848023322227%29.jpg/1280px-190606-N-WO404-085_%2848023322227%29.jpg",
+      "license": "Public domain",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/94966166@N02\">Commander, U.S. Naval Forces Europe-Africa/U.S. 6th Fleet</a>",
+      "title": "190606-N-WO404-085 (48023322227).jpg",
+      "width": 6898,
+      "height": 4604
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/190606-N-WO404-160_%2848014516908%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/190606-N-WO404-160_%2848014516908%29.jpg/1280px-190606-N-WO404-160_%2848014516908%29.jpg",
+      "license": "Public domain",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/94966166@N02\">Commander, U.S. Naval Forces Europe-Africa/U.S. 6th Fleet</a>",
+      "title": "190606-N-WO404-160 (48014516908).jpg",
+      "width": 6863,
+      "height": 4580
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 4.875,
+    "lifeguard": true
+  },
+  "conservation": {
+    "name": "Marais Du Cotentin Et Du Bessin",
+    "type": "Regional nature park",
+    "iucn": "V",
+    "unesco": false
+  },
+  "facilities": {
+    "parking": true,
+    "restrooms": true
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 9,
+        "top": [
+          {
+            "common": "White Italian Snail",
+            "latin": "Theba pisana",
+            "obs": 10,
+            "iucn": null
+          },
+          {
+            "common": "Common Atlantic Slippersnail",
+            "latin": "Crepidula fornicata",
+            "obs": 6,
+            "iucn": null
+          },
+          {
+            "common": "European Green Crab",
+            "latin": "Carcinus maenas",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Common Cockle",
+            "latin": "Cerastoderma edule",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Great Scallop",
+            "latin": "Pecten maximus",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Spiny Spider Crab",
+            "latin": "Maja brachydactyla",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Pacific Oyster",
+            "latin": "Magallana gigas",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Ensis",
+            "latin": "Ensis",
+            "obs": 3,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 7,
+        "top": [
+          {
+            "common": "Black-headed Gull",
+            "latin": "Chroicocephalus ridibundus",
+            "obs": 7,
+            "iucn": null
+          },
+          {
+            "common": "Northern Gannet",
+            "latin": "Morus bassanus",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Ruddy Turnstone",
+            "latin": "Arenaria interpres",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Little Egret",
+            "latin": "Egretta garzetta",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "European Stonechat",
+            "latin": "Saxicola rubicola",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Northern Lapwing",
+            "latin": "Vanellus vanellus",
+            "obs": 3,
+            "iucn": null
+          },
+          {
+            "common": "Meadow Pipit",
+            "latin": "Anthus pratensis",
+            "obs": 3,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 4,
+        "top": [
+          {
+            "common": "European Searocket",
+            "latin": "Cakile maritima",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "pyramidal orchid",
+            "latin": "Anacamptis pyramidalis",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "Sea Spurge",
+            "latin": "Euphorbia paralias",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "Sea Bindweed",
+            "latin": "Calystegia soldanella",
+            "obs": 3,
+            "iucn": null
+          }
+        ]
+      }
+    ]
+  },
+  "waves": {
+    "height_mean_m": [
+      0.78,
+      0.6,
+      0.56,
+      0.62,
+      0.6,
+      0.51,
+      0.37,
+      0.4,
+      0.53,
+      0.48,
+      0.74,
+      0.78
+    ],
+    "height_big_m": [
+      1.24,
+      1.34,
+      0.96,
+      1.08,
+      1.14,
+      1.4,
+      0.56,
+      0.76,
+      0.92,
+      0.88,
+      1.44,
+      1.5
+    ],
+    "period_mean_s": [
+      3.83,
+      3.44,
+      3.5,
+      3.79,
+      3.97,
+      3.76,
+      3.03,
+      3.18,
+      3.73,
+      3.38,
+      3.92,
+      3.79
+    ],
+    "summary": {
+      "annual_mean_m": 0.58,
+      "biggest_month": "Jan",
+      "biggest_month_m": 0.78,
+      "calmest_month": "Jul",
+      "calmest_month_m": 0.37,
+      "peak_big_day_m": 1.5,
+      "typical_period_s": 3.6,
+      "character": "Calm — gentle swimming water most of the year"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 84% of beaches in its country",
+      "detail": "Peak-month high ≈ 21°C"
+    }
+  ],
+  "wikidata_id": "Q757273",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Utah_Beach",
+  "wikipedia_page_views_annual": 128338,
+  "notability_score": 35.0,
+  "data_completeness_pct": 70.8,
+  "best_months": [
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep"
+  ],
+  "swim_suitability": "fair"
 }

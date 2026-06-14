@@ -1,59 +1,21 @@
 {
   "slug": "paralia-koukounaries",
   "name": "Παραλία Κουκουναριές",
-  "centroid_lat": 39.14818,
-  "centroid_lng": 23.4025876,
   "country_code": "GR",
   "admin_level_1": "Thessaly",
-  "admin_level_2": null,
+  "centroid_lat": 39.14818,
+  "centroid_lng": 23.4025876,
   "water_body_type": "ocean",
   "substrate_type": "sand",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/167042412",
-      "source_url": "https://www.openstreetmap.org/way/167042412"
-    },
-    {
-      "source_name": "osm",
-      "source_id": "way/1312578382",
-      "source_url": "https://www.openstreetmap.org/way/1312578382"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q6434546",
-      "source_url": "https://www.wikidata.org/wiki/Q6434546"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q53632903",
-      "source_url": "https://www.wikidata.org/wiki/Q53632903"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "ELBW079110102101",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "ELBW079110102101",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    }
-  ],
-  "attributes": {
-    "facilities": {
-      "access": "yes",
-      "fee_required": true
-    },
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Koukounaries%20beach.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Koukounaries"
-    },
-    "environment": {
-      "water_quality_rating": "1 - excellent",
-      "eu_bathing_water_type": "Coastal"
-    }
+  "slope_pct": 4.943792033195495,
+  "nearshore_depth_m": 97.8125,
+  "classification": {
+    "primary_type": "Sand",
+    "primary_type_slug": "sand",
+    "coastal_type": "Sand",
+    "coastal_type_slug": "sand",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Skiathos",
   "nearest_city_distance_km": 7.8,
@@ -62,26 +24,351 @@
     "name": "Skiathos Island National Airport",
     "distance_km": 9.3
   },
-  "safety": {
-    "water_quality_rating": "1 - excellent",
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      11.4625,
+      12.0125,
+      14.35,
+      17.675,
+      22.975,
+      27.8875,
+      29.7,
+      29.7375,
+      25.8,
+      21.4375,
+      16.3625,
+      12.825
+    ],
+    "air_temp_low": [
+      6.3,
+      6.6375,
+      8.7625,
+      11.475,
+      16.475,
+      20.9625,
+      23.2375,
+      23.075,
+      19.05,
+      15.325,
+      11.2125,
+      7.9875
+    ],
+    "rain_mm": [
+      56.0,
+      53.0,
+      51.0,
+      33.0,
+      26.0,
+      16.0,
+      10.0,
+      13.0,
+      21.0,
+      55.0,
+      61.0,
+      70.0
+    ],
+    "wind_speed": [
+      3.4375,
+      3.8125,
+      3.425,
+      3.0375,
+      2.95,
+      3.1625,
+      3.4625,
+      3.35,
+      3.1,
+      3.1375,
+      3.0,
+      3.3125
+    ],
+    "sun_hours": [
+      6101.0,
+      8730.0,
+      12584.0,
+      18062.0,
+      22118.0,
+      24765.0,
+      25257.0,
+      22530.0,
+      17251.0,
+      11120.0,
+      7197.0,
+      5386.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "facilities": {
-    "restrooms": true,
-    "showers": true
+  "tides": {
+    "range_spring_m": 0.260264385828609,
+    "range_neap_m": 0.04674868103052009,
+    "type": "mixed",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Koukounaries",
-  "notability_score": 31.6,
-  "data_completeness_pct": 33.3,
   "sand": {
     "predicted": {
       "q_pct": 47.1,
       "f_pct": 3.2,
       "l_pct": 49.6,
       "regime": "lithic-rich (volcanic/collisional terrane)",
+      "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Skiathos-GMichalagas4.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Skiathos-GMichalagas4.jpg/1280px-Skiathos-GMichalagas4.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gmichalagas&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gmichalagas (page does not exist)\">Georgios Michalagas</a>",
+      "title": "Skiathos-GMichalagas4.jpg",
+      "width": 14294,
+      "height": 3628
     },
-    "color": "golden"
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Skiathos-GMichalagas5.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Skiathos-GMichalagas5.jpg/1280px-Skiathos-GMichalagas5.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gmichalagas&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gmichalagas (page does not exist)\">Georgios Michalagas</a>",
+      "title": "Skiathos-GMichalagas5.jpg",
+      "width": 12226,
+      "height": 3780
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Skiathos-GMichalagas3.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Skiathos-GMichalagas3.jpg/1280px-Skiathos-GMichalagas3.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gmichalagas&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gmichalagas (page does not exist)\">Georgios Michalagas</a>",
+      "title": "Skiathos-GMichalagas3.jpg",
+      "width": 9520,
+      "height": 3946
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Koukounaries_beach_panorama_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Koukounaries_beach_panorama_-_panoramio.jpg/1280px-Koukounaries_beach_panorama_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161015090155/http://www.panoramio.com/user/598249?with_photo_id=38838754\">linmtheu</a>",
+      "title": "Koukounaries beach panorama - panoramio.jpg",
+      "width": 6720,
+      "height": 1677
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Koukounaires_beach_3_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Koukounaires_beach_3_-_panoramio.jpg/1280px-Koukounaires_beach_3_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161102024954/http://www.panoramio.com/user/6736286?with_photo_id=110490113\">Mrcsifkin</a>",
+      "title": "Koukounaires beach 3 - panoramio.jpg",
+      "width": 6016,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Koukounaires_beach_2_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Koukounaires_beach_2_-_panoramio.jpg/1280px-Koukounaires_beach_2_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161101034355/http://www.panoramio.com/user/6736286?with_photo_id=110490150\">Mrcsifkin</a>",
+      "title": "Koukounaires beach 2 - panoramio.jpg",
+      "width": 6016,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Koukounaires_beach_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Koukounaires_beach_-_panoramio.jpg/1280px-Koukounaires_beach_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161102003454/http://www.panoramio.com/user/6736286?with_photo_id=110490161\">Mrcsifkin</a>",
+      "title": "Koukounaires beach - panoramio.jpg",
+      "width": 6016,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Aerial_view_of_the_green_landscape_of_Skiathos%2C_Greece_%2851696383639%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Aerial_view_of_the_green_landscape_of_Skiathos%2C_Greece_%2851696383639%29.jpg/1280px-Aerial_view_of_the_green_landscape_of_Skiathos%2C_Greece_%2851696383639%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/132646954@N02\">dronepicr</a>",
+      "title": "Aerial view of the green landscape of Skiathos, Greece (51696383639).jpg",
+      "width": 5464,
+      "height": 3640
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 97.8125
+  },
+  "conservation": {
+    "name": "SKIATHOS: KOUKOUNARIES KAI EVRYTERI THALASSIA PERIOCHI",
+    "type": "Special areas of conservation (habitats directive)",
+    "iucn": "Not Reported",
+    "unesco": false
+  },
+  "facilities": {
+    "restrooms": true,
+    "showers": true,
+    "food_nearby": true
+  },
+  "water_quality": {
+    "rating": "1 - excellent",
+    "source": "eu_bathing",
+    "year": null
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 7,
+        "top": [
+          {
+            "common": "Mute Swan",
+            "latin": "Cygnus olor",
+            "obs": 8,
+            "iucn": null
+          },
+          {
+            "common": "Ring-necked Pheasant",
+            "latin": "Phasianus colchicus",
+            "obs": 6,
+            "iucn": null
+          },
+          {
+            "common": "Black Swan",
+            "latin": "Cygnus atratus",
+            "obs": 6,
+            "iucn": null
+          },
+          {
+            "common": "Mallard",
+            "latin": "Anas platyrhynchos",
+            "obs": 6,
+            "iucn": null
+          },
+          {
+            "common": "House Sparrow",
+            "latin": "Passer domesticus",
+            "obs": 3,
+            "iucn": null
+          },
+          {
+            "common": "Greylag Goose",
+            "latin": "Anser anser",
+            "obs": 2,
+            "iucn": null
+          },
+          {
+            "common": "Eurasian Scops-Owl",
+            "latin": "Otus scops",
+            "obs": 2,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 6,
+        "top": [
+          {
+            "common": "Meadow Brown",
+            "latin": "Maniola jurtina",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Mauve Stinger",
+            "latin": "Pelagia noctiluca",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Transcaucasian Giant Mantis",
+            "latin": "Hierodula transcaucasica",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Mediterranean Red Sea Star",
+            "latin": "Echinaster sepositus",
+            "obs": 3,
+            "iucn": null
+          },
+          {
+            "common": "Two-tailed Pasha",
+            "latin": "Charaxes jasius",
+            "obs": 3,
+            "iucn": null
+          },
+          {
+            "common": "Southern White Admiral",
+            "latin": "Limenitis reducta",
+            "obs": 3,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 5,
+        "top": [
+          {
+            "common": "oleander",
+            "latin": "Nerium oleander",
+            "obs": 6,
+            "iucn": null
+          },
+          {
+            "common": "Sea Daffodil",
+            "latin": "Pancratium maritimum",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "Hoary Rock-rose",
+            "latin": "Cistus creticus",
+            "obs": 3,
+            "iucn": null
+          },
+          {
+            "common": "Sage-leaved Rock-rose",
+            "latin": "Cistus salviifolius",
+            "obs": 3,
+            "iucn": null
+          },
+          {
+            "common": "American pokeweed",
+            "latin": "Phytolacca americana",
+            "obs": 2,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Fish",
+        "key": "fish",
+        "count": 1,
+        "top": [
+          {
+            "common": "Mediterranean Rainbow Wrasse",
+            "latin": "Coris julis",
+            "obs": 3,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 1,
+        "top": [
+          {
+            "common": "Mediterranean House Gecko",
+            "latin": "Hemidactylus turcicus",
+            "obs": 2,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -137,5 +424,27 @@
       "character": "Calm — gentle swimming water most of the year"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 54% of beaches in its country",
+      "detail": "Peak-month high ≈ 30°C"
+    }
+  ],
+  "wikidata_id": "Q53632903",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Koukounaries",
+  "wikipedia_page_views_annual": 6775,
+  "notability_score": 31.6,
+  "data_completeness_pct": 75.0,
+  "best_months": [
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct"
+  ],
+  "swim_suitability": "fair"
 }

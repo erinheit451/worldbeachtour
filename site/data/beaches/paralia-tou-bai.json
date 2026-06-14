@@ -1,50 +1,21 @@
 {
   "slug": "paralia-tou-bai",
   "name": "Παραλία του Βάι",
-  "centroid_lat": 35.2545883,
-  "centroid_lng": 26.2651641,
   "country_code": "GR",
   "admin_level_1": "Crete",
-  "admin_level_2": null,
+  "centroid_lat": 35.2545883,
+  "centroid_lng": 26.2651641,
   "water_body_type": "ocean",
   "substrate_type": "sand",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/52495263",
-      "source_url": "https://www.openstreetmap.org/way/52495263"
-    },
-    {
-      "source_name": "osm",
-      "source_id": "way/1311757980",
-      "source_url": "https://www.openstreetmap.org/way/1311757980"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q168548",
-      "source_url": "https://www.wikidata.org/wiki/Q168548"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "ELBW139313100101",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "ELBW139313100101",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Vai%20R06.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Vai_(Crete)"
-    },
-    "environment": {
-      "water_quality_rating": "1 - excellent",
-      "eu_bathing_water_type": "Coastal"
-    }
+  "slope_pct": 3.3796276092529296,
+  "nearshore_depth_m": 44.9375,
+  "classification": {
+    "primary_type": "Sand",
+    "primary_type_slug": "sand",
+    "coastal_type": "Sand",
+    "coastal_type_slug": "sand",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Palekastro",
   "nearest_city_distance_km": 6.4,
@@ -53,22 +24,305 @@
     "name": "Sitia Airport",
     "distance_km": 15.5
   },
-  "safety": {
-    "water_quality_rating": "1 - excellent",
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      15.45,
+      15.33,
+      16.67,
+      19.19,
+      23.0,
+      27.19,
+      29.26,
+      29.32,
+      27.07,
+      23.67,
+      20.03,
+      16.97
+    ],
+    "air_temp_low": [
+      10.45,
+      10.05,
+      11.07,
+      13.12,
+      16.52,
+      20.41,
+      23.28,
+      23.6,
+      21.42,
+      18.13,
+      14.68,
+      11.95
+    ],
+    "rain_mm": [
+      116.0,
+      85.0,
+      64.0,
+      28.0,
+      12.0,
+      2.0,
+      1.0,
+      1.0,
+      13.0,
+      47.0,
+      62.0,
+      100.0
+    ],
+    "wind_speed": [
+      3.96,
+      4.51,
+      4.36,
+      4.54,
+      4.36,
+      4.7,
+      5.7,
+      5.29,
+      4.57,
+      3.86,
+      3.94,
+      4.08
+    ],
+    "sun_hours": [
+      8115.0,
+      10924.0,
+      15364.0,
+      19420.0,
+      22693.0,
+      25750.0,
+      26510.0,
+      24358.0,
+      19892.0,
+      13845.0,
+      9891.0,
+      7570.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Vai_(Crete)",
-  "notability_score": 36.3,
-  "data_completeness_pct": 29.2,
+  "tides": {
+    "range_spring_m": 0.11384312946528197,
+    "range_neap_m": 0.030501732141482517,
+    "type": "mixed",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 52.8,
       "f_pct": 3.5,
       "l_pct": 43.7,
       "regime": "lithic-rich (volcanic/collisional terrane)",
+      "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Vai_beach_01.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Vai_beach_01.jpg/1280px-Vai_beach_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Meho29\" title=\"User:Meho29\">Mihael Grmek</a>",
+      "title": "Vai beach 01.jpg",
+      "width": 8060,
+      "height": 3366
     },
-    "description": "Vai Palm Forest, or more officially Vai Aesthetic Forest, contains several thousand palm trees in a valley perpendicular to the beach and running down to it."
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/%CE%92%CE%AC%CE%B9_%CF%86%CE%BF%CE%B9%CE%BD%CE%B9%CE%BA%CF%8C%CE%B4%CE%B1%CF%83%CE%BF%CF%82.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/%CE%92%CE%AC%CE%B9_%CF%86%CE%BF%CE%B9%CE%BD%CE%B9%CE%BA%CF%8C%CE%B4%CE%B1%CF%83%CE%BF%CF%82.jpg/1280px-%CE%92%CE%AC%CE%B9_%CF%86%CE%BF%CE%B9%CE%BD%CE%B9%CE%BA%CF%8C%CE%B4%CE%B1%CF%83%CE%BF%CF%82.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Venetia84&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Venetia84 (page does not exist)\">Venetia84</a>",
+      "title": "Βάι φοινικόδασος.jpg",
+      "width": 4928,
+      "height": 3264
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Vai_Palmenstrand_11.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Vai_Palmenstrand_11.jpg/1280px-Vai_Palmenstrand_11.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Oltau\" title=\"User:Oltau\">Olaf Tausch</a>",
+      "title": "Vai Palmenstrand 11.jpg",
+      "width": 4608,
+      "height": 3453
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Vai_Palmenstrand_12.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Vai_Palmenstrand_12.jpg/1280px-Vai_Palmenstrand_12.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Oltau\" title=\"User:Oltau\">Olaf Tausch</a>",
+      "title": "Vai Palmenstrand 12.jpg",
+      "width": 4608,
+      "height": 3453
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Vai_Palmenstrand_06.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Vai_Palmenstrand_06.jpg/1280px-Vai_Palmenstrand_06.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Oltau\" title=\"User:Oltau\">Olaf Tausch</a>",
+      "title": "Vai Palmenstrand 06.jpg",
+      "width": 4608,
+      "height": 3452
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Vai_Palmenstrand_09.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Vai_Palmenstrand_09.jpg/1280px-Vai_Palmenstrand_09.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Oltau\" title=\"User:Oltau\">Olaf Tausch</a>",
+      "title": "Vai Palmenstrand 09.jpg",
+      "width": 4605,
+      "height": 3450
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Vai_Palmenstrand_10.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Vai_Palmenstrand_10.jpg/1280px-Vai_Palmenstrand_10.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Oltau\" title=\"User:Oltau\">Olaf Tausch</a>",
+      "title": "Vai Palmenstrand 10.jpg",
+      "width": 4602,
+      "height": 3450
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Vai_Palmenstrand_05.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Vai_Palmenstrand_05.jpg/1280px-Vai_Palmenstrand_05.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Oltau\" title=\"User:Oltau\">Olaf Tausch</a>",
+      "title": "Vai Palmenstrand 05.jpg",
+      "width": 4592,
+      "height": 3446
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 44.9375
+  },
+  "conservation": {
+    "name": "Foinikodasos Vái Lasithiou",
+    "type": "Aesthetic forest",
+    "iucn": "III",
+    "unesco": false
+  },
+  "facilities": {
+    "food_nearby": true
+  },
+  "water_quality": {
+    "rating": "1 - excellent",
+    "source": "eu_bathing",
+    "year": null
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 13,
+        "top": [
+          {
+            "common": "Theophrastus' Date Palm",
+            "latin": "Phoenix theophrasti",
+            "obs": 29,
+            "iucn": null
+          },
+          {
+            "common": "Hoary Rock-rose",
+            "latin": "Cistus creticus",
+            "obs": 12,
+            "iucn": null
+          },
+          {
+            "common": "Sage-leaved Rock-rose",
+            "latin": "Cistus salviifolius",
+            "obs": 9,
+            "iucn": null
+          },
+          {
+            "common": "mastic",
+            "latin": "Pistacia lentiscus",
+            "obs": 9,
+            "iucn": null
+          },
+          {
+            "common": "Viola scorpiuroides",
+            "latin": "Viola scorpiuroides",
+            "obs": 9,
+            "iucn": null
+          },
+          {
+            "common": "Small-flowered Rockrose",
+            "latin": "Cistus parviflorus",
+            "obs": 9,
+            "iucn": null
+          },
+          {
+            "common": "Numidian Squill",
+            "latin": "Drimia numidica",
+            "obs": 7,
+            "iucn": null
+          },
+          {
+            "common": "Mediterranean juniper",
+            "latin": "Juniperus turbinata",
+            "obs": 7,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 4,
+        "top": [
+          {
+            "common": "Cretan Grayling",
+            "latin": "Hipparchia cretica",
+            "obs": 10,
+            "iucn": null
+          },
+          {
+            "common": "Nemka viduata",
+            "latin": "Nemka viduata",
+            "obs": 7,
+            "iucn": null
+          },
+          {
+            "common": "Bearded Fireworm",
+            "latin": "Hermodice carunculata",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Nomad",
+            "latin": "Sympetrum fonscolombii",
+            "obs": 4,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Fish",
+        "key": "fish",
+        "count": 3,
+        "top": [
+          {
+            "common": "Flavimaculosus Puffer",
+            "latin": "Torquigener flavimaculosus",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "Rivulated Rabbitfish",
+            "latin": "Siganus rivulatus",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Wide-eyed Flounder",
+            "latin": "Bothus podas",
+            "obs": 4,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -124,5 +378,27 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 67% of beaches in its country",
+      "detail": "Peak-month high ≈ 29°C"
+    }
+  ],
+  "wikidata_id": "Q168548",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Vai_(Crete)",
+  "wikipedia_page_views_annual": 17779,
+  "notability_score": 36.3,
+  "data_completeness_pct": 66.7,
+  "best_months": [
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct"
+  ],
+  "swim_suitability": "fair"
 }

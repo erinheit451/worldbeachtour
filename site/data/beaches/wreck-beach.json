@@ -1,32 +1,21 @@
 {
   "slug": "wreck-beach",
   "name": "Wreck Beach",
-  "centroid_lat": 49.2615025,
-  "centroid_lng": -123.2618575,
   "country_code": "CA",
   "admin_level_1": "British Columbia",
-  "admin_level_2": null,
+  "centroid_lat": 49.2615025,
+  "centroid_lng": -123.2618575,
   "water_body_type": "ocean",
   "substrate_type": "sand",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/36812352",
-      "source_url": "https://www.openstreetmap.org/way/36812352"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q10283669",
-      "source_url": "https://www.wikidata.org/wiki/Q10283669"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "nudist": true,
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wreckbeach-ptgrey.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Wreck_Beach"
-    }
+  "slope_pct": 4.64289493560791,
+  "nearshore_depth_m": 55.8125,
+  "classification": {
+    "primary_type": "Sand",
+    "primary_type_slug": "sand",
+    "coastal_type": "Sand",
+    "coastal_type_slug": "sand",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "West End",
   "nearest_city_distance_km": 9.6,
@@ -35,20 +24,301 @@
     "name": "Vancouver International Airport",
     "distance_km": 9.4
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      6.225,
+      7.575,
+      9.425,
+      12.325,
+      15.575,
+      18.275,
+      20.8,
+      21.4,
+      18.325,
+      13.475,
+      9.075,
+      6.8
+    ],
+    "air_temp_low": [
+      1.475,
+      2.375,
+      3.625,
+      5.6,
+      8.4,
+      11.05,
+      13.0,
+      13.425,
+      11.025,
+      7.275,
+      4.375,
+      2.175
+    ],
+    "rain_mm": [
+      196.0,
+      139.0,
+      136.0,
+      104.0,
+      80.0,
+      64.0,
+      45.0,
+      47.0,
+      60.0,
+      147.0,
+      229.0,
+      202.0
+    ],
+    "wind_speed": [
+      3.4,
+      3.3,
+      3.4,
+      3.2,
+      3.1,
+      3.1,
+      2.95,
+      2.7,
+      2.5,
+      2.8,
+      3.425,
+      3.55
+    ],
+    "sun_hours": [
+      3060.0,
+      5868.0,
+      9983.0,
+      15154.0,
+      18893.0,
+      20360.0,
+      21428.0,
+      18365.0,
+      13096.0,
+      7076.0,
+      3517.0,
+      2402.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Wreck_Beach",
-  "notability_score": 31.0,
-  "data_completeness_pct": 20.8,
   "sand": {
     "predicted": {
       "q_pct": 38.8,
       "f_pct": 37.4,
       "l_pct": 23.8,
       "regime": "feldspar-rich (plutonic/crystalline terrane)",
+      "regime_plain": "Feldspar-rich (plutonic/crystalline terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Wreck22.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Wreck22.jpg/1280px-Wreck22.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:M57sarek&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:M57sarek (page does not exist)\">M57sarek</a>",
+      "title": "Wreck22.jpg",
+      "width": 9121,
+      "height": 1084
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Cherry_Blossoms_UBC.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Cherry_Blossoms_UBC.JPG/1280px-Cherry_Blossoms_UBC.JPG",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Xicotencatl\" title=\"User:Xicotencatl\">Xicotencatl</a>",
+      "title": "Cherry Blossoms UBC.JPG",
+      "width": 6016,
+      "height": 4016
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Marine_Drive_Cherry_Blossoms_02.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Marine_Drive_Cherry_Blossoms_02.JPG/1280px-Marine_Drive_Cherry_Blossoms_02.JPG",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Xicotencatl\" title=\"User:Xicotencatl\">Xicotencatl</a>",
+      "title": "Marine Drive Cherry Blossoms 02.JPG",
+      "width": 6016,
+      "height": 4016
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Marine_Drive_Cherry_Blossoms.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Marine_Drive_Cherry_Blossoms.JPG/1280px-Marine_Drive_Cherry_Blossoms.JPG",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Xicotencatl\" title=\"User:Xicotencatl\">Xicotencatl</a>",
+      "title": "Marine Drive Cherry Blossoms.JPG",
+      "width": 6016,
+      "height": 4016
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/WRECK_BEACH_2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/WRECK_BEACH_2.jpg/1280px-WRECK_BEACH_2.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Xiaoli12\" title=\"User:Xiaoli12\">XIAOLI GE</a>",
+      "title": "WRECK BEACH 2.jpg",
+      "width": 4928,
+      "height": 3264
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Small_wave_washing_on_beach_%28Unsplash%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Small_wave_washing_on_beach_%28Unsplash%29.jpg/1280px-Small_wave_washing_on_beach_%28Unsplash%29.jpg",
+      "license": "CC0",
+      "author_html": "D Holmes <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@parfois\">parfois</a>",
+      "title": "Small wave washing on beach (Unsplash).jpg",
+      "width": 4682,
+      "height": 2779
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Beach_in_UBC_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Beach_in_UBC_-_panoramio.jpg/1280px-Beach_in_UBC_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161025002623/http://www.panoramio.com/user/828011?with_photo_id=83833267\">Bohao Zhao</a>",
+      "title": "Beach in UBC - panoramio.jpg",
+      "width": 4000,
+      "height": 2664
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Lounging_at_Wreck_Beach_%40_UBC_%285650750267%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Lounging_at_Wreck_Beach_%40_UBC_%285650750267%29.jpg/1280px-Lounging_at_Wreck_Beach_%40_UBC_%285650750267%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/22539273@N00\">Guilhem Vellut</a> from Annecy, France",
+      "title": "Lounging at Wreck Beach @ UBC (5650750267).jpg",
+      "width": 3648,
+      "height": 2736
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 55.8125
+  },
+  "facilities": {
+    "nudism": true
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 12,
+        "top": [
+          {
+            "common": "western sword fern",
+            "latin": "Polystichum munitum",
+            "obs": 437,
+            "iucn": null
+          },
+          {
+            "common": "western redcedar",
+            "latin": "Thuja plicata",
+            "obs": 280,
+            "iucn": null
+          },
+          {
+            "common": "Salmonberry",
+            "latin": "Rubus spectabilis",
+            "obs": 226,
+            "iucn": null
+          },
+          {
+            "common": "Herb Robert",
+            "latin": "Geranium robertianum",
+            "obs": 214,
+            "iucn": null
+          },
+          {
+            "common": "Wall Lettuce",
+            "latin": "Mycelis muralis",
+            "obs": 195,
+            "iucn": null
+          },
+          {
+            "common": "salal",
+            "latin": "Gaultheria shallon",
+            "obs": 193,
+            "iucn": null
+          },
+          {
+            "common": "European holly",
+            "latin": "Ilex aquifolium",
+            "obs": 165,
+            "iucn": null
+          },
+          {
+            "common": "Cascade Oregon-grape",
+            "latin": "Berberis nervosa",
+            "obs": 162,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 5,
+        "top": [
+          {
+            "common": "American Crow",
+            "latin": "Corvus brachyrhynchos",
+            "obs": 226,
+            "iucn": null
+          },
+          {
+            "common": "Song Sparrow",
+            "latin": "Melospiza melodia",
+            "obs": 173,
+            "iucn": null
+          },
+          {
+            "common": "Bald Eagle",
+            "latin": "Haliaeetus leucocephalus",
+            "obs": 159,
+            "iucn": null
+          },
+          {
+            "common": "Olympic Gull",
+            "latin": "Larus glaucescens × occidentalis",
+            "obs": 151,
+            "iucn": null
+          },
+          {
+            "common": "American Robin",
+            "latin": "Turdus migratorius",
+            "obs": 132,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Fungi",
+        "key": "fungi",
+        "count": 2,
+        "top": [
+          {
+            "common": "Fly Agaric",
+            "latin": "Amanita muscaria",
+            "obs": 227,
+            "iucn": null
+          },
+          {
+            "common": "Shaggy Mane",
+            "latin": "Coprinus comatus",
+            "obs": 135,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Mammals",
+        "key": "mammal",
+        "count": 1,
+        "top": [
+          {
+            "common": "Eastern Gray Squirrel",
+            "latin": "Sciurus carolinensis",
+            "obs": 441,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -104,5 +374,29 @@
       "character": "Calm — gentle swimming water most of the year"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Warmer than 87% of beaches in its country",
+      "detail": "Peak-month high ≈ 21°C"
+    },
+    {
+      "metric": "Beach season",
+      "text": "Longer beach season than 89% of beaches in its country",
+      "detail": "4 comfortable months a year"
+    }
+  ],
+  "wikidata_id": "Q10283669",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Wreck_Beach",
+  "wikipedia_page_views_annual": 34248,
+  "notability_score": 31.0,
+  "data_completeness_pct": 50.0,
+  "best_months": [
+    "jun",
+    "jul",
+    "aug",
+    "sep"
+  ],
+  "swim_suitability": "fair"
 }
