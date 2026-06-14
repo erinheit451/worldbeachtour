@@ -13,3 +13,7 @@ __pycache__/
 *.db
 *.sqlite
 logs/
+
+# tier cohort lists (large, regenerable via scripts/assign_tiers.py)
+site/data/cohorts/tier3.json
+site/data/cohorts/tier4.json
