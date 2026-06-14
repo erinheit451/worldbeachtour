@@ -1,40 +1,21 @@
 {
   "slug": "eagle-beach",
   "name": "Eagle Beach",
-  "centroid_lat": 12.5465346,
-  "centroid_lng": -70.0593675,
   "country_code": "AW",
   "admin_level_1": "",
-  "admin_level_2": null,
+  "centroid_lat": 12.5465346,
+  "centroid_lng": -70.0593675,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/25590792",
-      "source_url": "https://www.openstreetmap.org/way/25590792"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q5325023",
-      "source_url": "https://www.wikidata.org/wiki/Q5325023"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Mangrove%20tree%20%28Conocarpus%20erectus%29%20Aruba.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Eagle_Beach"
-    },
-    "safety": {
-      "cyclone_count_50yr": "10",
-      "cyclone_max_category": "5"
-    }
+  "slope_pct": 3.059353733062744,
+  "nearshore_depth_m": 50.5706787109375,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Oranjestad",
   "nearest_city_distance_km": 4.3,
@@ -43,20 +24,392 @@
     "name": "Queen Beatrix International Airport",
     "distance_km": 7.0
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      29.7,
+      29.8,
+      30.2833,
+      30.95,
+      31.9,
+      32.1,
+      32.3167,
+      32.6667,
+      33.0833,
+      32.3167,
+      31.2,
+      30.1
+    ],
+    "air_temp_low": [
+      23.15,
+      23.2,
+      23.3833,
+      24.1,
+      25.2,
+      25.5833,
+      25.3,
+      25.6,
+      25.7,
+      25.2833,
+      24.4,
+      23.7
+    ],
+    "rain_mm": [
+      34.0,
+      13.0,
+      7.0,
+      15.0,
+      17.0,
+      25.0,
+      27.0,
+      22.0,
+      38.0,
+      62.0,
+      70.0,
+      60.0
+    ],
+    "wind_speed": [
+      6.0833,
+      6.4,
+      6.6,
+      6.6,
+      6.3833,
+      6.5667,
+      6.4333,
+      5.9667,
+      5.5833,
+      5.1,
+      4.9833,
+      5.5
+    ],
+    "sun_hours": [
+      18819.0,
+      20957.0,
+      21796.0,
+      21068.0,
+      19669.0,
+      20086.0,
+      21010.0,
+      21759.0,
+      20776.0,
+      19461.0,
+      17785.0,
+      17585.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Eagle_Beach",
-  "notability_score": 29.1,
-  "data_completeness_pct": 20.8,
+  "tides": {
+    "range_spring_m": 0.10183969705743713,
+    "range_neap_m": 0.09176733962948368,
+    "type": "diurnal",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 93.6,
       "f_pct": 3.1,
       "l_pct": 3.3,
       "regime": "quartz-dominant",
+      "regime_plain": "Quartz-dominant",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 25,
+    "paragraph": "25 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1852–2023).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Mangrove_tree_%28Conocarpus_erectus%29_at_Eagle_Beach%2C_Aruba_2019.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Mangrove_tree_%28Conocarpus_erectus%29_at_Eagle_Beach%2C_Aruba_2019.jpg/1280px-Mangrove_tree_%28Conocarpus_erectus%29_at_Eagle_Beach%2C_Aruba_2019.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:SIryn\" title=\"User:SIryn\">SIryn</a>",
+      "title": "Mangrove tree (Conocarpus erectus) at Eagle Beach, Aruba 2019.jpg",
+      "width": 5280,
+      "height": 3617
     },
-    "color": "white"
-  }
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Aad_Stolwijk%2C_Eagle_Beach%3B_Pos_Abou%3B_Ponton%2C_ANA-DIG-COL-STOLWIJK-LUCHTF-VEL-555-08%2C_Archivo_Nacional_Aruba.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Aad_Stolwijk%2C_Eagle_Beach%3B_Pos_Abou%3B_Ponton%2C_ANA-DIG-COL-STOLWIJK-LUCHTF-VEL-555-08%2C_Archivo_Nacional_Aruba.jpg/1280px-Aad_Stolwijk%2C_Eagle_Beach%3B_Pos_Abou%3B_Ponton%2C_ANA-DIG-COL-STOLWIJK-LUCHTF-VEL-555-08%2C_Archivo_Nacional_Aruba.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<bdi><a href=\"https://www.wikidata.org/wiki/Q137886766\" class=\"extiw\" title=\"d:Q137886766\"><span title=\"Dutch teacher and photographer (1926–2020)\">Aad Stolwijk</span></a></bdi>",
+      "title": "Aad Stolwijk, Eagle Beach; Pos Abou; Ponton, ANA-DIG-COL-STOLWIJK-LUCHTF-VEL-555-08, Archivo Nacional Aruba.jpg",
+      "width": 5255,
+      "height": 5154
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Aad_Stolwijk%2C_Oranjestad%3B_Playa%3B_Rancho%3B_Eagle_Beach%3B_Bushiri%2C_ANA-DIG-COL-STOLWIJK-LUCHTF-VEL-557-10%2C_Archivo_Nacional_Aruba.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Aad_Stolwijk%2C_Oranjestad%3B_Playa%3B_Rancho%3B_Eagle_Beach%3B_Bushiri%2C_ANA-DIG-COL-STOLWIJK-LUCHTF-VEL-557-10%2C_Archivo_Nacional_Aruba.jpg/1280px-Aad_Stolwijk%2C_Oranjestad%3B_Playa%3B_Rancho%3B_Eagle_Beach%3B_Bushiri%2C_ANA-DIG-COL-STOLWIJK-LUCHTF-VEL-557-10%2C_Archivo_Nacional_Aruba.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<bdi><a href=\"https://www.wikidata.org/wiki/Q137886766\" class=\"extiw\" title=\"d:Q137886766\"><span title=\"Dutch teacher and photographer (1926–2020)\">Aad Stolwijk</span></a></bdi>",
+      "title": "Aad Stolwijk, Oranjestad; Playa; Rancho; Eagle Beach; Bushiri, ANA-DIG-COL-STOLWIJK-LUCHTF-VEL-557-10, Archivo Nacional Aruba.jpg",
+      "width": 5238,
+      "height": 5135
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Eagle_Beach%2C_Oranjestad_Aruba_02.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Eagle_Beach%2C_Oranjestad_Aruba_02.jpg/1280px-Eagle_Beach%2C_Oranjestad_Aruba_02.jpg",
+      "license": "CC0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Ginelly.Q\" title=\"User:Ginelly.Q\">Ginelly.Q</a>",
+      "title": "Eagle Beach, Oranjestad Aruba 02.jpg",
+      "width": 4592,
+      "height": 3064
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Eagle_Beach%2C_Oranjestad_Aruba_01.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Eagle_Beach%2C_Oranjestad_Aruba_01.jpg/1280px-Eagle_Beach%2C_Oranjestad_Aruba_01.jpg",
+      "license": "CC0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Ginelly.Q\" title=\"User:Ginelly.Q\">Ginelly.Q</a>",
+      "title": "Eagle Beach, Oranjestad Aruba 01.jpg",
+      "width": 4592,
+      "height": 3064
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Eagle_Beach%2C_Oranjestad_Aruba_03.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Eagle_Beach%2C_Oranjestad_Aruba_03.jpg/1280px-Eagle_Beach%2C_Oranjestad_Aruba_03.jpg",
+      "license": "CC0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Ginelly.Q\" title=\"User:Ginelly.Q\">Ginelly.Q</a>",
+      "title": "Eagle Beach, Oranjestad Aruba 03.jpg",
+      "width": 4592,
+      "height": 3064
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Aruba_-_Ride_this_wave_%288329348435%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Aruba_-_Ride_this_wave_%288329348435%29.jpg/1280px-Aruba_-_Ride_this_wave_%288329348435%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/37904342@N04\">Boris Kasimov</a> from Toronto, Canada",
+      "title": "Aruba - Ride this wave (8329348435).jpg",
+      "width": 4320,
+      "height": 3240
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Oduber_Hospital_21_31_12_793000.jpeg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Oduber_Hospital_21_31_12_793000.jpeg/1280px-Oduber_Hospital_21_31_12_793000.jpeg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Caribiana\" title=\"User:Caribiana\">Caribiana</a>",
+      "title": "Oduber Hospital 21 31 12 793000.jpeg",
+      "width": 3333,
+      "height": 1948
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 50.5706787109375
+  },
+  "facilities": {
+    "food_nearby": true
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 13,
+        "top": [
+          {
+            "common": "Bare-eyed Pigeon",
+            "latin": "Patagioenas corensis",
+            "obs": 100,
+            "iucn": null
+          },
+          {
+            "common": "Venezuelan Troupial",
+            "latin": "Icterus icterus",
+            "obs": 99,
+            "iucn": null
+          },
+          {
+            "common": "Carib Grackle",
+            "latin": "Quiscalus lugubris",
+            "obs": 96,
+            "iucn": null
+          },
+          {
+            "common": "Bananaquit",
+            "latin": "Coereba flaveola",
+            "obs": 52,
+            "iucn": null
+          },
+          {
+            "common": "Tropical Mockingbird",
+            "latin": "Mimus gilvus",
+            "obs": 47,
+            "iucn": null
+          },
+          {
+            "common": "Laughing Gull",
+            "latin": "Leucophaeus atricilla",
+            "obs": 46,
+            "iucn": null
+          },
+          {
+            "common": "Brown Pelican",
+            "latin": "Pelecanus occidentalis",
+            "obs": 44,
+            "iucn": null
+          },
+          {
+            "common": "Eared Dove",
+            "latin": "Zenaida auriculata",
+            "obs": 40,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 3,
+        "top": [
+          {
+            "common": "Green Iguana",
+            "latin": "Iguana iguana",
+            "obs": 214,
+            "iucn": null
+          },
+          {
+            "common": "Aruba Whiptail",
+            "latin": "Cnemidophorus arubensis",
+            "obs": 142,
+            "iucn": null
+          },
+          {
+            "common": "Striped Anole",
+            "latin": "Anolis lineatus",
+            "obs": 33,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 3,
+        "top": [
+          {
+            "common": "sea grape",
+            "latin": "Coccoloba uvifera",
+            "obs": 51,
+            "iucn": null
+          },
+          {
+            "common": "giant milkweed",
+            "latin": "Calotropis procera",
+            "obs": 23,
+            "iucn": null
+          },
+          {
+            "common": "Green Buttonwood",
+            "latin": "Conocarpus erectus",
+            "obs": 22,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 1,
+        "top": [
+          {
+            "common": "Sally Lightfoot Crab",
+            "latin": "Grapsus grapsus",
+            "obs": 20,
+            "iucn": null
+          }
+        ]
+      }
+    ]
+  },
+  "waves": {
+    "height_mean_m": [
+      1.28,
+      1.33,
+      1.25,
+      1.13,
+      1.2,
+      1.29,
+      1.38,
+      1.12,
+      1.06,
+      0.93,
+      1.08,
+      1.21
+    ],
+    "height_big_m": [
+      1.68,
+      1.74,
+      1.54,
+      1.46,
+      1.56,
+      1.62,
+      1.6,
+      1.36,
+      1.38,
+      1.32,
+      1.56,
+      1.4
+    ],
+    "period_mean_s": [
+      5.85,
+      6.29,
+      6.3,
+      5.85,
+      5.44,
+      5.43,
+      5.53,
+      5.49,
+      5.64,
+      7.1,
+      7.34,
+      6.17
+    ],
+    "summary": {
+      "annual_mean_m": 1.19,
+      "biggest_month": "Jul",
+      "biggest_month_m": 1.38,
+      "calmest_month": "Oct",
+      "calmest_month_m": 0.93,
+      "peak_big_day_m": 1.74,
+      "typical_period_s": 6.0,
+      "character": "Mixed — usually swimmable, with a livelier season"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 75% of beaches in its country",
+      "detail": "Peak-month high ≈ 33°C"
+    },
+    {
+      "metric": "Worldwide",
+      "text": "Among the warmest 5% of beaches on Earth",
+      "detail": null
+    }
+  ],
+  "wikidata_id": "Q5325023",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Eagle_Beach",
+  "wikipedia_page_views_annual": 22925,
+  "notability_score": 29.1,
+  "data_completeness_pct": 62.5,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

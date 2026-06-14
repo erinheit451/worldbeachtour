@@ -1,35 +1,22 @@
 {
   "slug": "railay-beach",
   "name": "Railay Beach",
-  "centroid_lat": 8.010556,
-  "centroid_lng": 98.839444,
   "country_code": "TH",
   "admin_level_1": "Phangnga",
-  "admin_level_2": null,
+  "centroid_lat": 8.010556,
+  "centroid_lng": 98.839444,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
   "beach_length_m": 5000.0,
-  "sources": [
-    {
-      "source_name": "wikidata",
-      "source_id": "Q664877",
-      "source_url": "https://www.wikidata.org/wiki/Q664877"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Railay.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Railay_Beach"
-    },
-    "safety": {
-      "cyclone_count_50yr": "6",
-      "cyclone_max_category": "3"
-    }
+  "slope_pct": 1.9748303413391115,
+  "nearshore_depth_m": 9.9375,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Ban Ao Nang",
   "nearest_city_distance_km": 5.1,
@@ -38,24 +25,344 @@
     "name": "Krabi International Airport",
     "distance_km": 19.0
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      32.2643,
+      33.3786,
+      33.5,
+      33.5714,
+      32.5786,
+      31.5857,
+      31.2,
+      31.0,
+      30.7,
+      30.6786,
+      30.5,
+      30.7857
+    ],
+    "air_temp_low": [
+      22.0214,
+      22.3714,
+      23.1214,
+      23.55,
+      23.8857,
+      23.85,
+      23.3786,
+      23.2714,
+      23.0071,
+      22.6143,
+      22.6929,
+      22.0286
+    ],
+    "rain_mm": [
+      28.0,
+      37.0,
+      60.0,
+      134.0,
+      208.0,
+      200.0,
+      235.0,
+      303.0,
+      335.0,
+      302.0,
+      202.0,
+      68.0
+    ],
+    "wind_speed": [
+      2.1214,
+      2.15,
+      2.0143,
+      1.7286,
+      2.1786,
+      2.5571,
+      2.6714,
+      2.8429,
+      2.0929,
+      1.6571,
+      1.9071,
+      2.3929
+    ],
+    "sun_hours": [
+      20245.0,
+      22828.0,
+      23022.0,
+      21672.0,
+      18444.0,
+      17393.0,
+      17764.0,
+      17835.0,
+      17388.0,
+      17174.0,
+      17127.0,
+      18047.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "facilities": {
-    "restrooms": true
+  "tides": {
+    "range_spring_m": 2.5670218182224485,
+    "range_neap_m": 0.8429312870988077,
+    "type": "semidiurnal",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Railay_Beach",
-  "notability_score": 30.6,
-  "data_completeness_pct": 29.2,
   "sand": {
     "predicted": {
       "q_pct": 68.2,
       "f_pct": 5.0,
       "l_pct": 26.8,
       "regime": "mixed Q-F-L",
+      "regime_plain": "Mixed q-f-l",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 6,
+    "paragraph": "6 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1992–2019).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Railay_Beach_Panorama.jpeg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Railay_Beach_Panorama.jpeg/1280px-Railay_Beach_Panorama.jpeg",
+      "license": "CC BY 3.0",
+      "author_html": "<a href=\"https://en.wikipedia.org/wiki/User:Wikigod\" class=\"extiw\" title=\"en:User:Wikigod\">Wikigod</a> at <a class=\"external text\" href=\"https://en.wikipedia.org\">en.wikipedia</a>",
+      "title": "Railay Beach Panorama.jpeg",
+      "width": 11693,
+      "height": 1853
     },
-    "color": "golden"
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/West_Rei_Leh_Beach_pano_%28MK%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/West_Rei_Leh_Beach_pano_%28MK%29.jpg/1280px-West_Rei_Leh_Beach_pano_%28MK%29.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Leviathan1983\" title=\"User:Leviathan1983\">Mathias Krumbholz</a>",
+      "title": "West Rei Leh Beach pano (MK).jpg",
+      "width": 11653,
+      "height": 3756
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/West_Rai_Leh_%282%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/West_Rai_Leh_%282%29.jpg/1280px-West_Rai_Leh_%282%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Tournasol7\" title=\"User:Tournasol7\">Krzysztof Golik</a>",
+      "title": "West Rai Leh (2).jpg",
+      "width": 6427,
+      "height": 2769
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Ao_Nang%2C_Mueang_Krabi_District%2C_Krabi%2C_Thailand_-_panoramio_%2857%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ao_Nang%2C_Mueang_Krabi_District%2C_Krabi%2C_Thailand_-_panoramio_%2857%29.jpg/1280px-Ao_Nang%2C_Mueang_Krabi_District%2C_Krabi%2C_Thailand_-_panoramio_%2857%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161102163301/http://www.panoramio.com/user/1458947?with_photo_id=117490019\">Victor Belousov</a>",
+      "title": "Ao Nang, Mueang Krabi District, Krabi, Thailand - panoramio (57).jpg",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Ao_Nang%2C_Mueang_Krabi_District%2C_Krabi%2C_Thailand_-_panoramio_%2865%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Ao_Nang%2C_Mueang_Krabi_District%2C_Krabi%2C_Thailand_-_panoramio_%2865%29.jpg/1280px-Ao_Nang%2C_Mueang_Krabi_District%2C_Krabi%2C_Thailand_-_panoramio_%2865%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161102075430/http://www.panoramio.com/user/1458947?with_photo_id=117490055\">Victor Belousov</a>",
+      "title": "Ao Nang, Mueang Krabi District, Krabi, Thailand - panoramio (65).jpg",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Ao_Nang%2C_Mueang_Krabi_District%2C_Krabi%2C_Thailand_-_panoramio_%2864%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ao_Nang%2C_Mueang_Krabi_District%2C_Krabi%2C_Thailand_-_panoramio_%2864%29.jpg/1280px-Ao_Nang%2C_Mueang_Krabi_District%2C_Krabi%2C_Thailand_-_panoramio_%2864%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161031105308/http://www.panoramio.com/user/1458947?with_photo_id=117490065\">Victor Belousov</a>",
+      "title": "Ao Nang, Mueang Krabi District, Krabi, Thailand - panoramio (64).jpg",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/West_Rai_Leh_%284%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/West_Rai_Leh_%284%29.jpg/1280px-West_Rai_Leh_%284%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Tournasol7\" title=\"User:Tournasol7\">Krzysztof Golik</a>",
+      "title": "West Rai Leh (4).jpg",
+      "width": 5418,
+      "height": 3137
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/West_Railay_Beach_05.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/West_Railay_Beach_05.jpg/1280px-West_Railay_Beach_05.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Tournasol7\" title=\"User:Tournasol7\">Krzysztof Golik</a>",
+      "title": "West Railay Beach 05.jpg",
+      "width": 5258,
+      "height": 4000
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 9.9375
+  },
+  "facilities": {
+    "restrooms": true,
+    "food_nearby": true
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 8,
+        "top": [
+          {
+            "common": "Pacific Reef Heron",
+            "latin": "Egretta sacra",
+            "obs": 85,
+            "iucn": null
+          },
+          {
+            "common": "Oriental Pied Hornbill",
+            "latin": "Anthracoceros albirostris",
+            "obs": 59,
+            "iucn": null
+          },
+          {
+            "common": "Blue Rock-Thrush",
+            "latin": "Monticola solitarius",
+            "obs": 42,
+            "iucn": null
+          },
+          {
+            "common": "Blue Whistling-Thrush",
+            "latin": "Myophonus caeruleus",
+            "obs": 41,
+            "iucn": null
+          },
+          {
+            "common": "Collared Kingfisher",
+            "latin": "Todiramphus chloris",
+            "obs": 29,
+            "iucn": null
+          },
+          {
+            "common": "Common Myna",
+            "latin": "Acridotheres tristis",
+            "obs": 23,
+            "iucn": null
+          },
+          {
+            "common": "Oriental Magpie-Robin",
+            "latin": "Copsychus saularis",
+            "obs": 15,
+            "iucn": null
+          },
+          {
+            "common": "Common Sandpiper",
+            "latin": "Actitis hypoleucos",
+            "obs": 13,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 5,
+        "top": [
+          {
+            "common": "Common Water Monitor",
+            "latin": "Varanus salvator",
+            "obs": 143,
+            "iucn": null
+          },
+          {
+            "common": "forest garden lizard",
+            "latin": "Calotes emma",
+            "obs": 30,
+            "iucn": null
+          },
+          {
+            "common": "Oriental Garden Lizard",
+            "latin": "Calotes versicolor",
+            "obs": 25,
+            "iucn": null
+          },
+          {
+            "common": "Tokay Gecko",
+            "latin": "Gekko gecko",
+            "obs": 15,
+            "iucn": null
+          },
+          {
+            "common": "Asian House Gecko",
+            "latin": "Hemidactylus frenatus",
+            "obs": 14,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Amphibians",
+        "key": "amphibian",
+        "count": 3,
+        "top": [
+          {
+            "common": "Asian Common Toad",
+            "latin": "Duttaphrynus melanostictus",
+            "obs": 34,
+            "iucn": null
+          },
+          {
+            "common": "Common Southeast Asian Tree Frog",
+            "latin": "Polypedates leucomystax",
+            "obs": 16,
+            "iucn": null
+          },
+          {
+            "common": "Asian Painted Frog",
+            "latin": "Kaloula pulchra",
+            "obs": 16,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 2,
+        "top": [
+          {
+            "common": "Giant Golden Orbweaver",
+            "latin": "Nephila pilipes",
+            "obs": 34,
+            "iucn": null
+          },
+          {
+            "common": "Great Eggfly",
+            "latin": "Hypolimnas bolina",
+            "obs": 16,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 2,
+        "top": [
+          {
+            "common": "Beach Morning Glory",
+            "latin": "Ipomoea pes-caprae",
+            "obs": 14,
+            "iucn": null
+          },
+          {
+            "common": "sea hibiscus",
+            "latin": "Hibiscus tiliaceus",
+            "obs": 14,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -111,5 +418,36 @@
       "character": "Calm — gentle swimming water most of the year"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Warmer than 77% of beaches in its country",
+      "detail": "Peak-month high ≈ 34°C"
+    },
+    {
+      "metric": "Worldwide",
+      "text": "Among the warmest 3% of beaches on Earth",
+      "detail": null
+    }
+  ],
+  "wikidata_id": "Q664877",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Railay_Beach",
+  "wikipedia_page_views_annual": 52108,
+  "notability_score": 30.6,
+  "data_completeness_pct": 66.7,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

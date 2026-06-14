@@ -1,26 +1,21 @@
 {
   "slug": "jericoacoara-beach",
   "name": "Jericoacoara Beach",
-  "centroid_lat": -2.793055555,
-  "centroid_lng": -40.520277777,
   "country_code": "BR",
   "admin_level_1": "Ceara",
-  "admin_level_2": null,
+  "centroid_lat": -2.793055555,
+  "centroid_lng": -40.520277777,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "wikidata",
-      "source_id": "Q10352810",
-      "source_url": "https://www.wikidata.org/wiki/Q10352810"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Anderps%20067.JPG",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Jericoacoara_Beach"
-    }
+  "slope_pct": 0.14201774597167968,
+  "nearshore_depth_m": 6.375,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Camocim",
   "nearest_city_distance_km": 37.6,
@@ -29,20 +24,353 @@
     "name": "Comandante Ariston Pessoa Airport",
     "distance_km": 22.1
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      34.0,
+      33.1437,
+      31.7375,
+      31.8438,
+      32.0938,
+      32.8813,
+      33.475,
+      34.1937,
+      34.6562,
+      34.8062,
+      34.7875,
+      34.4062
+    ],
+    "air_temp_low": [
+      22.9688,
+      22.8813,
+      22.6813,
+      22.7125,
+      22.45,
+      21.7563,
+      21.35,
+      21.3875,
+      22.0375,
+      22.3375,
+      22.5312,
+      22.8187
+    ],
+    "rain_mm": [
+      102.0,
+      191.0,
+      335.0,
+      325.0,
+      185.0,
+      54.0,
+      34.0,
+      3.0,
+      2.0,
+      2.0,
+      5.0,
+      21.0
+    ],
+    "wind_speed": [
+      2.3,
+      2.0,
+      1.6938,
+      1.7,
+      1.7875,
+      1.9688,
+      1.9937,
+      2.5,
+      2.6938,
+      2.975,
+      3.025,
+      2.7625
+    ],
+    "sun_hours": [
+      16441.0,
+      15705.0,
+      14868.0,
+      14972.0,
+      15848.0,
+      15634.0,
+      16898.0,
+      18723.0,
+      20040.0,
+      19986.0,
+      19033.0,
+      18053.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Jericoacoara_Beach",
-  "notability_score": 24.9,
-  "data_completeness_pct": 16.7,
+  "tides": {
+    "range_spring_m": 2.8143072315772617,
+    "range_neap_m": 1.4289612262469849,
+    "type": "semidiurnal",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 97.9,
       "f_pct": 0.7,
       "l_pct": 1.4,
       "regime": "quartz-dominant",
+      "regime_plain": "Quartz-dominant",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Imensid%C3%A3o_do_mar_vista_da_Duna_do_P%C3%B4r_do_Sol_-_Praia_de_Jericoacoara.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Imensid%C3%A3o_do_mar_vista_da_Duna_do_P%C3%B4r_do_Sol_-_Praia_de_Jericoacoara.jpg/1280px-Imensid%C3%A3o_do_mar_vista_da_Duna_do_P%C3%B4r_do_Sol_-_Praia_de_Jericoacoara.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Wanessa_Gabrielle&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Wanessa Gabrielle (page does not exist)\">Wanessa Gabrielle</a>",
+      "title": "Imensidão do mar vista da Duna do Pôr do Sol - Praia de Jericoacoara.jpg",
+      "width": 6000,
+      "height": 4000
     },
-    "description": "The village has streets covered in sand from the dunes."
-  }
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Jericoacoara_Beach%2C_Jijoca_de_Jericoacoara_-_State_of_Cear%C3%A1%2C_Brazil_-_panoramio_%282%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Jericoacoara_Beach%2C_Jijoca_de_Jericoacoara_-_State_of_Cear%C3%A1%2C_Brazil_-_panoramio_%282%29.jpg/1280px-Jericoacoara_Beach%2C_Jijoca_de_Jericoacoara_-_State_of_Cear%C3%A1%2C_Brazil_-_panoramio_%282%29.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161031103909/http://www.panoramio.com/user/4277622?with_photo_id=115937330\">Alexandre Braga Mart…</a>",
+      "title": "Jericoacoara Beach, Jijoca de Jericoacoara - State of Ceará, Brazil - panoramio (2).jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Jericoacoara_Beach%2C_Jijoca_de_Jericoacoara_-_State_of_Cear%C3%A1%2C_Brazil_-_panoramio_%283%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Jericoacoara_Beach%2C_Jijoca_de_Jericoacoara_-_State_of_Cear%C3%A1%2C_Brazil_-_panoramio_%283%29.jpg/1280px-Jericoacoara_Beach%2C_Jijoca_de_Jericoacoara_-_State_of_Cear%C3%A1%2C_Brazil_-_panoramio_%283%29.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161031131142/http://www.panoramio.com/user/4277622?with_photo_id=115937426\">Alexandre Braga Mart…</a>",
+      "title": "Jericoacoara Beach, Jijoca de Jericoacoara - State of Ceará, Brazil - panoramio (3).jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Jericoacoara_Beach%2C_Jijoca_de_Jericoacoara_-_State_of_Cear%C3%A1%2C_Brazil_-_panoramio_%281%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Jericoacoara_Beach%2C_Jijoca_de_Jericoacoara_-_State_of_Cear%C3%A1%2C_Brazil_-_panoramio_%281%29.jpg/1280px-Jericoacoara_Beach%2C_Jijoca_de_Jericoacoara_-_State_of_Cear%C3%A1%2C_Brazil_-_panoramio_%281%29.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161101034525/http://www.panoramio.com/user/4277622?with_photo_id=115937228\">Alexandre Braga Mart…</a>",
+      "title": "Jericoacoara Beach, Jijoca de Jericoacoara - State of Ceará, Brazil - panoramio (1).jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Jericoacoara_costa_da_cidade.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Jericoacoara_costa_da_cidade.jpg/1280px-Jericoacoara_costa_da_cidade.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:TobiART&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:TobiART (page does not exist)\">TobiART</a>",
+      "title": "Jericoacoara costa da cidade.jpg",
+      "width": 4608,
+      "height": 3072
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Por_do_sol_praia_de_Jericoacoara.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Por_do_sol_praia_de_Jericoacoara.jpg/1280px-Por_do_sol_praia_de_Jericoacoara.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Benne_Billo&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Benne Billo (page does not exist)\">Benne Billo</a>",
+      "title": "Por do sol praia de Jericoacoara.jpg",
+      "width": 4208,
+      "height": 1942
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Jeri_village3.jpeg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Jeri_village3.jpeg/1280px-Jeri_village3.jpeg",
+      "license": "CC BY 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Parpan05\" title=\"User:Parpan05\">Adrian Michael</a>",
+      "title": "Jeri village3.jpeg",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Parque_Nacional_Jericoacoara_Hudson_Rodrigues_Lima_%2806%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Parque_Nacional_Jericoacoara_Hudson_Rodrigues_Lima_%2806%29.jpg/1280px-Parque_Nacional_Jericoacoara_Hudson_Rodrigues_Lima_%2806%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:HRLIMA&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:HRLIMA (page does not exist)\">Hudson Rodrigues Lima</a>",
+      "title": "Parque Nacional Jericoacoara Hudson Rodrigues Lima (06).jpg",
+      "width": 4032,
+      "height": 3024
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 6.375
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 17,
+        "top": [
+          {
+            "common": "Semipalmated Plover",
+            "latin": "Charadrius semipalmatus",
+            "obs": 37,
+            "iucn": null
+          },
+          {
+            "common": "Semipalmated Sandpiper",
+            "latin": "Calidris pusilla",
+            "obs": 35,
+            "iucn": null
+          },
+          {
+            "common": "Ruddy Turnstone",
+            "latin": "Arenaria interpres",
+            "obs": 32,
+            "iucn": null
+          },
+          {
+            "common": "Red-cowled Cardinal",
+            "latin": "Paroaria dominicana",
+            "obs": 30,
+            "iucn": null
+          },
+          {
+            "common": "Least Sandpiper",
+            "latin": "Calidris minutilla",
+            "obs": 22,
+            "iucn": null
+          },
+          {
+            "common": "Greater Yellowlegs",
+            "latin": "Tringa melanoleuca",
+            "obs": 22,
+            "iucn": null
+          },
+          {
+            "common": "Tropical Mockingbird",
+            "latin": "Mimus gilvus",
+            "obs": 20,
+            "iucn": null
+          },
+          {
+            "common": "Lesser Yellowlegs",
+            "latin": "Tringa flavipes",
+            "obs": 17,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 2,
+        "top": [
+          {
+            "common": "Green Iguana",
+            "latin": "Iguana iguana",
+            "obs": 48,
+            "iucn": null
+          },
+          {
+            "common": "Peters' Lava Lizard",
+            "latin": "Tropidurus hispidus",
+            "obs": 36,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 1,
+        "top": [
+          {
+            "common": "Passiflora subrotunda",
+            "latin": "Passiflora subrotunda",
+            "obs": 12,
+            "iucn": null
+          }
+        ]
+      }
+    ]
+  },
+  "waves": {
+    "height_mean_m": [
+      1.14,
+      1.08,
+      1.0,
+      0.85,
+      0.91,
+      0.94,
+      1.1,
+      1.21,
+      1.39,
+      1.36,
+      1.32,
+      1.25
+    ],
+    "height_big_m": [
+      1.36,
+      1.26,
+      1.2,
+      1.0,
+      1.04,
+      1.1,
+      1.32,
+      1.46,
+      1.56,
+      1.54,
+      1.62,
+      1.5
+    ],
+    "period_mean_s": [
+      7.76,
+      7.76,
+      9.19,
+      8.53,
+      6.79,
+      5.65,
+      5.58,
+      5.4,
+      5.68,
+      6.06,
+      6.62,
+      6.87
+    ],
+    "summary": {
+      "annual_mean_m": 1.13,
+      "biggest_month": "Sep",
+      "biggest_month_m": 1.39,
+      "calmest_month": "Apr",
+      "calmest_month_m": 0.85,
+      "peak_big_day_m": 1.62,
+      "typical_period_s": 6.8,
+      "character": "Mixed — usually swimmable, with a livelier season"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Warmer than 99% of beaches in its country",
+      "detail": "Peak-month high ≈ 35°C"
+    },
+    {
+      "metric": "Worldwide",
+      "text": "Among the warmest 2% of beaches on Earth",
+      "detail": null
+    }
+  ],
+  "wikidata_id": "Q10352810",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jericoacoara_Beach",
+  "wikipedia_page_views_annual": 16234,
+  "notability_score": 24.9,
+  "data_completeness_pct": 58.3,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

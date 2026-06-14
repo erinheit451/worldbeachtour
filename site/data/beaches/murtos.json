@@ -1,58 +1,21 @@
 {
   "slug": "murtos",
   "name": "Μύρτος",
-  "centroid_lat": 38.3435982,
-  "centroid_lng": 20.5355012,
   "country_code": "GR",
   "admin_level_1": "Ionian Islands",
-  "admin_level_2": null,
+  "centroid_lat": 38.3435982,
+  "centroid_lng": 20.5355012,
   "water_body_type": "ocean",
   "substrate_type": "pebble",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/237382151",
-      "source_url": "https://www.openstreetmap.org/way/237382151"
-    },
-    {
-      "source_name": "osm",
-      "source_id": "way/659810421",
-      "source_url": "https://www.openstreetmap.org/way/659810421"
-    },
-    {
-      "source_name": "osm",
-      "source_id": "way/1189115574",
-      "source_url": "https://www.openstreetmap.org/way/1189115574"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q1259677",
-      "source_url": "https://www.wikidata.org/wiki/Q1259677"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "ELBW029120091101",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "ELBW029120091101",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    }
-  ],
-  "attributes": {
-    "facilities": {
-      "fee_required": true
-    },
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Myrtos%20Beach%2C%20Kefalonia.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Myrtos_Beach"
-    },
-    "environment": {
-      "water_quality_rating": "1 - excellent",
-      "eu_bathing_water_type": "Coastal"
-    }
+  "slope_pct": 17.61264190673828,
+  "nearshore_depth_m": 111.1875,
+  "classification": {
+    "primary_type": "Pebble",
+    "primary_type_slug": "pebble",
+    "coastal_type": "Pebble",
+    "coastal_type_slug": "pebble",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Sami",
   "nearest_city_distance_km": 14.2,
@@ -61,24 +24,418 @@
     "name": "Kefallinia Airport",
     "distance_km": 25.0
   },
-  "safety": {
-    "water_quality_rating": "1 - excellent",
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      12.6,
+      12.65,
+      14.45,
+      17.15,
+      21.85,
+      26.15,
+      28.75,
+      29.05,
+      25.75,
+      21.65,
+      17.05,
+      13.9
+    ],
+    "air_temp_low": [
+      6.2,
+      6.15,
+      7.25,
+      9.5,
+      13.1,
+      16.6,
+      18.6,
+      19.15,
+      16.9,
+      13.8,
+      10.4,
+      7.55
+    ],
+    "rain_mm": [
+      114.0,
+      115.0,
+      81.0,
+      62.0,
+      26.0,
+      12.0,
+      8.0,
+      13.0,
+      42.0,
+      107.0,
+      159.0,
+      146.0
+    ],
+    "wind_speed": [
+      3.1,
+      3.35,
+      3.25,
+      2.9,
+      2.8,
+      2.7,
+      2.8,
+      2.8,
+      2.6,
+      2.9,
+      3.0,
+      3.2
+    ],
+    "sun_hours": [
+      6686.0,
+      9289.0,
+      13325.0,
+      18180.0,
+      21742.0,
+      24408.0,
+      25723.0,
+      23236.0,
+      17992.0,
+      12285.0,
+      8000.0,
+      6027.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "facilities": {
-    "restrooms": true,
-    "showers": true
+  "tides": {
+    "range_spring_m": 0.15007511556659317,
+    "range_neap_m": 0.02807584190321904,
+    "type": "mixed",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Myrtos_Beach",
-  "notability_score": 37.9,
-  "data_completeness_pct": 33.3,
   "sand": {
     "predicted": {
       "q_pct": 56.8,
       "f_pct": 1.2,
       "l_pct": 42.0,
       "regime": "lithic-rich (volcanic/collisional terrane)",
+      "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
-  }
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Sunset_over_Myrtos_Beach_%2816278594344%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Sunset_over_Myrtos_Beach_%2816278594344%29.jpg/1280px-Sunset_over_Myrtos_Beach_%2816278594344%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/35844348@N00\">mhx</a> from London, United Kingdom",
+      "title": "Sunset over Myrtos Beach (16278594344).jpg",
+      "width": 4213,
+      "height": 2809
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Divarata_beach_05-08-2024.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Divarata_beach_05-08-2024.jpg/1280px-Divarata_beach_05-08-2024.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Francescoboniotti&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Francescoboniotti (page does not exist)\">Francescoboniotti</a>",
+      "title": "Divarata beach 05-08-2024.jpg",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Myrtos_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Myrtos_-_panoramio.jpg/1280px-Myrtos_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161102083532/http://www.panoramio.com/user/4001517?with_photo_id=111473740\">Sztudva Gyöngyi</a>",
+      "title": "Myrtos - panoramio.jpg",
+      "width": 3872,
+      "height": 2592
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Myrtos_-_Flickr_-_Antti_Simonen.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Myrtos_-_Flickr_-_Antti_Simonen.jpg/1280px-Myrtos_-_Flickr_-_Antti_Simonen.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/26202966@N06\">Antti Simonen</a>",
+      "title": "Myrtos - Flickr - Antti Simonen.jpg",
+      "width": 3828,
+      "height": 2552
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Myrtos2.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Myrtos2.JPG/1280px-Myrtos2.JPG",
+      "license": "Attribution",
+      "author_html": "Rob Bendall (<a href=\"//commons.wikimedia.org/wiki/User:Highfields\" title=\"User:Highfields\">Highfields</a>)",
+      "title": "Myrtos2.JPG",
+      "width": 3698,
+      "height": 2556
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Myrtos_Beach_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Myrtos_Beach_-_panoramio.jpg/1280px-Myrtos_Beach_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161030172155/http://www.panoramio.com/user/4001517?with_photo_id=111473812\">Sztudva Gyöngyi</a>",
+      "title": "Myrtos Beach - panoramio.jpg",
+      "width": 3264,
+      "height": 1952
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Najcze%C5%9Bciej_spotykane_zdjecie_w_katalogu_turystycznym_GRECJA_KEFALONIA_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Najcze%C5%9Bciej_spotykane_zdjecie_w_katalogu_turystycznym_GRECJA_KEFALONIA_-_panoramio.jpg/1280px-Najcze%C5%9Bciej_spotykane_zdjecie_w_katalogu_turystycznym_GRECJA_KEFALONIA_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161017053633/http://www.panoramio.com/user/3241045?with_photo_id=47095495\">kspltj    .Polen</a>",
+      "title": "Najcześciej spotykane zdjecie w katalogu turystycznym GRECJA KEFALONIA - panoramio.jpg",
+      "width": 3072,
+      "height": 2304
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Kephalonia_089.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Kephalonia_089.JPG/1280px-Kephalonia_089.JPG",
+      "license": "CC BY 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Splendid_entry&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Splendid entry (page does not exist)\">Splendid entry</a>",
+      "title": "Kephalonia 089.JPG",
+      "width": 2592,
+      "height": 1944
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 111.1875
+  },
+  "conservation": {
+    "name": "DYTIKES AKTES KEFALONIAS - STENO KEFALONIAS ITHAKIS - VOREIA ITHAKI (AKROTIRIA GERO GKOMPOS - DRAKOU PIDIMA - KENTRI - AG. IOANNIS)",
+    "type": "Special areas of conservation (habitats directive)",
+    "iucn": "Not Reported",
+    "unesco": false
+  },
+  "facilities": {
+    "restrooms": true,
+    "showers": true
+  },
+  "water_quality": {
+    "rating": "1 - excellent",
+    "source": "eu_bathing",
+    "year": null
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 8,
+        "top": [
+          {
+            "common": "Spiny Burnet",
+            "latin": "Sarcopoterium spinosum",
+            "obs": 3,
+            "iucn": null
+          },
+          {
+            "common": "Yellow-spine Thistle",
+            "latin": "Picnomon acarna",
+            "obs": 2,
+            "iucn": null
+          },
+          {
+            "common": "Spanish Broom",
+            "latin": "Spartium junceum",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Hare's Tail Grass",
+            "latin": "Lagurus ovatus",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Leafless Ephedra",
+            "latin": "Ephedra foeminea",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "oceanblue morning glory",
+            "latin": "Ipomoea indica",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "false yellowhead",
+            "latin": "Dittrichia viscosa",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "wavyleaf mullein",
+            "latin": "Verbascum sinuatum",
+            "obs": 1,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 8,
+        "top": [
+          {
+            "common": "Mauve Stinger",
+            "latin": "Pelagia noctiluca",
+            "obs": 3,
+            "iucn": null
+          },
+          {
+            "common": "Transcaucasian Giant Mantis",
+            "latin": "Hierodula transcaucasica",
+            "obs": 3,
+            "iucn": null
+          },
+          {
+            "common": "Turbinate Monodont",
+            "latin": "Phorcus turbinatus",
+            "obs": 2,
+            "iucn": null
+          },
+          {
+            "common": "Western Honey Bee",
+            "latin": "Apis mellifera",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Holly Blue",
+            "latin": "Celastrina argiolus",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Old World Swallowtail",
+            "latin": "Papilio machaon",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Common Spitting Spider",
+            "latin": "Scytodes thoracica",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Scarce Swallowtail",
+            "latin": "Iphiclides podalirius",
+            "obs": 1,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 3,
+        "top": [
+          {
+            "common": "Barn Swallow",
+            "latin": "Hirundo rustica",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "European Red-rumped Swallow",
+            "latin": "Cecropis rufula",
+            "obs": 2,
+            "iucn": null
+          },
+          {
+            "common": "House Sparrow",
+            "latin": "Passer domesticus",
+            "obs": 1,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 1,
+        "top": [
+          {
+            "common": "Moorish Gecko",
+            "latin": "Tarentola mauritanica",
+            "obs": 3,
+            "iucn": null
+          }
+        ]
+      }
+    ]
+  },
+  "waves": {
+    "height_mean_m": [
+      1.23,
+      1.01,
+      1.07,
+      0.98,
+      0.61,
+      0.68,
+      0.76,
+      0.7,
+      0.66,
+      0.74,
+      1.38,
+      1.11
+    ],
+    "height_big_m": [
+      2.12,
+      1.78,
+      1.62,
+      1.96,
+      1.28,
+      1.58,
+      1.6,
+      1.16,
+      1.36,
+      1.18,
+      3.06,
+      1.96
+    ],
+    "period_mean_s": [
+      6.21,
+      5.91,
+      5.91,
+      5.67,
+      5.37,
+      4.94,
+      4.92,
+      4.9,
+      5.2,
+      5.29,
+      5.92,
+      6.17
+    ],
+    "summary": {
+      "annual_mean_m": 0.91,
+      "biggest_month": "Nov",
+      "biggest_month_m": 1.38,
+      "calmest_month": "May",
+      "calmest_month_m": 0.61,
+      "peak_big_day_m": 3.06,
+      "typical_period_s": 5.5,
+      "character": "Mixed — usually swimmable, with a livelier season"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 75% of beaches in its country",
+      "detail": "Peak-month high ≈ 29°C"
+    }
+  ],
+  "wikidata_id": "Q1259677",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Myrtos_Beach",
+  "wikipedia_page_views_annual": 24654,
+  "notability_score": 37.9,
+  "data_completeness_pct": 70.8,
+  "best_months": [
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct"
+  ],
+  "swim_suitability": "fair"
 }
