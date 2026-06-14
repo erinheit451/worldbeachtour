@@ -1,59 +1,21 @@
 {
   "slug": "psarrou",
   "name": "Ψαρρού",
-  "centroid_lat": 37.415367,
-  "centroid_lng": 25.337637,
   "country_code": "GR",
   "admin_level_1": "South Aegean",
-  "admin_level_2": null,
+  "centroid_lat": 37.415367,
+  "centroid_lng": 25.337637,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/366448875",
-      "source_url": "https://www.openstreetmap.org/way/366448875"
-    },
-    {
-      "source_name": "osm",
-      "source_id": "way/659805458",
-      "source_url": "https://www.openstreetmap.org/way/659805458"
-    },
-    {
-      "source_name": "osm",
-      "source_id": "way/659805459",
-      "source_url": "https://www.openstreetmap.org/way/659805459"
-    },
-    {
-      "source_name": "osm",
-      "source_id": "way/659805460",
-      "source_url": "https://www.openstreetmap.org/way/659805460"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q7254006",
-      "source_url": "https://www.wikidata.org/wiki/Q7254006"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "ELBW149290164101",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    },
-    {
-      "source_name": "eu_bathing",
-      "source_id": "ELBW149290164101",
-      "source_url": "https://discomap.eea.europa.eu/Bathingwater/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Psarrou"
-    },
-    "environment": {
-      "water_quality_rating": "1 - excellent",
-      "eu_bathing_water_type": "Coastal"
-    }
+  "slope_pct": 2.4199179649353026,
+  "nearshore_depth_m": 40.8125,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Mykonos",
   "nearest_city_distance_km": 3.4,
@@ -62,20 +24,416 @@
     "name": "Mykonos Island National Airport",
     "distance_km": 2.4
   },
-  "safety": {
-    "water_quality_rating": "1 - excellent",
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      13.8,
+      13.8,
+      15.4333,
+      18.6667,
+      22.5333,
+      26.7333,
+      28.1667,
+      28.0,
+      25.6,
+      22.1667,
+      18.2,
+      15.1
+    ],
+    "air_temp_low": [
+      9.5,
+      9.3,
+      10.4667,
+      12.8333,
+      16.2667,
+      20.5333,
+      23.0,
+      23.2,
+      20.5667,
+      17.2667,
+      13.6667,
+      10.9667
+    ],
+    "rain_mm": [
+      75.0,
+      65.0,
+      54.0,
+      22.0,
+      10.0,
+      3.0,
+      1.0,
+      3.0,
+      6.0,
+      39.0,
+      59.0,
+      74.0
+    ],
+    "wind_speed": [
+      5.4333,
+      5.3333,
+      5.0,
+      4.4667,
+      4.1,
+      4.3667,
+      5.5,
+      5.4,
+      4.7333,
+      4.7333,
+      4.6,
+      5.4
+    ],
+    "sun_hours": [
+      6939.0,
+      9754.0,
+      13962.0,
+      18785.0,
+      22901.0,
+      25572.0,
+      26071.0,
+      23813.0,
+      19446.0,
+      13101.0,
+      8940.0,
+      6517.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Psarrou",
-  "notability_score": 26.9,
-  "data_completeness_pct": 25.0,
+  "tides": {
+    "range_spring_m": 0.07568410721314063,
+    "range_neap_m": 0.025955909592677937,
+    "type": "mixed",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 79.3,
       "f_pct": 18.0,
       "l_pct": 2.7,
       "regime": "quartz-dominant",
+      "regime_plain": "Quartz-dominant",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
-  }
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Psarrou_846_00%2C_Greece_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Psarrou_846_00%2C_Greece_-_panoramio.jpg/1280px-Psarrou_846_00%2C_Greece_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161025081208/http://www.panoramio.com/user/967090?with_photo_id=76224885\">7777777kz</a>",
+      "title": "Psarrou 846 00, Greece - panoramio.jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Platis_Gialos_846_00%2C_Greece_-_panoramio_%2815%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Platis_Gialos_846_00%2C_Greece_-_panoramio_%2815%29.jpg/1280px-Platis_Gialos_846_00%2C_Greece_-_panoramio_%2815%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161024212456/http://www.panoramio.com/user/967090?with_photo_id=76224851\">7777777kz</a>",
+      "title": "Platis Gialos 846 00, Greece - panoramio (15).jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Platis_Gialos_846_00%2C_Greece_-_panoramio_%284%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Platis_Gialos_846_00%2C_Greece_-_panoramio_%284%29.jpg/1280px-Platis_Gialos_846_00%2C_Greece_-_panoramio_%284%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161025223946/http://www.panoramio.com/user/967090?with_photo_id=74491996\">7777777kz</a>",
+      "title": "Platis Gialos 846 00, Greece - panoramio (4).jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Platis_Gialos_846_00%2C_Greece_-_panoramio_%285%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Platis_Gialos_846_00%2C_Greece_-_panoramio_%285%29.jpg/1280px-Platis_Gialos_846_00%2C_Greece_-_panoramio_%285%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161025164235/http://www.panoramio.com/user/967090?with_photo_id=74492022\">7777777kz</a>",
+      "title": "Platis Gialos 846 00, Greece - panoramio (5).jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Platis_Gialos_846_00%2C_Greece_-_panoramio_%283%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Platis_Gialos_846_00%2C_Greece_-_panoramio_%283%29.jpg/1280px-Platis_Gialos_846_00%2C_Greece_-_panoramio_%283%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161026180826/http://www.panoramio.com/user/967090?with_photo_id=74491954\">7777777kz</a>",
+      "title": "Platis Gialos 846 00, Greece - panoramio (3).jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Platis_Gialos_846_00%2C_Greece_-_panoramio_%282%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Platis_Gialos_846_00%2C_Greece_-_panoramio_%282%29.jpg/1280px-Platis_Gialos_846_00%2C_Greece_-_panoramio_%282%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161026204212/http://www.panoramio.com/user/967090?with_photo_id=74491932\">7777777kz</a>",
+      "title": "Platis Gialos 846 00, Greece - panoramio (2).jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Platis_Gialos_846_00%2C_Greece_-_panoramio_%286%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Platis_Gialos_846_00%2C_Greece_-_panoramio_%286%29.jpg/1280px-Platis_Gialos_846_00%2C_Greece_-_panoramio_%286%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161024112419/http://www.panoramio.com/user/967090?with_photo_id=74492255\">7777777kz</a>",
+      "title": "Platis Gialos 846 00, Greece - panoramio (6).jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Platis_Gialos_846_00%2C_Greece_-_panoramio_%287%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Platis_Gialos_846_00%2C_Greece_-_panoramio_%287%29.jpg/1280px-Platis_Gialos_846_00%2C_Greece_-_panoramio_%287%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161024201242/http://www.panoramio.com/user/967090?with_photo_id=74492295\">7777777kz</a>",
+      "title": "Platis Gialos 846 00, Greece - panoramio (7).jpg",
+      "width": 5184,
+      "height": 3456
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 40.8125
+  },
+  "water_quality": {
+    "rating": "1 - excellent",
+    "source": "eu_bathing",
+    "year": null
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 6,
+        "top": [
+          {
+            "common": "Yellow Horned Poppy",
+            "latin": "Glaucium flavum",
+            "obs": 9,
+            "iucn": null
+          },
+          {
+            "common": "tree tobacco",
+            "latin": "Nicotiana glauca",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Indian fig opuntia",
+            "latin": "Opuntia ficus-indica",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "rock samphire",
+            "latin": "Crithmum maritimum",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "oleander",
+            "latin": "Nerium oleander",
+            "obs": 3,
+            "iucn": null
+          },
+          {
+            "common": "Lilac chaste tree",
+            "latin": "Vitex agnus-castus",
+            "obs": 3,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 5,
+        "top": [
+          {
+            "common": "Chocolate-band Snail",
+            "latin": "Eobania vermiculata",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "Turbinate Monodont",
+            "latin": "Phorcus turbinatus",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "White Italian Snail",
+            "latin": "Theba pisana",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Black sea urchin",
+            "latin": "Arbacia lixula",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Rough Star Shell",
+            "latin": "Bolma rugosa",
+            "obs": 3,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Fish",
+        "key": "fish",
+        "count": 5,
+        "top": [
+          {
+            "common": "Ornate Wrasse",
+            "latin": "Thalassoma pavo",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "White Sea Bream",
+            "latin": "Diplodus sargus",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Mediterranean Rainbow Wrasse",
+            "latin": "Coris julis",
+            "obs": 3,
+            "iucn": null
+          },
+          {
+            "common": "Saddled Seabream",
+            "latin": "Oblada melanurus",
+            "obs": 3,
+            "iucn": null
+          },
+          {
+            "common": "Dusky Spinefoot",
+            "latin": "Siganus luridus",
+            "obs": 3,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 2,
+        "top": [
+          {
+            "common": "Erhard's Wall Lizard",
+            "latin": "Podarcis erhardii",
+            "obs": 13,
+            "iucn": null
+          },
+          {
+            "common": "Roughtail Rock Agama",
+            "latin": "Laudakia stellio",
+            "obs": 11,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 2,
+        "top": [
+          {
+            "common": "House Sparrow",
+            "latin": "Passer domesticus",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "Yellow-legged Gull",
+            "latin": "Larus michahellis",
+            "obs": 4,
+            "iucn": null
+          }
+        ]
+      }
+    ]
+  },
+  "waves": {
+    "height_mean_m": [
+      1.42,
+      1.34,
+      1.11,
+      1.12,
+      0.84,
+      0.79,
+      0.98,
+      0.96,
+      0.94,
+      1.0,
+      1.3,
+      1.19
+    ],
+    "height_big_m": [
+      2.24,
+      2.12,
+      1.96,
+      1.88,
+      1.48,
+      1.42,
+      1.38,
+      1.4,
+      1.66,
+      1.7,
+      2.12,
+      1.96
+    ],
+    "period_mean_s": [
+      5.29,
+      5.07,
+      5.0,
+      5.04,
+      4.54,
+      4.56,
+      4.5,
+      4.76,
+      4.7,
+      4.7,
+      5.15,
+      5.1
+    ],
+    "summary": {
+      "annual_mean_m": 1.08,
+      "biggest_month": "Jan",
+      "biggest_month_m": 1.42,
+      "calmest_month": "Jun",
+      "calmest_month_m": 0.79,
+      "peak_big_day_m": 2.24,
+      "typical_period_s": 4.9,
+      "character": "Mixed — usually swimmable, with a livelier season"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 90% of beaches in its country",
+      "detail": "Peak-month high ≈ 28°C"
+    }
+  ],
+  "wikidata_id": "Q7254006",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Psarrou",
+  "wikipedia_page_views_annual": 2583,
+  "notability_score": 26.9,
+  "data_completeness_pct": 62.5,
+  "best_months": [
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct"
+  ],
+  "swim_suitability": "fair"
 }

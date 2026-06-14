@@ -1,35 +1,21 @@
 {
   "slug": "hat-kata",
   "name": "Hat Kata",
-  "centroid_lat": 7.820377,
-  "centroid_lng": 98.297865,
   "country_code": "TH",
   "admin_level_1": "Phuket",
-  "admin_level_2": null,
+  "centroid_lat": 7.820377,
+  "centroid_lng": 98.297865,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "wikidata",
-      "source_id": "Q14220372",
-      "source_url": "https://www.wikidata.org/wiki/Q14220372"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kata%20Beach%20%285730364074%29.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Hat_Kata"
-    },
-    "safety": {
-      "cyclone_count_50yr": "6",
-      "cyclone_max_category": "3"
-    }
+  "slope_pct": 2.1437210559844972,
+  "nearshore_depth_m": 32.875,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Ban Karon",
   "nearest_city_distance_km": 3.0,
@@ -38,20 +24,341 @@
     "name": "Phuket International Airport",
     "distance_km": 32.6
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      31.887,
+      32.9043,
+      33.2174,
+      33.0696,
+      31.8478,
+      31.3087,
+      30.8391,
+      30.6348,
+      30.213,
+      30.3304,
+      30.4304,
+      30.8391
+    ],
+    "air_temp_low": [
+      22.1652,
+      22.5391,
+      23.1957,
+      23.7435,
+      23.8478,
+      23.9739,
+      23.5696,
+      23.7087,
+      23.1435,
+      22.6783,
+      22.6739,
+      22.2478
+    ],
+    "rain_mm": [
+      38.0,
+      48.0,
+      64.0,
+      143.0,
+      239.0,
+      240.0,
+      278.0,
+      351.0,
+      387.0,
+      326.0,
+      189.0,
+      63.0
+    ],
+    "wind_speed": [
+      1.9739,
+      2.4609,
+      2.0913,
+      1.7304,
+      1.9,
+      2.4957,
+      2.4087,
+      2.7,
+      1.887,
+      1.687,
+      1.8565,
+      2.3565
+    ],
+    "sun_hours": [
+      20268.0,
+      22730.0,
+      22842.0,
+      21547.0,
+      18397.0,
+      17141.0,
+      17316.0,
+      17682.0,
+      17111.0,
+      16989.0,
+      17349.0,
+      18134.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Hat_Kata",
-  "notability_score": 27.5,
-  "data_completeness_pct": 16.7,
+  "tides": {
+    "range_spring_m": 1.9970517491223752,
+    "range_neap_m": 0.6699509955323543,
+    "type": "semidiurnal",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 80.3,
       "f_pct": 5.3,
       "l_pct": 14.4,
       "regime": "quartz-dominant",
+      "regime_plain": "Quartz-dominant",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 7,
+    "paragraph": "7 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1962–2013).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Ko_Pu_Island.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Ko_Pu_Island.jpg/1280px-Ko_Pu_Island.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "Radek Kucharski",
+      "title": "Ko Pu Island.jpg",
+      "width": 7194,
+      "height": 4047
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Evening_Kata_Beach.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Evening_Kata_Beach.jpg/1280px-Evening_Kata_Beach.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Phattharapong&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Phattharapong (page does not exist)\">Phattharapong</a>",
+      "title": "Evening Kata Beach.jpg",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Kata_beach_morning_2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Kata_beach_morning_2.jpg/1280px-Kata_beach_morning_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:HutheMeow\" title=\"User:HutheMeow\">HutheMeow</a>",
+      "title": "Kata beach morning 2.jpg",
+      "width": 3264,
+      "height": 2448
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Kata_beach_storm_clouds_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Kata_beach_storm_clouds_-_panoramio.jpg/1280px-Kata_beach_storm_clouds_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161021181530/http://www.panoramio.com/user/3990610?with_photo_id=67483426\">egor_demin</a>",
+      "title": "Kata beach storm clouds - panoramio.jpg",
+      "width": 3264,
+      "height": 2448
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Kata_beach_storm_clouds_-_panoramio_%281%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kata_beach_storm_clouds_-_panoramio_%281%29.jpg/1280px-Kata_beach_storm_clouds_-_panoramio_%281%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161020214450/http://www.panoramio.com/user/3990610?with_photo_id=67483439\">egor_demin</a>",
+      "title": "Kata beach storm clouds - panoramio (1).jpg",
+      "width": 3264,
+      "height": 2448
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Kata_beach_parasail_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Kata_beach_parasail_-_panoramio.jpg/1280px-Kata_beach_parasail_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161019215728/http://www.panoramio.com/user/3990610?with_photo_id=67482515\">egor_demin</a>",
+      "title": "Kata beach parasail - panoramio.jpg",
+      "width": 3264,
+      "height": 2448
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Kata_beach_parasail_landing_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Kata_beach_parasail_landing_-_panoramio.jpg/1280px-Kata_beach_parasail_landing_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161020112805/http://www.panoramio.com/user/3990610?with_photo_id=67482565\">egor_demin</a>",
+      "title": "Kata beach parasail landing - panoramio.jpg",
+      "width": 3264,
+      "height": 2448
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Kata_Beach_%285730364074%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Kata_Beach_%285730364074%29.jpg/1280px-Kata_Beach_%285730364074%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/97681386@N00\">edwin.11</a>",
+      "title": "Kata Beach (5730364074).jpg",
+      "width": 3008,
+      "height": 2000
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 32.875
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 9,
+        "top": [
+          {
+            "common": "Common Myna",
+            "latin": "Acridotheres tristis",
+            "obs": 115,
+            "iucn": null
+          },
+          {
+            "common": "Spotted Dove",
+            "latin": "Spilopelia chinensis",
+            "obs": 27,
+            "iucn": null
+          },
+          {
+            "common": "Yellow-vented Bulbul",
+            "latin": "Pycnonotus goiavier",
+            "obs": 26,
+            "iucn": null
+          },
+          {
+            "common": "Zebra Dove",
+            "latin": "Geopelia striata",
+            "obs": 22,
+            "iucn": null
+          },
+          {
+            "common": "Eurasian Tree Sparrow",
+            "latin": "Passer montanus",
+            "obs": 22,
+            "iucn": null
+          },
+          {
+            "common": "Brahminy Kite",
+            "latin": "Haliastur indus",
+            "obs": 16,
+            "iucn": null
+          },
+          {
+            "common": "Oriental Magpie-Robin",
+            "latin": "Copsychus saularis",
+            "obs": 14,
+            "iucn": null
+          },
+          {
+            "common": "Blue-tailed Bee-eater",
+            "latin": "Merops philippinus",
+            "obs": 10,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 4,
+        "top": [
+          {
+            "common": "Great Eggfly",
+            "latin": "Hypolimnas bolina",
+            "obs": 20,
+            "iucn": null
+          },
+          {
+            "common": "African Giant Snail",
+            "latin": "Lissachatina fulica",
+            "obs": 19,
+            "iucn": null
+          },
+          {
+            "common": "Giant Golden Orbweaver",
+            "latin": "Nephila pilipes",
+            "obs": 13,
+            "iucn": null
+          },
+          {
+            "common": "Asian Weaver Ant",
+            "latin": "Oecophylla smaragdina",
+            "obs": 13,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 3,
+        "top": [
+          {
+            "common": "Oriental Garden Lizard",
+            "latin": "Calotes versicolor",
+            "obs": 33,
+            "iucn": null
+          },
+          {
+            "common": "Flat-tailed House Gecko",
+            "latin": "Hemidactylus platyurus",
+            "obs": 16,
+            "iucn": null
+          },
+          {
+            "common": "Asian House Gecko",
+            "latin": "Hemidactylus frenatus",
+            "obs": 9,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 2,
+        "top": [
+          {
+            "common": "coconut palm",
+            "latin": "Cocos nucifera",
+            "obs": 14,
+            "iucn": null
+          },
+          {
+            "common": "Beach Morning Glory",
+            "latin": "Ipomoea pes-caprae",
+            "obs": 11,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Amphibians",
+        "key": "amphibian",
+        "count": 1,
+        "top": [
+          {
+            "common": "Asian Common Toad",
+            "latin": "Duttaphrynus melanostictus",
+            "obs": 33,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Fish",
+        "key": "fish",
+        "count": 1,
+        "top": [
+          {
+            "common": "Moorish Idol",
+            "latin": "Zanclus cornutus",
+            "obs": 9,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -107,5 +414,37 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 53% of beaches in its country",
+      "detail": "Peak-month high ≈ 33°C"
+    },
+    {
+      "metric": "Worldwide",
+      "text": "Among the warmest 4% of beaches on Earth",
+      "detail": null
+    }
+  ],
+  "wikidata_id": "Q14220372",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Hat_Kata",
+  "wikipedia_page_views_annual": 27749,
+  "notability_score": 27.5,
+  "data_completeness_pct": 58.3,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

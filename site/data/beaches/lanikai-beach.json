@@ -1,43 +1,22 @@
 {
   "slug": "lanikai-beach",
   "name": "Lanikai Beach",
-  "centroid_lat": 21.3917353,
-  "centroid_lng": -157.7155045,
   "country_code": "US",
   "admin_level_1": "Hawaii",
-  "admin_level_2": null,
+  "centroid_lat": 21.3917353,
+  "centroid_lng": -157.7155045,
   "water_body_type": "ocean",
   "substrate_type": "sand",
   "beach_length_m": 2900.0,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/203015602",
-      "source_url": "https://www.openstreetmap.org/way/203015602"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q5195257",
-      "source_url": "https://www.wikidata.org/wiki/Q5195257"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "facilities": {
-      "access": "yes"
-    },
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Lanikai%20Strand%20auf%20Oahu.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Lanikai_Beach"
-    },
-    "safety": {
-      "cyclone_count_50yr": "9",
-      "cyclone_max_category": "4"
-    }
+  "slope_pct": 0.77872893512249,
+  "nearshore_depth_m": 14.758084297180176,
+  "classification": {
+    "primary_type": "Sand",
+    "primary_type_slug": "sand",
+    "coastal_type": "Sand",
+    "coastal_type_slug": "sand",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Kailua",
   "nearest_city_distance_km": 2.9,
@@ -46,22 +25,341 @@
     "name": "Kaneohe Bay MCAS (Marion E. Carl Field) Airport",
     "distance_km": 8.5
   },
-  "safety": {
-    "lifeguard": false,
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      26.075,
+      26.225,
+      26.4937,
+      26.7687,
+      27.6688,
+      28.6437,
+      29.1187,
+      29.6187,
+      29.8062,
+      29.1187,
+      27.6063,
+      26.5375
+    ],
+    "air_temp_low": [
+      18.3062,
+      18.0375,
+      18.95,
+      19.7938,
+      20.4312,
+      21.5063,
+      22.2125,
+      22.55,
+      22.3813,
+      21.8125,
+      20.7437,
+      19.4813
+    ],
+    "rain_mm": [
+      199.0,
+      105.0,
+      149.0,
+      79.0,
+      62.0,
+      43.0,
+      57.0,
+      61.0,
+      58.0,
+      87.0,
+      144.0,
+      140.0
+    ],
+    "wind_speed": [
+      4.175,
+      4.2812,
+      4.7812,
+      4.875,
+      4.675,
+      4.8563,
+      5.0375,
+      4.7812,
+      4.375,
+      4.3375,
+      4.375,
+      4.1812
+    ],
+    "sun_hours": [
+      13616.0,
+      16331.0,
+      18555.0,
+      21330.0,
+      22246.0,
+      22977.0,
+      22729.0,
+      22156.0,
+      20492.0,
+      17502.0,
+      14142.0,
+      12974.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Lanikai_Beach",
-  "notability_score": 32.0,
-  "data_completeness_pct": 25.0,
+  "tides": {
+    "range_spring_m": 0.4792752137830334,
+    "range_neap_m": 0.1606530220935978,
+    "type": "mixed",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": null,
       "f_pct": null,
       "l_pct": null,
       "regime": "unknown",
+      "regime_plain": null,
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 11,
+    "paragraph": "11 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1951–2021).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Lanikai_2009_wide.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Lanikai_2009_wide.jpg/1280px-Lanikai_2009_wide.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sovxx&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sovxx (page does not exist)\">Sovxx</a>",
+      "title": "Lanikai 2009 wide.jpg",
+      "width": 10899,
+      "height": 1668
     },
-    "color": "white"
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Lanikai_Beach_%2853313259949%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Lanikai_Beach_%2853313259949%29.jpg/1280px-Lanikai_Beach_%2853313259949%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/128275472@N07\">Raita Futo</a> from Tokyo, Japan",
+      "title": "Lanikai Beach (53313259949).jpg",
+      "width": 6849,
+      "height": 4566
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Lanikai_Beach_%2853312032257%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lanikai_Beach_%2853312032257%29.jpg/1280px-Lanikai_Beach_%2853312032257%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/128275472@N07\">Raita Futo</a> from Tokyo, Japan",
+      "title": "Lanikai Beach (53312032257).jpg",
+      "width": 6736,
+      "height": 4491
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Lanikai_Beach_%2853313144668%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Lanikai_Beach_%2853313144668%29.jpg/1280px-Lanikai_Beach_%2853313144668%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/128275472@N07\">Raita Futo</a> from Tokyo, Japan",
+      "title": "Lanikai Beach (53313144668).jpg",
+      "width": 6535,
+      "height": 4357
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Lanikai_Beach_%2853312031882%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Lanikai_Beach_%2853312031882%29.jpg/1280px-Lanikai_Beach_%2853312031882%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/128275472@N07\">Raita Futo</a> from Tokyo, Japan",
+      "title": "Lanikai Beach (53312031882).jpg",
+      "width": 6427,
+      "height": 4285
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Lanikai_Beach_03.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Lanikai_Beach_03.jpg/1280px-Lanikai_Beach_03.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "claralieu",
+      "title": "Lanikai Beach 03.jpg",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Lanikai_Beach_09.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Lanikai_Beach_09.jpg/1280px-Lanikai_Beach_09.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "claralieu",
+      "title": "Lanikai Beach 09.jpg",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Lanikai_Beach_10.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Lanikai_Beach_10.jpg/1280px-Lanikai_Beach_10.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "claralieu",
+      "title": "Lanikai Beach 10.jpg",
+      "width": 6000,
+      "height": 4000
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 14.758084297180176,
+    "lifeguard": false
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 8,
+        "top": [
+          {
+            "common": "Wedge-tailed Shearwater",
+            "latin": "Ardenna pacifica",
+            "obs": 184,
+            "iucn": null
+          },
+          {
+            "common": "Western Cattle-Egret",
+            "latin": "Ardea ibis",
+            "obs": 80,
+            "iucn": null
+          },
+          {
+            "common": "Great Frigatebird",
+            "latin": "Fregata minor",
+            "obs": 67,
+            "iucn": null
+          },
+          {
+            "common": "Black-necked Stilt",
+            "latin": "Himantopus mexicanus",
+            "obs": 62,
+            "iucn": null
+          },
+          {
+            "common": "Red-crested Cardinal",
+            "latin": "Paroaria coronata",
+            "obs": 61,
+            "iucn": null
+          },
+          {
+            "common": "Common Myna",
+            "latin": "Acridotheres tristis",
+            "obs": 57,
+            "iucn": null
+          },
+          {
+            "common": "Rock Pigeon",
+            "latin": "Columba livia",
+            "obs": 50,
+            "iucn": null
+          },
+          {
+            "common": "Zebra Dove",
+            "latin": "Geopelia striata",
+            "obs": 39,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 4,
+        "top": [
+          {
+            "common": "Zulu Giant",
+            "latin": "Stapelia gigantea",
+            "obs": 87,
+            "iucn": null
+          },
+          {
+            "common": "Night-blooming Cereus",
+            "latin": "Selenicereus undatus",
+            "obs": 75,
+            "iucn": null
+          },
+          {
+            "common": "beach naupaka",
+            "latin": "Scaevola taccada",
+            "obs": 73,
+            "iucn": null
+          },
+          {
+            "common": "White leadtree",
+            "latin": "Leucaena leucocephala",
+            "obs": 52,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Fish",
+        "key": "fish",
+        "count": 4,
+        "top": [
+          {
+            "common": "Hawaiian Dascyllus",
+            "latin": "Dascyllus albisella",
+            "obs": 43,
+            "iucn": null
+          },
+          {
+            "common": "Hawaiian Convict Surgeonfish",
+            "latin": "Acanthurus sandvicensis",
+            "obs": 43,
+            "iucn": null
+          },
+          {
+            "common": "Moorish Idol",
+            "latin": "Zanclus cornutus",
+            "obs": 39,
+            "iucn": null
+          },
+          {
+            "common": "Saddle Wrasse",
+            "latin": "Thalassoma duperrey",
+            "obs": 39,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 3,
+        "top": [
+          {
+            "common": "Indo-Pacific Man-O-War",
+            "latin": "Physalia utriculus",
+            "obs": 95,
+            "iucn": null
+          },
+          {
+            "common": "Thin-shelled Rock Crab",
+            "latin": "Grapsus tenuicrustatus",
+            "obs": 41,
+            "iucn": null
+          },
+          {
+            "common": "Pallid Ghost Crab",
+            "latin": "Ocypode pallidula",
+            "obs": 39,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 1,
+        "top": [
+          {
+            "common": "Brown Anole",
+            "latin": "Anolis sagrei",
+            "obs": 61,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -117,5 +415,36 @@
       "character": "Exposed — real surf, and rip current to respect"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Warmer than 72% of beaches in its country",
+      "detail": "Peak-month high ≈ 30°C"
+    },
+    {
+      "metric": "Beach season",
+      "text": "Longer beach season than 93% of beaches in its country",
+      "detail": "11 comfortable months a year"
+    }
+  ],
+  "wikidata_id": "Q5195257",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Lanikai_Beach",
+  "wikipedia_page_views_annual": 41700,
+  "notability_score": 32.0,
+  "data_completeness_pct": 62.5,
+  "best_months": [
+    "feb",
+    "mar",
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

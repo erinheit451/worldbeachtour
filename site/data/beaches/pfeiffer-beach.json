@@ -1,36 +1,21 @@
 {
   "slug": "pfeiffer-beach",
   "name": "Pfeiffer Beach",
-  "centroid_lat": 36.2393706,
-  "centroid_lng": -121.8180176,
   "country_code": "US",
   "admin_level_1": "California",
-  "admin_level_2": null,
+  "centroid_lat": 36.2393706,
+  "centroid_lng": -121.8180176,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/41230590",
-      "source_url": "https://www.openstreetmap.org/way/41230590"
-    },
-    {
-      "source_name": "osm",
-      "source_id": "way/1308492221",
-      "source_url": "https://www.openstreetmap.org/way/1308492221"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q49322515",
-      "source_url": "https://www.wikidata.org/wiki/Q49322515"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Pfeiffer%20Beach%20at%20Dusk%20%28Unsplash%29.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Pfeiffer_Beach"
-    }
+  "slope_pct": 4.773829078674317,
+  "nearshore_depth_m": 62.50601577758789,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Carmel Valley Village",
   "nearest_city_distance_km": 30.0,
@@ -39,24 +24,314 @@
     "name": "Monterey Regional Airport",
     "distance_km": 38.7
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      15.4571,
+      15.4857,
+      15.5429,
+      16.6,
+      17.2571,
+      18.5571,
+      19.7714,
+      20.4714,
+      21.0571,
+      20.2,
+      17.6143,
+      15.4429
+    ],
+    "air_temp_low": [
+      6.6286,
+      6.7571,
+      7.1857,
+      7.4429,
+      8.8,
+      10.2143,
+      11.1857,
+      11.9,
+      11.7,
+      10.3429,
+      8.0714,
+      6.1857
+    ],
+    "rain_mm": [
+      205.0,
+      176.0,
+      168.0,
+      79.0,
+      13.0,
+      5.0,
+      2.0,
+      2.0,
+      13.0,
+      48.0,
+      152.0,
+      172.0
+    ],
+    "wind_speed": [
+      3.6857,
+      3.9857,
+      4.3714,
+      4.6857,
+      4.9143,
+      4.8,
+      4.2857,
+      4.1429,
+      3.8429,
+      3.6714,
+      3.6714,
+      3.6714
+    ],
+    "sun_hours": [
+      8188.0,
+      10586.0,
+      15683.0,
+      20646.0,
+      23541.0,
+      25725.0,
+      24891.0,
+      22839.0,
+      19109.0,
+      14308.0,
+      9931.0,
+      7703.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "facilities": {
-    "parking": true,
-    "restrooms": true
+  "tides": {
+    "range_spring_m": 1.2514532663905598,
+    "range_neap_m": 0.7188150044288746,
+    "type": "mixed",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Pfeiffer_Beach",
-  "notability_score": 28.8,
-  "data_completeness_pct": 25.0,
   "sand": {
     "predicted": {
       "q_pct": 40.8,
       "f_pct": 17.9,
       "l_pct": 41.3,
       "regime": "lithic-rich (volcanic/collisional terrane)",
+      "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Poseidon%27s_Gate1.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Poseidon%27s_Gate1.jpg/1280px-Poseidon%27s_Gate1.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "Janusz Sobolewski",
+      "title": "Poseidon's Gate1.jpg",
+      "width": 8688,
+      "height": 5791
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Big_Sur%2C_United_States_%28Unsplash_xZqr8WtYEJ0%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Big_Sur%2C_United_States_%28Unsplash_xZqr8WtYEJ0%29.jpg/1280px-Big_Sur%2C_United_States_%28Unsplash_xZqr8WtYEJ0%29.jpg",
+      "license": "CC0",
+      "author_html": "Joshua Sortino <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@sortino\">sortino</a>",
+      "title": "Big Sur, United States (Unsplash xZqr8WtYEJ0).jpg",
+      "width": 7568,
+      "height": 5048
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/McWay_Falls%2C_Big_Sur%2C_California_%2844495352614%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/McWay_Falls%2C_Big_Sur%2C_California_%2844495352614%29.jpg/1280px-McWay_Falls%2C_Big_Sur%2C_California_%2844495352614%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/43355249@N00\">Pedro Szekely</a> from Los Angeles, USA",
+      "title": "McWay Falls, Big Sur, California (44495352614).jpg",
+      "width": 7067,
+      "height": 4871
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Pfeiffer_Beach_Panorama.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Pfeiffer_Beach_Panorama.jpg/1280px-Pfeiffer_Beach_Panorama.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Devinplatt\" title=\"User:Devinplatt\">Devin Platt</a>",
+      "title": "Pfeiffer Beach Panorama.jpg",
+      "width": 7002,
+      "height": 1552
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/McWay_Falls%2C_Big_Sur%2C_California_%2830619830607%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/McWay_Falls%2C_Big_Sur%2C_California_%2830619830607%29.jpg/1280px-McWay_Falls%2C_Big_Sur%2C_California_%2830619830607%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/43355249@N00\">Pedro Szekely</a> from Los Angeles, USA",
+      "title": "McWay Falls, Big Sur, California (30619830607).jpg",
+      "width": 6730,
+      "height": 4675
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/McWay_Falls%2C_Big_Sur%2C_California_%2844874219004%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/McWay_Falls%2C_Big_Sur%2C_California_%2844874219004%29.jpg/1280px-McWay_Falls%2C_Big_Sur%2C_California_%2844874219004%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/43355249@N00\">Pedro Szekely</a> from Los Angeles, USA",
+      "title": "McWay Falls, Big Sur, California (44874219004).jpg",
+      "width": 6595,
+      "height": 4623
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/McWay_Falls%2C_Big_Sur%2C_California_%2831298759538%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/McWay_Falls%2C_Big_Sur%2C_California_%2831298759538%29.jpg/1280px-McWay_Falls%2C_Big_Sur%2C_California_%2831298759538%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/43355249@N00\">Pedro Szekely</a> from Los Angeles, USA",
+      "title": "McWay Falls, Big Sur, California (31298759538).jpg",
+      "width": 6518,
+      "height": 4945
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/McWay_Falls%2C_Big_Sur%2C_California_%2844702909025%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/McWay_Falls%2C_Big_Sur%2C_California_%2844702909025%29.jpg/1280px-McWay_Falls%2C_Big_Sur%2C_California_%2844702909025%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/43355249@N00\">Pedro Szekely</a> from Los Angeles, USA",
+      "title": "McWay Falls, Big Sur, California (44702909025).jpg",
+      "width": 6252,
+      "height": 4945
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 62.50601577758789
+  },
+  "conservation": {
+    "name": "Monterey Bay National Marine Sanctuary",
+    "type": "Marine protected area",
+    "iucn": "V",
+    "unesco": false
+  },
+  "facilities": {
+    "parking": true,
+    "restrooms": true
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 12,
+        "top": [
+          {
+            "common": "Sunburst Anemone",
+            "latin": "Anthopleura sola",
+            "obs": 48,
+            "iucn": null
+          },
+          {
+            "common": "Striped Shore Crab",
+            "latin": "Pachygrapsus crassipes",
+            "obs": 45,
+            "iucn": null
+          },
+          {
+            "common": "Ochre Sea Star",
+            "latin": "Pisaster ochraceus",
+            "obs": 42,
+            "iucn": null
+          },
+          {
+            "common": "Giant Green Anemone",
+            "latin": "Anthopleura xanthogrammica",
+            "obs": 34,
+            "iucn": null
+          },
+          {
+            "common": "Aggregating Anemone",
+            "latin": "Anthopleura elegantissima",
+            "obs": 34,
+            "iucn": null
+          },
+          {
+            "common": "Bat Star",
+            "latin": "Patiria miniata",
+            "obs": 21,
+            "iucn": null
+          },
+          {
+            "common": "Gumboot Chiton",
+            "latin": "Cryptochiton stelleri",
+            "obs": 18,
+            "iucn": null
+          },
+          {
+            "common": "Pacific Sand Crab",
+            "latin": "Emerita analoga",
+            "obs": 17,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 3,
+        "top": [
+          {
+            "common": "coastal bush lupine",
+            "latin": "Lupinus arboreus",
+            "obs": 38,
+            "iucn": null
+          },
+          {
+            "common": "European Searocket",
+            "latin": "Cakile maritima",
+            "obs": 33,
+            "iucn": null
+          },
+          {
+            "common": "Yellow Sand Verbena",
+            "latin": "Abronia latifolia",
+            "obs": 26,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Other",
+        "key": "other",
+        "count": 3,
+        "top": [
+          {
+            "common": "Bull Kelp",
+            "latin": "Nereocystis luetkeana",
+            "obs": 24,
+            "iucn": null
+          },
+          {
+            "common": "Giant Kelp",
+            "latin": "Macrocystis pyrifera",
+            "obs": 17,
+            "iucn": null
+          },
+          {
+            "common": "Sea Palm",
+            "latin": "Postelsia palmiformis",
+            "obs": 17,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 2,
+        "top": [
+          {
+            "common": "Western Gull",
+            "latin": "Larus occidentalis",
+            "obs": 22,
+            "iucn": null
+          },
+          {
+            "common": "California Quail",
+            "latin": "Callipepla californica",
+            "obs": 13,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -112,5 +387,31 @@
       "character": "Heavy — a powerful, surf-driven coast"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 93% of beaches in its country",
+      "detail": "Peak-month high ≈ 21°C"
+    },
+    {
+      "metric": "Beach season",
+      "text": "Longer beach season than 61% of beaches in its country",
+      "detail": "6 comfortable months a year"
+    }
+  ],
+  "wikidata_id": "Q49322515",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pfeiffer_Beach",
+  "wikipedia_page_views_annual": 13059,
+  "notability_score": 28.8,
+  "data_completeness_pct": 70.8,
+  "best_months": [
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct"
+  ],
+  "swim_suitability": "fair"
 }

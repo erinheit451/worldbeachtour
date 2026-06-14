@@ -1,40 +1,22 @@
 {
   "slug": "siesta-beach",
   "name": "Siesta Beach",
-  "centroid_lat": 27.2650178,
-  "centroid_lng": -82.553578,
   "country_code": "US",
   "admin_level_1": "Florida",
-  "admin_level_2": null,
+  "centroid_lat": 27.2650178,
+  "centroid_lng": -82.553578,
   "water_body_type": "ocean",
   "substrate_type": "sand",
   "beach_length_m": 3100.0,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/375950982",
-      "source_url": "https://www.openstreetmap.org/way/375950982"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q7511756",
-      "source_url": "https://www.wikidata.org/wiki/Q7511756"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Siesta%20Key%20Beach.%20Sarasota%20-%20panoramio%20-%204net%20%283%29.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Siesta_Beach"
-    },
-    "safety": {
-      "cyclone_count_50yr": "20",
-      "cyclone_max_category": "5"
-    }
+  "slope_pct": 0.17743487358093263,
+  "nearshore_depth_m": 8.991008758544922,
+  "classification": {
+    "primary_type": "Sand",
+    "primary_type_slug": "sand",
+    "coastal_type": "Sand",
+    "coastal_type_slug": "sand",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "South Sarasota",
   "nearest_city_distance_km": 3.1,
@@ -43,22 +25,279 @@
     "name": "Sarasota Bradenton International Airport",
     "distance_km": 14.4
   },
-  "safety": {
-    "lifeguard": true,
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      21.8625,
+      22.6625,
+      25.1125,
+      27.5375,
+      30.5375,
+      32.2,
+      32.875,
+      32.8875,
+      32.0625,
+      29.5625,
+      26.175,
+      23.3375
+    ],
+    "air_temp_low": [
+      11.4125,
+      11.7625,
+      14.3625,
+      16.4625,
+      19.45,
+      22.3,
+      23.15,
+      23.4,
+      22.9,
+      19.7625,
+      15.8625,
+      12.775
+    ],
+    "rain_mm": [
+      59.0,
+      74.0,
+      83.0,
+      39.0,
+      76.0,
+      178.0,
+      187.0,
+      224.0,
+      190.0,
+      66.0,
+      53.0,
+      54.0
+    ],
+    "wind_speed": [
+      4.0,
+      4.2,
+      4.5,
+      4.3,
+      3.8,
+      3.5,
+      3.1,
+      3.0,
+      3.4,
+      3.8,
+      3.9,
+      3.8
+    ],
+    "sun_hours": [
+      12126.0,
+      14773.0,
+      18331.0,
+      21870.0,
+      23585.0,
+      21927.0,
+      21490.0,
+      20064.0,
+      17391.0,
+      15471.0,
+      12963.0,
+      11148.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Siesta_Beach",
-  "notability_score": 32.0,
-  "data_completeness_pct": 20.8,
+  "tides": {
+    "range_spring_m": 0.45918715498776463,
+    "range_neap_m": 0.19891875562357497,
+    "type": "mixed",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 88.7,
       "f_pct": 1.7,
       "l_pct": 9.6,
       "regime": "quartz-dominant",
+      "regime_plain": "Quartz-dominant",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 83,
+    "paragraph": "83 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1852–2024).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Siesta_Beach_Panorama_29_Dec_2012.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Siesta_Beach_Panorama_29_Dec_2012.JPG/1280px-Siesta_Beach_Panorama_29_Dec_2012.JPG",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Eb.eric&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Eb.eric (page does not exist)\">Eric Brown</a>",
+      "title": "Siesta Beach Panorama 29 Dec 2012.JPG",
+      "width": 9402,
+      "height": 2154
     },
-    "description": "Unlike beaches elsewhere that are made up mostly of pulverized coral, Siesta Beach's sand is 99% quartz, most of which comes from the Appalachian Mountains."
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/2017_Sarasota_Panorama_of_Siesta_Beach_on_Siesta_Key_at_Sunset_01_FRD_9748.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/2017_Sarasota_Panorama_of_Siesta_Beach_on_Siesta_Key_at_Sunset_01_FRD_9748.jpg/1280px-2017_Sarasota_Panorama_of_Siesta_Beach_on_Siesta_Key_at_Sunset_01_FRD_9748.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a href=\"https://en.wikipedia.org/wiki/User:Fred_Hsu\" class=\"extiw\" title=\"wikipedia:User:Fred Hsu\">Fred Hsu</a> on <a class=\"external text\" href=\"https://en.wikipedia.org\">en.wikipedia</a>",
+      "title": "2017 Sarasota Panorama of Siesta Beach on Siesta Key at Sunset 01 FRD 9748.jpg",
+      "width": 8191,
+      "height": 1950
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/2017_Sarasota_Panorama_of_Siesta_Beach_on_Siesta_Key_at_Sunset_02_FRD_9854.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/2017_Sarasota_Panorama_of_Siesta_Beach_on_Siesta_Key_at_Sunset_02_FRD_9854.jpg/1280px-2017_Sarasota_Panorama_of_Siesta_Beach_on_Siesta_Key_at_Sunset_02_FRD_9854.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a href=\"https://en.wikipedia.org/wiki/User:Fred_Hsu\" class=\"extiw\" title=\"wikipedia:User:Fred Hsu\">Fred Hsu</a> on <a class=\"external text\" href=\"https://en.wikipedia.org\">en.wikipedia</a>",
+      "title": "2017 Sarasota Panorama of Siesta Beach on Siesta Key at Sunset 02 FRD 9854.jpg",
+      "width": 8191,
+      "height": 1923
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Red_Lifeguard_Stand_at_Siesta_Key_Beach.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Red_Lifeguard_Stand_at_Siesta_Key_Beach.jpg/1280px-Red_Lifeguard_Stand_at_Siesta_Key_Beach.jpg",
+      "license": "CC0",
+      "author_html": "Mickey Luigi Logitmark",
+      "title": "Red Lifeguard Stand at Siesta Key Beach.jpg",
+      "width": 6000,
+      "height": 3376
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Nokomis.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Nokomis.jpg/1280px-Nokomis.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Dripen&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Dripen (page does not exist)\">Dripen</a>",
+      "title": "Nokomis.jpg",
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/2017_Sarasota_Folks_Enjoying_Sunset_at_Siesta_Beach_on_Siesta_Key_03_FRD_9734.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/2017_Sarasota_Folks_Enjoying_Sunset_at_Siesta_Beach_on_Siesta_Key_03_FRD_9734.jpg/1280px-2017_Sarasota_Folks_Enjoying_Sunset_at_Siesta_Beach_on_Siesta_Key_03_FRD_9734.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a href=\"https://en.wikipedia.org/wiki/User:Fred_Hsu\" class=\"extiw\" title=\"wikipedia:User:Fred Hsu\">Fred Hsu</a> on <a class=\"external text\" href=\"https://en.wikipedia.org\">en.wikipedia</a>",
+      "title": "2017 Sarasota Folks Enjoying Sunset at Siesta Beach on Siesta Key 03 FRD 9734.jpg",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/2017_Sarasota_Siesta_Key_Beach_Pavilion_01_FRD_9703.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/2017_Sarasota_Siesta_Key_Beach_Pavilion_01_FRD_9703.jpg/1280px-2017_Sarasota_Siesta_Key_Beach_Pavilion_01_FRD_9703.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a href=\"https://en.wikipedia.org/wiki/User:Fred_Hsu\" class=\"extiw\" title=\"wikipedia:User:Fred Hsu\">Fred Hsu</a> on <a class=\"external text\" href=\"https://en.wikipedia.org\">en.wikipedia</a>",
+      "title": "2017 Sarasota Siesta Key Beach Pavilion 01 FRD 9703.jpg",
+      "width": 4032,
+      "height": 2533
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/2017_Sarasota_View_from_Siesta_Key_Beach_Pavilion_02_FRD_9706.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/2017_Sarasota_View_from_Siesta_Key_Beach_Pavilion_02_FRD_9706.jpg/1280px-2017_Sarasota_View_from_Siesta_Key_Beach_Pavilion_02_FRD_9706.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a href=\"https://en.wikipedia.org/wiki/User:Fred_Hsu\" class=\"extiw\" title=\"wikipedia:User:Fred Hsu\">Fred Hsu</a> on <a class=\"external text\" href=\"https://en.wikipedia.org\">en.wikipedia</a>",
+      "title": "2017 Sarasota View from Siesta Key Beach Pavilion 02 FRD 9706.jpg",
+      "width": 4032,
+      "height": 3024
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 8.991008758544922,
+    "lifeguard": true
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 16,
+        "top": [
+          {
+            "common": "Laughing Gull",
+            "latin": "Leucophaeus atricilla",
+            "obs": 291,
+            "iucn": null
+          },
+          {
+            "common": "Royal Tern",
+            "latin": "Thalasseus maximus",
+            "obs": 256,
+            "iucn": null
+          },
+          {
+            "common": "Black Skimmer",
+            "latin": "Rynchops niger",
+            "obs": 197,
+            "iucn": null
+          },
+          {
+            "common": "Sanderling",
+            "latin": "Calidris alba",
+            "obs": 176,
+            "iucn": null
+          },
+          {
+            "common": "Sandwich Tern",
+            "latin": "Thalasseus sandvicensis",
+            "obs": 124,
+            "iucn": null
+          },
+          {
+            "common": "Snowy Plover",
+            "latin": "Anarhynchus nivosus",
+            "obs": 118,
+            "iucn": null
+          },
+          {
+            "common": "Lesser Black-backed Gull",
+            "latin": "Larus fuscus",
+            "obs": 116,
+            "iucn": null
+          },
+          {
+            "common": "Brown Pelican",
+            "latin": "Pelecanus occidentalis",
+            "obs": 100,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 3,
+        "top": [
+          {
+            "common": "sea grape",
+            "latin": "Coccoloba uvifera",
+            "obs": 96,
+            "iucn": null
+          },
+          {
+            "common": "cucumberleaf sunflower",
+            "latin": "Helianthus debilis",
+            "obs": 60,
+            "iucn": null
+          },
+          {
+            "common": "Green Buttonwood",
+            "latin": "Conocarpus erectus",
+            "obs": 52,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 1,
+        "top": [
+          {
+            "common": "Brown Anole",
+            "latin": "Anolis sagrei",
+            "obs": 83,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -114,5 +353,39 @@
       "character": "Calm — gentle swimming water most of the year"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Warmer than 95% of beaches in its country",
+      "detail": "Peak-month high ≈ 33°C"
+    },
+    {
+      "metric": "Worldwide",
+      "text": "Among the warmest 6% of beaches on Earth",
+      "detail": null
+    },
+    {
+      "metric": "Beach season",
+      "text": "Longer beach season than 83% of beaches in its country",
+      "detail": "9 comfortable months a year"
+    }
+  ],
+  "wikidata_id": "Q7511756",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Siesta_Beach",
+  "wikipedia_page_views_annual": 41618,
+  "notability_score": 32.0,
+  "data_completeness_pct": 58.3,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "may",
+    "jun",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

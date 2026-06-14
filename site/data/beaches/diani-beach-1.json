@@ -1,26 +1,21 @@
 {
   "slug": "diani-beach-1",
   "name": "Diani Beach",
-  "centroid_lat": -4.32222222,
-  "centroid_lng": 39.575,
   "country_code": "KE",
   "admin_level_1": "Kwale",
-  "admin_level_2": null,
+  "centroid_lat": -4.32222222,
+  "centroid_lng": 39.575,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "wikidata",
-      "source_id": "Q1209035",
-      "source_url": "https://www.wikidata.org/wiki/Q1209035"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Diani%20Beach%2002.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Diani_Beach"
-    }
+  "slope_pct": 2.60120530128479,
+  "nearshore_depth_m": 47.3125,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Gazi",
   "nearest_city_distance_km": 13.7,
@@ -29,20 +24,335 @@
     "name": "Moi International Airport",
     "distance_km": 32.0
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      31.6957,
+      32.2957,
+      32.5,
+      31.013,
+      29.1913,
+      28.4043,
+      27.6522,
+      27.9043,
+      28.7261,
+      29.7522,
+      30.7,
+      31.4087
+    ],
+    "air_temp_low": [
+      23.1739,
+      23.3304,
+      23.9043,
+      23.6783,
+      22.4652,
+      21.3696,
+      20.3652,
+      20.2652,
+      20.713,
+      21.687,
+      22.7304,
+      23.1043
+    ],
+    "rain_mm": [
+      26.0,
+      17.0,
+      56.0,
+      206.0,
+      283.0,
+      105.0,
+      87.0,
+      70.0,
+      58.0,
+      90.0,
+      96.0,
+      56.0
+    ],
+    "wind_speed": [
+      3.3739,
+      3.1609,
+      2.9043,
+      3.287,
+      4.013,
+      4.0391,
+      4.287,
+      4.0696,
+      4.2478,
+      4.1826,
+      3.7043,
+      3.4087
+    ],
+    "sun_hours": [
+      17937.0,
+      19022.0,
+      18318.0,
+      15910.0,
+      14188.0,
+      14074.0,
+      13743.0,
+      15542.0,
+      17148.0,
+      18247.0,
+      18045.0,
+      17470.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Diani_Beach",
-  "notability_score": 28.6,
-  "data_completeness_pct": 16.7,
+  "tides": {
+    "range_spring_m": 3.114064478018027,
+    "range_neap_m": 1.0325551596900155,
+    "type": "semidiurnal",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 95.7,
       "f_pct": 2.3,
       "l_pct": 2.0,
       "regime": "quartz-dominant",
+      "regime_plain": "Quartz-dominant",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/A_bicyle_delivery_guy_in_diani_kenya.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/A_bicyle_delivery_guy_in_diani_kenya.jpg/1280px-A_bicyle_delivery_guy_in_diani_kenya.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Emmaculate_jacobine&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Emmaculate jacobine (page does not exist)\">Emmaculate jacobine</a>",
+      "title": "A bicyle delivery guy in diani kenya.jpg",
+      "width": 5760,
+      "height": 3840
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/2011-07-20_09-54-46_7D_%2814435988112%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/2011-07-20_09-54-46_7D_%2814435988112%29.jpg/1280px-2011-07-20_09-54-46_7D_%2814435988112%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/122772068@N08\">Stephen Temple</a> from Cape Town, South Africa",
+      "title": "2011-07-20 09-54-46 7D (14435988112).jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Congo_River%2C_Kenya_-_51984275181.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Congo_River%2C_Kenya_-_51984275181.jpg/1280px-Congo_River%2C_Kenya_-_51984275181.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "Ninara",
+      "title": "Congo River, Kenya - 51984275181.jpg",
+      "width": 4743,
+      "height": 3162
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Diani_Beach_2013_-_panoramio_%28143%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Diani_Beach_2013_-_panoramio_%28143%29.jpg/1280px-Diani_Beach_2013_-_panoramio_%28143%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161031092545/http://www.panoramio.com/user/7138306?with_photo_id=113966115\">Roma Neus</a>",
+      "title": "Diani Beach 2013 - panoramio (143).jpg",
+      "width": 4608,
+      "height": 2592
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Diani_Beach_2013_-_panoramio_%28122%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Diani_Beach_2013_-_panoramio_%28122%29.jpg/1280px-Diani_Beach_2013_-_panoramio_%28122%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161102181655/http://www.panoramio.com/user/7138306?with_photo_id=113965999\">Roma Neus</a>",
+      "title": "Diani Beach 2013 - panoramio (122).jpg",
+      "width": 4608,
+      "height": 2592
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Diani_Beach_2013_-_panoramio_%28123%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Diani_Beach_2013_-_panoramio_%28123%29.jpg/1280px-Diani_Beach_2013_-_panoramio_%28123%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161101074159/http://www.panoramio.com/user/7138306?with_photo_id=113966001\">Roma Neus</a>",
+      "title": "Diani Beach 2013 - panoramio (123).jpg",
+      "width": 4608,
+      "height": 2592
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Diani_Beach_2013_-_panoramio_%28124%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Diani_Beach_2013_-_panoramio_%28124%29.jpg/1280px-Diani_Beach_2013_-_panoramio_%28124%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161102200759/http://www.panoramio.com/user/7138306?with_photo_id=113966026\">Roma Neus</a>",
+      "title": "Diani Beach 2013 - panoramio (124).jpg",
+      "width": 4608,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Diani_Beach_2013_-_panoramio_%28125%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Diani_Beach_2013_-_panoramio_%28125%29.jpg/1280px-Diani_Beach_2013_-_panoramio_%28125%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161031221719/http://www.panoramio.com/user/7138306?with_photo_id=113966015\">Roma Neus</a>",
+      "title": "Diani Beach 2013 - panoramio (125).jpg",
+      "width": 4608,
+      "height": 3456
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 47.3125
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Fish",
+        "key": "fish",
+        "count": 6,
+        "top": [
+          {
+            "common": "Indo-Pacific Sergeant Major",
+            "latin": "Abudefduf vaigiensis",
+            "obs": 43,
+            "iucn": null
+          },
+          {
+            "common": "Three-spot Dascyllus",
+            "latin": "Dascyllus trimaculatus",
+            "obs": 34,
+            "iucn": null
+          },
+          {
+            "common": "Scissortail Sergeant",
+            "latin": "Abudefduf sexfasciatus",
+            "obs": 27,
+            "iucn": null
+          },
+          {
+            "common": "False-eye Sergeant",
+            "latin": "Abudefduf sparoides",
+            "obs": 23,
+            "iucn": null
+          },
+          {
+            "common": "Goldbar Wrasse",
+            "latin": "Thalassoma hebraicum",
+            "obs": 19,
+            "iucn": null
+          },
+          {
+            "common": "Raccoon Butterflyfish",
+            "latin": "Chaetodon lunula",
+            "obs": 13,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Mammals",
+        "key": "mammal",
+        "count": 4,
+        "top": [
+          {
+            "common": "Blue Monkey",
+            "latin": "Cercopithecus mitis",
+            "obs": 83,
+            "iucn": null
+          },
+          {
+            "common": "Angola Colobus",
+            "latin": "Colobus angolensis",
+            "obs": 48,
+            "iucn": null
+          },
+          {
+            "common": "Small-eared Greater Galago",
+            "latin": "Otolemur garnettii",
+            "obs": 31,
+            "iucn": null
+          },
+          {
+            "common": "Vervet Monkey",
+            "latin": "Chlorocebus pygerythrus",
+            "obs": 21,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 4,
+        "top": [
+          {
+            "common": "White-headed Dwarf Gecko",
+            "latin": "Lygodactylus mombasicus",
+            "obs": 26,
+            "iucn": null
+          },
+          {
+            "common": "Kenyan Rock Agama",
+            "latin": "Agama lionotus",
+            "obs": 17,
+            "iucn": null
+          },
+          {
+            "common": "Speckle-lipped Mabuya",
+            "latin": "Trachylepis maculilabris",
+            "obs": 16,
+            "iucn": null
+          },
+          {
+            "common": "Rough-scaled Plated Lizard",
+            "latin": "Broadleysaurus major",
+            "obs": 14,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 3,
+        "top": [
+          {
+            "common": "Red-knobbed Sea Star",
+            "latin": "Protoreaster lincki",
+            "obs": 35,
+            "iucn": null
+          },
+          {
+            "common": "Redleg Orbweaver",
+            "latin": "Trichonephila inaurata",
+            "obs": 28,
+            "iucn": null
+          },
+          {
+            "common": "Scimitar-horn Kitespider",
+            "latin": "Gasteracantha falcicornis",
+            "obs": 14,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 3,
+        "top": [
+          {
+            "common": "Sooty Gull",
+            "latin": "Ichthyaetus hemprichii",
+            "obs": 25,
+            "iucn": null
+          },
+          {
+            "common": "House Crow",
+            "latin": "Corvus splendens",
+            "obs": 14,
+            "iucn": null
+          },
+          {
+            "common": "African Pied Wagtail",
+            "latin": "Motacilla aguimp",
+            "obs": 13,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -98,5 +408,37 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Warmer than 58% of beaches in its country",
+      "detail": "Peak-month high ≈ 32°C"
+    },
+    {
+      "metric": "Worldwide",
+      "text": "Among the warmest 7% of beaches on Earth",
+      "detail": null
+    }
+  ],
+  "wikidata_id": "Q1209035",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Diani_Beach",
+  "wikipedia_page_views_annual": 35186,
+  "notability_score": 28.6,
+  "data_completeness_pct": 58.3,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

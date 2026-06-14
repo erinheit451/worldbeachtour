@@ -1,40 +1,19 @@
 {
   "slug": "palolem-beach",
   "name": "Palolem Beach",
-  "centroid_lat": 15.0086661,
-  "centroid_lng": 74.0203046,
   "country_code": "IN",
   "admin_level_1": "Goa",
-  "admin_level_2": null,
+  "centroid_lat": 15.0086661,
+  "centroid_lng": 74.0203046,
   "water_body_type": "ocean",
   "substrate_type": "sand",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "relation/8111859",
-      "source_url": "https://www.openstreetmap.org/relation/8111859"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q2048357",
-      "source_url": "https://www.wikidata.org/wiki/Q2048357"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Palolem%20beach.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Palolem_Beach"
-    },
-    "safety": {
-      "cyclone_count_50yr": "3",
-      "cyclone_max_category": "TS"
-    }
+  "classification": {
+    "primary_type": "Sand",
+    "primary_type_slug": "sand",
+    "coastal_type": "Sand",
+    "coastal_type_slug": "sand",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Kankon",
   "nearest_city_distance_km": 3.4,
@@ -43,23 +22,311 @@
     "name": "Goa Dabolim International Airport",
     "distance_km": 45.9
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      31.5,
+      31.5238,
+      32.2429,
+      33.0429,
+      32.9048,
+      29.6095,
+      28.2048,
+      28.2095,
+      29.0048,
+      30.5952,
+      31.7333,
+      31.6476
+    ],
+    "air_temp_low": [
+      19.5905,
+      20.1762,
+      22.5857,
+      24.7571,
+      25.5333,
+      24.3,
+      23.7667,
+      23.6286,
+      23.3952,
+      23.3524,
+      21.781,
+      20.381
+    ],
+    "rain_mm": [
+      1.0,
+      0.0,
+      1.0,
+      14.0,
+      122.0,
+      875.0,
+      984.0,
+      623.0,
+      277.0,
+      136.0,
+      40.0,
+      12.0
+    ],
+    "wind_speed": [
+      2.3524,
+      2.4762,
+      2.4476,
+      2.8952,
+      3.3952,
+      3.8619,
+      4.0714,
+      3.5762,
+      3.0429,
+      2.4286,
+      2.4571,
+      2.5476
+    ],
+    "sun_hours": [
+      19893.0,
+      22285.0,
+      23851.0,
+      23652.0,
+      22213.0,
+      17185.0,
+      15594.0,
+      16782.0,
+      18454.0,
+      18905.0,
+      19122.0,
+      18986.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "facilities": {
-    "restrooms": true
+  "tides": {
+    "range_spring_m": 1.4332007604197574,
+    "range_neap_m": 0.6658733601139211,
+    "type": "mixed",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Palolem_Beach",
-  "notability_score": 31.6,
-  "data_completeness_pct": 25.0,
   "sand": {
     "predicted": {
       "q_pct": 76.3,
       "f_pct": 15.7,
       "l_pct": 8.0,
       "regime": "quartz-dominant",
+      "regime_plain": "Quartz-dominant",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 18,
+    "paragraph": "18 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1886–1992).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Palolem_Beach%2C_south_Goa.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Palolem_Beach%2C_south_Goa.jpg/1280px-Palolem_Beach%2C_south_Goa.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mahabalaindia&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mahabalaindia (page does not exist)\">Mahabalaindia</a>",
+      "title": "Palolem Beach, south Goa.jpg",
+      "width": 7360,
+      "height": 4253
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/View_of_the_beach_with_people_enjoying_in_water.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/View_of_the_beach_with_people_enjoying_in_water.jpg/1280px-View_of_the_beach_with_people_enjoying_in_water.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mahabalaindia&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mahabalaindia (page does not exist)\">Mahabalaindia</a>",
+      "title": "View of the beach with people enjoying in water.jpg",
+      "width": 7359,
+      "height": 3135
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/View_of_Palolem_Beach_from_left_end.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/View_of_Palolem_Beach_from_left_end.jpg/1280px-View_of_Palolem_Beach_from_left_end.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mahabalaindia&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mahabalaindia (page does not exist)\">Mahabalaindia</a>",
+      "title": "View of Palolem Beach from left end.jpg",
+      "width": 6258,
+      "height": 3927
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Palolem_Beach%2C_South_Goa.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Palolem_Beach%2C_South_Goa.jpg/1280px-Palolem_Beach%2C_South_Goa.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:I.Mahesh\" title=\"User:I.Mahesh\">iMahesh</a>",
+      "title": "Palolem Beach, South Goa.jpg",
+      "width": 6000,
+      "height": 3375
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Colorful_Shacks_at_Palolem_Beach.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Colorful_Shacks_at_Palolem_Beach.jpg/1280px-Colorful_Shacks_at_Palolem_Beach.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sidd.in&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sidd.in (page does not exist)\">Siddharth Ashok</a>",
+      "title": "Colorful Shacks at Palolem Beach.jpg",
+      "width": 5160,
+      "height": 2903
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Last_beach_of_South_Goa%2C_Polem_beach.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Last_beach_of_South_Goa%2C_Polem_beach.jpg/1280px-Last_beach_of_South_Goa%2C_Polem_beach.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sidd.in&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sidd.in (page does not exist)\">Siddharth Ashok</a>",
+      "title": "Last beach of South Goa, Polem beach.jpg",
+      "width": 5107,
+      "height": 3405
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Arabian_sea_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Arabian_sea_-_panoramio.jpg/1280px-Arabian_sea_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161031064403/http://www.panoramio.com/user/1770775?with_photo_id=127982969\">Alexey Komarov</a>",
+      "title": "Arabian sea - panoramio.jpg",
+      "width": 5016,
+      "height": 3345
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Arabian_sea_-_panoramio_%282%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Arabian_sea_-_panoramio_%282%29.jpg/1280px-Arabian_sea_-_panoramio_%282%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161031064355/http://www.panoramio.com/user/1770775?with_photo_id=127982968\">Alexey Komarov</a>",
+      "title": "Arabian sea - panoramio (2).jpg",
+      "width": 5010,
+      "height": 3154
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null
+  },
+  "facilities": {
+    "restrooms": true,
+    "food_nearby": true
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 10,
+        "top": [
+          {
+            "common": "Brahminy Kite",
+            "latin": "Haliastur indus",
+            "obs": 22,
+            "iucn": null
+          },
+          {
+            "common": "Black Kite",
+            "latin": "Milvus migrans",
+            "obs": 16,
+            "iucn": null
+          },
+          {
+            "common": "Indian Pond-Heron",
+            "latin": "Ardeola grayii",
+            "obs": 14,
+            "iucn": null
+          },
+          {
+            "common": "White-bellied Sea-Eagle",
+            "latin": "Icthyophaga leucogaster",
+            "obs": 14,
+            "iucn": null
+          },
+          {
+            "common": "Common Kingfisher",
+            "latin": "Alcedo atthis",
+            "obs": 10,
+            "iucn": null
+          },
+          {
+            "common": "Purple-rumped Sunbird",
+            "latin": "Leptocoma zeylonica",
+            "obs": 10,
+            "iucn": null
+          },
+          {
+            "common": "Common Sandpiper",
+            "latin": "Actitis hypoleucos",
+            "obs": 9,
+            "iucn": null
+          },
+          {
+            "common": "Western Reef Heron",
+            "latin": "Egretta gularis",
+            "obs": 9,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 9,
+        "top": [
+          {
+            "common": "Chocolate Pansy",
+            "latin": "Junonia iphita",
+            "obs": 17,
+            "iucn": null
+          },
+          {
+            "common": "Lemon Pansy",
+            "latin": "Junonia lemonias",
+            "obs": 16,
+            "iucn": null
+          },
+          {
+            "common": "Asian Weaver Ant",
+            "latin": "Oecophylla smaragdina",
+            "obs": 16,
+            "iucn": null
+          },
+          {
+            "common": "Chalky Percher",
+            "latin": "Diplacodes trivialis",
+            "obs": 15,
+            "iucn": null
+          },
+          {
+            "common": "Tiny Grass Blue",
+            "latin": "Zizula hylax",
+            "obs": 13,
+            "iucn": null
+          },
+          {
+            "common": "Grey Pansy",
+            "latin": "Junonia atlites",
+            "obs": 12,
+            "iucn": null
+          },
+          {
+            "common": "Pied Paddy Skimmer",
+            "latin": "Neurothemis tullia",
+            "obs": 11,
+            "iucn": null
+          },
+          {
+            "common": "Oliva oliva",
+            "latin": "Oliva oliva",
+            "obs": 9,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Amphibians",
+        "key": "amphibian",
+        "count": 1,
+        "top": [
+          {
+            "common": "Chunam Tree Frog",
+            "latin": "Polypedates maculatus",
+            "obs": 7,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -115,5 +382,36 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 68% of beaches in its country",
+      "detail": "Peak-month high ≈ 33°C"
+    },
+    {
+      "metric": "Worldwide",
+      "text": "Among the warmest 5% of beaches on Earth",
+      "detail": null
+    }
+  ],
+  "wikidata_id": "Q2048357",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Palolem_Beach",
+  "wikipedia_page_views_annual": 38822,
+  "notability_score": 31.6,
+  "data_completeness_pct": 58.3,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "may",
+    "jun",
+    "aug",
+    "sep",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

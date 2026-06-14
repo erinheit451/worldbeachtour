@@ -1,40 +1,21 @@
 {
   "slug": "the-baths",
   "name": "The Baths",
-  "centroid_lat": 18.4294,
-  "centroid_lng": -64.4454,
   "country_code": "VG",
   "admin_level_1": "",
-  "admin_level_2": null,
+  "centroid_lat": 18.4294,
+  "centroid_lng": -64.4454,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/157720247",
-      "source_url": "https://www.openstreetmap.org/way/157720247"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q7715805",
-      "source_url": "https://www.wikidata.org/wiki/Q7715805"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/TheBaths%20VirginGorda%20BVI.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/The_Baths"
-    },
-    "safety": {
-      "cyclone_count_50yr": "32",
-      "cyclone_max_category": "5"
-    }
+  "slope_pct": 1.1672891497612,
+  "nearshore_depth_m": 26.77203941345215,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Tortola",
   "nearest_city_distance_km": 16.7,
@@ -43,22 +24,423 @@
     "name": "Virgin Gorda Airport",
     "distance_km": 2.7
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      28.35,
+      28.45,
+      28.7375,
+      29.4125,
+      29.95,
+      30.6125,
+      31.1375,
+      31.35,
+      31.4125,
+      31.05,
+      29.8625,
+      28.675
+    ],
+    "air_temp_low": [
+      21.8875,
+      21.7125,
+      21.9875,
+      22.5125,
+      23.3375,
+      24.2125,
+      24.2875,
+      24.55,
+      24.3375,
+      24.0625,
+      23.3375,
+      22.4875
+    ],
+    "rain_mm": [
+      58.0,
+      46.0,
+      54.0,
+      76.0,
+      116.0,
+      63.0,
+      72.0,
+      108.0,
+      131.0,
+      130.0,
+      136.0,
+      100.0
+    ],
+    "wind_speed": [
+      4.5,
+      4.6,
+      4.6,
+      4.5,
+      4.425,
+      4.9,
+      5.2,
+      4.9,
+      4.2,
+      3.75,
+      4.0,
+      4.4
+    ],
+    "sun_hours": [
+      16882.0,
+      18761.0,
+      21535.0,
+      22775.0,
+      22670.0,
+      22890.0,
+      23184.0,
+      22732.0,
+      20378.0,
+      18730.0,
+      16557.0,
+      15766.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "facilities": {
-    "restrooms": true
+  "tides": {
+    "range_spring_m": 0.20467301496608378,
+    "range_neap_m": 0.15667931323035297,
+    "type": "mixed",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/The_Baths",
-  "notability_score": 29.5,
-  "data_completeness_pct": 25.0,
   "sand": {
     "predicted": {
       "q_pct": 22.9,
       "f_pct": 57.2,
       "l_pct": 19.9,
       "regime": "feldspar-rich (plutonic/crystalline terrane)",
+      "regime_plain": "Feldspar-rich (plutonic/crystalline terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
-  }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 90,
+    "paragraph": "90 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1852–2024).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/The_Baths_%E2%80%94_Virgin_Gorda_Is.%2C_British_Virgin_Islands_%E2%80%94_footprints_in_the_sand_.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/The_Baths_%E2%80%94_Virgin_Gorda_Is.%2C_British_Virgin_Islands_%E2%80%94_footprints_in_the_sand_.JPG/1280px-The_Baths_%E2%80%94_Virgin_Gorda_Is.%2C_British_Virgin_Islands_%E2%80%94_footprints_in_the_sand_.JPG",
+      "license": "CC BY 2.0 de",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Mattes\" title=\"User:Mattes\">User:Mattes</a>",
+      "title": "The Baths — Virgin Gorda Is., British Virgin Islands — footprints in the sand .JPG",
+      "width": 4896,
+      "height": 3672
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Virgin_Gorda%2C_British_Virgin_Islands_%28Pana_260%29.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Virgin_Gorda%2C_British_Virgin_Islands_%28Pana_260%29.JPG/1280px-Virgin_Gorda%2C_British_Virgin_Islands_%28Pana_260%29.JPG",
+      "license": "CC BY 2.0 de",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Mattes\" title=\"User:Mattes\">User:Mattes</a>",
+      "title": "Virgin Gorda, British Virgin Islands (Pana 260).JPG",
+      "width": 4896,
+      "height": 3672
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/The_Baths_%E2%80%94_Virgin_Gorda_Is.%2C_British_Virgin_Islands_%E2%80%94_sign_at_lavatory.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/The_Baths_%E2%80%94_Virgin_Gorda_Is.%2C_British_Virgin_Islands_%E2%80%94_sign_at_lavatory.JPG/1280px-The_Baths_%E2%80%94_Virgin_Gorda_Is.%2C_British_Virgin_Islands_%E2%80%94_sign_at_lavatory.JPG",
+      "license": "CC BY 2.0 de",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Mattes\" title=\"User:Mattes\">User:Mattes</a>",
+      "title": "The Baths — Virgin Gorda Is., British Virgin Islands — sign at lavatory.JPG",
+      "width": 4896,
+      "height": 3672
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/The_Baths_%E2%80%94_Virgin_Gorda%2C_British_%28stone_which_looks_like_a_face%29.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/The_Baths_%E2%80%94_Virgin_Gorda%2C_British_%28stone_which_looks_like_a_face%29.JPG/1280px-The_Baths_%E2%80%94_Virgin_Gorda%2C_British_%28stone_which_looks_like_a_face%29.JPG",
+      "license": "CC BY 2.0 de",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Mattes\" title=\"User:Mattes\">User:Mattes</a>",
+      "title": "The Baths — Virgin Gorda, British (stone which looks like a face).JPG",
+      "width": 4896,
+      "height": 3672
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/VirginGordaTheBaths.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/VirginGordaTheBaths.jpg/1280px-VirginGordaTheBaths.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Calyponte\" title=\"User:Calyponte\">Calyponte</a>",
+      "title": "VirginGordaTheBaths.jpg",
+      "width": 3888,
+      "height": 2592
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Aquanaut_Explorer%2C_1987.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Aquanaut_Explorer%2C_1987.jpg/1280px-Aquanaut_Explorer%2C_1987.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:O%27Dea\" class=\"mw-redirect\" title=\"User:O'Dea\">O'Dea</a>",
+      "title": "Aquanaut Explorer, 1987.jpg",
+      "width": 3348,
+      "height": 2260
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Paradiso_terrestre_a_Virgin_Gorda_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Paradiso_terrestre_a_Virgin_Gorda_-_panoramio.jpg/1280px-Paradiso_terrestre_a_Virgin_Gorda_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161021132217/http://www.panoramio.com/user/2433337?with_photo_id=57438800\">patano</a>",
+      "title": "Paradiso terrestre a Virgin Gorda - panoramio.jpg",
+      "width": 3264,
+      "height": 2176
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/ROCKS_on_the_sea_-_Virgin_Gorda_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/ROCKS_on_the_sea_-_Virgin_Gorda_-_panoramio.jpg/1280px-ROCKS_on_the_sea_-_Virgin_Gorda_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161015151220/http://www.panoramio.com/user/2433337?with_photo_id=36226905\">patano</a>",
+      "title": "ROCKS on the sea - Virgin Gorda - panoramio.jpg",
+      "width": 3120,
+      "height": 2040
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 26.77203941345215
+  },
+  "conservation": {
+    "name": "The Baths",
+    "type": "National park",
+    "iucn": "II",
+    "unesco": false
+  },
+  "facilities": {
+    "restrooms": true
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 10,
+        "top": [
+          {
+            "common": "Turk's Cap Cactus",
+            "latin": "Melocactus intortus",
+            "obs": 43,
+            "iucn": null
+          },
+          {
+            "common": "sea grape",
+            "latin": "Coccoloba uvifera",
+            "obs": 18,
+            "iucn": null
+          },
+          {
+            "common": "Pilosocereus armatus",
+            "latin": "Pilosocereus armatus",
+            "obs": 18,
+            "iucn": null
+          },
+          {
+            "common": "piñuela",
+            "latin": "Bromelia pinguin",
+            "obs": 15,
+            "iucn": null
+          },
+          {
+            "common": "White leadtree",
+            "latin": "Leucaena leucocephala",
+            "obs": 12,
+            "iucn": null
+          },
+          {
+            "common": "butterfly pea",
+            "latin": "Centrosema virginianum",
+            "obs": 8,
+            "iucn": null
+          },
+          {
+            "common": "Gumbo Limbo",
+            "latin": "Bursera simaruba",
+            "obs": 8,
+            "iucn": null
+          },
+          {
+            "common": "Kapok Tree",
+            "latin": "Ceiba pentandra",
+            "obs": 7,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 3,
+        "top": [
+          {
+            "common": "Common Puerto Rican Ameiva",
+            "latin": "Pholidoscelis exsul",
+            "obs": 54,
+            "iucn": null
+          },
+          {
+            "common": "Crested Anole",
+            "latin": "Anolis cristatellus",
+            "obs": 6,
+            "iucn": null
+          },
+          {
+            "common": "Puerto Rican Racer",
+            "latin": "Borikenophis portoricensis",
+            "obs": 5,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 3,
+        "top": [
+          {
+            "common": "Sally Lightfoot Crab",
+            "latin": "Grapsus grapsus",
+            "obs": 15,
+            "iucn": null
+          },
+          {
+            "common": "Caribbean Land Hermit Crab",
+            "latin": "Coenobita clypeatus",
+            "obs": 14,
+            "iucn": null
+          },
+          {
+            "common": "Tetrio Sphinx",
+            "latin": "Pseudosphinx tetrio",
+            "obs": 12,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 2,
+        "top": [
+          {
+            "common": "Pearly-eyed Thrasher",
+            "latin": "Margarops fuscatus",
+            "obs": 12,
+            "iucn": null
+          },
+          {
+            "common": "American Kestrel",
+            "latin": "Falco sparverius",
+            "obs": 9,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Fish",
+        "key": "fish",
+        "count": 2,
+        "top": [
+          {
+            "common": "Caribbean Bluehead Wrasse",
+            "latin": "Thalassoma bifasciatum",
+            "obs": 7,
+            "iucn": null
+          },
+          {
+            "common": "Atlantic Sergeant Major",
+            "latin": "Abudefduf saxatilis",
+            "obs": 5,
+            "iucn": null
+          }
+        ]
+      }
+    ]
+  },
+  "waves": {
+    "height_mean_m": [
+      1.3,
+      1.25,
+      1.08,
+      1.12,
+      0.97,
+      1.13,
+      1.3,
+      1.25,
+      1.0,
+      1.03,
+      1.17,
+      1.3
+    ],
+    "height_big_m": [
+      1.7,
+      1.78,
+      1.46,
+      1.66,
+      1.26,
+      1.42,
+      1.62,
+      1.66,
+      1.3,
+      1.52,
+      1.52,
+      1.84
+    ],
+    "period_mean_s": [
+      6.27,
+      6.35,
+      6.55,
+      6.34,
+      5.74,
+      5.54,
+      5.72,
+      5.96,
+      6.73,
+      7.06,
+      6.32,
+      6.91
+    ],
+    "summary": {
+      "annual_mean_m": 1.16,
+      "biggest_month": "Jan",
+      "biggest_month_m": 1.3,
+      "calmest_month": "May",
+      "calmest_month_m": 0.97,
+      "peak_big_day_m": 1.84,
+      "typical_period_s": 6.3,
+      "character": "Mixed — usually swimmable, with a livelier season"
+    },
+    "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Warmer than 81% of beaches in its country",
+      "detail": "Peak-month high ≈ 31°C"
+    },
+    {
+      "metric": "Worldwide",
+      "text": "Among the warmest 13% of beaches on Earth",
+      "detail": null
+    }
+  ],
+  "wikidata_id": "Q7715805",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/The_Baths",
+  "wikipedia_page_views_annual": 24964,
+  "notability_score": 29.5,
+  "data_completeness_pct": 66.7,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

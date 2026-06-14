@@ -1,35 +1,22 @@
 {
   "slug": "omaha-beach-3",
   "name": "Omaha Beach",
-  "centroid_lat": 49.368888888,
-  "centroid_lng": -0.868611111,
   "country_code": "FR",
   "admin_level_1": "Lower Normandy",
-  "admin_level_2": null,
+  "centroid_lat": 49.368888888,
+  "centroid_lng": -0.868611111,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
   "beach_length_m": 8600.0,
-  "sources": [
-    {
-      "source_name": "wikidata",
-      "source_id": "Q464257",
-      "source_url": "https://www.wikidata.org/wiki/Q464257"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/1944%20NormandyLST.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Omaha_Beach"
-    },
-    "safety": {
-      "cyclone_count_50yr": "0",
-      "cyclone_max_category": "3"
-    }
+  "slope_pct": 1.0443514585494995,
+  "nearshore_depth_m": 15.81680679321289,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Port-en-Bessin-Huppain",
   "nearest_city_distance_km": 8.6,
@@ -38,20 +25,308 @@
     "name": "Caen Carpiquet airport",
     "distance_km": 36.8
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      7.9889,
+      8.5278,
+      10.7167,
+      12.4056,
+      16.0611,
+      18.7222,
+      20.9333,
+      21.3,
+      18.9389,
+      15.4722,
+      11.3889,
+      8.9667
+    ],
+    "air_temp_low": [
+      3.05,
+      2.8778,
+      4.2667,
+      5.3611,
+      8.3278,
+      10.8722,
+      12.9611,
+      13.1556,
+      11.3944,
+      8.7944,
+      5.6889,
+      3.9778
+    ],
+    "rain_mm": [
+      83.0,
+      65.0,
+      63.0,
+      54.0,
+      58.0,
+      49.0,
+      45.0,
+      45.0,
+      69.0,
+      85.0,
+      93.0,
+      90.0
+    ],
+    "wind_speed": [
+      7.0556,
+      6.5444,
+      6.2611,
+      5.8056,
+      5.3,
+      4.9944,
+      5.0167,
+      4.9333,
+      5.4056,
+      6.0111,
+      6.2167,
+      6.6889
+    ],
+    "sun_hours": [
+      3172.0,
+      5548.0,
+      9780.0,
+      14542.0,
+      18108.0,
+      19515.0,
+      19148.0,
+      16638.0,
+      11952.0,
+      6902.0,
+      3828.0,
+      2554.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Omaha_Beach",
-  "notability_score": 42.6,
-  "data_completeness_pct": 25.0,
+  "tides": {
+    "range_spring_m": 6.128950663029485,
+    "range_neap_m": 3.010136448199967,
+    "type": "semidiurnal",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 50.9,
       "f_pct": 8.7,
       "l_pct": 40.4,
       "regime": "lithic-rich (volcanic/collisional terrane)",
+      "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 2,
+    "paragraph": "2 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1887–1963).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Omaha_Beach_-_Dog_White%2C_Dog_Green%2C_Charlie_Sectors.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Omaha_Beach_-_Dog_White%2C_Dog_Green%2C_Charlie_Sectors.jpg/1280px-Omaha_Beach_-_Dog_White%2C_Dog_Green%2C_Charlie_Sectors.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Jonovision82&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Jonovision82 (page does not exist)\">Jonovision82</a>",
+      "title": "Omaha Beach - Dog White, Dog Green, Charlie Sectors.jpg",
+      "width": 11419,
+      "height": 1401
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/The_Blue_Marble%2C_AS17-148-22727.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/The_Blue_Marble%2C_AS17-148-22727.jpg/1280px-The_Blue_Marble%2C_AS17-148-22727.jpg",
+      "license": "Public domain",
+      "author_html": "Harrison Schmitt / Apollo 17",
+      "title": "The Blue Marble, AS17-148-22727.jpg",
+      "width": 6750,
+      "height": 6750
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/American_Camp_Reconstitution_%2841875172295%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/American_Camp_Reconstitution_%2841875172295%29.jpg/1280px-American_Camp_Reconstitution_%2841875172295%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/65695019@N07\">Bernard DUPONT</a> from FRANCE",
+      "title": "American Camp Reconstitution (41875172295).jpg",
+      "width": 6304,
+      "height": 1920
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/NH_107712.tif",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/NH_107712.tif/lossy-page1-1280px-NH_107712.tif.jpg",
+      "license": "Public domain",
+      "author_html": "Official U.S. Navy Photographer",
+      "title": "NH 107712.tif",
+      "width": 6092,
+      "height": 4940
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/CGs_of_D-Day_legacy_units_unite_on_Omaha_Beach_%289090959%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/CGs_of_D-Day_legacy_units_unite_on_Omaha_Beach_%289090959%29.jpg/1280px-CGs_of_D-Day_legacy_units_unite_on_Omaha_Beach_%289090959%29.jpg",
+      "license": "Public domain",
+      "author_html": "U.S. Army National Guard photo by Sgt. 1st Class <a rel=\"nofollow\" class=\"external text\" href=\"https://www.dvidshub.net/portfolio/1008215\">Terra Gatti</a>",
+      "title": "CGs of D-Day legacy units unite on Omaha Beach (9090959).jpg",
+      "width": 6048,
+      "height": 4024
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/CGs_of_D-Day_legacy_units_unite_on_Omaha_Beach_%289090970%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGs_of_D-Day_legacy_units_unite_on_Omaha_Beach_%289090970%29.jpg/1280px-CGs_of_D-Day_legacy_units_unite_on_Omaha_Beach_%289090970%29.jpg",
+      "license": "Public domain",
+      "author_html": "U.S. Army National Guard photo by Sgt. 1st Class <a rel=\"nofollow\" class=\"external text\" href=\"https://www.dvidshub.net/portfolio/1008215\">Terra Gatti</a>",
+      "title": "CGs of D-Day legacy units unite on Omaha Beach (9090970).jpg",
+      "width": 6048,
+      "height": 4024
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/CGs_of_D-Day_legacy_units_unite_on_Omaha_Beach_%289090972%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/CGs_of_D-Day_legacy_units_unite_on_Omaha_Beach_%289090972%29.jpg/1280px-CGs_of_D-Day_legacy_units_unite_on_Omaha_Beach_%289090972%29.jpg",
+      "license": "Public domain",
+      "author_html": "U.S. Army National Guard photo by Sgt. 1st Class <a rel=\"nofollow\" class=\"external text\" href=\"https://www.dvidshub.net/portfolio/1008215\">Terra Gatti</a>",
+      "title": "CGs of D-Day legacy units unite on Omaha Beach (9090972).jpg",
+      "width": 6048,
+      "height": 4024
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/USS_Anne_Arundel_XAP_76.tif",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/USS_Anne_Arundel_XAP_76.tif/lossy-page1-1280px-USS_Anne_Arundel_XAP_76.tif.jpg",
+      "license": "Public domain",
+      "author_html": "US Navy photographer",
+      "title": "USS Anne Arundel XAP 76.tif",
+      "width": 6026,
+      "height": 4956
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 15.81680679321289
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 11,
+        "top": [
+          {
+            "common": "Black-headed Gull",
+            "latin": "Chroicocephalus ridibundus",
+            "obs": 28,
+            "iucn": null
+          },
+          {
+            "common": "House Sparrow",
+            "latin": "Passer domesticus",
+            "obs": 24,
+            "iucn": null
+          },
+          {
+            "common": "Common Chaffinch",
+            "latin": "Fringilla coelebs",
+            "obs": 16,
+            "iucn": null
+          },
+          {
+            "common": "White Wagtail",
+            "latin": "Motacilla alba",
+            "obs": 15,
+            "iucn": null
+          },
+          {
+            "common": "European Robin",
+            "latin": "Erithacus rubecula",
+            "obs": 8,
+            "iucn": null
+          },
+          {
+            "common": "Common Moorhen",
+            "latin": "Gallinula chloropus",
+            "obs": 8,
+            "iucn": null
+          },
+          {
+            "common": "European Herring Gull",
+            "latin": "Larus argentatus",
+            "obs": 8,
+            "iucn": null
+          },
+          {
+            "common": "Mallard",
+            "latin": "Anas platyrhynchos",
+            "obs": 7,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 6,
+        "top": [
+          {
+            "common": "Compass Jelly",
+            "latin": "Chrysaora hysoscella",
+            "obs": 15,
+            "iucn": null
+          },
+          {
+            "common": "Dustbin-lid Jelly",
+            "latin": "Rhizostoma octopus",
+            "obs": 11,
+            "iucn": null
+          },
+          {
+            "common": "White Italian Snail",
+            "latin": "Theba pisana",
+            "obs": 9,
+            "iucn": null
+          },
+          {
+            "common": "European Common Cuttlefish",
+            "latin": "Sepia officinalis",
+            "obs": 7,
+            "iucn": null
+          },
+          {
+            "common": "European Green Crab",
+            "latin": "Carcinus maenas",
+            "obs": 6,
+            "iucn": null
+          },
+          {
+            "common": "Common Whelk",
+            "latin": "Buccinum undatum",
+            "obs": 6,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 3,
+        "top": [
+          {
+            "common": "rugosa rose",
+            "latin": "Rosa rugosa",
+            "obs": 12,
+            "iucn": null
+          },
+          {
+            "common": "Sea Spurge",
+            "latin": "Euphorbia paralias",
+            "obs": 8,
+            "iucn": null
+          },
+          {
+            "common": "Hare's Tail Grass",
+            "latin": "Lagurus ovatus",
+            "obs": 7,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -107,5 +382,25 @@
       "character": "Calm — gentle swimming water most of the year"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 83% of beaches in its country",
+      "detail": "Peak-month high ≈ 21°C"
+    }
+  ],
+  "wikidata_id": "Q464257",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Omaha_Beach",
+  "wikipedia_page_views_annual": 496742,
+  "notability_score": 42.6,
+  "data_completeness_pct": 58.3,
+  "best_months": [
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep"
+  ],
+  "swim_suitability": "fair"
 }

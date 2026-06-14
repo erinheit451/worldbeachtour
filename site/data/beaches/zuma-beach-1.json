@@ -1,35 +1,21 @@
 {
   "slug": "zuma-beach-1",
   "name": "Zuma Beach",
-  "centroid_lat": 34.0162,
-  "centroid_lng": -118.822,
   "country_code": "US",
   "admin_level_1": "California",
-  "admin_level_2": null,
+  "centroid_lat": 34.0162,
+  "centroid_lng": -118.822,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "wikidata",
-      "source_id": "Q8075217",
-      "source_url": "https://www.wikidata.org/wiki/Q8075217"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Zuma%20Beach%2C%20Malibu.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Zuma_Beach"
-    },
-    "safety": {
-      "cyclone_count_50yr": "1",
-      "cyclone_max_category": "4"
-    }
+  "slope_pct": 3.880465602874756,
+  "nearshore_depth_m": 98.20120239257812,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Malibu",
   "nearest_city_distance_km": 1.7,
@@ -38,21 +24,321 @@
     "name": "Point Mugu Naval Air Station (Naval Base Ventura Co)",
     "distance_km": 29.9
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      18.2526,
+      18.1526,
+      18.1211,
+      19.5526,
+      19.9737,
+      21.2632,
+      23.9105,
+      24.9474,
+      24.7842,
+      23.6526,
+      20.9842,
+      18.7316
+    ],
+    "air_temp_low": [
+      8.3,
+      8.4947,
+      8.7368,
+      9.5632,
+      11.0737,
+      12.5579,
+      14.3842,
+      15.2105,
+      14.9579,
+      13.1421,
+      10.0211,
+      8.0421
+    ],
+    "rain_mm": [
+      73.0,
+      68.0,
+      57.0,
+      21.0,
+      2.0,
+      1.0,
+      0.0,
+      1.0,
+      4.0,
+      6.0,
+      49.0,
+      49.0
+    ],
+    "wind_speed": [
+      3.5,
+      3.8105,
+      4.0789,
+      4.2,
+      4.1,
+      3.9526,
+      3.8211,
+      3.6632,
+      3.5895,
+      3.3526,
+      3.6,
+      3.4158
+    ],
+    "sun_hours": [
+      9784.0,
+      12107.0,
+      16739.0,
+      21623.0,
+      22844.0,
+      23637.0,
+      24265.0,
+      23297.0,
+      18996.0,
+      14581.0,
+      11447.0,
+      9368.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Zuma_Beach",
-  "notability_score": 28.6,
-  "data_completeness_pct": 16.7,
+  "tides": {
+    "range_spring_m": 1.3813546561654713,
+    "range_neap_m": 0.6041347444912963,
+    "type": "mixed",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 73.1,
       "f_pct": 12.9,
       "l_pct": 14.0,
       "regime": "mixed Q-F-L",
+      "regime_plain": "Mixed q-f-l",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 1,
+    "paragraph": "1 tropical-cyclone track have passed within range of this coast in the historical record (IBTrACS, 1978–1978).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/SURB23_Surfing_with_Merritt_family_zuma_beach_15_July_-10_%2853053637410%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/SURB23_Surfing_with_Merritt_family_zuma_beach_15_July_-10_%2853053637410%29.jpg/1280px-SURB23_Surfing_with_Merritt_family_zuma_beach_15_July_-10_%2853053637410%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/67777098@N04\">stephen davis</a>",
+      "title": "SURB23 Surfing with Merritt family zuma beach 15 July -10 (53053637410).jpg",
+      "width": 8192,
+      "height": 5464
     },
-    "description": "One of the largest and most popular beaches in Los Angeles County, California, it is known for its long, wide sands and excellent surf."
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/SURB23_Surfing_with_Merritt_family_zuma_beach_15_July_-101_%2853053640495%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/SURB23_Surfing_with_Merritt_family_zuma_beach_15_July_-101_%2853053640495%29.jpg/1280px-SURB23_Surfing_with_Merritt_family_zuma_beach_15_July_-101_%2853053640495%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/67777098@N04\">stephen davis</a>",
+      "title": "SURB23 Surfing with Merritt family zuma beach 15 July -101 (53053640495).jpg",
+      "width": 8192,
+      "height": 5464
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/SURB23_Surfing_with_Merritt_family_zuma_beach_15_July_-111_%2853052675332%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/SURB23_Surfing_with_Merritt_family_zuma_beach_15_July_-111_%2853052675332%29.jpg/1280px-SURB23_Surfing_with_Merritt_family_zuma_beach_15_July_-111_%2853052675332%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/67777098@N04\">stephen davis</a>",
+      "title": "SURB23 Surfing with Merritt family zuma beach 15 July -111 (53052675332).jpg",
+      "width": 8192,
+      "height": 5464
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/SURB23_Surfing_with_Merritt_family_zuma_beach_15_July_-112_%2853053738748%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/SURB23_Surfing_with_Merritt_family_zuma_beach_15_July_-112_%2853053738748%29.jpg/1280px-SURB23_Surfing_with_Merritt_family_zuma_beach_15_July_-112_%2853053738748%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/67777098@N04\">stephen davis</a>",
+      "title": "SURB23 Surfing with Merritt family zuma beach 15 July -112 (53053738748).jpg",
+      "width": 8192,
+      "height": 5464
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/SURB23_Surfing_with_Merritt_family_zuma_beach_15_July_-128_%2853053263161%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/SURB23_Surfing_with_Merritt_family_zuma_beach_15_July_-128_%2853053263161%29.jpg/1280px-SURB23_Surfing_with_Merritt_family_zuma_beach_15_July_-128_%2853053263161%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/67777098@N04\">stephen davis</a>",
+      "title": "SURB23 Surfing with Merritt family zuma beach 15 July -128 (53053263161).jpg",
+      "width": 8192,
+      "height": 5464
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/SURB23_Surfing_with_Merritt_family_zuma_beach_15_July_%2853052671047%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/SURB23_Surfing_with_Merritt_family_zuma_beach_15_July_%2853052671047%29.jpg/1280px-SURB23_Surfing_with_Merritt_family_zuma_beach_15_July_%2853052671047%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/67777098@N04\">stephen davis</a>",
+      "title": "SURB23 Surfing with Merritt family zuma beach 15 July (53052671047).jpg",
+      "width": 7394,
+      "height": 4620
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/SURB23_Surfing_with_Merritt_family_zuma_beach_15_July_-12_%2853053637430%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/SURB23_Surfing_with_Merritt_family_zuma_beach_15_July_-12_%2853053637430%29.jpg/1280px-SURB23_Surfing_with_Merritt_family_zuma_beach_15_July_-12_%2853053637430%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/67777098@N04\">stephen davis</a>",
+      "title": "SURB23 Surfing with Merritt family zuma beach 15 July -12 (53053637430).jpg",
+      "width": 7257,
+      "height": 4127
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/SURB23_Surfing_with_Merritt_family_zuma_beach_15_July_-13_%2853053637405%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/SURB23_Surfing_with_Merritt_family_zuma_beach_15_July_-13_%2853053637405%29.jpg/1280px-SURB23_Surfing_with_Merritt_family_zuma_beach_15_July_-13_%2853053637405%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/67777098@N04\">stephen davis</a>",
+      "title": "SURB23 Surfing with Merritt family zuma beach 15 July -13 (53053637405).jpg",
+      "width": 6503,
+      "height": 4213
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 98.20120239257812
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 10,
+        "top": [
+          {
+            "common": "Western Gull",
+            "latin": "Larus occidentalis",
+            "obs": 175,
+            "iucn": null
+          },
+          {
+            "common": "Heermann's Gull",
+            "latin": "Larus heermanni",
+            "obs": 164,
+            "iucn": null
+          },
+          {
+            "common": "Royal Tern",
+            "latin": "Thalasseus maximus",
+            "obs": 78,
+            "iucn": null
+          },
+          {
+            "common": "Brown Pelican",
+            "latin": "Pelecanus occidentalis",
+            "obs": 66,
+            "iucn": null
+          },
+          {
+            "common": "Sanderling",
+            "latin": "Calidris alba",
+            "obs": 62,
+            "iucn": null
+          },
+          {
+            "common": "Willet",
+            "latin": "Tringa semipalmata",
+            "obs": 49,
+            "iucn": null
+          },
+          {
+            "common": "Red-tailed Hawk",
+            "latin": "Buteo jamaicensis",
+            "obs": 47,
+            "iucn": null
+          },
+          {
+            "common": "Ring-billed Gull",
+            "latin": "Larus delawarensis",
+            "obs": 37,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 7,
+        "top": [
+          {
+            "common": "beach suncup",
+            "latin": "Camissoniopsis cheiranthifolia",
+            "obs": 96,
+            "iucn": null
+          },
+          {
+            "common": "California brittlebush",
+            "latin": "Encelia californica",
+            "obs": 73,
+            "iucn": null
+          },
+          {
+            "common": "European Searocket",
+            "latin": "Cakile maritima",
+            "obs": 61,
+            "iucn": null
+          },
+          {
+            "common": "Pink Sand Verbena",
+            "latin": "Abronia umbellata",
+            "obs": 55,
+            "iucn": null
+          },
+          {
+            "common": "silver beachweed",
+            "latin": "Ambrosia chamissonis",
+            "obs": 47,
+            "iucn": null
+          },
+          {
+            "common": "tree tobacco",
+            "latin": "Nicotiana glauca",
+            "obs": 41,
+            "iucn": null
+          },
+          {
+            "common": "giant coreopsis",
+            "latin": "Leptosyne gigantea",
+            "obs": 38,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 2,
+        "top": [
+          {
+            "common": "Pacific Sand Crab",
+            "latin": "Emerita analoga",
+            "obs": 63,
+            "iucn": null
+          },
+          {
+            "common": "By-the-wind Sailor",
+            "latin": "Velella velella",
+            "obs": 39,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Other",
+        "key": "other",
+        "count": 1,
+        "top": [
+          {
+            "common": "Giant Kelp",
+            "latin": "Macrocystis pyrifera",
+            "obs": 55,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -108,5 +394,33 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 79% of beaches in its country",
+      "detail": "Peak-month high ≈ 25°C"
+    },
+    {
+      "metric": "Beach season",
+      "text": "Longer beach season than 79% of beaches in its country",
+      "detail": "8 comfortable months a year"
+    }
+  ],
+  "wikidata_id": "Q8075217",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Zuma_Beach",
+  "wikipedia_page_views_annual": 34742,
+  "notability_score": 28.6,
+  "data_completeness_pct": 58.3,
+  "best_months": [
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct",
+    "nov"
+  ],
+  "swim_suitability": "fair"
 }

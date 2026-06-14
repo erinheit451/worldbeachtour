@@ -1,43 +1,21 @@
 {
   "slug": "papakolea-beach",
   "name": "Papakōlea Beach",
-  "centroid_lat": 18.9357094,
-  "centroid_lng": -155.6462885,
   "country_code": "US",
   "admin_level_1": "Hawaii",
-  "admin_level_2": null,
+  "centroid_lat": 18.9357094,
+  "centroid_lng": -155.6462885,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/536041576",
-      "source_url": "https://www.openstreetmap.org/way/536041576"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q7132406",
-      "source_url": "https://www.wikidata.org/wiki/Q7132406"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "facilities": {
-      "wheelchair_access": false
-    },
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Green%20Sand%20Beach%20%28Papakolea%20Beach%29%20%2817905163884%29.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Papak%C5%8Dlea_Beach"
-    },
-    "safety": {
-      "cyclone_count_50yr": "8",
-      "cyclone_max_category": "4"
-    }
+  "slope_pct": 7.205646896362304,
+  "nearshore_depth_m": 115.01847839355469,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Hawaiian Ocean View",
   "nearest_city_distance_km": 19.3,
@@ -46,35 +24,293 @@
     "name": "Ellison Onizuka Kona International Airport at Keāhole",
     "distance_km": 98.6
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      26.75,
+      26.7313,
+      26.95,
+      27.2563,
+      28.2625,
+      28.85,
+      29.5688,
+      29.8563,
+      29.9813,
+      29.4062,
+      28.125,
+      27.2062
+    ],
+    "air_temp_low": [
+      18.0,
+      17.9937,
+      18.5562,
+      19.0438,
+      19.55,
+      20.3,
+      20.9,
+      21.225,
+      21.075,
+      20.775,
+      20.0875,
+      18.975
+    ],
+    "rain_mm": [
+      114.0,
+      87.0,
+      110.0,
+      134.0,
+      112.0,
+      77.0,
+      113.0,
+      132.0,
+      84.0,
+      97.0,
+      84.0,
+      126.0
+    ],
+    "wind_speed": [
+      5.6812,
+      5.7875,
+      6.2562,
+      6.1875,
+      5.9812,
+      6.2688,
+      6.3938,
+      6.2812,
+      5.8812,
+      5.95,
+      5.9812,
+      5.9563
+    ],
+    "sun_hours": [
+      14500.0,
+      16931.0,
+      18622.0,
+      20542.0,
+      21579.0,
+      21831.0,
+      21224.0,
+      20694.0,
+      19425.0,
+      17162.0,
+      14369.0,
+      13753.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "facilities": {
-    "wheelchair_accessible": false
+  "tides": {
+    "range_spring_m": 0.6634039374462637,
+    "range_neap_m": 0.2901654498613497,
+    "type": "mixed",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Papak%C5%8Dlea_Beach",
-  "notability_score": 24.7,
-  "data_completeness_pct": 16.7,
   "sand": {
     "predicted": {
       "q_pct": null,
       "f_pct": null,
       "l_pct": null,
       "regime": "unknown",
+      "regime_plain": null,
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
-    },
-    "color": "green",
-    "description": "Unlike cinder cones, tuff rings consist mostly of volcanic ash produced by violent interactions of magma with groundwater (Diamond Head, on the Island of Oahu, is another example of a tuff ring).",
-    "curated": {
-      "story": "Papakolea is one of only four green-sand beaches on Earth. The color comes from olivine crystals — a silicate of iron and magnesium — eroded out of the nearby Puu Mahana cinder cone. Olivine is denser than the surrounding basaltic ash, so it accumulates here instead of being washed out to sea.",
-      "citations": [
-        "https://en.wikipedia.org/wiki/Papak%C5%8Dlea_Beach",
-        "https://pubs.usgs.gov/publication/70045583"
-      ],
-      "showcase_rank": 1,
-      "reference_photo_url": "https://commons.wikimedia.org/wiki/File:Green_Sand_Beach_-_panoramio.jpg",
-      "reference_photo_attribution": "Wikimedia Commons, CC BY-SA"
     }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 8,
+    "paragraph": "8 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1982–2024).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Papakolea_Beach%2C_Hawaii.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Papakolea_Beach%2C_Hawaii.jpg/1280px-Papakolea_Beach%2C_Hawaii.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Madereugeneandrew&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Madereugeneandrew (page does not exist)\">Madereugeneandrew</a>",
+      "title": "Papakolea Beach, Hawaii.jpg",
+      "width": 8192,
+      "height": 1856
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Accessing_the_Green_Sands_Beach_from_the_west_across_pastureland.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Accessing_the_Green_Sands_Beach_from_the_west_across_pastureland.JPG/1280px-Accessing_the_Green_Sands_Beach_from_the_west_across_pastureland.JPG",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Madereugeneandrew&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Madereugeneandrew (page does not exist)\">Madereugeneandrew</a>",
+      "title": "Accessing the Green Sands Beach from the west across pastureland.JPG",
+      "width": 8192,
+      "height": 1856
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Papak%C5%8Dlea_Green_Sand_Beach%2C_Hawaii.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Papak%C5%8Dlea_Green_Sand_Beach%2C_Hawaii.jpg/1280px-Papak%C5%8Dlea_Green_Sand_Beach%2C_Hawaii.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "Pedro Szekely",
+      "title": "Papakōlea Green Sand Beach, Hawaii.jpg",
+      "width": 7341,
+      "height": 4896
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Papakolea_Beach_-_South_Point%2C_Kona_%28Big_Island%29%2C_Hawaii.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Papakolea_Beach_-_South_Point%2C_Kona_%28Big_Island%29%2C_Hawaii.jpg/1280px-Papakolea_Beach_-_South_Point%2C_Kona_%28Big_Island%29%2C_Hawaii.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Natarajanganesan\" title=\"User:Natarajanganesan\">Natarajanganesan</a>",
+      "title": "Papakolea Beach - South Point, Kona (Big Island), Hawaii.jpg",
+      "width": 6688,
+      "height": 1664
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/GreenSand.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/GreenSand.JPG/1280px-GreenSand.JPG",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Tomintx&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tomintx (page does not exist)\">Tomintx</a>",
+      "title": "GreenSand.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/OliveneCrystals.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/OliveneCrystals.JPG/1280px-OliveneCrystals.JPG",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Tomintx&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tomintx (page does not exist)\">Tomintx</a>",
+      "title": "OliveneCrystals.JPG",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Papak%C5%8Dlea_Green_Sand_Beach%2C_Hawaii_%2851818858849%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Papak%C5%8Dlea_Green_Sand_Beach%2C_Hawaii_%2851818858849%29.jpg/1280px-Papak%C5%8Dlea_Green_Sand_Beach%2C_Hawaii_%2851818858849%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/43355249@N00\">Pedro Szekely</a> from Los Angeles, USA",
+      "title": "Papakōlea Green Sand Beach, Hawaii (51818858849).jpg",
+      "width": 5932,
+      "height": 4299
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Following_rough_paths_to_the_Green_Sand_Beach.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Following_rough_paths_to_the_Green_Sand_Beach.jpg/1280px-Following_rough_paths_to_the_Green_Sand_Beach.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Madereugeneandrew&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Madereugeneandrew (page does not exist)\">Madereugeneandrew</a>",
+      "title": "Following rough paths to the Green Sand Beach.jpg",
+      "width": 4912,
+      "height": 3264
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 115.01847839355469
+  },
+  "facilities": {
+    "wheelchair": false
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 14,
+        "top": [
+          {
+            "common": "yellow ʻilima",
+            "latin": "Sida fallax",
+            "obs": 41,
+            "iucn": null
+          },
+          {
+            "common": "pāʻū o Hiʻiaka",
+            "latin": "Jacquemontia sandwicensis",
+            "obs": 22,
+            "iucn": null
+          },
+          {
+            "common": "sea purslane",
+            "latin": "Sesuvium portulacastrum",
+            "obs": 17,
+            "iucn": null
+          },
+          {
+            "common": "Purple Bush-Bean",
+            "latin": "Macroptilium atropurpureum",
+            "obs": 15,
+            "iucn": null
+          },
+          {
+            "common": "beach naupaka",
+            "latin": "Scaevola taccada",
+            "obs": 13,
+            "iucn": null
+          },
+          {
+            "common": "common lantana",
+            "latin": "Lantana camara",
+            "obs": 9,
+            "iucn": null
+          },
+          {
+            "common": "alkali heliotrope",
+            "latin": "Heliotropium curassavicum",
+            "obs": 9,
+            "iucn": null
+          },
+          {
+            "common": "tree heliotrope",
+            "latin": "Heliotropium arboreum",
+            "obs": 9,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 3,
+        "top": [
+          {
+            "common": "Pacific Golden-Plover",
+            "latin": "Pluvialis fulva",
+            "obs": 21,
+            "iucn": null
+          },
+          {
+            "common": "Eurasian Skylark",
+            "latin": "Alauda arvensis",
+            "obs": 7,
+            "iucn": null
+          },
+          {
+            "common": "Ruddy Turnstone",
+            "latin": "Arenaria interpres",
+            "obs": 3,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 3,
+        "top": [
+          {
+            "common": "Dotted Periwinkle",
+            "latin": "Littoraria pintado",
+            "obs": 6,
+            "iucn": null
+          },
+          {
+            "common": "Oedaleus abruptus",
+            "latin": "Oedaleus abruptus",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Gray Bird Grasshopper",
+            "latin": "Schistocerca nitens",
+            "obs": 3,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -130,5 +366,37 @@
       "character": "Exposed — real surf, and rip current to respect"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Warmer than 73% of beaches in its country",
+      "detail": "Peak-month high ≈ 30°C"
+    },
+    {
+      "metric": "Beach season",
+      "text": "Longer beach season than 96% of beaches in its country",
+      "detail": "12 comfortable months a year"
+    }
+  ],
+  "wikidata_id": "Q7132406",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Papak%C5%8Dlea_Beach",
+  "wikipedia_page_views_annual": 9397,
+  "notability_score": 24.7,
+  "data_completeness_pct": 62.5,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

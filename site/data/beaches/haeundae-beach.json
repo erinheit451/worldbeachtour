@@ -1,35 +1,21 @@
 {
   "slug": "haeundae-beach",
   "name": "Haeundae Beach",
-  "centroid_lat": 35.158552435,
-  "centroid_lng": 129.160539102,
   "country_code": "KR",
   "admin_level_1": "Busan",
-  "admin_level_2": null,
+  "centroid_lat": 35.158552435,
+  "centroid_lng": 129.160539102,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "wikidata",
-      "source_id": "Q491203",
-      "source_url": "https://www.wikidata.org/wiki/Q491203"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Haeundae%20Beach%20in%20Busan.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Haeundae_Beach"
-    },
-    "safety": {
-      "cyclone_count_50yr": "41",
-      "cyclone_max_category": "4"
-    }
+  "slope_pct": 0.9805464267730712,
+  "nearshore_depth_m": 9.125,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Kijang",
   "nearest_city_distance_km": 10.7,
@@ -38,26 +24,321 @@
     "name": "Gimhae International Airport",
     "distance_km": 20.4
   },
-  "safety": {
-    "lifeguard": true,
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      7.3429,
+      8.7,
+      12.4571,
+      17.7714,
+      21.9857,
+      24.2857,
+      27.4571,
+      29.1,
+      25.6429,
+      21.4286,
+      15.5143,
+      10.0429
+    ],
+    "air_temp_low": [
+      -1.2714,
+      0.0,
+      3.9,
+      8.9286,
+      13.2286,
+      17.3286,
+      21.5714,
+      22.6571,
+      18.3714,
+      12.4857,
+      6.3571,
+      0.9714
+    ],
+    "rain_mm": [
+      36.0,
+      46.0,
+      77.0,
+      124.0,
+      131.0,
+      206.0,
+      243.0,
+      226.0,
+      166.0,
+      61.0,
+      55.0,
+      25.0
+    ],
+    "wind_speed": [
+      3.2,
+      3.1429,
+      3.6714,
+      3.6429,
+      3.1,
+      2.7857,
+      2.9,
+      2.9286,
+      2.8429,
+      2.7,
+      2.6571,
+      2.8286
+    ],
+    "sun_hours": [
+      8856.0,
+      10921.0,
+      13179.0,
+      16485.0,
+      18155.0,
+      16791.0,
+      15514.0,
+      16243.0,
+      13345.0,
+      12314.0,
+      9400.0,
+      8289.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "facilities": {
-    "parking": true,
-    "restrooms": true
+  "tides": {
+    "range_spring_m": 0.8188038407796947,
+    "range_neap_m": 0.2972798092461251,
+    "type": "semidiurnal",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Haeundae_Beach",
-  "notability_score": 29.3,
-  "data_completeness_pct": 29.2,
   "sand": {
     "predicted": {
       "q_pct": 5.7,
       "f_pct": 42.6,
       "l_pct": 51.7,
       "regime": "lithic-rich (volcanic/collisional terrane)",
+      "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 62,
+    "paragraph": "62 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1919–2023).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Haeundae_Beach_Busan_%2845698773822%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Haeundae_Beach_Busan_%2845698773822%29.jpg/1280px-Haeundae_Beach_Busan_%2845698773822%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/91049143@N00\">bryan...</a>",
+      "title": "Haeundae Beach Busan (45698773822).jpg",
+      "width": 6720,
+      "height": 4480
     },
-    "description": "There is also Haeundae Sand Festival, the only sand-related eco-festival in Korea, during which artwork made of sand is featured and activities are available for visitors."
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Haeundae_Beach_Busan_%2843931400330%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Haeundae_Beach_Busan_%2843931400330%29.jpg/1280px-Haeundae_Beach_Busan_%2843931400330%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/91049143@N00\">bryan...</a>",
+      "title": "Haeundae Beach Busan (43931400330).jpg",
+      "width": 6720,
+      "height": 4480
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Haeundae_Beach_Busan_%2845698773262%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Haeundae_Beach_Busan_%2845698773262%29.jpg/1280px-Haeundae_Beach_Busan_%2845698773262%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/91049143@N00\">bryan...</a>",
+      "title": "Haeundae Beach Busan (45698773262).jpg",
+      "width": 6720,
+      "height": 4480
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Haeundae_Beach_Busan_%2831877271558%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Haeundae_Beach_Busan_%2831877271558%29.jpg/1280px-Haeundae_Beach_Busan_%2831877271558%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/91049143@N00\">bryan...</a>",
+      "title": "Haeundae Beach Busan (31877271558).jpg",
+      "width": 6720,
+      "height": 4480
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Haeundae_Beach_Busan_%2831877271178%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Haeundae_Beach_Busan_%2831877271178%29.jpg/1280px-Haeundae_Beach_Busan_%2831877271178%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/91049143@N00\">bryan...</a>",
+      "title": "Haeundae Beach Busan (31877271178).jpg",
+      "width": 6720,
+      "height": 4480
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Haeundae_Beach_Busan_%2843931399670%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Haeundae_Beach_Busan_%2843931399670%29.jpg/1280px-Haeundae_Beach_Busan_%2843931399670%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/91049143@N00\">bryan...</a>",
+      "title": "Haeundae Beach Busan (43931399670).jpg",
+      "width": 6720,
+      "height": 4480
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Haeundae_Beach_Busan_%2845698772572%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Haeundae_Beach_Busan_%2845698772572%29.jpg/1280px-Haeundae_Beach_Busan_%2845698772572%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/91049143@N00\">bryan...</a>",
+      "title": "Haeundae Beach Busan (45698772572).jpg",
+      "width": 6720,
+      "height": 4480
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Haeundae_Beach_Busan_%2831877268238%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Haeundae_Beach_Busan_%2831877268238%29.jpg/1280px-Haeundae_Beach_Busan_%2831877268238%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/91049143@N00\">bryan...</a>",
+      "title": "Haeundae Beach Busan (31877268238).jpg",
+      "width": 6720,
+      "height": 4480
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 9.125,
+    "lifeguard": true
+  },
+  "facilities": {
+    "parking": true,
+    "restrooms": true,
+    "food_nearby": true
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 11,
+        "top": [
+          {
+            "common": "Black-headed Gull",
+            "latin": "Chroicocephalus ridibundus",
+            "obs": 48,
+            "iucn": null
+          },
+          {
+            "common": "Large-billed Crow",
+            "latin": "Corvus macrorhynchos",
+            "obs": 20,
+            "iucn": null
+          },
+          {
+            "common": "Rock Pigeon",
+            "latin": "Columba livia",
+            "obs": 19,
+            "iucn": null
+          },
+          {
+            "common": "Oriental Magpie",
+            "latin": "Pica serica",
+            "obs": 18,
+            "iucn": null
+          },
+          {
+            "common": "Black-tailed Gull",
+            "latin": "Larus crassirostris",
+            "obs": 13,
+            "iucn": null
+          },
+          {
+            "common": "Brown-eared Bulbul",
+            "latin": "Hypsipetes amaurotis",
+            "obs": 12,
+            "iucn": null
+          },
+          {
+            "common": "Grey Heron",
+            "latin": "Ardea cinerea",
+            "obs": 11,
+            "iucn": null
+          },
+          {
+            "common": "Daurian Redstart",
+            "latin": "Phoenicurus auroreus",
+            "obs": 11,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 7,
+        "top": [
+          {
+            "common": "Joro Spider",
+            "latin": "Trichonephila clavata",
+            "obs": 23,
+            "iucn": null
+          },
+          {
+            "common": "Umbonium costatum",
+            "latin": "Umbonium costatum",
+            "obs": 8,
+            "iucn": null
+          },
+          {
+            "common": "Wharf Louse",
+            "latin": "Ligia exotica",
+            "obs": 7,
+            "iucn": null
+          },
+          {
+            "common": "Common Bluebottle",
+            "latin": "Graphium sarpedon",
+            "obs": 7,
+            "iucn": null
+          },
+          {
+            "common": "Sunray Surfclam",
+            "latin": "Mactra chinensis",
+            "obs": 7,
+            "iucn": null
+          },
+          {
+            "common": "Geisha distinctissima",
+            "latin": "Geisha distinctissima",
+            "obs": 6,
+            "iucn": null
+          },
+          {
+            "common": "Coptothyris grayi",
+            "latin": "Coptothyris grayi",
+            "obs": 5,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Mammals",
+        "key": "mammal",
+        "count": 1,
+        "top": [
+          {
+            "common": "Domestic Cat",
+            "latin": "Felis catus",
+            "obs": 9,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 1,
+        "top": [
+          {
+            "common": "Japanese camellia",
+            "latin": "Camellia japonica",
+            "obs": 5,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -113,5 +394,27 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Warmer than 85% of beaches in its country",
+      "detail": "Peak-month high ≈ 29°C"
+    }
+  ],
+  "wikidata_id": "Q491203",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Haeundae_Beach",
+  "wikipedia_page_views_annual": 40339,
+  "notability_score": 29.3,
+  "data_completeness_pct": 66.7,
+  "best_months": [
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct"
+  ],
+  "swim_suitability": "fair"
 }

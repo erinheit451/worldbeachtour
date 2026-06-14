@@ -1,35 +1,21 @@
 {
   "slug": "anse-lazio",
   "name": "Anse Lazio",
-  "centroid_lat": -4.293611,
-  "centroid_lng": 55.701667,
   "country_code": "SC",
   "admin_level_1": "English River",
-  "admin_level_2": null,
+  "centroid_lat": -4.293611,
+  "centroid_lng": 55.701667,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "wikidata",
-      "source_id": "Q949218",
-      "source_url": "https://www.wikidata.org/wiki/Q949218"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Seychelles%20praslin%20anselazio.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Anse_Lazio"
-    },
-    "safety": {
-      "cyclone_count_50yr": "1",
-      "cyclone_max_category": "TS"
-    }
+  "slope_pct": 2.8387526988983156,
+  "nearshore_depth_m": 15.635466575622559,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Victoria",
   "nearest_city_distance_km": 45.5,
@@ -38,20 +24,335 @@
     "name": "Praslin Island Airport",
     "distance_km": 3.1
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      29.6308,
+      29.9692,
+      30.5846,
+      31.0385,
+      30.2077,
+      28.6615,
+      27.8923,
+      27.9231,
+      28.5231,
+      29.1769,
+      29.6769,
+      29.8615
+    ],
+    "air_temp_low": [
+      23.9462,
+      24.4769,
+      24.7077,
+      24.9077,
+      25.1462,
+      24.3615,
+      23.6462,
+      23.5769,
+      23.9538,
+      24.1308,
+      23.8462,
+      23.8
+    ],
+    "rain_mm": [
+      366.0,
+      269.0,
+      186.0,
+      171.0,
+      148.0,
+      95.0,
+      84.0,
+      134.0,
+      142.0,
+      187.0,
+      209.0,
+      284.0
+    ],
+    "wind_speed": [
+      3.8385,
+      4.4769,
+      3.7462,
+      3.7077,
+      4.6154,
+      5.9923,
+      6.2385,
+      6.0231,
+      4.9615,
+      4.3846,
+      3.8231,
+      4.2462
+    ],
+    "sun_hours": [
+      20294.0,
+      21525.0,
+      21677.0,
+      21325.0,
+      20206.0,
+      19680.0,
+      19961.0,
+      21332.0,
+      22704.0,
+      23141.0,
+      21670.0,
+      20185.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Anse_Lazio",
-  "notability_score": 23.8,
-  "data_completeness_pct": 16.7,
+  "tides": {
+    "range_spring_m": 1.0153439653372915,
+    "range_neap_m": 0.38242989324346194,
+    "type": "mixed",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": null,
       "f_pct": null,
       "l_pct": null,
       "regime": "unknown",
+      "regime_plain": null,
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 2,
+    "paragraph": "2 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1862–2002).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Anse_Lazio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Anse_Lazio.jpg/1280px-Anse_Lazio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Didi0032&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Didi0032 (page does not exist)\">Didi0032</a>",
+      "title": "Anse Lazio.jpg",
+      "width": 7160,
+      "height": 1694
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Anse_Lazio-Praslin-Seychellen.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Anse_Lazio-Praslin-Seychellen.jpg/1280px-Anse_Lazio-Praslin-Seychellen.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "Tobias Alt, <a href=\"//commons.wikimedia.org/wiki/User:Tobi_87\" title=\"User:Tobi 87\">Tobi 87</a>",
+      "title": "Anse Lazio-Praslin-Seychellen.jpg",
+      "width": 6789,
+      "height": 3605
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Traumstrand_Anse_Lazio%2C_Praslin_Seychellen_%2825746003328%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Traumstrand_Anse_Lazio%2C_Praslin_Seychellen_%2825746003328%29.jpg/1280px-Traumstrand_Anse_Lazio%2C_Praslin_Seychellen_%2825746003328%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/132646954@N02\">dronepicr</a>",
+      "title": "Traumstrand Anse Lazio, Praslin Seychellen (25746003328).jpg",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Beach_Anse_Lazio%2C_Praslin_Seychelles_%2839587592322%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Beach_Anse_Lazio%2C_Praslin_Seychelles_%2839587592322%29.jpg/1280px-Beach_Anse_Lazio%2C_Praslin_Seychelles_%2839587592322%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/132646954@N02\">dronepicr</a>",
+      "title": "Beach Anse Lazio, Praslin Seychelles (39587592322).jpg",
+      "width": 5696,
+      "height": 3797
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Anse_Lazio_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Anse_Lazio_-_panoramio.jpg/1280px-Anse_Lazio_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161010124514/http://www.panoramio.com/user/1559678?with_photo_id=8967605\">rokker</a>",
+      "title": "Anse Lazio - panoramio.jpg",
+      "width": 4926,
+      "height": 1400
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Anse_Lazio_-_panoramio_-_rokker.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Anse_Lazio_-_panoramio_-_rokker.jpg/1280px-Anse_Lazio_-_panoramio_-_rokker.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161012003837/http://www.panoramio.com/user/1559678?with_photo_id=8967986\">rokker</a>",
+      "title": "Anse Lazio - panoramio - rokker.jpg",
+      "width": 4175,
+      "height": 1488
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Anse_Lazio_Praslin_Seychelles_2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Anse_Lazio_Praslin_Seychelles_2.jpg/1280px-Anse_Lazio_Praslin_Seychelles_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Botev\" title=\"User:Botev\">Radosław Botev</a>",
+      "title": "Anse Lazio Praslin Seychelles 2.jpg",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Anse_Lazio_Praslin_1.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Anse_Lazio_Praslin_1.jpg/1280px-Anse_Lazio_Praslin_1.jpg",
+      "license": "CC BY 3.0 pl",
+      "author_html": "Radosław Botev",
+      "title": "Anse Lazio Praslin 1.jpg",
+      "width": 4000,
+      "height": 3000
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 15.635466575622559
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Fish",
+        "key": "fish",
+        "count": 10,
+        "top": [
+          {
+            "common": "Striped Surgeonfish",
+            "latin": "Acanthurus lineatus",
+            "obs": 18,
+            "iucn": null
+          },
+          {
+            "common": "Goldbar Wrasse",
+            "latin": "Thalassoma hebraicum",
+            "obs": 14,
+            "iucn": null
+          },
+          {
+            "common": "Scissortail Sergeant",
+            "latin": "Abudefduf sexfasciatus",
+            "obs": 11,
+            "iucn": null
+          },
+          {
+            "common": "Powder Blue Tang",
+            "latin": "Acanthurus leucosternon",
+            "obs": 10,
+            "iucn": null
+          },
+          {
+            "common": "Smallspotted Dart",
+            "latin": "Trachinotus baillonii",
+            "obs": 10,
+            "iucn": null
+          },
+          {
+            "common": "Blackspot Sergeant",
+            "latin": "Abudefduf sordidus",
+            "obs": 9,
+            "iucn": null
+          },
+          {
+            "common": "Moorish Idol",
+            "latin": "Zanclus cornutus",
+            "obs": 8,
+            "iucn": null
+          },
+          {
+            "common": "Indian Redfin Butterflyfish",
+            "latin": "Chaetodon trifasciatus",
+            "obs": 7,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 4,
+        "top": [
+          {
+            "common": "Red Fody",
+            "latin": "Foudia madagascariensis",
+            "obs": 12,
+            "iucn": null
+          },
+          {
+            "common": "Seychelles Blue-Pigeon",
+            "latin": "Alectroenas pulcherrimus",
+            "obs": 12,
+            "iucn": null
+          },
+          {
+            "common": "Seychelles Bulbul",
+            "latin": "Hypsipetes crassirostris",
+            "obs": 11,
+            "iucn": null
+          },
+          {
+            "common": "Zebra Dove",
+            "latin": "Geopelia striata",
+            "obs": 7,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 3,
+        "top": [
+          {
+            "common": "Cocoplum",
+            "latin": "Chrysobalanus icaco",
+            "obs": 12,
+            "iucn": null
+          },
+          {
+            "common": "coconut palm",
+            "latin": "Cocos nucifera",
+            "obs": 6,
+            "iucn": null
+          },
+          {
+            "common": "staghorn clubmoss",
+            "latin": "Palhinhaea cernua",
+            "obs": 6,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Mammals",
+        "key": "mammal",
+        "count": 1,
+        "top": [
+          {
+            "common": "Seychelles Flying-fox",
+            "latin": "Pteropus seychellensis",
+            "obs": 13,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 1,
+        "top": [
+          {
+            "common": "Seychelles Small Day Gecko",
+            "latin": "Phelsuma astriata",
+            "obs": 9,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 1,
+        "top": [
+          {
+            "common": "Redleg Orbweaver",
+            "latin": "Trichonephila inaurata",
+            "obs": 8,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -107,5 +408,32 @@
       "character": "Exposed — real surf, and rip current to respect"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Worldwide",
+      "text": "Among the warmest 16% of beaches on Earth",
+      "detail": null
+    }
+  ],
+  "wikidata_id": "Q949218",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Anse_Lazio",
+  "wikipedia_page_views_annual": 13123,
+  "notability_score": 23.8,
+  "data_completeness_pct": 58.3,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

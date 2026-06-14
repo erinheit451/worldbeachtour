@@ -1,26 +1,21 @@
 {
   "slug": "maspalomas-dunes",
   "name": "Maspalomas Dunes",
-  "centroid_lat": 27.7417,
-  "centroid_lng": -15.5853,
   "country_code": "ES",
   "admin_level_1": "Canary Islands",
-  "admin_level_2": null,
+  "centroid_lat": 27.7417,
+  "centroid_lng": -15.5853,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "wikidata",
-      "source_id": "Q8770950",
-      "source_url": "https://www.wikidata.org/wiki/Q8770950"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Dunas%20de%20Maspalomas.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Maspalomas_Dunes"
-    }
+  "slope_pct": 1.1900751113891601,
+  "nearshore_depth_m": 16.247695922851562,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Playa del Ingles",
   "nearest_city_distance_km": 1.8,
@@ -29,21 +24,273 @@
     "name": "Gran Canaria Airport",
     "distance_km": 28.8
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      21.1286,
+      21.6571,
+      22.5429,
+      23.1857,
+      24.2857,
+      25.9143,
+      27.7286,
+      28.3429,
+      28.0143,
+      26.4571,
+      24.3286,
+      22.2571
+    ],
+    "air_temp_low": [
+      14.4,
+      14.6714,
+      15.1286,
+      15.5714,
+      16.6714,
+      18.2286,
+      19.7857,
+      20.5286,
+      20.4714,
+      19.2,
+      17.5143,
+      15.5857
+    ],
+    "rain_mm": [
+      21.0,
+      25.0,
+      16.0,
+      8.0,
+      2.0,
+      1.0,
+      0.0,
+      0.0,
+      6.0,
+      11.0,
+      20.0,
+      28.0
+    ],
+    "wind_speed": [
+      4.9,
+      6.0857,
+      6.0571,
+      6.4286,
+      6.4857,
+      7.3714,
+      5.7429,
+      4.9571,
+      5.7286,
+      5.5857,
+      4.4,
+      4.7429
+    ],
+    "sun_hours": [
+      13216.0,
+      16168.0,
+      20107.0,
+      22829.0,
+      25253.0,
+      26430.0,
+      26739.0,
+      25201.0,
+      21011.0,
+      17137.0,
+      13359.0,
+      11991.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Maspalomas_Dunes",
-  "notability_score": 26.0,
-  "data_completeness_pct": 16.7,
+  "tides": {
+    "range_spring_m": 1.9011524314862203,
+    "range_neap_m": 0.8255728529189179,
+    "type": "semidiurnal",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 8.0,
       "f_pct": 24.1,
       "l_pct": 67.9,
       "regime": "lithic-rich (volcanic/collisional terrane)",
+      "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/20220214.D%C3%BCnen_von_Maspalomas.-011.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/20220214.D%C3%BCnen_von_Maspalomas.-011.jpg/1280px-20220214.D%C3%BCnen_von_Maspalomas.-011.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Bybbisch94\" title=\"User:Bybbisch94\">Bybbisch94, Christian Gebhardt</a>",
+      "title": "20220214.Dünen von Maspalomas.-011.jpg",
+      "width": 7936,
+      "height": 5952
     },
-    "description": "They were formed by sand from the now subdued marine shelf, when it was laid dry during the last ice age and the wind blew the sand towards the coast of the island."
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/20220217.D%C3%BCnen_von_Maspalomas.-017.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/20220217.D%C3%BCnen_von_Maspalomas.-017.jpg/1280px-20220217.D%C3%BCnen_von_Maspalomas.-017.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Bybbisch94\" title=\"User:Bybbisch94\">Bybbisch94, Christian Gebhardt</a>",
+      "title": "20220217.Dünen von Maspalomas.-017.jpg",
+      "width": 7936,
+      "height": 5952
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/The_sand_dunes_of_Maspalomas_%2850871672782%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/The_sand_dunes_of_Maspalomas_%2850871672782%29.jpg/1280px-The_sand_dunes_of_Maspalomas_%2850871672782%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/158652122@N02\">Mike McBey</a>",
+      "title": "The sand dunes of Maspalomas (50871672782).jpg",
+      "width": 5735,
+      "height": 2711
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Playa_del_Ingl%C3%A9s%2C_35100_Maspalomas%2C_Las_Palmas%2C_Spain_-_panoramio_%2847%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Playa_del_Ingl%C3%A9s%2C_35100_Maspalomas%2C_Las_Palmas%2C_Spain_-_panoramio_%2847%29.jpg/1280px-Playa_del_Ingl%C3%A9s%2C_35100_Maspalomas%2C_Las_Palmas%2C_Spain_-_panoramio_%2847%29.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161027170147/http://www.panoramio.com/user/4240070?with_photo_id=97925833\">Jos Dierickx</a>",
+      "title": "Playa del Inglés, 35100 Maspalomas, Las Palmas, Spain - panoramio (47).jpg",
+      "width": 4748,
+      "height": 2826
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/San_Bartolom%C3%A9_de_Tirajana%2C_Las_Palmas%2C_Spain_-_panoramio_%2827%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/San_Bartolom%C3%A9_de_Tirajana%2C_Las_Palmas%2C_Spain_-_panoramio_%2827%29.jpg/1280px-San_Bartolom%C3%A9_de_Tirajana%2C_Las_Palmas%2C_Spain_-_panoramio_%2827%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161031224405/http://www.panoramio.com/user/7421972?with_photo_id=114043225\">John - el - Castillo</a>",
+      "title": "San Bartolomé de Tirajana, Las Palmas, Spain - panoramio (27).jpg",
+      "width": 4320,
+      "height": 3240
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Dunas_%285333579220%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Dunas_%285333579220%29.jpg/1280px-Dunas_%285333579220%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/25716821@N04\">Felipe Gabaldón</a>",
+      "title": "Dunas (5333579220).jpg",
+      "width": 4302,
+      "height": 2860
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/RIU_hotel%2C_Playa_del_Ingl%C3%A9s%2C_Gran_Canaria%2C_from_the_dunes.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/RIU_hotel%2C_Playa_del_Ingl%C3%A9s%2C_Gran_Canaria%2C_from_the_dunes.jpg/1280px-RIU_hotel%2C_Playa_del_Ingl%C3%A9s%2C_Gran_Canaria%2C_from_the_dunes.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Gerda_Arendt\" title=\"User:Gerda Arendt\">Gerda Arendt</a>",
+      "title": "RIU hotel, Playa del Inglés, Gran Canaria, from the dunes.jpg",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Maspalomas_Dunes%2C_Gran_Canaria%2C_deep_clouds.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Maspalomas_Dunes%2C_Gran_Canaria%2C_deep_clouds.jpg/1280px-Maspalomas_Dunes%2C_Gran_Canaria%2C_deep_clouds.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Gerda_Arendt\" title=\"User:Gerda Arendt\">Gerda Arendt</a>",
+      "title": "Maspalomas Dunes, Gran Canaria, deep clouds.jpg",
+      "width": 4000,
+      "height": 3000
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 16.247695922851562
+  },
+  "conservation": {
+    "name": "Las Dunas de Maspalomas",
+    "type": "Nature reserve (special )",
+    "iucn": "III",
+    "unesco": false
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 17,
+        "top": [
+          {
+            "common": "Little Egret",
+            "latin": "Egretta garzetta",
+            "obs": 161,
+            "iucn": null
+          },
+          {
+            "common": "Little Ringed Plover",
+            "latin": "Thinornis dubius",
+            "obs": 137,
+            "iucn": null
+          },
+          {
+            "common": "Eurasian Whimbrel",
+            "latin": "Numenius phaeopus",
+            "obs": 126,
+            "iucn": null
+          },
+          {
+            "common": "Grey Heron",
+            "latin": "Ardea cinerea",
+            "obs": 114,
+            "iucn": null
+          },
+          {
+            "common": "Common Greenshank",
+            "latin": "Tringa nebularia",
+            "obs": 98,
+            "iucn": null
+          },
+          {
+            "common": "Eurasian Spoonbill",
+            "latin": "Platalea leucorodia",
+            "obs": 95,
+            "iucn": null
+          },
+          {
+            "common": "Black-winged Stilt",
+            "latin": "Himantopus himantopus",
+            "obs": 95,
+            "iucn": null
+          },
+          {
+            "common": "Common Moorhen",
+            "latin": "Gallinula chloropus",
+            "obs": 88,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 2,
+        "top": [
+          {
+            "common": "Mol-albina",
+            "latin": "Launaea arborescens",
+            "obs": 88,
+            "iucn": null
+          },
+          {
+            "common": "Heliotropium ramosissimum",
+            "latin": "Heliotropium ramosissimum",
+            "obs": 78,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 1,
+        "top": [
+          {
+            "common": "Pubescent Carpenter Bee",
+            "latin": "Xylocopa pubescens",
+            "obs": 71,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -99,5 +346,37 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Warmer than 57% of beaches in its country",
+      "detail": "Peak-month high ≈ 28°C"
+    },
+    {
+      "metric": "Beach season",
+      "text": "Longer beach season than 91% of beaches in its country",
+      "detail": "12 comfortable months a year"
+    }
+  ],
+  "wikidata_id": "Q8770950",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Maspalomas_Dunes",
+  "wikipedia_page_views_annual": 20420,
+  "notability_score": 26.0,
+  "data_completeness_pct": 62.5,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

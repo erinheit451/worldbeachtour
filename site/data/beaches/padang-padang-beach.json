@@ -1,40 +1,21 @@
 {
   "slug": "padang-padang-beach",
   "name": "Padang Padang Beach",
-  "centroid_lat": -8.81114,
-  "centroid_lng": 115.1012,
   "country_code": "ID",
   "admin_level_1": "Bali",
-  "admin_level_2": null,
+  "centroid_lat": -8.81114,
+  "centroid_lng": 115.1012,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "wikidata",
-      "source_id": "Q125700900",
-      "source_url": "https://www.wikidata.org/wiki/Q125700900"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q56392566",
-      "source_url": "https://www.wikidata.org/wiki/Q56392566"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Padang%20Padang%20Beach%20Bali.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Padang_Padang_Beach"
-    },
-    "safety": {
-      "cyclone_count_50yr": "1",
-      "cyclone_max_category": "4"
-    }
+  "slope_pct": 2.785630226135254,
+  "nearshore_depth_m": 28.3125,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Pecatu",
   "nearest_city_distance_km": 3.5,
@@ -43,22 +24,347 @@
     "name": "Denpasar I Gusti Ngurah Rai International Airport",
     "distance_km": 10.1
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      29.6,
+      29.6867,
+      29.7733,
+      30.1867,
+      29.8333,
+      29.2133,
+      28.5133,
+      28.7267,
+      29.46,
+      30.1533,
+      30.0333,
+      29.7267
+    ],
+    "air_temp_low": [
+      23.6333,
+      23.5933,
+      23.4067,
+      23.4133,
+      23.2733,
+      22.6133,
+      22.1467,
+      22.0933,
+      22.4,
+      23.16,
+      23.6667,
+      23.6667
+    ],
+    "rain_mm": [
+      313.0,
+      261.0,
+      201.0,
+      111.0,
+      96.0,
+      65.0,
+      53.0,
+      24.0,
+      69.0,
+      127.0,
+      180.0,
+      265.0
+    ],
+    "wind_speed": [
+      3.14,
+      2.6067,
+      2.4467,
+      2.2467,
+      2.48,
+      2.9333,
+      2.9333,
+      2.9667,
+      2.9933,
+      2.6533,
+      2.3533,
+      2.5
+    ],
+    "sun_hours": [
+      19117.0,
+      19399.0,
+      19937.0,
+      16723.0,
+      15574.0,
+      14484.0,
+      14872.0,
+      14734.0,
+      15839.0,
+      21795.0,
+      19729.0,
+      19084.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Padang_Padang_Beach",
-  "notability_score": 25.3,
-  "data_completeness_pct": 16.7,
+  "tides": {
+    "range_spring_m": 2.1614382413700515,
+    "range_neap_m": 0.6172894712268003,
+    "type": "mixed",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 89.3,
       "f_pct": 3.4,
       "l_pct": 7.3,
       "regime": "quartz-dominant",
+      "regime_plain": "Quartz-dominant",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 1,
+    "paragraph": "1 tropical-cyclone track have passed within range of this coast in the historical record (IBTrACS, 2014–2014).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Pecatu%2C_South_Kuta%2C_Badung_Regency%2C_Bali%2C_Indonesia_-_panoramio_%287%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Pecatu%2C_South_Kuta%2C_Badung_Regency%2C_Bali%2C_Indonesia_-_panoramio_%287%29.jpg/1280px-Pecatu%2C_South_Kuta%2C_Badung_Regency%2C_Bali%2C_Indonesia_-_panoramio_%287%29.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161028130147/http://www.panoramio.com/user/1429473?with_photo_id=104019951\">::::=UT=::::</a>",
+      "title": "Pecatu, South Kuta, Badung Regency, Bali, Indonesia - panoramio (7).jpg",
+      "width": 6000,
+      "height": 4000
     },
-    "color": "white",
-    "description": "It is characterised by fine white sand and tall cliffs."
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Pecatu%2C_South_Kuta%2C_Badung_Regency%2C_Bali%2C_Indonesia_-_panoramio_%286%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pecatu%2C_South_Kuta%2C_Badung_Regency%2C_Bali%2C_Indonesia_-_panoramio_%286%29.jpg/1280px-Pecatu%2C_South_Kuta%2C_Badung_Regency%2C_Bali%2C_Indonesia_-_panoramio_%286%29.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161028075327/http://www.panoramio.com/user/1429473?with_photo_id=104019934\">::::=UT=::::</a>",
+      "title": "Pecatu, South Kuta, Badung Regency, Bali, Indonesia - panoramio (6).jpg",
+      "width": 4935,
+      "height": 3292
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Padang_Padang_Beach_-_panoramio_%281%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Padang_Padang_Beach_-_panoramio_%281%29.jpg/1280px-Padang_Padang_Beach_-_panoramio_%281%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161031165332/http://www.panoramio.com/user/1770775?with_photo_id=128740770\">Alexey Komarov</a>",
+      "title": "Padang Padang Beach - panoramio (1).jpg",
+      "width": 4761,
+      "height": 3174
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Padang_Padang_Beach_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Padang_Padang_Beach_-_panoramio.jpg/1280px-Padang_Padang_Beach_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161102051805/http://www.panoramio.com/user/1770775?with_photo_id=128740742\">Alexey Komarov</a>",
+      "title": "Padang Padang Beach - panoramio.jpg",
+      "width": 4648,
+      "height": 3099
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Labuan_Sait_Beach_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Labuan_Sait_Beach_-_panoramio.jpg/1280px-Labuan_Sait_Beach_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161031150108/http://www.panoramio.com/user/1770775?with_photo_id=128740793\">Alexey Komarov</a>",
+      "title": "Labuan Sait Beach - panoramio.jpg",
+      "width": 4542,
+      "height": 3028
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Padang_Padang_Beach_Bali.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Padang_Padang_Beach_Bali.jpg/1280px-Padang_Padang_Beach_Bali.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:TMFalkner&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:TMFalkner (page does not exist)\">TMFalkner</a>",
+      "title": "Padang Padang Beach Bali.jpg",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/My_first_stop_%40_Bali_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/My_first_stop_%40_Bali_-_panoramio.jpg/1280px-My_first_stop_%40_Bali_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161102055828/http://www.panoramio.com/user/1429473?with_photo_id=110465970\">::::=UT=::::</a>",
+      "title": "My first stop @ Bali - panoramio.jpg",
+      "width": 1936,
+      "height": 1936
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Bali_sunset_2018_1.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Bali_sunset_2018_1.jpg/1280px-Bali_sunset_2018_1.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "wavehavenbali",
+      "title": "Bali sunset 2018 1.jpg",
+      "width": 1800,
+      "height": 1286
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 28.3125
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 6,
+        "top": [
+          {
+            "common": "Amphidromus perversus",
+            "latin": "Amphidromus perversus",
+            "obs": 13,
+            "iucn": null
+          },
+          {
+            "common": "African Giant Snail",
+            "latin": "Lissachatina fulica",
+            "obs": 8,
+            "iucn": null
+          },
+          {
+            "common": "Gold Ring Cowry",
+            "latin": "Monetaria annulus",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "Lynx Cowry",
+            "latin": "Lyncina lynx",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "Great Eggfly",
+            "latin": "Hypolimnas bolina",
+            "obs": 4,
+            "iucn": null
+          },
+          {
+            "common": "Lagoon Brittle Star",
+            "latin": "Ophiocoma scolopendrina",
+            "obs": 4,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 5,
+        "top": [
+          {
+            "common": "Yellow-vented Bulbul",
+            "latin": "Pycnonotus goiavier",
+            "obs": 20,
+            "iucn": null
+          },
+          {
+            "common": "Spotted Dove",
+            "latin": "Spilopelia chinensis",
+            "obs": 11,
+            "iucn": null
+          },
+          {
+            "common": "Pacific Reef Heron",
+            "latin": "Egretta sacra",
+            "obs": 8,
+            "iucn": null
+          },
+          {
+            "common": "Eurasian Tree Sparrow",
+            "latin": "Passer montanus",
+            "obs": 6,
+            "iucn": null
+          },
+          {
+            "common": "Collared Kingfisher",
+            "latin": "Todiramphus chloris",
+            "obs": 6,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 5,
+        "top": [
+          {
+            "common": "Blue-lipped Sea Krait",
+            "latin": "Laticauda laticaudata",
+            "obs": 11,
+            "iucn": null
+          },
+          {
+            "common": "Tokay Gecko",
+            "latin": "Gekko gecko",
+            "obs": 9,
+            "iucn": null
+          },
+          {
+            "common": "Flat-tailed House Gecko",
+            "latin": "Hemidactylus platyurus",
+            "obs": 8,
+            "iucn": null
+          },
+          {
+            "common": "Yellow-lipped Sea Krait",
+            "latin": "Laticauda colubrina",
+            "obs": 7,
+            "iucn": null
+          },
+          {
+            "common": "Common Water Monitor",
+            "latin": "Varanus salvator",
+            "obs": 5,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Amphibians",
+        "key": "amphibian",
+        "count": 2,
+        "top": [
+          {
+            "common": "Asian Common Toad",
+            "latin": "Duttaphrynus melanostictus",
+            "obs": 11,
+            "iucn": null
+          },
+          {
+            "common": "Common Southeast Asian Tree Frog",
+            "latin": "Polypedates leucomystax",
+            "obs": 5,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Mammals",
+        "key": "mammal",
+        "count": 1,
+        "top": [
+          {
+            "common": "Long-tailed Macaque",
+            "latin": "Macaca fascicularis",
+            "obs": 7,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 1,
+        "top": [
+          {
+            "common": "Tridax Daisy",
+            "latin": "Tridax procumbens",
+            "obs": 4,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -114,5 +420,32 @@
       "character": "Exposed — real surf, and rip current to respect"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 87% of beaches in its country",
+      "detail": "Peak-month high ≈ 30°C"
+    }
+  ],
+  "wikidata_id": "Q56392566",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Padang_Padang_Beach",
+  "wikipedia_page_views_annual": 10651,
+  "notability_score": 25.3,
+  "data_completeness_pct": 62.5,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

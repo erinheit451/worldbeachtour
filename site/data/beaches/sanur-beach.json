@@ -1,35 +1,21 @@
 {
   "slug": "sanur-beach",
   "name": "Sanur Beach",
-  "centroid_lat": -8.683333333,
-  "centroid_lng": 115.266666666,
   "country_code": "ID",
   "admin_level_1": "Bali",
-  "admin_level_2": null,
+  "centroid_lat": -8.683333333,
+  "centroid_lng": 115.266666666,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "wikidata",
-      "source_id": "Q1789991",
-      "source_url": "https://www.wikidata.org/wiki/Q1789991"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Pemandangan%20Pantai%20Sanur.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Sanur,_Bali"
-    },
-    "safety": {
-      "cyclone_count_50yr": "1",
-      "cyclone_max_category": "4"
-    }
+  "slope_pct": 2.0008034229278566,
+  "nearshore_depth_m": 31.4375,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Banjar Taman",
   "nearest_city_distance_km": 1.1,
@@ -38,20 +24,340 @@
     "name": "Denpasar I Gusti Ngurah Rai International Airport",
     "distance_km": 13.1
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      31.0333,
+      31.1778,
+      31.3222,
+      31.8333,
+      31.3778,
+      30.7333,
+      29.9333,
+      29.9556,
+      30.7444,
+      31.5222,
+      31.7333,
+      31.2667
+    ],
+    "air_temp_low": [
+      24.2444,
+      24.2222,
+      23.9778,
+      23.8444,
+      23.7222,
+      23.1333,
+      22.6778,
+      22.6,
+      22.9,
+      23.6,
+      24.1333,
+      24.2
+    ],
+    "rain_mm": [
+      306.0,
+      247.0,
+      185.0,
+      106.0,
+      88.0,
+      63.0,
+      63.0,
+      23.0,
+      59.0,
+      115.0,
+      153.0,
+      235.0
+    ],
+    "wind_speed": [
+      2.3222,
+      2.3556,
+      2.0333,
+      2.1,
+      2.4556,
+      2.9889,
+      3.4889,
+      3.1667,
+      2.9778,
+      2.5333,
+      2.3,
+      2.1333
+    ],
+    "sun_hours": [
+      18832.0,
+      19078.0,
+      19751.0,
+      16702.0,
+      15636.0,
+      14665.0,
+      15242.0,
+      14989.0,
+      16253.0,
+      21994.0,
+      19762.0,
+      18934.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Sanur,_Bali",
-  "notability_score": 28.5,
-  "data_completeness_pct": 16.7,
+  "tides": {
+    "range_spring_m": 1.8448693537057064,
+    "range_neap_m": 0.5221718989358279,
+    "type": "mixed",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 89.3,
       "f_pct": 3.4,
       "l_pct": 7.3,
       "regime": "quartz-dominant",
+      "regime_plain": "Quartz-dominant",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 1,
+    "paragraph": "1 tropical-cyclone track have passed within range of this coast in the historical record (IBTrACS, 2014–2014).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/250216_Wikisource_Conference_Day_3_Photowalk_25.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/250216_Wikisource_Conference_Day_3_Photowalk_25.jpg/1280px-250216_Wikisource_Conference_Day_3_Photowalk_25.jpg",
+      "license": "CC0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Aspere\" title=\"User:Aspere\">Aspere</a>",
+      "title": "250216 Wikisource Conference Day 3 Photowalk 25.jpg",
+      "width": 4032,
+      "height": 2268
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/250216_Wikisource_Conference_Day_3_Photowalk_24.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/250216_Wikisource_Conference_Day_3_Photowalk_24.jpg/1280px-250216_Wikisource_Conference_Day_3_Photowalk_24.jpg",
+      "license": "CC0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Aspere\" title=\"User:Aspere\">Aspere</a>",
+      "title": "250216 Wikisource Conference Day 3 Photowalk 24.jpg",
+      "width": 4032,
+      "height": 2268
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/250216_Wikisource_Conference_Day_3_Photowalk_19.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/250216_Wikisource_Conference_Day_3_Photowalk_19.jpg/1280px-250216_Wikisource_Conference_Day_3_Photowalk_19.jpg",
+      "license": "CC0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Aspere\" title=\"User:Aspere\">Aspere</a>",
+      "title": "250216 Wikisource Conference Day 3 Photowalk 19.jpg",
+      "width": 4032,
+      "height": 2268
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/250216_Wikisource_Conference_Day_3_Photowalk_29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/250216_Wikisource_Conference_Day_3_Photowalk_29.jpg/1280px-250216_Wikisource_Conference_Day_3_Photowalk_29.jpg",
+      "license": "CC0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Aspere\" title=\"User:Aspere\">Aspere</a>",
+      "title": "250216 Wikisource Conference Day 3 Photowalk 29.jpg",
+      "width": 4000,
+      "height": 2252
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/250216_Wikisource_Conference_Day_3_Photowalk_30.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/250216_Wikisource_Conference_Day_3_Photowalk_30.jpg/1280px-250216_Wikisource_Conference_Day_3_Photowalk_30.jpg",
+      "license": "CC0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Aspere\" title=\"User:Aspere\">Aspere</a>",
+      "title": "250216 Wikisource Conference Day 3 Photowalk 30.jpg",
+      "width": 4000,
+      "height": 2252
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/250216_Wikisource_Conference_Day_3_Photowalk_28.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/250216_Wikisource_Conference_Day_3_Photowalk_28.jpg/1280px-250216_Wikisource_Conference_Day_3_Photowalk_28.jpg",
+      "license": "CC0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Aspere\" title=\"User:Aspere\">Aspere</a>",
+      "title": "250216 Wikisource Conference Day 3 Photowalk 28.jpg",
+      "width": 4000,
+      "height": 2252
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/250216_Wikisource_Conference_Day_3_Photowalk_26.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/250216_Wikisource_Conference_Day_3_Photowalk_26.jpg/1280px-250216_Wikisource_Conference_Day_3_Photowalk_26.jpg",
+      "license": "CC0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Aspere\" title=\"User:Aspere\">Aspere</a>",
+      "title": "250216 Wikisource Conference Day 3 Photowalk 26.jpg",
+      "width": 4000,
+      "height": 2252
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/250216_Wikisource_Conference_Day_3_Photowalk_27.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/250216_Wikisource_Conference_Day_3_Photowalk_27.jpg/1280px-250216_Wikisource_Conference_Day_3_Photowalk_27.jpg",
+      "license": "CC0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Aspere\" title=\"User:Aspere\">Aspere</a>",
+      "title": "250216 Wikisource Conference Day 3 Photowalk 27.jpg",
+      "width": 4000,
+      "height": 2252
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 31.4375
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 8,
+        "top": [
+          {
+            "common": "Yellow-vented Bulbul",
+            "latin": "Pycnonotus goiavier",
+            "obs": 42,
+            "iucn": null
+          },
+          {
+            "common": "Spotted Dove",
+            "latin": "Spilopelia chinensis",
+            "obs": 33,
+            "iucn": null
+          },
+          {
+            "common": "Eurasian Tree Sparrow",
+            "latin": "Passer montanus",
+            "obs": 23,
+            "iucn": null
+          },
+          {
+            "common": "Zebra Dove",
+            "latin": "Geopelia striata",
+            "obs": 19,
+            "iucn": null
+          },
+          {
+            "common": "Rock Pigeon",
+            "latin": "Columba livia",
+            "obs": 13,
+            "iucn": null
+          },
+          {
+            "common": "Little Pied Cormorant",
+            "latin": "Microcarbo melanoleucos",
+            "obs": 13,
+            "iucn": null
+          },
+          {
+            "common": "Savanna Nightjar",
+            "latin": "Caprimulgus affinis",
+            "obs": 9,
+            "iucn": null
+          },
+          {
+            "common": "White-breasted Waterhen",
+            "latin": "Amaurornis phoenicurus",
+            "obs": 6,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 7,
+        "top": [
+          {
+            "common": "Red Percher",
+            "latin": "Neurothemis ramburii",
+            "obs": 16,
+            "iucn": null
+          },
+          {
+            "common": "Slender Skimmer",
+            "latin": "Orthetrum sabina",
+            "obs": 15,
+            "iucn": null
+          },
+          {
+            "common": "African Giant Snail",
+            "latin": "Lissachatina fulica",
+            "obs": 13,
+            "iucn": null
+          },
+          {
+            "common": "Tailed Jay",
+            "latin": "Graphium agamemnon",
+            "obs": 11,
+            "iucn": null
+          },
+          {
+            "common": "Asian Weaver Ant",
+            "latin": "Oecophylla smaragdina",
+            "obs": 8,
+            "iucn": null
+          },
+          {
+            "common": "Tawny Hermit Crab",
+            "latin": "Coenobita rugosus",
+            "obs": 8,
+            "iucn": null
+          },
+          {
+            "common": "Yellow-legged Hornet",
+            "latin": "Vespa velutina",
+            "obs": 7,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 2,
+        "top": [
+          {
+            "common": "Tokay Gecko",
+            "latin": "Gekko gecko",
+            "obs": 32,
+            "iucn": null
+          },
+          {
+            "common": "Flat-tailed House Gecko",
+            "latin": "Hemidactylus platyurus",
+            "obs": 10,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Amphibians",
+        "key": "amphibian",
+        "count": 2,
+        "top": [
+          {
+            "common": "Asian Common Toad",
+            "latin": "Duttaphrynus melanostictus",
+            "obs": 26,
+            "iucn": null
+          },
+          {
+            "common": "Common Southeast Asian Tree Frog",
+            "latin": "Polypedates leucomystax",
+            "obs": 11,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Mammals",
+        "key": "mammal",
+        "count": 1,
+        "top": [
+          {
+            "common": "Plantain Squirrel",
+            "latin": "Callosciurus notatus",
+            "obs": 20,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -107,5 +413,37 @@
       "character": "Exposed — real surf, and rip current to respect"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Warmer than 78% of beaches in its country",
+      "detail": "Peak-month high ≈ 32°C"
+    },
+    {
+      "metric": "Worldwide",
+      "text": "Among the warmest 11% of beaches on Earth",
+      "detail": null
+    }
+  ],
+  "wikidata_id": "Q1789991",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sanur,_Bali",
+  "wikipedia_page_views_annual": 34046,
+  "notability_score": 28.5,
+  "data_completeness_pct": 58.3,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

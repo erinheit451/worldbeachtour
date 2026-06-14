@@ -1,40 +1,21 @@
 {
   "slug": "te-puia-hot-water-beach",
   "name": "Te Puia / Hot Water Beach",
-  "centroid_lat": -36.8804054,
-  "centroid_lng": 175.8207319,
   "country_code": "NZ",
   "admin_level_1": "Waikato",
-  "admin_level_2": null,
+  "centroid_lat": -36.8804054,
+  "centroid_lng": 175.8207319,
   "water_body_type": "ocean",
   "substrate_type": "sand",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/87930678",
-      "source_url": "https://www.openstreetmap.org/way/87930678"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q1191418",
-      "source_url": "https://www.wikidata.org/wiki/Q1191418"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/00%2023%200963%20Hot%20Water%20Beach%20-%20NZ%2C%20Coromandel.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Hot_Water_Beach"
-    },
-    "safety": {
-      "cyclone_count_50yr": "6",
-      "cyclone_max_category": "2"
-    }
+  "slope_pct": 1.8018981099128721,
+  "nearshore_depth_m": 32.0625,
+  "classification": {
+    "primary_type": "Sand",
+    "primary_type_slug": "sand",
+    "coastal_type": "Sand",
+    "coastal_type_slug": "sand",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Whitianga",
   "nearest_city_distance_km": 11.9,
@@ -43,33 +24,306 @@
     "name": "Ardmore Airport",
     "distance_km": 77.1
   },
-  "safety": {
-    "lifeguard": true,
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      24.05,
+      24.1455,
+      22.6364,
+      20.1864,
+      17.4227,
+      15.2455,
+      14.4318,
+      15.2818,
+      16.5182,
+      18.3364,
+      20.3955,
+      22.3409
+    ],
+    "air_temp_low": [
+      13.9227,
+      14.3091,
+      13.3,
+      10.5818,
+      8.0318,
+      6.2455,
+      5.3955,
+      6.0864,
+      7.6727,
+      9.1455,
+      10.7864,
+      12.6
+    ],
+    "rain_mm": [
+      110.0,
+      101.0,
+      146.0,
+      130.0,
+      144.0,
+      151.0,
+      182.0,
+      169.0,
+      132.0,
+      129.0,
+      124.0,
+      125.0
+    ],
+    "wind_speed": [
+      4.9091,
+      4.8455,
+      4.7091,
+      4.4818,
+      4.8591,
+      4.5273,
+      4.6045,
+      4.8773,
+      5.1636,
+      5.2773,
+      5.0955,
+      5.1455
+    ],
+    "sun_hours": [
+      23866.0,
+      20520.0,
+      16207.0,
+      11767.0,
+      8189.0,
+      6533.0,
+      7511.0,
+      9924.0,
+      13678.0,
+      18013.0,
+      21627.0,
+      23589.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "facilities": {
-    "restrooms": true
+  "tides": {
+    "range_spring_m": 1.6676308656822942,
+    "range_neap_m": 1.2751118715314163,
+    "type": "semidiurnal",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Hot_Water_Beach",
-  "notability_score": 30.1,
-  "data_completeness_pct": 25.0,
   "sand": {
     "predicted": {
       "q_pct": 3.9,
       "f_pct": 72.6,
       "l_pct": 23.5,
       "regime": "feldspar-rich (plutonic/crystalline terrane)",
+      "regime_plain": "Feldspar-rich (plutonic/crystalline terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
-    },
-    "curated": {
-      "story": "Hot Water Beach's sand is iron-rich titanomagnetite eroded from Coromandel's andesitic volcanoes. Geothermal water seeps up through the black sand at low tide, letting visitors dig private hot pools — a rare intersection of sand geology and active geothermal plumbing.",
-      "citations": [
-        "https://en.wikipedia.org/wiki/Hot_Water_Beach"
-      ],
-      "showcase_rank": 15,
-      "reference_photo_url": null,
-      "reference_photo_attribution": null
     }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 11,
+    "paragraph": "11 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1956–2023).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Spinifex_sericeus_kz03.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Spinifex_sericeus_kz03.jpg/1280px-Spinifex_sericeus_kz03.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Kenraiz\" title=\"User:Kenraiz\">Krzysztof Ziarnek, Kenraiz</a>",
+      "title": "Spinifex sericeus kz03.jpg",
+      "width": 4608,
+      "height": 3072
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Castle_Island_kz2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Castle_Island_kz2.jpg/1280px-Castle_Island_kz2.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Kenraiz\" title=\"User:Kenraiz\">Krzysztof Ziarnek, Kenraiz</a>",
+      "title": "Castle Island kz2.jpg",
+      "width": 4608,
+      "height": 3072
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Hot_Water_Beach_kz4.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Hot_Water_Beach_kz4.jpg/1280px-Hot_Water_Beach_kz4.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Kenraiz\" title=\"User:Kenraiz\">Krzysztof Ziarnek, Kenraiz</a>",
+      "title": "Hot Water Beach kz4.jpg",
+      "width": 4608,
+      "height": 3072
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Hot_Water_Beach_kz5.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Hot_Water_Beach_kz5.jpg/1280px-Hot_Water_Beach_kz5.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Kenraiz\" title=\"User:Kenraiz\">Krzysztof Ziarnek, Kenraiz</a>",
+      "title": "Hot Water Beach kz5.jpg",
+      "width": 4608,
+      "height": 3072
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Hot_Water_Beach_kz6.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Hot_Water_Beach_kz6.jpg/1280px-Hot_Water_Beach_kz6.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Kenraiz\" title=\"User:Kenraiz\">Krzysztof Ziarnek, Kenraiz</a>",
+      "title": "Hot Water Beach kz6.jpg",
+      "width": 4608,
+      "height": 3072
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Spinifex_sericeus_kz05.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Spinifex_sericeus_kz05.jpg/1280px-Spinifex_sericeus_kz05.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Kenraiz\" title=\"User:Kenraiz\">Krzysztof Ziarnek, Kenraiz</a>",
+      "title": "Spinifex sericeus kz05.jpg",
+      "width": 4608,
+      "height": 3072
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Ficinia_spiralis_kz04.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Ficinia_spiralis_kz04.jpg/1280px-Ficinia_spiralis_kz04.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Kenraiz\" title=\"User:Kenraiz\">Krzysztof Ziarnek, Kenraiz</a>",
+      "title": "Ficinia spiralis kz04.jpg",
+      "width": 4608,
+      "height": 3072
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hot_Water_Beach_kz3.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Hot_Water_Beach_kz3.jpg/1280px-Hot_Water_Beach_kz3.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Kenraiz\" title=\"User:Kenraiz\">Krzysztof Ziarnek, Kenraiz</a>",
+      "title": "Hot Water Beach kz3.jpg",
+      "width": 4608,
+      "height": 3072
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 32.0625,
+    "lifeguard": true
+  },
+  "facilities": {
+    "restrooms": true
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 12,
+        "top": [
+          {
+            "common": "Tuatua",
+            "latin": "Paphies subtriangulata",
+            "obs": 16,
+            "iucn": null
+          },
+          {
+            "common": "Radiate Limpet",
+            "latin": "Cellana radians",
+            "obs": 13,
+            "iucn": null
+          },
+          {
+            "common": "New Zealand Green-lipped Mussel",
+            "latin": "Perna canaliculus",
+            "obs": 13,
+            "iucn": null
+          },
+          {
+            "common": "Star Limpet",
+            "latin": "Cellana stellifera",
+            "obs": 11,
+            "iucn": null
+          },
+          {
+            "common": "Maoricrypta costata",
+            "latin": "Maoricrypta costata",
+            "obs": 11,
+            "iucn": null
+          },
+          {
+            "common": "New Zealand fan scallop",
+            "latin": "Talochlamys zelandiae",
+            "obs": 9,
+            "iucn": null
+          },
+          {
+            "common": "Morning star shell",
+            "latin": "Tawera spissa",
+            "obs": 9,
+            "iucn": null
+          },
+          {
+            "common": "Wheel Shell",
+            "latin": "Zethalia zelandica",
+            "obs": 8,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 6,
+        "top": [
+          {
+            "common": "New Zealand Plover",
+            "latin": "Anarhynchus obscurus",
+            "obs": 32,
+            "iucn": null
+          },
+          {
+            "common": "Variable Oystercatcher",
+            "latin": "Haematopus unicolor",
+            "obs": 16,
+            "iucn": null
+          },
+          {
+            "common": "Silver Gull",
+            "latin": "Chroicocephalus novaehollandiae",
+            "obs": 15,
+            "iucn": null
+          },
+          {
+            "common": "California Quail",
+            "latin": "Callipepla californica",
+            "obs": 12,
+            "iucn": null
+          },
+          {
+            "common": "White-fronted Tern",
+            "latin": "Sterna striata",
+            "obs": 8,
+            "iucn": null
+          },
+          {
+            "common": "New Zealand Pigeon",
+            "latin": "Hemiphaga novaeseelandiae",
+            "obs": 7,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 2,
+        "top": [
+          {
+            "common": "Karo",
+            "latin": "Pittosporum crassifolium",
+            "obs": 9,
+            "iucn": null
+          },
+          {
+            "common": "Kawakawa",
+            "latin": "Piper excelsum",
+            "obs": 6,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -125,5 +379,32 @@
       "character": "Exposed — real surf, and rip current to respect"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Warmer than 96% of beaches in its country",
+      "detail": "Peak-month high ≈ 24°C"
+    },
+    {
+      "metric": "Beach season",
+      "text": "Longer beach season than 84% of beaches in its country",
+      "detail": "7 comfortable months a year"
+    }
+  ],
+  "wikidata_id": "Q1191418",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Hot_Water_Beach",
+  "wikipedia_page_views_annual": 28376,
+  "notability_score": 30.1,
+  "data_completeness_pct": 62.5,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

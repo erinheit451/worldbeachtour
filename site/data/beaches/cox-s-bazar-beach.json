@@ -1,35 +1,22 @@
 {
   "slug": "cox-s-bazar-beach",
   "name": "Cox's Bazar Beach",
-  "centroid_lat": 21.43,
-  "centroid_lng": 91.96,
   "country_code": "BD",
   "admin_level_1": "Chittagong",
-  "admin_level_2": null,
+  "centroid_lat": 21.43,
+  "centroid_lng": 91.96,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
   "beach_length_m": 120000.0,
-  "sources": [
-    {
-      "source_name": "wikidata",
-      "source_id": "Q19458682",
-      "source_url": "https://www.wikidata.org/wiki/Q19458682"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cox%27s%20Bazaar%20Sea%20Beach.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Cox%27s_Bazar_Beach"
-    },
-    "safety": {
-      "cyclone_count_50yr": "25",
-      "cyclone_max_category": "4"
-    }
+  "slope_pct": -0.690625,
+  "nearshore_depth_m": 10.9375,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Cox's Bazar",
   "nearest_city_distance_km": 2.8,
@@ -38,29 +25,354 @@
     "name": "Cox's Bazar Airport",
     "distance_km": 3.1
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      26.2273,
+      28.2364,
+      30.6955,
+      31.9273,
+      32.25,
+      30.5,
+      29.8864,
+      29.9136,
+      30.7136,
+      31.0636,
+      29.3682,
+      26.8045
+    ],
+    "air_temp_low": [
+      14.8636,
+      16.9136,
+      20.9727,
+      24.0636,
+      25.1318,
+      25.2545,
+      25.1182,
+      25.0364,
+      25.0091,
+      24.2227,
+      20.6864,
+      16.3227
+    ],
+    "rain_mm": [
+      4.0,
+      17.0,
+      26.0,
+      103.0,
+      286.0,
+      808.0,
+      990.0,
+      730.0,
+      350.0,
+      219.0,
+      105.0,
+      18.0
+    ],
+    "wind_speed": [
+      1.4273,
+      1.5955,
+      2.0318,
+      2.8955,
+      2.8091,
+      2.65,
+      2.8545,
+      2.3318,
+      1.7455,
+      1.5591,
+      1.3091,
+      1.4773
+    ],
+    "sun_hours": [
+      17544.0,
+      20042.0,
+      21884.0,
+      23194.0,
+      21504.0,
+      16628.0,
+      16192.0,
+      16136.0,
+      17546.0,
+      17447.0,
+      17633.0,
+      16303.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Cox%27s_Bazar_Beach",
-  "notability_score": 31.4,
-  "data_completeness_pct": 20.8,
+  "tides": {
+    "range_spring_m": 2.935874284811357,
+    "range_neap_m": 1.0610676037488092,
+    "type": "semidiurnal",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 77.0,
       "f_pct": 2.5,
       "l_pct": 20.4,
       "regime": "quartz-dominant",
+      "regime_plain": "Quartz-dominant",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
-    },
-    "curated": {
-      "story": "At 120 km, Cox's Bazar is often claimed as the longest natural sand beach on Earth. The sand is fine quartz sourced from the Ganges-Brahmaputra sediment system — the same Himalayan-erosion feedstock that builds most of Bangladesh's coastline.",
-      "citations": [
-        "https://en.wikipedia.org/wiki/Cox%27s_Bazar"
-      ],
-      "showcase_rank": 13,
-      "reference_photo_url": null,
-      "reference_photo_attribution": null
     }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 69,
+    "paragraph": "69 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1877–2023).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Beauty_of_inani-beach_at_Cox%27s_bazar.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Beauty_of_inani-beach_at_Cox%27s_bazar.jpg/1280px-Beauty_of_inani-beach_at_Cox%27s_bazar.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Syed07\" title=\"User:Syed07\">Syed sajidul islam</a>",
+      "title": "Beauty of inani-beach at Cox's bazar.jpg",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Cox%27s_Bazar_beach_%283991311%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Cox%27s_Bazar_beach_%283991311%29.jpg/1280px-Cox%27s_Bazar_beach_%283991311%29.jpg",
+      "license": "CC0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://pixabay.com/users/faysal_2020-11539818/\">Md Faysal Ahmed</a>",
+      "title": "Cox's Bazar beach (3991311).jpg",
+      "width": 6000,
+      "height": 3463
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Cox%27s_Bazar_Sea_Beach_in_2024.22.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Cox%27s_Bazar_Sea_Beach_in_2024.22.jpg/1280px-Cox%27s_Bazar_Sea_Beach_in_2024.22.jpg",
+      "license": "CC0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:CAPTAIN_RAJU\" title=\"User:CAPTAIN RAJU\">CAPTAIN RAJU</a>",
+      "title": "Cox's Bazar Sea Beach in 2024.22.jpg",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Cox%27s_Bazar_Sea_Beach_in_2024.30.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Cox%27s_Bazar_Sea_Beach_in_2024.30.jpg/1280px-Cox%27s_Bazar_Sea_Beach_in_2024.30.jpg",
+      "license": "CC0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:CAPTAIN_RAJU\" title=\"User:CAPTAIN RAJU\">CAPTAIN RAJU</a>",
+      "title": "Cox's Bazar Sea Beach in 2024.30.jpg",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Cox%27s_Bazar_Sea_Beach_in_2024.28.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Cox%27s_Bazar_Sea_Beach_in_2024.28.jpg/1280px-Cox%27s_Bazar_Sea_Beach_in_2024.28.jpg",
+      "license": "CC0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:CAPTAIN_RAJU\" title=\"User:CAPTAIN RAJU\">CAPTAIN RAJU</a>",
+      "title": "Cox's Bazar Sea Beach in 2024.28.jpg",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Cox%27s_Bazar_Sea_Beach_in_2024.02.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Cox%27s_Bazar_Sea_Beach_in_2024.02.jpg/1280px-Cox%27s_Bazar_Sea_Beach_in_2024.02.jpg",
+      "license": "CC0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:CAPTAIN_RAJU\" title=\"User:CAPTAIN RAJU\">CAPTAIN RAJU</a>",
+      "title": "Cox's Bazar Sea Beach in 2024.02.jpg",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Cox%27s_Bazar_Sea_Beach_in_2024.09.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Cox%27s_Bazar_Sea_Beach_in_2024.09.jpg/1280px-Cox%27s_Bazar_Sea_Beach_in_2024.09.jpg",
+      "license": "CC0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:CAPTAIN_RAJU\" title=\"User:CAPTAIN RAJU\">CAPTAIN RAJU</a>",
+      "title": "Cox's Bazar Sea Beach in 2024.09.jpg",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Cox%27s_Bazar_Sea_Beach_in_2024.16.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Cox%27s_Bazar_Sea_Beach_in_2024.16.jpg/1280px-Cox%27s_Bazar_Sea_Beach_in_2024.16.jpg",
+      "license": "CC0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:CAPTAIN_RAJU\" title=\"User:CAPTAIN RAJU\">CAPTAIN RAJU</a>",
+      "title": "Cox's Bazar Sea Beach in 2024.16.jpg",
+      "width": 6000,
+      "height": 4000
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 10.9375
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 5,
+        "top": [
+          {
+            "common": "Common Kingfisher",
+            "latin": "Alcedo atthis",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Rock Pigeon",
+            "latin": "Columba livia",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Great Knot",
+            "latin": "Calidris tenuirostris",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Eastern Yellow Wagtail",
+            "latin": "Motacilla tschutschensis",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Himalayan Swiftlet",
+            "latin": "Aerodramus brevirostris",
+            "obs": 1,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Fish",
+        "key": "fish",
+        "count": 5,
+        "top": [
+          {
+            "common": "Goldspotted Rockcod",
+            "latin": "Epinephelus coioides",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Spotted Scat",
+            "latin": "Scatophagus argus",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Maze Rabbitfish",
+            "latin": "Siganus vermiculatus",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Blackbanded Amberjack",
+            "latin": "Seriolina nigrofasciata",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Golden Snapper",
+            "latin": "Lutjanus johnii",
+            "obs": 1,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 4,
+        "top": [
+          {
+            "common": "Brook's House Gecko",
+            "latin": "Hemidactylus brookii",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Asian House Gecko",
+            "latin": "Hemidactylus frenatus",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Indian Roofed Turtle",
+            "latin": "Pangshura tecta",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Northern Burmese Half-toed Gecko",
+            "latin": "Hemidactylus aquilonius",
+            "obs": 1,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 2,
+        "top": [
+          {
+            "common": "common lantana",
+            "latin": "Lantana camara",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Beach Morning Glory",
+            "latin": "Ipomoea pes-caprae",
+            "obs": 1,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 2,
+        "top": [
+          {
+            "common": "Rufous-legged Grasshopper",
+            "latin": "Xenocatantops humilis",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Common Moon Crab",
+            "latin": "Matuta victor",
+            "obs": 1,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Mammals",
+        "key": "mammal",
+        "count": 1,
+        "top": [
+          {
+            "common": "Indo-Pacific Finless Porpoise",
+            "latin": "Neophocaena phocaenoides",
+            "obs": 1,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Amphibians",
+        "key": "amphibian",
+        "count": 1,
+        "top": [
+          {
+            "common": "Asian Common Toad",
+            "latin": "Duttaphrynus melanostictus",
+            "obs": 1,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -116,5 +428,31 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 78% of beaches in its country",
+      "detail": "Peak-month high ≈ 32°C"
+    },
+    {
+      "metric": "Worldwide",
+      "text": "Among the warmest 8% of beaches on Earth",
+      "detail": null
+    }
+  ],
+  "wikidata_id": "Q19458682",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cox%27s_Bazar_Beach",
+  "wikipedia_page_views_annual": 61377,
+  "notability_score": 31.4,
+  "data_completeness_pct": 58.3,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

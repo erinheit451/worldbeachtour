@@ -1,35 +1,21 @@
 {
   "slug": "seven-mile-beach-8",
   "name": "Seven Mile Beach",
-  "centroid_lat": 19.35,
-  "centroid_lng": -81.383333333,
   "country_code": "KY",
   "admin_level_1": "",
-  "admin_level_2": null,
+  "centroid_lat": 19.35,
+  "centroid_lng": -81.383333333,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": null,
-  "sources": [
-    {
-      "source_name": "wikidata",
-      "source_id": "Q7457330",
-      "source_url": "https://www.wikidata.org/wiki/Q7457330"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Resorts%20on%20Seven%20Mile%20Beach%2C%20Grand%20Cayman.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Seven_Mile_Beach,_Grand_Cayman"
-    },
-    "safety": {
-      "cyclone_count_50yr": "22",
-      "cyclone_max_category": "5"
-    }
+  "slope_pct": 16.763712430000304,
+  "nearshore_depth_m": 331.6875,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "West Bay",
   "nearest_city_distance_km": 4.0,
@@ -38,21 +24,340 @@
     "name": "Owen Roberts International Airport",
     "distance_km": 6.9
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      27.91,
+      28.09,
+      28.99,
+      29.9,
+      30.75,
+      31.48,
+      32.08,
+      32.1,
+      31.69,
+      30.8,
+      29.5,
+      28.4
+    ],
+    "air_temp_low": [
+      21.9,
+      21.76,
+      22.41,
+      23.3,
+      24.2,
+      25.2,
+      25.3,
+      25.1,
+      24.7,
+      24.4,
+      23.7,
+      22.7
+    ],
+    "rain_mm": [
+      46.0,
+      39.0,
+      28.0,
+      49.0,
+      134.0,
+      180.0,
+      176.0,
+      174.0,
+      210.0,
+      233.0,
+      107.0,
+      46.0
+    ],
+    "wind_speed": [
+      4.5,
+      4.3,
+      4.7,
+      4.4,
+      3.9,
+      4.1,
+      3.8,
+      3.29,
+      3.2,
+      3.4,
+      4.2,
+      4.3
+    ],
+    "sun_hours": [
+      16600.0,
+      18764.0,
+      21902.0,
+      23286.0,
+      21902.0,
+      21245.0,
+      22332.0,
+      21411.0,
+      19964.0,
+      17593.0,
+      16215.0,
+      15517.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Seven_Mile_Beach,_Grand_Cayman",
-  "notability_score": 27.8,
-  "data_completeness_pct": 16.7,
+  "tides": {
+    "range_spring_m": 0.24344441089810656,
+    "range_neap_m": 0.12363115000180255,
+    "type": "mixed",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 86.4,
       "f_pct": 3.7,
       "l_pct": 9.9,
       "regime": "quartz-dominant",
+      "regime_plain": "Quartz-dominant",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
+    }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 75,
+    "paragraph": "75 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1851–2024).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/West_Bay%2C_Cayman_Islands_-_panoramio_%285%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/West_Bay%2C_Cayman_Islands_-_panoramio_%285%29.jpg/1280px-West_Bay%2C_Cayman_Islands_-_panoramio_%285%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161101033651/http://www.panoramio.com/user/6778972?with_photo_id=114476623\">Anang M</a>",
+      "title": "West Bay, Cayman Islands - panoramio (5).jpg",
+      "width": 13476,
+      "height": 2962
     },
-    "color": "coral"
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/West_Bay%2C_Cayman_Islands_-_panoramio_%283%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/West_Bay%2C_Cayman_Islands_-_panoramio_%283%29.jpg/1280px-West_Bay%2C_Cayman_Islands_-_panoramio_%283%29.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161101192507/http://www.panoramio.com/user/6778972?with_photo_id=114476553\">Anang M</a>",
+      "title": "West Bay, Cayman Islands - panoramio (3).jpg",
+      "width": 12510,
+      "height": 2936
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Sailboats%2C_Seven_Mile_Beach%2C_Grand_Cayman.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Sailboats%2C_Seven_Mile_Beach%2C_Grand_Cayman.jpg/1280px-Sailboats%2C_Seven_Mile_Beach%2C_Grand_Cayman.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Blu28&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Blu28 (page does not exist)\">Blu28</a>",
+      "title": "Sailboats, Seven Mile Beach, Grand Cayman.jpg",
+      "width": 6224,
+      "height": 4660
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/2010-04-14_Grand_Cayman_Cayman_Islands_-_Stingray.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2010-04-14_Grand_Cayman_Cayman_Islands_-_Stingray.jpg/1280px-2010-04-14_Grand_Cayman_Cayman_Islands_-_Stingray.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "Tom Long",
+      "title": "2010-04-14 Grand Cayman Cayman Islands - Stingray.jpg",
+      "width": 3648,
+      "height": 2056
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Resorts_on_Seven_Mile_Beach%2C_Grand_Cayman.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Resorts_on_Seven_Mile_Beach%2C_Grand_Cayman.jpg/1280px-Resorts_on_Seven_Mile_Beach%2C_Grand_Cayman.jpg",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a href=\"https://en.wikipedia.org/wiki/User:RoadTripWarrior\" class=\"extiw\" title=\"en:User:RoadTripWarrior\">RoadTripWarrior</a>",
+      "title": "Resorts on Seven Mile Beach, Grand Cayman.jpg",
+      "width": 3264,
+      "height": 2174
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Hypoplectrus_indigo_255066682.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Hypoplectrus_indigo_255066682.jpg/1280px-Hypoplectrus_indigo_255066682.jpg",
+      "license": "CC BY 4.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.inaturalist.org/users/1850732\">Dan Schofield</a>",
+      "title": "Hypoplectrus indigo 255066682.jpg",
+      "width": 2048,
+      "height": 1536
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Seven_mile_beach.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Seven_mile_beach.JPG/1280px-Seven_mile_beach.JPG",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<a href=\"https://en.wikipedia.org/wiki/it:User:Xxxrob2004\" class=\"extiw\" title=\"w:it:User:Xxxrob2004\">Xxxrob2004</a> at <a href=\"https://en.wikipedia.org/wiki/it:\" class=\"extiw\" title=\"w:it:\">Italian Wikipedia</a>",
+      "title": "Seven mile beach.JPG",
+      "width": 2048,
+      "height": 1536
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Aetobatus_narinari_342101469.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Aetobatus_narinari_342101469.jpg/1280px-Aetobatus_narinari_342101469.jpg",
+      "license": "CC BY 4.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.inaturalist.org/users/1850732\">Dan Schofield</a>",
+      "title": "Aetobatus narinari 342101469.jpg",
+      "width": 2048,
+      "height": 1538
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 331.6875
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Fish",
+        "key": "fish",
+        "count": 6,
+        "top": [
+          {
+            "common": "Atlantic Blue Tang",
+            "latin": "Acanthurus coeruleus",
+            "obs": 24,
+            "iucn": null
+          },
+          {
+            "common": "French Angelfish",
+            "latin": "Pomacanthus paru",
+            "obs": 22,
+            "iucn": null
+          },
+          {
+            "common": "Caribbean Bluehead Wrasse",
+            "latin": "Thalassoma bifasciatum",
+            "obs": 20,
+            "iucn": null
+          },
+          {
+            "common": "Stoplight Parrotfish",
+            "latin": "Sparisoma viride",
+            "obs": 20,
+            "iucn": null
+          },
+          {
+            "common": "Mutton Snapper",
+            "latin": "Lutjanus analis",
+            "obs": 19,
+            "iucn": null
+          },
+          {
+            "common": "Atlantic Sergeant Major",
+            "latin": "Abudefduf saxatilis",
+            "obs": 17,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 5,
+        "top": [
+          {
+            "common": "Greater Antillean Grackle",
+            "latin": "Quiscalus niger",
+            "obs": 72,
+            "iucn": null
+          },
+          {
+            "common": "Red Junglefowl",
+            "latin": "Gallus gallus",
+            "obs": 48,
+            "iucn": null
+          },
+          {
+            "common": "Bananaquit",
+            "latin": "Coereba flaveola",
+            "obs": 20,
+            "iucn": null
+          },
+          {
+            "common": "Northern Mockingbird",
+            "latin": "Mimus polyglottos",
+            "obs": 19,
+            "iucn": null
+          },
+          {
+            "common": "Common Ground Dove",
+            "latin": "Columbina passerina",
+            "obs": 16,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 4,
+        "top": [
+          {
+            "common": "Cayman Curly-tailed Lizard",
+            "latin": "Leiocephalus varius",
+            "obs": 98,
+            "iucn": null
+          },
+          {
+            "common": "Grand Cayman Anole",
+            "latin": "Anolis conspersus",
+            "obs": 47,
+            "iucn": null
+          },
+          {
+            "common": "Green Iguana",
+            "latin": "Iguana iguana",
+            "obs": 38,
+            "iucn": null
+          },
+          {
+            "common": "Brown Anole",
+            "latin": "Anolis sagrei",
+            "obs": 22,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 4,
+        "top": [
+          {
+            "common": "red mangrove",
+            "latin": "Rhizophora mangle",
+            "obs": 88,
+            "iucn": null
+          },
+          {
+            "common": "sea grape",
+            "latin": "Coccoloba uvifera",
+            "obs": 35,
+            "iucn": null
+          },
+          {
+            "common": "Beach Sheoak",
+            "latin": "Casuarina equisetifolia",
+            "obs": 28,
+            "iucn": null
+          },
+          {
+            "common": "beach naupaka",
+            "latin": "Scaevola taccada",
+            "obs": 23,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 1,
+        "top": [
+          {
+            "common": "Atlantic Ghost Crab",
+            "latin": "Ocypode quadrata",
+            "obs": 25,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -108,5 +413,35 @@
       "character": "Mixed — usually swimmable, with a livelier season"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 92% of beaches in its country",
+      "detail": "Peak-month high ≈ 32°C"
+    },
+    {
+      "metric": "Worldwide",
+      "text": "Among the warmest 9% of beaches on Earth",
+      "detail": null
+    }
+  ],
+  "wikidata_id": "Q7457330",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Seven_Mile_Beach,_Grand_Cayman",
+  "wikipedia_page_views_annual": 29352,
+  "notability_score": 27.8,
+  "data_completeness_pct": 62.5,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }
