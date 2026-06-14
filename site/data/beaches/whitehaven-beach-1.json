@@ -1,35 +1,22 @@
 {
   "slug": "whitehaven-beach-1",
   "name": "Whitehaven Beach",
-  "centroid_lat": -20.282677,
-  "centroid_lng": 149.034912,
   "country_code": "AU",
   "admin_level_1": "Queensland",
-  "admin_level_2": null,
+  "centroid_lat": -20.282677,
+  "centroid_lng": 149.034912,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": 7000,
-  "sources": [
-    {
-      "source_name": "wikidata",
-      "source_id": "Q2123432",
-      "source_url": "https://www.wikidata.org/wiki/Q2123432"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Whitehaven%20Beach%2C%20Whitsunday%20Island%2C%20Queensland.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Whitehaven_Beach"
-    },
-    "safety": {
-      "cyclone_count_50yr": "18",
-      "cyclone_max_category": "4"
-    }
+  "beach_length_m": 12000.0,
+  "slope_pct": 1.5257449746131897,
+  "nearshore_depth_m": 34.48230743408203,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Proserpine",
   "nearest_city_distance_km": 49.2,
@@ -38,31 +25,315 @@
     "name": "Hamilton Island Airport",
     "distance_km": 12.0
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      29.4375,
+      29.1625,
+      28.2938,
+      26.675,
+      24.3188,
+      21.9312,
+      21.1688,
+      22.15,
+      24.2125,
+      26.2125,
+      27.9875,
+      29.0187
+    ],
+    "air_temp_low": [
+      24.2375,
+      24.3125,
+      23.425,
+      21.9875,
+      19.8875,
+      17.3875,
+      16.1875,
+      16.8875,
+      18.5312,
+      20.6375,
+      22.425,
+      23.6
+    ],
+    "rain_mm": [
+      260.0,
+      326.0,
+      297.0,
+      175.0,
+      113.0,
+      76.0,
+      51.0,
+      46.0,
+      28.0,
+      52.0,
+      86.0,
+      183.0
+    ],
+    "wind_speed": [
+      4.775,
+      4.8938,
+      5.4125,
+      6.175,
+      5.9625,
+      6.0312,
+      5.825,
+      5.5125,
+      4.6375,
+      4.7875,
+      4.8063,
+      4.8688
+    ],
+    "sun_hours": [
+      22681.0,
+      21556.0,
+      20639.0,
+      18517.0,
+      15396.0,
+      14264.0,
+      15305.0,
+      18247.0,
+      22036.0,
+      23995.0,
+      24541.0,
+      24788.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Whitehaven_Beach",
-  "notability_score": 30.6,
-  "data_completeness_pct": 25.0,
+  "tides": {
+    "range_spring_m": 2.840681533229014,
+    "range_neap_m": 1.3875874303255857,
+    "type": "mixed",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 41.2,
       "f_pct": 6.9,
       "l_pct": 51.9,
       "regime": "lithic-rich (volcanic/collisional terrane)",
+      "regime_plain": "Lithic-rich (volcanic/collisional terrane)",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
-    },
-    "color": "white",
-    "description": "The beach is seven kilometres in length and is famous for its white silica sands and turquoise water.",
-    "curated": {
-      "story": "Whitehaven's sand is 98-99% pure silica — unusually fine quartz that reflects sunlight rather than absorbing it, keeping the sand cool in tropical heat. Geologists believe the deposit was transported by ancient currents from a source still not conclusively identified.",
-      "citations": [
-        "https://en.wikipedia.org/wiki/Whitehaven_Beach"
-      ],
-      "showcase_rank": 5,
-      "reference_photo_url": null,
-      "reference_photo_attribution": null
     }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 54,
+    "paragraph": "54 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1898–2019).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Whitehaven_beach.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Whitehaven_beach.JPG/1280px-Whitehaven_beach.JPG",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Hikmahcut&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Hikmahcut (page does not exist)\">Hikmah Cut Ramadhana</a>",
+      "title": "Whitehaven beach.JPG",
+      "width": 7472,
+      "height": 2394
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Beach_Bliss_-_Flickr_-_3B%27s.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Beach_Bliss_-_Flickr_-_3B%27s.jpg/1280px-Beach_Bliss_-_Flickr_-_3B%27s.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/74485604@N00\">The 3B's</a> from Melbourne, Australia",
+      "title": "Beach Bliss - Flickr - 3B's.jpg",
+      "width": 6077,
+      "height": 4051
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Blue_Soldier_Crab.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Blue_Soldier_Crab.jpg/1280px-Blue_Soldier_Crab.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:AnimaliaPhile&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:AnimaliaPhile (page does not exist)\">Giverny Forbes</a>",
+      "title": "Blue Soldier Crab.jpg",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Whitehaven_Beach_%2845966225695%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Whitehaven_Beach_%2845966225695%29.jpg/1280px-Whitehaven_Beach_%2845966225695%29.jpg",
+      "license": "CC BY 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/141324643@N05\">Theo Crazzolara</a>",
+      "title": "Whitehaven Beach (45966225695).jpg",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Plage_Whitesunday_island.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Plage_Whitesunday_island.jpg/1280px-Plage_Whitesunday_island.jpg",
+      "license": "Public domain",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Grizzy_Kret\" title=\"User:Grizzy Kret\">Grizzy Kret</a>",
+      "title": "Plage Whitesunday island.jpg",
+      "width": 5882,
+      "height": 1536
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Whitehaven_Beach_-_Northern_End.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Whitehaven_Beach_-_Northern_End.jpg/1280px-Whitehaven_Beach_-_Northern_End.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Hush_Neo&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Hush Neo (page does not exist)\">Hush Neo</a>",
+      "title": "Whitehaven Beach - Northern End.jpg",
+      "width": 5456,
+      "height": 3632
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Whitehaven_Beach_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Whitehaven_Beach_-_panoramio.jpg/1280px-Whitehaven_Beach_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161026060941/http://www.panoramio.com/user/351260?with_photo_id=76120611\">dnatheist</a>",
+      "title": "Whitehaven Beach - panoramio.jpg",
+      "width": 5347,
+      "height": 2384
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/White_haven_beach_01.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/White_haven_beach_01.JPG/1280px-White_haven_beach_01.JPG",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sharbani.Dhar&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sharbani.Dhar (page does not exist)\">Sharbani.Dhar</a>",
+      "title": "White haven beach 01.JPG",
+      "width": 4272,
+      "height": 2848
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 34.48230743408203
+  },
+  "conservation": {
+    "name": "La Grande Barrière",
+    "type": "World heritage site (natural or mixed)",
+    "iucn": "Not Applicable",
+    "unesco": true
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 12,
+        "top": [
+          {
+            "common": "Silver Gull",
+            "latin": "Chroicocephalus novaehollandiae",
+            "obs": 10,
+            "iucn": null
+          },
+          {
+            "common": "Pied Oystercatcher",
+            "latin": "Haematopus longirostris",
+            "obs": 5,
+            "iucn": null
+          },
+          {
+            "common": "Torresian Crow",
+            "latin": "Corvus orru",
+            "obs": 3,
+            "iucn": null
+          },
+          {
+            "common": "Osprey",
+            "latin": "Pandion haliaetus",
+            "obs": 2,
+            "iucn": null
+          },
+          {
+            "common": "Red-capped Plover",
+            "latin": "Anarhynchus ruficapillus",
+            "obs": 2,
+            "iucn": null
+          },
+          {
+            "common": "Laughing Kookaburra",
+            "latin": "Dacelo novaeguineae",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Great Knot",
+            "latin": "Calidris tenuirostris",
+            "obs": 1,
+            "iucn": null
+          },
+          {
+            "common": "Far Eastern Curlew",
+            "latin": "Numenius madagascariensis",
+            "obs": 1,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 4,
+        "top": [
+          {
+            "common": "Broad Cowtail Stingray",
+            "latin": "Pastinachus ater",
+            "obs": 8,
+            "iucn": null
+          },
+          {
+            "common": "Giant Golden Orbweaver",
+            "latin": "Nephila pilipes",
+            "obs": 2,
+            "iucn": null
+          },
+          {
+            "common": "Australian Stick Mantis",
+            "latin": "Archimantis latistyla",
+            "obs": 2,
+            "iucn": null
+          },
+          {
+            "common": "Light-blue Soldier Crab",
+            "latin": "Mictyris longicarpus",
+            "obs": 2,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 3,
+        "top": [
+          {
+            "common": "Lace Monitor",
+            "latin": "Varanus varius",
+            "obs": 22,
+            "iucn": null
+          },
+          {
+            "common": "Common Tree Snake",
+            "latin": "Dendrelaphis punctulatus",
+            "obs": 2,
+            "iucn": null
+          },
+          {
+            "common": "Whitsunday Rainbow Skink",
+            "latin": "Carlia inconnexa",
+            "obs": 2,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 1,
+        "top": [
+          {
+            "common": "Carbeen",
+            "latin": "Corymbia tessellaris",
+            "obs": 2,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -130,5 +401,25 @@
       "text": "Longer beach season than 83% of beaches in its country",
       "detail": "12 comfortable months a year"
     }
-  ]
+  ],
+  "wikidata_id": "Q2123432",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Whitehaven_Beach",
+  "wikipedia_page_views_annual": 52168,
+  "notability_score": 30.6,
+  "data_completeness_pct": 66.7,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

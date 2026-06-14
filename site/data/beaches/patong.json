@@ -1,35 +1,20 @@
 {
   "slug": "patong",
   "name": "Patong",
-  "centroid_lat": 7.89658,
-  "centroid_lng": 98.29539,
   "country_code": "TH",
   "admin_level_1": "Phuket",
-  "admin_level_2": null,
+  "centroid_lat": 7.89658,
+  "centroid_lng": 98.29539,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": 2850,
-  "sources": [
-    {
-      "source_name": "wikidata",
-      "source_id": "Q630024",
-      "source_url": "https://www.wikidata.org/wiki/Q630024"
-    },
-    {
-      "source_name": "ibtracs_v04r01",
-      "source_id": "ibtracs_v04r01",
-      "source_url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Patong%20Beach%20%281%29.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Patong"
-    },
-    "safety": {
-      "cyclone_count_50yr": "7",
-      "cyclone_max_category": "3"
-    }
+  "beach_length_m": 24000.0,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Patong",
   "nearest_city_distance_km": 0.1,
@@ -38,26 +23,322 @@
     "name": "Phuket International Airport",
     "distance_km": 24.2
   },
-  "safety": {
-    "lifeguard": true,
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      31.7208,
+      32.6667,
+      33.0292,
+      32.9333,
+      31.7375,
+      31.1083,
+      30.7208,
+      30.5167,
+      30.1292,
+      30.25,
+      30.4,
+      30.675
+    ],
+    "air_temp_low": [
+      21.9042,
+      22.2583,
+      22.925,
+      23.4792,
+      23.6333,
+      23.7583,
+      23.3292,
+      23.4917,
+      22.9083,
+      22.4292,
+      22.4667,
+      21.9875
+    ],
+    "rain_mm": [
+      39.0,
+      49.0,
+      68.0,
+      149.0,
+      250.0,
+      254.0,
+      294.0,
+      369.0,
+      401.0,
+      335.0,
+      192.0,
+      63.0
+    ],
+    "wind_speed": [
+      2.0667,
+      2.5,
+      1.9917,
+      1.725,
+      1.625,
+      1.9917,
+      1.8583,
+      1.8875,
+      1.7042,
+      1.6417,
+      1.8625,
+      2.4542
+    ],
+    "sun_hours": [
+      20148.0,
+      22644.0,
+      22752.0,
+      21511.0,
+      18353.0,
+      16955.0,
+      17066.0,
+      17422.0,
+      16953.0,
+      16851.0,
+      17170.0,
+      17981.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "facilities": {
-    "parking": true,
-    "restrooms": true,
-    "showers": true
+  "tides": {
+    "range_spring_m": 1.9970517491223752,
+    "range_neap_m": 0.6699509955323543,
+    "type": "semidiurnal",
+    "source": "eot20"
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Patong",
-  "notability_score": 31.7,
-  "data_completeness_pct": 29.2,
   "sand": {
     "predicted": {
       "q_pct": 80.3,
       "f_pct": 5.3,
       "l_pct": 14.4,
       "regime": "quartz-dominant",
+      "regime_plain": "Quartz-dominant",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
     }
+  },
+  "storm_history": {
+    "cyclone_count_50yr": 8,
+    "paragraph": "8 tropical-cyclone tracks have passed within range of this coast in the historical record (IBTrACS, 1962–2019).",
+    "source": "IBTrACS v04r01 (NOAA)"
+  },
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Muslim_Cemetery%2C_Patong.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Muslim_Cemetery%2C_Patong.jpg/1280px-Muslim_Cemetery%2C_Patong.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Satdeep_Gill\" title=\"User:Satdeep Gill\">Satdeep Gill</a>",
+      "title": "Muslim Cemetery, Patong.jpg",
+      "width": 7952,
+      "height": 5304
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Christin_Massage%2C_Patong_Beach%2C_Phuket_%2826727544267%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Christin_Massage%2C_Patong_Beach%2C_Phuket_%2826727544267%29.jpg/1280px-Christin_Massage%2C_Patong_Beach%2C_Phuket_%2826727544267%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/42060140@N08\">Blemished Paradise</a>",
+      "title": "Christin Massage, Patong Beach, Phuket (26727544267).jpg",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Christin_Massage%2C_Patong_Beach%2C_Phuket_%2826727598977%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Christin_Massage%2C_Patong_Beach%2C_Phuket_%2826727598977%29.jpg/1280px-Christin_Massage%2C_Patong_Beach%2C_Phuket_%2826727598977%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/42060140@N08\">Blemished Paradise</a>",
+      "title": "Christin Massage, Patong Beach, Phuket (26727598977).jpg",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Christin_Massage%2C_Patong_Beach%2C_Phuket_%2827726040378%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Christin_Massage%2C_Patong_Beach%2C_Phuket_%2827726040378%29.jpg/1280px-Christin_Massage%2C_Patong_Beach%2C_Phuket_%2827726040378%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/42060140@N08\">Blemished Paradise</a>",
+      "title": "Christin Massage, Patong Beach, Phuket (27726040378).jpg",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Christin_Massage%2C_Patong_Beach%2C_Phuket_%2827726048238%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Christin_Massage%2C_Patong_Beach%2C_Phuket_%2827726048238%29.jpg/1280px-Christin_Massage%2C_Patong_Beach%2C_Phuket_%2827726048238%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/42060140@N08\">Blemished Paradise</a>",
+      "title": "Christin Massage, Patong Beach, Phuket (27726048238).jpg",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Christin_Massage%2C_Patong_Beach%2C_Phuket_%2839787337400%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Christin_Massage%2C_Patong_Beach%2C_Phuket_%2839787337400%29.jpg/1280px-Christin_Massage%2C_Patong_Beach%2C_Phuket_%2839787337400%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/42060140@N08\">Blemished Paradise</a>",
+      "title": "Christin Massage, Patong Beach, Phuket (39787337400).jpg",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/150_Thanon_Thawewong%2C_Tambon_Patong%2C_Amphoe_Kathu%2C_Chang_Wat_Phuket_83150%2C_Thailand_-_panoramio.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/150_Thanon_Thawewong%2C_Tambon_Patong%2C_Amphoe_Kathu%2C_Chang_Wat_Phuket_83150%2C_Thailand_-_panoramio.jpg/1280px-150_Thanon_Thawewong%2C_Tambon_Patong%2C_Amphoe_Kathu%2C_Chang_Wat_Phuket_83150%2C_Thailand_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161103124753/http://www.panoramio.com/user/7121193?with_photo_id=129459393\">Максим Улитин</a>",
+      "title": "150 Thanon Thawewong, Tambon Patong, Amphoe Kathu, Chang Wat Phuket 83150, Thailand - panoramio.jpg",
+      "width": 5472,
+      "height": 3423
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Parasailing_at_dusk_%28Unsplash%29.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Parasailing_at_dusk_%28Unsplash%29.jpg/1280px-Parasailing_at_dusk_%28Unsplash%29.jpg",
+      "license": "CC0",
+      "author_html": "Max Williamson <a rel=\"nofollow\" class=\"external text\" href=\"https://unsplash.com/@maxaw\">maxaw</a>",
+      "title": "Parasailing at dusk (Unsplash).jpg",
+      "width": 5184,
+      "height": 3456
+    }
+  ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "lifeguard": true
+  },
+  "facilities": {
+    "parking": true,
+    "restrooms": true,
+    "showers": true,
+    "food_nearby": true
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 12,
+        "top": [
+          {
+            "common": "Common Myna",
+            "latin": "Acridotheres tristis",
+            "obs": 48,
+            "iucn": null
+          },
+          {
+            "common": "Yellow-vented Bulbul",
+            "latin": "Pycnonotus goiavier",
+            "obs": 31,
+            "iucn": null
+          },
+          {
+            "common": "Spotted Dove",
+            "latin": "Spilopelia chinensis",
+            "obs": 22,
+            "iucn": null
+          },
+          {
+            "common": "Rock Pigeon",
+            "latin": "Columba livia",
+            "obs": 20,
+            "iucn": null
+          },
+          {
+            "common": "Great Egret",
+            "latin": "Ardea alba",
+            "obs": 20,
+            "iucn": null
+          },
+          {
+            "common": "Little Egret",
+            "latin": "Egretta garzetta",
+            "obs": 18,
+            "iucn": null
+          },
+          {
+            "common": "Brahminy Kite",
+            "latin": "Haliastur indus",
+            "obs": 17,
+            "iucn": null
+          },
+          {
+            "common": "Eurasian Tree Sparrow",
+            "latin": "Passer montanus",
+            "obs": 17,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Amphibians",
+        "key": "amphibian",
+        "count": 4,
+        "top": [
+          {
+            "common": "Asian Common Toad",
+            "latin": "Duttaphrynus melanostictus",
+            "obs": 14,
+            "iucn": null
+          },
+          {
+            "common": "Asian Painted Frog",
+            "latin": "Kaloula pulchra",
+            "obs": 10,
+            "iucn": null
+          },
+          {
+            "common": "Common Southeast Asian Tree Frog",
+            "latin": "Polypedates leucomystax",
+            "obs": 9,
+            "iucn": null
+          },
+          {
+            "common": "Green Paddy Frog",
+            "latin": "Hylarana erythraea",
+            "obs": 9,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 2,
+        "top": [
+          {
+            "common": "Fish Poison Tree",
+            "latin": "Barringtonia asiatica",
+            "obs": 9,
+            "iucn": null
+          },
+          {
+            "common": "coconut palm",
+            "latin": "Cocos nucifera",
+            "obs": 8,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Reptiles",
+        "key": "reptile",
+        "count": 1,
+        "top": [
+          {
+            "common": "Flat-tailed House Gecko",
+            "latin": "Hemidactylus platyurus",
+            "obs": 22,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 1,
+        "top": [
+          {
+            "common": "African Giant Snail",
+            "latin": "Lissachatina fulica",
+            "obs": 14,
+            "iucn": null
+          }
+        ]
+      }
+    ]
   },
   "waves": {
     "height_mean_m": [
@@ -125,5 +406,25 @@
       "text": "Among the warmest 5% of beaches on Earth",
       "detail": null
     }
-  ]
+  ],
+  "wikidata_id": "Q630024",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Patong",
+  "wikipedia_page_views_annual": 66334,
+  "notability_score": 31.7,
+  "data_completeness_pct": 62.5,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }

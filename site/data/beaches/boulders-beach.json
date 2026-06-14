@@ -1,31 +1,22 @@
 {
   "slug": "boulders-beach",
   "name": "Boulders Beach",
-  "centroid_lat": -34.1980612,
-  "centroid_lng": 18.4521659,
   "country_code": "ZA",
   "admin_level_1": "Western Cape",
-  "admin_level_2": null,
+  "centroid_lat": -34.1980612,
+  "centroid_lng": 18.4521659,
   "water_body_type": "ocean",
   "substrate_type": "unknown",
-  "beach_length_m": 300,
-  "sources": [
-    {
-      "source_name": "osm",
-      "source_id": "way/46188677",
-      "source_url": "https://www.openstreetmap.org/way/46188677"
-    },
-    {
-      "source_name": "wikidata",
-      "source_id": "Q895056",
-      "source_url": "https://www.wikidata.org/wiki/Q895056"
-    }
-  ],
-  "attributes": {
-    "social": {
-      "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Swimmers%20at%20Boulders%20Beach%2C%20Cape%20Town.jpg",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Boulders_Beach"
-    }
+  "beach_length_m": 28000.0,
+  "slope_pct": 1.100427007675171,
+  "nearshore_depth_m": 34.125,
+  "classification": {
+    "primary_type": "Ocean",
+    "primary_type_slug": "ocean",
+    "coastal_type": "Ocean",
+    "coastal_type_slug": "ocean",
+    "micro_type": "Ocean",
+    "micro_type_slug": "ocean"
   },
   "nearest_city": "Retreat",
   "nearest_city_distance_km": 16.0,
@@ -34,29 +25,337 @@
     "name": "Cape Town International Airport",
     "distance_km": 28.6
   },
-  "safety": {
-    "shark_incidents_total": 0
+  "climate": {
+    "air_temp_high": [
+      23.9385,
+      24.3385,
+      23.4462,
+      21.4231,
+      19.2154,
+      17.3923,
+      16.6692,
+      16.7462,
+      17.7615,
+      19.5385,
+      21.2077,
+      22.8308
+    ],
+    "air_temp_low": [
+      15.7231,
+      15.8385,
+      14.7,
+      12.9769,
+      11.2923,
+      9.9077,
+      9.2385,
+      9.3308,
+      10.1308,
+      11.6615,
+      13.3385,
+      14.8231
+    ],
+    "rain_mm": [
+      16.0,
+      17.0,
+      21.0,
+      45.0,
+      83.0,
+      97.0,
+      89.0,
+      84.0,
+      50.0,
+      29.0,
+      18.0,
+      20.0
+    ],
+    "wind_speed": [
+      6.1846,
+      5.8923,
+      5.0538,
+      4.7308,
+      4.4231,
+      4.7,
+      4.1154,
+      4.9538,
+      5.1846,
+      5.7692,
+      5.9154,
+      5.9154
+    ],
+    "sun_hours": [
+      27516.0,
+      24949.0,
+      20366.0,
+      14731.0,
+      10547.0,
+      9117.0,
+      9722.0,
+      12497.0,
+      16560.0,
+      21531.0,
+      25285.0,
+      27720.0
+    ],
+    "climate_source": "worldclim_v2.1_2.5m",
+    "climate_type": null,
+    "water_temp_source_note": "No monthly sea-surface temperature on record for this beach; the season guide below is keyed to air temperature."
   },
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Boulders_Beach",
-  "notability_score": 32.8,
-  "data_completeness_pct": 25.0,
+  "tides": {
+    "range_spring_m": 1.4946920679561346,
+    "range_neap_m": 0.5498286302343297,
+    "type": "semidiurnal",
+    "source": "eot20"
+  },
   "sand": {
     "predicted": {
       "q_pct": 91.4,
       "f_pct": 1.2,
       "l_pct": 7.4,
       "regime": "quartz-dominant",
+      "regime_plain": "Quartz-dominant",
       "source": "GloPrSM v1.0.0 (IJ_QFL)"
-    },
-    "color": "golden"
+    }
   },
-  "comparisons": [
+  "photos": [
     {
-      "metric": "Peak warmth",
-      "text": "Cooler than 85% of beaches in its country",
-      "detail": "Peak-month high ≈ 24°C"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/2013-02-17_15-17-11_South_Africa_-_Simon%27S_Town_Seaforth_5h.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/2013-02-17_15-17-11_South_Africa_-_Simon%27S_Town_Seaforth_5h.JPG/1280px-2013-02-17_15-17-11_South_Africa_-_Simon%27S_Town_Seaforth_5h.JPG",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<b>NOTE:</b> This image is a panorama  consisting of multiple frames that were merged or stitched in software. As a result, this image necessarily underwent some form of digital manipulation. These manipulations may include blending, blurring, cloning, and colour and perspective adjustments. As a result of these adjustments, the image content may be slightly different from reality at the points where multiple images were combined. This manipulation is often required due to lens, perspective, and parallax distortions.",
+      "title": "2013-02-17 15-17-11 South Africa - Simon'S Town Seaforth 5h.JPG",
+      "width": 11411,
+      "height": 2016
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Playa_de_Boulders%2C_Simon%27s_Town%2C_Sud%C3%A1frica%2C_2018-07-23%2C_DD_47.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Playa_de_Boulders%2C_Simon%27s_Town%2C_Sud%C3%A1frica%2C_2018-07-23%2C_DD_47.jpg/1280px-Playa_de_Boulders%2C_Simon%27s_Town%2C_Sud%C3%A1frica%2C_2018-07-23%2C_DD_47.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+      "title": "Playa de Boulders, Simon's Town, Sudáfrica, 2018-07-23, DD 47.jpg",
+      "width": 8664,
+      "height": 5784
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Penguins_at_Boulders_Beach_17.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Penguins_at_Boulders_Beach_17.jpg/1280px-Penguins_at_Boulders_Beach_17.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Satdeep_Gill\" title=\"User:Satdeep Gill\">Satdeep Gill</a>",
+      "title": "Penguins at Boulders Beach 17.jpg",
+      "width": 7952,
+      "height": 5304
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Boulders-Beach2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Boulders-Beach2.jpg/1280px-Boulders-Beach2.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Octagon\" title=\"User:Octagon\">Octagon</a>",
+      "title": "Boulders-Beach2.jpg",
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Boulders_Beach%2C_South_Africa.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Boulders_Beach%2C_South_Africa.jpg/1280px-Boulders_Beach%2C_South_Africa.jpg",
+      "license": "CC0",
+      "author_html": "jeffgreenca",
+      "title": "Boulders Beach, South Africa.jpg",
+      "width": 5883,
+      "height": 2968
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Boulders-Beach.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Boulders-Beach.jpg/1280px-Boulders-Beach.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Octagon\" title=\"User:Octagon\">Octagon</a>",
+      "title": "Boulders-Beach.jpg",
+      "width": 5774,
+      "height": 3850
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Boulders_Beach_Penguin_Colony_3.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Boulders_Beach_Penguin_Colony_3.jpg/1280px-Boulders_Beach_Penguin_Colony_3.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "Photograph by <a href=\"//commons.wikimedia.org/wiki/User:Mike_Peel\" title=\"User:Mike Peel\">Mike Peel</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://www.mikepeel.net/\">www.mikepeel.net</a>).",
+      "title": "Boulders Beach Penguin Colony 3.jpg",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Boulders-Beach4.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Boulders-Beach4.jpg/1280px-Boulders-Beach4.jpg",
+      "license": "CC BY 3.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Octagon\" title=\"User:Octagon\">Octagon</a>",
+      "title": "Boulders-Beach4.jpg",
+      "width": 4946,
+      "height": 3297
     }
   ],
+  "safety": {
+    "shark_incidents_total": 0,
+    "shark_incident_last_year": null,
+    "nearshore_depth_m": 34.125
+  },
+  "wildlife": {
+    "total_species": 20,
+    "groups": [
+      {
+        "label": "Invertebrates",
+        "key": "invertebrate",
+        "count": 9,
+        "top": [
+          {
+            "common": "Spiny Starfish",
+            "latin": "Marthasterias africana",
+            "obs": 394,
+            "iucn": null
+          },
+          {
+            "common": "Gasflame Nudibranch",
+            "latin": "Bonisa nakaza",
+            "obs": 363,
+            "iucn": null
+          },
+          {
+            "common": "Cape sea urchin",
+            "latin": "Parechinus angulosus",
+            "obs": 270,
+            "iucn": null
+          },
+          {
+            "common": "black nudibranch",
+            "latin": "Tambja capensis",
+            "obs": 194,
+            "iucn": null
+          },
+          {
+            "common": "False Plum Anemone",
+            "latin": "Pseudactinia flagellifera",
+            "obs": 168,
+            "iucn": null
+          },
+          {
+            "common": "crowned nudibranch",
+            "latin": "Polycera capensis",
+            "obs": 164,
+            "iucn": null
+          },
+          {
+            "common": "Common Octopus",
+            "latin": "Octopus vulgaris",
+            "obs": 144,
+            "iucn": null
+          },
+          {
+            "common": "Knobbly Anemone",
+            "latin": "Bunodosoma capense",
+            "obs": 133,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Birds",
+        "key": "bird",
+        "count": 4,
+        "top": [
+          {
+            "common": "African Penguin",
+            "latin": "Spheniscus demersus",
+            "obs": 2431,
+            "iucn": null
+          },
+          {
+            "common": "Kelp Gull",
+            "latin": "Larus dominicanus",
+            "obs": 278,
+            "iucn": null
+          },
+          {
+            "common": "Red-winged Starling",
+            "latin": "Onychognathus morio",
+            "obs": 126,
+            "iucn": null
+          },
+          {
+            "common": "Cape Wagtail",
+            "latin": "Motacilla capensis",
+            "obs": 120,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Fish",
+        "key": "fish",
+        "count": 4,
+        "top": [
+          {
+            "common": "Super Klipfish",
+            "latin": "Clinus superciliosus",
+            "obs": 209,
+            "iucn": null
+          },
+          {
+            "common": "Hottentot Seabream",
+            "latin": "Pachymetopon blochii",
+            "obs": 202,
+            "iucn": null
+          },
+          {
+            "common": "Roman Seabream",
+            "latin": "Chrysoblephus laticeps",
+            "obs": 189,
+            "iucn": null
+          },
+          {
+            "common": "Speckled Klipfish",
+            "latin": "Clinus venustris",
+            "obs": 132,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Mammals",
+        "key": "mammal",
+        "count": 1,
+        "top": [
+          {
+            "common": "Rock Hyrax",
+            "latin": "Procavia capensis",
+            "obs": 687,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Plants",
+        "key": "plant",
+        "count": 1,
+        "top": [
+          {
+            "common": "Swartkops Spiderhead",
+            "latin": "Serruria hirsuta",
+            "obs": 229,
+            "iucn": null
+          }
+        ]
+      },
+      {
+        "label": "Other",
+        "key": "other",
+        "count": 1,
+        "top": [
+          {
+            "common": "Sea bamboo",
+            "latin": "Ecklonia maxima",
+            "obs": 144,
+            "iucn": null
+          }
+        ]
+      }
+    ]
+  },
   "waves": {
     "height_mean_m": [
       2.19,
@@ -111,5 +410,27 @@
       "character": "Heavy — a powerful, surf-driven coast"
     },
     "source": "Open-Meteo Marine (ERA5 Ocean reanalysis, 2023–2024)"
-  }
+  },
+  "comparisons": [
+    {
+      "metric": "Peak warmth",
+      "text": "Cooler than 85% of beaches in its country",
+      "detail": "Peak-month high ≈ 24°C"
+    }
+  ],
+  "wikidata_id": "Q895056",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Boulders_Beach",
+  "wikipedia_page_views_annual": 49209,
+  "notability_score": 32.8,
+  "data_completeness_pct": 62.5,
+  "best_months": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "swim_suitability": "fair"
 }
