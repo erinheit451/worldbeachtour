@@ -1,0 +1,46 @@
+{
+  "slug": "jomtien",
+  "beach_name": "Jomtien Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "The 6-kilometre Pattaya-adjacent strip where a wall of high-rise condos meets the Gulf of Thailand's busiest watersports beach.",
+  "spike_statement": "A straight 6-kilometre beachfront in Bang Lamung, 3 km south of Pattaya, where a wall of high-rise condominiums fronts the Gulf's busiest jet-ski strip.",
+  "levers": {
+    "primary_color": "#1E73A8",
+    "supporting_color": "#E4D9BE",
+    "hero_type": "LAYERED",
+    "display_pairing": "VERNACULAR",
+    "voice_register": "WRY",
+    "photo_tone": "flat Gulf-of-Thailand blue against pale quartz sand, the condo skyline as a hard grey edge behind the palms"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "culture",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
