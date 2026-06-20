@@ -1,0 +1,47 @@
+{
+  "slug": "sarakiniko-beach",
+  "beach_name": "Sarakiniko",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A treeless white moonscape on the north coast of Milos, where wind and sea have eroded soft volcanic rock into bare lunar curves.",
+  "spike": "the-moonscape",
+  "spike_statement": "Wind off the Aegean and waves driven by the north winds have eroded Milos's pale volcanic tuff into a bare, treeless lunar landscape with no soil and no shade.",
+  "levers": {
+    "primary_color": "#1466A6",
+    "supporting_color": "#EFE9DC",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "SEVERE",
+    "photo_tone": "bone-white volcanic rock against deep Aegean blue, hard noon light with no warm note and no green"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "sand",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
