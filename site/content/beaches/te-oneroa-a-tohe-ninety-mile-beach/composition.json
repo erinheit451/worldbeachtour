@@ -1,0 +1,46 @@
+{
+  "slug": "te-oneroa-a-tohe-ninety-mile-beach",
+  "beach_name": "Ninety Mile Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "Te Oneroa-a-Tōhē: the 88-kilometre west-coast beach that is a gazetted New Zealand highway and a Māori spirit-path toward Cape Reinga.",
+  "spike_statement": "An 88-km strip of sand gazetted as a legal road, yet the incoming Tasman tide and Te Paki quicksand strand rental cars on it every year.",
+  "levers": {
+    "primary_color": "#2A6F97",
+    "supporting_color": "#E7DCC4",
+    "hero_type": "MONUMENT",
+    "display_pairing": "AUSTERE",
+    "voice_register": "REVERENT",
+    "photo_tone": "cold Tasman blue over pale wind-combed dune sand, low sun raking a flat horizon"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "culture",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
