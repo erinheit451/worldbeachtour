@@ -1,0 +1,46 @@
+{
+  "slug": "platges-de-comte",
+  "beach_name": "Platges de Comte",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "Two west-facing sand coves on Ibiza's Sant Josep coast, looking across shallow turquoise water to the protected islets of Ponent.",
+  "spike_statement": "The shallows run clear turquoise over white sand because currents flush the bay constantly, and three protected islets stand offshore on the line of Ibiza's most-watched sunset.",
+  "levers": {
+    "primary_color": "#2BB6C4",
+    "supporting_color": "#F2EAD8",
+    "hero_type": "SPIKE",
+    "display_pairing": "VERNACULAR",
+    "voice_register": "ROMANTIC",
+    "photo_tone": "shallow turquoise grading to cobalt over pale sand, the islets as flat dark silhouettes against a low west sun"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "photography",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
