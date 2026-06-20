@@ -1,0 +1,46 @@
+{
+  "slug": "playa-de-las-teresitas",
+  "beach_name": "Playa de las Teresitas",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A golden beach built in 1973 on a black volcanic coast, from Saharan sand and an Atlantic breakwater.",
+  "spike_statement": "Roughly 270,000 tons of pale Saharan sand — some 5 million sacks shipped from El Aaiún aboard the Gopegui — were laid over Tenerife's black volcanic shore in 1973, behind a one-kilometer breakwater.",
+  "levers": {
+    "primary_color": "#1C6FA8",
+    "supporting_color": "#D9B36A",
+    "hero_type": "SPIKE",
+    "display_pairing": "VERNACULAR",
+    "voice_register": "WRY",
+    "photo_tone": "Atlantic blue and Saharan gold set against the dark volcanic green of the Anaga massif behind"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "sand",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
