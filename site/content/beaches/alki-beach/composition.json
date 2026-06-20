@@ -1,0 +1,47 @@
+{
+  "slug": "alki-beach",
+  "beach_name": "Alki Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "The Puget Sound shore where the schooner Exact landed the Denny Party on November 13, 1851 — Seattle's founding.",
+  "spike": "birthplace-of-seattle",
+  "spike_statement": "On a rainy November 13, 1851, the schooner Exact put twelve adults and twelve children ashore here, and Seattle dates its founding to this beach.",
+  "levers": {
+    "primary_color": "#43677D",
+    "supporting_color": "#D8CCBA",
+    "hero_type": "MONUMENT",
+    "display_pairing": "VERNACULAR",
+    "voice_register": "WRY",
+    "photo_tone": "Puget Sound grey-blue water and an overcast sky over driftwood-pale sand, the green-painted Liberty replica the one bright vertical"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    },
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    }
+  ],
+  "adaptive": true
+}
