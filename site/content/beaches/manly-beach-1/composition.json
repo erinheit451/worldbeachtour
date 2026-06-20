@@ -1,0 +1,47 @@
+{
+  "slug": "manly-beach-1",
+  "beach_name": "Manly Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "The Sydney ocean beach where a newspaperman's daylight swim broke the bathing ban and Australian surf-lifesaving was born.",
+  "spike": "the-daylight-swim",
+  "spike_statement": "In October 1902 William Gocher swam at Manly in defiance of a daylight-bathing ban; by November 1903 the council had repealed it, opening Australia's ocean beaches.",
+  "levers": {
+    "primary_color": "#1C6FA6",
+    "supporting_color": "#1B5E4F",
+    "hero_type": "SPIKE",
+    "display_pairing": "VERNACULAR",
+    "voice_register": "WRY",
+    "photo_tone": "Tasman blue under hard southern light, Norfolk-pine green along the promenade, golden quartz sand"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "surf",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
