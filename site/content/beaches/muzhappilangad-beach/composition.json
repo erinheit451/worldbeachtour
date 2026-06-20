@@ -1,0 +1,46 @@
+{
+  "slug": "muzhappilangad-beach",
+  "beach_name": "Muzhappilangad Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "The drive-in beach on Kerala's Malabar Coast where cars run on the sand and a black rock reef holds a calm lagoon.",
+  "spike_statement": "India's longest drive-in beach: roughly 4 km of firm sand on the Arabian Sea, with about 3.4 km you can drive a car straight down.",
+  "levers": {
+    "primary_color": "#1C6E8C",
+    "supporting_color": "#D8B26A",
+    "hero_type": "SPIKE",
+    "display_pairing": "VERNACULAR",
+    "voice_register": "WRY",
+    "photo_tone": "warm golden quartz sand against Arabian-Sea teal, black basalt rocks as the dark anchor"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "culture",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
