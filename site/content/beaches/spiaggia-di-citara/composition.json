@@ -1,0 +1,46 @@
+{
+  "slug": "spiaggia-di-citara",
+  "beach_name": "Spiaggia di Citara",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A west-facing thermal bay on volcanic Ischia, below Forio, where mineral springs feed the sea and the Giardini Poseidon.",
+  "spike_statement": "The southwest-facing Citara bay holds the Giardini Poseidon, Ischia's oldest thermal park, opened in 1959 over a beach fed by the island's volcanic springs.",
+  "levers": {
+    "primary_color": "#1F6F8B",
+    "supporting_color": "#C9BBA0",
+    "hero_type": "SPIKE",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "REVERENT",
+    "photo_tone": "Tyrrhenian teal water against warm volcanic-tuff sand, low western light on the bay"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "sand",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
