@@ -1,0 +1,46 @@
+{
+  "slug": "dhanushkodi-beach",
+  "beach_name": "Dhanushkodi Beach",
+  "version": "0.9",
+  "tier": 2,
+  "spike": "the-night-it-ended",
+  "spike_statement": "The town the December 1964 Rameswaram cyclone destroyed in a single night, killing roughly 1,800 people and washing a passenger train into the sea, leaving a ghost town at India's land's end.",
+  "levers": {
+    "primary_color": "#2C8C9E",
+    "supporting_color": "#E4D9C3",
+    "hero_type": "ABSENCE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "REVERENT",
+    "photo_tone": "Palk Strait teal against bleached shell sand, ruin grey and rust as the only built tones"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
