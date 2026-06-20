@@ -1,0 +1,46 @@
+{
+  "slug": "sandymount-strand-1",
+  "beach_name": "Sandymount Strand",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "The tidal flat on Dublin Bay's south shore where Stephen Dedalus and Leopold Bloom walk in Joyce's Ulysses.",
+  "spike_statement": "The strand of Joyce's Ulysses, where the tide retreats roughly a kilometre to bare the flats Stephen Dedalus walks in Proteus.",
+  "levers": {
+    "primary_color": "#5C7A8A",
+    "supporting_color": "#C9B89A",
+    "hero_type": "LAYERED",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "REVERENT",
+    "photo_tone": "grey-blue Irish Sea over tan tidal flats, the Poolbeg chimneys and lighthouse as the fixed marks on a low horizon"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "culture",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
