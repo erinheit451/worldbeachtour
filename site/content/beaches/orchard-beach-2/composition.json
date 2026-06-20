@@ -1,0 +1,46 @@
+{
+  "slug": "orchard-beach-2",
+  "beach_name": "Orchard Beach",
+  "version": "0.9",
+  "tier": 2,
+  "spike": "the-built-beach",
+  "spike_statement": "The only public beach in the Bronx is entirely man-made — a 1.1-mile crescent Robert Moses built in the 1930s on barged-in sand over a filled-in lagoon.",
+  "levers": {
+    "primary_color": "#1F6FB2",
+    "supporting_color": "#E7DEC9",
+    "hero_type": "MONUMENT",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "WRY",
+    "photo_tone": "warm Depression-era limestone and blue tile against the flat gray-green of Long Island Sound, Rockaway sand bleached pale"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
