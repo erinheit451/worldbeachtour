@@ -1,0 +1,46 @@
+{
+  "slug": "manila-bay-beach-1",
+  "beach_name": "Manila Bay Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "An artificial white beach of crushed Cebu dolomite, laid over a polluted urban bay along Roxas Boulevard in 2020.",
+  "spike_statement": "A ₱389-million government beautification project that covered a 500-meter stretch of Manila Bay's gray seawall with crushed white dolomite in 2020, famous for sunsets and for the controversy it triggered.",
+  "levers": {
+    "primary_color": "#D98A2B",
+    "supporting_color": "#E4E1DA",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "WRY",
+    "photo_tone": "Roxas Boulevard sunset gold over a flat gray bay, the dolomite reading chalk-white and faintly artificial against the city"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "environment",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
