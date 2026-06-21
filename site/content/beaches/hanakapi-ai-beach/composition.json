@@ -1,0 +1,46 @@
+{
+  "slug": "hanakapi-ai-beach",
+  "beach_name": "Hanakapiʻai Beach",
+  "version": "0.9",
+  "tier": 2,
+  "spike": "the-counted-dead",
+  "spike_statement": "A beach with a sign tallying its drowning victims, reached only on foot or by sea, where rip currents and a six-mile gap to safe shore make swimming lethal.",
+  "levers": {
+    "primary_color": "#0E4D6B",
+    "supporting_color": "#3C6B4A",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "SEVERE",
+    "photo_tone": "deep Pacific blue against the green walls of the Nā Pali valley, summer sand bleaching to winter boulder under heavy north-shore surf"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "environment",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
