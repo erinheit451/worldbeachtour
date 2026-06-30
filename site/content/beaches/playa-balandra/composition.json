@@ -1,0 +1,46 @@
+{
+  "slug": "playa-balandra",
+  "beach_name": "Playa Balandra",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A shallow turquoise lagoon among desert cacti near La Paz — repeatedly voted Mexico's most beautiful beach, protected against all development, capped by daily reservation, and anchored by El Hongo, the balanced 'mushroom' rock a tourist once toppled.",
+  "spike_statement": "A shallow turquoise desert lagoon near La Paz, protected so tightly it bans hotels and caps daily visitors, anchored by El Hongo, a balanced rock once broken and rebuilt.",
+  "levers": {
+    "primary_color": "#1FA39A",
+    "supporting_color": "#C9A86A",
+    "hero_type": "MONUMENT",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "REVERENT",
+    "photo_tone": "impossibly shallow turquoise water over pale sandbanks, cactus-studded desert hills meeting the Sea of Cortez, the balanced mushroom silhouette of El Hongo against a bright Baja sky"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "environment",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
