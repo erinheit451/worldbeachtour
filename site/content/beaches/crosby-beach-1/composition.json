@@ -1,0 +1,46 @@
+{
+  "slug": "crosby-beach-1",
+  "beach_name": "Crosby Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A working, red-flagged beach north of Liverpool where 100 life-size cast-iron men by Antony Gormley — each a cast of his own body — stand across two miles of tidal sand, submerged and uncovered by every tide.",
+  "spike_statement": "One hundred cast-iron men, each a cast of Antony Gormley's body, stand across two miles of tidal sand at Crosby, drowned and revealed by every tide.",
+  "levers": {
+    "primary_color": "#6E5A4F",
+    "supporting_color": "#5E7079",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "MELANCHOLIC",
+    "photo_tone": "rust-brown cast-iron figures on flat wet gray tidal sand facing a pale Liverpool Bay, some half-submerged, barnacle-crusted and corroding, container ships on the horizon"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "culture",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
