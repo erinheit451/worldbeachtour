@@ -1,0 +1,46 @@
+{
+  "slug": "oppenheimer-beach",
+  "beach_name": "Oppenheimer Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A quiet public beach on Hawksnest Bay, St. John, that was the atomic-bomb physicist J. Robert Oppenheimer's Caribbean retreat — given to the island by his daughter Toni, who died here.",
+  "spike_statement": "J. Robert Oppenheimer's Caribbean retreat, deeded to the people of St. John by his daughter Toni, who died here by suicide in 1977.",
+  "levers": {
+    "primary_color": "#247B74",
+    "supporting_color": "#C7B299",
+    "hero_type": "LAYERED",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "MELANCHOLIC",
+    "photo_tone": "turquoise Hawksnest Bay and coral-and-algae sand under sea-grape shade, a modest stone cottage at the tree line, the light bright over a quiet, half-forgotten beach"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
