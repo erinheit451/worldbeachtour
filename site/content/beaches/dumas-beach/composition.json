@@ -1,0 +1,46 @@
+{
+  "slug": "dumas-beach",
+  "beach_name": "Dumas Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A rare dark-sand beach on the Arabian Sea 21 km from Surat, famous as one of India's 'most haunted' places — a reputation its weekend crowds, food stalls, and seaside Ganesh temple cheerfully ignore.",
+  "spike_statement": "A rare black-sand beach near Surat whose iron-dark sand and a cremation legend made it one of India's 'most haunted' shores, and also a packed weekend picnic spot.",
+  "levers": {
+    "primary_color": "#33363B",
+    "supporting_color": "#C97A1E",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "WRY",
+    "photo_tone": "dark gray-black sand against the flat brown Arabian Sea under hazy Gujarat light, food stalls and weekend crowds by day, the seaside Ganesh shrine, nothing actually spooky in daylight"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "culture",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
