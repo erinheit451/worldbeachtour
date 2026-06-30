@@ -1,0 +1,46 @@
+{
+  "slug": "praia-do-cassino-1",
+  "beach_name": "Praia do Cassino",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "Up to 254 kilometers of unbroken, windswept sand from the jetties of the Rio Grande seaport to the Uruguay border — widely called the world's longest beach: cold-watered, drivable, and anchored by a 1976 shipwreck.",
+  "spike_statement": "The world's longest beach: up to 254 km of unbroken sand from the Rio Grande port to the Uruguay border, so long it serves as a road, on cold Falklands-current water.",
+  "levers": {
+    "primary_color": "#4A6A78",
+    "supporting_color": "#CBB893",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "WRY",
+    "photo_tone": "an immense flat windswept beach vanishing to the horizon under a wide grey-blue southern sky, the stone jetties of the Molhes reaching into a cold South Atlantic, tyre tracks and a rusting hull on hard sand"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
