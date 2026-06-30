@@ -1,0 +1,46 @@
+{
+  "slug": "petani",
+  "beach_name": "Petani Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A horseshoe bay of white pebbles and deep turquoise water under limestone cliffs on Kefalonia's Paliki peninsula — 'Myrtos without the crowds' — on a Greek island almost entirely rebuilt after the 1953 earthquake that flattened it.",
+  "spike_statement": "A horseshoe of white pebbles and turquoise under limestone cliffs on Kefalonia — 'Myrtos without the crowds' — on an island flattened and rebuilt after the 1953 earthquake.",
+  "levers": {
+    "primary_color": "#1FA6B8",
+    "supporting_color": "#D9CDB8",
+    "hero_type": "MONUMENT",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "REVERENT",
+    "photo_tone": "deep turquoise Ionian water in a horseshoe bay of bright white pebbles, pale limestone cliffs and green brush rising steeply behind, the low west sun on the sea, two small tavernas on the terrace above"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
