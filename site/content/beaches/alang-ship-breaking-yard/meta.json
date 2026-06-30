@@ -7,60 +7,39 @@
   "custom": [],
   "images": {
     "hero": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Aegopodium_podagraria1_ies.jpg",
-      "title": "Aegopodium podagraria1 ies.jpg",
-      "author": "Frank Vincentz",
-      "license": "CC BY-SA 3.0",
-      "width": 800,
-      "height": 700,
-      "score": 70.5
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Calendar_2020_%2864%29.jpg",
+      "title": "Removing steel plates from a ship with cranes at the Alang ship recycling yard",
+      "author": "Nayeem Noor",
+      "license": "CC BY-SA 4.0",
+      "width": 1040,
+      "height": 780,
+      "score": 90.0
     },
     "gallery": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Bedrijfsafval.jpg",
-        "title": "Bedrijfsafval.jpg",
-        "license": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Alang_Ship_Breaking_-_panoramio.jpg",
+        "title": "Beached ships under dismantling at Alang",
+        "license": "CC BY-SA 3.0",
         "source_tier": 1,
-        "score": 45.0,
-        "width": 2304,
-        "height": 1728
+        "score": 60.0,
+        "width": 2048,
+        "height": 1536
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Shipwrecking_in_Alang%2C_India%2C_2017-03-23_by_Planet_Labs.jpg",
-        "title": "Shipwrecking in Alang, India, 2017-03-23 by Planet Labs.jpg",
+        "title": "Satellite view of vessels beached along the Alang shore, 23 March 2017 (Planet Labs)",
         "license": "CC BY-SA 4.0",
         "source_tier": 1,
-        "score": 45.0,
+        "score": 55.0,
         "width": 2400,
         "height": 1800
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Calendar_2020_%2864%29.jpg",
-        "title": "Calendar 2020 (64).jpg",
-        "license": "CC BY-SA 4.0",
-        "source_tier": 1,
-        "score": 41.7,
-        "width": 1040,
-        "height": 780
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Alang_Ship_Breaking_-_panoramio.jpg",
-        "title": "Alang Ship Breaking - panoramio.jpg",
-        "license": "CC BY-SA 3.0",
-        "source_tier": 2,
-        "score": 30.0,
-        "width": 2048,
-        "height": 1536
       }
     ],
     "_enrichment": {
-      "pipeline_version": "photo_enrichment.py v1",
+      "pipeline_version": "photo_enrichment.py v1 + manual hero correction 2026-06-30",
       "candidates_evaluated": 5,
-      "tier_breakdown": {
-        "tier1": 4,
-        "tier2": 1
-      },
-      "hero_auto_selected": true
+      "note": "Auto-selector wrongly picked a plant photo (Aegopodium) as hero; corrected to a real Alang dismantling image and dropped a junk industrial-waste photo.",
+      "hero_auto_selected": false
     }
   }
 }

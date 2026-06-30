@@ -1,0 +1,46 @@
+{
+  "slug": "alang-ship-breaking-yard",
+  "beach_name": "Alang Ship Breaking Yard",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A 14-kilometer tidal mudflat on the Gulf of Khambhat where roughly a third of the world's end-of-life ships are run aground and dismantled by hand — the largest ship-breaking yard on Earth.",
+  "spike_statement": "The world's largest ship graveyard: about a third of Earth's retired cargo ships are driven aground on a 13-meter tide here and torn apart by hand.",
+  "levers": {
+    "primary_color": "#8A4B2F",
+    "supporting_color": "#5C6670",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "SEVERE",
+    "photo_tone": "rust-streaked steel hulls grounded on gray tidal mud under hazy Gujarat heat, cutting torches and cranes against the half-dismantled ships, the human scale of the workers tiny against the bows"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
