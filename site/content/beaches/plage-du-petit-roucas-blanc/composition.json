@@ -1,0 +1,46 @@
+{
+  "slug": "plage-du-petit-roucas-blanc",
+  "beach_name": "Plage du Petit Roucas Blanc",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "Part of Marseille's largest beach — 3.5 km of free public sand the city built in the 1970s from the rubble excavated to make its metro — a democratic, multicultural anti-Riviera under a marble David, looking out to the Château d'If of Monte Cristo.",
+  "spike_statement": "Marseille built its biggest beach — 3.5 km of free public sand — from the rubble dug out making its metro: a democratic, multicultural anti-Riviera under a marble David.",
+  "levers": {
+    "primary_color": "#1C7FA0",
+    "supporting_color": "#C98B45",
+    "hero_type": "SPIKE",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "WRY",
+    "photo_tone": "a busy free public city beach on a bright Mediterranean blue, windsurfers out in the Mistral, the limestone Corniche and the city behind, the Château d'If small on the horizon, the white David statue at the roundabout"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
