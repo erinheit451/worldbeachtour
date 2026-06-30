@@ -1,0 +1,46 @@
+{
+  "slug": "poetto",
+  "beach_name": "Poetto",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "Cagliari's 8-kilometer city beach, under the Devil's Saddle headland and beside one of the Mediterranean's great flamingo colonies — its famed powdery white sand buried in 2002 by a botched renourishment that got the city government sued.",
+  "spike_statement": "Cagliari's 8 km city beach, whose famous powdery white sand was buried in 2002 under darker imported sand in a renourishment so botched the city government was sued.",
+  "levers": {
+    "primary_color": "#1E6E8C",
+    "supporting_color": "#E08AA0",
+    "hero_type": "SPIKE",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "WRY",
+    "photo_tone": "a long Mediterranean city beach under the limestone hump of the Sella del Diavolo, clear shallow sea, the slightly-too-dark sand of the 2002 renourishment, pink flamingos over the salt pans behind"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "environment",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
