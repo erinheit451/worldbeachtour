@@ -32,9 +32,15 @@ Near-term target: work down `docs/gold-buildout-queue.txt` (ranked by notability
    components MapEmbed/DataCard; ends with a back-link to the full guide).
    **Voice:** declarative, specific, anti-AI-slop (NO pristine/stunning/nestled/gem/
    paradise/hidden); honest, not moralizing. Match the `manila-bay-beach-1` exemplar.
-6. **Render-verify locally** — dev server `cd site && PORT=3100 npx next dev -p 3100`;
-   confirm the main page + spoke routes 200 AND grep the rendered HTML for authored
-   load-bearing strings AND scan the dev log for errors. (Server may already be running.)
+6. **Render-verify locally (best-effort pre-check)** — background dev servers get
+   reaped between iterations, so do NOT assume one is running. Start fresh each time:
+   free the port (`Get-NetTCPConnection -LocalPort 3100 -State Listen` → `Stop-Process`
+   the OwningProcess), then launch `cd site && PORT=3100 npx next dev -p 3100` in the
+   background, wait for "Ready", and curl the main + spoke routes (first hit compiles).
+   Confirm 200s, grep the HTML for authored strings, scan the log for errors. If the dev
+   server won't cooperate, don't block on it — JSON validation (step 7) plus the
+   server-side build during deploy (step 10, which aborts on any error and leaves prod on
+   the last-good build) plus the live-verify (step 11) are the real gate.
 7. **Validate JSON** — both files parse; spike_explainer word count ≥700.
 8. **Commit** on `gold-buildout-resume` (the worktree workspace) with the message
    format `feat(gold): complete <Name> (<place>) — full Featured page (<spokes> spokes)`,
