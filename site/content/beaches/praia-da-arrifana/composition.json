@@ -1,0 +1,46 @@
+{
+  "slug": "praia-da-arrifana",
+  "beach_name": "Praia da Arrifana",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A wild 500-meter golden beach under dark schist cliffs on Portugal's last undeveloped Atlantic coast, the Costa Vicentina — a premier surf break beneath the Pedra da Agulha needle rock, guarded by a 17th-century Portuguese fort and a rare 12th-century Islamic Sufi ribat.",
+  "spike_statement": "A wild 500 m beach under schist cliffs on Portugal's last undeveloped Atlantic coast — a premier surf break guarded by a 17th-century fort and a rare 12th-century Sufi ribat.",
+  "levers": {
+    "primary_color": "#1C6E8C",
+    "supporting_color": "#B5874A",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "REVERENT",
+    "photo_tone": "wave-hammered Atlantic surf and butterscotch sand curving between towering dark schist cliffs, the thin Pedra da Agulha pinnacle offshore, the ruined fort on the headland, surfers as small marks on a wild coast"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
