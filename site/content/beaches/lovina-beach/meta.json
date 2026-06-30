@@ -7,69 +7,58 @@
   "custom": [],
   "images": {
     "hero": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Candi_Stupa_Kalibukbuk.jpg",
-      "title": "Candi Stupa Kalibukbuk.jpg",
-      "author": "<a href=\"//commons.wikimedia.org/wiki/User:DayakSibiriak\" title=\"User:DayakSibiriak\">DayakSibiriak</a>",
-      "license": "CC BY-SA 4.0",
-      "width": 4000,
-      "height": 3000,
-      "score": 85.0
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Morning_of_Lovina_Beach_200507-6.jpg",
+      "title": "Morning at Lovina Beach, north Bali",
+      "author": "っ (Wikimedia Commons)",
+      "license": "CC BY-SA 3.0",
+      "width": 2560,
+      "height": 1920,
+      "score": 90.0
     },
     "gallery": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Krisna_Lila_statue_Bali.jpg",
-        "title": "Krisna Lila statue Bali.jpg",
-        "license": "CC BY-SA 4.0",
-        "source_tier": 1,
-        "score": 85.0,
-        "width": 2592,
-        "height": 1377
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Morning_of_Lovina_Beach_200507-6.jpg",
-        "title": "Morning of Lovina Beach 200507-6.jpg",
-        "license": "CC BY-SA 3.0",
-        "source_tier": 1,
-        "score": 85.0,
-        "width": 2560,
-        "height": 1920
-      },
-      {
         "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Dolphin_Tour_statue_Lovina_Bali.jpg",
-        "title": "Dolphin Tour statue Lovina Bali.jpg",
+        "title": "The Lovina dolphin monument at Kalibukbuk, the beach's emblem",
         "license": "CC BY-SA 4.0",
         "source_tier": 1,
-        "score": 75.0,
+        "score": 80.0,
         "width": 2592,
         "height": 1944
       },
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Sri_Maha_Ganesha_statue_Lovina.jpg",
-        "title": "Sri Maha Ganesha statue Lovina.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Candi_Stupa_Kalibukbuk.jpg",
+        "title": "Candi Stupa at Kalibukbuk, Lovina",
+        "author": "DayakSibiriak",
         "license": "CC BY-SA 4.0",
         "source_tier": 1,
-        "score": 75.0,
+        "score": 70.0,
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Sri_Maha_Ganesha_statue_Lovina.jpg",
+        "title": "Sri Maha Ganesha statue, Lovina",
+        "license": "CC BY-SA 4.0",
+        "source_tier": 1,
+        "score": 65.0,
         "width": 1944,
         "height": 2592
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Krisna_statue_Lovina.jpg",
-        "title": "Krisna statue Lovina.jpg",
+        "title": "Krisna statue, Lovina",
         "license": "CC BY-SA 4.0",
         "source_tier": 1,
-        "score": 65.0,
+        "score": 60.0,
         "width": 1838,
         "height": 2451
       }
     ],
     "_enrichment": {
-      "pipeline_version": "photo_enrichment.py v1",
+      "pipeline_version": "photo_enrichment.py v1 + manual hero correction 2026-06-30",
       "candidates_evaluated": 29,
-      "tier_breakdown": {
-        "tier1": 9,
-        "tier2": 20
-      },
-      "hero_auto_selected": true
+      "note": "Auto-selector picked a stupa as hero; corrected to a real morning Lovina Beach image and surfaced the iconic dolphin monument in the gallery.",
+      "hero_auto_selected": false
     }
   }
 }

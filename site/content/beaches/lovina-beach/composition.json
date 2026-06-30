@@ -1,0 +1,46 @@
+{
+  "slug": "lovina-beach",
+  "beach_name": "Lovina Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "North Bali's calm black-sand antidote to the party south — famous for dawn dolphin-watching boat trips whose flotillas of boats have become the beach's defining ethical problem.",
+  "spike_statement": "A calm black-sand beach in north Bali whose dawn dolphin-watching tours, the whole reason people come, send dozens of boats chasing the wild pods they sell.",
+  "levers": {
+    "primary_color": "#1E7A6E",
+    "supporting_color": "#D9A441",
+    "hero_type": "SPIKE",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "WRY",
+    "photo_tone": "calm dark-grey volcanic sand and a flat dawn Bali Sea under soft gold light, outrigger jukung boats on the water, the dolphin monument at Kalibukbuk, the quiet opposite of Bali's bright south"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "environment",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
