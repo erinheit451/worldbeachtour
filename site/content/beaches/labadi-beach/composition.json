@@ -1,0 +1,46 @@
+{
+  "slug": "labadi-beach",
+  "beach_name": "Labadi Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "Accra's busiest and most exuberant beach — a paid-entry pleasure beach of live reggae and hiplife, drumming, dancing, and horses on the sand, on a West African coast where the tide keeps returning the city's plastic.",
+  "spike_statement": "Accra's busiest beach: a paid-entry pleasure beach of reggae nights, drumming, and horses on the sand, on a coast where the tide keeps bringing the city's plastic back ashore.",
+  "levers": {
+    "primary_color": "#D98C2B",
+    "supporting_color": "#2E6E7E",
+    "hero_type": "MONUMENT",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "WRY",
+    "photo_tone": "warm West African light over a crowded golden-brown beach, horses on the wet sand, live-band stages and dancers, the Atlantic surf behind, plastic at the tide line in the honest frames"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "culture",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
