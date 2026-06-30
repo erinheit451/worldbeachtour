@@ -1,0 +1,46 @@
+{
+  "slug": "konyaalti-sahili",
+  "beach_name": "Konyaaltı Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "Antalya's long pebble city beach under the Taurus mountains and the travertine falez cliffs — a clear-watered Blue Flag shore that is also the front yard of one of the most-visited cities on the planet, on a coast founded 2,200 years ago as 'heaven on earth.'",
+  "spike_statement": "The pebble city beach of Antalya under the Taurus mountains — the Blue-Flag shore of one of the most-visited cities on Earth, 17 million tourists a year, ahead of Paris.",
+  "levers": {
+    "primary_color": "#1E8AA0",
+    "supporting_color": "#8A6A4A",
+    "hero_type": "MONUMENT",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "WRY",
+    "photo_tone": "clear turquoise Mediterranean water on a pale-pebble shore, the Beydağları mountains rising straight from the sea behind the bay, travertine cliffs and Turkish pine, beach-park umbrellas stretching to the haze"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
