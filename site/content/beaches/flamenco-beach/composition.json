@@ -1,0 +1,46 @@
+{
+  "slug": "flamenco-beach",
+  "beach_name": "Flamenco Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A one-mile horseshoe of white sand and turquoise water on Culebra that islanders took back from the US Navy in 1975, where two rusting Sherman tanks still sit on the sand.",
+  "spike_statement": "A US Navy live-fire bombing range until 1975, now ranked among the world's best beaches, with two graffiti-covered Sherman tanks still on the sand.",
+  "levers": {
+    "primary_color": "#1A8A8C",
+    "supporting_color": "#B5651D",
+    "hero_type": "SPIKE",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "REVERENT",
+    "photo_tone": "turquoise horseshoe bay and bright white sand under Caribbean light, with the oxidized rust and layered graffiti of an M4 Sherman tank at the western tree line"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
