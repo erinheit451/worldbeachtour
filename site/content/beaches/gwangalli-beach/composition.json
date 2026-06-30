@@ -1,0 +1,46 @@
+{
+  "slug": "gwangalli-beach",
+  "beach_name": "Gwangalli Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "Busan's half-moon city beach, framed by the illuminated 7.4-kilometer Diamond Bridge and lit by Korea's first permanent weekly drone show and an autumn fireworks festival — a glittering night spectacle reclaimed from a sewage-fouled past.",
+  "spike_statement": "A half-moon Busan city beach under the illuminated Diamond Bridge, home to Korea's first permanent weekly drone show — a 1970s sewage outfall remade into a light spectacle.",
+  "levers": {
+    "primary_color": "#2A4A6E",
+    "supporting_color": "#E0A33A",
+    "hero_type": "SPIKE",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "WRY",
+    "photo_tone": "a curved city beach at dusk under the lit span of the Diamond Bridge, neon café signs behind the sand, drones or fireworks blooming over a dark bay, Busan's towers stacked behind"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
