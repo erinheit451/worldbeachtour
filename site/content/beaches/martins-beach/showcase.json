@@ -4,18 +4,17 @@
   "honest_reckoning_note": "Do not plan a day here the way you would plan any other beach: as of the most recent chapter of the dispute, public access to Martins Beach is contested and often closed, and the status can change with each court ruling. The gate on Martins Beach Road is the whole story, and it is not reliably open. Anyone hoping to visit should check the current legal and access status before driving down — and should understand that the beach's fame rests entirely on the fact that it has, at times, been locked away from the public who spent a century using it.",
   "reckoning_pullquote": "A century-old public beach that a billionaire bought and locked — the place where California had to prove the coast really belongs to everyone.",
   "key_facts": [
-    { "label": "Location", "value": "San Mateo County coast, ~10 km south of Half Moon Bay, California" },
-    { "label": "Form", "value": "Two shallow sand coves split by Pelican Rock, a pointed sea stack" },
-    { "label": "Water", "value": "Cold, fog-prone Northern California Pacific — for walking and fishing more than swimming" },
-    { "label": "The spike", "value": "The Vinod Khosla public-access lawsuit — the landmark California Coastal Act access fight" },
-    { "label": "Public since", "value": "Early 1900s (Deeney family opened it for a parking fee)" },
-    { "label": "Locked", "value": "Around 2010, after Khosla bought the property in 2008" }
+    { "label": "Location", "value": "Half Moon Bay, CA", "source": "Wikipedia: Martins Beach" },
+    { "label": "Form", "value": "Two coves + Pelican Rock", "source": "Wikipedia: Martins Beach" },
+    { "label": "Water", "value": "Cold NorCal Pacific", "source": "Field description" },
+    { "label": "The spike", "value": "The Khosla access case", "source": "Wikipedia: Martins Beach" },
+    { "label": "Public since", "value": "Early 1900s", "source": "Wikipedia: Martins Beach" },
+    { "label": "Gate locked", "value": "~2010", "source": "Wikipedia: Martins Beach" }
   ],
   "margin_notes": [
-    "Pelican Rock, the pointed cone between the two coves, is the beach's signature silhouette.",
-    "The Watts Inn, from the 1920s lease to the Watts family, still stands on the property.",
-    "The Coastal Act argument was clever: locking the gate counted as 'development' needing a state permit.",
-    "In 2018 the U.S. Supreme Court declined to hear Khosla's appeal — a major public-access win."
+    { "audience": "history", "anchor_para_index": 1, "text": "For a century the private owners ran Martins Beach as a public one: the Deeney family opened the sand for a parking fee from the early 1900s, and the Watts family's 1920s inn still stands. The access was a generous custom — never a formal public right-of-way, which is exactly what the later fight turned on." },
+    { "audience": "access", "anchor_para_index": 2, "text": "The leverage is the road. California law protects the wet sand below the high-tide line as public land, but the only way down to Martins Beach is Martins Beach Road — a private road. Lock its gate and the public trust beach becomes unreachable." },
+    { "audience": "legal", "anchor_para_index": 3, "text": "Surfrider's winning move was to sidestep the hardest question. It didn't claim the public owned the road; it argued that locking a century-old gate was 'development' under the Coastal Act, requiring a state permit Khosla never sought." }
   ],
   "day_in_time": {
     "dawn": "Fog sits low over the coves and Pelican Rock is a grey shape in the mist. The road above is empty; whether the gate is open or chained is the first thing anyone learns here.",
@@ -23,42 +22,45 @@
     "golden": "Late light turns the bluffs and the pointed rock warm against the cold blue water — the classic Northern California coast at its best, the kind of evening the public spent generations driving down for.",
     "night": "The coves go dark and quiet under the marine layer, the surf working the sand, the gate at the top of the road the last thing between the beach and everyone shut out of it."
   },
-  "food_drink": "Historically the draw was simple: a small store by the beach selling bait and snacks to the anglers and day-trippers who paid to park. There is no resort strip here and never was. Today, with access contested, the food scene of any Martins Beach visit is really the food scene of Half Moon Bay up the coast — its fish shacks, taquerias, and harbor seafood — with the cove itself offering nothing but sand, rock, and cold water.",
+  "food_drink": [
+    { "name": "The old beach store", "description": "Historically the only food here was a small store by the sand selling bait, snacks, and cold drinks to the anglers and day-trippers who paid to park. There was never a resort strip — the appeal was always the cove itself, not a scene.", "where": "At the beach (historic)" },
+    { "name": "Half Moon Bay seafood", "description": "With access to the cove contested, the real eating for any Martins Beach trip is up the coast in Half Moon Bay: harbor fish shacks, taquerias, and Pillar Point Harbor seafood. Plan to eat in town, not at the beach.", "where": "Half Moon Bay, ~10 km north" }
+  ],
   "timeline": [
-    { "year": "1850s", "label": "Farmer Nicholas Martin buys the land and lends the beach his name.", "kind": "founding" },
-    { "year": "1900s", "label": "The Deeney family opens the beach to the public for a parking fee.", "kind": "other" },
-    { "year": "1920s", "label": "The property is leased to the Watts family, who run the Watts Inn.", "kind": "other" },
-    { "year": "2008", "label": "Venture capitalist Vinod Khosla buys the ~90-acre property and its only road.", "kind": "other" },
-    { "year": "2010", "label": "The gate on Martins Beach Road is locked and the public is shut out.", "kind": "policy" },
-    { "year": "2014", "label": "The Surfrider Foundation sues under the California Coastal Act.", "kind": "policy" },
-    { "year": "2018", "label": "The U.S. Supreme Court declines to hear Khosla's appeal.", "kind": "policy" },
-    { "year": "2020", "label": "State agencies file a fresh suit to secure permanent access; the fight continues.", "kind": "policy" }
+    { "year": 1855, "month": null, "event_type": "founding", "title": "Nicholas Martin buys the land", "description": "A local farmer, Nicholas Martin, purchases the coastal property in the 1850s — part of the old Rancho Cañada de Verde y Arroyo de la Purisima — and lends the beach the name it still carries.", "wiki_url": "https://en.wikipedia.org/wiki/Martins_Beach" },
+    { "year": 1905, "month": null, "event_type": "public era", "title": "The Deeney family opens the beach", "description": "From the early 1900s the Deeney family owns the land and lets the public onto the sand for free, charging only a modest fee to park — the start of a century of public access by permission.", "wiki_url": null },
+    { "year": 1925, "month": null, "event_type": "public era", "title": "The Watts family lease", "description": "In the 1920s the Deeneys lease the beach to the Watts family, who manage it and run the Watts Inn, a building that still stands on the property.", "wiki_url": null },
+    { "year": 2008, "month": null, "event_type": "acquisition", "title": "Vinod Khosla buys the property", "description": "The venture capitalist and Sun Microsystems co-founder Vinod Khosla buys the roughly 90-acre property surrounding the beach — and holding its only access road.", "wiki_url": "https://en.wikipedia.org/wiki/Vinod_Khosla" },
+    { "year": 2010, "month": null, "event_type": "closure", "title": "The gate is locked", "description": "Within about two years of the purchase, the gate on Martins Beach Road is locked and the access billboard painted over, shutting the public out of a beach it had used for generations.", "wiki_url": null },
+    { "year": 2014, "month": null, "event_type": "lawsuit", "title": "Surfrider sues under the Coastal Act", "description": "The Surfrider Foundation sues, arguing that locking the gate was 'development' under the California Coastal Act and required a Coastal Development Permit Khosla never obtained. A court orders the gate reopened.", "wiki_url": "https://en.wikipedia.org/wiki/California_Coastal_Act" },
+    { "year": 2018, "month": null, "event_type": "ruling", "title": "The Supreme Court declines Khosla's appeal", "description": "The U.S. Supreme Court declines to hear Khosla's appeal, leaving the state-court ruling against him in place — a landmark victory for public coastal access.", "wiki_url": null },
+    { "year": 2020, "month": null, "event_type": "lawsuit", "title": "The state sues for permanent access", "description": "The California Coastal Commission and State Lands Commission file a fresh lawsuit to secure permanent public access, keeping the fight alive years after the Supreme Court ruling.", "wiki_url": null }
   ],
   "zones": [
-    { "name": "The Coves", "note": "Two shallow, sand-bottomed pockets of beach split by Pelican Rock — the whole swimmable and walkable shore, backed by crumbling bluffs." },
-    { "name": "Pelican Rock", "note": "The tall, sharply pointed sea stack between the coves, ringed by tidepools; the beach's landmark and namesake silhouette." },
-    { "name": "The Gate & the Road", "note": "Martins Beach Road, the single private access down from Highway 1, and the gate at its top — the physical center of the entire access dispute." }
+    { "zone_code": "COVES", "name": "The two coves", "position_along_beach_pct": 40, "lat": 37.3751867, "lng": -122.4099045, "character": "The pair of shallow, sand-bottomed pockets that make up the actual beach, backed by crumbling bluffs — the whole walkable, wadeable shore, small and intimate rather than a long open strand.", "best_for": "Walking the sand, tidepooling, watching the cold Pacific swell", "notes": "This is Northern California water: cold, fog-prone, with real currents. More a place to walk and fish than to swim." },
+    { "zone_code": "PELICAN_ROCK", "name": "Pelican Rock", "position_along_beach_pct": 50, "lat": 37.3751867, "lng": -122.4099045, "character": "The tall, sharply pointed sea stack standing between the two coves, ringed by tidepools — the beach's signature silhouette and the shape most photographs frame.", "best_for": "The classic Martins Beach view; tidepools at low water", "notes": "Mind the tide and slippery rock when exploring the pools around the base." },
+    { "zone_code": "GATE_ROAD", "name": "The gate & the road", "position_along_beach_pct": 95, "lat": 37.3751867, "lng": -122.4099045, "character": "Martins Beach Road, the single private route down from Highway 1, and the gate at its top — physically the least scenic part of the beach and the exact center of its national story.", "best_for": "Understanding the access fight; it is the reason the beach is famous", "notes": "The gate's open-or-shut status has swung with court rulings for over a decade; do not assume it is open." }
   ],
   "landmarks": [
-    { "name": "Pelican Rock", "what": "The pointed sea-stack cone dividing the two coves, surrounded by tidepools." },
-    { "name": "The Martins Beach gate", "what": "The locked gate on the only road down — the flashpoint of the Coastal Act fight." },
-    { "name": "Watts Inn", "what": "The still-standing inn from the 1920s Watts family lease, a relic of the beach's public era." }
+    { "name": "Pelican Rock", "landmark_type": "sea stack", "year_built": null, "architect_or_designer": null, "description": "The pointed cone of stone between the two coves, ringed by tidepools — the natural landmark that gives Martins Beach its distinctive shape.", "wikipedia_url": "https://en.wikipedia.org/wiki/Martins_Beach" },
+    { "name": "The Martins Beach gate", "landmark_type": "access point", "year_built": null, "architect_or_designer": null, "description": "The locked gate at the top of Martins Beach Road, the only route to the sand — the physical flashpoint of the California Coastal Act access fight.", "wikipedia_url": null },
+    { "name": "Watts Inn", "landmark_type": "historic building", "year_built": "1920s", "architect_or_designer": null, "description": "The inn dating from the 1920s Watts family lease, still standing on the property — a relic of the beach's long era as a public destination.", "wikipedia_url": null }
   ],
   "cultural_refs": [
-    { "ref": "The Khosla / Martins Beach lawsuit", "note": "The most-cited beach-access case in modern California, a fixture in coastal-law coverage and surf journalism." },
-    { "ref": "The California Coastal Act (1976)", "note": "The state law guaranteeing public shoreline access that the Surfrider suit invoked to reopen the gate." },
-    { "ref": "The Surfrider Foundation", "note": "The coastal-protection nonprofit that brought the 2014 suit and made Martins Beach a cause." }
+    { "ref_type": "historic", "title": "The Khosla / Martins Beach lawsuit", "creator": null, "year": null, "description": "The most-cited beach-access case in modern California — a fixture in coastal-law coverage, surf journalism, and debates over public trust versus private property.", "wikipedia_url": "https://en.wikipedia.org/wiki/Martins_Beach" },
+    { "ref_type": "historic", "title": "The California Coastal Act", "creator": null, "year": 1976, "description": "The landmark 1976 state law guaranteeing public access to California's shoreline, which the Surfrider Foundation invoked to force the Martins Beach gate back open.", "wikipedia_url": "https://en.wikipedia.org/wiki/California_Coastal_Act" },
+    { "ref_type": "other", "title": "The Surfrider Foundation", "creator": null, "year": null, "description": "The coastal-protection nonprofit that brought the 2014 suit and turned an obscure San Mateo cove into a statewide cause for public beach access.", "wikipedia_url": "https://en.wikipedia.org/wiki/Surfrider_Foundation" }
   ],
   "recurring_events": [
-    { "name": "The status of the gate", "when": "Ongoing", "note": "The beach's real 'recurring event' is the open-or-shut question itself — access has swung with court rulings for over a decade, so there is no reliable public calendar." }
+    { "name": "The status of the gate", "when_text": "Ongoing and uncertain", "month": null, "description": "The beach's real recurring 'event' is the open-or-shut question itself: access has swung with court rulings for over a decade, so there is no reliable public calendar. Check the current status before any visit.", "typical_attendance": null }
   ],
   "businesses": [],
   "things_to_know": [
-    "Access is contested. As of the latest chapter of the dispute the gate is often closed; check the current legal and access status before driving down.",
-    "The only way in is Martins Beach Road off Highway 1, about 10 km south of Half Moon Bay — there is no other public route to the sand.",
-    "This is cold, fog-prone Northern California water with real currents; it is a place to walk, fish, and watch the surf more than to swim.",
-    "The nearest real town for food, fuel, and lodging is Half Moon Bay up the coast; the beach itself has no services.",
-    "The nearest airport is San Carlos (SQL), about 21 km away, but most visitors arrive via SFO and Highway 1."
+    { "label": "Access is contested", "note": "As of the latest chapter of the dispute the gate is often closed; check the current legal and access status before driving down." },
+    { "label": "Only one way in", "note": "The single route is Martins Beach Road off Highway 1, about 10 km south of Half Moon Bay — there is no other public path to the sand." },
+    { "label": "Cold-water coast", "note": "This is fog-prone Northern California water with real currents; it is a place to walk, fish, and watch the surf more than to swim." },
+    { "label": "Services are up the coast", "note": "The nearest town for food, fuel, and lodging is Half Moon Bay; the beach itself has no services." },
+    { "label": "Getting there", "note": "Nearest airport is San Carlos (SQL), ~21 km away, but most visitors arrive via SFO and Highway 1." }
   ],
   "access_note": "Martins Beach lies about 10 km south of Half Moon Bay off California Highway 1, reachable only by Martins Beach Road — a private road whose gate has been the subject of a decade-long access lawsuit. Public access has been repeatedly opened and closed by court order, so the gate cannot be assumed open. Verify the current access status before visiting. The nearest airport is San Carlos (SQL), roughly 21 km away, though most travelers come from San Francisco via Highway 1."
 }
