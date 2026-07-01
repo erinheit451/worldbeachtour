@@ -42,6 +42,21 @@ Near-term target: work down `docs/gold-buildout-queue.txt` (ranked by notability
    server-side build during deploy (step 10, which aborts on any error and leaves prod on
    the last-good build) plus the live-verify (step 11) are the real gate.
 7. **Validate JSON** — both files parse; spike_explainer word count ≥700.
+   **Field shapes MUST match what `standard-sections.tsx` reads** (a wrong shape
+   either crashes the prerender — e.g. `food_drink` as a string → `f.map is not a
+   function` — or silently renders an empty section). Author these exactly:
+   - `food_drink`: array of `{name, description, where}` (NOT a string)
+   - `timeline`: `{year:<int>, month:null, event_type, title, description, wiki_url?}`
+     (year is a **number** — it's sorted numerically; content is `title`+`description`)
+   - `zones`: `{zone_code, name, position_along_beach_pct:<number>, lat, lng, character,
+     best_for, notes}` (missing `position_along_beach_pct` → renders `NaN%`)
+   - `landmarks`: `{name, landmark_type, year_built, architect_or_designer, description, wikipedia_url?}`
+   - `cultural_refs`: `{ref_type, title, creator, year, description, wikipedia_url?}`
+   - `recurring_events`: `{name, when_text, month, description, typical_attendance}`
+   - `margin_notes`: array of `{audience, anchor_para_index:<int>, text}` (objects, NOT strings)
+   - `key_facts`: `{label, value, source?}` (value renders LARGE — keep it short)
+   - `things_to_know`: `{label, note}`
+   When unsure, diff against a recent known-good page (e.g. `governor-s-beach-4`).
 8. **Commit** on `gold-buildout-resume` (the worktree workspace) with the message
    format `feat(gold): complete <Name> (<place>) — full Featured page (<spokes> spokes)`,
    ending with the `Co-Authored-By: Claude Opus 4.8 (1M context)` line.
