@@ -1,0 +1,46 @@
+{
+  "slug": "kalalau-beach",
+  "beach_name": "Kalalau Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A wilderness beach at the end of an 11-mile cliff-edge trail on the Nā Pali Coast of Kauaʻi, walled by fluted green pali over 2,000 feet high — reachable only on foot or by sea, and far more than the empty paradise the brochures sell.",
+  "spike_statement": "The beach at the end of one of the world's most dangerous hikes — an 11-mile Nā Pali cliff trail guarding a valley that was a Hawaiian home and a site of anti-colonial resistance, not empty paradise.",
+  "levers": {
+    "primary_color": "#2F6B4F",
+    "supporting_color": "#EDE6D6",
+    "hero_type": "MONUMENT",
+    "display_pairing": "AUSTERE",
+    "voice_register": "SEVERE",
+    "photo_tone": "towering emerald fluted cliffs dropping straight to a wild empty beach, a waterfall at the far end, cold Pacific surf, deep tropical greens and no development anywhere"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
