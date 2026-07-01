@@ -1,0 +1,46 @@
+{
+  "slug": "governor-s-beach-4",
+  "beach_name": "Governor's Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A string of hidden coves under the brilliant white chalk cliffs known as the White Rocks, above dark, scorching sand and clear deep water on Cyprus's south coast — a beach that carries the island's British past in its very name and its nearest airfield.",
+  "spike_statement": "Hidden coves under brilliant white 'White Rocks' chalk cliffs above dark, scorching sand — a Cyprus beach named for a British governor, near Britain's last island base.",
+  "levers": {
+    "primary_color": "#1C7A9E",
+    "supporting_color": "#E6E0D2",
+    "hero_type": "SPIKE",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "WRY",
+    "photo_tone": "brilliant white chalk cliffs above dark grey-black sand and deep clear turquoise water, small hidden coves cut into the shore, harsh bright Cypriot summer light, a little wooden jetty"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
