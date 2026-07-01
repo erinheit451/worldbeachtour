@@ -1,0 +1,46 @@
+{
+  "slug": "cheviot-beach",
+  "beach_name": "Cheviot Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A secluded, rip-torn cove at the tip of Point Nepean, long hidden inside restricted military land — the beach where a sitting Australian Prime Minister swam out on a December morning in 1967 and was never seen again.",
+  "spike_statement": "The secluded, dangerous cove where Australia's sitting Prime Minister Harold Holt swam out on 17 December 1967 and vanished — his body never recovered.",
+  "levers": {
+    "primary_color": "#3B5A6B",
+    "supporting_color": "#DED9C8",
+    "hero_type": "ABSENCE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "SEVERE",
+    "photo_tone": "a wild, empty, cold-water cove backed by scrub-covered dunes and limestone, rough grey Bass Strait surf, flat overcast Victorian light, not a person in sight — a beach that is closed"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
