@@ -1,0 +1,46 @@
+{
+  "slug": "martins-beach",
+  "beach_name": "Martins Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A pair of coves under a pointed sea stack south of Half Moon Bay, a public beach for a century — until the billionaire Vinod Khosla bought it and locked the only gate, triggering the landmark fight over whether anyone can privatize California's public coast.",
+  "spike_statement": "A century-old public beach south of Half Moon Bay that a billionaire bought and locked shut in 2008 — the landmark test of whether money can privatize California's coast.",
+  "levers": {
+    "primary_color": "#3E6E82",
+    "supporting_color": "#C97A3A",
+    "hero_type": "SPIKE",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "WRY",
+    "photo_tone": "a cool grey-blue Northern California cove under a sharp pointed sea stack, fog on the headlands, cold Pacific surf, and above it all a locked gate on the only road down"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
