@@ -83,6 +83,22 @@ tension — the gold formula. Strong early picks: `alang-ship-breaking-yard` (wo
 largest ship-breaking beach), `oppenheimer-beach` (USVI), notable Indian coast
 (`rushikonda-beach`, `golden-beach-puri`, `dumas-beach`, `alappuzha-beach-1`).
 
+## Two render paths — check before authoring composition.json
+
+Most beaches render via the generic **v2** route (`app/beaches/[slug]/page.tsx` →
+`LegendaryBeachV2` → `loadBundle`), which is driven by `composition.json` +
+`showcase.json`. That is the normal gold target.
+
+BUT the ~6 original April "marquee" pages (e.g. `teahupoo`) have a **dedicated
+bespoke route** `app/beaches/<slug>/page.tsx` using `components/showcase/legendary-beach`,
+which reads **`showcase.json` ONLY and ignores `composition.json`** (a static route
+wins over `[slug]`). For those: to improve the page, AUGMENT `showcase.json`
+(e.g. add `spike_explainer`, `key_facts`) — do NOT add a `composition.json` (it's
+inert and misleading). Tell them apart: `ls site/app/beaches/<slug>/` — if a
+`page.tsx` exists there, it's bespoke-v1; if not, it's v2/composition-driven.
+Confirm live by grepping rendered section ids (bespoke uses `bathymetry`, `postos`,
+`viewback`, `planner`…; v2 uses `spike_deep_explainer`, `plan_stack`, `things_to_know`…).
+
 ## Infra reference
 
 Deploy/server details (standalone ISR on :8012 behind nginx, the cutover history,
