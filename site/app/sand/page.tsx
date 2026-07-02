@@ -70,6 +70,7 @@ export const metadata = {
   title: "The geology of the world's beaches — sand, grain by grain",
   description:
     "Where the pink sand comes from. Why Whitehaven is 98% silica. How olivine ends up on a Hawaiian shore. A grain-level tour of the beaches on Earth.",
+  alternates: { canonical: "/sand" },
 };
 
 export default function SandHubPage() {

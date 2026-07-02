@@ -7,6 +7,7 @@ export const metadata = {
   title: "Beaches by Region — World Beach Tour",
   description:
     "Browse beaches by country. The full database covers 249 coastal countries; in-depth guides land first in the ones we've covered most.",
+  alternates: { canonical: "/regions" },
 };
 
 export default function RegionsPage() {

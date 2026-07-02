@@ -3,6 +3,7 @@ import Script from "next/script";
 import { DM_Serif_Display, Inter, JetBrains_Mono, Barlow_Condensed } from "next/font/google";
 import Nav from "@/components/nav";
 import Footer from "@/components/footer";
+import SiteJsonLd from "@/components/site-jsonld";
 import "./globals.css";
 
 const dmSerif = DM_Serif_Display({
@@ -50,6 +51,11 @@ export const metadata: Metadata = {
   },
   verification: {
     google: "SITH76i6JrGmRNjaAPoaAJPXfcPvNSj6vnptZaI62W8",
+    // Bing Webmaster Tools: paste the content value of the <meta name="msvalidate.01">
+    // tag Bing gives you at https://www.bing.com/webmasters (Add site → verify by
+    // meta tag), then uncomment. Leaving it empty would emit a broken tag, so it
+    // stays commented until you have the real value.
+    // other: { "msvalidate.01": "PASTE_BING_TOKEN_HERE" },
   },
 };
 
@@ -66,6 +72,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#082f49" />
       </head>
       <body className="flex min-h-screen flex-col bg-white text-volcanic-800">
+        <SiteJsonLd />
         <Nav />
         <main className="flex-1">{children}</main>
         <Footer />

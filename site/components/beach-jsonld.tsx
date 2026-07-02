@@ -23,10 +23,35 @@ export default function BeachJsonLd({ data }: { data: BeachData }) {
     publicAccess: true,
   };
 
+  const breadcrumb = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://worldbeachtour.com",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Beaches",
+        item: "https://worldbeachtour.com/beaches",
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: data.name,
+        item: `https://worldbeachtour.com/beaches/${data.slug}`,
+      },
+    ],
+  };
+
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      dangerouslySetInnerHTML={{ __html: JSON.stringify([schema, breadcrumb]) }}
     />
   );
 }

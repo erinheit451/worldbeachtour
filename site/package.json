@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && npx tsx scripts/generate-sitemap.ts",
+    "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "indexnow": "tsx scripts/indexnow-submit.ts"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

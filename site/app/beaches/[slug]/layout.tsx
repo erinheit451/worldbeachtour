@@ -49,10 +49,14 @@ export async function generateMetadata({
   return {
     title: `${displayName} — World Beach Tour`,
     description,
+    alternates: {
+      canonical: `/beaches/${slug}`,
+    },
     openGraph: {
       title: `${displayName} — World Beach Tour`,
       description,
       type: "article",
+      url: `/beaches/${slug}`,
     },
   };
 }

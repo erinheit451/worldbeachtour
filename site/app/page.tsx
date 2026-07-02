@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "World Beach Tour — Every beach on Earth, one real page at a time",
   description:
     "Search 228,612 beaches worldwide. Real history, real climate data, real local knowledge — not another list of 'top 10 beaches.'",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "World Beach Tour",
     description:

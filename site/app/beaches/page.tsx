@@ -6,6 +6,7 @@ import { computeTier, tierRank, type Tier } from "@/lib/tier";
 export const metadata = {
   title: "Browse Beaches — World Beach Tour",
   description: "Explore our collection of beaches from around the world, with in-depth guides for travel, surf, environment, and more.",
+  alternates: { canonical: "/beaches" },
 };
 
 export default function BeachesPage() {
