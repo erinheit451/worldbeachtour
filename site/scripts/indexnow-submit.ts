@@ -38,6 +38,7 @@ function allUrls(): string[] {
     `${BASE_URL}/`,
     `${BASE_URL}/beaches`,
     `${BASE_URL}/regions`,
+    `${BASE_URL}/how-many-beaches-in-the-world`,
     `${BASE_URL}/sand`,
   ];
   const slugs = getAllBeachSlugs();
