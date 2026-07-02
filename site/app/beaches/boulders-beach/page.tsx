@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import LegendaryBeachV2 from "@/components/legendary-v2/legendary-beach-v2";
 import { loadBundle } from "@/components/legendary-v2/load-bundle";
+import BeachJsonLd from "@/components/beach-jsonld";
 
 export const metadata: Metadata = {
   title: "Boulders Beach — the granite cove you share with endangered penguins",
@@ -15,5 +16,10 @@ export const metadata: Metadata = {
 export default function Page() {
   const bundle = loadBundle("boulders-beach");
   if (!bundle) notFound();
-  return <LegendaryBeachV2 bundle={bundle} />;
+  return (
+    <>
+      <BeachJsonLd data={bundle.data} />
+      <LegendaryBeachV2 bundle={bundle} />
+    </>
+  );
 }

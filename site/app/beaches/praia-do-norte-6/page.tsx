@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import NazareV2Page from "@/components/legendary-v2/nazare-v2";
 import { loadBundle } from "@/components/legendary-v2/load-bundle";
+import BeachJsonLd from "@/components/beach-jsonld";
 
 export const metadata: Metadata = {
   title: "Nazaré (Praia do Norte) — The Canyon That Made the Village and the Wave",
@@ -15,5 +16,10 @@ export const metadata: Metadata = {
 export default function Page() {
   const bundle = loadBundle("praia-do-norte-6");
   if (!bundle) notFound();
-  return <NazareV2Page bundle={bundle!} />;
+  return (
+    <>
+      <BeachJsonLd data={bundle.data} />
+      <NazareV2Page bundle={bundle!} />
+    </>
+  );
 }

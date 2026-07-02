@@ -1,11 +1,23 @@
-import type { BeachData } from "@/lib/beaches";
+// Only the fields this component actually reads. Declared structurally (rather
+// than importing a specific BeachData) so it accepts both the lib/beaches shape
+// and the legendary-v2 bundle shape — they differ elsewhere but agree on these.
+interface BeachJsonLdData {
+  slug: string;
+  name: string;
+  centroid_lat: number;
+  centroid_lng: number;
+  country_code: string;
+  admin_level_1: string;
+  substrate_type: string | null;
+}
 
-export default function BeachJsonLd({ data }: { data: BeachData }) {
+export default function BeachJsonLd({ data }: { data: BeachJsonLdData }) {
+  const hasSubstrate = data.substrate_type && data.substrate_type !== "unknown";
   const schema = {
     "@context": "https://schema.org",
     "@type": "Beach",
     name: data.name,
-    description: `${data.name} — a ${data.substrate_type !== "unknown" ? data.substrate_type + " " : ""}beach${data.admin_level_1 ? ` in ${data.admin_level_1}` : ""}${data.country_code ? `, ${data.country_code}` : ""}.`,
+    description: `${data.name} — a ${hasSubstrate ? data.substrate_type + " " : ""}beach${data.admin_level_1 ? ` in ${data.admin_level_1}` : ""}${data.country_code ? `, ${data.country_code}` : ""}.`,
     geo: {
       "@type": "GeoCoordinates",
       latitude: data.centroid_lat,

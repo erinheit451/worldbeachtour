@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import WaikikiV2Page from "@/components/legendary-v2/waikiki-v2";
 import { loadBundle } from "@/components/legendary-v2/load-bundle";
+import BeachJsonLd from "@/components/beach-jsonld";
 
 export const metadata: Metadata = {
   title: "Waikīkī — A Royal Beach That Survived Becoming a Resort",
@@ -15,5 +16,10 @@ export const metadata: Metadata = {
 export default function Page() {
   const bundle = loadBundle("waikiki-beach-1");
   if (!bundle) notFound();
-  return <WaikikiV2Page bundle={bundle!} />;
+  return (
+    <>
+      <BeachJsonLd data={bundle.data} />
+      <WaikikiV2Page bundle={bundle!} />
+    </>
+  );
 }
