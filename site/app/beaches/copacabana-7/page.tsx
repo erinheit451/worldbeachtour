@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import CopaPage from "@/components/legendary-v2/copa-v2";
 import { loadBundle } from "@/components/legendary-v2/load-bundle";
+import BeachJsonLd from "@/components/beach-jsonld";
 
 export const metadata: Metadata = {
   title: "Copacabana — the beach the world imagines when it imagines a beach",
@@ -15,5 +16,10 @@ export const metadata: Metadata = {
 export default function Page() {
   const bundle = loadBundle("copacabana-7");
   if (!bundle) notFound();
-  return <CopaPage bundle={bundle!} />;
+  return (
+    <>
+      <BeachJsonLd data={bundle.data} />
+      <CopaPage bundle={bundle!} />
+    </>
+  );
 }

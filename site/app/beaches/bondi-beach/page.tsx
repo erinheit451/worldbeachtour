@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import BondiPage from "@/components/legendary-v2/bondi-v2";
 import { loadBundle } from "@/components/legendary-v2/load-bundle";
+import BeachJsonLd from "@/components/beach-jsonld";
 
 export const metadata: Metadata = {
   title: "Bondi Beach — Australia's identity beach, and the Gadigal country under it",
@@ -15,5 +16,10 @@ export const metadata: Metadata = {
 export default function Page() {
   const bundle = loadBundle("bondi-beach");
   if (!bundle) notFound();
-  return <BondiPage bundle={bundle!} />;
+  return (
+    <>
+      <BeachJsonLd data={bundle.data} />
+      <BondiPage bundle={bundle!} />
+    </>
+  );
 }

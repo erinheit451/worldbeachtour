@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import BrightonPage from "@/components/legendary-v2/brighton-v2";
 import { loadBundle } from "@/components/legendary-v2/load-bundle";
+import BeachJsonLd from "@/components/beach-jsonld";
 
 export const metadata: Metadata = {
   title: "Brighton — English seaside invented here, burning and rebuilding since",
@@ -15,5 +16,10 @@ export const metadata: Metadata = {
 export default function Page() {
   const bundle = loadBundle("brighton-beach-1");
   if (!bundle) notFound();
-  return <BrightonPage bundle={bundle!} />;
+  return (
+    <>
+      <BeachJsonLd data={bundle.data} />
+      <BrightonPage bundle={bundle!} />
+    </>
+  );
 }
