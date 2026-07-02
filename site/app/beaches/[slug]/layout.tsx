@@ -57,6 +57,9 @@ export async function generateMetadata({
       description,
       type: "article",
       url: `/beaches/${slug}`,
+      // Beach pages set their own openGraph, which suppresses the root
+      // opengraph-image default — so reference the site card explicitly.
+      images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "World Beach Tour" }],
     },
   };
 }
