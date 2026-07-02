@@ -1,3 +1,4 @@
+import Link from "next/link";
 import BeachCard from "@/components/beach-card";
 import Breadcrumbs from "@/components/breadcrumbs";
 import { getAllBeaches } from "@/lib/beaches";
@@ -31,7 +32,13 @@ export default function BeachesPage() {
           Every beach we&rsquo;ve written
         </h1>
         <p className="text-volcanic-500 mt-3 text-lg leading-relaxed">
-          {beaches.length} in-depth guides, with the full 228,612-beach database
+          {beaches.length} in-depth guides, with the full{" "}
+          <Link
+            href="/how-many-beaches-in-the-world"
+            className="text-ocean-700 hover:text-ocean-800 underline underline-offset-2"
+          >
+            228,612-beach database
+          </Link>{" "}
           one click away. Monuments first.
         </p>
       </div>
