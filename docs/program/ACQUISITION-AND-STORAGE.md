@@ -59,18 +59,37 @@ Runs on the Hetzner box (see storage note). All transient:
 | **Transient** | Source rasters / OSM planet / tiles during a run | ~0 | peak ~100 GB *during* a full run, then deleted | No |
 
 ### Current footprint (measured 2026-07-03)
-- `output/` = 2.5 GB, but only `world_beaches.db` (1.4 GB) is live. The rest is
-  **~940 MB of stale backups/old DBs** reclaimable now:
-  `world_beaches_backup_before_phase3.db` (272 MB),
-  `world_beaches_sharks.db` (276 MB), `beaches_v2.db` (394 MB).
-- Free space on C: **114 GB**.
+- **Laptop C:** 114 GB free. `output/` = 2.5 GB, but only `world_beaches.db` (1.4 GB)
+  is live — the rest is **~940 MB of stale backups** reclaimable now
+  (`world_beaches_backup_before_phase3.db` 272 MB, `world_beaches_sharks.db` 276 MB,
+  `beaches_v2.db` 394 MB).
+- **DE compute box** (`178.104.99.176` — the SAME box that serves the WBT site + the
+  CareCost API + the 35M-row rates Postgres + the MRF grind): 601 GB disk,
+  **only 42 GB free (93% full)**, 16 cores, 30 GB RAM (19 GB free), load ~1.75 peak.
+  MRF pipelines are the disk hog (~52 GB: `xw_payer_uhc` 14G, `mrf-pipeline*` 25G,
+  `p2g_uhc_b5` 8G). CPU/RAM have headroom; **disk is the binding constraint.**
+- **Hetzner Storage Box** (`u574262.your-storagebox.de`, port 23): **1 TB**, ~600 GB
+  free *(as of 2026-04; reverify)*, already wired to DE for backups. Cheap bulk/cold
+  storage, separate from the compute disk.
 
-### The load-bearing recommendation: big geo jobs run on Hetzner, not local
-114 GB local free is fine for the **pilot** (regional extracts are sub-GB). It is
-**too tight** for the full 70 GB OSM planet + processing scratch + peak transient.
-The Hetzner box already runs the deploy, is 16-core, and will host self-hosted
-Open-Meteo — so the full-scale acquisition (Wave 4) belongs there. Local stays for
-the pilot and DB work.
+### The home for beach data (three-tier, because DE's compute disk is nearly full)
+The final home is the DE box — but split by what actually needs to live where:
+1. **Live beach DB → DE box.** The permanent DB is small (1.4 → ~5 GB) and fits on DE
+   *even at 42 GB free*, next to the MRF data. This is the "final home" for the data
+   the site / MCP / API read from. ✅ no infra change needed.
+2. **Bulk + transient + backups → the 1 TB Storage Box.** Source corpuses we choose to
+   retain, DB backups, and the growing photo / sand-library assets. Already provisioned.
+3. **Planet-scale processing scratch (~100 GB peak) → NOT DE as-is.** DE's 42 GB can't
+   hold the 70 GB OSM planet + scratch. Before the full run (Wave 4), either free MRF
+   scratch to the Storage Box, or attach a temporary Hetzner volume for the run, then
+   detach. **This decision is weeks away** — the pilot doesn't hit it.
+
+### Where each phase runs
+- **Pilot (now):** laptop. Greece regional extracts are sub-GB; 114 GB is plenty.
+  Ship the resulting enriched DB to DE when ready. No server contention with MRF.
+- **Full scale (post-pilot):** DE for the live DB + self-hosted Open-Meteo; Storage
+  Box for bulk/backup; a temporary volume or freed MRF space for the planet run.
+  Schedule heavy geo passes to not collide with active MRF crunching (disk + CPU).
 
 ## Housekeeping actions
 - Reclaim ~940 MB now by removing the three stale backup DBs (keep one dated backup
