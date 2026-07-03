@@ -64,6 +64,12 @@ Standing rule: **dependency-keystones outrank everything they unblock.**
    approvals take weeks, needed by layer 12 eventually.
 2. Every new pipeline writes `*_source` and confidence columns from day one.
 
+## Active spec
+
+**[Greece Pilot](specs/2026-07-03-greece-pilot.md)** (ready to build) — proves the
+data-then-pages chain on one country (5,660 beaches) before any 228K rollout. Grounded
+in 2026-07-03 DB spikes. First concrete execution of ranks 1–3 + 5.
+
 ## 90-day sequence
 
 | When | Track |

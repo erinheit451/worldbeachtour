@@ -17,10 +17,14 @@ Also yields seaweed prevalence and (with polygons) beach width at tide states;
 historical imagery diffing feeds [climate-future](climate-future.md) erosion trends.
 
 **2. Inference (global, runnable NOW).** Grain size can't be seen from orbit but the
-foreshore slope↔grain-size relationship is well established (steeper = coarser).
-We already have DEM slope (52%) and tide range (62%) → fine/medium/coarse/pebble
-estimates globally — an attribute literally nobody publishes. NOT blocked by the
-polygon keystone.
+slope↔grain-size relationship is well established (steeper = coarser). We already have
+slope + tide range → an attribute literally nobody publishes. NOT blocked by the
+polygon keystone. **CAVEAT (spike 2026-07-03):** our `slope_pct` is *nearshore shelf
+slope* (depth drop over 500–2000 m from ETOPO/GEBCO), NOT textbook beach-face foreshore
+slope. It discriminates well (drop-off beaches median 20.8% vs 3.8% overall) but yields
+a reflective↔dissipative *tendency*, not a calibrated grain class. Ship as
+"coarse/medium/fine tendency + confidence"; upgrade to hard grain size only after
+usSEABED/EMODnet calibration. Clean noise first (some negative slopes exist).
 
 **3. Ground truth (thousands of beaches, growing).**
 - Calibration corpuses: USGS usSEABED (grain-size samples, entire US coast),

@@ -10,7 +10,9 @@ structured source for. The crown-jewel layer and the core of the moat.
 ## What it yields (DB columns / products)
 - **Sunset-over-water score by month** — orientation × sun azimuth by date × horizon
   obstruction from DEM. Enables "beaches near Lisbon where the sun sets over water
-  in October."
+  in October." NOTE (spike 2026-07-03): today's `geometry_derived.sunset_visible` is
+  only a coarse ±22.5° N–S-axis proxy AND needs polygons even for that — the real
+  sun-azimuth-by-month attribute is a fast-follow after the geometry keystone.
 - **Natural shade by hour** — terrain + vegetation + orientation → "shade on the
   sand after 3pm."
 - **Structural crowding index** — parking polygon area × road access class ×
