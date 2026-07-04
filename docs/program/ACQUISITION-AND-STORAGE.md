@@ -50,13 +50,50 @@ Runs on the Hetzner box (see storage note). All transient:
 - **WorldClim 2.1** high-res climate — ~10–20 GB *(est.)*.
 - Global Sentinel-2 mosaics — streamed per-tile, not stored.
 
-## Storage needs — three buckets
+## How big is the COMPLETE, wired-up database? (computed 2026-07-03)
 
-| Bucket | What | Now | At full scale | Kept? |
-|---|---|---|---|---|
-| **Permanent** | `world_beaches.db` (the moat) | 1.4 GB | ~3–5 GB *(est., all columns)* | Forever |
-| **Growing** | Photos, sand-library macros, cached galleries | 0.37 GB (`site/public`) | tens of GB over years | Yes, compounds |
-| **Transient** | Source rasters / OSM planet / tiles during a run | ~0 | peak ~100 GB *during* a full run, then deleted | No |
+Measured the logical row weight and projected to full population. The finding that
+matters: **the structured data — the entire moat — is tiny. Images decide everything.**
+
+### The structured core (all attributes wired up): ~2–4 GB
+Computed from real row weights (current logical content is ~880 B/row; the 1.5 GB
+file is mostly SQLite overhead, not data):
+
+| Piece | Complete size | Note |
+|---|---|---|
+| Core attributes, every row full + monthly climatologies | ~0.6–1.5 GB | 228K rows × ~1 KB + 12-month wave/temp/sunset arrays |
+| Real polygons (65% coverage, ~35 verts) | ~0.1–0.3 GB | negligible vs images |
+| Spatial/text indexes + optional 768-d embeddings (semantic MCP search) | ~1–2 GB | embeddings are the biggest structured line, and optional |
+| **Structured total (the moat)** | **~2–4 GB** | fits on DE's 42 GB free *today*, trivially |
+
+### Images — the actual swing factor (10–100× the data)
+
+| Scenario | Size | What it assumes |
+|---|---|---|
+| Lean: 1 hosted hero each, 100K built pages | ~20 GB | reference/hot-link CC + social for the rest |
+| Mid: hero + 4 gallery images, 100K pages | ~100 GB | we host galleries instead of referencing |
+| Sand library, early: 3 macros × 20K beaches | ~60 GB | our own macro shots (we host these) |
+| Sand library, mature: 3 macros × 60K beaches | ~216 GB | the community endgame — single biggest line item |
+
+### Bottom line — the complete server footprint
+
+| Build | Total | Where it lives |
+|---|---|---|
+| **Lean complete** (structured + heroes + early sand) | **~30–80 GB** | data on DE, images on Storage Box |
+| **Rich complete** (structured + galleries + mature sand) | **~150–320 GB** | data on DE, images on Storage Box |
+
+**The data goes on DE (2–4 GB, fits now). The images go on the 1 TB Storage Box —
+even the 320 GB rich case leaves ~700 GB free.** No new hardware is needed for the
+finished product; the only thing DE's 42 GB can't hold is the *transient* 70 GB
+planet-processing scratch during a full geometry run (temp volume / freed MRF space).
+
+## The three storage buckets (by lifecycle)
+
+| Bucket | What | Now | Complete | Kept? | Home |
+|---|---|---|---|---|---|
+| **Permanent** | `world_beaches.db` (the moat) | 1.5 GB | **~2–4 GB** | Forever | DE |
+| **Growing** | Photos, sand-library macros, galleries | 0.37 GB | **~25–300 GB** | Yes, compounds | Storage Box (1 TB) |
+| **Transient** | Source rasters / OSM planet during a run | ~0 | peak ~100 GB, then deleted | No | temp volume / freed space |
 
 ### Current footprint (measured 2026-07-03)
 - **Laptop C:** 114 GB free. `output/` = 2.5 GB, but only `world_beaches.db` (1.4 GB)
