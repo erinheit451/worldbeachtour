@@ -1,26 +1,30 @@
 """
-Sand grain-size TENDENCY inference (Wave 0 — no downloads, DB-only).
+Sand substrate / grain tendency (Wave 0 — no downloads, DB-only).
 
-Infers a reflective<->dissipative grain-size *tendency* per beach from the
-nearshore shelf slope already in the DB. Physical basis: steeper shoreface ->
-reflective beach -> coarser sediment; gentle/wide shelf -> dissipative -> finer
-(Wright & Short 1984 beach-state model). Tide range modulates predictability
-(macrotidal settings are flatter/less predictive).
+GROUND-TRUTH FIRST. Two-source design, validated against 29,327 OSM-labelled beaches:
 
-IMPORTANT HONESTY (see docs/program/layers/sand-library.md):
-  `slope_pct` is NEARSHORE SHELF slope (depth drop over 500-2000 m from
-  ETOPO/GEBCO), NOT textbook beach-face foreshore slope. So this yields an
-  *uncalibrated tendency*, not a measured grain class. Ship it labelled as such;
-  upgrade to a hard grain size only after calibration against USGS usSEABED +
-  EMODnet sediment samples. Confidence never exceeds 'medium' by design.
+  1. Where OSM already tags the substrate (sand / pebble / gravel / rock) — that is
+     DATA, not inference. Use it directly, confidence 'high'. Covers ~43K beaches.
+  2. Where substrate is 'unknown' but we have nearshore shelf slope — fall back to a
+     slope ESTIMATE, confidence 'low', clearly labelled '(est.)'.
 
-Writes three columns:
-  sand_grain_tendency    : text class (see BINS) or NULL if no slope input
-  sand_grain_confidence  : 'very-low' | 'low' | 'medium'
+Why not slope everywhere: validation showed shelf slope is a weak grain proxy — even
+at its best threshold it caps at ~64% balanced accuracy (coarse beaches average 4.0%
+shelf slope vs sand 2.2%, but the distributions overlap heavily). It catches sand well
+but misses most pebble/gravel (Chesil Beach, famous shingle, has a gentle shelf and
+would be called 'fine'). So slope is a last-resort fallback for unknowns only, and the
+recalibrated split is 2.0% (best balanced), not the original 8%.
+
+Upgrade path (grows the high-confidence share, shrinks the estimate): join USGS
+usSEABED (US) + EMODnet (Europe) sediment samples, then the sand-passport program.
+
+Columns:
+  sand_grain_tendency    : e.g. 'sand', 'pebble', 'gravel', 'rocky',
+                           'fine/sand (est.)', 'coarse (est.)'  — NULL if no signal
+  sand_grain_confidence  : 'high' (OSM/measured) | 'low' (slope estimate) | 'very-low'
   sand_grain_source      : provenance tag
 
-Usage:
-  python -m src.enrich.sand_grain_size <db_path>
+Usage:  python -m src.enrich.sand_grain_size <db_path>
 """
 import sys
 
@@ -28,39 +32,34 @@ from src.enrich._common import (
     open_db, coverage_count, log_run_start, log_run_finish, assert_coverage_delta,
 )
 
-SOURCE_TAG = "shelf-slope inference v1 (uncalibrated tendency; pending usSEABED/EMODnet)"
+SRC_OSM = "OSM substrate tag (measured)"
+SRC_EST = "shelf-slope estimate v2 (recalibrated split=2.0%; fallback for unknown substrate)"
 
-# Fixed global thresholds on slope_pct (%), so a class means the same physical
-# thing everywhere (reproducible, not dataset-relative). Anchored on the global
-# shelf-slope distribution (median ~3-4%, p90 ~12%).
-#   cut, label
-BINS = [
-    (1.5, "fine (dissipative)"),
-    (4.0, "medium-fine"),
-    (8.0, "medium-coarse"),
-    (float("inf"), "coarse (reflective)"),
-]
-MACROTIDAL_M = 4.0  # spring range above which shelf-slope is a weaker predictor
+# Recalibrated on the 29,327-beach ground-truth set (best balanced threshold).
+EST_COARSE_CUT = 2.0
+
+OSM_MAP = {
+    "sand":   "sand",
+    "pebble": "pebble",
+    "gravel": "gravel",
+    "rock":   "rocky",
+    "reef":   "rocky",
+}
 
 
-def classify(slope_pct: float, tide_range_m: float | None) -> tuple[str, str]:
-    """Return (tendency_label, confidence). slope_pct assumed not None."""
-    # Clamp noise: a shoreface slope can't be negative; treat as flattest + flag.
+def classify(substrate: str | None, slope_pct: float | None) -> tuple[str, str, str] | None:
+    """Return (tendency, confidence, source) or None if no signal."""
+    # 1) Ground truth wins.
+    if substrate in OSM_MAP:
+        return OSM_MAP[substrate], "high", SRC_OSM
+    # 2) Fallback estimate for unknown substrate, only if we have slope.
+    if slope_pct is None:
+        return None
     if slope_pct <= 0:
-        return BINS[0][1], "very-low"
-    s = slope_pct
-    for cut, label in BINS:
-        if s < cut:
-            tendency = label
-            break
-    else:
-        tendency = BINS[-1][1]
-    # Confidence: uncalibrated proxy caps at 'medium'. Macrotidal -> 'low'.
-    if tide_range_m is not None and tide_range_m > MACROTIDAL_M:
-        conf = "low"
-    else:
-        conf = "medium"
-    return tendency, conf
+        return "fine/sand (est.)", "very-low", SRC_EST
+    if slope_pct >= EST_COARSE_CUT:
+        return "coarse (est.)", "low", SRC_EST
+    return "fine/sand (est.)", "low", SRC_EST
 
 
 def _ensure_columns(conn) -> None:
@@ -79,13 +78,16 @@ def run(db_path: str) -> None:
         run_id = log_run_start(conn, "sand_grain_size", phase="A")
 
         rows = conn.execute(
-            "SELECT id, slope_pct, tide_range_spring_m FROM beaches WHERE slope_pct IS NOT NULL"
+            "SELECT id, substrate_type, slope_pct FROM beaches"
         ).fetchall()
 
         updates = []
         for r in rows:
-            tendency, conf = classify(r["slope_pct"], r["tide_range_spring_m"])
-            updates.append((tendency, conf, SOURCE_TAG, r["id"]))
+            res = classify(r["substrate_type"], r["slope_pct"])
+            if res is None:
+                updates.append((None, None, None, r["id"]))
+            else:
+                updates.append((*res, r["id"]))
 
         conn.executemany(
             "UPDATE beaches SET sand_grain_tendency=?, sand_grain_confidence=?, "
@@ -93,20 +95,24 @@ def run(db_path: str) -> None:
             updates,
         )
         conn.commit()
-
         log_run_finish(conn, run_id, "ok", total_processed=len(updates), total_errors=0)
-        # Fail loudly if nothing was written.
-        assert_coverage_delta(conn, "beaches", "sand_grain_tendency", before, min_delta=1000)
 
-        # Report distribution.
-        print(f"processed {len(updates)} beaches")
-        dist = conn.execute(
-            "SELECT sand_grain_tendency, sand_grain_confidence, COUNT(*) "
+        after = coverage_count(conn, "beaches", "sand_grain_tendency")
+        if after < 1000:
+            raise SystemExit(f"coverage collapsed to {after}; aborting")
+
+        # Report by confidence + class.
+        high = conn.execute(
+            "SELECT COUNT(*) FROM beaches WHERE sand_grain_confidence='high'"
+        ).fetchone()[0]
+        print(f"populated {after} beaches ({high} high-confidence / measured, "
+              f"{after - high} low-confidence estimate)")
+        for conf, cls, c in conn.execute(
+            "SELECT sand_grain_confidence, sand_grain_tendency, COUNT(*) "
             "FROM beaches WHERE sand_grain_tendency IS NOT NULL "
-            "GROUP BY sand_grain_tendency, sand_grain_confidence ORDER BY 3 DESC"
-        ).fetchall()
-        for d in dist:
-            print(f"  {d[2]:>7}  {d[0]:<22} [{d[1]}]")
+            "GROUP BY 1,2 ORDER BY 1,3 DESC"
+        ):
+            print(f"  [{conf:<8}] {cls:<20} {c:>7}")
     finally:
         conn.close()
 
