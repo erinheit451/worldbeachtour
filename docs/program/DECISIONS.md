@@ -41,14 +41,20 @@ layers + programmatic surfaces.
 **2026-07-03 — Spin-off protocol.** New ideas become `layers/` stubs within 10
 minutes, get scored, and wait for a re-rank. No session builds an unranked layer.
 
-**2026-07-03 — Grain-size tendency is INTERNAL-ONLY until calibrated.** Built + ran
-`src/enrich/sand_grain_size.py` on 120,713 beaches (branch `feat/sand-grain-size`).
-Verification proved the shelf-slope proxy misclassifies foreshore grain for divergent
-cases — Chesil Beach (famous shingle) classes "fine" because its offshore shelf is
-gentle. Decision: keep the column as a low/medium-confidence internal shoreface-state
-signal (fine for filtering/analysis), but DO NOT surface it as "grain size" on public
-pages or in the dataset until calibrated against USGS usSEABED + EMODnet. This is the
-concrete instance of the general sand-library calibration rule.
+**2026-07-03 — Grain-size: ground-truth-first (SUPERSEDES the internal-only entry
+below).** After the first slope-only run, validated against 29,327 OSM-labelled
+beaches: slope-only is a weak proxy — 32% coarse recall, ~64% balanced-accuracy
+ceiling even best-tuned (coarse shelf 4.0% vs sand 2.2%, heavy overlap). Rewrote v2
+(`sand_grain_size.py`): use OSM substrate tag directly where present (43,389 beaches /
+19% — Chesil now correctly 'pebble' at high confidence), slope estimate only for
+unknowns at low confidence, labelled '(est.)'. **Publish rule:** high-confidence rows
+are page/dataset-ready; low-confidence rows show as "estimated" or stay hidden. Grow
+the measured share via usSEABED (US) + EMODnet (EU) + sand passport. Coverage:
+43K measured + 91K estimated + 93K none.
+
+**2026-07-03 (SUPERSEDED by the entry above) — Grain-size tendency internal-only.**
+Initial slope-only run flagged not-publish-ready off the Chesil miss; replaced by the
+ground-truth-first v2 rather than shelving the attribute.
 
 **2026-06 (prior) — Four-tier page architecture locked.** T1 Legendary (30–50) /
 T2 Featured (500–1000) / T3 Field Guide (10k–30k) / T4 Stub (200k+). See
