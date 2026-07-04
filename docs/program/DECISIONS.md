@@ -41,8 +41,17 @@ layers + programmatic surfaces.
 **2026-07-03 — Spin-off protocol.** New ideas become `layers/` stubs within 10
 minutes, get scored, and wait for a re-rank. No session builds an unranked layer.
 
-**2026-07-03 — Grain-size: ground-truth-first (SUPERSEDES the internal-only entry
-below).** After the first slope-only run, validated against 29,327 OSM-labelled
+**2026-07-03 — Grain-size v3: spatial-inference geology backstop (current).**
+Substrate is strongly spatially clustered — nearby KNOWN beaches predict an unknown's
+substrate at ~91% accuracy / 70% coarse recall (leave-one-out, distance-weighted kNN
+within 25 km), vs 32% for slope. Added as Tier 2 between measured OSM (Tier 1) and the
+slope estimate (Tier 3, last resort). Coverage 120K→171K beaches (75% of all);
+good-confidence (measured+inferred) = 52%, up from 19%. This is the general pattern for
+sparse-label attributes: **spatially interpolate from known points before falling back
+to a weak physics proxy.** Grow the seed set (and thus inference quality) via usSEABED +
+EMODnet + the Global Coastal Classification transects (already in the enrichment plan).
+
+**2026-07-03 — Grain-size: ground-truth-first (superseded by v3 above).** After the first slope-only run, validated against 29,327 OSM-labelled
 beaches: slope-only is a weak proxy — 32% coarse recall, ~64% balanced-accuracy
 ceiling even best-tuned (coarse shelf 4.0% vs sand 2.2%, heavy overlap). Rewrote v2
 (`sand_grain_size.py`): use OSM substrate tag directly where present (43,389 beaches /
