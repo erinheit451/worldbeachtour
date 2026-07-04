@@ -41,6 +41,15 @@ layers + programmatic surfaces.
 **2026-07-03 — Spin-off protocol.** New ideas become `layers/` stubs within 10
 minutes, get scored, and wait for a re-rank. No session builds an unranked layer.
 
+**2026-07-03 — Grain-size tendency is INTERNAL-ONLY until calibrated.** Built + ran
+`src/enrich/sand_grain_size.py` on 120,713 beaches (branch `feat/sand-grain-size`).
+Verification proved the shelf-slope proxy misclassifies foreshore grain for divergent
+cases — Chesil Beach (famous shingle) classes "fine" because its offshore shelf is
+gentle. Decision: keep the column as a low/medium-confidence internal shoreface-state
+signal (fine for filtering/analysis), but DO NOT surface it as "grain size" on public
+pages or in the dataset until calibrated against USGS usSEABED + EMODnet. This is the
+concrete instance of the general sand-library calibration rule.
+
 **2026-06 (prior) — Four-tier page architecture locked.** T1 Legendary (30–50) /
 T2 Featured (500–1000) / T3 Field Guide (10k–30k) / T4 Stub (200k+). See
 `../legendary/tier-system.md`. The Jun-11 "Marquee/Popular/Named/Stub" naming is
