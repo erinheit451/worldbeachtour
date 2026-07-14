@@ -1,0 +1,46 @@
+{
+  "slug": "condado-beach",
+  "beach_name": "Condado Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "The Atlantic shore where Puerto Rico's tourism industry began, at the 1919 Condado Vanderbilt Hotel, and where the open-ocean rip currents now make it one of the island's deadliest beaches to swim.",
+  "spike_statement": "Puerto Rico's tourism began at the 1919 Condado Vanderbilt Hotel; the open-Atlantic surf on the beach out front is now among the island's deadliest.",
+  "levers": {
+    "primary_color": "#C07A38",
+    "supporting_color": "#2A6B78",
+    "hero_type": "LAYERED",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "WRY",
+    "photo_tone": "Beaux-Arts white walls and red Spanish tile of the Condado Vanderbilt above an open Atlantic shorebreak, Ashford Avenue towers behind quartz-pale sand, a winter swell breaking hard on an exposed urban coast"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

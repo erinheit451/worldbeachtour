@@ -1,0 +1,46 @@
+{
+  "slug": "st-kilda-beach-1",
+  "beach_name": "St Kilda Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A 700-metre bay beach 6 km from central Melbourne, where a wild colony of about 1,400 little penguins nests on a breakwater built for the 1956 Olympic yachting.",
+  "spike_statement": "About 1,400 wild little penguins nest on the bluestone breakwater built for Melbourne's 1956 Olympic yachting, 6 km from the city centre.",
+  "levers": {
+    "primary_color": "#2C5A78",
+    "supporting_color": "#D8A24A",
+    "hero_type": "SPIKE",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "WRY",
+    "photo_tone": "Flat pale-blue Port Phillip Bay water off a wide low-tide sand flat, the timber pier and dark bluestone breakwater reaching out, Luna Park's face and the Palais roofline behind the foreshore, warm evening light from the west over the water"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "environment",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

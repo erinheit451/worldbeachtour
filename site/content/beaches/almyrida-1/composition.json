@@ -1,0 +1,46 @@
+{
+  "slug": "almyrida-1",
+  "beach_name": "Almyrida",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A shallow family and beginner-windsurf bay in Apokoronas, Crete, whose eastern edge holds the open-air mosaic floor of a three-aisled 6th-century Christian basilica.",
+  "spike_statement": "A calm, shallow windsurf bay whose edge holds the open-air mosaic floor of a three-aisled 6th-century basilica, excavated 1974-1989.",
+  "levers": {
+    "primary_color": "#B8894A",
+    "supporting_color": "#2E6E78",
+    "hero_type": "LAYERED",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "REVERENT",
+    "photo_tone": "Flat, shallow turquoise bay backed by the White Mountains; a few steps inland the roofless, fenced mosaic floor of the basilica lies exposed to the sky, its tesserae pale gold and grey against the sand"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

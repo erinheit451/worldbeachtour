@@ -1,0 +1,46 @@
+{
+  "slug": "kitsilano-beach",
+  "beach_name": "Kitsilano Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "Vancouver's busiest swimming beach sits on Kitsilano Indian Reserve No. 6, cleared of its Squamish village in 1913 and edged today by the Squamish Nation's Sen̓áḵw rebuild.",
+  "spike_statement": "Vancouver's busiest swimming beach sits on a Squamish reserve emptied by a coerced 1913 eviction; the nation now rebuilds beside it at Sen̓áḵw.",
+  "levers": {
+    "primary_color": "#B07A3C",
+    "supporting_color": "#3C6E78",
+    "hero_type": "LAYERED",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "MELANCHOLIC",
+    "photo_tone": "Late gold light across English Bay, downtown and the North Shore mountains behind the sand, the pale rectangle of Kitsilano Pool at the east end and the rising Sen̓áḵw towers at the foot of the Burrard Bridge"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

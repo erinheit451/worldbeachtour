@@ -1,0 +1,46 @@
+{
+  "slug": "fig-tree-bay",
+  "beach_name": "Fig Tree Bay",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A 500-metre family beach in the Protaras resort strip that TripAdvisor named Europe's third-best in 2011, its sand now pumped back to fight erosion, with a 2,400-year-old tomb found under the coastal path.",
+  "spike_statement": "TripAdvisor ranked it Europe's third-best beach in 2011; it fell to 13th by 2013, and its eroding sand is now pumped back to hold the shore.",
+  "levers": {
+    "primary_color": "#159AA6",
+    "supporting_color": "#D9A441",
+    "hero_type": "LAYERED",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "WRY",
+    "photo_tone": "Turquoise shallow water over pale gold sand, the low uninhabited islet just offshore, the wall of Protaras resort blocks pressing up behind the 500-metre bay"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
