@@ -10,6 +10,7 @@ in what order, and why.
 
 | File | What it holds | Update cadence |
 |---|---|---|
+| `ONTOLOGY.md` | **The canonical data spec** — 14 classes, 102 attributes across 14 domains, 17 relationships, provenance model, ethics, query engines. What every layer builds toward. (Source: `beach_ontology.xlsx`, kept alongside.) | Reconcile both when the model changes |
 | `ROADMAP.md` | The spine: thesis, scoring rubric, the current stack rank, operating cadence | Re-ranked when a layer ships or a new layer scores high |
 | `DECISIONS.md` | Every settled decision, dated, with the why | Append-only; never re-litigate an entry without a new dated entry superseding it |
 | `layers/*.md` | One scope file per data layer or product — the full possibility space | Stub created within 10 minutes of any new idea |
