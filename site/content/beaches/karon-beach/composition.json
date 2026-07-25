@@ -1,0 +1,46 @@
+{
+  "slug": "karon-beach",
+  "beach_name": "Karon Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "One of Phuket's longest beaches, about 3.3 km of near-pure quartz sand that squeaks and sings underfoot when it is dry, on a shore lower-key than Patong but raked by monsoon rip currents.",
+  "spike_statement": "Karon's near-pure, uniformly rounded quartz sand squeaks and sings underfoot when dry, one of the few singing-sand beaches in Thailand.",
+  "levers": {
+    "primary_color": "#C7A15C",
+    "supporting_color": "#2E6E8E",
+    "hero_type": "SPIKE",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "TECHNICAL",
+    "photo_tone": "Pale, dry quartz sand above the tideline against the flat blue of the Andaman Sea, the wide beach road behind it, headland rocks at the southern end and the low green hills inland"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "sand",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "strandbad-wannsee",
+  "beach_name": "Strandbad Wannsee",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "Europe's largest inland lido, a Weimar people's beach of Baltic sand on a Berlin lake, built 1929-1930 by Martin Wagner and Richard Ermisch and cut to half its plan by the Great Depression.",
+  "spike_statement": "Europe's largest inland lido is a Weimar people's beach: 1,275 m of Baltic sand trucked to a Berlin lake, its architecture halved by the Depression.",
+  "levers": {
+    "primary_color": "#C2952F",
+    "supporting_color": "#3E6B78",
+    "hero_type": "MONUMENT",
+    "display_pairing": "AUSTERE",
+    "voice_register": "MELANCHOLIC",
+    "photo_tone": "Yellow clinker-brick halls and a long pale sand strip on the Großer Wannsee, late western light across the lake, wicker Strandkörbe in rows, the New Objectivity lines of Ermisch's buildings flat against the pines"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

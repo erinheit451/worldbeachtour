@@ -1,0 +1,46 @@
+{
+  "slug": "guincho-beach",
+  "beach_name": "Praia do Guincho",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "An exposed Atlantic beach on the edge of the Sintra-Cascais Natural Park, 5 km from Cascais, where the summer nortada wind made Portugal's home of wave-sailing.",
+  "spike_statement": "The Serra de Sintra funnels a hard summer north wind, the nortada, onto Guincho, making this Atlantic beach Portugal's home of wave-sailing.",
+  "levers": {
+    "primary_color": "#2E6E8E",
+    "supporting_color": "#C9A66B",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "TECHNICAL",
+    "photo_tone": "Nortada spray blown off the whitecaps, pale mobile dune sand streaming inland, the Serra de Sintra dark behind an exposed Atlantic beach"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "surf",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

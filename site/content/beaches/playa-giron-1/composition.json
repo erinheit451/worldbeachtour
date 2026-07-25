@@ -1,0 +1,46 @@
+{
+  "slug": "playa-giron-1",
+  "beach_name": "Playa Girón",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "The coral shore on the east bank of the Bay of Pigs where Brigade 2506 made its main 'Blue Beach' landing on 17 April 1961 and where, 72 hours later, the CIA-backed invasion collapsed.",
+  "spike_statement": "To Cubans the 1961 Bay of Pigs invasion is simply Girón: this coral shore was Brigade 2506's main landing, where the CIA-backed force collapsed in 72 hours.",
+  "levers": {
+    "primary_color": "#2E6E8E",
+    "supporting_color": "#8A6D3B",
+    "hero_type": "MONUMENT",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "TECHNICAL",
+    "photo_tone": "A British Hawker Sea Fury and an M41 tank parked outside the Museo Girón under a flat tropical sky, the coral iron-shore of the Bay of Pigs and the open water beyond, roadside concrete markers to the dead lining the coast road"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

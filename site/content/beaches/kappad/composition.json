@@ -1,0 +1,46 @@
+{
+  "slug": "kappad",
+  "beach_name": "Kappad Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A quartz beach 16 km north of Kozhikode whose 1975 state monument declares Vasco da Gama \"landed here\" in 1498 — a claim the voyage's own logbook does not support.",
+  "spike_statement": "Kappad's stone monument says Vasco da Gama \"landed here\" in 1498; the voyage's logbook puts his fleet offshore and his first step ashore further south.",
+  "levers": {
+    "primary_color": "#B24A2E",
+    "supporting_color": "#2E6F7A",
+    "hero_type": "MONUMENT",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "WRY",
+    "photo_tone": "Late Arabian-Sea light off the west-facing sand, the low grey commemorative pillar in the foreground, a rocky temple-topped headland breaking the shoreline and the Korapuzha backwaters behind"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

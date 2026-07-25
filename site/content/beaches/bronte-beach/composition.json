@@ -1,0 +1,46 @@
+{
+  "slug": "bronte-beach",
+  "beach_name": "Bronte Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A 250-metre surf beach in Sydney's east whose lifesaving club calls itself the oldest in the world, a 1903 claim the sport's own historians have never been able to verify.",
+  "spike_statement": "Bronte's surf club calls itself the world's oldest, founded 1903, but no primary record proves it; Bondi's 1907 founding is the earliest documented.",
+  "levers": {
+    "primary_color": "#C0863A",
+    "supporting_color": "#2E6B78",
+    "hero_type": "SPIKE",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "WRY",
+    "photo_tone": "Warm sandstone headlands framing a short surf beach, the 30-metre Bronte Baths cut into the rock at the south end, the green bowl of Bronte Park and its Norfolk pines behind the sand, morning light off an exposed swell"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
