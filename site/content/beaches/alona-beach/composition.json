@@ -1,0 +1,46 @@
+{
+  "slug": "alona-beach",
+  "beach_name": "Alona Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "Panglao Island's dive-tourism hub, named on the spot by a 1973 film crew for an actress who was swimming nearby, now dense with dive shops and fighting the erosion and pollution that density brings.",
+  "spike_statement": "In 1973, a film crew shooting Esteban asked locals what to call an unnamed beach; they said Alona Beach, after co-star Alona Alegre, and it stuck.",
+  "levers": {
+    "primary_color": "#D9773F",
+    "supporting_color": "#2F8C8C",
+    "hero_type": "SPIKE",
+    "display_pairing": "VERNACULAR",
+    "voice_register": "WRY",
+    "photo_tone": "White quartz sand packed with dive flags and resort umbrellas, the water a milky turquoise close to shore that turns visibly cloudier past the boat landings, low afternoon light picking out the rocky point at the beach's western end"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

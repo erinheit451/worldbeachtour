@@ -1,0 +1,46 @@
+{
+  "slug": "pipa-beach",
+  "beach_name": "Pipa Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A former fishing village on Rio Grande do Norte's coast, built around red sandstone cliffs that keep collapsing on the people who come to see them.",
+  "spike_statement": "Pipa's red sandstone cliffs are its top tourist draw and a documented killer: a 2020 collapse killed a family of three; a 2025 decree fenced them off.",
+  "levers": {
+    "primary_color": "#A6532E",
+    "supporting_color": "#DCC9A3",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "MELANCHOLIC",
+    "photo_tone": "Ochre-red Barreiras Formation cliff faces against white sand and turquoise water, eucalyptus-and-rope safety fencing visible along the clifftop edge"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "environment",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

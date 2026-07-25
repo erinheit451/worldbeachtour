@@ -1,0 +1,46 @@
+{
+  "slug": "fistral-beach",
+  "beach_name": "Fistral Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "Britain's self-styled home of surfing, and in 2026 Fistral became the Cornish anchor of a ~1,900-claimant nuisance suit against South West Water.",
+  "spike_statement": "South West Water discharged sewage in the Newquay area 221 times in 2024, and in 2026 Fistral became the Cornish anchor of a ~1,900-claimant nuisance suit.",
+  "levers": {
+    "primary_color": "#1C6E8C",
+    "supporting_color": "#D9C9A3",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "WRY",
+    "photo_tone": "Slate-teal Atlantic swell breaking off Towan Head under flat Cornish light, wetsuited lineups at the water's edge, the sand gone dun-colored near the storm-drain outfalls"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "environment",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

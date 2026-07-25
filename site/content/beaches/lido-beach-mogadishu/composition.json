@@ -1,0 +1,42 @@
+{
+  "slug": "lido-beach-mogadishu",
+  "beach_name": "Lido Beach, Mogadishu",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "Somalia's best-known public beach, banned under Al-Shabab occupation until 2011 and bombed at least five times since for the freedoms it represents.",
+  "spike_statement": "Al-Shabab has bombed Mogadishu's Lido Beach at least five times since 2016, killing roughly 90 people, and each time the crowds return within weeks.",
+  "levers": {
+    "primary_color": "#2E4A52",
+    "supporting_color": "#B8955F",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "SEVERE",
+    "photo_tone": "Indian Ocean turning bronze at dusk over a beachfront hotel row still standing after repeated blasts, families and umbrellas back on the sand within weeks of the last one"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "clifton-beach-4",
+  "beach_name": "Clifton Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "Karachi's largest public beach, watched over by the hilltop shrine of an 8th-century Sufi saint the city still credits with turning away cyclones.",
+  "spike_statement": "Locals credit the 8th-century Sufi shrine on the bluff with steering cyclones away from Karachi; militants bombed it in 2010, killing at least seven.",
+  "levers": {
+    "primary_color": "#1E6E73",
+    "supporting_color": "#C9A368",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "SEVERE",
+    "photo_tone": "Arabian Sea haze over grey-brown urban sand, camel and horse silhouettes against a smog-softened sunset, the shrine's blue dome lit gold on the bluff above the crowd"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

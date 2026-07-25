@@ -1,0 +1,46 @@
+{
+  "slug": "treasure-beach",
+  "beach_name": "Treasure Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A St. Elizabeth fishing village of five coves, nine months into rebuilding after Hurricane Melissa, the strongest hurricane on record to hit Jamaica.",
+  "spike_statement": "Hurricane Melissa hit Jamaica at 185 mph on 28 Oct 2025, the strongest hurricane on record to strike the island; St. Elizabeth recorded 18 deaths.",
+  "levers": {
+    "primary_color": "#3C5A6E",
+    "supporting_color": "#B98A5A",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "MELANCHOLIC",
+    "photo_tone": "Brown south-coast sand and turquoise shallows at Frenchman's Bay, fishing boats pulled up on rebuilt seawalls at Calabash Bay, new zinc roofs still bright against weathered pastel guesthouses, storm-bent almond trees regrowing their canopy."
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "environment",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

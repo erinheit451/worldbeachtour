@@ -19,12 +19,14 @@ files a beach needs; `assemble_beach.py` + the unified `[slug]` route do the res
   "subtitle": "<one line>",                // tier 2 (a spike_statement is the tier-1 form)
   "spike_statement": "<one sentence, UNDER 160 chars, ends with a period>",
   "levers": { "primary_color": "<hex>", "supporting_color": "<hex>",
-    "hero_type": "MONUMENT", "display_pairing": "CLASSICAL",
-    "voice_register": "<ROMANTIC|REVERENT|TECHNICAL|MELANCHOLIC>", "photo_tone": "<short>" },
+    "hero_type": "<MONUMENT|SPIKE|LAYERED|ABSENCE>", "display_pairing": "<CLASSICAL|AUSTERE|VERNACULAR>",
+    "voice_register": "<CLINICAL|REVERENT|ROMANTIC|SEVERE|WRY>", "photo_tone": "<short>" },
   "byline": "Written by Erin Rose",
   "sections": ["hero","quick_facts","story","spike_deep_explainer","timeline","place_anatomy","day_in_life","culture","honest_reckoning","comparison","sea_surf","things_to_know","plan_stack","gallery","sources"],
   "spokes": [] }
 ```
+
+Lever enums above mirror the canonical validator (`site/components/legendary-v2/types.ts`); if they ever disagree, types.ts wins.
 
 ## showcase.json — exact keys and types
 - `intro_text`: string, 4–6 paragraphs (`\n\n` separated), ~1800–2400 chars.
