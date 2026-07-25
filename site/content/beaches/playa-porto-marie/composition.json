@@ -1,0 +1,46 @@
+{
+  "slug": "playa-porto-marie",
+  "beach_name": "Playa Porto Marie",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A private pay-beach on a Curaçao plantation bay near where Tula's rebels broke a Dutch militia column on 19 August 1795.",
+  "spike_statement": "On 19 August 1795, rebels led by Tula broke a 67-man Dutch militia column near this bay, the revolt's sharpest tactical defeat for the colonial government.",
+  "levers": {
+    "primary_color": "#8B3A2A",
+    "supporting_color": "#D8CDB4",
+    "hero_type": "SPIKE",
+    "display_pairing": "VERNACULAR",
+    "voice_register": "SEVERE",
+    "photo_tone": "Weathered coral-stone plantation ruins and flat turquoise bay water in harsh midday light, rental umbrellas and a dive-shop tower set against 18th-century fort and storehouse stone."
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

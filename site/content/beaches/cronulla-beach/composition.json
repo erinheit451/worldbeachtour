@@ -1,0 +1,46 @@
+{
+  "slug": "cronulla-beach",
+  "beach_name": "Cronulla Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "Sydney's southernmost surf suburb, the only Sydney beach with its own heavy-rail terminus, and the site of Australia's worst outbreak of race-based mob violence in December 2005.",
+  "spike_statement": "A lifeguard scuffle and 270,000 texts turned this beach into the site of Australia's worst race riot on 11 December 2005, still shaping law two decades later.",
+  "levers": {
+    "primary_color": "#1D4A5C",
+    "supporting_color": "#C9A66B",
+    "hero_type": "SPIKE",
+    "display_pairing": "VERNACULAR",
+    "voice_register": "SEVERE",
+    "photo_tone": "Flat late-morning light over grey-green Tasman swell, red-and-yellow patrol flags and the lifeguard tower in the foreground, low beachfront apartments behind -- a working suburban beach, not a resort postcard"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

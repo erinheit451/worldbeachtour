@@ -1,0 +1,46 @@
+{
+  "slug": "burrow-beach",
+  "beach_name": "Burrow Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A 1.2-kilometer sand beach on the tombolo that connects Howth Head, once an island, to the Dublin mainland at Sutton, County Dublin.",
+  "spike_statement": "Burrow Beach runs along a sand-and-gravel tombolo that turned Howth Head from an island into a peninsula joined to Dublin's mainland at Sutton.",
+  "levers": {
+    "primary_color": "#3C5A68",
+    "supporting_color": "#C7B58B",
+    "hero_type": "SPIKE",
+    "display_pairing": "VERNACULAR",
+    "voice_register": "CLINICAL",
+    "photo_tone": "Flat grey-green Irish Sea light over pale sand and marram-grass dunes, Howth's dark headland closing the horizon."
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "sand",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

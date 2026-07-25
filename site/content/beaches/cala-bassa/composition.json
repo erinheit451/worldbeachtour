@@ -1,0 +1,46 @@
+{
+  "slug": "cala-bassa",
+  "beach_name": "Cala Bassa",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A sheltered cove on Ibiza's northwest coast whose seabed sits inside a Balearic government enforcement zone for illegal anchoring on protected Posidonia oceanica meadows.",
+  "spike_statement": "In 2025, 21% of inspected Ibiza boats were found moored on protected seagrass; one August sweep of Sant Antoni Bay and Cala Bassa cited nine vessels.",
+  "levers": {
+    "primary_color": "#1B6E62",
+    "supporting_color": "#E8D9B5",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "CLINICAL",
+    "photo_tone": "Turquoise shallows fading to deep blue over pale sand, dark seagrass shadow patterns visible through clear water, limestone headland edges, small boats crowded close to the anchorage"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "environment",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

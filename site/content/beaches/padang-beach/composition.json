@@ -1,0 +1,46 @@
+{
+  "slug": "padang-beach",
+  "beach_name": "Pandawa Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A limestone quarry road opened this cliff-sealed Bukit Peninsula cove to the public in 2012, and visits reached 1.36 million a year within five years.",
+  "spike_statement": "A rock quarry became the only road into this cliff-sealed Bali cove in 2012; annual visits hit 1.36 million by 2017, then crashed 44% in 2020.",
+  "levers": {
+    "primary_color": "#B8863B",
+    "supporting_color": "#1E6E72",
+    "hero_type": "SPIKE",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "SEVERE",
+    "photo_tone": "Gold-white quarried limestone walls, six weathered Pandava figures carved into the cliff, jade-shallow water striped with seaweed-farming lines, midday tour-bus crowds on the sand"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "environment",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

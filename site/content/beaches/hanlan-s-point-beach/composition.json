@@ -1,0 +1,46 @@
+{
+  "slug": "hanlan-s-point-beach",
+  "beach_name": "Hanlan's Point Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A 200-by-50-foot nude-bathing zone Toronto legalized here in 1894 is called the world's oldest official nude beach; by the 1940s the same sand had become one of Canada's earliest queer gathering places.",
+  "spike_statement": "Toronto's 1894 by-law legalizing nude bathing on a 200-by-50-foot strip here is called the world's oldest official nude-beach zoning.",
+  "levers": {
+    "primary_color": "#1F5C6B",
+    "supporting_color": "#D8A24A",
+    "hero_type": "SPIKE",
+    "display_pairing": "VERNACULAR",
+    "voice_register": "REVERENT",
+    "photo_tone": "Lake Ontario grey-blue under a hazy downtown skyline, driftwood-toned sand narrowed by erosion, small Pride flags the only saturated color"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

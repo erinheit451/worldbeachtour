@@ -1,0 +1,42 @@
+{
+  "slug": "one-cable-beach",
+  "beach_name": "Cable Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "Nassau's 1950s resort strip, rebuilt since 2011 as the $4-billion Baha Mar complex whose Chinese state contractor a New York court found committed fraud.",
+  "spike_statement": "A 2024 New York court ruling found Baha Mar's Chinese state contractor committed fraud and \"outright sabotage,\" ordering $1.6 billion in damages.",
+  "levers": {
+    "primary_color": "#0E7C86",
+    "supporting_color": "#C2A46B",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "WRY",
+    "photo_tone": "Turquoise Cable Beach shallows in the foreground, Baha Mar's glass towers in flat tropical light behind, the resort's polish always a beat away from the paper trail underneath it"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

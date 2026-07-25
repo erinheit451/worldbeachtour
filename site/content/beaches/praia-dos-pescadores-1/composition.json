@@ -1,0 +1,46 @@
+{
+  "slug": "praia-dos-pescadores-1",
+  "beach_name": "Praia dos Pescadores",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A 225-meter town beach named for the fishing fleet that worked it before Albufeira had a harbor, now covered in tourist loungers instead of boats.",
+  "spike_statement": "Fishermen's Beach lost its fleet: a 1930-1960 canning collapse halved Albufeira's population, and 1960s tourism rebuilt the town on the same sand.",
+  "levers": {
+    "primary_color": "#C1652F",
+    "supporting_color": "#1F5C73",
+    "hero_type": "LAYERED",
+    "display_pairing": "VERNACULAR",
+    "voice_register": "SEVERE",
+    "photo_tone": "Ochre cliff faces above rows of blue-and-white parasols at beach level; warm, dense, and crowded rather than empty — a working square of sand, just working a different trade now."
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

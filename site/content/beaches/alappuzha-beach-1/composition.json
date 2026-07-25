@@ -1,0 +1,42 @@
+{
+  "slug": "alappuzha-beach-1",
+  "beach_name": "Alappuzha Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A 387-meter cast-iron pier built in 1862 for Kerala's coir trade, now closed to shipping since 1989 and slated for a modern replacement.",
+  "spike_statement": "A cast-iron pier built in 1862 to load coir cargo has had no port operations since 1989, Kerala's own port authority says, and sits waiting for a replacement.",
+  "levers": {
+    "primary_color": "#8B4A2B",
+    "supporting_color": "#2E5D52",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "SEVERE",
+    "photo_tone": "Flat monsoon-grey Arabian Sea light, the pier's black cast-iron pilings cutting a stark line into a hazy grey-green horizon"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

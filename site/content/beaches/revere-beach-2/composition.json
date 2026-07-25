@@ -1,0 +1,46 @@
+{
+  "slug": "revere-beach-2",
+  "beach_name": "Revere Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "America's first public beach, opened 1896, whose Wonderland district has hosted an amusement park, a 75-year dog track, and is now becoming a public high school.",
+  "spike_statement": "Revere's Wonderland parcel has held an amusement park and a 75-year dog track; after a 2022 eminent-domain fight, a public high school is rising there.",
+  "levers": {
+    "primary_color": "#1F4E5F",
+    "supporting_color": "#B08968",
+    "hero_type": "LAYERED",
+    "display_pairing": "VERNACULAR",
+    "voice_register": "WRY",
+    "photo_tone": "Flat gray-blue Atlantic light off Massachusetts Bay, brick and glass condo towers behind a boulevard bike path, gulls over a beach that faces sunrise, not sunset"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
