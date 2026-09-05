@@ -1,0 +1,46 @@
+{
+  "slug": "l-espiguette-1",
+  "beach_name": "L'Espiguette",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "An 18-kilometer dune beach in the Camargue where a lighthouse built at the water's edge in 1869 now stands roughly 700 meters inland.",
+  "spike_statement": "Built 150 meters from the sea in 1869, the Espiguette lighthouse now stands roughly 700 meters inland, stranded by sand its own coast keeps depositing.",
+  "levers": {
+    "primary_color": "#C2A05C",
+    "supporting_color": "#3E6B78",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "CLINICAL",
+    "photo_tone": "Flat gold late light over open dune and marram grass, a square white tower standing alone in sand far back from a low blue-green sea"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "sand",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

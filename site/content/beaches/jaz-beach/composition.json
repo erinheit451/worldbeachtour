@@ -1,0 +1,42 @@
+{
+  "slug": "jaz-beach",
+  "beach_name": "Jaz Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A pebble beach outside Budva, Montenegro, that hosted the Rolling Stones in 2007 and Madonna in 2008, then watched its own follow-on festival collapse when the headliners it promised never came.",
+  "spike_statement": "A Montenegro pebble beach hosted the Rolling Stones and Madonna within 14 months of independence, then its own 2009 festival's promised headliners never showed.",
+  "levers": {
+    "primary_color": "#1B4B5A",
+    "supporting_color": "#B7AFA0",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "WRY",
+    "photo_tone": "Pale gray-tan pebble shingle under flat Adriatic light, cut after dark by a floodlit concert stage; no white sand anywhere in frame."
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

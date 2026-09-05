@@ -1,0 +1,46 @@
+{
+  "slug": "tunnel-beach",
+  "beach_name": "Tunnel Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A private 1870s tunnel through Caversham Sandstone, hand-carved by a politician for beach access and reopened to the public in 1983.",
+  "spike_statement": "Politician John Cargill hand-carved this tunnel in the 1870s for private beach access; the drowned-daughters legend attached to it is fiction.",
+  "levers": {
+    "primary_color": "#A9754A",
+    "supporting_color": "#425563",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "WRY",
+    "photo_tone": "Ochre Caversham Sandstone cliffs and a shadowed tunnel mouth against grey Southern Ocean swell, cut through by a single shaft of daylight."
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "batu-ferringhi",
+  "beach_name": "Batu Ferringhi",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "Penang's original hotel strip, now defending its sand with 62 buried sand-filled containers while a funded permanent fix sits unbuilt.",
+  "spike_statement": "In July 2026 Penang buried 62 sand-filled containers, stacked five meters high, along 44 meters of shoreline fronting the hotel that opened this coast in 1948.",
+  "levers": {
+    "primary_color": "#B8935A",
+    "supporting_color": "#5C6670",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "WRY",
+    "photo_tone": "Flat grey-brown Strait of Malacca water against tan sand and hotel greenery, the buried erosion-barrier construction zone marking the most eroded 44 meters in front of Lone Pine Hotel during the Jul-Aug 2026 works"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "sand",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

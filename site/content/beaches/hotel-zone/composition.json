@@ -1,0 +1,42 @@
+{
+  "slug": "hotel-zone",
+  "beach_name": "Hotel Zone",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A 22.5-kilometer barrier island resort strip that Mexico's central bank picked by computer in 1969, built from an uninhabited mangrove island into Quintana Roo's tourism engine.",
+  "spike_statement": "In 1969 a Bank of Mexico trust scored coastlines by computer and picked this mangrove island, population three, to become Cancún.",
+  "levers": {
+    "primary_color": "#0E8C87",
+    "supporting_color": "#EFE3C4",
+    "hero_type": "SPIKE",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "WRY",
+    "photo_tone": "Turquoise Caribbean shallows against a wall of glass hotel towers on Boulevard Kukulcán, the barrier island's narrow spine pinched between open sea and lagoon haze"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

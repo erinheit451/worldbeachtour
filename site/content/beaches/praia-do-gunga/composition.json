@@ -1,0 +1,42 @@
+{
+  "slug": "praia-do-gunga",
+  "beach_name": "Praia do Gunga",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A sand spit between the Atlantic and the Lagoa do Roteiro in Alagoas, whose 64-stall beach complex was still working through state environmental permitting years after it was built.",
+  "spike_statement": "By 2017, Gunga's 14 bar-restaurants, 18 food stalls and 32 craft stalls ran roughly 600 jobs, still pending the state's environmental sign-off.",
+  "levers": {
+    "primary_color": "#1F7A6C",
+    "supporting_color": "#E4D6B0",
+    "hero_type": "SPIKE",
+    "display_pairing": "VERNACULAR",
+    "voice_register": "WRY",
+    "photo_tone": "Coconut-lined sand spit between flat lagoon green and open Atlantic blue, kiosk smoke and boat wakes breaking the postcard symmetry"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "environment",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

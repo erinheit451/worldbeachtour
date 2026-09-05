@@ -1,0 +1,42 @@
+{
+  "slug": "patara-beach",
+  "beach_name": "Patara Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "An 18-kilometer beach and buried Lycian capital that Turkey placed under a construction ban in 1990 to save nesting loggerhead turtles — a ban conservationists say hundreds of buildings have gone up inside anyway.",
+  "spike_statement": "A 1990 law banned construction on Patara's 18km beach to save nesting turtles and buried ruins; 255 holiday homes rose inside the protected zone anyway by 2018.",
+  "levers": {
+    "primary_color": "#B08D57",
+    "supporting_color": "#1F5C5E",
+    "hero_type": "SPIKE",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "SEVERE",
+    "photo_tone": "Flat gold dune-sand under hard Mediterranean sun, turquoise shallows, and half-buried Roman stone breaking through grass-stitched dunes."
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "environment",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

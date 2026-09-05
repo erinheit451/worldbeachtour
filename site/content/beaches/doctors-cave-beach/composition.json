@@ -1,0 +1,42 @@
+{
+  "slug": "doctors-cave-beach",
+  "beach_name": "Doctor's Cave Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A private, fee-gated cove on Montego Bay's Jimmy Cliff Boulevard where a doctor's 1906 land donation and a surgeon's 1920s magazine article built Jamaica's health-tourism trade.",
+  "spike_statement": "A Montego Bay doctor donated this cove in 1906; a British surgeon's 1920s article on its water's \"curative\" power helped launch Jamaica's tourism industry.",
+  "levers": {
+    "primary_color": "#1B6E7C",
+    "supporting_color": "#E9DEC0",
+    "hero_type": "LAYERED",
+    "display_pairing": "CLASSICAL",
+    "voice_register": "WRY",
+    "photo_tone": "A reef-sheltered crescent cove, glassy turquoise water inside the point, white clubhouse roofline and a lifeguard chair set against the traffic and hotel signage of Jimmy Cliff Boulevard behind it."
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
