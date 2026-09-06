@@ -48,6 +48,25 @@ def homoglyph_tokens(text):
             bad[w] = fixed
     return sorted(f"{k!r} -> should be {v!r}" for k, v in bad.items())
 
+QUOTED = re.compile(
+    '\\\\?"[^"\\n]{1,200}\\\\?"'      # straight quotes, incl. JSON-escaped \"
+    "|\u201c[^\u201d\\n]{1,200}\u201d"     # curly double quotes
+    "|\u2018[^\u2019\\n]{1,200}\u2019"     # curly single quotes
+)
+
+
+def strip_quoted(text):
+    """Remove quoted spans before scanning for banned vocabulary.
+
+    A page is ALLOWED to quote brochure language in order to criticise it --
+    that is the honest-reckoning voice the spec asks for. Flagging
+    'more honest than "crystal-clear water"' is a false positive, and a gate
+    with false positives burns exactly the verifier tokens it exists to save.
+    """
+    return QUOTED.sub(" ", text.replace('\\\\"', '"'))
+
+
+
 def words(s): return len(re.findall(r"\S+", s or ""))
 
 def check(root, slug):
@@ -113,7 +132,7 @@ def check(root, slug):
     blob = json.dumps(s, ensure_ascii=False)
     for f in os.listdir(d):
         if f.endswith(".mdx"): blob += open(os.path.join(d,f),encoding="utf-8",errors="replace").read()
-    low = blob.lower()
+    low = strip_quoted(blob).lower()
     hits = sorted({b for b in BANNED if re.search(r"\b"+re.escape(b)+r"\b", low)})
     if hits: E(f"banned brochure words: {hits}")
     hg = homoglyph_tokens(blob)
