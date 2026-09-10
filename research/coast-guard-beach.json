@@ -12,63 +12,550 @@
     {
       "statement": "The photogenic 'historic' Coast Guard station on the bluff is a 1936 replacement, built after a Treasury Secretary got rained on during a picnic.",
       "tension": "Tourists photograph it as timeless maritime heritage, but the building exists because Henry Morgenthau Jr. sheltered from a 1935 storm in the decrepit original 1872 station and took the project personally — bureaucratic vanity, not maritime necessity, built the landmark.",
-      "fact_ids": ["F07", "F08", "F05"],
+      "fact_ids": [
+        "F07",
+        "F08",
+        "F05"
+      ],
       "strength": "strong"
     },
     {
       "statement": "Henry Beston's dune cottage, the birthplace of The Outermost House, was destroyed by the same class of storm that has since condemned a private house on the same bluff.",
       "tension": "The 1978 blizzard swept away the Fo'castle cottage two miles south of the station; in 2024 the NPS condemned the Bartlett House on the Coast Guard Beach bluff itself after its front yard eroded from 45 feet to under 13 feet in fifteen months — the erosion Beston wrote about in 1928 is still actively eating the place, on a human timescale.",
-      "fact_ids": ["F18", "F19", "F27"],
+      "fact_ids": [
+        "F18",
+        "F19",
+        "F27"
+      ],
       "strength": "strong"
     },
     {
       "statement": "A scaffold draft for this page claimed Coast Guard Beach has no staffed lifeguards; NPS's own beach-safety page says the opposite for summer.",
       "tension": "Lifeguards ARE on duty late June through Labor Day (one of only six lifeguarded NPS beaches on Cape Cod); the real gap is the shoulder season, when NPS explicitly states there are 'no lifeguards on duty at national seashore beaches between Labor Day and the third week of June' — a narrower, more specific hazard window than the scaffold implied.",
-      "fact_ids": ["F23", "F36"],
+      "fact_ids": [
+        "F23",
+        "F36"
+      ],
       "strength": "medium"
     }
   ],
   "facts": [
-    {"id": "F01", "topic": "identity", "fact": "Coast Guard Beach is located on Ocean View Drive in Eastham, Massachusetts, part of Cape Cod National Seashore, popular for surfing, boogie boarding and skimboarding.", "quote": "Coast Guard Beach, Ocean View Drive, Eastham, Massachusetts", "url": "https://en.wikipedia.org/wiki/Coast_Guard_Beach_(Eastham,_Massachusetts)", "source_title": "Coast Guard Beach (Eastham, Massachusetts) - Wikipedia", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F02", "topic": "geography", "fact": "The beach's coordinates are 41°50'35\"N 69°56'43\"W, at the edge of the Nauset Spit barrier-beach system.", "quote": "41°50'35\"N 69°56'43\"W", "url": "https://en.wikipedia.org/wiki/Coast_Guard_Beach_(Eastham,_Massachusetts)", "source_title": "Coast Guard Beach (Eastham, Massachusetts) - Wikipedia", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F03", "topic": "history", "fact": "More than 3,000 ships have wrecked on the outer Cape Cod beach since the Sparrowhawk wrecked there in 1626, the historical reason lifesaving stations were built along this shore.", "quote": "3,000+ ships wrecked on the outer beach since the Sparrowhawk in 1626", "url": "https://en.wikipedia.org/wiki/Coast_Guard_Beach_(Eastham,_Massachusetts)", "source_title": "Coast Guard Beach (Eastham, Massachusetts) - Wikipedia", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F04", "topic": "history", "fact": "The Massachusetts Humane Society, founded in 1786, was the first organization in the nation devoted to rescuing shipwrecked mariners, and its huts predated the federal life-saving stations on this coast.", "quote": "the first organization in the nation devoted to the rescue and assistance of shipwrecked mariners", "url": "https://en.wikipedia.org/wiki/Coast_Guard_Beach_(Eastham,_Massachusetts)", "source_title": "Coast Guard Beach (Eastham, Massachusetts) - Wikipedia", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F05", "topic": "history", "fact": "The original Nauset life-saving station was one of nine original stations built on Cape Cod in 1872, sited by the keeper appointed that December and completed/equipped by January 1873.", "quote": "Nauset station was built in 1872; the original nine life-saving stations which were built on Cape Cod, in that year. First keeper appointed 12/12/1872. 1872 site selected and in the process of construction; 1873 completed and equipped 1/1873.", "url": "https://uslife-savingservice.org/station-sites/nauset/", "source_title": "Nauset Station Site - U.S. Life-Saving Service Heritage Association", "source_type": "other", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F06", "topic": "history", "fact": "The original station was extensively repaired and enlarged in 1888 after repair contracts were signed in 1886-87.", "quote": "1886 and 1887 contracts entered into for repairs and enlargements; 1888 extensive repairs and enlargements made", "url": "https://uslife-savingservice.org/station-sites/nauset/", "source_title": "Nauset Station Site - U.S. Life-Saving Service Heritage Association", "source_type": "other", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F07", "topic": "history", "fact": "In 1935 Treasury Secretary Henry Morgenthau Jr. and his picnic party were driven by a thunderstorm to shelter in the old, deteriorating Nauset station; he took a personal interest and authorized construction of a new station within weeks.", "quote": "Secretary of the Treasury Henry Morganthau Jr. and his fellow picnickers were driven in 1935 by a summer thunderstorm to seek shelter in the old and antiquated Coast Guard Station, built after the Civil War. Construction of the new station was authorized several weeks after this incident as Morganthau, who spent summers on Cape Cod, took a personal interest in the building's construction.", "url": "https://buildingsofnewengland.com/2020/06/19/nauset-coast-guard-station-1936/", "source_title": "Nauset Coast Guard Station // 1936 - Buildings of New England", "source_type": "other", "date_of_source": "2020", "lang": "en", "confidence": "medium"},
-    {"id": "F08", "topic": "history", "fact": "The current Colonial Revival station building on the bluff above Coast Guard Beach was constructed in 1936 to replace the eroding 19th-century station.", "quote": "an imposing Colonial Revival structure perched upon the bluffs... was built in 1936 to replace a late nineteenth century Coast Guard Station", "url": "https://buildingsofnewengland.com/2020/06/19/nauset-coast-guard-station-1936/", "source_title": "Nauset Coast Guard Station // 1936 - Buildings of New England", "source_type": "other", "date_of_source": "2020", "lang": "en", "confidence": "medium"},
-    {"id": "F09", "topic": "history", "fact": "Wikipedia's Coast Guard Beach article dates the new station's construction to 1937, citing shoreline erosion as the driver (a one-year discrepancy from the 1936 date given by other sources — see conflicts).", "quote": "1937: New station built due to shoreline erosion", "url": "https://en.wikipedia.org/wiki/Coast_Guard_Beach_(Eastham,_Massachusetts)", "source_title": "Coast Guard Beach (Eastham, Massachusetts) - Wikipedia", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "medium"},
-    {"id": "F10", "topic": "history", "fact": "The station was occupied by the Coast Guard until 1958; one source gives a precise closure date of September 16, 1958, while its administrative listing disappears in July 1959.", "quote": "Station closed on September 16, 1958. ... disappears from list of stations in July 1959.", "url": "https://uslife-savingservice.org/station-sites/nauset/", "source_title": "Nauset Station Site - U.S. Life-Saving Service Heritage Association", "source_type": "other", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F11", "topic": "governance", "fact": "Cape Cod National Seashore was created on August 7, 1961, when President John F. Kennedy signed the enabling law, establishing a 43,607-acre park — the first national park carved primarily from private land.", "quote": "He signed the Cape Cod National Seashore bill on August 7, 1961. ... 43,607 acres on Cape Cod, in Massachusetts. ... the first time the federal government had created a national park out of land that was primarily in private hands.", "url": "https://www.massmoments.org/moment-details/j-f-k-signs-bill-creating-cape-cod-national-seashore.html", "source_title": "J.F.K. Signs Bill Creating Cape Cod National Seashore - Mass Moments", "source_type": "other", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F12", "topic": "governance", "fact": "The 1936 station building became the first headquarters of Cape Cod National Seashore when the park opened in 1961; ownership formally transferred from the Coast Guard to the National Park Service in 1973.", "quote": "First headquarters of the Cape Cod National Seashore ... transferred in 1973", "url": "https://uslife-savingservice.org/station-sites/nauset/", "source_title": "Nauset Station Site - U.S. Life-Saving Service Heritage Association", "source_type": "other", "date_of_source": "2026", "lang": "en", "confidence": "medium"},
-    {"id": "F13", "topic": "governance", "fact": "The building is now used as Cape Cod National Seashore's residential environmental-education center, not a public museum.", "quote": "The building was occupied by the Coast Guard as a station until 1958. It now is home to an education center as part of the Cape Cod National Seashore.", "url": "https://buildingsofnewengland.com/2020/06/19/nauset-coast-guard-station-1936/", "source_title": "Nauset Coast Guard Station // 1936 - Buildings of New England", "source_type": "other", "date_of_source": "2020", "lang": "en", "confidence": "medium"},
-    {"id": "F14", "topic": "culture", "fact": "Henry Beston built a 20x16-foot, two-room cottage he called 'the Fo'castle' in June 1925, about two miles south of the Nauset station, with ten windows, a wood stove, two oil lamps, and a hand pump over a well beneath the floor.", "quote": "Beston's 'Fo'castle,' the 20x16 beach cottage... was built in June 1925... It had ten windows, a wood stove, two oil lamps, and a hand pump over a well beneath the floor.", "url": "https://outermosthouse.wordpress.com/2014/09/07/beginnings/", "source_title": "Beginnings - The Outermost House", "source_type": "other", "date_of_source": "2014", "lang": "en", "confidence": "medium"},
-    {"id": "F15", "topic": "culture", "fact": "Beston moved into the cottage in September 1926 intending a two-week stay and ended up living there a full year, leaving in September 1927; his front door faced the open Atlantic and his back door faced Nauset Marsh.", "quote": "In September 1926... Beston moved into a cottage in the dunes of Eastham... Beston finally left the 'Fo'castle' in September 1927. ... the Atlantic Ocean near his front door and Nauset Marsh behind him.", "url": "https://outermosthouse.wordpress.com/2014/09/07/beginnings/", "source_title": "Beginnings - The Outermost House", "source_type": "other", "date_of_source": "2014", "lang": "en", "confidence": "medium"},
-    {"id": "F16", "topic": "culture", "fact": "The manuscript of The Outermost House was completed by April 1928 and published by Doubleday, Doran in October 1928.", "quote": "The manuscript was completed by April 1928, and The Outermost House was published in October 1928.", "url": "https://en.wikipedia.org/wiki/The_Outermost_House", "source_title": "The Outermost House - Wikipedia", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F17", "topic": "culture", "fact": "The National Park Service cited The Outermost House when evaluating this stretch of Cape Cod for national-park status in the 1950s; in 1964 the cottage site was dedicated a National Literary Landmark, with Governor Endicott Peabody telling the ceremony crowd the book helped create the park.", "quote": "the National Park Service referenced the book when evaluating Cape Cod land for National Park status in the 1950s. In 1964, the cottage was dedicated as a National Literary Landmark... Governor Endicott Peabody stated: 'Your book is one of the reasons that the Cape Cod National Seashore exists today.'", "url": "https://en.wikipedia.org/wiki/The_Outermost_House", "source_title": "The Outermost House - Wikipedia", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F18", "topic": "culture", "fact": "In 1959 Beston donated the cottage property to the Massachusetts Audubon Society.", "quote": "1959: Beston donated property to Massachusetts Audubon Society", "url": "https://en.wikipedia.org/wiki/Coast_Guard_Beach_(Eastham,_Massachusetts)", "source_title": "Coast Guard Beach (Eastham, Massachusetts) - Wikipedia", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F19", "topic": "recent", "fact": "During the Blizzard of 1978 (February), high tides swept the Fo'castle cottage into the sea; its original site is now underwater.", "quote": "During the Blizzard of '78, 'high tides over the barrier beach swept the Fo'castle away' in February 1978. The original locations were subsequently covered by ocean waves.", "url": "https://en.wikipedia.org/wiki/The_Outermost_House", "source_title": "The Outermost House - Wikipedia", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F20", "topic": "history", "fact": "The same February 1978 storm that destroyed Beston's cottage hit Coast Guard Beach directly: winds peaked at 92 mph in Chatham, tide ran 14.5 feet above mean low water, four houses were destroyed, the parking lot and changing facilities were obliterated, and dunes were reduced to low mounds.", "quote": "Wind: Peaked at 92 mph in Chatham on Monday at 6 p.m. Tide: 14.5 feet above mean low water... Damage: Four houses destroyed; parking lot and changing facilities obliterated; dunes reduced to low mounds.", "url": "https://en.wikipedia.org/wiki/Coast_Guard_Beach_(Eastham,_Massachusetts)", "source_title": "Coast Guard Beach (Eastham, Massachusetts) - Wikipedia", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F21", "topic": "governance", "fact": "In the 1980s the National Park Service rebuilt the Coast Guard Beach parking lot away from the immediate beachfront specifically to let natural erosion and overwash processes continue rather than fighting them with engineering.", "quote": "1980s: National Park Service rebuilt parking lot away from beach to allow natural erosion processes", "url": "https://en.wikipedia.org/wiki/Coast_Guard_Beach_(Eastham,_Massachusetts)", "source_title": "Coast Guard Beach (Eastham, Massachusetts) - Wikipedia", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F22", "topic": "access", "fact": "From mid-June to Labor Day, the Coast Guard Beach parking lot itself is restricted to Eastham residents and handicap-placard vehicles; the primary visitor lot is at Little Creek, a short distance west, with a shuttle running to the beach.", "quote": "From mid-June to Labor Day, the parking area at this location is restricted to Eastham residents and vehicles displaying handicap placards. The primary parking area for this beach is at Little Creek, located a short distance west of the beach, where a shuttle picks up passengers for the short ride to the beach.", "url": "https://www.nps.gov/caco/planyourvisit/coast-guard-beach-eastham.htm", "source_title": "Coast Guard Beach - Eastham - Cape Cod National Seashore (NPS)", "source_type": "official", "date_of_source": "2020", "lang": "en", "confidence": "high"},
-    {"id": "F23", "topic": "access", "fact": "Outside summer (September to late May) there are no parking restrictions at the Coast Guard Beach lot; facilities are seasonal restrooms and a wheelchair-accessible rampway to the beach.", "quote": "there are no parking restrictions at the beach parking lot... seasonal restrooms and a wheelchair-accessible ramp way to the beach", "url": "https://www.nps.gov/caco/planyourvisit/coast-guard-beach-eastham.htm", "source_title": "Coast Guard Beach - Eastham - Cape Cod National Seashore (NPS)", "source_type": "official", "date_of_source": "2020", "lang": "en", "confidence": "high"},
-    {"id": "F24", "topic": "safety", "fact": "Coast Guard Beach is one of the six lifeguarded beaches of Cape Cod National Seashore; lifeguards are on duty late June through Labor Day, and the beach has a year-round emergency call box.", "quote": "Lifeguards are typically on duty at all six beaches from late June through Labor Day. ... Every beach except Nauset Light has an emergency call box operational year-round.", "url": "https://www.nps.gov/caco/planyourvisit/guide-to-beaches.htm", "source_title": "Guide to Beaches - Cape Cod National Seashore (NPS)", "source_type": "official", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F25", "topic": "safety", "fact": "NPS states explicitly there are no lifeguards on duty at any Cape Cod National Seashore beach, including Coast Guard Beach, between Labor Day and the third week of June — and that white sharks remain active into fall, after the lifeguard season ends.", "quote": "no lifeguards on duty at national seashore beaches between Labor Day and the third week of June. ... White sharks remain active in fall.", "url": "https://www.nps.gov/caco/planyourvisit/beachsafe.htm", "source_title": "Beach and Water Safety - Cape Cod National Seashore (NPS)", "source_type": "official", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F26", "topic": "safety", "fact": "Official NPS rip-current guidance for these beaches: don't fight the current, swim parallel to shore to escape it, then turn toward shore; if unable to escape, float or tread water calmly.", "quote": "Don't fight the current. Swim out of the current in a direction parallel to the shoreline. When out of the current, swim towards the shore. If you cannot swim out of the current, float or calmly tread water.", "url": "https://www.nps.gov/caco/planyourvisit/beachsafe.htm", "source_title": "Beach and Water Safety - Cape Cod National Seashore (NPS)", "source_type": "official", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F27", "topic": "safety", "fact": "NPS's shark-safety page confirms three shark bites on swimmers since 2012 in Cape Cod National Seashore waters, all off Truro and Wellfleet (not Eastham/Coast Guard Beach); one, in 2018, was fatal. A purple flag with a white-shark silhouette is standard signage at lifeguarded beaches whenever a lifeguard is on duty, not a real-time sighting alert.", "quote": "since 2012, sharks have bitten people three times in the waters off Truro and Wellfleet. One bite in 2018 resulted in a fatality. ... A white shark silhouette on a purple background found on the flags at life-guarded beaches, when a lifeguard is on duty.", "url": "https://www.nps.gov/caco/planyourvisit/sharksafety.htm", "source_title": "Shark Safety at Cape Cod - Cape Cod National Seashore (NPS)", "source_type": "official", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F28", "topic": "recent", "fact": "On July 9, 2024, HUD/NPS determined the privately owned Bartlett House, on the eroding bluff above Coast Guard Beach, was unsuitable for continued habitation; if unclaimed by a government or homeless-service agency after a 20-day appeal window, NPS plans to demolish it before the sea takes it.", "quote": "On July 9th, 2024, HUD determined that the Bartlett house is unsuitable for habitation. ... the National Park Service will continue with the plans to demolish the structure before it is claimed by the sea.", "url": "https://www.nps.gov/caco/learn/news/cape-cod-national-seashore-structure-threatened-by-erosion.htm", "source_title": "Cape Cod National Seashore Structure Threatened by Erosion (NPS news release)", "source_type": "official", "date_of_source": "2024-07", "lang": "en", "confidence": "high"},
-    {"id": "F29", "topic": "recent", "fact": "The Bartlett House's setback from the bluff edge collapsed from roughly 45 feet in April 2023 to under 13 feet by mid-2024, and in fall 2023 saltwater infiltrated its fresh-water well, making the site unusable for residential purposes before demolition was even proposed.", "quote": "April 2023: approximately 45 feet away ... 'less than 13 feet from the bluff edge.' ... In the fall of 2023, saltwater infiltrated the fresh water well system.", "url": "https://www.nps.gov/caco/learn/news/cape-cod-national-seashore-structure-threatened-by-erosion.htm", "source_title": "Cape Cod National Seashore Structure Threatened by Erosion (NPS news release)", "source_type": "official", "date_of_source": "2024-07", "lang": "en", "confidence": "high"},
-    {"id": "F30", "topic": "recent", "fact": "In June 2026 coastal scientist Stephen 'Dr. Beach' Leatherman ranked Coast Guard Beach #10 on his annual America's Top 10 Beaches list — the 36th year of the ranking, judged on roughly 50 criteria including sand type, wave action, lifeguard presence, wildlife, and crowding; Hawaii took four of the ten 2026 spots.", "quote": "Rank: 10th place... This marks the 36th year of Dr. Leatherman's rankings evaluating America's 650 public beaches. ... sand type, wave action, whether lifeguards are present, presence of wildlife, the level of development and crowding, and many other factors.", "url": "https://www.nbcboston.com/news/national-international/best-cape-cod-beach-2026/3958341/", "source_title": "Best beach? Cape Cod spot among best U.S. beaches in new ranking - NBC Boston", "source_type": "press", "date_of_source": "2026-06", "lang": "en", "confidence": "high"},
-    {"id": "F31", "topic": "recent", "fact": "Coast Guard Beach ranked 4th nationally on the same Dr. Beach list in 2017 — a lower placement (10th) in the 2026 list nine years later (secondary-source claim, not independently confirmed against the original 2017 list).", "quote": "in 2017, the beach destination ranked fourth-best in the United States", "url": "https://www.coastalneighborhoods.com/blog/coast-guard-beach-once-again-ranked-top-us-beach/", "source_title": "Coast Guard Beach Once Again Ranked Top US Beach", "source_type": "other", "date_of_source": "2026", "lang": "en", "confidence": "medium"},
-    {"id": "F32", "topic": "governance", "fact": "2026 Cape Cod National Seashore beach entrance fees: $25/day private vehicle, $20 motorcycle (up to 2 motorcycles/4 riders), $15/person pedestrian or cyclist (age 16+), $60 annual Seashore pass; the park does not accept cash, only credit/debit cards, at beach entrances.", "quote": "Daily Vehicle Fee: $25.00 ... Motorcycle Fee: $20.00 ... Pedestrian/Bicycle Fee: $15.00 per person ... Annual Seashore Pass: $60.00 ... does not accept cash", "url": "https://www.nps.gov/caco/planyourvisit/fees.htm", "source_title": "Fees - Cape Cod National Seashore (NPS)", "source_type": "official", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F33", "topic": "access", "fact": "NPS's own driving directions from Boston give a route, not a mileage/time figure: take Route 3 south to the Sagamore Bridge in Bourne, then Route 6 east to Eastham, to the Salt Pond Visitor Center at 50 Nauset Road.", "quote": "Take Route 3 south, to the Sagamore Bridge in Bourne. Follow Route 6 eastward to Eastham and Provincetown.", "url": "https://www.nps.gov/caco/planyourvisit/directions.htm", "source_title": "Directions - Cape Cod National Seashore (NPS)", "source_type": "official", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F34", "topic": "geography", "fact": "Nauset Light Beach, a separate NPS beach with its own parking lot and the red-and-white Nauset Light, lies about one mile north of Coast Guard Beach; both sit within Cape Cod National Seashore.", "quote": "Nauset Light Beach is one mile north of Coast Guard Beach in Eastham, Massachusetts. Both beaches are part of the Cape Cod National Seashore.", "url": "https://en.wikipedia.org/wiki/Nauset_Light_Beach", "source_title": "Nauset Light Beach - Wikipedia", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "medium"},
-    {"id": "F35", "topic": "food", "fact": "The stuffed quahog — a hard-shell clam diced and stuffed, often Portuguese-style with linguiça — is a Cape Cod delicacy; a named example with a trademarked house recipe is served at Arnold's Lobster and Clam Bar, 3580 Route 6, Eastham.", "quote": "Quahogs are the giant, hard-shell ones, usually diced up and thrown into legendary New England chowder or stuffed, Portuguese style, with linguica sausage. The stuffed quahog is a Cape Cod delicacy. Good ones can be found at Arnold's Lobster and Clam Bar (3580 Route 6, Eastham), where Susie Buckley has trademarked her personal recipe.", "url": "https://www.qantas.com/travelinsider/en/explore/north-america/usa/boston/5-foods-you-must-try-in-cape-cod.html", "source_title": "5 Foods You Must Try in Cape Cod - Qantas Travel Insider", "source_type": "press", "date_of_source": "2026", "lang": "en", "confidence": "medium"},
-    {"id": "F36", "topic": "business", "fact": "Arnold's Lobster & Clam Bar, the Eastham restaurant named for the region's stuffed-quahog specialty, was confirmed currently operating as of an August 2026-dated Yelp listing update, with a seasonal closing around mid-September.", "quote": "ARNOLD'S LOBSTER & CLAM BAR - Updated August 2026 ... 3580 State Hwy, Eastham, Massachusetts", "url": "https://www.yelp.com/biz/arnolds-lobster-and-clam-bar-eastham-6", "source_title": "Arnold's Lobster & Clam Bar - Yelp listing", "source_type": "business-site", "date_of_source": "2026-08", "lang": "en", "confidence": "medium"},
-    {"id": "F37", "topic": "food", "fact": "The Wellfleet oyster and the Northern Quahog have been formally accepted into Slow Food's 'Ark of Taste' catalog, a designation for culturally important regional foods; Wellfleet, about 14 miles north of Coast Guard Beach, is the namesake town.", "quote": "Slow Food Cape Cod succeeded... in getting both the Wellfleet Oyster and the Northern Quahog accepted into the catalog.", "url": "https://www.capeandislands.org/in-this-place/2018-06-07/ark-of-taste-protecting-the-wellfleet-oyster-and-the-northern-quahog", "source_title": "Ark of Taste: Protecting the Wellfleet Oyster and the Northern Quahog - CAI", "source_type": "press", "date_of_source": "2018-06", "lang": "en", "confidence": "medium"},
-    {"id": "F38", "topic": "events", "fact": "The 26th annual Wellfleet OysterFest runs October 17-18, 2026, in downtown Wellfleet (Main Street, Town Hall lot, Preservation Hall lot), gates 10am-5pm, general admission $35, children 12 and under free.", "quote": "26TH ANNUAL Wellfleet OysterFest october 17 + 18, 2026 ... Gates open at 10:00 AM and close at 5:00 PM each day... General Admission tickets are $35.00, and children 12 and under are free.", "url": "https://www.wellfleetoa.org/wellfleet-oysterfest", "source_title": "26th Annual Wellfleet OysterFest - Wellfleet Oyster Alliance", "source_type": "official", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F39", "topic": "safety", "fact": "NPS advises against isolating in the water: swim, paddle, and surf in groups; avoid murky/low-visibility water and schools of fish or seals, which attract sharks; never turn your back to the ocean.", "quote": "Be on alert for rip tides, shore break, and strong under tows. Never turn your back to the ocean. Never swim alone. Swim, kayak, paddle, and surf in groups. Avoid murky and low visibility water. Stay away from schools of fish and seals, these attract sharks.", "url": "https://www.nps.gov/caco/planyourvisit/beachsafe.htm", "source_title": "Beach and Water Safety - Cape Cod National Seashore (NPS)", "source_type": "official", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F40", "topic": "safety", "fact": "The National Seashore asks visitors to respect pedestrian and pet restrictions protecting nesting plovers and terns in early spring through early summer, and to keep at least 150 feet from hauled-out seals.", "quote": "Please adhere to pedestrian and pet restrictions... Keep your distance--at least 150 feet.", "url": "https://www.nps.gov/caco/planyourvisit/coast-guard-beach-eastham.htm", "source_title": "Coast Guard Beach - Eastham - Cape Cod National Seashore (NPS)", "source_type": "official", "date_of_source": "2020", "lang": "en", "confidence": "high"}
+    {
+      "id": "F01",
+      "topic": "identity",
+      "fact": "Coast Guard Beach is located on Ocean View Drive in Eastham, Massachusetts, part of Cape Cod National Seashore, popular for surfing, boogie boarding and skimboarding.",
+      "quote": "Coast Guard Beach, Ocean View Drive, Eastham, Massachusetts",
+      "url": "https://en.wikipedia.org/wiki/Coast_Guard_Beach_(Eastham,_Massachusetts)",
+      "source_title": "Coast Guard Beach (Eastham, Massachusetts) - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F02",
+      "topic": "geography",
+      "fact": "The beach's coordinates are 41°50'35\"N 69°56'43\"W, at the edge of the Nauset Spit barrier-beach system.",
+      "quote": "41°50'35\"N 69°56'43\"W",
+      "url": "https://en.wikipedia.org/wiki/Coast_Guard_Beach_(Eastham,_Massachusetts)",
+      "source_title": "Coast Guard Beach (Eastham, Massachusetts) - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F03",
+      "topic": "history",
+      "fact": "More than 3,000 ships have wrecked on the outer Cape Cod beach since the Sparrowhawk wrecked there in 1626, the historical reason lifesaving stations were built along this shore.",
+      "quote": "3,000+ ships wrecked on the outer beach since the Sparrowhawk in 1626",
+      "url": "https://en.wikipedia.org/wiki/Coast_Guard_Beach_(Eastham,_Massachusetts)",
+      "source_title": "Coast Guard Beach (Eastham, Massachusetts) - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F04",
+      "topic": "history",
+      "fact": "The Massachusetts Humane Society, founded in 1786, was the first organization in the nation devoted to rescuing shipwrecked mariners, and its huts predated the federal life-saving stations on this coast.",
+      "quote": "the first organization in the nation devoted to the rescue and assistance of shipwrecked mariners",
+      "url": "https://en.wikipedia.org/wiki/Coast_Guard_Beach_(Eastham,_Massachusetts)",
+      "source_title": "Coast Guard Beach (Eastham, Massachusetts) - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F05",
+      "topic": "history",
+      "fact": "The original Nauset life-saving station was one of nine original stations built on Cape Cod in 1872, sited by the keeper appointed that December and completed/equipped by January 1873.",
+      "quote": "Nauset station was built in 1872; the original nine life-saving stations which were built on Cape Cod, in that year. First keeper appointed 12/12/1872. 1872 site selected and in the process of construction; 1873 completed and equipped 1/1873.",
+      "url": "https://uslife-savingservice.org/station-sites/nauset/",
+      "source_title": "Nauset Station Site - U.S. Life-Saving Service Heritage Association",
+      "source_type": "other",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F06",
+      "topic": "history",
+      "fact": "The original station was extensively repaired and enlarged in 1888 after repair contracts were signed in 1886-87.",
+      "quote": "1886 and 1887 contracts entered into for repairs and enlargements; 1888 extensive repairs and enlargements made",
+      "url": "https://uslife-savingservice.org/station-sites/nauset/",
+      "source_title": "Nauset Station Site - U.S. Life-Saving Service Heritage Association",
+      "source_type": "other",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F07",
+      "topic": "history",
+      "fact": "In 1935 Treasury Secretary Henry Morgenthau Jr. and his picnic party were driven by a thunderstorm to shelter in the old, deteriorating Nauset station; he took a personal interest and authorized construction of a new station within weeks.",
+      "quote": "Secretary of the Treasury Henry Morganthau Jr. and his fellow picnickers were driven in 1935 by a summer thunderstorm to seek shelter in the old and antiquated Coast Guard Station, built after the Civil War. Construction of the new station was authorized several weeks after this incident as Morganthau, who spent summers on Cape Cod, took a personal interest in the building's construction.",
+      "url": "https://buildingsofnewengland.com/2020/06/19/nauset-coast-guard-station-1936/",
+      "source_title": "Nauset Coast Guard Station // 1936 - Buildings of New England",
+      "source_type": "other",
+      "date_of_source": "2020",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F08",
+      "topic": "history",
+      "fact": "The current Colonial Revival station building on the bluff above Coast Guard Beach was constructed in 1936 to replace the eroding 19th-century station.",
+      "quote": "an imposing Colonial Revival structure perched upon the bluffs... was built in 1936 to replace a late nineteenth century Coast Guard Station",
+      "url": "https://buildingsofnewengland.com/2020/06/19/nauset-coast-guard-station-1936/",
+      "source_title": "Nauset Coast Guard Station // 1936 - Buildings of New England",
+      "source_type": "other",
+      "date_of_source": "2020",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F09",
+      "topic": "history",
+      "fact": "Wikipedia's Coast Guard Beach article dates the new station's construction to 1937, citing shoreline erosion as the driver (a one-year discrepancy from the 1936 date given by other sources — see conflicts).",
+      "quote": "1937: New station built due to shoreline erosion",
+      "url": "https://en.wikipedia.org/wiki/Coast_Guard_Beach_(Eastham,_Massachusetts)",
+      "source_title": "Coast Guard Beach (Eastham, Massachusetts) - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F10",
+      "topic": "history",
+      "fact": "The station was occupied by the Coast Guard until 1958; one source gives a precise closure date of September 16, 1958, while its administrative listing disappears in July 1959.",
+      "quote": "Station closed on September 16, 1958. ... disappears from list of stations in July 1959.",
+      "url": "https://uslife-savingservice.org/station-sites/nauset/",
+      "source_title": "Nauset Station Site - U.S. Life-Saving Service Heritage Association",
+      "source_type": "other",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F11",
+      "topic": "governance",
+      "fact": "Cape Cod National Seashore was created on August 7, 1961, when President John F. Kennedy signed the enabling law, establishing a 43,607-acre park — the first national park carved primarily from private land.",
+      "quote": "He signed the Cape Cod National Seashore bill on August 7, 1961. ... 43,607 acres on Cape Cod, in Massachusetts. ... the first time the federal government had created a national park out of land that was primarily in private hands.",
+      "url": "https://www.massmoments.org/moment-details/j-f-k-signs-bill-creating-cape-cod-national-seashore.html",
+      "source_title": "J.F.K. Signs Bill Creating Cape Cod National Seashore - Mass Moments",
+      "source_type": "other",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F12",
+      "topic": "governance",
+      "fact": "The 1936 station building became the first headquarters of Cape Cod National Seashore when the park opened in 1961; ownership formally transferred from the Coast Guard to the National Park Service in 1973.",
+      "quote": "First headquarters of the Cape Cod National Seashore ... transferred in 1973",
+      "url": "https://uslife-savingservice.org/station-sites/nauset/",
+      "source_title": "Nauset Station Site - U.S. Life-Saving Service Heritage Association",
+      "source_type": "other",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F13",
+      "topic": "governance",
+      "fact": "The building is now used as Cape Cod National Seashore's residential environmental-education center, not a public museum.",
+      "quote": "The building was occupied by the Coast Guard as a station until 1958. It now is home to an education center as part of the Cape Cod National Seashore.",
+      "url": "https://buildingsofnewengland.com/2020/06/19/nauset-coast-guard-station-1936/",
+      "source_title": "Nauset Coast Guard Station // 1936 - Buildings of New England",
+      "source_type": "other",
+      "date_of_source": "2020",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F14",
+      "topic": "culture",
+      "fact": "Henry Beston built a 20x16-foot, two-room cottage he called 'the Fo'castle' in June 1925, about two miles south of the Nauset station, with ten windows, a wood stove, two oil lamps, and a hand pump over a well beneath the floor.",
+      "quote": "Beston's 'Fo'castle,' the 20x16 beach cottage... was built in June 1925... It had ten windows, a wood stove, two oil lamps, and a hand pump over a well beneath the floor.",
+      "url": "https://outermosthouse.wordpress.com/2014/09/07/beginnings/",
+      "source_title": "Beginnings - The Outermost House",
+      "source_type": "other",
+      "date_of_source": "2014",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F15",
+      "topic": "culture",
+      "fact": "Beston moved into the cottage in September 1926 intending a two-week stay and ended up living there a full year, leaving in September 1927; his front door faced the open Atlantic and his back door faced Nauset Marsh.",
+      "quote": "In September 1926... Beston moved into a cottage in the dunes of Eastham... Beston finally left the 'Fo'castle' in September 1927. ... the Atlantic Ocean near his front door and Nauset Marsh behind him.",
+      "url": "https://outermosthouse.wordpress.com/2014/09/07/beginnings/",
+      "source_title": "Beginnings - The Outermost House",
+      "source_type": "other",
+      "date_of_source": "2014",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F16",
+      "topic": "culture",
+      "fact": "The manuscript of The Outermost House was completed by April 1928 and published by Doubleday, Doran in October 1928.",
+      "quote": "The manuscript was completed by April 1928, and The Outermost House was published in October 1928.",
+      "url": "https://en.wikipedia.org/wiki/The_Outermost_House",
+      "source_title": "The Outermost House - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F17",
+      "topic": "culture",
+      "fact": "The National Park Service cited The Outermost House when evaluating this stretch of Cape Cod for national-park status in the 1950s; in 1964 the cottage site was dedicated a National Literary Landmark, with Governor Endicott Peabody telling the ceremony crowd the book helped create the park.",
+      "quote": "the National Park Service referenced the book when evaluating Cape Cod land for National Park status in the 1950s. In 1964, the cottage was dedicated as a National Literary Landmark... Governor Endicott Peabody stated: 'Your book is one of the reasons that the Cape Cod National Seashore exists today.'",
+      "url": "https://en.wikipedia.org/wiki/The_Outermost_House",
+      "source_title": "The Outermost House - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F18",
+      "topic": "culture",
+      "fact": "In 1959 Beston donated the cottage property to the Massachusetts Audubon Society.",
+      "quote": "1959: Beston donated property to Massachusetts Audubon Society",
+      "url": "https://en.wikipedia.org/wiki/Coast_Guard_Beach_(Eastham,_Massachusetts)",
+      "source_title": "Coast Guard Beach (Eastham, Massachusetts) - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F19",
+      "topic": "recent",
+      "fact": "During the Blizzard of 1978 (February), high tides swept the Fo'castle cottage into the sea; its original site is now underwater.",
+      "quote": "During the Blizzard of '78, 'high tides over the barrier beach swept the Fo'castle away' in February 1978. The original locations were subsequently covered by ocean waves.",
+      "url": "https://en.wikipedia.org/wiki/The_Outermost_House",
+      "source_title": "The Outermost House - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F20",
+      "topic": "history",
+      "fact": "The same February 1978 storm that destroyed Beston's cottage hit Coast Guard Beach directly: winds peaked at 92 mph in Chatham, tide ran 14.5 feet above mean low water, four houses were destroyed, the parking lot and changing facilities were obliterated, and dunes were reduced to low mounds.",
+      "quote": "Wind: Peaked at 92 mph in Chatham on Monday at 6 p.m. Tide: 14.5 feet above mean low water... Damage: Four houses destroyed; parking lot and changing facilities obliterated; dunes reduced to low mounds.",
+      "url": "https://en.wikipedia.org/wiki/Coast_Guard_Beach_(Eastham,_Massachusetts)",
+      "source_title": "Coast Guard Beach (Eastham, Massachusetts) - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F21",
+      "topic": "governance",
+      "fact": "In the 1980s the National Park Service rebuilt the Coast Guard Beach parking lot away from the immediate beachfront specifically to let natural erosion and overwash processes continue rather than fighting them with engineering.",
+      "quote": "1980s: National Park Service rebuilt parking lot away from beach to allow natural erosion processes",
+      "url": "https://en.wikipedia.org/wiki/Coast_Guard_Beach_(Eastham,_Massachusetts)",
+      "source_title": "Coast Guard Beach (Eastham, Massachusetts) - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F22",
+      "topic": "access",
+      "fact": "From mid-June to Labor Day, the Coast Guard Beach parking lot itself is restricted to Eastham residents and handicap-placard vehicles; the primary visitor lot is at Little Creek, a short distance west, with a shuttle running to the beach.",
+      "quote": "From mid-June to Labor Day, the parking area at this location is restricted to Eastham residents and vehicles displaying handicap placards. The primary parking area for this beach is at Little Creek, located a short distance west of the beach, where a shuttle picks up passengers for the short ride to the beach.",
+      "url": "https://www.nps.gov/caco/planyourvisit/coast-guard-beach-eastham.htm",
+      "source_title": "Coast Guard Beach - Eastham - Cape Cod National Seashore (NPS)",
+      "source_type": "official",
+      "date_of_source": "2020",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F23",
+      "topic": "access",
+      "fact": "Outside summer (September to late May) there are no parking restrictions at the Coast Guard Beach lot; facilities are seasonal restrooms and a wheelchair-accessible rampway to the beach.",
+      "quote": "there are no parking restrictions at the beach parking lot... seasonal restrooms and a wheelchair-accessible ramp way to the beach",
+      "url": "https://www.nps.gov/caco/planyourvisit/coast-guard-beach-eastham.htm",
+      "source_title": "Coast Guard Beach - Eastham - Cape Cod National Seashore (NPS)",
+      "source_type": "official",
+      "date_of_source": "2020",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F24",
+      "topic": "safety",
+      "fact": "Coast Guard Beach is one of the six lifeguarded beaches of Cape Cod National Seashore; lifeguards are on duty late June through Labor Day, and the beach has a year-round emergency call box.",
+      "quote": "Lifeguards are typically on duty at all six beaches from late June through Labor Day. ... Every beach except Nauset Light has an emergency call box operational year-round.",
+      "url": "https://www.nps.gov/caco/planyourvisit/guide-to-beaches.htm",
+      "source_title": "Guide to Beaches - Cape Cod National Seashore (NPS)",
+      "source_type": "official",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F25",
+      "topic": "safety",
+      "fact": "NPS states explicitly there are no lifeguards on duty at any Cape Cod National Seashore beach, including Coast Guard Beach, between Labor Day and the third week of June — and that white sharks remain active into fall, after the lifeguard season ends.",
+      "quote": "no lifeguards on duty at national seashore beaches between Labor Day and the third week of June. ... White sharks remain active in fall.",
+      "url": "https://www.nps.gov/caco/planyourvisit/beachsafe.htm",
+      "source_title": "Beach and Water Safety - Cape Cod National Seashore (NPS)",
+      "source_type": "official",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F26",
+      "topic": "safety",
+      "fact": "Official NPS rip-current guidance for these beaches: don't fight the current, swim parallel to shore to escape it, then turn toward shore; if unable to escape, float or tread water calmly.",
+      "quote": "Don't fight the current. Swim out of the current in a direction parallel to the shoreline. When out of the current, swim towards the shore. If you cannot swim out of the current, float or calmly tread water.",
+      "url": "https://www.nps.gov/caco/planyourvisit/beachsafe.htm",
+      "source_title": "Beach and Water Safety - Cape Cod National Seashore (NPS)",
+      "source_type": "official",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F27",
+      "topic": "safety",
+      "fact": "NPS's shark-safety page confirms three shark bites on swimmers since 2012 in Cape Cod National Seashore waters, all off Truro and Wellfleet (not Eastham/Coast Guard Beach); one, in 2018, was fatal. A purple flag with a white-shark silhouette is standard signage at lifeguarded beaches whenever a lifeguard is on duty, not a real-time sighting alert.",
+      "quote": "since 2012, sharks have bitten people three times in the waters off Truro and Wellfleet. One bite in 2018 resulted in a fatality. ... A white shark silhouette on a purple background found on the flags at life-guarded beaches, when a lifeguard is on duty.",
+      "url": "https://www.nps.gov/caco/planyourvisit/sharksafety.htm",
+      "source_title": "Shark Safety at Cape Cod - Cape Cod National Seashore (NPS)",
+      "source_type": "official",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F28",
+      "topic": "recent",
+      "fact": "On July 9, 2024, HUD determined that the Bartlett House — a National Park Service-owned property on the eroding bluff above Coast Guard Beach — was unsuitable for continued habitation; if unclaimed by a government or homeless-service agency after a 20-day appeal window, NPS planned to demolish the structure before it was claimed by the sea.",
+      "quote": "On July 9th, 2024, HUD determined that the Bartlett house is unsuitable for habitation. ... the National Park Service will continue with the plans to demolish the structure before it is claimed by the sea.",
+      "url": "https://www.nps.gov/caco/learn/news/cape-cod-national-seashore-structure-threatened-by-erosion.htm",
+      "source_title": "Cape Cod National Seashore Structure Threatened by Erosion (NPS news release)",
+      "source_type": "official",
+      "date_of_source": "2024-07",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F29",
+      "topic": "recent",
+      "fact": "The Bartlett House's setback from the bluff edge collapsed from roughly 45 feet in April 2023 to under 13 feet by mid-2024, and in fall 2023 saltwater infiltrated its fresh-water well, making the site unusable for residential purposes before demolition was even proposed.",
+      "quote": "April 2023: approximately 45 feet away ... 'less than 13 feet from the bluff edge.' ... In the fall of 2023, saltwater infiltrated the fresh water well system.",
+      "url": "https://www.nps.gov/caco/learn/news/cape-cod-national-seashore-structure-threatened-by-erosion.htm",
+      "source_title": "Cape Cod National Seashore Structure Threatened by Erosion (NPS news release)",
+      "source_type": "official",
+      "date_of_source": "2024-07",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F30",
+      "topic": "recent",
+      "fact": "In June 2026 coastal scientist Stephen 'Dr. Beach' Leatherman ranked Coast Guard Beach #10 on his annual America's Top 10 Beaches list — the 36th year of the ranking, judged on roughly 50 criteria including sand type, wave action, lifeguard presence, wildlife, and crowding; Hawaii took four of the ten 2026 spots.",
+      "quote": "Rank: 10th place... This marks the 36th year of Dr. Leatherman's rankings evaluating America's 650 public beaches. ... sand type, wave action, whether lifeguards are present, presence of wildlife, the level of development and crowding, and many other factors.",
+      "url": "https://www.nbcboston.com/news/national-international/best-cape-cod-beach-2026/3958341/",
+      "source_title": "Best beach? Cape Cod spot among best U.S. beaches in new ranking - NBC Boston",
+      "source_type": "press",
+      "date_of_source": "2026-06",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F31",
+      "topic": "recent",
+      "fact": "Coast Guard Beach ranked 4th nationally on the same Dr. Beach list in 2017 — a lower placement (10th) in the 2026 list nine years later (secondary-source claim, not independently confirmed against the original 2017 list).",
+      "quote": "in 2017, the beach destination ranked fourth-best in the United States",
+      "url": "https://www.coastalneighborhoods.com/blog/coast-guard-beach-once-again-ranked-top-us-beach/",
+      "source_title": "Coast Guard Beach Once Again Ranked Top US Beach",
+      "source_type": "other",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F32",
+      "topic": "governance",
+      "fact": "2026 Cape Cod National Seashore beach entrance fees: $25/day private vehicle, $20 motorcycle (up to 2 motorcycles/4 riders), $15/person pedestrian or cyclist (age 16+), $60 annual Seashore pass; the park does not accept cash, only credit/debit cards, at beach entrances.",
+      "quote": "Daily Vehicle Fee: $25.00 ... Motorcycle Fee: $20.00 ... Pedestrian/Bicycle Fee: $15.00 per person ... Annual Seashore Pass: $60.00 ... does not accept cash",
+      "url": "https://www.nps.gov/caco/planyourvisit/fees.htm",
+      "source_title": "Fees - Cape Cod National Seashore (NPS)",
+      "source_type": "official",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F33",
+      "topic": "access",
+      "fact": "NPS's own driving directions from Boston give a route, not a mileage/time figure: take Route 3 south to the Sagamore Bridge in Bourne, then Route 6 east to Eastham, to the Salt Pond Visitor Center at 50 Nauset Road.",
+      "quote": "Take Route 3 south, to the Sagamore Bridge in Bourne. Follow Route 6 eastward to Eastham and Provincetown.",
+      "url": "https://www.nps.gov/caco/planyourvisit/directions.htm",
+      "source_title": "Directions - Cape Cod National Seashore (NPS)",
+      "source_type": "official",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F34",
+      "topic": "geography",
+      "fact": "Nauset Light Beach, a separate NPS beach with its own parking lot and the red-and-white Nauset Light, lies about one mile north of Coast Guard Beach; both sit within Cape Cod National Seashore.",
+      "quote": "Nauset Light Beach is one mile north of Coast Guard Beach in Eastham, Massachusetts. Both beaches are part of the Cape Cod National Seashore.",
+      "url": "https://en.wikipedia.org/wiki/Nauset_Light_Beach",
+      "source_title": "Nauset Light Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F35",
+      "topic": "food",
+      "fact": "The stuffed quahog — a hard-shell clam diced and stuffed, often Portuguese-style with linguiça — is a Cape Cod delicacy; a named example with a trademarked house recipe is served at Arnold's Lobster and Clam Bar, 3580 Route 6, Eastham.",
+      "quote": "Quahogs are the giant, hard-shell ones, usually diced up and thrown into legendary New England chowder or stuffed, Portuguese style, with linguica sausage. The stuffed quahog is a Cape Cod delicacy. Good ones can be found at Arnold's Lobster and Clam Bar (3580 Route 6, Eastham), where Susie Buckley has trademarked her personal recipe.",
+      "url": "https://www.qantas.com/travelinsider/en/explore/north-america/usa/boston/5-foods-you-must-try-in-cape-cod.html",
+      "source_title": "5 Foods You Must Try in Cape Cod - Qantas Travel Insider",
+      "source_type": "press",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F36",
+      "topic": "business",
+      "fact": "Arnold's Lobster & Clam Bar, the Eastham restaurant named for the region's stuffed-quahog specialty, was confirmed currently operating as of an August 2026-dated Yelp listing update, with a seasonal closing around mid-September.",
+      "quote": "ARNOLD'S LOBSTER & CLAM BAR - Updated August 2026 ... 3580 State Hwy, Eastham, Massachusetts",
+      "url": "https://www.yelp.com/biz/arnolds-lobster-and-clam-bar-eastham-6",
+      "source_title": "Arnold's Lobster & Clam Bar - Yelp listing",
+      "source_type": "business-site",
+      "date_of_source": "2026-08",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F37",
+      "topic": "food",
+      "fact": "The Wellfleet oyster and the Northern Quahog have been formally accepted into Slow Food's 'Ark of Taste' catalog, a designation for culturally important regional foods; Wellfleet, about 14 miles north of Coast Guard Beach, is the namesake town.",
+      "quote": "Slow Food Cape Cod succeeded... in getting both the Wellfleet Oyster and the Northern Quahog accepted into the catalog.",
+      "url": "https://www.capeandislands.org/in-this-place/2018-06-07/ark-of-taste-protecting-the-wellfleet-oyster-and-the-northern-quahog",
+      "source_title": "Ark of Taste: Protecting the Wellfleet Oyster and the Northern Quahog - CAI",
+      "source_type": "press",
+      "date_of_source": "2018-06",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F38",
+      "topic": "events",
+      "fact": "The 26th annual Wellfleet OysterFest runs October 17-18, 2026, in downtown Wellfleet (Main Street, Town Hall lot, Preservation Hall lot), gates 10am-5pm, general admission $35, children 12 and under free.",
+      "quote": "26TH ANNUAL Wellfleet OysterFest october 17 + 18, 2026 ... Gates open at 10:00 AM and close at 5:00 PM each day... General Admission tickets are $35.00, and children 12 and under are free.",
+      "url": "https://www.wellfleetoa.org/wellfleet-oysterfest",
+      "source_title": "26th Annual Wellfleet OysterFest - Wellfleet Oyster Alliance",
+      "source_type": "official",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F39",
+      "topic": "safety",
+      "fact": "NPS advises against isolating in the water: swim, paddle, and surf in groups; avoid murky/low-visibility water and schools of fish or seals, which attract sharks; never turn your back to the ocean.",
+      "quote": "Be on alert for rip tides, shore break, and strong under tows. Never turn your back to the ocean. Never swim alone. Swim, kayak, paddle, and surf in groups. Avoid murky and low visibility water. Stay away from schools of fish and seals, these attract sharks.",
+      "url": "https://www.nps.gov/caco/planyourvisit/beachsafe.htm",
+      "source_title": "Beach and Water Safety - Cape Cod National Seashore (NPS)",
+      "source_type": "official",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F40",
+      "topic": "safety",
+      "fact": "The National Seashore asks visitors to respect pedestrian and pet restrictions protecting nesting plovers and terns in early spring through early summer, and to keep at least 150 feet from hauled-out seals.",
+      "quote": "Please adhere to pedestrian and pet restrictions... Keep your distance--at least 150 feet.",
+      "url": "https://www.nps.gov/caco/planyourvisit/coast-guard-beach-eastham.htm",
+      "source_title": "Coast Guard Beach - Eastham - Cape Cod National Seashore (NPS)",
+      "source_type": "official",
+      "date_of_source": "2020",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F41",
+      "topic": "recent",
+      "fact": "Dr. Beach's 2017 Top 10 Beaches list, as reported contemporaneously by CNN and the Seattle Times, ranked Coast Guard Beach 6th nationally, not 4th; Grayton Beach State Park held the 4th spot that year.",
+      "quote": "1. Siesta Beach ... 4. Grayton Beach State Park ... 6. Coast Guard Beach, Cape Cod, Massachusetts",
+      "url": "https://www.cnn.com/travel/article/dr-beach-top-10-us-beaches-2017/index.html",
+      "source_title": "Dr. Beach names the best beach in the US for 2017 - CNN",
+      "source_type": "press",
+      "date_of_source": "2017",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F42",
+      "topic": "recent",
+      "fact": "The Bartlett House was built in 1960 and acquired by the National Park Service from its owner, H. Craigin Bartlett, in 1964; NPS used it for decades as National Seashore seasonal employee housing and, most recently, as a short-term vacation rental — it was never privately owned once NPS acquired it.",
+      "quote": "Built in 1960, it was acquired by the National Park Service from its owner, H. Craigin Bartlett, in 1964 ... used for decades as National Seashore seasonal employee housing until it most recently was made available to the public as a short-term vacation rental.",
+      "url": "https://provincetownindependent.org/local-journalism-project/2026/02/11/park-service-demolishes-bartlett-house-on-the-edge/",
+      "source_title": "Park Service Demolishes Bartlett House 'On the Edge' - Provincetown Independent",
+      "source_type": "press",
+      "date_of_source": "2026-02",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F43",
+      "topic": "recent",
+      "fact": "Demolition of the Bartlett House, at 40 Ocean View Drive in Eastham, began on February 3, 2026, when Apex Abatement and Demolition of Amesbury started dismantling the house, following through on the 2024 plan to remove it before the eroding bluff did.",
+      "quote": "Demolition on the Bartlett House, at 40 Ocean View Drive in Eastham, began on Feb. 3, 2026, when Apex Abatement and Demolition of Amesbury of Amesbury began to dismantle the house.",
+      "url": "https://provincetownindependent.org/local-journalism-project/2026/02/11/park-service-demolishes-bartlett-house-on-the-edge/",
+      "source_title": "Park Service Demolishes Bartlett House 'On the Edge' - Provincetown Independent",
+      "source_type": "press",
+      "date_of_source": "2026-02",
+      "lang": "en",
+      "confidence": "high"
+    }
   ],
   "recency": {
     "queries": [
@@ -78,7 +565,11 @@
       "Wellfleet OysterFest 2026 dates October"
     ],
     "newest_item": "The Wellfleet OysterFest is confirmed for October 17-18, 2026 (its 26th annual running); Coast Guard Beach was ranked #10 nationally in Dr. Beach's 2026 rankings, announced early June 2026.",
-    "fact_ids": ["F30", "F38", "F36"]
+    "fact_ids": [
+      "F30",
+      "F38",
+      "F36"
+    ]
   },
   "dead_ends": [
     "No official NPS source or named press report gives an exact road-mileage or drive-time figure from Boston (or any specific city) to Coast Guard Beach or the Salt Pond Visitor Center — only travel-aggregator estimates exist (e.g., rome2rio: ~92.7 mi / 1h54m), which this sheet excludes as not an official or press source per the sourcing rule; NPS's own directions page gives only a route, no mileage.",
@@ -91,7 +582,20 @@
   "conflicts": [
     "Construction year of the current Nauset Coast Guard Station: Buildings of New England and the U.S. Life-Saving Service Heritage Association both say 1936 (F08); Wikipedia's Coast Guard Beach article says 1937 (F09).",
     "Station closure date: U.S. Life-Saving Service Heritage Association gives a precise Coast Guard closure date of September 16, 1958, but also notes the station's administrative listing 'disappears' in July 1959 — a one-year gap between operational and administrative closure, both on the same source (F10).",
-    "Beach ranking history: the 2017 #4 ranking (F31) comes from a secondary blog source, not independently cross-checked against Dr. Beach's original 2017 list or press coverage from that year."
+    "Beach ranking history: the original secondary-blog claim of a 2017 #4 ranking (F31) was checked against contemporaneous CNN/Seattle Times coverage of that year's list and found wrong — the correct 2017 placement is 6th (F41); the page now cites F41, not F31."
   ],
-  "budget": {"searches": 16, "fetches": 18}
+  "budget": {
+    "searches": 16,
+    "fetches": 18
+  },
+  "derivations": [
+    {
+      "fact": "Bartlett House setback collapse (F29): April 2023 (~45 ft) to the July 9, 2024 HUD determination is a span of about fifteen months, not 'about a year.'",
+      "basis": "date arithmetic on F29"
+    },
+    {
+      "fact": "Wellfleet town center is roughly 12 miles from Coast Guard Beach by road (Ocean View Dr / Doane Rd / Route 6), not the previously stated 14 miles; straight-line distance between the two points is about 7.3 miles.",
+      "basis": "coordinate arithmetic from site/data/beaches/coast-guard-beach.json centroid and Wellfleet town-center coordinates"
+    }
+  ]
 }

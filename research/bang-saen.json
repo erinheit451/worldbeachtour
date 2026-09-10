@@ -5,79 +5,499 @@
   "identity": {
     "what_it_is": "A ~2.5-4.5 km municipal beach on the Gulf of Thailand in Tambon Saen Suk, Mueang Chonburi district, Chonburi Province, roughly 108 km southeast of Bangkok; a Thai-domestic weekend beach, not an international resort strip.",
     "where": "Chonburi Province, eastern Thailand, Gulf of Thailand (western shore), adjacent to Ang Sila and about 30 km north of Pattaya.",
-    "aliases": ["Bangsaen", "Hat Bang Saen", "หาดบางแสน"],
+    "aliases": [
+      "Bangsaen",
+      "Hat Bang Saen",
+      "หาดบางแสน"
+    ],
     "warnings": "Thai-language sources describe Bang Saen as three named sections along a continuous ~4.5 km shoreline (Bang Saen/central, Laem Thaen/north, Wan Napa/south); English Wikipedia's '2.5 km' figure appears to describe only the central section — see conflicts. Do not conflate Bang Saen Beach with the separate Wang Saen Suk Hell Garden temple (same municipality, different site, different subject) or with Khao Sam Muk (an adjoining headland, not the beach itself)."
   },
   "spike_candidates": [
     {
       "statement": "On Nov 7, 2025 the water along Bang Saen's shoreline turned visibly black; vendors blamed storm runoff from the Bang Pakong River and insisted it was still safe to swim.",
       "tension": "A beach marketed as calm, clean, and family-safe periodically looks polluted, and the public response is reassurance from vendors, not water-quality data.",
-      "fact_ids": ["F27"],
+      "fact_ids": [
+        "F27"
+      ],
       "strength": "strong"
     },
     {
       "statement": "In May 2026 Saen Suk's marine rescue team pulled a stray Irrawaddy dolphin calf from the surf at Bang Saen — the first ever recorded there — and it died despite round-the-clock care at Burapha University's marine institute.",
       "tension": "The sheltered, gentle Gulf water that draws Bangkok weekenders for safe swimming is also disorienting enough to strand marine mammals that don't belong there, and the rescue apparatus couldn't save it.",
-      "fact_ids": ["F28"],
+      "fact_ids": [
+        "F28"
+      ],
       "strength": "strong"
     },
     {
       "statement": "Since 2007 Bang Saen's beachfront roads close every July for the FIA Grade-3 Bangsaen Street Circuit, which drew 100-plus cars for its 20th-anniversary Grand Prix in July 2026.",
       "tension": "The town's self-image as an unpretentious, local, no-frills beach coexists with an internationally sanctioned motorsport calendar that shuts down the seafront for professional racing.",
-      "fact_ids": ["F22", "F25"],
+      "fact_ids": [
+        "F22",
+        "F25"
+      ],
       "strength": "medium"
     },
     {
       "statement": "A few hundred meters from the sand, Wang Saen Suk — Thailand's largest hell garden — depicts 21 sinners being disemboweled, boiled, and mauled by dogs of hell as a free family attraction.",
       "tension": "Bang Saen's best-known non-beach landmark isn't a resort amenity; it's a graphic Buddhist morality display built to frighten visitors into virtue.",
-      "fact_ids": ["F14", "F15"],
+      "fact_ids": [
+        "F14",
+        "F15"
+      ],
       "strength": "medium"
     },
     {
       "statement": "Up to 13 Bryde's whales, each over a ton, were documented feeding within 2 km of Bang Saen in June 2026, even as conservationists warn nighttime fishing-boat traffic threatens them because they sleep with only half their brain at a time.",
       "tension": "A genuine wildlife comeback story is unfolding in the same shipping-and-fishing lane that could kill the animals making it.",
-      "fact_ids": ["F08", "F09", "F10"],
+      "fact_ids": [
+        "F08",
+        "F09",
+        "F10"
+      ],
       "strength": "strong"
     }
   ],
   "facts": [
-    {"id": "F01", "topic": "identity", "fact": "Bang Saen sits in Tambon Saen Suk, Mueang Chonburi district, Chonburi province, about 108 km south of Bangkok and near Pattaya.", "quote": "Bang Saen is situated in Tambon (subdistrict) Saen Suk, Mueang Chonburi district, Chonburi province, eastern Thailand. It lies approximately 108 kilometers south of Bangkok and is proximate to Pattaya.", "url": "https://en.wikipedia.org/wiki/Bang_Saen_Beach", "source_title": "Bang Saen Beach", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F02", "topic": "geography", "fact": "English Wikipedia gives the beach's length as about 2.5 km, maintained by the Saen Suk town municipality.", "quote": "The beach is about 2.5 km (1.6 mi) long, maintained by Thesaban Mueang (town municipality) Saen Suk.", "url": "https://en.wikipedia.org/wiki/Bang_Saen_Beach", "source_title": "Bang Saen Beach", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "medium"},
-    {"id": "F03", "topic": "geography", "fact": "Thai Wikipedia describes a continuous 4.5 km shoreline split into three named sections: Bang Saen (central, the swimming area), Laem Thaen (north, rocky, no swimming), and Wan Napa (south, quiet, small fishing village).", "quote": "หาดบางแสนมีความยาวต่อเนื่องกัน 4.5 กิโลเมตร แบ่งเป็น 3 ส่วน คือ หาดบางแสน (ส่วนกลาง พื้นที่เล่นน้ำยอดนิยม), แหลมแท่น (ส่วนเหนือ มีโขดหิน ว่ายน้ำไม่ได้), และหาดวอนนภา (ส่วนใต้ บรรยากาศเงียบสงบ หมู่บ้านประมงเล็กๆ)", "url": "https://th.wikipedia.org/wiki/%E0%B8%AB%E0%B8%B2%E0%B8%94%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%AA%E0%B8%99", "source_title": "หาดบางแสน (Thai Wikipedia)", "source_type": "wikipedia", "date_of_source": "2026", "lang": "th", "confidence": "medium"},
-    {"id": "F04", "topic": "history", "fact": "The name Bang Saen comes from a folk tale about two unrequited Chonburi lovers, Saen and Sam Muk, who drowned themselves together; the story also named nearby Khao Sam Muk.", "quote": "two young Chonburi lovers, Saen (แสน) and Sam Muk (สามมุก)... threw themselves off a cliff and drowned together", "url": "https://en.wikipedia.org/wiki/Bang_Saen_Beach", "source_title": "Bang Saen Beach", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F05", "topic": "culture", "fact": "Bang Saen has carried the local nickname 'the land for lonely souls' since it became a popular destination.", "quote": "บางแสนดินแดนคนแก้เหงา", "url": "https://th.wikipedia.org/wiki/%E0%B8%AB%E0%B8%B2%E0%B8%94%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%AA%E0%B8%99", "source_title": "หาดบางแสน (Thai Wikipedia)", "source_type": "wikipedia", "date_of_source": "2026", "lang": "th", "confidence": "medium"},
-    {"id": "F06", "topic": "history", "fact": "Bang Saen shifted from fishing village to tourist destination in 1943 (B.E. 2486), under Field Marshal Plaek Phibunsongkhram's government, when the government built seaside resorts alongside the new Sukhumvit road (Highway 3).", "quote": "บางแสนเริ่มเป็นแหล่งท่องเที่ยวยอดนิยมมาตั้งแต่ปี พ.ศ. 2486", "url": "https://th.wikipedia.org/wiki/%E0%B8%AB%E0%B8%B2%E0%B8%94%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%AA%E0%B8%99", "source_title": "หาดบางแสน (Thai Wikipedia)", "source_type": "wikipedia", "date_of_source": "2026", "lang": "th", "confidence": "high"},
-    {"id": "F07", "topic": "geography", "fact": "Locals report that from October to February each year, Bang Saen's water clears to a degree they compare to the Maldives.", "quote": "From October to February of every year, the sea at Bang Saen is as clear as the Maldives, a natural phenomenon.", "url": "https://en.wikipedia.org/wiki/Bang_Saen_Beach", "source_title": "Bang Saen Beach", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "medium"},
-    {"id": "F08", "topic": "nature", "fact": "On June 26, 2026, tourists and boaters documented a pod of more than 13 Bryde's whales, including calves, feeding about 2 km offshore near Khao Sam Muk and Bang Saen — the highest count recorded that year.", "quote": "On 26 June 2026, tourists and boaters near Bang Saen Beach spotted several Bryde's whales, including calves, swimming and feeding about 2 kilometers offshore in Saen Suk Subdistrict... Surveys that year identified 13 Bryde's whales, more than were recorded the previous year.", "url": "https://en.thairath.co.th/news/local/2942437", "source_title": "Tourists Amazed as Bryde's Whale Pod Appears Near Bang Saen Beach, Up to 13 Spotted", "source_type": "press", "date_of_source": "2026-06", "lang": "en", "confidence": "high"},
-    {"id": "F09", "topic": "nature", "fact": "The largest whale in the Bang Saen pod weighs over a ton (roughly the size of a city bus); researchers identify individuals by scars, spot patterns, and barnacles, and track two distinct groups — one near Koh Sampanyue north of Koh Si Chang, another near Khao Sam Muk/Ang Sila.", "quote": "Largest whale weighs over one ton, roughly the size of a city bus... Individual whales identifiable by distinctive scars, spotted patterns, and barnacles", "url": "https://en.thairath.co.th/news/local/2942437", "source_title": "Tourists Amazed as Bryde's Whale Pod Appears Near Bang Saen Beach, Up to 13 Spotted", "source_type": "press", "date_of_source": "2026-06", "lang": "en", "confidence": "medium"},
-    {"id": "F10", "topic": "safety", "fact": "Conservationists flag nighttime vessel traffic, especially commercial fishing boats, as a risk to the Bang Saen whale pod because whales rest with only half their brain asleep at a time.", "quote": "Nighttime vessel traffic, particularly from commercial fishing boats, poses risks since whales rest with half their brain asleep", "url": "https://en.thairath.co.th/news/local/2942437", "source_title": "Tourists Amazed as Bryde's Whale Pod Appears Near Bang Saen Beach, Up to 13 Spotted", "source_type": "press", "date_of_source": "2026-06", "lang": "en", "confidence": "medium"},
-    {"id": "F11", "topic": "geography", "fact": "Khao Sam Muk, the headland at Bang Saen's northern end, is a sandstone hill between Ang Sila and Bang Saen Beach; Wikipedia's infobox lists it at 54 m while the article text says 45 m (unresolved discrepancy in the source itself).", "quote": "Elevation: 54 m (177 ft) [infobox]; ...the text states 45 m (147.64 ft)", "url": "https://en.wikipedia.org/wiki/Khao_Sam_Muk", "source_title": "Khao Sam Muk", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "medium"},
-    {"id": "F12", "topic": "culture", "fact": "Khao Sam Muk's summit holds a Chinese shrine to the sea goddess Mazu, with a second, Thai-built shrine at the foot of the escarpment tied to the local legend.", "quote": "a Chinese shrine of Mazu on the hilltop... another shrine at the foot of the escarpment. This shrine is a Thai shrine built according to the legend of this hill.", "url": "https://en.wikipedia.org/wiki/Khao_Sam_Muk", "source_title": "Khao Sam Muk", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F13", "topic": "culture", "fact": "Local legend holds that a poor Chinese girl named Sam Muk jumped to her death from the cliff after her parents objected to her marriage; she was later deified, and locals believe her spirit protects fishers from harm.", "quote": "a poor Chinese girl named Sam Muk jumped to her death from the cliff after her parents objected to her marriage... the spirit of that mountain protects fishers from harm", "url": "https://en.wikipedia.org/wiki/Khao_Sam_Muk", "source_title": "Khao Sam Muk", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F14", "topic": "culture", "fact": "Wang Saen Suk, a Buddhist temple near Bang Saen Beach (Sai 2, Soi 19, Saen Suk), houses the largest hell garden in Thailand, depicting Naraka (Buddhist hell) to warn visitors away from sin.", "quote": "The Wang Saen Suk Hell Garden is the largest hell garden in Thailand... meant to describe and depict Naraka (Buddhist hell)", "url": "https://en.wikipedia.org/wiki/Wang_Saen_Suk", "source_title": "Wang Saen Suk", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F15", "topic": "culture", "fact": "The garden depicts twenty-one tortured souls with animal heads representing different sins, plus two giant Preta figures ('Nai Ngean' and 'Nang Thong'), with donation boxes paired to each torture scene (dogs tearing sinners apart, boiling in cauldrons, disembowelment by birds).", "quote": "Twenty-one tortured souls with animal heads representing different sins... 'ripped apart by the dogs of Hell,' 'burnt alive in boiling cauldrons,' or 'disembowelled by birds'", "url": "https://en.wikipedia.org/wiki/Wang_Saen_Suk", "source_title": "Wang Saen Suk", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F16", "topic": "governance", "fact": "Bang Saen Beach is maintained by the Saen Suk town municipality (Thesaban Mueang Saen Suk), confirmed by both English and Thai Wikipedia.", "quote": "maintained by Thesaban Mueang (town municipality) Saen Suk", "url": "https://en.wikipedia.org/wiki/Bang_Saen_Beach", "source_title": "Bang Saen Beach", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F17", "topic": "governance", "fact": "Saen Suk Municipality's official address is Bang Saen Sai 2 Road, Saen Suk Subdistrict, Mueang district, Chonburi, postal code 20130, phone 038-193500.", "quote": "ต.แสนสุข อ.เมือง จ.ชลบุรี, ถ.บางแสนสาย 2, 20130 — โทร. 038-193500", "url": "https://www.saensukcity.go.th/home.html", "source_title": "เทศบาลเมืองแสนสุข (Saen Suk Municipality official site)", "source_type": "official", "date_of_source": "2026", "lang": "th", "confidence": "high"},
-    {"id": "F18", "topic": "governance", "fact": "Saen Suk Municipality's own website names four things as its defining identity: Bang Saen Beach, Khao Sam Muk, the Wan Lai sand-pagoda tradition, and Nong Mon Market.", "quote": "ชายหาดบางแสน เขาสามมุข ประเพณีก่อพระทรายวันไหล ตลาดหนองมน", "url": "https://www.saensukcity.go.th/home.html", "source_title": "เทศบาลเมืองแสนสุข (Saen Suk Municipality official site)", "source_type": "official", "date_of_source": "2026", "lang": "th", "confidence": "high"},
-    {"id": "F19", "topic": "economy", "fact": "Burapha University, adjoining Bang Saen, was established July 8, 1955 as Bangsaen College of Education (Thailand's first regional tertiary institute) and now enrolls 47,865 students.", "quote": "established on 8 July 1955, originating from Bangsaen Educational College which was the first regional tertiary educational institute", "url": "https://en.wikipedia.org/wiki/Burapha_University", "source_title": "Burapha University", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F20", "topic": "economy", "fact": "Burapha University's enrollment breaks down as 39,441 undergraduates, 7,095 postgraduates, and 1,329 doctoral students.", "quote": "47,865 total students, comprising 39,441 undergraduates, 7,095 postgraduates, and 1,329 doctoral students", "url": "https://en.wikipedia.org/wiki/Burapha_University", "source_title": "Burapha University", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F21", "topic": "nature", "fact": "Burapha University's Institute of Marine Science runs an aquarium beside Bang Saen that is itself a major tourist attraction, independent of the beach.", "quote": "the Institute of Marine Science, whose aquarium is a major tourist attraction", "url": "https://en.wikipedia.org/wiki/Burapha_University", "source_title": "Burapha University", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F22", "topic": "events", "fact": "The Bangsaen Street Circuit, a 3.740 km, 19-turn, FIA Grade 3 asphalt street track built into Bang Saen's coastal roads, opened in 2007.", "quote": "3.740 km (2.324 mi) with 19 turns on an asphalt surface, rated FIA Grade 3... The circuit was opened in 2007", "url": "https://en.wikipedia.org/wiki/Bangsaen_Street_Circuit", "source_title": "Bangsaen Street Circuit", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F23", "topic": "events", "fact": "The circuit began hosting international racing series — Porsche Carrera Cup Asia and TCR Asia — in 2017, after redevelopment by Apex Circuit Design.", "quote": "Before hosting international events in 2017, the racing facility underwent redevelopment work by Apex Circuit Design.", "url": "https://en.wikipedia.org/wiki/Bangsaen_Street_Circuit", "source_title": "Bangsaen Street Circuit", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F24", "topic": "events", "fact": "Circuit lap records include TCR (1:30.656, Lo Sze Ho, Honda Civic Type R TCR, 2018), GT3 (1:32.511, Laurin Heinrich, Porsche 911 GT3 R, 2025), and Formula 4 (1:37.688, Alex Sawer, Tatuus F4-T421, 2025).", "quote": "TCR category: 1:30.656 by Lo Sze Ho in a Honda Civic Type R TCR (2018); GT3 category: 1:32.511 by Laurin Heinrich in a Porsche 911 GT3 R (2025); Formula 4 category: 1:37.688 by Alex Sawer in a Tatuus F4-T421 (2025)", "url": "https://en.wikipedia.org/wiki/Bangsaen_Street_Circuit", "source_title": "Bangsaen Street Circuit", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F25", "topic": "recent", "fact": "The Bangsaen Grand Prix 2026 (part of the B-Quik Thailand Super Series) ran July 1-5, 2026, marking the circuit's 20th anniversary, with over 100 cars entered and free public entry.", "quote": "The much-anticipated Bangsaen Grand Prix 2026 officially got underway today, marking the start of a five-day motorsport spectacular celebrating the event's 20th anniversary... Free public entry for the entire event", "url": "https://thepattayanews.com/2026/07/01/bangsaen-grand-prix-2026-kicks-off-with-high-octane-action-on-day-one/", "source_title": "Bangsaen Grand Prix 2026 Kicks Off with High-Octane Action on Day One", "source_type": "press", "date_of_source": "2026-07", "lang": "en", "confidence": "high"},
-    {"id": "F26", "topic": "events", "fact": "The 2025 Bang Saen Sand Pagoda Festival (Wan Lai), held during the extended Songkran season, drew official participation from the Tourism Authority of Thailand's Pattaya office, whose entry was a sand sculpture titled 'Whale of Freedom.'", "quote": "TAT's entry: \"Whale of Freedom\" sand sculpture... symbolism: harmony with nature, boundless travel, and the spirit of joy in Thai New Year festivities", "url": "https://www.pattayamail.com/latestnews/news/bang-saen-sand-pagoda-festival-2025-shines-with-whale-of-freedom-sculpture-and-colorful-creations-498217", "source_title": "Bang Saen Sand Pagoda Festival 2025 shines with whale of freedom sculpture and colorful creations", "source_type": "press", "date_of_source": "2025-04", "lang": "en", "confidence": "high"},
-    {"id": "F27", "topic": "safety", "fact": "On November 7, 2025, the water along Bang Saen Beach turned visibly black near shore; locals and vendors attributed it to a plankton bloom mixed with freshwater runoff from the Bang Pakong River after storms, reported no bad odor or dead fish, and expected it to clear within days.", "quote": "Sirikanya Triudom, 70-year-old beach vendor: \"Two weeks ago, it was crystal clear when the cool season started. But now the rain and freshwater from Bang Pakong River are mixing with seawater, which makes it look like this.\" Phuridech Singsat, 30-year-old food vendor: \"It's not dangerous. There are no dead fish and no strong smell. It just looks odd.\"", "url": "https://thethaiger.com/news/eastern-thailand/bang-saen-beach-turns-black-vendors-fear-tourist-drop", "source_title": "Bang Saen Beach turns black, vendors fear tourist drop", "source_type": "press", "date_of_source": "2025-11", "lang": "en", "confidence": "high"},
-    {"id": "F28", "topic": "nature", "fact": "On May 15, 2026, a baby Irrawaddy dolphin calf (about 1.20 m) stranded at Bang Saen Beach — the first such stray recorded there — was rescued by Saen Suk's White Shark Marine Life Rescue Team led by Natdanai Mongkunkong and taken to Burapha University's Institute of Marine Science for treatment, but died despite the care.", "quote": "This is the first time we have encountered an Irrawaddy dolphin calf straying into Bang Saen Beach... Calf measured approximately 1.20 meters in length... The dolphin died despite rescue efforts and veterinary care", "url": "https://thepattayanews.com/2026/05/17/baby-irrawaddy-dolphin-rescued-at-bang-saen-beach-dies-despite-efforts/", "source_title": "Baby Irrawaddy Dolphin Rescued at Bang Saen Beach Dies Despite Efforts", "source_type": "press", "date_of_source": "2026-05", "lang": "en", "confidence": "high"},
-    {"id": "F29", "topic": "access", "fact": "Motorway 7, the road route linking Bangkok to Chonburi/Pattaya past Bang Saen, is Thailand's first intercity motorway: 149.3 km total, with a 125.865 km Bangkok-to-Pattaya section, a 120 km/h speed limit, and 9 tollgates.", "quote": "The country's first intercity motorway... Total Length: 149.3 km (92.8 mi), with the Bangkok-to-Pattaya section measuring 125.865 km (78.209 mi)... Speed Limit: 120 kilometers per hour", "url": "https://en.wikipedia.org/wiki/Motorway_7_(Thailand)", "source_title": "Motorway 7 (Thailand)", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"},
-    {"id": "F30", "topic": "access", "fact": "Motorway 7 toll examples by vehicle class: 25/45/60 THB (4-wheel/6-wheel/over-6-wheel) at the Lat Krabang gate, rising to 105/170/245 THB at the Pattaya gate.", "quote": "Toll Rates: The motorway has 9 tollgates with rates varying by distance and vehicle type... Lat Krabang charges 25/45/60 baht, while Pattaya charges 105/170/245 baht", "url": "https://en.wikipedia.org/wiki/Motorway_7_(Thailand)", "source_title": "Motorway 7 (Thailand)", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "medium"},
-    {"id": "F31", "topic": "access", "fact": "Motorway 7 runs from the Sri Nagarindra Interchange in Bangkok's Suan Luang district through Samut Prakan, Chachoengsao, and Chonburi to Map Ta Phut in Rayong; its Pong-to-Map Ta Phut extension opened in May 2020.", "quote": "originates at Sri Nagarindra Interchange in Bangkok's Suan Luang District and extends southeast through Samut Prakan, Chachoengsao, Chonburi, and Rayong provinces, terminating at Sukhumvit Road in Map Ta Phut... Extension: Pong to Map Ta Phut opened in May 2020", "url": "https://en.wikipedia.org/wiki/Motorway_7_(Thailand)", "source_title": "Motorway 7 (Thailand)", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "medium"},
-    {"id": "F32", "topic": "food", "fact": "English Wikipedia's only description of Bang Saen's food scene is generic: beachfront seafood restaurants and beach-chair rental facilities, with no specific dish, vendor, or business named.", "quote": "The beach offers various attractions including swimming, water sports, and dining, with facilities for beach chair rentals and seafood restaurants.", "url": "https://en.wikipedia.org/wiki/Bang_Saen_Beach", "source_title": "Bang Saen Beach", "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "medium"}
+    {
+      "id": "F01",
+      "topic": "identity",
+      "fact": "Bang Saen sits in Tambon Saen Suk, Mueang Chonburi district, Chonburi province, about 108 km south of Bangkok and near Pattaya.",
+      "quote": "Bang Saen is situated in Tambon (subdistrict) Saen Suk, Mueang Chonburi district, Chonburi province, eastern Thailand. It lies approximately 108 kilometers south of Bangkok and is proximate to Pattaya.",
+      "url": "https://en.wikipedia.org/wiki/Bang_Saen_Beach",
+      "source_title": "Bang Saen Beach",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F02",
+      "topic": "geography",
+      "fact": "English Wikipedia gives the beach's length as about 2.5 km, maintained by the Saen Suk town municipality.",
+      "quote": "The beach is about 2.5 km (1.6 mi) long, maintained by Thesaban Mueang (town municipality) Saen Suk.",
+      "url": "https://en.wikipedia.org/wiki/Bang_Saen_Beach",
+      "source_title": "Bang Saen Beach",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F03",
+      "topic": "geography",
+      "fact": "Thai Wikipedia describes a continuous 4.5 km shoreline split into three named sections: Bang Saen (central, the swimming area), Laem Thaen (north, rocky, no swimming), and Wan Napa (south, quiet, small fishing village).",
+      "quote": "หาดบางแสนมีความยาวต่อเนื่องกัน 4.5 กิโลเมตร แบ่งเป็น 3 ส่วน คือ หาดบางแสน (ส่วนกลาง พื้นที่เล่นน้ำยอดนิยม), แหลมแท่น (ส่วนเหนือ มีโขดหิน ว่ายน้ำไม่ได้), และหาดวอนนภา (ส่วนใต้ บรรยากาศเงียบสงบ หมู่บ้านประมงเล็กๆ)",
+      "url": "https://th.wikipedia.org/wiki/%E0%B8%AB%E0%B8%B2%E0%B8%94%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%AA%E0%B8%99",
+      "source_title": "หาดบางแสน (Thai Wikipedia)",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "th",
+      "confidence": "medium"
+    },
+    {
+      "id": "F04",
+      "topic": "history",
+      "fact": "The name Bang Saen comes from a folk tale about two unrequited Chonburi lovers, Saen and Sam Muk, who drowned themselves together; the story also named nearby Khao Sam Muk.",
+      "quote": "two young Chonburi lovers, Saen (แสน) and Sam Muk (สามมุก)... threw themselves off a cliff and drowned together",
+      "url": "https://en.wikipedia.org/wiki/Bang_Saen_Beach",
+      "source_title": "Bang Saen Beach",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F05",
+      "topic": "culture",
+      "fact": "Bang Saen has carried the local nickname 'the land for lonely souls' since it became a popular destination.",
+      "quote": "บางแสนดินแดนคนแก้เหงา",
+      "url": "https://th.wikipedia.org/wiki/%E0%B8%AB%E0%B8%B2%E0%B8%94%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%AA%E0%B8%99",
+      "source_title": "หาดบางแสน (Thai Wikipedia)",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "th",
+      "confidence": "medium"
+    },
+    {
+      "id": "F06",
+      "topic": "history",
+      "fact": "Bang Saen shifted from fishing village to tourist destination in 1943 (B.E. 2486), under Field Marshal Plaek Phibunsongkhram's government, when the government built seaside resorts alongside the new Sukhumvit road (Highway 3).",
+      "quote": "บางแสนเริ่มเป็นแหล่งท่องเที่ยวยอดนิยมมาตั้งแต่ปี พ.ศ. 2486",
+      "url": "https://th.wikipedia.org/wiki/%E0%B8%AB%E0%B8%B2%E0%B8%94%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%AA%E0%B8%99",
+      "source_title": "หาดบางแสน (Thai Wikipedia)",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "th",
+      "confidence": "high"
+    },
+    {
+      "id": "F07",
+      "topic": "geography",
+      "fact": "Locals report that from October to February each year, Bang Saen's water clears to a degree they compare to the Maldives.",
+      "quote": "From October to February of every year, the sea at Bang Saen is as clear as the Maldives, a natural phenomenon.",
+      "url": "https://en.wikipedia.org/wiki/Bang_Saen_Beach",
+      "source_title": "Bang Saen Beach",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F08",
+      "topic": "nature",
+      "fact": "On June 26, 2026, tourists and boaters documented a pod of more than 13 Bryde's whales, including calves, feeding about 2 km offshore near Khao Sam Muk and Bang Saen — the highest count recorded that year.",
+      "quote": "On 26 June 2026, tourists and boaters near Bang Saen Beach spotted several Bryde's whales, including calves, swimming and feeding about 2 kilometers offshore in Saen Suk Subdistrict... Surveys that year identified 13 Bryde's whales, more than were recorded the previous year.",
+      "url": "https://en.thairath.co.th/news/local/2942437",
+      "source_title": "Tourists Amazed as Bryde's Whale Pod Appears Near Bang Saen Beach, Up to 13 Spotted",
+      "source_type": "press",
+      "date_of_source": "2026-06",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F09",
+      "topic": "nature",
+      "fact": "The largest whale in the Bang Saen pod weighs over a ton (roughly the size of a city bus); researchers identify individuals by scars, spot patterns, and barnacles, and track two distinct groups — one near Koh Sampanyue north of Koh Si Chang, another near Khao Sam Muk/Ang Sila.",
+      "quote": "Largest whale weighs over one ton, roughly the size of a city bus... Individual whales identifiable by distinctive scars, spotted patterns, and barnacles",
+      "url": "https://en.thairath.co.th/news/local/2942437",
+      "source_title": "Tourists Amazed as Bryde's Whale Pod Appears Near Bang Saen Beach, Up to 13 Spotted",
+      "source_type": "press",
+      "date_of_source": "2026-06",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F10",
+      "topic": "safety",
+      "fact": "Conservationists flag nighttime vessel traffic, especially commercial fishing boats, as a risk to the Bang Saen whale pod because whales rest with only half their brain asleep at a time.",
+      "quote": "Nighttime vessel traffic, particularly from commercial fishing boats, poses risks since whales rest with half their brain asleep",
+      "url": "https://en.thairath.co.th/news/local/2942437",
+      "source_title": "Tourists Amazed as Bryde's Whale Pod Appears Near Bang Saen Beach, Up to 13 Spotted",
+      "source_type": "press",
+      "date_of_source": "2026-06",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F11",
+      "topic": "geography",
+      "fact": "Khao Sam Muk, the headland at Bang Saen's northern end, is a sandstone hill between Ang Sila and Bang Saen Beach; Wikipedia's infobox lists it at 54 m while the article text says 45 m (unresolved discrepancy in the source itself).",
+      "quote": "Elevation: 54 m (177 ft) [infobox]; ...the text states 45 m (147.64 ft)",
+      "url": "https://en.wikipedia.org/wiki/Khao_Sam_Muk",
+      "source_title": "Khao Sam Muk",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F12",
+      "topic": "culture",
+      "fact": "Khao Sam Muk's summit holds a Chinese shrine to the sea goddess Mazu, with a second, Thai-built shrine at the foot of the escarpment tied to the local legend.",
+      "quote": "a Chinese shrine of Mazu on the hilltop... another shrine at the foot of the escarpment. This shrine is a Thai shrine built according to the legend of this hill.",
+      "url": "https://en.wikipedia.org/wiki/Khao_Sam_Muk",
+      "source_title": "Khao Sam Muk",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F13",
+      "topic": "culture",
+      "fact": "Local legend holds that a poor Chinese girl named Sam Muk jumped to her death from the cliff after her parents objected to her marriage; she was later deified, and locals believe her spirit protects fishers from harm.",
+      "quote": "a poor Chinese girl named Sam Muk jumped to her death from the cliff after her parents objected to her marriage... the spirit of that mountain protects fishers from harm",
+      "url": "https://en.wikipedia.org/wiki/Khao_Sam_Muk",
+      "source_title": "Khao Sam Muk",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F14",
+      "topic": "culture",
+      "fact": "Wang Saen Suk, a Buddhist temple near Bang Saen Beach (Sai 2, Soi 19, Saen Suk), houses the largest hell garden in Thailand, depicting Naraka (Buddhist hell) to warn visitors away from sin.",
+      "quote": "The Wang Saen Suk Hell Garden is the largest hell garden in Thailand... meant to describe and depict Naraka (Buddhist hell)",
+      "url": "https://en.wikipedia.org/wiki/Wang_Saen_Suk",
+      "source_title": "Wang Saen Suk",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F15",
+      "topic": "culture",
+      "fact": "The garden depicts twenty-one tortured souls with animal heads representing different sins, plus two giant Preta figures ('Nai Ngean' and 'Nang Thong'), with donation boxes paired to each torture scene (dogs tearing sinners apart, boiling in cauldrons, disembowelment by birds).",
+      "quote": "Twenty-one tortured souls with animal heads representing different sins... 'ripped apart by the dogs of Hell,' 'burnt alive in boiling cauldrons,' or 'disembowelled by birds'",
+      "url": "https://en.wikipedia.org/wiki/Wang_Saen_Suk",
+      "source_title": "Wang Saen Suk",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F16",
+      "topic": "governance",
+      "fact": "Bang Saen Beach is maintained by the Saen Suk town municipality (Thesaban Mueang Saen Suk), confirmed by both English and Thai Wikipedia.",
+      "quote": "maintained by Thesaban Mueang (town municipality) Saen Suk",
+      "url": "https://en.wikipedia.org/wiki/Bang_Saen_Beach",
+      "source_title": "Bang Saen Beach",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F17",
+      "topic": "governance",
+      "fact": "Saen Suk Municipality's official address is Bang Saen Sai 2 Road, Saen Suk Subdistrict, Mueang district, Chonburi, postal code 20130, phone 038-193500.",
+      "quote": "ต.แสนสุข อ.เมือง จ.ชลบุรี, ถ.บางแสนสาย 2, 20130 — โทร. 038-193500",
+      "url": "https://www.saensukcity.go.th/home.html",
+      "source_title": "เทศบาลเมืองแสนสุข (Saen Suk Municipality official site)",
+      "source_type": "official",
+      "date_of_source": "2026",
+      "lang": "th",
+      "confidence": "high"
+    },
+    {
+      "id": "F18",
+      "topic": "governance",
+      "fact": "Saen Suk Municipality's own website names four things as its defining identity: Bang Saen Beach, Khao Sam Muk, the Wan Lai sand-pagoda tradition, and Nong Mon Market.",
+      "quote": "ชายหาดบางแสน เขาสามมุข ประเพณีก่อพระทรายวันไหล ตลาดหนองมน",
+      "url": "https://www.saensukcity.go.th/home.html",
+      "source_title": "เทศบาลเมืองแสนสุข (Saen Suk Municipality official site)",
+      "source_type": "official",
+      "date_of_source": "2026",
+      "lang": "th",
+      "confidence": "high"
+    },
+    {
+      "id": "F19",
+      "topic": "economy",
+      "fact": "Burapha University, adjoining Bang Saen, was established July 8, 1955 as Bangsaen College of Education (Thailand's first regional tertiary institute) and now enrolls 47,865 students.",
+      "quote": "established on 8 July 1955, originating from Bangsaen Educational College which was the first regional tertiary educational institute",
+      "url": "https://en.wikipedia.org/wiki/Burapha_University",
+      "source_title": "Burapha University",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F20",
+      "topic": "economy",
+      "fact": "Burapha University's enrollment breaks down as 39,441 undergraduates, 7,095 postgraduates, and 1,329 doctoral students.",
+      "quote": "47,865 total students, comprising 39,441 undergraduates, 7,095 postgraduates, and 1,329 doctoral students",
+      "url": "https://en.wikipedia.org/wiki/Burapha_University",
+      "source_title": "Burapha University",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F21",
+      "topic": "nature",
+      "fact": "Burapha University's Institute of Marine Science runs an aquarium beside Bang Saen that is itself a major tourist attraction, independent of the beach.",
+      "quote": "the Institute of Marine Science, whose aquarium is a major tourist attraction",
+      "url": "https://en.wikipedia.org/wiki/Burapha_University",
+      "source_title": "Burapha University",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F22",
+      "topic": "events",
+      "fact": "The Bangsaen Street Circuit, a 3.740 km, 19-turn, FIA Grade 3 asphalt street track built into Bang Saen's coastal roads, opened in 2007.",
+      "quote": "3.740 km (2.324 mi) with 19 turns on an asphalt surface, rated FIA Grade 3... The circuit was opened in 2007",
+      "url": "https://en.wikipedia.org/wiki/Bangsaen_Street_Circuit",
+      "source_title": "Bangsaen Street Circuit",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F23",
+      "topic": "events",
+      "fact": "The circuit began hosting international racing series — Porsche Carrera Cup Asia and TCR Asia — in 2017, after redevelopment by Apex Circuit Design.",
+      "quote": "Before hosting international events in 2017, the racing facility underwent redevelopment work by Apex Circuit Design.",
+      "url": "https://en.wikipedia.org/wiki/Bangsaen_Street_Circuit",
+      "source_title": "Bangsaen Street Circuit",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F24",
+      "topic": "events",
+      "fact": "Circuit lap records include TCR (1:30.656, Lo Sze Ho, Honda Civic Type R TCR, 2018), GT3 (1:32.511, Laurin Heinrich, Porsche 911 GT3 R, 2025), and Formula 4 (1:37.688, Alex Sawer, Tatuus F4-T421, 2025).",
+      "quote": "TCR category: 1:30.656 by Lo Sze Ho in a Honda Civic Type R TCR (2018); GT3 category: 1:32.511 by Laurin Heinrich in a Porsche 911 GT3 R (2025); Formula 4 category: 1:37.688 by Alex Sawer in a Tatuus F4-T421 (2025)",
+      "url": "https://en.wikipedia.org/wiki/Bangsaen_Street_Circuit",
+      "source_title": "Bangsaen Street Circuit",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F25",
+      "topic": "recent",
+      "fact": "The Bangsaen Grand Prix 2026 (part of the B-Quik Thailand Super Series) ran July 1-5, 2026, marking the circuit's 20th anniversary, with over 100 cars entered and free public entry.",
+      "quote": "The much-anticipated Bangsaen Grand Prix 2026 officially got underway today, marking the start of a five-day motorsport spectacular celebrating the event's 20th anniversary... Free public entry for the entire event",
+      "url": "https://thepattayanews.com/2026/07/01/bangsaen-grand-prix-2026-kicks-off-with-high-octane-action-on-day-one/",
+      "source_title": "Bangsaen Grand Prix 2026 Kicks Off with High-Octane Action on Day One",
+      "source_type": "press",
+      "date_of_source": "2026-07",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F26",
+      "topic": "events",
+      "fact": "The 2025 Bang Saen Sand Pagoda Festival (Wan Lai), held during the extended Songkran season, drew official participation from the Tourism Authority of Thailand's Pattaya office, whose entry was a sand sculpture titled 'Whale of Freedom.'",
+      "quote": "TAT's entry: \"Whale of Freedom\" sand sculpture... symbolism: harmony with nature, boundless travel, and the spirit of joy in Thai New Year festivities",
+      "url": "https://www.pattayamail.com/latestnews/news/bang-saen-sand-pagoda-festival-2025-shines-with-whale-of-freedom-sculpture-and-colorful-creations-498217",
+      "source_title": "Bang Saen Sand Pagoda Festival 2025 shines with whale of freedom sculpture and colorful creations",
+      "source_type": "press",
+      "date_of_source": "2025-04",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F27",
+      "topic": "safety",
+      "fact": "On November 7, 2025, the water along Bang Saen Beach turned visibly black near shore; locals and vendors attributed it to a plankton bloom mixed with freshwater runoff from the Bang Pakong River after storms, reported no bad odor or dead fish, and expected it to clear within days.",
+      "quote": "Sirikanya Triudom, 70-year-old beach vendor: \"Two weeks ago, it was crystal clear when the cool season started. But now the rain and freshwater from Bang Pakong River are mixing with seawater, which makes it look like this.\" Phuridech Singsat, 30-year-old food vendor: \"It's not dangerous. There are no dead fish and no strong smell. It just looks odd.\"",
+      "url": "https://thethaiger.com/news/eastern-thailand/bang-saen-beach-turns-black-vendors-fear-tourist-drop",
+      "source_title": "Bang Saen Beach turns black, vendors fear tourist drop",
+      "source_type": "press",
+      "date_of_source": "2025-11",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F28",
+      "topic": "nature",
+      "fact": "On May 15, 2026, a baby Irrawaddy dolphin calf (about 1.20 m) stranded at Bang Saen Beach — the first such stray recorded there — was rescued by Saen Suk's White Shark Marine Life Rescue Team led by Natdanai Mongkunkong and taken to Burapha University's Institute of Marine Science for treatment, but died despite the care.",
+      "quote": "This is the first time we have encountered an Irrawaddy dolphin calf straying into Bang Saen Beach... Calf measured approximately 1.20 meters in length... The dolphin died despite rescue efforts and veterinary care",
+      "url": "https://thepattayanews.com/2026/05/17/baby-irrawaddy-dolphin-rescued-at-bang-saen-beach-dies-despite-efforts/",
+      "source_title": "Baby Irrawaddy Dolphin Rescued at Bang Saen Beach Dies Despite Efforts",
+      "source_type": "press",
+      "date_of_source": "2026-05",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F29",
+      "topic": "access",
+      "fact": "Motorway 7, the road route linking Bangkok to Chonburi/Pattaya past Bang Saen, is Thailand's first intercity motorway: 149.3 km total, with a 125.865 km Bangkok-to-Pattaya section, a 120 km/h speed limit, and 9 tollgates.",
+      "quote": "The country's first intercity motorway... Total Length: 149.3 km (92.8 mi), with the Bangkok-to-Pattaya section measuring 125.865 km (78.209 mi)... Speed Limit: 120 kilometers per hour",
+      "url": "https://en.wikipedia.org/wiki/Motorway_7_(Thailand)",
+      "source_title": "Motorway 7 (Thailand)",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F30",
+      "topic": "access",
+      "fact": "Motorway 7 toll examples by vehicle class: 25/45/60 THB (4-wheel/6-wheel/over-6-wheel) at the Lat Krabang gate, rising to 105/170/245 THB at the Pattaya gate.",
+      "quote": "Toll Rates: The motorway has 9 tollgates with rates varying by distance and vehicle type... Lat Krabang charges 25/45/60 baht, while Pattaya charges 105/170/245 baht",
+      "url": "https://en.wikipedia.org/wiki/Motorway_7_(Thailand)",
+      "source_title": "Motorway 7 (Thailand)",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F31",
+      "topic": "access",
+      "fact": "Motorway 7 runs from the Sri Nagarindra Interchange in Bangkok's Suan Luang district through Samut Prakan, Chachoengsao, and Chonburi to Map Ta Phut in Rayong; its Pong-to-Map Ta Phut extension opened in May 2020.",
+      "quote": "originates at Sri Nagarindra Interchange in Bangkok's Suan Luang District and extends southeast through Samut Prakan, Chachoengsao, Chonburi, and Rayong provinces, terminating at Sukhumvit Road in Map Ta Phut... Extension: Pong to Map Ta Phut opened in May 2020",
+      "url": "https://en.wikipedia.org/wiki/Motorway_7_(Thailand)",
+      "source_title": "Motorway 7 (Thailand)",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F32",
+      "topic": "food",
+      "fact": "English Wikipedia's only description of Bang Saen's food scene is generic: beachfront seafood restaurants and beach-chair rental facilities, with no specific dish, vendor, or business named.",
+      "quote": "The beach offers various attractions including swimming, water sports, and dining, with facilities for beach chair rentals and seafood restaurants.",
+      "url": "https://en.wikipedia.org/wiki/Bang_Saen_Beach",
+      "source_title": "Bang Saen Beach",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F33",
+      "topic": "nature",
+      "fact": "Rescuers believe strong waves and windy conditions caused the Irrawaddy dolphin calf to become separated from its group before it stranded at Bang Saen.",
+      "quote": "Strong waves and windy conditions are believed to have caused the calf to become lost from its group.",
+      "url": "https://thepattayanews.com/2026/05/17/baby-irrawaddy-dolphin-rescued-at-bang-saen-beach-dies-despite-efforts/",
+      "source_title": "Baby Irrawaddy Dolphin Rescued at Bang Saen Beach Dies Despite Efforts",
+      "source_type": "press",
+      "date_of_source": "2026-05",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F34",
+      "topic": "safety",
+      "fact": "The warning about nighttime vessel traffic endangering the Bang Saen whale pod is attributed to Eksak Soemsri, a marine rescue official and boat owner who conducts the whale survey -- not to conservationists generally -- and names pair trawlers alongside commercial fishing boats as the specific risk.",
+      "quote": "there is concern over nighttime vessel traffic, especially from pair trawlers and commercial fishing boats, since whales rest with half of their brain asleep",
+      "url": "https://en.thairath.co.th/news/local/2942437",
+      "source_title": "Tourists Amazed as Bryde's Whale Pod Appears Near Bang Saen Beach, Up to 13 Spotted",
+      "source_type": "press",
+      "date_of_source": "2026-06",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F35",
+      "topic": "events",
+      "fact": "Wikipedia's Bangsaen Street Circuit page lists Porsche Carrera Cup Asia as run 2017-2019 and again from 2024, and TCR Asia as a former event run only 2017-2019.",
+      "quote": "Porsche Carrera Cup Asia (2017-2019, 2024-present); TCR Asia (2017-2019, former)",
+      "url": "https://en.wikipedia.org/wiki/Bangsaen_Street_Circuit",
+      "source_title": "Bangsaen Street Circuit (Wikipedia)",
+      "source_type": "wikipedia",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    }
   ],
   "recency": {
-    "queries": ["\"Bang Saen\" 2026 news", "\"Bang Saen\" 2025 news festival", "Bryde's whale Bang Saen Gulf of Thailand sighting 2026", "Bang Saen beach water quality pollution report", "Bang Saen beach drowning death Thai news"],
+    "queries": [
+      "\"Bang Saen\" 2026 news",
+      "\"Bang Saen\" 2025 news festival",
+      "Bryde's whale Bang Saen Gulf of Thailand sighting 2026",
+      "Bang Saen beach water quality pollution report",
+      "Bang Saen beach drowning death Thai news"
+    ],
     "newest_item": "Bangsaen Grand Prix 2026 ran July 1-5, 2026, the circuit's 20th-anniversary edition with 100+ cars and free public entry (F25); close behind, a 13-strong Bryde's whale pod was documented off Bang Saen on June 26, 2026 (F08), and a stranded Irrawaddy dolphin calf died at Bang Saen on May 15-17, 2026 despite rescue (F28).",
-    "fact_ids": ["F25", "F08", "F09", "F10", "F28", "F27", "F26"]
+    "fact_ids": [
+      "F25",
+      "F08",
+      "F09",
+      "F10",
+      "F28",
+      "F27",
+      "F26"
+    ]
   },
   "dead_ends": [
     "No official source or dated press report confirms lifeguard staffing, rip-current risk, or formal beach-closure protocols specific to Bang Saen; searches for drowning/rip-current incidents there returned nothing beach-specific (only generic Thailand-wide beach-safety content and one unrelated dolphin-death story).",
@@ -94,11 +514,48 @@
     "Khao Sam Muk's height is given as 54 m in Wikipedia's infobox but 45 m in the article's own body text (F11) — the discrepancy exists within a single source and is unresolved."
   ],
   "derivations": [
-    {"id": "D01", "fact": "Site dataset gives Bang Saen's straight-line distance to Suvarnabhumi Airport (BKK) as 50.3 km and to the nearest city, Si Racha, as 10.3 km.", "from": []},
-    {"id": "D02", "fact": "Site dataset (Open-Meteo Marine reanalysis) gives Bang Saen's wave height: annual mean 0.37 m, biggest month April at 0.55 m, calmest month October at 0.14 m.", "from": []},
-    {"id": "D03", "fact": "Black-water event (Nov 7, 2025) to whale-pod sighting (Jun 26, 2026) spans about seven months (7 months, 19 days), not thirteen months.", "from": ["F27", "F08"]},
-    {"id": "D04", "fact": "Dolphin-calf stranding (May 15, 2026) to whale-pod sighting (Jun 26, 2026) spans six weeks (42 days), not eleven months.", "from": ["F28", "F08"]},
-    {"id": "D05", "fact": "Site dataset field cyclone_count_50yr = 2 means: two tropical cyclones have affected the area in the last 50 years, both at tropical-storm intensity (cyclone_max_category = TS); shark_incidents_total = 0, meaning no recorded shark incident.", "from": []}
+    {
+      "id": "D01",
+      "fact": "Site dataset gives Bang Saen's straight-line distance to Suvarnabhumi Airport (BKK) as 50.3 km and to the nearest city, Si Racha, as 10.3 km.",
+      "from": []
+    },
+    {
+      "id": "D02",
+      "fact": "Site dataset (Open-Meteo Marine reanalysis) gives Bang Saen's wave height: annual mean 0.37 m, biggest month April at 0.55 m (big days peaking around 0.74 m), calmest month October at 0.14 m.",
+      "from": []
+    },
+    {
+      "id": "D03",
+      "fact": "Black-water event (Nov 7, 2025) to whale-pod sighting (Jun 26, 2026) spans about seven months (7 months, 19 days), not thirteen months.",
+      "from": [
+        "F27",
+        "F08"
+      ]
+    },
+    {
+      "id": "D04",
+      "fact": "Dolphin-calf stranding (May 15, 2026) to whale-pod sighting (Jun 26, 2026) spans six weeks (42 days), not eleven months.",
+      "from": [
+        "F28",
+        "F08"
+      ]
+    },
+    {
+      "id": "D05",
+      "fact": "Site dataset field cyclone_count_50yr = 2 means: two tropical cyclones have affected the area in the last 50 years, both at tropical-storm intensity (cyclone_max_category = TS); shark_incidents_total = 0, meaning no recorded shark incident.",
+      "from": []
+    },
+    {
+      "id": "D06",
+      "fact": "Black-water event (Nov 7, 2025) to dolphin-calf stranding (May 15, 2026) spans about six months (6 months, 8 days), not seven.",
+      "from": [
+        "F27",
+        "F28"
+      ]
+    }
   ],
-  "budget": {"searches": 20, "fetches": 20}
+  "budget": {
+    "searches": 20,
+    "fetches": 20
+  }
 }
