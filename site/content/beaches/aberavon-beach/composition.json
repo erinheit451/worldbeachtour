@@ -1,0 +1,46 @@
+{
+  "slug": "aberavon-beach",
+  "beach_name": "Aberavon Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A three-mile steel-town beach in Swansea Bay, regenerating its seafront as the blast furnace behind it goes dark.",
+  "spike_statement": "Port Talbot's blast furnace closed 30 September 2024; Aberavon's seafront masterplan of hot tubs, saunas and beach huts was approved 5 February 2025.",
+  "levers": {
+    "primary_color": "#4A5A62",
+    "supporting_color": "#D98A4A",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "WRY",
+    "photo_tone": "Grey Atlantic surf under the steelworks skyline, the new timber-and-amber seafront catching low evening light."
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "travel",
+      "type": "audience_guide"
+    },
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

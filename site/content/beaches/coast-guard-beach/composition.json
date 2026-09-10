@@ -1,0 +1,42 @@
+{
+  "slug": "coast-guard-beach",
+  "beach_name": "Coast Guard Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "An Atlantic beach in Cape Cod National Seashore where a 1936 Coast Guard station, a vanished writer's cottage, and an actively eroding bluff sit within sight of each other.",
+  "spike_statement": "The 'historic' Coast Guard station on the bluff is a 1936 replacement, built after a Treasury Secretary got rained on at a 1935 picnic.",
+  "levers": {
+    "primary_color": "#3B5266",
+    "supporting_color": "#C9B896",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "WRY",
+    "photo_tone": "Slate Atlantic gray-blue against the Colonial Revival station's white clapboard, low bluff light, no filtered warmth"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "environment",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
