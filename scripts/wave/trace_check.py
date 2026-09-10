@@ -34,15 +34,27 @@ SKIP_KEYS = {"lat", "lng", "position_along_beach_pct", "anchor_para_index", "mon
              "centroid_lat", "centroid_lng"}
 
 
+URL = re.compile(r"https?://\S+|www\.\S+")
+
+
 def numbers(text):
     out = set()
-    for m in NUM.finditer(text or ""):
+    text = URL.sub(" ", text or "")          # digits inside URLs are not claims
+    for m in NUM.finditer(text):
         raw = m.group(1).replace(",", "")
         try: v = float(raw)
         except ValueError: continue
         if v.is_integer() and v <= IGNORE_SMALL: continue
         out.add(raw.rstrip("0").rstrip(".") if "." in raw else raw)
     return out
+
+
+def data_numbers(content_root, slug):
+    """site/data/beaches/<slug>.json is a trusted structured source (straight-line km, sand, safety)."""
+    p = os.path.join(os.path.dirname(content_root.rstrip("/\\")), "data", "beaches", f"{slug}.json")
+    try: d = json.load(open(p, encoding="utf-8"))
+    except Exception: return set()
+    return numbers(json.dumps(d, ensure_ascii=False))
 
 
 def sheet_numbers(sheet):
@@ -74,7 +86,7 @@ def check(content_root, research_root, slug):
         return [f"no fact sheet at {rp}"], []
     sheet = json.load(open(rp, encoding="utf-8"))
     ids = {f.get("id") for f in sheet.get("facts") or []}
-    snums = sheet_numbers(sheet)
+    snums = sheet_numbers(sheet) | data_numbers(content_root, slug)
     c = json.load(open(os.path.join(d, "composition.json"), encoding="utf-8"))
     s = json.load(open(os.path.join(d, "showcase.json"), encoding="utf-8"))
 

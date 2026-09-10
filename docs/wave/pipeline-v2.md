@@ -13,7 +13,7 @@ any specific not in the fact sheet is by construction invented.
 
 | stage | model  | web | reads | writes | gate |
 |---|---|---|---|---|---|
-| R research | sonnet | ≤25 search / ≤20 fetch | data json, meta, scaffold mdx, spec | `research/<slug>.json` | ≥30 facts w/ verbatim quotes + URLs, dead_ends listed |
+| R research | sonnet | ≤20 search / ≤20 fetch | data json, meta, scaffold mdx, spec | `research/<slug>.json` | ≥30 facts w/ quotes + URLs, dead_ends listed. NEXT WAVE: scout → harvest.py → extract → quote_check.py (see Citation finding) |
 | A author   | sonnet | **none** | sheet, spec, manila exemplar | composition, showcase (+`fact_ids`), spoke mdx, overview+travel rewrite | `mech_check.py` + `trace_check.py` self-run |
 | M mech     | —      | — | page | — | `mech_check.py`, `trace_check.py`, `build_ledger.py` |
 | V verify   | sonnet | ≤15 fetch / ≤5 search | page, sheet, ledger | `verdicts/<slug>.verdict.json` | Audit 1 sheet→page (overstatement), Audit 2 re-fetch cited URLs, recency |
@@ -44,23 +44,49 @@ repaired and re-gated), render passes. Commit per wave.
   re-researches; it re-fetches.
 
 ## Cost — measured (subagent_tokens as reported by the Agent tool; same metric as the v1 figures)
-| stage | v1 (Wave 1–2) | v2 pilot-1 (unbundled, 2026-09-10) | v2 pilot-2 (bundled+batched) |
+| stage | v1 (Wave 1–2) | v2 pilot-1 (unbundled) | v2 pilot-2 (bundled+batched) |
 |---|---|---|---|
-| R research | (inside author) | 120k / 124k / 134k — 34–47 tool calls | _fill_ |
-| A author   | ~200–460k incl. research | 158k / 162k / 181k — 28–34 tool calls | _fill_ |
-| V verify   | ~150k (2× fable) | 142k / 158k / 148k — 25–35 tool calls | _fill_ |
-| P repair   | ~20k | 78k / 78k / 68k — 6–14 tool calls | _fill_ |
-| **all-in** | **~370k** | **~500k** ✗ | target ≤200k |
+| R research | (inside author) | 120k / 124k / 134k — 34–47 calls | 139k / 141k — 42–46 calls |
+| A author   | ~200–460k incl. research | 158k / 162k / 181k — 28–34 calls | 141k / 172k — 17 / 12 calls |
+| V verify   | ~150k (2× **fable**) | 142k / 158k / 148k — 25–35 calls | 128k / 137k — 20 / 27 calls |
+| P repair   | ~20k | 78k / 78k / 68k | 88k / 123k |
+| **all-in (raw tokens)** | **~370k** | **~500k** | **~500k** |
+| **all-in (sonnet-$-equivalent)** | **~970k** (150k fable × 5) | **~500k** | **~500k** |
 
-**Pilot-1 lesson: v2's quality mechanism worked (R caught 2–3 scaffold
-fabrications per beach; A dropped every unsupported specific; V found 1–3 real
-blocking issues per page — an invented "volunteers", an invented 1978 causation,
-a 4-month gap written as five) but the raw token count got WORSE.** Cost is
-turns × context, not facts: each agent dragged a 30–60k context through 25–47
-tool calls (the author re-read a 12k exemplar ~30 times). Fixes applied for
-pilot-2: `bundle.py` makes every stage one-read (16–22k tokens) → one-write; the
-exemplar is a 3k excerpt; research/verify issue searches and fetches in parallel
-batches of 4–6 per turn; verify fetch cap 12, only load-bearing rows.
+Pricing (2026-09): Sonnet 5 $2/$10, Opus 5 $5/$25, Fable 5.1 $10/$50 per MTok ⇒ a
+fable token costs 5× a sonnet token. v1's two fable verify passes were the bill.
+**v2 is ~2× cheaper per page in dollars at equal-or-better catch rate**, on raw
+tokens it is ~35% more. The raw-token target of ≤200k was the wrong yardstick;
+the target is ≤400k sonnet-equivalent with zero fable.
+
+What pilot-2 disproved: "cost = turns × context". Kozhikode's author used 12 tool
+calls and still cost 172k — the author stage is OUTPUT-bound (~60 KB of files +
+reasoning). Bundling cut verify ~15% and removed the exemplar re-reads; it did
+not change research (dominated by fetched-page volume) or authoring.
+
+Quality across 5 pilot pages: R caught 2–3 scaffold fabrications per beach; A
+dropped every unsupported specific (fees, drive times, species counts, hotel
+names); V found 1–5 real blocking issues per page — invented characterisation
+("volunteers" for "a private initiative"), invented causation (1978 inlet), date
+arithmetic (2 pages: "five months" for 4m6d, "thirteen months" for 7.6m), a
+"completed" that the source calls "in progress", and **misattributed citations
+(Kozhikode: true claims pinned to URLs that don't contain them)**. All repaired.
+
+## Citation finding — WebFetch quotes are not verbatim (measured)
+`quote_check.py` (zero-LLM: fetch each fact's URL, grep for its quote) found
+**~70% of pilot-1 "verbatim" quotes absent from their pages, Wikipedia included.**
+Cause: WebFetch returns a small model's rendering of the page, so researchers
+quote paraphrases ("south-western" for "southwestern", infobox values stitched
+into sentences). The sheets are largely right; the quotes are not greppable, so
+citation misattribution is invisible until a verifier re-reads the source.
+
+Fix (built, not yet run on a wave): split research into
+**scout** (`prompts/scout.md`, search-only → `research/urls/<slug>.txt`) →
+**`harvest.py`** (zero-token raw fetch → `research/src/<slug>/`, gitignored) →
+**extract** (`prompts/extract.md`, one read of the ~40k-token sources bundle →
+one Write, quotes are substrings of raw text) → **`quote_check.py`** as a
+mechanical citation gate before authoring. Expected: research ≈ 100k with
+greppable quotes; verify shrinks to the rows quote_check could not confirm.
 
 ## Triage (before spending anything)
 The remaining queue (146 clean buildable at 2026-09-10) is thinner than what is

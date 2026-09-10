@@ -56,6 +56,10 @@ def verify(slug):
     except Exception: pass
     parts.append(section("claims ledger (build_ledger.py)", led))
     parts.append(section("research/<slug>.json fact sheet", rd(os.path.join(RESEARCH, f"{slug}.json"))))
+    parts.append(section("site/data/beaches/<slug>.json — TRUSTED structured dataset (straight-line km, sand, "
+                         "safety: shark_incidents_total, cyclone_count_50yr). Claims sourced here are NOT "
+                         "fabricated; flag only if the page mislabels the source or misreads a value",
+                         rd(os.path.join(DATA, f"{slug}.json"))))
     return "".join(parts)
 
 

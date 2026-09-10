@@ -47,7 +47,11 @@ first write, no incremental edits) → 1 Bash running BOTH gates → one fix pas
   not say "made it famous". If a source says a plan was announced, the page says
   announced, not built. Distinguish held vs scheduled events.
 - Preserve diacritics exactly as the sheet has them (São, Ölüdeniz, Bečići).
-- Do the arithmetic once and check it (month counts, year gaps).
+- **Date spans are the #1 arithmetic defect (2 of 5 pilot pages).** Any "N months/
+  weeks/years later/between" in prose MUST have a `derivations` entry in the sheet
+  showing both dates and the computed gap, e.g.
+  `{"id":"D01","fact":"30 Sep 2024 → 5 Feb 2025 = 4 months 6 days ('just over four months')","from":["F15","F26"]}`.
+  Compute day-precise; round down in words ("just over four months", never "five").
 - No Cyrillic/Greek homoglyphs inside Latin words.
 - Same fact → same number on every surface (airport distance, dates, prices).
 
