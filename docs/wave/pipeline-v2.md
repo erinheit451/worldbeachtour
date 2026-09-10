@@ -72,6 +72,23 @@ arithmetic (2 pages: "five months" for 4m6d, "thirteen months" for 7.6m), a
 "completed" that the source calls "in progress", and **misattributed citations
 (Kozhikode: true claims pinned to URLs that don't contain them)**. All repaired.
 
+
+## Second-pass finding (2026-09-10, measured on all 17 new pages before deploy)
+An INDEPENDENT second verify (fable on the 5 pilots, fresh sonnet on the 12
+Wave-3 pages) after each page had already passed one verify+repair cycle:
+**17/17 FAIL, 46 blocking + 115 advisory (~2.7 blocking/page).** Blockers included
+spike-level misreads (Bang Saen "13+" whales; Kozhikode dropping "near"), stale
+facts (a house demolished in Feb 2026 still "standing"; a festival held ten days
+earlier still "no attendance reported"), a 2018 article presented as 2026, a
+fabricated injury, and one chronology INVENTED BY THE 09-05 REPAIR (Kamala).
+Repairs then needed their own audit (6 checkers): 3/17 repairs introduced new
+damage (a broken spike sentence, an unsupported hedge, a cross-surface
+contradiction). Conclusion: **one verify pass is not gold-standard; the process
+that shipped is R → A → gates → V1 → P1 → V2 (fable, bundled) → P2 → repair-audit
+→ render → deploy.** Cost of that full path ≈ 800k sonnet-equivalent/page for
+Wave-3-style pages, ~1.4M for pilots with a fable V2. Defects recur across passes
+because a page repeats each fact on 4–9 prose surfaces; see the process memo.
+
 ## Citation finding — WebFetch quotes are not verbatim (measured)
 `quote_check.py` (zero-LLM: fetch each fact's URL, grep for its quote) found
 **~70% of pilot-1 "verbatim" quotes absent from their pages, Wikipedia included.**
