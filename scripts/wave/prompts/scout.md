@@ -1,4 +1,4 @@
-# Stage R1 — Scout: find the sources, don't read them (sonnet, WebSearch only)
+# Stage R1 — Scout: find the sources, don't read them (haiku, WebSearch only)
 
 You produce a URL list. A script fetches the pages raw; a second agent extracts
 facts with truly verbatim quotes. Do NOT use WebFetch. Do NOT write facts.
@@ -16,7 +16,9 @@ specifics are hypotheses to source or debunk, not facts).
    dispute|blue flag`; the scaffold's specific claims (hotel names, species, dates).
 3. Recency + culture + food: `<name> 2025`, `<name> 2026` (English and local
    language), `<name> film|festival|event`, `<town> cuisine|restaurant <name>`.
-Budget ≤18 searches. Stop early if the beach clearly has no documented story
+**Budget ≤10 searches, issued as TWO parallel batches of 5 (round 1 = identity +
+official; round 2 = tension + recency). Measured 09-13: 18-search scouts cost ~95k
+tokens because search results are verbose; do not exceed 10.** Stop early if the beach clearly has no documented story
 (say so in the notes — that is a valid, cheap outcome).
 
 ## Output — write EXACTLY one file: `research/urls/<slug>.txt`

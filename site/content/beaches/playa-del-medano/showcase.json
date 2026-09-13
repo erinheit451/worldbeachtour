@@ -4,22 +4,78 @@
   "honest_reckoning_note": "The wind that made El Médano famous is the same wind that makes it a mediocre beach for most people. If you came to sunbathe, you will get sandblasted; if you came to swim in calm water, you will often be fighting chop and an onshore breeze. The water is the cool Atlantic, not the bathtub Mediterranean, and there is no monthly sea-surface temperature on record for this beach, so plan for cooler-than-it-looks swimming. The town is also genuinely busy and exposed, sitting right by the airport flight path, and the \"authentic, non-package\" character that sets it apart from Los Cristianos is being eroded in real time by new construction pushing south toward the Montaña Roja reserve.\n\nThe Blue Flag is worth a caveat too: Playa de Leocadio Machado held one from 2004 to 2016 and then stopped appearing on the list. That doesn't mean the water turned dangerous, but it does mean the beach lost a third-party quality certification it once advertised, and that is the honest version rather than the brochure one.",
   "reckoning_pullquote": "The wind is not a flaw you tolerate here; it is the entire reason the place exists, and it will ruin your sunbathing either way.",
   "key_facts": [
-    { "label": "Trade-wind days", "value": "~300 per year (tourism estimate)", "source": "Tenerife tourism / windsurf operator sources" },
-    { "label": "Montaña Roja height", "value": "171 m volcanic cone", "source": "Cabildo de Tenerife" },
-    { "label": "Special Nature Reserve area", "value": "166 hectares (Act 12/1994)", "source": "Cabildo de Tenerife / webtenerife.co.uk" },
-    { "label": "Town beach (Leocadio Machado)", "value": "~750 m long, ~43 m wide", "source": "Wikipedia: El Médano" },
-    { "label": "Blue Flag held", "value": "2004–2016", "source": "Wikipedia: El Médano" },
-    { "label": "Foreign-origin residents (2013)", "value": "~41% of population", "source": "Wikipedia: El Médano" },
-    { "label": "Mean wave height (annual)", "value": "1.18 m, biggest in August", "source": "Open-Meteo Marine (ERA5, 2023–2024)" },
-    { "label": "Nearest airport", "value": "Tenerife South (TFS), 3.1 km", "source": "World Beach Tour dataset" }
+    {
+      "label": "Trade-wind days",
+      "value": "~300 per year (tourism estimate)",
+      "source": "Tenerife tourism / windsurf operator sources"
+    },
+    {
+      "label": "Montaña Roja height",
+      "value": "171 m volcanic cone",
+      "source": "Cabildo de Tenerife"
+    },
+    {
+      "label": "Special Nature Reserve area",
+      "value": "166 hectares (Act 12/1994)",
+      "source": "Cabildo de Tenerife / webtenerife.co.uk"
+    },
+    {
+      "label": "Town beach (Leocadio Machado)",
+      "value": "~750 m long, ~43 m wide",
+      "source": "Wikipedia: El Médano"
+    },
+    {
+      "label": "Blue Flag held",
+      "value": "2004–2016",
+      "source": "Wikipedia: El Médano"
+    },
+    {
+      "label": "Foreign-origin residents (2013)",
+      "value": "~41% of population",
+      "source": "Wikipedia: El Médano"
+    },
+    {
+      "label": "Mean wave height (annual)",
+      "value": "1.18 m, biggest in August",
+      "source": "Open-Meteo Marine (ERA5, 2023–2024)"
+    },
+    {
+      "label": "Nearest airport",
+      "value": "Tenerife South (TFS), 3.1 km",
+      "source": "World Beach Tour dataset"
+    }
   ],
   "margin_notes": [
-    { "audience": "geology", "anchor_para_index": 1, "text": "The sand is ~78% lithic fragments in the GloPrSM model — rock weathered off basalt, not river-sorted quartz. That's why it reads dark and feels coarser than a continental beach." },
-    { "audience": "surf", "anchor_para_index": 0, "text": "The 300-windy-days figure is a tourism round number, not a logged measurement. The defensible version: trade winds blow here far more often than they don't, peaking June–July." },
-    { "audience": "nature", "anchor_para_index": 2, "text": "Those saltwater ponds in the reserve aren't rain pools — they're seawater that filters up through the dune sand at high tide. Migrating shorebirds work the same tideline." },
-    { "audience": "local", "anchor_para_index": 3, "text": "El Médano grew from a fishing settlement, which is why it feels unlike the built-to-order resorts west of here. The wind drew the foreign residents before the developers did." },
-    { "audience": "surf", "anchor_para_index": 4, "text": "El Cabezo, not the town beach, is where the world cup is sailed. Cross-onshore wind over a reef-and-sand bottom makes the jumping and wave-riding conditions a pro tour needs." },
-    { "audience": "economy", "anchor_para_index": 3, "text": "New building is creeping south toward the reserve boundary. The 'authentic, non-package' label that distinguishes El Médano is a present-tense argument, not a settled fact." }
+    {
+      "audience": "geology",
+      "anchor_para_index": 1,
+      "text": "The sand is ~78% lithic fragments in the GloPrSM model — rock weathered off basalt, not river-sorted quartz. That's why it reads dark and feels coarser than a continental beach."
+    },
+    {
+      "audience": "surf",
+      "anchor_para_index": 0,
+      "text": "The 300-windy-days figure is a tourism round number, not a logged measurement. The defensible version: trade winds blow here far more often than they don't, peaking June–July."
+    },
+    {
+      "audience": "nature",
+      "anchor_para_index": 2,
+      "text": "Those saltwater ponds in the reserve aren't rain pools — they're seawater that filters up through the dune sand at high tide. Migrating shorebirds work the same tideline."
+    },
+    {
+      "audience": "local",
+      "anchor_para_index": 3,
+      "text": "El Médano grew from a fishing settlement, which is why it feels unlike the built-to-order resorts west of here. The wind drew the foreign residents before the developers did."
+    },
+    {
+      "audience": "surf",
+      "anchor_para_index": 4,
+      "text": "El Cabezo, not the town beach, is where the world cup is sailed. Cross-onshore wind over a reef-and-sand bottom makes the jumping and wave-riding conditions a pro tour needs."
+    },
+    {
+      "audience": "economy",
+      "anchor_para_index": 3,
+      "text": "New building is creeping south toward the reserve boundary. The 'authentic, non-package' label that distinguishes El Médano is a present-tense argument, not a settled fact."
+    }
   ],
   "day_in_time": {
     "dawn": "The wind is usually lightest at first light, so dawn is the one window for a calm-ish swim or a walk on Leocadio Machado before the rigs go up. Montaña Roja glows red-brown to the south as the sun clears the Atlantic horizon.",
@@ -28,44 +84,204 @@
     "night": "The wind usually eases after dark and the town's bars and seafront restaurants fill. The airport flight path is close enough that you'll hear and see late arrivals overhead."
   },
   "food_drink": [
-    { "name": "Pescado fresco (fresh local fish)", "description": "Grilled day-boat fish — vieja (parrotfish) and cherne are the Canarian standards — typically served whole with papas and mojo. El Médano's fishing-village origin still shows up on menus.", "where": "Seafront restaurants along the El Médano promenade" },
-    { "name": "Papas arrugadas con mojo", "description": "Small Canarian potatoes boiled in heavily salted water until the skins wrinkle, served with mojo rojo (red, mild-to-spicy) and mojo verde (green, coriander/parsley). The default side everywhere on the island.", "where": "Any traditional restaurant in town" },
-    { "name": "Gofio", "description": "Toasted, milled grain (wheat or maize) that is a Canarian staple going back to the Guanche period — stirred into soups, kneaded with stock, or used in desserts. A genuinely regional thing rather than a tourist invention.", "where": "Canarian restaurants in Granadilla de Abona and El Médano" },
-    { "name": "Barraquito", "description": "A layered Canarian coffee with condensed milk, liqueur (Licor 43), espresso, foamed milk, lemon peel and cinnamon — the local after-meal coffee.", "where": "Cafés along the promenade and town square" }
+    {
+      "name": "Pescado fresco (fresh local fish)",
+      "description": "Grilled day-boat fish — vieja (parrotfish) and cherne are the Canarian standards — typically served whole with papas and mojo. El Médano's fishing-village origin still shows up on menus.",
+      "where": "Seafront restaurants along the El Médano promenade"
+    },
+    {
+      "name": "Papas arrugadas con mojo",
+      "description": "Small Canarian potatoes boiled in heavily salted water until the skins wrinkle, served with mojo rojo (red, mild-to-spicy) and mojo verde (green, coriander/parsley). The default side everywhere on the island.",
+      "where": "Any traditional restaurant in town"
+    },
+    {
+      "name": "Gofio",
+      "description": "Toasted, milled grain (wheat or maize) that is a Canarian staple going back to the Guanche period — stirred into soups, kneaded with stock, or used in desserts. A genuinely regional thing rather than a tourist invention.",
+      "where": "Canarian restaurants in Granadilla de Abona and El Médano"
+    },
+    {
+      "name": "Barraquito",
+      "description": "A layered Canarian coffee with condensed milk, liqueur (Licor 43), espresso, foamed milk, lemon peel and cinnamon — the local after-meal coffee.",
+      "where": "Cafés along the promenade and town square"
+    }
   ],
   "timeline": [
-    { "year": 1925, "month": null, "event_type": "culture", "title": "Novel set in El Médano published", "description": "The novel 'El loco de la playa', set in El Médano, is published by La Prensa, an early literary appearance of the then-small settlement.", "wiki_url": null, "source": "Wikipedia: El Médano" },
-    { "year": 1994, "month": null, "event_type": "conservation", "title": "Montaña Roja declared a Special Nature Reserve", "description": "Canary Islands Autonomous Region Act 12/1994 classes the 166-hectare Montaña Roja area as a Special Nature Reserve and zone of environmental sensitivity, protecting its inorganic sand-based ecosystem and saltwater ponds.", "wiki_url": null, "source": "Cabildo de Tenerife" },
-    { "year": 2004, "month": null, "event_type": "recognition", "title": "Beach awarded European Blue Flag", "description": "Playa de Leocadio Machado receives the European Blue Flag, a water-quality and management certification it would hold for over a decade.", "wiki_url": null, "source": "Wikipedia: El Médano" },
-    { "year": 2013, "month": null, "event_type": "demographics", "title": "Foreign-resident share recorded at ~41%", "description": "Census-era figures put about 41% of El Médano's resident population as foreign-origin, mainly Italian, German, British and Uruguayan — a marker of the wind-driven international community.", "wiki_url": null, "source": "Wikipedia: El Médano" },
-    { "year": 2016, "month": null, "event_type": "recognition", "title": "Blue Flag lapses", "description": "Playa de Leocadio Machado last appears on the Blue Flag list in 2016, ending its 2004–2016 run of the certification.", "wiki_url": null, "source": "Wikipedia: El Médano" },
-    { "year": 2019, "month": "aug", "event_type": "sport", "title": "PWA World Cup at El Médano", "description": "The Professional Windsurfers Association world tour stages its Tenerife event at El Cabezo, drawing top professional riders across wave and slalom disciplines.", "wiki_url": null, "source": "webtenerife.co.uk" },
-    { "year": 2024, "month": null, "event_type": "sport", "title": "Tenerife Windsurf World Cup returns", "description": "The PWA Tenerife event returns to El Médano after roughly four years away, sailed again at El Cabezo.", "wiki_url": null, "source": "eldigitalsur.com / pwaworldcuptenerife.com" },
-    { "year": 2025, "month": "aug", "event_type": "sport", "title": "Grand Slam PWA World Cup scheduled", "description": "The PWA World Tour Tenerife El Médano stop is scheduled for 1–10 August 2025, billed with Wave and Slalom X disciplines and a field of professional windsurfers from around twenty nations.", "wiki_url": null, "source": "pwaworldcuptenerife.com" }
+    {
+      "year": 1925,
+      "month": null,
+      "event_type": "culture",
+      "title": "Novel set in El Médano published",
+      "description": "The novel 'El loco de la playa', set in El Médano, is published by La Prensa, an early literary appearance of the then-small settlement.",
+      "wiki_url": null,
+      "source": "Wikipedia: El Médano"
+    },
+    {
+      "year": 1994,
+      "month": null,
+      "event_type": "conservation",
+      "title": "Montaña Roja declared a Special Nature Reserve",
+      "description": "Canary Islands Autonomous Region Act 12/1994 classes the 166-hectare Montaña Roja area as a Special Nature Reserve and zone of environmental sensitivity, protecting its inorganic sand-based ecosystem and saltwater ponds.",
+      "wiki_url": null,
+      "source": "Cabildo de Tenerife"
+    },
+    {
+      "year": 2004,
+      "month": null,
+      "event_type": "recognition",
+      "title": "Beach awarded European Blue Flag",
+      "description": "Playa de Leocadio Machado receives the European Blue Flag, a water-quality and management certification it would hold for over a decade.",
+      "wiki_url": null,
+      "source": "Wikipedia: El Médano"
+    },
+    {
+      "year": 2013,
+      "month": null,
+      "event_type": "demographics",
+      "title": "Foreign-resident share recorded at ~41%",
+      "description": "Census-era figures put about 41% of El Médano's resident population as foreign-origin, mainly Italian, German, British and Uruguayan — a marker of the wind-driven international community.",
+      "wiki_url": null,
+      "source": "Wikipedia: El Médano"
+    },
+    {
+      "year": 2016,
+      "month": null,
+      "event_type": "recognition",
+      "title": "Blue Flag lapses",
+      "description": "Playa de Leocadio Machado last appears on the Blue Flag list in 2016, ending its 2004–2016 run of the certification.",
+      "wiki_url": null,
+      "source": "Wikipedia: El Médano"
+    },
+    {
+      "year": 2019,
+      "month": 8,
+      "event_type": "sport",
+      "title": "PWA World Cup at El Médano",
+      "description": "The Professional Windsurfers Association world tour stages its Tenerife event at El Cabezo, drawing top professional riders across wave and slalom disciplines.",
+      "wiki_url": null,
+      "source": "webtenerife.co.uk"
+    },
+    {
+      "year": 2024,
+      "month": null,
+      "event_type": "sport",
+      "title": "Tenerife Windsurf World Cup returns",
+      "description": "The PWA Tenerife event returns to El Médano after roughly four years away, sailed again at El Cabezo.",
+      "wiki_url": null,
+      "source": "eldigitalsur.com / pwaworldcuptenerife.com"
+    },
+    {
+      "year": 2025,
+      "month": 8,
+      "event_type": "sport",
+      "title": "Grand Slam PWA World Cup scheduled",
+      "description": "The PWA World Tour Tenerife El Médano stop is scheduled for 1–10 August 2025, billed with Wave and Slalom X disciplines and a field of professional windsurfers from around twenty nations.",
+      "wiki_url": null,
+      "source": "pwaworldcuptenerife.com"
+    }
   ],
   "zones": [
-    { "zone_code": "LM", "name": "Playa de Leocadio Machado (town beach)", "position_along_beach_pct": 40, "lat": 28.0427, "lng": -16.5407, "character": "The main municipal beach fronting the promenade; flatter, more sheltered water and the busiest stretch of sand.", "best_for": "promenade walks, beginner/intermediate windsurf rig-up, town access", "notes": "Held the Blue Flag 2004–2016; ~750 m long and ~43 m wide on average." },
-    { "zone_code": "EC", "name": "El Cabezo", "position_along_beach_pct": 80, "lat": 28.0461, "lng": -16.5331, "character": "The wave-and-wind beach northeast of town; cross-onshore wind over a reef-and-sand bottom.", "best_for": "advanced wave windsurfing, the PWA world-cup venue", "notes": "Technically the most demanding spot here; where the world tour is sailed." },
-    { "zone_code": "MR", "name": "Montaña Roja / Leocadio Machado south end", "position_along_beach_pct": 10, "lat": 28.0337, "lng": -16.5407, "character": "The wild south end under the red volcanic cone, inside the Special Nature Reserve; dunes, reddish sand and saltwater ponds.", "best_for": "hiking the cone, shorebird watching, quieter (but still windy) sand", "notes": "166-hectare reserve; nudism is practised at this end. La Tejita beach lies just beyond the cone." }
+    {
+      "zone_code": "LM",
+      "name": "Playa de Leocadio Machado (town beach)",
+      "position_along_beach_pct": 40,
+      "lat": 28.0427,
+      "lng": -16.5407,
+      "character": "The main municipal beach fronting the promenade; flatter, more sheltered water and the busiest stretch of sand.",
+      "best_for": "promenade walks, beginner/intermediate windsurf rig-up, town access",
+      "notes": "Held the Blue Flag 2004–2016; ~750 m long and ~43 m wide on average."
+    },
+    {
+      "zone_code": "EC",
+      "name": "El Cabezo",
+      "position_along_beach_pct": 80,
+      "lat": 28.0461,
+      "lng": -16.5331,
+      "character": "The wave-and-wind beach northeast of town; cross-onshore wind over a reef-and-sand bottom.",
+      "best_for": "advanced wave windsurfing, the PWA world-cup venue",
+      "notes": "Technically the most demanding spot here; where the world tour is sailed."
+    },
+    {
+      "zone_code": "MR",
+      "name": "Montaña Roja / Leocadio Machado south end",
+      "position_along_beach_pct": 10,
+      "lat": 28.0337,
+      "lng": -16.5407,
+      "character": "The wild south end under the red volcanic cone, inside the Special Nature Reserve; dunes, reddish sand and saltwater ponds.",
+      "best_for": "hiking the cone, shorebird watching, quieter (but still windy) sand",
+      "notes": "166-hectare reserve; nudism is practised at this end. La Tejita beach lies just beyond the cone."
+    }
   ],
   "landmarks": [
-    { "name": "Montaña Roja (Red Mountain)", "landmark_type": "volcanic cone / nature reserve", "year_built": null, "architect_or_designer": null, "description": "A 171-metre red volcanic cone anchoring a 166-hectare Special Nature Reserve (Act 12/1994). The summit trail is a moderate hike with panoramic coastal views; the surrounding reserve protects dunes, reddish sand and tidal saltwater ponds.", "wikipedia_url": "https://en.wikipedia.org/wiki/Monta%C3%B1a_Roja" },
-    { "name": "Playa de Leocadio Machado promenade", "landmark_type": "seafront promenade", "year_built": null, "architect_or_designer": null, "description": "The pedestrian seafront that fronts the main town beach, lining the ~750-metre beach with cafés, windsurf shops and restaurants — the social spine of El Médano.", "wikipedia_url": null }
+    {
+      "name": "Montaña Roja (Red Mountain)",
+      "landmark_type": "volcanic cone / nature reserve",
+      "year_built": null,
+      "architect_or_designer": null,
+      "description": "A 171-metre red volcanic cone anchoring a 166-hectare Special Nature Reserve (Act 12/1994). The summit trail is a moderate hike with panoramic coastal views; the surrounding reserve protects dunes, reddish sand and tidal saltwater ponds.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Monta%C3%B1a_Roja"
+    },
+    {
+      "name": "Playa de Leocadio Machado promenade",
+      "landmark_type": "seafront promenade",
+      "year_built": null,
+      "architect_or_designer": null,
+      "description": "The pedestrian seafront that fronts the main town beach, lining the ~750-metre beach with cafés, windsurf shops and restaurants — the social spine of El Médano.",
+      "wikipedia_url": null
+    }
   ],
   "cultural_refs": [
-    { "ref_type": "literature", "title": "El loco de la playa", "creator": null, "year": 1925, "description": "A novel set in El Médano, published by La Prensa — an early literary record of the settlement.", "wikipedia_url": null },
-    { "ref_type": "historic", "title": "Tenerife Windsurf World Cup (PWA Tenerife)", "creator": "Professional Windsurfers Association", "year": null, "description": "The professional windsurfing world-tour stop repeatedly hosted at El Cabezo, the event most responsible for El Médano's international sporting reputation.", "wikipedia_url": null },
-    { "ref_type": "brand", "title": "Windsurf and kitesurf schools of El Médano", "creator": null, "year": null, "description": "A cluster of rental centres and instructor schools (windsurf, kitesurf, wing-foil) built around the dependable trade winds — the economic expression of the wind statistic.", "wikipedia_url": null }
+    {
+      "ref_type": "literature",
+      "title": "El loco de la playa",
+      "creator": null,
+      "year": 1925,
+      "description": "A novel set in El Médano, published by La Prensa — an early literary record of the settlement.",
+      "wikipedia_url": null
+    },
+    {
+      "ref_type": "historic",
+      "title": "Tenerife Windsurf World Cup (PWA Tenerife)",
+      "creator": "Professional Windsurfers Association",
+      "year": null,
+      "description": "The professional windsurfing world-tour stop repeatedly hosted at El Cabezo, the event most responsible for El Médano's international sporting reputation.",
+      "wikipedia_url": null
+    },
+    {
+      "ref_type": "brand",
+      "title": "Windsurf and kitesurf schools of El Médano",
+      "creator": null,
+      "year": null,
+      "description": "A cluster of rental centres and instructor schools (windsurf, kitesurf, wing-foil) built around the dependable trade winds — the economic expression of the wind statistic.",
+      "wikipedia_url": null
+    }
   ],
   "recurring_events": [
-    { "name": "PWA / Tenerife Windsurf World Cup", "when_text": "Summer (typically early August)", "month": "aug", "description": "Professional windsurfing world-tour competition sailed at El Cabezo across wave and slalom disciplines, drawing roughly 140–160 pro riders from around twenty countries. Held repeatedly over the years; the 2025 edition was scheduled for 1–10 August.", "typical_attendance": "~140–160 professional competitors" }
+    {
+      "name": "PWA / Tenerife Windsurf World Cup",
+      "when_text": "Summer (typically early August)",
+      "month": "aug",
+      "description": "Professional windsurfing world-tour competition sailed at El Cabezo across wave and slalom disciplines, drawing roughly 140–160 pro riders from around twenty countries. Held repeatedly over the years; the 2025 edition was scheduled for 1–10 August.",
+      "typical_attendance": "~140–160 professional competitors"
+    }
   ],
   "businesses": [],
   "things_to_know": [
-    { "label": "Come for the wind or expect to fight it", "note": "There is no calm season. If you want a still beach day, target the autumn lull (lightest mean winds in November) and the dawn window, and still expect afternoon breeze." },
-    { "label": "Two beaches, one town", "note": "Leocadio Machado is the sheltered town beach; El Cabezo, northeast, is the demanding wave-sailing spot and world-cup venue. Pick the one that matches your level." },
-    { "label": "Reserve rules at the south end", "note": "Montaña Roja and its dunes are a protected Special Nature Reserve — stay on trails, don't disturb the saltwater ponds or shorebirds. Nudism is practised at the south end of the beach." },
-    { "label": "Cool Atlantic water, airport overhead", "note": "Swimming is the cooler Atlantic, not Mediterranean-warm, and there's no sea-surface temperature on record here. Tenerife South airport is ~3 km away, so expect aircraft noise." }
+    {
+      "label": "Come for the wind or expect to fight it",
+      "note": "There is no calm season. If you want a still beach day, target the autumn lull (lightest mean winds in November) and the dawn window, and still expect afternoon breeze."
+    },
+    {
+      "label": "Two beaches, one town",
+      "note": "Leocadio Machado is the sheltered town beach; El Cabezo, northeast, is the demanding wave-sailing spot and world-cup venue. Pick the one that matches your level."
+    },
+    {
+      "label": "Reserve rules at the south end",
+      "note": "Montaña Roja and its dunes are a protected Special Nature Reserve — stay on trails, don't disturb the saltwater ponds or shorebirds. Nudism is practised at the south end of the beach."
+    },
+    {
+      "label": "Cool Atlantic water, airport overhead",
+      "note": "Swimming is the cooler Atlantic, not Mediterranean-warm, and there's no sea-surface temperature on record here. Tenerife South airport is ~3 km away, so expect aircraft noise."
+    }
   ],
   "access_note": "El Médano is about 3 km from Tenerife South airport (TFS) and roughly 4 km from San Isidro. From the airport it's a short taxi or bus ride; the TF-1 motorway runs just inland, with the El Médano exit feeding into town. Buses (guaguas) connect to San Isidro, Los Cristianos and Santa Cruz. There is paid and street parking in town, but it fills on windy summer weekends and during the world cup, so arrive early or come by bus."
 }

@@ -6,7 +6,9 @@ surfaces, a chronology invented by a repair, date arithmetic, "completed" vs "in
 progress", a repair that broke a sentence. Those need no web — they need one
 careful read of the whole page against the sheet.
 
-## Read ONE file: the verify bundle (path in your dispatch). No web. ≤3 tool calls.
+## Read the verify bundle parts (paths in your dispatch). No web.
+**HARD CAP: tool calls = (number of parts) + 1 Write. Nothing else — no grep, no Bash,
+no re-reads.** Think through all six hunts below BEFORE writing; the verdict is one Write.
 
 Hunt, in this order:
 1. **Cross-surface contradictions** — the same event/number/name with different

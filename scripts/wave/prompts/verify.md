@@ -26,7 +26,9 @@ WebFetch, ≤4 WebSearch. Fetch, don't search, when you have a URL.
 It contains every page file, the claims ledger, and the fact sheet. Do not read
 anything else. Do Audit 1 entirely from it before touching the web.
 
-## Cost discipline
+## Cost discipline — HARD CAP: (bundle parts) + 2 web batches + 1 Write, i.e. ≤6 tool calls.
+Re-reading a part or issuing fetches one per turn re-bills the whole bundle; 09-13 verifiers
+spent 6–18 calls → ~122k each on pages whose citations were already machine-confirmed.
 Issue fetches in PARALLEL BATCHES of 4–6 per message (one turn), not one per
 turn. Target: 1 Read + 2–3 fetch batches + 1 search batch + 1 Write ≈ 7 tool
 turns. Fetch only the LOAD-BEARING rows: spike, subtitle, key_facts, timeline,

@@ -74,12 +74,24 @@ def verify(slug):
     return "".join(parts)
 
 
+SOURCES_MAX = 130_000   # ≈3 Read parts; harvest files are numbered best-first by the scout,
+                        # so the tail we drop is the lowest-ranked source, and extract's
+                        # tool-call count (parts+1) stays bounded.
+
+
 def sources(slug):
     sd = os.path.join(RESEARCH, "src", slug)
     parts = [f"HARVESTED SOURCES for slug={slug}. Each section is one fetched page (title line = URL)."]
     if not os.path.isdir(sd): return parts[0] + "\n(no harvested sources)"
+    total, dropped = len(parts[0]), []
     for fn in sorted(os.listdir(sd)):
-        parts.append(section(fn, rd(os.path.join(sd, fn))))
+        sec = section(fn, rd(os.path.join(sd, fn)))
+        if total + len(sec) > SOURCES_MAX:
+            dropped.append(fn); continue
+        parts.append(sec); total += len(sec)
+    if dropped:
+        parts.append(section("NOT INCLUDED (bundle cap) — lower-ranked sources; list their URLs under dead_ends if a topic is missing",
+                             "\n".join(dropped)))
     return "".join(parts)
 
 

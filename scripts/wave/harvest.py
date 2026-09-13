@@ -19,7 +19,7 @@ try: sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 except Exception: pass
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-MAX_CHARS = 40_000          # per page; keeps a 20-source bundle ≈ 50k tokens
+MAX_CHARS = 25_000          # per page; Wikipedia leads carry the load, tails are nav/boilerplate
 
 
 def main():
