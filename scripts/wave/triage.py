@@ -22,7 +22,7 @@ PARKED = os.path.join(ROOT, "docs", "wave", "parked.txt")
 GENERIC = {"town beach", "long beach", "main beach", "north beach", "south beach",
            "east beach", "west beach", "city beach", "public beach", "the beach",
            "beach", "municipal beach", "central beach"}
-JUNK = re.compile(r"(-pm\d|reception|water-taxi|parking|hotel|resort|club|marina|pier)$")
+JUNK = re.compile(r"(-pm\d|reception|water-taxi|parking|hotel|resort|club|marina|pier)(-|$)")
 STOP = {"beach", "praia", "playa", "plage", "cala", "spiaggia", "strand", "plaja",
         "plaza", "de", "da", "do", "del", "la", "le", "el", "di", "the", "bay"}
 
