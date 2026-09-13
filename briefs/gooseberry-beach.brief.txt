@@ -1,0 +1,27 @@
+REPAIR BRIEF — gooseberry-beach
+
+4 BLOCKING issue(s). Fix every one. Do not restyle anything else.
+
+--- 1. composition.json spike_statement; subtitle is fine but spike_statement is the hero SPIKE hero_type text
+    CLAIM AS WRITTEN : "...then in 2021 faced a lawsuit over the deed it cites as proof of access."
+    WHY IT IS WRONG  : No source documents a filed lawsuit. F26 (Newport Buzz, 2021) says Brooke Richter 'retained... attorney Amy Rice to represent her in a quest to make Gooseberry essentially a public beach' — an attorney was retained, not litigation filed. The fact sheet's own spike_candidate hedges this correctly as a 'lawsuit threat.' The rest of the page (history.mdx, overview.mdx) correctly say 'retained an attorney,' 'legal action,' 'legal threat' — only the SPIKE headline claim inflates this to 'a lawsuit,' which is a service-level overstatement (the exact 'announced'→'built' class this audit flags).
+    EVIDENCE         : https://thenewportbuzz.com/part-time-resident-threatens-legal-action-against-gooseberry-and-hazards-beaches-over-public-access/30691 — "brooke richter, 55, of miami, florida and newport, ri, has retained middletown attorney amy rice to represent her in a quest to make gooseberry essentially a public beach for newport residents." No source (dead_ends confirms) documents any filing, hearing, or resolution.
+    REQUIRED FIX     : Change spike_statement to: "A shareholder club has charged $30-$40 a day and banned walk-ons, then in 2021 faced a legal threat over the 1952 deed it cites as proof of access."
+
+--- 2. composition.json spike_statement
+    CLAIM AS WRITTEN : "...has charged $30-$40 a day and banned walk-ons since 1952..."
+    WHY IT IS WRONG  : "Since 1952" is only sourced for the club being shareholder-run (F12, F13). The $30/$40 parking price (F18, F19) and the no-walk-on rule (F15) are sourced solely to the club's current (2026) site, with no evidence either has been unchanged since 1952. As written, the sentence claims 74 years of price/policy continuity that no fact supports.
+    EVIDENCE         : F12/F13 (2021 press) support only 'since 1952, shareholders... stewards.' F15/F18/F19 (gooseberrybeach.com, dated 2026-06) are the sole sources for the price and the walk-on ban — neither states or implies an origin date.
+    REQUIRED FIX     : Rescope "since 1952" to modify only the shareholder-run status, e.g.: "A shareholder club, running the beach since 1952, now charges $30-$40 a day and bans walk-ons — then in 2021 faced a legal threat over the deed it cites as proof of access."
+
+--- 3. history.mdx, opening paragraph
+    CLAIM AS WRITTEN : "Gooseberry Beach sits on land that has generated at least two serious disputes over who gets to use it — one in 1880, one in 2021, more than a century apart — over the same underlying question: what does ownership of this stretch of Newport coastline actually entitle the public to?"
+    WHY IT IS WRONG  : The 1880 event (F08, F09) is a contested will/probate dispute over inheritance of the Hazard estate — the sheet gives no indication it was a dispute over public access or beach use. Framing it as the same kind of dispute as the 2021 public-access fight, and as being about 'who gets to use it,' recasts a family/estate contest as an access-rights dispute the sheet does not support.
+    EVIDENCE         : F08: "upon his death in 1880, his will was the subject of contention and controversy." F09: the contested estate "resulted in the gift of rocky farm to the newport hospital." Neither mentions public access, beach use, or a rival claimant to use of the shore.
+    REQUIRED FIX     : Reframe to avoid equating the two: e.g. "Gooseberry Beach sits on land shaped by two separate disputes a century apart: an 1880 fight over Hazard's estate that determined who would own this stretch of coastline, and a 2021 fight over what the public is entitled to once inside that ownership." Or delete the false-equivalence framing entirely and let the two events stand on their own timeline.
+
+--- 4. overview.mdx ("...both times reopening within days..."); travel.mdx Safety section ("Both closures lifted within days..."); showcase.json honest_reckoning_note and spike_explainer ("both times reopening within days")
+    CLAIM AS WRITTEN : The June 2022 and August 2025 bacteria closures "both" reopened "within days."
+    WHY IT IS WRONG  : Only the August 2025 closure has a sourced reopening timeframe: F31 states Spouting Rock and Gooseberry "were closed for just two days." No fact or timeline row documents when the June 2022 closure (F28) was lifted — the timeline has no 2022 reopening event at all. Stating "both times" presents an unsourced duration for 2022 as if it were confirmed.
+    EVIDENCE         : F31 (whatsupnewp.com, 2025-08): "both locations were closed for just two days before bacteria levels dropped back to safe ranges" — this is 2025-only. No 2022 reopening fact exists in the sheet (timeline jumps from the 2022-06 closure event straight to the 2023-07 report).
+    REQUIRED FIX     : Scope the 'reopened within days' claim to 2025 only, e.g.: "...closed Gooseberry to swimming for high bacteria counts in June 2022 and again in August 2025; the 2025 closure lifted within two days once counts fell back under the state's 60 CFU/100 mL threshold." (Apply the same fix in travel.mdx and both showcase.json passages.)

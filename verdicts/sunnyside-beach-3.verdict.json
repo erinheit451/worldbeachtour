@@ -1,0 +1,81 @@
+{
+  "slug": "sunnyside-beach-3",
+  "verdict": "FAIL",
+  "claims_checked": 34,
+  "fetches_used": 1,
+  "searches_used": 1,
+  "spike_verdict": "The core tension (2022 council report nearly revoked a 36-year-old status, 92% of ~4,000 backed keeping it, promised safety upgrades unfulfilled as of Oct 2023) is fully carried by the evidence, but the page overstates finality ('never came') where the record only supports 'hadn't come by Oct 2023.'",
+  "blocking": [
+    {
+      "where": "composition.json spike_statement",
+      "claim": "A 2022 council report on drugs and syringes nearly ended Melbourne's only legal nudist beach; 92% of 4,000 said keep it, but the fixes never came.",
+      "problem": "'Never came' asserts a permanent, closed-out fact. The fact sheet's own dead_ends explicitly say: 'Current (2024-2026) status... and whether the promised car-park cameras, signage and access-track repairs were ever delivered after October 2023 - no source in this bundle covers anything past Oct 2023.' The sheet's own spike_candidate wording (which the page should have kept) correctly bounded this to '...stayed unmet by 2023,' not 'never.' showcase.json's spike_explainer and honest_reckoning_note get this right ('at least not by the last date this record covers'); only the headline spike_statement overstates it.",
+      "evidence": "research/sunnyside-beach-3.json dead_ends[0]; spike_candidates[0].statement ('...stayed unmet by 2023'); F29 (MPNews, Oct 2023, quote: 'no evidence... of any progress in any of these areas, but of course, it could still be in the planning stage')",
+      "fix": "Replace 'but the fixes never came' with 'but the fixes still hadn't come by late 2023' (or equivalent phrasing that scopes the claim to the record's actual end date, matching showcase.json's honest_reckoning_note)."
+    },
+    {
+      "where": "culture.mdx, section 'What the Numbers Actually Show', final paragraph",
+      "claim": "As of October 2023, the people who had organized the online campaign to save the beach were the same people reporting, on the record, that none of the promised upgrades had shown up.",
+      "problem": "Misattribution. I fetched the MPNews Oct 2023 source (F13/F14/F28/F29) directly: the person reporting no progress is named 'Michael James, the Victorian representative on the Australian Naturist Federation' and 'James, who has been going to Sunnyside North for about 30 years' - he is NOT described in the article as an organizer of the Facebook group or the change.org petition. Those were run by 'Michael' (25+ year regular, gay, called the vote result 'emotional' per F26) - a different person the page itself elsewhere carefully distinguishes ('different petitions, on different platforms, run by people who happen to share a first name'). Michael James is, per the ledger, the man behind the minor gopetition.com petition (11 signatures, F21) - not 'the people who had organized the online campaign.' showcase.json's parallel passage avoids this error by calling him only 'a regular beachgoer.'",
+      "evidence": "https://www.mpnews.com.au/2023/10/25/no-easy-access-to-nude-beach/ - fetched directly: 'Michael James, the Victorian representative on the Australian Naturist Federation, said...' and 'James, who has been going to Sunnyside North for about 30 years...'; contrast with F26 (SBS, Dec 2022) which attributes the 'emotional' quote and campaign leadership to 'Michael' with no surname given.",
+      "fix": "Replace with: 'As of October 2023, a long-time regular was reporting, on the record, that none of the promised upgrades had shown up' - dropping the claim that this person organized the online campaign, matching showcase.json's safer phrasing."
+    },
+    {
+      "where": "showcase.json margin_notes (audience: culture, anchor_para_index 0)",
+      "claim": "Do not confuse this with Southside Beach near Point Addis, 176 km away - a similarly named beach that itself replaced a nude beach whose legal status had been revoked, the real precedent for what a 'no' from the minister looks like.",
+      "problem": "The '176 km' figure is misattributed. Per the ledger/fact sheet, F14 sources '176 kilometres each way' specifically to Point Impossible near Torquay ('the next closest is pt impossible near torquay and is 176 kilometres each way from sunnyside north'), not to Southside Beach near Point Addis. No fact in the sheet gives a sourced distance for Southside Beach. The page (correctly, elsewhere in key_facts and travel.mdx) attributes 176 km to Point Impossible; this margin note wrongly reassigns the same number to a different beach.",
+      "evidence": "research/sunnyside-beach-3.json F14 (MPNews Oct 2023): '176 kilometres each way' is stated only about Point Impossible; F43 (Wikipedia: Southside Beach) gives no distance figure at all.",
+      "fix": "Delete '176 km away' from the Southside Beach margin note (e.g. 'Do not confuse this with Southside Beach near Point Addis - a similarly named beach that itself replaced a nude beach whose legal status had been revoked...'), since no source in the sheet supports a distance figure for Southside."
+    }
+  ],
+  "advisory": [
+    {
+      "where": "travel.mdx, 'Getting There'",
+      "claim": "A car is the only realistic way in",
+      "problem": "Stated as a confirmed absolute, but the fact sheet's dead_ends explicitly list 'Road distance or travel time to Melbourne Airport, or public transport options to reach the beach' as unconfirmed either way - the sheet never rules public transport in OR out.",
+      "evidence": "research/sunnyside-beach-3.json dead_ends: 'Road distance or travel time to Melbourne Airport, or public transport options to reach the beach.'",
+      "fix": "Soften to 'Public transport options aren't confirmed for this beach; driving is the documented way in' or delete 'only realistic.'"
+    },
+    {
+      "where": "showcase.json timeline (1932 entry) and composition.json timeline",
+      "claim": "becomes Morning Star Boys' Home, a training centre for delinquent boys",
+      "problem": "F33's quoted text only says the property 'became known as morning star boys' home' - the 'training centre for delinquent boys' descriptor isn't in the quoted snippet provided in the sheet (may be true elsewhere on the Wikipedia page, but isn't independently confirmed by anything in this bundle).",
+      "evidence": "F33 quote: 'in 1932 the property was purchased... and became known as morning star boys' home.'",
+      "fix": "No action required unless a stricter pass is wanted; if tightening, trim to 'becomes Morning Star Boys' Home' without the added descriptor."
+    },
+    {
+      "where": "showcase.json intro_text, Morning Star Estate paragraph",
+      "claim": "now a relisted heritage property",
+      "problem": "Presents a 2020 relisting-for-sale (F40) as the estate's current state in 2026. dead_ends explicitly say the estate's current operating status is unconfirmed past that 2020 citation ('nothing confirms it operates today').",
+      "evidence": "research/sunnyside-beach-3.json dead_ends: \"Morning Star Estate's current operating status as a business... nothing confirms it operates today.\"",
+      "fix": "Change 'now a relisted heritage property' to 'last publicly relisted for sale in 2020' to avoid implying present-day status."
+    },
+    {
+      "where": "showcase.json day_in_time.night",
+      "claim": "...are unsupervised and unlit",
+      "problem": "'Unlit' has no supporting fact in the sheet - only the absence of lifesaver patrol (F09) is sourced.",
+      "evidence": "F09: 'the beach is not patrolled by lifesavers.' No fact addresses lighting.",
+      "fix": "Drop 'unlit' or soften to 'unsupervised at night' unless a source for lighting exists."
+    },
+    {
+      "note": "WebSearch quota was exhausted this session (200/200 used) before any recency search could run for this slug; per dispatch instructions this was not retried. Recency assessment above relies entirely on the fact sheet's own recency block (newest item: MPNews 25 Oct 2023, fact_ids F13/F14/F28/F29), which the page already reflects and correctly does not claim anything past."
+    }
+  ],
+  "verified_ok": [
+    "F01 distance from Frankston ~12km", "F03 only clothes-optional beach on east side of Port Phillip Bay",
+    "F04/F05/F06/F07/F08/F09 geography, access, facilities, no lifesaver patrol",
+    "F10 one of three legal clothing-optional beaches in Victoria (Point Impossible, Southside)",
+    "F12 clothing-optional since 1986", "F13 2023 paid parking $6.20/hr, $19.50/day, 8am-8pm",
+    "F14 Point Impossible 176km each way", "F15/F16 Nov 2021 unanimous council vote to seek review",
+    "F17 2006 prior review floated, went nowhere", "F18 Feb 2022 council report re: drugs/sex/syringes",
+    "F19 Facebook group 870+ followers by May 2022", "F20/F22 change.org petition 800 -> 1,800 signatures",
+    "F21 gopetition.com, 11 signatures, Michael James", "F23/F24/F25 92% of ~4,000 submissions, 6 Dec 2022 vote to retain",
+    "F26 'emotional' quote attributed correctly to Michael (campaign leader)",
+    "F27 funding motion for cameras/signage/police/access", "F28/F29 Oct 2023 no visible progress (correctly NOT attributed to campaign organizers in showcase.json)",
+    "F31 LGBTIQ+ safe space", "F32-F35/F40 Morning Star Estate history and listings",
+    "F36 75,000 rose bushes rose garden", "F37 Partisan (2013-14, Vincent Cassel)",
+    "F38 Mount Eliza population 18,734 (2021 census)", "F43 Southside replaced a revoked beach",
+    "F44/F45 hazard rating 3/10, sandstone/reef/bluff terrain", "F46 Nudity (Prescribed Areas) Act 1983 mechanism",
+    "trusted dataset: nearest airport MBW 24.9km straight-line, shark incidents 0, wave summary (Sep biggest/Jan calmest), sand regime mixed Q-F-L"
+  ]
+}

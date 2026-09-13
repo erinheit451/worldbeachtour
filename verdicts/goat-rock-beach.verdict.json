@@ -1,0 +1,77 @@
+{
+  "slug": "goat-rock-beach",
+  "verdict": "FAIL",
+  "claims_checked": 42,
+  "fetches_used": 0,
+  "searches_used": 1,
+  "spike_verdict": "Yes — F30 (first lifeguard tower, May 2018) and F32 (Dec. 17, 2017 father-son drowning) directly and specifically carry the spike as stated; the county's-second-most-popular framing is separately supported by F46.",
+  "blocking": [
+    {
+      "where": "showcase.json honest_reckoning_note",
+      "claim": "\"That is not a rounding error. It is a four-to-one gap between the number a federal agency's dataset shows and the number a local newsroom could document by simply reading its own archives.\" (comparing NWS's cited 2 drownings vs. the 6 the note lists)",
+      "problem": "Arithmetic error: 6 vs 2 is a three-to-one gap (6 ÷ 2 = 3), not four-to-one. This is exactly the arithmetic-defect class the verify protocol calls out.",
+      "evidence": "Same note, two sentences earlier: \"SFGate reported ... National Weather Service data credited the beach with only two drownings since 2014 ... could independently list at least six separate drowning deaths.\" 6/2 = 3, not 4.",
+      "fix": "Change \"four-to-one gap\" to \"three-to-one gap\" (or reword as \"triple the number\"). Note as a secondary consideration: the NWS figure is scoped to 'since 2014' while the six-death count spans back to 2003 (an event outside the NWS window), so the comparison itself mixes two different time windows — worth a caveat, but the immediate fix is the ratio arithmetic."
+    },
+    {
+      "where": "showcase.json timeline (2017 entry, \"Feasibility study weighs jetty's fate\"); history.mdx, \"Blown Apart for a Jetty\" paragraph 3 (\"In 2017, a feasibility report required by the 2008 Russian River Biological Opinion...\")",
+      "claim": "The jetty feasibility study/report is dated 2017.",
+      "problem": "The cited source for this fact (F22, Environmental Monitor / fondriest.com, \"Abandoned, buried jetty's effects on Russian River estuary studied\") carries date_of_source 2014-03 — i.e., the article itself was published in March 2014. An article published in 2014 cannot be reporting on a study/report from 2017. The '2017' year is internally inconsistent with its own cited source and is very likely wrong (the study more plausibly dates to circa 2013-2014, matching the article's own publish date).",
+      "evidence": "research/goat-rock-beach.json F22: \"date_of_source\": \"2014-03\", url https://www.fondriest.com/news/russian-river-jetty.htm, quote: \"the biological opinion does not require us to fund the removal or modification of the jetty - just to do this study\" — no date within the quote itself supports '2017'.",
+      "fix": "Either correct the timeline year to the date the source actually supports (likely 2013 or 2014, matching the article's 2014-03 dateline) or, if the true study year cannot be confirmed without new research, remove the specific year and describe it simply as \"a feasibility report required by the 2008 Russian River Biological Opinion\" without dating it 2017. Apply the same fix to history.mdx's \"In 2017, a feasibility report...\" sentence."
+    }
+  ],
+  "advisory": [
+    {
+      "where": "overview.mdx, \"Who Actually Goes\" paragraph",
+      "claim": "\"viewing the rookery from a required 50-yard distance\"",
+      "problem": "Overstates the source: F29 says the state \"recommends\" a 50-yard distance, not that it's a hard requirement. travel.mdx and showcase.json key_facts correctly use softer language (\"minimum,\" \"keep a minimum of\"); only this instance upgrades it to \"required.\"",
+      "evidence": "research/goat-rock-beach.json F29 quote: \"the state of california recommends that a 50-yard (46 m) distance be preserved between human visitors and the seasonal marine mammals, especially in the pupping season.\"",
+      "fix": "Change \"required 50-yard distance\" to \"recommended 50-yard distance\" (or \"recommended minimum distance\")."
+    },
+    {
+      "where": "composition.json subtitle",
+      "claim": "\"where swimmers drowned for decades before a lifeguard tower arrived\"",
+      "problem": "The sourced drowning record (F32-F35) only documents incidents from 2003 to 2017 — about 15 years, not clearly 'decades' (plural). Not necessarily false (earlier undocumented drownings may have occurred), but it states more than the sourced record supports.",
+      "evidence": "research/goat-rock-beach.json facts F35 (2003), F34 (2015), F33 (2016), F32 (2017) — earliest documented drowning is 2003.",
+      "fix": "Optional softening: \"for years\" or \"for well over a decade\" instead of \"for decades,\" unless an earlier documented drowning can be cited."
+    },
+    {
+      "where": "showcase.json spike_explainer, \"The tension\" paragraph",
+      "claim": "\"Goat Rock Beach was, by 2016, already one of the most-visited beaches in Sonoma County — voters in a Metroactive readers' poll ranked it the county's second-most-popular beach.\"",
+      "problem": "The Metroactive poll's year is undocumented (cultural_ref for F46 lists year: null / n/d in the ledger). Tying the poll result to \"by 2016\" manufactures a timeframe the sourced record does not establish.",
+      "evidence": "research/goat-rock-beach.json F46 has no date field beyond source access date 2026-08 (Wikipedia); ledger entry for this cultural_ref lists year as n/d.",
+      "fix": "Remove the implied dating, e.g., \"Goat Rock Beach was already one of the most-visited beaches in Sonoma County — voters in an undated Metroactive readers' poll ranked it the county's second-most-popular beach.\""
+    },
+    {
+      "where": "showcase.json spike_explainer, \"The pattern before 2018\" paragraph (75-year-old woman with flowers); history.mdx \"archaeological finds recorded as early as 1849\"",
+      "claim": "Specific narrative details (the 75-year-old woman carrying flowers to memorialize her late son; the 1849 archaeological-find date) appear in the fact sheet's paraphrased \"fact\" field but are not contained in that fact's mechanically-verified \"quote\" snippet (F33's quote only says \"three others reportedly drowned there\"; F14's quote does not mention 1849).",
+      "problem": "Not a page-authoring defect — the page faithfully reproduces what the fact sheet asserts — but these specific details were not independently confirmed by quote_check the way the rest of the fact was, so their accuracy rests on the research stage rather than a verified quote.",
+      "evidence": "research/goat-rock-beach.json F33 and F14 — compare \"fact\" field detail vs. narrower \"quote\" field text.",
+      "fix": "No page edit required under current evidence; flag for the research stage if a future revision re-verifies sourcing. Not blocking."
+    }
+  ],
+  "verified_ok": [
+    "Spike: first lifeguard tower May 2018, first on Sonoma coast (F30); father/6-yr-old-son drowning Dec 17 2017 (F32)",
+    "Day-use fee $10/$9 seniors, bus fees $50/$100 (F24)",
+    "Erosion 1-3 ft/yr; marine terrace 30-150 ft (F18)",
+    "Franciscan Complex rock, 200-30 million years (F17)",
+    "Harbor seals resident since 1974 (F38)",
+    "Estuary fish species 50+ incl. juvenile steelhead/Chinook (F44)",
+    "2nd-most-popular beach, Metroactive readers' poll (F46)",
+    "1929 dynamite: Nov 1 announcement (F04), Nov 17 detonation, 14 tons explosives, ~50,000 tons rock (F05); 16-day gap arithmetic correct (D01)",
+    "Jetty built 1929-1948 in phases, 'nearly two decades' (F06, D02); dimensions 1,600 x 10 x 40 ft (F08)",
+    "1933-34 CWA storm repair, 14 workers, ~$6,000 damage (F07)",
+    "1985 Goonies 'Cauldron Point' final scene (F11)",
+    "Mammoth rubbing-marks conflict (40,000 yrs Wikipedia vs 10,000-20,000 yrs Parkman) correctly presented as unresolved (F12, F13)",
+    "Seal Watch docent program origin, 1970s sewage release (F41)",
+    "Sunset Boulders climbing routes 5.2 to V10 (F45)",
+    "Dogs banned on Goat Rock Beach / allowed leashed on Blind Beach (F25); fishing ban north of south lot to Muniz Ranch (F26); drones banned district-wide (F47)",
+    "Sneaker wave season Dec-Feb peak, Sept-April window (F37)",
+    "Pupping-season date conflict (Mar-Aug state parks vs Mar-Jul Seal Watch) correctly flagged as disputed (F39, F40)",
+    "Nearest airport STS 28.3 km straight-line (correctly hedged as not a road distance), Monte Rio 10.5 km (D03, D04)",
+    "Duncans Mills sector office closure Sept 16-18, 2026, per Sept 10 2026 check (F48) — matches sheet's recency block",
+    "January roughest / August calmest wave months — matches trusted site/data beaches JSON directly",
+    "No businesses/food/lodging claimed — correctly reflects empty businesses list and dead_ends"
+  ]
+}

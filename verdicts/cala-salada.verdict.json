@@ -1,0 +1,49 @@
+{
+  "slug": "cala-salada",
+  "verdict": "PASS",
+  "claims_checked": 29,
+  "fetches_used": 0,
+  "searches_used": 1,
+  "spike_verdict": "Carried: F08 confirms the 2016-launch bus-and-boat program (still described on the town hall's current page), and F12/F13 confirm the 2023, €113,176.02/yr, wildfire-risk-justified checkpoint contract — quote_check mechanically confirmed all cited facts (39/39 OK), so no re-fetch was needed.",
+  "blocking": [],
+  "advisory": [
+    {
+      "where": "showcase.json intro_text para 4; travel.mdx Safety section",
+      "claim": "\"the EU's 2025 bathing-water report rated 85% of roughly 22,000 monitored coastal sites 'excellent'\"",
+      "problem": "F30's verbatim quote is \"in 2025, out of the eu's 22,000 bathing water sites, 85% were classified as excellent\" — it does not say the 22,000 figure is coastal-only. F31 separately discusses \"coastal bathing waters\" as its own reporting category (Italy 33%, France/Spain 14% each), implying the 22,000 total likely includes inland sites too. The page's added word \"coastal\" narrows the source's actual scope.",
+      "evidence": "https://www.eea.europa.eu/en/analysis/publications/european-bathing-water-quality-in-2025 — quoted fact F30 has no \"coastal\" qualifier; F31 treats \"coastal bathing waters\" as a distinct subset.",
+      "fix": "Change \"22,000 monitored coastal sites\" to \"22,000 monitored bathing-water sites\" in both showcase.json intro_text and travel.mdx Safety section."
+    },
+    {
+      "where": "history.mdx para 5 (\"That is not the behavior...\"); composition.json subtitle; showcase.json honest_reckoning_note",
+      "claim": "\"a bus-and-boat program running every summer since 2016\" / the program has been \"continuous since 2016\"",
+      "problem": "The fact sheet only documents discrete snapshots: the 2016 pilot launch and 2017 expansion (F08), a 2017 review noting a new bus line (F27), and the current town-hall page (F07/F09/F10/F11, dated 2026) still describing the same scheme. There is no cited fact confirming the program ran in every intervening year (2018-2022, 2025). \"Every summer since 2016\" / \"continuous\" is a reasonable but unverified inference from two endpoints, not a directly sourced claim.",
+      "evidence": "F08 (Tourinews, 2017-06) and F07/F09/F10/F11 (santantoni.net, dated 2026) are the only two time points on record; no intervening-year source exists in research/cala-salada.json.",
+      "fix": "Optional softening: \"a bus-and-boat program documented at Cala Salada since 2016 and still running today\" instead of \"every summer since 2016\" / \"continuous since 2016.\" Not required — the inference is reasonable and matches the research sheet's own approved spike framing (spike_candidates[0]), so leave as-is unless a stricter pass is wanted."
+    },
+    {
+      "where": "travel.mdx By Air section",
+      "claim": "\"No verified straight-line or road distance, and no drive time, from the airport to Cala Salada turned up in our research\"",
+      "problem": "This is accurate relative to research/cala-salada.json (dead_ends explicitly lists this as unfound), so it is not a defect by the author, who was confined to that file. But the site's own trusted structured dataset (site/data/beaches/cala-salada.json) does carry a figure: nearest_airport = IBZ, distance_km 16.5 (straight-line). The page could not know this since it wasn't in its source file.",
+      "evidence": "site/data/beaches/cala-salada.json: `\"nearest_airport\": {\"iata\": \"IBZ\", \"name\": \"Ibiza Airport\", \"distance_km\": 16.5}`",
+      "fix": "If a future pass has access to the trusted site dataset, add: \"Straight-line distance from Ibiza Airport (IBZ) is about 16.5 km (per site geodata); no sourced road distance or drive time was found.\" No change needed to this bundle/page as currently scoped."
+    }
+  ],
+  "verified_ok": [
+    "SPIKE: 2016 bus/boat launch (F08) + 2023 €113,176.02/yr checkpoint citing extreme wildfire risk (F12, F13) — quote-confirmed",
+    "SUBTITLE: paid checkpoint contract + bus-and-boat program since 2016 (F08, F12, F13)",
+    "key_fact: distance 4.7 km/2.9 mi north of Sant Antoni (F02); Spain Film Commission's 4 km (F33)",
+    "key_fact: beach dimensions 75m x 20m, Wikidata Q5739606 (F03)",
+    "key_fact: checkpoint contract €113,176.02/yr since 2023 (F13); two-year term + option (F15)",
+    "key_fact: bus-and-boat launched 2016 (F08)",
+    "key_fact: car park 65 spaces (F22)",
+    "key_fact: 2016-17 boat fares €9 adult / €4.5 child (F11), correctly caveated as not current-season",
+    "key_fact: pedestrian path ~500m built 2024, correctly derived from \"hace dos años\" in a 2026-04 source (F14 + D01)",
+    "key_fact: 2026-season checkpoint hours daily 9:30-17:00 (F16)",
+    "timeline: 2016 pilot (F08), 2017 expansion to 30 beaches (F08), Feb-2017 bus-34 review (F27), 2023 checkpoint start (F13), 2024 contract terms (F15), 2024 pedestrian path (F14/D01), 2026-04 reactivation (F16, F12)",
+    "landmarks: Casa Rosada divides the two coves (F19); Es Amunts reserve starts here, runs to Sant Carles (F18)",
+    "cultural_refs: escars/dry docks (F34); Barceló's false \"no public transport\" claim (F37); White Ibiza's 2026 \"unscathed\" framing (F35, F36); ornate wrasse habitat 0-50m (F29)",
+    "businesses: none listed on this page (businesses: []) — nothing to confirm as currently operating",
+    "water quality: page correctly separates the trusted-dataset '1 - excellent' station label (site/data) from the EU-wide 85%-excellent regional context (F30), with an explicit caveat that no station-specific EU rating was retrievable"
+  ]
+}

@@ -1,0 +1,21 @@
+REPAIR BRIEF — praia-da-adraga
+
+3 BLOCKING issue(s). Fix every one. Do not restyle anything else.
+
+--- 1. showcase.json key_facts row 'Invasive plants cleared before restoration'
+    CLAIM AS WRITTEN : "Invasive plants cleared before restoration: 63% of the park area"
+    WHY IT IS WRONG  : The label says invasives were CLEARED, but F18 says 63% is how much of the site invasive plants COVERED before any clearing began — i.e. the problem being fixed, not the amount fixed. This inverts the meaning of the number. The page's own environment.mdx DataCard states it correctly two ways down ("Site covered by invasives, pre-restoration"), so this key_fact directly contradicts the rest of the same page.
+    EVIDENCE         : F18: "antes da intervenção, as plantas exóticas invasoras eram um dos maiores problemas do parque: ocupavam cerca de 63% da área" (before intervention, invasive exotic plants... occupied about 63% of the area) — cm-sintra.pt, Parque Ecológico da Adraga e Praia Grande page.
+    REQUIRED FIX     : Change the key_fact label to "Site covered by invasive plants, pre-restoration" (matching the environment.mdx DataCard wording) so the 63% is not read as the amount cleared.
+
+--- 2. environment.mdx DataCard 'Habitats restored directly so far'
+    CLAIM AS WRITTEN : <DataCard label="Habitats restored directly so far" value="17" unit="hectares" />
+    WHY IT IS WRONG  : F19 says crews "directly intervened" on 17 hectares using nature-based solutions — not that those 17 hectares are now "restored" (complete). The page's own body text three paragraphs later gets this right ("the 17-hectare treatment applied", intervention ≠ completion) and separately states full ecological recovery takes 10 years (F32). Labeling the DataCard "restored" contradicts the page's own central thesis that nothing here is finished yet.
+    EVIDENCE         : F19: "foi realizada uma intervenção direta em 17 hectares, baseada em soluções de base natural" (direct intervention was carried out on 17 hectares, based on nature-based solutions) — cm-sintra.pt. F32: "a recuperação do parque ecológico... só ficará concluída após 10 anos" (recovery... will only be complete after 10 years).
+    REQUIRED FIX     : Change the DataCard label to "Hectares with direct restoration work so far" (or "...intervened on so far") — not "restored," which implies completion.
+
+--- 3. showcase.json things_to_know 'Season'; travel.mdx Seasons section
+    CLAIM AS WRITTEN : "Restaurante Adraga keeps shorter winter hours (Wed–Sun, 12:30–21:30, closed Mon–Tue) from October to May, open daily except Tuesday in summer." / "in summer it opens daily except Tuesday."
+    WHY IT IS WRONG  : Live-fetched from the restaurant's own site (2026-09-13): summer hours are Closed Tue; Mon 12:30–16:00 (afternoon only, not the full 12:30–21:30 window); Wed–Sun 12:30–21:30. "Opens daily except Tuesday" reads as full hours every non-Tuesday day, which would mislead a visitor planning a Monday evening trip — Monday closes at 16:00, hours before dinner. Also newly confirmed: the restaurant closes entirely for the whole month of December for holidays, which the page does not mention.
+    EVIDENCE         : https://restaurantedaadraga.com/ (fetched live): winter Wed–Sun 12:30–21:30 closed Mon–Tue (matches page, OK); summer — Closed Tue; Mon 12:30–16:00; Wed–Sun 12:30–21:30; "O restaurante encontra-se encerrado para férias no mês de dezembro" (closed for holidays in December).
+    REQUIRED FIX     : Change to: "in summer it is closed Tuesdays, open shorter hours Monday (12:30–16:00), and 12:30–21:30 Wednesday–Sunday; it also closes for the full month of December."

@@ -1,0 +1,15 @@
+REPAIR BRIEF — sunset-beach-16
+
+2 BLOCKING issue(s). Fix every one. Do not restyle anything else.
+
+--- 1. showcase.json timeline row dated 2022-7, title 'Barge removal completed'
+    CLAIM AS WRITTEN : {"year": 2022, "month": 7, "title": "Barge removal completed", "description": "Removal begins July 25 and finishes more than three months later, at a final cost of $2.4 million to the city."}
+    WHY IT IS WRONG  : The timeline stamps this event July 2022, but its own description says removal only BEGAN July 25 and finished 'more than three months later' -- i.e. completion was Oct/Nov 2022. The row's date reflects the start, not the 'completed' event its title names, and it contradicts the page's own later text (overview.mdx: removal 'wrapped up in late 2022'; spike_explainer: 'wrapping up in the fall of 2022'). A reader scanning just the timeline would conclude the barge was gone by July 2022.
+    EVIDENCE         : F11 (Wikipedia: Sunset Beach (Vancouver)): "removal began on july 25, 2022, and was completed over three months later at a cost of $2.4 million." -- no exact completion month is given anywhere in the fact sheet.
+    REQUIRED FIX     : Split into two rows or retitle/redate this one: change title to 'Barge removal begins' (keep month=7), and if a separate 'completed' row is wanted, date it null/unspecified (e.g. 'late 2022') rather than July, matching the rest of the page.
+
+--- 2. showcase.json recurring_events[1] ('Summer Lights in English Bay / Celebration of Light'), when_text field; cf. culture.mdx final paragraph
+    CLAIM AS WRITTEN : "when_text": "Summer, one night in recent years"
+    WHY IT IS WRONG  : This states the one-night fireworks format as an established pattern across 'recent years' (plural), but the fact sheet and the page's own culture.mdx explicitly say 2026 was the FIRST and only confirmed one-night 'Summer Lights' show (replacing a three-night event cancelled in late 2025), and that whether it continues is unconfirmed ('Whether Summer Lights becomes the new permanent format... is not something this record can answer'). The when_text field contradicts that hedge.
+    EVIDENCE         : F37 (Daily Hive, Jul 2026): "the city of vancouver's 'summer lights in english bay' event will take place this friday, july 31, 2026... in place of the traditional three-night honda celebration of light"; F38: cancellation was 'late 2025' for the 2026 show -- i.e. one confirmed instance, not a multi-year pattern.
+    REQUIRED FIX     : Change when_text to something scoped to what's confirmed, e.g. 'Summer, one night in 2026 (format uncertain going forward)' or 'Summer -- three nights historically, one night in 2026'.

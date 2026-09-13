@@ -1,0 +1,84 @@
+{
+  "slug": "vodarevu-beach",
+  "verdict": "FAIL",
+  "claims_checked": 42,
+  "fetches_used": 0,
+  "searches_used": 4,
+  "spike_verdict": "Carried: F38/F39 (Deccan Chronicle, Oct 2025 — three VIT-Amaravati students drowned, two missing) are both quote-confirmed and the page's numbers (3 drowned, 2 missing, group of 7) match the source exactly.",
+  "blocking": [
+    {
+      "where": "travel.mdx, 'Safety' section, last paragraph",
+      "claim": "\"there is no medical facility on-site — the nearest is in Chirala, with more serious care requiring travel to Vijayawada, about 100 km away.\"",
+      "problem": "No fact in research/vodarevu-beach.json or the claims ledger supports the existence (or absence) of a medical facility in Chirala, nor that Vijayawada is where 'more serious care' is located. This is a fabricated safety/service-infrastructure detail invented for the page — the fact sheet's dead_ends explicitly say safety infrastructure at Vodarevu itself is undocumented, but that's about lifeguards/flags, not a claim about Chirala's hospital or referral pattern. Presenting an invented medical-access chain as fact in a Safety section is exactly the kind of service-level error that could misdirect a reader in an actual emergency.",
+      "evidence": "No matching fact_id in research/vodarevu-beach.json (facts F01-F44) or the ledger; nearest analog is F21 (Vijayawada ~100 km, cited only as nearest airport, onefivenine.com), which says nothing about medical care.",
+      "fix": "Delete the clause about Chirala having a medical facility and Vijayawada being where serious care is available. If a medical-access claim is wanted, it must come from a sourced fact; otherwise state plainly that the source record contains no information on medical facilities near Vodarevu."
+    },
+    {
+      "where": "showcase.json zones[2] (ASHRAM), 'notes' field",
+      "claim": "\"The ashram also runs a small hospital initiative and has published a Telugu-language magazine since 2004.\"",
+      "problem": "Overstatement: F30 documents only that Sri Arulananda Trust *announced/decided to proceed with* a planned Rs 14 crore hospital in January 2006 — there is no fact confirming the hospital was built or is operating. \"Runs a small hospital initiative\" converts a 2006 announcement into a present-tense operating fact, the same 'announced' → 'built' overstatement pattern this audit is meant to catch. Notably this zone's own fact_ids list (F26, F27, F29, F32) doesn't even include F30, so the hospital claim is both overstated and uncited in this specific surface. Compare cultural_refs['Ashram medical and social outreach'], which correctly says 'announced a Rs 14 crore hospital project' — the two surfaces now contradict each other.",
+      "evidence": "research F30: \"sri arulananda trust decided to go ahead with the construction of mini superspeciality hospital estimated to cost rs. 14 crores at vodarevu\" (The Hindu, Jan 2006, via arulananda.org/news.htm) — an announcement to build, not a confirmation of an operating hospital.",
+      "fix": "Change to: \"The ashram also announced plans for a small hospital (2006) and has published a Telugu-language magazine since 2004.\" Add F30 to this zone's fact_ids."
+    }
+  ],
+  "advisory": [
+    {
+      "where": "showcase.json intro_text, paragraph 1",
+      "claim": "\"...in Chirala mandal on India's east coast, near where Andhra Pradesh's Bapatla and Prakasam districts meet.\"",
+      "problem": "The research file's 'conflicts' note frames the Bapatla-vs-Prakasam disagreement as a data-currency issue (older sources like Wikidata and a 2025 press piece haven't caught up with Bapatla being carved out of Prakasam/Guntur in 2022), not as the beach sitting near an actual district boundary line. overview.mdx handles this correctly ('a mismatch that likely dates to Bapatla being carved out of Prakasam and Guntur'); showcase.json's intro_text instead asserts a geographic-proximity framing not present in any fact, and the two surfaces now disagree on why the conflict exists.",
+      "evidence": "research conflicts[0]: \"...likely reflecting the 2022 split of Bapatla out of Prakasam/Guntur\" — a record-lag explanation, not a border-proximity claim.",
+      "fix": "Change to match overview.mdx's framing, e.g. \"...in Chirala mandal on India's east coast (sources disagree on whether this falls in Bapatla or Prakasam district, a holdover from Bapatla's 2022 split from Prakasam).\""
+    },
+    {
+      "where": "showcase.json cultural_refs[2] ('Ashram medical and social outreach')",
+      "claim": "\"the ashram has run a herbal HIV-medicine program (2005)\"",
+      "problem": "F31 documents a single 2005 introduction of an herbal syrup for HIV-positive patients, not a continuing 'program' — 'has run' implies duration/ongoing activity beyond what the source states.",
+      "evidence": "F31: \"the lalithananda ashram at vodarevu... recently introduced a medicine (syrup) for hiv positive patients\" (The Hindu, Feb 2005) — a single introduction event, no follow-up confirming continuation.",
+      "fix": "Change to \"introduced an herbal HIV-medicine syrup (2005)\" to match the source's tense."
+    },
+    {
+      "where": "things_to_know['Where to stay'] and travel.mdx 'Where to stay'/food_drink['Sip 'n Dip']",
+      "claim": "Sea Breeze Beach Resort, Palm Coast Beach Resort, and Sip 'n Dip restaurant are named as current options.",
+      "problem": "Could not independently confirm these three businesses are still operating — this session's WebSearch quota was exhausted (all 4 queries attempted returned 'session has used its web search budget (200 of 200)'), and no fact sheet or ledger URL exists for any of the three to WebFetch directly (they derive from a single 2017 Outlook Traveller travel account, F35/F37). Not scored as blocking because the page already hedges appropriately on every instance ('confirm current operation before booking', 'no fresher confirmation ... found in this research pass').",
+      "evidence": "No fresher source than F35/F37 (Outlook Traveller, 2017-06) exists in research/vodarevu-beach.json; dead_ends explicitly flags stale pricing/no fresher confirmation for this exact area.",
+      "fix": "No page change required given existing hedges; flag for a future pass with web access to confirm current operating status directly."
+    },
+    {
+      "where": "showcase.json key_facts['Nearest airport'] / overview.mdx DataCard",
+      "claim": "\"Nearest airport: Vijayawada Airport, about 100 km away\"",
+      "problem": "The trusted structured dataset (site/data/beaches/vodarevu-beach.json) gives 91.9 km for the same airport — a different, more precise figure from a different pipeline. Not an error (the page correctly cites onefivenine.com for its 100 km figure) but worth noting since the two numbers sit ~8% apart.",
+      "evidence": "onefivenine.com (F21): \"vijayawada airport 100 km near\"; trusted dataset: nearest_airport.distance_km = 91.9.",
+      "fix": "No fix required; optionally note the trusted-dataset figure as a more precise cross-check if the page is revised."
+    }
+  ],
+  "verified_ok": [
+    "SPIKE — VIT-Amaravati drownings, 12 Oct 2025 (F38, F39, Deccan Chronicle)",
+    "SUBTITLE — former port / fishing village / Hyderabad's closest weekend beach (F01, F03, F33)",
+    "Coordinates 15°47′44″N 80°24′51″E (F02, Wikipedia)",
+    "Wikidata coord variant, 'a short distance to the north' (F06)",
+    "District conflict, Bapatla vs Prakasam (F01, F05, F07, F42)",
+    "Distance from Chirala, 6 km vs 8 km (F01, F44, F07)",
+    "Bapatla district portal last updated 19 Aug 2026 (F08)",
+    "Business hours 11:00-01:00 (F25, Mappls)",
+    "Nearest airport Vijayawada ~100 km (F21)",
+    "Elevation ~8 m (F18)",
+    "Recommended season Oct-March (F36)",
+    "Distance from Hyderabad ~310 km (F20)",
+    "Suryalanka resort cluster ~9 km from Bapatla (F09)",
+    "Lalithananda Ashram founded ~70 years ago (F26)",
+    "Nearest rail stations Chirala/Ipurupalem (F22)",
+    "Chirala municipality est. Dec 1940, 33 wards (F16)",
+    "Ashram dining hall/guest house 2003 (F28)",
+    "Sri Rama temple 2004 / Adikesavaswamy rebuild 2004 (F27, F29)",
+    "APTDC Rs 97.52 crore Suryalanka review, April 2026 (F13)",
+    "AP Chambers coastal corridor proposal, May 2025, 'Mini Goa' (F42, F43)",
+    "2023 Hyderabad woman (Samia) drowning (F40)",
+    "Officials' quote on weekend rush / unheeded warnings (F41)",
+    "Chirala population 172,826 / avg temp 28.5°C / handloom weaving (F11, F14, F17)",
+    "Vodarevu lighthouse built for fishermen (F34)",
+    "NH216 / NH544D road access (F15, F24)",
+    "No overnight stay at Vodarevu itself; Chirala resorts (F35)",
+    "Atmajyoti Telugu magazine since 2004 (F32)",
+    "'Cost at least four lives across two years' arithmetic (1 in 2023 + 3 confirmed in 2025 = 4)"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "kokkino-nero-1",
+  "verdict": "FAIL",
+  "claims_checked": 41,
+  "fetches_used": 0,
+  "searches_used": 1,
+  "spike_verdict": "Carried: F27-F31 (Olympus Eastside, all quote_check OK) directly support three bottling attempts (1900 English company, 1930s and 1950s Dimitrakopoulos) each failing on the water's iron content, and the page's spike wording ('failed because of its iron') is actually more conservative than the fact sheet's own candidate wording ('failed within hours') — no overstatement.",
+  "blocking": [
+    {
+      "where": "history.mdx 'Before There Was a Road' para 1; overview.mdx 'Who This Suits'; showcase.json access_note; showcase.json key_facts 'Nearest anchorages'; travel.mdx 'Getting There' para 1",
+      "claim": "\"There is no ferry service directly to the village\" / \"no ferry access\" / \"no ferry service\" (asserted as plain fact in 4-5 places, once explicitly attributed to the Larissa Beach source via the 'Nearest anchorages' key_fact)",
+      "problem": "No fact in the sheet states this. F22 (Larissa Beach, quote_check OK) only says 'the ports of Stomio and Agiokampos are the anchorage for fishing boats and small sailboats' — it says nothing about the absence of a ferry. F23 (kaikia used before the road existed) is about pre-road history, not present-day ferry access. The dead_ends list — which the sheet uses specifically to flag things no source confirms (drive times, prices, lifeguards, Blue Flag) — does NOT include 'no ferry service,' meaning this negative was never verified, only inferred, yet the key_facts row cites it to a source that doesn't say it.",
+      "evidence": "F22 quote (olympuseaside/larissa-beach.gr, quote_check OK): 'the ports of the stomio and agiokampos are the anchorage for fishing boats and small sailboats.' — no ferry statement anywhere in F01-F45 or in dead_ends.",
+      "fix": "Either soften to something like 'no source consulted here documents a ferry service to the village' (matching the page's own hedging pattern used elsewhere for drive times/prices), or delete the ferry claim from the four/five surfaces listed and drop it from the 'Nearest anchorages' key_fact value entirely."
+    }
+  ],
+  "advisory": [
+    {
+      "where": "showcase.json access_note / key_facts (implicitly, distance framing); overview.mdx and travel.mdx repeat the 70km figure without caveat",
+      "claim": "\"Kokkino Nero sits about 70 km from Larissa\"",
+      "problem": "F16 (Larissa Beach, tourism-board, OK) gives 70km from Larissa, but F06 (Greek Wikipedia, OK) independently gives 'about 55 km northeast of Larissa.' That's a 15km/27% spread between two cited sources on exactly the kind of basic figure the page's own honest-reckoning section prides itself on catching (it flags the elevation and 1991-population conflicts but omits this one).",
+      "evidence": "F06: 'απέχει περίπου 55 χιλιόμετρα α.-να. από την λάρισα' (~55km NE of Larissa, Greek Wikipedia). F16: 'it is located ... 70 km. from larissa' (Larissa Beach).",
+      "fix": "Either add this as a third item in the honest_reckoning_note's list of disagreeing sources, or hedge the 70km figure ('70 km by one tourism-board account; Greek Wikipedia instead gives ~55 km') rather than stating 70km as settled."
+    },
+    {
+      "where": "showcase.json margin_notes (history, anchor_para_index 0)",
+      "claim": "\"Wikidata's entry for this village links to six Wikipedia-language editions and one Wikivoyage page\"",
+      "problem": "F45's quote only supports the six-Wikipedia-edition count ('sitelinks wikipedia (6 entries)'). The added detail about a Wikivoyage page is not present in the quoted text and isn't confirmed by any other fact row.",
+      "evidence": "F45 quote (wikidata.org/wiki/Q6426671, OK): 'sitelinks wikipedia (6 entries)' — no Wikivoyage mention.",
+      "fix": "Drop 'and one Wikivoyage page' unless it can be confirmed on the Wikidata item, or hedge it as unverified."
+    },
+    {
+      "where": "history.mdx 'Recognized by the State' section vs showcase.json spike_explainer 'The advice hasn't changed'",
+      "claim": "history.mdx: water 'degrades within a few hours of being bottled'; showcase.json: water 'degrades if it sits bottled for several hours'",
+      "problem": "Minor wording drift between two surfaces describing the same F40 fact ('degrades if bottled for several hours'). Not contradictory, but 'a few hours' and 'several hours' aren't identical and only one matches the source phrasing exactly.",
+      "evidence": "F40 quote (mythessaly.gr, OK): 'το νερό αλλοιώνεται αν μείνει πολλές ώρες εμφιαλωμένο' (the water spoils if it stays bottled many/several hours).",
+      "fix": "Standardize both surfaces to 'several hours' to match the source phrasing."
+    }
+  ],
+  "verified_ok": [
+    "Spike (1900/1930s/1950s bottling failures, iron cause) — F27-F31, all OK",
+    "Subtitle and identity framing (Mount Ossa/Kissavos, never Olympus) — F01/F05, OK; no Olympus misattribution found anywhere on the page",
+    "Two-villages disambiguation (this = Evrymenon/Karitsa, Wikidata Q6426671, pop.116; NOT the Meliboea village) — F04/F45, OK; no fact belonging to the Meliboea village was found misattributed to this page",
+    "Population 116 (2021 census) — F02, OK",
+    "First registration 1928 under Karytsis — F09, OK",
+    "Beach shape (0.5km pebble N / 1km sand S) — F14, OK",
+    "Calypso Gorge dual framing (70m tallest per GR Wikipedia vs 3 unmeasured waterfalls per tourism board), presented as two framings not one fact — F11/F13, OK",
+    "Springs concession 1960s→2003 via presidential decree — F32, OK",
+    "2019 FEK therapeutic classification + indications/contraindications — F35/F36, OK",
+    "Honest-reckoning conflicts: elevation 20m (GR wiki) vs 7m (Wikidata), 1991 pop. 80 vs 76 — F05/F43, F10/F44, OK",
+    "EU bathing water 'excellent'/Coastal/ELBW089097001101 and wave-climate figures — matches trusted site/data/beaches file exactly",
+    "No specific business named anywhere (businesses: []) — consistent with sheet's dead_ends (no confirmed operating business)",
+    "Cultural refs (Stählin, Heldreich, Eurymenae) all correctly hedged where the sheet itself hedges — F33/F34/F03, OK"
+  ]
+}

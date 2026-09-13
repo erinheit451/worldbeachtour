@@ -1,0 +1,51 @@
+{
+  "slug": "praia-do-peneco",
+  "verdict": "PASS",
+  "claims_checked": 30,
+  "fetches_used": 7,
+  "searches_used": 1,
+  "spike_verdict": "The evidence carries the spike as stated: F18 (mayor's 20 Feb 2026 'grande probabilidade'/ex-libris quote, mechanically confirmed OK) plus F21 (mayor concedes the technical call rests with specialists) together support 'said it will, in principle, be demolished' as a fair paraphrase, not a fabricated escalation — 'in principle' reads as 'agreed as a likely outcome pending the specialists' final call,' consistent with both quotes.",
+  "blocking": [],
+  "advisory": [
+    {
+      "where": "SPIKE; subtitle; environment.mdx para 1; showcase.json spike_explainer/honest_reckoning_note",
+      "claim": "\"...said it will, in principle, be demolished\"",
+      "problem": "The phrase 'in principle' is presented as unquoted paraphrase (correctly, no quote marks around it), but I could not independently confirm the literal source wording behind it: WebFetch to the primary source, sulinformacao.pt's 2026-02 article (F18/F21), returned HTTP 403, and archive.org is not fetchable from this tool. The fact sheet's own captured quote for F18 only contains 'há essa grande probabilidade' (strong probability), not an explicit 'em princípio.' Substance is still supported (probability + pending specialist decision, per F18+F21, both quote_check OK), so this is not blocking, but a repair agent should not treat 'in principle' as a verbatim quote if this page is revised.",
+      "evidence": "F18 quote (confirmed OK by quote_check): \"«...é um ex-libris, mas há essa grande probabilidade», disse o autarca.\" — sulinformacao.pt. Direct re-fetch of that URL failed: HTTP 403 Forbidden.",
+      "fix": "No change required. If revisited with source access restored, confirm 'em princípio' or equivalent appears in the full article; otherwise soften to 'said there is now a strong probability it will be demolished' to stay tighter to the quoted text."
+    },
+    {
+      "where": "environment.mdx 'The Money Behind the Repairs'; margin_notes 'economy'; showcase.json spike_explainer",
+      "claim": "\"...one piece of a wider coastal investment plan valued at roughly €111 million.\"",
+      "problem": "The €111M total-plan figure is stated in the research fact sheet's F28 'fact' field (confidence: high) but is NOT inside F28's captured verbatim quote, which only supports the €15M urgent-fund figure. WebFetch to the source, alentejo.sulinformacao.pt (14 Mar 2026), returned HTTP 403, so I could not independently verify the €111M figure's wording. Per the dispatch, quote_check lists F28 as OK (its quoted string was found), so this is not re-fetched as a defect — flagging only because the specific €111M clause sits outside that quote.",
+      "evidence": "F28 quote (OK): \"...no valor de 15 milhões de euros, financiados pelo fundo ambiental\" — alentejo.sulinformacao.pt. Article re-fetch: HTTP 403 Forbidden. Researcher's fact field states the €111M figure with confidence: high.",
+      "fix": "No change required unless source access is restored; then confirm the €111M figure verbatim in the same article before the next full re-verification."
+    },
+    {
+      "where": "showcase.json food_drink 'Roca Beach Bar'; overview.mdx 'Costs' (travel.mdx)",
+      "claim": "\"A beach bar built on the sand in 2018, offering lunch, ice cream, and free toilet facilities — the only on-beach food concession the record confirms.\"",
+      "problem": "F35's own source (Algarve Tips, dated 2026) only confirms the bar was built in 2018 and describes its offerings; neither the fact sheet nor a direct re-fetch of algarvetips.com/beaches/albufeira/praia-do-tunel/ confirms it is still trading in 2026. The page's present-tense wording ('offering') implies ongoing operation without an explicit current-status source. This is a business-adjacent claim; the page's own 'businesses' array is empty (correctly, since no business list is confirmed), but food_drink carries the same risk.",
+      "evidence": "F35: \"in 2018, the construction of a new beach bar was completed... you can have lunch here, buy ice cream or grab a cold beer\" — algarvetips.com. Re-fetch of same URL (2026-09-13) found no language confirming current 2026 operating status either way.",
+      "fix": "Optional: soften to 'A beach bar completed in 2018 that has offered lunch, ice cream, and free toilets — the record does not confirm it is still trading' if a repair pass has web access to check current status; otherwise leave as-is (not a reader-misleading error, just unconfirmed currency)."
+    }
+  ],
+  "verified_ok": [
+    "SPIKE/subtitle core: 20 Feb 2026 mayor statement, fissure, 'ex-libris'/'strong probability,' safety perimeter (F18, F19, F21 — all quote_check OK)",
+    "Distance to Faro by road: 38.5 km (23.9 mi), correctly labeled 'by road' throughout, not conflated with the trusted dataset's separate 26.3km straight-line airport figure (F02)",
+    "Tunnel ~20m, Elevador do Peneco 28m/13 people/free/08:00–21:00, architect João Castro Ferreira (F03, F10, F13)",
+    "Elevator inauguration date conflict (PT Wikipedia 'June 2008' vs. municipal/press '20 May 2009') correctly presented as unresolved on the page rather than silently picking one (F09, F11)",
+    "2023-11 repaint contract €66,334.55, finish 'February 2024' — independently re-confirmed via direct fetch of cm-albufeira.pt: \"deverá ser finalizada no mês de fevereiro de 2024\" (F12)",
+    "1989 fatal cliff collapse; 2022 ~€1.5M stairway/cliff rebuild at Esplanada Dr. Frutuoso da Silva (F07, F08)",
+    "March 2026 APA survey: 24m max recession at Praia do Peneco vs. 15m/14m/6m at three comparison beaches, worst in southern Portugal that survey, correctly scoped ('that survey/season') rather than an all-time claim (F23, F24)",
+    "23 Albufeira storm-damage occurrences / 18 cliff-instability cases, most of any Algarve town; named storms Ingrid, Joseph, Kristin, Leonardo, Marta (F26, F29)",
+    "€27M nationwide damage estimate, €15M urgent Algarve fund pre-summer 2026 (F25, F28)",
+    "Minister Maria da Graça Carvalho 'necessary and super urgent' quote and LNEC request (F20, F22)",
+    "14 Mar 2026 report: access/risk-zone repairs planned, rock's fate still undecided (F27)",
+    "Xorino Grotto 13th-century Moorish-refuge legend, correctly framed as legend not fact, attributed to both Wikipedia and Visit Portugal (F05, F06)",
+    "'Peneco'/leixão name origin and cm-albufeira.pt sourcing; EN/PT Wikipedia dual-title handling as one beach, not two (F01, F04)",
+    "EU Blue Flag 2026 season 1 Jul–30 Sep within 15 May–15 Oct bathing season; water quality '1 - excellent' (F31, trusted site dataset)",
+    "Summer sea temperature disagreement (20-23°C Visit Portugal vs. 19-22°C Algarve Tips) correctly presented as a source conflict, not silently resolved (F33, F34)",
+    "PT Wikipedia overcrowding/parking/traffic/water-quality candor correctly carried into overview.mdx and honest_reckoning (F40)",
+    "Wave character ('mild to moderate, calmer in summer, livelier in winter') matches trusted dataset waves.summary (biggest month Feb, calmest Jul)"
+  ]
+}

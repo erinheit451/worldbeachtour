@@ -1,0 +1,61 @@
+{
+  "slug": "sunset-beach-16",
+  "verdict": "FAIL",
+  "claims_checked": 32,
+  "fetches_used": 7,
+  "searches_used": 2,
+  "spike_verdict": "Well carried: F08/F09/F10/F11 (all quote_check OK, Wikipedia: Sunset Beach) directly support the barge washing ashore Nov 15 2021, becoming a local celebrity, being delayed by a goose nest and lead paint, and costing $2.4M to remove starting July 25 2022 -- no overstatement found in the spike statement itself.",
+  "blocking": [
+    {
+      "where": "showcase.json timeline row dated 2022-7, title 'Barge removal completed'",
+      "claim": "{\"year\": 2022, \"month\": 7, \"title\": \"Barge removal completed\", \"description\": \"Removal begins July 25 and finishes more than three months later, at a final cost of $2.4 million to the city.\"}",
+      "problem": "The timeline stamps this event July 2022, but its own description says removal only BEGAN July 25 and finished 'more than three months later' -- i.e. completion was Oct/Nov 2022. The row's date reflects the start, not the 'completed' event its title names, and it contradicts the page's own later text (overview.mdx: removal 'wrapped up in late 2022'; spike_explainer: 'wrapping up in the fall of 2022'). A reader scanning just the timeline would conclude the barge was gone by July 2022.",
+      "evidence": "F11 (Wikipedia: Sunset Beach (Vancouver)): \"removal began on july 25, 2022, and was completed over three months later at a cost of $2.4 million.\" -- no exact completion month is given anywhere in the fact sheet.",
+      "fix": "Split into two rows or retitle/redate this one: change title to 'Barge removal begins' (keep month=7), and if a separate 'completed' row is wanted, date it null/unspecified (e.g. 'late 2022') rather than July, matching the rest of the page."
+    },
+    {
+      "where": "showcase.json recurring_events[1] ('Summer Lights in English Bay / Celebration of Light'), when_text field; cf. culture.mdx final paragraph",
+      "claim": "\"when_text\": \"Summer, one night in recent years\"",
+      "problem": "This states the one-night fireworks format as an established pattern across 'recent years' (plural), but the fact sheet and the page's own culture.mdx explicitly say 2026 was the FIRST and only confirmed one-night 'Summer Lights' show (replacing a three-night event cancelled in late 2025), and that whether it continues is unconfirmed ('Whether Summer Lights becomes the new permanent format... is not something this record can answer'). The when_text field contradicts that hedge.",
+      "evidence": "F37 (Daily Hive, Jul 2026): \"the city of vancouver's 'summer lights in english bay' event will take place this friday, july 31, 2026... in place of the traditional three-night honda celebration of light\"; F38: cancellation was 'late 2025' for the 2026 show -- i.e. one confirmed instance, not a multi-year pattern.",
+      "fix": "Change when_text to something scoped to what's confirmed, e.g. 'Summer, one night in 2026 (format uncertain going forward)' or 'Summer -- three nights historically, one night in 2026'."
+    }
+  ],
+  "advisory": [
+    {
+      "where": "showcase.json spike_explainer ('How it became a celebrity' section) and margin_notes[0]",
+      "claim": "\"the barge inspired memes, songs, and parodies within weeks of its arrival\"",
+      "problem": "\"within weeks\" is not in the fact sheet. F09 only says the barge 'became a local landmark that inspired memes, songs, and parodies' with no timeframe attached. This is an added specific detail the author had no source for.",
+      "evidence": "F09 (Wikipedia: Sunset Beach (Vancouver), 2022): \"described as a 'celebrity', the barge became a local landmark that inspired memes, songs, and parodies.\" -- no timing language.",
+      "fix": "Delete \"within weeks of its arrival\" / \"within weeks of washing ashore\" in both spots, or soften to \"in short order\" without implying a specific verified timeframe."
+    },
+    {
+      "where": "culture.mdx, 'The unofficial April 20 gathering' section",
+      "claim": "\"At its peak, in 2017, an estimated 40,000 people attended.\"",
+      "problem": "F16 gives only the 2017 figure (40,000); no other year's attendance is in the fact sheet, so there is no source basis for calling 2017 specifically 'the peak' rather than simply the one year for which a number exists.",
+      "evidence": "F16 (Places That Matter): \"an estimated 40,000 people attended the 4/20 rally in 2017.\" -- no comparison across years given.",
+      "fix": "Change to \"In 2017, an estimated 40,000 people attended\" (drop \"at its peak\") unless another year's count is added to substantiate the comparison."
+    },
+    {
+      "where": "showcase.json businesses / food_drink -- Babylon Cafe",
+      "claim": "Babylon Cafe, Denman Street -- presented as a currently valid recommendation.",
+      "problem": "Per the verify prompt's Audit 2 rule, businesses must be confirmed currently operating. Tavola was confirmed live (official site at tavolavancouver.com shows current hours/menu, address 1829 Robson St). Babylon Cafe's current operating status could NOT be confirmed within budget: this session's WebSearch quota was exhausted before any query ran, a guessed official-site URL did not resolve (DNS failure), and Bing/DuckDuckGo fetches returned no usable business data (captcha/irrelevant results). The only source on file is a Daily Hive piece from Oct 2022.",
+      "evidence": "Attempted: WebSearch \"Babylon Cafe Denman Street Vancouver 2026\" (blocked, quota exhausted); WebFetch babyloncafevancouver.com (ENOTFOUND); WebFetch Bing and DuckDuckGo search pages for the cafe (no usable content returned).",
+      "fix": "No page edit needed now, but flag for a follow-up manual check (Google Maps / phone call) before this page ships, since the business recommendation is 4 years old and unverified as currently operating."
+    }
+  ],
+  "verified_ok": [
+    "F08/F09/F10/F11 -- barge washes ashore Nov 15 2021, becomes celebrity, goose-nest/lead-paint delay, removal begins Jul 25 2022 costing $2.4M (spike, subtitle, overview, showcase, timeline, cultural_ref, zones)",
+    "F12/F13/F14/F15 -- 1959 park founding, 1941 Reifel land swap ($15,035 lots + $8,665 sinking-fund payment = $23,700 Granville property, arithmetic checks out), 1974 Aquatic Centre opens on old Crystal Pool site",
+    "F16 -- 2017 4/20 rally, est. 40,000 attendance",
+    "F17/F22/F25/F26 -- AIDS Memorial panel/name count conflict (20 panels/nearly 800 per City; 20 panels/996 per 2010 source; 16 panels per 2005 Xtra) correctly presented as disputed, not resolved falsely",
+    "F18/F19/F20/F21 -- AIDS Memorial: Bruce Wilson, 2004, 10 years to fund, 70+ submissions, 8-year build mired in bureaucracy/homophobia (verbatim Xtra quote correctly attributed)",
+    "F27 -- Dr. Peter memorial quote, correctly attributed and dated (d. 1992)",
+    "F28/F29/F30/F31/F32/F33 -- E. coli closures (Jul 2022: 862/100mL vs 400 limit; Aug 2018: 232 vs 200 guideline, lifted after several days) and VCH's 2023 threshold tightening (400 -> 235), correctly interpreted as making closures MORE likely",
+    "F37/F38/F39/F40 -- 2026 Summer Lights in English Bay: single night, Jul 31 2026, 25-min show at 10pm from a barge, after 2026 Honda Celebration of Light was cancelled in late 2025 for funding reasons; viewing spots list matches",
+    "F41/F42 -- Vancouver Aquatic Centre permanently closed Jun 28 2026 after 52 years, to be replaced by a $175M facility with a smaller pool",
+    "F45 -- West End purchased 1862 by the 'three greenhorn Englishmen' (Morton, Brighouse, Hailstone)",
+    "F46/F47 -- Babylon Cafe and Tavola descriptions match Daily Hive source verbatim; Tavola independently reconfirmed as currently operating at 1829 Robson St via its live official site",
+    "Trusted dataset: YVR distance 10 km correctly labeled 'straight-line' in both overview.mdx DataCard and travel.mdx; shark_incidents_total=0 correctly and carefully phrased in travel.mdx Safety section"
+  ]
+}

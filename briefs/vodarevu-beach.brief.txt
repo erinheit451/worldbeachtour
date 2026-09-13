@@ -1,0 +1,15 @@
+REPAIR BRIEF — vodarevu-beach
+
+2 BLOCKING issue(s). Fix every one. Do not restyle anything else.
+
+--- 1. travel.mdx, 'Safety' section, last paragraph
+    CLAIM AS WRITTEN : "there is no medical facility on-site — the nearest is in Chirala, with more serious care requiring travel to Vijayawada, about 100 km away."
+    WHY IT IS WRONG  : No fact in research/vodarevu-beach.json or the claims ledger supports the existence (or absence) of a medical facility in Chirala, nor that Vijayawada is where 'more serious care' is located. This is a fabricated safety/service-infrastructure detail invented for the page — the fact sheet's dead_ends explicitly say safety infrastructure at Vodarevu itself is undocumented, but that's about lifeguards/flags, not a claim about Chirala's hospital or referral pattern. Presenting an invented medical-access chain as fact in a Safety section is exactly the kind of service-level error that could misdirect a reader in an actual emergency.
+    EVIDENCE         : No matching fact_id in research/vodarevu-beach.json (facts F01-F44) or the ledger; nearest analog is F21 (Vijayawada ~100 km, cited only as nearest airport, onefivenine.com), which says nothing about medical care.
+    REQUIRED FIX     : Delete the clause about Chirala having a medical facility and Vijayawada being where serious care is available. If a medical-access claim is wanted, it must come from a sourced fact; otherwise state plainly that the source record contains no information on medical facilities near Vodarevu.
+
+--- 2. showcase.json zones[2] (ASHRAM), 'notes' field
+    CLAIM AS WRITTEN : "The ashram also runs a small hospital initiative and has published a Telugu-language magazine since 2004."
+    WHY IT IS WRONG  : Overstatement: F30 documents only that Sri Arulananda Trust *announced/decided to proceed with* a planned Rs 14 crore hospital in January 2006 — there is no fact confirming the hospital was built or is operating. "Runs a small hospital initiative" converts a 2006 announcement into a present-tense operating fact, the same 'announced' → 'built' overstatement pattern this audit is meant to catch. Notably this zone's own fact_ids list (F26, F27, F29, F32) doesn't even include F30, so the hospital claim is both overstated and uncited in this specific surface. Compare cultural_refs['Ashram medical and social outreach'], which correctly says 'announced a Rs 14 crore hospital project' — the two surfaces now contradict each other.
+    EVIDENCE         : research F30: "sri arulananda trust decided to go ahead with the construction of mini superspeciality hospital estimated to cost rs. 14 crores at vodarevu" (The Hindu, Jan 2006, via arulananda.org/news.htm) — an announcement to build, not a confirmation of an operating hospital.
+    REQUIRED FIX     : Change to: "The ashram also announced plans for a small hospital (2006) and has published a Telugu-language magazine since 2004." Add F30 to this zone's fact_ids.

@@ -1,0 +1,78 @@
+{
+  "slug": "pendine-sands",
+  "verdict": "FAIL",
+  "claims_checked": 34,
+  "fetches_used": 6,
+  "searches_used": 3,
+  "spike_verdict": "Carried by the evidence in substance (F06, F07, F08 confirm the death, mutilation, burial, and later restoration), but the page overstates causation: the source never says the inquest itself ordered the mutilation/burial, only that it happened after the inquest.",
+  "blocking": [
+    {
+      "where": "composition.json spike_statement; history.mdx 'What Happened to Babs'; showcase.json spike_explainer 'Erasure, not memorial'",
+      "claim": "\"his car Babs was mutilated on inquest orders\" / \"the wreck was buried in the dunes at Pendine on the inquest's instruction\" / \"on the inquest's instruction it was buried in the sand dunes\"",
+      "problem": "Overstated causation. The cited source (F07) says only that the mutilation and burial happened AFTER/FOLLOWING the inquest — it never states the inquest itself ordered or instructed these acts. 'On inquest orders' / 'on the inquest's instruction' asserts a specific official directive that the source does not establish.",
+      "evidence": "Wikipedia, Babs (car) — verbatim: \"Following the inquest into Thomas's death, Babs's seats were slashed, the glass in the dials smashed, and the car was buried in the sand dunes at Pendine.\" (https://en.wikipedia.org/wiki/Babs_(land_speed_record_car) — confirmed by direct re-fetch this session; no sentence anywhere in the article attributes the decision to the inquest.)",
+      "fix": "Replace 'mutilated on inquest orders' with 'mutilated after the inquest into his death' in the spike_statement. Replace 'buried in the dunes at Pendine on the inquest's instruction' (history.mdx) and 'on the inquest's instruction it was buried in the sand dunes at Pendine' (showcase.json) with 'buried in the dunes at Pendine following the inquest' — dropping the implication that the inquest itself ordered it."
+    },
+    {
+      "where": "travel.mdx 'Driving on the Sand'; showcase.json honest_reckoning_note",
+      "claim": "\"Until 2005, any visitor could drive onto Pendine Sands. All vehicle access was then banned outright between 9 July 2004 and May 2010 on safety grounds...\"",
+      "problem": "Self-contradictory date claim: the passage asserts free driving continued until 2005, then in the very next sentence says the ban started 9 July 2004 — a date before 2005. Both cannot be true. This is an unreconciled collision between two of the sheet's own sources: Classic & Sports Car's framing ('until 2005, any visitor could drive on the beach') and Wikipedia's precise ban window (F14: '9 July 2004' to May 2010). showcase.json's intro_text compounds it, separately stating paid permission has been required 'since 2005.'",
+      "evidence": "F33 (Classic & Sports Car, Oct 2024) quote: 'until 2005, any visitor could drive on the beach - and you still can if you're prepared to pay £2000 a day...' vs. F14 (Wikipedia) quote: 'between 9 july 2004 and may 2010 all vehicles were banned from using pendine because of safety concerns.' The fact sheet's own conflicts list flags a related but distinct 2004-vs-2005 discrepancy between two Wikipedia articles; this page-level collision (free-until-2005 stated adjacent to a ban-from-2004) is a further, uncaught version of the same unresolved conflict.",
+      "fix": "Delete the standalone claim 'Until 2005, any visitor could drive onto Pendine Sands' from travel.mdx and the parallel sentence in showcase.json's honest_reckoning_note. Keep only the precisely-dated claim: 'All vehicle access was banned outright between 9 July 2004 and May 2010 on safety grounds; cars have been allowed back since, now at £2,000/day with prior permission.' In showcase.json intro_text, change '...has required paid, pre-arranged permission from Carmarthenshire's local authorities since 2005' to '...has required paid, pre-arranged permission from Carmarthenshire's local authorities since cars were allowed back in 2010' to remove the conflicting year."
+    }
+  ],
+  "advisory": [
+    {
+      "where": "composition.json subtitle; history.mdx 'One further attempt was planned...'",
+      "claim": "\"five land-speed record attempts were made between 1924 and 1927\"",
+      "problem": "The fifth 'attempt' (Foresti, Nov 1927) never actually happened as a record attempt — per F09 and the page's own text, Foresti crashed his car Djelmo 'during a test run,' destroying it before any record attempt could be made. A strict count is four actual attempts (1924, 1926, Feb 1927, fatal March 1927) plus one planned attempt aborted by a pre-run crash.",
+      "evidence": "F09 quote: 'foresti crashed during a test run on 26 november 1927, totally destroying the car' — the crash occurred in testing, not in the record attempt itself.",
+      "fix": "Optional: soften subtitle to 'five bids for the land-speed record' or 'the site of five land-speed record efforts' to cover the aborted Foresti case without asserting all five runs were actually made. Not required if 'attempt' is read loosely enough to include a fatal preparatory crash."
+    },
+    {
+      "where": "history.mdx 'The Record Didn't End in 1927 — It Moved On'",
+      "claim": "\"On 21 July 2015, the 90th anniversary of Campbell's first Pendine record, Wales returned to drive the fully restored original Blue Bird\"",
+      "problem": "Arithmetic: Campbell's first Pendine record was 25 Sept 1924; 2015 minus 1924 is 91, not 90. This mismatch is inherited verbatim from the cited Wikipedia source (F19), not introduced by the page.",
+      "evidence": "F19 quote: 'on 21 july 2015, at pendine beach, the 90th anniversary of sir malcolm campbell's first world land speed record ... was recreated...' — the source itself appears to miscount by a year.",
+      "fix": "No page-level fix needed; the page faithfully repeats a source-level inconsistency. Optional: drop the '90th anniversary' framing and just state the date, to sidestep the source's arithmetic."
+    },
+    {
+      "where": "showcase.json businesses (Parry Thomas Centre, The Caban)",
+      "claim": "Both listed as presently operating.",
+      "problem": "Could not independently reconfirm current operating status this session as instructed for businesses. WebSearch quota was exhausted before any query for this page ran (0 of 3 planned searches executed); DuckDuckGo fetches were blocked by a CAPTCHA page; a Bing fetch returned no relevant results for 'Parry Thomas Centre.' No evidence of closure was found either — a fresh WebFetch of the Carmarthenshire County Council source page (F39/F40) still describes the museum as taking bookings and does not mention any closure of the Centre or the Caban.",
+      "evidence": "Session WebSearch budget message: 'this session has used its web search budget (200 of 200 WebSearch calls)'; DuckDuckGo returned a bot-verification challenge page on two fetch attempts.",
+      "fix": "Re-check Parry Thomas Centre and The Caban operating status next time WebSearch is available; no page change indicated by current evidence."
+    },
+    {
+      "where": "showcase.json key_facts (Babs purchase price £125; new museum cost £7 million)",
+      "claim": "\"Babs, bought before its record-breaking rebuild: £125\" / museum \"cost £7 million, decided on in 2018\"",
+      "problem": "These specific figures appear in the fact sheet's paraphrased 'fact' field for F28/F42 but not in the literal 'quote' excerpt shown in the ledger (which covers only the engine spec and admission prices respectively). quote_check marked both OK, presumably matching elsewhere on the full source page, so this is not re-verified independently here per the no-refetch-OK-rows rule.",
+      "evidence": "F28 quote covers only engine spec; F42 quote covers only admission prices. Neither literal quote includes the £125 or £7 million figures.",
+      "fix": "No action required unless a future pass re-fetches these two source pages and cannot locate the figures verbatim."
+    }
+  ],
+  "verified_ok": [
+    "F01 beach length 7 miles (11 km)",
+    "F02 village population 346 (2011 census)",
+    "F03-F06 1924-1927 record duel figures (146.16 / 171.02 / 174.22 mph, fatal crash ~170 mph)",
+    "F08 Owen Wyn Owen excavation, worldwide attention (40-year figure correctly hedged against 42-year conflict)",
+    "F09 Foresti/Djelmo test-run crash, 26 Nov 1927",
+    "F10-F11 Amy Johnson/Mollison 1933 Pendine take-off and Bridgeport crash-landing",
+    "F12 Don Wales UK electric record, June 2000, 137 mph",
+    "F14 vehicle ban 9 July 2004 - May 2010 (Wikipedia figure used consistently in timeline)",
+    "F18 Idris Elba Flying Mile record, 7 May 2015, 180.361 mph",
+    "F20-F22 2018 'wooden shed' 101 mph, Eisenberg 201.5 mph and 210.332 mph (2019)",
+    "F23 Top Gear / Keeping Faith filming",
+    "F24 MOD range size 20.5 km2 / 9 km shoreline / 18 km2 danger area",
+    "F27 Marros-Pendine Coast SSSI, 1988, 2.5 km2",
+    "F28 Babs engine hedge (450 hp Wikipedia vs higher published figure, correctly left unresolved)",
+    "F29-F32 ownership split, weekday closure, dog exclusion, boat/jet-ski club rule, landsailing club/insurance",
+    "F33 £2,000/day driving cost",
+    "F34 MOD 1940 acquisition and later uses (ejector seats, drones, Hercules touch-and-go)",
+    "F36-F38 RNLI patrol dates/hours, Aug 2025 Tenby lifeboat callout, Dec 2025 flood warning",
+    "F39-F41 Parry Thomas Centre, The Caban, old museum visitor numbers/demolition",
+    "F42 new museum admission prices and group discount",
+    "site/data sand composition (33.1/8.0/58.9%) and wave stats (annual mean 1.34m, May low 0.73m, Dec high 1.86m, 3.24m peak, 8.1s period) match the trusted dataset exactly",
+    "SWS/Swansea airport 32.8 km and Llanddowror 8 km correctly labeled as straight-line, not road, distance"
+  ]
+}

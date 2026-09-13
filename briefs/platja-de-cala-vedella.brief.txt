@@ -1,0 +1,15 @@
+REPAIR BRIEF — platja-de-cala-vedella
+
+2 BLOCKING issue(s). Fix every one. Do not restyle anything else.
+
+--- 1. showcase.json key_facts 'Beach dimensions'; overview.mdx para 3; showcase.json intro_text para 2
+    CLAIM AS WRITTEN : "Wikidata and Ibiza Spotlight both give 275 meters long by 30-70 meters wide, while Spain's official tourism portal lists it at 200 meters long and 45 meters wide."
+    WHY IT IS WRONG  : Fact sheet's own F10 (Wikidata) gives the width as a single figure, 30 m, not a 30-70 m range — only F11 (Ibiza Spotlight) supports the 30-70 m range. The page misattributes Ibiza Spotlight's range to Wikidata too, in three places (key_facts, overview.mdx, showcase intro_text).
+    EVIDENCE         : F10: "Wikidata records the cove/beach at 275 metres long and 30 metres wide" (verbatim quote confirmed: "length 275 metre"), https://www.wikidata.org/wiki/Q1026167. F11: "Ibiza Spotlight gives the same figure as Wikidata: 275 metres long and 30-70 metres wide" (verbatim quote: "size : 275 metres long, 30-70 metres wide"), https://www.ibiza-spotlight.com/beach/cala_vadella_i.htm
+    REQUIRED FIX     : Change to: "Wikidata gives 275 m long by 30 m wide; Ibiza Spotlight gives 275 m long by 30-70 m wide; Spain's official tourism portal lists it at 200 m long and 45 m wide." Apply the identical correction to key_facts 'Beach dimensions' and showcase.json intro_text para 2.
+
+--- 2. composition.json spike_statement (SPIKE hero); showcase.json timeline row "2025-5: Owners ask town to take over urbanización"
+    CLAIM AS WRITTEN : "In May 2025, Cala Vedella owners asked Sant Josep to formally take over an urbanización over 90% built, 52 years after its 1973 development plan was approved."
+    WHY IT IS WRONG  : F24, the source for this claim, is a filing dated 30 April 2025. Every other surface on the page (history.mdx, showcase.json spike_explainer) correctly says "filing dated 30 April 2025." The SPIKE — the single most prominent claim on the page — and its own timeline row (tagged month:5) are the only places that shift the date to May, creating a date inconsistency on the headline claim.
+    EVIDENCE         : F24: "In a filing dated 30 April 2025, owners state the Cala Vedella urbanización is more than 90% built out with fully operational basic services," https://lavozdeibiza.com/actualidad/20-anos-de-paralisis-propietarios-de-cala-vadella-piden-al-ayuntamiento-de-sant-josep-que-acabe-la-urbanizacion/ (article itself published 2025-05, reporting on the 30 April filing)
+    REQUIRED FIX     : Change spike_statement to "In a filing dated 30 April 2025, Cala Vedella owners asked..." (or "In April 2025"). Retag the timeline row's month from 5 to 4, or reword its title/description to flag the filing date vs. the press-report date explicitly.

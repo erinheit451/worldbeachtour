@@ -1,0 +1,49 @@
+{
+  "slug": "aksa-beach-1",
+  "verdict": "FAIL",
+  "claims_checked": 31,
+  "fetches_used": 3,
+  "searches_used": 2,
+  "spike_verdict": "Yes — every load-bearing element (2022 JCB construction start, the 600m/4m structure, the July 2024 cave-in, the 17 Sept 2025 NGT illegality ruling tracing to the March 2019 no-permanent-construction clearance) is quote-confirmed by quote_check.py against its cited source, and the page keeps its wording inside those quotes.",
+  "blocking": [
+    {
+      "where": "overview.mdx ('Getting oriented'); travel.mdx ('Getting there'); composition.json access_note",
+      "claim": "\"Independent sources instead treat Malad railway station, roughly 9 km away, as the effective nearest stop, with Borivali a further 12 km beyond that.\" (overview.mdx) / \"Mumbai's own community wiki treats Malad railway station as the effective nearest stop, at roughly 9 km, with Borivali a further 12 km beyond that.\" (travel.mdx) / same phrase in composition.json's access_note.",
+      "problem": "This reads as a cumulative distance: Borivali is roughly 9+12=21 km from the beach, reached by going further past Malad. But the cited source (F40, Mumbai Fandom) gives two separate, parallel distances measured FROM THE BEACH, not a chain: 'the beach is approximately 9 km from malad station AND 12 km from borivali' — i.e. Borivali is ~12 km from Aksa directly, not ~21 km. This is corroborated by the page's own trusted dataset, which independently puts Borivli at 9.4 km straight-line from the beach — a figure only reconcilable with F40's 12 km if both are direct-from-beach measurements, not cumulative. Three of the page's five mentions of this fact (overview.mdx, travel.mdx, composition.json access_note) use the cumulative/'further beyond' framing; the other two (composition.json's own things_to_know 'Distances' entry, and showcase.json's intro_text: 'roughly 9 kilometres from Malad railway station and 12 kilometres from Borivali') correctly present them as two independent figures. The page is internally inconsistent about its own sourced fact, and the majority framing likely overstates the Malad-to-Borivali (and beach-to-Borivali) distance.",
+      "evidence": "research/aksa-beach-1.json F40, quote: \"the beach is approximately 9 km from malad station and 12 km from borivali\" (https://mumbai.fandom.com/wiki/Aksa_Beach, confirmed OK by quote_check.py); site/data/beaches/aksa-beach-1.json: nearest_city Borivli, distance_km 9.4 (independent corroboration that Borivali-from-beach is a single-digit-to-low-teens figure, not ~21 km).",
+      "fix": "In overview.mdx and travel.mdx, change 'with Borivali a further 12 km beyond that' to 'with Borivali roughly 12 km away' (or match showcase.json's phrasing: '... and 12 kilometres from Borivali,' dropping the 'further/beyond' construction). Apply the same fix to composition.json's access_note field."
+    }
+  ],
+  "advisory": [
+    {
+      "where": "overview.mdx / showcase.json margin_notes (audience: local)",
+      "claim": "\"Even Aksa's nearest neighbor is disputed: Wikipedia says it sits close to Marve Beach, while Mumbai's own community wiki says it sits close to Malvani.\"",
+      "problem": "The Malvani half of this claim (fact F42, confidence 'low' in the fact sheet) is the one row quote_check.py could not confirm (NOT_FOUND). I attempted to re-fetch mumbai.fandom.com/wiki/Aksa_Beach directly to verify it independently; the fetch failed (HTTP 402), and this session's WebSearch budget was already exhausted (200/200) so no alternate-source check was possible either. The claim is not load-bearing (it's a margin aside, not a key_fact/spike/timeline item) and the page already hedges it correctly as a disputed/unreconciled source conflict rather than asserting it as settled fact, matching the fact sheet's own 'conflicts' entry — so no page change is required, but the underlying quote remains mechanically unconfirmed.",
+      "evidence": "quote_check.py output: 'F42 NOT_FOUND https://mumbai.fandom.com/wiki/Aksa_Beach'; my own WebFetch attempt on the same URL returned 'HTTP 402 Payment Required'; WebSearch returned 'session has used its web search budget (200 of 200)'.",
+      "fix": "No text change needed; a future verify pass with fetch/search budget available should re-attempt this one URL."
+    },
+    {
+      "where": "showcase.json landmarks (\"MMB seawall and promenade\", year_built field)",
+      "claim": "year_built: 2023",
+      "problem": "Minor imprecision: the fact sheet has construction starting July 2022 (F23) and still underway/being litigated as of May 2023 (F28) and July 2024 (F29 references ~95% complete during ongoing hearings). Labeling the landmark's year_built as a single year (2023) sits slightly oddly next to the spike_statement's own framing of the wall as 'built ... in 2022 and 2023' (a span). Not misleading to a reader (no visible surface presents 2023 as an exclusive start date), so advisory only.",
+      "evidence": "research/aksa-beach-1.json F23 (July 2022 start) and F28/F29 (still under construction/being litigated through mid-2023/2024).",
+      "fix": "Optional: change year_built to a range \"2022-2023\" or to null if the schema doesn't support ranges, for consistency with the spike statement."
+    }
+  ],
+  "verified_ok": [
+    "SPIKE/subtitle — 2022 JCB start, 600m/4m wall, July 2024 cave-in, 17 Sept 2025 NGT illegality ruling (F21, F22, F23, F27)",
+    "key_fact Boundaries — INS Hamla / Dana Paani (F07)",
+    "key_fact Governing body — BMC/MCGM (F03)",
+    "key_fact Disputed seawall dimensions — 600m x 4m (F22)",
+    "key_fact NGT ruling date/holding (F21)",
+    "key_fact Original CRZ clearance, March 2019, barred permanent construction (F21)",
+    "key_fact Drowning-spot count, 15 spots (F13)",
+    "key_fact Native population — East Indian/Pathare/Koli (F06)",
+    "timeline 2008 (F18), 2013 (F17), 2015 (F16), 2022-07 (F23), 2023-05 (F30, F28), 2024-07 (F27), 2025-09 (F21), 2026-06 (F34, F38, F39), 2026-08 Ramayana (F44)",
+    "timeline 2026-06 entry's deliberate hedge to 'near INS Hamla' correctly avoids the JJ Point vs Shitala Devi Temple location conflict between F35 and F37",
+    "cultural_ref 'world's most treacherous beach' headline, 6 May 2013 (F15)",
+    "honest_reckoning correctly surfaces, rather than silently resolves, Wikipedia's own internal 38/yr-vs-45-total drowning arithmetic inconsistency (F12)",
+    "businesses/food_drink correctly report no confirmed operating business at Aksa, matching fact sheet's dead_ends",
+    "no shark incidents claim matches dataset safety.shark_incidents_total = 0"
+  ]
+}

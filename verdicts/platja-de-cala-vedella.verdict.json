@@ -1,0 +1,53 @@
+{
+  "slug": "platja-de-cala-vedella",
+  "verdict": "FAIL",
+  "claims_checked": 31,
+  "fetches_used": 1,
+  "searches_used": 1,
+  "spike_verdict": "The 90%-built/52-year urbanización-limbo tension is well carried by F20/F24/F25/F26/F27, but the SPIKE's own headline date ('In May 2025') conflicts with the 30 April 2025 filing date the rest of the page consistently uses.",
+  "blocking": [
+    {
+      "where": "showcase.json key_facts 'Beach dimensions'; overview.mdx para 3; showcase.json intro_text para 2",
+      "claim": "\"Wikidata and Ibiza Spotlight both give 275 meters long by 30-70 meters wide, while Spain's official tourism portal lists it at 200 meters long and 45 meters wide.\"",
+      "problem": "Fact sheet's own F10 (Wikidata) gives the width as a single figure, 30 m, not a 30-70 m range — only F11 (Ibiza Spotlight) supports the 30-70 m range. The page misattributes Ibiza Spotlight's range to Wikidata too, in three places (key_facts, overview.mdx, showcase intro_text).",
+      "evidence": "F10: \"Wikidata records the cove/beach at 275 metres long and 30 metres wide\" (verbatim quote confirmed: \"length 275 metre\"), https://www.wikidata.org/wiki/Q1026167. F11: \"Ibiza Spotlight gives the same figure as Wikidata: 275 metres long and 30-70 metres wide\" (verbatim quote: \"size : 275 metres long, 30-70 metres wide\"), https://www.ibiza-spotlight.com/beach/cala_vadella_i.htm",
+      "fix": "Change to: \"Wikidata gives 275 m long by 30 m wide; Ibiza Spotlight gives 275 m long by 30-70 m wide; Spain's official tourism portal lists it at 200 m long and 45 m wide.\" Apply the identical correction to key_facts 'Beach dimensions' and showcase.json intro_text para 2."
+    },
+    {
+      "where": "composition.json spike_statement (SPIKE hero); showcase.json timeline row \"2025-5: Owners ask town to take over urbanización\"",
+      "claim": "\"In May 2025, Cala Vedella owners asked Sant Josep to formally take over an urbanización over 90% built, 52 years after its 1973 development plan was approved.\"",
+      "problem": "F24, the source for this claim, is a filing dated 30 April 2025. Every other surface on the page (history.mdx, showcase.json spike_explainer) correctly says \"filing dated 30 April 2025.\" The SPIKE — the single most prominent claim on the page — and its own timeline row (tagged month:5) are the only places that shift the date to May, creating a date inconsistency on the headline claim.",
+      "evidence": "F24: \"In a filing dated 30 April 2025, owners state the Cala Vedella urbanización is more than 90% built out with fully operational basic services,\" https://lavozdeibiza.com/actualidad/20-anos-de-paralisis-propietarios-de-cala-vadella-piden-al-ayuntamiento-de-sant-josep-que-acabe-la-urbanizacion/ (article itself published 2025-05, reporting on the 30 April filing)",
+      "fix": "Change spike_statement to \"In a filing dated 30 April 2025, Cala Vedella owners asked...\" (or \"In April 2025\"). Retag the timeline row's month from 5 to 4, or reword its title/description to flag the filing date vs. the press-report date explicitly."
+    }
+  ],
+  "advisory": [
+    {
+      "where": "history.mdx 'A Building Freeze Since 2007' para 2; showcase.json spike_explainer 'A file frozen since 2007'; margin_notes (audience: economy)",
+      "claim": "\"Those 12 villas did eventually get built: in January 2021, the crowdfunding platform Urbanitae financed the project with a €650,000 loan...\" — presented as the same 12 villas the Port d'es Nebot license (363/2005) was renegotiated down to.",
+      "problem": "The fact sheet has no derivation joining F21 (Port d'es Nebot license reduced to 12 villas) to F33/F34 (Urbanitae-financed 12 villas, 500 m from the beach). Neither verbatim quote names 'Port d'es Nebot' for the Urbanitae site or cites license 363/2005. The identity is plausible (matching villa count, same era, same developer proximity) but not confirmed by the sourced quotes.",
+      "evidence": "F21 quote: \"la licencia 363/2005 permitía hacer 61 viviendas en este rincón de la costa de cala vedella\" (no place name given); F33 quote: \"a tan solo 500 metros de la playa de cala vadella\" (no license number or 'Port d'es Nebot' given), https://blog.urbanitae.com/2023/10/23/cala-vadella-exito-en-nuestro-primer-proyecto-en-baleares/",
+      "fix": "Hedge slightly: \"a similarly sized 12-villa project near Port d'es Nebot was crowdfunded in 2021\" — or keep as-is if a stronger link is confirmed elsewhere, since the inference is reasonable."
+    },
+    {
+      "where": "history.mdx 'The Treatment Plant the Town Couldn't Touch' para 2",
+      "claim": "\"By November 2019, Sant Josep's deputy mayor said the town was studying whether it could expropriate the plant outright... That same October, the town hall separately ordered a halt to an unrelated project, Vadella 24 housing...\"",
+      "problem": "\"That same October\" reads as referring back to the November date just stated, which is confusing — the October event (F22) actually precedes the November event (F28) chronologically; the sentence order reverses the timeline without flagging it.",
+      "evidence": "F22 (Oct 2019 Vadella 24 halt) and F28 (Nov 2019 expropriation study), both Periódico de Ibiza, 2019.",
+      "fix": "Reorder: \"That October, the town hall had separately ordered a halt to an unrelated project, Vadella 24 housing... By November, the deputy mayor said the town was studying whether it could expropriate the plant outright.\""
+    }
+  ],
+  "verified_ok": [
+    "F20/F24/F25/F26/F27 — 1973 plan, never-closed paperwork, 30 Apr 2025 owner filing >90% built, 2007 licensing freeze, PGOU 241 contributions all confirmed on-page and on-source",
+    "F08 — parking 250 spaces incl. blue-badge bays, confirmed",
+    "F03/F15 — Blue Flag (as of 2012) and EU bathing ID ES531M0481209, confirmed and correctly caveated by date",
+    "F09/F17 — access route (EI-700; km 13 Eivissa-Sant Josep turnoff), confirmed",
+    "F14 — nearest marina 7 km Puerto Deportivo de Coralmar, confirmed",
+    "F16 — Sant Josep tourism site road distances (22 km Eivissa, 9 km Sant Josep village) vs. site_data straight-line figures (13.7 km airport, 5.1 km Sant Josep) correctly kept distinct as two different measurement types",
+    "F29/F30/F28/F22 — treatment plant timeline (2018 overdue, 2019 expansion delayed, Nov 2019 expropriation study, Oct 2019 Vadella 24 halt), confirmed",
+    "F32 — Aug 2025 Cala d'Hort parking overflow/jurisdiction dispute, confirmed",
+    "F31 — Sept 2026 car rollover, no serious injuries, confirmed as newest/recency item and correctly reflected in margin notes and safety section",
+    "F33/F34 — Urbanitae villa financing amount, investor count, and 9.1% return, confirmed",
+    "F35/F36 — Vadella Beach Bar and Ca Na Sofía re-fetched live on santjosep.net/gastronomia/ 2026-09-13: both currently listed as operating restaurants with the Sabors d'Eivissa seal"
+  ]
+}

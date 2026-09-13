@@ -1,0 +1,77 @@
+{
+  "slug": "praia-da-adraga",
+  "verdict": "FAIL",
+  "claims_checked": 31,
+  "fetches_used": 1,
+  "searches_used": 1,
+  "spike_verdict": "The evidence carries the spike's core facts (€500,000, 54.6ha, bankrupt seller, 2021, phase-two end-2027) exactly as sourced, but the spike's own year undersells the story: F32 says full ecological recovery only completes after 10 years, a more accurate and more dramatic number than the 2027 construction deadline the spike leads with (body text elsewhere gets this distinction right).",
+  "blocking": [
+    {
+      "where": "showcase.json key_facts row 'Invasive plants cleared before restoration'",
+      "claim": "\"Invasive plants cleared before restoration: 63% of the park area\"",
+      "problem": "The label says invasives were CLEARED, but F18 says 63% is how much of the site invasive plants COVERED before any clearing began — i.e. the problem being fixed, not the amount fixed. This inverts the meaning of the number. The page's own environment.mdx DataCard states it correctly two ways down (\"Site covered by invasives, pre-restoration\"), so this key_fact directly contradicts the rest of the same page.",
+      "evidence": "F18: \"antes da intervenção, as plantas exóticas invasoras eram um dos maiores problemas do parque: ocupavam cerca de 63% da área\" (before intervention, invasive exotic plants... occupied about 63% of the area) — cm-sintra.pt, Parque Ecológico da Adraga e Praia Grande page.",
+      "fix": "Change the key_fact label to \"Site covered by invasive plants, pre-restoration\" (matching the environment.mdx DataCard wording) so the 63% is not read as the amount cleared."
+    },
+    {
+      "where": "environment.mdx DataCard 'Habitats restored directly so far'",
+      "claim": "<DataCard label=\"Habitats restored directly so far\" value=\"17\" unit=\"hectares\" />",
+      "problem": "F19 says crews \"directly intervened\" on 17 hectares using nature-based solutions — not that those 17 hectares are now \"restored\" (complete). The page's own body text three paragraphs later gets this right (\"the 17-hectare treatment applied\", intervention ≠ completion) and separately states full ecological recovery takes 10 years (F32). Labeling the DataCard \"restored\" contradicts the page's own central thesis that nothing here is finished yet.",
+      "evidence": "F19: \"foi realizada uma intervenção direta em 17 hectares, baseada em soluções de base natural\" (direct intervention was carried out on 17 hectares, based on nature-based solutions) — cm-sintra.pt. F32: \"a recuperação do parque ecológico... só ficará concluída após 10 anos\" (recovery... will only be complete after 10 years).",
+      "fix": "Change the DataCard label to \"Hectares with direct restoration work so far\" (or \"...intervened on so far\") — not \"restored,\" which implies completion."
+    },
+    {
+      "where": "showcase.json things_to_know 'Season'; travel.mdx Seasons section",
+      "claim": "\"Restaurante Adraga keeps shorter winter hours (Wed–Sun, 12:30–21:30, closed Mon–Tue) from October to May, open daily except Tuesday in summer.\" / \"in summer it opens daily except Tuesday.\"",
+      "problem": "Live-fetched from the restaurant's own site (2026-09-13): summer hours are Closed Tue; Mon 12:30–16:00 (afternoon only, not the full 12:30–21:30 window); Wed–Sun 12:30–21:30. \"Opens daily except Tuesday\" reads as full hours every non-Tuesday day, which would mislead a visitor planning a Monday evening trip — Monday closes at 16:00, hours before dinner. Also newly confirmed: the restaurant closes entirely for the whole month of December for holidays, which the page does not mention.",
+      "evidence": "https://restaurantedaadraga.com/ (fetched live): winter Wed–Sun 12:30–21:30 closed Mon–Tue (matches page, OK); summer — Closed Tue; Mon 12:30–16:00; Wed–Sun 12:30–21:30; \"O restaurante encontra-se encerrado para férias no mês de dezembro\" (closed for holidays in December).",
+      "fix": "Change to: \"in summer it is closed Tuesdays, open shorter hours Monday (12:30–16:00), and 12:30–21:30 Wednesday–Sunday; it also closes for the full month of December.\""
+    }
+  ],
+  "advisory": [
+    {
+      "where": "SPIKE; environment.mdx intro",
+      "claim": "\"...won't finish rebuilding the land into a park until 2027.\"",
+      "problem": "Technically accurate for the phase-two construction deadline (F30, F33), but F32's 10-year full-recovery figure is the more accurate and more striking number for the underlying tension (an ecosystem, not just trails and buildings, takes far longer than 2027 to actually recover). The page's own body text later makes this distinction correctly; only the top-line spike number leans on the earlier, lower figure.",
+      "evidence": "F32: full ecological recovery \"só ficará concluída após 10 anos\" (only complete after 10 years) — beachcam.meo.pt, Jan 2025.",
+      "fix": "Consider anchoring the spike to the 10-year full-recovery horizon rather than the 2027 construction deadline, or explicitly note both in the spike statement (optional strengthening, not required for accuracy)."
+    },
+    {
+      "where": "overview.mdx paragraph 4",
+      "claim": "\"Wikipedia notes it is hard to reach without a car...\"",
+      "problem": "Paraphrase of F04 (\"hard to reach by public transportation\") drifts slightly — the two other surfaces on the page (things_to_know, travel.mdx) correctly quote 'public transportation.' Not misleading, but an unnecessary inconsistency in phrasing across surfaces for the same sourced fact.",
+      "evidence": "F04: \"it has an excellent restaurant and a very good emergency service system, although it is hard to reach by public transportation.\" — en.wikipedia.org/wiki/Praia_da_Adraga.",
+      "fix": "Change to \"Wikipedia notes it is hard to reach by public transportation\" to match the other surfaces."
+    },
+    {
+      "where": "environment.mdx 'The work itself, and who's doing it' (Ubuntu Fest paragraph)",
+      "claim": "\"...removed roughly 1.5 tonnes of hottentot-fig and 3 tonnes of carpobrotus ground-cover.\"",
+      "problem": "The source (F22) names the two removed plants in Portuguese as 'tintureira-miúda' and 'chorão-das-praias.' 'Chorão-das-praias' is the common Portuguese name for Carpobrotus (the genus that includes hottentot-fig), which raises a risk that the page's English mapping has swapped which Portuguese name corresponds to \"hottentot-fig\" vs. \"carpobrotus ground-cover\" (these may in fact be the same species described twice, or the mapping may be reversed). Not a load-bearing claim per the verify scope, so not re-fetched/blocking, but flagged for a repair pass with botanical-translation access.",
+      "evidence": "F22 quote: \"removidas cerca de 1,5 toneladas de tintureira-miúda e 3 toneladas de chorão-das-praias\" — cm-sintra.pt.",
+      "fix": "Verify the Portuguese→English species mapping (tintureira-miúda vs. chorão-das-praias / Carpobrotus) before next repair pass; if uncertain, use the Portuguese common names directly instead of English common names that may misattribute species."
+    },
+    {
+      "where": "showcase.json key_facts 'Sunday Times Europe ranking, 2003'; overview.mdx; timeline 2003 row",
+      "claim": "\"In 2003, readers and journalists of The Sunday Times ranked it the third-best beach in Europe.\"",
+      "problem": "Sourced only via a 2015 local blog (riodasmacas.blogspot.com) reporting on a 2003 newspaper poll — confidence rated 'medium' in the fact sheet, with no direct Sunday Times source available. The page states it as settled fact without any hedge (e.g. 'reportedly,' 'according to a local blog'). Not blocking since it matches the source as given, but a 23-year-old claim resting on a single secondary blog is worth a lighter touch.",
+      "evidence": "F28b/F29b, riodasmacas.blogspot.com (2015), confidence: medium.",
+      "fix": "Optional: add a soft attribution such as \"according to a local Sintra blog citing the paper's readers' poll\" rather than presenting the ranking as independently confirmed."
+    }
+  ],
+  "verified_ok": [
+    "SPIKE core figures: €500,000 / 54.6ha / 2021 / bankrupt seller Cintra (F27, F28)",
+    "Park partnership: Sintra council, Aga Khan Trust for Culture, ICNF, APA, CCDR Lisboa e Vale do Tejo (F23)",
+    "Phase one (by 31 Jul 2025, 35% north cleared, 3km trails) and phase two (Aug 2025–Dec 2027) timeline (F29, F30)",
+    "13 Jan 2026 Público update confirming project on track for end of 2027 (F33)",
+    "14 habitat types / 16% of Portugal's habitats / 6 EU-protected; 199 plant species (25 invasive, 34 rare/threatened natives); 200+ animal species (F14, F16, F17)",
+    "2022 marine survey ~300 species (F20)",
+    "Fojo da Adraga ~90m deep, Triton/Tiberius legend properly framed as legend (F07, F08, F09, F50)",
+    "Pedra de Alvidrar description and local tradition (F05, F06)",
+    "Dinosaur footprints and Paleolithic tool sites correctly attributed to the shared coastline / Praia Grande do Rodizio, not Adraga's own sand (F24, F25, F48, F49)",
+    "Quercus Golden Quality Beach award, Blue Flag 2025 listing, 2026 season 30 May–13 Sep (F11, F38, F39)",
+    "Surf characteristics: point break, sandy-and-rock bottom, rocks + localism hazards, December best month at 41% clean (F51, F52, F54, F56, F57)",
+    "2026 cave rescue: entered ~7pm, trapped overnight, found by lifeguard/surf instructors with surfboards, firefighters assisted, hypothermia/shock but safe outcome (F35b, F36b, F37b, F58, F59)",
+    "Restaurante Adraga: founded 1905 by Maria Libania, Queen D. Amelia visits, winter hours Wed–Sun 12:30–21:30 closed Mon–Tue, generation conflict (4th vs 5th) properly caveated — confirmed still currently operating via live fetch of restaurantedaadraga.com (F40–F45)",
+    "Distances: 3.3km to Colares, 14.2km straight-line to Cascais Airport, 30km/19mi to Lisbon Airport, sourced from trusted site dataset / Surf-Forecast (F55, trusted dataset)"
+  ]
+}

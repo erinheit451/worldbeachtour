@@ -1,0 +1,65 @@
+{
+  "slug": "shelly-beach-8",
+  "verdict": "FAIL",
+  "claims_checked": 31,
+  "fetches_used": 8,
+  "searches_used": 2,
+  "spike_verdict": "The 1920s amusement-park-defeated-into-2002-no-take-reserve spike is carried: F30/F31 (History Matters, Nov 2024) and F04 (Wikipedia) are both quote-confirmed, and the page's own hedges (\"the surviving record doesn't spell out what rides or attractions were planned\", \"credited, in the same account\") stay within what the thin source actually supports rather than overclaiming a causal chain.",
+  "blocking": [
+    {
+      "where": "showcase.json key_facts (\"Dive Centre Manly operating since: 1962\"); showcase.json spike_explainer (\"Dive Centre Manly has served the local community from Belgrave Street since 1962\"); history.mdx (\"Diving itself became a fixture of the local economy in 1962, when Dive Centre Manly opened on Belgrave Street. It has served the Manly community from that address ever since\"); composition.json timeline (\"1962: Dive Centre Manly opens\")",
+      "claim": "A business called Dive Centre Manly opened on Belgrave Street in 1962 and has continuously served the community under that name/identity ever since.",
+      "problem": "The sheet's own source (History Matters, Nov 2024) is a simplified secondary account; the actual current operator's own history page contradicts the continuity implied here. Fetched live: divecentremanly.com.au now permanently redirects to divesydney.com.au (10 Belgrave Street, Manly) — the current owner-facing tagline reads 'Keeping Our Heads Below Water Since 1993,' not 1962. Their own /about-us history page states the address opened in 1962 as 'Ron Harding's Sports Store' (one of only three dive stores in Sydney at the time); it was only later, under owners Richard and Janet from 1993, that it operated as 'Dive Centre Manly' for the next 30 years; the current owner Michael took over in 2023 and now trades as Dive Sydney. So: (a) the business open in 1962 was not named or operating as \"Dive Centre Manly\" — that name dates to the 1993 ownership change — and (b) the business no longer trades under the name \"Dive Centre Manly\" at all as of 2023, a fact the page nowhere discloses.",
+      "evidence": "https://divesydney.com.au/ (redirect target of divecentremanly.com.au; homepage tagline 'Keeping Our Heads Below Water Since 1993', address 10 Belgrave Street, Manly NSW 2095); https://divesydney.com.au/about-us/ (history: 1962 'Ron Harding's Sports Store' -> renamed/operated as 'Dive Centre Manly' under Richard & Janet from 1993 -> current owner Michael since 2023, now trading as Dive Sydney)",
+      "fix": "Reword to preserve the true continuity (a dive shop has operated at this Belgrave Street address continuously since 1962) without asserting the name \"Dive Centre Manly\" existed then or exists now. Suggested wording: timeline title 'Dive shop opens on Belgrave Street'; description 'A dive shop (Ron Harding's Sports Store, one of only three in Sydney at the time) begins operating from Belgrave Street; it later traded as Dive Centre Manly and, since 2023, as Dive Sydney.' key_facts row -> label 'Dive shop operating since', value '1962 (now trading as Dive Sydney)'. history.mdx -> 'Diving itself became a fixture of the local economy in 1962, when a dive shop opened on Belgrave Street. Under different names and owners — Dive Centre Manly from 1993, Dive Sydney since 2023 — a dive business has served the Manly community from that address ever since.'"
+    }
+  ],
+  "advisory": [
+    {
+      "where": "history.mdx, opening paragraph (\"Twice in less than forty years, and then again in the 1920s, the public's access to this small cove at Manly was contested...\")",
+      "claim": "Implies three distinct access-contest episodes (twice, plus 'again' in the 1920s).",
+      "problem": "The ledger only supports two contested-access episodes: the 1885 exclusion (resolved 1898, F51) and the 1920s amusement-park scheme (F30/F31). The 1920s scheme appears to be the second half of the 'twice' and then gets re-named as a third, separate 'again' event, which reads as inflating the count. Not a factual fabrication (no invented event), just confusing/ambiguous phrasing that a careful reader could misread as claiming an extra dispute.",
+      "evidence": "research/<slug>.json F51 (1885/1898 exclusion-and-return) and F30/F31 (1920s amusement-park fight) are the only two access-contest events in the fact sheet.",
+      "fix": "Reword to 'Twice in the space of about forty years — first by private exclusion, then by a 1920s redevelopment scheme — the public's access to this small cove at Manly was contested, before the state itself eventually chose to protect the water rather than develop it.'"
+    },
+    {
+      "where": "overview.mdx (\"facilities are limited to two free electric barbecues, showers, toilets and a kiosk\") is fine; the issue is showcase.json intro_text (\"Facilities are deliberately minimal\")",
+      "claim": "The beach's sparse facilities are the result of deliberate policy/intent.",
+      "problem": "No source in the sheet attributes intent ('deliberately') to the minimal facilities; this is an unsupported inference dressed as fact — a small instance of brochure slop.",
+      "evidence": "No fact id in research/<slug>.json supports 'deliberate' facility minimalism; F12 only describes what facilities exist.",
+      "fix": "Delete 'deliberately' — 'Facilities are minimal: two free electric barbecues, showers, toilets and a kiosk selling meals, drinks and coffee.'"
+    },
+    {
+      "where": "site/data/beaches/shelly-beach-8.json trusted dataset field safety.shark_incidents_total = 0, vs. honest_reckoning_note / timeline covering a 2019 suspected shark attack (F41/F42) and a 2023 shark-vs-dolphin incident (F38-F40)",
+      "claim": "Not a page claim (the page never cites the shark_incidents_total field), but worth flagging as a genuine data inconsistency for whoever maintains the trusted dataset.",
+      "problem": "The two sourced, dated shark incidents both happened in the water 'between Manly and Shelly Beach' / 'near Shelly Beach' rather than strictly inside the beach's own polygon, which may explain the 0 count, but it's worth a sanity check upstream since the page's own honest_reckoning section reads oddly next to a dataset field claiming zero incidents.",
+      "evidence": "site/data/beaches/shelly-beach-8.json safety.shark_incidents_total: \"0\"; research/<slug>.json F38-F42",
+      "fix": "No page fix needed — page does not cite this field. Flag to dataset maintainer only."
+    }
+  ],
+  "verified_ok": [
+    "SPIKE/F30,F31,F04: 1920s amusement-park scheme defeated; no-take reserve declared 2002 — quote-confirmed, appropriately hedged",
+    "SUBTITLE/F04: west-facing marine-reserve beach description — consistent with F01,F22",
+    "key_fact beach length ~100m / F02 — quote-confirmed",
+    "key_fact typical depth 2-6m, max ~12m / F03 — quote-confirmed",
+    "key_fact no-take reserve declared 31 March 2002 / F04,F24 — quote-confirmed, and re-confirmed live via Wikipedia fetch",
+    "key_fact reserve area ~20ha (DPI/Council) vs Wikipedia infobox 17ha / F20,F24,F05 — conflict properly disclosed on-page, not blocking",
+    "key_fact 160+ fish, ~50 invertebrates / F09 — quote-confirmed",
+    "key_fact 2025 water-quality 79.4 CFU/100mL vs 41 safe limit / F33,F35 — quote-confirmed",
+    "key_fact parking $8.00/hour / F14 — quote-confirmed",
+    "timeline 1885/1898 access exclusion-and-return / F51 — quote-confirmed",
+    "timeline 1923 stone kiosk built as tearoom / F50 — quote-confirmed",
+    "timeline 1993 intertidal protection begins / F18 — quote-confirmed",
+    "timeline 2016 storm damages walkway, barriers down Aug 2016 / F07,F08 — quote-confirmed and re-confirmed live via Wikipedia fetch",
+    "timeline 2019 suspected shark attack, Manly Beach closed 24hrs / F41,F42 — quote-confirmed",
+    "timeline 2025 ranked among Sydney's worst swim sites / F32,F33 — quote-confirmed",
+    "landmark Fairy Bower walkway 2016 storm damage / F07,F08 — quote-confirmed",
+    "landmark Bower surf break / F17 — quote-confirmed",
+    "cultural_ref BMX Bandits 1983 opening scene / F16 — quote-confirmed and re-confirmed live via Wikipedia fetch",
+    "cultural_ref 1936 vampire octopus / F49 — quote-confirmed",
+    "traditional custodians naming conflict (Gayamaygal/Eora vs Kayimai/Cannalgal) / F23,F44 — properly disclosed via margin note, not blocking",
+    "Boathouse Shelly Beach current-trading status / F13 — page correctly hedges that no dated source confirms it's still trading, rather than asserting it as live",
+    "airport distance 19.7km straight-line, nearest city 0.9km / trusted dataset — correctly labeled 'straight-line' on page, not a road/transit distance",
+    "wave height/period stats (annual mean 1.2m, April peak 1.4m, August low 0.95m) / trusted dataset waves block — matches travel.mdx exactly"
+  ]
+}

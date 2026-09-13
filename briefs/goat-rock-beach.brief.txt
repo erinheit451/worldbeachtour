@@ -1,0 +1,15 @@
+REPAIR BRIEF — goat-rock-beach
+
+2 BLOCKING issue(s). Fix every one. Do not restyle anything else.
+
+--- 1. showcase.json honest_reckoning_note
+    CLAIM AS WRITTEN : "That is not a rounding error. It is a four-to-one gap between the number a federal agency's dataset shows and the number a local newsroom could document by simply reading its own archives." (comparing NWS's cited 2 drownings vs. the 6 the note lists)
+    WHY IT IS WRONG  : Arithmetic error: 6 vs 2 is a three-to-one gap (6 ÷ 2 = 3), not four-to-one. This is exactly the arithmetic-defect class the verify protocol calls out.
+    EVIDENCE         : Same note, two sentences earlier: "SFGate reported ... National Weather Service data credited the beach with only two drownings since 2014 ... could independently list at least six separate drowning deaths." 6/2 = 3, not 4.
+    REQUIRED FIX     : Change "four-to-one gap" to "three-to-one gap" (or reword as "triple the number"). Note as a secondary consideration: the NWS figure is scoped to 'since 2014' while the six-death count spans back to 2003 (an event outside the NWS window), so the comparison itself mixes two different time windows — worth a caveat, but the immediate fix is the ratio arithmetic.
+
+--- 2. showcase.json timeline (2017 entry, "Feasibility study weighs jetty's fate"); history.mdx, "Blown Apart for a Jetty" paragraph 3 ("In 2017, a feasibility report required by the 2008 Russian River Biological Opinion...")
+    CLAIM AS WRITTEN : The jetty feasibility study/report is dated 2017.
+    WHY IT IS WRONG  : The cited source for this fact (F22, Environmental Monitor / fondriest.com, "Abandoned, buried jetty's effects on Russian River estuary studied") carries date_of_source 2014-03 — i.e., the article itself was published in March 2014. An article published in 2014 cannot be reporting on a study/report from 2017. The '2017' year is internally inconsistent with its own cited source and is very likely wrong (the study more plausibly dates to circa 2013-2014, matching the article's own publish date).
+    EVIDENCE         : research/goat-rock-beach.json F22: "date_of_source": "2014-03", url https://www.fondriest.com/news/russian-river-jetty.htm, quote: "the biological opinion does not require us to fund the removal or modification of the jetty - just to do this study" — no date within the quote itself supports '2017'.
+    REQUIRED FIX     : Either correct the timeline year to the date the source actually supports (likely 2013 or 2014, matching the article's 2014-03 dateline) or, if the true study year cannot be confirmed without new research, remove the specific year and describe it simply as "a feasibility report required by the 2008 Russian River Biological Opinion" without dating it 2017. Apply the same fix to history.mdx's "In 2017, a feasibility report..." sentence.

@@ -1,0 +1,9 @@
+REPAIR BRIEF — kokkino-nero-1
+
+1 BLOCKING issue(s). Fix every one. Do not restyle anything else.
+
+--- 1. history.mdx 'Before There Was a Road' para 1; overview.mdx 'Who This Suits'; showcase.json access_note; showcase.json key_facts 'Nearest anchorages'; travel.mdx 'Getting There' para 1
+    CLAIM AS WRITTEN : "There is no ferry service directly to the village" / "no ferry access" / "no ferry service" (asserted as plain fact in 4-5 places, once explicitly attributed to the Larissa Beach source via the 'Nearest anchorages' key_fact)
+    WHY IT IS WRONG  : No fact in the sheet states this. F22 (Larissa Beach, quote_check OK) only says 'the ports of Stomio and Agiokampos are the anchorage for fishing boats and small sailboats' — it says nothing about the absence of a ferry. F23 (kaikia used before the road existed) is about pre-road history, not present-day ferry access. The dead_ends list — which the sheet uses specifically to flag things no source confirms (drive times, prices, lifeguards, Blue Flag) — does NOT include 'no ferry service,' meaning this negative was never verified, only inferred, yet the key_facts row cites it to a source that doesn't say it.
+    EVIDENCE         : F22 quote (olympuseaside/larissa-beach.gr, quote_check OK): 'the ports of the stomio and agiokampos are the anchorage for fishing boats and small sailboats.' — no ferry statement anywhere in F01-F45 or in dead_ends.
+    REQUIRED FIX     : Either soften to something like 'no source consulted here documents a ferry service to the village' (matching the page's own hedging pattern used elsewhere for drive times/prices), or delete the ferry claim from the four/five surfaces listed and drop it from the 'Nearest anchorages' key_fact value entirely.
