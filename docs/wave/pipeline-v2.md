@@ -170,3 +170,38 @@ Audit 1 from bundle; web only for businesses/recency) → repair → V2
   re-billing a ~20k bundle. Next wave: hard ≤3-call cap on those stages, haiku
   scout with ≤10 searches, and merge V1+V2 prompts only if a fresh second read
   stops finding new blockers (it did not this wave: 26 then 28, mostly disjoint).
+
+## Wave 5 (2026-09-13) — 6 pages, zero-LLM scout, hard call caps
+Branch `wave5-0913`. Pages: ocean-beach-14 (SF), shankhumugham-beach, kollam-beach (IN),
+cherry-beach-1, woodbine-beach (CA), cable-beach-6 (Broome). 9 slugs parked (stubs /
+weak spike / visitor-review "spike" / single source) — see `parked.txt`.
+
+**Blocker:** the session WebSearch quota (200) was already spent by Wave 4's scouts;
+all 8 haiku scouts failed (~50k each, stopped). Replacement: `scout_zero.py` —
+Wikipedia article + local-language article via the API, every URL they cite
+(ranked official > news > other), + Bing RSS (useless for non-famous names) /
+GDELT (429). **No independent recency channel this wave.** Rule: scouting is the
+only stage that needs WebSearch — run it FIRST in a fresh session, or launch with
+`CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION` raised.
+
+| stage | Wave 4 | Wave 5 | note |
+|---|---|---|---|
+| scout | ~95k (sonnet) | 0 | Wikipedia+refs only; recency gap |
+| extract | ~145k | ~140k | cap parts+1 held (4–6 calls) but N parts re-bill N times |
+| author | ~168k | ~147k | |
+| V1 verify | ~122k | ~109k | 0–3 fetches; 7 blocking (1.2/page) |
+| repair 1 | ~90k | ~76k | |
+| V2 consistency | ~128k | ~111k | 4 calls each; 16 blocking (2.7/page) |
+| repair 2 | ~85k | ~79k | |
+| **all-in** | **~830k** | **~660k** | −20%; still all sonnet, zero fable |
+
+Where the remaining cost sits: extract and both verify passes each pay for the
+full bundle once per part. The next lever is bundle SIZE (SOURCES_MAX 130k→90k
+and a tighter verify bundle), not call count. The two-pass verify is not
+negotiable: V2 found 2.7/page AFTER V1+repair, mostly cross-surface and
+arithmetic, same as Wave 4.
+
+Triage held the line: 3 of 9 extracted sheets were parked at zero authoring
+cost (10-fact stub; single-source medium spike; a "spike" resting on an
+anonymous visitor review). The pool after this wave: ~128 clean buildable, and
+the thin end is now reached — see the Tier-1 vs enrichment decision.

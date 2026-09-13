@@ -1,0 +1,21 @@
+REPAIR BRIEF — cable-beach-6
+
+3 BLOCKING issue(s). Fix every one. Do not restyle anything else.
+
+--- 1. overview.mdx — Staircase to the Moon sentence
+    CLAIM AS WRITTEN : "it happens on a handful of nights a month between March and October, and sourcing disagrees on whether that is two, three, or a flat three nights a month."
+    WHY IT IS WRONG  : Recasts the Broome Visitor Centre's '2-3 days a month' (F33) as 'nights', collapsing it with the separate 'three nights a month' figure (F27) into one garbled unit. This both exceeds the sheet (changes days to nights) and contradicts travel.mdx, which keeps the two sources correctly separated ('two to three days a month or three nights a month').
+    EVIDENCE         : F33: "the staircase to the moon happens 2 - 3 days a month between march and october." F27: source describes it as occurring "for 3 nights every month." travel.mdx: "sourcing giving either two to three days a month or three nights a month, depending on which tourism source is consulted."
+    REQUIRED FIX     : it happens on a handful of nights a month between March and October, and sourcing disagrees on the frequency: the Broome Visitor Centre says two to three days a month, while an older tourism source says three nights a month.
+
+--- 2. culture.mdx ("The Camel Problem") and showcase.json spike_explainer, vs. culture.mdx opening paragraph / overview.mdx / showcase.json businesses & cultural_refs / travel.mdx
+    CLAIM AS WRITTEN : "By 2016, Broome had three camel tour companies operating in exactly the same hundred-metre run of sand" vs. "two competing operators, Red Sun Camels and Broome Camel Safaris"
+    WHY IT IS WRONG  : The page states three camel companies shared the strip in 2016 (F25) but everywhere else names only two operators as Cable Beach's camel tour business, sourced to the current (2026) Visitor Centre page (F29), with no acknowledgment that the count changed. A reader cannot tell whether there are two or three operators, or what happened to the third.
+    EVIDENCE         : F25: "it's also the same 100 metres in which the beach's three camel tour companies operate, meaning there are hundreds more sets of peering eyes moving slowly past." F29: "broome has two camel tour operators, each with a different colour blankets. red sun camels is famously red. broome camel safaris have the blue blankets."
+    REQUIRED FIX     : Add a reconciling clause at the 2016 mention, e.g.: "By 2016, Broome had three camel tour companies operating in exactly the same hundred-metre run of sand as the clothing-optional section; today only two, Red Sun Camels and Broome Camel Safaris, remain."
+
+--- 3. showcase.json day_in_time.night
+    CLAIM AS WRITTEN : "After dark, a gate at the Cable Beach amphitheatre is locked whenever vehicle access is not permitted, and also during turtle nesting season, closing off the vehicle approach entirely outside patrol hours."
+    WHY IT IS WRONG  : Invents a link between the gate and lifeguard 'patrol hours' that is not in the sourcing. F38 ties the gate's locking to two conditions only — vehicle-access permission status and turtle nesting season — never to lifeguard patrol schedules, which are a separate topic (daytime swimming supervision, not vehicle gating).
+    EVIDENCE         : F38: "a gate has been installed at the cable beach amphitheatre and will be locked when vehicle access is not permitted and also during turtle nesting season."
+    REQUIRED FIX     : After dark, a gate at the Cable Beach amphitheatre is locked whenever vehicle access is not permitted, and also during turtle nesting season.

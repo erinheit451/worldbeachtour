@@ -1,0 +1,43 @@
+{
+  "slug": "cherry-beach-1",
+  "verdict": "blocking",
+  "blocking": [
+    {
+      "where": "history.mdx — 'A Sandbar That Used to Be a Peninsula' section, closing sentence",
+      "claim": "\"People visiting Cherry Beach today are standing on ground that spent most of a century as a drowned settlement before anyone dug it back up.\"",
+      "problem": "Contradicts the page's own overview.mdx, which says the settlement's artifacts were 'buried for more than a century,' and the landmarks entry ('buried for over a century and unearthed... in September 2020'). The fact sheet's own quote for this exact discovery (F33) says 'buried for over a century' — not 'most of' one. Using the timeline's dates (community disappeared roughly a half-century after the 1858 storm, i.e. ~1900s-1910s per F31, discovered 2020) the actual span is 110+ years, which is MORE than a century, so history.mdx understates the same fact two other surfaces state correctly.",
+      "evidence": "F33: 'archeologists uncovered artifacts from the lost community like shoes, ginger ale bottles, and newspaper clippings that had been buried for over a century.' F31: 'orphaned section of sandbar and community that would struggle on for another half-century before disappearing entirely' (from the 1858 storm). overview.mdx: 'artifacts from the lost settlement, buried for more than a century.' landmarks entry: 'buried for over a century and unearthed by archaeologists... in September 2020.'",
+      "fix": "Change 'spent most of a century as a drowned settlement' to 'spent more than a century as a drowned settlement' so it matches overview.mdx, the landmarks entry, and F33."
+    },
+    {
+      "where": "composition.json spike_statement (mirrors SPIKE row in the claims ledger)",
+      "claim": "\"The beach's nickname, Cherry Beach Express, commemorates alleged police brutality from the 1940s to 1990s, a song Toronto Police tried to ban.\"",
+      "problem": "Dangling appositive: 'a song Toronto Police tried to ban' is tacked on after '1990s' with no connector, so it reads as modifying the decade span rather than 'Cherry Beach Express.' A reader parses this as an unfinished or malformed sentence rather than learning that the nickname is also the title of the 1984 song the police tried to ban.",
+      "evidence": "F12: 'Pukka Orchestra had a local radio hit in 1984 with the song \"Cherry Beach Express.\"' F13: 'the Toronto police tried to have the song banned.'",
+      "fix": "\"The beach's nickname, Cherry Beach Express — also a 1984 song Toronto Police tried to ban — commemorates alleged police brutality from the 1940s to 1990s.\""
+    }
+  ],
+  "advisory": [
+    {
+      "where": "history.mdx — 'From Clarke Beach Park to a Near-Elimination' section",
+      "claim": "\"That name held for seventy years, even as the site around it kept changing...\"",
+      "problem": "The sheet only supports 'early 1930s' (F01) for the founding year, and the page's own timeline commits to 1930 for that event. 2003 minus 1930 is 73 years, not 70; 'seventy years' presents an unhedged precise-sounding figure the sheet cannot actually support to the year.",
+      "evidence": "F01: 'was originally named clarke beach park... in the early 1930s.' F02: renamed 2003. Timeline row: year 1930.",
+      "fix": "Change 'That name held for seventy years' to 'That name held for roughly seventy years'."
+    },
+    {
+      "where": "showcase.json margin_notes (audience: geology, anchor_para_index 1)",
+      "claim": "\"Fisherman's Island didn't erode gradually. An 1858 storm carved the Eastern Gap and left the sandbar community orphaned, cut off from the growing Toronto Islands it had once been joined to.\"",
+      "problem": "Compresses two separate sheet events into one: the sandbar's separation from the mainland peninsula happened around 1852 (F04, and the page's own 1852 timeline row); the 1858 storm is a second, later event that carved the Eastern Gap. Framing the 1858 storm alone as the moment it was 'cut off... it had once been joined to' skips the 1852 step the rest of the page (and the timeline) treats as distinct.",
+      "evidence": "F04: 'connected with toronto islands... before 1852 and later as sandbar.' Timeline row 1852: 'Peninsula severed into a sandbar.' Timeline row 1858: 'Storm carves the Eastern Gap.'",
+      "fix": "\"Fisherman's Island didn't erode gradually. Severed into its own sandbar around 1852, it was then permanently cut off when an 1858 storm carved the Eastern Gap between it and the growing Toronto Islands.\""
+    },
+    {
+      "where": "history.mdx — 'A Sandbar That Used to Be a Peninsula' section",
+      "claim": "\"The community lasted roughly another half-century before it disappeared entirely, a casualty of the same industrial waterfront expansion that eventually produced the Port Lands.\"",
+      "problem": "The 'casualty of... industrial waterfront expansion that eventually produced the Port Lands' causal claim goes beyond what F31/F32 state (they say the community 'wouldn't last' and disappeared, without tying the cause explicitly to a process that 'produced the Port Lands'). It's a plausible inference but not a sourced claim.",
+      "evidence": "F31: 'orphaned section of sandbar and community that would struggle on for another half-century before disappearing entirely.' F32: 'it had homes, a commercial fishery, and even a church, but it wouldn't last.'",
+      "fix": "\"The community lasted roughly another half-century before it disappeared entirely amid the area's industrial waterfront expansion.\""
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "cable-beach-6",
+  "verdict": "block",
+  "blocking": [
+    {
+      "where": "overview.mdx — Staircase to the Moon sentence",
+      "claim": "\"it happens on a handful of nights a month between March and October, and sourcing disagrees on whether that is two, three, or a flat three nights a month.\"",
+      "problem": "Recasts the Broome Visitor Centre's '2-3 days a month' (F33) as 'nights', collapsing it with the separate 'three nights a month' figure (F27) into one garbled unit. This both exceeds the sheet (changes days to nights) and contradicts travel.mdx, which keeps the two sources correctly separated ('two to three days a month or three nights a month').",
+      "evidence": "F33: \"the staircase to the moon happens 2 - 3 days a month between march and october.\" F27: source describes it as occurring \"for 3 nights every month.\" travel.mdx: \"sourcing giving either two to three days a month or three nights a month, depending on which tourism source is consulted.\"",
+      "fix": "it happens on a handful of nights a month between March and October, and sourcing disagrees on the frequency: the Broome Visitor Centre says two to three days a month, while an older tourism source says three nights a month."
+    },
+    {
+      "where": "culture.mdx (\"The Camel Problem\") and showcase.json spike_explainer, vs. culture.mdx opening paragraph / overview.mdx / showcase.json businesses & cultural_refs / travel.mdx",
+      "claim": "\"By 2016, Broome had three camel tour companies operating in exactly the same hundred-metre run of sand\" vs. \"two competing operators, Red Sun Camels and Broome Camel Safaris\"",
+      "problem": "The page states three camel companies shared the strip in 2016 (F25) but everywhere else names only two operators as Cable Beach's camel tour business, sourced to the current (2026) Visitor Centre page (F29), with no acknowledgment that the count changed. A reader cannot tell whether there are two or three operators, or what happened to the third.",
+      "evidence": "F25: \"it's also the same 100 metres in which the beach's three camel tour companies operate, meaning there are hundreds more sets of peering eyes moving slowly past.\" F29: \"broome has two camel tour operators, each with a different colour blankets. red sun camels is famously red. broome camel safaris have the blue blankets.\"",
+      "fix": "Add a reconciling clause at the 2016 mention, e.g.: \"By 2016, Broome had three camel tour companies operating in exactly the same hundred-metre run of sand as the clothing-optional section; today only two, Red Sun Camels and Broome Camel Safaris, remain.\""
+    },
+    {
+      "where": "showcase.json day_in_time.night",
+      "claim": "\"After dark, a gate at the Cable Beach amphitheatre is locked whenever vehicle access is not permitted, and also during turtle nesting season, closing off the vehicle approach entirely outside patrol hours.\"",
+      "problem": "Invents a link between the gate and lifeguard 'patrol hours' that is not in the sourcing. F38 ties the gate's locking to two conditions only — vehicle-access permission status and turtle nesting season — never to lifeguard patrol schedules, which are a separate topic (daytime swimming supervision, not vehicle gating).",
+      "evidence": "F38: \"a gate has been installed at the cable beach amphitheatre and will be locked when vehicle access is not permitted and also during turtle nesting season.\"",
+      "fix": "After dark, a gate at the Cable Beach amphitheatre is locked whenever vehicle access is not permitted, and also during turtle nesting season."
+    }
+  ],
+  "advisory": [
+    {
+      "where": "showcase.json key_facts — \"Camel train capacity\"",
+      "claim": "\"Camel train capacity: up to 36 riders at once\" (source: Kimberley Australia visitor guide)",
+      "problem": "Presented as a plain, current stat, but it comes from the same undated source (F28) whose paired weight limit (120 kg) is explicitly flagged elsewhere on the page as superseded by the current 90 kg limit (F30, 2026). The capacity figure's currency is just as uncertain but isn't flagged here.",
+      "evidence": "F28: \"the camel train can accommodate up to 36 riders at one time\" (undated; sheet's own conflicts list pairs this source's 120kg limit against F30's 90kg current figure).",
+      "fix": "Note the source's age in the key_facts entry, e.g. source: \"Kimberley Australia visitor guide (undated; see camel weight-limit note for a newer figure)\"."
+    },
+    {
+      "where": "showcase.json things_to_know / day_in_time / travel.mdx — lifeguard patrol return date",
+      "claim": "\"Patrols are scheduled to resume for the 2026 dry season on Good Friday, 3 April 2026.\"",
+      "problem": "Framed in future/scheduled tense, but the fact sheet was researched 2026-09-13 — over five months after the stated return date — with nothing confirming patrols actually resumed on schedule. Cannot be reworded correctly without new sourcing (web out of scope for this pass), so flagging for the next research cycle rather than a text fix now.",
+      "evidence": "F41: \"lifeguards return to cable beach on good friday, 3rd april 2026.\" Sheet researched_at: 2026-09-13.",
+      "fix": "No no-web fix available; flag for re-verification with fresh sourcing on whether the April 2026 patrol return actually occurred as scheduled."
+    }
+  ]
+}

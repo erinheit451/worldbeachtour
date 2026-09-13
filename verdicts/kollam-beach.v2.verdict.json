@@ -1,0 +1,22 @@
+{
+  "slug": "kollam-beach",
+  "verdict": "block",
+  "blocking": [
+    {
+      "where": "showcase.json > honest_reckoning_note",
+      "claim": "A 2014 marine aquarium meant to be the first of its kind in Kerala was likewise announced complete by December of that year, and then vanishes from the record; nothing confirms it ever opened or is running today.",
+      "problem": "\"Announced complete by December\" overstates the sheet: F15 only says completion was EXPECTED by December 2014, a projection, not an announcement of completion. Every other surface on the page (history.mdx and the timeline) correctly says 'completion expected' and explicitly notes no source confirms the aquarium was ever finished or opened. This one surface flips a projected date into a claimed completion event, contradicting the page's own careful treatment elsewhere and misleading a reader into thinking the aquarium's completion was itself announced.",
+      "evidence": "F15: 'The foundation stone for the project was laid in March and is expected to complete by December 2014.' Contrast history.mdx: 'The foundation stone had been laid in March 2014, with completion expected by December of that year ... No source available here confirms whether that aquarium was ever finished, opened to the public, or is operating today.' Contrast timeline: 'with completion expected by December; no later source confirms it opened.'",
+      "fix": "A 2014 marine aquarium meant to be the first of its kind in Kerala was likewise expected to be complete by December of that year, and then vanishes from the record; nothing confirms it ever opened or is running today."
+    }
+  ],
+  "advisory": [
+    {
+      "where": "showcase.json > key_facts > \"Kollam Port rank (2025)\"",
+      "claim": "Kollam Port rank (2025): 3rd largest in Kerala",
+      "problem": "The sheet's `conflicts` list treats the port-rank disagreement (English Wikipedia: 3rd, 2025 vs Tamil Wikipedia: 2nd, 2010) the same way it treats the park-inauguration-year disagreement, and the page marks the latter with a visible 'disputed: 1967' qualifier on its own key-fact/DataCard. The port-rank key fact carries no equivalent qualifier, so a reader who only sees the key-facts panel (not the prose, history.mdx, or margin notes, which do state the conflict) would take '3rd largest' as settled when the page's own convention elsewhere says otherwise.",
+      "evidence": "Sheet conflicts: 'Kollam Port's rank among Kerala ports: English Wikipedia (F10) says third largest as of 2025 ... Tamil Wikipedia (F24) says second largest per a 2010 estimate.' Compare key_facts \"Park inaugurated\": \"1961\" unit \"disputed: 1967\".",
+      "fix": "Add a matching qualifier to the key fact, e.g. value \"3rd largest in Kerala\" unit/note \"disputed: 2nd (Tamil Wikipedia, 2010 est.)\", or drop the disputed qualifier from the park-inauguration key fact for consistency."
+    }
+  ]
+}

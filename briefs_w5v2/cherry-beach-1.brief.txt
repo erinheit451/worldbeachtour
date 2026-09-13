@@ -1,0 +1,15 @@
+REPAIR BRIEF — cherry-beach-1
+
+2 BLOCKING issue(s). Fix every one. Do not restyle anything else.
+
+--- 1. history.mdx — 'A Sandbar That Used to Be a Peninsula' section, closing sentence
+    CLAIM AS WRITTEN : "People visiting Cherry Beach today are standing on ground that spent most of a century as a drowned settlement before anyone dug it back up."
+    WHY IT IS WRONG  : Contradicts the page's own overview.mdx, which says the settlement's artifacts were 'buried for more than a century,' and the landmarks entry ('buried for over a century and unearthed... in September 2020'). The fact sheet's own quote for this exact discovery (F33) says 'buried for over a century' — not 'most of' one. Using the timeline's dates (community disappeared roughly a half-century after the 1858 storm, i.e. ~1900s-1910s per F31, discovered 2020) the actual span is 110+ years, which is MORE than a century, so history.mdx understates the same fact two other surfaces state correctly.
+    EVIDENCE         : F33: 'archeologists uncovered artifacts from the lost community like shoes, ginger ale bottles, and newspaper clippings that had been buried for over a century.' F31: 'orphaned section of sandbar and community that would struggle on for another half-century before disappearing entirely' (from the 1858 storm). overview.mdx: 'artifacts from the lost settlement, buried for more than a century.' landmarks entry: 'buried for over a century and unearthed by archaeologists... in September 2020.'
+    REQUIRED FIX     : Change 'spent most of a century as a drowned settlement' to 'spent more than a century as a drowned settlement' so it matches overview.mdx, the landmarks entry, and F33.
+
+--- 2. composition.json spike_statement (mirrors SPIKE row in the claims ledger)
+    CLAIM AS WRITTEN : "The beach's nickname, Cherry Beach Express, commemorates alleged police brutality from the 1940s to 1990s, a song Toronto Police tried to ban."
+    WHY IT IS WRONG  : Dangling appositive: 'a song Toronto Police tried to ban' is tacked on after '1990s' with no connector, so it reads as modifying the decade span rather than 'Cherry Beach Express.' A reader parses this as an unfinished or malformed sentence rather than learning that the nickname is also the title of the 1984 song the police tried to ban.
+    EVIDENCE         : F12: 'Pukka Orchestra had a local radio hit in 1984 with the song "Cherry Beach Express."' F13: 'the Toronto police tried to have the song banned.'
+    REQUIRED FIX     : "The beach's nickname, Cherry Beach Express — also a 1984 song Toronto Police tried to ban — commemorates alleged police brutality from the 1940s to 1990s."

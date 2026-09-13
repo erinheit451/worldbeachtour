@@ -1,0 +1,27 @@
+REPAIR BRIEF — woodbine-beach
+
+4 BLOCKING issue(s). Fix every one. Do not restyle anything else.
+
+--- 1. history.mdx — 'What This Adds Up To' section
+    CLAIM AS WRITTEN : "A funded, ambitious public plan for the whole waterfront stalled with no confirmed outcome, while a storm-damaged boardwalk sat broken for over a year."
+    WHY IT IS WRONG  : Calls the Lake Ontario Park master plan "funded" and headlines the section above it "A Master Plan That Never Got Built" — both directly contradict the page's own earlier, correctly-hedged statement two paragraphs prior in the same file: "No source available for this page confirms the promenade, or the wider master plan, was ever funded or built." A reader hits three different certainty levels (unfunded/unbuilt is unconfirmed; then flatly 'never got built'; then flatly 'funded') for the same fact in one article.
+    EVIDENCE         : F18/F19 (Star 2010): plan was 'prepared for Waterfront Toronto in 2008' with an estimated ~$17M promenade cost; sheet dead_ends: 'No confirmation of whether the 2008 Lake Ontario Park master plan or its $17M promenade was ever funded or built.'
+    REQUIRED FIX     : Replace "A funded, ambitious public plan for the whole waterfront stalled with no confirmed outcome" with "An ambitious public plan for the whole waterfront, of unconfirmed funding, stalled with no confirmed outcome". Also change the section header "A Master Plan That Never Got Built" to "A Master Plan With No Confirmed Outcome" so it no longer asserts certainty the sourcing doesn't support.
+
+--- 2. history.mdx ('What They Share Is a Pattern' paragraph) and showcase.json spike_explainer (closing paragraph)
+    CLAIM AS WRITTEN : "At Toronto's most heavily used public beach..." / "Toronto's biggest, most heavily used public beach keeps ending up run..." / "Toronto's biggest, most heavily used public beach is also the one where..."
+    WHY IT IS WRONG  : "Biggest"/"largest" is sheet-supported (F01), but "most heavily used" is not — no fact ranks Woodbine's usage against all other Toronto beaches. The only comparative-crowd fact (F35) says Woodbine is 'rowdier, busier' than two specific named beaches (Sunnyside, Cherry Beach), not that it is the single most-used beach in the city. This is a certainty upgrade beyond the source.
+    EVIDENCE         : F35: "unlike the serene oases on the toronto islands, or the less-frequented beaches like sunnyside or cherry beach, it's a rowdier vibe here." F25 (busy weekend transit/parking crowding) supports 'busy' but not a citywide superlative.
+    REQUIRED FIX     : Replace "most heavily used" with "one of its busiest" in all three locations, e.g. "At one of Toronto's busiest public beaches..." and "Toronto's biggest, one of its busiest, public beach..."
+
+--- 3. showcase.json timeline entry, year 1953 ('The cut' becomes a bathing beach)
+    CLAIM AS WRITTEN : {"year": 1953, ... "description": "Lake Shore Boulevard is extended to Woodbine Avenue in the 1950s, turning a wooded area nicknamed 'the cut' into an actual bathing beach."}
+    WHY IT IS WRONG  : The row invents the specific year 1953 in its `year` field, but its own `description` field only says "in the 1950s" — the two fields inside the same ledger row disagree with each other, and the sheet fact (F03) never gives a specific year, only "the 1950s."
+    EVIDENCE         : F03: "until lake shore boulevard was extended to woodbine avenue in the 1950s, woodbine beach was not a bathing beach, but rather a wooded area known as 'the cut'." No source in the sheet gives 1953 specifically.
+    REQUIRED FIX     : Change the timeline row's year field from 1953 to null (or to "1950s" as a non-numeric era label, matching how the page itself elsewhere only ever says 'in the 1950s'), since no source pins an exact year.
+
+--- 4. history.mdx — 'One Family, One Contract, Two Decades Renewed' section
+    CLAIM AS WRITTEN : "No source in the research for this page confirms whether the Foulidis concession or the Boardwalk Pub is still the operating arrangement today..."
+    WHY IT IS WRONG  : This hedge lumps together two different things: whether the specific restaurant (Boardwalk Pub) still operates, and whether the legal concession (the Foulidis family's exclusive rights) is still in force. The second is knowable from public record independent of the Star's 2010 field visit — council's 2007 vote renewed it for 20 more years, i.e. through 2027, which is still in effect as of this page's research date (2026-09-13). By extending the hedge to the concession itself, the sentence directly undercuts the spike_statement, subtitle, and reckoning_pullquote, which all assert in confident present tense that one family currently holds the concession ('for two decades and counting', 'renewed by council for 20 more'). The page can't simultaneously headline this as a live, ongoing arrangement and then tell the reader in the body that nobody knows if it's still the arrangement.
+    EVIDENCE         : F11 (derivation D01): 2007 council vote renewed the concession without competitive bid for 20 more years, i.e. through 2027. Subtitle: 'one family has held for two decades and counting.' Spike: 'renewed by council for 20 more.'
+    REQUIRED FIX     : Replace the sentence with: "No source in the research for this page confirms whether the Boardwalk Pub specifically is still open today; the concession itself, per the 2007 council vote, runs through 2027. The sourced pricing and vendor details here are pinned to 2010."

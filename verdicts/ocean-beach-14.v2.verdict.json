@@ -1,0 +1,43 @@
+{
+  "slug": "ocean-beach-14",
+  "verdict": "blocking",
+  "blocking": [
+    {
+      "where": "environment.mdx — opening MapEmbed",
+      "claim": "<MapEmbed lat={37.7480} lng={-122.5090} name=\"Ocean Beach south end / seawall zone\" />",
+      "problem": "These coordinates are identical to the SUNSET-DUNES zone (55% along the beach, the mid-beach former-highway corridor), not the actual south end near Fort Funston / the Oceanside plant where the seawall sits (SOUTH zone, 90% along the beach). The map pin puts the seawall in the wrong place on the beach.",
+      "evidence": "showcase.json zones: SUNSET-DUNES {lat 37.7480, lng -122.5090, position_along_beach_pct 55}; SOUTH \"South end toward Fort Funston\" {lat 37.7180, lng -122.5040, position_along_beach_pct 90}.",
+      "fix": "Change the MapEmbed to lat={37.7180} lng={-122.5040} (the SOUTH zone's coordinates)."
+    },
+    {
+      "where": "overview.mdx — \"What kind of beach this is\"",
+      "claim": "they move at very different speeds along the shoreline, fastest where the coast narrows and slowest at the far ends",
+      "problem": "F02 gives three distinct speeds: ~2.5 m/s at the inlet throat, ~1.5 m/s at the extreme north end, ~0.5 m/s at the extreme south end. The north end is three times faster than the south end, so the two \"far ends\" are not equally slow — the showcase.json SOUTH zone itself calls its 0.5 m/s reading \"slowest along the beach,\" singular. Saying \"slowest at the far ends\" (plural) misleads a reader into thinking both ends are equally calm.",
+      "evidence": "F02 quote: \"currents can exceed 2.5 meters per second in the inlet throat, 1.5 meters per second at the extreme north end of the beach, and .5 meters per second at the extreme south end of the beach.\" showcase.json SOUTH zone note: \"Currents here run around 0.5 m/s, slowest along the beach.\"",
+      "fix": "\"they move at very different speeds along the shoreline — fastest near the inlet throat, calmer at the north end, and slowest of all at the south end — so a stretch that looks calm can sit close to a stretch that isn't.\""
+    },
+    {
+      "where": "showcase.json — spike_explainer, \"Why this matters beyond San Francisco\"",
+      "claim": "San Francisco's version compressed all three into about a year: the highway closed in March 2025, the park opened weeks later to strong turnout, and by September its most prominent backer had lost his job over it.",
+      "problem": "The three named events span March 2025 to September 2025 — six months, not \"about a year.\"",
+      "evidence": "F10: Great Highway closed March 2025. F13: Engardio recalled September 2025.",
+      "fix": "Replace \"about a year\" with \"about six months.\""
+    },
+    {
+      "where": "environment.mdx — \"A history of losing, and re-losing, the same sand\"",
+      "claim": "Twice, in other words, the city has paid to put sand back, and twice the ocean has taken it again on a timescale measured in months, not decades.",
+      "problem": "Only the 2021 fix (F26) is documented as bringing in new sand that washed away within months. The 2009-10 event (F19) is sourced only as generic \"$5 million for emergency remediation due to erosion\" — the sheet does not say this involved replacing sand, and gives no failure timescale for it. Describing both events identically overstates the 2009-10 fact's specificity.",
+      "evidence": "F19 quote: \"during the winter of 2009-10, storms led to $5 million for emergency remediation due to erosion.\" F26 quote: \"in 2021, the city spent $3.8 million bringing in sand from offshore sandbars\" (page's next sentence: waves swept it away within months).",
+      "fix": "\"Once, in 2021, the city explicitly paid to put new sand back — and lost most of it within months. Before that, the winter storms of 2009-10 had already cost the city $5 million in emergency erosion remediation. Twice, in other words, the city has paid to fight the same erosion, and neither fix has lasted.\""
+    }
+  ],
+  "advisory": [
+    {
+      "where": "showcase.json — key_facts / honest_reckoning_note",
+      "claim": "Deaths since 2014: 8 — more than any other beach in California (source: SFGate, 2018)",
+      "problem": "The count comes from a 2018 article. The same page separately reports a November 2023 surfing death (Kirby Lee) that postdates the source and isn't reflected in the \"8\" figure, so a reader could take the number as current when it is at least 8 years stale.",
+      "evidence": "F38 (dated 2018-09): \"...eight people since 2014...according to data from the national weather service.\" F04: \"in november 2023, surfer kirby lee died due to a surfing accident at ocean beach.\"",
+      "fix": "Add a light qualifier, e.g. \"8 as of a 2018 report — at least one further death (2023) is known since.\""
+    }
+  ]
+}

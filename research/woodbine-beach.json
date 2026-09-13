@@ -85,6 +85,7 @@
   "budget": {"sources_read": 8},
   "derivations": [
     {"id": "D01", "fact": "2010-07 (Star profile publication) minus 'three years ago' = 2007 council vote renewing the Foulidis family's food/alcohol concession without competitive bid for 20 more years", "from": ["F11"]},
-    {"id": "D02", "fact": "10 public courts + 85 OVA-run courts = 95 total sand volleyball courts at Woodbine Beach", "from": ["F13"]}
+    {"id": "D02", "fact": "10 public courts + 85 OVA-run courts = 95 total sand volleyball courts at Woodbine Beach", "from": ["F13"]},
+    {"id": "D03", "fact": "2007 council vote (D01) renewing the Foulidis concession for 20 more years = concession runs through 2027", "from": ["F11", "D01"]}
   ]
 }

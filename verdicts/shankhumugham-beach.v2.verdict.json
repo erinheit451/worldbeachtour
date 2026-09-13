@@ -1,0 +1,29 @@
+{
+  "slug": "shankhumugham-beach",
+  "verdict": "FAIL",
+  "blocking": [
+    {
+      "where": "showcase.spike_explainer, section 'The unresolved plan next door'",
+      "claim": "\"a Rs 14.6 crore beachfront plan facing an erosion problem serious enough to have already swallowed a public road is not a safe bet to have landed on schedule\" — stated in the middle of the paragraph narrating the May 2019 masterplan announcement.",
+      "problem": "Chronology inversion. This sentence is embedded in the 2019 masterplan narrative and reads as if the road had 'already' been swallowed by erosion at the time the masterplan was proposed (2019). Per the sheet, the road closure was reported in September 2021 — roughly two years AFTER the 2019 masterplan announcement, not before it. environment.mdx gets this right elsewhere ('a coastline that would go on to lose a section of its access road to erosion within roughly two years' — future from 2019), so this is an internal contradiction as well as an invented chronology.",
+      "evidence": "F16/F18/F19 (road closed, reported Sept 2021) vs F35/F36 (masterplan proposed May 2019, due March 2020); environment.mdx correct version: 'on a coastline that would go on to lose a section of its access road to erosion within roughly two years'",
+      "fix": "Replace with: 'a Rs 14.6 crore beachfront plan on a coastline that would go on to lose a section of its own access road to erosion within two years is not a safe bet to have landed on schedule.'"
+    },
+    {
+      "where": "environment.mdx heading 'An Informal Economy, Overnight' + body 'almost immediately'; margin_notes[1] 'overnight'; vs showcase.spike_explainer 'The economy that filled the gap... an informal one appeared within months.'",
+      "claim": "Three surfaces (environment.mdx section heading, environment.mdx body text, margin_notes) characterize the informal porter/vendor economy as appearing instantly ('Overnight', 'almost immediately'), while showcase.spike_explainer characterizes the same event as taking 'within months.'",
+      "problem": "Cross-surface contradiction on timing of the same event, and neither timeframe is directly supported by the sheet. The News Minute report (Sept 2021) documents Jesudas and Alphonsa's activity roughly five months after the road closed (~April 2021) — the sheet contains no fact establishing whether the informal economy began instantly or gradually. 'Overnight'/'almost immediately' overstates certainty in one direction; 'within months' contradicts it in the other.",
+      "evidence": "F18 (road closed ~5 months before Sept 2021 report), F22 (Jesudas), F23 (Alphonsa) — no fact gives onset timing of the informal economy relative to the closure",
+      "fix": "Remove the invented timeframe from all four instances. In environment.mdx, change the heading to 'An Informal Economy' and the body to '...it produced a small, specific, documented economy.' In margin_notes[1], change 'created an informal economy overnight' to 'created an informal economy.' In showcase.spike_explainer, change 'an informal one appeared within months' to 'an informal one appeared.'"
+    }
+  ],
+  "advisory": [
+    {
+      "where": "environment.mdx ('masterplan to develop the beachfront in three stages') vs showcase.intro_text/spike_explainer ('three steps')",
+      "claim": "Masterplan phasing described as 'three stages' in one surface and 'three steps' in others.",
+      "problem": "Minor word-choice inconsistency for the same fact (F35); not misleading on its own, but worth normalizing for polish.",
+      "evidence": "F35: 'develop shangumukham in three steps'",
+      "fix": "Use 'three steps' consistently (matches the sheet's own phrasing) in environment.mdx as well."
+    }
+  ]
+}
