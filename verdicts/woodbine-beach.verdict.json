@@ -1,0 +1,63 @@
+{
+  "slug": "woodbine-beach",
+  "verdict": "FAIL",
+  "claims_checked": 46,
+  "fetches_used": 0,
+  "searches_used": 0,
+  "spike_verdict": "The core spike (one family's exclusive, bid-free food/alcohol concession, renewed 2007 for 20 more years) is fully carried by F11 and is correctly hedged for current operating status (page repeatedly notes no source confirms the Boardwalk Pub or Foulidis arrangement is still current in 2026); the contractual claim itself is sound since the 2007+20yr term runs through 2027. However, the page repeatedly inflates the spike's framing with unsourced citywide superlatives not present anywhere in research/woodbine-beach.json.",
+  "blocking": [
+    {
+      "where": "overview.mdx para 4 ('more than any other Toronto beach'); showcase.json intro_text para 3 ('more than any comparable Toronto beach'); showcase.json spike_explainer para 3 ('more than any other Toronto beach'); history.mdx 'The Courts Tell the Same Story' para ('more than anywhere else in the city')",
+      "claim": "Woodbine has roughly 95 sand volleyball courts, 'more than any other Toronto beach' / 'more than anywhere else in the city.'",
+      "problem": "No fact in research/woodbine-beach.json compares Woodbine's court count to any other Toronto beach. F13 (Toronto Star 2010) only gives Woodbine's own count (10 public + 85 OVA = 95, per derivation D02); it makes no citywide comparison. This is an unsourced superlative added beyond what the cited facts say.",
+      "evidence": "F13: \"there are 10 public volleyball courts in the sand at woodbine beach. the other 85 are operated by the ontario volleyball association...\" (thestar.com/life/2010/07/07/torontos_crown_jewel_needs_polishing.html) — no other-beach comparison anywhere in the fact sheet or dead_ends list.",
+      "fix": "Delete the comparison clause in all four locations, e.g. 'Woodbine has roughly 95 sand courts, and the courts are the main reason...' / 'roughly 95 courts in the sand, but only 10 of them are open to the public for free.'"
+    },
+    {
+      "where": "showcase.json spike_explainer para 4 ('It is the busiest public beach in Toronto') and closing para ('Toronto's biggest, busiest, most democratic beach'); history.mdx closing para ('Toronto's biggest, busiest, most public beach')",
+      "claim": "Woodbine is described as 'the busiest public beach in Toronto' / 'Toronto's biggest, busiest ... beach.'",
+      "problem": "research/woodbine-beach.json explicitly lists 'No current visitor-attendance or economic-impact figures for the beach' under dead_ends — there is no attendance or usage-comparison data for Woodbine or any other Toronto beach anywhere in the sheet. 'Busiest' is asserted as fact with zero supporting citation; F25 (transit crowding on 'busy summer weekends') and F35 ('rowdier' vibe) support that the beach gets crowded, not that it is the busiest in the city.",
+      "evidence": "sheet dead_ends: \"No current visitor-attendance or economic-impact figures for the beach.\" No fact_id anywhere makes a citywide busiest-beach claim.",
+      "fix": "Replace 'the busiest public beach in Toronto' with something the sources support, e.g. 'a beach that fills up fast on summer weekends' (per F25), and change 'Toronto's biggest, busiest, most democratic/public beach' to 'Toronto's biggest, most heavily used public beach' or similar, dropping the unsupported superlative 'busiest.'"
+    }
+  ],
+  "advisory": [
+    {
+      "where": "showcase.json food_drink[0] (Boardwalk Pub), food_drink[2] (Queen St. E. corridor); history.mdx concession paragraph",
+      "claim": "Present-tense framing of the Foulidis concession and Boardwalk Pub alongside explicit 2010-pinned hedges.",
+      "problem": "Not a defect — flagging for completeness per the verify brief's instruction to check 2010-era concession facts aren't presented as current. The page correctly hedges: it states the legal concession term (2007 renewal + 20 years = runs through 2027, so 'held ... for two decades and counting' is accurate as a contractual fact in 2026) while separately and explicitly disclaiming that no source confirms the Boardwalk Pub or the Foulidis family still operate day-to-day today. This distinction is well-drawn and does not need a fix.",
+      "evidence": "showcase.json food_drink[0]: \"No source confirms whether it still operates today.\"; history.mdx: \"No source in the research for this page confirms whether the Foulidis concession or the Boardwalk Pub is still the operating arrangement today...\"",
+      "fix": "none — no change needed"
+    }
+  ],
+  "verified_ok": [
+    "F01/F02 - largest beach in Toronto, 15.2 ha (38 acres), created 1950",
+    "F03 - pre-1950s 'the cut' wooded area, not a bathing beach",
+    "F04 - Blue Flag certified since 2005",
+    "F05 - daily water testing/sand grooming since 1990 turnaround",
+    "F09/F28 - Donald D. Summerville pool, 1961 construction, Olympic spectator scaffolding, 5m diving board",
+    "F10 - Martin Goodman Trail along the boardwalk",
+    "F11 - Foulidis family concession, 20+ years, 2007 no-bid renewal for 20 more (D01: 2010-3=2007)",
+    "F12 - Boardwalk Pub, $11 burgers/fries, 2010",
+    "F13 - 10 public / 85 OVA courts, $45 summer membership (D02: 10+85=95)",
+    "F14 - Balmy Beach Club, 1875 land donation",
+    "F15 - Balmy Beach boathouse, $80/year",
+    "F16 - 350 Queen St. E. businesses (2010)",
+    "F17 - Lee Ave./Nursewood Rd. off-leash areas",
+    "F18/F19/F20 - 2008 Lake Ontario Park master plan, $17M promenade, unfunded/unconfirmed boardwalk repair >1yr",
+    "F21 - 8 women's washroom stalls",
+    "F22 - 15C average July water temp (2010), correctly flagged against Wikipedia's ~20C conflict",
+    "F23 - one public parking lot, Lake Shore Blvd E",
+    "F24 - 3km continuous sand to R.C. Harris plant",
+    "F25 - 92 Woodbine bus/501 Queen streetcar packed, lots fill by 10am",
+    "F26 - lifeguards all summer",
+    "F27 - periodic sewage-plant smell",
+    "F29 - coordinates 43.6617,-79.3068 match MapEmbed/DataCard",
+    "F32 - Prana Coffee Bar, correctly dated 2010",
+    "F33 - Bussin 'don't entertain too much change' quote, correctly attributed as recalled, not her own view",
+    "F34 - eastern shoreline of 'old Toronto' (Woodbine + Kew-Balmy + Balmy Beach Park)",
+    "F35 - rowdier/busier vibe vs Sunnyside/Cherry Beach",
+    "trusted dataset: 9.8km/8.1km correctly labeled straight-line in travel.mdx and access_note; wave stats (0.57m annual mean, 0.27m Jul, 0.8m Jan, 1.56m peak) match exactly; 0 shark incidents correctly phrased as 'no recorded incidents'",
+    "No Woodbine Racecourse (F30) content found anywhere on the page — identity kept clean"
+  ]
+}

@@ -1,0 +1,15 @@
+REPAIR BRIEF — cherry-beach-1
+
+2 BLOCKING issue(s). Fix every one. Do not restyle anything else.
+
+--- 1. showcase.json day_in_time.night; contradicted by travel.mdx 'Safety and What's Not Confirmed Here'
+    CLAIM AS WRITTEN : "Night falls on a stretch of shoreline with no lifeguard supervision outside the summer season."
+    WHY IT IS WRONG  : This asserts a specific, unsourced fact. The fact sheet's own dead_ends list names 'Lifeguard staffing or hours of supervision' as unconfirmed, and the page itself admits this two sections later in travel.mdx: 'No sourced information here covers lifeguard staffing or supervised hours at Cherry Beach.' The page contradicts itself and states as fact something research explicitly could not source.
+    EVIDENCE         : research/cherry-beach-1.json dead_ends: "Lifeguard staffing or hours of supervision"; travel.mdx: "No sourced information here covers lifeguard staffing or supervised hours at Cherry Beach ... Anyone planning a visit around those specifics should check current City of Toronto sources directly."
+    REQUIRED FIX     : Replace with an unsourced-safe version, e.g. "Night falls on a stretch of shoreline where lifeguard hours aren't documented here; the cottonwood stands along the shore are among the only major ones in Toronto outside the Islands."
+
+--- 2. travel.mdx 'Water and Seasons' paragraph (wave data)
+    CLAIM AS WRITTEN : "January the roughest month (0.71 m average, up to 1.46 m on the biggest days recorded)"
+    WHY IT IS WRONG  : Misreads the trusted dataset. site/data/beaches/cherry-beach-1.json waves.height_big_m is indexed Jan–Dec; January's own big-day figure (index 0) is 1.34 m. The 1.46 m value is April's big-day figure (index 3) and equals waves.summary.peak_big_day_m, an annual peak — not January's. The sentence misattributes the annual peak to January.
+    EVIDENCE         : site/data/beaches/cherry-beach-1.json: height_big_m=[1.34,1.28,1.14,1.46,0.58,0.72,0.44,0.56,0.72,0.92,1.18,1.06] (index0=Jan=1.34, index3=Apr=1.46); summary.peak_big_day_m=1.46 with no month attached in the summary object itself.
+    REQUIRED FIX     : Replace "up to 1.46 m on the biggest days recorded" with "up to 1.34 m on its biggest days" (January's own figure), or, if the annual peak is worth keeping, add the correct month: "...with the year's single highest reading, 1.46 m, recorded in April."

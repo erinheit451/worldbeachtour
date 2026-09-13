@@ -1,0 +1,51 @@
+{
+  "slug": "cherry-beach-1",
+  "verdict": "FAIL",
+  "claims_checked": 32,
+  "fetches_used": 0,
+  "searches_used": 0,
+  "spike_verdict": "Carried: the fact sheet's F12/F13/F30/F37/F38 support a decades-old, alleged (not proven) police-brutality nickname with one civil settlement and one named denial+exoneration, and the page hedges this correctly everywhere it appears.",
+  "blocking": [
+    {
+      "where": "showcase.json day_in_time.night; contradicted by travel.mdx 'Safety and What's Not Confirmed Here'",
+      "claim": "\"Night falls on a stretch of shoreline with no lifeguard supervision outside the summer season.\"",
+      "problem": "This asserts a specific, unsourced fact. The fact sheet's own dead_ends list names 'Lifeguard staffing or hours of supervision' as unconfirmed, and the page itself admits this two sections later in travel.mdx: 'No sourced information here covers lifeguard staffing or supervised hours at Cherry Beach.' The page contradicts itself and states as fact something research explicitly could not source.",
+      "evidence": "research/cherry-beach-1.json dead_ends: \"Lifeguard staffing or hours of supervision\"; travel.mdx: \"No sourced information here covers lifeguard staffing or supervised hours at Cherry Beach ... Anyone planning a visit around those specifics should check current City of Toronto sources directly.\"",
+      "fix": "Replace with an unsourced-safe version, e.g. \"Night falls on a stretch of shoreline where lifeguard hours aren't documented here; the cottonwood stands along the shore are among the only major ones in Toronto outside the Islands.\""
+    },
+    {
+      "where": "travel.mdx 'Water and Seasons' paragraph (wave data)",
+      "claim": "\"January the roughest month (0.71 m average, up to 1.46 m on the biggest days recorded)\"",
+      "problem": "Misreads the trusted dataset. site/data/beaches/cherry-beach-1.json waves.height_big_m is indexed Jan–Dec; January's own big-day figure (index 0) is 1.34 m. The 1.46 m value is April's big-day figure (index 3) and equals waves.summary.peak_big_day_m, an annual peak — not January's. The sentence misattributes the annual peak to January.",
+      "evidence": "site/data/beaches/cherry-beach-1.json: height_big_m=[1.34,1.28,1.14,1.46,0.58,0.72,0.44,0.56,0.72,0.92,1.18,1.06] (index0=Jan=1.34, index3=Apr=1.46); summary.peak_big_day_m=1.46 with no month attached in the summary object itself.",
+      "fix": "Replace \"up to 1.46 m on the biggest days recorded\" with \"up to 1.34 m on its biggest days\" (January's own figure), or, if the annual peak is worth keeping, add the correct month: \"...with the year's single highest reading, 1.46 m, recorded in April.\""
+    }
+  ],
+  "advisory": [
+    {
+      "where": "showcase.json key_facts → \"Water-quality label: Annual Blue Flag certification\"",
+      "claim": "\"Annual Blue Flag certification\" stated flatly in the quick-facts table.",
+      "problem": "F07 says Cherry Beach 'typically achieves' annual Blue Flag certification — not certified every year without exception. Prose surfaces (overview.mdx, showcase honest_reckoning_note) correctly hedge with 'typically'; this compressed table cell drops the hedge.",
+      "evidence": "research/cherry-beach-1.json F07: \"cherry beach typically achieves annual blue flag certification.\"",
+      "fix": "Change value to \"Typically annual (Blue Flag)\" or similar to match the hedged framing used elsewhere on the page."
+    }
+  ],
+  "verified_ok": [
+    "SPIKE/SUBTITLE — alleged police brutality framing carried correctly, matches F12/F13/F30/F37/F38",
+    "key_fact — Clarke Beach Park renamed 2003 (F01, F02)",
+    "key_fact — park created early 1930s by Harry Clarke (F01)",
+    "key_fact — 2012 soil assessment lead/zinc (F05)",
+    "key_fact — soccer-field contamination, 275 Unwin Ave, built 2006 (F08, F09)",
+    "key_fact — 1882 breakwater found Sept 2020 (F34)",
+    "key_fact — 1.4M m3 soil excavated (F35)",
+    "key_fact — beach water testing resumes summer 2027 (F27)",
+    "timeline 1852/1858/1930/1974/1984/2003(x2)/2006/2012/2020-09 all consistent with F04/F31/F01/F03/F12-13/F37/F02/F08-09/F05/F34",
+    "landmarks — Martin Goodman Trail (F17), 1882 breakwater (F34), 275 Unwin Ave fields (F08, F10)",
+    "cultural_refs — Pukka Orchestra 1984 (F12/F13), Career Suicide 2008 EP (F16), Alessia Cara Wild Things (F14), Silent Hill: Revelation 3D (F15), Missing Plaque Project 2013 (F30)",
+    "2003 Thomas Kerr settlement correctly framed as civil settlement, not proof of guilt (F37)",
+    "2007 Craig Bromell denial + exoneration correctly framed as a named denial (F38)",
+    "distances 9.1 km / 4.3 km straight-line, correctly labeled straight-line and matching site/data JSON",
+    "facility counts (1 beach, 7 bike-trail segments, 1 off-leash area, 2 parking lots, 2 picnic sites, 1 washroom) match F21 exactly across travel.mdx, showcase.json and margin_notes",
+    "no on-site food vendors correctly framed as absence-of-sourcing, matching dead_ends"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "ocean-beach-14",
+  "verdict": "PASS",
+  "claims_checked": 33,
+  "fetches_used": 2,
+  "searches_used": 0,
+  "spike_verdict": "Fully carried: F10/F11 (closure + 13,000 opening-day visitors) and F13 (Engardio recalled Sept 2025) are both quote-confirmed and the page never overstates the causal link beyond what F13's own phrasing supports.",
+  "blocking": [],
+  "advisory": [
+    {
+      "where": "showcase.json intro_text, para 5 ('well over a million visitors a year')",
+      "claim": "It draws well over a million visitors a year to a shoreline the agency that runs it has deliberately declined to lifeguard...",
+      "problem": "F41 (SFGate, medium confidence) only supports 'more than one million' annual visitors; 'well over' inflates an already soft, single-source estimate. The page itself uses the more careful 'more than a million' elsewhere (honest_reckoning_note), so this instance is inconsistent with its own sourcing standard.",
+      "evidence": "F41 quote: 'more than one million annual visitors to the city's famed ocean beach' (sfgate.com, 2018, confidence: medium)",
+      "fix": "Change 'well over a million visitors a year' to 'more than a million visitors a year'"
+    },
+    {
+      "where": "overview.mdx, para 1 (Kelly's Cove sentence)",
+      "claim": "a name that shows up on local maps and in surf reports more often than 'Ocean Beach' does for that particular section",
+      "problem": "This specific comparative-frequency claim (maps/surf-report usage rate) is not in any fact id or the research sheet's identity.aliases entry, which only notes Kelly's Cove as an alias with no frequency comparison. It reads as author-invented specificity rather than a sourced claim.",
+      "evidence": "research/<slug>.json identity.aliases: 'Kelly's Cove (northern surf section)' — no frequency/usage claim attached",
+      "fix": "Soften to 'a name locals and surfers use at least as often as \"Ocean Beach\" for that section' or delete the comparative clause entirely"
+    },
+    {
+      "where": "travel.mdx, Seasons and surf conditions paragraph",
+      "claim": "reaching as high as 3.96 meters on the biggest recorded days",
+      "problem": "The underlying site dataset field (waves.height_big_m, Open-Meteo Marine/ERA5 reanalysis) is a modeled monthly high-percentile value, not a documented all-time recorded-day maximum. 'Biggest recorded days' implies a historical record that the data doesn't establish.",
+      "evidence": "site/data/beaches/ocean-beach-14.json waves.height_big_m[0]=3.96 (January), source: 'Open-Meteo Marine (ERA5 Ocean reanalysis, 2023-2024)' — a modeled dataset, not a recorded-event log",
+      "fix": "Change 'on the biggest recorded days' to 'in the roughest modeled conditions' or 'on its biggest days in the 2023-2024 reanalysis'"
+    }
+  ],
+  "verified_ok": [
+    "F10/F11/F13 — Great Highway closure, Sunset Dunes opening (13,000 day-one visitors), Engardio recall — spike + timeline",
+    "F21/F23/F24 — $175M seawall, nine football fields/55ft, Oceanside plant 12M gal/day — key_facts + environment.mdx",
+    "F25 (re-fetched, confirmed) — 2012 $350M Master Plan set aside for the 2024 seawall",
+    "F26 (re-fetched, confirmed) — 2021 $3.8M sand replenishment washed away within months",
+    "F30 (re-fetched, confirmed) — snowy plover listed threatened in 1993; leash compliance 35% (2009-10) / 70% off-leash (2019-20)",
+    "F38/F41/F03 — 8 deaths since 2014, >1M annual visitors, 1998 record year — key_facts + honest_reckoning",
+    "F02/F28 — current speeds by zone, plover-zone leash dates/boundaries — margin_notes + zones",
+    "F22 vs F23 conflict (2027→2029 slip) correctly reconciled in environment.mdx with SFPUC cited as the newer source",
+    "20.2 km SFO distance correctly labeled straight-line throughout, never converted to miles or presented as drive time",
+    "businesses: [] — no operating-business claims on the page, nothing to re-verify"
+  ]
+}

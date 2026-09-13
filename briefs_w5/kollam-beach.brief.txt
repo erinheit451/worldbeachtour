@@ -1,0 +1,15 @@
+REPAIR BRIEF — kollam-beach
+
+2 BLOCKING issue(s). Fix every one. Do not restyle anything else.
+
+--- 1. history.mdx, 'A port before it was a beach' section, 2nd paragraph
+    CLAIM AS WRITTEN : "an English Wikipedia account ranks it third largest in Kerala as of 2025 ... while a Tamil Wikipedia account instead ranks it second largest ... per a 2010 estimate. The two figures are ten years and one rank apart"
+    WHY IT IS WRONG  : Arithmetic error: 2025 minus 2010 is fifteen years, not ten. The 'one rank apart' part is correct (3rd vs 2nd); only the year-gap figure is wrong.
+    EVIDENCE         : F10 (fact sheet): "as of 2025 [update], kollam port is the third largest port in kerala after trivandrum port and cochin port." F24: "2010 ஆம் ஆண்டு மதிப்பீட்டின்படி ... இரண்டாவது பெரிய துறைமுகம்" (per a 2010 estimate, second largest). 2025 - 2010 = 15, not 10.
+    REQUIRED FIX     : Replace "The two figures are ten years and one rank apart" with "The two figures are fifteen years and one rank apart"
+
+--- 2. overview.mdx, final paragraph
+    CLAIM AS WRITTEN : "a beach that has become, almost by accident, one of the state's go-to wedding backdrops"
+    WHY IT IS WRONG  : Overstatement: the entire evidentiary basis is a single traced 2016 ceremony (F06/F34), and the page's own margin note explicitly warns 'no later source names a second confirmed wedding vendor or venue at the beach.' Calling it a 'go-to' backdrop implies established, repeated popularity as a wedding venue that no source here supports — this is the exact 'made it famous' vs. 'helped make it known' overstatement class the audit targets.
+    EVIDENCE         : showcase.json margin_notes (culture): "The 'first beach wedding' claim traces to a single 2016 news account of Jo and Company's ceremony; no later source names a second confirmed wedding vendor or venue at the beach." No fact (F06, F34) supports ongoing/repeated wedding volume.
+    REQUIRED FIX     : Replace "a beach that has become, almost by accident, one of the state's go-to wedding backdrops" with "a beach that has picked up, almost by accident, a reputation as a wedding backdrop"

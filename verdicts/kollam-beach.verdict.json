@@ -1,0 +1,62 @@
+{
+  "slug": "kollam-beach",
+  "verdict": "FAIL",
+  "claims_checked": 28,
+  "fetches_used": 0,
+  "searches_used": 0,
+  "spike_verdict": "Yes — F29 (called deadliest), F30 (57 drownings/7yr) and F31 (IIT Madras plan) fully carry the spike; the 'geo-tube' detail matches the fact sheet's F33 paraphrase though not F33's own verbatim quote, which is a sourcing-hygiene gap rather than a fabrication.",
+  "blocking": [
+    {
+      "where": "history.mdx, 'A port before it was a beach' section, 2nd paragraph",
+      "claim": "\"an English Wikipedia account ranks it third largest in Kerala as of 2025 ... while a Tamil Wikipedia account instead ranks it second largest ... per a 2010 estimate. The two figures are ten years and one rank apart\"",
+      "problem": "Arithmetic error: 2025 minus 2010 is fifteen years, not ten. The 'one rank apart' part is correct (3rd vs 2nd); only the year-gap figure is wrong.",
+      "evidence": "F10 (fact sheet): \"as of 2025 [update], kollam port is the third largest port in kerala after trivandrum port and cochin port.\" F24: \"2010 ஆம் ஆண்டு மதிப்பீட்டின்படி ... இரண்டாவது பெரிய துறைமுகம்\" (per a 2010 estimate, second largest). 2025 - 2010 = 15, not 10.",
+      "fix": "Replace \"The two figures are ten years and one rank apart\" with \"The two figures are fifteen years and one rank apart\""
+    },
+    {
+      "where": "overview.mdx, final paragraph",
+      "claim": "\"a beach that has become, almost by accident, one of the state's go-to wedding backdrops\"",
+      "problem": "Overstatement: the entire evidentiary basis is a single traced 2016 ceremony (F06/F34), and the page's own margin note explicitly warns 'no later source names a second confirmed wedding vendor or venue at the beach.' Calling it a 'go-to' backdrop implies established, repeated popularity as a wedding venue that no source here supports — this is the exact 'made it famous' vs. 'helped make it known' overstatement class the audit targets.",
+      "evidence": "showcase.json margin_notes (culture): \"The 'first beach wedding' claim traces to a single 2016 news account of Jo and Company's ceremony; no later source names a second confirmed wedding vendor or venue at the beach.\" No fact (F06, F34) supports ongoing/repeated wedding volume.",
+      "fix": "Replace \"a beach that has become, almost by accident, one of the state's go-to wedding backdrops\" with \"a beach that has picked up, almost by accident, a reputation as a wedding backdrop\""
+    }
+  ],
+  "advisory": [
+    {
+      "where": "showcase.json spike_explainer ('The plan on paper'); overview.mdx composition timeline 2023 row; showcase.json key claim re: groynes/geo-tubes",
+      "claim": "\"use groynes and geo-tubes to reshape the shoreline\" / \"add groynes and geo-tubes\"",
+      "problem": "The verbatim quote captured for F33 (\"after the completion of the project, the length of the kollam beach will increase by around one kilometre while the depth will decrease\") does not itself contain the words 'groynes' or 'geo-tubes' — that detail exists only in the fact sheet's paraphrased 'fact' field, not in the quoted excerpt quote_check mechanically confirmed. The page stays within the fact sheet's own claim, so this is not a fabrication, but the specific engineering-method detail is one level removed from the machine-verified text.",
+      "evidence": "research/kollam-beach.json F33: fact field states groynes/geo-tubes; quote field does not.",
+      "fix": "No page change required; flag for research-stage tightening (add a quote fragment for F33 that actually contains 'groynes'/'geo-tubes', or cite the specific line of the source article that uses those terms)."
+    }
+  ],
+  "verified_ok": [
+    "SPIKE — F29, F30, F31 (deadliest framing, 57 drownings/7yr, IIT Madras plan)",
+    "subtitle — F05, F29 (hazard rating, lifeguard patrol, 'one of' framing not overstated to 'the')",
+    "key_fact: also known as — F01",
+    "key_fact: length 2,300+ m — F02",
+    "key_fact: location — F03",
+    "key_fact: hazard rating — F05",
+    "key_fact: drownings 57/7yr — F30",
+    "key_fact: water depth ~4m turbulent — F32",
+    "key_fact: Tangasseri Lighthouse 144ft/44m, 1902 — F17",
+    "key_fact: Kollam Port rank 2025 3rd — F10",
+    "timeline 1902 lighthouse — F17",
+    "timeline 1961 park (1961/1967 dispute correctly carried) — F07, F21, F22",
+    "timeline 2005 lifeguards — F08",
+    "timeline 2011 park refurbishment/fees — F35, F36",
+    "timeline 2014 aquarium (correctly hedged as unconfirmed completion) — F13, F14, F15, F16",
+    "timeline 2016 first claimed wedding (correctly hedged as a claim) — F34",
+    "timeline 2023 IIT Madras plan (correctly framed as presented, not executed) — F29, F30, F31, F33",
+    "landmark: Tangasseri Lighthouse — F17",
+    "landmark: Mahatma Gandhi Park (1961/1967 both surfaced) — F07, F21, F22",
+    "landmark: fort ruins/churches — F18",
+    "cultural_ref: Parasurama legend (correctly framed as legend) — F26",
+    "cultural_ref: first beach wedding (correctly framed as claim) — F06, F34",
+    "cultural_ref: colonial settlement era — F11, F27",
+    "breakwater unit conversion 1.1mi = 1.8km — F12 (no unit-flip error)",
+    "airport distance: straight-line 56.8km vs road 66-70km correctly kept separate, not conflated — trusted dataset + F43, F44",
+    "businesses: none claimed (empty array), consistent with dead_ends noting no confirmed operating businesses",
+    "F37/F38 (NOT_FOUND) are not cited by any page content or ledger row — correctly out of scope, no re-fetch needed"
+  ]
+}

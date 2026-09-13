@@ -1,0 +1,57 @@
+{
+  "slug": "shankhumugham-beach",
+  "verdict": "FAIL",
+  "claims_checked": 33,
+  "fetches_used": 0,
+  "searches_used": 0,
+  "spike_verdict": "Not fully carried: F15's 4.73 m/yr figure is a 2022 regional-erosion measurement, not a rate tied to the specific road, and it postdates the 2021 road closure it is credited with causing; the source (F19) calls the stretch the easiest route 'from most parts of the capital city' to the domestic terminal, not 'the only easy road to Trivandrum airport.' The page's own environment.mdx concedes exactly this ('that number describes the region... not a single fixed point') while the top-line SPIKE states it as a clean, unhedged causal fact.",
+  "blocking": [
+    {
+      "where": "composition.json spike_statement; showcase.json spike_explainer para 1",
+      "claim": "\"Erosion measured at 4.73 meters a year swallowed the only easy road to Trivandrum airport, forcing passengers to walk in with their luggage.\"",
+      "problem": "Overstatement on two axes. (1) Causal/temporal: the 4.73 m/yr rate is from a 2022 study describing 'the region including the Shankumugham beach' (F15), not a rate measured for this road segment, and it was published a year AFTER the road closed (F18, road closed ~April 2021; F15, study 2022). The page's own environment.mdx hedges this precisely ('That number describes the region... not a single fixed point'), but the spike states it as direct, unqualified cause-and-effect. (2) Scope: F19 says the closed stretch was 'the easiest route to reach the domestic terminal of the airport from most parts of the capital city' — not 'the only easy road,' and specific to the domestic terminal, not 'Trivandrum airport' generally.",
+      "evidence": "F15 (Wikipedia, 2022 study): 'a study from 2022 found that the region including the shankumugham beach observed an erosion of 4.73 meters per year.' F19 (The News Minute, Sept 2021): 'a 500 metres stretch was closed, it was the easiest route to reach the domestic terminal of the airport from most parts of the capital city.' F18: road closed 'nearly five months ago' relative to the Sept 2021 report, i.e. ~April 2021 — before the 2022 study existed.",
+      "fix": "Reword the spike to keep the tension without asserting the specific rate caused the specific closure, e.g.: \"Erosion has already swallowed the easiest road to Trivandrum airport's domestic terminal, forcing passengers to walk in with their luggage — and a later study measured the coastline here retreating at 4.73 meters a year.\" Apply the same de-scoping ('the only easy road' → 'the easiest road') anywhere else the spike phrasing is repeated verbatim (spike_deep_explainer opening line, if present verbatim)."
+    }
+  ],
+  "advisory": [
+    {
+      "where": "showcase.json honest_reckoning_note, sentence 1",
+      "claim": "\"it has a 35-metre mermaid sculpture\"",
+      "problem": "Drops the 'more than' qualifier that F11 and every other reference on the page (key_facts, overview.mdx, environment.mdx, showcase.json intro_text/spike_explainer) correctly preserve ('more than 35 metres long'). Minor internal inconsistency, understates rather than overstates.",
+      "evidence": "F11 (Wikipedia): 'this giant statue is more than 35 metres long.'",
+      "fix": "Change to \"it has a mermaid sculpture more than 35 metres long\" for consistency with the rest of the page."
+    },
+    {
+      "where": "composition.json / overview.mdx / travel.mdx key_facts + DataCard: \"Distance to city center: 8 km\"",
+      "claim": "8 km from Thiruvananthapuram, sourced to Wikipedia (F04).",
+      "problem": "The page's own citation (Wikipedia, F04) is accurately quoted, so this is not a sourcing error. But the trusted structured dataset (site/data/beaches/shankhumugham-beach.json) lists nearest_city_distance_km as 4.5, and nearest_airport distance_km as 1.3 — a real-world discrepancy with the 8 km figure the page repeats four times. Not a blocking mislabel per the verify instructions (source is correctly attributed), but worth a look before this ships as a stable key fact.",
+      "evidence": "Trusted dataset: \"nearest_city_distance_km\": 4.5. Page/F04 (Wikipedia): \"nearest city - thiruvananthapuram - 8 km.\"",
+      "fix": "No forced change — page correctly attributes 8 km to Wikipedia. Consider a parenthetical noting the structured-data estimate differs (4.5 km) if the discrepancy matters for trip-planning claims, or leave as-is since it is properly sourced."
+    },
+    {
+      "where": "travel.mdx 'Getting There and Around' para 1; travel.mdx 'Safety and Practical Notes' para 1; environment.mdx 'The Road That Erosion Closed' para 1",
+      "claim": "\"one of the more convenient beaches in India to reach on arrival or before departure\"; \"ahead of many unmonitored stretches of Indian coastline on paper\"; \"one of Kerala's busiest gateways\"",
+      "problem": "Unsupported comparative/superlative claims against a broader universe (all Indian beaches, all Indian coastline, all Kerala airports) that appear nowhere in research/<slug>.json — the author was confined to that file. Brochure-style editorializing rather than a sourced fact; not egregious enough to mislead on a service-level matter, so advisory not blocking.",
+      "evidence": "No fact_id in the ledger or fact sheet supports a comparison to other Indian beaches, coastlines, or Kerala airports.",
+      "fix": "Soften to first-person-verifiable claims, e.g. \"unusually convenient to reach on arrival or before departure, sitting directly beside the airport\" and \"ahead of an unmonitored stretch of coastline\" / \"a major airport for the state\" — drop the unsourced superlative comparisons."
+    }
+  ],
+  "verified_ok": [
+    "F15 4.73 m/yr erosion rate — quote matches key_facts and all narrative uses",
+    "F11 mermaid >35m, Kanayi Kunhiraman — matches key_facts, landmarks, cultural_refs (except honest_reckoning_note, see advisory)",
+    "F04 8km to city center — matches, correctly sourced to Wikipedia",
+    "F16/F18/F19 road closure, 500m stretch, ~5 months before Sept 2021 — matches key_facts and timeline",
+    "F22/F23 Jesudas Rs100/bag, Alphonsa fish stall — matches key_facts, showcase intro, food_drink, spike_explainer",
+    "F24 PWD official quote on re-erosion risk — matches environment.mdx and spike_explainer",
+    "F35/F36 Rs14.6 crore masterplan, March 2020 target — matches key_facts and timeline",
+    "F30 airport closes twice/year for Painkuni + Alpashi — matches key_facts, travel.mdx, things_to_know",
+    "F10/F29/F31 Maharaja-led Arattu procession to Aarattu Mandapam, Nov 2018 — matches timeline and cultural_refs",
+    "F32/F33/F34 traffic park closed since 2010 renovation, year into 2018 lease as of May 2019 — matches timeline and landmarks",
+    "F37/F38 Oct 2019 IAF static display, 28 children/7 schools, HS 748 — matches timeline exactly",
+    "F26/F27 Ganeshotsavam 2019, idols from 1,008 locations — matches timeline",
+    "F39/F41 Devi temple, one of 108 Durga temples, crowd days — matches key_facts and zones",
+    "F42 unnamed star-shaped restaurant, no name/price confirmed — correctly hedged in food_drink and travel.mdx",
+    "businesses: [] — correctly empty per dead_ends (no named/confirmed businesses); no re-fetch needed"
+  ]
+}

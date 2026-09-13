@@ -1,0 +1,39 @@
+{
+  "slug": "cable-beach-6",
+  "verdict": "PASS",
+  "claims_checked": 27,
+  "fetches_used": 3,
+  "searches_used": 0,
+  "spike_verdict": "Fully carried: F23 (naturists since 1960s), F24 (2016 quote, 'three or four'), and F25 (three camel operators sharing the same 100m in 2016) together support the spike as written, and the page correctly attributes the decline framing to the 2016 ABC source rather than overclaiming a present-day headcount.",
+  "blocking": [],
+  "advisory": [
+    {
+      "where": "showcase.json intro_text, para 1: 'at roughly 17.95°S, 122.21°E'",
+      "claim": "Cable Beach sits at roughly 17.95°S, 122.21°E",
+      "problem": "The bundle's trusted site dataset (site/data/beaches/cable-beach-6.json) gives centroid -17.9503297, 122.1976994, which rounds to 122.20°E, not 122.21°E. The page's figure instead matches the research fact sheet's separate 'identity.where' coordinate (17.952226 S, 122.205577 E), which does round to 122.21°E. The two bundle sources disagree with each other by about a kilometre; the page picked one without flagging it.",
+      "evidence": "site/data/beaches/<slug>.json: centroid_lng 122.1976994 (rounds to 122.20); research fact sheet identity.where: '17.952226 S, 122.205577 E' (rounds to 122.21)",
+      "fix": "Either cite the trusted dataset centroid (17.95°S, 122.20°E) or drop the second decimal of longitude entirely ('17.95°S, 122.2°E') to stay inside the precision both sources agree on."
+    },
+    {
+      "where": "showcase.json key_facts: 'Camel train capacity: up to 36 riders at once' (fact_ids F28)",
+      "claim": "Camel train capacity: up to 36 riders at once, presented as a plain current key fact",
+      "problem": "F28 is from an undated, medium-confidence source (kimberley-australia.com) that also carries the superseded 120kg weight limit — travel.mdx explicitly flags that same source as 'an older, undated source' for the weight limit, but the key_facts card presents the 36-rider figure from the identical source with no such caveat, so a reader skimming only quick_facts has no signal it may be stale.",
+      "evidence": "http://www.kimberley-australia.com/kimberley-destinations/cable-beach/ (date_of_source: unknown) — 'the camel train can accommodate up to 36 riders at one time'",
+      "fix": "Add '(older source, undated)' to the key_fact label, matching the caveat already used for the weight-limit figure in travel.mdx, or drop the capacity key_fact and leave it only in the travel.mdx caveat paragraph."
+    }
+  ],
+  "verified_ok": [
+    "F01/F31 beach length 22 km",
+    "F03 suburb population 5,436 (2016 census)",
+    "F02 telegraph cable 1889 naming",
+    "F42 Gantheaume Point lighthouse 1905",
+    "F08 1989 jellyfish stings",
+    "F16-F19 May 2010 Irukandji closure",
+    "F20-F22 September 2015 Irukandji closure",
+    "F41 lifeguards return 3 April 2026",
+    "F10/F11/F23/F24/F25 nudist tradition + camel-operator overlap (spike)",
+    "F34-F36 foreshore ramp closure June 2025-mid/late 2026, pedestrian-only via surf club",
+    "F29/F30 Red Sun Camels + Broome Camel Safaris, 90kg 2026 weight limit",
+    "businesses: Red Sun Camels confirmed live/operating (redsuncamels.com.au shows active 2026 tour booking); Broome Camel Safaris confirmed currently operating per visitbroome.com.au/tours/camel-rides (2026-09 source), which lists both operators and the enforced 90kg limit"
+  ]
+}
