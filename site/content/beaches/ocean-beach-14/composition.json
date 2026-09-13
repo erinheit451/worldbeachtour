@@ -1,0 +1,41 @@
+{
+  "slug": "ocean-beach-14",
+  "beach_name": "Ocean Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A 3.5-mile Pacific beach on San Francisco's west side where a new park opened to crowds and cost its champion his job.",
+  "spike_statement": "San Francisco closed a scenic highway for Sunset Dunes park at Ocean Beach in 2025, then voters recalled the supervisor who championed it.",
+  "levers": {
+    "primary_color": "#4A6572",
+    "supporting_color": "#D9C7A3",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "WRY",
+    "photo_tone": "Fog-hazed dune path along the former Great Highway, cool gray-blue light, the ocean reduced to a silver smear."
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "environment",
+      "type": "deep_dive"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "praia-da-granja",
+  "name": "Praia da Granja",
+  "location": {
+    "parish": "São Félix da Marinha",
+    "municipality": "Vila Nova de Gaia",
+    "district": "Porto",
+    "country": "Portugal",
+    "coordinates": [
+      { "lat": 41.036278, "lon": -8.648333, "source": "en.wikipedia.org" },
+      { "lat": 41.040292, "lon": -8.650227, "source": "playocean.net" }
+    ]
+  },
+  "facts": [
+    { "text": "Blue Flag beach, patrolled by lifeguards during summer months; licensed bar/restaurant concessions, toilets, showers, parasol and sun-lounger rental.", "source": "en.wikipedia.org" },
+    { "text": "Bordered on the north by the Ribeira da Granja stream; Espinho lies to the south, Porto/Gaia to the north.", "source": "en.wikipedia.org" },
+    { "text": "Name derives from a bishop's farm (\"quinta\") built on the site in 1758, later known as Quinta da Granja / Quinta dos Ayres / Quinta do Bispo, used by Crúzios monks from the Grijó monastery as a rest retreat in hot weather.", "source": "pt.wikipedia.org" },
+    { "text": "Also historically known as \"Praia da Meia Laranja.\"", "source": "playocean.net" },
+    { "text": "On 7 September 1876, leaders of Portugal's Partido Histórico and Partido Reformista signed a fusion agreement here — the \"Pacto da Granja\" — creating the Partido Progressista under Anselmo José Braamcamp.", "source": "pt.wikipedia.org" },
+    { "text": "Poet Sophia de Mello Breyner Andresen summered at a family beach house here and wrote verses about it: \"A casa branca, em frente ao mar, enorme, / com o teu jardim de areia e flores marinhas / e o teu silêncio intocado em que dorme / o milagre das coisas minhas.\"", "source": "pt.wikipedia.org; en.wikipedia.org" },
+    { "text": "Fine, extensive sand; north and central zones less frequented due to rocky outcrops in the water; a viewpoint (miradouro) near the end of the bike path (ciclovia) on the south end; adjacent municipal swimming-pool complex (indoor + outdoor, both saltwater).", "source": "playocean.net" },
+    { "text": "A wooden boardwalk (passadiço) runs 15 km along Vila Nova de Gaia's beaches, passing through Praia da Granja.", "source": "pt.wikipedia.org" },
+    { "text": "Academic coastal-geology literature (H. Granja et al.) treats this stretch (Foz do Douro to Praia da Granja) as a documented coastal-erosion case study, with sediment loss and paleoenvironmental reconstruction papers spanning 2000-2015.", "source": "scholar.google.com search snippets" },
+    { "text": "Nearby Praia da Aguda / Praia da Granja area has cited (not fully sourced here) traces of early protohistoric human occupation.", "source": "scholar.google.com search snippet, secondary/unverified" }
+  ],
+  "spike_candidates": [
+    {
+      "angle": "Literary heritage — Sophia de Mello Breyner Andresen's family beach house and poem set at Praia da Granja",
+      "strength": "strong",
+      "evidence": "Named, internationally recognized Portuguese poet (major 20th-century literary figure) directly and repeatedly tied to this exact beach across both en and pt Wikipedia, with an actual quoted poem fragment naming the house and setting. Specific, quotable, verifiable, differentiated — not generic beach-directory filler."
+    },
+    {
+      "angle": "Political history — the 1876 'Pacto da Granja' founding the Partido Progressista",
+      "strength": "moderate",
+      "evidence": "Specific date, named leaders, named resulting party — real and checkable, but it's about the estate/quinta rather than the beach itself, and only pt.wikipedia carries it (unconfirmed elsewhere in bundle)."
+    },
+    {
+      "angle": "Coastal erosion / geology academic case study",
+      "strength": "weak",
+      "evidence": "Multiple real scholarly papers reference this coastline, but the bundle only has Google Scholar snippet fragments (no full text), so there isn't enough here to build a narrative beyond 'erosion has been studied here.'"
+    }
+  ],
+  "dead_ends": [
+    { "source": "www.publico.pt (2017 sponsored feature 'Próxima paragem? Praia da Granja')", "issue": "status=200 but body content did not capture — title-promising tourism feature yielded zero usable text" },
+    { "source": "blueflag.org official 2015 award listing", "issue": "404 — cannot independently confirm current/historical Blue Flag status beyond Wikipedia's citation" },
+    { "source": "praias.sapo.pt/praias/norte/vila-nova-de-gaia/granja", "issue": "fetch failed (-1) — likely richer local facilities/conditions page, inaccessible" },
+    { "source": "d-nb.info (German National Library authority record)", "issue": "blocked by Anubis bot-protection challenge page" },
+    { "source": "periodicos.capes.gov.br, nli.org.il, ilsf.org", "issue": "403/403/404 — no content" },
+    { "source": "three Google search result pages + Wikipedia Library search page", "issue": "search shells / navigation chrome only, no substantive content" }
+  ],
+  "sources_reviewed": 16,
+  "sources_with_usable_content": 4
+}

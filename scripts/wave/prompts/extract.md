@@ -3,7 +3,7 @@
 You have NO web access. Read ONE file — the sources bundle (path in your dispatch):
 every harvested page as raw text, each section headed by its URL. Then write
 `research/<slug>.json` in the schema below, in ONE Write call. **Hard cap: tool calls =
-(number of bundle parts) + 1 — one Read per part, then ONE Write. No re-reads, no
+1 (this prompt) + (number of bundle parts) + 1 Write — one Read per part, then ONE Write. No re-reads, no
 greps, no Bash. Every extra call re-bills the whole bundle (measured 09-13: 5–12 calls
 → 130–180k tokens for a 30k-token bundle).**
 

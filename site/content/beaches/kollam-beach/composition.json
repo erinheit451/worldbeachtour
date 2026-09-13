@@ -1,0 +1,41 @@
+{
+  "slug": "kollam-beach",
+  "beach_name": "Kollam Beach (Mahatma Gandhi Beach)",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "An urban Arabian Sea beach at a historic Kerala port city, patrolled by lifeguards and rated one of the state's most dangerous stretches of coast.",
+  "spike_statement": "Kollam Beach, called one of Kerala's deadliest, got an IIT Madras geo-tube redesign plan in 2023 after 57 drownings in 7 years.",
+  "levers": {
+    "primary_color": "#1B4B5A",
+    "supporting_color": "#C9A15A",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "SEVERE",
+    "photo_tone": "Gray-green Arabian Sea swell against a working harbor skyline, the Tangasseri lighthouse pale in the haze"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ]
+}

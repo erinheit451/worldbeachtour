@@ -1,0 +1,42 @@
+{
+  "slug": "woodbine-beach",
+  "beach_name": "Woodbine Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "Toronto's largest beach, run under a food-and-alcohol concession one family has held for two decades and counting.",
+  "spike_statement": "One family has held exclusive, bid-free rights to sell food and alcohol on Woodbine Beach for 20+ years, renewed by council for 20 more.",
+  "levers": {
+    "primary_color": "#C97B3D",
+    "supporting_color": "#3E5C6E",
+    "hero_type": "SPIKE",
+    "display_pairing": "VERNACULAR",
+    "voice_register": "WRY",
+    "photo_tone": "A working-class Toronto beach in flat daylight: packed sand, volleyball nets, and the lake stretching south with the city at its back"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}
