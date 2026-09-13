@@ -1,0 +1,27 @@
+https://en.wikipedia.org/wiki/Cala_Salada
+https://www.wikidata.org/wiki/Q5739606
+https://www.santantoni.net/es_ES/ciudadania/medio-ambiente/cala-salada-playa-conectada
+https://visit.santantoni.net/en/what-to-do/beaches/cala-salada-and-cala-saladeta/
+https://www.periodicodeibiza.es/pitiusas/ibiza/2026/04/30/2620269/sant-antoni-activa-mayo-servicio-control-acceso-cala-salada-cala-saladeta.html
+https://www.noudiari.es/noticias-ibiza-formentera-sidebar/sant-antoni-activa-este-viernes-el-control-de-acceso-a-cala-salada-y-cala-saladeta
+https://www.periodicodeibiza.es/pitiusas/ibiza/2024/04/30/2154621/sant-antoni-inicia-este-miercoles-servicio-control-acceso-cala-salada-cala-saladeta.html
+https://www.tourinews.es/destinos-turismo/ibiza-playas-conectadas_4442060_102.html
+https://www.esnautic.com/en/environment/western-coast/cala-salada/
+https://www.ibiza-spotlight.com/beach/cala_salada_i.htm
+https://www.seeibiza.com/reviews/cala-salada-and-saladeta-beach-review-west-ibiza-698377
+https://visit.santantoni.net/en/gastronomy/restaurants/rte-cala-salada/
+https://www.tripadvisor.com/Restaurant_Review-g652116-d7995386-Reviews-Restaurant_Cala_Salada-Sant_Antoni_de_Portmany_Ibiza_Balearic_Islands.html
+https://en.wikipedia.org/wiki/Ornate_wrasse
+https://www.eea.europa.eu/en/analysis/publications/european-bathing-water-quality-in-2025
+https://discomap.eea.europa.eu/Bathingwater/
+https://white-ibiza.com/beaches/cala-salada/
+https://www.barcelo.com/guia-turismo/en/spain/ibiza/things-to-do/cala-salada/
+https://spainfilmcommission.com/en/ai-locations/cala-salada/
+https://www.tripadvisor.com/Attraction_Review-g652116-d3239377-Reviews-Playa_Cala_Salada-Sant_Antoni_de_Portmany_Ibiza_Balearic_Islands.html
+
+# notes: identity/alias warnings; the tension you expect; what to look for in each source
+# identity: single well-attested cove in Sant Antoni de Portmany, Ibiza; no near-duplicate "Cala Salada" elsewhere in Spain found in search. Paired sibling cove is Cala Saladeta (separate Wikipedia/Wikidata entity — do not conflate size/amenity figures between the two). Dimensions conflict across sources: en.wikipedia.org gives 75m x 20m; santantoni/tourism sources imply ~80m x 25m; scaffold's "no more than 100 meters across" is roughly consistent but vaguer than the sourced figures — use Wikipedia's number as primary, note the variance.
+# scaffold vs reality — DEBUNK TARGETS: travel.mdx claims "No restaurants are located directly at Cala Salada" and "no lifeguards are on duty" — BOTH ARE FALSE per multiple sources (official visit.santantoni.net restaurant listing for a 30+-year family restaurant on-site; ibiza-spotlight and seeibiza confirm seasonal lifeguards, sunbed/parasol/shower/toilet/pedalboat rentals). This is the single biggest fact-check needed in extraction — verify directly from visit.santantoni.net/gastronomy and the TripAdvisor restaurant page before writing.
+# expected tension: the scaffold frames Cala Salada as an untouched, low-crowd wild escape ("solitude," "narrow access road naturally constrains crowds"). Reality is a MANAGED tourist bottleneck: private-car congestion got bad enough that Sant Antoni/Consell d'Eivissa launched "Platja Connectada" in 2016 (first such program on Ibiza) — free bus + capacity-gated parking — explicitly because vehicle overflow was blocking emergency access (fire, police, ambulance) in a zone rated extreme wildfire risk. Car access has been actively restricted/controlled every summer season since (May 1–Oct 15, 9:30–17:00 gated access points) — this is the real story: seclusion is now infrastructure-enforced, not organic, and 2025 visitor reviews describe full car parks by 11am and crowding with rental hammocks. Use this as the central "tension" beat rather than the scaffold's soft "solitude" framing.
+# other flags: anchoring is prohibited over the Posidonia meadow (esnautic) — matches scaffold's conservation claim, safe to keep. The dividing building between the two coves is called "Casa Rosada" (mid-20th-century) — good concrete detail, confirm construction date/purpose if a source states it directly (only secondary mentions found, no primary history source located — flag as unverified if extraction can't find a primary cite). EU bathing water search surfaced that Sant Antoni municipality (not necessarily this specific station) was named among municipalities with recurring incident reports 2020-2025 in an EEA context — DO NOT assert this applies to Cala Salada's own monitoring point (ES531M0461202) without a source naming that exact station; the beach's own official rating is "1 - excellent" per the data file and should stand unless a station-specific source contradicts it.
+# story_strength: medium-strong

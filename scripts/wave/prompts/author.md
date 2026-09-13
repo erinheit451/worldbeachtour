@@ -31,8 +31,10 @@ REPLACE them entirely, keeping only the MDX component pattern
   business-site or dated-press fact confirming it operates now.
 - `<lens>.mdx` — the deep-dive spoke, 900–1400 words, MDX components where
   useful, ends with a back-link `[← Back to the full <Name> guide](/beaches/<slug>)`.
-- `overview.mdx` and `travel.mdx` — rewritten from the sheet. Label straight-line
-  vs road distances explicitly; the dataset's airport km is straight-line.
+- `overview.mdx` and `travel.mdx` — rewritten from the sheet, **each ≥360 words of
+  prose NOT counting MDX component lines** (the lens router 404s any lens under 300
+  words after stripping components — measured 09-13 on a 313-word travel.mdx). Label
+  straight-line vs road distances explicitly; the dataset's airport km is straight-line.
 
 ## Work in as few tool calls as possible (this is what the stage costs)
 1 Read (the bundle) → think → 5 Writes (one per output file, complete on the
@@ -54,6 +56,16 @@ first write, no incremental edits) → 1 Bash running BOTH gates → one fix pas
   Compute day-precise; round down in words ("just over four months", never "five").
 - No Cyrillic/Greek homoglyphs inside Latin words.
 - Same fact → same number on every surface (airport distance, dates, prices).
+- **Say each thing once (measured root cause of Wave-3 defects: every fact lived on
+  4–9 surfaces, so every error and every repair multiplied).** The spike story may
+  appear in spike_statement, intro_text, spike_explainer and the spoke — nowhere
+  else in full. Every OTHER fact gets ONE home: a timeline row OR a key_fact OR a
+  margin note OR a paragraph — not several. Do not restate key_facts in intro_text;
+  do not narrate the timeline in the spoke; overview.mdx and travel.mdx carry only
+  what their lens needs (overview: what/where/who-goes; travel: access, seasons,
+  safety, costs) and do not re-tell the spike beyond one sentence with a link.
+  Caps: timeline ≤10 rows of ≤30 words; key_facts ≤8; margin_notes 5 (spec floor); landmarks ≤6;
+  cultural_refs ≤5; zones ≤4. Shorter, denser pages verify cheaper and read better.
 
 ## Gate yourself before finishing (run these; fix until both pass)
 ```

@@ -1,0 +1,41 @@
+{
+  "slug": "aksa-beach-1",
+  "beach_name": "Aksa Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A Mumbai weekend beach where a government seawall began caving into the sea within a year of construction.",
+  "spike_statement": "A Maharashtra Maritime Board seawall built at Aksa Beach in 2022 and 2023 began caving in within a year; in 2025 a tribunal ruled it illegal.",
+  "levers": {
+    "primary_color": "#2C4A57",
+    "supporting_color": "#A79C8E",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "SEVERE",
+    "photo_tone": "Grey monsoon light over cracked concrete seawall and dark Arabian Sea sand, Mumbai's skyline absent from the frame."
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "environment",
+      "type": "deep_dive"
+    }
+  ]
+}

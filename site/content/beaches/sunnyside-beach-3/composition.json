@@ -1,0 +1,42 @@
+{
+  "slug": "sunnyside-beach-3",
+  "beach_name": "Sunnyside North Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "Melbourne's only legal nudist beach, whose 1986 status a council nearly revoked in 2022 over syringes in the carpark.",
+  "spike_statement": "A 2022 council report on drugs and syringes nearly ended Melbourne's only legal nudist beach; 92% of 4,000 said keep it, but the fixes never came.",
+  "levers": {
+    "primary_color": "#8C6F4E",
+    "supporting_color": "#3C6E8F",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "WRY",
+    "photo_tone": "Sandstone bluffs above a flat gray-blue bay, the Sunnyside Road carpark empty at first light"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "culture",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

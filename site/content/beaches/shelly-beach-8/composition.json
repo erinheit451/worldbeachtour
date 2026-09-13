@@ -1,0 +1,41 @@
+{
+  "slug": "shelly-beach-8",
+  "beach_name": "Shelly Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A small, west-facing marine-reserve beach at Manly where snorkelling replaced what a 1920s amusement-park scheme nearly built instead.",
+  "spike_statement": "A 1920s scheme to turn Manly's Shelly Beach foreshore into an amusement park was defeated by locals; the site became a no-take marine reserve in 2002.",
+  "levers": {
+    "primary_color": "#1C6E8C",
+    "supporting_color": "#EFE7D8",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "WRY",
+    "photo_tone": "West-facing late-afternoon light over a small marine-reserve cove, snorkellers silhouetted at the reef edge, sand pale against deep protected blue water."
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ]
+}

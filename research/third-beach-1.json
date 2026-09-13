@@ -1,0 +1,561 @@
+{
+  "slug": "third-beach-1",
+  "beach_name": "Third Beach",
+  "researched_at": "2026-09-13",
+  "identity": {
+    "what_it_is": "A sandy public swimming beach at Ferguson Point in Stanley Park, Vancouver, British Columbia, Canada.",
+    "where": "Ferguson Point, Stanley Park, Vancouver, BC, Canada (49.3041N, -123.1567W per Wikipedia; 49.3034N, -123.1568W per Wikidata)",
+    "aliases": [],
+    "warnings": "Near-duplicate 'Third Beach' names exist at Middletown/Newport RI and the Olympic Peninsula WA (La Push); every fact below was checked against Ferguson Point/Stanley Park Vancouver coordinates and none was drawn from the RI or WA pages. Separately, scaffold material describing this beach as pebble/coarse-sand with no amenities or lifeguards is contradicted by every harvested source (Wikipedia, Swim Guide) - see conflicts."
+  },
+  "spike_candidates": [
+    {
+      "statement": "Vancouver's own planning commission fought Ferguson Point's 1938-39 gun battery, calling it 'a favourite beauty spot,' before losing to federal wartime authority.",
+      "tension": "The picture-postcard beach's own parking lot was once a WWII army camp built over the city's own planners' objections.",
+      "fact_ids": [
+        "F14",
+        "F15",
+        "F16",
+        "F17",
+        "F19",
+        "F20",
+        "F21",
+        "F22"
+      ],
+      "strength": "strong"
+    },
+    {
+      "statement": "Third Beach's 5-sample average hit 224 E. coli/100mL in July 2025, above the province's 200 threshold, following a June 2024 contamination investigation.",
+      "tension": "A beach marketed as a sandy family swim spot has a documented recent pattern of bacterial-contamination investigations, not a one-off.",
+      "fact_ids": [
+        "F26",
+        "F27",
+        "F28"
+      ],
+      "strength": "medium"
+    },
+    {
+      "statement": "A 2022 near-drowning at the packed weekly Third Beach drum circle got lifeguards pulled from the event and fencing installed.",
+      "tension": "Vancouver's most photographed sunset tradition made its own beach less safe to swim at during the event.",
+      "fact_ids": [
+        "F30",
+        "F31",
+        "F32"
+      ],
+      "strength": "medium"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "topic": "identity",
+      "fact": "Third Beach is located at Ferguson Point within Stanley Park in Vancouver, British Columbia.",
+      "quote": "third beach is located at ferguson point in stanley park in vancouver , british columbia.",
+      "url": "https://en.wikipedia.org/wiki/Third_Beach",
+      "source_title": "Third Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-04",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F02",
+      "topic": "identity",
+      "fact": "Wikidata records Third Beach's coordinates as 49°18'12.78\"N, 123°9'24.26\"W.",
+      "quote": "coordinate location 49°18'12.78\"n, 123°9'24.26\"w",
+      "url": "https://www.wikidata.org/wiki/Q22494852",
+      "source_title": "Third Beach - Wikidata",
+      "source_type": "other",
+      "date_of_source": "2024-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F03",
+      "topic": "identity",
+      "fact": "Wikidata assigns Third Beach the BC Geographical Names ID 14982.",
+      "quote": "bc geographical names id 14982",
+      "url": "https://www.wikidata.org/wiki/Q22494852",
+      "source_title": "Third Beach - Wikidata",
+      "source_type": "other",
+      "date_of_source": "2024-09",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F04",
+      "topic": "geography",
+      "fact": "Third Beach is a naturally sandy beach at Ferguson Point surrounded by old-growth forest, not a pebble beach.",
+      "quote": "located at ferguson point in stanley park, third beach is a naturally sandy beach surrounded by old growth forests that shield dippers and tanners from urban noise.",
+      "url": "https://www.theswimguide.org/beach/234",
+      "source_title": "Third Beach - Swim Guide",
+      "source_type": "other",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F05",
+      "topic": "access",
+      "fact": "Third Beach's amenities include a concession stand, public washrooms, barbeques (with restrictions), summer lifeguards, and paid parking on the seawall.",
+      "quote": "amenities: concessions public washrooms barbeques allowed (subject to restrictions) lifeguards from victoria day to labour day (late may to early september) pay parking on the stanley park seawall system",
+      "url": "https://www.theswimguide.org/beach/234",
+      "source_title": "Third Beach - Swim Guide",
+      "source_type": "other",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F06",
+      "topic": "business",
+      "fact": "Third Beach's water-quality reporting is managed by Swim Drink Fish - Vancouver, formerly known as Fraser Riverkeeper.",
+      "quote": "managed by: swim drink fish - vancouver (formerly fraser riverkeeper)",
+      "url": "https://www.theswimguide.org/beach/234",
+      "source_title": "Third Beach - Swim Guide",
+      "source_type": "other",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F07",
+      "topic": "recent",
+      "fact": "As of September 9, 2026, Third Beach's latest water sample met water quality standards, with results posted September 11, 2026.",
+      "quote": "this status is based on the latest sample, taken on september 9th, 2026",
+      "url": "https://www.theswimguide.org/beach/234",
+      "source_title": "Third Beach - Swim Guide",
+      "source_type": "other",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F08",
+      "topic": "nature",
+      "fact": "Siwash Rock, an adjacent landmark on the seawall between Third Beach and Prospect Point, stands 15 to 18 metres tall.",
+      "quote": "it is between 15 and 18 metres (49 and 59 ft) tall.",
+      "url": "https://en.wikipedia.org/wiki/Siwash_Rock",
+      "source_title": "Siwash Rock - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-05",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F09",
+      "topic": "nature",
+      "fact": "Siwash Rock formed about 32 million years ago when a volcanic basalt dike intruded the park's sedimentary sandstone and mudstone.",
+      "quote": "about 32 million years ago, a volcanic dike formed in the sedimentary rock that forms the foundation of the park",
+      "url": "https://en.wikipedia.org/wiki/Siwash_Rock",
+      "source_title": "Siwash Rock - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-05",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F10",
+      "topic": "culture",
+      "fact": "Mariners nicknamed Siwash Rock 'Nine Pin Rock' for its resemblance to a bowling pin.",
+      "quote": "it became known to mariners as nine pin rock for its resemblance to a bowling pin.",
+      "url": "https://en.wikipedia.org/wiki/Siwash_Rock",
+      "source_title": "Siwash Rock - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-05",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F11",
+      "topic": "culture",
+      "fact": "The Squamish name for Siwash Rock is slhx̱i7lsh, tied to a transformation legend recorded in Pauline Johnson's Legends of Vancouver.",
+      "quote": "the squamish name for the rock is slhx̱i7lsh",
+      "url": "https://en.wikipedia.org/wiki/Siwash_Rock",
+      "source_title": "Siwash Rock - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-05",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F12",
+      "topic": "governance",
+      "fact": "In 2017, Vancouver Park Board commissioner Catherine Evans introduced a motion to officially rename Siwash Rock to slhx̱í7lsh, citing its derogatory colonial origin.",
+      "quote": "in 2017, vancouver park board commissioner catherine evans introduced a motion to change the rock's official name to slhx̱í7lsh.",
+      "url": "https://en.wikipedia.org/wiki/Siwash_Rock",
+      "source_title": "Siwash Rock - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-05",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F13",
+      "topic": "geography",
+      "fact": "The Vancouver Park Board built up Third Beach over the 20th century by dredging sand from English Bay to create its shoreline.",
+      "quote": "the park board also built up third beach throughout the twentieth century, dredging sand from english bay to create the beach shoreline.",
+      "url": "https://activehistory.ca/blog/2013/09/24/125-years-of-stanley-park-before-and-after/",
+      "source_title": "125 years of Stanley Park: before and after - Active History",
+      "source_type": "academic",
+      "date_of_source": "2013-09",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F14",
+      "topic": "history",
+      "fact": "Ferguson Point Battery, a WWII coastal gun battery, was established in 1939 and abandoned in 1945.",
+      "quote": "ferguson point battery (1939-1945) - a world war ii coastal gun battery established on ferguson point in 1939 in vancouver, british columbia. abandoned in 1945.",
+      "url": "https://fortwiki.com/Ferguson_Point_Battery",
+      "source_title": "Ferguson Point Battery - FortWiki",
+      "source_type": "other",
+      "date_of_source": "2026-08",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F15",
+      "topic": "history",
+      "fact": "Construction of the concrete two-gun Stanley Park Battery at Ferguson Point began in mid-February 1938.",
+      "quote": "construction work there began in mid-february, 1938.",
+      "url": "https://www.vancouvergunners.ca/stanley-park-fort-1945.html",
+      "source_title": "Stanley Park Fort 1945 - Vancouver Gunners",
+      "source_type": "other",
+      "date_of_source": "2015",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F16",
+      "topic": "history",
+      "fact": "The 15th Coast Brigade's 31st Battery occupied the Ferguson Point site on August 27, 1939, as war approached.",
+      "quote": "the brigade's 31st battery occupied the site on 27 august, 1939.",
+      "url": "https://www.vancouvergunners.ca/stanley-park-fort-1945.html",
+      "source_title": "Stanley Park Fort 1945 - Vancouver Gunners",
+      "source_type": "other",
+      "date_of_source": "2015",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F17",
+      "topic": "history",
+      "fact": "The battery's guns and most of its buildings were removed in September 1945.",
+      "quote": "stanley park's guns and most of the buildings were removed in september 1945.",
+      "url": "https://www.vancouvergunners.ca/stanley-park-fort-1945.html",
+      "source_title": "Stanley Park Fort 1945 - Vancouver Gunners",
+      "source_type": "other",
+      "date_of_source": "2015",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F18",
+      "topic": "history",
+      "fact": "Ferguson Point's military use began in 1914, when a temporary two-gun battery was set up near Siwash Rock over fears of a German East Asia Squadron attack.",
+      "quote": "ferguson point's military use started in 1914, when a temporary gun battery was set up near siwash rock, manned by naval reservists with two 4-inch caliber guns",
+      "url": "https://salishseathenandnow.substack.com/p/the-guns-of-ferguson-point-stanley",
+      "source_title": "The forgotten guns of Ferguson Point, Stanley Park",
+      "source_type": "press",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F19",
+      "topic": "history",
+      "fact": "Vancouver's Town Planning Commission opposed siting the gun battery at Ferguson Point, calling it a favourite beauty spot in the park.",
+      "quote": "the town planning commission, however, did not approve of the use of ferguson point for the battery, calling it \"a favourite beauty spot in the park.\"",
+      "url": "https://www.vancouvergunners.ca/stanley-park-fort-1945.html",
+      "source_title": "Stanley Park Fort 1945 - Vancouver Gunners",
+      "source_type": "other",
+      "date_of_source": "2015",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F20",
+      "topic": "history",
+      "fact": "The Vancouver Sun editorialized that the battery could become a permanent blot on the scenic beauty of the area.",
+      "quote": "the vancouver sun joined the opposition and stated that the gun battery could become \"a permanent blot on the scenic beauty of the area.\"",
+      "url": "https://www.vancouvergunners.ca/stanley-park-fort-1945.html",
+      "source_title": "Stanley Park Fort 1945 - Vancouver Gunners",
+      "source_type": "other",
+      "date_of_source": "2015",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F21",
+      "topic": "history",
+      "fact": "A soldiers' camp tied to the battery occupied what is now the Third Beach parking lot.",
+      "quote": "a soldiers' camp occupied the present third beach parking lot.",
+      "url": "https://www.vancouvergunners.ca/stanley-park-fort-1945.html",
+      "source_title": "Stanley Park Fort 1945 - Vancouver Gunners",
+      "source_type": "other",
+      "date_of_source": "2015",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F22",
+      "topic": "governance",
+      "fact": "The Vancouver Park Board won its fight for full restoration of Ferguson Point to parkland in April 1948, after which the gun emplacements were levelled and buried.",
+      "quote": "in april 1948 the board won this battle.",
+      "url": "https://www.vancouvergunners.ca/stanley-park-fort-1945.html",
+      "source_title": "Stanley Park Fort 1945 - Vancouver Gunners",
+      "source_type": "other",
+      "date_of_source": "2015",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F23",
+      "topic": "food",
+      "fact": "The Teahouse restaurant at Ferguson Point occupies the site of the WWII battery's former officers' mess.",
+      "quote": "ferguson point teahouse formerly the officer's mess of ferguson point battery",
+      "url": "https://fortwiki.com/Ferguson_Point_Battery",
+      "source_title": "Ferguson Point Battery - FortWiki",
+      "source_type": "other",
+      "date_of_source": "2026-08",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F24",
+      "topic": "history",
+      "fact": "A historical marker at Ferguson Point records the site was manned during WWII (1939-1945) by three Royal Canadian Artillery batteries: the 31st, 58th, and 85th Heavy.",
+      "quote": "this area was the site of a coast defence fort manned during ww ii 1939-1945 by the royal canadian artillery batteries 31st heavy 58th heavy 85th heavy",
+      "url": "https://www.hmdb.org/m.asp?m=54578",
+      "source_title": "Ferguson Point Historical Marker - HMdb.org",
+      "source_type": "other",
+      "date_of_source": "2025-12",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F25",
+      "topic": "governance",
+      "fact": "Ferguson Point sits on federally owned land that has been leased to the City of Vancouver as parkland for a nominal sum since 1887.",
+      "quote": "this federally-owned land had been leased to the city for a nominal sum since 1887.",
+      "url": "https://www.vancouvergunners.ca/stanley-park-fort-1945.html",
+      "source_title": "Stanley Park Fort 1945 - Vancouver Gunners",
+      "source_type": "other",
+      "date_of_source": "2015",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F26",
+      "topic": "safety",
+      "fact": "Third Beach's five most recent water samples averaged 224 E. coli/100 mL as of mid-July 2025, exceeding the province's 200 geometric-mean threshold.",
+      "quote": "third beach is under advisory for a different reason: its five most recent water samples averaged 224 e. coli/100 ml, surpassing the provincial geometric mean threshold of 200.",
+      "url": "https://dailyhive.com/vancouver/vancouver-beaches-ecoli-advisories-july-2025",
+      "source_title": "Several Vancouver beaches under advisory due to E. coli spike - Daily Hive",
+      "source_type": "press",
+      "date_of_source": "2025-07",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F27",
+      "topic": "safety",
+      "fact": "In June 2024, Vancouver Coastal Health placed Sunset, Third, and Second beaches under a beach action value investigation due to repeated bacteria spikes.",
+      "quote": "in june 2024, vch placed sunset, third beach, and second beach under a beach action value investigation due to repeated spikes in bacteria levels.",
+      "url": "https://dailyhive.com/vancouver/vancouver-beaches-ecoli-advisories-july-2025",
+      "source_title": "Several Vancouver beaches under advisory due to E. coli spike - Daily Hive",
+      "source_type": "press",
+      "date_of_source": "2025-07",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F28",
+      "topic": "governance",
+      "fact": "VCH's 2023 update to its beach action value system means a single sample exceeding 235 E. coli/100 mL now triggers an investigation, versus the prior 400 threshold.",
+      "quote": "the key change is if a single sample exceeds 235 e.coli/100 ml (as opposed to 400 e.coli/100 ml prior to 2023), a contamination investigation, and resampling will be triggered.",
+      "url": "https://www.vch.ca/en/service/public-beach-water-quality",
+      "source_title": "Public Beach Water Quality - Vancouver Coastal Health",
+      "source_type": "official",
+      "date_of_source": "2026",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F29",
+      "topic": "safety",
+      "fact": "Third Beach is sampled weekly from May 10 through October 10 each season.",
+      "quote": "third beach is sampled weekly from may 10th to october 10th.",
+      "url": "https://www.theswimguide.org/beach/234",
+      "source_title": "Third Beach - Swim Guide",
+      "source_type": "other",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F30",
+      "topic": "events",
+      "fact": "The weekly Tuesday drum circle at Third Beach was set to celebrate its 18th anniversary in June 2023, implying an origin around 2005.",
+      "quote": "next week, the drum circle will celebrate its 18th anniversary.",
+      "url": "https://dailyhive.com/vancouver/bumpin-third-beach-drum-circle-throng-returns",
+      "source_title": "Bumpin' Third Beach: drum circle throng returns - Daily Hive",
+      "source_type": "press",
+      "date_of_source": "2023-06",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F31",
+      "topic": "safety",
+      "fact": "The weekly drum circle came under scrutiny after a 2022 near-drowning in which lifeguards reportedly had trouble reaching the victim through the crowd.",
+      "quote": "the weekly drum circle became the subject of scrutiny last summer after someone came close to drowning and had to be pulled from the water.",
+      "url": "https://dailyhive.com/vancouver/bumpin-third-beach-drum-circle-throng-returns",
+      "source_title": "Bumpin' Third Beach: drum circle throng returns - Daily Hive",
+      "source_type": "press",
+      "date_of_source": "2023-06",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F32",
+      "topic": "safety",
+      "fact": "The near-drowning incident led to lifeguards being pulled from Third Beach on Tuesday evenings, fencing added, and temporary police patrols.",
+      "quote": "the incident led to lifeguards being pulled from the beach on tuesday evenings, fencing added to the beach, and police temporarily patrolling the event.",
+      "url": "https://dailyhive.com/vancouver/bumpin-third-beach-drum-circle-throng-returns",
+      "source_title": "Bumpin' Third Beach: drum circle throng returns - Daily Hive",
+      "source_type": "press",
+      "date_of_source": "2023-06",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F33",
+      "topic": "events",
+      "fact": "The drum circle, formally named Brahm's Tams, runs every Tuesday evening from May through September near Ferguson Point.",
+      "quote": "season dates every tuesday evening from may through september 2026 weather permitting",
+      "url": "https://vancouver.page/event/brahms-tams-drum-circle-at-third-beach/",
+      "source_title": "Brahm's Tams Drum Circle 2026 at Third Beach - Vancouver Page",
+      "source_type": "other",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F34",
+      "topic": "culture",
+      "fact": "Organizers describe Brahm's Tams as one of the city's most photographed and shared weekly summer gatherings, running for more than two decades.",
+      "quote": "brahm's tams has become one of the city's most photographed and shared weekly summer gatherings.",
+      "url": "https://vancouver.page/event/brahms-tams-drum-circle-at-third-beach/",
+      "source_title": "Brahm's Tams Drum Circle 2026 at Third Beach - Vancouver Page",
+      "source_type": "other",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F35",
+      "topic": "events",
+      "fact": "Community guidelines for the drum circle prohibit open alcohol or drug use, dogs on the beach, and open fires.",
+      "quote": "no open alcohol or drug use no dogs on the beach no open fires",
+      "url": "https://vancouver.page/event/brahms-tams-drum-circle-at-third-beach/",
+      "source_title": "Brahm's Tams Drum Circle 2026 at Third Beach - Vancouver Page",
+      "source_type": "other",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F36",
+      "topic": "access",
+      "fact": "A storm surge and king tide on January 7, 2022 heavily damaged the seawall between Third Beach and Lions Gate Bridge; the final repaired section reopened April 27, 2022.",
+      "quote": "members of the public are now free to roam between vancouver's third beach and lions gate bridge, an area heavily damaged by extreme winds and a king tide on jan. 7.",
+      "url": "https://globalnews.ca/news/8791149/final-section-stanley-park-seawall-reopens/",
+      "source_title": "Final section of Stanley Park seawall reopens after storm damage repair - Global News",
+      "source_type": "press",
+      "date_of_source": "2022-04",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F37",
+      "topic": "economy",
+      "fact": "The Stanley Park seawall repair following the January 2022 storm was estimated to cost $1.5 million.",
+      "quote": "the cost of repairs on the seawall is estimated to be $1.5 million",
+      "url": "https://globalnews.ca/news/8791149/final-section-stanley-park-seawall-reopens/",
+      "source_title": "Final section of Stanley Park seawall reopens after storm damage repair - Global News",
+      "source_type": "press",
+      "date_of_source": "2022-04",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F38",
+      "topic": "access",
+      "fact": "The January 2022 storm damage collapsed the seawall in several areas along the 3.5-kilometre stretch between Second Beach and Lions Gate Bridge.",
+      "quote": "which collapsed in several areas in the 3.5-kilometre stretch between second beach and lions gate bridge.",
+      "url": "https://globalnews.ca/news/8791149/final-section-stanley-park-seawall-reopens/",
+      "source_title": "Final section of Stanley Park seawall reopens after storm damage repair - Global News",
+      "source_type": "press",
+      "date_of_source": "2022-04",
+      "lang": "en",
+      "confidence": "high"
+    }
+  ],
+  "recency": {
+    "newest_item": "Third Beach's latest water sample (taken September 9, 2026, posted September 11, 2026) met water quality standards.",
+    "fact_ids": [
+      "F07"
+    ]
+  },
+  "dead_ends": [
+    "vancouver.ca's official Third Beach page (403 blocked) - no official confirmation of exact amenities, address, or hours beyond third-party sources.",
+    "Both CBC lifeguard-cut and lifeguard-reversed articles (fetch failed) - no dates, budget figures, or named officials for the 2026 lifeguard funding fight the scout notes describe.",
+    "Vancouver Park Board's water-quality-advisory PDF memo (403 blocked) - no primary document for the July 2025 advisory beyond Daily Hive's summary.",
+    "CBC's Metro Vancouver E. coli story and Stanley Park seawall-closure story (both fetch failed) - no independent corroboration beyond Global News/Daily Hive/CTV.",
+    "CBC's 'Stanley Park's forgotten military history' piece (fetch failed) - no independent narrative beyond FortWiki/Vancouver Gunners/the Substack post.",
+    "No November 2025 rock-slope-stabilization seawall closure details - flagged in scout notes but absent from every harvested source.",
+    "No current Teahouse restaurant hours, menu, or operator name - only its historical origin as the battery's officers' mess is documented.",
+    "No road distance to nearest parking/transit hub, no visitor counts, and no economic-impact or business-revenue figures for the beach or its concession."
+  ],
+  "conflicts": [
+    "Scaffold material describes Third Beach as pebble/coarse-sand with no amenities or lifeguards; Swim Guide (F04, F05) and Wikipedia instead document a naturally sandy beach with a concession stand, washrooms, and summer lifeguards - every harvested source contradicts the scaffold's framing.",
+    "The Ferguson Point historical marker (F24) names three RCA batteries (31st/58th/85th Heavy) manning the site 1939-45, while Vancouver Gunners' narrative (F15-F17, F19-F22) centers on the 31st Battery alone without mentioning the 58th or 85th."
+  ],
+  "budget": {
+    "sources_read": 16
+  },
+  "derivations": [
+    {
+      "id": "D01",
+      "fact": "Drum circle's 18th anniversary fell in June 2023, implying an origin around 2005 (2023-18=2005).",
+      "from": [
+        "F30"
+      ]
+    },
+    {
+      "id": "D02",
+      "fact": "7 Jan 2022 -> 27 Apr 2022 = 3 months 20 days ('just over three and a half months').",
+      "from": [
+        "F36"
+      ]
+    },
+    {
+      "id": "D03",
+      "fact": "Aug 1939 -> Sep 1945 = about 6 years 1 month ('six years of war').",
+      "from": [
+        "F16",
+        "F17"
+      ]
+    },
+    {
+      "id": "D04",
+      "fact": "1914 -> 1938 = 24 years ('nearly a quarter-century', 'a generation').",
+      "from": [
+        "F18",
+        "F15"
+      ]
+    }
+  ]
+}

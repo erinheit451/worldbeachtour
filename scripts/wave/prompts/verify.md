@@ -10,8 +10,13 @@ described as all-time when 2026 exceeded it; a straight-line km presented as
 road). Also arithmetic, unit flips (km↔mi), date/name consistency across surfaces,
 held-vs-scheduled events, and brochure slop.
 
-**Audit 2 — page → world (web, capped):** re-fetch the URL behind every
-LOAD-BEARING fact and confirm the verbatim quote is there and supports the claim:
+**Audit 2 — page → world (web, capped):** the bundle contains `quote_check.py`
+results — every fact id listed OK there has ALREADY been mechanically confirmed
+(its verbatim quote was found on its URL). Do NOT re-fetch OK rows; for them do
+only Audit 1 (does the page stay within the quote?). Re-fetch ONLY: (a) rows
+quote_check lists as NOT_FOUND / FETCH_FAIL that a load-bearing claim depends on,
+(b) the spike's sources if any of them is non-OK, (c) businesses (confirm currently
+operating). Otherwise the load-bearing set is:
 spike_statement, subtitle, every key_fact, every timeline row, landmarks,
 cultural_refs, businesses (confirm currently operating). Then run ≤3 searches for
 recency (`<name> 2026`, local language) to catch anything stale. Budget: ≤12

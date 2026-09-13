@@ -1,0 +1,629 @@
+{
+  "slug": "aksa-beach-1",
+  "beach_name": "Aksa Beach",
+  "researched_at": "2026-09-13",
+  "identity": {
+    "what_it_is": "A beach and weekend vacation spot in Aksa village, Malad West, Mumbai, India, on the Arabian Sea, bounded by the INS Hamla naval base at one end and Dana Paani beach at the other.",
+    "where": "Aksa village, Malad, Mumbai Suburban district, Maharashtra, India (~9 km from Malad railway station, ~12 km from Borivali, ~20-25 km from central Mumbai)",
+    "aliases": [
+      "Aksa",
+      "Akse Beach"
+    ],
+    "warnings": "The dataset's nearest_city field says Borivli (9.4 km), but nearly every independent source treats Malad as the operative nearest town (~9 km) and cites Borivali only as the farther reference station (~12 km); Wikipedia says the beach is 'close to marvé beach' while Mumbai Fandom says it is 'close to malvani' - a naming conflict, not a near-duplicate beach (the Wikipedia disambiguation page confirms no other place is named Aksa Beach)."
+  },
+  "spike_candidates": [
+    {
+      "statement": "A 600-metre MMB seawall/promenade at Aksa Beach began caving in within a year of its 2023 construction; in Sept 2025 the NGT ruled the CRZ-I structure illegal.",
+      "tension": "A government coastal board built and defended a structure the sea itself started destroying before the court even finished ruling it illegal.",
+      "fact_ids": [
+        "F22",
+        "F23",
+        "F24",
+        "F28",
+        "F29",
+        "F30"
+      ],
+      "strength": "strong"
+    },
+    {
+      "statement": "An academic study counted 45 drowning deaths at Aksa Beach from 2006-2018 (avg 38/yr, 445 rescued), and a 17-year-old drowned there again in June 2026 despite posted warnings.",
+      "tension": "A decade of documented, high-volume drowning deaths and 'no swimming' signage has not stopped the deaths, which are still happening in the same spot in the present day.",
+      "fact_ids": [
+        "F12",
+        "F13",
+        "F14",
+        "F37",
+        "F38",
+        "F39"
+      ],
+      "strength": "strong"
+    },
+    {
+      "statement": "Aksa is an active Bollywood filming location (the 2026 'Ramayana' shoot) marketed for its cinematic, 'foreign-looking' coastline on the same sand officials warn is too dangerous to swim.",
+      "tension": "The glamour/celebrity-sighting marketing sits a few paragraphs away from an active rip-current death toll on the identical stretch of beach.",
+      "fact_ids": [
+        "F45",
+        "F46"
+      ],
+      "strength": "medium"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "topic": "identity",
+      "fact": "Aksa Beach is a popular beach and weekend vacation spot in Aksa village, part of Malad, in Mumbai, India.",
+      "quote": "aksa beach is a popular beach and vacation spot in aksa village, malad , mumbai , india",
+      "url": "https://en.wikipedia.org/wiki/Aksa_Beach",
+      "source_title": "Aksa Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F02",
+      "topic": "geography",
+      "fact": "Wikipedia describes Aksa Beach as situated close to Marve Beach.",
+      "quote": "it is situated close to marvé beach",
+      "url": "https://en.wikipedia.org/wiki/Aksa_Beach",
+      "source_title": "Aksa Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F03",
+      "topic": "governance",
+      "fact": "Aksa Beach falls under the governance of the Brihanmumbai Municipal Corporation (BMC/MCGM).",
+      "quote": "brihanmumbai municipal corporation (mcgm)",
+      "url": "https://en.wikipedia.org/wiki/Aksa_Beach",
+      "source_title": "Aksa Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F04",
+      "topic": "geography",
+      "fact": "Aksa Beach's coordinates are given as 19°10'34\"N, 72°47'43\"E.",
+      "quote": "19°10′34′′n 72°47′43′′e",
+      "url": "https://en.wikipedia.org/wiki/Aksa_Beach",
+      "source_title": "Aksa Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F05",
+      "topic": "nature",
+      "fact": "Aksa Beach is described as one of the cleanest beaches in Mumbai.",
+      "quote": "aksa beach also happens to be one of the cleanest beaches in the city of mumbai",
+      "url": "https://en.wikipedia.org/wiki/Aksa_Beach",
+      "source_title": "Aksa Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F06",
+      "topic": "culture",
+      "fact": "The East Indian community, Panchkalshi/Somvanshi Kshatriya Pathare, and Koli people are named as the native population of the Aksa area.",
+      "quote": "the east indian community, panchkalshi or somvanshi kshatriya pathare (skp), and koli's are the native people of this area",
+      "url": "https://en.wikipedia.org/wiki/Aksa_Beach",
+      "source_title": "Aksa Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F07",
+      "topic": "geography",
+      "fact": "The beach is bounded by the INS Hamla naval base at one end and a smaller beach called Dana Paani at the other.",
+      "quote": "this beach has ins hamla (a base of the indian navy ) at one end and a small beach called \" dana paani \" at the other",
+      "url": "https://en.wikipedia.org/wiki/Aksa_Beach",
+      "source_title": "Aksa Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F08",
+      "topic": "nature",
+      "fact": "The beach's sand shifts because of strong wave action, and it is not considered safe to swim there.",
+      "quote": "it is not safe to swim, as the currents are strong, and the sands of the beach keep shifting because of the waves",
+      "url": "https://en.wikipedia.org/wiki/Aksa_Beach",
+      "source_title": "Aksa Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F09",
+      "topic": "safety",
+      "fact": "Warning signs prohibiting swimming have been posted and lifeguards appointed at Aksa Beach, though accidents remain common.",
+      "quote": "warning signs of swimming prohibition have been put on the beach, and lifeguards have been appointed",
+      "url": "https://en.wikipedia.org/wiki/Aksa_Beach",
+      "source_title": "Aksa Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F10",
+      "topic": "safety",
+      "fact": "The beach becomes more dangerous during monsoon season, yet about 15,000 people visit on weekends.",
+      "quote": "the beach gets even more dangerous during monsoon season, though 15,000 people visit the beach during weekends",
+      "url": "https://en.wikipedia.org/wiki/Aksa_Beach",
+      "source_title": "Aksa Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F11",
+      "topic": "nature",
+      "fact": "Quicksand is present in the waters off Aksa Beach and is a recognized hazard.",
+      "quote": "quicksand is also found in the waters, often causing danger",
+      "url": "https://en.wikipedia.org/wiki/Aksa_Beach",
+      "source_title": "Aksa Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F12",
+      "topic": "safety",
+      "fact": "An academic drowning study found that between 2006 and 2018, an average of 38 people drowned each year at Aksa Beach, 445 were rescued, and 45 died in total over that period.",
+      "quote": "between 2006 and 2018, an average of 38 people drowned every year due to drowning incidents, while 445 individuals were rescued after near-drowning experiences and 45 lost their lives during 2006-2018",
+      "url": "https://en.wikipedia.org/wiki/Aksa_Beach",
+      "source_title": "Aksa Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F13",
+      "topic": "safety",
+      "fact": "Researchers identified 15 distinct drowning spots along Aksa Beach, with the highest number of incidents in a single year occurring in 2007.",
+      "quote": "in total, 15 drowning spots have been identified along the beach, with the highest number of incidents occurring in 2007",
+      "url": "https://en.wikipedia.org/wiki/Aksa_Beach",
+      "source_title": "Aksa Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F14",
+      "topic": "safety",
+      "fact": "Drowning incidents peak in the pre-monsoon season, which coincides with the summer vacation crowd surge.",
+      "quote": "pre-monsoon season, which coincides with the peak summer vacation period, is when the beach sees the greatest number of incidents, owing to the large crowds that gather there",
+      "url": "https://en.wikipedia.org/wiki/Aksa_Beach",
+      "source_title": "Aksa Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F15",
+      "topic": "events",
+      "fact": "Hindustan Times ran a story on 6 May 2013 headlined about Aksa as the 'world's most treacherous beach' after three deaths.",
+      "quote": "world's most 'treacherous' beach claims 3",
+      "url": "https://en.wikipedia.org/wiki/Aksa_Beach",
+      "source_title": "Aksa Beach - Wikipedia (cited reference)",
+      "source_type": "press",
+      "date_of_source": "2013-05",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F16",
+      "topic": "events",
+      "fact": "DNA India reported on 12 May 2015 that two college students drowned at Aksa Beach.",
+      "quote": "two college students drown at aksa",
+      "url": "https://en.wikipedia.org/wiki/Aksa_Beach",
+      "source_title": "Aksa Beach - Wikipedia (cited reference)",
+      "source_type": "press",
+      "date_of_source": "2015-05",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F17",
+      "topic": "events",
+      "fact": "The Times of India reported on 6 May 2013 that three Malad youths drowned off Aksa Beach and a lifeguard rescued one.",
+      "quote": "three malad youths drown off aksa beach, lifeguard pulls one to safety",
+      "url": "https://en.wikipedia.org/wiki/Aksa_Beach",
+      "source_title": "Aksa Beach - Wikipedia (cited reference)",
+      "source_type": "press",
+      "date_of_source": "2013-05",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F18",
+      "topic": "events",
+      "fact": "DNA reported on 22 June 2008 that four people drowned off Aksa Beach.",
+      "quote": "four drown off aksa beach",
+      "url": "https://en.wikipedia.org/wiki/Aksa_Beach",
+      "source_title": "Aksa Beach - Wikipedia (cited reference)",
+      "source_type": "press",
+      "date_of_source": "2008-06",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F19",
+      "topic": "governance",
+      "fact": "Wikidata classifies Aksa Beach as located in the administrative territorial entity of Mumbai.",
+      "quote": "located in the administrative territorial entity mumbai",
+      "url": "https://www.wikidata.org/wiki/Q4701731",
+      "source_title": "Aksa Beach - Wikidata",
+      "source_type": "wikipedia",
+      "date_of_source": "2023-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F20",
+      "topic": "identity",
+      "fact": "Wikipedia's disambiguation page for 'Aksa' confirms Aksa Beach in Malad, Mumbai is the only place of that name, distinguishing it from Aksa Avenue in Bangkok and several Turkish companies named Aksa.",
+      "quote": "aksa beach , aksa, malad, mumbai, india",
+      "url": "https://en.wikipedia.org/wiki/Aksa_(disambiguation)",
+      "source_title": "Aksa (disambiguation) - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2024-04",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F21",
+      "topic": "governance",
+      "fact": "On 17 September 2025 the National Green Tribunal held that the Maharashtra Maritime Board's promenade at Aksa Beach was illegal, tracing the case to a March 2019 CRZ clearance that barred permanent construction.",
+      "quote": "the case dates back to march 2019 when the maharashtra coastal zone management authority (mczma) had given the crz nod with the clear condition that no permanent, solid construction should be undertaken",
+      "url": "https://www.deccanherald.com/india/maharashtra/national-green-tribunal-holds-mmb-promenade-on-mumbais-aksa-beach-illegal-3732111",
+      "source_title": "NGT holds MMB promenade on Mumbai's Aksa beach illegal",
+      "source_type": "press",
+      "date_of_source": "2025-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F22",
+      "topic": "governance",
+      "fact": "The disputed MMB structure at Aksa Beach was a concrete road/promenade about 4 metres wide and 600 metres long, bordered by a cement sea-wall and boulders.",
+      "quote": "spanning approximately 4 m in width and 600 m in length",
+      "url": "https://www.freepressjournal.in/mumbai/mumbai-news-ngt-orders-demolition-of-illegal-promenade-at-aksa-beach-maharashtra-maritime-board-pulled-up-for-crz-violation",
+      "source_title": "NGT orders demolition of illegal promenade at Aksa Beach",
+      "source_type": "press",
+      "date_of_source": "2025-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F23",
+      "topic": "governance",
+      "fact": "In July 2022 the Maharashtra Maritime Board deployed JCB machines to excavate sand and concretize a stretch of Aksa Beach to build the promenade.",
+      "quote": "in the month of july 2022, the maharashtra maritime board(mmb) had deployed a team of jcb machines to excavate the sand, level the beach and concretize a wide span of the aksa beach",
+      "url": "https://www.freepressjournal.in/mumbai/mumbai-news-ngt-orders-demolition-of-illegal-promenade-at-aksa-beach-maharashtra-maritime-board-pulled-up-for-crz-violation",
+      "source_title": "NGT orders demolition of illegal promenade at Aksa Beach",
+      "source_type": "press",
+      "date_of_source": "2025-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F24",
+      "topic": "governance",
+      "fact": "Petitioners Zoru Bhathena and Banda Nagraj Kumar argued the MMB's 'sea front development and beautification' project at Aksa Beach was illegal construction violating CRZ rules.",
+      "quote": "the applicants, zoru bhathena and banda nagraj kumar, in their application had contended that the \"sea front development and beautification\" project at aksa beach was an illegal construction, violating coastal regulation zone (crz) rules",
+      "url": "https://www.freepressjournal.in/mumbai/mumbai-news-ngt-orders-demolition-of-illegal-promenade-at-aksa-beach-maharashtra-maritime-board-pulled-up-for-crz-violation",
+      "source_title": "NGT orders demolition of illegal promenade at Aksa Beach",
+      "source_type": "press",
+      "date_of_source": "2025-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F25",
+      "topic": "nature",
+      "fact": "Petitioners argued the whole beach falls under CRZ-I, which serves as a natural flood barrier during monsoon months, and that construction there was prohibited.",
+      "quote": "the entire beach falls within the category of crz- i area under the crz notification, 2011. the presence of the beach serves a crucial purpose of acting as a natural barrier protecting the region from flooding during monsoon months",
+      "url": "https://www.freepressjournal.in/mumbai/mumbai-news-ngt-orders-demolition-of-illegal-promenade-at-aksa-beach-maharashtra-maritime-board-pulled-up-for-crz-violation",
+      "source_title": "NGT orders demolition of illegal promenade at Aksa Beach",
+      "source_type": "press",
+      "date_of_source": "2025-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F26",
+      "topic": "governance",
+      "fact": "MMB defended the structure using CWPRS and IIT Bombay reports stating Aksa Beach is an eroding site and the anti-erosion bund protected existing infrastructure like electric poles.",
+      "quote": "the board presented reports from the central water and power research station (cwprs) and the indian institute of technology (iit), bombay, which stated that aksa beach is an eroding site and the anti-sea erosion bund was required to protect existing infrastructure like electric poles",
+      "url": "https://www.freepressjournal.in/mumbai/mumbai-news-ngt-orders-demolition-of-illegal-promenade-at-aksa-beach-maharashtra-maritime-board-pulled-up-for-crz-violation",
+      "source_title": "NGT orders demolition of illegal promenade at Aksa Beach",
+      "source_type": "press",
+      "date_of_source": "2025-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F27",
+      "topic": "governance",
+      "fact": "By July 2024, the 600-metre MMB sea-wall at Aksa Beach had begun caving in within a year of construction, while the NGT was still hearing the case against it.",
+      "quote": "a 600-metre seawall at aksa beach in malad has begun to cave in within a year of construction",
+      "url": "https://www.freepressjournal.in/mumbai/mumbai-news-aksa-beach-sea-wall-caves-in-within-a-year-of-construction",
+      "source_title": "Aksa Beach sea-wall caves in within a year of construction",
+      "source_type": "press",
+      "date_of_source": "2024-07",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F28",
+      "topic": "governance",
+      "fact": "The sea-wall's construction began around May 2023, when green activists first moved the NGT arguing the beach is CRZ-I ecologically fragile land.",
+      "quote": "at the time of its construction in may 2023, green activists had moved to the ngt against the wall claiming that the beach falls in the ecologically fragile category of crz i",
+      "url": "https://www.freepressjournal.in/mumbai/mumbai-news-aksa-beach-sea-wall-caves-in-within-a-year-of-construction",
+      "source_title": "Aksa Beach sea-wall caves in within a year of construction",
+      "source_type": "press",
+      "date_of_source": "2024-07",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F29",
+      "topic": "governance",
+      "fact": "Activists alleged MMB completed nearly 95% of the sea-wall's construction even while the NGT hearing on its legality was ongoing.",
+      "quote": "the mmb violated the condition and went ahead by executing the project and completing nearly 95% of the construction even as the hearing was on at the ngt's western zonal bench",
+      "url": "https://www.freepressjournal.in/mumbai/mumbai-news-aksa-beach-sea-wall-caves-in-within-a-year-of-construction",
+      "source_title": "Aksa Beach sea-wall caves in within a year of construction",
+      "source_type": "press",
+      "date_of_source": "2024-07",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F30",
+      "topic": "governance",
+      "fact": "A petition against the MMB project at Aksa Beach was filed in early May 2023, alleging MMB violated the Maharashtra Coastal Zone Management Authority's directions.",
+      "quote": "the petition, filed last week, said that the mmb violated the directions stipulated by the maharashtra coastal zone management authority",
+      "url": "https://www.deccanherald.com/india/greens-move-ngt-to-save-mumbai-s-aksa-beach-from-killer-beautification-1218646.html",
+      "source_title": "Greens move NGT to save Mumbai's Aksa beach from 'killer beautification'",
+      "source_type": "press",
+      "date_of_source": "2023-05",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F31",
+      "topic": "governance",
+      "fact": "The MCZMA had rejected a proposed Aksa Beach sea wall six years before the 2023 beautification dispute, and separately rejected proposals for a restaurant, food plaza, and gym there.",
+      "quote": "the mczma, which ensures the implementation of the coastal regulation zone (crz) notification, 2011 , had rejected the proposal for a sea wall six years ago",
+      "url": "https://www.newsclick.in/did-maharashtra-govt-violate-environmental-laws-mumbais-aksa-beach-beautification",
+      "source_title": "Did Maharashtra govt violate environmental laws in Mumbai's Aksa beach beautification?",
+      "source_type": "press",
+      "date_of_source": "2023-07",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F32",
+      "topic": "economy",
+      "fact": "Activists suggested a real-estate motive behind the beautification project, noting Aksa Beach is close to Madh Island, home to celebrities and wealthy businessmen.",
+      "quote": "aksa beach is located near madh island, which is home to many celebrities and rich businessmen",
+      "url": "https://www.newsclick.in/did-maharashtra-govt-violate-environmental-laws-mumbais-aksa-beach-beautification",
+      "source_title": "Did Maharashtra govt violate environmental laws in Mumbai's Aksa beach beautification?",
+      "source_type": "press",
+      "date_of_source": "2023-07",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F33",
+      "topic": "geography",
+      "fact": "Malad, the ward containing Aksa Beach, is described as the most densely populated municipal ward within the BMC, raising erosion-related risk concerns for the area.",
+      "quote": "malad is the most densely populated municipal ward within the brihanmumbai municipal corporation",
+      "url": "https://www.newsclick.in/did-maharashtra-govt-violate-environmental-laws-mumbais-aksa-beach-beautification",
+      "source_title": "Did Maharashtra govt violate environmental laws in Mumbai's Aksa beach beautification?",
+      "source_type": "press",
+      "date_of_source": "2023-07",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F34",
+      "topic": "recent",
+      "fact": "On a Friday in June 2026, a search-and-rescue operation was launched after a 17-year-old college student, identified as Mazid Khan of Kandivli, was feared drowned off Aksa Beach.",
+      "quote": "the missing teenager has been identified as mazid khan, a resident of kandivli",
+      "url": "https://www.latestly.com/india/news/aksa-beach-tragedy-17-year-old-college-student-feared-drowned-in-mumbai-search-operation-underway-watch-video-7492298.html",
+      "source_title": "Aksa Beach tragedy: 17-year-old college student feared drowned",
+      "source_type": "press",
+      "date_of_source": "2026-06",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F35",
+      "topic": "recent",
+      "fact": "The June 2026 drowning victim entered the water with two friends between INS Hamla and JJ Point around 3:00 pm; his friends made it back to shore but he was swept away by the high tide.",
+      "quote": "the incident occurred around 3:00 pm when khan and two of his friends entered the water between ins hamla and jj point",
+      "url": "https://www.latestly.com/india/news/aksa-beach-tragedy-17-year-old-college-student-feared-drowned-in-mumbai-search-operation-underway-watch-video-7492298.html",
+      "source_title": "Aksa Beach tragedy: 17-year-old college student feared drowned",
+      "source_type": "press",
+      "date_of_source": "2026-06",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F36",
+      "topic": "safety",
+      "fact": "The private stretch of beach where the June 2026 drowning occurred lacks active lifeguard coverage because the municipal lifeguards only monitor the main public beach.",
+      "quote": "because of this, the area lacks active lifeguard coverage, and the municipal lifeguards stationed at the main public beach cannot monitor that section of the coast",
+      "url": "https://www.latestly.com/india/news/aksa-beach-tragedy-17-year-old-college-student-feared-drowned-in-mumbai-search-operation-underway-watch-video-7492298.html",
+      "source_title": "Aksa Beach tragedy: 17-year-old college student feared drowned",
+      "source_type": "press",
+      "date_of_source": "2026-06",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F37",
+      "topic": "recent",
+      "fact": "A separate write-up of the same June 2026 incident places it between INS Hamla and Shitala Devi Temple, reported around 3:53 pm.",
+      "quote": "the incident was reported at around 3.53 pm from the beach area located between ins hamla and shitala devi temple",
+      "url": "https://www.lokmattimes.com/mumbai/mumbai-17-year-old-feared-drowned-at-aksa-beach-multi-agency-search-operation-launched-a525/",
+      "source_title": "Mumbai: 17-year-old feared drowned at Aksa Beach, multi-agency search operation launched",
+      "source_type": "press",
+      "date_of_source": "2026-06",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F38",
+      "topic": "safety",
+      "fact": "The June 2026 search involved Mumbai Police, Mumbai Fire Brigade, and the 108 ambulance service, with the Indian Navy also alerted to send a rescue team.",
+      "quote": "personnel from the mumbai police, mumbai fire brigade, and the 108 ambulance service reached the spot to assist in the efforts",
+      "url": "https://www.lokmattimes.com/mumbai/mumbai-17-year-old-feared-drowned-at-aksa-beach-multi-agency-search-operation-launched-a525/",
+      "source_title": "Mumbai: 17-year-old feared drowned at Aksa Beach, multi-agency search operation launched",
+      "source_type": "press",
+      "date_of_source": "2026-06",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F39",
+      "topic": "safety",
+      "fact": "The June 2026 search for the missing teenager was officially called off around 8:19 pm after the teams could not locate him.",
+      "quote": "the search activity was officially called off at around 8.19 pm",
+      "url": "https://www.lokmattimes.com/mumbai/mumbai-17-year-old-feared-drowned-at-aksa-beach-multi-agency-search-operation-launched-a525/",
+      "source_title": "Mumbai: 17-year-old feared drowned at Aksa Beach, multi-agency search operation launched",
+      "source_type": "press",
+      "date_of_source": "2026-06",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F40",
+      "topic": "access",
+      "fact": "Mumbai Fandom's wiki puts Aksa Beach at approximately 9 km from Malad station and 12 km from Borivali.",
+      "quote": "the beach is approximately 9 km from malad station and 12 km from borivali",
+      "url": "https://mumbai.fandom.com/wiki/Aksa_Beach",
+      "source_title": "Aksa Beach - Mumbai Wiki (Fandom)",
+      "source_type": "other",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F41",
+      "topic": "access",
+      "fact": "Aksa Beach is reachable from Malad (W) station by select BEST buses via Borivali railway station en route to Madh Island, or by private transport and autorickshaws.",
+      "quote": "it is accessible from malad (w) station by select best buses from borivali borivali railway station , en route to madh island , and also by private transport and autorickshaws",
+      "url": "https://mumbai.fandom.com/wiki/Aksa_Beach",
+      "source_title": "Aksa Beach - Mumbai Wiki (Fandom)",
+      "source_type": "other",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F42",
+      "topic": "geography",
+      "fact": "Mumbai Fandom's wiki page describes Aksa Beach as situated close to Malvani, differing from Wikipedia's description of it as close to Marve Beach.",
+      "quote": "it is situated close to malvani",
+      "url": "https://mumbai.fandom.com/wiki/Aksa_Beach",
+      "source_title": "Aksa Beach - Mumbai Wiki (Fandom)",
+      "source_type": "other",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "low"
+    },
+    {
+      "id": "F43",
+      "topic": "access",
+      "fact": "A lifestyle piece places Aksa Beach on the Arabian Sea coast near Malad West, about 20 to 25 kilometres from Mumbai city.",
+      "quote": "the beach is just about 20 to 25 kilometres from mumbai city",
+      "url": "https://newsable.asianetnews.com/gallery/lifestyle/discover-aksa-beach-mumbais-secret-film-shooting-hotspot-qn79fu1",
+      "source_title": "Aksa Beach is Mumbai's quiet escape with a Bollywood connection",
+      "source_type": "other",
+      "date_of_source": "2026-08",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F44",
+      "topic": "culture",
+      "fact": "As of August 2026, the upcoming film 'Ramayana', starring Ranbir Kapoor, Sai Pallavi, and Yash, had recently shot scenes at Aksa Beach.",
+      "quote": "recently, the team of the upcoming movie 'ramayana', starring ranbir kapoor, sai pallavi, and yash, also shot some scenes right here",
+      "url": "https://newsable.asianetnews.com/gallery/lifestyle/discover-aksa-beach-mumbais-secret-film-shooting-hotspot-qn79fu1",
+      "source_title": "Aksa Beach is Mumbai's quiet escape with a Bollywood connection",
+      "source_type": "other",
+      "date_of_source": "2026-08",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F45",
+      "topic": "safety",
+      "fact": "Despite its film-location popularity, officials continue to warn that Aksa Beach has strong waves and rip currents and that people should not go deep into the water.",
+      "quote": "the beach has strong waves and rip currents, so officials always warn people not to go deep into the water",
+      "url": "https://newsable.asianetnews.com/gallery/lifestyle/discover-aksa-beach-mumbais-secret-film-shooting-hotspot-qn79fu1",
+      "source_title": "Aksa Beach is Mumbai's quiet escape with a Bollywood connection",
+      "source_type": "other",
+      "date_of_source": "2026-08",
+      "lang": "en",
+      "confidence": "high"
+    }
+  ],
+  "recency": {
+    "newest_item": "An August 2026 lifestyle article (asianetnews.com, published Aug 3 2026) reports the film 'Ramayana' (Ranbir Kapoor, Sai Pallavi, Yash) recently shot scenes at Aksa Beach, and still warns of strong waves/rip currents there.",
+    "fact_ids": [
+      "F43",
+      "F44",
+      "F45"
+    ]
+  },
+  "dead_ends": [
+    "Exact beach length/stretch (dataset's beach_length_m is null; no harvested source gives a definitive figure, only vague 'a stretch of beach').",
+    "Named restaurants, food stalls, prices, or any currently-operating food business at Aksa Beach.",
+    "Named, currently-operating hotels/cottages, room rates, or parking/entry fees - sources only mention 'private cottages and hotels' generically.",
+    "Lifeguard staffing numbers and official BMC beach-safety protocol detail - the BMC 'Beach Safety_English.pdf' fetched at status 200 but returned only raw, undecoded PDF binary stream with no extractable text.",
+    "The Current Science academic risk-assessment paper and both ResearchGate mirrors (drowning study, '47 lives lost' paper, and the beach-stage/morphodynamics paper) all failed (403 or undecoded PDF binary) - cannot confirm exact death toll or erosion methodology from the primary sources.",
+    "Road distance or travel time to the nearest airport.",
+    "Pre-2000s / founding history of Aksa village, or how it came to be a Koli fishing settlement - no harvested source covers deep history.",
+    "TripAdvisor visitor reviews and ratings (fetch failed: 403)."
+  ],
+  "conflicts": [
+    "Wikipedia (F02) says the beach is 'close to marvé beach' while Mumbai Fandom (F42) says it is 'close to malvani' - different named neighbors for the same claim.",
+    "Wikipedia's own drowning statistic (F12) states 45 deaths / 445 rescues over 2006-2018 at an average of 38 drowned per year - an internally odd ratio (38/yr over 13 years would exceed 45) - and a related ResearchGate paper is titled '47 lives lost at Aksa Beach, Mumbai, in 13 years'; the 45 vs 47 death-toll discrepancy could not be resolved because both primary sources were inaccessible (403/binary).",
+    "Two write-ups of the same June 2026 drowning incident disagree on the exact spot and time: latestly.com (F35) says the entry point was 'between ins hamla and jj point' around 3:00 pm, while lokmattimes.com (F37) says it was 'between ins hamla and shitala devi temple' reported at 3:53 pm.",
+    "The dataset's nearest_city is Borivli (9.4 km), but Mumbai Fandom (F40) puts Malad station at ~9 km and Borivali at ~12 km - Malad, not Borivli, is the town sources treat as nearest."
+  ],
+  "budget": {
+    "sources_read": 18
+  },
+  "derivations": [
+    {
+      "id": "D01",
+      "fact": "Site dataset (site/data/beaches/aksa-beach-1.json) lists nearest_city Borivli at 9.4 km (straight-line) and nearest_airport Chhatrapati Shivaji Maharaj International Airport (BOM) at 12.5 km (straight-line); both are structured dataset fields, not press facts.",
+      "from": [
+        "site/data/beaches/aksa-beach-1.json"
+      ]
+    }
+  ]
+}

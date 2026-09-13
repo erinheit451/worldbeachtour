@@ -1,0 +1,42 @@
+{
+  "slug": "kokkino-nero-1",
+  "beach_name": "Kokkino Nero",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A pebble-and-sand village beach at the foot of Mount Ossa, built around a red mineral spring three separate ventures have never managed to bottle.",
+  "spike_statement": "Three ventures — 1900, the 1930s, and the 1950s — tried to bottle Kokkino Nero's red mineral spring, and every one failed because of its iron.",
+  "levers": {
+    "primary_color": "#A8402B",
+    "supporting_color": "#D9CFC0",
+    "hero_type": "SPIKE",
+    "display_pairing": "VERNACULAR",
+    "voice_register": "WRY",
+    "photo_tone": "Rust-red shallows fading to gray pebble at the foot of Mount Ossa, taverna shade under plane trees behind the shore."
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

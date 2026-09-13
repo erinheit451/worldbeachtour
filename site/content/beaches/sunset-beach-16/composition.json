@@ -1,0 +1,42 @@
+{
+  "slug": "sunset-beach-16",
+  "beach_name": "Sunset Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "An urban beach park on English Bay in Vancouver's West End, where a viral barge, an AIDS memorial, and the city seawall meet.",
+  "spike_statement": "A 61-metre barge washed ashore at Sunset Beach in 2021, became a beloved landmark, and cost $2.4 million to remove in 2022.",
+  "levers": {
+    "primary_color": "#3C6E71",
+    "supporting_color": "#D98A2B",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "WRY",
+    "photo_tone": "Downtown glass towers reflected in flat English Bay water, gray sand and gulls, a beached industrial barge photobombing the sunset"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "culture",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

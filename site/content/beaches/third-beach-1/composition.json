@@ -1,0 +1,41 @@
+{
+  "slug": "third-beach-1",
+  "beach_name": "Third Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A sandy swimming beach at Ferguson Point in Stanley Park, built over a levelled World War II coastal gun battery.",
+  "spike_statement": "Vancouver's planners fought the WWII gun battery at Ferguson Point as a favourite beauty spot and lost; the beach's parking lot was the soldiers' camp.",
+  "levers": {
+    "primary_color": "#2F4A3D",
+    "supporting_color": "#A9A08C",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "WRY",
+    "photo_tone": "Grey Pacific light through old-growth cedar and hemlock, driftwood in the foreground, downtown's towers absent from the frame."
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ]
+}

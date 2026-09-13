@@ -1,0 +1,41 @@
+{
+  "slug": "goat-rock-beach",
+  "beach_name": "Goat Rock Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A Sonoma County sea-stack beach where Goat Rock was dynamited for jetty fill in 1929, and where swimmers drowned for decades before a lifeguard tower arrived.",
+  "spike_statement": "Sonoma County's second-most-popular beach got its first lifeguard tower only in May 2018, after a father and his 6-year-old son drowned there in December 2017.",
+  "levers": {
+    "primary_color": "#3B4A52",
+    "supporting_color": "#B8AF9C",
+    "hero_type": "MONUMENT",
+    "display_pairing": "AUSTERE",
+    "voice_register": "SEVERE",
+    "photo_tone": "Cold gray sea-stack silhouette and white spray against fog, the isthmus barely holding Goat Rock to shore."
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "praia-da-adraga",
+  "beach_name": "Praia da Adraga",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A wild, cliff-backed Atlantic point break in Sintra whose \"untouched\" backdrop is a still-unfinished ecological park.",
+  "spike_statement": "Sintra paid a bankrupt developer €500,000 for 54.6ha next to Adraga in 2021, and won't finish rebuilding the land into a park until 2027.",
+  "levers": {
+    "primary_color": "#7A5C3E",
+    "supporting_color": "#3E5A63",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "SEVERE",
+    "photo_tone": "Gray-green Atlantic swell under vertical ochre cliffs, sea caves in shadow, restoration scrub still low and pale against older pine."
+  },
+  "byline": "Written by Erin Rose",
+  "sections": ["hero","quick_facts","story","spike_deep_explainer","timeline","place_anatomy","day_in_life","culture","honest_reckoning","comparison","sea_surf","things_to_know","plan_stack","spokes","gallery","sources"],
+  "spokes": [{"slug": "environment", "type": "deep_dive"}],
+  "adaptive": true
+}

@@ -1,0 +1,684 @@
+{
+  "slug": "goat-rock-beach",
+  "beach_name": "Goat Rock Beach",
+  "researched_at": "2026-09-13",
+  "identity": {
+    "what_it_is": "A sand beach at the mouth of the Russian River in Jenner, a sub-unit of Sonoma Coast State Beach/Park, dominated by the massive sea-stack landmark Goat Rock at its southern end.",
+    "where": "Northwestern Sonoma County, California, on Highway 1 at Goat Rock Road, Jenner, CA 95450 (38.44667N, 123.12639W).",
+    "aliases": [
+      "Goat Rock State Beach",
+      "Goat Rock State Park Beach"
+    ],
+    "warnings": "Ambiguous online: an unrelated Goat Rock Lake/Dam exists on the Chattahoochee River (GA/AL) and a separate Goat Rocks Wilderness exists in Washington state; neither appears in these sources but both are common name collisions. Wikipedia's 'Goat Rock' (the landform) and 'Goat Rock Beach' content overlap heavily in the harvested page and were treated as one source."
+  },
+  "spike_candidates": [
+    {
+      "statement": "Goat Rock Beach, one of Sonoma County's most popular beaches, got its first-ever lifeguard tower only in May 2018, after a father and his 6-year-old son drowned there in December 2017.",
+      "tension": "A beach famous enough to be voted the county's second-most-popular and to star as The Goonies' Cauldron Point went undefended by lifeguards for generations while sneaker waves and rip currents kept killing people.",
+      "fact_ids": [
+        "F27",
+        "F30",
+        "F33",
+        "F41"
+      ],
+      "strength": "strong"
+    },
+    {
+      "statement": "On Nov. 17, 1929, crews detonated 14 tons of black powder and dynamite to blast roughly 50,000 tons of rock off Goat Rock to build a jetty that failed repeatedly and was abandoned by 1948.",
+      "tension": "The same landmark now protected as a fragile harbor-seal rookery and marine conservation area was itself dynamited apart for industrial gravel and jetty fill less than a century ago.",
+      "fact_ids": [
+        "F04",
+        "F05",
+        "F06",
+        "F22"
+      ],
+      "strength": "strong"
+    },
+    {
+      "statement": "National Weather Service data credits Goat Rock Beach with just two drownings since 2014, but Sonoma County news coverage documents at least six separate drowning deaths there between 2003 and 2017.",
+      "tension": "The official hazard statistic that would set visitor expectations dramatically undercounts a beach local reporters and rescuers already call one of the Bay Area's deadliest.",
+      "fact_ids": [
+        "F31",
+        "F32",
+        "F33",
+        "F34",
+        "F35"
+      ],
+      "strength": "medium"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "topic": "identity",
+      "fact": "Goat Rock Beach is a crescent-shaped sand beach in northwestern Sonoma County that is a sub-unit of Sonoma Coast State Beach, owned and managed by the State of California.",
+      "quote": "goat rock beach is a sand beach in northwestern sonoma county, california , united states.",
+      "url": "https://en.wikipedia.org/wiki/Goat_Rock_Beach",
+      "source_title": "Goat Rock Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-08",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F02",
+      "topic": "identity",
+      "fact": "At the beach's southern end, the massive Goat Rock outcrop is only barely attached to the mainland by a narrow isthmus, while the Russian River's mouth marks the northern end.",
+      "quote": "the southern end of this crescent shaped expanse is the massive goat rock, an iconic outcrop of the sonoma coast, which is barely attached to the mainland by a narrow isthmus .",
+      "url": "https://en.wikipedia.org/wiki/Goat_Rock_Beach",
+      "source_title": "Goat Rock Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-08",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F03",
+      "topic": "history",
+      "fact": "Goat Rock Beach lies within the Mexican-era land grant Rancho Bodega.",
+      "quote": "goat rock beach is part of the mexican land grant rancho bodega .",
+      "url": "https://en.wikipedia.org/wiki/Goat_Rock_Beach",
+      "source_title": "Goat Rock Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-08",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F04",
+      "topic": "history",
+      "fact": "On Nov. 1, 1929, the Healdsburg Tribune reported plans to blast the 100-foot-high Goat Rock apart to supply jetty material for the Russian River mouth.",
+      "quote": "to get material with which to build a jetty at the mouth of the russian river at jenner, destruction by blasting of goat rock, 100 feet high, south of the river mouth, is planned,",
+      "url": "https://www.pressdemocrat.com/2025/06/26/the-history-of-jenners-goat-rock-includes-the-goonies/",
+      "source_title": "The history of Jenner's Goat Rock includes 'The Goonies' - Press Democrat",
+      "source_type": "press",
+      "date_of_source": "2025-06",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F05",
+      "topic": "history",
+      "fact": "On Nov. 17, 1929, crowds watched crews detonate 14 tons of powder and dynamite, sending about 50,000 tons of crushed rock down for jetty construction.",
+      "quote": "on nov. 17, 1929, thousands of spectators came to watch as 14 tons of powder and dynamite carved a crater in goat rock, sending about 50,000 tons of crushed rock tumbling down for use in building the jetty.",
+      "url": "https://www.pressdemocrat.com/2025/06/26/the-history-of-jenners-goat-rock-includes-the-goonies/",
+      "source_title": "The history of Jenner's Goat Rock includes 'The Goonies' - Press Democrat",
+      "source_type": "press",
+      "date_of_source": "2025-06",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F06",
+      "topic": "history",
+      "fact": "Sonoma Water's environmental resource manager confirmed the Goat Rock jetty was built in multiple phases between 1929 and 1948 to keep a gravel-transport passage open, with fish passage an early additional goal.",
+      "quote": "the jetty at goat rock state beach was constructed over multiple phases between 1929 and 1948 to maintain a permanently open passage for the transport of mined gravel from the river,",
+      "url": "https://sonomacountyfeatures.substack.com/p/field-notes-goat-rock-jetty-and-the",
+      "source_title": "Field notes: Goat Rock jetty and the Russian River's deep-time shoreline",
+      "source_type": "press",
+      "date_of_source": "2026-06",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F07",
+      "topic": "history",
+      "fact": "In the winter of 1933-34 the Civil Works Administration paid 14 relief workers to repair storm damage to the jetty, estimated at $6,000, as documented by a 1934 California Highway & Public Works article.",
+      "quote": "the actual damage done by the storms is estimated at $6,000. during this period work has proceeded under cwa project no. slf 70, with 14 men.",
+      "url": "https://livingnewdeal.org/sites/russian-river-jetty-repairs-jenner-ca/",
+      "source_title": "Russian River jetty repairs - Jenner CA - Living New Deal",
+      "source_type": "academic",
+      "date_of_source": "2023-12",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F08",
+      "topic": "history",
+      "fact": "The Goat Rock State Beach jetty measures 1,600 feet long, 10 feet high and 40 feet wide, built from rock quarried out of Goat Rock itself.",
+      "quote": "the goat rock state beach jetty measures 1,600 feet long, 10 feet high and 40 feet wide.",
+      "url": "https://sonomacountyfeatures.substack.com/p/field-notes-goat-rock-jetty-and-the",
+      "source_title": "Field notes: Goat Rock jetty and the Russian River's deep-time shoreline",
+      "source_type": "press",
+      "date_of_source": "2026-06",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F09",
+      "topic": "history",
+      "fact": "In the 1930s, Civilian Conservation Corps Company 572 built a parking lot above Jenner Beach and trails down to the beach as part of the same New Deal-era work in the area.",
+      "quote": "ccc company 572 was working on a parking lot above jenner beach and trails down to the beach,",
+      "url": "https://sonomacountyfeatures.substack.com/p/field-notes-goat-rock-jetty-and-the",
+      "source_title": "Field notes: Goat Rock jetty and the Russian River's deep-time shoreline",
+      "source_type": "press",
+      "date_of_source": "2026-06",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F10",
+      "topic": "history",
+      "fact": "A Nov. 5, 1937 issue of the Oak Leaf, Santa Rosa Junior College's student paper, described a group of students taking photos, picnicking and lighting a bonfire on an outing to Goat Rock.",
+      "quote": "they spent the day taking pictures, picnic lunching and building a bonfire which they lighted at dusk,",
+      "url": "https://www.pressdemocrat.com/2025/06/26/the-history-of-jenners-goat-rock-includes-the-goonies/",
+      "source_title": "The history of Jenner's Goat Rock includes 'The Goonies' - Press Democrat",
+      "source_type": "press",
+      "date_of_source": "2025-06",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F11",
+      "topic": "culture",
+      "fact": "Goat Rock Beach, viewed toward Arched Rock, was used in 1985 to portray 'Cauldron Point' for the final scene of the cult film The Goonies.",
+      "quote": "goat rock beach, looking towards arched rock, was used to portray cauldron point in the final scene of the 1985 cult movie the goonies",
+      "url": "https://en.wikipedia.org/wiki/Goat_Rock_Beach",
+      "source_title": "Goat Rock Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-08",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F12",
+      "topic": "history",
+      "fact": "Wikipedia states mammoths are believed to have roamed the area as recently as 40,000 years ago, rubbing against nearby uplifted sea-stack rocks and leaving smooth marks.",
+      "quote": "mammoths are believed to have roamed here as recently as 40,000 years ago, and they are thought to have created these severe rubbing marks.",
+      "url": "https://en.wikipedia.org/wiki/Goat_Rock_Beach",
+      "source_title": "Goat Rock Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-08",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F13",
+      "topic": "history",
+      "fact": "Retired state archaeologist Breck Parkman instead dates the mammoth rubbing-rock activity to between 10,000 and 20,000 years ago, a narrower and more recent window than Wikipedia's figure.",
+      "quote": "retired senior state archaeologist breck parkman has long theorized that between 10,000-20,000 years ago, mammoths roamed the area and would rub against the rocks near goat rock to scratch themselves, leaving abnormally smooth areas on the otherwise rough boulders.",
+      "url": "https://www.pressdemocrat.com/2025/06/26/the-history-of-jenners-goat-rock-includes-the-goonies/",
+      "source_title": "The history of Jenner's Goat Rock includes 'The Goonies' - Press Democrat",
+      "source_type": "press",
+      "date_of_source": "2025-06",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F14",
+      "topic": "history",
+      "fact": "The earliest known human settlement of the site was by the Coast Miwok and Pomo tribes, with archaeological finds recorded as early as 1849.",
+      "quote": "the earliest known human settlement of this site was by the native american coast miwok and pomo tribes.",
+      "url": "https://en.wikipedia.org/wiki/Goat_Rock_Beach",
+      "source_title": "Goat Rock Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-08",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F15",
+      "topic": "history",
+      "fact": "In 1905, zoologist C. Hart Merriam photographed a Pomo village called A-kow-wah-tol situated near the Russian River's mouth, of which only artifact traces remain today.",
+      "quote": "in 1905, the famed zoologist and ethnographer c. hart merriam visited jenner and photographed a pomo village situated near the river's mouth,",
+      "url": "https://sonomacountyfeatures.substack.com/p/field-notes-goat-rock-jetty-and-the",
+      "source_title": "Field notes: Goat Rock jetty and the Russian River's deep-time shoreline",
+      "source_type": "press",
+      "date_of_source": "2026-06",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F16",
+      "topic": "history",
+      "fact": "The name 'Goat Rock' does not appear on maps before World War I, suggesting it was coined during that era, though the goatherding origin story has no documented evidence.",
+      "quote": "\"goat rock\" doesn't show up on maps before world war i, so it could have earned its name during that conflict.",
+      "url": "https://www.pressdemocrat.com/2021/05/21/how-sonoma-countys-goat-rock-got-its-name/",
+      "source_title": "How Sonoma County's Goat Rock got its name - Press Democrat",
+      "source_type": "press",
+      "date_of_source": "2021-05",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F17",
+      "topic": "geography",
+      "fact": "The sea stacks along Goat Rock Beach are made of Franciscan Complex rock formed roughly 200 to 30 million years ago as the Farallon Plate collided with the North American Plate.",
+      "quote": "the sea stacks along the coast at goat rock beach consist of rocks from the franciscan complex , formed within an era of plate collision along the western coast of north america.",
+      "url": "https://en.wikipedia.org/wiki/Goat_Rock_Beach",
+      "source_title": "Goat Rock Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-08",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F18",
+      "topic": "geography",
+      "fact": "Marine and windborne erosion strips an average of 1 to 3 feet of land per year at Goat Rock Beach, and geologic uplift has raised the marine terrace above the beach to 30-150 feet above sea level.",
+      "quote": "an average of 1 to 3 ft (0.30 to 0.91 m) per year of land mass is lost",
+      "url": "https://en.wikipedia.org/wiki/Goat_Rock_Beach",
+      "source_title": "Goat Rock Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-08",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F19",
+      "topic": "geography",
+      "fact": "The active San Andreas Fault runs roughly parallel to and near the coastline at Goat Rock Beach.",
+      "quote": "the active san andreas fault runs roughly parallel and near to the coastline of goat rock beach.",
+      "url": "https://en.wikipedia.org/wiki/Goat_Rock_Beach",
+      "source_title": "Goat Rock Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-08",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F20",
+      "topic": "geography",
+      "fact": "The summer sandbar at the Russian River's mouth is mechanically breached once estuary water reaches between 4.5 and 7 feet at the Jenner visitor center.",
+      "quote": "this sandbar is breached whenever the water levels reach heights between 4.5-7 feet (1.4-2.1 m) at the jenner visitor center.",
+      "url": "https://en.wikipedia.org/wiki/Goat_Rock_Beach",
+      "source_title": "Goat Rock Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-08",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F21",
+      "topic": "governance",
+      "fact": "Sonoma Water became responsible for artificially breaching the Russian River sandbar in 1994 and holds permits from seven separate federal and state agencies to do so.",
+      "quote": "sonoma water became responsible for breaching activities in 1994.",
+      "url": "https://www.sonomawater.org/russian-river-estuary",
+      "source_title": "Sonoma Water - Russian River Estuary Management Project",
+      "source_type": "official",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F22",
+      "topic": "governance",
+      "fact": "A 2017 feasibility report, required by the 2008 Russian River Biological Opinion, studied whether the abandoned, sand-buried jetty should be modified or removed to improve estuary habitat, but no funds were allocated for any such work.",
+      "quote": "the biological opinion does not require us to fund the removal or modification of the jetty - just to do this study,",
+      "url": "https://www.fondriest.com/news/russian-river-jetty.htm",
+      "source_title": "Abandoned, buried jetty's effects on Russian River estuary studied - Environmental Monitor",
+      "source_type": "press",
+      "date_of_source": "2014-03",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F23",
+      "topic": "safety",
+      "fact": "Swimming is strictly prohibited at Goat Rock Beach because of strong rip currents and sneaker waves.",
+      "quote": "due to the potential safety risks of strong rip currents and sneaker waves at goat rock beach, swimming is strictly prohibited.",
+      "url": "https://en.wikipedia.org/wiki/Goat_Rock_Beach",
+      "source_title": "Goat Rock Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-08",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F24",
+      "topic": "access",
+      "fact": "Sonoma Coast State Park charges a $10.00 per-vehicle day-use fee ($9.00 for seniors), with bus fees of $50 (10-24 passengers) and $100 (25+ passengers).",
+      "quote": "day use: $10.00 per vehicle $9.00 per vehicle for seniors bus fee for 10-24 passengers is $50.00 bus fee for 25+ passengers is $100.00",
+      "url": "https://www.parks.ca.gov/?page_id=451",
+      "source_title": "Sonoma Coast State Park - California State Parks",
+      "source_type": "official",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F25",
+      "topic": "access",
+      "fact": "Because of the protected harbor-seal colony, dogs are not allowed on Goat Rock Beach itself, though leashed dogs are permitted on adjacent Blind Beach off the south parking lot.",
+      "quote": "due to the protected status of the seals, dogs are not allowed on goat rock beach.",
+      "url": "https://www.parks.ca.gov/?page_id=451",
+      "source_title": "Sonoma Coast State Park - California State Parks",
+      "source_type": "official",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F26",
+      "topic": "access",
+      "fact": "Fishing is banned from the north side of Goat Rock's south parking lot to Muniz Ranch because the area lies within the Russian River State Marine Conservation Area.",
+      "quote": "goat rock is part of the russian river state marine conservation area (smrca) and fishing is not allowed from the north side of the south parking lot to muniz ranch.",
+      "url": "https://www.parks.ca.gov/?page_id=451",
+      "source_title": "Sonoma Coast State Park - California State Parks",
+      "source_type": "official",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F27",
+      "topic": "safety",
+      "fact": "The Goat Rock vehicle gate periodically closes during dangerous ocean conditions, though pedestrians may still walk in while it is closed.",
+      "quote": "periodically the goat rock gate closes to vehicle traffic during day use hours when dangerous ocean conditions prevail.",
+      "url": "https://www.parks.ca.gov/?page_id=451",
+      "source_title": "Sonoma Coast State Park - California State Parks",
+      "source_type": "official",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F28",
+      "topic": "access",
+      "fact": "Hang-gliding is permitted from a 150-foot launch point on the marine terrace above the beach's southern part, provided the pilot holds a USHGA card, a Sonoma Wings card, and a signed waiver.",
+      "quote": "hang-gliding is permitted from a 150 feet (46 m) high launch point on a high marine terrace above the southern part of goat rock beach, provided the participant is in possession of ushga card, sonoma wings card, and signed waiver card.",
+      "url": "https://en.wikipedia.org/wiki/Goat_Rock_Beach",
+      "source_title": "Goat Rock Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-08",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F29",
+      "topic": "safety",
+      "fact": "State recommendations set a 50-yard (46 m) minimum distance between visitors and hauled-out marine mammals, a rule tightened further during pupping season.",
+      "quote": "the state of california recommends that a 50-yard (46 m) distance be preserved between human visitors and the seasonal marine mammals , especially in the pupping season.",
+      "url": "https://en.wikipedia.org/wiki/Goat_Rock_Beach",
+      "source_title": "Goat Rock Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-08",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F30",
+      "topic": "safety",
+      "fact": "Goat Rock Beach became the first beach on the Sonoma coast to get a lifeguard tower, installed in May 2018.",
+      "quote": "in may 2018, goat rock beach became the first beach in sonoma county to establish a lifeguard tower.",
+      "url": "https://www.sfgate.com/bayarea/article/California-s-deadliest-beach-is-in-the-Bay-Area-13245629.php",
+      "source_title": "California's deadliest beach is in the Bay Area - SFGate",
+      "source_type": "press",
+      "date_of_source": "2018-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F31",
+      "topic": "safety",
+      "fact": "SFGate reported that National Weather Service records showed only two drownings at Goat Rock Beach since 2014, while noting the real death toll appears much higher based on local reporting.",
+      "quote": "national weather service data shows that two people have drowned at this beach near jenner since 2014, but in reality, there have been many more.",
+      "url": "https://www.sfgate.com/bayarea/article/California-s-deadliest-beach-is-in-the-Bay-Area-13245629.php",
+      "source_title": "California's deadliest beach is in the Bay Area - SFGate",
+      "source_type": "press",
+      "date_of_source": "2018-09",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F32",
+      "topic": "events",
+      "fact": "On Dec. 17, 2017, a father and his 6-year-old son drowned at Goat Rock State Beach after an undertow swept the boy out to sea while he played in shallow water; both bodies were recovered roughly an hour later.",
+      "quote": "the pair had been in the water for about an hour before rescuers got them to shore, rowan said.",
+      "url": "https://www.cbsnews.com/news/goat-rock-state-beach-father-son-drown-california",
+      "source_title": "Father, son drown when undertow takes them out to sea off California coast - CBS News",
+      "source_type": "press",
+      "date_of_source": "2017-12",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F33",
+      "topic": "events",
+      "fact": "SFGate reported three additional drownings at Goat Rock Beach in 2016, citing the Press Democrat, including a 75-year-old woman swept away while carrying flowers to memorialize her late son.",
+      "quote": "in 2016, three others reportedly drowned there, according to the press democrat.",
+      "url": "https://www.sfgate.com/bayarea/article/California-s-deadliest-beach-is-in-the-Bay-Area-13245629.php",
+      "source_title": "California's deadliest beach is in the Bay Area - SFGate",
+      "source_type": "press",
+      "date_of_source": "2018-09",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F34",
+      "topic": "events",
+      "fact": "A kayaker drowned at Goat Rock Beach in high surf in 2015.",
+      "quote": "in 2015, a kayaker also drowned at goat rock beach in high surf.",
+      "url": "https://www.sfgate.com/bayarea/article/California-s-deadliest-beach-is-in-the-Bay-Area-13245629.php",
+      "source_title": "California's deadliest beach is in the Bay Area - SFGate",
+      "source_type": "press",
+      "date_of_source": "2018-09",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F35",
+      "topic": "events",
+      "fact": "In 2003, a sneaker wave swept a 3-year-old girl away as she walked with her grandmother at Goat Rock Beach.",
+      "quote": "in 2003, a sneaker wave took a 3-year-old girl as she walked with her grandmother at goat rock beach.",
+      "url": "https://www.sfgate.com/bayarea/article/California-s-deadliest-beach-is-in-the-Bay-Area-13245629.php",
+      "source_title": "California's deadliest beach is in the Bay Area - SFGate",
+      "source_type": "press",
+      "date_of_source": "2018-09",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F36",
+      "topic": "events",
+      "fact": "On Feb. 26, 2016, lifeguard Aaron Pendergraft rescued a 7-year-old girl and her mother after a sneaker wave swept them out to sea at Goat Rock Beach, and was hospitalized afterward for hypothermia.",
+      "quote": "pendergraft was hospitalized for hypothermia.",
+      "url": "https://abc7news.com/news/exclusive-goat-rock-beach-lifeguard-rescues-girl-mom-dragged-out-to-sea/1223361/",
+      "source_title": "Goat Rock Beach lifeguard rescues girl, mom dragged out to sea - ABC7 News",
+      "source_type": "press",
+      "date_of_source": "2016-02",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F37",
+      "topic": "safety",
+      "fact": "Sneaker waves along the Bay Area coast, including at Goat Rock, are most likely to strike between December and February, though the season can start in September and run through April.",
+      "quote": "the season for sneaker waves can begin as early as september and continue to april, though they are most likely from december to february, peterson said.",
+      "url": "https://www.kqed.org/science/1978061/after-their-son-was-swept-into-the-ocean-this-fremont-family-turned-their-grief-into-advocacy",
+      "source_title": "After their son was swept into the ocean, this Fremont family turned their grief into advocacy - KQED",
+      "source_type": "press",
+      "date_of_source": "2022-01",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F38",
+      "topic": "nature",
+      "fact": "Harbor seals have been a resident species observed at the Russian River estuary near Goat Rock Beach since 1974.",
+      "quote": "harbor seals are a resident species of marine mammal that have been observed at the russian river estuary since 1974.",
+      "url": "https://www.sonomawater.org/russian-river-estuary",
+      "source_title": "Sonoma Water - Russian River Estuary Management Project",
+      "source_type": "official",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F39",
+      "topic": "nature",
+      "fact": "California State Parks sets the harbor seal pupping season at Goat Rock Beach as March through August, requiring extra visitor distance during that window.",
+      "quote": "goat rock beach is home to a colony of harbor seals which are fun to watch, but please stay at least 50 yards from the seals, especially during pupping season (march - august.)",
+      "url": "https://www.parks.ca.gov/?page_id=451",
+      "source_title": "Sonoma Coast State Park - California State Parks",
+      "source_type": "official",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F40",
+      "topic": "nature",
+      "fact": "The volunteer-run Seal Watch program instead describes the harbor seal nursery season at the Goat Rock sandy spit as running March through July, one month shorter than the state park's own window.",
+      "quote": "a harbor seal ( phoca vitulina ) nursery during the months of march through july.",
+      "url": "https://sonomacountyfeatures.substack.com/p/field-notes-harbor-seal-nursery-at",
+      "source_title": "Field notes: Harbor seal nursery at Goat Rock, where the river meets the sea",
+      "source_type": "press",
+      "date_of_source": "2026-05",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F41",
+      "topic": "governance",
+      "fact": "The Seal Watch docent program, run by Stewards of the Coast and Redwoods with California State Parks, traces its origin to the 1970s when a raw sewage release from Santa Rosa into the Russian River drove seals from the Jenner rookery, prompting activists to begin monitoring and protecting it.",
+      "quote": "this breech into the russian river caused the seals to leave the jenner rookery area, not to return until the waters ran clear once again.",
+      "url": "https://sonomacountyfeatures.substack.com/p/field-notes-harbor-seal-nursery-at",
+      "source_title": "Field notes: Harbor seal nursery at Goat Rock, where the river meets the sea",
+      "source_type": "press",
+      "date_of_source": "2026-05",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F42",
+      "topic": "nature",
+      "fact": "Adult harbor seals at the rookery weigh 175 to 300 pounds, nurse pups for up to eight weeks on milk that is 45% fat, and live around 29 years.",
+      "quote": "adult harbor seals weigh in at 175 to 300 pounds, with males weighing the most.",
+      "url": "https://sonomacountyfeatures.substack.com/p/field-notes-harbor-seal-nursery-at",
+      "source_title": "Field notes: Harbor seal nursery at Goat Rock, where the river meets the sea",
+      "source_type": "press",
+      "date_of_source": "2026-05",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F43",
+      "topic": "nature",
+      "fact": "Besides harbor seals, the beach regularly hosts western, California and ring-billed gulls, river otters, elephant seals and sea lions hauling out of the Pacific.",
+      "quote": "the beach is also a regular resting ground for a variety of gulls (including western gull , california gull , and ring billed gull ), river otters , elephant seals , harbor seals , and sea lions",
+      "url": "https://en.wikipedia.org/wiki/Goat_Rock_Beach",
+      "source_title": "Goat Rock Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-08",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F44",
+      "topic": "nature",
+      "fact": "Sonoma Water's estuary fisheries monitoring has documented more than 50 fish species in the Russian River estuary, including juvenile steelhead and Chinook salmon.",
+      "quote": "fisheries monitoring has documented more than 50 species of fish in the estuary, as well.",
+      "url": "https://sonomacountyfeatures.substack.com/p/field-notes-goat-rock-jetty-and-the",
+      "source_title": "Field notes: Goat Rock jetty and the Russian River's deep-time shoreline",
+      "source_type": "press",
+      "date_of_source": "2026-06",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F45",
+      "topic": "culture",
+      "fact": "Sunset Boulders, a rock cluster near the beach's entrance road, is a popular local climbing spot with top-rope and bouldering routes ranging from 5.2 to V10.",
+      "quote": "many top rope and bouldering problems exist, ranging from 5.2 to v10.",
+      "url": "https://en.wikipedia.org/wiki/Goat_Rock_Beach",
+      "source_title": "Goat Rock Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-08",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F46",
+      "topic": "culture",
+      "fact": "Goat Rock Beach polled as the second most popular beach venue in Sonoma County among Metroactive readers.",
+      "quote": "goat rock beach polled as the second most popular beach venue in sonoma county with readers of metroactive .",
+      "url": "https://en.wikipedia.org/wiki/Goat_Rock_Beach",
+      "source_title": "Goat Rock Beach - Wikipedia",
+      "source_type": "wikipedia",
+      "date_of_source": "2026-08",
+      "lang": "en",
+      "confidence": "medium"
+    },
+    {
+      "id": "F47",
+      "topic": "governance",
+      "fact": "State park units in the Sonoma-Mendocino coast district, which includes Goat Rock, ban all drone launching, landing and operation to protect visitor experience and wildlife.",
+      "quote": "state park units in the sonoma-mendocino coast district do not allow launching, landing or the operation of drones on state park property.",
+      "url": "https://www.parks.ca.gov/?page_id=451",
+      "source_title": "Sonoma Coast State Park - California State Parks",
+      "source_type": "official",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    },
+    {
+      "id": "F48",
+      "topic": "recent",
+      "fact": "As of the park's Sept. 10, 2026 status check, the Russian River sector office at Duncans Mills was scheduled to close to the public for repairs from Sept. 16-18, 2026.",
+      "quote": "the russian river sector office at duncans mills will be closed to the public for repairs, starting wednesday september 16th through friday september 18th.",
+      "url": "https://www.parks.ca.gov/?page_id=451",
+      "source_title": "Sonoma Coast State Park - California State Parks",
+      "source_type": "official",
+      "date_of_source": "2026-09",
+      "lang": "en",
+      "confidence": "high"
+    }
+  ],
+  "recency": {
+    "newest_item": "California State Parks' current-restrictions notice (checked 2026-09-10) announces the Russian River sector office at Duncans Mills closing for repairs Sept. 16-18, 2026, and a maintenance closure of the Bodega Dunes Loop 2 restroom/shower.",
+    "fact_ids": [
+      "F48"
+    ]
+  },
+  "dead_ends": [
+    "No named restaurants, cafes or food vendors near Goat Rock Beach appear in any harvested source.",
+    "No business/commercial listings (rentals, tour operators, gift shops) tied specifically to Goat Rock Beach were harvested.",
+    "No road-distance or drive-time figures to the nearest airport (e.g., Santa Rosa/Sonoma County Airport) were found.",
+    "No current lifeguard staffing levels, hours, or season dates beyond 'a small staff... usually on duty during the peak season' were provided.",
+    "No visitor-count, economic-impact, or annual-visitation figures for Goat Rock Beach specifically were found.",
+    "No confirmation of the scaffold's '1-mile sandy crescent' length claim or a '376 iNaturalist seal observations' figure appeared in any harvested source; both should be treated as unverified.",
+    "No information on current (2026) jetty removal/modification decisions beyond the 2014-2017 feasibility study; whether any action followed is unknown.",
+    "No current census/count of the harbor seal colony's total population was found, only 'a group of about 50' at a time.",
+    "No detail on the western snowy plover's endangered-species protections applying specifically to Goat Rock Beach (the sourced plover protections apply to Salmon Creek Beach and Bodega Dunes, not confirmed for Goat Rock)."
+  ],
+  "conflicts": [
+    "Mammoth rubbing-rock dating: Wikipedia states mammoths roamed 'as recently as 40,000 years ago' (F12), while a Press Democrat interview with the same researcher, Breck Parkman, gives a narrower and more recent range of 10,000-20,000 years ago (F13).",
+    "Harbor seal pupping season dates: California State Parks and Sonoma County Tourism both give March-August (F39), while the Seal Watch program (Stewards of the Coast and Redwoods, via Sonoma County Features) gives March-July (F40) -- a one-month discrepancy on when extra visitor caution applies.",
+    "Drowning toll at Goat Rock Beach: SFGate cites National Weather Service data showing only two drownings since 2014 (F31), but the same article and companion press coverage document at least four to six separate fatal or near-fatal incidents in that period (F32-F35)."
+  ],
+  "budget": {
+    "sources_read": 20
+  },
+  "derivations": [
+    {
+      "id": "D01",
+      "fact": "1 Nov 1929 -> 17 Nov 1929 = 16 days ('sixteen days later')",
+      "from": [
+        "F04",
+        "F05"
+      ]
+    },
+    {
+      "id": "D02",
+      "fact": "1929 -> 1948 = 19 years ('nineteen years', 'nearly two decades')",
+      "from": [
+        "F06"
+      ]
+    },
+    {
+      "id": "D03",
+      "fact": "Straight-line distance, Goat Rock Beach centroid (38.4458186, -123.1273535) to Charles M. Schulz Sonoma County Airport (STS) = 28.3 km, per site/data/beaches/goat-rock-beach.json nearest_airport.distance_km (a straight-line figure, not a road distance)",
+      "from": [
+        "site/data/beaches/goat-rock-beach.json"
+      ]
+    },
+    {
+      "id": "D04",
+      "fact": "Distance, Goat Rock Beach centroid to nearest_city Monte Rio = 10.5 km, per site/data/beaches/goat-rock-beach.json nearest_city_distance_km",
+      "from": [
+        "site/data/beaches/goat-rock-beach.json"
+      ]
+    }
+  ]
+}

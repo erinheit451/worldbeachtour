@@ -51,9 +51,12 @@ def numbers(text):
 
 def data_numbers(content_root, slug):
     """site/data/beaches/<slug>.json is a trusted structured source (straight-line km, sand, safety)."""
-    p = os.path.join(os.path.dirname(content_root.rstrip("/\\")), "data", "beaches", f"{slug}.json")
+    site = os.path.dirname(os.path.dirname(os.path.abspath(content_root.rstrip("/\\"))))  # site/content/beaches -> site
+    p = os.path.join(site, "data", "beaches", f"{slug}.json")
     try: d = json.load(open(p, encoding="utf-8"))
-    except Exception: return set()
+    except Exception as e:
+        print(f"    warn data json unreadable ({p}): {e}")  # never swallow: an author would lose the trusted numbers silently
+        return set()
     return numbers(json.dumps(d, ensure_ascii=False))
 
 

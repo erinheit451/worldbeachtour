@@ -1,0 +1,42 @@
+{
+  "slug": "pendine-sands",
+  "beach_name": "Pendine Sands",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A 7-mile Welsh beach where five land-speed record attempts were made between 1924 and 1927, now a fenced Ministry of Defence range for most of the working week.",
+  "spike_statement": "Parry-Thomas died chasing the land speed record here in 1927; his car Babs was mutilated on inquest orders, buried in the dunes, then exhumed and restored.",
+  "levers": {
+    "primary_color": "#2E3A2E",
+    "supporting_color": "#B8860B",
+    "hero_type": "SPIKE",
+    "display_pairing": "AUSTERE",
+    "voice_register": "SEVERE",
+    "photo_tone": "Flat gray-gold sand under low Welsh light, a vintage racer's silhouette against military warning signage"
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "history",
+      "type": "deep_dive"
+    }
+  ],
+  "adaptive": true
+}

@@ -1,0 +1,44 @@
+https://en.wikipedia.org/wiki/Gooseberry_Beach
+https://www.wikidata.org/wiki/Q5584121
+https://digitalcommons.salve.edu/newporthistory/vol82/iss268/3/
+https://gooseberrybeach.com/
+https://gooseberrybeach.com/product/guest-parking/
+https://health.ri.gov/node/49001
+https://thenewportbuzz.com/part-time-resident-threatens-legal-action-against-gooseberry-and-hazards-beaches-over-public-access/30691
+https://www.newportthisweek.com/articles/gooseberry-ensures-public-beach-access/
+https://www.golocalprov.com/news/new-ridoh-recommends-closing-gooseberry-beach-in-newport-for-swimming
+https://whatsupnewp.com/2025/08/two-newport-beaches-closed-due-to-high-bacteria-levels/
+https://whatsupnewp.com/2025/08/three-newport-beaches-now-closed-due-to-bacteria-contamination/
+https://patch.com/rhode-island/newport/newports-gooseberry-beach-closed-swimming-due-bacteria-levels
+https://www.thenewportbuzz.com/gooseberry-beach-closed-to-swimming-due-to-high-bacteria-levels-3/36773
+https://ecori.org/report-pathogens-pose-public-health-risk-at-southern-new-england-beaches/
+https://www.theswimguide.org/beach/4566?set_language=en
+https://beachapedia.org/State_of_the_Beach/State_Reports/RI/Beach_Access
+https://www.visitrhodeisland.com/listing/gooseberry-beach/12628/
+https://www.yelp.com/biz/gooseberry-beach-newport
+https://en.wikipedia.org/wiki/Gooseberry_Island_(Massachusetts)
+
+# notes: identity/alias warnings; the tension you expect; what to look for in each source
+# - IDENTITY: this Gooseberry Beach (Newport, RI, on Ocean Drive/Ocean Avenue between Bailey's
+#   Beach and Hazard's Beach) is a DIFFERENT place from Gooseberry Island (Westport, MA, part of
+#   Horseneck Beach State Reservation since 1956, destroyed by the 1938 hurricane + Hurricane
+#   Carol 1954). Do not let facts about the MA island (state takeover, 1938/1954 storm history)
+#   bleed into the RI beach's copy.
+# - ADDRESS/ACCESS: multiple sources (Yelp, tourism listings) give the address as 130 Ocean
+#   Avenue. The scaffold's travel.mdx repeatedly says access/parking is via "Hazard Avenue" —
+#   this looks like a confusion with the neighboring, similarly-named Hazard's Beach and should
+#   be corrected, not repeated, during extraction.
+# - AIRPORT: beach JSON's nearest_airport is Newport State Airport (NPT, 8.7 km, general
+#   aviation only — no scheduled commercial service). Scaffold's travel.mdx instead centers
+#   T.F. Green (PVD, 40 km) as "the closest major airport" and never mentions NPT. Both claims
+#   can coexist (nearest vs. practical commercial gateway) but need reconciling, not silent pick.
+# - ADJACENT BEACHES: Bailey's Beach and Hazard's Beach flank Gooseberry and share the same
+#   Hazard-family origin story (John Alfred Hazard's Rocky Farm, willed to Newport Hospital in
+#   1880) — easy to misattribute a fact from one beach to another; the Salve Regina history
+#   article is the disambiguating source.
+# - History: private beach club since 1952 (bought by local shareholders from Newport Hospital,
+#   which received the land via the contested 1880 Hazard will/estate settlement).
+# - Ownership/access model: privately owned by a shareholder association; NOT free/public —
+#   day-use parking pass required (~$30+tax/car per gooseberrybeach.com), walk-ons/drop-offs
+#   barred; contradicts a "just a public beach" framing.
+# story_strength: strong

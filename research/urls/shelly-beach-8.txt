@@ -1,0 +1,41 @@
+https://en.wikipedia.org/wiki/Shelly_Beach_(Manly)
+https://en.wikipedia.org/wiki/Cabbage_Tree_Bay_Aquatic_Reserve
+https://www.dpi.nsw.gov.au/content/fisheries/marine-protected-areas/aquatic-reserves/cabbage-tree-bay-aquatic-reserve
+https://www.dpi.nsw.gov.au/fishing/marine-protected-areas/aquatic-reserves/cabbage-tree-bay-aquatic-reserve
+https://www.dpi.nsw.gov.au/fishing/marine-protected-areas/aquatic-reserves/cabbage-tree-bay-aquatic-reserve/meet-some-of-the-locals3
+https://www.northernbeaches.nsw.gov.au/things-to-do/recreation-area/cabbage-tree-bay-aquatic-reserve
+https://www.northernbeaches.nsw.gov.au/things-to-do/recreation-area/shelly-beach
+https://historymatters.sydney.edu.au/2024/11/dive-into-the-history-of-cabbage-tree-bay-manly/
+https://manlyobserver.com.au/smelly-shelly-takes-the-shine-off-but-northern-beaches-dominate-with-clean-water-testing/
+https://www.abc.net.au/news/2023-01-21/nsw-dolphin-shark-fight-northern-beaches-closed/101879078
+https://www.surflifesaving.com.au/news/man-attacked-shark-sydneys-manly-beach/
+https://sites.google.com/education.nsw.gov.au/shellybeach-manlythroughtime
+https://www.manlyaustralia.com.au/info/thingstodo/walks/eastern-hill-heritage-walk/
+https://en.wikipedia.org/wiki/Fairy_Bower_Beach
+https://en.wikipedia.org/wiki/Manly_Beach
+https://en.wikipedia.org/wiki/Shelly_Beach
+https://en.wikipedia.org/wiki/Shelly_Beach_(Cronulla)
+https://divesydney.com.au/dive-sites-sydney/
+# notes: identity/alias warnings — AU has at least 6 other "Shelly Beach"es (Cronulla,
+#   Port Macquarie, Central Coast, Shellharbour, and two in Queensland: Sunshine Coast +
+#   Townsville). Every extracted fact must anchor to Manly / Cabbage Tree Bay specifically —
+#   do not let a generic "Shelly Beach" search result leak in from another location.
+#   The JSON's wikidata QID (Q7493888) did NOT match the QID a plain "Shelly Beach wikidata"
+#   search surfaced (Q21957501) — flag for extraction, don't assume either is right without
+#   opening the Wikidata item and checking coordinates/interwiki link to the Manly Wikipedia page.
+#   Beach length is disputed across sources (~100m vs ~300m cited) — don't silently pick one.
+# story_strength: strong — genuine 1920s development-fight-turned-conservation-win (locals +
+#   Dive Centre Manly lobbied Manly Council, declared a 20ha "no-take" Aquatic Reserve in 2002),
+#   real Aboriginal history (Cannalgal/Kayimai custodianship, shell midden near Fairy Bower is the
+#   actual namesake — "not that shelly" itself), and a real ecological turnaround story (Eastern
+#   blue groper "Gary", weedy sea dragons, octopus, rays all habituated and visible year-round).
+# expected tension: the scaffold (overview.mdx/travel.mdx) oversells safety/cleanliness that the
+#   record contradicts. It claims "no recorded shark incidents in modern times" — but a swimmer
+#   (Peter Schultz) was seriously injured in a suspected shark attack between Manly and Shelly
+#   Beach in 2019, and a Jan-2023 bull-shark/dolphin incident closed the beach and suspended a surf
+#   carnival. It also implies pristine water — but a 2024-25 Sydney water-quality report ranked
+#   Shelly Beach among Sydney's worst swim sites ("Smelly Shelly") due to stormwater/sewage overflow
+#   after rain. The scaffold's "20 species," "8-10m visibility," and "Blue Flag" claims are
+#   unsourced in what I found (Australia doesn't run a Blue Flag program) — treat as unverified,
+#   likely-fabricated specifics to debunk rather than repeat, pending the extraction pass reading
+#   the DPI/council pages directly for real species counts and any reserve-boundary/rules detail.

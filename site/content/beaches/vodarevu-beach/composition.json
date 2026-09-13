@@ -1,0 +1,41 @@
+{
+  "slug": "vodarevu-beach",
+  "beach_name": "Vodarevu Beach",
+  "version": "0.9",
+  "tier": 2,
+  "subtitle": "A former minor port turned working fishing village on the Bay of Bengal near Chirala, and Hyderabad's closest weekend beach.",
+  "spike_statement": "In October 2025, three VIT-Amaravati students drowned and two more went missing in one day at Vodarevu Beach, swept away by strong Bay of Bengal currents.",
+  "levers": {
+    "primary_color": "#1F4A5C",
+    "supporting_color": "#C7A56B",
+    "hero_type": "SPIKE",
+    "display_pairing": "VERNACULAR",
+    "voice_register": "SEVERE",
+    "photo_tone": "Fishing boats and drying nets on wet gray-brown sand under flat coastal light, the Bay of Bengal a working sea rather than a postcard turquoise."
+  },
+  "byline": "Written by Erin Rose",
+  "sections": [
+    "hero",
+    "quick_facts",
+    "story",
+    "spike_deep_explainer",
+    "timeline",
+    "place_anatomy",
+    "day_in_life",
+    "culture",
+    "honest_reckoning",
+    "comparison",
+    "sea_surf",
+    "things_to_know",
+    "plan_stack",
+    "spokes",
+    "gallery",
+    "sources"
+  ],
+  "spokes": [
+    {
+      "slug": "surf",
+      "type": "deep_dive"
+    }
+  ]
+}

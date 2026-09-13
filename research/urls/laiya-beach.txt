@@ -1,0 +1,65 @@
+https://en.wikipedia.org/wiki/Laiya_Beach
+https://www.wikidata.org/wiki/Q30591705
+https://en.wikipedia.org/wiki/San_Juan,_Batangas
+https://www.sanjuanbatangas.gov.ph/about-us/history
+https://tourism.sanjuanbatangas.gov.ph/
+https://www.philatlas.com/luzon/r04a/batangas/san-juan/laiya-aplaya.html
+https://www.barangaydirectory.com/barangay/san-juan-3/laiya-ibabao
+https://www.batangashistory.date/2020/08/establishment-of-the-municipality-of-laiya-by-the-san-juan-pqog-february-1945.html
+https://commons.wikimedia.org/wiki/File:Laiyabydexdroid.jpg
+https://www.wikidata.org/wiki/Q29055137
+https://www.landco.ph/project/playa-laiya/
+https://portolaiya.com.ph/
+https://www.philippinebeaches.org/laiya-beach-important-tips/
+https://grokipedia.com/page/Laiya_Beach
+https://www.facebook.com/playalaiyaonline/
+https://www.tripadvisor.com/Attraction_Review-g1646549-d1776606-Reviews-Playa_Laiya-San_Juan_Batangas_Province_Calabarzon_Region_Luzon.html
+https://shoestringdiary.wordpress.com/2022/11/27/laiya-san-juan-a-beach-at-long-last/
+https://www.kingtolentino.com/blog/laiya-beach-san-juan-batangas
+# notes: identity/alias warnings; the tension you expect; what to look for in each source
+# IDENTITY WARNINGS:
+# - Beach spans TWO barangays, Laiya-Ibabao and Laiya-Aplaya, not one — the scaffold treats "Laiya" as
+#   a single named place; philatlas/barangaydirectory entries are per-barangay, don't merge their stats.
+# - Length conflict: overview.mdx/travel.mdx claim "7-kilometer" beach; grokipedia + a wikidata-sourced
+#   snippet describe a "~9-kilometer" stretch. Neither is verified against a citable primary source yet —
+#   treat both as unconfirmed until a source states a figure directly.
+# - "Hugom Beach" appears as a parenthetical alias for Laiya in at least one source (philippinebeaches.org
+#   title: "LAIYA BEACH (HUGOM BEACH)"), while Mount Hugom is separately named (in other search snippets,
+#   not in this list) as a hiking jump-off point near Laiya. Don't conflate the alias-beach-name sense of
+#   "Hugom" with the mountain — extraction should check which the primary sources actually mean.
+# - Near-duplicate NAME risk (not geography): Hawaii's Lā'ie Beach (Oʻahu) is a phonetic near-match
+#   ("La'ie" vs "Laiya") with its own separate Wikidata item (Q49321894). Confirmed distinct place —
+#   flagged only so extraction never pulls a Lā'ie/Hawaii fact into the Laiya/Batangas record.
+# - Two distinct Wikidata items exist: Q30591705 (Laiya Beach, the beach) and Q29055137 (Laiya, the
+#   place/barangay entity) — keep them separate when pulling structured facts.
+# - data.json's nearest_airport is "Marinduque Airport (MRQ), 53.8km" — this looks like a nearest-airport
+#   miscalculation (Marinduque is a separate island; the scaffold's own travel.mdx routes entirely via
+#   Manila/NAIA and SLEX, never mentioning Marinduque at all). This is an internal contradiction in the
+#   scaffold's inputs, not a sourced fact — do not extract MRQ as the relevant airport without a source
+#   that actually says so; treat travel.mdx's Manila/NAIA routing as the one to verify instead.
+# - Establishment history is unusually specific and worth checking carefully: a wartime "Municipality of
+#   Laiya" was reportedly established by the San Juan PQOG guerrilla government in Feb 1945 (per
+#   batangashistory.date) — this is a distinct historical/political claim from "Laiya" as a present-day
+#   barangay pair, don't merge the two into one clean origin story without reading the source closely.
+#
+# TENSION: NOT SEARCHED — session-wide WebSearch budget (200/200, shared across this session's other
+# work) was exhausted after round 1 (6 searches), before rounds 2–3 (erosion/drowning/pollution/dispute/
+# blue-flag/recency/culture/food) could run. No confirmed tension exists in this URL list. Candidate
+# tensions worth checking when search budget is available: heavy resort/foreshore development pressure
+# (Landco's "Playa Laiya" and "Porto Laiya" are large-scale real-estate developments on the same coast,
+# both in this list, and warrant a look for community/environmental friction); cyclone exposure is high
+# per data.json (79 storms/50yr, max category 4) despite the scaffold's "calm, sheltered, swimmable
+# year-round" framing — that gap between structured cyclone data and prose claiming shelter is worth
+# testing against a real source, not assumed either way.
+#
+# WHAT TO LOOK FOR: en.wikipedia + wikidata for baseline facts/coords/length; sanjuanbatangas.gov.ph
+# (history + tourism) for official municipal framing and the Bolbok/San Juan de Bocboc founding
+# narrative; philatlas/barangaydirectory for barangay-level population and administrative facts;
+# batangashistory.date for the 1945 wartime municipality claim; landco.ph/portolaiya.com.ph for
+# developer-side facts on scale/amenities of new resort development (and any stated environmental
+# commitments); philippinebeaches.org for the Hugom-alias and practical visitor-tip specifics;
+# grokipedia for the alternate 9km figure to cross-check against Wikipedia; tripadvisor/shoestringdiary/
+# kingtolentino/facebook (playalaiyaonline) only for corroborating specific, checkable claims (resort
+# names, activities) — not for narrative voice or unsourced superlatives.
+#
+# story_strength: medium

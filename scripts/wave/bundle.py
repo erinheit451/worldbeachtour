@@ -9,7 +9,7 @@ Usage:
   python bundle.py verify <slug> <out_file>   # page files + claims ledger + sheet
   python bundle.py sources <slug> <out_file>  # research/src/<slug>/*.md harvested pages -> one file (for extract)
 """
-import json, os, subprocess, sys
+import re, json, os, subprocess, sys
 
 try: sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 except Exception: pass
@@ -56,6 +56,17 @@ def verify(slug):
     except Exception: pass
     parts.append(section("claims ledger (build_ledger.py)", led))
     parts.append(section("research/<slug>.json fact sheet", rd(os.path.join(RESEARCH, f"{slug}.json"))))
+    qp = os.path.join(ROOT, "verdicts", f"{slug}.quotes.json")
+    if os.path.exists(qp):  # zero-LLM citation results: verifier re-fetches ONLY non-OK rows
+        try:
+            q = json.load(open(qp, encoding="utf-8"))
+            ok = [r["id"] for r in q["rows"] if r["status"] == "OK"]
+            bad = [f'{r["id"]} {r["status"]} {r["url"]}' for r in q["rows"] if r["status"] != "OK"]
+            parts.append(section("quote_check.py results — OK rows are MECHANICALLY CONFIRMED (quote found on page); "
+                                 "do NOT re-fetch them. Re-fetch only the rows listed as NOT_FOUND / FETCH_FAIL",
+                                 f"OK ({len(ok)}): {' '.join(ok)}\nNEEDS FETCH ({len(bad)}):\n" + "\n".join(bad)))
+        except Exception as e:
+            parts.append(section("quote_check.py results", f"unreadable: {e}"))
     parts.append(section("site/data/beaches/<slug>.json — TRUSTED structured dataset (straight-line km, sand, "
                          "safety: shark_incidents_total, cyclone_count_50yr). Claims sourced here are NOT "
                          "fabricated; flag only if the page mislabels the source or misreads a value",
@@ -72,9 +83,35 @@ def sources(slug):
     return "".join(parts)
 
 
+PART_CHARS = 45_000   # the agent Read tool silently truncates a file at ~50k chars (measured 09-13:
+                      # a 122k bundle was cut at 53,118 chars); anything larger MUST be split so
+                      # every source actually reaches the agent.
+
+
+def write_parts(body, out):
+    """Write body as out (if it fits) or out.part1..N, splitting on section boundaries."""
+    if len(body) <= PART_CHARS:
+        open(out, "w", encoding="utf-8").write(body); return [out]
+    secs = re.split(r"(?=\n\n===== )", body)
+    parts, cur = [], ""
+    for sec in secs:
+        if cur and len(cur) + len(sec) > PART_CHARS:
+            parts.append(cur); cur = ""
+        cur += sec
+    if cur: parts.append(cur)
+    base, ext = os.path.splitext(out)
+    paths = []
+    for i, ptxt in enumerate(parts, 1):
+        pth = f"{base}.part{i}of{len(parts)}{ext}"
+        open(pth, "w", encoding="utf-8").write(f"[PART {i} of {len(parts)} — read ALL parts]\n" + ptxt)
+        paths.append(pth)
+    return paths
+
+
 if __name__ == "__main__":
     kind, slug, out = sys.argv[1], sys.argv[2], sys.argv[3]
     body = {"author": author, "verify": verify, "sources": sources}[kind](slug)
     os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
-    open(out, "w", encoding="utf-8").write(body)
-    print(f"{kind} bundle for {slug}: {len(body):,} chars ≈ {len(body)//4:,} tokens -> {out}")
+    paths = write_parts(body, out)
+    print(f"{kind} bundle for {slug}: {len(body):,} chars ≈ {len(body)//4:,} tokens -> {len(paths)} file(s)")
+    for pth in paths: print("   ", pth)

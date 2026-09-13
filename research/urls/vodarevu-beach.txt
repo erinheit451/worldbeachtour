@@ -1,0 +1,50 @@
+https://en.wikipedia.org/wiki/Vodarevu_Beach
+https://www.wikidata.org/wiki/Q18395666
+https://bapatla.ap.gov.in/tourist-place/vodarevu-beach/
+https://bapatla.ap.gov.in/gallery/vodarevu-beach/
+https://bapatla.ap.gov.in/tourism/
+https://en.wikipedia.org/wiki/Chirala
+http://www.onefivenine.com/india/villages/Prakasam/Chirala/Vodarevu
+https://www.mappls.com/ry7y6c
+https://arulananda.org/ashram.htm
+https://arulananda.org/news.htm
+https://site.outlookindia.com/traveller/ot-getaway-guides/vodarevu-chirala-call-sea/
+https://www.deccanchronicle.com/southern-states/andhra-pradesh/three-vit-students-drown-two-missing-at-vodarevu-beach-1909737
+https://telanganatoday.com/hyderabad-woman-drowns-at-vodarevu-beach-in-ap
+https://www.ap7am.com/en/111478/five-students-drown-at-beach-in-andhra-pradesh
+https://gulfnews.com/world/asia/india/five-students-drown-at-beach-in-andhra-pradesh-1.500304546
+https://www.thehansindia.com/andhra-pradesh/suryalankavodarevu-ap-chambers-for-development-of-coastal-beach-corridor-969475
+https://www.tripadvisor.in/Attraction_Review-g2288628-d2668211-Reviews-Vodarevu_Beach-Ongole_Prakasam_District_Andhra_Pradesh.html
+# notes: identity/alias warnings; the tension you expect; what to look for in each source
+# identity: no confirmed near-duplicate "Vodarevu beach" elsewhere in India found. NO Telugu-Wikipedia
+#   article located for the beach itself (Telugu search for "వొడారేవు బీచ్" returned unrelated
+#   Vizag-beach results) — treat local-language name as UNSOURCED until extraction re-checks.
+# admin boundary conflict: JSON has admin_level_2=null; live sources split 50/50 — the official
+#   Bapatla district portal (bapatla.ap.gov.in) and mappls both place it in BAPATLA district
+#   (created 2022 by splitting old Prakasam/Guntur), while Wikipedia/Wikidata/Tripadvisor/onefivenine
+#   still label it "Prakasam district, Ongole". Extraction should state both and flag the 2022
+#   district reorg as the likely cause — do not silently pick one.
+# distance discrepancy: scaffold says 7.3 km from Chirala; most independent sources (bapatla.ap.gov.in,
+#   Wikipedia mirrors, onefivenine) say ~6 km. Minor but check the primary (bapatla.ap.gov.in) figure.
+# story_strength driver — REAL TENSION, stronger than the scaffold's "pristine/undeveloped" framing:
+#   recurring fatal rip-current drownings. Deccan Chronicle (Oct 2025): 3 VIT-Amaravati students
+#   drowned, 2 more Chirala-town bathers went missing the same period. Telangana Today: a Hyderabad
+#   tourist drowned. ap7am/Gulf News: an earlier "five students drown" incident at an AP beach —
+#   CONFIRM at extraction this is Vodarevu specifically (headline says "beach in Andhra Pradesh",
+#   not named) before using it; do not assume. This safety story sits uneasily against the scaffold's
+#   "no shark incidents / calm sea" framing and is the single biggest gap versus current content.
+# second real tension: development is actively planned/underway, contradicting the "untouched fishing
+#   village" narrative — thehansindia.com covers an AP Chambers-backed Suryalanka–Vodarevu coastal
+#   corridor plan (APTDC Haritha Beach Resort exists now; a "Sand Beach Star Hotel" and 20-25 more
+#   resorts are proposed, branding it a future "Mini Goa"). Extraction should source-check hotel names
+#   and current construction status, since scaffold overstates "no commercial overlay."
+# culture/history angle: Sri Lalithananda Ashram (arulananda.org, primary source, ~70 years old,
+#   founded by Lalitananda Swami) is rebuilding the ancient (11th-c., Chola-era per secondary sources)
+#   Adikesavaswamy temple at Vodarevu — good authentic culture material the scaffold omits entirely.
+# unverified/needs sourcing at extraction: the scaffold's specific bird list (18 species incl. Asian
+#   Green Bee-eater, Common Sandpiper, Rose-ringed Parakeet) has NO corroborating source found in this
+#   search pass (search budget exhausted before an eBird-hotspot query could run) — treat as
+#   possibly-fabricated scaffold detail unless extraction finds an eBird/GBIF source.
+# lighthouse claim (mentioned by several low-quality travel-blog aggregators) could not be corroborated
+#   against an official/primary source in this pass — do not assert without a better source.
+# story_strength: medium

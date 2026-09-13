@@ -1,0 +1,93 @@
+https://en.wikipedia.org/wiki/Third_Beach
+https://vancouver.ca/parks-recreation-culture/third-beach.aspx
+https://www.wikidata.org/wiki/Q22494852
+https://en.wikipedia.org/wiki/Siwash_Rock
+https://www.cbc.ca/news/canada/british-columbia/vancouver-bc-outdoor-beach-lifeguard-staff-9.7132001
+https://www.cbc.ca/news/canada/british-columbia/vancouver-beach-lifeguard-decision-reversed-9.7184913
+https://dailyhive.com/vancouver/vancouver-beaches-ecoli-advisories-july-2025
+https://parkboardmeetings.vancouver.ca/files/MEMO-WaterQualityAdvisoriesatBeaches-Update-20250728.pdf
+https://www.cbc.ca/news/canada/british-columbia/metro-vancouver-beaches-e-coli-1.7588222
+https://www.vch.ca/en/service/public-beach-water-quality
+https://www.theswimguide.org/beach/234
+https://www.cbc.ca/news/canada/british-columbia/stanley-park-seawall-closure-9.6981637
+https://globalnews.ca/news/8791149/final-section-stanley-park-seawall-reopens/
+https://bc.ctvnews.ca/storm-damaged-section-of-stanley-park-seawall-reopens-1.5878963
+https://dailyhive.com/vancouver/bumpin-third-beach-drum-circle-throng-returns
+https://vancouver.page/event/brahms-tams-drum-circle-at-third-beach/
+https://fortwiki.com/Ferguson_Point_Battery
+https://www.vancouvergunners.ca/stanley-park-fort-1945.html
+https://www.heritagesitefinder.ca/location/ferguson-point-battery-monument-vancouver-bc
+https://www.hmdb.org/m.asp?m=54578
+https://salishseathenandnow.substack.com/p/the-guns-of-ferguson-point-stanley
+https://www.cbc.ca/news/canada/british-columbia/stanley-park-s-forgotten-military-history-1.2830524
+https://activehistory.ca/blog/2013/09/24/125-years-of-stanley-park-before-and-after/
+# notes: identity/alias warnings; the tension you expect; what to look for in each source
+#
+# IDENTITY WARNING (high priority): "Third Beach" is a common beach name — near-duplicates
+# exist at Middletown/Newport RI and the Olympic Peninsula WA (La Push). Confirm every fact
+# against coords 49.3038,-123.1575 / Stanley Park / Ferguson Point, Vancouver BC. Do not let
+# any extracted quote come from the RI or WA "Third Beach" pages.
+#
+# SCAFFOLD-VS-SOURCE CONFLICT (major, needs resolution before extraction):
+# overview.mdx/travel.mdx describe Third Beach as a pebble/coarse-sand, no-amenities,
+# no-lifeguard, no-concession, "genuinely wild" secluded beach with an "unofficial,
+# unannounced" Tuesday drum circle. Multiple independent sources (City of Vancouver
+# official page, Wikipedia, Daily Hive, Vancouver Park Board / CBC) instead describe:
+#  - a NATURALLY SANDY beach, nearly double the size of Second Beach (not pebble/coarse)
+#  - a CONCESSION STAND + washrooms on site (7495 Stanley Park Dr), open seasonally
+#  - SUMMER LIFEGUARDS (matches the source JSON's safety.lifeguard=true — travel.mdx's
+#    "Third Beach has no lifeguards" is directly contradicted by the project's own data)
+#  - the drum circle is a NAMED, organized, heavily publicized recurring event
+#    ("Brahm's Tams Drum Circle," running late March–September, "tens of thousands"
+#    of attendees over a summer) — not an informal, word-of-mouth-only gathering
+# Flag all of this for the extraction/fact-check stage; the scaffold's "quiet undeveloped
+# alternative to Second Beach" framing looks substantially wrong and needs verifying against
+# vancouver.ca and Wikipedia rather than repeated.
+#
+# TENSION (real, dated, and usable):
+#  - Water quality: Third Beach had a 2025 E. coli advisory (5-sample geometric mean of
+#    224/100mL vs. the 200 provincial threshold) that lingered after other advisories
+#    lifted — check vch.ca / Swim Guide / Daily Hive / Park Board PDF for whether this
+#    recurs seasonally or was a one-off.
+#  - Lifeguard funding fight: March 2026 Park Board cut lifeguards at Third Beach (budget
+#    austerity), reversed by May 2026 after public pressure — both CBC pieces are dated
+#    and directly about this beach; good current-events hook.
+#  - Seawall/storm damage: the seawall segment between Third Beach and Prospect Point has
+#    closed repeatedly (Jan 2022 storm — $1.5M repair, ~4 months closed; a Nov 2025 rock-
+#    slope-stabilization closure). Confirms this is an active, weather-exposed shoreline,
+#    not a static postcard.
+#  - Military history is the strongest "story" material: a real WWII coastal gun battery
+#    (Stanley Park Battery / Ferguson Point Battery, built 1938–39, manned Aug 1939 as war
+#    broke out, guns removed 1945) sat where the parking lot/beach access now is, and it was
+#    publicly opposed at the time as ruining "a favourite beauty spot." A 1914 temporary
+#    battery near Siwash Rock predates it (WWI German East Asia Squadron scare). This gives
+#    real dated conflict (opposition editorials, strategic justification) the scaffold
+#    entirely omits.
+#  - Siwash Rock (adjacent landmark, on the seawall between Third Beach and Prospect Point)
+#    carries a documented Squamish transformation legend ("Legends of Vancouver") plus a
+#    mariners' nickname ("Nine Pin Rock") and a real geological origin (basalt volcanic dike,
+#    ~32M years). Good identity/cultural-depth material once its exact separateness from the
+#    beach itself is kept clear in extraction.
+#
+# What to look for in each source:
+#  - en.wikipedia.org/wiki/Third_Beach: baseline identity facts, size vs. Second Beach.
+#  - vancouver.ca/.../third-beach.aspx: official amenities (concession, washroom, lifeguard
+#    season) — the single best source to adjudicate the scaffold conflict above.
+#  - wikidata Q22494852: canonical identifiers, coordinates cross-check.
+#  - en.wikipedia.org/wiki/Siwash_Rock: legend + geology, keep scoped to the rock not the beach.
+#  - CBC lifeguard-cut / lifeguard-reversed: exact 2026 dates, named beaches, budget figures.
+#  - Daily Hive / VCH / CBC E. coli pieces + Park Board PDF: exact 2025 sample numbers, dates,
+#    which beaches, causes (stormwater/sewage).
+#  - Swim Guide beach/234: current pass/fail water-quality status, update cadence.
+#  - CBC/Global/CTV seawall-closure pieces: exact closure dates/duration/cost for the
+#    Third-Beach-to-Prospect-Point / Third-Beach-to-Lions-Gate segments.
+#  - Daily Hive drum-circle / vancouver.page event listing: correct name ("Brahm's Tams"),
+#    season (late March–Sept), scale, community rules (no dogs/litter/fires).
+#  - fortwiki / vancouvergunners.ca / heritagesitefinder / hmdb historical marker /
+#    salishseathenandnow substack / CBC forgotten-military-history: cross-check the battery
+#    construction/occupation/decommission dates (1938 start, Aug 27 1939 occupied, Sept 1945
+#    guns removed) and the 1914 temporary battery, plus the recorded public opposition.
+#  - activehistory.ca 125-years piece: general park development history, English-Bay sand
+#    dredging claim (only single-sourced so far — verify or attribute carefully).
+#
+# story_strength: strong

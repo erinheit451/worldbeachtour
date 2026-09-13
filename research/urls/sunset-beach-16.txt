@@ -1,0 +1,58 @@
+https://en.wikipedia.org/wiki/Sunset_Beach_(Vancouver)
+https://www.wikidata.org/wiki/Q7641231
+https://covapp.vancouver.ca/parkfinder/parkdetail.aspx?inparkid=207
+https://vancouver.ca/parks-recreation-culture/sunset-beach.aspx
+https://placesthatmatter.ca/location/sunset-beach-park/
+https://covapp.vancouver.ca/PublicArtRegistry/ArtworkDetail.aspx?ArtworkId=387
+https://xtramagazine.com/power/the-man-behind-the-monument-22419
+https://www.aidsmemorial.info/contribution/id=385/mid=0/vancouver_aids_memorial.html
+https://www.cbc.ca/news/canada/british-columbia/sunset-beach-no-swimming-ecoli-9.7236210
+https://www.cbc.ca/news/canada/british-columbia/vancouver-beaches-e-coli-9.7240994
+https://www.straight.com/living/sunset-beach-and-english-bay-closed-to-swimming-due-to-high-e-coli-counts
+https://www.straight.com/life/1116511/vancouvers-english-bay-and-sunset-beach-reopen-swimming-after-water-quality-improves
+https://www.vch.ca/en/service/public-beach-water-quality
+https://bc.ctvnews.ca/woman-found-dead-in-the-water-near-sunset-beach-vancouver-police-1.6972295
+https://bccommunityalliance.com/remembering-karen-musumadi/
+https://vancouver.ca/news-calendar/symphony-at-sunset-orchestra-returns-june-2025.aspx
+https://dailyhive.com/vancouver/vancouver-summer-lights-english-bay-fireworks-2026-schedule-time-location
+https://vancouver.ca/news-calendar/vancouver-aquatic-centre-scheduled-to-close-june-28-2026.aspx
+https://en.wikipedia.org/wiki/Vancouver_Aquatic_Centre
+https://en.wikipedia.org/wiki/West_End,_Vancouver
+https://dailyhive.com/vancouver/where-to-eat-west-end-vancouver
+https://bylaws.vancouver.ca/6555c.pdf
+https://www.vancouverisawesome.com/events-and-entertainment/vancouver-420-event-police-sunset-beach-april-2025-10539564
+
+# notes: identity/alias warnings; the tension you expect; what to look for in each source
+# identity: this is the West End urban beach at English Bay/foot of Bute-Thurlow (Wikidata Q7641231),
+#   NOT "Sunset, Vancouver" (a South Vancouver neighborhood, Wikipedia article "Sunset, Vancouver" —
+#   unrelated, do not conflate) and NOT any Sunset Beach in California/Hawaii/North Carolina/Ontario or
+#   the "Summer Village of Sunset Beach" (a small BC municipality elsewhere, unrelated). Also distinct
+#   from "Sunset Towers" (an unrelated social-housing building) that surfaces in noisy searches.
+# alias: has two documented Indigenous names — Squamish "Í7iy̓el̓shn" ("soft/good underfoot") and
+#   hən̓q̓əmin̓əm̓ "ʔəy̓əlxən" — cited on Wikipedia; verify wording/pronunciation against a primary
+#   source if possible, Wikipedia is the only source found for this claim.
+# lifeguard discrepancy: the scaffold JSON says lifeguard=false, but Wikipedia/city sources say
+#   lifeguards ARE posted May(Victoria Day)–September, daylight hours — flag/resolve in extraction,
+#   don't just repeat the JSON's false claim.
+# tension 1 (recurring, dated): E. coli swimming closures — recent CBC pieces (this year's closure,
+#   and a 5-beach closure event) plus older Straight.com close/reopen pair — use for a "is it actually
+#   swimmable" throughline; check VCH's official water-quality page for the standing mechanism/cause
+#   (stormwater runoff, boat discharge) rather than treating one closure as unique.
+# tension 2: a body was found in the water at Sunset Beach in July 2024 (Karen Musumadi) — CTV covered
+#   the initial investigation, a community-alliance piece covers the memorial/who she was; handle with
+#   care, this is a real death, not color — confirm cause-of-death status (undetermined vs later ruling)
+#   before stating anything definitive.
+# tension 3: the adjacent Vancouver Aquatic Centre (54m from the beach, part of the same waterfront hub)
+#   permanently closed June 28, 2026 after concrete falling into the pool forced earlier closures; a
+#   $175M replacement (smaller lap pool, controversial downsizing) is planned — relevant if the piece
+#   discusses local infrastructure/amenities, since existing scaffold text still implies an active pool.
+# texture: AIDS Memorial (2004, artist Bruce Wilson, ~800 names on rusted steel panels) sits just west
+#   of the concession stand — strong, verifiable, moving detail, well documented across 3 sources.
+#   History: sawmill site -> 1862 "Brickmaker's Claim" (Brighouse/Hailstone/Morton) -> 1941 Reifel land
+#   swap enabled the 1959 park. Culture: designated "quiet beach" (no amplified sound, no alcohol,
+#   spotty enforcement per citizen complaints) draws an older crowd; also an informal, police-monitored
+#   April 20 ("4/20") gathering spot in recent years. Events: free Symphony at Sunset (VSO, July 2025)
+#   and 2026's scaled-back one-night "Summer Lights" fireworks (full 3-night Celebration of Light is on
+#   hiatus, expected back 2027) are both viewed from here. Food: West End/Denman-Davie dining strip
+#   (izakaya, Greek, Malaysian, Spanish, vegan) is a few blocks inland, not on the beach itself.
+# story_strength: strong
