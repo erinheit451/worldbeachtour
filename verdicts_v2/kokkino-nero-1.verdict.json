@@ -1,0 +1,52 @@
+{
+  "slug": "kokkino-nero-1",
+  "verdict": "FAIL",
+  "claims_checked": 24,
+  "fetches_used": 0,
+  "searches_used": 0,
+  "spike_verdict": "Spike and its three-attempt chronology (1900 English company / 1930s and 1950s Dimitrakopoulos) read consistently everywhere they recur (spike_statement, subtitle, history.mdx, spike_explainer) — no chronology or arithmetic defect found in the spike itself. The v1-flagged ferry-service overclaim (asserted as plain fact in five places without source support) has been correctly repaired: all five surfaces (history.mdx x2, overview.mdx, showcase.json access_note, showcase.json key_facts, travel.mdx) now correctly hedge with \"no source consulted here documents a ferry service.\" Two new/unresolved internal-consistency defects remain, both about how confidently a single sourced fact is restated across surfaces.",
+  "blocking": [
+    {
+      "where": "history.mdx, \"Recognized by the State, Still Unbottleable\" section vs showcase.json spike_explainer, \"The advice hasn't changed\" section",
+      "claim": "history.mdx: the water \"degrades within a few hours of being bottled\"; showcase.json spike_explainer: the water \"degrades if it sits bottled for several hours\"",
+      "problem": "The same sourced claim (F40) is given two different, non-equivalent quantities on two surfaces of the same page: \"a few hours\" (implying roughly 2-3) versus \"several hours\" (implying more, and the wording the source itself supports). A reader who reads both the main page and the history spoke gets two different answers to the concrete, practical question \"how long before the water goes bad,\" which is exactly the kind of two-surfaces-disagree defect this pass exists to catch.",
+      "evidence": "F40 quote (mythessaly.gr, quote_check OK): \"το νερό αλλοιώνεται αν μείνει πολλές ώρες εμφιαλωμένο\" — \"the water spoils if it stays bottled [for] many/several hours.\" Only \"several hours\" matches the source; \"a few hours\" in history.mdx is an unsupported downward drift.",
+      "fix": "In history.mdx, change \"the water degrades within a few hours of being bottled\" to \"the water degrades within several hours of being bottled\" so both surfaces state the same, source-matching quantity."
+    },
+    {
+      "where": "history.mdx, \"What's Left to See\" (closing section)",
+      "claim": "\"...a stretch of shoreline that has hosted an English trading company, a Larissa newspaper publisher, and a government gazette-writer, in that order...\"",
+      "problem": "Every other reference to the 1900 venture on this page — including two other places in this same document — calls it plainly \"An English company\" (history.mdx, \"Three Attempts to Bottle It\") or \"the English venture\" (history.mdx, same section and this same closing paragraph one clause earlier: \"the 1900 English venture\"). \"Trading company\" is a more specific business classification that appears nowhere in the fact sheet (F27-F28 say only \"an English company\"/\"the English venture,\" with no description of what it traded). This is both an unsupported added specific (sheet exceedance) and a within-document inconsistency in how the same entity is named.",
+      "evidence": "F27: \"το 1900 ενδιαφέρθηκε να εμφιαλώσει το ιαματικό νερό μια αγγλική εταιρία\" (\"in 1900 an English company was interested in bottling the therapeutic water\") — no \"trading\" descriptor anywhere in F27 or F28.",
+      "fix": "Change \"an English trading company\" to \"an English company\" (or \"the English venture,\" matching the rest of the paragraph and the rest of the page)."
+    }
+  ],
+  "advisory": [
+    {
+      "where": "showcase.json access_note; repeated without caveat in overview.mdx-adjacent framing, showcase key_facts, and travel.mdx",
+      "claim": "\"Kokkino Nero sits about 70 km from Larissa\" (stated as a plain, uncaveated figure in showcase.json access_note and travel.mdx's opening paragraph and DataCard)",
+      "problem": "Unresolved from the v1 pass: F16 (Larissa Beach tourism board) gives 70 km from Larissa, but F06 (Greek Wikipedia) independently gives \"about 55 km\" northeast of Larissa — a 27% spread on a basic distance figure, the same category of disagreement the page's own honest_reckoning section prides itself on surfacing for elevation and 1991 population, but doesn't surface here.",
+      "evidence": "F06: \"απέχει περίπου 55 χιλιόμετρα α.-να. από την λάρισα\" (Greek Wikipedia). F16: \"it is located ... 70 km. from larissa\" (Larissa Beach).",
+      "fix": "Either add the 55km/70km split as a third item in honest_reckoning_note, or hedge the figure in travel.mdx/access_note (\"about 70 km by one tourism-board account; Greek Wikipedia instead gives roughly 55 km\") rather than stating 70km as settled."
+    },
+    {
+      "where": "showcase.json margin_notes, audience:\"history\"",
+      "claim": "\"Wikidata's entry for this village links to six Wikipedia-language editions and one Wikivoyage page...\"",
+      "problem": "Unresolved from the v1 pass: F45's quote supports only the six-Wikipedia-edition count (\"sitelinks wikipedia (6 entries)\"). No fact row or quote confirms a Wikivoyage link.",
+      "evidence": "F45 quote (wikidata.org/wiki/Q6426671, quote_check OK): \"sitelinks wikipedia (6 entries)\" — no Wikivoyage mention anywhere in F01-F45.",
+      "fix": "Drop \"and one Wikivoyage page\" unless it can be confirmed, or hedge it as unverified."
+    }
+  ],
+  "verified_ok": [
+    "Ferry-service claim (v1 blocking) correctly repaired to a hedge (\"no source consulted here documents a ferry service\") across all five surfaces: history.mdx (twice), overview.mdx, showcase.json access_note, and travel.mdx — no broken prose or dangling clauses introduced by the repair",
+    "showcase.json key_facts \"Nearest anchorages\" now matches F22 exactly with no added ferry claim",
+    "Spike chronology (1900/1930s/1950s, iron cause) consistent across spike_statement, subtitle, history.mdx, and spike_explainer",
+    "Mount Ossa/Kissavos naming consistent everywhere; no Olympus misattribution",
+    "Population (116, 2021), first registration (1928, Karytsis), and 2020 municipal move to Agia consistent across overview.mdx, key_facts, and timeline; timeline rows in correct chronological order",
+    "Honest-reckoning conflicts (elevation 20m vs 7m; 1991 population 80 vs 76; two same-named villages) correctly surfaced and consistent with the sheet's own conflicts list",
+    "Calypso Gorge dual framing (70m single waterfall per GR Wikipedia vs three unmeasured waterfalls per tourism board) presented as two framings, not asserted as one fact, in both key_facts and landmarks",
+    "2019 FEK indications/contraindications list identical across history.mdx and spike_explainer; travel.mdx's shorter list is an explicit subset (\"including\"), not a contradiction",
+    "EU bathing-water rating, site ID, and wave-climate figures (annual mean 0.5m, Jan 0.79m, Jun 0.28m, 4.4s period) match the trusted site/data/beaches file exactly across things_to_know and travel.mdx",
+    "businesses: [] correctly left empty, consistent with the sheet's dead_ends (no confirmed operating business named)"
+  ]
+}

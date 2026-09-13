@@ -1,0 +1,44 @@
+{
+  "slug": "platja-de-cala-vedella",
+  "verdict": "FAIL",
+  "claims_checked": 31,
+  "blocking": [
+    {
+      "where": "history.mdx, \"The 1973 Plan and Its Missing Paperwork\" section, para 1",
+      "claim": "\"the urbanizing agent responsible for the land — in this case a company called UMSA — is then supposed to complete a set of legal instruments (infrastructure handover, reparcelling, compensation projects) that formally \\\"closes\\\" the plan\"",
+      "problem": "The specific instrument list (infrastructure handover, reparcelling, compensation projects) does not appear anywhere in the fact sheet. F20 — the only fact about the 1973 plan and UMSA's failure to close it — only says the plan was approved in 1973 and UMSA never completed \"the legal instruments needed to legalize it,\" with no breakdown of what those instruments are. No other fact (including F28, which uses the related word \"recepción\" but in a 2019 sentence about the treatment plant, not the 1973 plan) supplies this list either. The showcase.json spike_explainer covering the same event stays deliberately vague (\"the formal instruments Spanish planning law requires\") with no instrument names — confirming the specific list was invented only for history.mdx, not sourced.",
+      "evidence": "F20: \"en el año 1973 se aprobó el plan parcial de cala vedella\" / fact: \"...UMSA, never completed the legal instruments needed to legalize it.\" No fact_id anywhere names infrastructure handover, reparcelling, or compensation projects.",
+      "fix": "Replace \"is then supposed to complete a set of legal instruments (infrastructure handover, reparcelling, compensation projects) that formally \\\"closes\\\" the plan and regularizes everything built under it\" with \"is then supposed to complete the legal steps that formally \\\"close\\\" the plan and regularize everything built under it — steps the sources describe only in general terms.\""
+    },
+    {
+      "where": "showcase.json day_in_time.midday; contradicted by travel.mdx \"Parking\" section",
+      "claim": "\"By midday the 250-space car park behind the beach is the tighter constraint, not the sand\"",
+      "problem": "This asserts a known midday parking-capacity pattern (lot fills before the beach does) as fact. But travel.mdx, on the same page, explicitly states: \"The sheet does not give current pricing or occupancy data for this parking, so plan for a busy summer lot rather than a guaranteed space.\" There is no fact in the sheet about parking-lot fill times or midday occupancy (F08 only gives the static 250-space count). One surface claims a specific, known midday crunch; the other surface says no occupancy data exists at all — a reader would be misled by the more confident of the two.",
+      "evidence": "F08: \"behind the beach there is parking for 250 cars including a small amount of allocated parking bays...\" — a static capacity count only, no occupancy/timing data anywhere in the sheet; travel.mdx itself: \"The sheet does not give current pricing or occupancy data for this parking.\"",
+      "fix": "Change to: \"By midday the 250-space car park behind the beach can fill up in high season — no sourced occupancy data confirms exactly when — so arrive early if a space matters more than the sand.\""
+    }
+  ],
+  "advisory": [
+    {
+      "where": "history.mdx, \"The Treatment Plant the Town Couldn't Touch\" section, para 2; showcase.json spike_explainer \"The plant nobody could fix\" (identical pattern in both)",
+      "claim": "\"By November 2019, Sant Josep's deputy mayor said the town was studying whether it could expropriate the plant outright... That same October, the town hall separately ordered a halt to an unrelated project, Vadella 24 housing...\"",
+      "problem": "The October 2019 halt (F22) actually preceded the November 2019 expropriation-study statement (F28) chronologically, but both passages narrate November first and then backtrack to \"that same October,\" reversing the actual order. The showcase.json timeline array gets the order right (folding both into one \"2019-10\" entry that describes October before November), so the prose passages are the odd one out. Not misleading about the facts themselves, but a reader has to backtrack to reconstruct the real sequence.",
+      "evidence": "F22 (dated 2019, town hall halt \"en octubre de 2019\") vs. F28 (dated 2019-11, expropriation study) — October precedes November, but both prose passages present November first.",
+      "fix": "Reorder to lead with the earlier event: \"That October, the town hall separately ordered a halt to an unrelated project, Vadella 24 housing, over unlicensed works, and opened disciplinary proceedings against it. By November 2019, Sant Josep's deputy mayor said the town was studying whether it could expropriate the treatment plant outright...\""
+    },
+    {
+      "where": "history.mdx, \"The Treatment Plant the Town Couldn't Touch\" section, last sentence",
+      "claim": "\"Complaints about water conditions in the area persisted into August 2022, when a political party publicly pressed the town hall for answers referencing the plant.\"",
+      "problem": "\"Persisted\" implies an ongoing, continuous run of complaints from 2019 through 2022. The sheet has only two isolated data points on this thread — the November 2019 expropriation study (F28) and the single August 2022 PP inquiry (F38) — with nothing sourced in between (2020-2021). The word \"persisted\" states a continuity the facts don't establish.",
+      "evidence": "F38: \"el pp exige respuestas a sant josep sobre el estado del agua en la zona de cala vadella\" (dated 2022-08) — a single dated event, not a documented pattern of ongoing complaints.",
+      "fix": "Change \"Complaints about water conditions in the area persisted into August 2022\" to \"Water-condition concerns resurfaced in August 2022\" (drops the unsupported continuity claim)."
+    },
+    {
+      "where": "showcase.json key_facts \"Treatment plant age\" entry, vs. history.mdx same section",
+      "claim": "\"Treatment plant age: Sized roughly 50 years earlier; still undersized as of 2018-2019\"",
+      "problem": "The key_facts box caps the plant's documented currency at 2018-2019, but the page's own history.mdx text (same page, same section) carries the same plant/water-conditions thread forward to an August 2022 reference (F38). The summary box's date range understates how recently the same issue is discussed elsewhere on the page.",
+      "evidence": "F30 (2018-06) and F29 (2019-04) support \"2018-2019\"; F38 (2022-08) is a later, related data point used in history.mdx's own next sentence but not reflected in the key_facts date range.",
+      "fix": "Change the key_facts value to \"Sized roughly 50 years earlier; still undersized as of 2018-2019, with water-condition concerns raised again in 2022.\""
+    }
+  ]
+}

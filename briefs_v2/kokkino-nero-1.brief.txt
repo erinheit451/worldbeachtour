@@ -1,0 +1,15 @@
+REPAIR BRIEF — kokkino-nero-1
+
+2 BLOCKING issue(s). Fix every one. Do not restyle anything else.
+
+--- 1. history.mdx, "Recognized by the State, Still Unbottleable" section vs showcase.json spike_explainer, "The advice hasn't changed" section
+    CLAIM AS WRITTEN : history.mdx: the water "degrades within a few hours of being bottled"; showcase.json spike_explainer: the water "degrades if it sits bottled for several hours"
+    WHY IT IS WRONG  : The same sourced claim (F40) is given two different, non-equivalent quantities on two surfaces of the same page: "a few hours" (implying roughly 2-3) versus "several hours" (implying more, and the wording the source itself supports). A reader who reads both the main page and the history spoke gets two different answers to the concrete, practical question "how long before the water goes bad," which is exactly the kind of two-surfaces-disagree defect this pass exists to catch.
+    EVIDENCE         : F40 quote (mythessaly.gr, quote_check OK): "το νερό αλλοιώνεται αν μείνει πολλές ώρες εμφιαλωμένο" — "the water spoils if it stays bottled [for] many/several hours." Only "several hours" matches the source; "a few hours" in history.mdx is an unsupported downward drift.
+    REQUIRED FIX     : In history.mdx, change "the water degrades within a few hours of being bottled" to "the water degrades within several hours of being bottled" so both surfaces state the same, source-matching quantity.
+
+--- 2. history.mdx, "What's Left to See" (closing section)
+    CLAIM AS WRITTEN : "...a stretch of shoreline that has hosted an English trading company, a Larissa newspaper publisher, and a government gazette-writer, in that order..."
+    WHY IT IS WRONG  : Every other reference to the 1900 venture on this page — including two other places in this same document — calls it plainly "An English company" (history.mdx, "Three Attempts to Bottle It") or "the English venture" (history.mdx, same section and this same closing paragraph one clause earlier: "the 1900 English venture"). "Trading company" is a more specific business classification that appears nowhere in the fact sheet (F27-F28 say only "an English company"/"the English venture," with no description of what it traded). This is both an unsupported added specific (sheet exceedance) and a within-document inconsistency in how the same entity is named.
+    EVIDENCE         : F27: "το 1900 ενδιαφέρθηκε να εμφιαλώσει το ιαματικό νερό μια αγγλική εταιρία" ("in 1900 an English company was interested in bottling the therapeutic water") — no "trading" descriptor anywhere in F27 or F28.
+    REQUIRED FIX     : Change "an English trading company" to "an English company" (or "the English venture," matching the rest of the paragraph and the rest of the page).

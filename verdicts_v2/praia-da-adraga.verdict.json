@@ -1,0 +1,44 @@
+{
+  "slug": "praia-da-adraga",
+  "verdict": "FAIL",
+  "claims_checked": 31,
+  "blocking": [
+    {
+      "where": "showcase.json margin_notes, audience:\"nature\" (anchor_para_index 2)",
+      "claim": "\"Before restoration, the park's 199 recorded plant species included 25 invasive exotics and 34 rare or threatened natives; a 2022 marine survey off the same coast counted around 300 species, from algae to marine mammals.\"",
+      "problem": "This margin note flatly asserts the 199-species count (and its 25/34 breakdown) as a \"before restoration\" figure. The underlying fact, F16, is written in the present tense with no before/after qualifier at all (\"a área apresenta uma elevada diversidade florística, com 199 espécies registadas\" — the area PRESENTS/HAS 199 recorded species), unlike F15 and F18, which the sheet explicitly marks as pre-intervention (\"antes das intervenções de restauro ecológico...\", \"antes da intervenção...\"). The page's own main text (environment.mdx) is careful to avoid this trap — it presents the 14-habitat/199-species/200-animal figures as general survey findings, not as an explicitly dated \"before\" baseline — but this margin note, appearing on the same page, states a specific temporal frame the source never attaches to this fact. A reader would take this as confirmation the invasive-species count is a historical pre-restoration number, when the source gives no such timing.",
+      "evidence": "F16: \"a área apresenta uma elevada diversidade florística, com 199 espécies registadas\" (present tense, no before/after marker) — vs. F15: \"antes das intervenções de restauro ecológico, apenas 3 se encontravam em bom estado de conservação\" and F18: \"antes da intervenção... ocupavam cerca de 63% da área\" — both of which DO carry an explicit \"before\" marker that F16 lacks.",
+      "fix": "Change to: \"The park's 199 recorded plant species include 25 invasive exotics and 34 rare or threatened natives; a 2022 marine survey off the same coast counted around 300 species, from algae to marine mammals.\" (drops the unsupported \"Before restoration\" framing and tense)."
+    }
+  ],
+  "advisory": [
+    {
+      "where": "environment.mdx, \"The deeper history under the restoration\" section, closing sentence",
+      "claim": "\"Both finds belong to the shared protected coastline the park now covers, not to Adraga's beach itself.\"",
+      "problem": "The fact sheet's identity warning says to attribute the dinosaur footprints and Paleolithic tool sites to \"the shared protected coastline\" rather than to Adraga itself — it does not establish that the Parque Ecológico da Adraga e Praia Grande's own boundary literally covers the Praia Grande do Rodízio cliff face where the footprints sit (F48 is sourced independently from prehistoricportugal.com, not from the park's own cm-sintra.pt page, and never ties the footprint site to the park's footprint). \"The park now covers\" is a more specific territorial claim than the sheet supports; \"the shared, UNESCO-protected coastline\" would match the sourced framing without implying the ecological park's boundary specifically includes the footprint site.",
+      "evidence": "identity.warnings: \"...should be attributed to 'the shared protected coastline' rather than to Adraga itself\" (no park-boundary claim); F48 (prehistoricportugal.com) makes no reference to the ecological park.",
+      "fix": "Change to: \"Both finds belong to the same protected stretch of coastline, not to Adraga's beach itself.\""
+    },
+    {
+      "where": "overview.mdx paragraph 4, vs. showcase.json things_to_know \"Getting there\" and travel.mdx paragraph 3 (carried over from v1, still unresolved)",
+      "claim": "\"Wikipedia notes it is hard to reach without a car...\" vs. \"hard to reach by public transportation\" (the other two surfaces, quoting F04 directly).",
+      "problem": "Same sourced fact (F04) is worded two different ways on the same page: overview.mdx paraphrases it as needing a car, while things_to_know and travel.mdx both correctly quote Wikipedia's actual wording (\"hard to reach by public transportation\"). Flagged as advisory in the v1 verify pass and not corrected in this version.",
+      "evidence": "F04: \"it has an excellent restaurant and a very good emergency service system, although it is hard to reach by public transportation.\"",
+      "fix": "Change overview.mdx to \"Wikipedia notes it is hard to reach by public transportation\" to match the other two surfaces."
+    },
+    {
+      "where": "SPIKE / subtitle, vs. environment.mdx and showcase.spike_explainer's own 10-year figure (carried over from v1, still unresolved)",
+      "claim": "\"...won't finish rebuilding the land into a park until 2027.\"",
+      "problem": "Accurate for the phase-two construction deadline (F30, F33), but the page's own body text states full ecological recovery takes 10 years (F32) — a later, more dramatic number than the spike leads with. Flagged as optional/advisory in v1 and still unaddressed; not a contradiction, since both figures appear correctly elsewhere, but the spike undersells its own story.",
+      "evidence": "F32: \"a recuperação do parque ecológico... só ficará concluída após 10 anos\" (recovery... will only be complete after 10 years).",
+      "fix": "Optional: anchor the spike to the 10-year full-recovery horizon, or state both figures explicitly, e.g. \"...and won't be fully ecologically recovered for a decade after that.\""
+    },
+    {
+      "where": "environment.mdx, Ubuntu Fest paragraph (carried over from v1, still unresolved; not web-checkable in this pass)",
+      "claim": "\"...removed roughly 1.5 tonnes of hottentot-fig and 3 tonnes of carpobrotus ground-cover.\"",
+      "problem": "F22 names the two removed plants only in Portuguese (\"tintureira-miúda\" and \"chorão-das-praias\"). \"Chorão-das-praias\" is a common Portuguese name for Carpobrotus (the genus that includes hottentot-fig), raising a risk the English mapping has swapped which Portuguese name is \"hottentot-fig\" vs. \"carpobrotus ground-cover,\" or that both English terms describe the same species. This needs source/botanical verification this NO-web pass cannot perform.",
+      "evidence": "F22: \"removidas cerca de 1,5 toneladas de tintureira-miúda e 3 toneladas de chorão-das-praias\" — cm-sintra.pt.",
+      "fix": "On a future repair pass with web access, verify the Portuguese-to-English species mapping; if uncertain, use the Portuguese common names directly instead of English names that may misattribute species."
+    }
+  ]
+}

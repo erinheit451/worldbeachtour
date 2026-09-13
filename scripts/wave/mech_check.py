@@ -116,6 +116,17 @@ def check(root, slug):
                   ("cultural_refs",3),("things_to_know",3),("food_drink",3)):
         n = len(s.get(k) or [])
         if n < lo: W(f"{k} has {n} (spec floor {lo})")
+    # timeline must be chronological — a 09-13 repair re-dated one row and left it out of order
+    keys = []
+    for t in (s.get("timeline") or []):
+        try: keys.append((int(t.get("year")), int(t["month"]) if t.get("month") not in (None, "") else None))
+        except (TypeError, ValueError): E(f"timeline row has non-integer year/month: {t.get('year')!r}/{t.get('month')!r}")
+    bad = []
+    for (y, m), (y2, m2) in zip(keys, keys[1:]):
+        # a null month is "sometime that year": only the year must be ordered; never invent a month to satisfy this
+        if y2 < y or (y2 == y and m is not None and m2 is not None and m2 < m):
+            bad.append(f"{y}-{m:02d}" if m is not None else str(y))
+    if bad: E(f"timeline out of chronological order after {', '.join(bad)}")
     paras = len((s.get("intro_text") or "").split("\n\n"))
     for m in (s.get("margin_notes") or []):
         if m.get("audience") not in AUDIENCE: E(f"margin_note audience {m.get('audience')!r}")

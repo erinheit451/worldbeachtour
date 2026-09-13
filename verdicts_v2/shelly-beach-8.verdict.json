@@ -1,0 +1,36 @@
+{
+  "slug": "shelly-beach-8",
+  "verdict": "FAIL",
+  "blocking": [
+    {
+      "where": "history.mdx, opening paragraph ('Shut out, then let back in' intro) vs showcase.json spike_explainer ('The century-long thread')",
+      "claim": "history.mdx: \"Twice in less than forty years, and then again in the 1920s, the public's access to this small cove at Manly was contested — by a private exclusion, then by a redevelopment scheme, then, eventually, by the state itself deciding to protect the water rather than develop it.\" vs showcase.json spike_explainer: \"the 1920s amusement-park fight was not an isolated flashpoint — it was the second time in decades that Manly residents had to fight to keep this stretch of coast usable.\"",
+      "problem": "The fact sheet documents exactly TWO access contests before the reserve was declared: (1) the 1885 exclusion / 1898 restoration (one dispute-and-resolution cycle, not two), and (2) the 1920s amusement-park scheme. showcase.json's own spike_explainer correctly counts the 1920s fight as 'the second time' — i.e., two total. But history.mdx's intro says 'Twice in less than forty years, and then again in the 1920s,' which reads as three separate contests (two within 40 years, plus a third in the 1920s), directly contradicting the page's own 'second time' framing elsewhere. Compounding this, the sentence's list — 'by a private exclusion, then by a redevelopment scheme, then, eventually, by the state itself deciding to protect the water' — no longer parses as a list of contests: the state 'deciding to protect the water' is the resolution/protection, not an instance of access being contested, so folding it into the same list as the exclusion and the redevelopment scheme breaks the sentence's own logic.",
+      "evidence": "Fact sheet facts F51 (1885 exclusion, returned 1898 'at Manly Council's request') and F30/F31 (1920s amusement-park scheme defeated, credited with 'eventually' helping the reserve happen) — only two contest events are sourced. showcase.json spike_explainer text itself: 'it was the second time in decades that Manly residents had to fight to keep this stretch of coast usable on their own terms.'",
+      "fix": "Replace the history.mdx sentence with: \"Twice across more than a century, the public's access to this small cove at Manly was contested — first by a private exclusion, then by a 1920s redevelopment scheme — before the state itself eventually decided to protect the water rather than develop it.\" This matches the 'second time' count used in showcase.json and separates the contest events from the eventual state protection."
+    },
+    {
+      "where": "site/data/beaches/shelly-beach-8.json safety.shark_incidents_total (trusted structured dataset feeding the page's safety/sea_surf data) vs showcase.json honest_reckoning_note",
+      "claim": "Trusted dataset: \"shark_incidents_total\": 0. Page's honest_reckoning_note: \"On 2 July 2019, Manly resident Peter Schultz, 57, was attacked by a suspected shark while swimming between Manly and Shelly Beaches... On 21 January 2023, at least one suspected bull shark killed a dolphin near Shelly Beach — three bull sharks were spotted in the area.\"",
+      "problem": "The page devotes an entire honest_reckoning paragraph to two real, dated shark incidents at Shelly Beach (2019 swimmer attack, 2023 dolphin killing), sourced to F41/F42 and F38/F39/F40. The trusted structured dataset this page draws from records shark_incidents_total as 0 for this beach. If that field is surfaced anywhere on the page (e.g. a safety stat in the sea_surf section), it would flatly contradict the honest_reckoning's own documented history and mislead a reader checking a 'shark incidents' stat against the prose right below it.",
+      "evidence": "site/data/beaches/shelly-beach-8.json: \"safety\": {\"lifeguard\": false, \"shark_incidents_total\": 0}. Fact sheet F41 (2019 attack, Surf Life Saving NSW) and F38-F40 (2023 dolphin killed, ABC News) — both high-confidence, both already used verbatim in showcase.json's honest_reckoning_note.",
+      "fix": "This is a data-layer fix, not a prose fix: shark_incidents_total should be corrected from 0 to 2 (or to whatever count the site's shark-incident schema uses for 'attack/major encounter near this beach') so any stat card built from it agrees with the honest_reckoning prose. If the field is confirmed not to render anywhere on this page, downgrade to advisory."
+    }
+  ],
+  "advisory": [
+    {
+      "where": "overview.mdx ('What almost happened instead') vs history.mdx ('The amusement park that didn't happen')",
+      "claim": "overview.mdx: \"the reason the beach today is a quiet marine reserve rather than a fairground traces back to that decision\" vs history.mdx: \"That single act of resistance is credited, in the same account, with eventually helping Cabbage Tree Bay become a no-take aquatic reserve — a direct line from 'developers turned away' to 'marine sanctuary,' even if the legal protection itself didn't arrive for decades.\"",
+      "problem": "overview.mdx states the causal link as a settled fact ('traces back to that decision'), while the deep-dive history.mdx — drawing on the same single source (F31) — is careful to hedge it as something 'credited, in the same account' rather than proven, and explicitly flags the multi-decade gap before legal protection arrived. The summary surface is more certain than the deep-dive surface for the same underlying claim, which is backwards (deep dives should hold the more confident claims, not less).",
+      "evidence": "Fact sheet F31, confidence 'high' but single-source (History Matters, Nov 2024): \"luckily thanks to the local community effort, not only were the plans terminated, but cabbage tree bay also became a no-take aquatic reserve.\" No second source corroborates a direct causal chain across the ~70-80 year gap.",
+      "fix": "In overview.mdx, soften to match history.mdx's hedge, e.g.: \"the beach today is a quiet marine reserve rather than a fairground, and that outcome is credited to that decision — the full story, and the decades-long gap before it, is in the history deep dive.\""
+    },
+    {
+      "where": "showcase.json timeline entry for 1920",
+      "claim": "{\"year\": 1920, \"title\": \"Amusement-park scheme defeated\", ...}",
+      "problem": "No source gives a specific year for the amusement-park scheme — the fact sheet and quote (F30) only say 'a century ago in the 1920s.' Pinning the timeline row to the specific year 1920 (the same numeric precision used for verifiably dated rows like 1923's kiosk or 2002's declaration) implies a precision the record doesn't support.",
+      "evidence": "F30 quote: \"there were once proposals to completely revamp the scenery at manly a century ago in the 1920s\" — no month or specific year given anywhere in the fact sheet.",
+      "fix": "If the schema allows it, use a decade-midpoint placeholder (e.g. 1925) or add '(decade estimate)' to the title/description so the row doesn't read as precisely dated; otherwise leave as-is and treat as a known schema limitation rather than a page-content error."
+    }
+  ]
+}

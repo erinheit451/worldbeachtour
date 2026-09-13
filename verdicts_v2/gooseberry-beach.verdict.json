@@ -1,0 +1,55 @@
+{
+  "slug": "gooseberry-beach",
+  "verdict": "FAIL",
+  "claims_checked": 30,
+  "fetches_used": 0,
+  "searches_used": 0,
+  "spike_verdict": "The spike itself (steward-branded shareholder club charging $30-$40, banning walk-ons, challenged in 2021 over its own deed) reads clean post-repair — the v1 lawsuit/1952-pricing overstatements were correctly fixed — but two internal-consistency defects survive: a repair-introduced arithmetic slip in the history spoke's framing sentence, and a pullquote that misstates why the club hired a police officer in a way that contradicts the spoke's own body text.",
+  "blocking": [
+    {
+      "where": "history.mdx, opening paragraph",
+      "claim": "\"Gooseberry Beach sits on land shaped by two separate disputes a century apart: an 1880 fight over Hazard's estate ... and a 2021 fight over what the public is entitled to ...\"",
+      "problem": "1880 to 2021 is 141 years, not \"a century apart.\" This is the v1-verify repair's own fix text (v1 flagged a false-equivalence problem and proposed this exact sentence) but the repair dropped the original page's correct hedge (\"more than a century apart\") when rewriting it, introducing a new arithmetic understatement — a reader would take '\"a century\" to mean roughly 100 years, not 141.",
+      "evidence": "F08 (1880 Hazard death) and the 2021 timeline row (F26/F27); 2021 - 1880 = 141 years.",
+      "fix": "\"Gooseberry Beach sits on land shaped by two separate disputes a century and a half apart: an 1880 fight over Hazard's estate that determined who would own this stretch of coastline, and a 2021 fight over what the public is entitled to once inside that ownership.\""
+    },
+    {
+      "where": "showcase.json reckoning_pullquote (honest_reckoning section)",
+      "claim": "\"A club that calls itself a steward of the beach still needed a police officer to keep people from just walking in.\"",
+      "problem": "Misstates the sourced reason for the hire. F27 says the officer was hired to direct dangerous rideshare drop-off/pick-up traffic on a narrow, shoulderless Ocean Drive — a road-safety measure. The pullquote instead frames the officer's job as blocking pedestrian walk-on entry to the beach (access enforcement), which is exactly the causal link history.mdx explicitly rules out one section earlier: \"The police officer the club hired to manage dangerous rideshare drop-off traffic on Ocean Drive is, per the only reporting on it, a response to a road-safety problem rather than the access dispute.\" A reader hitting only the pullquote would come away with the opposite of what the sourced reporting and the page's own deep-dive say.",
+      "evidence": "F27: \"gooseberry had to employ a police officer to help direct traffic\" (rideshare drop-off/pick-up traffic, Ocean Drive); history.mdx: \"is, per the only reporting on it, a response to a road-safety problem rather than the access dispute.\"",
+      "fix": "\"A club that calls itself a steward of the beach still needed a police officer just to keep rideshare traffic from stopping on its road.\""
+    }
+  ],
+  "advisory": [
+    {
+      "where": "composition/showcase.json timeline, row \"2021-6: Resident threatens legal action over access\"",
+      "claim": "\"A part-time resident retains a lawyer seeking public beach access under Gooseberry's 1952 deed; the club hires a police officer for dangerous rideshare traffic.\" (fact_ids F26, F27, one row/title)",
+      "problem": "Bundling F26 (the legal threat) and F27 (the police-officer hire) into a single dated event under a title about the access dispute invites the same causal misread as the pullquote above — that the officer was a response to the legal threat — even though history.mdx and overview.mdx both correctly present the hire as an unrelated road-safety measure. Not blocking on its own (a timeline row juxtaposing two same-month facts is defensible), but it reinforces the pullquote's error rather than correcting it.",
+      "evidence": "F26/F27, both Newport Buzz 2021-06; history.mdx: \"is ... a response to a road-safety problem rather than the access dispute.\"",
+      "fix": "Split into two rows, or reword the single row so causation isn't implied: \"A part-time resident retains a lawyer seeking public beach access under Gooseberry's 1952 deed. Separately, rising rideshare traffic on Ocean Drive leads the club to hire a police officer for road safety.\""
+    },
+    {
+      "where": "showcase.json margin_notes, audience:\"nature\" (unresolved from v1)",
+      "claim": "rates conditions \\\"Exposed, real surf, with rip current to respect,\\\"",
+      "problem": "Still presented in quotation marks as verbatim, but the trusted wave dataset's actual string is \"Exposed — real surf, and rip current to respect\" (and→with, dash→comma). This was flagged advisory in the v1 verdict and was not corrected by the repair pass.",
+      "evidence": "site/data/beaches/gooseberry-beach.json waves.summary.character: \"Exposed — real surf, and rip current to respect\"",
+      "fix": "Either drop the quotation marks (paraphrase) or correct the text to \"Exposed — real surf, and rip current to respect.\""
+    },
+    {
+      "where": "overview.mdx, amenities paragraph (unresolved from v1)",
+      "claim": "\"...a cash-only \\\"snack shack\\\" (a Rhode Island tourism listing calls the same thing a \\\"cafe\\\")...\"",
+      "problem": "States as settled fact that the tourism listing's 'cafe' and the official 'snack shack' are the same facility, dropping the sheet's own hedge (\"likely the same facility\"). Flagged advisory in v1, unchanged by the repair.",
+      "evidence": "fact sheet conflicts: \"the official site calls its sole vendor a 'snack shack' (F23), while VisitRhodeIsland calls it a 'cafe' (F39) - likely the same facility described differently.\"",
+      "fix": "\"...a cash-only \\\"snack shack\\\" (a Rhode Island tourism listing describes what is likely the same facility as a \\\"cafe\\\")...\""
+    }
+  ],
+  "verified_ok": [
+    "spike_statement now says \"legal threat\" not \"lawsuit\", and scopes \"since 1952\" to the club running the beach rather than to the $30-$40 price/walk-on ban — both v1 blocking issues correctly repaired",
+    "overview.mdx/travel.mdx/showcase.json bacteria-closure passages now correctly scope \"reopened within two days\" to the 2025 closure only (2022 reopening remains undocumented and unclaimed) — v1 blocking issue correctly repaired",
+    "address conflict (130 Ocean Avenue vs 123 Ocean Drive) presented consistently and unresolved across overview.mdx, showcase.json access_note/zones, and travel.mdx",
+    "parking prices, hours, cashless date (June 29, 2026), and banned-items list consistent across overview.mdx, showcase.json key_facts/things_to_know, and travel.mdx",
+    "F04 boulder-spit distances (50 m low tide / 75 m high tide) consistent across overview.mdx, key_facts, and zones",
+    "status words (closed/reopened) correctly hedged with no stale claim of current swim status"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "aksa-beach-1",
+  "verdict": "FAIL",
+  "fetches_used": 0,
+  "searches_used": 0,
+  "blocking": [
+    {
+      "where": "environment.mdx, 'What MMB built, and where it sits' paragraph 2, vs. environment.mdx 'The challenge' paragraph 1 (and the ruling paragraph)",
+      "claim": "\"Aksa Beach sits within CRZ-I, the most restrictive tier of India's Coastal Regulation Zone framework, a category reserved for ecologically sensitive shoreline. Petitioners who later challenged the project argued that this classification matters for a concrete reason...\" -- stated as settled, unhedged fact -- versus, two sections later: \"Their case rested on two linked claims: that the entire beach falls within CRZ-I, and that a solid, permanent promenade...\" -- and later: \"The ruling did not need to adjudicate the erosion-versus-development argument on its merits.\"",
+      "problem": "The page asserts Aksa's CRZ-I classification as an established fact early on, then treats the identical claim as a contested legal argument the petitioners had to make later on the same page -- and explicitly states the tribunal never ruled on it. The fact sheet only supports CRZ-I as the petitioners' contention (F25: 'Petitioners argued...'), not as an independently confirmed classification. Stating it flatly first misleads a reader into thinking CRZ-I status was settled/undisputed, when the page's own later paragraphs (and the sheet) say it was argued and never adjudicated.",
+      "evidence": "research/aksa-beach-1.json F25, quote: \"the entire beach falls within the category of crz- i area under the crz notification, 2011. the presence of the beach serves a crucial purpose of acting as a natural barrier...\" -- sourced entirely to the petitioners' filing, not to an independent or judicial determination.",
+      "fix": "Change the paragraph 2 opening in environment.mdx from 'Aksa Beach sits within CRZ-I, the most restrictive tier of India's Coastal Regulation Zone framework, a category reserved for ecologically sensitive shoreline. Petitioners who later challenged the project argued that this classification matters for a concrete reason, not just a bureaucratic one:' to 'Petitioners who later challenged the project argued that Aksa Beach sits within CRZ-I, the most restrictive tier of India's Coastal Regulation Zone framework, a category reserved for ecologically sensitive shoreline, and that this classification matters for a concrete reason, not just a bureaucratic one:' -- so the classification is attributed to the petitioners' argument everywhere it appears, matching the sheet and the page's own later admission that the tribunal never adjudicated it."
+    },
+    {
+      "where": "subtitle; composition.json spike_statement; environment.mdx ('Built anyway, while the case was open'); showcase.json spike_explainer; showcase.json timeline entry 2024-07",
+      "claim": "\"...began caving in within a year of its own construction\" / \"began caving in within a year\" (repeated near-verbatim across 5 surfaces).",
+      "problem": "The page's own timeline dates construction starting 2022-07 ('MMB begins concretizing the beach') and the cave-in starting 2024-07 ('The new seawall begins caving in') -- a 24-month gap by the page's own record, not 'within a year.' The 'within a year' phrasing is lifted from the source's own July-2024 framing (F27), but the page never states an alternate 2023 completion date anywhere that would make 'within a year' consistent with its own July-2022 construction-start date given elsewhere (environment.mdx: 'In July 2022, MMB deployed a team of JCB machines...'). As written, the page contradicts its own dated timeline on a load-bearing spike claim.",
+      "evidence": "showcase.json timeline: {\"year\": 2022, \"month\": 7, ... \"MMB begins concretizing the beach\"} and {\"year\": 2024, \"month\": 7, ... \"The new seawall begins caving in\"} -- 2022-07 to 2024-07 is 24 months, not within a year. research/aksa-beach-1.json F23 (July 2022 JCB deployment) and F27 (July 2024 cave-in, sourced quote 'within a year of construction' from the article itself, not reconciled against the page's own 2022 start date).",
+      "fix": "Replace 'within a year of construction' / 'within a year of its own construction' / 'began caving in within a year' with a phrasing anchored to the page's own dated timeline, e.g.: subtitle -> 'A Mumbai weekend beach where a government seawall began caving into the sea within two years of construction starting.'; spike_statement -> '...began caving in within two years; in 2025 a tribunal ruled it illegal.'; environment.mdx and showcase.spike_explainer -> 'the 600-metre seawall had begun caving in, roughly two years after MMB first broke ground on it in July 2022.'; timeline 2024-07 entry -> 'The 600-metre MMB seawall at Aksa Beach began caving in roughly two years after construction began, while the NGT case was still open.'"
+    }
+  ],
+  "advisory": [
+    {
+      "where": "showcase.json landmarks (\"MMB seawall and promenade\", year_built field)",
+      "claim": "year_built: 2023",
+      "problem": "No fact_id attached to this landmark entry (F21, F22, F27) actually gives a discrete 'year built' of 2023 -- F23 has construction starting July 2022, and the entry's own description says 'built across 2022 and 2023.' A structured year_built card showing '2023' sits next to prose everywhere else on the page that frames construction as spanning both years, so a reader comparing the landmark card to the spike_statement/zones text could read it as a second, conflicting date.",
+      "evidence": "showcase.json landmarks entry description: \"A roughly 600-metre, 4-metre-wide concrete promenade and sea-wall built across 2022 and 2023...\" alongside \"year_built\": 2023 in the same object; research/aksa-beach-1.json F23 (July 2022 start).",
+      "fix": "Set year_built to null (no single confirmed completion year in the sheet), or if the schema requires a value, use 2022 to match the JCB-deployment start date already used as the page's anchor construction date elsewhere."
+    },
+    {
+      "where": "showcase.json recurring_events ('Weekend crowd surge')",
+      "claim": "typical_attendance: null",
+      "problem": "The page states elsewhere (travel.mdx, F10) that roughly 15,000 people visit on a typical weekend, but the recurring_events entry for the weekend crowd leaves typical_attendance null instead of using that figure. Not a contradiction, just an available fact left unused where the schema has a field for it.",
+      "evidence": "F10: \"the beach gets even more dangerous during monsoon season, though 15,000 people visit the beach during weekends\"; travel.mdx repeats this figure but showcase.json's own recurring_events.typical_attendance field is null.",
+      "fix": "Optional: set typical_attendance to \"~15,000 (weekends)\" citing F10, for internal consistency with travel.mdx."
+    }
+  ],
+  "verified_ok": [
+    "600m/4m seawall dimensions consistent across environment.mdx, overview.mdx, showcase.json (intro/spike_explainer/key_facts), zones, landmarks (F22)",
+    "NGT illegality ruling date 17 Sept 2025 consistent everywhere it appears (F21)",
+    "March 2019 CRZ clearance and its no-permanent-construction condition consistent across environment.mdx, showcase.json key_facts and spike_explainer (F21)",
+    "'Six years prior' MCZMA sea-wall rejection consistent between environment.mdx and showcase.json margin_notes (F31)",
+    "95% completion allegation consistently hedged as 'activists alleged' on every surface, not stated as fact (F29)",
+    "Distance figures (dataset 9.4/12.5 km vs independent 9/12 km) correctly presented as two parallel, non-cumulative figures on every surface (overview.mdx, travel.mdx, showcase.json access_note/things_to_know) -- the cumulative-framing bug flagged in the v1 verdict is fixed in this version",
+    "Wikipedia's internal 38/yr-vs-45-total drowning arithmetic inconsistency is surfaced, not silently resolved, and the reckoning_pullquote's own arithmetic (38 x 13 years >> 45) is correct (F12)",
+    "June 2026 drowning timeline entry correctly hedges location as 'near INS Hamla' rather than picking between the JJ Point (F35) vs Shitala Devi Temple (F37) source conflict",
+    "petition-to-ruling span 'more than two years' (May 2023 to Sept 2025 = ~2 yrs 4 months) is arithmetically correct"
+  ]
+}

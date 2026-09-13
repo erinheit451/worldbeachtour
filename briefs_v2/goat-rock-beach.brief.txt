@@ -1,0 +1,18 @@
+REPAIR BRIEF — goat-rock-beach
+
+2 BLOCKING issue(s). Fix every one. Do not restyle anything else.
+
+--- 1. showcase.json honest_reckoning_note and reckoning_pullquote
+    CLAIM AS WRITTEN : "...could independently list at least six separate drowning deaths at Goat Rock Beach between 2003 and 2017: a 3-year-old girl in 2003, a kayaker in 2015, three people in 2016, and a father and his 6-year-old son in 2017. That is not a rounding error. It is a three-to-one gap..." / pullquote: "...local reporters could already document at least six."
+    WHY IT IS WRONG  : The note's own itemized list does not sum to six: 1 (2003 girl) + 1 (2015 kayaker) + 3 (2016) + 2 (2017 father and son) = 7 deaths, not 6. The stated total contradicts the list two sentences earlier, and the follow-on "three-to-one gap" (vs. NWS's reported 2) is then also off (7:2 is not 3:1). The pullquote repeats the same wrong total.
+    EVIDENCE         : F35 (2003, 1 death), F34 (2015, 1 death), F33 (2016, three deaths), F32 (2017, father + son = 2 deaths) sum to 7, not 6.
+    REQUIRED FIX     : In honest_reckoning_note, change "could independently list at least six separate drowning deaths" to "could independently list at least seven separate drowning deaths", and change "It is a three-to-one gap" to "It is a gap of more than three to one". In reckoning_pullquote, change "local reporters could already document at least six." to "local reporters could already document at least seven."
+
+--- 2. showcase.json timeline[] array order
+    CLAIM AS WRITTEN : Array order: ...1985 (Goonies) -> 2003 (sneaker wave death) -> 2017-12 (father/son drown) -> 2014 (feasibility study) -> 2018-5 (lifeguard tower).
+    WHY IT IS WRONG  : The 2017-12 "Father and son drown off Goat Rock Beach" row is placed before the 2014 "Feasibility study weighs jetty's fate" row, out of chronological order. A reader scanning the rendered timeline top-to-bottom would see the 2014 study appear to follow the 2017 tragedy rather than precede it by three years.
+    EVIDENCE         : timeline entries: {"year": 2017, "month": 12, ...} appears at array index 7, {"year": 2014, ...} appears at index 8, in showcase.json's timeline list.
+    REQUIRED FIX     : Reorder the timeline array so the 2014 "Feasibility study weighs jetty's fate" entry comes immediately before the 2017-12 "Father and son drown off Goat Rock Beach" entry (i.e., ...1985, 2003, 2014, 2017-12, 2018-5).
+
+
+EXTRA (gate): mech_check now errors "timeline out of chronological order after 2017-12" — reorder the showcase.json timeline array so rows are ascending by (year, month). Change nothing else in the rows.

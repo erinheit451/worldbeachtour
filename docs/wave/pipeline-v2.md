@@ -122,3 +122,51 @@ not four.
 - Waves of 12 keep the orchestrator's read of results to one short summary per
   agent; never read agent transcripts.
 - Deploy is unchanged (`scripts/deploy.sh`, cgroup-capped build on the box).
+
+## Wave 4 (2026-09-13) — v2.1 as actually run, with measured costs
+14 pages authored and double-verified on branch `wave4-0913` (not pushed, not
+deployed): platja-de-cala-vedella, cala-salada (ES); praia-do-peneco,
+praia-da-adraga (PT); sunset-beach-16, third-beach-1 (CA); aksa-beach-1,
+vodarevu-beach (IN); gooseberry-beach, goat-rock-beach (US); sunnyside-beach-3,
+shelly-beach-8 (AU); pendine-sands (GB); kokkino-nero-1 (GR). Parked 7
+(`parked.txt`): dupes/non-beaches/identity risks, plus laiya-beach (no story)
+and kund-malir-beach-1 (thin research, weak spike).
+
+Path: `triage.py` (0 tokens) → scout (sonnet, search-only) → `harvest.py` (0) →
+extract (sonnet, no web) → `quote_check.py --local` (0; **641/641 quotes
+verbatim**, vs ~30% under WebFetch research) → author (sonnet, no web) →
+`mech_check` + `trace_check` (0) → `render_verify.py` (0) → V1 verify (sonnet,
+Audit 1 from bundle; web only for businesses/recency) → repair → V2
+`consistency.md` (sonnet, page-only, NO web — replaces the fable pass) → repair
+→ gates → render. All sonnet; zero fable.
+
+| stage | tokens/page (measured) | notes |
+|---|---|---|
+| scout | ~95k | search results are verbose; session hit the 200-search cap at 16 scouts |
+| extract | ~145k | bundle read in parts (see truncation below) |
+| author | ~168k | output-bound; anti-repetition rule + caps applied |
+| V1 verify | ~122k | 0–8 fetches; 26 blocking / 12 FAIL of 14 (1.9/page vs 3.1 Wave 3) |
+| repair 1 | ~90k | |
+| V2 consistency | ~128k | 28 blocking / 13 FAIL of 14 — arithmetic, cross-surface drift, 2 repair-introduced |
+| repair 2 | ~85k | |
+| **all-in** | **~830k sonnet raw** | ≈ Wave-3 shipped path in $, with greppable citations and no fable |
+
+**What the wave taught (all measured):**
+- The agent Read tool silently truncates a file at ~50k chars (a 122k bundle was
+  cut at 53,118). Every earlier bundle >50k was only partly read — pilot authors
+  likely never saw the exemplar. `bundle.py` now splits into `.partNofM` files.
+- `quote_check` false-flagged 16 Pendine quotes on Wikipedia `[ 2 ]` markers and 7
+  Greek-Wikipedia rows on URL percent-encoding — my checker was the defect, again.
+  Fixed (marker strip, `ukey()` URL canon). `--local` greps the harvested text.
+- `trace_check.data_numbers()` resolved `site/content/data/...` (wrong dir) so
+  authors dropped every dataset number (airport km, wave heights). Fixed.
+- The lens router 404s any lens under 300 prose words; the anti-repetition rule
+  pushed two lenses under it. author.md now sets a 360-word floor.
+- A repair re-dated a timeline row and left the array out of order; another
+  wrote "a century and a half" for 141 years. `mech_check` now enforces timeline
+  chronology (null month = year-only). It also flags 17 LEGACY gold pages —
+  a mechanical sort is a separate follow-up.
+- Cost is turns × context. Extract/verify/consistency each spent 6–13 tool calls
+  re-billing a ~20k bundle. Next wave: hard ≤3-call cap on those stages, haiku
+  scout with ≤10 searches, and merge V1+V2 prompts only if a fresh second read
+  stops finding new blockers (it did not this wave: 26 then 28, mostly disjoint).

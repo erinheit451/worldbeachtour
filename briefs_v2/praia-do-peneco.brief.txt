@@ -1,0 +1,21 @@
+REPAIR BRIEF — praia-do-peneco
+
+3 BLOCKING issue(s). Fix every one. Do not restyle anything else.
+
+--- 1. composition.json subtitle ('may be demolished') and overview.mdx 'Who goes' paragraph ('said it may, in principle, be demolished') vs. composition.json spike_statement, environment.mdx opening paragraph, showcase.json intro_text, showcase.json spike_explainer, and showcase.json timeline entry 2026-2 (all: 'said it will, in principle, be demolished')
+    CLAIM AS WRITTEN : Subtitle/overview.mdx: 'may... be demolished' -- SPIKE/environment.mdx/showcase.json (x3): 'will, in principle, be demolished'
+    WHY IT IS WRONG  : The identical 20 Feb 2026 mayor statement is rendered with two different certainty levels on the same page. 'Will... be demolished' states the outcome as the default/near-certain path; 'may... be demolished' states it as an open possibility. The underlying source (F18) only supports 'há essa grande probabilidade' (there is a strong probability) -- not certainty -- and the newest fact in the sheet (F27, 14 March 2026) says the rock's fate is explicitly 'not yet known' / still undecided. Environment.mdx itself ends by calling the fate 'still undecided' after opening with the stronger 'will' framing two paragraphs earlier -- an internal tension on the same page.
+    EVIDENCE         : F18 quote: "...é um ex-libris, mas há essa grande probabilidade», disse o autarca" (probability, not certainty). F27 quote: "não se sabendo ainda o destino da formação rochosa que dá nome à zona balnear" (the fate is not yet known).
+    REQUIRED FIX     : Standardize on the hedged form already used in subtitle/overview.mdx. Replace 'said it will, in principle, be demolished' with 'said it may, in principle, be demolished' in: composition.json spike_statement, environment.mdx opening paragraph, showcase.json intro_text, showcase.json spike_explainer (both occurrences), and showcase.json timeline entry 2026-2 description.
+
+--- 2. environment.mdx, 'A Cliff With a History of Failing' paragraph; showcase.json spike_explainer, 'A landmark that keeps needing rescuing' paragraph
+    CLAIM AS WRITTEN : "Three decades separate the fatal 1989 collapse from the 2026 crisis..."
+    WHY IT IS WRONG  : 2026 minus 1989 is 37 years, not three decades (30 years). This is a plain arithmetic error, repeated verbatim on two surfaces.
+    EVIDENCE         : Timeline fact_ids F07 (1989 collapse) and the page's own dateline of '2026' throughout; 2026 - 1989 = 37.
+    REQUIRED FIX     : Replace 'Three decades separate the fatal 1989 collapse from the 2026 crisis' with 'Thirty-seven years separate the fatal 1989 collapse from the 2026 crisis' in both environment.mdx and showcase.json spike_explainer.
+
+--- 3. showcase.json day_in_time.dawn vs. day_in_time.night
+    CLAIM AS WRITTEN : dawn: "Before the tunnel and elevator open for the day, the beach is reachable only by the western stairway..." vs. night: "After the elevator's 21:00 close, access narrows to the tunnel and stairway; the fenced-off perimeter... remains in place regardless of the hour."
+    WHY IT IS WRONG  : Dawn asserts the pedestrian tunnel has a fixed opening time it hasn't reached yet (implying only the stairway works before then); night asserts the tunnel is still usable after the elevator closes at 21:00 (implying it has no closing time). Both can't be true of the same tunnel. No fact in the sheet gives the tunnel any operating hours -- only the elevator has stated hours, 08:00-21:00 (F13). The tunnel's schedule is invented, and invented inconsistently.
+    EVIDENCE         : F13: elevator hours 08:00-21:00 is the only sourced schedule; F03/F14 describe the tunnel with no hours attached.
+    REQUIRED FIX     : In day_in_time.dawn, change 'Before the tunnel and elevator open for the day, the beach is reachable only by the western stairway' to 'Before the elevator opens for the day, the beach is reachable via the tunnel and the western stairway' -- removing the false implication that the tunnel has a fixed opening time, and making it consistent with night's framing that the tunnel remains usable outside elevator hours.

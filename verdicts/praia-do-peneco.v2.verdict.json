@@ -1,0 +1,67 @@
+{
+  "slug": "praia-do-peneco",
+  "verdict": "FAIL",
+  "fetches_used": 0,
+  "searches_used": 0,
+  "spike_verdict": "The demolition-threat spike is carried by F18/F21/F30, but the page renders the mayor's 'strong probability' with two different certainty levels on different surfaces of the same page (see blocking #1).",
+  "blocking": [
+    {
+      "where": "composition.json subtitle ('may be demolished') and overview.mdx 'Who goes' paragraph ('said it may, in principle, be demolished') vs. composition.json spike_statement, environment.mdx opening paragraph, showcase.json intro_text, showcase.json spike_explainer, and showcase.json timeline entry 2026-2 (all: 'said it will, in principle, be demolished')",
+      "claim": "Subtitle/overview.mdx: 'may... be demolished' -- SPIKE/environment.mdx/showcase.json (x3): 'will, in principle, be demolished'",
+      "problem": "The identical 20 Feb 2026 mayor statement is rendered with two different certainty levels on the same page. 'Will... be demolished' states the outcome as the default/near-certain path; 'may... be demolished' states it as an open possibility. The underlying source (F18) only supports 'há essa grande probabilidade' (there is a strong probability) -- not certainty -- and the newest fact in the sheet (F27, 14 March 2026) says the rock's fate is explicitly 'not yet known' / still undecided. Environment.mdx itself ends by calling the fate 'still undecided' after opening with the stronger 'will' framing two paragraphs earlier -- an internal tension on the same page.",
+      "evidence": "F18 quote: \"...é um ex-libris, mas há essa grande probabilidade», disse o autarca\" (probability, not certainty). F27 quote: \"não se sabendo ainda o destino da formação rochosa que dá nome à zona balnear\" (the fate is not yet known).",
+      "fix": "Standardize on the hedged form already used in subtitle/overview.mdx. Replace 'said it will, in principle, be demolished' with 'said it may, in principle, be demolished' in: composition.json spike_statement, environment.mdx opening paragraph, showcase.json intro_text, showcase.json spike_explainer (both occurrences), and showcase.json timeline entry 2026-2 description."
+    },
+    {
+      "where": "environment.mdx, 'A Cliff With a History of Failing' paragraph; showcase.json spike_explainer, 'A landmark that keeps needing rescuing' paragraph",
+      "claim": "\"Three decades separate the fatal 1989 collapse from the 2026 crisis...\"",
+      "problem": "2026 minus 1989 is 37 years, not three decades (30 years). This is a plain arithmetic error, repeated verbatim on two surfaces.",
+      "evidence": "Timeline fact_ids F07 (1989 collapse) and the page's own dateline of '2026' throughout; 2026 - 1989 = 37.",
+      "fix": "Replace 'Three decades separate the fatal 1989 collapse from the 2026 crisis' with 'Thirty-seven years separate the fatal 1989 collapse from the 2026 crisis' in both environment.mdx and showcase.json spike_explainer."
+    },
+    {
+      "where": "showcase.json day_in_time.dawn vs. day_in_time.night",
+      "claim": "dawn: \"Before the tunnel and elevator open for the day, the beach is reachable only by the western stairway...\" vs. night: \"After the elevator's 21:00 close, access narrows to the tunnel and stairway; the fenced-off perimeter... remains in place regardless of the hour.\"",
+      "problem": "Dawn asserts the pedestrian tunnel has a fixed opening time it hasn't reached yet (implying only the stairway works before then); night asserts the tunnel is still usable after the elevator closes at 21:00 (implying it has no closing time). Both can't be true of the same tunnel. No fact in the sheet gives the tunnel any operating hours -- only the elevator has stated hours, 08:00-21:00 (F13). The tunnel's schedule is invented, and invented inconsistently.",
+      "evidence": "F13: elevator hours 08:00-21:00 is the only sourced schedule; F03/F14 describe the tunnel with no hours attached.",
+      "fix": "In day_in_time.dawn, change 'Before the tunnel and elevator open for the day, the beach is reachable only by the western stairway' to 'Before the elevator opens for the day, the beach is reachable via the tunnel and the western stairway' -- removing the false implication that the tunnel has a fixed opening time, and making it consistent with night's framing that the tunnel remains usable outside elevator hours."
+    }
+  ],
+  "advisory": [
+    {
+      "where": "showcase.json margin_notes ('economy', anchor_para_index 4) and ('history', anchor_para_index 2), relative to overview.mdx's paragraph structure",
+      "claim": "economy note anchored at anchor_para_index 4; history note (Xorino Grotto legend) anchored at anchor_para_index 2",
+      "problem": "overview.mdx (the likely 'story' surface) contains only 4 text paragraphs (indices 0-3), and none of them mention the APA €15m/€111m figures the economy note refers to -- that content only exists in environment.mdx and showcase.json prose, not in overview.mdx itself. Separately, the Xorino Grotto legend the history note describes sits in overview.mdx paragraph index 1 ('Three routes bring people down...At the western end, a promenade leads to the Xorino Grotto...'), not index 2 (which is the Blue Flag/water-quality paragraph). If margin notes anchor by paragraph index into overview.mdx, both references are off.",
+      "evidence": "overview.mdx paragraphs: 0=name/origin, 1=routes down + Xorino Grotto legend, 2=Blue Flag/water quality, 3='Who goes' (mentions the rock safety question) -- no paragraph 4, and no APA money figures anywhere in the file.",
+      "fix": "Re-point the history note's anchor_para_index from 2 to 1. For the economy note, either move its content into overview.mdx (e.g. append a sentence with the €15m/€111m figures) so index 4 exists and matches, or re-anchor it to the correct surface/paragraph where that content actually lives (environment.mdx's 'The Money Behind the Repairs' section)."
+    },
+    {
+      "where": "showcase.json intro_text (1989 collapse) vs. environment.mdx and showcase.json timeline (same event)",
+      "claim": "intro_text: 'killing one man and injuring his girlfriend' vs. environment.mdx/timeline: 'killing one man and seriously injuring his girlfriend'",
+      "problem": "intro_text drops 'seriously' from the injury description used everywhere else on the page for the same 1989 event -- a minor severity inconsistency, not a different fact, but worth aligning.",
+      "evidence": "F07 quote: 'a queda de um troço provocou a morte de um homem e ferimentos graves na sua namorada' (grave/serious injuries).",
+      "fix": "Change 'killing one man and injuring his girlfriend' to 'killing one man and seriously injuring his girlfriend' in showcase.json intro_text."
+    },
+    {
+      "where": "showcase.json day_in_time.golden",
+      "claim": "\"...as the lifeguard shift built around the Blue Flag season's summer hours winds down...\"",
+      "problem": "No fact in the sheet gives specific lifeguard shift hours -- only that lifeguards are on duty 'in season' (F16). Phrasing implies a known shift schedule that isn't sourced.",
+      "evidence": "F16: 'during the summer season the beach is patrolled by lifeguards' -- no hours given.",
+      "fix": "Optional: soften to '...as the lifeguard presence for the day winds down...' to avoid implying a specific, unsourced shift schedule."
+    }
+  ],
+  "verified_ok": [
+    "38.5 km (23.9 miles) road distance to Faro consistent across overview.mdx, travel.mdx, key_facts, access_note (F02)",
+    "Elevador do Peneco dimensions (28 m, 13 people, free, 08:00-21:00) consistent across key_facts, travel.mdx, zones, things_to_know (F10, F13)",
+    "~20 m pedestrian tunnel description consistent across environment.mdx, overview.mdx, showcase.json, travel.mdx, zones (F03)",
+    "Elevator inauguration date dispute (June 2008 vs 20 May 2009) correctly and consistently flagged as unresolved everywhere it appears, not silently picked (F09, F11)",
+    "2026 Blue Flag window (1 Jul-30 Sep) inside bathing season (15 May-15 Oct) consistent across key_facts, travel.mdx, things_to_know, recurring_events (F31)",
+    "24 m maximum beach-berm recession and southern-Portugal comparison figures (15m/14m/6m) consistent across environment.mdx, showcase.json, key_facts, timeline (F23, F24)",
+    "23 storm-damage occurrences / 18 cliff-instability cases figures consistent across environment.mdx and showcase.json spike_explainer (F26)",
+    "€27m nationwide damage / €15m emergency fund / ~€111m wider plan figures consistent between environment.mdx and showcase.json (F25, F28)",
+    "Summer sea-temperature conflict (20-23°C vs 19-22°C) transparently flagged as a source disagreement in key_facts rather than silently resolved (F33, F34)",
+    "1989 fatal cliff collapse and 2022 €1.5m stairway rebuild figures consistent across environment.mdx, showcase.json, timeline (F07, F08)",
+    "Xorino Grotto 13th-century Moorish-refuge legend consistently attributed to both Wikipedia and Portugal's tourism board wherever it appears (F05, F06)",
+    "spike_statement length is 144 characters, under the 160-char cap"
+  ]
+}

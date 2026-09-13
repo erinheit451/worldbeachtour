@@ -1,0 +1,44 @@
+{
+  "slug": "vodarevu-beach",
+  "pass": "v2-consistency (page-only, no web)",
+  "verdict": "FAIL",
+  "blocking": [
+    {
+      "where": "showcase.json timeline[2] (year 2004 row: title vs description) + overview.mdx 'Who goes, and why' paragraph 2 + showcase.json zones[2] (ASHRAM) 'character' field",
+      "claim": "Timeline row title: \"Sri Rama temple built; ancient temple rebuilt\" — but that SAME row's description says \"press reports describe the nearby 11th-century Chola-era Adikesavaswamy temple as under reconstruction.\" This 'rebuilt' status is then repeated as settled fact elsewhere: overview.mdx — \"a religious and social-service compound with its own rebuilt 11th-century temple\"; zones[2].character — \"home to a rebuilt 11th-century temple and a newer Sri Rama temple.\"",
+      "problem": "The timeline entry contradicts itself in the same object: its title asserts the ancient temple is 'rebuilt' (completed) while its own description says the same 2004 press report called it merely 'under reconstruction' (in progress). That completed-status word then propagates to two other surfaces (overview.mdx, the ASHRAM zone) as though restoration is a finished, current fact. Nothing in the fact sheet is newer than the 2004 report — recency's 'newest_item' doesn't even mention this temple — so there is no basis for upgrading 'under reconstruction' (2004) to 'rebuilt' (implied complete, 22 years later). A reader is misled into believing the temple is a finished, visitable landmark today.",
+      "evidence": "F29: \"the ancient adikesavaswamy temple, originally built by the cholas during the eleventh century, and now in a dilapidated condition, is being rebuilt by sri arulananda swamy, head of sri lalithananda ashram of vodarevu\" (The Hindu, Apr 2004, via arulananda.org) — an in-progress status from 22 years ago, never re-confirmed as complete anywhere in the fact sheet.",
+      "fix": "Timeline title: change to \"Sri Rama temple built; ancient temple under reconstruction\". overview.mdx: change \"its own rebuilt 11th-century temple\" to \"its own 11th-century temple, reported under reconstruction as of a 2004 press account\". zones[2].character: change \"home to a rebuilt 11th-century temple\" to \"home to an 11th-century temple reported under reconstruction as of 2004\"."
+    },
+    {
+      "where": "surf.mdx, 'Two Octobers, same water' section, opening paragraph",
+      "claim": "\"The clearest evidence of what Vodarevu's currents can do comes from two incidents three years apart, both in October, both involving people standing in what looked like safe, shallow water.\"",
+      "problem": "Date-arithmetic error: the two incidents are October 2023 and October 2025 — two years apart, not three.",
+      "evidence": "F40: Hyderabad woman drowned, dated 2023-10. F38/F39: VIT-Amaravati drownings, dated 2025-10. 2025 minus 2023 = 2.",
+      "fix": "Change \"two incidents three years apart\" to \"two incidents two years apart\"."
+    },
+    {
+      "where": "showcase.json spike_explainer, 'The tension this creates' paragraph",
+      "claim": "\"...a description that has now killed at least one visitor in 2023 and three more in 2025, with two additional people never confirmed found in the source record available here.\"",
+      "problem": "Undercounts the missing by half. The source record documents four people never confirmed found across the two October 2025 incidents combined: two VIT-Amaravati students (missing after the first incident) and two members of the separate Chirala-town group (a 15-year-old and an 18-year-old, missing after the second incident) — not two. This same document's own 'Scale, stated plainly' paragraph, and surf.mdx, both correctly total eleven people across the two 2025 incidents (7 + 4), so this sentence's tally contradicts the page's own arithmetic elsewhere.",
+      "evidence": "F38: \"three bodies have been recovered so far, while search operations are ongoing for the remaining two missing persons\" (VIT group of 7). F39: \"two others - gautam krishna prasad (15) and kuchina sharon raju (18) - are still missing\" (separate Chirala-town group of 4). 2 + 2 = 4 never confirmed found.",
+      "fix": "Change \"with two additional people never confirmed found\" to \"with four additional people never confirmed found\"."
+    },
+    {
+      "where": "showcase.json day_in_time.golden",
+      "claim": "\"...this is also when local warnings about the water matter most, since currents can strengthen with the tide.\"",
+      "problem": "Asserts a specific tidal mechanism for the currents that contradicts the page's own explicit admission, twice, that no such explanation exists in the source record. Presenting an invented hydrodynamic detail in a safety-adjacent context could lead a reader to believe there's a known, sourced tide-timing rule to plan around, when there isn't one.",
+      "evidence": "showcase.json spike_explainer: \"Nothing in the source record explains the exact hydrodynamics of Vodarevu's currents — no oceanographic study surfaced in this research pass.\" surf.mdx: \"Nothing in the available source record explains the specific hydrodynamics — no current-speed data, no rip-current study, no tidal chart tied to either incident surfaced in this research pass.\"",
+      "fix": "Change \"since currents can strengthen with the tide\" to \"since fading light makes it harder to judge the water at all\" (keeps the golden-hour caution without inventing an unsourced tidal mechanism)."
+    }
+  ],
+  "advisory": [
+    {
+      "where": "showcase.json spike_explainer, 'The tension this creates' paragraph",
+      "claim": "\"...has now killed at least one visitor in 2023...\"",
+      "problem": "Minor hedge mismatch: the fact sheet documents exactly one confirmed 2023 death (Samia), so \"at least one\" reads as artificially uncertain about a number the page states plainly and confidently everywhere else (e.g., surf.mdx: \"cost at least four lives across two separate years\" already carries the appropriate hedge at the total level).",
+      "evidence": "F40: single named 2023 fatality (Samia); no other 2023 death is documented anywhere in the fact sheet.",
+      "fix": "Change \"has now killed at least one visitor in 2023\" to \"has now killed one visitor in 2023\"."
+    }
+  ]
+}

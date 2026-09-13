@@ -1,0 +1,53 @@
+{
+  "slug": "pendine-sands",
+  "verdict": "PASS",
+  "claims_checked": 34,
+  "fetches_used": 0,
+  "searches_used": 0,
+  "spike_verdict": "Both v1 blocking defects were correctly repaired — the inquest-causation overstatement (\"on inquest orders\" → \"following the inquest\") and the self-contradicting vehicle-ban dates (the stray \"until 2005\" claim was deleted) — and the page still hedges the two genuinely unresolved sheet conflicts (Babs's burial duration, its engine's horsepower) consistently everywhere they appear; remaining issues are minor prose/sourcing residue from the repair, not reader-misleading claims.",
+  "blocking": [],
+  "advisory": [
+    {
+      "where": "history.mdx, 'What Happened to Babs', first paragraph",
+      "claim": "\"After the inquest, Babs's seats were slashed, the glass in its instrument dials was smashed, and the wreck was buried in the dunes at Pendine following the inquest.\"",
+      "problem": "Duplicated temporal clause left over from the v1 repair: the sentence now says \"After the inquest\" at the start and \"following the inquest\" at the end, referring to the same single event. The repair correctly swapped out the old causal claim (\"on the inquest's instruction\") for \"following the inquest\" but didn't notice the sentence already opened with an equivalent lead-in, producing a sentence that no longer reads cleanly.",
+      "evidence": "F07: \"following the inquest into thomas's death, babs's seats were slashed, the glass in the dials smashed, and the car was buried in the sand dunes at pendine.\" The fact supports one \"following the inquest\" framing, not two.",
+      "fix": "\"After the inquest, Babs's seats were slashed, the glass in its instrument dials was smashed, and the wreck was buried in the dunes at Pendine.\""
+    },
+    {
+      "where": "history.mdx, 'Three Cars, Three Years, One Beach' and 'A Beach That Stopped Being Anyone's to Use Freely'",
+      "claim": "\"the Welsh engineer J.G. Parry-Thomas\" / \"the Italian driver Giulio Foresti\"",
+      "problem": "Sheet exceedance: neither \"Welsh\" nor \"engineer\" appears in any cited Parry-Thomas fact (F04/F06/F07), and no fact states Foresti's nationality (F09's quote names only the car and the crash). Both descriptors may well be true but aren't backed by anything in this page's fact sheet, unlike the page's own careful practice elsewhere of hedging exactly this kind of unconfirmed specific (e.g. the Babs engine-hp and burial-duration disputes).",
+      "evidence": "F04/F06/F07 (Parry-Thomas facts) never use \"Welsh\" or \"engineer\"; F09 (Foresti fact) never states a nationality.",
+      "fix": "\"In April 1926, J.G. Parry-Thomas took it back at 171.02 mph, driving a car he had built himself\" and \"On 26 November 1927, Giulio Foresti crashed his car Djelmo during a test run at Pendine\" — drop the unsourced descriptors."
+    },
+    {
+      "where": "showcase.json timeline, row \"1940: MOD acquires the range\"",
+      "claim": "\"source\": \"Classic & Sports Car, Oct 2024\", \"wiki_url\": \"https://en.wikipedia.org/wiki/Pendine\"",
+      "problem": "Source/link mismatch: the declared source for this row is Classic & Sports Car (matching F34, which is the fact actually used for the row's WW2/Normandy-training detail), but the row's wiki_url points to Wikipedia's Pendine article instead of the Classic & Sports Car page. A reader following the link expecting to verify the named source lands on a different outlet.",
+      "evidence": "F34 url: https://www.classicandsportscar.com/features/classic-shrine-pendine-museum-land-speed (source_title \"Classic shrine: Pendine Museum of Land Speed - Classic & Sports Car\"); the timeline row's wiki_url is instead https://en.wikipedia.org/wiki/Pendine.",
+      "fix": "Set wiki_url to \"https://www.classicandsportscar.com/features/classic-shrine-pendine-museum-land-speed\" to match the declared source, or change source to \"Wikipedia: Pendine\" to match the linked URL — pick one consistent pairing."
+    },
+    {
+      "where": "history.mdx, 'The Record Didn't End in 1927 — It Moved On' (carried over from v1, unresolved by design)",
+      "claim": "\"On 21 July 2015, the 90th anniversary of Campbell's first Pendine record, Wales returned to drive the fully restored original Blue Bird\"",
+      "problem": "2015 minus 1924 (Campbell's first Pendine record, stated elsewhere on this same page in the subtitle, key_facts, and timeline) is 91, not 90. v1 correctly judged this is inherited verbatim from the cited Wikipedia source (F19) rather than fabricated by the page, and left it unrepaired by design. Still flagging since it is a page-visible arithmetic mismatch against the page's own established 1924 date.",
+      "evidence": "F19 quote: \"on 21 july 2015 ... the 90th anniversary of sir malcolm campbell's first world land speed record ... was recreated\"; F03/timeline establish the first Pendine record as 25 Sept 1924. 2015-1924=91.",
+      "fix": "\"On 21 July 2015 — 91 years after Campbell's first Pendine record — Wales returned to drive the fully restored original Blue Bird at the beach.\" (Optional; no page-level error was introduced, the source itself miscounts.)"
+    },
+    {
+      "where": "history.mdx / travel.mdx / showcase.json honest_reckoning_note, vehicle-ban passages",
+      "claim": "\"All vehicle access to the beach was banned outright between 9 July 2004 and May 2010\"",
+      "problem": "Stated flatly and identically across three surfaces with no hedge, even though the sheet's own conflicts list records an unresolved discrepancy between this Wikipedia article's '9 July 2004' and a different Wikipedia article's 'between 2005 and 2010' for the same ban. The page hedges two comparably unresolved conflicts elsewhere (Babs's burial duration, its engine's horsepower) but not this one — an inconsistent editorial practice, though the figure used (2004, from F14, the page's primary cited source) is not itself fabricated.",
+      "evidence": "F14 (used on-page): \"between 9 july 2004 and may 2010 all vehicles were banned\"; sheet conflicts list: \"Wikipedia's Pendine village article says the ban ran 'between 2005 and 2010' — a one-year discrepancy on the same Wikipedia project.\"",
+      "fix": "Optional hedge, e.g. in history.mdx: \"All vehicle access to the beach was banned outright between 9 July 2004 (one Wikipedia source instead gives 2005) and May 2010 on safety grounds before cars were allowed back.\""
+    }
+  ],
+  "verified_ok": [
+    "Both v1 blocking fixes landed correctly and consistently: spike_statement/history.mdx/showcase.json all now say 'mutilated after/following the inquest' with no implied inquest-ordered directive (F07); the self-contradicting 'until 2005 ... banned from 2004' collision is gone from travel.mdx and showcase.json, replaced by the single dated claim from F14",
+    "Babs engine-hp (450 vs a higher figure) and burial-duration (40 vs 42 years) conflicts are hedged identically and correctly in both history.mdx and showcase.json spike_explainer",
+    "Record chronology (146.16mph Sept 1924 → 171.02mph Apr 1926 → 174.22mph Feb 1927 → fatal crash ~170mph Mar 1927 → Djelmo destroyed Nov 1927) is consistent across subtitle, key_facts, timeline, and history.mdx narrative (F03-F06, F09)",
+    "MOD range figures (20.5 km² / 9 km shoreline / 18 km² sea danger area), SSSI (1988, 2.5 km²), museum figures (£7/£6/£4 admission, £7m build cost, 33,522 2009 visitors, 2021 demolition) and wave data (0.73m May low / 1.86m Dec high / 1.34m annual mean / 3.24m peak / 8.1s period) all match verbatim across every surface that repeats them and against site/data",
+    "Eastern-endpoint naming dispute (Laugharne Sands vs Ginst Point) is consistently presented as unresolved in overview.mdx and zones, not silently resolved to one name"
+  ]
+}

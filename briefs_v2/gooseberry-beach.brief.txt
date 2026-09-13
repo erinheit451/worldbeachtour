@@ -1,0 +1,15 @@
+REPAIR BRIEF — gooseberry-beach
+
+2 BLOCKING issue(s). Fix every one. Do not restyle anything else.
+
+--- 1. history.mdx, opening paragraph
+    CLAIM AS WRITTEN : "Gooseberry Beach sits on land shaped by two separate disputes a century apart: an 1880 fight over Hazard's estate ... and a 2021 fight over what the public is entitled to ..."
+    WHY IT IS WRONG  : 1880 to 2021 is 141 years, not "a century apart." This is the v1-verify repair's own fix text (v1 flagged a false-equivalence problem and proposed this exact sentence) but the repair dropped the original page's correct hedge ("more than a century apart") when rewriting it, introducing a new arithmetic understatement — a reader would take '"a century" to mean roughly 100 years, not 141.
+    EVIDENCE         : F08 (1880 Hazard death) and the 2021 timeline row (F26/F27); 2021 - 1880 = 141 years.
+    REQUIRED FIX     : "Gooseberry Beach sits on land shaped by two separate disputes a century and a half apart: an 1880 fight over Hazard's estate that determined who would own this stretch of coastline, and a 2021 fight over what the public is entitled to once inside that ownership."
+
+--- 2. showcase.json reckoning_pullquote (honest_reckoning section)
+    CLAIM AS WRITTEN : "A club that calls itself a steward of the beach still needed a police officer to keep people from just walking in."
+    WHY IT IS WRONG  : Misstates the sourced reason for the hire. F27 says the officer was hired to direct dangerous rideshare drop-off/pick-up traffic on a narrow, shoulderless Ocean Drive — a road-safety measure. The pullquote instead frames the officer's job as blocking pedestrian walk-on entry to the beach (access enforcement), which is exactly the causal link history.mdx explicitly rules out one section earlier: "The police officer the club hired to manage dangerous rideshare drop-off traffic on Ocean Drive is, per the only reporting on it, a response to a road-safety problem rather than the access dispute." A reader hitting only the pullquote would come away with the opposite of what the sourced reporting and the page's own deep-dive say.
+    EVIDENCE         : F27: "gooseberry had to employ a police officer to help direct traffic" (rideshare drop-off/pick-up traffic, Ocean Drive); history.mdx: "is, per the only reporting on it, a response to a road-safety problem rather than the access dispute."
+    REQUIRED FIX     : "A club that calls itself a steward of the beach still needed a police officer just to keep rideshare traffic from stopping on its road."

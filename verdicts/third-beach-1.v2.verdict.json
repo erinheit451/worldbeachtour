@@ -1,0 +1,58 @@
+{
+  "slug": "third-beach-1",
+  "verdict": "FAIL",
+  "claims_checked": 28,
+  "fetches_used": 0,
+  "searches_used": 0,
+  "spike_verdict": "SPIKE and subtitle still hold: F19 ('a favourite beauty spot in the park') and F21 (soldiers' camp on the present parking lot) support the spike and subtitle as written, with no new overstatement introduced since the v1 pass. The v1 blocking issues (overview.mdx swapping 'gun battery' for 'soldiers' camp'; the broken history-spoke cross-reference for the drum circle; travel.mdx's 'no parking directly at the beach' contradiction) all read as repaired in this bundle: overview.mdx now says 'A World War II soldiers' camp tied to a coastal gun battery...'; the drum-circle safety cross-reference now points to the travel guide, which does cover it; travel.mdx now states parking exists directly at Third Beach's own lot.",
+  "blocking": [
+    {
+      "where": "showcase.json day_in_time.midday",
+      "claim": "\"...and swimmers wade in past the rocky entry despite the cold water lifeguards are on duty to watch.\"",
+      "problem": "'Rocky entry' contradicts the page's own repeated, deliberate correction that Third Beach is a naturally sandy beach, not the pebble/coarse-sand shoreline older write-ups describe. overview.mdx paragraph 1 and showcase.json's own nature margin note both explicitly correct this: the beach is sandy, backed by old-growth forest. 'Rocky entry' reads as a leftover scaffold artifact from the exact framing the rest of the page was built to overturn (see research sheet's conflicts[0]: 'Scaffold material describes Third Beach as pebble/coarse-sand ... every harvested source contradicts the scaffold's framing').",
+      "evidence": "F04 (Swim Guide): \"located at ferguson point in stanley park, third beach is a naturally sandy beach surrounded by old growth forests.\" Contrast overview.mdx: \"It is a naturally sandy beach -- not the pebble-and-coarse-sand shoreline some older write-ups describe.\" And showcase.json margin_notes[nature]: \"Older write-ups call this stretch pebble and coarse sand; every current source instead describes a naturally sandy beach.\"",
+      "fix": "Change to: \"By midday the concession stand and washrooms see the day's steadiest use, and swimmers wade into the cold water despite the lifeguards on duty to watch them.\" (drop 'rocky entry' entirely; nothing in the sheet describes the entry as rocky)"
+    },
+    {
+      "where": "showcase.json zones[TEAHOUSE].character",
+      "claim": "\"The Teahouse restaurant building and the adjoining parking lot, built on the footprint of the WWII battery's soldiers' camp.\"",
+      "problem": "This attributes the soldiers'-camp footprint to BOTH the Teahouse building and the parking lot. Per the sheet, these are two distinct former structures: F23 documents the Teahouse as built on the site of the battery's former OFFICERS' MESS, while F21 documents only the PARKING LOT as built on the soldiers'-camp footprint. Every other surface keeps this distinction straight -- history.mdx: \"The Teahouse restaurant now standing at Ferguson Point occupies the site of the battery's former officers' mess\" (separately from) \"A soldiers' camp went up alongside the guns, on the ground that is now Third Beach's parking lot\"; showcase.json's own landmarks[Teahouse] entry also says only 'officers' mess.' Only this zone entry conflates the two, misstating what stood under the restaurant building itself.",
+      "evidence": "F23 (FortWiki): \"ferguson point teahouse formerly the officer's mess of ferguson point battery.\" F21 (Vancouver Gunners): \"a soldiers' camp occupied the present third beach parking lot.\"",
+      "fix": "Change to: \"The Teahouse restaurant, built on the site of the WWII battery's former officers' mess, and the adjoining parking lot, built on the footprint of the soldiers' camp.\""
+    }
+  ],
+  "advisory": [
+    {
+      "where": "showcase.json cultural_refs -- \"Siwash Rock transformation legend (slhx̱i7lsh)\" vs \"2017 motion to rename Siwash Rock to slhx̱í7lsh\"",
+      "claim": "The Squamish name for Siwash Rock is rendered two different ways in the same list of cultural references, for what is presented as the same name.",
+      "problem": "The transformation-legend entry spells the name 'slhx̱i7lsh' (plain i) while the 2017-motion entry two rows down spells it 'slhx̱í7lsh' (accented í), both quoting the same Wikipedia article about the same name for the same rock. Both spellings are individually verbatim-correct against their respective source quotes (F11 vs F12), so this is a real inconsistency in the underlying Wikipedia article rather than a fabrication -- but a reader comparing the two entries in one list will see what looks like a typo or two different names.",
+      "evidence": "F11 quote: \"the squamish name for the rock is slhx̱i7lsh\". F12 quote: \"...change the rock's official name to slhx̱í7lsh.\"",
+      "fix": "Pick one spelling and use it in both cultural_refs entries -- e.g. standardize on 'slhx̱í7lsh' (the accented form used for the 2017 official-name motion) in both places, with a one-time note that sources render the diacritic inconsistently if precision matters."
+    },
+    {
+      "where": "showcase.json honest_reckoning_note -- \"It is also a beach that has needed repeated bacteria-contamination investigations\"",
+      "claim": "Third Beach has needed 'repeated' contamination investigations (plural).",
+      "problem": "The sheet documents one explicit VCH 'beach action value investigation' (June 2024, F27, covering Sunset/Third/Second jointly) and a separate July 2025 event (F26) that the source headline frames as an 'advisory,' not a second formal investigation. Calling both 'investigations' (plural) slightly overstates how many distinct formal-investigation events are actually documented, versus one investigation plus one advisory-level spike.",
+      "evidence": "F27: \"in june 2024, vch placed sunset, third beach, and second beach under a beach action value investigation.\" F26 source title: \"Several Vancouver beaches under advisory due to E. coli spike.\"",
+      "fix": "Soften to: \"a beach that has needed a bacteria-contamination investigation and a separate advisory-level E. coli spike\" or similar, distinguishing the one investigation from the one advisory rather than pluralizing 'investigations.'"
+    },
+    {
+      "where": "showcase.json zones -- TEAHOUSE (position_along_beach_pct 15) vs DRUM (position_along_beach_pct 45)",
+      "claim": "Both the TEAHOUSE zone and the DRUM zone describe themselves as located at/near Ferguson Point, but sit 30 percentage points apart along the beach.",
+      "problem": "TEAHOUSE ('Teahouse restaurant building and parking lot,' at Ferguson Point per F21/F23) is placed at 15%, while DRUM ('the stretch of sand near Ferguson Point where the Tuesday drum circle gathers,' F33) is placed at 45%, closer to MAIN (50%) than to TEAHOUSE. If position_along_beach_pct is meant to be spatially meaningful, two zones both anchored to the same headland landmark probably shouldn't sit at opposite ends of that range.",
+      "evidence": "zones[TEAHOUSE].position_along_beach_pct=15, character references Ferguson Point (F21/F23); zones[DRUM].position_along_beach_pct=45, character says \"near Ferguson Point\" (F33).",
+      "fix": "Either move DRUM closer to TEAHOUSE's position (e.g. ~20-25%) if the drum circle genuinely gathers near Ferguson Point, or soften DRUM's description to drop the 'near Ferguson Point' framing if it actually gathers mid-beach."
+    }
+  ],
+  "verified_ok": [
+    "v1's three blocking issues all read as repaired: overview.mdx now says 'A World War II soldiers' camp tied to a coastal gun battery once stood...' (not 'gun battery' alone); the drum-circle safety cross-reference now points to '/beaches/third-beach-1/travel', which does cover the near-drowning/fencing/police-patrol content; travel.mdx now states parking exists directly at Third Beach's own lot rather than denying it.",
+    "Distances (2.9 km West End, 12.4 km YVR straight-line) consistent and correctly labeled 'straight line' across overview.mdx, travel.mdx DataCards, and access_note.",
+    "E. coli/threshold figures (224 five-sample avg, 200 provincial threshold, 235-vs-400 investigation trigger since 2023) consistent across key_facts, timeline, and travel.mdx Safety section.",
+    "Timeline dates (1887 lease, 1914 temporary battery, 1938-02 construction start, 1939-08-27 31st Battery occupation, 1945-09 stand-down, 1948-04 restoration, 2022-01 storm / 2022-04 reopening, 2022 near-drowning, 2025-07 E. coli spike) match history.mdx, showcase.json spike_explainer, and the fact sheet's own dates with no drift.",
+    "The 31st/58th/85th Heavy battery marker-vs-narrative gap (F24 vs F15-F22) is presented consistently as an unresolved conflict everywhere it appears (history.mdx, spike_explainer, timeline) -- never falsely resolved in one surface only.",
+    "Current status vs history kept separate correctly: the newest fact (F07, Sept 2026 sample met standards) is stated as current status in overview.mdx, showcase key_facts, and travel.mdx, while the 2024/2025 contamination events are consistently framed as past incidents, not current conditions.",
+    "Drum circle chronology: 18th anniversary in June 2023 (F30) -> ~2005 origin (D01) -> 'more than two decades' by 2026 in honest_reckoning_note and showcase intro_text -- arithmetic holds.",
+    "Storm-to-reopening arithmetic (Jan 7 2022 -> Apr 27 2022 = D02's 'just over three and a half months') matches phrasing in both the timeline description and travel.mdx.",
+    "Spike_statement length (~151 characters) is under the 160-character ceiling; no slop/brochure vocabulary detected in hero, overview, or showcase prose."
+  ]
+}
