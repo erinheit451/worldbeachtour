@@ -1,6 +1,9 @@
 import type { MetadataRoute } from "next";
-import { getAllBeachSlugs, getBeachData } from "@/lib/beaches";
+import fs from "node:fs";
+import path from "node:path";
+import { getAllBeachSlugs, getBeachData, getBeachMeta, getBeachMdx } from "@/lib/beaches";
 import { getCountries, getStatesByCountry } from "@/lib/regions";
+import { computeTier } from "@/lib/tier";
 
 const BASE_URL = "https://worldbeachtour.com";
 
@@ -63,5 +66,46 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  return [...hubs, ...beaches, ...sand, ...regions];
+  // Spoke / lens sub-pages. Until 2026-09-13 the 310 authored deep-dives
+  // (/beaches/<slug>/history etc.) were live but absent from the sitemap. The
+  // inclusion rule mirrors lens-page-template.tsx exactly (tier >= 2, mdx
+  // present, >= 300 prose words) so we never list a URL that 404s.
+  const LENSES = ["culture", "diving", "environment", "family", "history", "photography", "sand", "surf", "travel"];
+  const spokes: MetadataRoute.Sitemap = [];
+  for (const slug of slugs) {
+    const data = getBeachData(slug);
+    if (!data) continue;
+    const meta = getBeachMeta(slug);
+    if (computeTier(slug, data, meta) < 2) continue;
+    for (const lens of LENSES) {
+      const mdx = getBeachMdx(slug, lens);
+      if (!mdx || lensWordCount(mdx) < SUBPAGE_MIN_WORDS) continue;
+      spokes.push({ url: `${BASE_URL}/beaches/${slug}/${lens}`, lastModified: now, changeFrequency: "monthly", priority: 0.6 });
+    }
+  }
+  // Bespoke Tier-1 sub-routes (app/beaches/<slug>/<sub>/page.tsx), e.g. bondi-beach/gadigal.
+  const appBeaches = path.join(process.cwd(), "app", "beaches");
+  if (fs.existsSync(appBeaches)) {
+    for (const slug of fs.readdirSync(appBeaches)) {
+      if (slug.startsWith("[") || slug === "pipeline") continue;
+      const dir = path.join(appBeaches, slug);
+      if (!fs.statSync(dir).isDirectory()) continue;
+      for (const sub of fs.readdirSync(dir)) {
+        if (fs.existsSync(path.join(dir, sub, "page.tsx"))) {
+          spokes.push({ url: `${BASE_URL}/beaches/${slug}/${sub}`, lastModified: now, changeFrequency: "monthly", priority: 0.6 });
+        }
+      }
+    }
+  }
+
+  return [...hubs, ...beaches, ...spokes, ...sand, ...regions];
+}
+
+const SUBPAGE_MIN_WORDS = 300; // keep in sync with components/lens-page-template.tsx
+function lensWordCount(mdx: string): number {
+  const stripped = mdx
+    .replace(/^---[\s\S]*?---/m, "")
+    .replace(/```[\s\S]*?```/g, "")
+    .replace(/<[^>]+>/g, " ");
+  return stripped.split(/\s+/).filter(Boolean).length;
 }
