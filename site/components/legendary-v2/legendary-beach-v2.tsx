@@ -182,7 +182,7 @@ export default function LegendaryBeachV2({ bundle }: LegendaryBeachV2Props) {
 // Quick-facts assembly — derives from composition.tier + data
 // ----------------------------------------------------------------------------
 function buildQuickFacts(bundle: LegendaryPageBundle): Array<{ label: string; value: string }> {
-  const { composition, data } = bundle;
+  const { data } = bundle;
   const facts: Array<{ label: string; value: string }> = [];
 
   if (data.beach_length_m) {
@@ -215,10 +215,7 @@ function buildQuickFacts(bundle: LegendaryPageBundle): Array<{ label: string; va
       value: `${data.nearest_airport.iata} · ${data.nearest_airport.distance_km.toFixed(0)} km`,
     });
   }
-  facts.push({
-    label: "Tier",
-    value: composition.tier === 1 ? "Legendary" : "Featured",
-  });
+  // No "Tier: Legendary/Featured" fact — that is our internal ladder, not something a reader can use.
 
   return facts;
 }
