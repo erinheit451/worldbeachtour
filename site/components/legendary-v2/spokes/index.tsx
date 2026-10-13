@@ -24,6 +24,8 @@ interface SurfContent {
 }
 interface SpokeImage {
   url: string; title: string; author?: string; license: string; source_url?: string;
+  /** CSS object-position for the header crop, e.g. "center 80%" when the subject sits low in the frame. */
+  position?: string;
 }
 interface PierContent {
   title: string; kicker?: string; intro?: string;
@@ -44,7 +46,7 @@ function SpokeHeader({ bundle, title, kicker, image }: { bundle: LegendaryPageBu
     // Photo header: the site nav is white-on-transparent, so spokes need a dark top like the parent hero.
     return (
       <header className="relative w-full h-[56vh] min-h-[420px] overflow-hidden bg-black">
-        <img src={image.url} alt={image.title} className="absolute inset-0 h-full w-full object-cover" />
+        <img src={image.url} alt={image.title} className="absolute inset-0 h-full w-full object-cover" style={{ objectPosition: image.position ?? "center" }} />
         <div className="absolute inset-0 bg-gradient-to-b from-black/45 via-black/10 to-black/85" />
         <div className="absolute bottom-0 left-0 right-0 px-6 pb-14 sm:pb-16">
           <div className="mx-auto max-w-3xl">

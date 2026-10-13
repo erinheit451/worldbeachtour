@@ -1,0 +1,205 @@
+{
+  "slug": "coney-island-beach-1",
+  "pass": "v2 package consistency (second reader, no web)",
+  "date": "2026-10-13",
+  "verdict": "FAIL",
+  "files_read": [
+    "site/content/beaches/coney-island-beach-1/composition.json",
+    "research/legendary/coney-island-beach-1/v2/main.part1of2.json",
+    "research/legendary/coney-island-beach-1/v2/main.part2of2.json",
+    "research/legendary/coney-island-beach-1/spoke.travel.json",
+    "research/legendary/coney-island-beach-1/spoke.history.json",
+    "research/legendary/coney-island-beach-1/spoke.the-rides.json",
+    "research/legendary/coney-island-beach-1/spoke.the-shoreline.json"
+  ],
+  "claims_checked": 64,
+  "fetches_used": 0,
+  "searches_used": 0,
+  "sheet_greps_used": 8,
+  "spike_verdict": "The spike holds: all five pages agree that fire, closure and demolition ended Steeplechase, Luna Park and Dreamland by 1966 while the public beach stayed free. The one weak joint is Luna Park's closing year, which the main page states two different ways.",
+  "consistent_across_pages": [
+    "Parachute Jump last-ride year: main key_facts, spike_explainer, timeline and the-rides all say 1964 (Denson) with 1968 (NYC Parks) and, where given, 1965 (Brooklyn Paper) attributed.",
+    "Parachute Jump city landmark May 23, 1989, same day as the Wonder Wheel; National Register Sept 2, 1980; lights 2006, replaced 2013, about 8,000 fixtures.",
+    "Cyclone: opened June 26, 1927; city bought it 1969; 1972 swamp-display plan; Astroland lease 1975; Luna Park since 2011; 54-inch minimum.",
+    "Sandy: 600,000 cubic yards lost and 580,000 placed in 2013 (main, history, shoreline); $494 million avoided damage (history, shoreline).",
+    "Enterococci: July 6, 2026 sample 227 vs state limit 104 on main, travel and shoreline; no 'times the limit' ratio anywhere.",
+    "Season: May 23 to September 13, 2026; lifeguards 10 a.m.-6 p.m.; reopen Memorial Day weekend 2027 (main, travel). Calendar checks: Memorial Day 2026 = May 25, so Saturday May 23 is correct; Labor Day 2026 = Sept 7, so Sept 13 is the Sunday after.",
+    "Boardwalk: 2.7 miles; ground broken and title taken Oct 1, 1921; first part Oct 1922; full length May 15, 1923; 1.7 million cubic yards of sand, 2.5 million sq ft; cost $3 million (Parks sign) vs $20 million (Wikipedia) attributed on history and shoreline.",
+    "Wheelchair mats/pickups (eight Coney streets), hours 11 a.m.-5 p.m., up to three hours, phone caveat: main things_to_know, zones and travel agree.",
+    "Horseshoe crab age (300 million vs 1.2 billion years) appears only on the-shoreline, both attributed; no conflict.",
+    "Casino: 4-2 state advisory vote Sept 29, 2025 (main timeline Sept 2025; history exact date) agree; history's Dec 2025 gaming-board outcome is correctly marked as unconfirmed.",
+    "Nathan's sale: both main and travel say the outcome is unconfirmed (wording differs; see advisory)."
+  ],
+  "blocking": [
+    {
+      "where": "main.part1of2.json spike_explainer ('**Luna Park, 1903 to 1944**' section, last paragraph) AND main.part1of2.json timeline[8].description (1944 row)",
+      "claim": "spike_explainer: 'Sources differ on when Luna Park finally closed. 6sqft says 1946. It never reopened as a full park.' timeline: 'The park closes in 1946.'",
+      "problem": "Same fact, two framings on one page. The explainer says sources differ but names only one source, so the reader never learns what the other date is. The timeline then states 1946 flatly, as settled. The sheet's conflict note says the safe statement is 'destroyed by fire in 1944, never reopened as a full park' and lists 1944 (Luna Park Wikipedia: eastern half closed Sept 1944) vs 1946 (6sqft / Steeplechase Wikipedia).",
+      "evidence": "P001 quote: 'competitor luna park also caught fire in 1944, which led to its closure in 1946.' Conflict [hist1] Luna Park end date: 'shut by fire 13 Aug 1944, eastern half closed Sept 1944 (Luna Wikipedia, H103) vs closed 1946 (Steeplechase Wikipedia) ... Safe statement: destroyed by fire in 1944, never reopened as a full park.'",
+      "fix": "spike_explainer: replace 'Sources differ on when Luna Park finally closed. 6sqft says 1946. It never reopened as a full park.' with 'Sources differ on when Luna Park finally closed. Wikipedia's Luna Park article says the eastern half closed in September 1944. 6sqft says the park closed in 1946. Either way, it never reopened as a full park.' timeline[8].description: replace with 'A fire on August 13 destroys much of Luna Park and causes $800,000 in damage. It never reopens as a full park; sources give 1944 or 1946 for its final closing.'"
+    },
+    {
+      "where": "spoke.travel.json sections[4].body (paragraph 3)",
+      "claim": "'Two deaths described in our sources happened in water where swimming was not allowed, in 2023 and 2024.'",
+      "problem": "Wrong count. The same paragraph then describes two sisters drowning in 2024 plus a 15-year-old in 2023: three deaths in two incidents. The main page's honest_reckoning_note correctly says 'two recent cases' and that divers recovered both sisters.",
+      "evidence": "main honest_reckoning_note: 'two sisters, ages 17 and 18 ... Divers recovered them' and 'His 15-year-old brother was lost'; travel sources list 'Gothamist — 2 teenage sisters drown off Coney Island (2024)'.",
+      "fix": "Replace the sentence with: 'Three people drowned in two recent cases, in 2023 and 2024. Both happened in water where swimming was not allowed.'"
+    },
+    {
+      "where": "spoke.travel.json sections[0].body (paragraph 4)",
+      "claim": "'The subway and local bus fare is $3, up from $2.90 in January 2026; a seven-day cap is $35. ABC7 reported this in September 2025, after the MTA board vote; the new fare was expected to start January 4, 2026.'",
+      "problem": "(1) States the $3 fare as current fact, then says it was only 'expected' to start; the date has passed and the sheet says its sources are 2025 reports of a planned change, not a 2026 confirmation. (2) The $35 cap is from CBS (Sept 30, 2025), not ABC7; ABC7's earlier report said $36. (3) 'up from $2.90 in January 2026' reads as if the fare was $2.90 in January 2026.",
+      "evidence": "Sheet: 'The MTA approved a fare increase taking subway, bus and Access-A-Ride from $2.90 to $3 in January 2026 ... (Sources are 2025 reports of the planned change, not a 2026 confirmation.)'; ABC7 quote: 'the change is expected to take effect in january 4, 2026.'; conflict [gaps]: 'OMNY 7-day cap: $35 (G25, CBS, Sept 30 2025, after MTA approval) vs $36 (G27, ABC7, July 31 2025, proposed plan). CBS is newer.'",
+      "fix": "Replace the paragraph with: 'In September 2025 the MTA board voted to raise the subway and local bus fare from $2.90 to $3, starting January 4, 2026, ABC7 reported. CBS New York reported a seven-day fare cap of $35. We found no 2026 report confirming the new fare, so check the MTA website for the current fare. We found no travel time from Midtown, so use a trip planner.'"
+    },
+    {
+      "where": "main.part1of2.json honest_reckoning_note (paragraph 4)",
+      "claim": "'A local activist says the worst flooding came from Coney Island Creek, not the ocean. The Army Corps says the surge also pushed sand and water over the boardwalk.'",
+      "problem": "Two problems in one passage. (1) Misattribution: the surge-over-the-boardwalk fact is from Marine Technology Reporter (P049), and the history and the-shoreline spokes both attribute it to Marine Technology Reporter; only the main page credits the Army Corps. (2) Exceedance: the activist said the creek hit hardest and 'it wasn't the ocean as much', not 'not the ocean'.",
+      "evidence": "P049 quote: 'hurricane sandy's surge pushed sand and water up and over' (Marine Technology Reporter, Jul/Aug 2023). the-shoreline quotes Hammerman: '...it wasn't the ocean as much.' Conflict [hist2] Sandy cause: 'Hammerman says creek flooding hurt most ... while Marine Technology says the surge pushed sand and water over the boardwalk.'",
+      "fix": "Replace the two sentences with: 'A local activist says flooding from Coney Island Creek hurt the neighborhood more than the ocean did. Marine Technology Reporter says the storm surge also pushed sand and water over the boardwalk.'"
+    },
+    {
+      "where": "main.part1of2.json spike_explainer ('**Luna Park, 1903 to 1944**' section, paragraph 2, last sentence)",
+      "claim": "'By the late 1900s Luna Park drew five million guests a year.'",
+      "problem": "A reader will take 'the late 1900s' to mean the late 20th century, decades after the park burned in 1944. The source means the 1900s decade.",
+      "evidence": "Sheet fact: 'By the late 1900s Luna Park took five million guests a year.' quote: 'it accommodated five million guests a year'.",
+      "fix": "Replace with: 'Within its first few years, Luna Park drew five million guests a year.'"
+    },
+    {
+      "where": "main.part1of2.json day_in_time.dawn (sentences 3-4)",
+      "claim": "'They favor night high tides near the full and new moon, Parks says it is fine to flip a stranded crab back over.'",
+      "problem": "Broken prose left by a repair: two sentences joined by a comma. It also reads as if Parks' flipping advice depends on the moon.",
+      "evidence": "the-shoreline sections[7] gives the two facts as separate statements (breeding timing; Parks: 'It's ok to flip them back - just don't pick them up by the tail!').",
+      "fix": "Replace with: 'They favor night high tides near the full and new moon. Parks says it is fine to flip a stranded crab back over.'"
+    }
+  ],
+  "advisory": [
+    {
+      "where": "main.part1of2.json intro_text (paragraph 5) AND main.part2of2.json recurring_events[0].description",
+      "claim": "intro: 'the Mermaid Parade, which ends at the water to open the swimming season'; recurring_events: 'the king and queen lead a procession to the beach at 19th Street to open the summer swimming season.'",
+      "problem": "The same page says the 2026 swimming season opened May 23, while the parade was June 20. A reader sees two different season openings. The parade opening is a ceremony. Also the parade route ends at Steeplechase Plaza; it is the later procession that goes to the water.",
+      "evidence": "N126 statement: 'the king and queen leading a procession to the beach at 19th Street to officially open the summer swimming season'; intro: 'In 2026 the season ran from Saturday, May 23'.",
+      "fix": "intro_text: replace 'the Mermaid Parade, which ends at the water to open the swimming season' with 'the Mermaid Parade, which ends with a ceremony at the water to mark the start of summer swimming'. recurring_events[0].description: replace 'to open the summer swimming season.' with 'in a ceremony that marks the start of summer swimming. Lifeguarded swimming starts earlier, on Memorial Day weekend.'"
+    },
+    {
+      "where": "main.part2of2.json businesses[0].description AND spoke.travel.json sections[7].body (paragraph 4, last sentence)",
+      "claim": "main: 'On January 21, 2026, Nathan's announced a $450 million sale to Smithfield Foods. We could not confirm whether the sale has closed.' travel: 'In January 2026 Nathan's announced a sale to Smithfield Foods; it was expected to close in the first half of 2026, and our sources do not say whether it did.'",
+      "problem": "Not a contradiction, but the two pages frame the same open question differently, and only travel gives the expected-close window. Use one wording on both pages.",
+      "evidence": "Sheet: 'On January 21, 2026 Nathan's Famous announced a $450 million sale to Smithfield Foods, expected to close in the first half of 2026.'",
+      "fix": "main businesses[0]: replace the last two sentences with 'On January 21, 2026, Nathan's announced a $450 million sale to Smithfield Foods, expected to close in the first half of 2026. We found no report that the sale has closed.' travel sections[7]: replace 'In January 2026 Nathan's announced a sale to Smithfield Foods; it was expected to close in the first half of 2026, and our sources do not say whether it did.' with 'On January 21, 2026, Nathan's announced a $450 million sale to Smithfield Foods, expected to close in the first half of 2026. We found no report that the sale has closed.'"
+    },
+    {
+      "where": "main.part1of2.json landmarks[1].description (Deno's Wonder Wheel) vs spoke.the-rides.json sections[0].body (paragraph 2)",
+      "claim": "main: 'Deno's own site gave the 2026 park opening as April 12.' the-rides: 'Sources differ on when Deno's opened in 2026. A Brownstoner article in May said Luna Park and Deno's both opened in March. Deno's website gave April 12.'",
+      "problem": "The rides spoke shows the conflict; the main page gives only one side.",
+      "evidence": "V110 (Deno's site: 'park opens april 12'); V029 (Brownstoner: 'luna park and deno's wonder wheel, opened back in march'); conflict [visit] 'unresolved for March'.",
+      "fix": "Replace 'Deno's own site gave the 2026 park opening as April 12.' with 'Deno's own site gave the 2026 park opening as April 12, though Brownstoner reported that it opened in March.'"
+    },
+    {
+      "where": "spoke.the-rides.json sections[0].body (paragraph 4)",
+      "claim": "'Deno's website listed its daily summer season as May 25 through September 8.'",
+      "problem": "This date range is not in the fact sheet (no match in research/coney-island-beach-1.json). It came from the v1 verifier's live check, and the site gives no year. Without a year it may be stale, like the 2016 Atlas Obscura line right after it.",
+      "evidence": "Grep of the sheet for 'September 8' / 'May 25 through': no fact. Only research/legendary/coney-island-beach-1/verdicts/v1.spoke-the-rides.json mentions it ('denoswonderwheel.com shows May 25 through September 8 summer season').",
+      "fix": "Replace with: 'Deno's website listed its daily summer season as May 25 through September 8, without giving a year.' Add the live-check fact to the sheet so trace_check can find it."
+    },
+    {
+      "where": "spoke.the-rides.json sections[2].body (paragraph 3) and sections[5].body (paragraph 5); main.part1of2.json key_facts[6].value",
+      "claim": "the-rides: 'In 2026, riders had to be 54 inches tall.' / 'In 2026, riders had to be 50 inches tall.' main: 'riders must be 54 inches tall, per Wikipedia'.",
+      "problem": "The source is an undated Wikipedia infobox, not a 2026 park rule. 'In 2026' claims more than the source does. The main page attributes it correctly.",
+      "evidence": "N064 quote: 'height restriction 54 in (137 cm)' (Wikipedia - Coney Island Cyclone).",
+      "fix": "the-rides sections[2]: replace with 'Wikipedia lists a minimum height of 54 inches.' the-rides sections[5]: replace with 'Wikipedia lists a minimum height of 50 inches.'"
+    },
+    {
+      "where": "main.part1of2.json spike_explainer ('**Steeplechase Park, 1897 to 1964**' section, paragraph 7, last two sentences)",
+      "claim": "'Untapped says this limited any pending landmark case. That motive has never been proven.'",
+      "problem": "'Has never been proven' is a stronger claim than the sheet supports. The sheet says only that the motive is the source's account and is unproven in this bundle.",
+      "evidence": "P011 fact: 'The landmarking motive is the source's account, not proven.' Conflict [hist2]: 'rumor that Trump rushed to beat landmarking is source-reported (P011) and unproven'.",
+      "fix": "Replace 'That motive has never been proven.' with 'We found no other source that confirms this motive.'"
+    },
+    {
+      "where": "main.part1of2.json spike_explainer ('**Steeplechase Park**' section, paragraph 8, last sentence)",
+      "claim": "'Today it is all that is left of Steeplechase.'",
+      "problem": "Not attributed on the main page. The rides spoke attributes the same claim to 6sqft.",
+      "evidence": "the-rides sections[3]: '6sqft calls it all that remains of Steeplechase.'",
+      "fix": "Replace with '6sqft calls it all that is left of Steeplechase.'"
+    },
+    {
+      "where": "main.part2of2.json businesses[3].description (Coney Island History Project)",
+      "claim": "'For Coney Island's 200th anniversary in 2023 it showed a toll house sign from 1823. Its exhibits ran weekends through October 11 (the page gives no year, probably 2026), so check its site for next season.'",
+      "problem": "(1) 'probably 2026' is a guess. (2) 'Coney Island's 200th anniversary' confuses readers, since the main page dates the name to 1639 maps; the anniversary is the History Project's own framing tied to the 1823 sign.",
+      "evidence": "Sheet: 'displaying the 200-year-old coney island toll house sign from 1823'.",
+      "fix": "Replace with: 'In October 2023 it showed a 200-year-old Coney Island toll house sign from 1823. Its site listed weekend hours through October 11 but gave no year, so check its site before you go.'"
+    },
+    {
+      "where": "spoke.history.json sections[6].body (paragraph 2, last sentence)",
+      "claim": "'That year was more likely a plan than an opening.'",
+      "problem": "This is the sheet's own reasoning presented as a page conclusion, with no source.",
+      "evidence": "Conflict [hist2] Aquarium dates: '1947 is likely a plan or land assignment, not an opening.' (sheet note, not a source).",
+      "fix": "Replace with: 'WNYC's dates show the aquarium did not open there until 1957.'"
+    },
+    {
+      "where": "spoke.history.json sections[7].body (paragraph 3) vs spoke.the-shoreline.json sections[4].body (paragraphs 1 and 4)",
+      "claim": "history: 'This page found no source on its status after 2023.' shoreline: 'In our newest source, from February 2023, it was still a draft.' / 'We found no source on its status after early 2023.'",
+      "problem": "Small mismatch on the same flood plan: 'after 2023' vs 'after early 2023'. Also meta wording.",
+      "evidence": "History Project post (2023) comment-deadline facts; both spokes cite the same 2022 and 2023 posts.",
+      "fix": "history: replace with 'We found no report on the plan's status after early 2023.'"
+    },
+    {
+      "where": "spoke.history.json sections[7].body (paragraph 2)",
+      "claim": "'The city gave Central Amusement International a 10-year lease. In 2010 the landlord, Central Amusement International, ordered Ruby's Bar and eight other boardwalk businesses to leave by November 15.'",
+      "problem": "Repeats the company name in back-to-back sentences; hard to read. The main page and the-rides also name Zamperla as co-winner of the lease.",
+      "evidence": "main landmarks[5]: 'Zamperla / Central Amusement International won it'; the-rides sections[5]: 'Zamperla and Central Amusement International had won a 10-year lease'.",
+      "fix": "Replace with: 'The city gave a 10-year lease to Zamperla and Central Amusement International. In 2010 Central Amusement International, now the landlord, ordered Ruby's Bar and eight other boardwalk businesses to leave by November 15.'"
+    },
+    {
+      "where": "main.part1of2.json zones[1].notes",
+      "claim": "'On July 27, 2023, the water near West 22nd Street was a no-swimming area under a red flag; it is where a 15-year-old went missing in the water that day; he was found dead by July 30. A wheelchair mat and pickup point are at West 22nd Street.'",
+      "problem": "Chained semicolons; hard for a young reader.",
+      "evidence": "V067-V069 (same facts as honest_reckoning_note).",
+      "fix": "Replace with: 'On July 27, 2023, the water near West 22nd Street was a no-swimming area under a red flag. A 15-year-old went missing there that day, and his body was found by July 30. A wheelchair mat and pickup point are at West 22nd Street.'"
+    },
+    {
+      "where": "Jargon: main.part1of2.json zones[0].character; spoke.history.json sections[3].body and sections[7].body; spoke.the-shoreline.json sections[0].body, sections[3].body",
+      "claim": "'A stone groin at West 37th Street' (main, no definition); 'his machine turned in 2,700 votes' (history); 'to restore the beach's authorized design' (history); 'four stone T-groins, a spur on the West 37th Street groin, a stronger Norton Point dike' (shoreline); 'a combined sewer outfall' and 'bioswales' (shoreline).",
+      "problem": "Words a 13-year-old would trip on.",
+      "evidence": "Copy rule: 8th-grade plain copy.",
+      "fix": "main zones[0]: 'A stone groin (a rock wall built out into the water to hold sand) at West 37th Street holds the sand;'. history sections[3]: 'his political organization turned in 2,700 votes'. history sections[7]: 'to return the beach to the shape the Corps had designed for it' (matches the-shoreline). the-shoreline sections[0]: 'It called for four new T-shaped stone groins, an extra arm on the West 37th Street groin, a stronger stone wall at Norton Point and about 100,000 tons of stone.' the-shoreline sections[3]: 'from a sewer pipe that carries both rain and sewage, between the Stillwell Avenue and Cropsey Avenue bridges' and 'A $15 million plan for bioswales (planted ditches that soak up rain) on Mermaid Avenue'."
+    },
+    {
+      "where": "Meta-talk: main.part1of2.json intro_text (last sentence of paragraph 5) and spike_explainer (paragraph 1, last sentence); spoke.travel.json intro (paragraph 2) and sections[7].body ('For food, here is what our sources say.'); spoke.history.json intro (paragraphs 2-3); spoke.the-rides.json intro (last sentence); spoke.the-shoreline.json intro (paragraph 2)",
+      "claim": "'This page covers the beach day first, then the story of the parks, then the hard parts a visitor should know.' / 'This is how that happened.' / 'Beyond the main Coney Island Beach page, this one covers ...' / 'For food, here is what our sources say.' / 'This page tells the story from the name to the 2025 casino fight ... Where sources disagree, this page says so.' / 'This page tells how each survived ...' / 'This page covers the physical beach ...'",
+      "problem": "Talk about the page itself and 'our sources'. Readers want the facts, not a table of contents.",
+      "evidence": "Brief copy rules; dispatch: flag meta-talk.",
+      "fix": "main intro_text: delete the sentence 'This page covers the beach day first, then the story of the parks, then the hard parts a visitor should know.' main spike_explainer: delete 'This is how that happened.' travel intro: delete paragraph 2. travel sections[7]: replace 'For food, here is what our sources say. None gives fall hours, so call or check each website before you go.' with 'We found no fall hours for these places, so call or check each website before you go.' history intro: replace paragraphs 2-3 with 'The story of Steeplechase, Luna Park and Dreamland is on the main Coney Island Beach page.' the-rides intro: delete the last sentence. the-shoreline intro: replace paragraph 2 with 'The story of the amusement parks is on the main Coney Island Beach page.'"
+    },
+    {
+      "where": "Clever lines: main.part1of2.json intro_text (paragraph 4, last two sentences) and spike_explainer (last paragraph, first and last sentences)",
+      "claim": "'The parks are gone. The free beach is still here.' / 'Walk the boardwalk today and you can still read the old map.' / 'And the sand that people once looked at through wire fences is open to anyone who gets off the train.'",
+      "problem": "Slogan-style closers the brief bans.",
+      "evidence": "Brief: 'Plain, not clever: no slogans, wordplay, aphorisms'.",
+      "fix": "intro_text: replace with 'All three big parks are gone. The beach is still free and open to the public.' spike_explainer last paragraph: replace the first sentence with 'Some of the old sites are still easy to find.' and the last sentence with 'The beach that was once fenced off is now free and open to the public.'"
+    },
+    {
+      "where": "Repetition across pages: main.part1of2.json (intro_text para 4, spike_explainer 'The beach that stayed', zones[1].character); spoke.history.json sections[6] and sections[7] vs spoke.the-rides.json sections[5]; spoke.travel.json sections[4]",
+      "claim": "The 1912 'only West 23rd Street' fact appears three times on the main page. The Astroland sale to Thor (Nov 28, 2006, $30 million, $1.5 billion resort) and the city's $100 million purchase from Joe Sitt are told on both the history and the-rides spokes. The 2023/2024 drownings are retold on travel after the main reckoning.",
+      "problem": "Brief: 'Say each thing once.' The travel retelling is short and safety-relevant, so it can stay; the others can be trimmed.",
+      "evidence": "Values match on every surface; this is repetition, not contradiction.",
+      "fix": "main zones[1].character: delete 'In 1912, West 23rd was the only street with a direct public path from Surf Avenue to the beach.' main intro_text para 4: delete 'In 1912 only one street, West 23rd, gave the public a direct path from Surf Avenue to the sand.' spoke.history.json sections[6]: replace the last two sentences of paragraph 4 with 'The Albert family sold Astroland to Thor Equities in 2006; the rides page tells what came next.'"
+    },
+    {
+      "where": "spoke.travel.json meta_description",
+      "claim": "'... Check the water map first. Full guide inside.'",
+      "problem": "'Full guide inside.' is filler.",
+      "evidence": "Brief: plain copy, no clickbait.",
+      "fix": "Replace with: 'Take the D, F, N or Q to Stillwell Avenue. Swim only in open, guarded sections, 10 a.m. to 6 p.m. in season. Check the city water map before you swim.'"
+    }
+  ],
+  "summary": [
+    "Verdict FAIL: 6 blocking, 17 advisory across the five-page package; most cross-page facts (Parachute Jump 1964, Cyclone, Sandy 600,000/580,000, enterococci 227 vs 104, season dates, boardwalk dates and costs, wheelchair access, casino vote) agree.",
+    "Worst finding: Luna Park's closing is told two ways on the main page: 'sources differ' with only one source in the explainer, and a flat 1946 in the timeline. The sheet's conflict note says to use 1944 or 1946.",
+    "Travel spoke miscounts the drownings ('two deaths' for three people) and states the $3 fare as fact when its sources only said it was expected; it also credits the $35 cap to ABC7, which reported $36.",
+    "Main reckoning credits the Sandy boardwalk surge to the Army Corps; the source is Marine Technology Reporter, and both spokes say so. It also stretches the activist's 'not the ocean as much' to 'not the ocean'.",
+    "The other fixes are a comma splice in day_in_time.dawn, 'late 1900s' (reads as the 20th century), an undated Deno's season range not in the sheet, plus meta-talk, slogan lines and jargon. Every fix has exact replacement wording."
+  ]
+}

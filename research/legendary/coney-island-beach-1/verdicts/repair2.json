@@ -1,0 +1,48 @@
+{
+  "slug": "coney-island-beach-1",
+  "pass": "repair2 (applies verdicts/v2.package.json under editor's rulings)",
+  "date": "2026-10-13",
+  "blocking": [
+    {"n": 1, "where": "main spike_explainer (Luna Park) + timeline[8]", "status": "applied", "note": "Both 1944 (Wikipedia, eastern half) and 1946 (6sqft) now named in the explainer; timeline says 'sources give 1944 or 1946'. Fact ids H103, P001 already on the row."},
+    {"n": 2, "where": "travel sections[4]", "status": "applied", "note": "Now 'Three people drowned in two recent cases, in 2023 and 2024. Both happened in water where swimming was not allowed.'"},
+    {"n": 3, "where": "travel sections[0] fare", "status": "adjusted", "note": "Editor's ruling 1: ABC7 approval article (G36, G37) used for both the $3 fare from Jan 4, 2026 and the $35 cap, down from $36 first proposed. CBS and the July ABC7 plan dropped from the paragraph, so G25, G27 removed from fact_ids and their two source entries removed. G36, G37 kept. Midtown travel-time line kept as 'We found no travel time from Midtown'."},
+    {"n": 4, "where": "main honest_reckoning_note", "status": "applied", "note": "Activist quote softened to 'more than the ocean did'; surge credited to Marine Technology Reporter, matching history and the-shoreline."},
+    {"n": 5, "where": "main spike_explainer 'late 1900s'", "status": "applied", "note": "'Within its first few years, Luna Park drew five million guests a year.'"},
+    {"n": 6, "where": "main day_in_time.dawn", "status": "applied", "note": "Comma splice split into two sentences."}
+  ],
+  "advisory": [
+    {"n": 1, "topic": "Mermaid Parade vs season opening", "status": "applied", "note": "intro_text and recurring_events[0] now say a ceremony marks the start of summer swimming; recurring_events adds 'Lifeguarded swimming starts earlier, on Memorial Day weekend' (V009 added). Also fixed the same wording in zones[1].character, which the verdict did not list."},
+    {"n": 2, "topic": "Nathan's sale wording", "status": "applied", "note": "Identical sentence on main businesses[0] and travel sections[7]: $450 million, January 21, 2026, expected to close in first half of 2026, 'We found no report that the sale has closed.' (C081)."},
+    {"n": 3, "topic": "Deno's opening March vs April 12", "status": "applied", "note": "Main landmarks[1] now gives both, attributed; V029 added. the-rides already gave both."},
+    {"n": 4, "topic": "the-rides 'May 25 through September 8'", "status": "adjusted", "note": "Sentence removed (editor ruling 2: no fact supports it). Not added to the sheet."},
+    {"n": 5, "topic": "the-rides 'In 2026, riders had to be' 54/50 inches", "status": "applied", "note": "Both now 'Wikipedia lists a minimum height of 54/50 inches.'"},
+    {"n": 6, "topic": "'That motive has never been proven'", "status": "applied", "note": "'We found no other source that confirms this motive.'"},
+    {"n": 7, "topic": "Parachute Jump 'all that is left of Steeplechase'", "status": "applied", "note": "Attributed to 6sqft (P012)."},
+    {"n": 8, "topic": "History Project 'probably 2026' / 200th anniversary", "status": "applied", "note": "Verdict wording used; guess removed."},
+    {"n": 9, "topic": "history aquarium 'more likely a plan'", "status": "applied", "note": "'WNYC's dates show the aquarium did not open there until 1957.'"},
+    {"n": 10, "topic": "flood plan status 'after 2023' vs 'after early 2023'", "status": "applied", "note": "history now 'We found no report on the plan's status after early 2023.' matching the-shoreline."},
+    {"n": 11, "topic": "history repeated Central Amusement International", "status": "applied", "note": "Verdict wording; now names Zamperla too, matching main and the-rides."},
+    {"n": 12, "topic": "main zones[1].notes semicolons", "status": "applied", "note": "Split into short sentences."},
+    {"n": 13, "topic": "Jargon", "status": "applied", "note": "Groin defined once per page as 'a rock wall built out into the water to hold sand' (main zones[0], the-shoreline intro). 'machine' -> 'political organization'; 'authorized design' -> Corps-designed shape; T-groins/spur/dike reworded; 'combined sewer outfall' -> 'a sewer pipe that carries both'; bioswales explained."},
+    {"n": 14, "topic": "Meta-talk on all five pages", "status": "applied", "note": "Removed: main intro roadmap sentence, 'This is how that happened', travel intro para 2, history intro paras 2-3 (replaced by one cross-link line), history sections[4] 'The main page tells...' opener, the-rides intro last sentence, the-rides 'The main page tells...' sentences in sections[2] and [3], the-shoreline intro para 2 (replaced by one cross-link line). All 'our sources'/'This page found' -> 'We found no...' or 'We could not confirm...'."},
+    {"n": 15, "topic": "Slogan closers", "status": "applied", "note": "Verdict replacements used in intro_text and spike_explainer last paragraph."},
+    {"n": 16, "topic": "Repeated stories", "status": "applied", "note": "West 23rd: cut from intro_text and zones[1].character (H058 removed from zone fact_ids); told once in spike_explainer. Astroland sale: full story (Nov 28, 2006, $30 million, $1.5 billion resort) only on the-rides; history keeps one line without the 'rides page' pointer (meta-talk). The $100 million Joe Sitt purchase left on both history (land fight) and the-rides (Luna Park origin), same figure. Travel drowning recap kept per verdict (safety)."},
+    {"n": 17, "topic": "travel meta_description 'Full guide inside.'", "status": "applied", "note": "Verdict wording used (150 chars)."}
+  ],
+  "editor_extra": [
+    {"topic": "history title sentence case", "status": "applied", "note": "\"How Coney Island's beach became public\""}
+  ],
+  "files_changed": [
+    "site/content/beaches/coney-island-beach-1/showcase.json (main fields; spokes_content regenerated by merge_spokes.py)",
+    "research/legendary/coney-island-beach-1/spoke.travel.json",
+    "research/legendary/coney-island-beach-1/spoke.history.json",
+    "research/legendary/coney-island-beach-1/spoke.the-rides.json",
+    "research/legendary/coney-island-beach-1/spoke.the-shoreline.json"
+  ],
+  "not_changed": "composition.json (no finding touched it); no hero_image or section image fields touched.",
+  "gates": "merge_spokes ok (4 spokes, routes ok); MECH 1/1 PASS (warns: spokes_content stray key, food_drink 2 < floor 3 - both pre-existing); TRACE 1/1 PASS; SPOKE GATE PASS (travel 1862 words, history 1837, the-rides 1808, the-shoreline 1891).",
+  "open_notes": [
+    "main intro_text is now 2,487 chars, 13 under the brief's 2,500 target after the cuts; not padded.",
+    "Fare: the ABC7 approval article says the change was 'expected' to take effect Jan 4, 2026; the page now states it as the board's decision, per editor's ruling."
+  ]
+}
