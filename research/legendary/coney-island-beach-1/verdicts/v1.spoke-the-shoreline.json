@@ -1,0 +1,115 @@
+{
+  "slug": "coney-island-beach-1 / spoke.the-shoreline",
+  "verdict": "FAIL",
+  "claims_checked": 78,
+  "fetches_used": 4,
+  "searches_used": 2,
+  "spike_verdict": "n/a (spoke). The factual core (sand volumes, Sandy, boardwalk fight, creek, flood plan, water test, crabs) stays within the sheet; the lede claim that the beach was 'pumped in' and 'much' man-made goes past it.",
+  "suspicion_results": {
+    "1_horseshoe_1.2_billion": "NOT from memory. The explanation 'out of line with the record for the species' is the sheet's own researcher note in conflicts[50] ('use 300 million (or avoid), and note the 1.2 billion figure is out of line with the species record'). But NO fact (no id, no quote) carries either the 300 million or the 1.2 billion figure, so neither number was mechanically quote-checked, and the judgment has no source. My fetches of both NYC Parks pages returned 403, so I could not confirm either number. Rated advisory, not blocking.",
+    "2_sand_volumes": "PASS. 600,000 lost (P046) and 580,000 placed (P047) are kept distinct and the page says so (matches conflicts[45]). 125,000 planned (P053) vs 75,000 placed (P054) also kept distinct (conflicts[46]).",
+    "3_494M": "Attributed to the Corps as its estimate (P048), twice. Residual issue: the sentence before it states the protection as fact in the page voice, and P048 is medium confidence. Advisory.",
+    "4_dating": "PASS. Creek: 'As of November 2023' (P098) plus 'no decision 2024 to 2026' (dead_end 40). Flood plan: 'newest source, February 2023' plus 'no source after early 2023'. Two web searches found no 2025-26 update to either, so nothing contradicts. Small tense slips listed in advisory.",
+    "5_water_ratio": "PASS. 227, 104 and ~20 are stated as separate values; no ratio and no '10x the limit' (conflicts[4]). ABC7 fetched: 'average bacteria level is approximately 20 per hundred milliliters'; 'a dozen beaches' confirmed."
+  },
+  "blocking": [
+    {
+      "where": "spoke.the-shoreline intro (para 1, sentences 1-2); sections[0].heading and sections[0].body sentence 1; meta_description",
+      "claim": "'Much of the sand at Coney Island Beach was put there by people. The city pumped in 1.7 million cubic yards of sand to widen the beach before the boardwalk opened in 1923.' / 'A large part of Coney Island Beach is man-made.' / meta: 'Much of Coney Island's beach was pumped in by people.'",
+      "problem": "The sheet gives only H066: the 'immense engineering project required 1.7 million cubic yards of sand to add another 2.5 million square feet to the beach area'. No fact says the sand was 'pumped'. No fact gives the share of the beach that is man-made, so 'much' and 'a large part' are unsupported. H068 says the 'beach improvement and boardwalk construction began in 1921', so 'before the boardwalk opened in 1923' is also unsupported: the boardwalk opened in stages from Oct 1922 to May 15, 1923 (H064), and no source says the sand work finished first. The page's lede and its search snippet rest on this.",
+      "evidence": "https://www.nycgovparks.org/parks/coney-island-beach-and-boardwalk/highlights/204 : 'the immense engineering project required 1.7 million cubic yards of sand to add another 2.5 million square feet to the beach area'. Sheet search for pumped/hydraulic/man-made/artificial returns 0 facts.",
+      "fix": "intro para 1: 'People added sand to Coney Island Beach to make it wider. A NYC Parks sign says the project that began in 1921 used 1.7 million cubic yards of sand and added 2.5 million square feet of beach. Since then, crews have added more sand and built stone groins, rock structures meant to slow the loss of sand.' | sections[0].heading: 'How did people build the beach?' | sections[0].body first two sentences: 'People added sand to widen Coney Island Beach. The city got title to the beachfront in 1921 and then built the beach out to hold the crowds.' | meta_description: 'People added sand to widen Coney Island's beach. See what Hurricane Sandy took, how the city tests the water, the creek's pollution and the flood plans.'"
+    }
+  ],
+  "advisory": [
+    {
+      "where": "sections[6].body, para 4 (horseshoe crab age)",
+      "claim": "'The 1.2 billion figure is out of line with the record for the species, so this page uses 300 million.'",
+      "problem": "Source is only the researcher note in conflicts[50]; no fact id or quote holds either figure, so neither was quote-checked, and the page contradicts an official Parks page in its own voice with no cited source. Parks pages returned 403 to me, so I could not confirm either.",
+      "evidence": "conflicts[50]: 'use 300 million (or avoid), and note the 1.2 billion figure is out of line with the species record.'",
+      "fix": "'Two NYC Parks pages disagree on how old the species is. The horseshoe crab page says more than 300 million years. The Coney Island Creek Natural Area page says roughly 1.2 billion years. We could not check either against a science source, so this page does not give an age.'"
+    },
+    {
+      "where": "sections[1].body para 4",
+      "claim": "'The raised beach also protected what stood behind it. The Corps estimates that it avoided about $494 million...'",
+      "problem": "First sentence states the protection as fact in the page voice; P048/P049 are medium confidence and the figure is the Corps' estimate as quoted by the magazine.",
+      "evidence": "P048: 'avoided an estimated $494 million in damages' (Marine Technology Reporter 2023, medium).",
+      "fix": "'The Army Corps says the raised beach limited damage behind it. It estimates that the beach avoided about $494 million in damage to houses and other structures during Sandy. That is the Corps' own estimate, as quoted by Marine Technology Reporter.'"
+    },
+    {
+      "where": "sections[2].body para 3",
+      "claim": "'Cost was the city's main argument.'",
+      "problem": "No fact ranks the city's arguments. P071 also gives durability and non-slip (Parks 'concluded that concrete was more durable than faux wood and didn't get slippery'), and P069 says no suitable wood was found.",
+      "evidence": "P071, P069.",
+      "fix": "'The city gave cost and durability as reasons.'"
+    },
+    {
+      "where": "sections[2].heading and first body sentences",
+      "claim": "Heading 'Why is part of the boardwalk concrete and plastic?' (present tense)",
+      "problem": "Newest surface fact is Nov 2014 (P074-P076); the body itself says current sections cannot be confirmed, so the heading asserts more than the sheet.",
+      "evidence": "P074 (2014-11).",
+      "fix": "heading: 'Why did the city replace parts of the boardwalk with concrete and plastic?'; first body sentences: 'The boardwalk was built of wood. After a long public fight, the city approved replacing parts of it with concrete and recycled plastic in 2012.'"
+    },
+    {
+      "where": "sections[0].body para 1",
+      "claim": "'Wikipedia puts the boardwalk and related projects at $20 million, a wider scope.'",
+      "problem": "'Wider scope' is inference. H067 says only 'the boardwalk and related improvement projects cost $20 million'; the sign says '$3 million beach improvement and boardwalk construction'. The sheet does not say the two measure different things.",
+      "evidence": "H067, H068.",
+      "fix": "'Wikipedia puts the boardwalk and related improvement projects at $20 million. The two figures come from different sources, and we could not reconcile them.'"
+    },
+    {
+      "where": "sections[0].body para 2",
+      "claim": "'The new beach did not stay put.'",
+      "problem": "Inference. Moses (P019) describes a receding 1937 beach but does not say the 1920s sand washed away.",
+      "evidence": "P019.",
+      "fix": "'By 1937 the beach was shrinking.' (then keep the Moses sentence)"
+    },
+    {
+      "where": "sections[3].body para 5",
+      "claim": "'Locals still swim, fish and hold religious ceremonies at Kaiser Park on the creek'",
+      "problem": "'Still' presents a Dec 2020 report as current.",
+      "evidence": "P095 (Brooklyn Paper, 2020-12): 'many locals use the creek to swim, fish, and conduct religious ceremonies in kaiser park'.",
+      "fix": "'A 2020 Brooklyn Paper report said many locals swim, fish and hold religious ceremonies at Kaiser Park on the creek, which environmentalists say risks long-term harm.'"
+    },
+    {
+      "where": "sections[3].body para 4",
+      "claim": "'The Superfund process has moved slowly.' / 'The state does not list a water body unless it is first a federal Superfund site.'",
+      "problem": "'Slowly' is editorial, not in the sheet. The state rule is a Nov 2023 statement given in present tense.",
+      "evidence": "P098 (2023-11).",
+      "fix": "'Here is the timeline.' / 'As of November 2023, the state did not list a water body unless it was first a federal Superfund site.'"
+    },
+    {
+      "where": "sections[4].body para 1",
+      "claim": "'The biggest flood plan for Coney Island is an Army Corps of Engineers draft...'",
+      "problem": "Unsourced superlative; the sheet says only that it is a $52 billion plan 'for New York and parts of New Jersey'.",
+      "evidence": "P057.",
+      "fix": "'One major flood plan that includes Coney Island is an Army Corps of Engineers draft called the New York-New Jersey Harbor and Tributaries plan, released September 26, 2022.'"
+    },
+    {
+      "where": "sections[5].body para 1",
+      "claim": "'The city Health Department tests the water at Coney Island every week during beach season. Sampling starts one month before the season opens.'",
+      "problem": "Time-sensitive rule (V047/V048, 2026) carries no year, and the 2026 season ended Sept 13.",
+      "evidence": "V047, V048, conflicts[6].",
+      "fix": "'In 2026 the city Health Department tested the water at Coney Island every week during beach season. Sampling started one month before the season opened.'"
+    },
+    {
+      "where": "sections[5].body para 3",
+      "claim": "'On July 9 the city warned people to stay out of the water at a dozen beaches.'",
+      "problem": "Counts differ by outlet: ABC7 says 'a dozen' (V053, confirmed on the page), Fox says 18 locations were under advisory (V058). The page does not attribute.",
+      "evidence": "V053, V058.",
+      "fix": "'On July 9, ABC7 reported the city warned people to stay out of the water at a dozen beaches. Fox Weather counted 18 locations under advisory.'"
+    }
+  ],
+  "verified_ok": [
+    "H066 1.7M cubic yards / 2.5M sq ft; H068 $3M sign; H067 $20M Wikipedia; H063 title 1921; H077 2-foot sand 1938-41; P019 Moses quote and 50 acres/1937 (recorded speech per P020)",
+    "P051/P052/P053 Sea Gate $25.2M, four T-groins, spur, Norton Point dike, 100,000 tons, ~125,000 cu yd planned; P054 75,000 placed 2016 (labeled planned vs placed)",
+    "P046 600,000 lost; P047 580,000 placed 2013 (kept distinct); P049; P056 Hammerman quote; P063 king tide quote and 10 years",
+    "P064-P076 boardwalk: 6-0 vote Mar 12 2012, 12-ft/19-ft design, 40+ testified, $90/$114/$40 comparisons labeled as different baselines, Hart quote, black locust, May 2011 16 to 12 ft, 1,000 signatures, Nov 2014 $10M 10-ft lane, Sanoff quote",
+    "H013, H143-H145 Jamaica Ditch 1750 and fill to 1962 (Wikipedia, partly medium confidence); P092, P094, P097, P098 (as of Nov 2023), P099, P100",
+    "P057-P062 flood plan: Sept 26 2022, $52B, 'shocker' (confirmed on History Project page), 5 ft, Denson quote, tide gate, deadline Jan 6 to Mar 31 2023, 2030 construction (attributed to 2022 post); status dated early 2023; web search found no 2025-26 update",
+    "P101 sea level a foot since 1900, 1-2 ft by 2050s (THE CITY, Jan 2024)",
+    "V049-V053, V056-V060, V113, V114 water testing; 227/104/~20 never turned into a ratio; ABC7 page confirms 'average ... approximately 20 per hundred milliliters'",
+    "P077-P083 crabs: May/June, 100,000 eggs, 2-4 weeks, flip quote, IUCN vulnerable (attributed to Parks), Brooklyn list excludes Coney Island Beach, Calvert Vaux 2011, double/triple body weight; seals/plovers dead_end respected",
+    "Sources list covers every cited fact URL; no named minor victims; no dead-end items supplied"
+  ]
+}

@@ -98,7 +98,7 @@ export default async function BeachLayout({
     <div>
       <BeachJsonLd data={data} />
       <BeachHero name={displayName} location={location} />
-      <LensTabs slug={slug} activeLenses={meta.lenses} />
+      <LensTabs slug={slug} activeLenses={meta.lenses ?? []} />
       <div className="mx-auto max-w-7xl px-4 py-8">{children}</div>
     </div>
   );

@@ -323,8 +323,11 @@ function SpokesSection({ bundle }: { bundle: LegendaryPageBundle }) {
     audience_guide: "Audience guide", deep_dive: "Deep dive",
     event: "Event", anthology: "Anthology",
   };
+  const authored = (bundle.showcase as unknown as {
+    spokes_content?: Record<string, { title?: string; kicker?: string }>;
+  }).spokes_content ?? {};
   const title = (s: string) =>
-    s.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+    authored[s]?.title ?? s.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
   return (
     <section id="spokes" className="mx-auto max-w-5xl px-6 py-16 sm:py-20">
       <div className="text-[11px] font-mono uppercase tracking-[0.3em] mb-6" style={{ color: "var(--beach-primary, #475569)" }}>
@@ -335,15 +338,18 @@ function SpokesSection({ bundle }: { bundle: LegendaryPageBundle }) {
           <Link
             key={i}
             href={`/beaches/${bundle.composition.slug}/${sp.slug}`}
-            className="group flex items-baseline justify-between gap-4 border-t-2 pt-4 hover:opacity-80 transition-opacity"
+            className="group block border-t-2 pt-4 hover:opacity-80 transition-opacity"
             style={{ borderColor: "var(--beach-primary, #cbd5e1)" }}
           >
-            <span className="font-display text-2xl text-volcanic-900" style={{ fontFamily: "var(--display-family)" }}>
-              {title(sp.slug)}
+            <span className="block font-mono text-[10px] uppercase tracking-[0.12em] text-volcanic-400 mb-2">
+              {LABELS[sp.type] ?? "More"}
             </span>
-            <span className="font-mono text-[10px] uppercase tracking-[0.12em] text-volcanic-400 whitespace-nowrap">
-              {LABELS[sp.type] ?? "More"} →
+            <span className="block font-display text-2xl text-volcanic-900" style={{ fontFamily: "var(--display-family)" }}>
+              {title(sp.slug)} <span aria-hidden="true">→</span>
             </span>
+            {authored[sp.slug]?.kicker && (
+              <span className="block mt-2 text-[15px] leading-snug text-volcanic-500">{authored[sp.slug]?.kicker}</span>
+            )}
           </Link>
         ))}
       </div>

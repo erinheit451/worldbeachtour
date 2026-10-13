@@ -1,0 +1,131 @@
+{
+ "slug": "coney-island-beach-1/spoke.travel",
+ "verdict": "FAIL",
+ "claims_checked": 95,
+ "fetches_used": 6,
+ "searches_used": 2,
+ "spike_verdict": "n/a (spoke). Core hours, season, swim-section and water-quality claims stay within the sheet; five wording problems need repair.",
+ "blocking": [
+  {
+   "where": "spoke.travel.sections[0].body (fare paragraphs)",
+   "claim": "The fare was set to rise to $3 in January 2026. ... Our sources are reports of the plan, not a 2026 confirmation.",
+   "problem": "Stale framing relative to 2026-10-13. The $3 base fare is confirmed live on the MTA site, but the page tells a visitor it is only a plan. Resolves sheet dead_end 'Whether the Jan 2026 fare and $35 cap actually took effect'.",
+   "evidence": "https://www.mta.info/fares-tolls (fetched 2026-10-13): 'The fare is $3 for most riders on subways and local, limited, rush, and Select Bus Service buses.' and 'Reduced fares for seniors and people with qualifying disabilities are half the regular fare.' Sheet G24, G28.",
+   "fix": "Replace the two fare paragraphs (from 'The fare was set to rise' through 'use a trip planner.') with: 'The subway and local bus fare is $3, according to the MTA's fares page in October 2026. The reduced fare is half of that, $1.50. The weekly fare cap is less clear. In September 2025, CBS New York reported a $35 cap for seven days of subway and bus rides. ABC7 had reported $36 in July 2025. The MTA fares page does not list the cap, so check the MTA before you count on either number. Our sources give no travel time from Midtown, so use a trip planner.' Add to sources: {\"label\":\"MTA - Fares and tolls (checked October 2026)\",\"url\":\"https://www.mta.info/fares-tolls\"}."
+  },
+  {
+   "where": "spoke.travel.sections[5].body, paragraph 3 (citywide rules)",
+   "claim": "Fox 5 NY reported in May 2025, citing NYC Parks, that alcohol and dogs other than service animals are not allowed on New York City's public beaches.",
+   "problem": "Picks one side of a listed conflict without saying sources differ. Sheet conflict [gaps] 'Dogs on city beaches': Fox 5 (G17) says dogs not permitted on beaches generally, but the Orchard Beach rules page (G14) bans dogs only from Memorial Day weekend to Oct. 1. Dead_end: no Coney Island alcohol or dog rule in any source. G17 is medium confidence. A visitor could be misled on dogs in the off-season.",
+   "evidence": "G17 quote: 'alcoholic beverages and dogs, barring service animals, are not permitted on the beaches.' G14 quote: 'dogs, except service animals, on beach and promenade from memorial day weekend to oct. 1'.",
+   "fix": "Replace the whole paragraph with: 'We found no alcohol or dog rule written for Coney Island Beach. Fox 5 NY reported in May 2025 that alcohol and dogs other than service animals are not permitted on the city's public beaches. That is a press summary for all eight city beaches. NYC Parks' own page for a different beach, Orchard Beach in the Bronx, bans dogs only from Memorial Day weekend to October 1, so the dog rule may depend on the season. Our sources say nothing about glass, grills or smoking at Coney Island. Before you bring alcohol, a dog or any of those, call 311 or the Parks beach office listed above.'"
+  },
+  {
+   "where": "spoke.travel.sections[4].body, paragraph 3",
+   "claim": "The recent deaths on record here happened in water closed to swimmers.",
+   "problem": "Overgeneralizes a safety statistic. The sheet holds exactly two incidents (July 2023, July 2024); dead_end says 'Any 2025 drownings or rescues at Coney; only 2023 and 2024 incidents'. 'Deaths on record' implies a full record.",
+   "evidence": "V061, V062, V067, V068; dead_end [visit] drownings.",
+   "fix": "Replace with: 'Two deaths described in our sources happened in water where swimming was not allowed.'"
+  },
+  {
+   "where": "spoke.travel.sections[6].body, paragraph 2 (Aquarium)",
+   "claim": "The New York Aquarium was open in October 2026, running Ascarium weekends with animal chats, pumpkin sculptures and bubble shows included with admission.",
+   "problem": "Presents an off-season business as open with no hours. N101 quote has no 'Ascarium', 'weekends' or 'open'. Web re-fetch of the About page: no hours, no event dates ('this weekend'); the hours page URL returned 404. Tense also mixed on 2026-10-13.",
+   "evidence": "https://nyaquarium.com/about fetched 2026-10-13: animal chats, Sea of Illusions, Pumpkin Sculptures, Bubble Performances 'all included with admission'; no hours or dates.",
+   "fix": "Replace with: 'The New York Aquarium's website promotes Ascarium events in October 2026, with animal chats, pumpkin sculptures and bubble shows included with admission. Our sources do not give its fall hours, so check nyaquarium.com before you go.'"
+  },
+  {
+   "where": "spoke.travel.sections[6].body, paragraph 4",
+   "claim": "For food, we list only places our sources confirm are open.",
+   "problem": "Self-contradicting: the same paragraph and the next list Luna Park food (no fall hours; dead_end 'fall-2026 hours') and Totonno's ('We could not confirm it is open today'). Nathan's 'still runs' rests on a Wikipedia line (C078), not an operating-status source.",
+   "evidence": "dead_ends [now] Luna Park fall-2026 hours; [culture] Totonno's current status; C078.",
+   "fix": "Replace the sentence with: 'For food, here is what our sources say. None gives fall hours, so call or check each website before you go.'"
+  }
+ ],
+ "advisory": [
+  {
+   "where": "spoke.travel.intro; sections[1].body paragraph 2",
+   "claim": "In 2026, Brooklyn's beaches opened on Saturday, May 23 ... Lifeguards sat in their chairs every day until September 13.",
+   "problem": "V027/V028 are a May 21 preview ('will officially reopen', 'will be in their chairs'); page states it as held. Parks' Sept 2026 page (V008) supports the season window, but no source rules out early closures.",
+   "evidence": "V027, V028, V008",
+   "fix": "Use: 'In 2026, Brooklyn's beaches were set to open on Saturday, May 23, at 10 a.m. Parks said the season ran through September 13, a week after Labor Day, with lifeguards on duty from 10 a.m. to 6 p.m.'"
+  },
+  {
+   "where": "spoke.travel.sections[4].body paragraph 3",
+   "claim": "The beach is busy at night, but night swimming is not allowed. ... Coney Island is the only city beach where Parks runs a 24-hour operation.",
+   "problem": "'Busy at night' is in no fact. V035 quote is 'the only place where we have a 24 hour operation', not 'only city beach'.",
+   "evidence": "V035",
+   "fix": "Write: 'Night swimming is not allowed. In May 2026, Parks Commissioner Tricia Shimamura said Coney Island is the only place where Parks runs a 24-hour operation. Swimming is still prohibited whenever lifeguards are off duty.'"
+  },
+  {
+   "where": "spoke.travel.sections[4].body paragraph 1",
+   "claim": "Officials give one main rule ... Gothamist said that was the most important warning from experts.",
+   "problem": "'Officials' vs 'experts' mismatch; V064 says experts.",
+   "evidence": "V064",
+   "fix": "Change 'Officials give one main rule' to 'Experts give one main rule'."
+  },
+  {
+   "where": "spoke.travel.sections[7].body, restroom paragraphs",
+   "claim": "NYC Open Data lists eight restroom zones ... Two are listed as open year-round ... Six of the eight list baby-changing stations.",
+   "problem": "Open Data record is undated and medium confidence (G11-G13). The three named restroom pages are dated Aug 2024, Jun 2025, Aug 2025 and give no hours or season (dead_end [gaps]). In October the page never says whether any restroom is open now. G13 says 'changing stations', not 'baby'. Zone data is correctly NOT mapped to named restrooms (checked).",
+   "evidence": "G01-G13; dead_end [gaps] restroom hours.",
+   "fix": "Change 'baby-changing stations' to 'changing stations'. Add after the Brighton sentence: 'The three restroom pages do not give hours or say whether the restroom is open in the off-season, and the Open Data list is undated.'"
+  },
+  {
+   "where": "spoke.travel.sections[7].body (wheelchair phone)",
+   "claim": "Parks' form also gives (718) 885-2275, but ... it may be a copy error.",
+   "problem": "V020 says 'a citywide line or a copy-paste'; page drops the citywide possibility.",
+   "evidence": "V020; conflict [visit] wheelchair phone",
+   "fix": "Change to 'so it may be a citywide line or a copy error. Confirm online.'"
+  },
+  {
+   "where": "spoke.travel.sections[2].body (beach office phone)",
+   "claim": "The Parks beach office for Coney Island and Brighton Beach is (718) 946-1350.",
+   "problem": "Number is in fact V001 text but not in its verbatim quote, so quote_check did not confirm it. The Parks page returned 403 on re-fetch.",
+   "evidence": "V001",
+   "fix": "Keep only if the repair agent can confirm the number on nycgovparks.org/facilities/beaches/3; otherwise delete the sentence and the later 'Parks beach office listed above' references."
+  },
+  {
+   "where": "spoke.travel.sections[5].body last paragraph",
+   "claim": "In season, Parks gives out free SPF 30 sunscreen at all eight city beaches.",
+   "problem": "Quote says 'continue its free sunscreen program'; 'SPF 30' and 'gives out' are in the fact only.",
+   "evidence": "V012",
+   "fix": "Write: 'In season, NYC Parks runs a free sunscreen program at all eight city beaches, according to its Coney Island page.'"
+  },
+  {
+   "where": "spoke.travel.intro; sections[0].body",
+   "claim": "the subway stops a short walk from the sand; Pick your stop by where you want to sit.",
+   "problem": "No distance in any fact; second sentence is filler.",
+   "evidence": "dead_end [now] transport",
+   "fix": "Intro: 'the subway ends at Coney Island-Stillwell Avenue.' Delete 'Pick your stop by where you want to sit.'"
+  },
+  {
+   "where": "spoke.travel.sections[6].body paragraph 1",
+   "claim": "The beach and boardwalk stay open after September for walking, not swimming.",
+   "problem": "Boardwalk is closed 1-5 a.m. (V006).",
+   "evidence": "V006, V114",
+   "fix": "Add: 'The boardwalk is closed from 1 a.m. to 5 a.m.'"
+  },
+  {
+   "where": "spoke.travel.sections[6].body paragraph 4 (Nathan's sale)",
+   "claim": "our sources do not say whether the sale closed",
+   "problem": "Fine. Web search found no closing report; Wikipedia still says 'expected to be completed in the first half of 2026'.",
+   "evidence": "C081",
+   "fix": "Optional: add 'it was expected to close in the first half of 2026.'"
+  }
+ ],
+ "verified_ok": [
+  "Season: standing rule Memorial Day weekend to Sunday after Labor Day; 2026 through Sept 13; 2027 reopen Memorial Day weekend (V008, V009, V028, V046)",
+  "Lifeguard hours 10-6, swim only in open guarded sections, map after 10 a.m., red flags, Notify NYC (V003-V005, V077, V115)",
+  "Advisory vs closure signs, rain threshold, beach open during advisory, 104 limit, 227 on July 6 2026, July 9 2026 dozen beaches, 311 (V049-V057, V059, V113)",
+  "D/F/N/Q to Stillwell, 1243 Surf Ave, F/Q at W 8th, Aquarium walk, buses (V089, V090, V093, V095, V102)",
+  "Parking limited to what Parks and Fox 5 say (V013, G20)",
+  "Restroom zones kept separate from the three named restrooms; changing-table counts for W 27th, W 33rd; Brighton blank; accessibility caveat (G01-G13)",
+  "Wheelchair program: mats and pickup at the same eight streets, 11-5, 3 hours, 48 hours, ID, 18+, water's edge, check back 2 days before Memorial Day (V014-V026)",
+  "No Orchard or Manhattan Beach rule is presented as Coney Island's; the Orchard phone number is flagged",
+  "Boardwalk closed 1-5 a.m.; walking allowed when swimming closed (V006, V114)",
+  "Horseshoe crabs (P077, P079); sideshow season over (N135); 2026 Nathan's contest July 4 at 1310 Surf, held (N118, N109); Wikipedia confirms frog legs not at other locations (C078)",
+  "Minor victims not named; ages and dates match (V061, V062, V067-V070)",
+  "WEB: MTA fares page confirms $3 base fare is live; it does not state a weekly cap; no source found confirming Smithfield deal closed"
+ ]
+}

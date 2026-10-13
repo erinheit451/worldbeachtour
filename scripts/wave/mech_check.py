@@ -100,6 +100,12 @@ def check(root, slug):
     if len(c.get("sections") or []) < 15: E(f"sections {len(c.get('sections') or [])} < 15")
 
     for spk in (c.get("spokes") or []):
+        if c.get("tier") == 1:
+            # Tier-1 spokes are bespoke routes (app/beaches/<slug>/<spoke>/page.tsx) whose
+            # content lives in showcase.spokes_content[<spoke>], not lens .mdx files.
+            route = os.path.join(os.path.dirname(os.path.dirname(d)), "..", "app", "beaches", slug, spk.get("slug") or "", "page.tsx")
+            if not os.path.exists(route): E(f"tier-1 spoke route missing: app/beaches/{slug}/{spk.get('slug')}/page.tsx")
+            continue
         if spk.get("slug") not in LENSES: E(f"spoke slug {spk.get('slug')!r} not a valid lens -> route 404s")
         if not os.path.exists(os.path.join(d, f"{spk.get('slug')}.mdx")): E(f"spoke mdx missing: {spk.get('slug')}.mdx")
 

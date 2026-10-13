@@ -1,0 +1,153 @@
+{
+ "slug": "coney-island-beach-1",
+ "slice": "record",
+ "verdict": "FAIL",
+ "claims_checked": 31,
+ "fetches_used": 0,
+ "searches_used": 0,
+ "spike_verdict": "Not in slice (record: timeline, landmarks, cultural_refs only).",
+ "blocking": [
+  {
+   "where": "showcase.timeline[3].description (Dreamland burns, 1911)",
+   "claim": "Sparks from popping light bulbs set hot tar alight at the Hellgate ride. Dreamland burns and is never rebuilt.",
+   "problem": "Two unsupported claims. (1) 'never rebuilt' is in no fact: H085 says only 'destroyed'; the sheet has no statement about Dreamland not being rebuilt, and N038 mentions a different one-season 'Dreamland' carnival on the same ground in 2009, so the line also invites confusion. (2) The cause is stated as fact from one medium-confidence Brooklyn Paper article, and its quote does not say sparks or that tar ignited: it says only that workers were sealing a leak with tar when several bulbs above them popped.",
+   "evidence": "H084 https://www.brooklynpaper.com/a-look-back-on-coney-islands-fiery-history : 'workers were sealing a leak in the hellgate water ride with tar when several of the light bulbs above them popped' (medium). H085 https://en.wikipedia.org/wiki/Luna_Park,_Coney_Island_(1903) : 'dreamland survived until 1911, when it was destroyed in one of the many fires common on coney island'",
+   "fix": "Replace the description with: \"Fire destroys Dreamland. The Brooklyn Paper says it began when light bulbs popped over workers sealing a leak in the Hellgate ride with tar.\" (24 words)"
+  }
+ ],
+ "advisory": [
+  {
+   "where": "showcase.timeline[1].description",
+   "claim": "The gates open to 45,000 people.",
+   "problem": "Quote says the gates opened to 'a crowd of 45,000 guests', not to a capacity of 45,000; 'open to' reads as capacity. Also gates opened five minutes after the 8 p.m. lighting.",
+   "evidence": "H093 https://en.wikipedia.org/wiki/Luna_Park,_Coney_Island_(1903) : 'the park's gates opened five minutes later to a crowd of 45,000 guests'",
+   "fix": "Luna Park's lights come on at 8 p.m. on May 16. The gates open five minutes later to a crowd of 45,000. Admission is ten cents."
+  },
+  {
+   "where": "showcase.timeline[4].description (and .title)",
+   "claim": "A judge rules the beach belongs to the state, not to the amusement owners. An appeals court agrees in 1916.",
+   "problem": "Drops the exception: the 1916 appeals ruling upheld the decision 'with an exception made for part of Steeplechase Park'. Title says 'gives the beach back', but the sheet says only that the judge ruled it 'actually belonged to the state'; 'back' is an inference. Source field names Steeplechase Wikipedia but wiki_url points to Riegelmann (H055 also dates the lawsuit to 1912).",
+   "evidence": "H053/H054 https://en.wikipedia.org/wiki/Steeplechase_Park : 'a judge ruled in 1913 that the beach actually belonged to the state'; 'an appellate court affirmed this decision in 1916, with an exception made for part of steeplechase park'",
+   "fix": "title: \"Court rules the beach belongs to the state\"; description: \"A judge rules in 1913 that the beach belongs to the state, not to Tilyou and other amusement owners. An appeals court agrees in 1916, except for part of Steeplechase Park.\""
+  },
+  {
+   "where": "showcase.timeline[6]",
+   "claim": "Boardwalk opens: The boardwalk's final section opens on May 15, after crews bring in 1.7 million cubic yards of sand.",
+   "problem": "The 1.7 million cubic yards belongs to the whole beach project (which also added 2.5 million sq ft of beach), per the NYC Parks sign; the sheet does not tie it to the final section or say it was finished before May 15. The boardwalk also opened in stages (Oct 1922, Dec 1922), so the title means the full opening in 1923.",
+   "evidence": "H066 https://www.nycgovparks.org/parks/coney-island-beach-and-boardwalk/highlights/204 : 'the immense engineering project required 1.7 million cubic yards of sand to add another 2.5 million square feet to the beach area'; H064: 'the final section of the boardwalk, from west 17th to west 37th street, was officially opened with a ceremony on may 15, 1923'",
+   "fix": "title: \"Boardwalk fully opens\"; description: \"The last section opens on May 15. The beach project behind it used 1.7 million cubic yards of sand and added 2.5 million square feet of beach.\""
+  },
+  {
+   "where": "showcase.timeline[10].description",
+   "claim": "The Parachute Jump's last year is 1964 or 1968; sources differ.",
+   "problem": "Sheet resolves this: historian Charles Denson and the Coney Island History Project say 1964 (called the correct date), NYC Parks and engineer Helen Harrison say 1968, and the Brooklyn Paper says 1965 (N031). A bare '1964 or 1968' hides who says what and omits 1965; N030 is medium confidence.",
+   "evidence": "N029 https://en.wikipedia.org/wiki/Parachute_Jump : 'the jump closed in 1964 but that many publications give an erroneous date of 1968'; N030: NYC Parks website also cites 1968; N031: 'the brooklyn paper says the jump was shuttered in 1965'",
+   "fix": "Steeplechase closes for good on September 20. Historian Charles Denson says the Parachute Jump closed in 1964; NYC Parks gives 1968."
+  },
+  {
+   "where": "showcase.timeline[11] (1966 demolition party)",
+   "claim": "Fred Trump, the new owner, invites guests to throw bricks at the Steeplechase front, then bulldozes the park.",
+   "problem": "The 1966 year rests on a single blog (6sqft); Untapped (P011) gives no year. Not wrong, but unattributed.",
+   "evidence": "P010 6sqft (2018): 'people were invited to throw bricks at the facade of steeplechase'; conflict hist2: 'Demolition: 6sqft says 1966 (P010); Untapped gives no year.'",
+   "fix": "Fred Trump, who bought the park, invites guests to throw bricks at the Steeplechase front, then bulldozes it. 6sqft dates this to 1966."
+  },
+  {
+   "where": "showcase.timeline[14].description",
+   "claim": "A state advisory panel votes 4 to 2 against a $3 billion casino beside the boardwalk",
+   "problem": "The $3 billion is the whole development (N144: 'a $3 billion development'), and the panel voted against 'advancing' the application; the project has a name. C118 says the vote effectively ended the plan, so 'rejected' in the title is acceptable.",
+   "evidence": "N145 https://www.brownstoner.com/development/coney-island-casino-community-advisory-commitee-no-vote : 'the panel voted 4 to 2 against advancing the coney's casino license application'; N147: 'would have spanned 1.4 million square feet beside riegelmann boardwalk'",
+   "fix": "A state advisory committee votes 4 to 2 against advancing The Coney, a proposed $3 billion casino development beside the boardwalk. It had 921 written comments against and 17 for."
+  },
+  {
+   "where": "showcase.landmarks[1].description (Deno's Wonder Wheel)",
+   "claim": "A ride costs 10 credits.",
+   "problem": "Present tense with no year. N011 is medium confidence, Wikipedia, undated. Time-sensitive rule needs a year or attribution.",
+   "evidence": "N011 https://en.wikipedia.org/wiki/Wonder_Wheel : 'a ride on the wonder wheel costs 10 credits; the cost of each credit varies'",
+   "fix": "Wikipedia says a ride costs 10 credits, and the price per credit depends on how many you buy. Check Deno's site for current prices."
+  },
+  {
+   "where": "showcase.landmarks[5].description (Luna Park 2010) and .architect_or_designer",
+   "claim": "a Luna Pass started from $40 ... architect_or_designer: Zamperla / Central Amusement International",
+   "problem": "The $40 Luna Pass comes from the undated homepage (N051, medium); 'started' implies a known 2026 date. Zamperla / Central Amusement International won the lease and operate the park (N039); the sheet does not call them designers.",
+   "evidence": "N051: 'luna pass starting from $40' (official site, undated). N039: 'would be awarded to zamperla/central amusement international under a 10-year lease'",
+   "fix": "Replace 'a Luna Pass started from $40' with 'the Luna Park site advertises a Luna Pass from $40 (undated)'; set architect_or_designer to \"Operator: Zamperla / Central Amusement International\" or null."
+  },
+  {
+   "where": "showcase.landmarks[3].description (Parachute Jump)",
+   "claim": "Riders went up in just under a minute and dropped in 11 to 15 seconds.",
+   "problem": "N027 says 'most' riders went up in just under a minute; 'Riders' as written is absolute.",
+   "evidence": "N027 https://en.wikipedia.org/wiki/Parachute_Jump : up to half a million riders each season, 'most going up in just under a minute and dropping in 11 to 15 seconds'",
+   "fix": "Most riders went up in just under a minute and dropped in 11 to 15 seconds."
+  },
+  {
+   "where": "showcase.cultural_refs[3] (A Coney Island of the Mind)",
+   "claim": "listed as a work that features Coney Island",
+   "problem": "The sheet (C018, C019) confirms only that the book's title uses the phrase, which first appeared in Henry Miller's Black Spring as an insult. Nothing in the sheet says the poems are set in or about Coney Island. Brief rule: only works the sheet confirms feature Coney Island. The page text is accurate but the entry reads as a Coney Island work.",
+   "evidence": "C018 https://en.wikipedia.org/wiki/A_Coney_Island_of_the_Mind : 'there are approximately a million copies in print'; C019: 'everything is sordid, shoddy, thin as pasteboard. a coney island of the mind.'",
+   "fix": "Either delete the entry or reword: \"The phrase 'a Coney Island of the mind' first appeared in Henry Miller's Black Spring as a put-down: 'Everything is sordid, shoddy, thin as pasteboard. A Coney Island of the mind.' Lawrence Ferlinghetti used it as the title of his 1958 poetry book, which has about a million copies in print.\" (set ref_type to \"other\" so it is not read as a work set at the beach)"
+  },
+  {
+   "where": "showcase.cultural_refs[7] (Taylor Swift) and cultural_refs[5] (Lou Reed)",
+   "claim": "listed as Coney Island works",
+   "problem": "The sheet confirms only that a song/album carries the name (C008, C010, both from the Wikipedia pop-culture list). Nothing says what either is about. For Reed, 'often dated 1976' overstates: the sheet has one source (the hub, medium) dating it 1976; the album's own page gives December 1975.",
+   "evidence": "C008: 'featuring the national on her 2020 album evermore'. C010: 'lou reed 's 1976 album is entitled coney island baby' vs album page December 1975",
+   "fix": "Swift: \"A song titled 'Coney Island', featuring The National, is on Swift's 2020 album evermore.\" Reed: \"Lou Reed's album Coney Island Baby was released in December 1975; one Wikipedia list dates it 1976. Reed was King Neptune of the 2010 Mermaid Parade, with Laurie Anderson as Queen Mermaid.\""
+  },
+  {
+   "where": "showcase.cultural_refs[4] (Weegee)",
+   "claim": "A packed beach, shot from an elevated lifeguard station. Weegee photographed Coney Island crowds each summer for the newspaper PM. The V&A dates its print to 1940.",
+   "problem": "Two museum records merged: V&A (a 1940 'Coney Island' print, made c.1980) and the Whitney's 'Sardines' record (lifeguard station; PM). The sheet never says they are the same image, so the lifeguard-station detail is not confirmed for the V&A photo. 'Each summer' is not in the quote (it says only PM, where he did occasional freelance work). 'Its print' is wrong: the photo is dated 1940; the print is c.1980.",
+   "evidence": "H140 V&A: 'photograph by weegee, coney island, gelatin silver print 1940, printed by sid kaplan c.1980'. H141 https://whitney.org/collection/works/10434 : 'shot from an elevated lifeguard station'. H142: 'for pm, a tabloid-style newspaper for which he did occasional freelance work'",
+   "fix": "The V&A dates Weegee's 'Coney Island' beach photograph to 1940. Weegee also shot a crowd picture from an elevated lifeguard station (Whitney Museum) and photographed Coney Island crowds for the newspaper PM."
+  },
+  {
+   "where": "showcase.cultural_refs[2] (Annie Hall)",
+   "claim": "A real couple, Molly and George Moran, who built the original Thunderbolt, lived in a house beneath it.",
+   "problem": "Placed right after Alvy's house, it implies the film drew on the Morans. The sheet does not say so; N082 (NYC Tourism, 2019) states only that they lived under the coaster. C001 is medium. N081 says George Moran 'operated' the original while N082 says 'built'.",
+   "evidence": "N082: 'lived in the house underneath the roller coaster'; C001 (medium): 'lived in coney island as a child in a house that was under the thunderbolt rollercoaster'",
+   "fix": "Alvy Singer grows up in a house under the Thunderbolt roller coaster that shakes every time the coaster runs. NYC Tourism notes that Molly and George Moran, who ran the original Thunderbolt, really lived in a house under it."
+  },
+  {
+   "where": "showcase.cultural_refs[1] (The Warriors)",
+   "claim": "the film begins and ends under the Wonder Wheel",
+   "problem": "Attributed to Brooklyn Magazine (medium). The sheet's conflicts list reader comments saying the beach ending was at Breezy Point/Fort Tilden (C032, C033); unresolved. Attribution is present, so advisory only.",
+   "evidence": "C031 Brooklyn Magazine: 'walter hill's 1979 the warriors begins and ends under the coney island wonder wheel'; conflict [culture] The Warriors ending",
+   "fix": "No change to the wording; do not repeat the Wonder Wheel ending elsewhere on the page without 'Brooklyn Magazine says'."
+  },
+  {
+   "where": "showcase.landmarks[6].description (Maimonides Park)",
+   "claim": "Joey Chestnut set the record of 76",
+   "problem": "Correct and still current per N115 (July 2026 AP), but the page does not say so; the COVID reason for the 2021 move (N108) is omitted. 'Brought pro baseball back' is Wikipedia's wording about the Dodgers leaving in 1957 (attributed, fine).",
+   "evidence": "N115 AP via NBC New York, July 4 2026: 'fell short of his own 2021 record of 76 wieners and buns'; N106: 'for the first time since mlb's brooklyn dodgers had played their last game at ebbets field in 1957'",
+   "fix": "In 2021 the hot dog eating contest moved inside the park because of COVID limits, and Joey Chestnut set the contest record of 76 there. He fell short of it in July 2026."
+  }
+ ],
+ "verified_ok": [
+  "timeline[0] Steeplechase 1897 family park bans (H045)",
+  "timeline[2] 1907 fire July 29, 35 acres, ten-cent sign (H047-H049)",
+  "timeline[5] BMT 1920 five-cent, Wonder Wheel Memorial Day 1920 (H062, N002)",
+  "timeline[6] boardwalk final section May 15, 1923 (H064, H065)",
+  "timeline[7] Cyclone June 26, 1927, Keenan, 25 cents (N057, N058)",
+  "timeline[8] Luna Park fire Aug 13 1944, $800,000, closed 1946 (H103, P001; avoids the 'western half' wording the conflicts flag)",
+  "timeline[9] Aquarium 1896/late 1941/1957 (N086, N088)",
+  "timeline[10] Steeplechase closes Sept 20, 1964 (N028)",
+  "timeline[12] Luna Park May 29, 2010 on Astroland site, Astroland closed 2008 (N038, P037)",
+  "timeline[13] Sandy 600,000 cubic yards lost; Nathan's closed Oct 29, 2012 (P046, C079)",
+  "timeline[14] 4-2 vote, 921 vs 17 comments, Sept 29 2025 (N145, N146, N150, C118)",
+  "timeline chronology: 15 rows, ascending, all descriptions <=30 words",
+  "landmarks[0] Riegelmann: 2.7 mi, 80 ft, 6-0 vote 2012, Parks designer quote, fir vs pine disclosed as differing (P066, H071, H069, H070, H072, P064, P069)",
+  "landmarks[1] Wheel: Vourderis 1983 $250,000, 'good luck', 1977 blackout, 2020 lost season, Deno's April 12 attributed (N006, N007, N014, N013, V110)",
+  "landmarks[2] Cyclone: $1.2M 1969, 1972 swamp plan, $57,000 lease 1975, Luna Park 2011, 3 deaths 1985/1988/2007, Aug 22 2024 halt reopened Sept 7 (N065-N070, N075); no victims named",
+  "landmarks[3] Parachute Jump: May 27 1939, 40c/25c, 1941 reopen, NRHP Sept 2 1980, NYC May 23 1989 (N024-N027, N034)",
+  "landmarks[4] B&B Carousell: 50 horses/2 chariots, disputed build date disclosed, $1.7M, NRHP 2016, Bishoff/Brienstein 1932 (N136-N142)",
+  "landmarks[5] Luna Park: Feb 2010 lease, March 28 2026 opening, free entry/rides from $4, Thunderbolt June 14 2014, original 1925-1982 (N038, N039, N047, N048, N078, N081, N043 attributed to Wikipedia)",
+  "landmarks[6] Maimonides: Steeplechase site, name history, Cyclones 2001, 76 record (N104-N108, N115)",
+  "landmarks[7] First Symphony of the Sea: 332 ft, 10 ft, 1992, Sasaki (P085, V085)",
+  "cultural_refs[0] Little Fugitive: $6, 7-year-old, two-thirds, $30,000, Silver Lion, Truffaut quote exact (C020-C026); c-cedilla and curly quotes are correct UTF-8 in the file",
+  "cultural_refs[1] The Warriors confirmed to feature Coney Island (C004), 1965 novel (C003), quotes (C031, C038)",
+  "cultural_refs[2] Annie Hall features Coney Island/Thunderbolt (C001)",
+  "cultural_refs[5] Lou Reed: King Neptune 2010 with Anderson (C114)",
+  "cultural_refs[6] Lauper cover at Henderson Walk by Leibovitz 1983 (C007)",
+  "No dead_ends item supplied in my slice; no named minor victims; no date/tense problems for 2026 events"
+ ]
+}

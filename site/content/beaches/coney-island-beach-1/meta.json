@@ -1,76 +1,192 @@
 {
-  "tier": 2,
-  "lenses": [
-    "overview",
-    "travel"
-  ],
-  "custom": [],
+  "tier": 1,
+  "showcase": true,
   "images": {
     "hero": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Night_in_Luna_Park%2C_Coney_Island_%281905%29.jpg",
-      "title": "Night in Luna Park, Coney Island (1905).jpg",
-      "author": "Detroit Publishing Co.",
-      "license": "Public domain",
-      "width": 5885,
-      "height": 4768,
-      "score": 115.0
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Coney_Island_beach_and_amusement_parks_%28June_2016%29.jpg/1920px-Coney_Island_beach_and_amusement_parks_%28June_2016%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Coney_Island_beach_and_amusement_parks_%28June_2016%29.jpg/1920px-Coney_Island_beach_and_amusement_parks_%28June_2016%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "A packed summer beach, the Wonder Wheel and Luna Park rides behind it, June 2016",
+      "author": "MusikAnimal",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Coney_Island_beach_and_amusement_parks_(June_2016).jpg",
+      "width": 1600,
+      "height": 1067,
+      "tier": "A",
+      "role": "hero"
     },
     "gallery": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/2010-03-21_at_11-00-57.jpg",
-        "title": "2010-03-21 at 11-00-57.jpg",
-        "license": "CC BY-SA 3.0",
-        "source_tier": 1,
-        "score": 85.0,
-        "width": 2200,
-        "height": 1465
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Coney_Island_beach_on_Memorial_Day.jpg/1280px-Coney_Island_beach_on_Memorial_Day.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Coney_Island_beach_on_Memorial_Day.jpg/960px-Coney_Island_beach_on_Memorial_Day.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "title": "Memorial Day crowd under the Wonder Wheel and Parachute Jump, 2012",
+        "author": "David Reilly",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Coney_Island_beach_on_Memorial_Day.jpg",
+        "width": 1280,
+        "height": 960,
+        "tier": "A",
+        "role": "gallery"
       },
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Astroland_Coney_Island_by_David_Shankbone.JPG",
-        "title": "Astroland Coney Island by David Shankbone.JPG",
-        "license": "CC BY 2.5",
-        "source_tier": 1,
-        "score": 85.0,
-        "width": 2816,
-        "height": 2112
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Brooklyn_Bridge_Postdlf.jpg",
-        "title": "Brooklyn Bridge Postdlf.jpg",
-        "license": "CC BY-SA 3.0",
-        "source_tier": 1,
-        "score": 75.0,
-        "width": 2377,
-        "height": 1925
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/NYC_Coney_Island_beach.jpg",
-        "title": "NYC Coney Island beach.jpg",
-        "license": "CC BY-SA 4.0",
-        "source_tier": 3,
-        "score": 70.0,
-        "width": 4368,
-        "height": 2912
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/1879_Coney_Island.jpg",
-        "title": "1879 Coney Island.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Plage_de_Coney_Island_%28Pacific%29_-_btv1b53203964g.jpg/1280px-Plage_de_Coney_Island_%28Pacific%29_-_btv1b53203964g.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Plage_de_Coney_Island_%28Pacific%29_-_btv1b53203964g.jpg/960px-Plage_de_Coney_Island_%28Pacific%29_-_btv1b53203964g.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "title": "The beach packed shore to boardwalk, aerial view, 1928",
+        "author": "Pacific and Atlantic (Agence photographique). Agence photographique pour le docu",
         "license": "Public domain",
-        "source_tier": 1,
-        "score": 69.0,
-        "width": 4434,
-        "height": 930
+        "source_url": "https://commons.wikimedia.org/wiki/File:Plage_de_Coney_Island_(Pacific)_-_btv1b53203964g.jpg",
+        "width": 1280,
+        "height": 925,
+        "tier": "A",
+        "role": "gallery"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Coney_Island_Aerial.jpg/1280px-Coney_Island_Aerial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Coney_Island_Aerial.jpg/960px-Coney_Island_Aerial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "title": "Aerial view of the Coney Island peninsula and its beach, December 2008",
+        "author": "antoine fleitz",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Coney_Island_Aerial.jpg",
+        "width": 1280,
+        "height": 859,
+        "tier": "A",
+        "role": "gallery"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/06_18_2022_Mermaid_Parade_boardwalk_crowd_2.jpg/1280px-06_18_2022_Mermaid_Parade_boardwalk_crowd_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/06_18_2022_Mermaid_Parade_boardwalk_crowd_2.jpg/960px-06_18_2022_Mermaid_Parade_boardwalk_crowd_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "title": "Mermaid Parade crowd on the boardwalk, June 2022",
+        "author": "wil540",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:06_18_2022_Mermaid_Parade_boardwalk_crowd_2.jpg",
+        "width": 1280,
+        "height": 960,
+        "tier": "A",
+        "role": "gallery"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Coney_Island_Polar_Bears.JPG/1280px-Coney_Island_Polar_Bears.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Coney_Island_Polar_Bears.JPG/960px-Coney_Island_Polar_Bears.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "title": "Coney Island Polar Bear Club swimmers in the winter surf, December 2013",
+        "author": "Invertzoo",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Coney_Island_Polar_Bears.JPG",
+        "width": 1280,
+        "height": 967,
+        "tier": "A",
+        "role": "gallery"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/New_York_May_2015_%2818077288249%29.jpg/1280px-New_York_May_2015_%2818077288249%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/New_York_May_2015_%2818077288249%29.jpg/960px-New_York_May_2015_%2818077288249%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "title": "Sunbathers on the sand, May 2015",
+        "author": "Bryan Ledgard",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:New_York_May_2015_(18077288249).jpg",
+        "width": 1280,
+        "height": 853,
+        "tier": "A",
+        "role": "gallery"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Coney_Island%2C_NY._-_Flickr_-_-RodrixParedes.jpg/1280px-Coney_Island%2C_NY._-_Flickr_-_-RodrixParedes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Coney_Island%2C_NY._-_Flickr_-_-RodrixParedes.jpg/960px-Coney_Island%2C_NY._-_Flickr_-_-RodrixParedes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "title": "Sunset over the sand from the boardwalk, with the pier shelter in silhouette",
+        "author": "Rodrigo Paredes from Ciudad Autónoma de Buenos Aires, Argentina",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Coney_Island,_NY._-_Flickr_-_-RodrixParedes.jpg",
+        "width": 1280,
+        "height": 853,
+        "tier": "A",
+        "role": "gallery"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Coney_Island_Beach_-_Pat_Auletta_Steeplechase_Pier%2C_Brooklyn%2C_New_York_City%2C_New_York%2C_USA_-_October_3%2C_2023.jpg/1280px-Coney_Island_Beach_-_Pat_Auletta_Steeplechase_Pier%2C_Brooklyn%2C_New_York_City%2C_New_York%2C_USA_-_October_3%2C_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Coney_Island_Beach_-_Pat_Auletta_Steeplechase_Pier%2C_Brooklyn%2C_New_York_City%2C_New_York%2C_USA_-_October_3%2C_2023.jpg/960px-Coney_Island_Beach_-_Pat_Auletta_Steeplechase_Pier%2C_Brooklyn%2C_New_York_City%2C_New_York%2C_USA_-_October_3%2C_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "title": "The Parachute Jump and the beach seen from Steeplechase Pier, 2023",
+        "author": "Giorgio Galeotti",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Coney_Island_Beach_-_Pat_Auletta_Steeplechase_Pier,_Brooklyn,_New_York_City,_New_York,_USA_-_October_3,_2023.jpg",
+        "width": 1280,
+        "height": 853,
+        "tier": "A",
+        "role": "gallery"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Swimmers%2C_Coney_Isl._Jan_1_1914_LCCN2014695117.jpg/1280px-Swimmers%2C_Coney_Isl._Jan_1_1914_LCCN2014695117.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Swimmers%2C_Coney_Isl._Jan_1_1914_LCCN2014695117.jpg/960px-Swimmers%2C_Coney_Isl._Jan_1_1914_LCCN2014695117.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "title": "Swimmers on the beach on New Year's Day 1914",
+        "author": "Bain News Service, publisher",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Swimmers,_Coney_Isl._Jan_1_1914_LCCN2014695117.jpg",
+        "width": 1280,
+        "height": 937,
+        "tier": "A",
+        "role": "gallery"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Coney_Island_Cyclone_in_1986_%281%29.jpg/1280px-Coney_Island_Cyclone_in_1986_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Coney_Island_Cyclone_in_1986_%281%29.jpg/960px-Coney_Island_Cyclone_in_1986_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "title": "The Cyclone roller coaster in 1986",
+        "author": "Mark Landon (photographed in 1986; digitized in 2021)",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Coney_Island_Cyclone_in_1986_(1).jpg",
+        "width": 1280,
+        "height": 798,
+        "tier": "A",
+        "role": "gallery"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Steeplechase_Park_swimming_pool%2C_Coney_Island_LCCN92511677.jpg/1280px-Steeplechase_Park_swimming_pool%2C_Coney_Island_LCCN92511677.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Steeplechase_Park_swimming_pool%2C_Coney_Island_LCCN92511677.jpg/960px-Steeplechase_Park_swimming_pool%2C_Coney_Island_LCCN92511677.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "title": "Steeplechase Park's swimming pool, 1912",
+        "author": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Steeplechase_Park_swimming_pool,_Coney_Island_LCCN92511677.jpg",
+        "width": 1280,
+        "height": 1015,
+        "tier": "A",
+        "role": "gallery"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Human_roulette_wheel%2C_new_Steeplechase_Park_LCCN96500752.jpg/1280px-Human_roulette_wheel%2C_new_Steeplechase_Park_LCCN96500752.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Human_roulette_wheel%2C_new_Steeplechase_Park_LCCN96500752.jpg/960px-Human_roulette_wheel%2C_new_Steeplechase_Park_LCCN96500752.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "title": "The human roulette wheel at Steeplechase Park, 1908",
+        "author": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Human_roulette_wheel,_new_Steeplechase_Park_LCCN96500752.jpg",
+        "width": 1280,
+        "height": 1026,
+        "tier": "A",
+        "role": "gallery"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/ABANDONED_PARACHUTE_JUMP_AT_STEEPLEEHASE_AMUSEMENT_PARK_ON_CONEY_ISLAND_-_NARA_-_547898.jpg/1280px-ABANDONED_PARACHUTE_JUMP_AT_STEEPLEEHASE_AMUSEMENT_PARK_ON_CONEY_ISLAND_-_NARA_-_547898.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/ABANDONED_PARACHUTE_JUMP_AT_STEEPLEEHASE_AMUSEMENT_PARK_ON_CONEY_ISLAND_-_NARA_-_547898.jpg/960px-ABANDONED_PARACHUTE_JUMP_AT_STEEPLEEHASE_AMUSEMENT_PARK_ON_CONEY_ISLAND_-_NARA_-_547898.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "title": "The Parachute Jump abandoned at the closed Steeplechase site, May 1973",
+        "author": "Arthur Tress",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:ABANDONED_PARACHUTE_JUMP_AT_STEEPLEEHASE_AMUSEMENT_PARK_ON_CONEY_ISLAND_-_NARA_-_547898.jpg",
+        "width": 1280,
+        "height": 1889,
+        "tier": "A",
+        "role": "gallery"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Abandoned_giant_slide_at_Coney_Island_-_05-1973.jpg/1280px-Abandoned_giant_slide_at_Coney_Island_-_05-1973.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Abandoned_giant_slide_at_Coney_Island_-_05-1973.jpg/960px-Abandoned_giant_slide_at_Coney_Island_-_05-1973.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "title": "An abandoned giant slide, May 1973",
+        "author": "Arthur Tress",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Abandoned_giant_slide_at_Coney_Island_-_05-1973.jpg",
+        "width": 1280,
+        "height": 860,
+        "tier": "A",
+        "role": "gallery"
       }
     ],
     "_enrichment": {
-      "pipeline_version": "photo_enrichment.py v1",
-      "candidates_evaluated": 85,
-      "tier_breakdown": {
-        "tier3": 29,
-        "tier1": 36,
-        "tier2": 20
-      },
-      "hero_auto_selected": true
+      "curated": "2026-10-13 hand-picked from Wikimedia Commons; license/author from the Commons API",
+      "hero_auto_selected": false
     }
   }
 }

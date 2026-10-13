@@ -1,0 +1,193 @@
+{
+  "slug": "coney-island-beach-1/spoke.history",
+  "verdict": "FAIL",
+  "claims_checked": 78,
+  "fetches_used": 0,
+  "searches_used": 0,
+  "spike_statement_verdict": "The headline claim (1913 state win, 1921 city title, boardwalk groundbreaking) is carried by H053, H055, H063. It holds. Wording issues are in later sections.",
+  "blocking": [
+    {
+      "where": "spoke.history sections[0].body (name section), paragraph 5",
+      "claim": "Two other stories do not hold up as the source of the name. ... Later accounts say the 1645 purchase of southern Brooklyn was paid for with a gun, a blanket and a kettle. The deed itself did not record the goods.",
+      "problem": "The 1645 purchase/gun-blanket-kettle story is not a name-origin story in any source. H010 says only 'the goods were not recorded in the deed, but later accounts mention a gun, a blanket, and a kettle.' Calling it a story that 'does not hold up as the source of the name' invents a claim no source makes. Only Colman (H008) is a debunked name theory ('nothing connects him with the name'). H010 is also medium confidence.",
+      "evidence": "H010 https://en.wikipedia.org/wiki/Coney_Island 'the goods were not recorded in the deed, but later accounts mention a gun, a blanket, and a kettle'; H008 https://www.wordorigins.org/big-list-entries/coney-coney-island 'colman did indeed die on coney island, but nothing connects him with the name'",
+      "fix": "Replace the whole paragraph beginning 'Two other stories' with: 'One other story does not hold up. John Colman, a crewman of Henry Hudson, did die on Coney Island in 1609, but nothing ties him to the name.'"
+    },
+    {
+      "where": "spoke.history sections[4].body (How did the fenced beach become public?), last paragraph",
+      "claim": "Robert Moses thought the job had been done badly. Parks took over the boardwalk in 1938. Moses said that when the city took over Coney Island in 1937, it had only about 50 acres ...",
+      "problem": "Overstatement past the quote. H075's quote is 'these beaches and boardwalks were never properly planned, and cannot under present conditions be properly maintained and operated': a general remark about city beaches and boardwalks, not a verdict that the 1921-23 Coney job was done badly. The 50-acre/high-tide remarks (P019) describe the beach Moses inherited in 1937, from a 1954-era speech, and are not a judgment of the boardwalk project. Also the 1937 'took over' wording sits right after the 1921 city-title story with no explanation.",
+      "evidence": "H075 https://en.wikipedia.org/wiki/Riegelmann_Boardwalk 'these beaches and boardwalks were never properly planned, and cannot under present conditions be properly maintained and operated'; P019 https://wnyc.org/story/electric-eels-bunking-tigers-itinerant-new-york-aquarium/ 'often at high tide there was no beach at all.'",
+      "fix": "Replace the last paragraph with: 'Parks took over the boardwalk in 1938. Wikipedia quotes Robert Moses saying that city beaches and boardwalks “were never properly planned.” In a 1950s speech, Moses said that when the city took over Coney Island in 1937, it had only about 50 acres of shrinking, overcrowded beach. “Often at high tide there was no beach at all,” he said.'"
+    },
+    {
+      "where": "spoke.history sections[7].body (What has happened since 2009?), paragraph 2",
+      "claim": "The city gave Central Amusement International a 10-year lease, and in 2010 it ordered Ruby's Bar and eight other boardwalk businesses out.",
+      "problem": "Wrong actor. 'it' reads as the city. C122 says the LANDLORD, Central Amusement International, ordered Ruby's and eight others out by November 15, 2010. The sheet's conflict list also notes one source blames Thor; Brooklyn Paper (named landlord) is preferred.",
+      "evidence": "C122 https://www.brooklynpaper.com/one-last-drink-at-rubys-on-the-boardwalk 'the landlord, central amusement international, ordered the kitschy shops to vacate by nov. 15'",
+      "fix": "Replace the clause with: 'The city gave Central Amusement International a 10-year lease. In 2010 the landlord, Central Amusement International, ordered Ruby's Bar and eight other boardwalk businesses to leave by November 15.'"
+    },
+    {
+      "where": "spoke.history sections[7].body, paragraph 3 (Sandy)",
+      "claim": "In 2013 the Army Corps of Engineers placed about 580,000 cubic yards of sand on the beach. The Corps says the raised beach avoided an estimated $494 million in damage during Sandy.",
+      "problem": "Order implies the 2013 sand (placed after Sandy, October 2012) prevented Sandy damage. P047 says the 2013 sand restored the authorized design; P048/P049 say the already-elevated beach limited damage in the storm. The page also omits that the same source says the surge pushed sand and water over the boardwalk and the beach lost 600,000 cubic yards (P046).",
+      "evidence": "P047/P046/P048/P049 https://magazines.marinelink.com/Magazines/MarineTechnology/202307/page/41: 'in 2013, approximately 580,000 cubic yards of sand'; 'coney island beach lost 600,000 cubic yards of sand'; 'avoided an estimated $494 million in damages'; 'hurricane sandy's surge pushed sand and water up and over'",
+      "fix": "Replace the three sentences with: 'Hurricane Sandy hit in October 2012. The Army Corps of Engineers says the elevated beach avoided an estimated $494 million in damage to houses and structures during the storm. Marine Technology Reporter says the surge also pushed sand and water over the boardwalk, and the beach lost 600,000 cubic yards of sand. In 2013 the Corps placed about 580,000 cubic yards of sand to restore the beach's authorized design.' Add P046, P049 to fact_ids."
+    },
+    {
+      "where": "spoke.history sections[7].body, paragraph 3 (flood plan)",
+      "claim": "A draft $52 billion Army Corps flood plan, released in September 2022, would raise the boardwalk five feet with a concrete walkway that acts as a surge barrier. It aimed to start building in 2030.",
+      "problem": "A reader will take $52 billion as the Coney Island price. P057's source calls it 'the proposed $52 billion plan for new york and parts of new jersey' (whole region). The source also hedges the design: 'what appears to be a wide concrete walkway', and the 2030 start comes from one 2022 post (P061, medium).",
+      "evidence": "P057 https://www.coneyislandhistory.org/node/10607 'the proposed $52 billion plan for new york and parts of new jersey'; P058 https://www.coneyislandhistory.org/node/10729 'the boardwalk would be raised five feet by adding what appears to be a wide concrete walkway'; P061 'the plan will be finalized in two years, and construction begins in 2030.'",
+      "fix": "Replace those two sentences with: 'In September 2022 the Army Corps released a draft flood plan for New York and parts of New Jersey. The plan is priced at $52 billion for the whole region. The Coney Island History Project says it would raise the boardwalk five feet with what appears to be a wide concrete walkway that acts as a surge barrier. A 2022 post from the History Project says construction would begin in 2030.' Keep the next sentence 'This page found no source on its status after 2023.'"
+    }
+  ],
+  "advisory": [
+    {
+      "where": "spoke.history intro, para 1",
+      "claim": "private owners had split up the waterfront and fenced much of the sand",
+      "problem": "H059 says 'some sections of the beach were enclosed by fences'. 'Much' is stronger. The mid-19th-century timing in H056 also belongs to the waterfront split, not the fences.",
+      "evidence": "H059 https://en.wikipedia.org/wiki/Riegelmann_Boardwalk 'some sections of the beach were enclosed by fences that extended into the water'",
+      "fix": "Replace with: 'Before that, private owners had split up the waterfront and fenced off parts of the sand.'"
+    },
+    {
+      "where": "spoke.history kicker; meta_description",
+      "claim": "how it became a free city beach; 'a 1921 city takeover made it public'",
+      "problem": "The sheet shows 'free' only as a 2026 statement (V010), not a history. H063 says the city 'obtained title' on Oct 1, 1921; 'takeover' is looser. The kicker/meta also leave out that the court win came first (1913) and that the 1916 appeal made an exception for part of Steeplechase.",
+      "evidence": "H063 'city officials held a groundbreaking ceremony on october 1, 1921, the day they obtained title to the land'; V010 'all of our beaches are free and open to the public.'",
+      "fix": "kicker: 'The story of who owned Coney Island's sand, from a 1654 deed to a 2025 casino vote, and how the beach became public.' meta_description: 'Coney Island's beach was private and fenced until a 1913 court ruling and the city's 1921 title made it public. The story from the 1654 deed to the 2025 casino vote.' (check length 140-160)."
+    },
+    {
+      "where": "spoke.history sections[0].body, paragraph 3",
+      "claim": "Wikipedia offers another meaning, “land without shadows.”",
+      "problem": "Source hedges: 'possibly meaning \"land without shadows\"'. Also 'appears in a deed dated May 7, 1654' drops 'as early as'.",
+      "evidence": "H002 'called this area narrioch, possibly meaning \"land without shadows\"'; H005 'the name conyne island appears as early as 7 may 1654 in a deed'",
+      "fix": "'Wikipedia says it may mean “land without shadows.”' and 'The English name Conyne Island appears as early as May 7, 1654, in a deed.'"
+    },
+    {
+      "where": "spoke.history sections[0].body, last paragraph",
+      "claim": "For a long time almost no one lived there. A Dutch journal from 1679 to 1680 said: ...",
+      "problem": "'For a long time' is not in H012; it is one journal entry for 1679-80.",
+      "evidence": "H012 'nobody lives upon it, but it is used in winter for keeping cattle, horses, oxen, hogs and others.'",
+      "fix": "'In 1679 to 1680, a Dutch journal said: “Nobody lives upon it, ...”' (keep the quote as is)."
+    },
+    {
+      "where": "spoke.history sections[1].body",
+      "claim": "Work on the Belt Parkway ... filled a large section. In 1962, fill ... left the creek an inlet.",
+      "problem": "H144/H145 are medium confidence and the 'inlet' wording is the fact writer's gloss (quote: 'more fill was added in 1962'). These are not attributed. The 'wrong to say ... in any one year' line is a stronger version of the sheet's conflict note (do not say 'peninsula in 1962 alone').",
+      "evidence": "H145 https://en.wikipedia.org/wiki/Coney_Island_Creek 'more fill was added in 1962 with the construction of the verrazzano-narrows bridge'",
+      "fix": "'Wikipedia says landowners had filled part of the creek by 1924, that Belt Parkway work in the 1930s filled more, and that more fill was added in 1962 for the Verrazzano-Narrows Bridge.' Last line: 'Because the filling took decades, sources date the change differently, so no single year fits.'"
+    },
+    {
+      "where": "spoke.history sections[2].body",
+      "claim": "The first hotel was the Coney Island House.",
+      "problem": "Flat superlative. Only Wikipedia (H015) calls it the first hotel; NYC Parks (H016) says only 'established as a seaside resort'. Author brief requires attribution. Same for 'The first railroad arrived in 1864' (H019, Wikipedia).",
+      "evidence": "H015 'in 1829, the company also built the first hotel on the island: the coney island house'; H016 'in 1824 the coney island house was established as a seaside resort'",
+      "fix": "'Wikipedia calls the Coney Island House the first hotel on the island. Its founding date is disputed. NYC Parks' historical sign says 1824. Wikipedia says 1829. Either way, it opened in the 1820s.' and 'Wikipedia says the first railroad reached the island in 1864.'"
+    },
+    {
+      "where": "spoke.history sections[2].body",
+      "claim": "In 1895 Corbin added a concrete cycling track ... His ban on Jewish guests ended only after his death.",
+      "problem": "H031 fact says 'ended after his death'; 'only' is added. The quote supports only 'had restricted Jewish guests'. H030 (Heart of Coney Island, medium) dates the ban to 1879. 'Austin Corbin built Manhattan Beach' is stated flat; support is H033 (medium, Heart of Coney Island).",
+      "evidence": "H031 https://en.wikipedia.org/wiki/Manhattan_Beach,_Brooklyn 'austin corbin had restricted jewish guests at his hotel and enacted restrictive covenants'",
+      "fix": "'Corbin barred Jewish guests from his hotel, and Wikipedia says the policy ended after his death.'"
+    },
+    {
+      "where": "spoke.history sections[2].body, last paragraph",
+      "claim": "The strangest building of the age was the Elephantine Colossus",
+      "problem": "Unsourced superlative and editorial voice; breaks author brief.",
+      "evidence": "No fact calls it strangest.",
+      "fix": "'One odd building was the Elephantine Colossus, a hotel shaped like an elephant.'"
+    },
+    {
+      "where": "spoke.history sections[3].body",
+      "claim": "In the late 1800s much of Coney Island was town land of Gravesend, and Gravesend had a boss. / By 1884 ... had built nearly two-thirds",
+      "problem": "No fact says 'much of Coney Island was town land of Gravesend' (H033 shows Gravesend selling shoreline; H038 calls McKane 'Gravesend's boss'). H041's quote is 'was credited with building', softened to 'had built'. H042's quote is 'died several months after a stroke in 1899'; 'a year after leaving prison' is the fact writer's gloss.",
+      "evidence": "H041 'mckane's construction company was credited with building nearly two-thirds of all buildings in coney island and gravesend'; H042 'mckane died several months after a stroke in 1899'",
+      "fix": "'John Y. McKane was the boss of the town of Gravesend, which sold shoreline on Coney Island.' ... 'the site says McKane's construction company was credited with building nearly two-thirds of the buildings in Coney Island and Gravesend.' ... 'He died in 1899, the site says.'"
+    },
+    {
+      "where": "spoke.history sections[3].body, last paragraph",
+      "claim": "Robert Moses ... said Coney Island had been “town land owned by the people, given away to crooks for a song.”",
+      "problem": "Placement right after McKane implies Moses meant McKane's era. P020 does not say that; it is a general remark in a 1950s WNYC-cited speech. Source calls the speech '1954-era' (P019).",
+      "evidence": "P020 'coney was town land owned by the people, given away to crooks for a song'",
+      "fix": "'Robert Moses, the city's parks chief, gave his own blunt view in a recorded speech in the 1950s. He said Coney had been “town land owned by the people, given away to crooks for a song.”'"
+    },
+    {
+      "where": "spoke.history sections[5].body",
+      "claim": "Crowds and old wood made fire a steady danger.",
+      "problem": "Unsourced cause statement. H080/H081 report the July 1932 fire only. Also 'July 1932' and 'Fortune ... in 1938 ... had declined since' rest on fact text, not quote text (H139's quote has only the mid-1920s peak).",
+      "evidence": "H080 'this fire, considered the worst in coney island's history, consumed 100 feet of the boardwalk'",
+      "fix": "Delete the sentence. Start the paragraph: 'In July 1932 a fire that the Brooklyn Paper says is considered the worst in Coney Island's history burned 100 feet of the boardwalk.'"
+    },
+    {
+      "where": "spoke.history sections[6].body, first and second paragraphs",
+      "claim": "After the war, the city's plans ... turned to housing and a new aquarium. Robert Moses pushed both. ... It closed on October 1, 1941.",
+      "problem": "Time order: the 1941 closing is before the war. 'Moses pushed housing' is supported by P004 (NYT, April 2, 1953: Moses proposed rezoning for residential use) but P004 is not in fact_ids. The Oct 1, 1941 closing (P022) is medium confidence and unattributed.",
+      "evidence": "P004 https://chpcny.org/?p=47042 'robert moses had put forward a proposal ... to rezone coney island for residential use'; P022 WNYC (medium)",
+      "fix": "Open with: 'In the 1940s and 1950s, the city's plans for Coney Island turned to housing and a new aquarium. Robert Moses pushed both.' Change to 'WNYC says the Battery Park aquarium closed on October 1, 1941.' Add P004 to fact_ids."
+    },
+    {
+      "where": "spoke.history sections[6].body, Astroland",
+      "claim": "Thor announced a $1.5 billion year-round resort. It never came to be.",
+      "problem": "The $1.5 billion figure and 'never came to fruition' are in the fact text P036 but not in its quote (the quote covers only the sale and price).",
+      "evidence": "P036 https://en.wikipedia.org/wiki/Astroland 'on november 28, 2006, astroland was sold by the albert family for us$30 million to thor equities'",
+      "fix": "Attribute: 'Wikipedia says Thor announced a $1.5 billion year-round resort that never came to be.' Also write Astroland's 1975 fire as 'Wikipedia says an early-morning fire on July 12, 1975 wiped out much of the park, and it was rebuilt.' (P032 is medium)."
+    },
+    {
+      "where": "spoke.history sections[7].body, paragraph 1",
+      "claim": "Coney Island historian Charles Denson put it this way: “To me the real business in Coney Island has always been real estate.”",
+      "problem": "Context change. The full quote continues 'and this is part of it' and was said to explain why Denson curated the Fred Trump/Steeplechase demolition exhibit (P017), not the post-2009 fights.",
+      "evidence": "P017 https://www.untappedcities.com/2016/05/24/... 'to me the real business in coney island has always been real estate and this is part of it.'",
+      "fix": "'Charles Denson, a Coney Island historian, said in 2016 about his Steeplechase demolition exhibit: “To me the real business in Coney Island has always been real estate.”'"
+    },
+    {
+      "where": "spoke.history sections[7].body, last paragraphs (casino)",
+      "claim": "The latest fight was over a casino. ... On December 1, 2025, the state location board backed the three remaining bids, in the Bronx and Queens.",
+      "problem": "Reads as a finished fight. N149 (medium, Politics NY) says the gaming commission 'was to rule within the month'; the sheet lists the final state decision and what became of the Coney site as dead ends. The medium-confidence outcome is not attributed in the text. 'Latest' may be stale on 2026-10-13.",
+      "evidence": "N149 https://politicsny.com/2025/12/01/... 'unanimously voted in favor of all three remaining casino bids'; dead_end [now]: 'what happened to The Coney site after the licenses went to Queens and the Bronx'",
+      "fix": "'Politics NY reported that on December 1, 2025, the state gaming location board voted unanimously for the three remaining bids, in the Bronx and Queens. Coney Island was not among them. The report said the state gaming commission would rule within the month. This page found no source on that ruling.' Change 'The latest fight was over a casino.' to 'The most recent fight this page found was over a casino.'"
+    },
+    {
+      "where": "spoke.history sections[7].body, last sentence",
+      "claim": "Through all of it, the sand stayed free.",
+      "problem": "V010 is a present-tense 2026 statement. The sheet has no source on whether the beach was free throughout 2009-2025 (and no pricing history; see dead_ends). Overstates past the quote.",
+      "evidence": "V010 https://www.nycgovparks.org/facilities/beaches 'all of our beaches are free and open to the public.'",
+      "fix": "'Today, NYC Parks says all city public beaches are free and open to the public.'"
+    },
+    {
+      "where": "spoke.history sources / fact_ids",
+      "claim": "sources list and fact_ids",
+      "problem": "All 35 listed URLs back at least one fact used (checked each against the used fact list). Notes: Wikipedia New York Aquarium is cited only for the Sandy date (N091); H055 (state sued in 1912, which backs the intro's 'went to court'), P004, P046 and P049 are used or needed but not in fact_ids. 6sqft source label is about the Trump demolition but is used only for the 1947 aquarium claim (P003) and is attributed by name in the text, which is correct.",
+      "evidence": "H055 https://en.wikipedia.org/wiki/Riegelmann_Boardwalk 'new york state sued amusement owners for taking private ownership of coney island's beach'",
+      "fix": "Add H055, P004, P046, P049 to fact_ids. Optional: intro first sentence to 'In 1912 New York State sued amusement owners over the beach, and in 1913 a court ruled it belonged to the state.' keep the rest."
+    },
+    {
+      "where": "spoke.history sections[2].body, section 6 fare paragraph",
+      "claim": "according to word historian Barry Popik",
+      "problem": "Popik's page cites Wikipedia for the fare history (sheet conflict note). 'Word historian' is not in the fact. Low risk.",
+      "evidence": "H137 https://barrypopik.com/blog/nickel_empire 'the fare for a ride on the subway of any length was 5 cents'",
+      "fix": "'according to the Barry Popik blog' for 'according to word historian Barry Popik'."
+    }
+  ],
+  "verified_ok": [
+    "1913 court ruling that beach belonged to the state (H053); 1912 state suit (H055); city title and groundbreaking Oct 1, 1921 (H063); private owners/barriers (H056, H059)",
+    "Name section: Dutch rabbit theory, 1639 Manatus map Conyne Eylandt, Techkonis attributed to WordOrigins, May 7, 1654 deed, narriockh = 'the island', 'spurious' attributed, Colman 1609, 1679-80 journal quote (H007, H001, H006, H005, H004, H003, H008, H012)",
+    "Jamaica Ditch 1750, first bridge 1824, 1830s-40s half-day to two hours, creek fill by 1924 (H013, H014, H017, H143) and the plan for the Gravesend ship canal (H146)",
+    "Coney Island House 1824 vs 1829 conflict stated correctly (H016, H015); 1847 ferry; 1864 railroad; five railroads by 1904 (H018, H019, H112)",
+    "Engeman 5,000 guests / 20,000 meals attributed to Wikipedia (H021, C131); Brighton Beach Hotel move, April 1888, nine days (C132; the 495 feet and tracks are fact text only)",
+    "Heart of Coney Island claims correctly attributed by name and not load-bearing: $1,500 / ~$3 per acre (500 acres x $3 = $1,500 checks), 12,000 suits, electric lights, McKane 2,700 votes vs 1,700 voters, 'Injunctions don't go here!', six years Sing Sing (H033, H034, H025, H026, H039, H040, H038)",
+    "Cycling track 1895, 12,000, $30,000 (H036); elephant $65,000 reported, 122 ft/7 stories vs BPL 12 stories/31 rooms disputed (H089, H087, H088)",
+    "1916 appeal exception for Steeplechase; boardwalk stages Oct 1922 / Dec 1922 / May 15, 1923; $3M (Parks) vs $20M (Wikipedia) with scope caveat (H054, H064, H068, H067)",
+    "Fare 5 cents 1904-1948; Atlas Obscura 1920 claim flagged as conflicting; 1920 BMT arrival; Brighton Beach Hotel closed 1924 (Wikipedia); Fortune mid-1920s peak; Depression millions (H137, H138, H062, C134, H139, H079)",
+    "1932 fire: worst in history per Brooklyn Paper, 100 feet, bathers' clothes, Denson/matches (H080, H081, H082)",
+    "Moses 'ugly wart' quote; 1954 cornerstone; 1957 reopening; 6sqft 1947 attributed and flagged as likely a plan, per the sheet's conflict note (P024, P021, P022, P003)",
+    "Coney Island Houses 1956 / Warbasse 1966; 1974 CHPC and Mark Twain JHS; Nagy 'dirty and scary and rough' (P025, P026, P089)",
+    "Astroland 1962, 3.1 acres, John Glenn, 50 cents, July 12, 1975 fire, Zigun quote, Nov 28, 2006 sale for $30 million (P028, P029, P032, P034, C116, P036)",
+    "Rezoning July 29, 2009; 27 acres / 12 outdoor / four hotels; Nov 25, 2009 suit; $100 million from Sitt; Thor kept ~4 acres; 10-year CAI lease; Ruby's plus eight (P041, P042, P043, C123, P044, C122)",
+    "Sandy Oct 2012 (N091); 580,000 cubic yards in 2013 (P047); $494 million attributed to the Corps (P048); 'no source after 2023' disclosed (P061)",
+    "Casino: $3 billion, 500-room hotel; Jan 2025 CB13 committee 7-2 with one abstention; supporter quote; Sept 29, 2025 4-2; Reynoso quote; Brownstoner rezoning reversal attributed and zoning status disclosed as unconfirmed (N144, N147, N143, N152, N145, N154, N148)",
+    "NYC Parks: all beaches free (V010), correct in present tense",
+    "No named minor victims. No dead-end item supplied. Weak sources (Heart of Coney Island, 6sqft) are named in the text."
+  ]
+}

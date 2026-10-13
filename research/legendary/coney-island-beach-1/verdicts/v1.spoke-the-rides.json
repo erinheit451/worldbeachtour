@@ -1,0 +1,119 @@
+{
+  "slug": "coney-island-beach-1/spoke.the-rides",
+  "verdict": "FAIL",
+  "claims_checked": 112,
+  "fetches_used": 2,
+  "searches_used": 1,
+  "spike_verdict": "n/a for a spoke. The sub-page's thesis (three old rides still run, the Parachute Jump stands but does not run, each survived differently) is carried by the sheet, except that the Wonder Wheel is not shown to have been 'close to being lost'.",
+  "blocking": [
+    {
+      "where": "spoke.the-rides intro, paragraph 2, sentences 1-2",
+      "claim": "\"Each old ride came close to being lost, and each was saved a different way. The Vourderis family bought the Wonder Wheel in 1983.\"",
+      "problem": "No fact in the sheet says the Wonder Wheel was threatened, closing, or at risk in 1983. N006 only says Denos Vourderis bought it from Fred Garms and Walter Kerner Sr. on June 7, 1983. The Cyclone (N065/N066/P031), carousel (N141) and Parachute Jump (N032/N033) do have documented threats. Framing a sale as a rescue is an unsupported causal claim.",
+      "evidence": "https://en.wikipedia.org/wiki/Wonder_Wheel - \"on june 7, 1983, vourderis bought the wonder wheel from garms and his cousin walter kerner sr.\" (N006). No rescue/threat language anywhere in N001-N022.",
+      "fix": "Replace the first two sentences of paragraph 2 with: \"The Cyclone, the carousel and the Parachute Jump each came close to being lost, and each was saved a different way. The Wonder Wheel changed hands in 1983, when the Vourderis family bought it.\" Keep the next sentences (Astroland leased the Cyclone..., a private donor bought the carousel..., the Parachute Jump stayed up...) unchanged."
+    }
+  ],
+  "advisory": [
+    {
+      "where": "spoke.the-rides kicker; section 'The Wonder Wheel' heading",
+      "claim": "kicker: \"...and how each old ride was saved.\"",
+      "problem": "Same overreach as the intro: the Wheel was not 'saved' per the sheet.",
+      "evidence": "N006.",
+      "fix": "kicker: \"What you can still see and ride at Coney Island, and how each old ride survived.\""
+    },
+    {
+      "where": "sections[1] (Wonder Wheel), last paragraph",
+      "claim": "\"Wikipedia also calls it the oldest continuously operating ride at Coney Island. That is true of its age but not of every year, since it did not run at all in 2020.\"",
+      "problem": "Wikipedia is attributed correctly, but the author then endorses 'oldest' in her own voice ('true of its age'). The sheet holds only Wikipedia's medium-confidence line (N012, 2024), and the same page says the carousel was built c. 1906-1909 or 1919, which is older than 1920. Unsourced superlative in the author's voice breaks the superlative rule.",
+      "evidence": "N012 quote: \"the wonder wheel is the oldest continuous operating ride at coney island\" (medium, 2024). N013: \"the 2020 season was the first in which the wonder wheel did not operate at all\". N136/N137 carousel dates.",
+      "fix": "\"Wikipedia calls it the oldest continuously operating ride at Coney Island. But it did not run at all in 2020, the first lost season in its history, so it has not run every year.\""
+    },
+    {
+      "where": "sections[0], paragraph 2 (Deno's 2026 opening)",
+      "claim": "\"Deno's own website gave the park opening as April 12... We use Deno's own date for Deno's.\"",
+      "problem": "Attributed, and it follows the sheet's conflict note, so not a sourcing error. But the choice is shaky. My 2026-10-13 fetch of denoswonderwheel.com found both 'Park Opens April 12' and 'Beginning May 25 through September 8, the park is open daily', so the page is not clean evidence of the opening date. A web search also surfaced Brooklyn Paper and other 2026 coverage describing the Wonder Wheel's Palm Sunday (Mar 29) blessing as part of the season start. Declaring one side the winner may be wrong.",
+      "evidence": "https://www.denoswonderwheel.com/ (fetched 2026-10-13); V029/V110; sheet conflict '[visit] Opening dates for amusement parks... unresolved for March'.",
+      "fix": "\"Sources differ on when Deno's opened in 2026. A Brownstoner article in May said Luna Park and Deno's both opened in March. Deno's website gave April 12, with kiddie rides at 11 a.m. and adult rides at noon. We could not settle it.\""
+    },
+    {
+      "where": "sections[0], paragraph 4 and intro 'Two parks run the rides today'",
+      "claim": "\"We found no 2026 closing date for either park.\" / \"Three old rides still carry riders\"",
+      "problem": "Today is 2026-10-13 and the page never says whether the rides are running now. The sheet itself has no fall hours (dead_end), so the sentence is true to the sheet, but a reader in October is left guessing. Live check today: lunaparknyc.com lists a 'Halloween Harvest' event and a Cyclone 'reopens' headline, with no dates visible; denoswonderwheel.com says its daily summer season runs May 25 through September 8 and shows no October schedule. Operating status of the Cyclone, Luna Park and Deno's in October is therefore UNCONFIRMED, not contradicted.",
+      "evidence": "https://lunaparknyc.com/ and https://www.denoswonderwheel.com/ fetched 2026-10-13; sheet dead_ends '[now] Current Luna Park rides, prices and fall-2026 hours'.",
+      "fix": "Replace the sentence with: \"Both parks run on a seasonal schedule. In October 2026 we could not confirm either park's fall hours. Deno's website listed its daily summer season as May 25 through September 8. In 2016, Atlas Obscura described the Wonder Wheel as running from about Easter to Halloween, but that is old. Check each park's own site before you go.\" (Do not add a date for Luna Park.)"
+    },
+    {
+      "where": "sections[1], paragraph 2",
+      "claim": "\"Each rotation takes ten minutes.\"",
+      "problem": "True (N004), but N004 also says a ride is two rotations. A visitor will read ten minutes as the ride length.",
+      "evidence": "N004 quote: \"each rotation of the wheel takes ten minutes, giving the ride a total hourly capacity of 864\"; fact text: ride makes two rotations.",
+      "fix": "\"Each rotation takes ten minutes, and a ride is two rotations.\""
+    },
+    {
+      "where": "sections[2] (Cyclone) paragraph 2; sections[5] Thunderbolt paragraph 3",
+      "claim": "\"Riders must be 54 inches tall.\" / \"Riders must be 50 inches tall.\"",
+      "problem": "Height rules are time-sensitive and are stated as current with no year. The copy rule requires the year in the prose.",
+      "evidence": "N064 time_sensitive true, source dated 2026.",
+      "fix": "\"In 2026, riders had to be 54 inches tall.\" and \"In 2026, riders had to be 50 inches tall.\""
+    },
+    {
+      "where": "sections[3] Parachute Jump, last paragraph",
+      "claim": "\"At night the tower lights up.\"",
+      "problem": "Current-tense operating claim; N035 is time-sensitive and the newest source is the Wikipedia page. The sheet dead-ends say the current light-show schedule is not in the sources.",
+      "evidence": "N035; dead_ends '[now] Parachute Jump restoration details... and the current light-show schedule'.",
+      "fix": "\"The tower has lights for night shows.\""
+    },
+    {
+      "where": "sections[5] Luna Park, paragraph 4",
+      "claim": "\"Wikipedia's counts of the park's size and rides do not agree with each other: 36 attractions in one place, 28 in its infobox, and 14.5 acres against the lease's 3.16.\"",
+      "problem": "36 vs 28 is a real inconsistency (N046). The acreage is not: the 3.16 acres is the 2010 lease site (N039), and the park was later enlarged (N041, 50 percent expansion). Calling that a disagreement misleads and is clutter for a visitor.",
+      "evidence": "N046 and N039/N041; sheet conflict lists 14.5 vs 3.16 but does not say they measure the same thing.",
+      "fix": "\"Wikipedia's counts of the park's rides do not agree with each other: 36 attractions in one place and 28 in its infobox.\""
+    },
+    {
+      "where": "sections[5] Thunderbolt paragraph 3",
+      "claim": "Long run of conflicting Thunderbolt figures (2,234 vs 2,233 feet; 56 vs 55 mph; 112/115/125 ft).",
+      "problem": "All figures match the sheet (N079, N080 and the sheet conflict). But a one-foot and one-mph difference is not a meaningful disagreement and is hard to read. Copy-rule issue only.",
+      "evidence": "N079, N080.",
+      "fix": "\"Sources give slightly different numbers. Wikipedia lists 2,234 feet of track and a top speed of 56 mph, and Luna Park lists 2,233 feet. NYC Tourism lists 55 mph. Drop height is 112 feet in Wikipedia and 115 feet in NYC Tourism.\""
+    },
+    {
+      "where": "sections[4] carousel heading and body",
+      "claim": "Heading \"bought for the city, rebuilt in Ohio\"; \"The National Register date is the better-sourced one\"",
+      "problem": "N140 says the horses were restored in Ohio, not that the carousel was 'rebuilt'. 'Better-sourced' is the author's judgment; the sheet's conflict note says the NRHP nomination is likely more authoritative but the caption error is unconfirmed, and both facts are medium confidence. Not misleading but should be softer.",
+      "evidence": "N140, N136, N137, sheet conflict '[now] B&B Carousell build date'.",
+      "fix": "Heading: \"The B&B Carousell: bought for the city, restored in Ohio\". Sentence: \"Wikipedia's date comes from the National Register nomination, so it is probably the better one, but we could not rule out 1919.\""
+    },
+    {
+      "where": "sections[6] heading and body ('What we could not confirm')",
+      "claim": "Whole section.",
+      "problem": "Useful in part, internal in part. Good for a visitor: the missing Luna Park lease news after 2020 (N039, dead_end) and 'check the parks' own sites'. Reads like internal notes: 'We did not read the city landmark reports or National Register forms', the spring-break date mismatch (spring break 2026 is over, so it helps no one now) and the wristband 'all-day vs four hours' mismatch (a product detail that changes each year; the visitor needs the park's current terms). The heading itself is honest and plain, so it can stay.",
+      "evidence": "N039, N049/N050, N044/N045; dead_ends '[now] LPC designation reports and NPS NRHP forms... were not harvested'.",
+      "fix": "Replace the body with: \"We could not find out what happened to Luna Park's city lease after its first 10-year term would have ended in 2020. We have not seen the city landmark reports or the National Register forms for these rides. They would settle the Cyclone's landmark date and the carousel's build date. Prices, ride lists and hours change each year. Check lunaparknyc.com and denoswonderwheel.com before you go in 2027.\""
+    },
+    {
+      "where": "intro paragraph 1",
+      "claim": "\"Deno's Wonder Wheel Park is owned by one family.\"",
+      "problem": "Source is Wikipedia, medium confidence, 2024 (N016). Stated as fact in present tense without attribution. Section 2 does attribute it properly.",
+      "evidence": "N016 quote: \"deno's wonder wheel amusement park is the last family-operated amusement park in coney island\".",
+      "fix": "\"Deno's Wonder Wheel Park is run by the Vourderis family, Wikipedia says.\""
+    }
+  ],
+  "verified_ok": [
+    "Luna Park 2026 opened Sat Mar 28, 11 a.m. (Time Out); egg cream Sun Mar 29; first 99 riders; 98 in 2025 (N047, N054, C147); 99 to 100 centennial arithmetic correct (1927 to 2027)",
+    "Deno's site: April 12, kiddie 11 a.m., adult noon, correctly attributed (V110); Brownstoner March vs Deno's April conflict surfaced and attributed (V029)",
+    "Parachute Jump closing year: page does NOT present 1964 as settled. It names Denson and the History Project (1964, call 1968 an error), Brooklyn Paper 1965 and the 1965 Daily News, and NYC Parks and Harrison (1968, last incident May 30, 1968), then says 'We follow Denson's 1964 ... 1968 still appears widely.' This matches N028-N031 and the sheet's resolved conflict note. Attributed choice, not asserted as fact. PASS.",
+    "Parachute Jump facts: 250 ft/170 tons/12 arms, 262 ft at 1939 Fair, 1941 move, NRHP Sept 2 1980, state Oct 23 1981, NYCL 1638 May 23 1989, 1977 date from 6sqft rejected with reason, 8,000 fixtures, lights 2006/2013, Kobe Bryant, W 16th-19th St (N023, N024, N026, N032-N037, P012)",
+    "Fred Trump scrap, 1966 Chamber request, 1971 auction with no bids (N032, N033 - N033 is not in fact_ids but is in the sheet; add it to the list)",
+    "Wonder Wheel: 150 ft, 24 cabins, 8 fixed/16 sliding, 10-minute rotation, 864/hr, 14,506 on July 4 1947, 1983 purchase, NYCL 1708 May 23 1989, Atlas NRHP 1984 attributed with Wikipedia gap noted, Sandy 2012, no 2020 season, shepherds, tickets 50c (1976) to $1.25 (1981), Denos Vourderis Place (N001-N020, V111)",
+    "Atlas Obscura Vourderis bio (Aigion 1920, 8th of 22, age 14, hot dogs) attributed to Atlas Obscura (N018)",
+    "Cyclone: Keenan, June 26 1927, 25c/35c, $146k-$175k reported, 75 vs 85 ft explained, Luna Park second-steepest and Wikipedia ninth-steepest as of 2014, ride-time trio, 24 per train, 1 of 3 trains, 54 in, 1969 purchase, 101 violations, 1975 lease and $60,000 repairs, NYCL 1636 (June 12 vs July 12 1988 conflict stated), NRHP June 25 1991, Luna takeover 2011, GCI 2016, Aug 2024 stoppage and two violations (N057-N068, N070, P031)",
+    "Brooklyn Paper 'rushed to Coney's rescue' quote exact (P031); Binder quote exact (P090); Emilio Franco attributed to NYC Tourism retelling NYT 1948 (N072, medium, attributed); Rodriguez 104 hours Aug 1977 (N073)",
+    "Carousel: Mangels, Illions, c.1906-09 vs 1919 conflict stated, 50 horses/2 chariots/36 moving, Sitt/McCullough, 2005 donor, Ohio 2008-2013 $1.7M, Luna since 2013, NRHP Feb 23 2016, 'last operating' attributed to Wikipedia (N136-N141)",
+    "Astroland/Luna Park: 1962, 3.1 acres, 1000 Surf Ave, Glenn theme, 50c moon trips, sale Nov 28 2006 $30M, $1.5B resort never built, closed Sept 7 2008, city $100M from Sitt (Brooklyn Paper 2010), Feb 16 2010 10-year lease on 3.16 acres, opened May 29 2010, AstroTower July 2-6 2013, rocket at Deno's, 2018 plan/2021 start/June 2023 four rides (P028-P040, C123, N038-N042). Lease-after-2020 gap correctly flagged (N039).",
+    "Thunderbolt: June 14 2014 after Memorial Day delays, $9M Zamperla, 90-degree drop, 4 inversions, 9 seats in 3x3, 50 in; original Moran coaster 1925-1982, demolished 2000, house under the coaster (N078-N083)",
+    "All 20 listed sources cover the fact_ids' URLs (checked each fact URL against the sources list; none missing). No minors named, no deaths used as hooks, no dead_end items supplied from memory.",
+    "Live check 2026-10-13: lunaparknyc.com shows Halloween Harvest and a Cyclone reopening headline (no dates); denoswonderwheel.com shows 'May 25 through September 8' summer season and 'Park Opens April 12'. Neither contradicts anything on the page; fall status stays unconfirmed (see advisory)."
+  ]
+}

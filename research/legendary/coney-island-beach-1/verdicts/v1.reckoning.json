@@ -1,0 +1,116 @@
+{
+  "slug": "coney-island-beach-1",
+  "slice": "reckoning (showcase.honest_reckoning_note, margin_notes, day_in_time)",
+  "verdict": "FAIL",
+  "claims_checked": 78,
+  "fetches_used": 0,
+  "searches_used": 0,
+  "spike_verdict": "Not in this slice. The reckoning note has no spike claim and does not use a death as a hook.",
+  "blocking": [
+    {
+      "where": "showcase.honest_reckoning_note, para 1, sentence 'The next day, families were still wading in past the red flags.'",
+      "claim": "'His 15-year-old brother was lost, and his body was found by July 30. The next day, families were still wading in past the red flags.'",
+      "problem": "Reads as July 31. V073 says families waded in 'the day after the 2023 loss' (the boys were in trouble July 27), and the CBS article is dated 2023-07-30, so the wading cannot be after July 30. The sheet never says it happened the day after the body was found. This misplaces the date in a death narrative.",
+      "evidence": "V073 (CBS New York, 2023-07-30): fact 'families still waded in the day after the 2023 loss'; quote 'we're just putting our feet in, we're not going too far. it's hot,'. V069/V070: body found, editor's note 7/30.",
+      "fix": "Replace 'The next day, families were still wading in past the red flags.' with 'In the days after, families were still wading in past the red flags.'"
+    }
+  ],
+  "advisory": [
+    {
+      "where": "showcase.honest_reckoning_note, para 1, first sentence",
+      "claim": "'in the recent cases on record it happened in water that was closed to swimmers'",
+      "problem": "'On record' implies a complete record. The sheet holds two cases (V061/V062 for 2024, V067-V070 for 2023), both from press. Both fit 'closed' (off-duty hours; no-swimming area under a red flag), so the facts hold, but the framing overreaches.",
+      "evidence": "V061, V004, V067, V068.",
+      "fix": "Replace 'in the recent cases on record it happened in water that was closed to swimmers' with 'in two recent cases reported by the press, it happened in water that was closed to swimmers'."
+    },
+    {
+      "where": "showcase.honest_reckoning_note, para 3, 'The city warned people to stay out of the water at a dozen beaches.'",
+      "claim": "dozen beaches, stated in the city's voice",
+      "problem": "V053 is ABC7's count (a dozen). V058 (same day) says 18 locations were under advisory. The sheet has no conflict note for 12 vs 18, so the page picks one count without saying who counted. The 227 vs 104 framing is handled correctly: no '10x the limit' ratio is used (the conflicts section warns against it).",
+      "evidence": "V053 (ABC7, 2026-07-09): 'warning people to stay out of the water at a dozen beaches'. V058 (2026-07-09): 'Of 18 locations under advisory'.",
+      "fix": "Replace 'The city warned people to stay out of the water at a dozen beaches.' with 'ABC7 reported that the city warned people to stay out of the water at a dozen beaches.'"
+    },
+    {
+      "where": "showcase.honest_reckoning_note, para 3, ABC7 sign sentence",
+      "claim": "Advisory is given with no mention that it covered wading, and no status as of today (2026-10-13).",
+      "problem": "The sheet only has the July 6-9, 2026 advisory (recency note), and the text is in past tense, which is fine. But V054 gives a plain safety fact the note leaves out: the advisory applies to wading.",
+      "evidence": "V054 quote: 'the advisory even applies to wading, but there have been no announcements on the beach.'",
+      "fix": "Replace 'ABC7 found no announcements on the beach and one small sign on the boardwalk.' with 'ABC7 said the advisory covered wading too, yet it found no announcements on the beach and only one small sign on the boardwalk.'"
+    },
+    {
+      "where": "showcase.honest_reckoning_note, para 4, first sentence",
+      "claim": "'The land behind the beach is low.'",
+      "problem": "No sheet fact states this. It is an unsourced topic sentence. Nearby facts show only that flooding happened (P056) and that the creek rises above the street in a king tide at Neptune Ave and W 21st St (P063).",
+      "evidence": "Search of the sheet for low-lying / below sea level / flood zone finds nothing. P056, P063.",
+      "fix": "Replace 'The land behind the beach is low.' with 'Flooding is a real risk behind the beach.'"
+    },
+    {
+      "where": "showcase.honest_reckoning_note, para 4, Sandy cause",
+      "claim": "'A local activist says the worst flooding came from Coney Island Creek, not the ocean.'",
+      "problem": "Attributed correctly, but it gives only one side. The sheet's conflict says both are true in different places: P049 (Army Corps, medium) says the surge pushed sand and water up and over the boardwalk. P056 is a single activist quote (medium).",
+      "evidence": "P056 (2023-11, medium); P049 (2023-07, medium); conflicts '[hist2] Sandy cause'.",
+      "fix": "Append after that sentence: 'The Army Corps says the surge also pushed sand and water over the boardwalk.'"
+    },
+    {
+      "where": "showcase.honest_reckoning_note",
+      "claim": "Scope: the note has no Trump demolition or decline content.",
+      "problem": "The author brief says to be honest about the Trump demolition and decline. The note covers drownings, staffing, water and Sandy only. If spike_explainer carries those (not in my slice), nothing more is needed. Nothing in the note is wrong. I found no Trump or decline claim in this slice to check.",
+      "evidence": "P010, P007, P011 (medium: the landmarking motive is the source's account) exist for another slice.",
+      "fix": "No text change in this slice. Orchestrator: confirm the demolition and decline facts are in spike_explainer."
+    },
+    {
+      "where": "showcase.margin_notes[3].text (economy)",
+      "claim": "Feltman's: 1867 pie wagon, 40,000 hot dogs a day by the 1920s at ten cents, lasted until 1954.",
+      "problem": "All four facts (H126, H127, H128, H131) come from one 6sqft article, confidence medium. Numbers match the quotes. Under the weak-source rule they should be attributed. The Feltman's hot dog origin is a listed unresolved conflict; the note does not claim invention, which is correct.",
+      "evidence": "H126-H128, H131 (6sqft, 2020-07, medium). conflicts '[hist1] Hot dog origin'.",
+      "fix": "Replace the text with: 'Before Nathan's there was Feltman's. 6sqft reports that Charles Feltman started in 1867 pushing a pie wagon through the dunes. By the 1920s his place sold 40,000 hot dogs a day at ten cents each. It lasted until 1954.'"
+    },
+    {
+      "where": "showcase.margin_notes[4].text (geology)",
+      "claim": "'Coney Island was once a real island, cut off by Coney Island Creek ... It is now a peninsula.'",
+      "problem": "The staged-fill sequence matches the sheet and respects the conflict note (do not say the island became a peninsula in 1962 alone). H144, H145 and H148 are Wikipedia, medium. 'Real island' is the author's wording. Low risk.",
+      "evidence": "H143 (high), H144/H145/H148 (medium); conflicts '[hist1] Creek infill dates'.",
+      "fix": "Replace 'Coney Island was once a real island, cut off by Coney Island Creek.' with 'Coney Island was once an island, separated by Coney Island Creek.'"
+    },
+    {
+      "where": "showcase.day_in_time.dawn, Polar Bear Club sentence",
+      "claim": "'In winter, the Polar Bear Club swims every Sunday, in any weather, from November to April, its president said in 2014.'",
+      "problem": "Present tense for a 2014 statement (C048, 2014-12). The year is given, but the verb presents it as current.",
+      "evidence": "C048: 'member swims happen every sunday, in every weather, november-april' (2014-12).",
+      "fix": "Replace with: 'In winter, the Polar Bear Club has swum every Sunday, in every weather, from November to April, its president said in 2014.'"
+    },
+    {
+      "where": "showcase.day_in_time.night, Shimamura quote",
+      "claim": "Shimamura remembers a late weeknight when the beach “was packed with people walking, playing, holding snakes, and doing magic tricks.”",
+      "problem": "V037's quote is the reporter's indirect speech ('instead, she said, it was packed with people ...'), not Shimamura's own words. Quote marks attribute the words to her.",
+      "evidence": "V037 quote: 'instead, she said, it was packed with people walking, playing, holding snakes, and doing magic tricks.'",
+      "fix": "Replace the quoted phrase with plain text: 'Shimamura remembers a late weeknight when the beach was packed with people walking, playing, holding snakes and doing magic tricks.'"
+    },
+    {
+      "where": "showcase.day_in_time.midday, Maher sentence",
+      "claim": "'Brooklyn's parks commissioner, Marty Maher, calls the Atlantic the “biggest air conditioner in the world.”'",
+      "problem": "V039 says he 'joked'. 'Calls' drops the joking tone. His title in the sheet is Brooklyn Borough Parks Commissioner.",
+      "evidence": "V039: 'Brooklyn Borough Parks Commissioner Marty Maher joked the Atlantic is the biggest air conditioner in the world.'",
+      "fix": "Replace the sentence with: 'Brooklyn Borough Parks Commissioner Marty Maher joked at the 2026 opening that the Atlantic is the “biggest air conditioner in the world.”'"
+    },
+    {
+      "where": "showcase.day_in_time (golden, night)",
+      "claim": "Season tense.",
+      "problem": "Lifeguard hours and water closing are in-season facts, and the 2026 season ended Sept 13 (V008). The text says 'in season' only once (midday). The golden and night entries read as present.",
+      "evidence": "V008, V028 and the recency note for 'visit'.",
+      "fix": "In day_in_time.golden replace 'At 6 p.m. the lifeguards leave and the water is closed for the day.' with 'In season, the lifeguards leave at 6 p.m. and the water is closed for the day.' In day_in_time.night replace 'The water stays closed all night.' with 'The water is closed all night.'"
+    }
+  ],
+  "verified_ok": [
+    "Sisters, July 5, 2024: ages 17 and 18, rip-current warnings, off duty, disappeared shortly after 8 p.m., two hours after 6 p.m., divers recovered (V061, V062). Not named. Not used as a hook.",
+    "Brothers, July 27, 2023: lifeguards on duty saw two boys in a no-swimming area near W 22nd St; Parks said red flag; 14-year-old pulled out alive; 15-year-old's body found by July 30 (V067-V070). No names.",
+    "Family wading quote and 'told CBS' (V073).",
+    "800 lifeguards, eight beaches, 48 pools, Donoghue, six bays (V071, V072); Brownstoner May 2026 shortage closures (V031).",
+    "Enterococci: July 6, 2026 sample 227; state single-sample limit 104; a dozen beaches (ABC7); one small sign; indicator of fecal pollution, usually not illness itself (V056, V057, V053, V054, V059). No 10x-the-limit ratio used (conflict note respected).",
+    "Sandy 600,000 cubic yards lost (P046); EPA Dec 2021 added cyanide and mirex to earlier PCBs, lead and benzene (P097); not Superfund as of Nov 2023 (P098); sea level about a foot since 1900 and 1-2 ft more by 2050s (P101).",
+    "Margin 1: UTVs, 23 percent recruits (V043, V033). Margin 2: Santosuosso quote and Manhattan Beach (V040, V042). Margin 3: Conyne Eylandt 1639, 1654 deed narriockh, no strong origin theory (H001, H004, H007). Margin 5: Little Odessa, mid-1970s, Central Asian since 2010s (C135, C137).",
+    "Day: boardwalk closed 1-5 a.m. (V006); 24-hour Parks operation (V035); parkies quote (V038); horseshoe crabs May-June, night high tides, flip not tail (P077-P079); SPF 30 at all eight beaches (V012); AC quote (V074); map updated soon after 10 a.m. (V005).",
+    "Wonder Wheel: ten-minute turn, two turns, 16 of 24 sliding, separate queues, 14,506 on July 4, 1947 (N003, N004, N005). Parachute Jump: about 8,000 fixtures, lights 2006, replaced 2013 (N036, N035).",
+    "No named minor victims anywhere in the slice. No banned brochure words or slogans found. Reckoning note is 387 words (target 250-450)."
+  ]
+}

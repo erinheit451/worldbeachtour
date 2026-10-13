@@ -22,13 +22,49 @@ interface SurfContent {
   the_break?: string; when_to_surf?: string; crowds_etiquette?: string;
   board_call?: string; skill?: string;
 }
+interface SpokeImage {
+  url: string; title: string; author?: string; license: string; source_url?: string;
+}
 interface PierContent {
   title: string; kicker?: string; intro?: string;
-  sections?: { heading: string; body: string }[];
+  hero_image?: SpokeImage;
+  sections?: { heading: string; body: string; image?: SpokeImage }[];
+  sources?: { label: string; url: string }[];
 }
 
-function SpokeHeader({ bundle, title, kicker }: { bundle: LegendaryPageBundle; title: string; kicker?: string }) {
+function Credit({ image, className }: { image: SpokeImage; className: string }) {
+  const text = `${image.title}${image.author ? ` · ${image.author}` : ""} · ${image.license}`;
+  return image.source_url
+    ? <a href={image.source_url} rel="noopener" className={`${className} hover:underline`}>{text}</a>
+    : <span className={className}>{text}</span>;
+}
+
+function SpokeHeader({ bundle, title, kicker, image }: { bundle: LegendaryPageBundle; title: string; kicker?: string; image?: SpokeImage }) {
+  if (image) {
+    // Photo header: the site nav is white-on-transparent, so spokes need a dark top like the parent hero.
+    return (
+      <header className="relative w-full h-[56vh] min-h-[420px] overflow-hidden bg-black">
+        <img src={image.url} alt={image.title} className="absolute inset-0 h-full w-full object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/45 via-black/10 to-black/85" />
+        <div className="absolute bottom-0 left-0 right-0 px-6 pb-14 sm:pb-16">
+          <div className="mx-auto max-w-3xl">
+            <Link href={`/beaches/${bundle.composition.slug}`} className="font-mono text-[11px] uppercase tracking-[0.18em] text-white/85 hover:underline">
+              ← {bundle.composition.beach_name}
+            </Link>
+            <h1 className="font-display text-[40px] sm:text-[56px] leading-[1.02] text-white mt-4" style={{ fontFamily: "var(--display-family)" }}>
+              {title}
+            </h1>
+            {kicker && <p className="mt-3 text-lg sm:text-xl italic text-white/90 font-serif">{kicker}</p>}
+          </div>
+        </div>
+        <Credit image={image} className="absolute bottom-3 right-4 max-w-[60%] text-right text-[10px] text-white/60" />
+      </header>
+    );
+  }
   return (
+    <>
+    {/* Dark band so the white site nav stays readable on photo-less spokes. */}
+    <div className="h-16 w-full" style={{ background: "var(--beach-primary, #0f172a)" }} />
     <header className="mx-auto max-w-3xl px-6 pt-12 pb-8">
       <Link
         href={`/beaches/${bundle.composition.slug}`}
@@ -42,6 +78,18 @@ function SpokeHeader({ bundle, title, kicker }: { bundle: LegendaryPageBundle; t
       </h1>
       {kicker && <p className="mt-4 text-xl italic text-volcanic-500 font-serif">{kicker}</p>}
     </header>
+    </>
+  );
+}
+
+function Figure({ image }: { image: SpokeImage }) {
+  return (
+    <figure className="my-6">
+      <img src={image.url} alt={image.title} loading="lazy" className="w-full h-auto rounded-sm" />
+      <figcaption className="mt-2 text-[12px] text-volcanic-400">
+        <Credit image={image} className="" />
+      </figcaption>
+    </figure>
   );
 }
 
@@ -133,17 +181,32 @@ export function SurfGuide({ bundle }: { bundle: LegendaryPageBundle }) {
   );
 }
 
-// ── PIER GUIDE (deep dive) ──────────────────────────────────────────────
+// ── TOPIC GUIDE (deep dive) ─────────────────────────────────────────────
+// Any authored spoke shaped { title, kicker, intro, sections[], sources[] } under
+// showcase.spokes_content[<spoke>]. Huntington's pier page is one instance.
 export function PierGuide({ bundle }: { bundle: LegendaryPageBundle }) {
-  const c = (bundle.showcase as unknown as { spokes_content?: { ["the-pier"]?: PierContent } }).spokes_content?.["the-pier"];
+  return <TopicGuide bundle={bundle} spoke="the-pier" />;
+}
+
+export function TopicGuide({ bundle, spoke }: { bundle: LegendaryPageBundle; spoke: string }) {
+  const c = (bundle.showcase as unknown as { spokes_content?: Record<string, PierContent> }).spokes_content?.[spoke];
   if (!c) return null;
   return (
     <LegendaryShell composition={bundle.composition}>
-      <SpokeHeader bundle={bundle} title={c.title} kicker={c.kicker} />
+      <SpokeHeader bundle={bundle} title={c.title} kicker={c.kicker} image={c.hero_image} />
       <div className="mx-auto max-w-3xl px-6 pb-4"><Prose text={c.intro} /></div>
       {(c.sections ?? []).map((s, i) => (
-        <Block key={i} heading={s.heading}><Prose text={s.body} /></Block>
+        <Block key={i} heading={s.heading}>{s.image && <Figure image={s.image} />}<Prose text={s.body} /></Block>
       ))}
+      {c.sources && c.sources.length > 0 && (
+        <Block heading="Sources">
+          <ol className="list-decimal pl-5 space-y-1 text-[14px] text-volcanic-500">
+            {c.sources.map((s, i) => (
+              <li key={i}><a href={s.url} className="underline hover:text-volcanic-800" rel="noopener">{s.label}</a></li>
+            ))}
+          </ol>
+        </Block>
+      )}
       <div className="mx-auto max-w-3xl px-6 py-12">
         <Link href={`/beaches/${bundle.composition.slug}`} className="font-mono text-[11px] uppercase tracking-[0.18em] hover:underline" style={{ color: "var(--beach-primary)" }}>
           ← Back to {bundle.composition.beach_name}

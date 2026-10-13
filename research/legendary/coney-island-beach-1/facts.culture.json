@@ -1,0 +1,1131 @@
+{
+  "slug": "coney-island-beach-1",
+  "topic": "culture",
+  "beach_name": "Coney Island Beach",
+  "researched_at": "2026-10-13",
+  "identity": {
+    "what_it_is": "Culture, people and food of Coney Island, Brooklyn: film, music and literature, the Polar Bear Club, the Mermaid Parade, Nathan's, Totonno's, Ruby's, Brighton Beach, and local oral history.",
+    "where": "Coney Island and neighboring Brighton Beach, southern Brooklyn, New York City",
+    "aliases": ["Coney Island", "the people's playground", "Brighton Beach (Little Odessa) next door"],
+    "warnings": "Bundle is mostly lower-cased scraped text. Several pages are comment threads or have stale dates (Ruby's 2010, Time Out 2015, MCNY 2018). Gargiulo's, Williams Candy, Weegee/V&A and the Macaulay Little Odessa essay were in the scout list but not in the bundle."
+  },
+  "spike_candidates": [
+    {
+      "statement": "Nathan's July 4 hot dog contest 'since 1916' was invented: promoter Mortimer Matz admitted in 2010 he made it up in the early 1970s.",
+      "tension": "The company's own history page still prints the 1916 contest as 'legend has it' while its first recorded contest is 1972 and the first official one was 1967.",
+      "fact_ids": ["C057", "C058", "C059", "C060", "C061"],
+      "strength": "strong"
+    },
+    {
+      "statement": "A $30,000 film shot on Coney Island in 1953, Little Fugitive, made a 7-year-old with $6 the template for the French New Wave, per Truffaut.",
+      "tension": "The Coney Island it records, safe enough for a child alone, is the one the 1979 Warriors shows as shuttered and gone to seed.",
+      "fact_ids": ["C020", "C021", "C022", "C023", "C026", "C028"],
+      "strength": "strong"
+    },
+    {
+      "statement": "Ruby's, open since 1934, was ordered out in November 2010 after the city paid $100 million for the amusement zone.",
+      "tension": "The street beside the bar is co-named for its owner, yet the city's own land deal started the eviction; no source here says whether the bar reopened.",
+      "fact_ids": ["C121", "C122", "C123", "C125", "C128", "C129"],
+      "strength": "medium"
+    },
+    {
+      "statement": "The Warriors, the most famous Coney Island film, never filmed in the Bronx, and commenters say its beach ending was shot at Breezy Point or Fort Tilden.",
+      "tension": "The 'Coney Island' ending that fans quote may not be Coney Island, and the best proof is a reader comment, not an official source.",
+      "fact_ids": ["C030", "C031", "C032", "C033", "C034"],
+      "strength": "medium"
+    }
+  ],
+  "facts": [
+    {
+      "id": "C001", "topic": "culture",
+      "fact": "In Annie Hall (1977), Alvy Singer grows up in a house under the Thunderbolt roller coaster that shook every time the coaster ran.",
+      "quote": "lived in coney island as a child in a house that was under the thunderbolt rollercoaster that shook wildly every time the coaster made its rounds",
+      "url": "https://en.wikipedia.org/wiki/Coney_Island_in_popular_culture", "source_title": "Coney Island in popular culture - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C002", "topic": "culture",
+      "fact": "A 1917 silent short called Coney Island, starring Fatty Arbuckle and Buster Keaton, used Luna Park as its setting.",
+      "quote": "in the silent short coney island (1917), starring fatty arbuckle and buster keaton, the scene is luna park amusement park",
+      "url": "https://en.wikipedia.org/wiki/Coney_Island_in_popular_culture", "source_title": "Coney Island in popular culture - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C003", "topic": "culture",
+      "fact": "Sol Yurick's 1965 novel The Warriors, loosely based on Xenophon's Anabasis, inspired the 1979 film.",
+      "quote": "the warriors by sol yurick is the 1965 novel that inspired the 1979 film of the same name",
+      "url": "https://en.wikipedia.org/wiki/Coney_Island_in_popular_culture", "source_title": "Coney Island in popular culture - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C004", "topic": "culture",
+      "fact": "In the film, the Warriors gang fights its way back to Coney Island after being accused of a murder they did not commit.",
+      "quote": "a gang of the same name fight their way back to coney island after being accused of a murder that they did not commit",
+      "url": "https://en.wikipedia.org/wiki/Coney_Island_in_popular_culture", "source_title": "Coney Island in popular culture - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C005", "topic": "culture",
+      "fact": "Director Darren Aronofsky grew up in Brighton Beach and set Pi (1998) and Requiem for a Dream (2000) partly in Coney Island, Brighton Beach for the latter.",
+      "quote": "darren aronofsky grew up in brighton beach.",
+      "url": "https://en.wikipedia.org/wiki/Coney_Island_in_popular_culture", "source_title": "Coney Island in popular culture - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C006", "topic": "culture",
+      "fact": "Lana Del Rey often calls herself the queen of Coney Island and references it in songs such as Carmen and Off to the Races.",
+      "quote": "lana del rey frequently references coney island in her songs and often refers to herself as the queen of coney island",
+      "url": "https://en.wikipedia.org/wiki/Coney_Island_in_popular_culture", "source_title": "Coney Island in popular culture - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C007", "topic": "culture",
+      "fact": "Cyndi Lauper's 1983 album cover She's So Unusual was shot at Henderson Walk in Coney Island by Annie Leibovitz.",
+      "quote": "was shot at henderson walk on coney island by annie leibovitz in 1983",
+      "url": "https://en.wikipedia.org/wiki/Coney_Island_in_popular_culture", "source_title": "Coney Island in popular culture - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C008", "topic": "culture",
+      "fact": "Taylor Swift's 2020 album evermore includes a song called Coney Island featuring The National.",
+      "quote": "featuring the national on her 2020 album evermore",
+      "url": "https://en.wikipedia.org/wiki/Coney_Island_in_popular_culture", "source_title": "Coney Island in popular culture - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C009", "topic": "culture",
+      "fact": "The Excellents' doo-wop single Coney Island Baby reached number 51 on the Billboard Hot 100 in 1962.",
+      "quote": "which hit #51 on the billboard hot 100 in 1962",
+      "url": "https://en.wikipedia.org/wiki/Coney_Island_in_popular_culture", "source_title": "Coney Island in popular culture - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C010", "topic": "culture",
+      "fact": "The popular-culture hub dates Lou Reed's Coney Island Baby album to 1976, while the album's own page gives a December 1975 release.",
+      "quote": "american singer-songwriter lou reed 's 1976 album is entitled coney island baby",
+      "url": "https://en.wikipedia.org/wiki/Coney_Island_in_popular_culture", "source_title": "Coney Island in popular culture - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C011", "topic": "culture",
+      "fact": "The 2019 Disney Dumbo remake used a fictional Dreamland and moved the Dreamland fire to 1919, which the source flags as historically inaccurate.",
+      "quote": "in dumbo, the fire took place in 1919, and dreamland was owned by v. a. vandevere, a fictional character.",
+      "url": "https://en.wikipedia.org/wiki/Coney_Island_in_popular_culture", "source_title": "Coney Island in popular culture - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C012", "topic": "culture",
+      "fact": "A song by Grand Archives retells the death of Topsy, the Coney Island elephant, electrocuted by Luna Park's owners and filmed by Edison's company.",
+      "quote": "the death of topsy, the coney island elephant, electrocuted by the owners of luna park and filmed by the edison manufacturing company",
+      "url": "https://en.wikipedia.org/wiki/Coney_Island_in_popular_culture", "source_title": "Coney Island in popular culture - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C013", "topic": "culture",
+      "fact": "In the 1992 Seinfeld episode The Subway, Jerry goes to Coney Island to get his stolen car back and ends up riding the rides.",
+      "quote": "jerry seinfeld travels to coney island to retrieve his stolen car, but ends up just going on the rides",
+      "url": "https://en.wikipedia.org/wiki/Coney_Island_in_popular_culture", "source_title": "Coney Island in popular culture - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C014", "topic": "culture",
+      "fact": "Woody Allen's 2017 film Wonder Wheel is set in 1950s Coney Island and stars Kate Winslet.",
+      "quote": "2017 film titled wonder wheel with kate winslet, the film is set in 1950s coney island.",
+      "url": "https://en.wikipedia.org/wiki/Coney_Island_in_popular_culture", "source_title": "Coney Island in popular culture - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C015", "topic": "culture",
+      "fact": "Neil Simon's 1983 play Brighton Beach Memoirs (filmed 1986) is about growing up in the Coney Island area with the Cyclone in the background.",
+      "quote": "depicts growing up in the coney island area, and features scenes with the coney island rollercoaster in the background",
+      "url": "https://en.wikipedia.org/wiki/Coney_Island_in_popular_culture", "source_title": "Coney Island in popular culture - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C016", "topic": "culture",
+      "fact": "A 1905 Billy Murray recording, Meet Me Down at Luna, Lena, was made to promote Luna Park.",
+      "quote": "was recorded by billy murray in 1905 to promote the park, among others",
+      "url": "https://en.wikipedia.org/wiki/Coney_Island_in_popular_culture", "source_title": "Coney Island in popular culture - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C017", "topic": "culture",
+      "fact": "In Mr. Robot, Coney Island is the home base of the hacker collective fsociety.",
+      "quote": "coney island is the home of hacker collective fsociety, in the drama-thriller series, mr. robot.",
+      "url": "https://en.wikipedia.org/wiki/Coney_Island_in_popular_culture", "source_title": "Coney Island in popular culture - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C018", "topic": "culture",
+      "fact": "Lawrence Ferlinghetti's poetry book A Coney Island of the Mind was first published in 1958 by New Directions and has about a million copies in print.",
+      "quote": "there are approximately a million copies in print of a coney island",
+      "url": "https://en.wikipedia.org/wiki/A_Coney_Island_of_the_Mind", "source_title": "A Coney Island of the Mind - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C019", "topic": "culture",
+      "fact": "The phrase 'a Coney Island of the mind' first appeared in Henry Miller's Black Spring, as a put-down: everything is sordid, shoddy, thin as pasteboard.",
+      "quote": "everything is sordid, shoddy, thin as pasteboard. a coney island of the mind.",
+      "url": "https://en.wikipedia.org/wiki/A_Coney_Island_of_the_Mind", "source_title": "A Coney Island of the Mind - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C020", "topic": "culture",
+      "fact": "Little Fugitive (1953) was shot for $30,000 and grossed $162,373 worldwide in theatrical release.",
+      "quote": "the movie was shot for $30,000 and eventually grossed $162,373 worldwide in theatrical exhibition.",
+      "url": "https://www.film-foundation.org/little-fugitive-hfpa", "source_title": "Out of the Vaults: Little Fugitive, 1953 - The Film Foundation",
+      "source_type": "other", "date_of_source": "2021-02", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C021", "topic": "culture",
+      "fact": "In the film, 7-year-old Joey takes the $6 grocery money his widowed mother left and rides the subway to Coney Island.",
+      "quote": "the terrified joey grabs the $6 she left for groceries and gets himself on the subway to coney island",
+      "url": "https://www.film-foundation.org/little-fugitive-hfpa", "source_title": "Out of the Vaults: Little Fugitive, 1953 - The Film Foundation",
+      "source_type": "other", "date_of_source": "2021-02", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C022", "topic": "culture",
+      "fact": "François Truffaut credited Morris Engel's Little Fugitive for showing the French the way to independent production.",
+      "quote": "our new wave would never have come into being if it hadn't been for the young american morris engel",
+      "url": "https://www.film-foundation.org/little-fugitive-hfpa", "source_title": "Out of the Vaults: Little Fugitive, 1953 - The Film Foundation",
+      "source_type": "other", "date_of_source": "2021-02", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C023", "topic": "culture",
+      "fact": "Engel used a 35mm camera strapped to his body to follow the boy through summer crowds; Stanley Kubrick rented it for his next film.",
+      "quote": "stanley kubrick was so taken by it, he rented it from engel for his next film.",
+      "url": "https://www.film-foundation.org/little-fugitive-hfpa", "source_title": "Out of the Vaults: Little Fugitive, 1953 - The Film Foundation",
+      "source_type": "other", "date_of_source": "2021-02", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C024", "topic": "culture",
+      "fact": "Coney Island scenes make up two-thirds of Little Fugitive and were filmed to allow the child's spontaneous action.",
+      "quote": "the coney island scenes, which are fully two-thirds of the film",
+      "url": "https://www.film-foundation.org/little-fugitive-hfpa", "source_title": "Out of the Vaults: Little Fugitive, 1953 - The Film Foundation",
+      "source_type": "other", "date_of_source": "2021-02", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C025", "topic": "culture",
+      "fact": "Viewers of Little Fugitive see 1950s rides including the Tornado, the Parachute Jump, the Gyro Globe and a wax museum, plus the still-existing Wonder Wheel.",
+      "quote": "viewers will see the tornado, parachute jump, gyro globe and wax museum, as well as the still-existing wonder wheel",
+      "url": "https://www.film-foundation.org/little-fugitive-hfpa", "source_title": "Out of the Vaults: Little Fugitive, 1953 - The Film Foundation",
+      "source_type": "other", "date_of_source": "2021-02", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C026", "topic": "culture",
+      "fact": "Little Fugitive won the Silver Lion at the 1953 Venice Film Festival and was inducted into the National Film Registry in 1997.",
+      "quote": "screened at the 1953 venice film festival where it was nominated for the golden lion and won the silver lion",
+      "url": "https://www.film-foundation.org/little-fugitive-hfpa", "source_title": "Out of the Vaults: Little Fugitive, 1953 - The Film Foundation",
+      "source_type": "other", "date_of_source": "2021-02", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C027", "topic": "culture",
+      "fact": "Star Richie Andrusco said at a 2013 revival screening that Engel discovered him riding the Coney Island carousel with his brother.",
+      "quote": "andrusco said he was discovered by engel in coney island where he was riding the carousel with his brother",
+      "url": "https://www.film-foundation.org/little-fugitive-hfpa", "source_title": "Out of the Vaults: Little Fugitive, 1953 - The Film Foundation",
+      "source_type": "other", "date_of_source": "2021-02", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C028", "topic": "culture",
+      "fact": "Brooklyn Magazine calls Little Fugitive's Coney Island a vanished 'poorman's paradise' and notes the film played in 5,000 US theaters.",
+      "quote": "played in 5,000 u.s. theaters",
+      "url": "https://www.bkmag.com/?p=48243", "source_title": "Reel Brooklyn: Little Fugitive, Coney Island - Brooklyn Magazine",
+      "source_type": "press", "date_of_source": "2016-06", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C029", "topic": "culture",
+      "fact": "The 1953 film shows Bonomo's salt water taffy, the Wonder Wheel and the old 60th Precinct house, and the boy collects returnable Coke bottles on the beach.",
+      "quote": "from the glimpses of bonomo's salt water taffy, the wonder wheel, the old 60th precinct house",
+      "url": "https://www.bkmag.com/?p=48243", "source_title": "Reel Brooklyn: Little Fugitive, Coney Island - Brooklyn Magazine",
+      "source_type": "press", "date_of_source": "2016-06", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C030", "topic": "culture",
+      "fact": "Location scout Nick Carr states that The Warriors never filmed in the Bronx, only in Manhattan, Brooklyn and Queens.",
+      "quote": "filming only took place in manhattan, brooklyn, and queens",
+      "url": "https://www.scoutingny.com/?p=6629", "source_title": "The New York City filming locations of The Warriors, part 1 - Scouting NY",
+      "source_type": "other", "date_of_source": "2013-05", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C031", "topic": "culture",
+      "fact": "Brooklyn Magazine says The Warriors begins and ends under the Coney Island Wonder Wheel, ending at the Stillwell Avenue stop at dusk with the boardwalk shops shuttered.",
+      "quote": "walter hill's 1979 the warriors begins and ends under the coney island wonder wheel",
+      "url": "https://www.bkmag.com/?p=56577", "source_title": "Reel Brooklyn: The Warriors, Coney Island - Brooklyn Magazine",
+      "source_type": "press", "date_of_source": "2017-02", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C032", "topic": "culture",
+      "fact": "A commenter on Scouting NY says the film's final beach scene was shot at Breezy Point or Fort Tilden, and another says Coney has no dunes like the ending shows.",
+      "quote": "i know the final scene on the beach was filmed on breezy point/fort tilden.",
+      "url": "https://www.scoutingny.com/?p=6629", "source_title": "The New York City filming locations of The Warriors, part 1 - Scouting NY (reader comments)",
+      "source_type": "other", "date_of_source": "2013-05", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C033", "topic": "culture",
+      "fact": "Another commenter argues the beach ending is not Coney Island because it has dunes and flowering fall beach grass.",
+      "quote": "there are no dunes in coney like in the movie",
+      "url": "https://www.scoutingny.com/?p=6629", "source_title": "The New York City filming locations of The Warriors, part 1 - Scouting NY (reader comments)",
+      "source_type": "other", "date_of_source": "2013-06", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C034", "topic": "culture",
+      "fact": "The film's cemetery scenes were shot at Evergreen Cemetery in Cypress Hills, Brooklyn, not at a Bronx cemetery.",
+      "quote": "this was actually shot in evergreen cemetery, in the cypress hills section of brooklyn",
+      "url": "https://www.scoutingny.com/?p=6629", "source_title": "The New York City filming locations of The Warriors, part 1 - Scouting NY",
+      "source_type": "other", "date_of_source": "2013-05", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C035", "topic": "culture",
+      "fact": "In the film the gang boards the D train at Coney Island-Stillwell Avenue, a station renovated in 2004-05.",
+      "quote": "which underwent a major renovation in 2004/05",
+      "url": "https://www.scoutingny.com/?p=6629", "source_title": "The New York City filming locations of The Warriors, part 1 - Scouting NY",
+      "source_type": "other", "date_of_source": "2013-05", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C036", "topic": "events",
+      "fact": "A Warriors Coney Island reunion with cast members was advertised at the Surf Pavilion for September 13, 2015.",
+      "quote": "the warriors coney island reunion at surf pavilion",
+      "url": "https://www.scoutingny.com/?p=6629", "source_title": "The New York City filming locations of The Warriors, part 1 - Scouting NY (reader comments)",
+      "source_type": "other", "date_of_source": "2015-08", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C037", "topic": "culture",
+      "fact": "Brooklyn Magazine's writer kept a 1948 snapshot of Al Jolson smiling in the sand at Coney Island, as proof that 'everybody could and did go to that beach'.",
+      "quote": "i have an old snapshot my mother took in 1948 on coney island of al jolson, smiling in the sand wearing swimming trunks",
+      "url": "https://www.bkmag.com/?p=56577", "source_title": "Reel Brooklyn: The Warriors, Coney Island - Brooklyn Magazine",
+      "source_type": "press", "date_of_source": "2017-02", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C038", "topic": "culture",
+      "fact": "Warriors line: 'this is what we fought all night to get back to?' is how a character reacts to the shuttered, seedy Coney Island at the end.",
+      "quote": "this is what we fought all night to get back to?",
+      "url": "https://www.bkmag.com/?p=56577", "source_title": "Reel Brooklyn: The Warriors, Coney Island - Brooklyn Magazine",
+      "source_type": "press", "date_of_source": "2017-02", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C039", "topic": "culture",
+      "fact": "Untapped Cities says David Patrick Kelly's 'Warriors, come out and play' line at the beach was supposedly improvised.",
+      "quote": "a line that was supposedly improvised",
+      "url": "https://untappedcities.com/2023/06/22/brooklyn-film-locations/3/", "source_title": "10 Iconic Brooklyn Film Locations - Untapped New York",
+      "source_type": "press", "date_of_source": "2023-06", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C040", "topic": "culture",
+      "fact": "In The Wiz, Dorothy meets the Scarecrow at the Coney Island Cyclone while heading toward Oz.",
+      "quote": "in the wiz, dorothy (diana ross) meets the scarecrow (michael jackson) at the cyclone while heading toward oz",
+      "url": "https://untappedcities.com/2023/06/22/brooklyn-film-locations/3/", "source_title": "10 Iconic Brooklyn Film Locations - Untapped New York",
+      "source_type": "press", "date_of_source": "2023-06", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C041", "topic": "culture",
+      "fact": "Nathan's hot dogs appear in Spike Lee's He Got Game and in The Other Guys.",
+      "quote": "nathan's hot dogs also gets its spotlight in films like spike lee's he got game and adam mckay's the other guys",
+      "url": "https://untappedcities.com/2023/06/22/brooklyn-film-locations/3/", "source_title": "10 Iconic Brooklyn Film Locations - Untapped New York",
+      "source_type": "press", "date_of_source": "2023-06", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C042", "topic": "culture",
+      "fact": "Margo Donohue's book says Coney Island films track the nation's moods, from the rough early 1900s to family-friendly 1930s-1950s to white flight and the 1970s.",
+      "quote": "from the rough-and-tumble early twentieth century to the more family-friendly 1930s-1950s",
+      "url": "https://untappedcities.com/2023/06/22/brooklyn-film-locations/3/", "source_title": "10 Iconic Brooklyn Film Locations - Untapped New York",
+      "source_type": "press", "date_of_source": "2023-06", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C043", "topic": "culture",
+      "fact": "Goodfellas (1990) was shot partly in Coney Island as well as Bay Ridge, Park Slope and Bensonhurst.",
+      "quote": "goodfellas is another film shot partly in bay ridge, as well as in coney island, park slope, and bensonhurst",
+      "url": "https://untappedcities.com/2023/06/22/brooklyn-film-locations/3/", "source_title": "10 Iconic Brooklyn Film Locations - Untapped New York",
+      "source_type": "press", "date_of_source": "2023-06", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C044", "topic": "culture",
+      "fact": "James Gray's 1994 crime drama Little Odessa takes its title from a nickname for Brighton Beach.",
+      "quote": "little odessa, a 1994 james gray crime drama whose title references a nickname for the brooklyn neighborhood",
+      "url": "https://untappedcities.com/2023/06/22/brooklyn-film-locations/3/", "source_title": "10 Iconic Brooklyn Film Locations - Untapped New York",
+      "source_type": "press", "date_of_source": "2023-06", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C045", "topic": "events",
+      "fact": "The Coney Island Polar Bear Club was founded on New Year's Day 1903, when Bernarr Macfadden led about 50 men and women to the beach for calisthenics and a swim.",
+      "quote": "on new year's day, 1903, macfadden led about 50 hardy men and women to the beach at coney island for calisthenics followed by an invigorating swim",
+      "url": "https://www.atlasobscura.com/articles/the-new-years-ritual-of-plunging-into-frigid-waters-started-with-a-strongman-at-coney-island", "source_title": "The New Year's ritual of plunging into frigid waters started with a strongman at Coney Island - Atlas Obscura",
+      "source_type": "press", "date_of_source": "2014-12", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C046", "topic": "culture",
+      "fact": "Atlas Obscura says Macfadden was described as 'a cross between Teddy Roosevelt and P.T. Barnum' and that modern research has not borne out his claim that cold baths boost vitality.",
+      "quote": "modern research has not borne out that claim.",
+      "url": "https://www.atlasobscura.com/articles/the-new-years-ritual-of-plunging-into-frigid-waters-started-with-a-strongman-at-coney-island", "source_title": "The New Year's ritual of plunging into frigid waters started with a strongman at Coney Island - Atlas Obscura",
+      "source_type": "press", "date_of_source": "2014-12", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C047", "topic": "events",
+      "fact": "The 2013 New Year's swim raised $65,000 for Camp Sunshine, a retreat for terminally ill children and their families.",
+      "quote": "last year's swim raised $65,000 for camp sunshine, a retreat for terminally ill children and their families",
+      "url": "https://www.atlasobscura.com/articles/the-new-years-ritual-of-plunging-into-frigid-waters-started-with-a-strongman-at-coney-island", "source_title": "The New Year's ritual of plunging into frigid waters started with a strongman at Coney Island - Atlas Obscura",
+      "source_type": "press", "date_of_source": "2014-12", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C048", "topic": "events",
+      "fact": "Club president Dennis Thomas said member swims run every Sunday in every weather from November to April; he had plunged about 700 times in 30 years.",
+      "quote": "member swims happen every sunday, in every weather, november-april",
+      "url": "https://www.atlasobscura.com/articles/the-new-years-ritual-of-plunging-into-frigid-waters-started-with-a-strongman-at-coney-island", "source_title": "The New Year's ritual of plunging into frigid waters started with a strongman at Coney Island - Atlas Obscura",
+      "source_type": "press", "date_of_source": "2014-12", "lang": "en", "confidence": "high", "time_sensitive": true
+    },
+    {
+      "id": "C049", "topic": "culture",
+      "fact": "Thomas's twin brother Donald is a four-time space shuttle astronaut.",
+      "quote": "dennis' twin brother donald is a four-time space shuttle astronaut",
+      "url": "https://www.atlasobscura.com/articles/the-new-years-ritual-of-plunging-into-frigid-waters-started-with-a-strongman-at-coney-island", "source_title": "The New Year's ritual of plunging into frigid waters started with a strongman at Coney Island - Atlas Obscura",
+      "source_type": "press", "date_of_source": "2014-12", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C050", "topic": "culture",
+      "fact": "Thomas on what the plunge gives you: 'when you're in there, you don't think about other issues in your life.'",
+      "quote": "when you're in there, you don't think about other issues in your life.",
+      "url": "https://www.atlasobscura.com/articles/the-new-years-ritual-of-plunging-into-frigid-waters-started-with-a-strongman-at-coney-island", "source_title": "The New Year's ritual of plunging into frigid waters started with a strongman at Coney Island - Atlas Obscura",
+      "source_type": "press", "date_of_source": "2014-12", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C051", "topic": "safety",
+      "fact": "MCNY reports the club requires guests to sign a waiver before swimming, and warns of cold water shock and hypothermia.",
+      "quote": "the club requires guests to sign a waiver and release agreement before participating in a swim",
+      "url": "https://mcny.org/node/5576", "source_title": "Coney Island Polar Bear Club - Museum of the City of New York",
+      "source_type": "other", "date_of_source": "2018-12", "lang": "en", "confidence": "high", "time_sensitive": true
+    },
+    {
+      "id": "C052", "topic": "culture",
+      "fact": "Before and after Sunday swims, members gather at the New York Aquarium education hall, and the club is believed to be the oldest continuous winter swimming association in the US.",
+      "quote": "before and after the swim, club members gather at the new york aquarium education hall",
+      "url": "https://mcny.org/node/5576", "source_title": "Coney Island Polar Bear Club - Museum of the City of New York",
+      "source_type": "other", "date_of_source": "2018-12", "lang": "en", "confidence": "high", "time_sensitive": true
+    },
+    {
+      "id": "C053", "topic": "events",
+      "fact": "MCNY called the January 1, 2019 plunge the 115th, free to join, with donations supporting Coney Island groups still recovering from Hurricane Sandy.",
+      "quote": "the 115 th new year's day plunge will take place january 1, 2019, at 1:00 pm",
+      "url": "https://mcny.org/node/5576", "source_title": "Coney Island Polar Bear Club - Museum of the City of New York",
+      "source_type": "other", "date_of_source": "2018-12", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C054", "topic": "events",
+      "fact": "6sqft called the January 1, 2022 plunge the 119th, the first since New Year's Day 2020, at 1 p.m.",
+      "quote": "the 119th annual new year's day polar bear plunge returns to coney island on january 1 for the first time since new year's day 2020",
+      "url": "https://www.6sqft.com/119th-annual-polar-bear-plunge-is-back-in-coney-island-this-new-years-day/", "source_title": "119th annual Polar Bear Plunge is back in Coney Island this New Year's Day - 6sqft",
+      "source_type": "press", "date_of_source": "2021-12", "lang": "en", "confidence": "high", "time_sensitive": true
+    },
+    {
+      "id": "C055", "topic": "events",
+      "fact": "First-timer advice from Dennis Thomas: get past two to three minutes and you will be surprised how long you can stay in.",
+      "quote": "if you can get past a threshold of two to three minutes, you'll be surprised how long you can stay in",
+      "url": "https://www.6sqft.com/119th-annual-polar-bear-plunge-is-back-in-coney-island-this-new-years-day/", "source_title": "119th annual Polar Bear Plunge is back in Coney Island this New Year's Day - 6sqft",
+      "source_type": "press", "date_of_source": "2021-12", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C056", "topic": "events",
+      "fact": "Wikipedia: the 2005 plunge drew 300 participants and 6,000 onlookers, and the chief polar bear blows a conch shell to start the swim.",
+      "quote": "the chief polar bear blows a conch shell to gather the swimmers before they run into the water",
+      "url": "https://en.wikipedia.org/wiki/Coney_Island_Polar_Bear_Club", "source_title": "Coney Island Polar Bear Club - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-03", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C057", "topic": "events",
+      "fact": "The first official Nathan's hot dog eating contest was June 30, 1967, won by truck driver Walter Paul with about 127 hot dogs in one hour.",
+      "quote": "named walter paul with approx. 127 hotdogs in one hour",
+      "url": "https://en.wikipedia.org/wiki/Nathan%27s_Hot_Dog_Eating_Contest", "source_title": "Nathan's Hot Dog Eating Contest - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C058", "topic": "events",
+      "fact": "Promoter Mortimer Matz admitted in 2010 that the legend of a 1916 start was made up in the early 1970s as a publicity stunt.",
+      "quote": "admitted to having fabricated the legend of the 1916 start date with a man named max rosey in the early 1970s as part of a publicity stunt",
+      "url": "https://en.wikipedia.org/wiki/Nathan%27s_Hot_Dog_Eating_Contest", "source_title": "Nathan's Hot Dog Eating Contest - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C059", "topic": "events",
+      "fact": "The Times and other papers repeated 1916 as the start year even though no evidence of such a contest exists.",
+      "quote": "although no evidence of the contest exists",
+      "url": "https://en.wikipedia.org/wiki/Nathan%27s_Hot_Dog_Eating_Contest", "source_title": "Nathan's Hot Dog Eating Contest - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C060", "topic": "events",
+      "fact": "Nathan's own franchise history still tells the 1916 story as 'legend has it' that four immigrants held a contest to settle who was most patriotic.",
+      "quote": "to settle an argument over who was the most patriotic, legend has it that four immigrants held a hot dog eating contest at the nathan's famous coney island stand",
+      "url": "https://franchise.nathansfamous.com/our-history/", "source_title": "Our history - Nathan's Famous franchise",
+      "source_type": "business-site", "date_of_source": "2020", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C061", "topic": "events",
+      "fact": "Nathan's dates its first major recorded contest to July 4, 1972; Jason Schechter won with 14 hot dogs and buns.",
+      "quote": "jason schechter (usa) wins it all by eating 14 hot dogs and buns",
+      "url": "https://franchise.nathansfamous.com/our-history/", "source_title": "Our history - Nathan's Famous franchise",
+      "source_type": "business-site", "date_of_source": "2020", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C062", "topic": "events",
+      "fact": "In 2001 Takeru Kobayashi ate 50 hot dogs, smashing the old record of 25.5 and changing competitive eating.",
+      "quote": "kobayashi transformed the competition and the world of competitive eating by downing 50 hot dogs-smashing the previous record of 25.5",
+      "url": "https://en.wikipedia.org/wiki/Nathan%27s_Hot_Dog_Eating_Contest", "source_title": "Nathan's Hot Dog Eating Contest - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C063", "topic": "events",
+      "fact": "The 2000 winner was a 100-pound, 32-year-old mattress salesman from Saitama, Japan, who ate 25 1/8 hot dogs.",
+      "quote": "the contest was won by a 100-pound 32-year-old mattress salesman from saitama, japan",
+      "url": "https://en.wikipedia.org/wiki/Nathan%27s_Hot_Dog_Eating_Contest", "source_title": "Nathan's Hot Dog Eating Contest - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C064", "topic": "events",
+      "fact": "An estimated 50,000 people came to watch the 2007 contest.",
+      "quote": "in 2007, an estimated 50,000 came out to witness the event",
+      "url": "https://en.wikipedia.org/wiki/Nathan%27s_Hot_Dog_Eating_Contest", "source_title": "Nathan's Hot Dog Eating Contest - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C065", "topic": "events",
+      "fact": "In 2008 Joey Chestnut tied Kobayashi at 59 hot dogs and won a five-hot-dog eat-off, finishing the plate in 50 seconds.",
+      "quote": "in overtime chestnut is the first to finish a plate of 5 hdb in 50 seconds",
+      "url": "https://en.wikipedia.org/wiki/Nathan%27s_Hot_Dog_Eating_Contest", "source_title": "Nathan's Hot Dog Eating Contest - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C066", "topic": "events",
+      "fact": "Women's and men's contests were split in 2011; Sonya Thomas won the first women's title with 40 hot dogs and $10,000.",
+      "quote": "eating 40 hot dogs in 10 minutes, thomas earned the inaugural pepto-bismol -sponsored pink belt and won $10,000",
+      "url": "https://en.wikipedia.org/wiki/Nathan%27s_Hot_Dog_Eating_Contest", "source_title": "Nathan's Hot Dog Eating Contest - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C067", "topic": "events",
+      "fact": "The 2020 contest was held indoors in Williamsburg without spectators, and in 2021 it moved to Maimonides Park with about 7,000 fans.",
+      "quote": "in 2021, the event was held at maimonides park, with a reduced crowd of about 7,000",
+      "url": "https://en.wikipedia.org/wiki/Nathan%27s_Hot_Dog_Eating_Contest", "source_title": "Nathan's Hot Dog Eating Contest - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high", "time_sensitive": true
+    },
+    {
+      "id": "C068", "topic": "events",
+      "fact": "The all-time record of 76 hot dogs and buns was set by Joey Chestnut in 2021.",
+      "quote": "joey chestnut breaks the world record with 76 hdb",
+      "url": "https://en.wikipedia.org/wiki/Nathan%27s_Hot_Dog_Eating_Contest", "source_title": "Nathan's Hot Dog Eating Contest - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high", "time_sensitive": true
+    },
+    {
+      "id": "C069", "topic": "events",
+      "fact": "Chestnut was banned from the 2024 contest over an Impossible Foods deal; Patrick Bertoletti won with 58, and Miki Sudo set a women's record of 51.",
+      "quote": "chestnut was banned from the 2024 contest due to signing a deal with impossible food",
+      "url": "https://en.wikipedia.org/wiki/Nathan%27s_Hot_Dog_Eating_Contest", "source_title": "Nathan's Hot Dog Eating Contest - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C070", "topic": "events",
+      "fact": "In the 2026 contest Chestnut ate 66 hot dogs and Miki Sudo won the women's title with 38.75.",
+      "quote": "who won the 2026 event with 38.75",
+      "url": "https://en.wikipedia.org/wiki/Nathan%27s_Hot_Dog_Eating_Contest", "source_title": "Nathan's Hot Dog Eating Contest - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high", "time_sensitive": true
+    },
+    {
+      "id": "C071", "topic": "events",
+      "fact": "The contest is ten minutes, the winner keeps down the most hot dogs and buns, and a red card for vomiting means disqualification.",
+      "quote": "the contestant who consumes (and keeps down) the most hot dogs and buns (hdb) in ten minutes is declared the winner",
+      "url": "https://en.wikipedia.org/wiki/Nathan%27s_Hot_Dog_Eating_Contest", "source_title": "Nathan's Hot Dog Eating Contest - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high", "time_sensitive": true
+    },
+    {
+      "id": "C072", "topic": "events",
+      "fact": "ESPN's deal announced in November 2022 keeps the contest on its air through 2029.",
+      "quote": "will keep the contest airing on espn through 2029",
+      "url": "https://en.wikipedia.org/wiki/Nathan%27s_Hot_Dog_Eating_Contest", "source_title": "Nathan's Hot Dog Eating Contest - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high", "time_sensitive": true
+    },
+    {
+      "id": "C073", "topic": "history",
+      "fact": "Nathan Handwerker, a Jewish-Polish immigrant who arrived in 1912, and his wife Ida put $300 of life savings into a nickel hot dog stand in 1916.",
+      "quote": "spent their life savings of $300",
+      "url": "https://en.wikipedia.org/wiki/Nathan%27s_Famous", "source_title": "Nathan's Famous - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C074", "topic": "food",
+      "fact": "Handwerker undercut his old employer Feltman's by charging five cents for a hot dog when Feltman's charged ten.",
+      "quote": "handwerker undercut feltman's by charging five cents for a hot dog when his former employer was charging 10 cents",
+      "url": "https://en.wikipedia.org/wiki/Nathan%27s_Famous", "source_title": "Nathan's Famous - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C075", "topic": "food",
+      "fact": "To reassure wary customers, Handwerker had men in surgeon's smocks eat at his stand.",
+      "quote": "men wearing surgeon's smocks were seen eating at his stand to reassure potential customers",
+      "url": "https://en.wikipedia.org/wiki/Nathan%27s_Famous", "source_title": "Nathan's Famous - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C076", "topic": "food",
+      "fact": "The Cantor and Durante story is only 'one account'; the company's official history does not mention the singing waiters' encouragement.",
+      "quote": "the company's official history does not mention the future stars' encouragement",
+      "url": "https://en.wikipedia.org/wiki/Nathan%27s_Famous", "source_title": "Nathan's Famous - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C077", "topic": "food",
+      "fact": "Nathan's coined 'kosher style' because its all-beef hot dogs lacked rabbinic supervision and were not kosher.",
+      "quote": "because nathan's famous all-beef hot dogs lacked rabbinic supervision and the meat wasn't kosher",
+      "url": "https://en.wikipedia.org/wiki/Nathan%27s_Famous", "source_title": "Nathan's Famous - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C078", "topic": "food",
+      "fact": "The original stand at Surf and Stillwell still stands on its 1916 site; fried frog legs, a menu item since the 1950s, are sold only there.",
+      "quote": "the original location still features fried frog legs, which have been a nathan's menu item since the 1950s",
+      "url": "https://en.wikipedia.org/wiki/Nathan%27s_Famous", "source_title": "Nathan's Famous - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "high", "time_sensitive": true
+    },
+    {
+      "id": "C079", "topic": "recent",
+      "fact": "Hurricane Sandy shut the stand on October 29, 2012, the first time it had closed after opening every day of the year.",
+      "quote": "the stand was forced to close on october 29, 2012, due to hurricane sandy",
+      "url": "https://en.wikipedia.org/wiki/Nathan%27s_Famous", "source_title": "Nathan's Famous - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C080", "topic": "recent",
+      "fact": "The shop reopened May 21, 2013, despite a small fire on May 4.",
+      "quote": "the shop re-opened six months later, on may 21, 2013, despite a small fire on may 4",
+      "url": "https://en.wikipedia.org/wiki/Nathan%27s_Famous", "source_title": "Nathan's Famous - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C081", "topic": "business",
+      "fact": "On January 21, 2026 Nathan's Famous announced a $450 million sale to Smithfield Foods, expected to close in the first half of 2026.",
+      "quote": "on january 21, 2026, nathan's famous announced that it had been sold to smithfield foods for $450 million",
+      "url": "https://en.wikipedia.org/wiki/Nathan%27s_Famous", "source_title": "Nathan's Famous - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "high", "time_sensitive": true
+    },
+    {
+      "id": "C082", "topic": "business",
+      "fact": "The Handwerker family sold all Nathan's locations to private investors in 1987, after which it was franchised.",
+      "quote": "all locations were sold by the handwerker family to a group of private investors in 1987",
+      "url": "https://en.wikipedia.org/wiki/Nathan%27s_Famous", "source_title": "Nathan's Famous - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C083", "topic": "history",
+      "fact": "Nathan's own history says the stand started in 1916 on a $300 loan plus his wife's secret recipe, not savings.",
+      "quote": "with a $300 loan and his wife's secret recipe",
+      "url": "https://franchise.nathansfamous.com/our-history/", "source_title": "Our history - Nathan's Famous franchise",
+      "source_type": "business-site", "date_of_source": "2020", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C084", "topic": "history",
+      "fact": "Nathan's says President Roosevelt served its hot dogs to the King and Queen of England in 1939.",
+      "quote": "president roosevelt brought a taste of the original across the pond by serving nathan's hot dogs to the king and queen of england",
+      "url": "https://franchise.nathansfamous.com/our-history/", "source_title": "Our history - Nathan's Famous franchise",
+      "source_type": "business-site", "date_of_source": "2020", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C085", "topic": "food",
+      "fact": "Nathan's added seafood and its clam bar in 1946.",
+      "quote": "nathan's famous introduces seafood products and its famous clam bar",
+      "url": "https://franchise.nathansfamous.com/our-history/", "source_title": "Our history - Nathan's Famous franchise",
+      "source_type": "business-site", "date_of_source": "2020", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C086", "topic": "food",
+      "fact": "Totonno's says its pizzas have been made the same way in the same spot since 1924; the shop is at 1524 Neptune Avenue.",
+      "quote": "pizzas have been made in the same way in the same spot since 1924",
+      "url": "https://www.totonnosconeyisland.com/about-us.html", "source_title": "About Totonno's Pizzeria - Totonno's Pizzeria Napolitana",
+      "source_type": "business-site", "date_of_source": "2013", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C087", "topic": "food",
+      "fact": "Totonno's claims to be the oldest continually run family-owned pizzeria in America, 'and possibly the world'.",
+      "quote": "oldest, continually run, family-owned pizzeria in america, and possibly the world",
+      "url": "https://www.totonnosconeyisland.com/about-us.html", "source_title": "About Totonno's Pizzeria - Totonno's Pizzeria Napolitana",
+      "source_type": "business-site", "date_of_source": "2013", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C088", "topic": "food",
+      "fact": "Totonno's says its dough is made daily and never refrigerated, and it uses handmade mozzarella.",
+      "quote": "daily made dough (never refrigerated)",
+      "url": "https://www.totonnosconeyisland.com/about-us.html", "source_title": "About Totonno's Pizzeria - Totonno's Pizzeria Napolitana",
+      "source_type": "business-site", "date_of_source": "2013", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C089", "topic": "food",
+      "fact": "Totonno's won a 2009 James Beard America's Classics award.",
+      "quote": "in 2009, totonno's was awarded one of the highest awards in the culinary industry....the james beard award-- in the category of america's classics.",
+      "url": "https://www.totonnosconeyisland.com/about-us.html", "source_title": "About Totonno's Pizzeria - Totonno's Pizzeria Napolitana",
+      "source_type": "business-site", "date_of_source": "2013", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C090", "topic": "history",
+      "fact": "Totonno's own timeline lists a 1997 fire (3 months closed), a 2009 fire (11 months closed) and Sandy in 2012 (5 months closed).",
+      "quote": "2009 - totonno's suffers a major fire, closing the restaurant for 11 months.",
+      "url": "https://www.totonnosconeyisland.com/about-us.html", "source_title": "About Totonno's Pizzeria - Totonno's Pizzeria Napolitana",
+      "source_type": "business-site", "date_of_source": "2013", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C091", "topic": "history",
+      "fact": "Totonno's site says that because of his work Lombardi's became America's first licensed pizzeria and Totonno the first pizzaiolo.",
+      "quote": "because of totonno's work, lombardi's became the first licensed pizzeria in america and totonno became the first pizzaiolo",
+      "url": "https://www.totonnosconeyisland.com/about-us.html", "source_title": "About Totonno's Pizzeria - Totonno's Pizzeria Napolitana",
+      "source_type": "business-site", "date_of_source": "2013", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C092", "topic": "food",
+      "fact": "Totonno's uses a coal-fired brick oven; new coal ovens fail NYC environmental law, so the old ones are grandfathered while the business stays open.",
+      "quote": "new coal ovens do not pass current environmental laws in new york, but the old ovens are grandfathered as long as the business remains open",
+      "url": "https://en.wikipedia.org/wiki/Totonno%27s", "source_title": "Totonno's - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "high", "time_sensitive": true
+    },
+    {
+      "id": "C093", "topic": "recent",
+      "fact": "In May 2024 Totonno's owners went public looking for a buyer; Louise Ciminieri said they were aging and lacked the manpower.",
+      "quote": "we're coming up in age and we don't have the manpower to continue",
+      "url": "https://en.wikipedia.org/wiki/Totonno%27s", "source_title": "Totonno's - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "high", "time_sensitive": true
+    },
+    {
+      "id": "C094", "topic": "recent",
+      "fact": "Wikipedia says Totonno's reopened in mid-January 2013 after Sandy, versus the five months closed on its own site.",
+      "quote": "they re-opened in mid-january 2013",
+      "url": "https://en.wikipedia.org/wiki/Totonno%27s", "source_title": "Totonno's - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C095", "topic": "history",
+      "fact": "Wikipedia says Lombardi's was established in 1905, while Totonno's own timeline has Anthony Pero working there from 1903.",
+      "quote": "that was established in 1905",
+      "url": "https://en.wikipedia.org/wiki/Totonno%27s", "source_title": "Totonno's - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C096", "topic": "events",
+      "fact": "Coney Island USA's Mermaid Parade is billed as the largest art parade in the US and began in June 1983 under Dick Zigun.",
+      "quote": "the tradition began in 1983, when the first event of this kind was conceptualized and organized by dick zigun",
+      "url": "https://en.wikipedia.org/wiki/Mermaid_Parade", "source_title": "Coney Island Mermaid Parade - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C097", "topic": "events",
+      "fact": "The parade is held the Saturday closest to the summer solstice, rain or shine, and typically draws about 3,000 participants and hundreds of thousands of spectators.",
+      "quote": "the event typically attracts about 3,000 participants and hundreds of thousands of spectators from all five boroughs of new york city",
+      "url": "https://en.wikipedia.org/wiki/Mermaid_Parade", "source_title": "Coney Island Mermaid Parade - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C098", "topic": "events",
+      "fact": "The Wikipedia infobox gives parade attendance as 30,000 and budget as $100,000, at odds with the text's 'hundreds of thousands'.",
+      "quote": "attendance 30,000 budget $100,000",
+      "url": "https://en.wikipedia.org/wiki/Mermaid_Parade", "source_title": "Coney Island Mermaid Parade - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C099", "topic": "events",
+      "fact": "After the last marcher passes the reviewing stand, Zigun leads a procession to the beach to open the ocean for summer swimming.",
+      "quote": "parade founder dick zigun leads the procession to the beach for a ceremony representing the opening of the ocean for the summer swimming season",
+      "url": "https://en.wikipedia.org/wiki/Mermaid_Parade", "source_title": "Coney Island Mermaid Parade - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C100", "topic": "events",
+      "fact": "The 2013 parade was nearly cancelled after Hurricane Sandy; a Kickstarter and benefit concert raised $117,000 against a $100,000 goal.",
+      "quote": "raised $117,000, more than the $100,000 goal",
+      "url": "https://en.wikipedia.org/wiki/Mermaid_Parade", "source_title": "Coney Island Mermaid Parade - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C101", "topic": "events",
+      "fact": "The 2021 parade was moved to September 12 and then cancelled on August 18 over COVID-19; 2020 was replaced by a virtual event.",
+      "quote": "on august 18 it was announced that the parade would be cancelled out of an abundance of caution",
+      "url": "https://en.wikipedia.org/wiki/Mermaid_Parade", "source_title": "Coney Island Mermaid Parade - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C102", "topic": "recent",
+      "fact": "In 2026 the parade faced a financial crisis; a GoFundMe raised more than $42,000 and Borough President Antonio Reynoso pledged $20,000 a year.",
+      "quote": "coney island usa raised $42,000+ through a gofundme campaign, allowing the parade to be held as scheduled",
+      "url": "https://en.wikipedia.org/wiki/Mermaid_Parade", "source_title": "Coney Island Mermaid Parade - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "high", "time_sensitive": true
+    },
+    {
+      "id": "C103", "topic": "events",
+      "fact": "The 44th Mermaid Parade was set for Saturday, June 20, 2026 at 1 p.m., rain or shine, with around 5,000 participants.",
+      "quote": "this year's parade takes place on saturday, june 20, at 1 p.m., rain or shine",
+      "url": "https://www.6sqft.com/119th-annual-polar-bear-plunge-is-back-in-coney-island-this-new-years-day/", "source_title": "Coney Island's Mermaid Parade returns on Saturday - 6sqft (related-stories panel)",
+      "source_type": "press", "date_of_source": "2026-06", "lang": "en", "confidence": "high", "time_sensitive": true
+    },
+    {
+      "id": "C104", "topic": "events",
+      "fact": "6sqft's 2026 item says the parade draws around 5,000 participants, while its 2024 item said 3,000.",
+      "quote": "the event is the nation's biggest art parade, drawing around 5,000 participants in handmade sea-themed costumes and floats",
+      "url": "https://www.6sqft.com/119th-annual-polar-bear-plunge-is-back-in-coney-island-this-new-years-day/", "source_title": "Coney Island's Mermaid Parade returns on Saturday - 6sqft (related-stories panel)",
+      "source_type": "press", "date_of_source": "2026-06", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C105", "topic": "events",
+      "fact": "Coney Island USA says it founded the parade in 1983 with three goals, including bringing mythology to residents on streets named Mermaid and Neptune.",
+      "quote": "it brings mythology to life for local residents who live on streets named mermaid and neptune",
+      "url": "https://www.bklynlibrary.org/comment/1854", "source_title": "A personal history of the Mermaid Parade - Brooklyn Public Library",
+      "source_type": "other", "date_of_source": "2019-06", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C106", "topic": "culture",
+      "fact": "CIUSA calls the parade 'a major new york holiday invented by artists' with no ethnic, religious or commercial aims.",
+      "quote": "it's a major new york holiday invented by artists!",
+      "url": "https://www.bklynlibrary.org/comment/1854", "source_title": "A personal history of the Mermaid Parade - Brooklyn Public Library",
+      "source_type": "other", "date_of_source": "2019-06", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C107", "topic": "culture",
+      "fact": "Photographer Larry Racioppo says the 1992 parade was still a small local event; by the 1990s it was a mecca for photographers.",
+      "quote": "was still a relatively small, local event",
+      "url": "https://www.bklynlibrary.org/comment/1854", "source_title": "A personal history of the Mermaid Parade - Brooklyn Public Library",
+      "source_type": "other", "date_of_source": "2019-06", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C108", "topic": "culture",
+      "fact": "A gallery owner told Racioppo: 'coney island is easy for photographers because people want to be photographed.'",
+      "quote": "coney island is easy for photographers because people want to be photographed.",
+      "url": "https://www.bklynlibrary.org/comment/1854", "source_title": "A personal history of the Mermaid Parade - Brooklyn Public Library",
+      "source_type": "other", "date_of_source": "2019-06", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C109", "topic": "events",
+      "fact": "After the parade, King Neptune's party and sea creatures reach the water, where Zigun stirs the ocean with a large key while a thermometer shows the rising temperature.",
+      "quote": "dick zigun stirred the waters with a large key while a special thermometer registered the rising temperature",
+      "url": "https://www.bklynlibrary.org/comment/1854", "source_title": "A personal history of the Mermaid Parade - Brooklyn Public Library",
+      "source_type": "other", "date_of_source": "2019-06", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C110", "topic": "events",
+      "fact": "CIUSA later added West African water-festival elements to the ending, including a ritual offering of fruit to the ocean.",
+      "quote": "over time coney island usa added elements of west african water festivals to the parade's conclusion",
+      "url": "https://www.bklynlibrary.org/comment/1854", "source_title": "A personal history of the Mermaid Parade - Brooklyn Public Library",
+      "source_type": "other", "date_of_source": "2019-06", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C111", "topic": "events",
+      "fact": "The Hungry March Band has marched with instruments straight into the ocean at the end of the parade, per a longtime photographer.",
+      "quote": "coming straight into the ocean",
+      "url": "https://www.bklynlibrary.org/comment/1854", "source_title": "A personal history of the Mermaid Parade - Brooklyn Public Library",
+      "source_type": "other", "date_of_source": "2019-06", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C112", "topic": "culture",
+      "fact": "amNY says the parade grew out of the early 1980s, when Coney Island was 'a frayed neighborhood of beatdown brooklyn', and inspired a Dutch version in The Hague.",
+      "quote": "when coney island was a frayed neighborhood of beatdown brooklyn",
+      "url": "https://www.amny.com/lifestyle/facts-about-coney-island-s-mermaid-parade-1-10557972", "source_title": "Facts about Coney Island's Mermaid Parade - amNY",
+      "source_type": "press", "date_of_source": "2015-06", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C113", "topic": "culture",
+      "fact": "The parade is known for marine costumes and occasional nudity; it is legal in New York State for women to be topless in public.",
+      "quote": "it is legal in new york state for women to be topless in public",
+      "url": "https://en.wikipedia.org/wiki/Mermaid_Parade", "source_title": "Coney Island Mermaid Parade - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "high", "time_sensitive": true
+    },
+    {
+      "id": "C114", "topic": "culture",
+      "fact": "Lou Reed was 2010 King Neptune alongside Laurie Anderson as Queen Mermaid.",
+      "quote": "28th 2010 lou reed laurie anderson",
+      "url": "https://en.wikipedia.org/wiki/Mermaid_Parade", "source_title": "Coney Island Mermaid Parade - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C115", "topic": "culture",
+      "fact": "Other royal pairs include David Byrne (1998), Queen Latifah (1999), Chris Stein and Deborah Harry (2017) and Jesse Malin with Rickie Lee Jones (2026).",
+      "quote": "35th 2017 chris stein deborah harry",
+      "url": "https://en.wikipedia.org/wiki/Mermaid_Parade", "source_title": "Coney Island Mermaid Parade - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-08", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C116", "topic": "history",
+      "fact": "Coney Island USA is a nonprofit founded in 1980 by Costa Mantis, Jane Savitt-Tennen and Dick Zigun; it also runs the Coney Island Museum.",
+      "quote": "coney island usa was founded in 1980 by costa mantis, jane savitt-tennen and dick d. zigun",
+      "url": "https://en.wikipedia.org/wiki/Coney_Island_USA", "source_title": "Coney Island USA - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-05", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C117", "topic": "culture",
+      "fact": "Its Sideshows by the Seashore theater runs continuously in the warmer months, showcasing performers with unusual talents.",
+      "quote": "a showcase for performers with unusual talents that runs continuously during the warmer months",
+      "url": "https://en.wikipedia.org/wiki/Coney_Island_USA", "source_title": "Coney Island USA - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-05", "lang": "en", "confidence": "high", "time_sensitive": true
+    },
+    {
+      "id": "C118", "topic": "governance",
+      "fact": "In September 2025 a community advisory committee rejected Thor Equities' Coney Island casino proposal, effectively ending the plan.",
+      "quote": "in september 2025, a community advisory committee rejected the casino proposal, effectively ending the plan",
+      "url": "https://en.wikipedia.org/wiki/Coney_Island_USA", "source_title": "Coney Island USA - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-05", "lang": "en", "confidence": "high", "time_sensitive": true
+    },
+    {
+      "id": "C119", "topic": "governance",
+      "fact": "CIUSA director Patrick Wall opposed the casino, saying it would keep people inside and away from the amusement district.",
+      "quote": "we're asking for a giant fort to come and plop down on top of our entire amusement district across three blocks",
+      "url": "https://en.wikipedia.org/wiki/Coney_Island_USA", "source_title": "Coney Island USA - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-05", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C120", "topic": "events",
+      "fact": "Coney Island Film Festival, an annual independent festival presented by CIUSA, was founded in 2001.",
+      "quote": "it was founded in 2001 and is presented by coney island usa",
+      "url": "https://en.wikipedia.org/wiki/Coney_Island_USA", "source_title": "Coney Island USA - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026-05", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C121", "topic": "business",
+      "fact": "Ruby's Bar opened in 1934; Rubin Jacobs took it over in 1975, and his daughter Cindy Jacobs Allman ran it in 2010.",
+      "quote": "owner cindy jacobs allman, whose father rubin jacobs took over the 76-year-old bar in 1975",
+      "url": "https://www.brooklynpaper.com/one-last-drink-at-rubys-on-the-boardwalk", "source_title": "One last drink at Ruby's on the boardwalk - Brooklyn Paper",
+      "source_type": "press", "date_of_source": "2010-11", "lang": "en", "confidence": "high", "time_sensitive": true
+    },
+    {
+      "id": "C122", "topic": "business",
+      "fact": "Landlord Central Amusement International ordered Ruby's and eight other boardwalk businesses out by November 15, 2010.",
+      "quote": "the landlord, central amusement international, ordered the kitschy shops to vacate by nov. 15",
+      "url": "https://www.brooklynpaper.com/one-last-drink-at-rubys-on-the-boardwalk", "source_title": "One last drink at Ruby's on the boardwalk - Brooklyn Paper",
+      "source_type": "press", "date_of_source": "2010-11", "lang": "en", "confidence": "high", "time_sensitive": true
+    },
+    {
+      "id": "C123", "topic": "governance",
+      "fact": "The city had bought much of the amusement zone from developer Joe Sitt for $100 million the prior November and gave CAI a 10-year lease for a temporary theme park.",
+      "quote": "last november, the city bought a vast portion of the coney amusement zone for $100 million from developer joe sitt",
+      "url": "https://www.brooklynpaper.com/one-last-drink-at-rubys-on-the-boardwalk", "source_title": "One last drink at Ruby's on the boardwalk - Brooklyn Paper",
+      "source_type": "press", "date_of_source": "2010-11", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C124", "topic": "culture",
+      "fact": "Ruby's had been the Mermaid Parade after-party spot and kept a 'carny-kitsch' appeal under Jacobs.",
+      "quote": "becoming the spot for the mermaid parade after-party",
+      "url": "https://www.brooklynpaper.com/one-last-drink-at-rubys-on-the-boardwalk", "source_title": "One last drink at Ruby's on the boardwalk - Brooklyn Paper",
+      "source_type": "press", "date_of_source": "2010-11", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C125", "topic": "culture",
+      "fact": "West 12th Street beside Ruby's is co-named for Ruby Jacobs, so the owner asked how the city could name a street for him yet take the bar.",
+      "quote": "west 12th street next to the bar is actually co-named",
+      "url": "https://www.brooklynpaper.com/one-last-drink-at-rubys-on-the-boardwalk", "source_title": "One last drink at Ruby's on the boardwalk - Brooklyn Paper",
+      "source_type": "press", "date_of_source": "2010-11", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C126", "topic": "culture",
+      "fact": "A patron, Maya Haddad, said 'i had my first beer with my dad here'; owner Allman said 'he knew all the customers by name'.",
+      "quote": "i had my first beer with my dad here",
+      "url": "https://www.brooklynpaper.com/one-last-drink-at-rubys-on-the-boardwalk", "source_title": "One last drink at Ruby's on the boardwalk - Brooklyn Paper",
+      "source_type": "press", "date_of_source": "2010-11", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C127", "topic": "business",
+      "fact": "The boardwalk eviction list also included Shoot the Freak, Cha Cha's, Coney Island Souvenirs and Gyro Corner.",
+      "quote": "ruby's, shoot the freak, cha cha's, coney island souvenirs, gyro corner and four others",
+      "url": "https://www.brooklynpaper.com/one-last-drink-at-rubys-on-the-boardwalk", "source_title": "One last drink at Ruby's on the boardwalk - Brooklyn Paper",
+      "source_type": "press", "date_of_source": "2010-11", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C128", "topic": "business",
+      "fact": "The Village Voice blames Thor Equities for the two-week notice and says a Shake Shack and Atomic Wings might replace the shops.",
+      "quote": "thor equities has apparently given ruby's just two weeks to vacate",
+      "url": "https://www.villagevoice.com/new-yorkers-rally-to-save-76-year-old-coney-island-bar-rubys/", "source_title": "New Yorkers rally to save 76-year-old Coney Island bar, Ruby's - Village Voice",
+      "source_type": "press", "date_of_source": "2010-11", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C129", "topic": "business",
+      "fact": "A Coney Island History Project oral-history entry names Eric Safyan as the architect who designed the renovated Ruby's Bar & Grill, which implies it reopened after 2010 (undated).",
+      "quote": "architect who grew up in coney island in the 1980s and designed the renovated ruby's bar & grill",
+      "url": "https://www.coneyislandhistory.org/places/boardwalk?page=1", "source_title": "Boardwalk, the - Coney Island History Project",
+      "source_type": "other", "date_of_source": "undated", "lang": "en", "confidence": "medium", "time_sensitive": true
+    },
+    {
+      "id": "C130", "topic": "history",
+      "fact": "Brighton Beach, nicknamed Little Odessa, lies in southern Brooklyn within the greater Coney Island area and is known for Russian-speaking immigrants.",
+      "quote": "it is known for its high population of russian-speaking immigrants, and as a summer destination for new york city residents",
+      "url": "https://en.wikipedia.org/wiki/Brighton_Beach", "source_title": "Brighton Beach - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C131", "topic": "history",
+      "fact": "William Engeman built a resort in 1868; his hotel held up to 5,000 guests a night and served meals to 20,000 a day.",
+      "quote": "had rooms for up to 5,000 guests nightly and served meals for up to 20,000 people daily",
+      "url": "https://en.wikipedia.org/wiki/Brighton_Beach", "source_title": "Brighton Beach - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C132", "topic": "history",
+      "fact": "In April 1888 the Brighton Beach Hotel was moved 495 feet inland on railroad tracks over nine days, the biggest building relocation of the 19th century.",
+      "quote": "it began on april 2, 1888, and continued for nine days, and was the largest building relocation of the 19th century",
+      "url": "https://en.wikipedia.org/wiki/Brighton_Beach", "source_title": "Brighton Beach - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C133", "topic": "history",
+      "fact": "A fire in May 1919 burned most of Brighton Beach's Brighton Pike amusement park, including its roller coaster.",
+      "quote": "in may 1919, most of the park was burned down, including the roller coaster",
+      "url": "https://en.wikipedia.org/wiki/Brighton_Beach", "source_title": "Brighton Beach - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C134", "topic": "history",
+      "fact": "The new subway line made day trips easy and led to the Brighton Beach Hotel closing in 1924.",
+      "quote": "this led to the closure of the brighton beach hotel in 1924",
+      "url": "https://en.wikipedia.org/wiki/Brighton_Beach", "source_title": "Brighton Beach - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C135", "topic": "culture",
+      "fact": "From the mid-1970s Soviet Jewish immigrants from Russia and Ukraine settled in Brighton Beach, earning it the name Little Odessa.",
+      "quote": "in the mid-1970s, brighton beach became a popular place to settle for soviet immigrants, mostly ashkenazi jews from russia and ukraine",
+      "url": "https://en.wikipedia.org/wiki/Brighton_Beach", "source_title": "Brighton Beach - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C136", "topic": "culture",
+      "fact": "An annual festival, the Brighton Jubilee, celebrates the area's Russian-speaking heritage.",
+      "quote": "an annual festival, the brighton jubilee, celebrates the area's russian-speaking heritage",
+      "url": "https://en.wikipedia.org/wiki/Brighton_Beach", "source_title": "Brighton Beach - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high", "time_sensitive": true
+    },
+    {
+      "id": "C137", "topic": "culture",
+      "fact": "Since the early 2010s a significant number of Central Asian immigrants have also settled in Brighton Beach.",
+      "quote": "since the early 2010s, a significant number of central asian immigrants have also chosen brighton beach as a place to settle",
+      "url": "https://en.wikipedia.org/wiki/Brighton_Beach", "source_title": "Brighton Beach - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C138", "topic": "geography",
+      "fact": "Brighton Beach had 35,547 residents in the 2010 census, and 36.1% do not speak or understand English.",
+      "quote": "more than a third (36.1%) of the population of brighton beach does not speak or understand english",
+      "url": "https://en.wikipedia.org/wiki/Brighton_Beach", "source_title": "Brighton Beach - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "medium", "time_sensitive": true
+    },
+    {
+      "id": "C139", "topic": "safety",
+      "fact": "The 60th Precinct says crimes in all categories fell 77.5% from 1990 to 2022.",
+      "quote": "crimes across all categories having decreased by 77.5% between 1990 and 2022",
+      "url": "https://en.wikipedia.org/wiki/Brighton_Beach", "source_title": "Brighton Beach - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "medium", "time_sensitive": true
+    },
+    {
+      "id": "C140", "topic": "culture",
+      "fact": "The Brighton Ballet Theater, founded 1987, is among the best-known Russian ballet schools in the US.",
+      "quote": "the brighton ballet theater, established in 1987, is one of the most famous russian ballet schools in the united states",
+      "url": "https://en.wikipedia.org/wiki/Brighton_Beach", "source_title": "Brighton Beach - Wikipedia",
+      "source_type": "wikipedia", "date_of_source": "2026", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C141", "topic": "culture",
+      "fact": "The Brooklyn Museum's exhibition 'Coney Island: Visions of an American Dreamland, 1861-2008' gathered works by Stella, Marsh, Evans, Arbus, Weegee and others, plus carousel animals and sideshow ephemera.",
+      "quote": "william merritt chase, john henry twachtman, joseph stella reginald marsh, walker evans, diane arbus, weegee and bruce davidson are just some of the painters and photographers",
+      "url": "https://www.timeout.com/newyork/art/coney-island-visions-of-an-american-dreamland-18612008", "source_title": "Coney Island: Visions of an American Dreamland, 1861-2008 - Time Out New York",
+      "source_type": "press", "date_of_source": "2015-09", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C142", "topic": "culture",
+      "fact": "A Coney Island History Project oral history: Karen Dawn Blondel, born in Coney Island in 1963, recalls growing up among bungalows, apartments and public housing.",
+      "quote": "born in coney island in 1963, karen dawn blondel shares memories of the 1960's, '70s and '80s",
+      "url": "https://www.coneyislandhistory.org/places/boardwalk?page=1", "source_title": "Boardwalk, the - Coney Island History Project",
+      "source_type": "other", "date_of_source": "undated", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C143", "topic": "economy",
+      "fact": "As a boy on the boardwalk in the 1960s, Al Burgo earned 15 cents per shoe shine.",
+      "quote": "as a boy, he earned 15 cents per shine while apprenticing with a shoe shine pro on the boardwalk",
+      "url": "https://www.coneyislandhistory.org/places/boardwalk?page=1", "source_title": "Boardwalk, the - Coney Island History Project",
+      "source_type": "other", "date_of_source": "undated", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C144", "topic": "culture",
+      "fact": "Sam Shlivko, born 1986, grew up in the Russian community of Coney Island and Brighton Beach; Russian was his first language.",
+      "quote": "born in 1986, brooklynite sam shlivko grew up in the russian community in coney island and has lived here ever since",
+      "url": "https://www.coneyislandhistory.org/places/boardwalk?page=1", "source_title": "Boardwalk, the - Coney Island History Project",
+      "source_type": "other", "date_of_source": "undated", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C145", "topic": "safety",
+      "fact": "Officer Donna Bianco was assigned to Coney Island from 1986 to 1993, a period the oral-history summary describes as crime-ridden.",
+      "quote": "she was assigned to coney island from 1986 through 1993",
+      "url": "https://www.coneyislandhistory.org/places/boardwalk?page=1", "source_title": "Boardwalk, the - Coney Island History Project",
+      "source_type": "other", "date_of_source": "undated", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C146", "topic": "events",
+      "fact": "The Coney Island History Project (3059 West 12th Street, next to Deno's) displayed a 1823 toll house sign for Coney Island's 200th anniversary.",
+      "quote": "displaying the 200-year-old coney island toll house sign from 1823",
+      "url": "https://www.6sqft.com/119th-annual-polar-bear-plunge-is-back-in-coney-island-this-new-years-day/", "source_title": "6sqft Coney Island items (related-stories panel, Oct 2023)",
+      "source_type": "press", "date_of_source": "2023-10", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C147", "topic": "events",
+      "fact": "Luna Park's 2025 opening weekend began March 29 at 11 a.m., with the first 98 visitors getting a free Cyclone ride and an egg cream for the coaster's 98th birthday.",
+      "quote": "in celebration of its 98th birthday, the first 98 visitors will enjoy a free ride on the cyclone and a complimentary egg cream",
+      "url": "https://www.6sqft.com/119th-annual-polar-bear-plunge-is-back-in-coney-island-this-new-years-day/", "source_title": "6sqft Coney Island items (related-stories panel, Mar 2025)",
+      "source_type": "press", "date_of_source": "2025-03", "lang": "en", "confidence": "high", "time_sensitive": true
+    },
+    {
+      "id": "C148", "topic": "events",
+      "fact": "Luna Park first stayed open in winter in 2023 with Frost Fest, which added an ice rink, holiday shopping and rides from November 18 to January 7.",
+      "quote": "luna park in coney island will stay open this winter for the first time in its 120-year history",
+      "url": "https://www.6sqft.com/119th-annual-polar-bear-plunge-is-back-in-coney-island-this-new-years-day/", "source_title": "6sqft Coney Island items (related-stories panel, Nov 2023)",
+      "source_type": "press", "date_of_source": "2023-11", "lang": "en", "confidence": "medium"
+    },
+    {
+      "id": "C149", "topic": "events",
+      "fact": "Deno's Wonder Wheel Park marked its 103rd birthday in 2023 with a 'blessing of the rides' and free rides on the Wonder Wheel.",
+      "quote": "will celebrate its 103rd birthday with its annual",
+      "url": "https://www.6sqft.com/119th-annual-polar-bear-plunge-is-back-in-coney-island-this-new-years-day/", "source_title": "6sqft Coney Island items (related-stories panel, Mar 2023)",
+      "source_type": "press", "date_of_source": "2023-03", "lang": "en", "confidence": "high"
+    },
+    {
+      "id": "C150", "topic": "events",
+      "fact": "The NY Transit Museum's 2024 nostalgia rides took beachgoers to Coney Island and the Rockaways on 1930s R-19 cars for $60 per adult.",
+      "quote": "tickets, which cost $60 for adults, go on sale friday, may 31",
+      "url": "https://www.6sqft.com/119th-annual-polar-bear-plunge-is-back-in-coney-island-this-new-years-day/", "source_title": "6sqft Coney Island items (related-stories panel, May 2024)",
+      "source_type": "press", "date_of_source": "2024-05", "lang": "en", "confidence": "high"
+    }
+  ],
+  "recency": {
+    "newest_item": "Wikipedia pages dated Aug 2026 report Nathan's sale to Smithfield (announced 2026-01-21, $450M), Joey Chestnut's 66 hot dogs at the 2026 contest, and the 44th Mermaid Parade on 2026-06-20 funded by a GoFundMe ($42,000+) and a $20,000 pledge from the Borough President. Ruby's and Totonno's items are older (2010; May 2024).",
+    "fact_ids": ["C081", "C070", "C102", "C103", "C093", "C118"]
+  },
+  "dead_ends": [
+    "Whether Ruby's Bar & Grill is open today and under what ownership; the only post-2010 hint is an undated oral-history line about the renovated Ruby's (C129).",
+    "Whether Totonno's was sold after the May 2024 call for a buyer, its current hours, prices and wait times.",
+    "Gargiulo's (1907 founding claim), Williams Candy, Coney Island Brewery and other named restaurants: no harvested page.",
+    "Current menu prices at Nathan's, hours, and whether the Smithfield deal closed.",
+    "Weegee's 1940 beach photo at the V&A and the Macaulay 'Little Odessa by the Sea' essay were in the URL list but not in the bundle; no Diane Arbus, Reginald Marsh or Joseph Stella detail beyond the Time Out listing.",
+    "Who visits the beach today (demographics, languages, crowds); any 2025-26 reporting on beach culture itself, such as volleyball, fishing, Sunday gatherings, vendor rules.",
+    "Mermaid Parade 2026 actual turnout and route details; Polar Bear Club recent plunge counts and current numbering.",
+    "Dates of the Brighton Jubilee festival, Coney Island Film Festival and other recurring local events.",
+    "Primary-source proof of the Warriors' final beach location (only reader comments)."
+  ],
+  "conflicts": [
+    "Hot dog contest origin: legend 1916 (C060, Nathan's franchise page, 'legend has it') vs admitted fabrication by promoter Matz in 2010 (C058, C059, Wikipedia) vs first official contest June 30, 1967 (C057) vs first major recorded contest 1972 (C061). Most reliable: Wikipedia's account citing NYT reporting on Matz; Nathan's own 1972 date is consistent with 'early 1970s' fabrication. The 1916 contest is contradicted.",
+    "Nathan's 1916 start-up money: $300 life savings (C073, Wikipedia) vs $300 loan (C083, company page). Company page is the primary source, but Wikipedia cites NYT/UPI 1974; unresolved, say '$300'.",
+    "Second Nathan's location in Oceanside, Long Island: 1955 (company, in fact list) vs 1959 (Wikipedia, 'a second branch on long beach road in oceanside, new york, opened in 1959'). Company page is more authoritative on its own history but Wikipedia cites press; flag as unresolved.",
+    "Lou Reed's Coney Island Baby: released December 1975 (album page, the Wikipedia album article) vs 1976 (C010, popular culture hub; charts are 1976). Album page is more authoritative; use 'December 1975, charted 1976'.",
+    "Polar Bear plunge numbering: MCNY calls Jan 1, 2019 the 115th (C053) and 6sqft calls Jan 1, 2022 the 119th (C054). Counting from 1903 neither fits (2019 would be ~117th, 2022 ~120th) and 2021 was skipped; avoid ordinals or say 'since 1903'.",
+    "Mermaid Parade size: 3,000 participants and 'hundreds of thousands' of spectators (C097, Wikipedia text, 2024 6sqft) vs 5,000 participants (C104, 6sqft 2026) vs infobox attendance 30,000 (C098). Use ranges and attribute.",
+    "Ruby's eviction: landlord Central Amusement International (C122, Brooklyn Paper) vs Thor Equities (C128, Village Voice 'apparently'). Brooklyn Paper has the named landlord and lease detail; the city bought the land from Joe Sitt of Thor (C123). Prefer Brooklyn Paper.",
+    "Totonno's reopening after Sandy: five months closed (own site, C090 timeline entry for 2012-13) vs mid-January 2013 (C094, Wikipedia), which is about 2.5 months. Own site is internally inconsistent; unresolved.",
+    "Lombardi's date vs Pero's arrival: Wikipedia says Lombardi's was established in 1905 (C095) while Totonno's own timeline says Pero began working there in 1903. Unresolved; avoid stating both.",
+    "The Warriors ending: Brooklyn Magazine says the film ends under the Coney Island Wonder Wheel (C031), but reader comments on Scouting NY say the beach scene was Breezy Point/Fort Tilden (C032, C033). Comments are not authoritative; unresolved.",
+    "Hot dog record: Wikipedia main text says 74 (2018) in the Nathan's page vs 76 (2021, contest page, C068); the contest page is later and the more specific source.",
+    "Luna Park age: 6sqft says '120-year history' (C148) but the modern Luna Park opened in 2010 and the original ran 1903-44; the number counts the brand. Wikipedia list shows Luna Park (1903-44) as a separate former park."
+  ],
+  "myth_resolutions": [
+    "Polar Bear Club founded 1903 by Bernarr Macfadden: CONFIRMED (C045, C052, C056).",
+    "Mermaid Parade first held 1983 by CIUSA, founded 1980 by Dick Zigun: CONFIRMED (C096, C116); note CIUSA had three founders, Zigun is the best-known.",
+    "Nathan's 1916 founding with $300: CONFIRMED (C073, C083); the loan vs savings wording differs.",
+    "Nathan's 1916 hot dog contest: CONTRADICTED / fabricated (C058, C059); the company page still hedges with 'legend has it' (C060).",
+    "Singing waiters Cantor and Durante urged Handwerker to open: UNRESOLVED, one account only; the company history omits it (C076).",
+    "Totonno's 1924 founding: CONFIRMED by own site and Wikipedia (C086, C095).",
+    "Ruby's opened 1934 and was evicted in November 2010: CONFIRMED for opening and notice (C121, C122); the eviction outcome is not in the bundle beyond the C129 hint.",
+    "Nathan's sold to Smithfield in Jan 2026: CONFIRMED by Wikipedia citing AP (C081); closing status unconfirmed.",
+    "Polar Bear plunge numbering: UNRESOLVED (see conflicts)."
+  ],
+  "budget": {"sources_read": 24}
+}

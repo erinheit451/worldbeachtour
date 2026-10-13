@@ -57,7 +57,8 @@ function HeroMonument({ beachName, location, tagline, primary, tier }: BaseHeroP
         className="absolute inset-0 h-full w-full object-cover"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-black/85" />
-      <div className="absolute bottom-0 left-0 right-0 p-8 sm:p-16">
+      {/* pb-14 keeps the tagline clear of the bottom-right photo credit on phones */}
+      <div className="absolute bottom-0 left-0 right-0 p-8 pb-14 sm:p-16">
         <div className="mx-auto max-w-7xl">
           <TextStack name={beachName} location={location} tagline={tagline} align="left" />
         </div>

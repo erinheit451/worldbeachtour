@@ -1,0 +1,174 @@
+{
+ "slug": "coney-island-beach-1",
+ "slice": "visitor",
+ "verdict": "FAIL",
+ "claims_checked": 118,
+ "fetches_used": 2,
+ "searches_used": 2,
+ "spike_verdict": "n/a for this slice",
+ "blocking": [
+  {
+   "where": "showcase.businesses[0].description (Nathan's Famous)",
+   "claim": "expected to close in the first half of 2026",
+   "problem": "Stale as of 2026-10-13. The first-half window has passed; the sheet has no closing fact (dead_ends: whether the Smithfield deal closed). Web: Smithfield 10-Q (June 2026) and Nathan's June 2026 results say closing slipped to the second half of 2026; no closing notice found.",
+   "evidence": "Sheet C081 (Jan 21, 2026 announcement only). https://www.sec.gov/Archives/edgar/data/0000091388/000009138826000051/smf-20260628.htm",
+   "fix": "Replace the last sentence with: \"On January 21, 2026, Nathan's announced a $450 million sale to Smithfield Foods. We could not confirm whether the sale has closed.\""
+  },
+  {
+   "where": "showcase.intro_text paragraph 1",
+   "claim": "nearly three miles of sand out of the 14 miles of beach the city maintains",
+   "problem": "V002 is Parks copy about its beaches in general ('nearly three miles of sandy beaches'), and the sheet dead_ends say beach length is NOT established (only the 2.7-mile boardwalk is measured). Page presents it as Coney's own measured length.",
+   "evidence": "V002 quote 'nearly three miles of sandy beaches'; dead_ends [hist2] 'Beach length and width in feet or miles (only the boardwalk, 2.7 miles per Brooklyn Paper 2012)'; V011 14 miles across eight beaches.",
+   "fix": "Replace \"nearly three miles of sand out of the 14 miles of beach the city maintains\" with \"which Parks describes as nearly three miles of sandy beaches; the city maintains 14 miles of beach in all\""
+  }
+ ],
+ "advisory": [
+  {
+   "where": "showcase.intro_text paragraph 4",
+   "claim": "Private owners once fenced much of it",
+   "problem": "H059 says only 'some stretches' were fenced.",
+   "evidence": "H059: 'some sections of the beach were enclosed by fences that extended into the water'",
+   "fix": "Replace with \"Private owners once fenced some stretches of it into the water.\""
+  },
+  {
+   "where": "showcase.intro_text paragraph 4",
+   "claim": "widened the beach with pumped-in sand",
+   "problem": "'Pumped' is not in the sheet. H066 says 1.7 million cubic yards of sand added 2.5 million square feet.",
+   "evidence": "H066",
+   "fix": "Replace \"widened the beach with pumped-in sand\" with \"added 1.7 million cubic yards of sand to widen the beach\""
+  },
+  {
+   "where": "showcase.recurring_events[2] (Polar Bear) when_text and description",
+   "claim": "January 1, 1 p.m.; Guests must sign a waiver",
+   "problem": "Newest evidence is the Jan 1, 2022 plunge (C054) and a 2018 waiver note (C051), presented as the current schedule with no year.",
+   "evidence": "C053 (Jan 1 2019, 1:00 pm), C054 (Jan 1 2022, 1 p.m.), C051 (2018)",
+   "fix": "when_text: \"January 1; started at 1 p.m. in 2019 and 2022\". Replace the two sentences about time and waiver with: \"The 2019 and 2022 plunges started at 1 p.m. In 2018 the Museum of the City of New York reported that guests must sign a waiver. Check the date and time before you go.\""
+  },
+  {
+   "where": "showcase.recurring_events[3] (fireworks) description",
+   "claim": "The summer shows are over for 2026",
+   "problem": "Sheet has no 2026 fireworks dates (dead_ends); N100 is undated, medium confidence. 'Over for 2026' implies they were held; that is inference.",
+   "evidence": "dead_ends [now] 'neither shows 2026 dates'; N099/N100",
+   "fix": "Replace the last sentence with: \"Neither source gives 2026 dates, and the summer season has ended.\""
+  },
+  {
+   "where": "showcase.recurring_events[0] (Mermaid) description",
+   "claim": "Money trouble nearly stopped the 2026 parade; about 5,000 marchers",
+   "problem": "C102 says 'financial crisis' and the GoFundMe let it be held as scheduled; 'nearly stopped' is stronger. 5,000 is medium confidence (N124) and conflicts say attribute; procession location differs by source (N126).",
+   "evidence": "C102, N124, N126, conflicts [culture] Mermaid Parade size",
+   "fix": "Replace with: \"Money trouble hit the 2026 parade; a GoFundMe raised more than $42,000 and the Borough President pledged $20,000 a year.\" Change \"with about 5,000 marchers\" to \"with about 5,000 marchers, per 6sqft\"."
+  },
+  {
+   "where": "showcase.recurring_events[1] (hot dog contest) description",
+   "claim": "The first official contest was June 30, 1967.",
+   "problem": "C057 is medium confidence, Wikipedia only; stated flat.",
+   "evidence": "C057",
+   "fix": "Replace with \"Wikipedia reports the first official contest was June 30, 1967.\""
+  },
+  {
+   "where": "showcase.food_drink[0] Nathan's description",
+   "claim": "Fried frog legs ... are sold only at this location.",
+   "problem": "'only' is not in the quote ('the original location still features fried frog legs').",
+   "evidence": "C078",
+   "fix": "Replace with \"Fried frog legs, on the menu since the 1950s, are still sold at this original location.\""
+  },
+  {
+   "where": "showcase.food_drink[1] Totonno's description",
+   "claim": "Totonno's listed as an operating business",
+   "problem": "Sheet cannot confirm status (dead_ends [culture]). Web: Totonno's own site lists 'takeout only Sat/Sun noon to 5:30' (footer (c) 2013, stale); Jan 2026 press says the family is still seeking a buyer; no sale found.",
+   "evidence": "https://www.totonnosconeyisland.com/ ; https://www.bkmag.com/2026/01/07/totonnos-pizza-coney-island-for-sale/",
+   "fix": "Replace the last sentence with: \"The owners said in May 2024 that they were looking for a buyer, and no sale is confirmed. Call before you go.\""
+  },
+  {
+   "where": "showcase.key_facts[1] 'Park size'",
+   "claim": "399.47 acres of beach and boardwalk",
+   "problem": "V082 park page spans Corbin Pl. to W 37 St (includes Brighton); the 'Beach limits' fact says W 37th to Ocean Parkway. Conflicts list flags this.",
+   "evidence": "V082; conflicts [visit] Beach extent",
+   "fix": "value: \"399.47 acres for the whole Parks beach and boardwalk property, which runs from Corbin Place to West 37th Street and includes Brighton\""
+  },
+  {
+   "where": "showcase.zones[1].notes",
+   "claim": "where a 15-year-old drowned that day",
+   "problem": "V069: he was lost that day; body found by July 30.",
+   "evidence": "V069",
+   "fix": "Replace with \"where a 15-year-old went missing in the water that day; he was found dead by July 30\"."
+  },
+  {
+   "where": "showcase.zones[2].character",
+   "claim": "The busiest stretch.",
+   "problem": "Unsourced superlative.",
+   "evidence": "none in sheet",
+   "fix": "Delete the sentence \"The busiest stretch.\""
+  },
+  {
+   "where": "showcase.zones[*] lat, lng, position_along_beach_pct, and zone name ranges",
+   "claim": "coordinates, percentages, 'West 23rd to West 16th', 'Stillwell Avenue to West 10th Street'",
+   "problem": "Not in the sheet; rounded approximations (WEST lng -74.0 exactly). Zone ranges are author inference.",
+   "evidence": "no sheet fact",
+   "fix": "Verify against map data or drop; no sheet-based replacement."
+  },
+  {
+   "where": "showcase.businesses[3] Coney Island History Project description",
+   "claim": "exhibit season was extended through October 11",
+   "problem": "Year not stated (N156); web confirms 'Saturdays and Sundays from 1-7 PM through October 11th' with no year. Address uses 'West 12th Street' while Deno's entry uses Denos Vourderis Place.",
+   "evidence": "N156; https://www.coneyislandhistory.org/",
+   "fix": "Replace with: \"Its exhibits ran weekends through October 11 (the page gives no year, probably 2026), so check its site for next season.\""
+  },
+  {
+   "where": "showcase.things_to_know[4] Rules",
+   "claim": "Parks keeps a separate rules sheet ... covering things like alcohol, glass, grills and dogs",
+   "problem": "The Coney rules PDF was never harvested (V078, dead_ends); the topic list is not from the sheet. Manhattan Beach dog rule (V079, medium) is a different beach.",
+   "evidence": "V078; dead_ends [visit] glass/alcohol/grills",
+   "fix": "Replace the second and third sentences with: \"Parks posts separate rules for Coney Island and Brighton Beach; read them before you bring alcohol, glass or a grill. For comparison, Manhattan Beach bans dogs other than service animals from Memorial Day weekend to October 1.\""
+  },
+  {
+   "where": "showcase.things_to_know[7] Driving and parking",
+   "claim": "From Manhattan, take the Belt Parkway east ... only allows a left turn into the aquarium lot",
+   "problem": "Directions and the left-turn rule come from the aquarium's visitor page, not beach parking.",
+   "evidence": "V105, V104",
+   "fix": "Add \"These directions are from the New York Aquarium.\" after the Belt Parkway sentence."
+  },
+  {
+   "where": "showcase.things_to_know[5] Wheelchair access",
+   "claim": "Beach mats run to the water at",
+   "problem": "V015 says mats are 'at' the listed streets; 'run to the water' is not stated.",
+   "evidence": "V014, V015",
+   "fix": "Replace \"run to the water at\" with \"are at\"."
+  },
+  {
+   "where": "composition.meta_description",
+   "claim": "Swim only in open sections when lifeguards are on, 10 a.m. to 6 p.m.",
+   "problem": "No season or year; in October swimming is closed, so a reader may think lifeguards are on now. 'Plus its history.' is a fragment.",
+   "evidence": "V003, V008",
+   "fix": "Replace with: \"Free NYC beach with a 2.7-mile boardwalk at the end of the subway. Lifeguards 10 a.m. to 6 p.m., late May to mid-September. Swim only in open sections.\" (about 151 chars)"
+  },
+  {
+   "where": "showcase.key_facts[7] Parachute Jump; key_facts[6] Cyclone",
+   "claim": "no riders since 1964 or 1968 (sources differ); riders must be 54 inches tall",
+   "problem": "Sheet resolves to 1964 (Denson, History Project) and also lists 1965 (N031); 1968 is NYC Parks. Cyclone height is Wikipedia and time-sensitive.",
+   "evidence": "conflicts [now] Parachute Jump closing year; N029, N030, N064",
+   "fix": "Parachute value: \"...closed in 1964 (NYC Parks and some others say 1968)\". Cyclone value: add \"per Wikipedia\" after \"54 inches tall\"."
+  },
+  {
+   "where": "showcase.access_note",
+   "claim": "JFK is the nearest major airport, 18.4 km away in a straight line",
+   "problem": "Figure comes from site/data/beaches/coney-island-beach-1.json nearest_airport (not the sheet); 'major' is not stated; km on a US page.",
+   "evidence": "pipeline data nearest_airport JFK distance_km 18.4",
+   "fix": "Replace with \"JFK airport is about 11 miles away in a straight line.\" (18.4 km = 11.4 mi)"
+  }
+ ],
+ "verified_ok": [
+  "Beach limits W 37th to Ocean Parkway V001",
+  "Lifeguards 10-6 daily in season V003; 2026 season May 23 to Sept 13 and generic rule V008/V009; reopen Memorial Day weekend 2027 V046",
+  "Boardwalk closed 1-5 a.m. V006; walking allowed when swimming closed V114",
+  "Water quality: V047-V052, V113",
+  "Rip currents V075/V076; July 2024 News 12 V065",
+  "Wheelchair rules V015, V018-V025 incl. phone hedge V020",
+  "Subway and buses V089, V093-V095",
+  "Key facts V092, V096, V032, N001/N002/N008, N057, N023/N024, N086/N097, N102/N103/N105",
+  "Mermaid 2026 N121/N123/N125; hot dog 2026 results N109-N111/N118; Luna Park opening N047/N054",
+  "Nathan's C073-C082; Totonno's C086-C093; Aquarium N086/N091-N093/N101; Coney Island USA C116/N131/N132/N135",
+  "Intro history dates (1897, 1903, 1911, 1920 five-cent, 1913 ruling, May 15 1923, Depression H100) and Shimamura quote V035 attributed",
+  "No minor victims named; ages only"
+ ]
+}

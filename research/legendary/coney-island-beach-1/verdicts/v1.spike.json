@@ -1,0 +1,144 @@
+{
+ "slug": "coney-island-beach-1",
+ "slice": "spike",
+ "verdict": "FAIL",
+ "claims_checked": 118,
+ "fetches_used": 0,
+ "searches_used": 0,
+ "spike_verdict": "The end dates carry 'by 1966': Dreamland burned 1911 (H085, H120); Luna Park burned Aug 13, 1944 and closed 1944 or 1946 (H103, P001, conflict 37); Steeplechase closed Sept 20, 1964 (N028, P006) and was demolished in 1966 (P010, single high-confidence source; Untapped gives no year). But 'made Coney Island famous' is not stated by any fact, and the Luna end date is given two ways inside one section.",
+ "blocking": [
+  {
+   "where": "composition.spike_statement; showcase.spike_explainer paragraph 1, sentences 1-2",
+   "claim": "Three amusement parks made Coney Island famous. / Coney Island became famous for three amusement parks",
+   "problem": "No sheet fact says the three parks made the place famous. P006 only says Steeplechase was 'the last of the three big amusement parks'. Sea Lion Park, the Manhattan Beach hotels, Feltman's, Nathan's, the Cyclone and the Wonder Wheel are all in the sheet. 'Made famous' is an unsourced causal claim in the headline.",
+   "evidence": "https://chpcny.org/?p=47042 (P006): 'steeplechase park, the last of the major parks, closed in 1964.'",
+   "fix": "composition.spike_statement: 'Three big amusement parks stood here. Fire, closure and bulldozers ended all three by 1966. The free city beach outlasted them.' (127 chars). showcase.spike_explainer paragraph 1: replace sentence 1 with 'Coney Island had three big amusement parks: Steeplechase, Luna Park and Dreamland.' Keep 'All three are gone.' Keep 'Fire, money trouble and bulldozers took them between 1911 and 1966.' After 'still free and still open.' add 'The Luna Park open today is a newer park that opened in 2010.'"
+  },
+  {
+   "where": "showcase.spike_explainer, 'Luna Park, 1903 to 1944' section, last paragraph",
+   "claim": "Luna Park closed in 1946. In 1950 the land was cleared and rezoned for housing.",
+   "problem": "Picks one side of conflict 37 without saying sources differ, and contradicts the section heading (1903 to 1944). The conflict note says: 'Safe statement: destroyed by fire in 1944, never reopened as a full park.' 6sqft (P001) says closed 1946. The 1950 clearing is medium-confidence 6sqft (P002) and is stated flat.",
+   "evidence": "P001 (6sqft): 'competitor luna park also caught fire in 1944, which led to its closure in 1946.' H103 (Wikipedia): 'a fire on august 13, 1944, destroyed much of luna park, causing $800,000 in damage'. P002: 'in 1950, luna was totally razed and rezoned for residential development.'",
+   "fix": "Replace 'Luna Park closed in 1946. In 1950 the land was cleared and rezoned for housing.' with 'Sources differ on when Luna Park finally closed. 6sqft says 1946. It never reopened as a full park. 6sqft says the land was razed and rezoned for housing in 1950.'"
+  },
+  {
+   "where": "showcase.spike_explainer, Luna Park section",
+   "claim": "The free beach hurt Luna Park most. In the Great Depression the park could not compete with Coney Island's beach, 'which charged no admission.'",
+   "problem": "'Most' is not in the source. Wikipedia says only that in the Depression the owners could not compete with the free beach. It ranks the beach above the 1933 bankruptcy petition, the wartime dim-out and the 1944 fire that the same paragraph lists.",
+   "evidence": "H100: 'they were unable to compete with coney island's beach, which charged no admission'.",
+   "fix": "Replace the two sentences with: 'In the Great Depression, Wikipedia says, Luna Park could not compete with Coney Island's beach, “which charged no admission.”'"
+  }
+ ],
+ "advisory": [
+  {
+   "where": "showcase.spike_explainer, Dreamland section sentence 1",
+   "claim": "Dreamland is the park the record knows least about.",
+   "problem": "Unsourced superlative. Dead end 28 says only that our sheet has no Dreamland source page. That is a gap in our research, not in the record.",
+   "evidence": "dead_ends[28]",
+   "fix": "Replace with 'Dreamland was the third big park.'"
+  },
+  {
+   "where": "showcase.spike_explainer, Dreamland section",
+   "claim": "Dreamland was never rebuilt.",
+   "problem": "No fact says this. H085 says only that it was destroyed by fire in 1911. N038 also names a one-season 'Dreamland' carnival in 2009, which a reader could confuse.",
+   "evidence": "H085: 'dreamland survived until 1911, when it was destroyed in one of the many fires'",
+   "fix": "Delete the sentence 'Dreamland was never rebuilt.'"
+  },
+  {
+   "where": "showcase.spike_explainer, last paragraph",
+   "claim": "The aquarium stands where Dreamland burned.",
+   "problem": "Only source is 6sqft (P003, medium). Conflict 47 says its 1947 date is likely a plan, not an opening. The Dreamland section attributes the move to 6sqft, but the closing paragraph states it flat.",
+   "evidence": "P003: 'he moved the new york aquarium to the former home of dreamland to prevent another amusement park from opening.'",
+   "fix": "Replace 'The aquarium stands where Dreamland burned.' with '6sqft says the aquarium stands on the old Dreamland site.'"
+  },
+  {
+   "where": "showcase.spike_explainer, Steeplechase demolition paragraph",
+   "claim": "Untapped says this cut off any pending landmark case.",
+   "problem": "Source says the night bulldozing limited pending proceedings, not that it ended them.",
+   "evidence": "P011: 'thereby limiting any pending proceedings for landmarking.'",
+   "fix": "Replace 'this cut off any pending landmark case' with 'this limited any pending landmark case'"
+  },
+  {
+   "where": "showcase.spike_explainer, Parachute Jump paragraph",
+   "claim": "He said it was not old enough to be a landmark.",
+   "problem": "Source says Trump 'did not think' it was old enough. It gives no statement by him.",
+   "evidence": "N032: 'trump, however, wanted to sell it as scrap and did not think it was old enough to warrant landmark status.'",
+   "fix": "Replace 'He said it was not old enough to be a landmark.' with 'He did not think it was old enough to be a landmark.'"
+  },
+  {
+   "where": "showcase.spike_explainer, Steeplechase section",
+   "claim": "Trump never reopened the park.",
+   "problem": "Not stated as such. P016 says it 'failed to open for the 1965 season'. P013 says Kaufman ran a kiddie park on the site.",
+   "evidence": "P016, P013",
+   "fix": "Replace 'Trump never reopened the park.' with 'Steeplechase did not open for the 1965 season.'"
+  },
+  {
+   "where": "showcase.spike_explainer, 'The beach that stayed'",
+   "claim": "The boardwalk opened on May 15, 1923.",
+   "problem": "Conflict 30: first segment opened Oct 1922, extension Dec 1922, final section May 15, 1923. The page simplifies.",
+   "evidence": "H064: 'the final section of the boardwalk, from west 17th to west 37th street, was officially opened with a ceremony on may 15, 1923'",
+   "fix": "Replace 'The boardwalk opened on May 15, 1923.' with 'The first part of the boardwalk opened in October 1922, and the full length opened on May 15, 1923.'"
+  },
+  {
+   "where": "showcase.spike_explainer, 'What came after'",
+   "claim": "After the war, the city pushed housing, not rides.",
+   "problem": "Editorial summary. The sheet supports a 1953 Moses rezoning proposal (P004) and housing from 1954 (P005). Conflict 49 says to say 'through the 1950s-60s'. Astroland, a ride park, opened in 1962 in the same period.",
+   "evidence": "P004, P005, conflict 49",
+   "fix": "Replace with 'After the war, the city moved toward housing.'"
+  },
+  {
+   "where": "showcase.spike_explainer, Sea Lion Park paragraph",
+   "claim": "A fenced park with a gate and a ticket is the idea the next three parks built on.",
+   "problem": "Interpretive claim. 'Fenced' is not in the sheet. Only H043 (Wikipedia: first amusement area to charge entry fees).",
+   "evidence": "H043",
+   "fix": "Delete the sentence."
+  },
+  {
+   "where": "showcase.spike_explainer, Topsy sentence",
+   "claim": "Edison's film company recorded it.",
+   "problem": "Rests on medium-confidence C012 (Wikipedia pop-culture page) and H098. Unattributed.",
+   "evidence": "H098, C012",
+   "fix": "Replace 'Edison's film company recorded it.' with 'Wikipedia says Edison's film company recorded it.'"
+  },
+  {
+   "where": "showcase.spike_explainer, Corbin sentences",
+   "claim": "The press and Christian clergy almost all condemned him.",
+   "problem": "Rests on a medium-confidence local history site (H030). Unattributed.",
+   "evidence": "H030",
+   "fix": "Replace with 'A local history site says the press and Christian clergy almost all condemned him.'"
+  },
+  {
+   "where": "showcase.spike_explainer, Moses coffin sentence",
+   "claim": "Moses also described the beach as so crowded that bathers had less room than in a coffin.",
+   "problem": "H078 is medium (Wikipedia Steeplechase page) with no date. Stated flat beside dated Parks facts.",
+   "evidence": "H078",
+   "fix": "Replace 'Moses also described' with 'Wikipedia says Moses described'"
+  },
+  {
+   "where": "showcase.reckoning_pullquote",
+   "claim": "A Coney Island resident told a casino hearing in January 2025.",
+   "problem": "Quote text and date match N151 verbatim. The sheet says 'a resident', not 'a Coney Island resident'. The hearing was the Community Board 13 land use committee (N143).",
+   "evidence": "https://www.brooklynpaper.com/cb13-land-use-votes-no-coney-island-casino (N151)",
+   "fix": "Replace 'a Coney Island resident told a casino hearing in January 2025' with 'a resident told a Community Board 13 casino hearing in January 2025'"
+  }
+ ],
+ "verified_ok": [
+  "Sea Lion Park 1895, first to charge entry (H043, attributed to Wikipedia)",
+  "Elephant hotel telescopes H090; brothel by 1890 attributed to BPL H091; burned Sept 27 1896 H086",
+  "1864 railroad H019; 35 cents Culver H020; Grant July 1877 H022; Corbin 1879 H029/H031; Margaret Corbin 2007 H032",
+  "Tilyou honeymoon and Chicago wheel H044; Steeplechase 1897 family park H045; 25-cent gate H046",
+  "1907 fire July 29, Cave of the Winds H047; 35 acres H048; ten-cent sign H049; 100,000 shares and $5 pass H050; steel and concrete law H052; Pavilion 450x280 H051",
+  "1933 balcony 57 hurt H109; Sept 1939 fire 18 hurt $200,000 H108; Parachute Jump 1941 $150,000, half a million riders N026/N027; 1945 70 vs 300 workers H105; 1946 pool pass H106",
+  "Steeplechase last closed Sept 20, 1964 N028/P006; Trump sale 1965 (P007) vs 1964 (P008) disclosed as a disagreement; Onorato P009; 1966 brick party P010; models and stained glass P011",
+  "Jump closing-year disagreement (Denson 1964, Parks/Harrison 1968, Brooklyn Paper 1965) N029/N031 and conflict 12; 1968 $4M vote and 1971 no bids N033; Kaufman P013; city bought 1969, ended lease 1981 P014; Denson quote P016; ballpark 2001 P015; Jump only remnant P012",
+  "Luna Park: Topsy Jan 1903 H098; 8 p.m. May 16 1903 and 45,000 H093; 10 cents H094; 142,000 H095; $700,000 vs $1M H096; 90% in under 3 months H097; five million a year H099; 1933 petition H101; dim-out H102; Aug 13 1944 fire $800,000 H103",
+  "Couney: 25 cents H116; never charged parents H117; incubators not accepted until 1930s H125; 1903/1904 to 1943 dispute H120/H121 disclosed; not an MD H119; 8,000/6,500 framed as his own claim H118; Horn quote H123",
+  "Dreamland: running by 1904 H120; 1911 Hellgate tar fire H084; flaming lion attributed to Brooklyn Paper H083; Gumpertz tent N133",
+  "Beach: mid-19th-century barriers H056; fences into water H059; 1904 1.4 sq in H057; 1912 West 23rd H058; 1912 suit H055; 1913/1916 rulings H053/H054; Oct 1 1921 H063; 288 lots H073; 1.7M cubic yards and 2.5M sq ft H066; Riegelmann quote H060; half a million H074; nickel fare from 1920 H062; million people H061; Parks 1938 and Moses quote H075; brown sand H076; 2-foot sand 1938-41 H077; Weegee 1940 H140/H141",
+  "After: Moses rezoning April 2 1953 P004; housing from 1954 P005; Astroland 1962 P028; Cyclone 1975 P031 and 1927 N057; Astroland closed Sept 7 2008 P037; Luna Park May 29 2010 P038; 2025 casino panel vote 4-2 N145 and $3 billion N144",
+  "Spike end dates: Dreamland 1911, Luna 1944 fire, Steeplechase 1964 closure and 1966 demolition all fall at or before 1966. spike_statement is 136 chars and ends with a period",
+  "reckoning_pullquote text matches N151 verbatim; curly quotes are real U+201C/U+201D, not mojibake",
+  "No named minor victims; no 2026 events; no operating-now claim beyond 'Wonder Wheel and Cyclone still run' (N015, N057); no web needed",
+  "spike_explainer is 1,755 words, within the 1,600-2,200 target"
+ ]
+}

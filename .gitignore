@@ -20,3 +20,7 @@ site/data/cohorts/tier4.json
 
 # raw harvested source pages (regenerate with scripts/wave/harvest.py)
 research/src/
+
+# Legendary build: raw-source bundles + read parts are regenerable copies of research/src (also ignored)
+research/legendary/*/bundles/
+research/legendary/*/v2/

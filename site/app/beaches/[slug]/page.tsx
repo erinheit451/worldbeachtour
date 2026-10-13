@@ -72,7 +72,7 @@ export default async function BeachOverviewPage({
 
   // Extract first meaningful paragraph from each lens MDX
   const summaries: Record<string, string> = {};
-  for (const lensId of meta.lenses) {
+  for (const lensId of meta.lenses ?? []) {
     const mdx = getBeachMdx(slug, lensId);
     if (mdx) {
       const lines = mdx.split("\n");
@@ -226,7 +226,7 @@ export default async function BeachOverviewPage({
         Explore {data.name}
       </h2>
       <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 mb-10">
-        {meta.lenses.map((lensId) => (
+        {(meta.lenses ?? []).map((lensId) => (
           <LensSummaryCard
             key={lensId}
             slug={slug}

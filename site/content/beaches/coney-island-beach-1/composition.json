@@ -2,36 +2,38 @@
   "slug": "coney-island-beach-1",
   "beach_name": "Coney Island Beach",
   "version": "0.9",
-  "tier": 2,
-  "subtitle": "The 2.7-mile Brooklyn sandbar where Americans invented the mass-amusement seaside, then watched most of it burn, close, or get bulldozed.",
-  "spike_statement": "No other beach built and lost three full amusement parks while staying open to the public for free.",
+  "tier": 1,
+  "spike": "three-parks-free-sand",
+  "spike_statement": "Three big amusement parks stood here. Fire, closure and bulldozers ended all three by 1966. The free city beach outlasted them.",
   "levers": {
     "primary_color": "#B33A2E",
     "supporting_color": "#1C3F6E",
     "hero_type": "MONUMENT",
-    "display_pairing": "CLASSICAL",
-    "voice_register": "MELANCHOLIC",
-    "photo_tone": "saturated boardwalk daylight, faded paint, long shadows off the Parachute Jump"
+    "display_pairing": "VERNACULAR",
+    "voice_register": "CLINICAL",
+    "photo_tone": "Plain summer daylight on crowded sand, Parachute Jump and Wonder Wheel behind, faded boardwalk paint"
   },
   "byline": "Written by Erin Rose",
   "sections": [
     "hero",
     "quick_facts",
     "story",
+    "spokes",
     "spike_deep_explainer",
     "timeline",
     "place_anatomy",
     "day_in_life",
     "culture",
     "honest_reckoning",
-    "comparison",
     "sea_surf",
     "things_to_know",
     "plan_stack",
-    "spokes",
     "gallery",
     "sources"
   ],
+  "adaptive": true,
+  "meta_title": "Coney Island Beach: Swimming Rules, Season and Park History",
+  "meta_description": "Free NYC beach with a 2.7-mile boardwalk at the end of the subway. Lifeguards 10 a.m. to 6 p.m., late May to mid-September. Swim only in open sections.",
   "spokes": [
     {
       "slug": "travel",
@@ -40,7 +42,14 @@
     {
       "slug": "history",
       "type": "deep_dive"
+    },
+    {
+      "slug": "the-rides",
+      "type": "deep_dive"
+    },
+    {
+      "slug": "the-shoreline",
+      "type": "deep_dive"
     }
-  ],
-  "adaptive": true
+  ]
 }
